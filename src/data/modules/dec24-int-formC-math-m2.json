@@ -584,7 +584,7 @@
     "difficulty": "Hard",
     "question_number": 20,
     "test_name": "December 2024 International Form C SAT Math Module 2",
-    "passage": "The function $p$ is defined by $p(x) = \\alpha((x + 5)^2 - b) (x + 5)^2 - c)$, where $a$, $b$, and $c$ are constants. In the $xy$-plane, the graph of $y = p(x)$ passes through the points $(-6, 30)$ and $(0, 342)$. What is the value of $p(-10) + p(-4)$?",
+    "passage": "The function $p$ is defined by $p(x) = a((x + 5)^2 - b)((x + 5)^2 - c)$, where $a$, $b$, and $c$ are constants. In the $xy$-plane, the graph of $y = p(x)$ passes through the points $(-6, 30)$ and $(0, 342)$. What is the value of $p(-10) + p(-4)$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

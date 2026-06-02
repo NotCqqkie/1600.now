@@ -1827,7 +1827,10 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     }
 
     const alreadyCorrect = Object.values(checkedAnswers).some(Boolean);
-    if (alreadyCorrect) return;
+    const alreadyCorrectStatus =
+      checkButtonState === "correct-first" || checkButtonState === "correct-later"
+        ? checkButtonState
+        : null;
     if (checkedAnswers[userAnswer] !== undefined) {
       setCheckFlashKey((k) => k + 1);
       return;
@@ -1854,7 +1857,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     setCheckFlashKey((k) => k + 1);
 
     if (isCorrect) {
-      const status = newAttemptCount === 1 ? 'correct-first' : 'correct-later';
+      const status = alreadyCorrectStatus ?? (newAttemptCount === 1 ? 'correct-first' : 'correct-later');
       setCheckButtonState(status);
       if (isAssessmentMode) {
         persistModulePracticeQuestionState((previous) => ({
@@ -1868,13 +1871,16 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
         }));
       } else if (!isEmbed) {
         const duration = Math.round((Date.now() - startTimeRef.current) / 1000);
-        addAttempt(currentQuestion.uuid, "correct", duration, formattedAnswer);
+        if (!alreadyCorrect) {
+          addAttempt(currentQuestion.uuid, "correct", duration, formattedAnswer);
+        }
         localStorage.setItem(`${localStateKey}-answer`, userAnswer);
         localStorage.setItem(`${localStateKey}-checkedAnswers`, JSON.stringify(newCheckedAnswers));
         localStorage.setItem(`${localStateKey}-status`, status);
       }
     } else {
-      setCheckButtonState("incorrect");
+      const status = alreadyCorrectStatus ?? "incorrect";
+      setCheckButtonState(status);
       if (isAssessmentMode) {
         persistModulePracticeQuestionState((previous) => ({
           ...previous,
@@ -1883,14 +1889,16 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
             currentQuestion.type === "free-response" ? userAnswer : previous.freeResponseAnswer,
           checkedAnswers: newCheckedAnswers,
           attemptCount: newAttemptCount,
-          status: "incorrect",
+          status,
         }));
       } else if (!isEmbed) {
         const duration = Math.round((Date.now() - startTimeRef.current) / 1000);
-        addAttempt(currentQuestion.uuid, "incorrect", duration, formattedAnswer);
+        if (!alreadyCorrect) {
+          addAttempt(currentQuestion.uuid, "incorrect", duration, formattedAnswer);
+        }
         localStorage.setItem(`${localStateKey}-answer`, userAnswer);
         localStorage.setItem(`${localStateKey}-checkedAnswers`, JSON.stringify(newCheckedAnswers));
-        localStorage.setItem(`${localStateKey}-status`, 'incorrect');
+        localStorage.setItem(`${localStateKey}-status`, status);
       }
     }
   };
@@ -1993,7 +2001,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       ? Boolean(selectedAnswer)
       : Boolean(freeResponseAnswer)
     : false;
-  const isCheckDisabled = !hasSelection || checkButtonState === "correct-first" || checkButtonState === "correct-later";
+  const isCheckDisabled = !hasSelection;
 
   const getCheckButtonClasses = () => {
     if (!hasSelection && checkButtonState === "idle") {
@@ -2635,7 +2643,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                       {!topShouldCompress && "More"}
                     </Button>
                   </DropdownMenuTrigger>
-                  <DropdownMenuContent align="end" className="w-56" container={windowPortalContainer}>
+                  <DropdownMenuContent align="end" className="z-[160] w-56" container={windowPortalContainer}>
                     <DropdownMenuLabel>More</DropdownMenuLabel>
                     <DropdownMenuItem onClick={openNoteWindow}>
                       <StickyNote className="mr-2 h-4 w-4" />

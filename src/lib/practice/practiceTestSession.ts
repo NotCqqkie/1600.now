@@ -349,8 +349,15 @@ export const buildPracticeTestResult = (
       const state = getPracticeTestQuestionState(session.sessionId, question.stableId);
       const userAnswer =
         question.type === "free-response" ? state.freeResponseAnswer : state.answer;
-      const isAnswered = Boolean(userAnswer);
-      const isCorrect = isAnswered && answersEquivalent(userAnswer, question.correctAnswer);
+      const hasCheckedAnswer = Object.keys(state.checkedAnswers).length > 0;
+      const hasCheckedCorrectAnswer = Object.values(state.checkedAnswers).some(Boolean);
+      const isAnswered =
+        Boolean(userAnswer) ||
+        (session.settings.allowCheckingAnswers && hasCheckedAnswer);
+      const isCorrect =
+        session.settings.allowCheckingAnswers && hasCheckedCorrectAnswer
+          ? true
+          : Boolean(userAnswer) && answersEquivalent(userAnswer, question.correctAnswer);
 
       return {
         globalQuestionNumber: session.modules[moduleIndex].startIndex + entry.slot,

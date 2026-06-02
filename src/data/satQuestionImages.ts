@@ -7,7 +7,7 @@ export interface ResolvedSatImage {
   alt: string;
 }
 
-const SAT_IMAGE_BASE = "/images/SAT-Style-Questions/";
+const SAT_IMAGE_BASE = "/images/SAT-Style%20Questions/";
 const SAT_IMAGE_MANIFEST_BASE = "/images/SAT-Style%20Questions/";
 
 const safeDecodeURIComponent = (value: string): string => {

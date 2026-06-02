@@ -70,7 +70,7 @@
     "difficulty": "Easy",
     "question_number": 3,
     "test_name": "August 2024 International Form A SAT Math Module 1",
-    "passage": "\n$\\sqrt{w} + 34 = 40$\nWhat is the solution to the given equation?",
+    "passage": "$\\sqrt{w} + 34 = 40$\nWhat is the solution to the given equation?",
     "question_text": null,
     "choices": [
       {
@@ -286,9 +286,9 @@
     "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_10",
     "images": [
       {
-        "src": "https://sat.oly.st/images/774815285e8bc767d1c626ab7ea6fdbd.png",
+        "src": "/images/SAT-Style%20Questions/c9e1513f-58d1-4e6c-8574-b9662226959f_10_q_01_FIX.png",
         "alt": "",
-        "local": "images/August_2024_International_Form_A_SAT_Math_Module_1/q10_0_5510101b44ec.png"
+        "local": "images/SAT-Style Questions/c9e1513f-58d1-4e6c-8574-b9662226959f_10_q_01_FIX.png"
       }
     ]
   },
@@ -402,9 +402,9 @@
     "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_15",
     "images": [
       {
-        "src": "https://sat.oly.st/images/f379f6cd0c4822e2673adb090ade04ae.png",
+        "src": "/images/SAT-Style%20Questions/c9e1513f-58d1-4e6c-8574-b9662226959f_15_q_01_FIX.png",
         "alt": "",
-        "local": "images/August_2024_International_Form_A_SAT_Math_Module_1/q15_0_9de12150e7d9.png"
+        "local": "images/SAT-Style Questions/c9e1513f-58d1-4e6c-8574-b9662226959f_15_q_01_FIX.png"
       }
     ]
   },
@@ -473,9 +473,9 @@
     "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_17",
     "images": [
       {
-        "src": "https://sat.oly.st/images/e484ace11bc6dc852eaa075bdbed22ae.png",
+        "src": "/images/SAT-Style%20Questions/c9e1513f-58d1-4e6c-8574-b9662226959f_17_q_01_FIX.png",
         "alt": "",
-        "local": "images/August_2024_International_Form_A_SAT_Math_Module_1/q17_0_e9261a4c8007.png"
+        "local": "images/SAT-Style Questions/c9e1513f-58d1-4e6c-8574-b9662226959f_17_q_01_FIX.png"
       }
     ]
   },
@@ -512,9 +512,9 @@
     "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_18",
     "images": [
       {
-        "src": "https://sat.oly.st/images/2974290739b95a6e2d1179de3c4c8d90.png",
+        "src": "/images/SAT-Style%20Questions/c9e1513f-58d1-4e6c-8574-b9662226959f_18_q_01_FIX.png",
         "alt": "",
-        "local": "images/August_2024_International_Form_A_SAT_Math_Module_1/q18_0_08f676487b76.png"
+        "local": "images/SAT-Style Questions/c9e1513f-58d1-4e6c-8574-b9662226959f_18_q_01_FIX.png"
       }
     ]
   },
@@ -630,9 +630,9 @@
     "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_22",
     "images": [
       {
-        "src": "https://sat.oly.st/images/188ddf032c69290b4b585fe946b8666c.png",
+        "src": "/images/SAT-Style%20Questions/c9e1513f-58d1-4e6c-8574-b9662226959f_22_q_01_FIX.png",
         "alt": "",
-        "local": "images/August_2024_International_Form_A_SAT_Math_Module_1/q22_0_cc72b352974d.png"
+        "local": "images/SAT-Style Questions/c9e1513f-58d1-4e6c-8574-b9662226959f_22_q_01_FIX.png"
       }
     ]
   }

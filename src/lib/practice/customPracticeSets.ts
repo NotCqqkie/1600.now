@@ -177,16 +177,18 @@ export const getQuestionsForSimilarityGroup = (groupId: string | null | undefine
     .filter((question): question is BankQuestion => Boolean(question));
 };
 
-const getUniquePracticeSetQuestions = (questions: BankQuestion[]) => {
+const getUniqueQuestions = (questions: BankQuestion[]) => {
   const seen = new Set<string>();
   return questions
     .filter((item) => {
       if (seen.has(item.stableId)) return false;
       seen.add(item.stableId);
       return true;
-    })
-    .slice(0, MAX_CUSTOM_PRACTICE_SET_QUESTIONS);
+    });
 };
+
+const getUniquePracticeSetQuestions = (questions: BankQuestion[]) =>
+  getUniqueQuestions(questions).slice(0, MAX_CUSTOM_PRACTICE_SET_QUESTIONS);
 
 export const getSimilarQuestionsForQuestion = (question: BankQuestion) => {
   const similarQuestions = getQuestionsForSimilarityGroup(question.similarityGroupId);
@@ -323,6 +325,44 @@ export const createCustomPracticeSetFromQuestions = ({
     ...existingSets.filter((set) => set.id !== setId),
   ]);
   return nextSet;
+};
+
+export const createBankPracticeSessionFromQuestions = ({
+  questions,
+  title,
+  id,
+  similarityGroupId = null,
+  originQuestionStableId,
+}: {
+  questions: BankQuestion[];
+  title?: string;
+  id?: string;
+  similarityGroupId?: string | null;
+  originQuestionStableId?: string;
+}): CustomPracticeSet => {
+  const uniqueQuestions = getUniqueQuestions(questions);
+  if (!uniqueQuestions.length) {
+    throw new Error("Practice sessions require at least 1 question.");
+  }
+  const items = toCustomPracticeSetItems(uniqueQuestions);
+  const summary = summarizeQuestions(uniqueQuestions);
+  const now = Date.now();
+  return {
+    version: 1,
+    id: id ?? `bank-session-${now}-${Math.random().toString(36).slice(2, 8)}`,
+    title: isGenericPracticeSetTitle(title)
+      ? buildPracticeSetTitle(uniqueQuestions, summary, similarityGroupId)
+      : title!,
+    createdAt: now,
+    updatedAt: now,
+    subject: summary.subject,
+    domain: summary.domain,
+    skill: summary.skill,
+    similarityGroupId,
+    originQuestionStableId: originQuestionStableId ?? uniqueQuestions[0]?.stableId ?? "",
+    questionCount: items.length,
+    items,
+  };
 };
 
 export const createCustomPracticeSetForQuestion = (question: BankQuestion): CustomPracticeSet =>

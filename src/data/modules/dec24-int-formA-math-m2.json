@@ -301,7 +301,7 @@
     "choices": [
       {
         "label": "A",
-        "text": "only"
+        "text": "0 only"
       },
       {
         "label": "B",

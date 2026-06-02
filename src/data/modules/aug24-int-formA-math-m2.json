@@ -207,9 +207,9 @@
     "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_7",
     "images": [
       {
-        "src": "https://sat.oly.st/images/678b2973b93dd1be3f76704388158d12.png",
+        "src": "/images/SAT-Style%20Questions/6acacde7-ed77-4956-a395-7f7392d6ba20_7_q_01_FIX.png",
         "alt": "",
-        "local": "images/August_2024_International_Form_A_SAT_Math_Module_2/q7_0_7ad5ca76b9a1.png"
+        "local": "images/SAT-Style Questions/6acacde7-ed77-4956-a395-7f7392d6ba20_7_q_01_FIX.png"
       }
     ]
   },
@@ -246,9 +246,9 @@
     "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_9",
     "images": [
       {
-        "src": "https://sat.oly.st/images/0d6bd9bcff0fa34ff4a67753564317b8.png",
+        "src": "/images/SAT-Style%20Questions/6acacde7-ed77-4956-a395-7f7392d6ba20_9_q_01_FIX.png",
         "alt": "",
-        "local": "images/August_2024_International_Form_A_SAT_Math_Module_2/q9_0_7610076aa5a1.png"
+        "local": "images/SAT-Style Questions/6acacde7-ed77-4956-a395-7f7392d6ba20_9_q_01_FIX.png"
       }
     ]
   },
@@ -558,7 +558,7 @@
     "difficulty": "Hard",
     "question_number": 22,
     "test_name": "August 2024 International Form A SAT Math Module 2",
-    "passage": "\n$\\frac{1}{R} = \\frac{1}{p} + \\frac{1}{q} + \\frac{1}{s} + \\frac{1}{13}$\n\nA parallel electric circuit contains four resistors with resistances of $p$ ohms, $q$ ohms, $s$ ohms, and 13 ohms. The given equation relates the resistance $R$, in ohms, of the circuit, to the resistances of the four individual resistors it contains. Which equation correctly expresses $R$ in terms of $p$, $q$, and $s$?",
+    "passage": "$\\frac{1}{R} = \\frac{1}{p} + \\frac{1}{q} + \\frac{1}{s} + \\frac{1}{13}$\n\nA parallel electric circuit contains four resistors with resistances of $p$ ohms, $q$ ohms, $s$ ohms, and 13 ohms. The given equation relates the resistance $R$, in ohms, of the circuit, to the resistances of the four individual resistors it contains. Which equation correctly expresses $R$ in terms of $p$, $q$, and $s$?",
     "question_text": null,
     "choices": [
       {

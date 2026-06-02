@@ -218,7 +218,7 @@
     "difficulty": "Hard",
     "question_number": 9,
     "test_name": "March 2025 International Form D SAT Math Module 1",
-    "passage": "In the given equation, $k$ is a constant. The equation has infinitely many solutions. What is the value of $k$?",
+    "passage": "$(2k+4)x + (3k-14) = (k+32)x + (k+42)$\nIn the given equation, $k$ is a constant. The equation has infinitely many solutions. What is the value of $k$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

@@ -35,6 +35,7 @@ import {
 import { BankSourceToggle } from "@/components/question/BankSourceToggle";
 import { spaceOutNearDuplicates, questionFingerprint } from "@/lib/text/nearDuplicateSpacing";
 import {
+  createBankPracticeSessionFromQuestions,
   createCustomPracticeSetFromQuestions,
   launchCustomPracticeSet,
 } from "@/lib/practice/customPracticeSets";
@@ -100,7 +101,6 @@ const BANK_FILTERS_STORAGE_KEY = "question-bank-filters";
 const BANK_SEARCH_RESULT_LIMIT = 50;
 const BANK_SEARCH_MINOR_SUBJECT_MAX = 2;
 const KEYWORD_PRACTICE_MIN_QUESTIONS = 5;
-const KEYWORD_PRACTICE_MAX_QUESTIONS = 20;
 const HOME_DEMO_SKILLS_PER_DOMAIN = 2;
 const HOME_FILTER_DEMO_ALLOW_SELECTOR = [
   '[data-tour="bank-filters"]',
@@ -541,23 +541,34 @@ export const BankIndex = ({
     [getQuestionProgress, isHomeFilterDemo, userProgress],
   );
 
+  const getCurrentSearchParams = useCallback(
+    () => new URLSearchParams(typeof window === "undefined" ? searchParams : window.location.search),
+    [searchParams],
+  );
+
   const handleBankSourceChange = useCallback((nextSource: BankSourceFilter) => {
-    const nextParams = new URLSearchParams(searchParams);
+    const nextParams = getCurrentSearchParams();
     nextParams.set("bankType", nextSource);
     setSearchParams(nextParams);
-  }, [searchParams, setSearchParams]);
+  }, [getCurrentSearchParams, setSearchParams]);
 
   const handleKeywordSearchChange = useCallback((nextSearch: string) => {
     setKeywordSearch(nextSearch);
-    const nextParams = new URLSearchParams(searchParams);
+    if (typeof window === "undefined") return;
+    const nextParams = new URLSearchParams(window.location.search);
     const trimmed = nextSearch.trim();
     if (trimmed) {
       nextParams.set("q", nextSearch);
     } else {
       nextParams.delete("q");
     }
-    setSearchParams(nextParams, { replace: true });
-  }, [searchParams, setSearchParams]);
+    const nextQuery = nextParams.toString();
+    window.history.replaceState(
+      window.history.state,
+      "",
+      `${window.location.pathname}${nextQuery ? `?${nextQuery}` : ""}${window.location.hash}`,
+    );
+  }, []);
 
   const isQuestionActive = useCallback((q: BankQuestion): boolean => {
     return q.inPracticeTests === true || activePastQuestionSourceIds.has(q.sourceId);
@@ -816,13 +827,12 @@ export const BankIndex = ({
     return shuffled.flatMap(([, { questions }]) => questions);
   }, [bankSource, getFilteredQuestions, selectedTopicsInfo.selectedSkills]);
 
-  // Handle create practice set with optional direct params
-  const startPracticeSession = useCallback((questions: BankQuestion[], exitTo = `/bank?bankType=${bankSource}`) => {
+  const startBankPracticeSession = useCallback((questions: BankQuestion[], exitTo = `/bank?bankType=${bankSource}`) => {
     if (isHomeFilterDemo || questions.length === 0) return;
 
-    questions = spaceOutNearDuplicates(questions, questionFingerprint);
+    questions = spaceOutNearDuplicates<BankQuestion>(questions, questionFingerprint);
 
-    const practiceSet = createCustomPracticeSetFromQuestions({
+    const practiceSet = createBankPracticeSessionFromQuestions({
       questions,
     });
     launchCustomPracticeSet(practiceSet, navigate, exitTo);
@@ -840,10 +850,13 @@ export const BankIndex = ({
       }
       questions = shuffled;
     }
-    questions = spaceOutNearDuplicates(questions, questionFingerprint);
+    questions = spaceOutNearDuplicates<BankQuestion>(questions, questionFingerprint);
 
-    startPracticeSession(questions);
-  }, [startPracticeSession, getSelectedQuestions]);
+    const practiceSet = createCustomPracticeSetFromQuestions({
+      questions,
+    });
+    launchCustomPracticeSet(practiceSet, navigate, `/bank?bankType=${bankSource}`);
+  }, [bankSource, getSelectedQuestions, navigate]);
 
   const handleQuickStart = useCallback(async (subject: "math" | "reading", domain?: string, skill?: string, shuffle: boolean = false) => {
     let questions = await getSelectedQuestions(subject, domain, skill);
@@ -857,10 +870,10 @@ export const BankIndex = ({
       }
       questions = shuffled;
     }
-    questions = spaceOutNearDuplicates(questions, questionFingerprint);
+    questions = spaceOutNearDuplicates<BankQuestion>(questions, questionFingerprint);
 
-    startPracticeSession(questions);
-  }, [startPracticeSession, getSelectedQuestions]);
+    startBankPracticeSession(questions);
+  }, [startBankPracticeSession, getSelectedQuestions]);
 
   const handleKeywordResultClick = useCallback((question: BankQuestion) => {
     navigate(`${basePath}/${question.subject}/${question.id}?bankType=${bankSource}`);
@@ -871,7 +884,7 @@ export const BankIndex = ({
     [rawKeywordSearchResults],
   );
   const keywordPracticeQuestions = useMemo(
-    () => keywordSearchInfo.results.slice(0, KEYWORD_PRACTICE_MAX_QUESTIONS),
+    () => keywordSearchInfo.results,
     [keywordSearchInfo.results],
   );
   const canCreateKeywordPracticeSet =
@@ -881,8 +894,8 @@ export const BankIndex = ({
     const nextParams = new URLSearchParams();
     nextParams.set("bankType", bankSource);
     nextParams.set("q", keywordSearch.trim());
-    startPracticeSession(keywordPracticeQuestions, `/bank?${nextParams.toString()}`);
-  }, [bankSource, keywordSearch, keywordPracticeQuestions, startPracticeSession]);
+    startBankPracticeSession(keywordPracticeQuestions, `/bank?${nextParams.toString()}`);
+  }, [bankSource, keywordSearch, keywordPracticeQuestions, startBankPracticeSession]);
 
 
   const mathDomainsForDisplay = allMathDomains;
@@ -897,7 +910,7 @@ export const BankIndex = ({
   const visibleKeywordSearchResults = keywordSearchResults.slice(0, BANK_SEARCH_RESULT_LIMIT);
 
   const renderKeywordSearch = () => (
-    <div className="rounded-xl border border-ds-line bg-card p-2.5 shadow-sm sm:p-3">
+    <div className="space-y-2">
       <div className="flex flex-col gap-2 sm:flex-row">
         <div className="relative min-w-0 flex-1">
           <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-ink-muted" />
@@ -935,7 +948,7 @@ export const BankIndex = ({
         )}
       </div>
       {isKeywordSearchActive && (
-        <div className="mt-2 overflow-hidden rounded-lg border border-ds-line bg-white dark:bg-card">
+        <div className="overflow-hidden rounded-lg border border-ds-line bg-white dark:bg-card">
           <div className="flex flex-wrap items-center justify-between gap-2 border-b border-ds-line px-3 py-2">
             <div className="min-w-0">
               <h2 className="font-display text-[15px] font-semibold leading-tight text-ink">
@@ -1563,7 +1576,7 @@ export const BankIndex = ({
           </div>
 
           {/* Main Content */}
-          {isKeywordSearchActive && !isHomeFilterDemo ? null : renderBrowseView()}
+          {renderBrowseView()}
         </div>
       </section>
 

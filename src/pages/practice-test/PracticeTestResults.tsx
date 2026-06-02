@@ -1,10 +1,9 @@
 import { useLayoutEffect, useMemo, useState } from "react";
 import { Link, useParams, useSearchParams } from "react-router-dom";
-import { ArrowDown, ArrowLeft, ArrowRight, ArrowUp, Check, ChevronDown, ChevronLeft, ChevronRight, Copy, Download, Eye, EyeOff, Lightbulb, Share2 } from "lucide-react";
+import { ArrowDown, ArrowLeft, ArrowRight, ArrowUp, ChevronDown, ChevronLeft, ChevronRight, Eye, EyeOff, Lightbulb, Share2 } from "lucide-react";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { TransparentAwareImage } from "@/components/TransparentAwareImage";
 import { StepByStepExplanation } from "@/components/question/StepByStepExplanation";
@@ -64,6 +63,12 @@ const getResultDateLabel = (timestamp: number) =>
 
 const getShareMessage = (result: PracticeTestResult) =>
   `I scored ${result.totalScore} on an SAT Practice Test. Come study with me on 1600.now!`;
+
+const canUseNativeShareSheet = () =>
+  typeof navigator !== "undefined" &&
+  typeof navigator.share === "function" &&
+  (/Android|iPhone|iPad|iPod/i.test(navigator.userAgent) ||
+    window.matchMedia("(max-width: 768px) and (pointer: coarse)").matches);
 
 const buildShareImageFile = async (result: PracticeTestResult) => {
   const canvas = document.createElement("canvas");
@@ -166,9 +171,7 @@ const PracticeTestResults = () => {
   const [questionSortMode, setQuestionSortMode] = useState<"seen" | "correct">("seen");
   const [questionSortDirection, setQuestionSortDirection] = useState<"asc" | "desc">("asc");
   const [moduleFilter, setModuleFilter] = useState<string>("all");
-  const [isShareDialogOpen, setIsShareDialogOpen] = useState(false);
   const [isSharing, setIsSharing] = useState(false);
-  const [hasCopiedShareMessage, setHasCopiedShareMessage] = useState(false);
   const sessionId = searchParams.get("session");
   const practiceSet = useMemo(() => (setId ? getPracticeSet(setId) : null), [setId]);
   const result = useMemo(() => {
@@ -311,28 +314,20 @@ const PracticeTestResults = () => {
   const copyShareMessage = async () => {
     try {
       await navigator.clipboard.writeText(shareMessage);
-      setHasCopiedShareMessage(true);
-      window.setTimeout(() => setHasCopiedShareMessage(false), 1800);
       toast.success("Share message copied");
     } catch {
       toast.error("Could not copy share message");
     }
   };
 
-  const downloadShareImage = async () => {
-    const file = await buildShareImageFile(result);
-    if (!file) return;
-    const url = URL.createObjectURL(file);
-    const link = document.createElement("a");
-    link.href = url;
-    link.download = file.name;
-    link.click();
-    URL.revokeObjectURL(url);
-  };
-
   const shareResult = async () => {
     setIsSharing(true);
     try {
+      if (!canUseNativeShareSheet()) {
+        await copyShareMessage();
+        return;
+      }
+
       const file = await buildShareImageFile(result);
       const shareData = {
         title: "1600.now practice test result",
@@ -396,9 +391,10 @@ const PracticeTestResults = () => {
           type="button"
           variant="outline"
           size="icon-lg"
-          className="self-end bg-transparent sm:self-start"
+          className="shrink-0 self-end bg-transparent sm:self-start"
           aria-label="Share results"
-          onClick={() => setIsShareDialogOpen(true)}
+          disabled={isSharing}
+          onClick={shareResult}
         >
           <Share2 className="h-5 w-5" />
         </Button>
@@ -790,93 +786,6 @@ const PracticeTestResults = () => {
           </Link>
         </Button>
       </div>
-
-      <Dialog open={isShareDialogOpen} onOpenChange={setIsShareDialogOpen}>
-        <DialogContent className="max-h-[92vh] overflow-y-auto sm:max-w-[540px]">
-          <DialogHeader>
-            <DialogTitle>{shareMessage}</DialogTitle>
-          </DialogHeader>
-
-          <div className="overflow-hidden rounded-[20px] bg-white text-[#202124] shadow-[0_18px_46px_rgba(14,33,56,0.16)] ring-1 ring-black/[0.06] dark:bg-[#111d2e] dark:text-white dark:ring-white/[0.08]">
-            <div className="bg-[#c7dcff] px-5 py-4 dark:bg-[#243b63]">
-              <div className="text-2xl font-black leading-none tracking-[-0.045em]">1600.now</div>
-              <div className="mt-2 text-sm font-semibold text-[#202124]/80 dark:text-slate-200">
-                Practice Test {result.practiceSetNumber} results
-              </div>
-              <div className="mt-1 text-xs font-medium text-[#202124]/70 dark:text-slate-300">
-                {getResultDateLabel(result.submittedAt)}
-              </div>
-            </div>
-
-            <div className="px-5 py-5">
-              <div className="grid grid-cols-[1.05fr_0.78fr_0.56fr] gap-4 max-[480px]:gap-3">
-                <div className="min-w-0">
-                  <div className="text-[10px] font-bold uppercase tracking-[-0.01em] text-[#202124] dark:text-slate-100">
-                    Total Score
-                  </div>
-                  <div className="mt-2 text-[42px] font-black leading-none tracking-[-0.06em] text-[#202124] max-[480px]:text-[34px] dark:text-white">
-                    {result.totalScore}
-                  </div>
-                  <div className="mt-2 text-[14px] font-medium text-[#202124] max-[480px]:text-[11px] dark:text-slate-200">
-                    400 - 1600
-                  </div>
-                </div>
-                <div className="min-w-0">
-                  <div className="text-[10px] font-medium leading-tight tracking-[-0.01em] text-[#202124] max-[480px]:text-[8px] dark:text-slate-100">
-                    Reading and Writing
-                  </div>
-                  <div className="mt-2 text-[28px] font-black leading-none tracking-[-0.06em] text-[#202124] max-[480px]:text-[23px] dark:text-white">
-                    {result.readingWritingScore}
-                  </div>
-                  <div className="mt-2 text-[14px] font-medium text-[#202124] max-[480px]:text-[11px] dark:text-slate-200">
-                    200 - 800
-                  </div>
-                </div>
-                <div className="min-w-0">
-                  <div className="text-[10px] font-medium leading-tight tracking-[-0.01em] text-[#202124] max-[480px]:text-[8px] dark:text-slate-100">
-                    Math
-                  </div>
-                  <div className="mt-2 text-[28px] font-black leading-none tracking-[-0.06em] text-[#202124] max-[480px]:text-[23px] dark:text-white">
-                    {result.mathScore}
-                  </div>
-                  <div className="mt-2 text-[14px] font-medium text-[#202124] max-[480px]:text-[11px] dark:text-slate-200">
-                    200 - 800
-                  </div>
-                </div>
-              </div>
-
-              <div className="mt-5 rounded-full border-2 border-[#3350d4] px-4 py-2 text-center text-sm font-bold text-[#3350d4] dark:border-[#8fb7ff] dark:text-[#a9c8ff]">
-                {SHARE_URL}
-              </div>
-            </div>
-          </div>
-
-          <div className="flex flex-col gap-2 sm:flex-row sm:justify-end">
-            <Button
-              type="button"
-              variant="outline"
-              className="gap-2 bg-transparent"
-              onClick={copyShareMessage}
-            >
-              {hasCopiedShareMessage ? <Check className="h-4 w-4" /> : <Copy className="h-4 w-4" />}
-              {hasCopiedShareMessage ? "Copied" : "Copy message"}
-            </Button>
-            <Button
-              type="button"
-              variant="outline"
-              className="gap-2 bg-transparent"
-              onClick={downloadShareImage}
-            >
-              <Download className="h-4 w-4" />
-              Download image
-            </Button>
-            <Button type="button" className="gap-2" onClick={shareResult} disabled={isSharing}>
-              <Share2 className="h-4 w-4" />
-              {isSharing ? "Sharing..." : "Share"}
-            </Button>
-          </div>
-        </DialogContent>
-      </Dialog>
 
       {activeExplanationQuestion && activeExplanationSource && (
         <DraggableWindow

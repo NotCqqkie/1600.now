@@ -5,7 +5,7 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
-const SAT_STYLE_IMAGE_BASE = "/images/SAT-Style-Questions/";
+const SAT_STYLE_IMAGE_BASE = "/images/SAT-Style%20Questions/";
 
 const getBasename = (input: string): string => {
   const normalized = input.replace(/\\/g, "/").trim();

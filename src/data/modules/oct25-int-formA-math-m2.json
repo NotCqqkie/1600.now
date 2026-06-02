@@ -240,38 +240,6 @@
   {
     "section": "Math",
     "domain": "Algebra",
-    "skill": "Linear inequalities in one or two variables",
-    "difficulty": "Easy",
-    "question_number": 8,
-    "test_name": "October 2025 International Form A SAT Math Module 2",
-    "passage": "$y$ Which point $(x,y)$ is a solution to the given inequality in the $xy$-plane?",
-    "question_text": null,
-    "choices": [
-      {
-        "label": "A",
-        "text": "$(0,19)$"
-      },
-      {
-        "label": "B",
-        "text": "$(-1,22)$"
-      },
-      {
-        "label": "C",
-        "text": "$(-3,0)$"
-      },
-      {
-        "label": "D",
-        "text": "$(7,-1)$"
-      }
-    ],
-    "is_fill_in_blank": false,
-    "correct_answer": "C",
-    "rationale": null,
-    "id": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_8"
-  },
-  {
-    "section": "Math",
-    "domain": "Algebra",
     "skill": "Linear equations in one variable",
     "difficulty": "Hard",
     "question_number": 9,

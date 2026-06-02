@@ -38,7 +38,6 @@ export const MultipleChoiceQuestion = ({
 }: MultipleChoiceQuestionProps) => {
   const [internalStruckOut, setInternalStruckOut] = useState<Set<string>>(new Set());
   const choiceRefs = useRef<{ [key: string]: HTMLSpanElement | null }>({});
-  const hasCorrectAnswerLocked = Object.values(checkedAnswers).some((isCorrect) => isCorrect === true);
   const struckOut = struckOutChoiceIds
     ? new Set(struckOutChoiceIds)
     : internalStruckOut;
@@ -127,7 +126,7 @@ export const MultipleChoiceQuestion = ({
         const showCorrect = wasChecked && checkedAnswers[choice.id] === true;
         const showIncorrect = wasChecked && checkedAnswers[choice.id] === false;
         const hasImage = Boolean(choice.image);
-        const shouldReserveInlineCheck = Boolean(onCheck) && !hasCorrectAnswerLocked;
+        const shouldReserveInlineCheck = Boolean(onCheck);
         const canInlineCheck = shouldReserveInlineCheck && !wasChecked;
         
         if (isStruckOut) {
@@ -174,7 +173,7 @@ export const MultipleChoiceQuestion = ({
           );
         }
         
-        const isLocked = wasChecked || hasCorrectAnswerLocked;
+        const isLocked = wasChecked;
         
         return (
           <div key={choice.id} className={cn("relative flex min-w-0 items-center gap-2", strikeoutMode && "pr-14")}>

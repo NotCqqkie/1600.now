@@ -395,7 +395,14 @@
     "is_fill_in_blank": false,
     "correct_answer": "C",
     "rationale": "Choice C is the best answer because it most effectively uses data from the table to complete the statement. The table shows that on day 1, the menu for NASA’s Gemini missions included sugar cookie cubes for meal B.\nChoice A is incorrect because according to the table, shrimp cocktail was served on day 4, not day 1; moreover, the item was served for meal C, not meal B, as this choice claims. Choice B is incorrect because according to the table, hot cocoa was served on day 3, not on day 1; moreover, the item was served for meal A, not for meal C, as this choice claims. Choice D is incorrect because according to the table, chicken and vegetables were served on day 2, not on day 1; moreover, the item was served for meal B, not for meal A, as this choice claims.",
-    "id": "75e07a4d"
+    "id": "75e07a4d",
+    "images": [
+      {
+        "src": "/images/SAT-Style%20Questions/75e07a4d_q_01.png",
+        "alt": "",
+        "local": "images/SAT-Style Questions/75e07a4d_q_01.png"
+      }
+    ]
   },
   {
     "section": "Reading and Writing",

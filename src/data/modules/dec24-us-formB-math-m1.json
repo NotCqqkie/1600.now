@@ -407,7 +407,7 @@
     "difficulty": "Medium",
     "question_number": 17,
     "test_name": "December 2024 US Form B SAT Math Module 1",
-    "passage": "\n$\\frac{(x-7)(x-9)}{x-4}=0$\n\nWhat is the sum of the solutions to the given equation?",
+    "passage": "$\\frac{(x-7)(x-9)}{x-4}=0$\n\nWhat is the sum of the solutions to the given equation?",
     "question_text": null,
     "choices": [
       {

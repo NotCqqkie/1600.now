@@ -57,7 +57,7 @@ const baseQuestions: Question[] = [
       { id: "C", text: "$f(x) = 18x + 6$" },
       { id: "D", text: "$f(x) = 54x - 6$" },
     ],
-    correctAnswer: "D",
+    correctAnswer: "B",
     type: "multiple-choice",
   },
   {
@@ -93,7 +93,7 @@ const baseQuestions: Question[] = [
       { id: "C", text: "$g(x) = \\frac{1}{2}(16)(256)^{\\frac{1}{2}x}$" },
       { id: "D", text: "$g(x) = \\frac{1}{4}(32)(16)^x$" },
     ],
-    correctAnswer: "A",
+    correctAnswer: "B",
     type: "multiple-choice",
   },
   {
@@ -105,7 +105,7 @@ const baseQuestions: Question[] = [
   {
     id: 11,
     text: "A polygon has precisely $54$ sides, and the measure of each of its interior angles is $156m$. What is the value of $m$?",
-    correctAnswer: "1.111",
+    correctAnswer: "10/9,1.111",
     type: "free-response",
   },
   {
@@ -279,7 +279,7 @@ const baseQuestions: Question[] = [
   {
     id: 29,
     text: "Mixture C, consisting of both solutions A and B in their entirety, contains exactly $30\\%$ isopropyl alcohol. Solution A contains $14$ ml of $20\\%$ isopropyl alcohol. If Solution B contains $p$ ml of $90\\%$ isopropyl alcohol, where $p$ is a constant, what is the value of $p$?",
-    correctAnswer: "2.333",
+    correctAnswer: "7/3,2.333",
     type: "free-response",
   },
   {
@@ -302,7 +302,7 @@ const baseQuestions: Question[] = [
   },
   {
     id: 32,
-    text: "Lines $a$ and $b$ are perpendicular. If the points $(8,p)$ and $(9,p+4)$ lie on line $a$, and lines $a$ and $b$ intersect at $(9,p+4)$, which of the following points can lie on line $b$?",
+    text: "Lines $a$ and $b$ are perpendicular. If the points $(8,p)$ and $(9,p+4)$ lie on line $a$, and lines $a$ and $b$ intersect at $(9,p+4)$, which of the following points must lie on line $b$?",
     choices: [
       { id: "A", text: "$(p+8,p-4)$" },
       { id: "B", text: "$(9,p-8)$" },
@@ -327,12 +327,12 @@ const baseQuestions: Question[] = [
         text: "The standard deviation of data set B is less than the standard deviation of data set A, but the mean of both sets is the same.",
       },
     ],
-    correctAnswer: "C",
+    correctAnswer: "B",
     type: "multiple-choice",
   },
   {
     id: 34,
-    text: "If $c$ is a positive constant, and $x^2 + y^2 = c$, and $xy = 2c+5$. What is $(x+y)^2$ in terms of $c$?",
+    text: "If $c$ is a constant greater than or equal to $2$, $x^2 + y^2 = 5c$, and $xy = 5$, what is $(x+y)^2$ in terms of $c$?",
     choices: [
       { id: "A", text: "$2c + 5$" },
       { id: "B", text: "$2c + 10$" },
@@ -440,8 +440,8 @@ const baseQuestions: Question[] = [
   },
   {
     id: 45,
-    text: "$m^{3/4} = p^{3/11}$ and $m^{7a - 1/2} = p$, what is the value of $a$?",
-    correctAnswer: "0.4643",
+    text: "$m^{3/4} = p^{3/11}$ and $m^{7a - 1/2} = p$, where $m$ and $p$ are positive constants and $m \\ne 1$. What is the value of $a$?",
+    correctAnswer: "13/28,0.4643",
     type: "free-response",
   },
   {
@@ -450,7 +450,7 @@ const baseQuestions: Question[] = [
     choices: [
       { id: "A", text: "$n$ is a factor of $k$" },
       { id: "B", text: "$m$ is a factor of $k$" },
-      { id: "C", text: "$m$ is a factor of $180$" },
+      { id: "C", text: "$k$ is a factor of $180$" },
       { id: "D", text: "$p$ is a factor of $180$" },
     ],
     correctAnswer: "D",
@@ -465,7 +465,7 @@ const baseQuestions: Question[] = [
   {
     id: 48,
     text: "The function $f$ is given by $f(x) = \\frac{2n}{|x|} - 12$, where $n < 0$. What is the sum of $f(6n)$ and $f(n)$?",
-    correctAnswer: "-26.333",
+    correctAnswer: "-79/3,-26.333",
     type: "free-response",
   },
   {
@@ -477,7 +477,7 @@ const baseQuestions: Question[] = [
   {
     id: 50,
     text: "For the function $g$, $g(x-m) = 3x$ for all values of $x$, where $m$ is a positive constant. If $(-27, 8)$ is a point on the graph of $g(x)$, what is the value of $m$?",
-    correctAnswer: "29.667",
+    correctAnswer: "89/3,29.667",
     type: "free-response",
   },
   {
@@ -537,7 +537,7 @@ const baseQuestions: Question[] = [
       { id: "C", text: "$(\\cos 23^\\circ)^2 + (\\sin 67^\\circ)^2$" },
       { id: "D", text: "$(\\cos 23^\\circ)^2 + (\\cos 67^\\circ)^2$" },
     ],
-    correctAnswer: "C",
+    correctAnswer: "D",
     type: "multiple-choice",
   },
   {
@@ -596,7 +596,7 @@ const baseQuestions: Question[] = [
   },
   {
     id: 62,
-    text: "$\\sqrt{2x + p} = x + 12$\\\\For the given equation, for which value of $p$ would the equation have exactly one real solution?",
+    text: "$\\sqrt{2x + p} = x + 12$\\\\For the given equation, what is the least possible value of $p$ for which the equation has exactly one real solution?",
     correctAnswer: "23",
     type: "free-response",
   },
@@ -626,8 +626,8 @@ const baseQuestions: Question[] = [
   },
   {
     id: 66,
-    text: "<img src=\"/images/1600.now questions/66.png\" alt=\"Geometry figure with parallel lines\" style=\"max-width:100%;max-height:260px;height:auto;display:block;margin:0 auto 6px;object-fit:contain;\" />\\\\In the figure shown, lines A and B are parallel, with lines B, C, and D intersecting at point H. What is the value of $q + r$?",
-    correctAnswer: "180",
+    text: "<img src=\"/images/1600.now questions/66.png\" alt=\"Geometry figure with parallel lines\" style=\"max-width:100%;max-height:260px;height:auto;display:block;margin:0 auto 6px;object-fit:contain;\" />\\\\In the figure shown, lines A and B are parallel, with lines B, C, and D intersecting at point H. What is the value of $q - r$?",
+    correctAnswer: "90",
     type: "free-response",
   },
   {
@@ -651,7 +651,7 @@ const baseQuestions: Question[] = [
       { id: "C", text: "$(-k+26, j)$" },
       { id: "D", text: "$(-k-26, -j)$" },
     ],
-    correctAnswer: "A",
+    correctAnswer: "C",
     type: "multiple-choice",
   },
   {
@@ -681,7 +681,7 @@ const baseQuestions: Question[] = [
   {
     id: 72,
     text: "<img src=\"/images/1600.now questions/72.png\" alt=\"Right triangle with legs A, B, hypotenuse 56\" style=\"max-width:100%;max-height:260px;height:auto;display:block;margin:0 auto 6px;object-fit:contain;\" />\\\\The given right triangle has legs of lengths $A$ and $B$ and a hypotenuse of length $56$. What is the value of $\\frac{x}{A}$?",
-    correctAnswer: "2.1429",
+    correctAnswer: "15/7,2.1429",
     type: "free-response",
   },
   {
@@ -723,7 +723,7 @@ const baseQuestions: Question[] = [
   {
     id: 76,
     text: "If $\\frac{14a}{b} = 12$ and $\\frac{a}{bc} = 6$, what is the value of $c$?",
-    correctAnswer: "0.1429",
+    correctAnswer: "1/7,0.1429",
     type: "free-response",
   },
   {
@@ -815,20 +815,20 @@ const baseQuestions: Question[] = [
   },
   {
     id: 87,
-    text: "A quadratic function with the equation of $ax^2 + bx + c$ has a vertex of $(-3,-14)$. If the function intersects the $x$-axis at two points, what is a possible value of $a - b - c$?",
+    text: "A quadratic function with the equation of $ax^2 + bx + c$ has a vertex of $(-3,-14)$. If the function intersects the $x$-axis at two points, what is a possible value of $a - b + c$?",
     choices: [
-      { id: "A", text: "$13$" },
-      { id: "B", text: "$14$" },
-      { id: "C", text: "$15$" },
-      { id: "D", text: "$16$" },
+      { id: "A", text: "$-16$" },
+      { id: "B", text: "$-15$" },
+      { id: "C", text: "$-14$" },
+      { id: "D", text: "$-13$" },
     ],
-    correctAnswer: "C",
+    correctAnswer: "D",
     type: "multiple-choice",
   },
   {
     id: 88,
     text: "$f(cx) = x - 6$\\\\What is a possible value of $c$ that satisfies the provided equation, given that the point $(3,28)$ lies on the graph of $f(x)$ in the $xy$-plane?",
-    correctAnswer: "0.08824",
+    correctAnswer: "3/34,0.08824",
     type: "free-response",
   },
   {
@@ -858,7 +858,7 @@ const baseQuestions: Question[] = [
       { id: "C", image: "/images/1600.now questions/91 C.png" },
       { id: "D", image: "/images/1600.now questions/91 D.png" },
     ],
-    correctAnswer: "C",
+    correctAnswer: "D",
     type: "multiple-choice",
   },
   {
