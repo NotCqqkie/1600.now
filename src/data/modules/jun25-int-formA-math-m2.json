@@ -160,9 +160,9 @@
     "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_7",
     "images": [
       {
-        "src": "/images_labeled/6d83bce6-cd0e-49ec-848d-d2a6307de5b9_7_q_01_FIX.svg",
+        "src": "/images/SAT-Style%20Questions/6d83bce6-cd0e-49ec-848d-d2a6307de5b9_7_q_01_FIX.svg",
         "alt": "",
-        "local": "images_labeled/6d83bce6-cd0e-49ec-848d-d2a6307de5b9_7_q_01_FIX.svg"
+        "local": "images/SAT-Style Questions/6d83bce6-cd0e-49ec-848d-d2a6307de5b9_7_q_01_FIX.svg"
       }
     ]
   },
@@ -472,7 +472,7 @@
     "difficulty": "Hard",
     "question_number": 20,
     "test_name": "June 2025 International Form A SAT Math Module 2",
-    "passage": "The table shows three values of $x$ and their corresponding values of $g(x)$, where $g(x)=\\frac{f(x)}{x+4}$ and $f$ is a linear function. What is the y-intercept of the graph of $y = f(x)$ in the $xy$-plane?",
+    "passage": "<table class=\"cb-table\">\n<thead><tr><th>$x$</th><th>$g(x)$</th></tr></thead>\n<tbody>\n<tr><td>$-24$</td><td>$3$</td></tr>\n<tr><td>$-9$</td><td>$0$</td></tr>\n<tr><td>$16$</td><td>$5$</td></tr>\n</tbody>\n</table>\n\nThe table shows three values of $x$ and their corresponding values of $g(x)$, where $g(x)=\\frac{f(x)}{x+4}$ and $f$ is a linear function. What is the y-intercept of the graph of $y = f(x)$ in the $xy$-plane?",
     "question_text": null,
     "choices": [
       {
@@ -495,14 +495,7 @@
     "is_fill_in_blank": false,
     "correct_answer": "A",
     "rationale": null,
-    "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_20",
-    "images": [
-      {
-        "src": "/images_labeled/6d83bce6-cd0e-49ec-848d-d2a6307de5b9_20_q_01_FIX.png",
-        "alt": "",
-        "local": "images_labeled/6d83bce6-cd0e-49ec-848d-d2a6307de5b9_20_q_01_FIX.png"
-      }
-    ]
+    "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_20"
   },
   {
     "section": "Math",

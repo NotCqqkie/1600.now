@@ -1,4 +1,4 @@
-import { type ElementType, type ReactNode, useState } from "react";
+import { type ElementType, type ReactNode, useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { MultiSelect } from "@/components/ui/multi-select";
 import { Slider } from "@/components/ui/slider";
@@ -135,6 +135,10 @@ export function QuestionBankFilterPanel({
       : {}
   );
 
+  useEffect(() => {
+    if (homeDemoMultiOpen) setHomeDemoOpenControls([]);
+  }, [filters, homeDemoMultiOpen]);
+
   return (
     <div className="space-y-4">
       {/* Top Bar */}
@@ -200,7 +204,7 @@ export function QuestionBankFilterPanel({
                       max={MAX_TIME_SPENT_FILTER_SECONDS}
                       step={5}
                       onValueChange={(value) => updateFilter("timeSpentRange", value as [number, number])}
-                      aria-label={["Minimum time spent", "Maximum time spent"]}
+                      aria-label="Time spent range"
                     />
                   </div>
                 </div>

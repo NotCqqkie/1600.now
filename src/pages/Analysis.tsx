@@ -940,7 +940,7 @@ const Analysis = () => {
       subject: BankSubject,
       direction: "asc" | "desc",
     ): InsightItem[] => {
-      const ranked = rankTop(
+      const ranked: InsightItem[] = rankTop(
         domainsBySubject(subject).filter((entry) => entry.attempted > 0),
         (left, right) =>
           direction === "asc"
@@ -971,9 +971,11 @@ const Analysis = () => {
       direction: "asc" | "desc",
       source: "domain" | "skill",
     ): InsightItem[] => {
-      const entries = (source === "domain" ? domainsBySubject(subject) : skillsBySubject(subject))
-        .filter((entry) => entry.attempted > 0);
-      const ranked = rankTop(
+      const entries =
+        source === "domain"
+          ? domainsBySubject(subject).filter((entry) => entry.attempted > 0)
+          : skillsBySubject(subject).filter((entry) => entry.attempted > 0);
+      const ranked: InsightItem[] = rankTop(
         entries,
         (left, right) =>
           direction === "asc"
@@ -982,7 +984,7 @@ const Analysis = () => {
       ).map((entry) => ({
         title: entry.name,
         meta:
-          source === "skill"
+          source === "skill" && "domain" in entry
             ? `${entry.domain} · ${entry.attempted} attempted`
             : `${entry.attempted} attempted`,
         value: fmtTime(Math.round(entry.avgTime)),

@@ -104,15 +104,14 @@ export default defineConfig(({ mode }) => ({
             return "bank-categories";
           }
 
-          if (id.includes("/src/data/Modules/")) {
+          if (id.includes("/src/data/modules/")) {
             return "module-data";
           }
 
           if (
             id.includes("/src/data/unofficialQuestionImageMap.ts") ||
             id.includes("/src/data/questionImageMap.ts") ||
-            id.includes("/src/data/satImageManifest.ts") ||
-            id.includes("/src/data/category_map.json")
+            id.includes("/src/data/satImageManifest.ts")
           ) {
             return "bank-data-images";
           }

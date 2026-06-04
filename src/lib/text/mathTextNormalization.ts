@@ -22,6 +22,7 @@ export const isLikelyInlineMath = (candidate: string): boolean => {
   const proseWords = proseCandidate.match(/[A-Za-z]{3,}/g) ?? [];
   if (proseWords.length >= 2) return false;
 
+  if (/^\(?\s*[+\-−]\s*\)?$/.test(trimmed)) return true;
   if (/[=<>+*/]/.test(trimmed)) return true;
   if (/(^|[^A-Za-z])-(?=\d|[A-Za-z(])/.test(trimmed)) return true;
 

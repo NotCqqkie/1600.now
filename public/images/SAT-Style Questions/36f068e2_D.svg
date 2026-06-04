@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="320" viewBox="0 0 420 320">
+<style>.bg{fill:#fff}.grid{stroke:#d7dce2;stroke-width:1}.axis{stroke:#25313d;stroke-width:1.7}.tick{font:12px Arial,sans-serif;fill:#394652;text-anchor:middle}.end{text-anchor:end}.label{font:13px Arial,sans-serif;fill:#25313d}.curve{fill:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.blue{stroke:#2563eb}.red{stroke:#dc2626}</style>
+<rect class="bg" width="420" height="320"/>
+<text x="18" y="18" class="label">D</text>
+<line x1="46.0" y1="20" x2="46.0" y2="270" class="grid"/>
+<line x1="87.2" y1="20" x2="87.2" y2="270" class="grid"/>
+<text x="87.2" y="288" class="tick">10</text>
+<line x1="128.5" y1="20" x2="128.5" y2="270" class="grid"/>
+<text x="128.5" y="288" class="tick">20</text>
+<line x1="169.8" y1="20" x2="169.8" y2="270" class="grid"/>
+<text x="169.8" y="288" class="tick">30</text>
+<line x1="211.0" y1="20" x2="211.0" y2="270" class="grid"/>
+<text x="211.0" y="288" class="tick">40</text>
+<line x1="252.2" y1="20" x2="252.2" y2="270" class="grid"/>
+<text x="252.2" y="288" class="tick">50</text>
+<line x1="293.5" y1="20" x2="293.5" y2="270" class="grid"/>
+<text x="293.5" y="288" class="tick">60</text>
+<line x1="334.8" y1="20" x2="334.8" y2="270" class="grid"/>
+<text x="334.8" y="288" class="tick">70</text>
+<line x1="376.0" y1="20" x2="376.0" y2="270" class="grid"/>
+<text x="376.0" y="288" class="tick">80</text>
+<line x1="46" y1="270.0" x2="376" y2="270.0" class="grid"/>
+<line x1="46" y1="238.8" x2="376" y2="238.8" class="grid"/>
+<text x="34" y="242.8" class="tick end">10</text>
+<line x1="46" y1="207.5" x2="376" y2="207.5" class="grid"/>
+<text x="34" y="211.5" class="tick end">20</text>
+<line x1="46" y1="176.2" x2="376" y2="176.2" class="grid"/>
+<text x="34" y="180.2" class="tick end">30</text>
+<line x1="46" y1="145.0" x2="376" y2="145.0" class="grid"/>
+<text x="34" y="149.0" class="tick end">40</text>
+<line x1="46" y1="113.8" x2="376" y2="113.8" class="grid"/>
+<text x="34" y="117.8" class="tick end">50</text>
+<line x1="46" y1="82.5" x2="376" y2="82.5" class="grid"/>
+<text x="34" y="86.5" class="tick end">60</text>
+<line x1="46" y1="51.2" x2="376" y2="51.2" class="grid"/>
+<text x="34" y="55.2" class="tick end">70</text>
+<line x1="46" y1="20.0" x2="376" y2="20.0" class="grid"/>
+<text x="34" y="24.0" class="tick end">80</text>
+<line x1="46.0" y1="20" x2="46.0" y2="270" class="axis"/>
+<line x1="46" y1="270.0" x2="376" y2="270.0" class="axis"/>
+<polyline points="46.0,104.4 169.8,104.4" class="curve blue"/>
+<polyline points="46.0,141.9 169.8,85.6 314.1,20.0" class="curve red"/>
+<text x="392" y="274" class="label">x</text>
+<text x="28" y="14" class="label">y</text>
+</svg>

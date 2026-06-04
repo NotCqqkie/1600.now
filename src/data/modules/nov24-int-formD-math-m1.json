@@ -32,9 +32,9 @@
     "id": "68b576c1-9de8-41d3-9840-538d4edcd113_1",
     "images": [
       {
-        "src": "/images_labeled/68b576c1-9de8-41d3-9840-538d4edcd113_1_q_01_FIX.png",
+        "src": "/images/SAT-Style%20Questions/68b576c1-9de8-41d3-9840-538d4edcd113_1_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/68b576c1-9de8-41d3-9840-538d4edcd113_1_q_01_FIX.png"
+        "local": "images/SAT-Style Questions/68b576c1-9de8-41d3-9840-538d4edcd113_1_q_01_FIX.png"
       }
     ]
   },
@@ -54,9 +54,9 @@
     "id": "68b576c1-9de8-41d3-9840-538d4edcd113_2",
     "images": [
       {
-        "src": "/images_labeled/68b576c1-9de8-41d3-9840-538d4edcd113_2_q_01_FIX.png",
+        "src": "/images/SAT-Style%20Questions/68b576c1-9de8-41d3-9840-538d4edcd113_2_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/68b576c1-9de8-41d3-9840-538d4edcd113_2_q_01_FIX.png"
+        "local": "images/SAT-Style Questions/68b576c1-9de8-41d3-9840-538d4edcd113_2_q_01_FIX.png"
       }
     ]
   },
@@ -91,6 +91,38 @@
     "correct_answer": "D",
     "rationale": null,
     "id": "68b576c1-9de8-41d3-9840-538d4edcd113_3"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Medium",
+    "question_number": 4,
+    "test_name": "November 2024 International Form D SAT Math Module 1",
+    "passage": "$x+5y=5$\n$x-5y=7$\nThe solution to the given system of equations is $(x,y)$. What is the value of $x$?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "1.2"
+      },
+      {
+        "label": "B",
+        "text": "5"
+      },
+      {
+        "label": "C",
+        "text": "6"
+      },
+      {
+        "label": "D",
+        "text": "12"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "68b576c1-9de8-41d3-9840-538d4edcd113_4"
   },
   {
     "section": "Math",
@@ -253,9 +285,9 @@
     "id": "68b576c1-9de8-41d3-9840-538d4edcd113_9",
     "images": [
       {
-        "src": "/images_labeled/68b576c1-9de8-41d3-9840-538d4edcd113_9_q_01_FIX.png",
+        "src": "/images/SAT-Style%20Questions/68b576c1-9de8-41d3-9840-538d4edcd113_9_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/68b576c1-9de8-41d3-9840-538d4edcd113_9_q_01_FIX.png"
+        "local": "images/SAT-Style Questions/68b576c1-9de8-41d3-9840-538d4edcd113_9_q_01_FIX.png"
       }
     ]
   },
@@ -544,9 +576,9 @@
     "id": "68b576c1-9de8-41d3-9840-538d4edcd113_20",
     "images": [
       {
-        "src": "/images_labeled/68b576c1-9de8-41d3-9840-538d4edcd113_20_q_01_FIX.png",
+        "src": "/images/SAT-Style%20Questions/68b576c1-9de8-41d3-9840-538d4edcd113_20_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/68b576c1-9de8-41d3-9840-538d4edcd113_20_q_01_FIX.png"
+        "local": "images/SAT-Style Questions/68b576c1-9de8-41d3-9840-538d4edcd113_20_q_01_FIX.png"
       }
     ]
   },

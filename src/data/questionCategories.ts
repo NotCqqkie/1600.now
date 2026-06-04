@@ -785,7 +785,7 @@ export function classifyQuestion(
         }
       }
       
-      if (skill === "Area and Volume") {
+      if (skill === "Area and volume") {
         // "Volume" in the context of liquid mixtures (solutions) is Algebra, not Geometry
         if (/solution|mixture|saltwater|concentration/i.test(text) && /volume/i.test(text)) {
           score = 0;

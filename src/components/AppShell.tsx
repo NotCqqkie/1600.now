@@ -39,8 +39,8 @@ import { useIsMobile } from "@/hooks/use-mobile";
 import { useThemeMode } from "@/hooks/useThemeMode";
 import { applyTheme } from "@/lib/theme";
 
-const COLLAPSED_DESKTOP_WIDTH_CLASS = "lg:w-[4.5rem]";
-const COLLAPSED_DESKTOP_PADDING_CLASS = "lg:pl-[4.5rem]";
+const COLLAPSED_DESKTOP_WIDTH_CLASS = "lg:w-[4.5625rem]";
+const COLLAPSED_DESKTOP_PADDING_CLASS = "lg:pl-[4.5625rem]";
 const ONBOARDING_REPLAY_REQUEST_KEY = "onboarding-replay-requested";
 
 type SidebarItem = {
@@ -244,7 +244,7 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
       <aside
         data-tour="sidebar"
         className={cn(
-          "fixed inset-y-0 left-0 z-40 flex flex-col border-r border-border/60 bg-card/95 py-3 backdrop-blur transition-[width,transform] duration-200 ease-out lg:px-4",
+          "fixed inset-y-0 left-0 z-40 flex flex-col overscroll-x-none border-r border-border/60 bg-card/95 py-3 backdrop-blur transition-[width,transform] duration-200 ease-out lg:px-4",
           isSidebarHidden
             ? `w-72 -translate-x-full px-4 ${COLLAPSED_DESKTOP_WIDTH_CLASS} lg:translate-x-0`
             : "w-72 translate-x-0 px-4 lg:w-64",
@@ -253,10 +253,10 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
         <button
           type="button"
           className={cn(
-            "absolute top-3 z-10 hidden items-center justify-center text-muted-foreground transition-all duration-200 ease-out hover:text-foreground lg:inline-flex",
+            "top-3 z-50 hidden items-center justify-center text-muted-foreground transition-all duration-200 ease-out hover:text-foreground lg:inline-flex",
             isSidebarHidden
-              ? "left-full h-8 w-6 rounded-r-lg border border-l-0 border-border/70 bg-card/95 shadow-sm"
-              : "right-4 h-9 w-9 rounded-lg",
+              ? "fixed left-[4.5rem] h-8 w-6 rounded-r-lg border border-l-0 border-border/70 bg-card/95 shadow-sm"
+              : "absolute right-4 h-9 w-9 rounded-lg",
           )}
           onClick={() => setIsSidebarHidden((hidden) => !hidden)}
           aria-label={isSidebarHidden ? "Expand sidebar" : "Hide sidebar"}
@@ -278,7 +278,7 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
           />
         </div>
 
-        <div className="mt-3 flex-1 overflow-y-auto">
+        <div className="mt-3 min-h-0 flex-1 overflow-y-auto overflow-x-hidden overscroll-x-none">
           <div className="space-y-1">
             {primaryItems.map((item) => (
               <SidebarLink
@@ -293,17 +293,25 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
             ))}
           </div>
 
-          <div className="mt-5 px-3">
-            {showExpandedContent ? (
-              // ACCOUNT divider — Inter 600, 11px, +14% tracking, uppercase, muted.
-              <div className="ds-caption">
+          <div className="mt-5 h-4 overflow-hidden px-3">
+            <div className="relative h-4">
+              <div
+                aria-hidden={!showExpandedContent}
+                className={cn(
+                  "ds-caption absolute left-0 top-1/2 -translate-y-1/2 transition-opacity duration-200 ease-out",
+                  showExpandedContent ? "opacity-100" : "opacity-0",
+                )}
+              >
                 Account
               </div>
-            ) : (
-              <div className="flex h-4 items-center justify-start">
-                <span className="block h-px w-6 rounded-full bg-border/90" />
-              </div>
-            )}
+              <span
+                aria-hidden="true"
+                className={cn(
+                  "absolute left-0 top-1/2 block h-px w-6 -translate-y-1/2 rounded-full bg-border/90 transition-opacity duration-200 ease-out",
+                  showExpandedContent ? "opacity-0" : "opacity-100",
+                )}
+              />
+            </div>
           </div>
           <div className="mt-2 space-y-1">
             {secondaryItems.map((item) => (
@@ -320,7 +328,7 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
           </div>
         </div>
 
-        <div className="border-t border-border/70 pt-2.5">
+        <div className="overflow-x-hidden border-t border-border/70 pt-2.5">
           <div className="space-y-1.5 pb-1">
             <FooterActionButton
               label="Replay tour"

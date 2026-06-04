@@ -28,9 +28,10 @@ dist-ssr
 
 .env
 .aider*
+.wakatime-project
 __pycache__/
 *.pyc
-scripts/_data/reports/
+scripts/_data/
 scripts/**/*.log
 scripts/**/*_checkpoint.json
 scripts/**/*_log.json

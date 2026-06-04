@@ -180,7 +180,7 @@ const createAnnotationMarkup = (html: string, annotations: PassageAnnotation[]) 
       span.style.backgroundColor = ANNOTATION_COLORS[annotation.color].fill;
       span.style.boxShadow = `inset 0 -1px 0 ${ANNOTATION_COLORS[annotation.color].border}`;
       span.style.boxDecorationBreak = "clone";
-      span.style.webkitBoxDecorationBreak = "clone";
+      span.style.setProperty("-webkit-box-decoration-break", "clone");
       span.style.cursor = "pointer";
       span.style.font = "inherit";
       span.style.letterSpacing = "inherit";

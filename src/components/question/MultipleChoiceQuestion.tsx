@@ -20,6 +20,7 @@ interface MultipleChoiceQuestionProps {
   checkedAnswers?: Record<string, boolean>;
   questionId: number | string;
   subject?: "math" | "reading";
+  choiceImageClassName?: string;
   struckOutChoiceIds?: string[];
   onStruckOutChange?: (choiceIds: string[]) => void;
 }
@@ -33,6 +34,7 @@ export const MultipleChoiceQuestion = ({
   checkedAnswers = {},
   questionId,
   subject = "math",
+  choiceImageClassName,
   struckOutChoiceIds,
   onStruckOutChange,
 }: MultipleChoiceQuestionProps) => {
@@ -88,7 +90,8 @@ export const MultipleChoiceQuestion = ({
               src={normalizePublicAssetPath(choice.image)}
               alt={`SAT question ${questionId} choice ${choice.id} image`}
               className={cn(
-                "w-auto max-w-full h-auto max-h-[220px] sm:max-h-[260px] object-contain block",
+                "w-auto max-w-full h-auto object-contain block",
+                choiceImageClassName ?? "max-h-[220px] sm:max-h-[260px]",
                 dimmed && "opacity-60"
               )}
               wrapperClassName="max-w-full"

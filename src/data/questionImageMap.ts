@@ -1,4 +1,4 @@
-// Auto-generated from questions_data.ts. Do not edit by hand.
+// Auto-generated from official module image assets. Do not edit by hand.
 export interface QuestionImageMapEntry {
   questionImages?: { src: string; alt: string }[];
   choiceImages?: Record<string, string>;
@@ -5083,6 +5083,110 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       {
         "src": "/images/SAT-Style%20Questions/1b5dbecd-2a08-4015-83f5-8ad883233476_13_q_01_FIX.png",
         "alt": "Question 13 Image"
+      }
+    ]
+  },
+  "4e1b3643-30b1-41c4-9027-1f149baf52c7_1": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/4e1b3643-30b1-41c4-9027-1f149baf52c7_1_q_01_FIX.png",
+        "alt": "Question 1 Image"
+      }
+    ]
+  },
+  "4e1b3643-30b1-41c4-9027-1f149baf52c7_4": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/4e1b3643-30b1-41c4-9027-1f149baf52c7_4_q_01_FIX.png",
+        "alt": "Question 4 Image"
+      }
+    ]
+  },
+  "4e1b3643-30b1-41c4-9027-1f149baf52c7_10": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/4e1b3643-30b1-41c4-9027-1f149baf52c7_10_q_01_FIX.png",
+        "alt": "Question 10 Image"
+      }
+    ]
+  },
+  "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_1": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_1_q_01_FIX.png",
+        "alt": "Question 1 Image"
+      }
+    ]
+  },
+  "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_9": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_9_q_01_FIX.png",
+        "alt": "Question 9 Image"
+      }
+    ]
+  },
+  "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_9": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_9_q_01_FIX.png",
+        "alt": "Question 9 Image"
+      }
+    ]
+  },
+  "00907d99-e579-47a8-ac65-658aadef4aa7_1": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/00907d99-e579-47a8-ac65-658aadef4aa7_1_q_01_FIX.png",
+        "alt": "Question 1 Image"
+      }
+    ]
+  },
+  "00907d99-e579-47a8-ac65-658aadef4aa7_13": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/00907d99-e579-47a8-ac65-658aadef4aa7_13_q_01_FIX.png",
+        "alt": "Question 13 Image"
+      }
+    ]
+  },
+  "00907d99-e579-47a8-ac65-658aadef4aa7_21": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/00907d99-e579-47a8-ac65-658aadef4aa7_21_q_01_FIX.png",
+        "alt": "Question 21 Image"
+      }
+    ]
+  },
+  "68b576c1-9de8-41d3-9840-538d4edcd113_2": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/68b576c1-9de8-41d3-9840-538d4edcd113_2_q_01_FIX.png",
+        "alt": "Question 2 Image"
+      }
+    ]
+  },
+  "87a75825-ef1b-4b13-8fde-816390546062_9": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/87a75825-ef1b-4b13-8fde-816390546062_9_q_01_FIX.png",
+        "alt": "Question 9 Image"
+      }
+    ]
+  },
+  "87a75825-ef1b-4b13-8fde-816390546062_14": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/87a75825-ef1b-4b13-8fde-816390546062_14_q_01_FIX.png",
+        "alt": "Question 14 Image"
+      }
+    ]
+  },
+  "816fedc1-1434-4eb8-aa3b-6715a1e738ae_10": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/816fedc1-1434-4eb8-aa3b-6715a1e738ae_10_q_01_FIX.png",
+        "alt": "Question 10 Image"
       }
     ]
   }

@@ -97,7 +97,7 @@
     "rationale": null,
     "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_4",
     "testName": "August 2024 International Form A SAT Math Module 1",
-    "text": "An aquarium uses small and large tanks to temporarily hold a total of 37 fish. Each small tank holds 1 fish, and each large tank holds 2 fish. Which equation represents this situation, where $ s $ is the number of small tanks and $ b $ is the number of large tanks the aquarium uses?",
+    "text": "An aquarium uses small and large tanks to temporarily hold a total of 37 fish. Each small tank holds 1 fish, and each large tank holds 2 fish. Which equation represents this situation, where $s$ is the number of small tanks and $b$ is the number of large tanks the aquarium uses?",
     "choices": [
       {
         "id": "A",
@@ -243,7 +243,7 @@
     "rationale": null,
     "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_10",
     "testName": "August 2024 International Form A SAT Math Module 1",
-    "text": "The table shows three values of $a$ and their corresponding values of $y$ for the equation $y = 4(2)^x + 5$. In the table, $a$ is a constant. What is the value of $a$?",
+    "text": "The table shows three values of $x$ and their corresponding values of $y$ for the equation $y = 4(2)^x + 5$. In the table, $a$ is a constant. What is the value of $a$?",
     "choices": [
       {
         "id": "A",
@@ -273,7 +273,7 @@
     "rationale": null,
     "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_11",
     "testName": "August 2024 International Form A SAT Math Module 1",
-    "text": "The number of bacteria in a liquid medium doubles every day. There are 72,000 bacteria in the liquid medium at the start of an observation. Which of the following represents the number of bacteria, $ y $, in the liquid medium $ t $ days after the start of the observation?",
+    "text": "The number of bacteria in a liquid medium doubles every day. There are 72,000 bacteria in the liquid medium at the start of an observation. Which of the following represents the number of bacteria, $y$, in the liquid medium $t$ days after the start of the observation?",
     "choices": [
       {
         "id": "A",
@@ -359,7 +359,7 @@
     "rationale": null,
     "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_15",
     "testName": "August 2024 International Form A SAT Math Module 1",
-    "text": "For the linear function $ g $, the table shows four values of $ x $ and their corresponding values of $ g(x) $. The function can be written as $ g(x) = mx + b $, where $ m $ and $ b $ are constants. What is the value of $ b $?",
+    "text": "For the linear function $g$, the table shows four values of $x$ and their corresponding values of $g(x)$. The function can be written as $g(x) = mx + b$, where $m$ and $b$ are constants. What is the value of $b$?",
     "choices": [],
     "correctAnswer": "49",
     "type": "free-response"
@@ -505,7 +505,7 @@
     "rationale": null,
     "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_21",
     "testName": "August 2024 International Form A SAT Math Module 1",
-    "text": "In the $xy$-plane, circle $M$ is the graph of the equation $(x + 6a)^2 + (y - 38a)^2 = 36a^2$ where $a$ is a positive constant. Circle $V$ is obtained by shifting circle $M$ 12$a$ units to the right. Which equation represents circle $V$?",
+    "text": "In the $xy$-plane, circle $M$ is the graph of the equation $(x + 6a)^2 + (y - 38a)^2 = 36a^2$ where $a$ is a positive constant. Circle $V$ is obtained by shifting circle $M$ $12a$ units to the right. Which equation represents circle $V$?",
     "choices": [
       {
         "id": "A",
@@ -877,7 +877,7 @@
       },
       {
         "id": "D",
-        "text": "$\\sqrt{3}$"
+        "text": "$3,249\\sqrt{3}$"
       }
     ],
     "correctAnswer": "D",
@@ -895,19 +895,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "$x$ $y$ -5 6 -6 9 -8 -4"
+        "text": "<table class=\"cb-table\"><thead><tr><th>$x$</th><th>$y$</th></tr></thead><tbody><tr><td>$-5$</td><td>$6$</td></tr><tr><td>$-6$</td><td>$9$</td></tr><tr><td>$-8$</td><td>$-4$</td></tr></tbody></table>"
       },
       {
         "id": "B",
-        "text": "$x$ $y$ -5 4 -6 10 -8 19"
+        "text": "<table class=\"cb-table\"><thead><tr><th>$x$</th><th>$y$</th></tr></thead><tbody><tr><td>$-5$</td><td>$4$</td></tr><tr><td>$-6$</td><td>$10$</td></tr><tr><td>$-8$</td><td>$19$</td></tr></tbody></table>"
       },
       {
         "id": "C",
-        "text": "$x$ $y$ -5 2 -6 9 -8 19"
+        "text": "<table class=\"cb-table\"><thead><tr><th>$x$</th><th>$y$</th></tr></thead><tbody><tr><td>$-5$</td><td>$2$</td></tr><tr><td>$-6$</td><td>$9$</td></tr><tr><td>$-8$</td><td>$19$</td></tr></tbody></table>"
       },
       {
         "id": "D",
-        "text": "$x$ $y$ -5 1 -6 16 -8 -4"
+        "text": "<table class=\"cb-table\"><thead><tr><th>$x$</th><th>$y$</th></tr></thead><tbody><tr><td>$-5$</td><td>$1$</td></tr><tr><td>$-6$</td><td>$16$</td></tr><tr><td>$-8$</td><td>$-4$</td></tr></tbody></table>"
       }
     ],
     "correctAnswer": "B",
@@ -981,7 +981,7 @@
     "rationale": null,
     "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_17",
     "testName": "August 2024 International Form A SAT Math Module 2",
-    "text": "$f(x)=k(1.83)^{x}$\nThe function $f$ is defined by the given equation, where $k$ is a constant. The value of $f(x)$ increases by $p$% for every increase of $x$ by 1. For which of the following functions, where $k$ is a constant, does the value of $g(x)$ increase by $p$% for every increase of $x$ by $\\frac{1}{4}$?",
+    "text": "$f(x)=k(1.83)^{x}$\nThe function $f$ is defined by the given equation, where $k$ is a constant. The value of $f(x)$ increases by $p\\%$ for every increase of $x$ by 1. For which of the following functions, where $k$ is a constant, does the value of $g(x)$ increase by $p\\%$ for every increase of $x$ by $\\frac{1}{4}$?",
     "choices": [
       {
         "id": "A",
@@ -1312,7 +1312,7 @@
     "rationale": null,
     "id": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_10",
     "testName": "August 2024 US Form B SAT Math Module 1",
-    "text": "The Mars Perseverance rover is a robot designed to collect samples of rock and soil. During an experiment, the rover moves at a constant speed on a straight path toward a designated target. The equation $ y = 390 - 142x $ gives the rover's remaining distance from its target $ y $, in meters, $ x $ hours after the start of the experiment. What is the best interpretation of 390 in this context?",
+    "text": "The Mars Perseverance rover is a robot designed to collect samples of rock and soil. During an experiment, the rover moves at a constant speed on a straight path toward a designated target. The equation $y = 390 - 142x$ gives the rover's remaining distance from its target $y$, in meters, $x$ hours after the start of the experiment. What is the best interpretation of 390 in this context?",
     "choices": [
       {
         "id": "A",
@@ -1342,7 +1342,7 @@
     "rationale": null,
     "id": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_11",
     "testName": "August 2024 US Form B SAT Math Module 1",
-    "text": "The graph of a polynomial function $ y = f(x) $ in the $ xy $-plane passes through the point (8,9). What is the value of $ f(8) $?",
+    "text": "The graph of a polynomial function $y = f(x)$ in the $xy$-plane passes through the point (8,9). What is the value of $f(8)$?",
     "choices": [
       {
         "id": "A",
@@ -1552,7 +1552,7 @@
     "rationale": null,
     "id": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_18",
     "testName": "August 2024 US Form B SAT Math Module 1",
-    "text": "In the triangle shown, $ RS = \\sqrt{157} $. What is the value of $\\sin R$?",
+    "text": "In the triangle shown, $RS = \\sqrt{157}$. What is the value of $\\sin R$?",
     "choices": [],
     "correctAnswer": "78/79,0.987,.9873",
     "type": "free-response"
@@ -1698,7 +1698,7 @@
     "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_2",
     "testName": "August 2024 US Form B SAT Math Module 2",
-    "text": "If 8($x$ + 3) = 64, what is the value of $x$ + 3?",
+    "text": "If $8(x + 3) = 64$, what is the value of $x$ + 3?",
     "choices": [
       {
         "id": "A",
@@ -1818,7 +1818,7 @@
     "rationale": null,
     "id": "29b11893-ee0c-48ae-8103-403d9652ad14_6",
     "testName": "August 2024 US Form B SAT Math Module 2",
-    "text": "Which expression is equivalent to $ (6t^4 - 3t^2 + 3t - 6) - (2t^4 - 4t^3 + 6t^2 - 6) $?",
+    "text": "Which expression is equivalent to $(6t^4 - 3t^2 + 3t - 6) - (2t^4 - 4t^3 + 6t^2 - 6)$?",
     "choices": [
       {
         "id": "A",
@@ -3342,7 +3342,7 @@
     "rationale": null,
     "id": "9377a50a-f782-492e-a3bf-a2b90698cacc_2",
     "testName": "August 2025 International Form B SAT Math Module 1",
-    "text": "$25 \\leq x \\leq 65$ represents the speed of the car, in miles per hour, on this part of the trip.",
+    "text": "The speed of a car on part of a trip is at least 25 miles per hour and at most 65 miles per hour. If $x$ represents the speed of the car, in miles per hour, on this part of the trip, which inequality represents this situation?",
     "choices": [
       {
         "id": "A",
@@ -4552,7 +4552,7 @@
     "rationale": null,
     "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_7",
     "testName": "December 2024 International Form A SAT Math Module 1",
-    "text": "The relationship between the variables $r$ and $y$ is defined by an exponential equation. When $x = 0$, the value of $y$ is 90, and for every increase in the value of $x$ by 1, the corresponding value of $y$ increases by 20% of its previous value. Which equation represents this relationship?",
+    "text": "The relationship between the variables $x$ and $y$ is defined by an exponential equation. When $x = 0$, the value of $y$ is 90, and for every increase in the value of $x$ by 1, the corresponding value of $y$ increases by 20% of its previous value. Which equation represents this relationship?",
     "choices": [
       {
         "id": "A",
@@ -5239,7 +5239,7 @@
     "rationale": null,
     "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_13",
     "testName": "December 2024 International Form A SAT Math Module 2",
-    "text": "$5x^m$\nIn the given expression, 5 is a constant and $x > 1$. The expression can be rewritten as $7x$. What is the value of $m$?",
+    "text": "$\\sqrt[7]{x^5}$\nIn the given expression, $m$ is a constant and $x > 1$. The expression can be rewritten as $x^m$. What is the value of $m$?",
     "choices": [],
     "correctAnswer": "5/7,0.714,.7143",
     "type": "free-response"
@@ -6162,7 +6162,7 @@
     "rationale": null,
     "id": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_13",
     "testName": "December 2024 International Form B SAT Math Module 2",
-    "text": "$5x^m$\nIn the given expression, $m$ is a constant and $x > 1$. The expression can be rewritten as $4x$. What is the value of $m$?",
+    "text": "$\\sqrt[4]{x^5}$\nIn the given expression, $m$ is a constant and $x > 1$. The expression can be rewritten as $x^m$. What is the value of $m$?",
     "choices": [],
     "correctAnswer": "5/4,1.25",
     "type": "free-response"
@@ -6175,7 +6175,7 @@
     "rationale": null,
     "id": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_14",
     "testName": "December 2024 International Form B SAT Math Module 2",
-    "text": "$y = 16 + 14(x - 1)$ describes this situation, where $y$ is the total cost, in dollars, for books purchased during a month, $x$ is the number of books purchased during the month, and $x > 0$",
+    "text": "A book-of-the-month club charges \\$16 for the first book purchased during the month and an additional \\$14 for each book after the first. Which equation describes this situation, where $y$ is the total cost, in dollars, for books purchased during a month, $x$ is the number of books purchased during the month, and $x > 0$?",
     "choices": [
       {
         "id": "A",
@@ -6338,7 +6338,7 @@
     "rationale": null,
     "id": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_22",
     "testName": "December 2024 International Form B SAT Math Module 2",
-    "text": "In the figure shown, points $A$, $B$, $C$, and $E$ lie on the circle, and $AB < BC$. Segment $AC$ is perpendicular to segment $BE$ at point $D$, and $BD = \\sqrt{286}$. The diameter of the circle is 145. If $r = ?$ what is the value of $r$?",
+    "text": "In the figure shown, points $A$, $B$, $C$, and $E$ lie on the circle, and $AB < BC$. Segment $AC$ is perpendicular to segment $BE$ at point $D$, and $BD = \\sqrt{286}$. The diameter of the circle is 145. If $\\frac{CD}{AD}=r$, what is the value of $r$?",
     "choices": [],
     "correctAnswer": "71.5,143/2",
     "type": "free-response"
@@ -7355,7 +7355,7 @@
     "rationale": null,
     "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_18",
     "testName": "December 2024 International Form C SAT Math Module 2",
-    "text": "The equation $N(m) = 65(Q)^{\\frac{m}{4}}$ gives the predicted population $N(m)$, in thousands, of a certain bacteria colony $m$ minutes after the initial measurement, where $Q$ is a constant greater than 1. The predicted population increases by $p$% every 120 seconds. What is the value of $p$ in terms of $Q$?",
+    "text": "The equation $N(m) = 65(Q)^{\\frac{m}{4}}$ gives the predicted population $N(m)$, in thousands, of a certain bacteria colony $m$ minutes after the initial measurement, where $Q$ is a constant greater than 1. The predicted population increases by $p\\%$ every 120 seconds. What is the value of $p$ in terms of $Q$?",
     "choices": [
       {
         "id": "A",
@@ -7909,7 +7909,7 @@
     "rationale": null,
     "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_19",
     "testName": "December 2024 US Form A SAT Math Module 1",
-    "text": "The function $h$ is defined by $h(x) = 14(2) - x + 7$. What is the value of $h(3)$?",
+    "text": "The function $h$ is defined by $h(x)=14(2)^{-x}+7$. What is the value of $h(3)$?",
     "choices": [
       {
         "id": "A",
@@ -9210,7 +9210,7 @@
     "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_11",
     "testName": "December 2024 US Form B SAT Math Module 2",
-    "text": "The shaded region shown represents the solutions to the inequality $ ry < 128 $, where $ r $ is a constant. What is the value of $ r $?",
+    "text": "The shaded region shown represents the solutions to the inequality $ry < 128$, where $r$ is a constant. What is the value of $r$?",
     "choices": [
       {
         "id": "A",
@@ -9270,7 +9270,7 @@
     "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_13",
     "testName": "December 2024 US Form B SAT Math Module 2",
-    "text": "$f(x)=3,950(0.38)^{\\frac{x}{12}}$\nThe function $f$ gives the value, in dollars, of a certain piece of equipment after $x$ months of use. If the value of the equipment decreases each year by $p$% of its value the preceding year, what is the value of $p$?",
+    "text": "$f(x)=3,950(0.38)^{\\frac{x}{12}}$\nThe function $f$ gives the value, in dollars, of a certain piece of equipment after $x$ months of use. If the value of the equipment decreases each year by $p\\%$ of its value the preceding year, what is the value of $p$?",
     "choices": [
       {
         "id": "A",
@@ -9330,7 +9330,7 @@
     "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_15",
     "testName": "December 2024 US Form B SAT Math Module 2",
-    "text": "$5x - 3y = 15$ is an equation of the graph shown?",
+    "text": "Which of the following is an equation of the graph shown?",
     "choices": [
       {
         "id": "A",
@@ -9755,7 +9755,7 @@
     "rationale": null,
     "id": "9c1847da-e82b-4814-a0ec-0b4f99891322_13",
     "testName": "December 2024 US Form C SAT Math Module 1",
-    "text": "$x + 2y = 19$\n$5x + y = 2$\nThe solution to the given system of equations is ($x$, $y$). What is the value of $6x + 3y$?",
+    "text": "$x + 2y = 19$\n$5x + y = 2$\nThe solution to the given system of equations is $(x, y)$. What is the value of $6x + 3y$?",
     "choices": [
       {
         "id": "A",
@@ -10094,7 +10094,7 @@
     "rationale": null,
     "id": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_4",
     "testName": "December 2024 US Form C SAT Math Module 2",
-    "text": "$y=0.25x^{2}-7.5x+95.25$ The equation gives the estimated stock price $y$, in dollars, for a certain company $x$ days after the company went public, where $0 \\leq x \\leq 20$. Which statement is the best interpretation of $(x, y) = (1, 88)$ in this context?",
+    "text": "$y=0.25x^{2}-7.5x+95.25$\nThe equation gives the estimated stock price $y$, in dollars, for a certain company $x$ days after the company went public, where $0 \\leq x \\leq 20$. Which statement is the best interpretation of $(x, y) = (1, 88)$ in this context?",
     "choices": [
       {
         "id": "A",
@@ -10167,7 +10167,7 @@
     "rationale": null,
     "id": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_7",
     "testName": "December 2024 US Form C SAT Math Module 2",
-    "text": "The graph shows the total amount of rainfall $ y $, in centimeters, from the start of a 10-hour period, where $ x $ is the number of hours after the start of the period. What was the average rate of change of the total amount of rainfall over time, in centimeters per hour, from $ x = 0 $ to $ x = 5 $?",
+    "text": "The graph shows the total amount of rainfall $y$, in centimeters, from the start of a 10-hour period, where $x$ is the number of hours after the start of the period. What was the average rate of change of the total amount of rainfall over time, in centimeters per hour, from $x = 0$ to $x = 5$?",
     "choices": [],
     "correctAnswer": "0.6/,3/5",
     "type": "free-response"
@@ -10403,7 +10403,7 @@
     "rationale": null,
     "id": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_17",
     "testName": "December 2024 US Form C SAT Math Module 2",
-    "text": "The equation $N(m)=65(Q)^{\\frac{m}{6}}$ gives the predicted population N(m), in thousands, of a certain bacteria colony m minutes after the initial measurement, where Q is a constant greater than 1. The predicted population increases by p% every 180 seconds. What is the value of p in terms of Q?",
+    "text": "The equation $N(m)=65(Q)^{\\frac{m}{6}}$ gives the predicted population $N(m)$, in thousands, of a certain bacteria colony $m$ minutes after the initial measurement, where $Q$ is a constant greater than 1. The predicted population increases by $p\\%$ every 180 seconds. What is the value of $p$ in terms of $Q$?",
     "choices": [
       {
         "id": "A",
@@ -10489,7 +10489,7 @@
     "rationale": null,
     "id": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_21",
     "testName": "December 2024 US Form C SAT Math Module 2",
-    "text": "$rx^2 - 28sx + 7r$\nIn the given equation, $r$ is a positive constant, and $s$ is a negative constant. The equation has two solutions. If $\\frac{r}{s} > k$, what's the minimum value of $k$? ______________",
+    "text": "$rx^2 - 28sx + 7r=0$\nIn the given equation, $r$ is a positive constant, and $s$ is a negative constant. The equation has two solutions. If $\\frac{r}{s} > k$, what is the minimum value of $k$?",
     "choices": [],
     "correctAnswer": "-5.29,-2*sqrt(7)",
     "type": "free-response"
@@ -10824,7 +10824,7 @@
     "rationale": null,
     "id": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_14",
     "testName": "June 2024 International Form A SAT Math Module 1",
-    "text": "The table shows four values of $a$ and their corresponding values of $y$. There is a linear relationship between $x$ and $y$. Which of the following equations represents this relationship?",
+    "text": "The table shows four values of $x$ and their corresponding values of $y$. There is a linear relationship between $x$ and $y$. Which of the following equations represents this relationship?",
     "choices": [
       {
         "id": "A",
@@ -11385,7 +11385,7 @@
       },
       {
         "id": "D",
-        "text": "neither A nor B"
+        "text": "Neither I nor II"
       }
     ],
     "correctAnswer": "A",
@@ -11927,7 +11927,7 @@
     "rationale": null,
     "id": "6b1e987d-70b0-4072-9d03-3ebd56371518_15",
     "testName": "June 2024 US Form A SAT Math Module 1",
-    "text": "The graph of $ y = f(x) $ is shown where $ f(x) = ax^3 + bx^2 + cx + d $ and $ a $, $ b $, $ c $, and $ d $ are constants. For how many distinct values of $ x $ does $ f(x) = 0 $?",
+    "text": "The graph of $y = f(x)$ is shown where $f(x) = ax^3 + bx^2 + cx + d$ and $a$, $b$, $c$, and $d$ are constants. For how many distinct values of $x$ does $f(x) = 0$?",
     "choices": [
       {
         "id": "A",
@@ -12099,7 +12099,7 @@
     "rationale": null,
     "id": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_1",
     "testName": "June 2024 US Form A SAT Math Module 2",
-    "text": "The bar graph shows the distribution of flower type for the 700 flowers that a florist has in stock.\nType of flower\nFor which two types of flowers is the total number of flowers of the two types exactly $\\frac{2}{5}$ of the florist's stock?",
+    "text": "The bar graph shows the distribution of flower type for the 700 flowers that a florist has in stock.\nFor which two types of flowers is the total number of flowers of the two types exactly $\\frac{2}{5}$ of the florist's stock?",
     "choices": [
       {
         "id": "A",
@@ -12279,7 +12279,7 @@
     "rationale": null,
     "id": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_7",
     "testName": "June 2024 US Form A SAT Math Module 2",
-    "text": "In triangle FGH and triangle KLM, the measures of angles G and L are each $30°$. The lengths of $\\overline{GH}$ and $\\overline{LM}$ are each 34 centimeters, and $\\frac{GH}{GF}=\\frac{LM}{LK}$. Which additional piece of information would be necessary to prove that triangle FGH is congruent to triangle KLM?",
+    "text": "In triangle FGH and triangle KLM, the measures of angles G and L are each $30^\\circ$. The lengths of $\\overline{GH}$ and $\\overline{LM}$ are each 34 centimeters, and $\\frac{GH}{GF}=\\frac{LM}{LK}$. Which additional piece of information would be necessary to prove that triangle FGH is congruent to triangle KLM?",
     "choices": [
       {
         "id": "A",
@@ -12287,11 +12287,11 @@
       },
       {
         "id": "B",
-        "text": "The measures of angles H and M are each $60°$"
+        "text": "The measures of angles H and M are each $60^\\circ$"
       },
       {
         "id": "C",
-        "text": "The measures of angles F and K are each $90°$"
+        "text": "The measures of angles F and K are each $90^\\circ$"
       },
       {
         "id": "D",
@@ -12584,7 +12584,7 @@
     "rationale": null,
     "id": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_21",
     "testName": "June 2024 US Form A SAT Math Module 2",
-    "text": "$x$ $g(x)$\n-21 2\n-9 0\n15 4\nThe table shows three values of $x$ and their corresponding values of $g(x)$, where $g(x)= \\frac{f(x)}{x+3}$ and $f$ is a linear function. What is the $y$-intercept of the graph of $y = f(x)$ in the $xy$-plane?",
+    "text": "<table class=\"cb-table\">\n<thead><tr><th>$x$</th><th>$g(x)$</th></tr></thead>\n<tbody>\n<tr><td>$-21$</td><td>$2$</td></tr>\n<tr><td>$-9$</td><td>$0$</td></tr>\n<tr><td>$15$</td><td>$4$</td></tr>\n</tbody>\n</table>\n\nThe table shows three values of $x$ and their corresponding values of $g(x)$, where $g(x)= \\frac{f(x)}{x+3}$ and $f$ is a linear function. What is the $y$-intercept of the graph of $y = f(x)$ in the $xy$-plane?",
     "choices": [
       {
         "id": "A",
@@ -12734,7 +12734,7 @@
     "rationale": null,
     "id": "e5d516e8-dc0a-449f-9696-276e786df83f_5",
     "testName": "June 2024 US Form B SAT Math Module 1",
-    "text": "The function g is defined by g(x) = $\\frac{8}{9}x - \\frac{4}{9}$. What is the value of g(18)?",
+    "text": "The function $g$ is defined by $g(x)=\\frac{8}{9}x-\\frac{4}{9}$. What is the value of $g(18)$?",
     "choices": [
       {
         "id": "A",
@@ -14202,7 +14202,7 @@
     "rationale": null,
     "id": "23a951fb-833f-4b27-9978-4eb054f855e2_21",
     "testName": "June 2024 US Form C SAT Math Module 1",
-    "text": "The quadratic function $ f $ has a factor of $ (x + 5.75) $ and a zero at $ x = c $, where $ c $ is a positive constant. The graph of $ y = f(x) $ in the $ xy $-plane has its vertex at $ (-1.75, -d) $, where $ d $ is a positive constant. What is the value of $ c $?",
+    "text": "The quadratic function $f$ has a factor of $(x + 5.75)$ and a zero at $x = c$, where $c$ is a positive constant. The graph of $y = f(x)$ in the $xy$-plane has its vertex at $(-1.75, -d)$, where $d$ is a positive constant. What is the value of $c$?",
     "choices": [
       {
         "id": "A",
@@ -14262,7 +14262,7 @@
     "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_1",
     "testName": "June 2024 US Form C SAT Math Module 2",
-    "text": "The graph of a rational function is shown for some values of $ x $. What is the $ y $-coordinate of the $ y $-intercept of the graph?",
+    "text": "The graph of a rational function is shown for some values of $x$. What is the $y$-coordinate of the $y$-intercept of the graph?",
     "choices": [],
     "correctAnswer": "-3",
     "type": "free-response"
@@ -14275,7 +14275,7 @@
     "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_2",
     "testName": "June 2024 US Form C SAT Math Module 2",
-    "text": "Monarch butterflies can fly only with a body temperature of at least $55.0$ degrees Fahrenheit (°F). If a monarch butterfly's body temperature is $34.3$°F, what is the minimum increase needed in its body temperature, in °F, so that it can fly?",
+    "text": "Monarch butterflies can fly only with a body temperature of at least $55.0$ degrees Fahrenheit (°F). If a monarch butterfly's body temperature is $34.3^\\circ\\text{F}$, what is the minimum increase needed in its body temperature, in °F, so that it can fly?",
     "choices": [
       {
         "id": "A",
@@ -14365,7 +14365,7 @@
     "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_5",
     "testName": "June 2024 US Form C SAT Math Module 2",
-    "text": "A dog has a mass of 36 kilograms. What is the dog's mass, in <u>grams</u>?(1 kilogram = 1,000 grams)",
+    "text": "A dog has a mass of 36 kilograms. What is the dog's mass, in <u>grams</u>? (1 kilogram = 1,000 grams)",
     "choices": [
       {
         "id": "A",
@@ -14468,7 +14468,7 @@
     "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_9",
     "testName": "June 2024 US Form C SAT Math Module 2",
-    "text": "$4x+5y=77$ represents this situation. If there are 8 Rosa sericea flowers in this group, how many Rosa caesia flowers are in this group?",
+    "text": "$4x+5y=77$ represents this situation, where $x$ is the number of Rosa sericea flowers and $y$ is the number of Rosa caesia flowers in the group. If there are 8 Rosa sericea flowers in this group, how many Rosa caesia flowers are in this group?",
     "choices": [
       {
         "id": "A",
@@ -14691,23 +14691,23 @@
     "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_17",
     "testName": "June 2024 US Form C SAT Math Module 2",
-    "text": "The given equation relates the positive numbers $ p $, $ x $, and $ y $. Which equation correctly expresses $ y $ in terms of $ p $ and $ x $?",
+    "text": "$\\frac{y-34}{x}=p$\nThe given equation relates the positive numbers $p$, $x$, and $y$. Which equation correctly expresses $y$ in terms of $p$ and $x$?",
     "choices": [
       {
         "id": "A",
-        "text": "$ y = 34x + p $"
+        "text": "$y = 34x + p$"
       },
       {
         "id": "B",
-        "text": "$ y = px + 34 $"
+        "text": "$y = px + 34$"
       },
       {
         "id": "C",
-        "text": "$ y = 34px $"
+        "text": "$y = 34px$"
       },
       {
         "id": "D",
-        "text": "$ y = \\frac{px}{34} $"
+        "text": "$y = \\frac{px}{34}$"
       }
     ],
     "correctAnswer": "B",
@@ -15048,7 +15048,7 @@
     "rationale": null,
     "id": "6197d48e-7c76-4333-af39-0b9aa39e924c_14",
     "testName": "June 2025 International Form A SAT Math Module 1",
-    "text": "For $x > 0$, the function $f$ is defined as follows:\n$f(x)$ equals 293% of $x$\nWhich of the following could describe this function?",
+    "text": "For $x > 0$, the function $f$ is defined as follows:\n$f(x)=293\\%$ of $x$\nWhich of the following could describe this function?",
     "choices": [
       {
         "id": "A",
@@ -15704,7 +15704,7 @@
     "rationale": null,
     "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_18",
     "testName": "June 2025 International Form A SAT Math Module 2",
-    "text": "For what value of $x$ is the expression $\\sqrt[15]{272n^8}$ equivalent to $(272n)^{30x}$, where $n > 1$?",
+    "text": "For what value of $x$ is the expression $\\sqrt[15]{(272n)^8}$ equivalent to $(272n)^{30x}$, where $n > 1$?",
     "choices": [],
     "correctAnswer": "4/225",
     "type": "free-response"
@@ -15717,7 +15717,7 @@
     "rationale": null,
     "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_20",
     "testName": "June 2025 International Form A SAT Math Module 2",
-    "text": "The table shows three values of $x$ and their corresponding values of $g(x)$, where $g(x)=\\frac{f(x)}{x+4}$ and $f$ is a linear function. What is the y-intercept of the graph of $y = f(x)$ in the $xy$-plane?",
+    "text": "<table class=\"cb-table\">\n<thead><tr><th>$x$</th><th>$g(x)$</th></tr></thead>\n<tbody>\n<tr><td>$-24$</td><td>$3$</td></tr>\n<tr><td>$-9$</td><td>$0$</td></tr>\n<tr><td>$16$</td><td>$5$</td></tr>\n</tbody>\n</table>\n\nThe table shows three values of $x$ and their corresponding values of $g(x)$, where $g(x)=\\frac{f(x)}{x+4}$ and $f$ is a linear function. What is the y-intercept of the graph of $y = f(x)$ in the $xy$-plane?",
     "choices": [
       {
         "id": "A",
@@ -15747,7 +15747,7 @@
     "rationale": null,
     "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_21",
     "testName": "June 2025 International Form A SAT Math Module 2",
-    "text": "The mass of object A is 438% of the mass of object B, and the mass of object A is 0.073% of the mass of object C. If the mass of object C is $p$% of the mass of object B, what is the value of $\\frac{p}{1000}$?",
+    "text": "The mass of object A is 438% of the mass of object B, and the mass of object A is 0.073% of the mass of object C. If the mass of object C is $p\\%$ of the mass of object B, what is the value of $\\frac{p}{1000}$?",
     "choices": [],
     "correctAnswer": "600",
     "type": "free-response"
@@ -16803,7 +16803,7 @@
     "rationale": null,
     "id": "a7146625-47ea-49cb-9061-578e226240d5_5",
     "testName": "June 2025 US Form A SAT Math Module 1",
-    "text": "The function g is defined by $g(x)=\\frac{5}{9}x-\\frac{7}{9}$. What is the value of $g(18)?$",
+    "text": "The function g is defined by $g(x)=\\frac{5}{9}x-\\frac{7}{9}$. What is the value of $g(18)$?",
     "choices": [
       {
         "id": "A",
@@ -17434,7 +17434,7 @@
     "rationale": null,
     "id": "a240b08f-646d-4227-8b1f-fadf4c312b08_20",
     "testName": "June 2025 US Form A SAT Math Module 2",
-    "text": "The percent increase in mass of a certain red kangaroo from 80 days old to 160 days old was 676 %. If this red kangaroo's mass was k grams at 80 days old, which expression represents its mass, in grams, at 160 days old?",
+    "text": "The percent increase in mass of a certain red kangaroo from 80 days old to 160 days old was 676%. If this red kangaroo's mass was k grams at 80 days old, which expression represents its mass, in grams, at 160 days old?",
     "choices": [
       {
         "id": "A",
@@ -17464,7 +17464,7 @@
     "rationale": null,
     "id": "a240b08f-646d-4227-8b1f-fadf4c312b08_21",
     "testName": "June 2025 US Form A SAT Math Module 2",
-    "text": "The table shows three values of $x$ and their corresponding values of $g(x)$, where $g(x)=\\frac{f(x)}{x+3}$ and $f$ is a linear function. What is the $y$-intercept of the graph of $y=f(x)$ in the $xy$-plane?",
+    "text": "<table class=\"cb-table\">\n<thead><tr><th>$x$</th><th>$g(x)$</th></tr></thead>\n<tbody>\n<tr><td>$-21$</td><td>$2$</td></tr>\n<tr><td>$-9$</td><td>$0$</td></tr>\n<tr><td>$15$</td><td>$4$</td></tr>\n</tbody>\n</table>\n\nThe table shows three values of $x$ and their corresponding values of $g(x)$, where $g(x)=\\frac{f(x)}{x+3}$ and $f$ is a linear function. What is the $y$-intercept of the graph of $y=f(x)$ in the $xy$-plane?",
     "choices": [
       {
         "id": "A",
@@ -18395,7 +18395,7 @@
     "rationale": null,
     "id": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_18",
     "testName": "March 2025 International Form A SAT Math Module 2",
-    "text": "In the figure, $\\overline{LQ}$ intersects $\\overline{MP}$ at point $R$, and $\\overline{LM}$ is parallel to $\\overline{PQ}$. The lengths of $\\overline{MR}$ and $\\overline{RP}$ are 8 and 14 units, respectively. The area of $△LMR$ is 36 square units. What is the area of $△PQR$, in square units?",
+    "text": "In the figure, $\\overline{LQ}$ intersects $\\overline{MP}$ at point $R$, and $\\overline{LM}$ is parallel to $\\overline{PQ}$. The lengths of $\\overline{MR}$ and $\\overline{RP}$ are 8 and 14 units, respectively. The area of $\\triangle LMR$ is 36 square units. What is the area of $\\triangle PQR$, in square units?",
     "choices": [
       {
         "id": "A",
@@ -19258,7 +19258,7 @@
     "rationale": null,
     "id": "b310cd51-4e49-46d2-99c8-70a10c0d83f9_18",
     "testName": "March 2025 International Form B SAT Math Module 2",
-    "text": "A square map has a side length of 45 inches, and 1 inch on the map represents an actual distance of 13 miles. A smaller version of the same map is printed as a square with the side length 70 % shorter than the side length of the previous map. On the smaller map, which of the following is closest to the actual distance, in miles, represented by 1 inch?",
+    "text": "A square map has a side length of 45 inches, and 1 inch on the map represents an actual distance of 13 miles. A smaller version of the same map is printed as a square with the side length 70% shorter than the side length of the previous map. On the smaller map, which of the following is closest to the actual distance, in miles, represented by 1 inch?",
     "choices": [
       {
         "id": "A",
@@ -19679,7 +19679,7 @@
     "rationale": null,
     "id": "ba06b998-d854-4b29-830c-15d877280c75_18",
     "testName": "March 2025 International Form C SAT Math Module 1",
-    "text": "The graph of $ y = f(x) $ is shown, where $ f(x) = abx + c $, and $ a $, $ b $, and $ c $ are constants. For how many values of $ x $ does $ f(x) = 0 $?",
+    "text": "The graph of $ y = f(x) $ is shown, where $f(x)=ab^x+c$, and $ a $, $ b $, and $ c $ are constants. For how many values of $ x $ does $ f(x) = 0 $?",
     "choices": [
       {
         "id": "A",
@@ -20078,7 +20078,7 @@
     "rationale": null,
     "id": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_11",
     "testName": "March 2025 International Form C SAT Math Module 2",
-    "text": "The function $f$ is defined by $f(x) = -10(3)x + \\frac{1}{k}$, where $k$ is a constant. If $y = f(x)$ is graphed in the $xy$-plane, what is the $y$-coordinate of the $y$-intercept of the graph?",
+    "text": "The function $f$ is defined by $f(x) = -10(3)^x + \\frac{1}{k}$, where $k$ is a constant. If $y = f(x)$ is graphed in the $xy$-plane, what is the $y$-coordinate of the $y$-intercept of the graph?",
     "choices": [
       {
         "id": "A",
@@ -20512,7 +20512,7 @@
     "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_11",
     "testName": "March 2025 International Form D SAT Math Module 1",
-    "text": "which expression is equivalent to $(158y)^{\\frac{1}{2}}$,where $y > 1$?",
+    "text": "Which expression is equivalent to $(158y)^{\\frac{1}{2}}$, where $y > 1$?",
     "choices": [
       {
         "id": "A",
@@ -20658,7 +20658,7 @@
     "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_18",
     "testName": "March 2025 International Form D SAT Math Module 1",
-    "text": "The difference between the measure of angle A and the measure of angle B is $-5\\pi$ radians. Which expression shows the difference between the measure of angle A and the measure of angle B, in degrees?",
+    "text": "The difference between the measure of angle A and the measure of angle B is $-\\frac{5}{12}\\pi$ radians. Which expression shows the difference between the measure of angle A and the measure of angle B, in degrees?",
     "choices": [
       {
         "id": "A",
@@ -20804,7 +20804,7 @@
     "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_2",
     "testName": "March 2025 International Form D SAT Math Module 2",
-    "text": "Which of the following lists represents a data set with the smallest standard deviaton?",
+    "text": "Which of the following lists represents a data set with the smallest standard deviation?",
     "choices": [
       {
         "id": "A",
@@ -21087,7 +21087,7 @@
     "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_12",
     "testName": "March 2025 International Form D SAT Math Module 2",
-    "text": "The graph shows a linear relationship between $x$ and $y$, which equation represents this relationship, where $P$ is a positive constant?",
+    "text": "The graph shows a linear relationship between $x$ and $y$, which equation represents this relationship, where $R$ is a positive constant?",
     "choices": [
       {
         "id": "A",
@@ -21984,7 +21984,7 @@
     "rationale": null,
     "id": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_9",
     "testName": "March 2025 International Form E SAT Math Module 2",
-    "text": "The graph of $ y = f(x) $ is shown, where $ f(x) = ab^2 + c $, and $ a $, $ b $, and $ c $ are constants. For how many values of $ x $ does $ f(x) = 0 $?",
+    "text": "The graph of $ y = f(x) $ is shown, where $ f(x) = ab^x + c $, and $ a $, $ b $, and $ c $ are constants. For how many values of $ x $ does $ f(x) = 0 $?",
     "choices": [
       {
         "id": "A",
@@ -22147,7 +22147,7 @@
     "rationale": null,
     "id": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_15",
     "testName": "March 2025 International Form E SAT Math Module 2",
-    "text": "$7p^{4}=x^{\\frac{5}{4}}$\nIn the given equation, $p > 1$ and $t > 1$. If $t = p^{2n-1}$, where $n$ is a constant, what is the value of $n$?",
+    "text": "$p^{\\frac{5}{4}}=t^{\\frac{7}{4}}$\nIn the given equation, $p > 1$ and $t > 1$. If $t = p^{2n-1}$, where $n$ is a constant, what is the value of $n$?",
     "choices": [],
     "correctAnswer": "6/7",
     "type": "free-response"
@@ -22478,7 +22478,7 @@
     "rationale": null,
     "id": "9c629a63-5faf-46a6-929d-d4196f7c3150_13",
     "testName": "March 2025 US Form A SAT Math Module 1",
-    "text": "$s(t)=184(0.5)^{\\frac{t}{29}}$ gives the approximate mass of this isotope, in grams, that remains $t$ years after a 184-gram sample starts to decay. Which statement is the best interpretation of $s(58)= 46$ in this context?",
+    "text": "$s(t)=184(0.5)^{\\frac{t}{29}}$ gives the approximate mass of a certain isotope, in grams, that remains $t$ years after a 184-gram sample starts to decay. Which statement is the best interpretation of $s(58)= 46$ in this context?",
     "choices": [
       {
         "id": "A",
@@ -22624,7 +22624,7 @@
     "rationale": null,
     "id": "9c629a63-5faf-46a6-929d-d4196f7c3150_21",
     "testName": "March 2025 US Form A SAT Math Module 1",
-    "text": "In triangle $RST$, the measure of angle $R$ is $50º$, the measure of angle $S$ is $xº,$ and the measure of angle $T$ is $(4x - 5)º$. Point $L$ lies on $\\overline{RS}$, point $K$ lies on $\\overline{ST}$, and $\\overline{LK}$ is parallel to $\\overline{RT}$. What is the measure, in degrees, of angle $SKL$? (Disregard the degree symbol when entering your answer.)",
+    "text": "In triangle $RST$, the measure of angle $R$ is $50^\\circ$, the measure of angle $S$ is $x^\\circ$, and the measure of angle $T$ is $(4x - 5)^\\circ$. Point $L$ lies on $\\overline{RS}$, point $K$ lies on $\\overline{ST}$, and $\\overline{LK}$ is parallel to $\\overline{RT}$. What is the measure, in degrees, of angle $SKL$? (Disregard the degree symbol when entering your answer.)",
     "choices": [],
     "correctAnswer": "103",
     "type": "free-response"
@@ -22817,7 +22817,7 @@
     "rationale": null,
     "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_7",
     "testName": "March 2025 US Form A SAT Math Module 2",
-    "text": "$f(x)=(2x-3)(x+8)$\n$g(x)=3(6x-9)$\nThe functions $f$ and $g$ are defined by the equations shown. Which of the following is equivalent to $f(x)$ - $g(x)$?",
+    "text": "$f(x)=(2x-3)(x+8)$\n$g(x)=3(6x-9)$\nThe functions $f$ and $g$ are defined by the equations shown. Which of the following is equivalent to $f(x)-g(x)$?",
     "choices": [
       {
         "id": "A",
@@ -23667,7 +23667,7 @@
     "rationale": null,
     "id": "00907d99-e579-47a8-ac65-658aadef4aa7_22",
     "testName": "March 2025 US Form B SAT Math Module 1",
-    "text": "The equation of the graph shown is $ y = az + b $, where $ a $ and $ b $ are constants. What is the value of $ a - b $?",
+    "text": "The equation of the graph shown is $y=a^x+b$, where $ a $ and $ b $ are constants. What is the value of $ a - b $?",
     "choices": [],
     "correctAnswer": "9",
     "type": "free-response"
@@ -24169,7 +24169,7 @@
     "rationale": null,
     "id": "35bd5fb1-7659-4393-b736-241352b7187e_20",
     "testName": "March 2025 US Form B SAT Math Module 2",
-    "text": "The functions $f$ and $g$ are defined by the equations shown, where $a$ and $b$ are integer constants, $a < b$ and $b < 0$. If $y = f(x)$ and $y = g(x)$ are graphed in the $xy$-plane, which of the following equations displays, as a constant or coefficient, the $y$-coordinate of the $y$-intercept of the graph of the corresponding function?\nI. $f(x) = a(2.1)x + b$\nII. $g(x) = a(2.1)x + b$",
+    "text": "The functions $f$ and $g$ are defined by the equations shown, where $a$ and $b$ are integer constants, $a < b$ and $b < 0$. If $y = f(x)$ and $y = g(x)$ are graphed in the $xy$-plane, which of the following equations displays, as a constant or coefficient, the $y$-coordinate of the $y$-intercept of the graph of the corresponding function?\nI. $f(x) = a(2.1)^x + b$\nII. $g(x) = a(2.1)^x + b$",
     "choices": [
       {
         "id": "A",
@@ -24199,7 +24199,7 @@
     "rationale": null,
     "id": "35bd5fb1-7659-4393-b736-241352b7187e_21",
     "testName": "March 2025 US Form B SAT Math Module 2",
-    "text": "The function $h$ is defined by $h(x) = -\\sqrt{x^2 + bc + c}$, where $b$ and $c$ are constants. In the $xy$-plane, the graph of $y = h(x)$ contains the points $(2, 0)$ and $(0, -\\sqrt{358})$. If $h(m) = 0$, what is the greatest possible value of $m$?",
+    "text": "The function $h$ is defined by $h(x) = -\\sqrt{x^2+bx+c}$, where $b$ and $c$ are constants. In the $xy$-plane, the graph of $y = h(x)$ contains the points $(2, 0)$ and $(0, -\\sqrt{358})$. If $h(m) = 0$, what is the greatest possible value of $m$?",
     "choices": [],
     "correctAnswer": "179",
     "type": "free-response"
@@ -24255,7 +24255,7 @@
     "rationale": null,
     "id": "27590f35-8d6e-45c6-b665-222acb5e516d_3",
     "testName": "May 2024 International Form A SAT Math Module 1",
-    "text": "Javier deposits $\\$45$ in a savings account at the end of each week. At the beginning of the 1st week of a year there was $\\$700$ in that savings account. How much money, in dollars, will be in the account at the end of the 6th week of the year?",
+    "text": "Javier deposits \\$45 in a savings account at the end of each week. At the beginning of the 1st week of a year there was \\$700 in that savings account. How much money, in dollars, will be in the account at the end of the 6th week of the year?",
     "choices": [
       {
         "id": "A",
@@ -24963,23 +24963,23 @@
     "rationale": null,
     "id": "2f91d920-5520-4266-8a2d-a29c925c95c0_11",
     "testName": "May 2024 International Form A SAT Math Module 2",
-    "text": "Data set A: 8, 11, 12, 15, 21, 27\nData set B: 9, 12, 13, 16, 22, $ h $\nData sets A and B each consist of 6 values as shown, where $ h $ is a constant. If the standard deviation of data set A is greater than the standard deviation of data set B, which of the following could be the value of $ h $?\nⅠ. 23\nⅡ. 28\nⅢ. 29",
+    "text": "Data set A: 8, 11, 12, 15, 21, 27\nData set B: 9, 12, 13, 16, 22, $ h $\nData sets A and B each consist of 6 values as shown, where $ h $ is a constant. If the standard deviation of data set A is greater than the standard deviation of data set B, which of the following could be the value of $ h $?\nI. 23\nII. 28\nIII. 29",
     "choices": [
       {
         "id": "A",
-        "text": "Ⅰ only"
+        "text": "I only"
       },
       {
         "id": "B",
-        "text": "Ⅱ only"
+        "text": "II only"
       },
       {
         "id": "C",
-        "text": "Ⅲ only"
+        "text": "III only"
       },
       {
         "id": "D",
-        "text": "Ⅱ or Ⅲ"
+        "text": "II or III"
       }
     ],
     "correctAnswer": "A",
@@ -25242,23 +25242,23 @@
     "rationale": null,
     "id": "2f91d920-5520-4266-8a2d-a29c925c95c0_22",
     "testName": "May 2024 International Form A SAT Math Module 2",
-    "text": "In triangle $ABC$ and triangle $DEF$, sides $AB$ and $DE$ each have a side length of 6 inches and angles $A$ and $D$ each have an angle measure of 40°. Which of the following additional pieces of information is(are) sufficient to prove whether triangle $ABC$ is congruent to triangle $DEF$?\nⅠ. The measures of angles $B$ and $C$ are equal.\nⅡ. The lengths of sides $AC$ and $DF$ are equal.\nⅢ. The lengths of sides $BC$ and $EF$ are equal.",
+    "text": "In triangle $ABC$ and triangle $DEF$, sides $AB$ and $DE$ each have a side length of 6 inches and angles $A$ and $D$ each have an angle measure of 40°. Which of the following additional pieces of information is(are) sufficient to prove whether triangle $ABC$ is congruent to triangle $DEF$?\nI. The measures of angles $B$ and $C$ are equal.\nII. The lengths of sides $AC$ and $DF$ are equal.\nIII. The lengths of sides $BC$ and $EF$ are equal.",
     "choices": [
       {
         "id": "A",
-        "text": "Ⅰ is sufficient, but Ⅱ and Ⅲ are not."
+        "text": "I is sufficient, but II and III are not."
       },
       {
         "id": "B",
-        "text": "Ⅱ is sufficient, but Ⅰ and Ⅲ are not."
+        "text": "II is sufficient, but I and III are not."
       },
       {
         "id": "C",
-        "text": "Ⅲ is sufficient, but Ⅰ and Ⅱ are not."
+        "text": "III is sufficient, but I and II are not."
       },
       {
         "id": "D",
-        "text": "Ⅱ is sufficient and Ⅲ is sufficient, but Ⅰ is not."
+        "text": "II is sufficient and III is sufficient, but I is not."
       }
     ],
     "correctAnswer": "B",
@@ -26199,19 +26199,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "$y = \\frac{1}{2} (72,000) t$"
+        "text": "$y = \\frac{1}{2}(72,000)^t$"
       },
       {
         "id": "B",
-        "text": "$y = 2(72,000) t$"
+        "text": "$y = 2(72,000)^t$"
       },
       {
         "id": "C",
-        "text": "$y = 72,000\\left(\\frac{1}{2}\\right) t$"
+        "text": "$y = 72,000\\left(\\frac{1}{2}\\right)^t$"
       },
       {
         "id": "D",
-        "text": "$y = 72,000(2) t$"
+        "text": "$y = 72,000(2)^t$"
       }
     ],
     "correctAnswer": "D",
@@ -26796,7 +26796,7 @@
     "rationale": null,
     "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_21",
     "testName": "May 2024 International Form D SAT Math Module 1",
-    "text": "$z(w) = (0.835)^{3w}$\nThe function $z$ is defined by the equation shown. The value of $z(w)$ decreases by $p$% for each increase by 1 in the value of $w$. Which of the following is closest to the value of $p$?",
+    "text": "$z(w) = (0.835)^{3w}$\nThe function $z$ is defined by the equation shown. The value of $z(w)$ decreases by $p\\%$ for each increase by 1 in the value of $w$. Which of the following is closest to the value of $p$?",
     "choices": [
       {
         "id": "A",
@@ -30118,7 +30118,7 @@
     "rationale": null,
     "id": "cd2abd24-f96a-43e7-860f-be962ea69e08_13",
     "testName": "May 2024 US Form B SAT Math Module 2",
-    "text": "For the linear function $ f $, $ b $ is a constant and $ f(9) = 72 $. What is the value of $ b $?",
+    "text": "$f(x)=8x+b$\nFor the linear function $f$, $b$ is a constant and $f(9)=72$. What is the value of $b$?",
     "choices": [
       {
         "id": "A",
@@ -30577,7 +30577,7 @@
     "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_8",
     "testName": "May 2025 International Form A SAT Math Module 1",
-    "text": "In $\\triangle DEF$, the measure of $∠D$ is $114°$. Which of the following could be the measure, in degrees, of $∠E$?",
+    "text": "In $\\triangle DEF$, the measure of $\\angle D$ is $114^\\circ$. Which of the following could be the measure, in degrees, of $\\angle E$?",
     "choices": [
       {
         "id": "A",
@@ -30839,7 +30839,7 @@
     "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_20",
     "testName": "May 2025 International Form A SAT Math Module 1",
-    "text": "A rectangular banner has an area of 2,300 square inches. A copy of the banner is made in which the length and width of the original banner are each increased by 20 %. What is the area of the copy, in square inches?",
+    "text": "A rectangular banner has an area of 2,300 square inches. A copy of the banner is made in which the length and width of the original banner are each increased by 20%. What is the area of the copy, in square inches?",
     "choices": [
       {
         "id": "A",
@@ -31006,7 +31006,7 @@
     "choices": [
       {
         "id": "A",
-        "text": "A For each increase of $x$ by $1$, $t(x)$ increases by approximately $\\frac{2}{5}$"
+        "text": "For each increase of $x$ by $1$, $t(x)$ increases by approximately $\\frac{2}{5}$"
       },
       {
         "id": "B",
@@ -31440,7 +31440,7 @@
     "rationale": null,
     "id": "bd71c8f3-94e3-411f-929a-013a2ca9a277_1",
     "testName": "May 2025 International Form B SAT Math Module 1",
-    "text": "In triangle ABC, the measure of angle A is 34 ° and the measure of angle B is 90 °. What is the measure, in degrees, of angle C?",
+    "text": "In triangle ABC, the measure of angle A is $34^\\circ$ and the measure of angle B is $90^\\circ$. What is the measure, in degrees, of angle C?",
     "choices": [
       {
         "id": "A",
@@ -31938,7 +31938,7 @@
     "rationale": null,
     "id": "bd71c8f3-94e3-411f-929a-013a2ca9a277_21",
     "testName": "May 2025 International Form B SAT Math Module 1",
-    "text": "A rectangular poster has an area of 330 square inches. A copy of the poster is made in which the length and width of the original poster are each increased by 50 %. What is the area of the copy, in square inches?",
+    "text": "A rectangular poster has an area of 330 square inches. A copy of the poster is made in which the length and width of the original poster are each increased by 50%. What is the area of the copy, in square inches?",
     "choices": [],
     "correctAnswer": "742.5",
     "type": "free-response"
@@ -32101,7 +32101,7 @@
     "rationale": null,
     "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_5",
     "testName": "May 2025 International Form B SAT Math Module 2",
-    "text": "If 350 % of n is 35, what is the value of n?",
+    "text": "If 350% of n is 35, what is the value of n?",
     "choices": [
       {
         "id": "A",
@@ -33534,7 +33534,7 @@
     "rationale": null,
     "id": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_18",
     "testName": "November 2024 International Form A SAT Math Module 1",
-    "text": "The current value of a house is \\$174,000, and this value increases by 2.4% each year from the value of the previous year. Which function f gives the value, in dollars, of the house c years from now?",
+    "text": "The current value of a house is \\$174,000, and this value increases by 2.4% each year from the value of the previous year. Which function f gives the value, in dollars, of the house x years from now?",
     "choices": [
       {
         "id": "A",
@@ -34036,7 +34036,7 @@
     "rationale": null,
     "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_18",
     "testName": "November 2024 International Form A SAT Math Module 2",
-    "text": "A polygon has exactly 87 sides. If the measure of each of the 87 interior angles of this polygon is $180p$°, what is the value of $p$?",
+    "text": "A polygon has exactly 87 sides. If the measure of each of the 87 interior angles of this polygon is $180p^\\circ$, what is the value of $p$?",
     "choices": [],
     "correctAnswer": "85/87,0.977,.9770",
     "type": "free-response"
@@ -34079,7 +34079,7 @@
     "rationale": null,
     "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_20",
     "testName": "November 2024 International Form A SAT Math Module 2",
-    "text": "The function $f(n)=7(20.44)^{\\frac{n}{4}}$ gives each term of a sequence as a function of the term's position, $n$, in the sequence, where $n$ is a whole number. The value of the term in position 14 is $p$% more than the value of the term in position 10. What is the value of $p$?",
+    "text": "The function $f(n)=7(20.44)^{\\frac{n}{4}}$ gives each term of a sequence as a function of the term's position, $n$, in the sequence, where $n$ is a whole number. The value of the term in position 14 is $p\\%$ more than the value of the term in position 10. What is the value of $p$?",
     "choices": [
       {
         "id": "A",
@@ -34572,7 +34572,7 @@
     "rationale": null,
     "id": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_17",
     "testName": "November 2024 International Form B SAT Math Module 1",
-    "text": "For $x > 0$, the function $f$ is defined as follows:\n$f(x)$ equals 111% of $x$\nWhich of the following could describe this function?",
+    "text": "For $x > 0$, the function $f$ is defined as follows:\n$f(x)=111\\%$ of $x$\nWhich of the following could describe this function?",
     "choices": [
       {
         "id": "A",
@@ -35203,7 +35203,7 @@
     "rationale": null,
     "id": "390a8264-19b1-4de0-9dc9-09609eadd7ca_20",
     "testName": "November 2024 International Form B SAT Math Module 2",
-    "text": "An object's speed is increasing at a rate of $5.70$ meters per second squared. What is this rate, in <u> miles per minute squared, </u> rounded to the nearest tenth? (Use 1 mile = 1,609 meters.)",
+    "text": "An object's speed is increasing at a rate of $5.70$ meters per second squared. What is this rate, in miles per minute squared, rounded to the nearest tenth? (Use 1 mile = 1,609 meters.)",
     "choices": [],
     "correctAnswer": "12.7,12.8",
     "type": "free-response"
@@ -35388,7 +35388,7 @@
     "rationale": null,
     "id": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_13",
     "testName": "November 2024 International Form C SAT Math Module 1",
-    "text": "$5(3x+6) = 3(3x+6)+78$, what is the value of $3x+6$?",
+    "text": "If $5(3x+6) = 3(3x+6)+78$, what is the value of $3x+6$?",
     "choices": [
       {
         "id": "A",
@@ -35645,19 +35645,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "(-7,0)"
+        "text": "$(-7, 0)$"
       },
       {
         "id": "B",
-        "text": "(0,16)"
+        "text": "$(0, 16)$"
       },
       {
         "id": "C",
-        "text": "(0,-16)"
+        "text": "$(0, -16)$"
       },
       {
         "id": "D",
-        "text": "(7,0)"
+        "text": "$(7, 0)$"
       }
     ],
     "correctAnswer": "D",
@@ -35727,23 +35727,23 @@
     "rationale": null,
     "id": "b5883220-eb88-4f6b-8d82-979efee65d2d_14",
     "testName": "November 2024 International Form C SAT Math Module 2",
-    "text": "$\\frac{3x^{17}y^{5}}{5x^{2}\\sqrt{y^{8}}}$\n\nFor all positive values of $x$ and $y$, the given expression is equivalent to which of the following?\n\nⅠ. $\\frac{x^{\\frac{14}{3}}y^{\\frac{5}{3}}}{3}$\nⅡ. $\\frac{3x^{11}y^{2}}{5}$",
+    "text": "$\\frac{3x^{17}y^{5}}{5x^{2}\\sqrt{y^{8}}}$\n\nFor all positive values of $x$ and $y$, the given expression is equivalent to which of the following?\n\nI. $\\frac{x^{\\frac{14}{3}}y^{\\frac{5}{3}}}{3}$\nII. $\\frac{3x^{11}y^{2}}{5}$",
     "choices": [
       {
         "id": "A",
-        "text": "Ⅰ only"
+        "text": "I only"
       },
       {
         "id": "B",
-        "text": "Ⅱ only"
+        "text": "II only"
       },
       {
         "id": "C",
-        "text": "Ⅰ and Ⅱ"
+        "text": "I and II"
       },
       {
         "id": "D",
-        "text": "Neither Ⅰ nor Ⅱ"
+        "text": "Neither I nor II"
       }
     ],
     "correctAnswer": "D",
@@ -35787,7 +35787,7 @@
     "rationale": null,
     "id": "b5883220-eb88-4f6b-8d82-979efee65d2d_16",
     "testName": "November 2024 International Form C SAT Math Module 2",
-    "text": "The length of each edge of a box is $48$ centimeters. Each side of the box is in the shape of a square. The box does not have a lid. What is the exterior surface area, in square <u>meters</u>, of this box without a lid? (1 meter = 100 centimeters)",
+    "text": "The length of each edge of a box is $48$ centimeters. Each side of the box is in the shape of a square. The box does not have a lid. What is the exterior surface area, in square meters, of this box without a lid? (1 meter = 100 centimeters)",
     "choices": [],
     "correctAnswer": "1.152",
     "type": "free-response"
@@ -35976,7 +35976,7 @@
     "rationale": null,
     "id": "68b576c1-9de8-41d3-9840-538d4edcd113_2",
     "testName": "November 2024 International Form D SAT Math Module 1",
-    "text": "In the figure, two lines intersect at a point. If $γ$ = 61, what is the value of $s$?",
+    "text": "In the figure, two lines intersect at a point. If $r$ = 61, what is the value of $s$?",
     "choices": [],
     "correctAnswer": "61",
     "type": "free-response"
@@ -36302,7 +36302,7 @@
     "rationale": null,
     "id": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_10",
     "testName": "November 2024 International Form D SAT Math Module 2",
-    "text": "$y \\leq x + 15$\n$y \\geq -4x - 15$\nWhich point ($x$, $y$) is a solution to the given system of inequalities in the $xy$-plane?",
+    "text": "$y \\leq x + 15$\n$y \\geq -4x - 15$\nWhich point $(x, y)$ is a solution to the given system of inequalities in the $xy$-plane?",
     "choices": [
       {
         "id": "A",
@@ -36332,7 +36332,7 @@
     "rationale": null,
     "id": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_13",
     "testName": "November 2024 International Form D SAT Math Module 2",
-    "text": "Line $s$ in the $xy$-plane is defined by $8x+2y=0$, Line $t$ is perpendicular to line $s$ and passes through the points $(6, 0)$ and $(k,\\frac{5}{4})$. What is the value of $k$?",
+    "text": "Line $s$ in the $xy$-plane is defined by $8x+2y=0$. Line $t$ is perpendicular to line $s$ and passes through the points $(6, 0)$ and $(k,\\frac{5}{4})$. What is the value of $k$?",
     "choices": [],
     "correctAnswer": "11",
     "type": "free-response"
@@ -36345,23 +36345,23 @@
     "rationale": null,
     "id": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_14",
     "testName": "November 2024 International Form D SAT Math Module 2",
-    "text": "$\\frac{3x^{17}y^{5}}{5x^{2}\\sqrt{y^{8}}}$\n\nFor all positive values of $x$ and $y$, the given expression is equivalent to which of the following?\n\nⅠ. $\\frac{(x^{\\frac{14}{3}})(y^{\\frac{5}{3}})}{3}$\nⅡ. $\\frac{3x^{11}y^{2}}{5}$",
+    "text": "$\\frac{3x^{17}y^{5}}{5x^{2}\\sqrt{y^{8}}}$\n\nFor all positive values of $x$ and $y$, the given expression is equivalent to which of the following?\n\nI. $\\frac{(x^{\\frac{14}{3}})(y^{\\frac{5}{3}})}{3}$\nII. $\\frac{3x^{11}y^{2}}{5}$",
     "choices": [
       {
         "id": "A",
-        "text": "Ⅰ only"
+        "text": "I only"
       },
       {
         "id": "B",
-        "text": "Ⅱ only"
+        "text": "II only"
       },
       {
         "id": "C",
-        "text": "Ⅰ and Ⅱ"
+        "text": "I and II"
       },
       {
         "id": "D",
-        "text": "Neither Ⅰ nor Ⅱ"
+        "text": "Neither I nor II"
       }
     ],
     "correctAnswer": "D",
@@ -36375,7 +36375,7 @@
     "rationale": null,
     "id": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_16",
     "testName": "November 2024 International Form D SAT Math Module 2",
-    "text": "The length of each edge of a box is 48 centimeters. Each side of the box is in the shape of a square. The box does not have a lid. What is the exterior surface area, in square <u>meters</u>, of this box without a lid? (1 meter = 100 centimeters)",
+    "text": "The length of each edge of a box is 48 centimeters. Each side of the box is in the shape of a square. The box does not have a lid. What is the exterior surface area, in square meters, of this box without a lid? (1 meter = 100 centimeters)",
     "choices": [],
     "correctAnswer": "1.152",
     "type": "free-response"
@@ -36418,7 +36418,7 @@
     "rationale": null,
     "id": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_20",
     "testName": "November 2024 International Form D SAT Math Module 2",
-    "text": "In isosceles triangle $ABC$, sides $AB$ and $AC$ are congruent. Point $D$ divides side $BC$ such that the length of $\\overline{BD}$ is $\\frac{4}{7}$ of the length of $\\overline{BC}$. Point $E$ lies on side $AB$ and point $F$ lies on side $AC$ such that when segments $DE$ and $DF$ are drawn, angle $\\angle BED$ is congruent to angle $\\angle CFD$. If the length of $\\overline{BE}$ is 8, what is the length of $\\overline{CF}$?",
+    "text": "In isosceles triangle $ABC$, sides $AB$ and $AC$ are congruent. Point $D$ divides side $BC$ such that the length of $\\overline{BD}$ is $\\frac{4}{7}$ of the length of $\\overline{BC}$. Point $E$ lies on side $AB$ and point $F$ lies on side $AC$ such that when segments $DE$ and $DF$ are drawn, $\\angle BED$ is congruent to $\\angle CFD$. If the length of $\\overline{BE}$ is 8, what is the length of $\\overline{CF}$?",
     "choices": [],
     "correctAnswer": "6",
     "type": "free-response"
@@ -36431,7 +36431,7 @@
     "rationale": null,
     "id": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_21",
     "testName": "November 2024 International Form D SAT Math Module 2",
-    "text": "The area of a rectangular region is increasing at a rate of $270$ square feet per hour. Which of the following is closest to this rate in <u> square meters per minute </u>? (Use $1$ meter = $3.28$ feet.)",
+    "text": "The area of a rectangular region is increasing at a rate of $270$ square feet per hour. Which of the following is closest to this rate in square meters per minute? (Use $1$ meter = $3.28$ feet.)",
     "choices": [
       {
         "id": "A",
@@ -36650,7 +36650,7 @@
     "rationale": null,
     "id": "6f7157fc-7e47-4e83-add3-e372915177ec_9",
     "testName": "November 2024 US Form A SAT Math Module 1",
-    "text": "$13x + 14y = 423$ represents this situation. Which of the following is the best interpretation of $y$ in this context?",
+    "text": "At a store, long-sleeved shirts cost \\$14 each and short-sleeved shirts cost \\$13 each. The store sells a total of $x$ short-sleeved shirts and $y$ long-sleeved shirts for \\$423.\n$13x + 14y = 423$\nWhich of the following is the best interpretation of $y$ in this context?",
     "choices": [
       {
         "id": "A",
@@ -37075,7 +37075,7 @@
     "rationale": null,
     "id": "f3ade8fe-06c3-4b9c-a658-8857621e692f_4",
     "testName": "November 2024 US Form A SAT Math Module 2",
-    "text": "What is the $y$-intercept of the graph of $y = 12(5)x + 2$ in the $xy$-plane?",
+    "text": "What is the $y$-intercept of the graph of $y = 12(5)^{x+2}$ in the $xy$-plane?",
     "choices": [
       {
         "id": "A",
@@ -37268,7 +37268,7 @@
     "rationale": null,
     "id": "f3ade8fe-06c3-4b9c-a658-8857621e692f_12",
     "testName": "November 2024 US Form A SAT Math Module 2",
-    "text": "For an online trivia game, 490 points are awarded for a correct answer if a question is answered in less than 5 seconds from the time the question is asked. Each 5 seconds after the question is asked, the number of points awarded for a correct answer decreases by 20% of the number of points awarded for a correct answer in the previous 5 seconds. Which function gives the number of points awarded for a correct answer $a$ seconds from the time the question is asked, where $x$ is a multiple of 5?",
+    "text": "For an online trivia game, 490 points are awarded for a correct answer if a question is answered in less than 5 seconds from the time the question is asked. Each 5 seconds after the question is asked, the number of points awarded for a correct answer decreases by 20% of the number of points awarded for a correct answer in the previous 5 seconds. Which function gives the number of points awarded for a correct answer $x$ seconds from the time the question is asked, where $x$ is a multiple of 5?",
     "choices": [
       {
         "id": "A",
@@ -37487,7 +37487,7 @@
     "rationale": null,
     "id": "f3ade8fe-06c3-4b9c-a658-8857621e692f_22",
     "testName": "November 2024 US Form A SAT Math Module 2",
-    "text": "The mass of object A is 416% of the mass of object B, and the mass of object A is 0.064% of the mass of object C. If the mass of object C is $p$% of the mass of object B, what is the value of $\\frac{p}{1,000}$?",
+    "text": "The mass of object A is $416\\%$ of the mass of object B, and the mass of object A is $0.064\\%$ of the mass of object C. If the mass of object C is $p\\%$ of the mass of object B, what is the value of $\\frac{p}{1,000}$?",
     "choices": [],
     "correctAnswer": "650",
     "type": "free-response"
@@ -38440,7 +38440,7 @@
     "rationale": null,
     "id": "e5001da0-8895-4b72-8d22-da29586dc907_22",
     "testName": "November 2024 US Form B SAT Math Module 2",
-    "text": "The mass of object A is 498% of the mass of object B, and the mass of object A is 0.830% of the mass of object C. If the mass of object C is $p$% of the mass of object B, what is the value of $p$?",
+    "text": "The mass of object A is $498\\%$ of the mass of object B, and the mass of object A is $0.830\\%$ of the mass of object C. If the mass of object C is $p\\%$ of the mass of object B, what is the value of $p$?",
     "choices": [],
     "correctAnswer": "60000",
     "type": "free-response"
@@ -38483,7 +38483,7 @@
     "rationale": null,
     "id": "ad300285-6ff9-46a9-97ab-7356c9cd2965_3",
     "testName": "October 2024 International Form A SAT Math Module 1",
-    "text": "For the linear function $f$, the graph of $y= f(x)$ in the $xy$-plane has a slope of $\\frac{1}{4}$ and passes through the point $(0, 5)$. which equation defnes $f$?",
+    "text": "For the linear function $f$, the graph of $y= f(x)$ in the $xy$-plane has a slope of $\\frac{1}{4}$ and passes through the point $(0, 5)$. Which equation defines $f$?",
     "choices": [
       {
         "id": "A",
@@ -38904,7 +38904,7 @@
     "rationale": null,
     "id": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_1",
     "testName": "October 2024 International Form A SAT Math Module 2",
-    "text": "As part of a science experiment on evaporation, Ella measured the height of water in aglass over a period of time. The function $f(x)=39-0.18x$ gives the estimated height in centimeters (cm), of the water in the glass $x$ days after the start of the experiment. Which of the following is the best interpretation of 39 in this context?",
+    "text": "As part of a science experiment on evaporation, Ella measured the height of water in a glass over a period of time. The function $f(x)=39-0.18x$ gives the estimated height in centimeters (cm), of the water in the glass $x$ days after the start of the experiment. Which of the following is the best interpretation of 39 in this context?",
     "choices": [
       {
         "id": "A",
@@ -39123,7 +39123,7 @@
     "rationale": null,
     "id": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_14",
     "testName": "October 2024 International Form A SAT Math Module 2",
-    "text": "$y=2x^{2}-15x+23$\n$y=x+a$\nIn the given system of equations, $a$ is a constant, The graphs of the equations in the given system intersect at exactly one point, $(x, y)$, in the $xy$-plane. What is the value of $x$?",
+    "text": "$y=2x^{2}-15x+23$\n$y=x+a$\nIn the given system of equations, $a$ is a constant. The graphs of the equations in the given system intersect at exactly one point, $(x, y)$, in the $xy$-plane. What is the value of $x$?",
     "choices": [
       {
         "id": "A",
@@ -39183,23 +39183,23 @@
     "rationale": null,
     "id": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_16",
     "testName": "October 2024 International Form A SAT Math Module 2",
-    "text": "The functions $f$ and $g$ are defined by the given equations below, where $x > 0$. Which of the following equations displays, as a constant or coefficient, the minimum value of the function it defines, where $x > 0$?\nⅠ. $f(x)=18(1.4)^{x+5}$\nⅡ. $g(x)=18(1.16)(1.4)^{x+3}$",
+    "text": "The functions $f$ and $g$ are defined by the given equations below, where $x > 0$. Which of the following equations displays, as a constant or coefficient, the minimum value of the function it defines, where $x > 0$?\nI. $f(x)=18(1.4)^{x+5}$\nII. $g(x)=18(1.16)(1.4)^{x+3}$",
     "choices": [
       {
         "id": "A",
-        "text": "Ⅰ only"
+        "text": "I only"
       },
       {
         "id": "B",
-        "text": "Ⅱ only"
+        "text": "II only"
       },
       {
         "id": "C",
-        "text": "Ⅰ and Ⅱ"
+        "text": "I and II"
       },
       {
         "id": "D",
-        "text": "Neither Ⅰ nor Ⅱ"
+        "text": "Neither I nor II"
       }
     ],
     "correctAnswer": "D",
@@ -39608,7 +39608,7 @@
     "rationale": null,
     "id": "b79b2afa-5519-4128-ab30-39cfd5c26d43_13",
     "testName": "October 2024 International Form B SAT Math Module 1",
-    "text": "In triangle $DEF$, the measure of angle $D$ is 40º and the measure of angle $E$ is 95º. In triangle $RST$, the measure of angle $R$ is 40º and the measure of angle $S$ is 95º. Which of the following additional pieces of information is needed to determine whether triangle $DEF$ is similar to triangle $RST$?",
+    "text": "In triangle $DEF$, the measure of angle $D$ is $40^\\circ$ and the measure of angle $E$ is $95^\\circ$. In triangle $RST$, the measure of angle $R$ is $40^\\circ$ and the measure of angle $S$ is $95^\\circ$. Which of the following additional pieces of information is needed to determine whether triangle $DEF$ is similar to triangle $RST$?",
     "choices": [
       {
         "id": "A",
@@ -40282,23 +40282,23 @@
     "rationale": null,
     "id": "e3fe84c7-8083-48b8-863b-841355113ba0_20",
     "testName": "October 2024 International Form B SAT Math Module 2",
-    "text": "$7x + 5y = 2$\nThe given equation is one equation in a system of two linear equations. If the system of equations has at least one solution, which of the following equations could be the other equation in the system?\nⅠ. $10.5x + 7.5y = 3$\nⅡ. $10.5x - 7.5y = 3$",
+    "text": "$7x + 5y = 2$\nThe given equation is one equation in a system of two linear equations. If the system of equations has at least one solution, which of the following equations could be the other equation in the system?\nI. $10.5x + 7.5y = 3$\nII. $10.5x - 7.5y = 3$",
     "choices": [
       {
         "id": "A",
-        "text": "Ⅰ only"
+        "text": "I only"
       },
       {
         "id": "B",
-        "text": "Ⅱ only"
+        "text": "II only"
       },
       {
         "id": "C",
-        "text": "Ⅰ and Ⅱ"
+        "text": "I and II"
       },
       {
         "id": "D",
-        "text": "Neither Ⅰ nor Ⅱ"
+        "text": "Neither I nor II"
       }
     ],
     "correctAnswer": "C",
@@ -40930,7 +40930,7 @@
     "rationale": null,
     "id": "d7afa874-519b-4f1b-b45f-1c75ea45613b_4",
     "testName": "October 2024 International Form C SAT Math Module 2",
-    "text": "A model predicts that the population of a certain town was 3,000 in 2007. The model also predicts that each year for the next 5 years, the population $p$ increased by 8% of the previous year's population. Which equation best represents this model, where $a$ is the number of years after 2007, for $x \\leq 5$?",
+    "text": "A model predicts that the population of a certain town was 3,000 in 2007. The model also predicts that each year for the next 5 years, the population $p$ increased by 8% of the previous year's population. Which equation best represents this model, where $x$ is the number of years after 2007, for $x \\leq 5$?",
     "choices": [
       {
         "id": "A",
@@ -41248,23 +41248,23 @@
     "rationale": null,
     "id": "d7afa874-519b-4f1b-b45f-1c75ea45613b_20",
     "testName": "October 2024 International Form C SAT Math Module 2",
-    "text": "$6x + 3y = 5$\nThe given equation is one equation in a system of two linear equations. If the system of equations has at least one solution, which of the following equations could be the other equation in the system?\nⅠ. $9x + 4.5y = 7.5$\nⅡ. $9x - 4.5y = 7.5$",
+    "text": "$6x + 3y = 5$\nThe given equation is one equation in a system of two linear equations. If the system of equations has at least one solution, which of the following equations could be the other equation in the system?\nI. $9x + 4.5y = 7.5$\nII. $9x - 4.5y = 7.5$",
     "choices": [
       {
         "id": "A",
-        "text": "Ⅰ only"
+        "text": "I only"
       },
       {
         "id": "B",
-        "text": "Ⅱ only"
+        "text": "II only"
       },
       {
         "id": "C",
-        "text": "Ⅰ and Ⅱ"
+        "text": "I and II"
       },
       {
         "id": "D",
-        "text": "Neither Ⅰ nor Ⅱ"
+        "text": "Neither I nor II"
       }
     ],
     "correctAnswer": "C",
@@ -41368,7 +41368,7 @@
     "rationale": null,
     "id": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_3",
     "testName": "October 2024 US Form A SAT Math Module 1",
-    "text": "For a particular tree species, it is recommended to plant a maximum of 111 trees per acre.Based on this recommendation, what is the maximum number of trees of this species that can be planted on 2 acres?",
+    "text": "For a particular tree species, it is recommended to plant a maximum of 111 trees per acre. Based on this recommendation, what is the maximum number of trees of this species that can be planted on 2 acres?",
     "choices": [
       {
         "id": "A",
@@ -41458,7 +41458,7 @@
     "rationale": null,
     "id": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_6",
     "testName": "October 2024 US Form A SAT Math Module 1",
-    "text": "In $△$ JKL, the measures of both $\\angle$J and $\\angle$K are equal and the measure of $\\angle$L is 136°. What is the measure of $\\angle$J?",
+    "text": "In $\\triangle JKL$, the measures of both $\\angle J$ and $\\angle K$ are equal and the measure of $\\angle L$ is 136°. What is the measure of $\\angle J$?",
     "choices": [
       {
         "id": "A",
@@ -42274,23 +42274,23 @@
     "rationale": null,
     "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_18",
     "testName": "October 2024 US Form A SAT Math Module 2",
-    "text": "The functions $f$ and $g$ are defined by the given equations below, where $x \\geq 0$. Which of the following equations displays, as a constant or coefficient, the minimum value of the function it defines, where $x \\geq 0$?\nⅠ. $f(x)=16(1.3)^{x+5}$\nⅠⅠ. $g(x)=16(1.09)(1.3)^{x+3}$",
+    "text": "The functions $f$ and $g$ are defined by the given equations below, where $x \\geq 0$. Which of the following equations displays, as a constant or coefficient, the minimum value of the function it defines, where $x \\geq 0$?\nI. $f(x)=16(1.3)^{x+5}$\nII. $g(x)=16(1.09)(1.3)^{x+3}$",
     "choices": [
       {
         "id": "A",
-        "text": "Ⅰ only"
+        "text": "I only"
       },
       {
         "id": "B",
-        "text": "ⅠⅠ only"
+        "text": "II only"
       },
       {
         "id": "C",
-        "text": "Ⅰ and ⅠⅠ"
+        "text": "I and II"
       },
       {
         "id": "D",
-        "text": "Neither I nor ⅠⅠ"
+        "text": "Neither I nor II"
       }
     ],
     "correctAnswer": "D",
@@ -42364,7 +42364,7 @@
     "rationale": null,
     "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_21",
     "testName": "October 2024 US Form A SAT Math Module 2",
-    "text": "The table shows three values of $a$ and their corresponding values of $g(x)$, where $g(x)=\\frac{f(x)}{x+3}$ and $f$ is a linear function. What is the $y$-intercept of the graph of $y = f(x)$ in the $xy$-plane?",
+    "text": "<table class=\"cb-table\">\n<thead><tr><th>$x$</th><th>$g(x)$</th></tr></thead>\n<tbody>\n<tr><td>$-15$</td><td>$3$</td></tr>\n<tr><td>$-6$</td><td>$0$</td></tr>\n<tr><td>$9$</td><td>$5$</td></tr>\n</tbody>\n</table>\n\nThe table shows three values of $x$ and their corresponding values of $g(x)$, where $g(x)=\\frac{f(x)}{x+3}$ and $f$ is a linear function. What is the $y$-intercept of the graph of $y = f(x)$ in the $xy$-plane?",
     "choices": [
       {
         "id": "A",
@@ -42909,7 +42909,7 @@
     "rationale": null,
     "id": "b05db4ac-dd48-4b3f-b365-b39330c879e5_2",
     "testName": "October 2024 US Form B SAT Math Module 2",
-    "text": "$1.87c + 2.37t \\leq 20$ represents the relationship between the number of cans of food, $c$, and the number of bags of treats, $t$, the shopper can buy.",
+    "text": "A shopper goes to a pet store to buy dog food and treats. The shopper has \\$20. Each can of food costs \\$1.87, and each bag of treats costs \\$2.37. Which inequality represents the relationship between the number of cans of food, $c$, and the number of bags of treats, $t$, the shopper can buy?",
     "choices": [
       {
         "id": "A",
@@ -43085,7 +43085,7 @@
     "rationale": null,
     "id": "b05db4ac-dd48-4b3f-b365-b39330c879e5_10",
     "testName": "October 2024 US Form B SAT Math Module 2",
-    "text": "11 65 7 70 5 75 4 80 3 85 6 90 5 95 10 Total 51\nAri will add a 135-year-old stamp to her original collection, creating a new collection of 52 stamps. Which statement correctly compares the mean ages and median ages of Ari's original and new collections?",
+    "text": "<table class=\"cb-table\"><thead><tr><th>Age of stamp (years)</th><th>Frequency</th></tr></thead><tbody><tr><td>$65$</td><td>$11$</td></tr><tr><td>$70$</td><td>$7$</td></tr><tr><td>$75$</td><td>$5$</td></tr><tr><td>$80$</td><td>$4$</td></tr><tr><td>$85$</td><td>$3$</td></tr><tr><td>$90$</td><td>$6$</td></tr><tr><td>$95$</td><td>$5$</td></tr><tr><td>Total</td><td>$51$</td></tr></tbody></table>\nAri will add a 135-year-old stamp to her original collection, creating a new collection of 52 stamps. Which statement correctly compares the mean ages and median ages of Ari's original and new collections?",
     "choices": [
       {
         "id": "A",
@@ -43274,23 +43274,23 @@
     "rationale": null,
     "id": "b05db4ac-dd48-4b3f-b365-b39330c879e5_21",
     "testName": "October 2024 US Form B SAT Math Module 2",
-    "text": "The functions $f$ and $g$ are defined by the equations shown, where $a$ and $b$ are integer constants, $a < b$ and $b < 0$. If $y = f(x)$ and $y = g(x)$ are graphed in the $xy$-plane, which of the following equations displays, as a constant or coefficient, the $y$ coordinate of the $y$-intercept of the graph of the corresponding function?\nⅠ. $f(x)=a(3.3)^{x+b}$\nⅡ. $g(x)=a(3.3)^{x}+b$",
+    "text": "The functions $f$ and $g$ are defined by the equations shown, where $a$ and $b$ are integer constants, $a < b$ and $b < 0$. If $y = f(x)$ and $y = g(x)$ are graphed in the $xy$-plane, which of the following equations displays, as a constant or coefficient, the $y$ coordinate of the $y$-intercept of the graph of the corresponding function?\nI. $f(x)=a(3.3)^{x+b}$\nII. $g(x)=a(3.3)^{x}+b$",
     "choices": [
       {
         "id": "A",
-        "text": "Ⅰ only"
+        "text": "I only"
       },
       {
         "id": "B",
-        "text": "Ⅱ only"
+        "text": "II only"
       },
       {
         "id": "C",
-        "text": "Ⅰ and Ⅱ"
+        "text": "I and II"
       },
       {
         "id": "D",
-        "text": "Neither Ⅰ nor Ⅱ"
+        "text": "Neither I nor II"
       }
     ],
     "correctAnswer": "D",
@@ -43420,7 +43420,7 @@
     "rationale": null,
     "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_5",
     "testName": "October 2024 US Form C SAT Math Module 1",
-    "text": "In $△$ FGH, the measures of $\\angle$F and $\\angle$G are each 39°. What is the measure of $\\angle$H?",
+    "text": "In $\\triangle FGH$, the measures of $\\angle F$ and $\\angle G$ are each 39°. What is the measure of $\\angle H$?",
     "choices": [
       {
         "id": "A",
@@ -43652,7 +43652,7 @@
     "rationale": null,
     "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_16",
     "testName": "October 2024 US Form C SAT Math Module 1",
-    "text": "g(x)= $\\frac{2}{7} x+ \\frac{8}{5}$\nh(x)=5x-7\nThe functions $g$ and $h$ are defined by the equations shown. Which expression is equivalent to $g(x) \\cdot h(x)$?",
+    "text": "$g(x)=\\frac{2}{7}x+\\frac{8}{5}$\n$h(x)=5x-7$\nThe functions $g$ and $h$ are defined by the equations shown. Which expression is equivalent to $g(x) \\cdot h(x)$?",
     "choices": [
       {
         "id": "A",
@@ -44137,7 +44137,7 @@
     "rationale": null,
     "id": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_18",
     "testName": "October 2024 US Form C SAT Math Module 2",
-    "text": "A line intersects two parallel lines, forming four acute angles and four obtuse angles. The measure of one of the acute angles is $7x - 610$°. The sum of the measures of one of the acute angles and three of the obtuse angles is $-14x + w$°. What is the value of $w$?",
+    "text": "A line intersects two parallel lines, forming four acute angles and four obtuse angles. The measure of one of the acute angles is $(7x - 610)^\\circ$. The sum of the measures of one of the acute angles and three of the obtuse angles is $(-14x + w)^\\circ$. What is the value of $w$?",
     "choices": [],
     "correctAnswer": "1760",
     "type": "free-response"
@@ -44150,7 +44150,7 @@
     "rationale": null,
     "id": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_19",
     "testName": "October 2024 US Form C SAT Math Module 2",
-    "text": "The given equation relates the positive variables $p$, $q$, $r$, and $s$. Which of the following is equivalent to $q$?",
+    "text": "$\\frac{1}{q}=\\frac{1}{p}+\\frac{1}{r}+\\frac{1}{s}$\nThe given equation relates the positive variables $p$, $q$, $r$, and $s$. Which of the following is equivalent to $q$?",
     "choices": [
       {
         "id": "A",
@@ -44609,7 +44609,7 @@
     "rationale": null,
     "id": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_15",
     "testName": "October 2025 International Form A SAT Math Module 1",
-    "text": "In right triangle $ABC$, the tangent of $∠C$ is $\\frac{3}{4}$. What is the length of $\\overline{AB}$?",
+    "text": "In right triangle $ABC$, the tangent of $\\angle C$ is $\\frac{3}{4}$. What is the length of $\\overline{AB}$?",
     "choices": [
       {
         "id": "A",
@@ -44738,7 +44738,7 @@
     "rationale": null,
     "id": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_21",
     "testName": "October 2025 International Form A SAT Math Module 1",
-    "text": "The positive number $a$ is 290% of the number $b$ and $a$ is 90% of the number $c$. If $c$ is $p$% of $b$, which of the following is closest to the value of $p$?",
+    "text": "The positive number $a$ is 290% of the number $b$ and $a$ is 90% of the number $c$. If $c$ is $p\\%$ of $b$, which of the following is closest to the value of $p$?",
     "choices": [
       {
         "id": "A",
@@ -45416,7 +45416,7 @@
     "rationale": null,
     "id": "70b33953-aa61-407d-a25a-a438792bed03_6",
     "testName": "October 2025 International Form B SAT Math Module 1",
-    "text": "The positive number $a$ is 240% of the number $b$, and $a$ is 70% of the number $c$. If $c$ is $p$% of $b$, which of the following is closest to the value of $p$?",
+    "text": "The positive number $a$ is 240% of the number $b$, and $a$ is 70% of the number $c$. If $c$ is $p\\%$ of $b$, which of the following is closest to the value of $p$?",
     "choices": [
       {
         "id": "A",
@@ -45716,7 +45716,7 @@
     "rationale": null,
     "id": "70b33953-aa61-407d-a25a-a438792bed03_16",
     "testName": "October 2025 International Form B SAT Math Module 1",
-    "text": "$a$ is 270% of the number $b$, and $a$ is 80% of the number $c$. If $c$ is $p$% of $b$, which of the following is closest to the value of $p$?",
+    "text": "$a$ is 270% of the number $b$, and $a$ is 80% of the number $c$. If $c$ is $p\\%$ of $b$, which of the following is closest to the value of $p$?",
     "choices": [
       {
         "id": "A",
@@ -46806,7 +46806,7 @@
     "rationale": null,
     "id": "1b1871b9-081a-47fd-9218-97b0bbc4a454_7",
     "testName": "October 2025 US Form A SAT Math Module 2",
-    "text": "$5c = 15$, what is the value of $5c - 8$?",
+    "text": "If $5c = 15$, what is the value of $5c - 8$?",
     "choices": [
       {
         "id": "A",
@@ -46836,7 +46836,7 @@
     "rationale": null,
     "id": "1b1871b9-081a-47fd-9218-97b0bbc4a454_8",
     "testName": "October 2025 US Form A SAT Math Module 2",
-    "text": "$k$ to $p$ is constant. If $k = 7$, then $p = 6$. What is the value of $k$ when $p = 336$?",
+    "text": "The ratio of $k$ to $p$ is constant. If $k = 7$, then $p = 6$. What is the value of $k$ when $p = 336$?",
     "choices": [
       {
         "id": "A",
@@ -46952,7 +46952,7 @@
     "rationale": null,
     "id": "1b1871b9-081a-47fd-9218-97b0bbc4a454_13",
     "testName": "October 2025 US Form A SAT Math Module 2",
-    "text": "$1,035x + 535y = 13,165$ represents the combined population of the city and the suburb adjacent to the city.",
+    "text": "A city has an area of $x$ square miles and a population density of 1,035 people per square mile. The suburb adjacent to the city has an area of $y$ square miles and a population density of 535 people per square mile. The combined population of the city and the suburb adjacent to the city is 13,165 people. Which equation represents this situation?",
     "choices": [
       {
         "id": "A",
@@ -47909,7 +47909,7 @@
     "rationale": null,
     "id": "39729166-8e92-42cc-8ed6-76acdb673a3c_10",
     "testName": "September 2025 International Form A SAT Math Module 2",
-    "text": "An exponential function f is defined by $f(x)=c^{x}$, where c is a constant greater than 1. If f(8)=(49) • f(6), what is the value of c?",
+    "text": "An exponential function f is defined by $f(x)=c^{x}$, where c is a constant greater than 1. If $f(8)=49\\cdot f(6)$, what is the value of c?",
     "choices": [],
     "correctAnswer": "7",
     "type": "free-response"
@@ -49364,7 +49364,7 @@
     "rationale": null,
     "id": "7d110811-1651-49a9-9be6-62e088b71c73_4",
     "testName": "September 2025 US Form B SAT Math Module 1",
-    "text": "For the first hours of an experiment, the scatterplot shows the temperature $y$, in degrees Fahrenheit ($°F$) of an object at various times $x$, in hours, since the start of the experiment. A line of best fit is also shown.\nWhich of the following is the best interpretation of the slope of the line of best fit?",
+    "text": "For the first 10 hours of an experiment, the scatterplot shows the temperature $y$, in degrees Fahrenheit ($\\text{°F}$) of an object at various times $x$, in hours, since the start of the experiment. A line of best fit is also shown.\nWhich of the following is the best interpretation of the slope of the line of best fit?",
     "choices": [
       {
         "id": "A",

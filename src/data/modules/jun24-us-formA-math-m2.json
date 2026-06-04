@@ -32,9 +32,9 @@
     "id": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_1",
     "images": [
       {
-        "src": "/images_labeled/2c578582-a4c6-4b17-a43d-0f06aaab91b7_1_q_01_FIX.png",
+        "src": "/images/SAT-Style%20Questions/2c578582-a4c6-4b17-a43d-0f06aaab91b7_1_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/2c578582-a4c6-4b17-a43d-0f06aaab91b7_1_q_01_FIX.png"
+        "local": "images/SAT-Style Questions/2c578582-a4c6-4b17-a43d-0f06aaab91b7_1_q_01_FIX.png"
       }
     ]
   },
@@ -71,9 +71,9 @@
     "id": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_2",
     "images": [
       {
-        "src": "/images_labeled/2c578582-a4c6-4b17-a43d-0f06aaab91b7_2_q_01_FIX.png",
+        "src": "/images/SAT-Style%20Questions/2c578582-a4c6-4b17-a43d-0f06aaab91b7_2_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/2c578582-a4c6-4b17-a43d-0f06aaab91b7_2_q_01_FIX.png"
+        "local": "images/SAT-Style Questions/2c578582-a4c6-4b17-a43d-0f06aaab91b7_2_q_01_FIX.png"
       }
     ]
   },
@@ -206,9 +206,9 @@
     "id": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_6",
     "images": [
       {
-        "src": "/images_labeled/2c578582-a4c6-4b17-a43d-0f06aaab91b7_6_q_01_FIX.png",
+        "src": "/images/SAT-Style%20Questions/2c578582-a4c6-4b17-a43d-0f06aaab91b7_6_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/2c578582-a4c6-4b17-a43d-0f06aaab91b7_6_q_01_FIX.png"
+        "local": "images/SAT-Style Questions/2c578582-a4c6-4b17-a43d-0f06aaab91b7_6_q_01_FIX.png"
       }
     ]
   },
@@ -324,9 +324,9 @@
     "id": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_10",
     "images": [
       {
-        "src": "/images_labeled/2c578582-a4c6-4b17-a43d-0f06aaab91b7_10_q_01_FIX.png",
+        "src": "/images/SAT-Style%20Questions/2c578582-a4c6-4b17-a43d-0f06aaab91b7_10_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/2c578582-a4c6-4b17-a43d-0f06aaab91b7_10_q_01_FIX.png"
+        "local": "images/SAT-Style Questions/2c578582-a4c6-4b17-a43d-0f06aaab91b7_10_q_01_FIX.png"
       }
     ]
   },
@@ -487,9 +487,9 @@
     "id": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_17",
     "images": [
       {
-        "src": "/images_labeled/2c578582-a4c6-4b17-a43d-0f06aaab91b7_17_q_01_FIX.png",
+        "src": "/images/SAT-Style%20Questions/2c578582-a4c6-4b17-a43d-0f06aaab91b7_17_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/2c578582-a4c6-4b17-a43d-0f06aaab91b7_17_q_01_FIX.png"
+        "local": "images/SAT-Style Questions/2c578582-a4c6-4b17-a43d-0f06aaab91b7_17_q_01_FIX.png"
       }
     ]
   },
@@ -596,7 +596,7 @@
     "difficulty": "Hard",
     "question_number": 21,
     "test_name": "June 2024 US Form A SAT Math Module 2",
-    "passage": "$x$ $g(x)$\n-21 2\n-9 0\n15 4\nThe table shows three values of $x$ and their corresponding values of $g(x)$, where $g(x)= \\frac{f(x)}{x+3}$ and $f$ is a linear function. What is the $y$-intercept of the graph of $y = f(x)$ in the $xy$-plane?",
+    "passage": "<table class=\"cb-table\">\n<thead><tr><th>$x$</th><th>$g(x)$</th></tr></thead>\n<tbody>\n<tr><td>$-21$</td><td>$2$</td></tr>\n<tr><td>$-9$</td><td>$0$</td></tr>\n<tr><td>$15$</td><td>$4$</td></tr>\n</tbody>\n</table>\n\nThe table shows three values of $x$ and their corresponding values of $g(x)$, where $g(x)= \\frac{f(x)}{x+3}$ and $f$ is a linear function. What is the $y$-intercept of the graph of $y = f(x)$ in the $xy$-plane?",
     "question_text": null,
     "choices": [
       {

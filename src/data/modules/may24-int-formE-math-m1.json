@@ -15,9 +15,9 @@
     "id": "3bf10f0c-6025-4955-91dc-118e340490f0_1",
     "images": [
       {
-        "src": "/images_labeled/3bf10f0c-6025-4955-91dc-118e340490f0_1_q_01_FIX.png",
+        "src": "/images/SAT-Style%20Questions/3bf10f0c-6025-4955-91dc-118e340490f0_1_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/3bf10f0c-6025-4955-91dc-118e340490f0_1_q_01_FIX.png"
+        "local": "images/SAT-Style Questions/3bf10f0c-6025-4955-91dc-118e340490f0_1_q_01_FIX.png"
       }
     ]
   },
@@ -54,9 +54,9 @@
     "id": "3bf10f0c-6025-4955-91dc-118e340490f0_2",
     "images": [
       {
-        "src": "/images_labeled/3bf10f0c-6025-4955-91dc-118e340490f0_2_q_01_FIX.png",
+        "src": "/images/SAT-Style%20Questions/3bf10f0c-6025-4955-91dc-118e340490f0_2_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/3bf10f0c-6025-4955-91dc-118e340490f0_2_q_01_FIX.png"
+        "local": "images/SAT-Style Questions/3bf10f0c-6025-4955-91dc-118e340490f0_2_q_01_FIX.png"
       }
     ]
   },
@@ -140,9 +140,9 @@
     "id": "3bf10f0c-6025-4955-91dc-118e340490f0_6",
     "images": [
       {
-        "src": "/images_labeled/3bf10f0c-6025-4955-91dc-118e340490f0_6_q_01_FIX.png",
+        "src": "/images/SAT-Style%20Questions/3bf10f0c-6025-4955-91dc-118e340490f0_6_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/3bf10f0c-6025-4955-91dc-118e340490f0_6_q_01_FIX.png"
+        "local": "images/SAT-Style Questions/3bf10f0c-6025-4955-91dc-118e340490f0_6_q_01_FIX.png"
       }
     ]
   },
@@ -179,9 +179,9 @@
     "id": "3bf10f0c-6025-4955-91dc-118e340490f0_7",
     "images": [
       {
-        "src": "/images_labeled/3bf10f0c-6025-4955-91dc-118e340490f0_7_q_01_FIX.png",
+        "src": "/images/SAT-Style%20Questions/3bf10f0c-6025-4955-91dc-118e340490f0_7_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/3bf10f0c-6025-4955-91dc-118e340490f0_7_q_01_FIX.png"
+        "local": "images/SAT-Style Questions/3bf10f0c-6025-4955-91dc-118e340490f0_7_q_01_FIX.png"
       }
     ]
   },
@@ -233,9 +233,9 @@
     "id": "3bf10f0c-6025-4955-91dc-118e340490f0_9",
     "images": [
       {
-        "src": "/images_labeled/3bf10f0c-6025-4955-91dc-118e340490f0_9_q_01_FIX.png",
+        "src": "/images/SAT-Style%20Questions/3bf10f0c-6025-4955-91dc-118e340490f0_9_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/3bf10f0c-6025-4955-91dc-118e340490f0_9_q_01_FIX.png"
+        "local": "images/SAT-Style Questions/3bf10f0c-6025-4955-91dc-118e340490f0_9_q_01_FIX.png"
       }
     ]
   },
@@ -394,25 +394,36 @@
     "choices": [
       {
         "label": "A",
-        "text": "• The parabola opens upward.\n• The vertex is at the point (2 comma 2).\n• The parabola passes through the following points:\n• (1 comma StartFraction 31 Over 10 EndFraction)\n• (2 comma 2)\n• (3 comma StartFraction 31 Over 10 EndFraction)"
+        "text": "• The parabola opens upward.\n• The vertex is at the point (2 comma 2).\n• The parabola passes through the following points:\n• (1 comma StartFraction 31 Over 10 EndFraction)\n• (2 comma 2)\n• (3 comma StartFraction 31 Over 10 EndFraction)",
+        "image": "/images/SAT-Style%20Questions/e9aed539_A.png"
       },
       {
         "label": "B",
-        "text": "• The parabola opens upward.\n• The vertex is at the point (2 comma negative 6).\n• The parabola passes through the following points:\n• (1 comma negative StartFraction 49 Over 10 EndFraction)\n• (2 comma negative 6)\n• (3 comma negative StartFraction 49 Over 10 EndFraction)"
+        "text": "• The parabola opens upward.\n• The vertex is at the point (2 comma negative 6).\n• The parabola passes through the following points:\n• (1 comma negative StartFraction 49 Over 10 EndFraction)\n• (2 comma negative 6)\n• (3 comma negative StartFraction 49 Over 10 EndFraction)",
+        "image": "/images/SAT-Style%20Questions/e9aed539_B.png"
       },
       {
         "label": "C",
-        "text": "• The parabola opens upward.\n• The vertex is at the point $(-2, -2)$.\n• The parabola passes through the following points:\n• $(-3, -\\frac{9}{10})$\n• $(-2, -2)$\n• $(-1, -\\frac{9}{10})$"
+        "text": "• The parabola opens upward.\n• The vertex is at the point $(-2, -2)$.\n• The parabola passes through the following points:\n• $(-3, -\\frac{9}{10})$\n• $(-2, -2)$\n• $(-1, -\\frac{9}{10})$",
+        "image": "/images/SAT-Style%20Questions/e9aed539_C.png"
       },
       {
         "label": "D",
-        "text": "• The parabola opens upward.\n• The vertex is at the point (6 comma negative 2).\n• The parabola passes through the following points:\n• (5 comma negative nine tenths)\n• (6 comma negative 2)\n• (7 comma negative nine tenths)"
+        "text": "• The parabola opens upward.\n• The vertex is at the point (6 comma negative 2).\n• The parabola passes through the following points:\n• (5 comma negative nine tenths)\n• (6 comma negative 2)\n• (7 comma negative nine tenths)",
+        "image": "/images/SAT-Style%20Questions/e9aed539_D.png"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
     "rationale": "Choice A is correct. When a graph is translated up $4$ units, each point on the resulting graph is $4$ units above the point on the original graph. In other words, the <em>y</em>-value of each point on the graph increases by $4$. The graph shown passes through the points $\\left(1,-1\\right)$, $\\left(2,-2\\right)$, and $\\left(3,-1\\right)$. It follows that when the graph shown is translated up $4$ units, the resulting graph will pass through the points $\\left(1,-1+4\\right)$, $\\left(2,-2+4\\right)$, and $\\left(3,-1+4\\right)$. These points are $\\left(1,3\\right)$, $\\left(2,2\\right)$, and $\\left(3,3\\right)$, respectively. Of the given choices, only the graph in choice A passes through the points $\\left(1,3\\right)$, $\\left(2,2\\right)$, and $\\left(3,3\\right)$.\nChoice B is incorrect. This is the result of translating the graph down, rather than up, $4$ units.\nChoice C is incorrect. This is the result of translating the graph left, rather than up, $4$ units.\nChoice D is incorrect. This is the result of translating the graph right, rather than up, $4$ units.",
-    "id": "e9aed539"
+    "id": "e9aed539",
+    "images": [
+      {
+        "src": "/images/SAT-Style%20Questions/e9aed539_fig_01.png",
+        "alt": "Graph shown for question 16",
+        "local": "images/SAT-Style Questions/e9aed539_fig_01.png"
+      }
+    ]
   },
   {
     "section": "Math",
@@ -430,9 +441,9 @@
     "id": "3bf10f0c-6025-4955-91dc-118e340490f0_17",
     "images": [
       {
-        "src": "/images_labeled/3bf10f0c-6025-4955-91dc-118e340490f0_17_q_01_FIX.png",
+        "src": "/images/SAT-Style%20Questions/3bf10f0c-6025-4955-91dc-118e340490f0_17_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/3bf10f0c-6025-4955-91dc-118e340490f0_17_q_01_FIX.png"
+        "local": "images/SAT-Style Questions/3bf10f0c-6025-4955-91dc-118e340490f0_17_q_01_FIX.png"
       }
     ]
   },
@@ -452,9 +463,9 @@
     "id": "3bf10f0c-6025-4955-91dc-118e340490f0_18",
     "images": [
       {
-        "src": "/images_labeled/3bf10f0c-6025-4955-91dc-118e340490f0_18_q_01_FIX.png",
+        "src": "/images/SAT-Style%20Questions/3bf10f0c-6025-4955-91dc-118e340490f0_18_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/3bf10f0c-6025-4955-91dc-118e340490f0_18_q_01_FIX.png"
+        "local": "images/SAT-Style Questions/3bf10f0c-6025-4955-91dc-118e340490f0_18_q_01_FIX.png"
       }
     ]
   },
@@ -555,9 +566,9 @@
     "id": "3bf10f0c-6025-4955-91dc-118e340490f0_21",
     "images": [
       {
-        "src": "/images_labeled/3bf10f0c-6025-4955-91dc-118e340490f0_21_q_01_FIX.png",
+        "src": "/images/SAT-Style%20Questions/3bf10f0c-6025-4955-91dc-118e340490f0_21_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/3bf10f0c-6025-4955-91dc-118e340490f0_21_q_01_FIX.png"
+        "local": "images/SAT-Style Questions/3bf10f0c-6025-4955-91dc-118e340490f0_21_q_01_FIX.png"
       }
     ]
   },
@@ -577,9 +588,9 @@
     "id": "3bf10f0c-6025-4955-91dc-118e340490f0_22",
     "images": [
       {
-        "src": "/images_labeled/3bf10f0c-6025-4955-91dc-118e340490f0_22_q_01_FIX.png",
+        "src": "/images/SAT-Style%20Questions/3bf10f0c-6025-4955-91dc-118e340490f0_22_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/3bf10f0c-6025-4955-91dc-118e340490f0_22_q_01_FIX.png"
+        "local": "images/SAT-Style Questions/3bf10f0c-6025-4955-91dc-118e340490f0_22_q_01_FIX.png"
       }
     ]
   }

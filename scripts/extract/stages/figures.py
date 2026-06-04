@@ -33,11 +33,6 @@ def extract_figures(
     doc = fitz.open(pdf_path)
 
     for section_id, questions in all_questions.items():
-        section_info = next(
-            (s for s in json.loads((Path(metadata["pdf_path"]).parent / "sections.json").read_text()) if s["section_id"] == section_id),
-            None
-        ) if False else None  # sections passed via metadata
-
         for q in questions:
             if not q.get("has_figure") and not q.get("choice_has_figure"):
                 continue
@@ -117,7 +112,6 @@ def extract_figures(
                 hi_pix.save(str(hi_path))
 
                 # Scale bbox coordinates from original DPI to high DPI
-                orig_pix = fitz.Pixmap(fitz.csRGB, fitz.IRect(0, 0, 1, 1), 1)
                 scale = dpi / 200  # original was rendered at 200 DPI
                 x0 = int(bbox["x0"] * scale)
                 y0 = int(bbox["y0"] * scale)

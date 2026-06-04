@@ -71,9 +71,6 @@ const OnboardingTour = lazy(() => import("./components/OnboardingTour").then((mo
 const queryClient = new QueryClient();
 const ONBOARDING_REPLAY_REQUEST_KEY = "onboarding-replay-requested";
 const PRACTICE_SET_HELP_REQUEST_KEY = "practice-set-help-requested";
-const NEW_ACCOUNT_AUTO_TOUR_WINDOW_MS = 24 * 60 * 60 * 1000;
-
-const tourKey = (uid: string | undefined) => `onboarding-seen:${uid ?? "anon"}`;
 
 const hasPendingTourRequest = () =>
   typeof window !== "undefined" &&
@@ -82,13 +79,6 @@ const hasPendingTourRequest = () =>
     sessionStorage.getItem(ONBOARDING_REPLAY_REQUEST_KEY) === "1" ||
     sessionStorage.getItem(PRACTICE_SET_HELP_REQUEST_KEY) === "1"
   );
-
-const isAccountWithinTourWindow = (creationTime: string | undefined) => {
-  if (!creationTime) return false;
-  const created = new Date(creationTime).getTime();
-  if (Number.isNaN(created)) return false;
-  return Date.now() - created < NEW_ACCOUNT_AUTO_TOUR_WINDOW_MS;
-};
 
 const LoadingBlock = ({ className }: { className: string }) => (
   <div className={`motion-safe:animate-pulse bg-muted/80 ${className}`} />
@@ -1780,7 +1770,7 @@ const Loading = () => {
 
 const RouteErrorBoundary = ({ children }: { children: ReactNode }) => {
   const location = useLocation();
-  return <ErrorBoundary key={`${location.pathname}${location.search}`}>{children}</ErrorBoundary>;
+  return <ErrorBoundary key={location.pathname}>{children}</ErrorBoundary>;
 };
 
 const withSuspense = (page: ReactNode) => (
@@ -1840,7 +1830,6 @@ const DeferredRootEffects = () => {
 };
 
 const DeferredOnboardingTour = () => {
-  const { user, loading } = useAuth();
   const location = useLocation();
   const [enabled, setEnabled] = useState(false);
 
@@ -1861,12 +1850,7 @@ const DeferredOnboardingTour = () => {
       setEnabled(true);
       return;
     }
-    if (loading || !user || !user.emailVerified) return;
-    const seen = localStorage.getItem(tourKey(user.uid));
-    if (!seen && isAccountWithinTourWindow(user.raw?.metadata?.creationTime)) {
-      setEnabled(true);
-    }
-  }, [enabled, loading, location.key, user]);
+  }, [enabled, location.key]);
 
   if (!enabled) return null;
 

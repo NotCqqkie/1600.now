@@ -65,6 +65,7 @@ import { renderMixedContent } from "@/lib/text/mathRendering";
 import { normalizeReadingDisplayText } from "@/lib/text/readingTextNormalization";
 import { applyTheme } from "@/lib/theme";
 import {
+  advanceModulePracticeSessionTimer,
   buildModulePracticeResult,
   clearModulePracticeSession,
   getModulePracticeAnnotationStorageKey,
@@ -78,6 +79,7 @@ import {
   type ModulePracticeSessionMeta,
 } from "@/lib/practice/modulePracticeSession";
 import {
+  advancePracticeTestActiveModuleTimer,
   buildPracticeTestSessionAfterCurrentModuleSubmit,
   buildPracticeTestResult,
   clearPracticeTestSession,
@@ -88,7 +90,6 @@ import {
   savePracticeTestQuestionState,
   savePracticeTestResult,
   savePracticeTestSession,
-  tickPracticeTestActiveModule,
   type PracticeTestSessionMeta,
 } from "@/lib/practice/practiceTestSession";
 import { useUserProgress } from "@/hooks/useUserProgress";
@@ -101,6 +102,17 @@ const hardQuestions = originalQuestions.map(q => ({
 }));
 
 type ModulePracticeBankApi = typeof import("@/data/modulePracticeBank");
+let loadedModulePracticeBank: ModulePracticeBankApi | null = null;
+let modulePracticeBankPromise: Promise<ModulePracticeBankApi> | null = null;
+
+const loadModulePracticeBank = () => {
+  if (loadedModulePracticeBank) return Promise.resolve(loadedModulePracticeBank);
+  modulePracticeBankPromise ??= import("@/data/modulePracticeBank").then((mod) => {
+    loadedModulePracticeBank = mod;
+    return mod;
+  });
+  return modulePracticeBankPromise;
+};
 
 type QuestionPreviewEmbedConfig = {
   subject: "math" | "reading";
@@ -156,6 +168,7 @@ const getNextStateForGreaterThan = ({
 
 type PracticeSetItem = {
   id: number;
+  index?: number;
   subject: "math" | "reading";
   bankType?: BankSourceFilter;
   sourceId?: string;
@@ -173,6 +186,9 @@ type QuestionInfoField = {
   label: string;
   value: string;
 };
+
+const isBankQuestionWithUuid = (question: unknown): question is BankQuestion & { uuid: string } =>
+  Boolean(question && typeof question === "object" && "stableId" in question);
 
 type OrderedNavigationItem = {
   id: number;
@@ -435,6 +451,8 @@ const getDefaultQuestionSplitPosition = (subject: "math" | "reading") =>
 const READING_ANNOTATION_MODE_STORAGE_KEY = "question-reading-annotation-mode";
 const QUESTION_BANK_HIDE_CHOICES_STORAGE_KEY = "question-bank-hide-answer-choices";
 const QUESTION_BANK_STRIKEOUT_MODE_STORAGE_KEY = "question-bank-strikeout-mode";
+const PRACTICE_RUN_STORAGE_KEY = "practiceRunId";
+const DESMOS_DEFAULT_SPLIT_POSITION = 70;
 
 const questionBankViewerStorageData = new Map<string, string>();
 let isQuestionBankViewerStorageActive = true;
@@ -623,19 +641,26 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       return [];
     }
   }, [isPracticeMode]);
+  const practiceRunId = isPracticeMode ? sessionStorage.getItem(PRACTICE_RUN_STORAGE_KEY) : null;
   const practiceExitTo = useMemo(
     () => sessionStorage.getItem("practiceExitTo"),
     [location.key],
   );
   const needsModulePracticeBank = Boolean(modulePracticeSlug || practiceTestSetId);
-  const [modulePracticeBank, setModulePracticeBank] = useState<ModulePracticeBankApi | null>(null);
+  const [modulePracticeBank, setModulePracticeBank] = useState<ModulePracticeBankApi | null>(() =>
+    needsModulePracticeBank ? loadedModulePracticeBank : null,
+  );
   useEffect(() => {
     let cancelled = false;
     if (!needsModulePracticeBank) {
       setModulePracticeBank(null);
       return;
     }
-    import("@/data/modulePracticeBank").then((mod) => {
+    if (loadedModulePracticeBank) {
+      setModulePracticeBank(loadedModulePracticeBank);
+      return;
+    }
+    loadModulePracticeBank().then((mod) => {
       if (!cancelled) setModulePracticeBank(mod);
     });
     return () => {
@@ -665,6 +690,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     if (is100Hard) {
       return hardQuestions.find(q => q.id === questionNumber);
     }
+    if (needsModulePracticeBank && !modulePracticeBank) return null;
 
     const moduleQuestion =
       modulePracticeBank && (modulePracticeSlug || practiceTestSetId)
@@ -681,15 +707,16 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       uuid: q.stableId,
     };
 
-  }, [is100Hard, idParam, questionNumber, subject, bankSource, modulePracticeBank, modulePracticeSlug, practiceTestSetId]);
+  }, [is100Hard, idParam, questionNumber, subject, bankSource, modulePracticeBank, modulePracticeSlug, needsModulePracticeBank, practiceTestSetId]);
   const currentQuestion = questionData;
   useEffect(() => {
     if (previewEmbed && currentQuestion) previewEmbed.onReady?.();
   }, [currentQuestion, previewEmbed]);
   const isBankQuestionView = isBank && !modulePracticeSlug && !practiceTestSetId;
-  const currentBankQuestion = !is100Hard && currentQuestion?.similarityGroupId
-    ? currentQuestion as BankQuestion
+  const currentBankQuestion = !is100Hard && isBankQuestionWithUuid(currentQuestion) && currentQuestion.similarityGroupId
+    ? currentQuestion
     : null;
+  const currentExplanationQuestion = isBankQuestionWithUuid(currentQuestion) ? currentQuestion : null;
   const canCreateSimilarPracticeSet = Boolean(!isEmbed && isBankQuestionView && currentBankQuestion);
   const currentPracticeIndex = useMemo(() => {
     if (!isPracticeMode || practiceSet.length === 0) return -1;
@@ -716,6 +743,38 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       practiceTestStateSessionId,
   );
   const isAssessmentMode = isModulePracticeMode || isPracticeTestMode;
+  const desmosStorageArea = isAssessmentMode || effectivePracticeMode
+    ? sessionStorage
+    : QUESTION_BANK_VIEWER_STORAGE;
+  const desmosStorageScope = useMemo(() => {
+    if (isPracticeTestMode && practiceTestStateSessionId) return `practice-test:${practiceTestStateSessionId}`;
+    if (isModulePracticeMode && modulePracticeStateSessionId) return `module-practice:${modulePracticeStateSessionId}`;
+    if (effectivePracticeMode) return `practice-set:${practiceRunId ?? "active"}`;
+    if (isBank) return `question-bank:${bankSource}`;
+    return "hard-questions";
+  }, [
+    bankSource,
+    effectivePracticeMode,
+    isBank,
+    isModulePracticeMode,
+    isPracticeTestMode,
+    modulePracticeStateSessionId,
+    practiceRunId,
+    practiceTestStateSessionId,
+  ]);
+  const desmosCalculatorStateKey = `${desmosStorageScope}:desmos:calculator`;
+  const desmosWindowStateKey = `${desmosStorageScope}:desmos:window`;
+  const desmosLayoutStateKey = `${desmosStorageScope}:desmos:layout`;
+  const desmosOpenStateKey = `${desmosStorageScope}:desmos:open`;
+  const desmosSplitPositionKey = `${desmosStorageScope}:desmos:split-position`;
+  const restoreDesmosSplitPosition = useCallback(() => {
+    const raw = desmosStorageArea.getItem(desmosSplitPositionKey);
+    const stored = raw === null ? NaN : Number(raw);
+    const nextPosition = Number.isFinite(stored)
+      ? Math.max(35, Math.min(70, stored))
+      : DESMOS_DEFAULT_SPLIT_POSITION;
+    setSplitPosition(nextPosition);
+  }, [desmosSplitPositionKey, desmosStorageArea]);
   const modulePracticeAllowsChecking = Boolean(
     isModulePracticeMode && modulePracticeSessionMeta?.settings.allowCheckingAnswers,
   );
@@ -759,7 +818,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   const [checkedAnswers, setCheckedAnswers] = useState<Record<string, boolean>>({});
   const [splitScreenWindows, setSplitScreenWindows] = useState<Set<string>>(new Set());
   const [sidebarredWindows, setSidebarredWindows] = useState<Set<string>>(new Set());
-  const [splitPosition, setSplitPosition] = useState(70);
+  const [splitPosition, setSplitPosition] = useState(DESMOS_DEFAULT_SPLIT_POSITION);
   const [attemptCount, setAttemptCount] = useState(0);
   const [shouldCompress, setShouldCompress] = useState(false);
   const [topShouldCompress, setTopShouldCompress] = useState(false);
@@ -807,7 +866,18 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   const topTimerPinnedRef = useRef(true);
   const startTimeRef = useRef(Date.now());
   const questionVisitStartedAtRef = useRef(Date.now());
+  const timerLastSyncedAtRef = useRef(Date.now());
+  const modulePracticeSessionMetaRef = useRef<ModulePracticeSessionMeta | null>(modulePracticeSessionMeta);
+  const practiceTestSessionMetaRef = useRef<PracticeTestSessionMeta | null>(practiceTestSessionMeta);
   const hasTimerExpiredRef = useRef(false);
+
+  useEffect(() => {
+    modulePracticeSessionMetaRef.current = modulePracticeSessionMeta;
+  }, [modulePracticeSessionMeta]);
+
+  useEffect(() => {
+    practiceTestSessionMetaRef.current = practiceTestSessionMeta;
+  }, [practiceTestSessionMeta]);
 
   useEffect(() => {
     if (!modulePracticeSlug) {
@@ -824,6 +894,62 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     }
     setPracticeTestSessionMeta(getPracticeTestSession(practiceTestSetId));
   }, [location.key, practiceTestSetId]);
+
+  const syncAssessmentTimer = useCallback((now = Date.now(), updateState = true) => {
+    const elapsedMs = Math.max(0, now - timerLastSyncedAtRef.current);
+    timerLastSyncedAtRef.current = now;
+    if (!elapsedMs) return null;
+
+    if (isPracticeTestMode) {
+      const previous = practiceTestSessionMetaRef.current;
+      if (!previous || previous.status !== "active") return previous;
+
+      const next = advancePracticeTestActiveModuleTimer(previous, elapsedMs);
+      if (next === previous) return previous;
+
+      practiceTestSessionMetaRef.current = next;
+      savePracticeTestSession(next);
+
+      const nextActiveModule = next.modules[next.activeModuleIndex];
+      if (updateState) {
+        setPracticeTestSessionMeta(next);
+      }
+      if (updateState && nextActiveModule) {
+        setElapsedSeconds(nextActiveModule.elapsedSeconds);
+      }
+      return next;
+    }
+
+    if (isModulePracticeMode) {
+      const previous = modulePracticeSessionMetaRef.current;
+      if (!previous || previous.status !== "active") return previous;
+      if (previous.settings.timed && previous.remainingSeconds === 0) {
+        if (updateState && !hasTimerExpiredRef.current) {
+          hasTimerExpiredRef.current = true;
+          setIsTimerExpiredOpen(true);
+        }
+        return previous;
+      }
+
+      const next = advanceModulePracticeSessionTimer(previous, elapsedMs);
+      if (next === previous) return previous;
+
+      modulePracticeSessionMetaRef.current = next;
+      saveModulePracticeSession(next);
+      if (updateState) {
+        setModulePracticeSessionMeta(next);
+        setElapsedSeconds(next.elapsedSeconds);
+      }
+
+      if (updateState && next.remainingSeconds === 0 && previous.remainingSeconds !== 0 && !hasTimerExpiredRef.current) {
+        hasTimerExpiredRef.current = true;
+        setIsTimerExpiredOpen(true);
+      }
+      return next;
+    }
+
+    return null;
+  }, [isModulePracticeMode, isPracticeTestMode]);
 
   const currentProgress = currentQuestion ? (progress[currentQuestion.uuid] || { isMarkedForReview: false, attempts: [] }) : { isMarkedForReview: false, attempts: [] };
   const localStateKey = currentQuestion
@@ -997,6 +1123,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   useEffect(() => {
     startTimeRef.current = Date.now();
     questionVisitStartedAtRef.current = Date.now();
+    timerLastSyncedAtRef.current = Date.now();
     hasTimerExpiredRef.current = false;
     setIsTimerExpiredOpen(false);
 
@@ -1017,7 +1144,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     setIsTimerVisible(true);
   }, [
     isPracticeTestMode,
-    practiceTestActiveModule,
+    practiceTestActiveModule?.moduleSlug,
     isModulePracticeMode,
     modulePracticeSessionMeta?.sessionId,
     currentQuestion?.uuid,
@@ -1029,56 +1156,27 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
         return;
       }
 
+      timerLastSyncedAtRef.current = Date.now();
       const timerId = window.setInterval(() => {
-        setPracticeTestSessionMeta((previous) => {
-          if (!previous || previous.status !== "active") return previous;
-
-          const next = tickPracticeTestActiveModule(previous);
-          const nextActiveModule = next.modules[next.activeModuleIndex];
-          if (!nextActiveModule) return previous;
-
-          savePracticeTestSession(next);
-          setElapsedSeconds(nextActiveModule.elapsedSeconds);
-          return next;
-        });
+        syncAssessmentTimer();
       }, 1000);
 
-      return () => window.clearInterval(timerId);
+      return () => {
+        syncAssessmentTimer(Date.now(), false);
+        window.clearInterval(timerId);
+      };
     }
 
     if (isModulePracticeMode && modulePracticeSessionMeta) {
+      timerLastSyncedAtRef.current = Date.now();
       const timerId = window.setInterval(() => {
-        setModulePracticeSessionMeta((previous) => {
-          if (!previous) return previous;
-          if (previous.settings.timed && previous.remainingSeconds === 0) {
-            if (!hasTimerExpiredRef.current) {
-              hasTimerExpiredRef.current = true;
-              setIsTimerExpiredOpen(true);
-            }
-            return previous;
-          }
-
-          const nextElapsed = previous.elapsedSeconds + 1;
-          const nextRemaining =
-            previous.settings.timed && previous.remainingSeconds !== null
-              ? Math.max(0, previous.remainingSeconds - 1)
-              : null;
-          const next = {
-            ...previous,
-            elapsedSeconds: nextElapsed,
-            remainingSeconds: nextRemaining,
-          };
-          saveModulePracticeSession(next);
-          setElapsedSeconds(nextElapsed);
-          if (nextRemaining === 0 && previous.remainingSeconds !== 0 && !hasTimerExpiredRef.current) {
-            hasTimerExpiredRef.current = true;
-            setIsTimerExpiredOpen(true);
-          }
-          return next;
-        });
+        syncAssessmentTimer();
       }, 1000);
 
-      return () => window.clearInterval(timerId);
+      return () => {
+        syncAssessmentTimer(Date.now(), false);
+        window.clearInterval(timerId);
+      };
     }
 
     if (isTimerPaused) return;
@@ -1095,9 +1193,14 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     isModulePracticeMode,
     isTimerPaused,
     modulePracticeSessionMeta?.sessionId,
+    syncAssessmentTimer,
   ]);
 
   const isSplitScreenActive = splitScreenWindows.size > 0;
+
+  useEffect(() => {
+    restoreDesmosSplitPosition();
+  }, [restoreDesmosSplitPosition]);
 
   useLayoutEffect(() => {
     const checkSpace = () => {
@@ -1297,6 +1400,9 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   const handleSplitPositionChange = (newPosition: number) => {
     const roundedPosition = Math.round(newPosition * 4) / 4;
     setSplitPosition(prev => (Math.abs(prev - roundedPosition) < 0.25 ? prev : roundedPosition));
+    if (sidebarredWindows.has("desmos")) {
+      desmosStorageArea.setItem(desmosSplitPositionKey, String(roundedPosition));
+    }
   };
 
   const toggleFullscreen = () => {
@@ -1325,12 +1431,6 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     const index = windowOrder.indexOf(windowId);
     return 50 + index * 20;
   };
-
-  useEffect(() => {
-    if (!isSplitScreenActive) {
-      setSplitPosition(70);
-    }
-  }, [isSplitScreenActive]);
 
   useEffect(() => {
     if (isSplitScreenActive) {
@@ -1544,7 +1644,8 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       ? currentPracticeIndex < totalQuestions - 1
       : currentOrderedQuestionIndex >= 0 && currentOrderedQuestionIndex < totalQuestions - 1;
 
-  const flushModulePracticeQuestionTime = () => {
+  const flushModulePracticeQuestionTime = (updateState = true) => {
+    syncAssessmentTimer(Date.now(), updateState);
     if (!isAssessmentMode || !currentQuestion) return;
     const delta = Math.max(
       0,
@@ -1594,12 +1695,13 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     if (!isAssessmentMode || !currentQuestion) return;
     questionVisitStartedAtRef.current = Date.now();
     return () => {
-      flushModulePracticeQuestionTime();
+      flushModulePracticeQuestionTime(false);
     };
   }, [currentQuestion?.uuid, isAssessmentMode]);
 
   const navigateToPracticeIndex = (idx: number) => {
     if (!effectivePracticeMode || idx < 0 || idx >= practiceSet.length) return;
+    flushModulePracticeQuestionTime();
     const target = practiceSet[idx];
     const base = '/bank';
     const params = new URLSearchParams();
@@ -2102,6 +2204,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   }, [isAssessmentMode]);
   const isReadingPassageAnnotatable = subject === "reading" && Boolean(readingPassageContent);
   const shouldReduceQuestionImageSize = isBank;
+  const isPracticeQuestionBankLoading = needsModulePracticeBank && !modulePracticeBank;
       
   const renderQuestionImages = () => {
     if (!questionImages?.length) return null;
@@ -2117,10 +2220,10 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                 "h-auto object-contain",
                 subject === "reading"
                   ? shouldReduceQuestionImageSize
-                    ? "max-w-[73%] max-h-[336px]"
+                    ? "max-w-[91.25%] max-h-[420px]"
                     : "max-w-full max-h-[460px]"
                   : shouldReduceQuestionImageSize
-                    ? "max-w-[73%] max-h-[247px]"
+                    ? "max-w-[91.25%] max-h-[309px]"
                     : "max-w-full max-h-[340px]",
               )}
               wrapperClassName={cn("max-w-full", shouldReduceQuestionImageSize && "flex justify-center")}
@@ -2151,6 +2254,39 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       clearQuestionBankViewerStorage();
     };
   }, []);
+
+  if (!currentQuestion && isPracticeQuestionBankLoading) {
+    return (
+      <div className="min-h-screen bg-background p-4 text-foreground">
+        <div className="mx-auto max-w-6xl rounded-xl border border-border bg-card shadow-sm">
+          <div className="flex items-center justify-between border-b border-border px-4 py-3">
+            <div className="h-5 w-36 animate-pulse rounded-full bg-muted" />
+            <div className="h-9 w-24 animate-pulse rounded-md bg-muted" />
+          </div>
+          <div className="grid gap-5 p-5 lg:grid-cols-[1fr_0.9fr]">
+            <div className="space-y-4">
+              <div className="h-4 w-28 animate-pulse rounded-full bg-muted" />
+              <div className="h-4 w-full animate-pulse rounded-full bg-muted" />
+              <div className="h-4 w-11/12 animate-pulse rounded-full bg-muted" />
+              <div className="h-4 w-5/6 animate-pulse rounded-full bg-muted" />
+              <div className="mt-4 h-56 w-full animate-pulse rounded-lg bg-muted" />
+            </div>
+            <div className="space-y-3">
+              {[0, 1, 2, 3].map((item) => (
+                <div key={item} className="flex items-center gap-3 rounded-lg border border-border/70 p-4">
+                  <div className="h-8 w-8 shrink-0 animate-pulse rounded-full bg-muted" />
+                  <div className="w-full space-y-2">
+                    <div className="h-3 w-full animate-pulse rounded-full bg-muted" />
+                    <div className="h-3 w-2/3 animate-pulse rounded-full bg-muted" />
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   if (!currentQuestion) {
     const fallbackDestination = practiceExitTo || (isBank ? `/bank?bankType=${bankSource}` : "/bank");
@@ -2615,6 +2751,12 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                       compressed={topShouldCompress}
                       windowPortalContainer={windowPortalContainer}
                       windowBoundsElement={windowBoundsElement}
+                      storageArea={desmosStorageArea}
+                      calculatorStateKey={desmosCalculatorStateKey}
+                      windowStateKey={desmosWindowStateKey}
+                      layoutStateKey={desmosLayoutStateKey}
+                      openStateKey={desmosOpenStateKey}
+                      onRestoreSidebarPosition={restoreDesmosSplitPosition}
                     />
                   </>
                 )}
@@ -2861,6 +3003,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                     questionId={is100Hard ? questionNumber : currentQuestion.uuid}
                     struckOutChoiceIds={isAssessmentMode ? struckOutChoiceIds : undefined}
                     onStruckOutChange={isAssessmentMode ? handleStrikeoutChange : undefined}
+                    choiceImageClassName={isBank ? "max-h-[275px] sm:max-h-[325px]" : undefined}
                   />
                 ) : (
                   <div className="space-y-3">
@@ -2958,6 +3101,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                   subject={subject}
                   struckOutChoiceIds={isAssessmentMode ? struckOutChoiceIds : undefined}
                   onStruckOutChange={isAssessmentMode ? handleStrikeoutChange : undefined}
+                  choiceImageClassName={isBank ? "max-h-[275px] sm:max-h-[325px]" : undefined}
                 />
               ) : (
                 <div className="space-y-3">
@@ -3099,15 +3243,15 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                   isSidebarred={sidebarredWindows.has('explanation')}
                   onSidebarToggle={handleSidebarToggle}
                   correctAnswer={currentQuestion?.correctAnswer}
-                  rationale={currentQuestion?.rationale}
+                  rationale={currentExplanationQuestion?.rationale}
                   questionType={currentQuestion?.type}
                   choices={currentQuestion?.choices}
                   questionId={currentQuestion?.uuid || currentQuestion?.id}
-                  questionSection={currentQuestion?.section}
-                  questionText={currentQuestion?.prompt}
-                  questionDomain={currentQuestion?.domain}
-                  questionSkill={currentQuestion?.skill}
-                  questionDifficulty={currentQuestion?.difficulty}
+                  questionSection={currentExplanationQuestion?.category.subject}
+                  questionText={currentExplanationQuestion?.prompt}
+                  questionDomain={currentExplanationQuestion?.category.domain}
+                  questionSkill={currentExplanationQuestion?.category.skill}
+                  questionDifficulty={currentExplanationQuestion?.difficulty}
                   questionImages={questionImages}
                   windowPortalContainer={windowPortalContainer}
                   windowBoundsElement={windowBoundsElement}

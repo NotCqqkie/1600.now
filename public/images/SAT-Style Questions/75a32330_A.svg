@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="320" viewBox="0 0 420 320">
+<style>.bg{fill:#fff}.grid{stroke:#d7dce2;stroke-width:1}.axis{stroke:#25313d;stroke-width:1.7}.tick{font:12px Arial,sans-serif;fill:#394652;text-anchor:middle}.end{text-anchor:end}.label{font:13px Arial,sans-serif;fill:#25313d}.curve{fill:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.blue{stroke:#2563eb}.red{stroke:#dc2626}</style>
+<rect class="bg" width="420" height="320"/>
+<text x="18" y="18" class="label">A</text>
+<line x1="46.0" y1="20" x2="46.0" y2="270" class="grid"/>
+<text x="46.0" y="288" class="tick">-4</text>
+<line x1="87.2" y1="20" x2="87.2" y2="270" class="grid"/>
+<text x="87.2" y="288" class="tick">-3</text>
+<line x1="128.5" y1="20" x2="128.5" y2="270" class="grid"/>
+<text x="128.5" y="288" class="tick">-2</text>
+<line x1="169.8" y1="20" x2="169.8" y2="270" class="grid"/>
+<text x="169.8" y="288" class="tick">-1</text>
+<line x1="211.0" y1="20" x2="211.0" y2="270" class="grid"/>
+<line x1="252.2" y1="20" x2="252.2" y2="270" class="grid"/>
+<text x="252.2" y="288" class="tick">1</text>
+<line x1="293.5" y1="20" x2="293.5" y2="270" class="grid"/>
+<text x="293.5" y="288" class="tick">2</text>
+<line x1="334.8" y1="20" x2="334.8" y2="270" class="grid"/>
+<text x="334.8" y="288" class="tick">3</text>
+<line x1="376.0" y1="20" x2="376.0" y2="270" class="grid"/>
+<text x="376.0" y="288" class="tick">4</text>
+<line x1="46" y1="270.0" x2="376" y2="270.0" class="grid"/>
+<text x="34" y="274.0" class="tick end">-1</text>
+<line x1="46" y1="234.3" x2="376" y2="234.3" class="grid"/>
+<line x1="46" y1="198.6" x2="376" y2="198.6" class="grid"/>
+<text x="34" y="202.6" class="tick end">1</text>
+<line x1="46" y1="162.9" x2="376" y2="162.9" class="grid"/>
+<text x="34" y="166.9" class="tick end">2</text>
+<line x1="46" y1="127.1" x2="376" y2="127.1" class="grid"/>
+<text x="34" y="131.1" class="tick end">3</text>
+<line x1="46" y1="91.4" x2="376" y2="91.4" class="grid"/>
+<text x="34" y="95.4" class="tick end">4</text>
+<line x1="46" y1="55.7" x2="376" y2="55.7" class="grid"/>
+<text x="34" y="59.7" class="tick end">5</text>
+<line x1="46" y1="20.0" x2="376" y2="20.0" class="grid"/>
+<text x="34" y="24.0" class="tick end">6</text>
+<line x1="211.0" y1="20" x2="211.0" y2="270" class="axis"/>
+<line x1="46" y1="234.3" x2="376" y2="234.3" class="axis"/>
+<polyline points="87.2,66.4 322.4,270.0" class="curve blue"/>
+<polyline points="126.6,23.9 128.8,31.6 131.0,39.1 133.1,46.4 135.3,53.4 137.5,60.3 139.7,66.9 141.9,73.4 144.1,79.7 146.3,85.7 148.5,91.6 150.7,97.2 152.9,102.7 155.1,107.9 157.3,113.0 159.5,117.8 161.7,122.5 163.8,126.9 166.0,131.1 168.2,135.2 170.4,139.0 172.6,142.7 174.8,146.1 177.0,149.3 179.2,152.3 181.4,155.2 183.6,157.8 185.8,160.2 188.0,162.4 190.2,164.5 192.4,166.3 194.6,167.9 196.7,169.3 198.9,170.5 201.1,171.5 203.3,172.3 205.5,172.9 207.7,173.3 209.9,173.5 212.1,173.5 214.3,173.3 216.5,172.9 218.7,172.3 220.9,171.5 223.1,170.5 225.3,169.3 227.4,167.9 229.6,166.3 231.8,164.5 234.0,162.4 236.2,160.2 238.4,157.8 240.6,155.2 242.8,152.3 245.0,149.3 247.2,146.1 249.4,142.7 251.6,139.0 253.8,135.2 256.0,131.1 258.2,126.9 260.3,122.5 262.5,117.8 264.7,113.0 266.9,107.9 269.1,102.7 271.3,97.2 273.5,91.6 275.7,85.7 277.9,79.7 280.1,73.4 282.3,66.9 284.5,60.3 286.7,53.4 288.9,46.4 291.0,39.1 293.2,31.6 295.4,23.9" class="curve red"/>
+<text x="392" y="274" class="label">x</text>
+<text x="28" y="14" class="label">y</text>
+</svg>

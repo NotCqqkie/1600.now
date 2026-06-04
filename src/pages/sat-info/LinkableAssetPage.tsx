@@ -1,3 +1,4 @@
+import type { ReactNode } from "react";
 import { Link, Navigate, useLocation } from "react-router-dom";
 
 import {
@@ -13,15 +14,206 @@ import {
   linkableHubBySlug,
   type LinkableAsset,
 } from "@/lib/seo-data/linkableAssets";
+import { landingVariantBySlug } from "@/lib/seo-data/landingVariants";
+import { pillarBySlug } from "@/lib/seo-data/pillarData";
+import { scoreGoalBySlug } from "@/lib/seo-data/scoreGoalData";
+import { satSkills } from "@/lib/seo-data/satSkillsData";
+import { satToolBySlug } from "@/lib/seo-data/satTools";
 
 const SITE = "https://1600.now";
 const ASSET_PUBLISHED = "2026-05-28";
+
+type TextLinkRule = {
+  phrases: string[];
+  href: string;
+};
+
+const skillPracticeHref = (skill: (typeof satSkills)[number]) =>
+  `/bank/${skill.section === "Math" ? "math" : "reading"}/skill/${encodeURIComponent(skill.officialSkill)}`;
+
+const skillBySlug = new Map(satSkills.map((skill) => [skill.slug, skill]));
+
+const practiceRule = (slug: string, phrases: string[]): TextLinkRule | null => {
+  const skill = skillBySlug.get(slug);
+  if (!skill) return null;
+  return { phrases, href: skillPracticeHref(skill) };
+};
+
+const textLinkRules: TextLinkRule[] = [
+  ...satSkills.map((skill) => ({
+    phrases: [skill.name, skill.officialSkill],
+    href: skillPracticeHref(skill),
+  })),
+  { phrases: ["Algebra"], href: `/bank/math/domain/${encodeURIComponent("Algebra")}` },
+  { phrases: ["Advanced Math"], href: `/bank/math/domain/${encodeURIComponent("Advanced Math")}` },
+  {
+    phrases: ["Problem-Solving and Data Analysis", "data analysis"],
+    href: `/bank/math/domain/${encodeURIComponent("Problem-Solving and Data Analysis")}`,
+  },
+  {
+    phrases: ["Geometry and Trigonometry", "geometry"],
+    href: `/bank/math/domain/${encodeURIComponent("Geometry and Trigonometry")}`,
+  },
+  {
+    phrases: ["Information and Ideas"],
+    href: `/bank/reading/domain/${encodeURIComponent("Information and Ideas")}`,
+  },
+  {
+    phrases: ["Craft and Structure"],
+    href: `/bank/reading/domain/${encodeURIComponent("Craft and Structure")}`,
+  },
+  {
+    phrases: ["Expression of Ideas"],
+    href: `/bank/reading/domain/${encodeURIComponent("Expression of Ideas")}`,
+  },
+  {
+    phrases: ["Standard English Conventions"],
+    href: `/bank/reading/domain/${encodeURIComponent("Standard English Conventions")}`,
+  },
+  practiceRule("linear-functions", [
+    "slope-intercept form",
+    "point-slope form",
+    "rate of change",
+    "slope",
+    "slopes",
+    "intercepts",
+  ]),
+  practiceRule("systems-of-linear-equations", ["systems of equations", "systems", "intersections"]),
+  practiceRule("nonlinear-equations-and-systems", ["nonlinear equations", "quadratic formula", "radical equations"]),
+  practiceRule("nonlinear-functions", ["quadratics", "quadratic", "vertex form", "exponential growth", "exponentials"]),
+  practiceRule("equivalent-expressions", ["equivalent expressions", "factoring", "complete the square"]),
+  practiceRule("ratios-rates-proportions", ["ratios", "rates", "proportions", "unit conversions"]),
+  practiceRule("percentages", ["percentages", "percent change", "percents", "discounts"]),
+  practiceRule("one-variable-data", ["standard deviation", "histograms", "box plots", "dot plots", "one-variable data", "measures of center"]),
+  practiceRule("two-variable-data", ["scatterplots", "scatterplot", "regression", "data-model", "best fit"]),
+  practiceRule("probability", ["conditional probability", "probability"]),
+  practiceRule("sample-statistics-margin-of-error", ["margin of error", "confidence interval", "sample statistic"]),
+  practiceRule("evaluating-statistical-claims", ["causation", "correlation", "random samples", "observational studies"]),
+  practiceRule("area-and-volume", ["area and volume", "surface area", "volume formulas"]),
+  practiceRule("lines-angles-triangles", ["similar triangles", "parallel lines", "angle relationships"]),
+  practiceRule("right-triangles-and-trig", ["right triangles", "trigonometry", "SOH-CAH-TOA", "Pythagorean"]),
+  practiceRule("circles", ["circle equations", "circle area", "circles"]),
+  practiceRule("words-in-context", ["Words in Context", "context clues"]),
+  practiceRule("text-structure-and-purpose", ["Text Structure and Purpose", "purpose questions", "rhetorical role"]),
+  practiceRule("cross-text-connections", ["Cross-Text Connections", "cross-text"]),
+  practiceRule("central-ideas-and-details", ["Central Ideas and Details", "central idea", "main idea"]),
+  practiceRule("command-of-evidence", ["Command of Evidence", "evidence questions"]),
+  practiceRule("inference", ["inference questions", "inferences"]),
+  practiceRule("transitions", ["transition questions", "transitions"]),
+  practiceRule("rhetorical-synthesis", ["Rhetorical Synthesis", "rhetorical questions", "synthesis"]),
+  practiceRule("boundaries-punctuation", [
+    "sentence boundaries",
+    "punctuation",
+    "commas",
+    "semicolons",
+    "colons",
+    "dashes",
+    "comma splice",
+    "independent clauses",
+    "dependent clauses",
+  ]),
+  practiceRule("form-structure-sense", [
+    "Form, Structure, and Sense",
+    "subject-verb agreement",
+    "pronoun agreement",
+    "modifier placement",
+    "modifiers",
+    "verb tense",
+    "parallel structure",
+  ]),
+  { phrases: ["SAT score calculator", "score calculator"], href: "/score-calculator" },
+  { phrases: ["SAT percentile calculator", "percentile calculator"], href: "/sat-percentile-calculator" },
+  { phrases: ["SAT countdown", "countdown"], href: "/sat-test-countdown" },
+  { phrases: ["SAT to ACT converter"], href: "/sat-to-act-converter" },
+  { phrases: ["PSAT to SAT predictor"], href: "/psat-to-sat-predictor" },
+  { phrases: ["study plan generator", "custom plan"], href: "/sat-study-plan-generator" },
+  { phrases: ["college score tool"], href: "/what-sat-score-do-i-need" },
+  { phrases: ["college directory"], href: "/college" },
+  { phrases: ["SAT vocabulary list", "SAT vocabulary"], href: "/sat-vocabulary" },
+  { phrases: ["Digital SAT guide"], href: "/digital-sat-guide" },
+  { phrases: ["Desmos guide"], href: "/desmos-sat-guide" },
+  { phrases: ["Desmos shortcuts"], href: "/desmos-sat-shortcuts" },
+  { phrases: ["Desmos"], href: "/desmos-sat-guide" },
+  { phrases: ["timed modules", "full Digital SAT module", "practice module", "practice modules", "practice tests", "full tests", "timed tests", "hard Module 2", "Module 2", "Module 1"], href: "/modules" },
+  { phrases: ["question bank", "drill sets", "skill drills"], href: "/bank" },
+].filter((rule): rule is TextLinkRule => Boolean(rule));
+
+const normalizedTextLinkRules = textLinkRules
+  .flatMap((rule) =>
+    rule.phrases.map((phrase) => ({
+      phrase,
+      lowerPhrase: phrase.toLowerCase(),
+      href: rule.href,
+    })),
+  )
+  .sort((a, b) => b.phrase.length - a.phrase.length);
+
+const isWordChar = (char: string | undefined) => Boolean(char && /[A-Za-z0-9]/.test(char));
+
+const isSelfHref = (href: string, currentSlug: string) =>
+  href.replace(/^\//, "").replace(/\/$/, "") === currentSlug;
+
+const renderLinkedText = (
+  text: string,
+  currentSlug: string,
+  keyPrefix: string,
+): ReactNode[] => {
+  const nodes: ReactNode[] = [];
+  let buffer = "";
+  let index = 0;
+  let linkIndex = 0;
+  const lowerText = text.toLowerCase();
+
+  const flushBuffer = () => {
+    if (!buffer) return;
+    nodes.push(buffer);
+    buffer = "";
+  };
+
+  while (index < text.length) {
+    const rule = normalizedTextLinkRules.find((candidate) => {
+      if (isSelfHref(candidate.href, currentSlug)) return false;
+      if (!lowerText.startsWith(candidate.lowerPhrase, index)) return false;
+      return !isWordChar(text[index - 1]) && !isWordChar(text[index + candidate.phrase.length]);
+    });
+
+    if (rule) {
+      flushBuffer();
+      const label = text.slice(index, index + rule.phrase.length);
+      nodes.push(
+        <Link
+          key={`${keyPrefix}-${linkIndex}`}
+          className="underline underline-offset-2 transition hover:text-foreground"
+          to={rule.href}
+        >
+          {label}
+        </Link>,
+      );
+      linkIndex += 1;
+      index += rule.phrase.length;
+    } else {
+      buffer += text[index];
+      index += 1;
+    }
+  }
+
+  flushBuffer();
+  return nodes;
+};
 
 const labelForSlug = (slug: string) => {
   const asset = linkableAssetBySlug.get(slug);
   if (asset) return asset.title;
   const hub = linkableHubBySlug.get(slug);
   if (hub) return hub.title;
+  const tool = satToolBySlug.get(slug);
+  if (tool) return tool.name;
+  const pillar = pillarBySlug.get(slug);
+  if (pillar) return pillar.title;
+  const scoreGoal = scoreGoalBySlug.get(slug);
+  if (scoreGoal) return scoreGoal.headline;
+  const landingVariant = landingVariantBySlug.get(slug);
+  if (landingVariant) return landingVariant.h1;
   return slug
     .split("-")
     .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
@@ -188,13 +380,15 @@ const LinkableAssetPage = () => {
             </h2>
             {section.body.map((paragraph) => (
               <p key={paragraph} className="mt-3 text-muted-foreground">
-                {paragraph}
+                {renderLinkedText(paragraph, page.slug, `body-${section.heading}-${paragraph}`)}
               </p>
             ))}
             {section.list && (
               <ul className="mt-4 list-disc space-y-2 pl-6 text-muted-foreground">
                 {section.list.map((item) => (
-                  <li key={item}>{item}</li>
+                  <li key={item}>
+                    {renderLinkedText(item, page.slug, `list-${section.heading}-${item}`)}
+                  </li>
                 ))}
               </ul>
             )}
@@ -213,9 +407,9 @@ const LinkableAssetPage = () => {
                   <tbody>
                     {section.table.rows.map((row) => (
                       <tr key={row.join("|")} className="border-t border-border">
-                        {row.map((cell) => (
-                          <td key={cell} className="px-4 py-3 text-muted-foreground">
-                            {cell}
+                        {row.map((cell, cellIndex) => (
+                          <td key={`${cell}-${cellIndex}`} className="px-4 py-3 text-muted-foreground">
+                            {renderLinkedText(cell, page.slug, `table-${section.heading}-${row.join("|")}-${cellIndex}`)}
                           </td>
                         ))}
                       </tr>

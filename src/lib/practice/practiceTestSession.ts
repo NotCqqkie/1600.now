@@ -14,6 +14,7 @@ export interface PracticeTestModuleSession {
   timeLimitSeconds: number | null;
   elapsedSeconds: number;
   remainingSeconds: number | null;
+  timerRemainderMs?: number;
   status: "pending" | "active" | "completed";
 }
 
@@ -132,6 +133,9 @@ const buildSessionId = (practiceSetId: string) =>
 
 const getSessionKey = (practiceSetId: string) => `${ACTIVE_SESSION_PREFIX}${practiceSetId}`;
 
+const getTimerRemainderMs = (value: number | undefined) =>
+  Number.isFinite(value) ? Math.max(0, Math.min(999, Math.floor(value ?? 0))) : 0;
+
 const getQuestionPrompt = (question: {
   questionText?: string | null;
   prompt?: string | null;
@@ -191,6 +195,7 @@ export const createPracticeTestSession = (
       timeLimitSeconds,
       elapsedSeconds: 0,
       remainingSeconds: timeLimitSeconds,
+      timerRemainderMs: 0,
       status: index === 0 ? "active" : "pending",
     };
   });
@@ -224,20 +229,56 @@ export const savePracticeTestSession = (session: PracticeTestSessionMeta) => {
   writeJson(sessionStorage, getSessionKey(session.practiceSetId), session);
 };
 
-export const tickPracticeTestActiveModule = (
+export const advancePracticeTestActiveModuleTimer = (
   session: PracticeTestSessionMeta,
+  elapsedMs: number,
 ): PracticeTestSessionMeta => {
   const activeModule = session.modules[session.activeModuleIndex];
   if (!activeModule) return session;
-  if (session.settings.timed && activeModule.remainingSeconds === 0) return session;
+  const safeElapsedMs = Math.max(0, Math.floor(elapsedMs));
+  if (!safeElapsedMs) return session;
+  if (session.settings.timed && activeModule.remainingSeconds === 0) {
+    if (!activeModule.timerRemainderMs) return session;
+    return {
+      ...session,
+      modules: session.modules.map((module, index) =>
+        index === session.activeModuleIndex ? { ...activeModule, timerRemainderMs: 0 } : module,
+      ),
+    };
+  }
+
+  const totalMs = getTimerRemainderMs(activeModule.timerRemainderMs) + safeElapsedMs;
+  const elapsedWholeSeconds = Math.floor(totalMs / 1000);
+  const timerRemainderMs = totalMs % 1000;
+
+  if (!elapsedWholeSeconds) {
+    const nextActiveModule = {
+      ...activeModule,
+      timerRemainderMs,
+    };
+
+    return {
+      ...session,
+      modules: session.modules.map((module, index) =>
+        index === session.activeModuleIndex ? nextActiveModule : module,
+      ),
+    };
+  }
+
+  const elapsedSeconds =
+    session.settings.timed && activeModule.remainingSeconds !== null
+      ? Math.min(elapsedWholeSeconds, activeModule.remainingSeconds)
+      : elapsedWholeSeconds;
+  const remainingSeconds =
+    session.settings.timed && activeModule.remainingSeconds !== null
+      ? Math.max(0, activeModule.remainingSeconds - elapsedSeconds)
+      : null;
 
   const nextActiveModule = {
     ...activeModule,
-    elapsedSeconds: activeModule.elapsedSeconds + 1,
-    remainingSeconds:
-      session.settings.timed && activeModule.remainingSeconds !== null
-        ? Math.max(0, activeModule.remainingSeconds - 1)
-        : null,
+    elapsedSeconds: activeModule.elapsedSeconds + elapsedSeconds,
+    remainingSeconds,
+    timerRemainderMs: remainingSeconds === 0 ? 0 : timerRemainderMs,
   };
 
   return {
@@ -247,6 +288,10 @@ export const tickPracticeTestActiveModule = (
     ),
   };
 };
+
+export const tickPracticeTestActiveModule = (
+  session: PracticeTestSessionMeta,
+): PracticeTestSessionMeta => advancePracticeTestActiveModuleTimer(session, 1000);
 
 export const buildPracticeTestSessionAfterCurrentModuleSubmit = (
   session: PracticeTestSessionMeta,

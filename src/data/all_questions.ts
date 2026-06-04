@@ -5,7 +5,7 @@
  *   src/data/questions/math_past.json
  *   src/data/questions/reading_past.json
  *
- * These types are kept here because they are imported by many Modules/*.ts files.
+ * These types are kept here because they are imported by module data helpers.
  * Do not add data back to this file — use the JSON files instead.
  */
 

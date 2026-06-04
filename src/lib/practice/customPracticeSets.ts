@@ -32,6 +32,7 @@ export interface CustomPracticeSet {
 }
 
 const CUSTOM_PRACTICE_SETS_KEY = "custom-practice-sets:v1";
+const PRACTICE_RUN_STORAGE_KEY = "practiceRunId";
 const MIN_CUSTOM_PRACTICE_SET_QUESTIONS = 5;
 const MAX_CUSTOM_PRACTICE_SET_QUESTIONS = 20;
 
@@ -55,6 +56,9 @@ const writeJson = (key: string, value: unknown) => {
   storage.setItem(key, JSON.stringify(value));
 };
 
+const buildPracticeRunId = (setId: string) =>
+  `${setId}-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
+
 const saveCustomPracticeSets = (sets: CustomPracticeSet[]) => {
   writeJson(CUSTOM_PRACTICE_SETS_KEY, sets);
 };
@@ -71,6 +75,12 @@ const isPracticeSetSize = (count: number) =>
   count >= MIN_CUSTOM_PRACTICE_SET_QUESTIONS && count <= MAX_CUSTOM_PRACTICE_SET_QUESTIONS;
 
 const methodTitleOverrides: Record<string, string> = {
+  "algebraic equivalence": "Algebraic Equivalence",
+  "arc sector": "Arcs and Sectors",
+  "author response": "Cross-Text Author Responses",
+  "central detail": "Central Details",
+  "choose precise word": "Words in Context",
+  "circle area": "Circle Area",
   "linear equation solve": "Solving Linear Equations",
   "solve linear system": "Solving Linear Systems",
   "linear systems": "Solving Linear Systems",
@@ -79,12 +89,20 @@ const methodTitleOverrides: Record<string, string> = {
   "rewrite equivalent expression": "Rewriting Equivalent Expressions",
   "linear equation two variables": "Two-Variable Linear Equations",
   "linear function model": "Linear Function Modeling",
+  "linear function table": "Linear Function Tables",
+  "linear inequality": "Linear Inequalities",
   "scatterplot model": "Scatterplot Modeling",
+  "exponential function": "Exponential Functions",
   "nonlinear equation": "Solving Nonlinear Equations",
   "nonlinear equation roots": "Finding Nonlinear Roots",
+  "nonlinear function model": "Nonlinear Function Modeling",
+  "nonlinear graph": "Nonlinear Graphs",
   "nonlinear system": "Solving Nonlinear Systems",
   "quadratic vertex": "Finding Quadratic Vertices",
+  "right triangle": "Right Triangles",
   "triangle angle chasing": "Triangle Angle Chasing",
+  "triangle area": "Triangle Area",
+  "triangles and lines": "Lines, Angles, and Triangles",
   "line slope": "Finding Slope",
   "line intercept": "Finding Intercepts",
   "linear intercept": "Finding Linear Intercepts",
@@ -93,6 +111,9 @@ const methodTitleOverrides: Record<string, string> = {
   "slope rate of change": "Slope and Rate of Change",
   "percent applied amount": "Finding Percent Amounts",
   "percent change": "Percent Change",
+  "percentage calculation": "Percentage Problems",
+  "proportional relationship": "Proportional Relationships",
+  "rate problem": "Rate Problems",
   "ratio proportion": "Ratios and Proportions",
   "unit conversion": "Unit Conversion",
   "pythagorean theorem": "Pythagorean Theorem",
@@ -100,23 +121,68 @@ const methodTitleOverrides: Record<string, string> = {
   "congruent triangles": "Congruent Triangles",
   "parallel line angles": "Parallel-Line Angles",
   "parallel perpendicular lines": "Parallel and Perpendicular Lines",
+  "sine ratio": "Sine Ratio",
+  "cosine ratio": "Cosine Ratio",
+  "tangent ratio": "Tangent Ratio",
   "circle equation": "Circle Equations",
   "circle geometry": "Circle Geometry",
+  "circumference": "Circumference",
   "area volume": "Area and Volume",
+  "rectangle square area": "Rectangle and Square Area",
   "solid volume area": "Solid Volume and Surface Area",
   "prism volume area": "Prism Volume and Surface Area",
   "cylinder volume area": "Cylinder Volume and Surface Area",
+  "conditional probability": "Conditional Probability",
+  "counting probability": "Counting and Probability",
+  "probability": "Probability",
+  "distribution graph": "Distribution Graphs",
+  "margin of error": "Margin of Error",
+  "mean": "Mean and Average",
+  "median": "Median",
+  "one variable data": "One-Variable Data",
+  "spread": "Range and Spread",
+  "two variable data": "Two-Variable Data",
+  "experiment design": "Experiment Design",
+  "statistical claim": "Statistical Claims",
+  "system of linear inequalities": "Systems of Linear Inequalities",
   "colon boundaries punctuation": "Colon Boundaries",
   "comma boundaries punctuation": "Comma Boundaries",
   "dash boundaries punctuation": "Dash Boundaries",
   "semicolon boundaries punctuation": "Semicolon Boundaries",
   "subject verb agreement": "Subject-Verb Agreement",
   "pronoun agreement": "Pronoun Agreement",
+  "compare items": "Comparing Ideas",
+  "describe or explain": "Describing and Explaining Ideas",
+  "detail retrieval": "Finding Details",
+  "draw inference": "Inferences",
+  "emphasize difference": "Emphasizing Differences",
+  "emphasize similarity": "Emphasizing Similarities",
+  "function of part": "Function of a Text Part",
+  "identify target detail": "Identifying Key Details",
+  "inference": "Inferences",
+  "introduce topic": "Introducing a Topic",
   "logical completion": "Logical Completion",
   "logical transition": "Logical Transitions",
+  "main idea": "Central Ideas",
+  "main purpose": "Main Purpose",
   "meaning in context": "Words in Context",
+  "mixed practice": "Mixed Practice",
+  "provide an example": "Providing Examples",
+  "purpose and structure": "Text Structure and Purpose",
+  "rhetorical uses-information-sentences-emphasize-how": "Emphasizing How",
+  "rhetorical uses-information-sentences-emphasize-location": "Emphasizing Location",
+  "rhetorical uses-information-sentences-emphasize-when": "Emphasizing Timing",
+  "support a claim": "Supporting a Claim",
+  "supporting evidence": "Supporting Evidence",
+  "text structure": "Text Structure",
+  "textual evidence": "Textual Evidence",
   "textual quotation evidence": "Textual Quotation Evidence",
+  "textual support evidence": "Textual Support Evidence",
   "quantitative evidence": "Quantitative Evidence",
+  "quantitative weakening evidence": "Weakening Evidence from Data",
+  "finding evidence": "Evidence from Findings",
+  "finding supporting evidence": "Supporting Evidence from Findings",
+  "finding weakening evidence": "Weakening Evidence from Findings",
   "cross text relationship": "Cross-Text Connections",
 };
 
@@ -128,8 +194,8 @@ const toTitleCase = (value: string) =>
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
     .join(" ");
 
-const formatMethodTitle = (archetype: string) =>
-  methodTitleOverrides[archetype] ?? toTitleCase(archetype);
+const formatMethodTitle = (archetype: string, skill?: string, subject?: BankSubject) =>
+  methodTitleOverrides[archetype] ?? (subject === "reading" && skill ? skill : toTitleCase(archetype));
 
 const isGenericPracticeSetTitle = (title: string | undefined) =>
   !title || /^\d+\s+questions?\s+practice set$/i.test(title.trim());
@@ -145,7 +211,15 @@ const shouldRegeneratePracticeSetTitle = (set: CustomPracticeSet) => {
   if (isGeneratedSimilarityLabelTitle(set.title)) return true;
   if (isGeneratedColonTitle(set.title)) return true;
   const group = set.similarityGroupId ? questionSimilarityGroupsById[set.similarityGroupId] : null;
-  return Boolean(group && set.title === group.label) || set.title === `${set.skill} practice`;
+  if (!group) return set.title === `${set.skill} practice`;
+  const oldFallbackTitle = toTitleCase(group.archetype);
+  const currentTitle = formatMethodTitle(group.archetype, group.skill, group.subject);
+  return (
+    set.title === group.label ||
+    set.title === group.archetype ||
+    set.title === `${set.skill} practice` ||
+    (set.title === oldFallbackTitle && set.title !== currentTitle)
+  );
 };
 
 const buildPracticeSetTitle = (
@@ -157,7 +231,7 @@ const buildPracticeSetTitle = (
   const groupId = similarityGroupId || (groupIds.size === 1 ? [...groupIds][0] : null);
   const group = groupId ? questionSimilarityGroupsById[groupId] : null;
   if (group?.archetype && group.archetype !== "mixed practice") {
-    return formatMethodTitle(group.archetype);
+    return formatMethodTitle(group.archetype, group.skill, group.subject);
   }
   if (group?.skill) return group.skill;
   if (summary.skill && !summary.skill.endsWith(" skills")) return summary.skill;
@@ -385,6 +459,7 @@ export const launchCustomPracticeSet = (
   sessionStorage.setItem("practiceExitTo", exitTo);
   sessionStorage.setItem("practiceSet", JSON.stringify(set.items));
   sessionStorage.setItem("practiceSetTotal", String(set.items.length));
+  sessionStorage.setItem(PRACTICE_RUN_STORAGE_KEY, buildPracticeRunId(set.id));
   navigate(
     `/bank/${target.subject}/${target.sourceId}?bankType=${target.bankType}&practice=true&idx=${targetIndex + 1}&customPractice=${set.id}`,
   );

@@ -1,4 +1,4 @@
-// Auto-generated from cb_data images on disk. Do not edit manually.
+// Auto-generated from unofficial SAT-style image assets. Do not edit manually.
 export interface UnofficialQuestionImageEntry {
   questionImages?: { src: string; alt: string }[];
   choiceImages?: Record<string, string>;
@@ -92,14 +92,6 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
         "alt": ""
       }
     ]
-  },
-  "a1696f3e": {
-    "questionImages": [],
-    "choiceImages": {
-      "A": "/images/SAT-Style%20Questions/a1696f3e_A.png",
-      "B": "/images/SAT-Style%20Questions/a1696f3e_B.png",
-      "C": "/images/SAT-Style%20Questions/a1696f3e_C.png"
-    }
   },
   "79e6ec70": {
     "questionImages": [
@@ -2604,12 +2596,6 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
       }
     ]
   },
-  "d9d83c02": {
-    "questionImages": [],
-    "choiceImages": {
-      "A": "/images/SAT-Style%20Questions/d9d83c02_A.png"
-    }
-  },
   "e9908930": {
     "questionImages": [
       {
@@ -3824,13 +3810,7 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
         "src": "/images/SAT-Style%20Questions/d4413871_q_01.png",
         "alt": ""
       }
-    ],
-    "choiceImages": {
-      "A": "/images/SAT-Style%20Questions/d4413871_choice_A_01.png",
-      "L": "/images/SAT-Style%20Questions/d4413871_choice_L_01.png",
-      "W": "/images/SAT-Style%20Questions/d4413871_choice_W_01.png",
-      "c": "/images/SAT-Style%20Questions/d4413871_choice_c_01.png"
-    }
+    ]
   },
   "0301c5dc": {
     "questionImages": [
@@ -3838,13 +3818,7 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
         "src": "/images/SAT-Style%20Questions/0301c5dc_q_01.png",
         "alt": ""
       }
-    ],
-    "choiceImages": {
-      "A": "/images/SAT-Style%20Questions/0301c5dc_choice_A_01.png",
-      "L": "/images/SAT-Style%20Questions/0301c5dc_choice_L_01.png",
-      "W": "/images/SAT-Style%20Questions/0301c5dc_choice_W_01.png",
-      "c": "/images/SAT-Style%20Questions/0301c5dc_choice_c_01.png"
-    }
+    ]
   },
   "3f2ee20a": {
     "questionImages": [
@@ -4061,5 +4035,23 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
         "alt": ""
       }
     ]
+  },
+  "36f068e2": {
+    "questionImages": [],
+    "choiceImages": {
+      "A": "/images/SAT-Style%20Questions/36f068e2_A.svg",
+      "B": "/images/SAT-Style%20Questions/36f068e2_B.svg",
+      "C": "/images/SAT-Style%20Questions/36f068e2_C.svg",
+      "D": "/images/SAT-Style%20Questions/36f068e2_D.svg"
+    }
+  },
+  "75a32330": {
+    "questionImages": [],
+    "choiceImages": {
+      "A": "/images/SAT-Style%20Questions/75a32330_A.svg",
+      "B": "/images/SAT-Style%20Questions/75a32330_B.svg",
+      "C": "/images/SAT-Style%20Questions/75a32330_C.svg",
+      "D": "/images/SAT-Style%20Questions/75a32330_D.svg"
+    }
   }
 };

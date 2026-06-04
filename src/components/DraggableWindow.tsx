@@ -22,7 +22,7 @@ interface DraggableWindowProps {
   zIndex?: number;
   constrainToLeft?: number;
   isSidebarred?: boolean; // Controlled sidebar state from parent
-  onSidebarToggle?: (windowId: string, shouldBeSidebarred: boolean) => void;
+  onSidebarToggle?: (windowId: string, shouldBeSidebarred: boolean, reason?: "close") => void;
   isMaximized?: boolean; // New prop to control maximization externally
   persistenceKey?: string;
   persistenceStorage?: Storage;
@@ -79,6 +79,7 @@ export const DraggableWindow = ({
   const prevIsOpenRef = useRef(false);
   const lastSplitPositionRef = useRef<number | null>(null);
   const wasSidebarredRef = useRef(isSidebarred);
+  const openedAsSidebarRef = useRef(false);
   const previousWindowStateRef = useRef<{
     position: { x: number; y: number };
     size: { width: number; height: number };
@@ -160,18 +161,38 @@ export const DraggableWindow = ({
   useEffect(() => { isDraggingRef.current = isDragging; }, [isDragging]);
   useEffect(() => { isResizingRef.current = isResizing; }, [isResizing]);
 
+  const persistCurrentFloatingState = useCallback(() => {
+    writePersistedState({
+      position: positionRef.current,
+      size: sizeRef.current,
+      isMinimized: isMinimizedRef.current,
+    });
+  }, [writePersistedState]);
+
   // Calculate initial position and size when window opens (only for non-sidebarred windows)
   useEffect(() => {
     // Window just opened
     if (isOpen && !prevIsOpenRef.current) {
       // If opening as sidebarred, let the sidebar effect handle positioning
       if (isSidebarred) {
+        const persistedState = readPersistedState();
+        previousWindowStateRef.current = persistedState
+          ? {
+              position: persistedState.position,
+              size: persistedState.size,
+            }
+          : {
+              position: positionRef.current,
+              size: sizeRef.current,
+            };
+        openedAsSidebarRef.current = true;
         // Notify parent that we're in sidebar mode
         if (onSplitScreenChange) {
           onSplitScreenChange(true, windowId);
         }
         setIsReady(true);
       } else {
+        openedAsSidebarRef.current = false;
         const bounds = getBounds();
         const availableWidth = constrainToLeft 
           ? (bounds.width * constrainToLeft) / 100
@@ -216,6 +237,9 @@ export const DraggableWindow = ({
     
     // Window just closed (via toggle button or any other means)
     if (!isOpen && prevIsOpenRef.current) {
+      if (!isSidebarred) {
+        persistCurrentFloatingState();
+      }
       setIsReady(false);
       setIsMinimized(false);
       // Clean up splitscreen state when window closes while sidebarred
@@ -224,13 +248,13 @@ export const DraggableWindow = ({
           onSplitScreenChange(false, windowId);
         }
         if (onSidebarToggle) {
-          onSidebarToggle(windowId, false);
+          onSidebarToggle(windowId, false, "close");
         }
       }
     }
 
     prevIsOpenRef.current = isOpen;
-  }, [isOpen, defaultWidth, defaultHeight, windowId, constrainToLeft, isSidebarred, onSplitScreenChange, onSidebarToggle, readPersistedState, getBounds]);
+  }, [isOpen, defaultWidth, defaultHeight, windowId, constrainToLeft, isSidebarred, onSplitScreenChange, onSidebarToggle, readPersistedState, getBounds, persistCurrentFloatingState]);
 
   // Handle sidebar mode changes - position window in sidebar
   useEffect(() => {
@@ -239,11 +263,19 @@ export const DraggableWindow = ({
     const wasSidebarred = wasSidebarredRef.current;
 
     if (!wasSidebarred && isSidebarred) {
-      // Save the current floating window geometry before entering sidebar mode.
-      previousWindowStateRef.current = {
-        position: positionRef.current,
-        size: sizeRef.current,
-      };
+      if (!openedAsSidebarRef.current) {
+        // Save the current floating window geometry before entering sidebar mode.
+        previousWindowStateRef.current = {
+          position: positionRef.current,
+          size: sizeRef.current,
+        };
+        persistCurrentFloatingState();
+      } else if (!previousWindowStateRef.current) {
+        previousWindowStateRef.current = {
+          position: positionRef.current,
+          size: sizeRef.current,
+        };
+      }
     }
 
     if (isSidebarred) {
@@ -278,8 +310,9 @@ export const DraggableWindow = ({
         }
       }
       wasSidebarredRef.current = false;
+      openedAsSidebarRef.current = false;
     }
-  }, [splitPosition, isSidebarred, isOpen, getBounds]);
+  }, [splitPosition, isSidebarred, isOpen, getBounds, persistCurrentFloatingState]);
 
   // Immediately check and correct position when un-minimizing
   useEffect(() => {
@@ -608,7 +641,7 @@ export const DraggableWindow = ({
     // When closing via X button, fully exit sidebar mode
     if (isSidebarred) {
       if (onSidebarToggle) {
-        onSidebarToggle(windowId, false);
+        onSidebarToggle(windowId, false, "close");
       }
       if (onSplitScreenChange) {
         onSplitScreenChange(false, windowId);

@@ -42,6 +42,12 @@ export interface LinkableHub {
   assetSlugs: string[];
 }
 
+const bankSkillHref = (subjectPath: "math" | "reading", skill: string) =>
+  `/bank/${subjectPath}/skill/${encodeURIComponent(skill)}`;
+
+const bankDomainHref = (subjectPath: "math" | "reading", domain: string) =>
+  `/bank/${subjectPath}/domain/${encodeURIComponent(domain)}`;
+
 const skillWorksheetAssets: LinkableAsset[] = satSkills.map((skill) => {
   const subjectPath = skill.section === "Math" ? "math" : "reading";
   const category = skill.section === "Math" ? "Math" : "Reading & Writing";
@@ -108,7 +114,8 @@ const skillWorksheetAssets: LinkableAsset[] = satSkills.map((skill) => {
       "sat-practice-test-score-sheet",
     ],
     productLinks: [
-      { label: "Practice this skill", href: `/sat-skill/${skill.slug}` },
+      { label: "Practice this skill", href: bankSkillHref(subjectPath, skill.officialSkill) },
+      { label: "Review skill guide", href: `/sat-skill/${skill.slug}` },
       { label: "Open the question bank", href: `/bank/${subjectPath}/browse` },
     ],
   };
@@ -258,7 +265,10 @@ const staticAssets: LinkableAsset[] = [
       { question: "Which section has more time per question?", answer: "Math has more time per question: about 95 seconds compared with about 71 seconds in Reading & Writing." },
     ],
     relatedSlugs: ["digital-sat-format-chart", "sat-practice-test-score-sheet", "2-week-sat-study-plan"],
-    productLinks: [{ label: "Take timed modules", href: "/modules" }],
+    productLinks: [
+      { label: "Take timed modules", href: "/modules" },
+      { label: "Open the question bank", href: "/bank" },
+    ],
   },
   {
     slug: "digital-sat-format-chart",
@@ -290,7 +300,10 @@ const staticAssets: LinkableAsset[] = [
       { question: "Does the Digital SAT still have long reading passages?", answer: "No. Reading & Writing uses short passages with one question each." },
     ],
     relatedSlugs: ["digital-sat-timing-chart", "sat-question-types-chart", "desmos-sat-shortcuts"],
-    productLinks: [{ label: "Read the Digital SAT guide", href: "/digital-sat-guide" }],
+    productLinks: [
+      { label: "Take timed modules", href: "/modules" },
+      { label: "Read the Digital SAT guide", href: "/digital-sat-guide" },
+    ],
   },
   {
     slug: "sat-math-formula-chart",
@@ -326,7 +339,11 @@ const staticAssets: LinkableAsset[] = [
       { question: "What formula matters most for SAT Math?", answer: "Slope is the highest-frequency formula because it appears in lines, functions, tables, graphs, and word problems." },
     ],
     relatedSlugs: ["sat-linear-functions-worksheet", "sat-circles-worksheet", "sat-right-triangles-and-trig-worksheet"],
-    productLinks: [{ label: "Practice SAT Math", href: "/bank/math/browse" }],
+    productLinks: [
+      { label: "Practice SAT Math", href: "/bank/math/browse" },
+      { label: "Practice Algebra", href: bankDomainHref("math", "Algebra") },
+      { label: "Practice Geometry", href: bankDomainHref("math", "Geometry and Trigonometry") },
+    ],
   },
   {
     slug: "sat-reading-writing-skill-chart",
@@ -360,7 +377,11 @@ const staticAssets: LinkableAsset[] = [
       { question: "Should I practice SAT reading by passage type?", answer: "For the Digital SAT, practicing by skill is usually better because each passage has only one question." },
     ],
     relatedSlugs: ["sat-words-in-context-worksheet", "sat-transitions-worksheet", "sat-boundaries-punctuation-worksheet"],
-    productLinks: [{ label: "Practice Reading and Writing", href: "/bank/reading/browse" }],
+    productLinks: [
+      { label: "Practice Reading and Writing", href: "/bank/reading/browse" },
+      { label: "Practice grammar", href: bankDomainHref("reading", "Standard English Conventions") },
+      { label: "Practice transitions", href: bankSkillHref("reading", "Transitions") },
+    ],
   },
   {
     slug: "sat-desmos-reference-sheet",
@@ -386,7 +407,11 @@ const staticAssets: LinkableAsset[] = [
       { question: "Is Desmos faster than algebra?", answer: "Often, but not always. It is fastest for graph intersections, systems, functions, and answer-choice testing." },
     ],
     relatedSlugs: ["desmos-sat-shortcuts", "sat-nonlinear-functions-worksheet", "sat-systems-of-linear-equations-worksheet"],
-    productLinks: [{ label: "Read the Desmos SAT guide", href: "/desmos-sat-guide" }],
+    productLinks: [
+      { label: "Practice systems with Desmos", href: bankSkillHref("math", "Systems of two linear equations in two variables") },
+      { label: "Practice nonlinear functions", href: bankSkillHref("math", "Nonlinear functions") },
+      { label: "Read the Desmos SAT guide", href: "/desmos-sat-guide" },
+    ],
   },
   {
     slug: "sat-vocabulary-frequency-list",
@@ -420,7 +445,10 @@ const staticAssets: LinkableAsset[] = [
       { question: "Should I memorize hundreds of SAT words?", answer: "Memorize high-frequency academic words, but prioritize context-clue practice over raw flashcard volume." },
     ],
     relatedSlugs: ["sat-words-in-context-worksheet", "sat-vocabulary-frequency-list", "sat-reading-writing-skill-chart"],
-    productLinks: [{ label: "Open SAT vocabulary", href: "/sat-vocabulary" }],
+    productLinks: [
+      { label: "Practice Words in Context", href: bankSkillHref("reading", "Words in Context") },
+      { label: "Open SAT vocabulary", href: "/sat-vocabulary" },
+    ],
   },
   {
     slug: "sat-grammar-rules-chart",
@@ -454,7 +482,10 @@ const staticAssets: LinkableAsset[] = [
       { question: "Is there an SAT essay?", answer: "No. The Digital SAT has no essay. Grammar appears only in multiple-choice Reading and Writing questions." },
     ],
     relatedSlugs: ["sat-boundaries-punctuation-worksheet", "sat-form-structure-sense-worksheet", "sat-punctuation-rules-chart"],
-    productLinks: [{ label: "Practice writing questions", href: "/bank/reading/browse" }],
+    productLinks: [
+      { label: "Practice grammar rules", href: bankSkillHref("reading", "Form, Structure, and Sense") },
+      { label: "Practice punctuation", href: bankSkillHref("reading", "Boundaries") },
+    ],
   },
   {
     slug: "sat-punctuation-rules-chart",
@@ -488,7 +519,10 @@ const staticAssets: LinkableAsset[] = [
       { question: "How do I avoid comma splices?", answer: "Do not join two complete sentences with only a comma. Use a period, semicolon, or comma plus conjunction." },
     ],
     relatedSlugs: ["sat-boundaries-punctuation-worksheet", "sat-grammar-rules-chart", "sat-writing-practice"],
-    productLinks: [{ label: "Practice punctuation", href: "/sat-skill/boundaries-punctuation" }],
+    productLinks: [
+      { label: "Practice punctuation", href: bankSkillHref("reading", "Boundaries") },
+      { label: "Review punctuation guide", href: "/sat-skill/boundaries-punctuation" },
+    ],
   },
   {
     slug: "sat-score-release-calendar",
@@ -617,7 +651,11 @@ const staticAssets: LinkableAsset[] = [
       { question: "Should I practice mixed question sets?", answer: "Yes, but only after isolated skill practice. Mixed sets are best for pacing and transfer." },
     ],
     relatedSlugs: ["sat-reading-writing-skill-chart", "sat-math-formula-chart", "digital-sat-format-chart"],
-    productLinks: [{ label: "Browse skills", href: "/sat-skill" }],
+    productLinks: [
+      { label: "Practice Math question types", href: "/bank/math/browse" },
+      { label: "Practice Reading question types", href: "/bank/reading/browse" },
+      { label: "Browse skills", href: "/sat-skill" },
+    ],
   },
   {
     slug: "sat-calculator-policy-chart",
@@ -651,7 +689,11 @@ const staticAssets: LinkableAsset[] = [
       { question: "Do I need to bring a calculator?", answer: "No. Desmos is built in, but you may bring an approved calculator as a backup." },
     ],
     relatedSlugs: ["sat-desmos-reference-sheet", "desmos-sat-shortcuts", "sat-math-formula-chart"],
-    productLinks: [{ label: "Practice calculator math", href: "/bank/math/browse" }],
+    productLinks: [
+      { label: "Practice calculator math", href: "/bank/math/browse" },
+      { label: "Practice systems", href: bankSkillHref("math", "Systems of two linear equations in two variables") },
+      { label: "Practice data models", href: bankSkillHref("math", "Two-variable data: Models and scatterplots") },
+    ],
   },
   {
     slug: "ivy-league-sat-score-chart",
@@ -890,7 +932,10 @@ const staticAssets: LinkableAsset[] = [
       { question: "What SAT score is good for engineering?", answer: "For selective engineering programs, 1450+ and a strong Math score are useful targets." },
     ],
     relatedSlugs: ["sat-scores-for-engineering-schools", "sat-scores-for-computer-science", "sat-section-score-chart"],
-    productLinks: [{ label: "Model your Math score", href: "/score-calculator" }],
+    productLinks: [
+      { label: "Practice SAT Math", href: "/bank/math/browse" },
+      { label: "Model your Math score", href: "/score-calculator" },
+    ],
   },
   {
     slug: "sat-scores-for-engineering-schools",
@@ -923,7 +968,11 @@ const staticAssets: LinkableAsset[] = [
       { question: "Is Reading & Writing less important for engineering?", answer: "It still matters because colleges evaluate the total score, but Math carries special readiness signal." },
     ],
     relatedSlugs: ["sat-math-formula-chart", "sat-scores-by-college-major", "sat-study-plan-for-1500"],
-    productLinks: [{ label: "Practice SAT Math", href: "/bank/math/browse" }],
+    productLinks: [
+      { label: "Practice SAT Math", href: "/bank/math/browse" },
+      { label: "Practice functions", href: bankSkillHref("math", "Linear functions") },
+      { label: "Practice data analysis", href: bankDomainHref("math", "Problem-Solving and Data Analysis") },
+    ],
   },
   {
     slug: "sat-scores-for-business-schools",
@@ -989,7 +1038,10 @@ const staticAssets: LinkableAsset[] = [
       { question: "Does SAT Math matter more for CS?", answer: "Yes. A high Math score supports quantitative readiness for computer science." },
     ],
     relatedSlugs: ["sat-scores-for-engineering-schools", "sat-math-formula-chart", "sat-study-plan-for-1500"],
-    productLinks: [{ label: "Practice hard SAT Math", href: "/bank/math/browse" }],
+    productLinks: [
+      { label: "Practice hard SAT Math", href: "/bank/math/browse" },
+      { label: "Practice Advanced Math", href: bankDomainHref("math", "Advanced Math") },
+    ],
   },
   {
     slug: "college-sat-middle-50-explained",
@@ -1082,7 +1134,11 @@ const staticAssets: LinkableAsset[] = [
       { question: "How many hours per day should I study?", answer: "Plan for 1.5-3 focused hours per day if you only have two weeks." },
     ],
     relatedSlugs: ["sat-cram-plan", "sat-test-day-checklist-printable", "digital-sat-timing-chart"],
-    productLinks: [{ label: "Generate a custom plan", href: "/sat-study-plan-generator" }],
+    productLinks: [
+      { label: "Generate a custom plan", href: "/sat-study-plan-generator" },
+      { label: "Start targeted drills", href: "/bank" },
+      { label: "Take timed modules", href: "/modules" },
+    ],
   },
   {
     slug: "30-day-sat-study-plan-template",
@@ -1116,7 +1172,11 @@ const staticAssets: LinkableAsset[] = [
       { question: "How many practice tests should I take in 30 days?", answer: "Two to three full practice tests is enough if you thoroughly review them." },
     ],
     relatedSlugs: ["60-day-sat-study-plan", "sat-study-schedule-template", "sat-practice-test-score-sheet"],
-    productLinks: [{ label: "Build a study plan", href: "/sat-study-plan-generator" }],
+    productLinks: [
+      { label: "Build a study plan", href: "/sat-study-plan-generator" },
+      { label: "Start targeted drills", href: "/bank" },
+      { label: "Take timed modules", href: "/modules" },
+    ],
   },
   {
     slug: "60-day-sat-study-plan",
@@ -1142,7 +1202,11 @@ const staticAssets: LinkableAsset[] = [
       { question: "Should I study every day?", answer: "Four to six days per week is usually better than one or two long sessions." },
     ],
     relatedSlugs: ["30-day-sat-study-plan-template", "90-day-sat-study-plan", "sat-study-plan-for-1400"],
-    productLinks: [{ label: "Practice timed modules", href: "/modules" }],
+    productLinks: [
+      { label: "Practice timed modules", href: "/modules" },
+      { label: "Drill core Math", href: "/bank/math/browse" },
+      { label: "Drill Reading and Writing", href: "/bank/reading/browse" },
+    ],
   },
   {
     slug: "90-day-sat-study-plan",
@@ -1175,7 +1239,10 @@ const staticAssets: LinkableAsset[] = [
       { question: "How often should I take practice tests?", answer: "Start every 2-3 weeks, then weekly in the final month." },
     ],
     relatedSlugs: ["60-day-sat-study-plan", "summer-sat-study-plan", "sat-study-plan-for-1500"],
-    productLinks: [{ label: "Start with the question bank", href: "/bank" }],
+    productLinks: [
+      { label: "Start with the question bank", href: "/bank" },
+      { label: "Take timed modules", href: "/modules" },
+    ],
   },
   {
     slug: "summer-sat-study-plan",
@@ -1201,7 +1268,11 @@ const staticAssets: LinkableAsset[] = [
       { question: "How long should a summer SAT plan be?", answer: "Eight to ten weeks is ideal for steady improvement without cramming." },
     ],
     relatedSlugs: ["90-day-sat-study-plan", "sat-study-schedule-template", "sat-retake-study-plan"],
-    productLinks: [{ label: "Generate a plan", href: "/sat-study-plan-generator" }],
+    productLinks: [
+      { label: "Generate a plan", href: "/sat-study-plan-generator" },
+      { label: "Practice SAT Math", href: "/bank/math/browse" },
+      { label: "Practice Reading and Writing", href: "/bank/reading/browse" },
+    ],
   },
   {
     slug: "sat-study-schedule-template",
@@ -1237,7 +1308,11 @@ const staticAssets: LinkableAsset[] = [
       { question: "Should I schedule review days?", answer: "Yes. Review days are required; they turn practice into score improvement." },
     ],
     relatedSlugs: ["30-day-sat-study-plan-template", "60-day-sat-study-plan", "sat-practice-test-score-sheet"],
-    productLinks: [{ label: "Create a custom schedule", href: "/sat-study-plan-generator" }],
+    productLinks: [
+      { label: "Create a custom schedule", href: "/sat-study-plan-generator" },
+      { label: "Start weekly drills", href: "/bank" },
+      { label: "Take timed modules", href: "/modules" },
+    ],
   },
   {
     slug: "sat-cram-plan",
@@ -1263,7 +1338,11 @@ const staticAssets: LinkableAsset[] = [
       { question: "Should I take a full practice test the day before?", answer: "Usually no. Do light review, rest, and make sure logistics are handled." },
     ],
     relatedSlugs: ["2-week-sat-study-plan", "sat-test-day-checklist-printable", "digital-sat-timing-chart"],
-    productLinks: [{ label: "Practice quick drills", href: "/bank" }],
+    productLinks: [
+      { label: "Practice quick drills", href: "/bank" },
+      { label: "Practice punctuation", href: bankSkillHref("reading", "Boundaries") },
+      { label: "Practice linear equations", href: bankSkillHref("math", "Linear equations in one variable") },
+    ],
   },
   {
     slug: "sat-retake-study-plan",
@@ -1289,7 +1368,11 @@ const staticAssets: LinkableAsset[] = [
       { question: "Should I retake a 1500 SAT?", answer: "Only if your target colleges make a higher score meaningfully useful or one section is much weaker than the other." },
     ],
     relatedSlugs: ["test-optional-colleges-sat-strategy", "sat-score-release-calendar", "sat-study-plan-for-1500"],
-    productLinks: [{ label: "Analyze score targets", href: "/sat-score" }],
+    productLinks: [
+      { label: "Analyze score targets", href: "/sat-score" },
+      { label: "Drill weak skills", href: "/bank" },
+      { label: "Take timed modules", href: "/modules" },
+    ],
   },
   {
     slug: "sat-study-plan-for-1400",
@@ -1315,7 +1398,11 @@ const staticAssets: LinkableAsset[] = [
       { question: "How many questions can I miss for 1400?", answer: "The exact number varies, but roughly 7-12 total misses is a useful planning range." },
     ],
     relatedSlugs: ["how-to-get-1400-sat", "sat-section-score-chart", "60-day-sat-study-plan"],
-    productLinks: [{ label: "Read the 1400 guide", href: "/how-to-get-1400-sat" }],
+    productLinks: [
+      { label: "Practice medium misses", href: "/bank" },
+      { label: "Take timed modules", href: "/modules" },
+      { label: "Read the 1400 guide", href: "/how-to-get-1400-sat" },
+    ],
   },
   {
     slug: "sat-study-plan-for-1500",
@@ -1341,7 +1428,11 @@ const staticAssets: LinkableAsset[] = [
       { question: "Can I reach 1500 from 1400?", answer: "Yes, but the last 100 points usually come from eliminating careless errors and mastering the hardest question types." },
     ],
     relatedSlugs: ["how-to-get-1500-sat", "sat-study-plan-for-1400", "ivy-league-sat-score-chart"],
-    productLinks: [{ label: "Read the 1500 guide", href: "/how-to-get-1500-sat" }],
+    productLinks: [
+      { label: "Practice hard Math", href: bankDomainHref("math", "Advanced Math") },
+      { label: "Practice hard Reading", href: "/bank/reading/browse" },
+      { label: "Read the 1500 guide", href: "/how-to-get-1500-sat" },
+    ],
   },
   {
     slug: "sat-to-act-conversion-chart",
@@ -1436,7 +1527,11 @@ const staticAssets: LinkableAsset[] = [
       { question: "Should I use Desmos on every Math question?", answer: "No. Use it when it saves time or reduces error risk." },
     ],
     relatedSlugs: ["sat-desmos-reference-sheet", "sat-calculator-policy-chart", "sat-nonlinear-functions-worksheet"],
-    productLinks: [{ label: "Read Desmos guide", href: "/desmos-sat-guide" }],
+    productLinks: [
+      { label: "Practice systems", href: bankSkillHref("math", "Systems of two linear equations in two variables") },
+      { label: "Practice nonlinear functions", href: bankSkillHref("math", "Nonlinear functions") },
+      { label: "Read Desmos guide", href: "/desmos-sat-guide" },
+    ],
   },
   {
     slug: "sat-percentile-lookup-table",
@@ -1508,7 +1603,10 @@ const staticAssets: LinkableAsset[] = [
       { question: "Should I track guessed questions?", answer: "Yes. Guessed-right questions still reveal unstable knowledge." },
     ],
     relatedSlugs: ["sat-raw-score-conversion-chart", "digital-sat-timing-chart", "sat-study-schedule-template"],
-    productLinks: [{ label: "Take a practice module", href: "/modules" }],
+    productLinks: [
+      { label: "Take a practice module", href: "/modules" },
+      { label: "Open the question bank", href: "/bank" },
+    ],
   },
 ];
 

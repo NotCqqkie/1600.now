@@ -1,6 +1,28 @@
 [
   {
     "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Easy",
+    "question_number": 1,
+    "test_name": "June 2025 International Form B SAT Math Module 1",
+    "passage": "Note: Figure not drawn to scale.\nIn the figure, line $n$ intersects lines $r$ and $s$. Line $r$ is parallel to line $s$. What is the value of $x$?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "164",
+    "rationale": null,
+    "id": "9628151f-9763-4abc-8c66-9dc08f82f715_1",
+    "images": [
+      {
+        "src": "/images/SAT-Style%20Questions/9628151f-9763-4abc-8c66-9dc08f82f715_1_q_01_FIX.png",
+        "alt": "Parallel lines r and s cut by transversal n with angles 164 degrees and x degrees",
+        "local": "images/SAT-Style Questions/9628151f-9763-4abc-8c66-9dc08f82f715_1_q_01_FIX.png"
+      }
+    ]
+  },
+  {
+    "section": "Math",
     "domain": "Algebra",
     "skill": "Linear inequalities in one or two variables",
     "difficulty": "Easy",
@@ -158,9 +180,9 @@
     "id": "9628151f-9763-4abc-8c66-9dc08f82f715_7",
     "images": [
       {
-        "src": "/images_labeled/9628151f-9763-4abc-8c66-9dc08f82f715_7_q_01_FIX.svg",
+        "src": "/images/SAT-Style%20Questions/9628151f-9763-4abc-8c66-9dc08f82f715_7_q_01_FIX.svg",
         "alt": "",
-        "local": "images_labeled/9628151f-9763-4abc-8c66-9dc08f82f715_7_q_01_FIX.svg"
+        "local": "images/SAT-Style Questions/9628151f-9763-4abc-8c66-9dc08f82f715_7_q_01_FIX.svg"
       }
     ]
   },
@@ -434,9 +456,9 @@
     "id": "9628151f-9763-4abc-8c66-9dc08f82f715_18",
     "images": [
       {
-        "src": "/images_labeled/9628151f-9763-4abc-8c66-9dc08f82f715_18_q_01_FIX.svg",
+        "src": "/images/SAT-Style%20Questions/9628151f-9763-4abc-8c66-9dc08f82f715_18_q_01_FIX.svg",
         "alt": "",
-        "local": "images_labeled/9628151f-9763-4abc-8c66-9dc08f82f715_18_q_01_FIX.svg"
+        "local": "images/SAT-Style Questions/9628151f-9763-4abc-8c66-9dc08f82f715_18_q_01_FIX.svg"
       }
     ]
   },

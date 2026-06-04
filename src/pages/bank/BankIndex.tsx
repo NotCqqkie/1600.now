@@ -14,6 +14,7 @@ import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Input } from "@/components/ui/input";
+import { SegmentedToggle, type SegmentedToggleOption } from "@/components/ui/segmented-toggle";
 import {
   Calculator,
   FileText,
@@ -143,6 +144,20 @@ const getQuestionPreviewText = (question: BankQuestion): string =>
 
 const getSubjectLabel = (subject: BankSubject) =>
   subject === "math" ? "Math" : "Reading & Writing";
+
+const keywordSubjectOptions: readonly SegmentedToggleOption<BankSubject>[] = [
+  { value: "math", label: "Math", title: "Show Math questions" },
+  { value: "reading", label: "Reading", title: "Show Reading questions" },
+];
+
+const shuffleQuestions = (questions: BankQuestion[]): BankQuestion[] => {
+  const shuffled = [...questions];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+};
 
 const MATH_TOPIC_DISPLAY_LABELS: Record<string, string> = {
   "Linear equations in one variable": "Linear equations: one variable",
@@ -338,6 +353,7 @@ export const BankIndex = ({
   const [rawKeywordSearchResults, setRawKeywordSearchResults] = useState<BankQuestion[]>([]);
   const [isKeywordSearchLoading, setIsKeywordSearchLoading] = useState(false);
   const [isKeywordListCollapsed, setIsKeywordListCollapsed] = useState(false);
+  const [keywordSubject, setKeywordSubject] = useState<BankSubject>("math");
 
   useEffect(() => {
     setKeywordSearch(keywordSearchParam);
@@ -548,9 +564,15 @@ export const BankIndex = ({
 
   const handleBankSourceChange = useCallback((nextSource: BankSourceFilter) => {
     const nextParams = getCurrentSearchParams();
+    const trimmedSearch = keywordSearch.trim();
     nextParams.set("bankType", nextSource);
+    if (trimmedSearch) {
+      nextParams.set("q", keywordSearch);
+    } else {
+      nextParams.delete("q");
+    }
     setSearchParams(nextParams);
-  }, [getCurrentSearchParams, setSearchParams]);
+  }, [getCurrentSearchParams, keywordSearch, setSearchParams]);
 
   const handleKeywordSearchChange = useCallback((nextSearch: string) => {
     setKeywordSearch(nextSearch);
@@ -883,18 +905,36 @@ export const BankIndex = ({
     () => getKeywordSearchInfo(rawKeywordSearchResults),
     [rawKeywordSearchResults],
   );
+
+  useEffect(() => {
+    if (!keywordSearch.trim()) return;
+    if (keywordSubject === "math" && keywordSearchInfo.mathCount === 0 && keywordSearchInfo.readingCount > 0) {
+      setKeywordSubject("reading");
+    }
+    if (keywordSubject === "reading" && keywordSearchInfo.readingCount === 0 && keywordSearchInfo.mathCount > 0) {
+      setKeywordSubject("math");
+    }
+  }, [keywordSearch, keywordSearchInfo.mathCount, keywordSearchInfo.readingCount, keywordSubject]);
+
+  const keywordSearchResults = useMemo(
+    () => rawKeywordSearchResults.filter((question) => question.subject === keywordSubject),
+    [keywordSubject, rawKeywordSearchResults],
+  );
   const keywordPracticeQuestions = useMemo(
-    () => keywordSearchInfo.results,
-    [keywordSearchInfo.results],
+    () => keywordSearchResults,
+    [keywordSearchResults],
   );
   const canCreateKeywordPracticeSet =
     keywordPracticeQuestions.length >= KEYWORD_PRACTICE_MIN_QUESTIONS;
 
-  const handleCreateKeywordPracticeSet = useCallback(() => {
+  const handleCreateKeywordPracticeSet = useCallback((shuffle = false) => {
     const nextParams = new URLSearchParams();
     nextParams.set("bankType", bankSource);
     nextParams.set("q", keywordSearch.trim());
-    startBankPracticeSession(keywordPracticeQuestions, `/bank?${nextParams.toString()}`);
+    startBankPracticeSession(
+      shuffle ? shuffleQuestions(keywordPracticeQuestions) : keywordPracticeQuestions,
+      `/bank?${nextParams.toString()}`,
+    );
   }, [bankSource, keywordSearch, keywordPracticeQuestions, startBankPracticeSession]);
 
 
@@ -906,7 +946,8 @@ export const BankIndex = ({
   };
 
   const isKeywordSearchActive = keywordSearch.trim().length > 0;
-  const keywordSearchResults = keywordSearchInfo.results;
+  const shouldShowKeywordSubjectToggle =
+    keywordSearchInfo.mathCount > 0 && keywordSearchInfo.readingCount > 0;
   const visibleKeywordSearchResults = keywordSearchResults.slice(0, BANK_SEARCH_RESULT_LIMIT);
 
   const renderKeywordSearch = () => (
@@ -935,16 +976,39 @@ export const BankIndex = ({
           )}
         </div>
         {isKeywordSearchActive && (
-          <Button
-            type="button"
-            size="sm"
-            disabled={isKeywordSearchLoading || !canCreateKeywordPracticeSet}
-            onClick={handleCreateKeywordPracticeSet}
-            className="h-10 shrink-0"
-          >
-            <Play className="h-4 w-4" />
-            Practice {keywordPracticeQuestions.length.toLocaleString()}
-          </Button>
+          <div className="flex shrink-0 flex-wrap gap-2 sm:flex-nowrap">
+            {shouldShowKeywordSubjectToggle && (
+              <SegmentedToggle
+                value={keywordSubject}
+                options={keywordSubjectOptions}
+                onChange={(value) => setKeywordSubject(value)}
+                className="h-10 shrink-0"
+                buttonClassName="h-[30px] px-3 py-0 text-[13px] leading-none"
+              />
+            )}
+            <Button
+              type="button"
+              size="sm"
+              disabled={isKeywordSearchLoading || !canCreateKeywordPracticeSet}
+              onClick={() => handleCreateKeywordPracticeSet(false)}
+              className="h-10 flex-1 shrink-0 sm:flex-none"
+            >
+              <Play className="h-4 w-4" />
+              Practice {keywordPracticeQuestions.length.toLocaleString()}
+            </Button>
+            <Button
+              type="button"
+              variant="outline"
+              size="icon"
+              disabled={isKeywordSearchLoading || !canCreateKeywordPracticeSet}
+              onClick={() => handleCreateKeywordPracticeSet(true)}
+              aria-label={`Shuffle practice ${keywordPracticeQuestions.length.toLocaleString()} questions`}
+              title="Shuffle Practice"
+              className="h-10 w-10 shrink-0"
+            >
+              <Shuffle className="h-4 w-4" />
+            </Button>
+          </div>
         )}
       </div>
       {isKeywordSearchActive && (
@@ -957,9 +1021,7 @@ export const BankIndex = ({
               <p className="mt-0.5 text-xs text-ink-muted">
                 {isKeywordSearchLoading
                   ? "Searching..."
-                  : keywordSearchInfo.focusedSubject && keywordSearchInfo.filteredSubject
-                    ? `${keywordSearchResults.length.toLocaleString()} ${getSubjectLabel(keywordSearchInfo.focusedSubject)} questions shown - ${keywordSearchInfo.filteredSubjectCount.toLocaleString()} ${getSubjectLabel(keywordSearchInfo.filteredSubject)} hidden`
-                    : `${keywordSearchInfo.rawCount.toLocaleString()} question${keywordSearchInfo.rawCount === 1 ? "" : "s"} found - Math ${keywordSearchInfo.mathCount.toLocaleString()} - Reading ${keywordSearchInfo.readingCount.toLocaleString()}`}
+                  : `${keywordSearchResults.length.toLocaleString()} ${getSubjectLabel(keywordSubject)} question${keywordSearchResults.length === 1 ? "" : "s"} shown - Math ${keywordSearchInfo.mathCount.toLocaleString()} - Reading ${keywordSearchInfo.readingCount.toLocaleString()}`}
               </p>
             </div>
             <Button
@@ -978,7 +1040,7 @@ export const BankIndex = ({
             </Button>
           </div>
 
-          {isKeywordListCollapsed ? null : isKeywordSearchLoading ? (
+          {isKeywordListCollapsed ? null : isKeywordSearchLoading && visibleKeywordSearchResults.length === 0 ? (
             <div className="p-10 text-center text-sm text-ink-muted">
               Searching question text...
             </div>
@@ -987,7 +1049,10 @@ export const BankIndex = ({
               No questions found for that keyword with the current filters.
             </div>
           ) : (
-            <div className="divide-y divide-ds-line">
+            <div
+              aria-busy={isKeywordSearchLoading ? "true" : undefined}
+              className={`divide-y divide-ds-line${isKeywordSearchLoading ? " pointer-events-none opacity-60" : ""}`}
+            >
               {visibleKeywordSearchResults.map((question) => {
                 const isMathQuestionResult = question.subject === "math";
                 const skillLabel = getTopicDisplayLabel(question.subject, question.category.skill);

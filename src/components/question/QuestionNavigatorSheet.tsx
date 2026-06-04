@@ -209,7 +209,7 @@ export const QuestionNavigatorSheet = ({
                 )}
               >
                 {item.isFlagged ? (
-                  <Bookmark className="absolute -right-1.5 -top-1.5 h-3.5 w-3.5 bookmark-flag" />
+                  <Bookmark className="pointer-events-none absolute right-0.5 top-0.5 z-10 h-3 w-3 bookmark-flag" />
                 ) : null}
                 <span className="text-foreground dark:text-white">{item.label}</span>
               </button>

@@ -1,0 +1,19 @@
+{
+  "questionId": "68b576c1-9de8-41d3-9840-538d4edcd113_4",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the equations",
+      "content": "The system is:<br/>$x + 5y = 5$<br/>$x - 5y = 7$<br/><br/>Adding the equations eliminates $y$:<br/>$$(x + 5y) + (x - 5y) = 5 + 7$$<br/>$$2x = 12$$"
+    },
+    {
+      "title": "Solve for x",
+      "content": "Divide both sides by 2:<br/>$$x = 6$$<br/>That matches choice C. <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "x + 5y = 5",
+        "x - 5y = 7"
+      ]
+    }
+  ]
+}

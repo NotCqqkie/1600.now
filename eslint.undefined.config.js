@@ -4,7 +4,7 @@ import tseslint from "typescript-eslint";
 
 export default tseslint.config(
   {
-    ignores: ["dist", "src/data/questions_data.ts"],
+    ignores: ["dist"],
     linterOptions: {
       reportUnusedDisableDirectives: "off",
     },

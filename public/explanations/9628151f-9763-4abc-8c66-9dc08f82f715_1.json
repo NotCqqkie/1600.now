@@ -1,0 +1,15 @@
+{
+  "questionId": "9628151f-9763-4abc-8c66-9dc08f82f715_1",
+  "correctAnswer": "164",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the angle relationship",
+      "content": "Lines $r$ and $s$ are parallel, and line $n$ is a transversal. The $164^\\circ$ angle and the $x^\\circ$ angle are in matching positions at the two intersections, so they are corresponding angles."
+    },
+    {
+      "title": "Use corresponding angles",
+      "content": "Corresponding angles formed by a transversal crossing parallel lines are congruent. Therefore, $x = 164$, so the answer is <strong>164</strong>."
+    }
+  ]
+}

@@ -309,34 +309,6 @@ const ONBOARDING_REPLAY_REQUEST_KEY = "onboarding-replay-requested";
 const PRACTICE_SET_HELP_REQUEST_KEY = "practice-set-help-requested";
 
 /**
- * Maximum account age (in ms) for the tour to auto-open.
- *
- * Beyond this, the tour will only appear if the user explicitly clicks the
- * "Replay tour" button in the sidebar footer. The intent: brand-new users
- * get the tour as part of onboarding; long-time users who never saw it
- * shouldn't get a surprise tour popping up.
- *
- * Trade-offs:
- *   - 24 * 60 * 60 * 1000 (24h): captures "signed up yesterday, came back today"
- *   - 7 * 24 * 60 * 60 * 1000 (1 week): more lenient, but anyone who has
- *     used the app for a week probably knows their way around
- *   - 60 * 60 * 1000 (1h): only "literally just signed up" — you'd want
- *     this if signups are immediate and verification is instant
- *
- * Note: regardless of this gate, we ALSO auto-open if the post-signup
- * `onboarding-pending` sessionStorage flag is set, so the tour always runs
- * once right after a fresh signup even if the threshold were 0.
- */
-const NEW_ACCOUNT_AUTO_TOUR_WINDOW_MS = 24 * 60 * 60 * 1000;
-
-const isAccountWithinWindow = (creationTime: string | undefined, windowMs: number) => {
-  if (!creationTime) return false;
-  const created = new Date(creationTime).getTime();
-  if (Number.isNaN(created)) return false;
-  return Date.now() - created < windowMs;
-};
-
-/**
  * Warm the lazy-loaded route chunks the tour will visit. The pages in
  * App.tsx are wrapped in `React.lazy()`, which means `navigate("/bank")`
  * triggers a chunk fetch the first time. If we wait until the tour clicks
@@ -599,20 +571,11 @@ export const OnboardingTour = () => {
   const step = steps[index] ?? steps[0];
   const total = steps.length;
 
-  // Open logic. Two paths to auto-open:
-  //   1. `onboarding-pending` flag set right after a fresh signup/verify —
-  //      always honored.
-  //   2. User has never closed the tour AND the account is younger than
-  //      NEW_ACCOUNT_AUTO_TOUR_WINDOW_MS. Older accounts that never saw the
-  //      tour can still launch it via the sidebar's Replay button.
   useEffect(() => {
     if (loading || !user) return;
     if (!user.emailVerified) return;
     const pending = sessionStorage.getItem("onboarding-pending");
-    const seen = localStorage.getItem(tourKey(user.uid));
-    const creationTime = user.raw?.metadata?.creationTime;
-    const isNewAccount = isAccountWithinWindow(creationTime, NEW_ACCOUNT_AUTO_TOUR_WINDOW_MS);
-    if (pending === "1" || (!seen && isNewAccount)) {
+    if (pending === "1") {
       setSteps(MAIN_STEPS);
       setActiveTour("main");
       setIndex(0);

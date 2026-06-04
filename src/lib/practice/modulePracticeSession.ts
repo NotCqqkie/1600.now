@@ -29,6 +29,7 @@ export interface ModulePracticeSessionMeta {
   settings: ModulePracticeSettings;
   elapsedSeconds: number;
   remainingSeconds: number | null;
+  timerRemainderMs?: number;
 }
 
 export interface ModulePracticeQuestionState {
@@ -118,6 +119,9 @@ const writeJson = (storage: Storage, key: string, value: unknown) => {
 
 const getSessionKey = (moduleSlug: string) => `${ACTIVE_SESSION_PREFIX}${moduleSlug}`;
 
+const getTimerRemainderMs = (value: number | undefined) =>
+  Number.isFinite(value) ? Math.max(0, Math.min(999, Math.floor(value ?? 0))) : 0;
+
 export const getModulePracticeSessionStateKey = (sessionId: string, storageId: string) =>
   `${SESSION_STATE_PREFIX}${sessionId}:${storageId}`;
 
@@ -154,6 +158,7 @@ export const createModulePracticeSession = (
     settings,
     elapsedSeconds: 0,
     remainingSeconds: settings.timed ? settings.timeLimitSeconds : null,
+    timerRemainderMs: 0,
   };
 
   writeJson(sessionStorage, getSessionKey(module.slug), session);
@@ -166,6 +171,41 @@ export const getModulePracticeSession = (
 
 export const saveModulePracticeSession = (session: ModulePracticeSessionMeta) => {
   writeJson(sessionStorage, getSessionKey(session.moduleSlug), session);
+};
+
+export const advanceModulePracticeSessionTimer = (
+  session: ModulePracticeSessionMeta,
+  elapsedMs: number,
+): ModulePracticeSessionMeta => {
+  const safeElapsedMs = Math.max(0, Math.floor(elapsedMs));
+  if (!safeElapsedMs) return session;
+  if (session.settings.timed && session.remainingSeconds === 0) {
+    return session.timerRemainderMs ? { ...session, timerRemainderMs: 0 } : session;
+  }
+
+  const totalMs = getTimerRemainderMs(session.timerRemainderMs) + safeElapsedMs;
+  const elapsedWholeSeconds = Math.floor(totalMs / 1000);
+  const timerRemainderMs = totalMs % 1000;
+
+  if (!elapsedWholeSeconds) {
+    return { ...session, timerRemainderMs };
+  }
+
+  const elapsedSeconds =
+    session.settings.timed && session.remainingSeconds !== null
+      ? Math.min(elapsedWholeSeconds, session.remainingSeconds)
+      : elapsedWholeSeconds;
+  const remainingSeconds =
+    session.settings.timed && session.remainingSeconds !== null
+      ? Math.max(0, session.remainingSeconds - elapsedSeconds)
+      : null;
+
+  return {
+    ...session,
+    elapsedSeconds: session.elapsedSeconds + elapsedSeconds,
+    remainingSeconds,
+    timerRemainderMs: remainingSeconds === 0 ? 0 : timerRemainderMs,
+  };
 };
 
 export const clearModulePracticeSessionArtifacts = (sessionId: string) => {
@@ -395,4 +435,15 @@ export const getLatestModulePracticeResult = (
   const sessionId = localStorage.getItem(`${LATEST_RESULT_PREFIX}${moduleSlug}`);
   if (!sessionId) return null;
   return getModulePracticeResult(sessionId);
+};
+
+export const getAllModulePracticeResults = (): ModulePracticeResult[] => {
+  const results: ModulePracticeResult[] = [];
+  for (let index = 0; index < localStorage.length; index += 1) {
+    const key = localStorage.key(index);
+    if (!key || !key.startsWith(RESULT_PREFIX)) continue;
+    const result = readJson<ModulePracticeResult>(localStorage, key);
+    if (result) results.push(result);
+  }
+  return results.sort((a, b) => b.submittedAt - a.submittedAt);
 };

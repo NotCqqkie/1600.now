@@ -1,0 +1,15 @@
+{
+  "questionId": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_1",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "The function is $g(x)=19-x$. To find $g(4)$, substitute $4$ for $x$: $$g(4)=19-4.$$"
+    },
+    {
+      "title": "Evaluate",
+      "content": "$19-4=15$, so $g(4)=15$. That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

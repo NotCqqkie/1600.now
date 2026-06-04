@@ -64,8 +64,10 @@ if missing:
         print(f"  ... and {len(missing) - 20} more")
 
 output = REPO_ROOT / "scripts" / "images" / "unreferenced_images.txt"
-with open(output, "w") as fh:
-    for name in sorted(unreferenced):
-        fh.write(name + "\n")
-
-print(f"\nWrote list to {output.relative_to(REPO_ROOT)}")
+if unreferenced:
+    with open(output, "w") as fh:
+        for name in sorted(unreferenced):
+            fh.write(name + "\n")
+    print(f"\nWrote list to {output.relative_to(REPO_ROOT)}")
+elif output.exists():
+    output.unlink()

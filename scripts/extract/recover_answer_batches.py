@@ -94,7 +94,6 @@ def main():
         for p in target_pages:
             # Skip if every question on this page is already saved
             page_q_nums = {int(m.group(1)) for m in QUESTION_HEADER_RE.finditer(p["raw_text"])}
-            still_missing = page_q_nums & q_nums - {q for (_, _, q) in seen if (section, module, q) in seen}
             still_missing = {q for q in page_q_nums if (section, module, q) not in seen} & q_nums
             if not still_missing:
                 print(f"  Page {p['page_num']}: already covered, skipping")

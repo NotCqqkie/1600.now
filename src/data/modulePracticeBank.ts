@@ -43,6 +43,7 @@ type ReplacementOrigin = "borrowed";
 interface RawModuleChoice {
   label: string;
   text?: string;
+  image?: string;
 }
 
 interface RawModuleImage {
@@ -280,7 +281,7 @@ const synthesizeBankQuestion = (
     passage: subject === "reading" ? rawQuestion.passage ?? baseQuestion?.passage : baseQuestion?.passage,
     questionText: rawQuestion.question_text ?? (subject === "math" ? rawPrompt : baseQuestion?.questionText),
     choices: type === "multiple-choice"
-      ? rawQuestion.choices?.map((c) => ({ id: c.label, text: c.text ?? "" })) ?? baseQuestion?.choices
+      ? rawQuestion.choices?.map((c) => ({ id: c.label, text: c.text ?? "", image: c.image })) ?? baseQuestion?.choices
       : undefined,
     type,
     correctAnswer: rawQuestion.correct_answer ?? baseQuestion?.correctAnswer ?? null,

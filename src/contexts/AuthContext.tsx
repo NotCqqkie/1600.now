@@ -100,6 +100,7 @@ const toAppUser = (
 };
 
 const GOOGLE_SIGN_IN_PENDING_PARAM = "googleSignIn";
+const ONBOARDING_PENDING_KEY = "onboarding-pending";
 
 const getLocalhostAuthUrl = (): string | null => {
   if (!import.meta.env.DEV || typeof window === "undefined") return null;
@@ -170,8 +171,12 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
         .then((result) => {
           if (!result) return;
           const info = authModule.getAdditionalUserInfo(result);
-          if (info?.isNewUser) trackSignUp("google");
-          else trackLogin("google");
+          if (info?.isNewUser) {
+            sessionStorage.setItem(ONBOARDING_PENDING_KEY, "1");
+            trackSignUp("google");
+          } else {
+            trackLogin("google");
+          }
         })
         .catch((error: unknown) => {
           const code = (error as { code?: string } | null)?.code;
@@ -187,24 +192,11 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
       });
     };
 
-    const idleCallback =
-      "requestIdleCallback" in window
-        ? window.requestIdleCallback(() => {
-            void initializeAuth();
-          })
-        : globalThis.setTimeout(() => {
-            void initializeAuth();
-          }, 1);
+    void initializeAuth();
 
     return () => {
       cancelled = true;
       unsubscribe?.();
-
-      if ("cancelIdleCallback" in window) {
-        window.cancelIdleCallback(idleCallback as number);
-      } else {
-        globalThis.clearTimeout(idleCallback as number);
-      }
     };
   }, [applyFirebaseUser]);
 

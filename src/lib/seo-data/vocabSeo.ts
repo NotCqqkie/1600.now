@@ -1,8 +1,9 @@
 import { vocabularySets, type VocabWord } from "@/data/vocabulary";
 
-export interface SeoVocabEntry extends VocabWord {
+export interface SeoVocabEntry extends Omit<VocabWord, "difficulty"> {
   slug: string;
   difficulty: "Easy" | "Medium" | "Hard";
+  rawDifficulty: number;
   setId: string;
 }
 
@@ -24,7 +25,7 @@ const buildEntries = (): SeoVocabEntry[] => {
       const slug = toSlug(w.word);
       if (seen.has(slug)) continue;
       seen.add(slug);
-      entries.push({ ...w, slug, difficulty, setId: set.id });
+      entries.push({ ...w, slug, difficulty, rawDifficulty: w.difficulty, setId: set.id });
     }
   }
   return entries.sort((a, b) => a.word.localeCompare(b.word));

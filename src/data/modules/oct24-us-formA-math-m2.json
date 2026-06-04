@@ -333,9 +333,9 @@
     "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_12",
     "images": [
       {
-        "src": "/images_labeled/4bcfe385-9d5d-411a-981d-c41179df51f6_12_q_01_FIX.png",
+        "src": "/images/SAT-Style%20Questions/4bcfe385-9d5d-411a-981d-c41179df51f6_12_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/4bcfe385-9d5d-411a-981d-c41179df51f6_12_q_01_FIX.png"
+        "local": "images/SAT-Style Questions/4bcfe385-9d5d-411a-981d-c41179df51f6_12_q_01_FIX.png"
       }
     ]
   },
@@ -372,9 +372,9 @@
     "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_13",
     "images": [
       {
-        "src": "/images_labeled/4bcfe385-9d5d-411a-981d-c41179df51f6_13_q_01_FIX.png",
+        "src": "/images/SAT-Style%20Questions/4bcfe385-9d5d-411a-981d-c41179df51f6_13_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/4bcfe385-9d5d-411a-981d-c41179df51f6_13_q_01_FIX.png"
+        "local": "images/SAT-Style Questions/4bcfe385-9d5d-411a-981d-c41179df51f6_13_q_01_FIX.png"
       }
     ]
   },
@@ -473,9 +473,9 @@
     "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_17",
     "images": [
       {
-        "src": "/images_labeled/4bcfe385-9d5d-411a-981d-c41179df51f6_17_q_01_FIX.png",
+        "src": "/images/SAT-Style%20Questions/4bcfe385-9d5d-411a-981d-c41179df51f6_17_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/4bcfe385-9d5d-411a-981d-c41179df51f6_17_q_01_FIX.png"
+        "local": "images/SAT-Style Questions/4bcfe385-9d5d-411a-981d-c41179df51f6_17_q_01_FIX.png"
       }
     ]
   },
@@ -582,7 +582,7 @@
     "difficulty": "Medium",
     "question_number": 21,
     "test_name": "October 2024 US Form A SAT Math Module 2",
-    "passage": "The table shows three values of $a$ and their corresponding values of $g(x)$, where $g(x)=\\frac{f(x)}{x+3}$ and $f$ is a linear function. What is the $y$-intercept of the graph of $y = f(x)$ in the $xy$-plane?",
+    "passage": "<table class=\"cb-table\">\n<thead><tr><th>$x$</th><th>$g(x)$</th></tr></thead>\n<tbody>\n<tr><td>$-15$</td><td>$3$</td></tr>\n<tr><td>$-6$</td><td>$0$</td></tr>\n<tr><td>$9$</td><td>$5$</td></tr>\n</tbody>\n</table>\n\nThe table shows three values of $x$ and their corresponding values of $g(x)$, where $g(x)=\\frac{f(x)}{x+3}$ and $f$ is a linear function. What is the $y$-intercept of the graph of $y = f(x)$ in the $xy$-plane?",
     "question_text": null,
     "choices": [
       {
@@ -605,14 +605,7 @@
     "is_fill_in_blank": false,
     "correct_answer": "D",
     "rationale": null,
-    "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_21",
-    "images": [
-      {
-        "src": "/images_labeled/4bcfe385-9d5d-411a-981d-c41179df51f6_21_q_01_FIX.png",
-        "alt": "",
-        "local": "images_labeled/4bcfe385-9d5d-411a-981d-c41179df51f6_21_q_01_FIX.png"
-      }
-    ]
+    "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_21"
   },
   {
     "section": "Math",
@@ -630,9 +623,9 @@
     "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_22",
     "images": [
       {
-        "src": "/images_labeled/4bcfe385-9d5d-411a-981d-c41179df51f6_22_q_01_FIX.png",
+        "src": "/images/SAT-Style%20Questions/4bcfe385-9d5d-411a-981d-c41179df51f6_22_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/4bcfe385-9d5d-411a-981d-c41179df51f6_22_q_01_FIX.png"
+        "local": "images/SAT-Style Questions/4bcfe385-9d5d-411a-981d-c41179df51f6_22_q_01_FIX.png"
       }
     ]
   }

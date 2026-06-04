@@ -12,6 +12,11 @@ type RenderMixedContentOptions = {
   convertTexLineBreaks?: boolean;
 };
 
+const collapseTableBlockNewlines = (content: string): string =>
+  content.replace(/<table\b[\s\S]*?<\/table>/gi, (tableHtml) =>
+    tableHtml.replace(/[ \t]*\n[ \t]*/g, " "),
+  );
+
 export function renderMixedContent(text: string, options: RenderMixedContentOptions = {}): string {
   if (!text) return "";
   const { normalizeMath = true, convertTexLineBreaks = true } = options;
@@ -48,7 +53,11 @@ export function renderMixedContent(text: string, options: RenderMixedContentOpti
   // Collapse whitespace between HTML structural tags so newlines inside a
   // `<table>...</table>` don't get converted into stacks of empty <br /> tags
   // that produce huge blank vertical space before the table.
-  processedText = processedText.replace(/<\/(table|thead|tbody|tr|td|th)>\s*\n\s*</g, "</$1><");
+  processedText = collapseTableBlockNewlines(processedText);
+  processedText = processedText.replace(
+    /(<\/?(?:table|thead|tbody|tfoot|tr|td|th|colgroup|col|caption)\b[^>]*>)\s+(?=<\/?(?:table|thead|tbody|tfoot|tr|td|th|colgroup|col|caption)\b)/gi,
+    "$1",
+  );
   // Block elements (table/list) provide their own visual spacing — don't add
   // <br /> tags immediately after them, which produce excess gap before the
   // following text.

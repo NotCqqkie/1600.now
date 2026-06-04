@@ -8,7 +8,7 @@ interface PracticeSetItem {
   subject: string;
   id: number;
   sourceId?: string;
-  index: number;
+  index?: number;
   bankType?: string;
   storageId?: string;
 }

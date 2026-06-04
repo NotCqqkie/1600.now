@@ -5,7 +5,7 @@ import json
 from pathlib import Path
 
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 IMAGES_DIR = ROOT / "public/images/SAT-Style Questions"
 QUESTION_IMAGE_MAP_PATH = ROOT / "src/data/questionImageMap.ts"
 SAT_IMAGE_MANIFEST_PATH = ROOT / "src/data/satImageManifest.ts"
@@ -123,8 +123,6 @@ def build_module_image_rename_map() -> tuple[dict[str, str], dict[str, str]]:
     source_rename_map: dict[str, str] = {}
 
     for path in sorted(MODULES_DIR.glob("*.json")):
-        if path.name in {"image_manifest.json", "failed_images.json"}:
-            continue
         try:
             data = json.loads(path.read_text(encoding="utf-8"))
         except json.JSONDecodeError:
@@ -167,9 +165,7 @@ def rewrite_module_files(source_rename_map: dict[str, str]) -> None:
     if not source_rename_map:
         return
     pattern = re.compile("|".join(re.escape(name) for name in sorted(source_rename_map, key=len, reverse=True)))
-    for path in sorted(MODULES_DIR.glob("*")):
-        if not path.is_file() or path.name == "image_manifest.json":
-            continue
+    for path in sorted(MODULES_DIR.glob("*.json")):
         original = path.read_text(encoding="utf-8")
         updated = pattern.sub(lambda match: source_rename_map[match.group(0)], original)
         if updated != original:

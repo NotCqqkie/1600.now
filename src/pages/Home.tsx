@@ -5,7 +5,6 @@ import { BrandLogo } from "@/components/brand/BrandLogo";
 import {
   ArrowRight,
   BarChart3,
-  BookOpen,
   ChevronDown,
   ChevronUp,
   LogOut,
@@ -29,7 +28,6 @@ import {
 } from "@/components/question/questionBankFilterModel";
 import { useThemeMode } from "@/hooks/useThemeMode";
 import { BANK_TOTAL_ALL } from "@/lib/generated/bankTotals.generated";
-import { cn } from "@/lib/utils";
 import { renderMixedContent } from "@/lib/text/mathRendering";
 import "katex/dist/katex.min.css";
 
@@ -784,167 +782,31 @@ FilterFeatureSection.displayName = "FilterFeatureSection";
 
 // ─── Practice tests feature section ──────────────────────────────────────────
 //
-// Left: heading + CTA. Right: a cycling score-card mock that shows progress
-// across completed full practice tests without using real signed-in data.
-
-const homeScoreProgression = [
-  {
-    title: "Practice Test 1",
-    dateLabel: "March 14, 2026",
-    totalScore: 1210,
-    readingWritingScore: 600,
-    mathScore: 610,
-  },
-  {
-    title: "Practice Test 2",
-    dateLabel: "March 28, 2026",
-    totalScore: 1290,
-    readingWritingScore: 640,
-    mathScore: 650,
-  },
-  {
-    title: "Practice Test 3",
-    dateLabel: "April 18, 2026",
-    totalScore: 1370,
-    readingWritingScore: 680,
-    mathScore: 690,
-  },
-  {
-    title: "Practice Test 4",
-    dateLabel: "May 9, 2026",
-    totalScore: 1450,
-    readingWritingScore: 720,
-    mathScore: 730,
-  },
-  {
-    title: "Practice Test 5",
-    dateLabel: "May 23, 2026",
-    totalScore: 1510,
-    readingWritingScore: 750,
-    mathScore: 760,
-  },
-];
+// Left: heading + CTA. Right: a static score-card mock.
 
 const PracticeTestScoreShowcase = memo(() => {
-  const showcaseRef = useRef<HTMLDivElement>(null);
-  const [activeIndex, setActiveIndex] = useState(0);
-  const [isInView, setIsInView] = useState(false);
-  const totalScores = homeScoreProgression.length;
-  const activeIndexRef = useRef(0);
-
-  useEffect(() => {
-    const node = showcaseRef.current;
-    if (!node) return;
-    if (!("IntersectionObserver" in window)) {
-      setIsInView(true);
-      return;
-    }
-
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        setIsInView(entry.isIntersecting && entry.intersectionRatio > 0);
-      },
-      {
-        rootMargin: "0px",
-        threshold: [0, 0.01],
-      },
-    );
-    observer.observe(node);
-    return () => observer.disconnect();
-  }, []);
-
-  const advanceScore = useCallback(() => {
-    const nextIndex = (activeIndexRef.current + 1) % totalScores;
-    activeIndexRef.current = nextIndex;
-    setActiveIndex(nextIndex);
-  }, [totalScores]);
-
-  useEffect(() => {
-    if (!isInView) return;
-    const firstTickId = window.setTimeout(advanceScore, 1150);
-    const intervalId = window.setInterval(() => {
-      advanceScore();
-    }, 6800);
-    return () => {
-      window.clearTimeout(firstTickId);
-      window.clearInterval(intervalId);
-    };
-  }, [advanceScore, isInView]);
-
-  const getCarouselPosition = useCallback(
-    (index: number, centerIndex: number) => {
-      const forwardDistance = (index - centerIndex + totalScores) % totalScores;
-      if (forwardDistance === 0) return "practice-score-card-current";
-      if (forwardDistance === 1) return "practice-score-card-next";
-      if (forwardDistance === totalScores - 1) return "practice-score-card-previous";
-      return "practice-score-card-hidden";
-    },
-    [totalScores],
-  );
-
-  const getPeekPosition = useCallback(
-    (index: number, centerIndex: number) =>
-      getCarouselPosition(index, centerIndex).replace("practice-score-card", "practice-score-peek"),
-    [getCarouselPosition],
-  );
-
-  const previousScoreIndex = (activeIndex - 1 + totalScores) % totalScores;
-  const nextScoreIndex = (activeIndex + 1) % totalScores;
-  const renderPeekViewport = useCallback(
-    (placement: "top" | "bottom", centerIndex: number) => (
-      <div
-        className={cn(
-          "practice-score-peek-viewport",
-          `practice-score-peek-viewport-${placement}`,
-        )}
-        aria-hidden
-      >
-        {homeScoreProgression.map((score, index) => (
-          <div
-            key={`${placement}-${score.title}`}
-            className={cn("practice-score-peek-layer", getPeekPosition(index, centerIndex))}
-            style={{ "--peek-offset": `${index * 18}px` } as React.CSSProperties}
-          />
-        ))}
-      </div>
-    ),
-    [getPeekPosition],
-  );
-
   return (
     <div
-      ref={showcaseRef}
       className="practice-results-showcase"
       style={{
         position: "relative",
-        maxWidth: 630,
+        maxWidth: 620,
         marginLeft: "auto",
       }}
     >
       <div className="practice-score-stack">
-        {renderPeekViewport("top", previousScoreIndex)}
-        {renderPeekViewport("bottom", nextScoreIndex)}
         <div className="practice-score-card-viewport">
-          {homeScoreProgression.map((score, index) => {
-            const positionClass = getCarouselPosition(index, activeIndex);
-            return (
-              <div
-                key={score.title}
-                className={cn("practice-score-card-shell", positionClass)}
-                aria-hidden={positionClass !== "practice-score-card-current"}
-              >
-                <SatScoreCard
-                  title={score.title}
-                  dateLabel={score.dateLabel}
-                  totalScore={score.totalScore}
-                  readingWritingScore={score.readingWritingScore}
-                  mathScore={score.mathScore}
-                  compact
-                  showcase
-                />
-              </div>
-            );
-          })}
+          <div className="practice-score-card-shell practice-score-card-current">
+            <SatScoreCard
+              title="Practice Test 10"
+              dateLabel="August 1, 2026"
+              totalScore={1600}
+              readingWritingScore={800}
+              mathScore={800}
+              compact
+              showcase
+            />
+          </div>
         </div>
       </div>
     </div>
@@ -1043,17 +905,12 @@ const PracticeTestsFeatureSection = memo(({ isDarkMode }: { isDarkMode: boolean 
 });
 PracticeTestsFeatureSection.displayName = "PracticeTestsFeatureSection";
 
-const CredibilitySection = memo(() => {
-  return null;
-});
-CredibilitySection.displayName = "CredibilitySection";
-
 const FILTER_DEMO_PREVIEW_WIDTH = 728;
 const FILTER_DEMO_PREVIEW_HEIGHT = 580;
 const FILTER_DEMO_MAX_SCALE = 1;
 const FILTER_DEMO_CURSOR_MIN_DURATION_MS = 420;
 const FILTER_DEMO_CURSOR_MAX_DURATION_MS = 2400;
-const FILTER_DEMO_CURSOR_SPEED_PX_PER_MS = 0.11;
+const FILTER_DEMO_CURSOR_SPEED_PX_PER_MS = 0.127;
 const FILTER_DEMO_CURSOR_CLICK_PAUSE_MS = 32;
 const FILTER_DEMO_CURSOR_MENU_PAUSE_MS = 0;
 const FILTER_DEMO_CURSOR_NEXT_STEP_PAUSE_MS = 8;
@@ -1235,6 +1092,12 @@ const DemoCursor = memo(({ x, y, visible, clickKey }: DemoCursorState & { clickK
 ));
 DemoCursor.displayName = "DemoCursor";
 
+const cloneQuestionBankFilters = (filters: QuestionBankFilters): QuestionBankFilters => ({
+  ...filters,
+  difficulty: [...filters.difficulty],
+  timeSpentRange: [...filters.timeSpentRange] as [number, number],
+});
+
 const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const isNear = true;
@@ -1253,6 +1116,7 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
   const userFilterPauseUntilRef = useRef(0);
   const manualResumeTimerRef = useRef<number | null>(null);
   const scriptedInteractionDepthRef = useRef(0);
+  const lastManualInteractionAtRef = useRef(0);
   const [clickKey, setClickKey] = useState(0);
   const [demoMode, setDemoMode] = useState<FilterDemoMode>("apply");
   const [demoTick, setDemoTick] = useState(0);
@@ -1260,6 +1124,10 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
   const filtersRef = useRef<QuestionBankFilters>(defaultBankFilters);
   const modeRef = useRef<FilterDemoMode>(demoMode);
   const applyDemoFilters = useCallback((nextFilters: QuestionBankFilters) => {
+    if (scriptedInteractionDepthRef.current === 0 && Date.now() < userFilterPauseUntilRef.current) {
+      setFilters(cloneQuestionBankFilters(filtersRef.current));
+      return;
+    }
     filtersRef.current = nextFilters;
     setFilters(nextFilters);
   }, []);
@@ -1280,7 +1148,11 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
     const resumeDelay = Math.max(0, userFilterPauseUntilRef.current - Date.now());
     manualResumeTimerRef.current = window.setTimeout(() => {
       manualResumeTimerRef.current = null;
-      setDemoTick((tick) => tick + 1);
+      setFilters(cloneQuestionBankFilters(filtersRef.current));
+      const resumedCursor = { ...cursorRef.current, visible: true, durationMs: 0 };
+      cursorRef.current = resumedCursor;
+      setCursor(resumedCursor);
+      window.setTimeout(() => setDemoTick((tick) => tick + 1), 120);
     }, resumeDelay);
   }, []);
   const activateScriptedElement = useCallback((element: HTMLElement) => {
@@ -1297,6 +1169,9 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
     if (!target?.closest('[data-tour="bank-filters"], [data-filter-demo-option], [role="option"], [cmdk-item]')) {
       return;
     }
+    const now = Date.now();
+    if (now - lastManualInteractionAtRef.current < 50) return;
+    lastManualInteractionAtRef.current = now;
     const manualScrollX = window.scrollX;
     const manualScrollY = window.scrollY;
     const restoreManualClickScroll = () => {
@@ -1304,10 +1179,10 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
         window.scrollTo(manualScrollX, manualScrollY);
       }
     };
-    userFilterPauseUntilRef.current = Date.now() + FILTER_DEMO_USER_INTERACTION_PAUSE_MS;
     const hiddenCursor = { ...cursorRef.current, visible: false, durationMs: 0 };
     cursorRef.current = hiddenCursor;
     setCursor(hiddenCursor);
+    userFilterPauseUntilRef.current = now + FILTER_DEMO_USER_INTERACTION_PAUSE_MS;
     setManualInteractionVersion((version) => version + 1);
     queueManualResume();
     restoreManualClickScroll();
@@ -1520,6 +1395,11 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
         point.y <= window.innerHeight - 12
       );
     };
+    const isPointOnTarget = (target: HTMLElement) => {
+      const point = viewportPointForElement(target);
+      const hit = target.ownerDocument.elementFromPoint(point.x, point.y);
+      return Boolean(hit && target.contains(hit));
+    };
     if (!isTargetInViewport(action.target)) {
       return scheduleDemoTick(FILTER_DEMO_CURSOR_IDLE_RETRY_MS);
     }
@@ -1544,8 +1424,11 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
     const canRunStep = (target = action.target) => (
       !demoInterrupted &&
       Date.now() >= userFilterPauseUntilRef.current &&
+      target.isConnected &&
+      isVisibleElement(target) &&
       isLiveInViewport(container) &&
-      isTargetInViewport(target)
+      isTargetInViewport(target) &&
+      isPointOnTarget(target)
     );
     const restoreScroll = () => {
       if (userScrolled) return;
@@ -1669,7 +1552,7 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
       raf(step);
       return durationMs + entryDelay;
     };
-    const getDemoTimePoint = (element: HTMLElement, value: number) => {
+	    const getDemoTimePoint = (element: HTMLElement, value: number) => {
       const rect = element.getBoundingClientRect();
       const inset = Math.min(12, rect.width * 0.14);
       const ratio = clampDemoTimeValue(value) / MAX_TIME_SPENT_FILTER_SECONDS;
@@ -1677,6 +1560,13 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
         x: rect.left + inset + (rect.width - inset * 2) * ratio,
         y: rect.top + rect.height / 2,
       };
+    };
+    const clickDemoTarget = (target: HTMLElement) => {
+      if (!canRunStep(target)) return false;
+      setCursorToPoint(viewportPointForElement(target), 0);
+      setClickKey((key) => key + 1);
+      activateScriptedElement(target);
+      return true;
     };
     const animateRangeValue = (
       index: 0 | 1,
@@ -1757,8 +1647,10 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
         queueDemoRetry();
         return;
       }
-      setClickKey((key) => key + 1);
-      activateScriptedElement(action.target);
+      if (!clickDemoTarget(action.target)) {
+        queueDemoRetry();
+        return;
+      }
       restoreScrollSoon();
       if (!action.optionKey) {
         queueDemoTick();
@@ -1788,8 +1680,10 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
             queueDemoRetry();
             return;
           }
-          setClickKey((key) => key + 1);
-          activateScriptedElement(action.target);
+          if (!clickDemoTarget(action.target)) {
+            queueDemoRetry();
+            return;
+          }
           restoreScrollSoon();
           queueDemoTick();
         }, closeMoveDuration + FILTER_DEMO_CURSOR_CLICK_PAUSE_MS);
@@ -1811,8 +1705,10 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
             queueDemoRetry();
             return;
           }
-          setClickKey((key) => key + 1);
-          activateScriptedElement(optionTarget);
+          if (!clickDemoTarget(optionTarget)) {
+            queueDemoRetry();
+            return;
+          }
           schedule(closeCurrentMenuBeforeNext, FILTER_DEMO_MENU_AUTO_CLOSE_CHECK_MS);
         }, optionMoveDuration + FILTER_DEMO_CURSOR_CLICK_PAUSE_MS);
       }, clickDelay + FILTER_DEMO_CURSOR_MENU_PAUSE_MS);
@@ -1887,10 +1783,6 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
 });
 BankFilterInlineDemo.displayName = "BankFilterInlineDemo";
 
-// ─── Animated accuracy sparkline ───────────────────────────────────────────
-
-type AccuracyPoint = { day: number; value: number };
-
 const useIsNearViewport = <T extends HTMLElement>(
   ref: React.RefObject<T>,
   rootMargin = "700px 0px",
@@ -1940,454 +1832,6 @@ const sectionVisibility = (intrinsicSize: string): React.CSSProperties => ({
   contentVisibility: "auto",
   containIntrinsicSize: intrinsicSize,
 });
-
-const AnimatedAccuracyChart = memo(({ isDarkMode, active }: { isDarkMode: boolean; active: boolean }) => {
-  const VISIBLE_POINTS = 14;
-  const TICK_MS = 1600; // time between new points
-  // Upward trend with visible fluctuation: mean drift is small, jitter is wide
-  // so individual steps can dip while the series still climbs overall.
-  const STEP_MEAN = 1.6;
-  const STEP_JITTER = 6; // ± STEP_JITTER/2 noise
-  const START_MIN = 50;
-  const START_MAX = 54;
-  const RESET_AT = 95;
-  // Buffer points off each side so new data slides in from the right smoothly
-  const SERIES_LEN = VISIBLE_POINTS + 2;
-
-  const seed = (startDay: number): AccuracyPoint[] => {
-    const out: AccuracyPoint[] = [];
-    for (let i = 0; i < SERIES_LEN; i++) {
-      const v = START_MIN + Math.random() * (START_MAX - START_MIN);
-      out.push({ day: startDay + i, value: v });
-    }
-    return out;
-  };
-
-  // Random start date; each series.day is a chronological offset from here
-  const baseDateRef = useRef<Date | null>(null);
-  if (!baseDateRef.current) {
-    const d = new Date();
-    d.setDate(d.getDate() - (60 + Math.floor(Math.random() * 700)));
-    baseDateRef.current = d;
-  }
-  const formatDay = (dayOffset: number) => {
-    const d = new Date(baseDateRef.current!);
-    d.setDate(d.getDate() + dayOffset);
-    return d.toLocaleDateString("en-US", { month: "short", day: "numeric" });
-  };
-
-  // One buffer point off each side for smooth slide-in animation
-  const seriesRef = useRef<AccuracyPoint[]>([]);
-  if (seriesRef.current.length === 0) seriesRef.current = seed(0);
-  const [series, setSeries] = useState<AccuracyPoint[]>(seriesRef.current);
-  const [offset, setOffset] = useState(0); // 0 → 1 per tick (continuous)
-  const [hoverIdx, setHoverIdx] = useState<number | null>(null);
-  const [paused, setPaused] = useState(false);
-
-  // Smoothly animate offset with RAF; when it crosses 1, shift a new point in
-  useEffect(() => {
-    if (paused || !active) return;
-    let raf = 0;
-    let last = performance.now();
-    const tick = (now: number) => {
-      // Clamp dt so tab-blur pauses resume cleanly instead of fast-forwarding
-      // through a huge backlog (which puts the series off-screen for ~0.5s).
-      const dt = Math.min(now - last, TICK_MS);
-      last = now;
-      setOffset((o) => {
-        const next = o + dt / TICK_MS;
-        if (next >= 1) {
-          setSeries((prev) => {
-            const tail = prev[prev.length - 1];
-            // Hit the ceiling → reset the climb with a fresh run of days
-            if (tail.value >= RESET_AT) {
-              return seed(tail.day + 1);
-            }
-            const nextVal = Math.min(
-              RESET_AT,
-              tail.value + STEP_MEAN + (Math.random() - 0.5) * STEP_JITTER
-            );
-            return [...prev.slice(1), { day: tail.day + 1, value: nextVal }];
-          });
-          return next - 1;
-        }
-        return next;
-      });
-      raf = requestAnimationFrame(tick);
-    };
-    raf = requestAnimationFrame(tick);
-    return () => cancelAnimationFrame(raf);
-  }, [active, paused]);
-
-  const width = 420;
-  const height = 160;
-  // Visible range spans indexes 1..VISIBLE_POINTS (index 0 sits off-screen to the left)
-  const step = width / (VISIBLE_POINTS - 1);
-  const toY = (v: number) => height - ((v - 50) / 45) * height + 6;
-  // Sliding: at offset=0, point i=1 is at x=0; point i=VISIBLE_POINTS at x=width.
-  // At offset=1 (about to commit), everything has shifted left by one step.
-  const xFor = (i: number) => (i - 1 - offset) * step;
-
-  const path = series
-    .map((p, i) => `${i === 0 ? "M" : "L"}${xFor(i).toFixed(2)},${toY(p.value).toFixed(2)}`)
-    .join(" ");
-
-  const bg = isDarkMode ? "hsl(222,30%,13%)" : "hsl(0,0%,100%)";
-  const border = isDarkMode
-    ? "1px solid rgba(255,255,255,0.07)"
-    : "1px solid rgba(15,23,42,0.08)";
-  const mutedText = isDarkMode
-    ? "rgba(255,255,255,0.4)"
-    : "rgba(15,23,42,0.5)";
-  const bodyText = isDarkMode
-    ? "rgba(255,255,255,0.85)"
-    : "rgba(15,23,42,0.85)";
-
-  // Value and y at the right edge (x = width). Between indices VISIBLE_POINTS and
-  // VISIBLE_POINTS+1, interpolated by `offset` so the head bubble and the big
-  // number track the line exactly as it slides in from the right.
-  const rightEdgeValue =
-    series[VISIBLE_POINTS].value +
-    offset * (series[VISIBLE_POINTS + 1].value - series[VISIBLE_POINTS].value);
-  const current = rightEdgeValue;
-  const windowStart = series[1].value; // left edge of visible range
-  const delta = rightEdgeValue - windowStart; // matches what the chart shows
-  const currentDay = series[VISIBLE_POINTS].day;
-
-  const svgRef = useRef<SVGSVGElement>(null);
-  const onMove = (e: React.MouseEvent) => {
-    const svg = svgRef.current;
-    if (!svg) return;
-    const rect = svg.getBoundingClientRect();
-    const px = ((e.clientX - rect.left) / rect.width) * width;
-    // Find the visible point closest to px (indices 1..VISIBLE_POINTS are visible)
-    let closest = -1;
-    let closestD = Infinity;
-    for (let i = 1; i <= VISIBLE_POINTS; i++) {
-      const d = Math.abs(xFor(i) - px);
-      if (d < closestD) {
-        closestD = d;
-        closest = i;
-      }
-    }
-    setHoverIdx(closest);
-    setPaused(true);
-  };
-  const onLeave = () => {
-    setHoverIdx(null);
-    setPaused(false);
-  };
-
-  return (
-    <div
-      style={{
-        background: bg,
-        borderRadius: 14,
-        overflow: "hidden",
-        border,
-        boxShadow: isDarkMode
-          ? "0 20px 60px rgba(0,0,0,0.5)"
-          : "0 20px 50px rgba(15,23,42,0.1)",
-      }}
-    >
-      <div style={{ padding: "22px 22px 22px" }}>
-        <div
-          style={{
-            display: "flex",
-            alignItems: "baseline",
-            justifyContent: "space-between",
-            marginBottom: 14,
-          }}
-        >
-          <div>
-            <div
-              style={{
-                fontFamily: "'Space Mono', monospace",
-                fontSize: 36,
-                fontWeight: 700,
-                color: bodyText,
-                lineHeight: 1,
-                fontVariantNumeric: "tabular-nums",
-              }}
-            >
-              {Math.round(hoverIdx !== null ? series[hoverIdx].value : current)}%
-            </div>
-            <div
-              style={{
-                fontSize: 10.5,
-                color: mutedText,
-                marginTop: 4,
-                letterSpacing: "0.1em",
-                textTransform: "uppercase",
-              }}
-            >
-              {hoverIdx !== null ? formatDay(series[hoverIdx].day) : `live accuracy · ${formatDay(currentDay)}`}
-            </div>
-          </div>
-          <div
-            style={{
-              padding: "4px 10px",
-              borderRadius: 999,
-              background: delta >= 0 ? "rgba(34,197,94,0.15)" : "rgba(248,113,113,0.15)",
-              border: delta >= 0 ? "1px solid rgba(34,197,94,0.3)" : "1px solid rgba(248,113,113,0.3)",
-              fontSize: 11,
-              fontWeight: 600,
-              color: delta >= 0 ? "#4ade80" : "#f87171",
-              fontVariantNumeric: "tabular-nums",
-            }}
-          >
-            {delta >= 0 ? "↑" : "↓"} {delta >= 0 ? "+" : ""}{delta.toFixed(1)}%
-          </div>
-        </div>
-
-        <div style={{ position: "relative" }}>
-          <svg
-            ref={svgRef}
-            width="100%"
-            viewBox={`0 0 ${width} ${height + 12}`}
-            style={{ display: "block", cursor: "crosshair" }}
-            onMouseMove={onMove}
-            onMouseLeave={onLeave}
-          >
-            <defs>
-              <linearGradient id="accFill" x1="0" y1="0" x2="0" y2="1">
-                <stop offset="0%" stopColor="hsl(201,100%,70%)" stopOpacity="0.3" />
-                <stop offset="100%" stopColor="hsl(201,100%,70%)" stopOpacity="0" />
-              </linearGradient>
-              <clipPath id="accClip">
-                <rect x="0" y="0" width={width} height={height + 12} />
-              </clipPath>
-            </defs>
-            <g clipPath="url(#accClip)">
-              <path
-                d={`${path} L ${xFor(series.length - 1)},${height + 12} L ${xFor(0)},${height + 12} Z`}
-                fill="url(#accFill)"
-              />
-              <path
-                d={path}
-                fill="none"
-                stroke="hsl(201,100%,70%)"
-                strokeWidth="2.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-              {/* Hover-aware point markers */}
-              {series.map((p, i) => {
-                const x = xFor(i);
-                if (x < -step || x > width + step) return null;
-                const isHover = hoverIdx === i;
-                return (
-                  <circle
-                    key={i}
-                    cx={x}
-                    cy={toY(p.value)}
-                    r={isHover ? 5 : 2.5}
-                    fill={isHover ? "hsl(201,100%,82%)" : "hsl(201,100%,70%)"}
-                    stroke={isHover ? bg : "none"}
-                    strokeWidth={isHover ? 2 : 0}
-                  />
-                );
-              })}
-              {/* Pulsing head point — pinned to the right edge, y tracks the line */}
-              {hoverIdx === null && (
-                <>
-                  <circle cx={width} cy={toY(rightEdgeValue)} r={4} fill="hsl(201,100%,70%)" />
-                  <circle
-                    cx={width}
-                    cy={toY(rightEdgeValue)}
-                    r={9}
-                    fill="hsl(201,100%,70%)"
-                    opacity={0.25}
-                    style={{ animation: "accuracyPulse 1.6s ease-in-out infinite", transformOrigin: "center" }}
-                  />
-                </>
-              )}
-              {/* Hover crosshair line */}
-              {hoverIdx !== null && (
-                <line
-                  x1={xFor(hoverIdx)}
-                  x2={xFor(hoverIdx)}
-                  y1={0}
-                  y2={height + 12}
-                  stroke={isDarkMode ? "rgba(255,255,255,0.14)" : "rgba(15,23,42,0.15)"}
-                  strokeDasharray="3,3"
-                />
-              )}
-            </g>
-          </svg>
-
-          {/* Tooltip */}
-          {hoverIdx !== null && (() => {
-            const hovered = series[hoverIdx];
-            const x = xFor(hoverIdx);
-            const y = toY(hovered.value);
-            const xPct = (x / width) * 100;
-            const yPct = (y / (height + 12)) * 100;
-            return (
-              <div
-                style={{
-                  position: "absolute",
-                  left: `${xPct}%`,
-                  top: `${yPct}%`,
-                  transform: "translate(-50%, calc(-100% - 12px))",
-                  padding: "6px 10px",
-                  borderRadius: 8,
-                  background: isDarkMode ? "hsl(222,30%,18%)" : "hsl(0,0%,100%)",
-                  border: isDarkMode ? "1px solid rgba(255,255,255,0.12)" : "1px solid rgba(15,23,42,0.12)",
-                  boxShadow: "0 8px 24px rgba(0,0,0,0.2)",
-                  pointerEvents: "none",
-                  whiteSpace: "nowrap",
-                  zIndex: 5,
-                }}
-              >
-                <div
-                  style={{
-                    fontFamily: "'Space Mono', monospace",
-                    fontSize: 14,
-                    fontWeight: 700,
-                    color: bodyText,
-                    fontVariantNumeric: "tabular-nums",
-                  }}
-                >
-                  {hovered.value.toFixed(1)}%
-                </div>
-                <div style={{ fontSize: 10, color: mutedText, marginTop: 2 }}>
-                  {formatDay(hovered.day)}
-                </div>
-              </div>
-            );
-          })()}
-        </div>
-      </div>
-    </div>
-  );
-});
-AnimatedAccuracyChart.displayName = "AnimatedAccuracyChart";
-
-const AccuracyChartDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
-  const ref = useRef<HTMLDivElement>(null);
-  const isNear = useIsNearViewport(ref);
-
-  return (
-    <div ref={ref}>
-      <AnimatedAccuracyChart isDarkMode={isDarkMode} active={isNear} />
-    </div>
-  );
-});
-AccuracyChartDemo.displayName = "AccuracyChartDemo";
-
-// ─── Feature row (big text left, demo right) ──────────────────────────────
-
-const FeatureRow = memo(({
-  eyebrow,
-  title,
-  titleEm,
-  body,
-  ctaLabel,
-  ctaHref,
-  demo,
-  reverse,
-  isDarkMode,
-}: {
-  eyebrow: string;
-  title: string;
-  titleEm: string;
-  body: string;
-  ctaLabel: string;
-  ctaHref: string;
-  demo: React.ReactNode;
-  reverse?: boolean;
-  isDarkMode: boolean;
-}) => {
-  const navigate = useNavigate();
-  return (
-    <div
-      style={{
-        display: "grid",
-        gridTemplateColumns: "minmax(0, 1fr) minmax(0, 1.1fr)",
-        gap: 64,
-        alignItems: "center",
-        padding: "96px 24px",
-        maxWidth: 1200,
-        margin: "0 auto",
-      }}
-    >
-      <div style={{ order: reverse ? 2 : 1 }}>
-        <h2
-          style={{
-            fontFamily: "'Geist', system-ui, sans-serif",
-            fontWeight: 500,
-            fontSize: "clamp(40px, 5.5vw, 68px)",
-            lineHeight: 0.98,
-            letterSpacing: "-0.035em",
-            color: "rgb(var(--ink))",
-            margin: "0 0 22px",
-          }}
-        >
-          {title}
-          <br />
-          <em
-            style={{
-              fontStyle: "normal",
-              fontWeight: 600,
-              color: "rgb(var(--cobalt))",
-            }}
-          >
-            {titleEm}
-          </em>
-        </h2>
-        <p
-          style={{
-            fontSize: 16,
-            lineHeight: 1.65,
-            fontWeight: 300,
-            color: isDarkMode
-              ? "rgba(255,255,255,0.55)"
-              : "rgba(15,23,42,0.62)",
-            maxWidth: 420,
-            margin: "0 0 28px",
-          }}
-        >
-          {body}
-        </p>
-        <button
-          onClick={() => navigate(ctaHref)}
-          style={{
-            display: "inline-flex",
-            alignItems: "center",
-            gap: 6,
-            fontSize: 14,
-            fontWeight: 600,
-            color: "rgb(var(--cobalt))",
-            background: "transparent",
-            border: "none",
-            cursor: "pointer",
-            padding: 0,
-            fontFamily: "'Geist', sans-serif",
-          }}
-        >
-          {ctaLabel}
-          <ArrowRight size={14} />
-        </button>
-      </div>
-      <div style={{ order: reverse ? 1 : 2, position: "relative" }}>
-        <div
-          style={{
-            position: "absolute",
-            inset: "-30px",
-            background: isDarkMode
-              ? "radial-gradient(ellipse at 50% 50%, rgba(125,211,252,0.1) 0%, transparent 65%)"
-              : "radial-gradient(ellipse at 50% 50%, rgba(56,189,248,0.13) 0%, transparent 65%)",
-            pointerEvents: "none",
-          }}
-        />
-        <div style={{ position: "relative" }}>{demo}</div>
-      </div>
-    </div>
-  );
-});
-FeatureRow.displayName = "FeatureRow";
-
 
 // ─── Slot-machine digit counter ────────────────────────────────────────────
 // Counts from 0 → value. RAF writes directly to the DOM (no React render per
@@ -3255,482 +2699,6 @@ const ParallaxTilt = memo(({
 });
 ParallaxTilt.displayName = "ParallaxTilt";
 
-// ─── Score dial section (scroll-driven gauge 400 → 1600) ───────────────────
-
-const ScoreDialSection = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
-  const navigate = useNavigate();
-  const sectionRef = useRef<HTMLDivElement>(null);
-  const isNear = useIsNearViewport(sectionRef, "900px 0px");
-  const [progress, setProgress] = useState(0);
-
-  useEffect(() => {
-    if (!isNear) return;
-    let raf = 0;
-    let pending = false;
-    const compute = () => {
-      pending = false;
-      const el = sectionRef.current;
-      if (!el) return;
-      const rect = el.getBoundingClientRect();
-      const total = rect.height - window.innerHeight;
-      const raw = total > 0 ? -rect.top / total : 0;
-      setProgress(Math.max(0, Math.min(1, raw)));
-    };
-    const schedule = () => {
-      if (pending) return;
-      pending = true;
-      raf = requestAnimationFrame(compute);
-    };
-    compute();
-    window.addEventListener("scroll", schedule, { passive: true });
-    window.addEventListener("resize", schedule);
-    return () => {
-      cancelAnimationFrame(raf);
-      window.removeEventListener("scroll", schedule);
-      window.removeEventListener("resize", schedule);
-    };
-  }, [isNear]);
-
-  const sweep = Math.max(0, Math.min(1, (progress - 0.18) / 0.64));
-  const score = Math.round((400 + sweep * 1200) / 10) * 10;
-  const inSpotlight = progress > 0.1 && progress < 0.92;
-
-  const RADIUS = 160;
-  const STROKE = 24;
-  const W = (RADIUS + STROKE) * 2;
-  const H = RADIUS + STROKE * 2 + 8;
-  const CIRC = Math.PI * RADIUS;
-
-  return (
-    <div ref={sectionRef} style={{ position: "relative", height: "240vh" }}>
-      <div
-        style={{
-          position: "sticky",
-          top: 0,
-          height: "100vh",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          overflow: "hidden",
-        }}
-      >
-        <div
-          style={{
-            textAlign: "center",
-            maxWidth: 760,
-            padding: "0 24px",
-            opacity: inSpotlight ? 1 : 0.35,
-            transition: "opacity 0.5s ease",
-          }}
-        >
-          <h2
-            style={{
-              fontFamily: "'Geist', system-ui, sans-serif",
-              fontWeight: 500,
-              fontSize: "clamp(40px, 5.5vw, 68px)",
-              lineHeight: 0.98,
-              letterSpacing: "-0.035em",
-              color: "rgb(var(--ink))",
-              margin: "0 0 28px",
-            }}
-          >
-            Know exactly where
-            <br />
-            <em
-              style={{
-                fontStyle: "normal",
-                fontWeight: 600,
-                color: "rgb(var(--cobalt))",
-              }}
-            >
-              you stand.
-            </em>
-          </h2>
-          <div style={{ position: "relative", display: "inline-block" }}>
-            <svg
-              width={W}
-              height={H}
-              viewBox={`0 0 ${W} ${H}`}
-              overflow="visible"
-              style={{ display: "block", maxWidth: "min(560px, 90vw)", height: "auto" }}
-            >
-              <defs>
-                <linearGradient id="scoreDialGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-                  <stop offset="0%" stopColor="hsl(0, 75%, 60%)" />
-                  <stop offset="35%" stopColor="hsl(35, 95%, 58%)" />
-                  <stop offset="70%" stopColor="hsl(80, 70%, 52%)" />
-                  <stop offset="100%" stopColor="hsl(150, 75%, 48%)" />
-                </linearGradient>
-              </defs>
-              <path
-                d={`M ${STROKE},${RADIUS + STROKE} A ${RADIUS} ${RADIUS} 0 0 1 ${W - STROKE},${RADIUS + STROKE}`}
-                fill="none"
-                stroke={isDarkMode ? "rgba(255,255,255,0.08)" : "rgba(15,23,42,0.08)"}
-                strokeWidth={STROKE}
-                strokeLinecap="round"
-              />
-              <path
-                d={`M ${STROKE},${RADIUS + STROKE} A ${RADIUS} ${RADIUS} 0 0 1 ${W - STROKE},${RADIUS + STROKE}`}
-                fill="none"
-                stroke="url(#scoreDialGrad)"
-                strokeWidth={STROKE}
-                strokeLinecap="round"
-                strokeDasharray={CIRC}
-                strokeDashoffset={CIRC * (1 - sweep)}
-                style={{ transition: "stroke-dashoffset 0.12s linear" }}
-              />
-              {[400, 800, 1200, 1600].map((tick) => {
-                const t = (tick - 400) / 1200;
-                const angle = Math.PI * (1 - t);
-                const cx = RADIUS + STROKE + Math.cos(angle) * (RADIUS + STROKE / 2 + 16);
-                const cy = RADIUS + STROKE - Math.sin(angle) * (RADIUS + STROKE / 2 + 16);
-                return (
-                  <text
-                    key={tick}
-                    x={cx}
-                    y={cy}
-                    textAnchor="middle"
-                    dominantBaseline="middle"
-                    fontSize="11"
-                    fontFamily="'Space Mono', monospace"
-                    fill={isDarkMode ? "rgba(255,255,255,0.45)" : "rgba(15,23,42,0.5)"}
-                    fontWeight="600"
-                  >
-                    {tick}
-                  </text>
-                );
-              })}
-            </svg>
-            <div
-              style={{
-                position: "absolute",
-                left: 0,
-                right: 0,
-                top: "58%",
-                transform: "translateY(-50%)",
-                textAlign: "center",
-                pointerEvents: "none",
-              }}
-            >
-              <div
-                style={{
-                  fontFamily: "'Inter Tight', sans-serif",
-                  fontSize: "clamp(56px, 8vw, 92px)",
-                  fontWeight: 800,
-                  color: "hsl(var(--foreground))",
-                  lineHeight: 1,
-                  fontVariantNumeric: "tabular-nums",
-                  letterSpacing: "-0.04em",
-                }}
-              >
-                {score}
-              </div>
-            </div>
-          </div>
-          <p
-            style={{
-              maxWidth: 460,
-              margin: "28px auto 28px",
-              fontSize: 16,
-              lineHeight: 1.6,
-              fontWeight: 300,
-              color: isDarkMode ? "rgba(255,255,255,0.55)" : "rgba(15,23,42,0.62)",
-            }}
-          >
-            Convert raw practice results into a real Digital SAT score using official scoring curves.
-          </p>
-          <button
-            onClick={() => navigate("/score-calculator")}
-            style={{
-              display: "inline-flex",
-              alignItems: "center",
-              gap: 8,
-              padding: "13px 30px",
-              borderRadius: 10,
-              background: "hsl(201,100%,42%)",
-              color: "#fff",
-              fontWeight: 600,
-              fontSize: 14,
-              border: "none",
-              cursor: "pointer",
-              fontFamily: "'Geist', sans-serif",
-              transition: "background 0.15s",
-            }}
-            onMouseEnter={(e) => ((e.currentTarget as HTMLButtonElement).style.background = "hsl(201,100%,36%)")}
-            onMouseLeave={(e) => ((e.currentTarget as HTMLButtonElement).style.background = "hsl(201,100%,42%)")}
-          >
-            Try the score calculator
-            <ArrowRight size={14} />
-          </button>
-        </div>
-      </div>
-    </div>
-  );
-});
-ScoreDialSection.displayName = "ScoreDialSection";
-
-// ─── Streak heatmap section (scroll-driven contribution grid) ──────────────
-
-const StreakHeatmapSection = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
-  const navigate = useNavigate();
-  const COLS = 26;
-  const ROWS = 7;
-  const TOTAL = COLS * ROWS;
-
-  const [hoveredCell, setHoveredCell] = useState<{ idx: number; x: number; y: number } | null>(null);
-
-  useEffect(() => {
-    if (hoveredCell === null) return;
-    const dismiss = () => setHoveredCell(null);
-    window.addEventListener("scroll", dismiss, { passive: true, capture: true });
-    return () => window.removeEventListener("scroll", dismiss, { capture: true });
-  }, [hoveredCell]);
-
-  const intensities = useMemo(() => {
-    const seedRand = (seed: number) => {
-      const x = Math.sin(seed * 12.9898) * 43758.5453;
-      return x - Math.floor(x);
-    };
-    return Array.from({ length: TOTAL }).map((_, i) => {
-      const trend = (i / TOTAL) * 0.55;
-      const noise = seedRand(i + 1);
-      if (noise < 0.18) return 0;
-      return Math.max(0, Math.min(1, trend + noise * 0.65 - 0.05));
-    });
-  }, []);
-
-  const sectionRef = useRef<HTMLDivElement>(null);
-  const isNear = useIsNearViewport(sectionRef, "900px 0px");
-  const [progress, setProgress] = useState(0);
-
-  useEffect(() => {
-    if (!isNear) return;
-    let raf = 0;
-    let pending = false;
-    const compute = () => {
-      pending = false;
-      const el = sectionRef.current;
-      if (!el) return;
-      const rect = el.getBoundingClientRect();
-      const total = rect.height - window.innerHeight;
-      const raw = total > 0 ? -rect.top / total : 0;
-      setProgress(Math.max(0, Math.min(1, raw)));
-    };
-    const schedule = () => {
-      if (pending) return;
-      pending = true;
-      raf = requestAnimationFrame(compute);
-    };
-    compute();
-    window.addEventListener("scroll", schedule, { passive: true });
-    window.addEventListener("resize", schedule);
-    return () => {
-      cancelAnimationFrame(raf);
-      window.removeEventListener("scroll", schedule);
-      window.removeEventListener("resize", schedule);
-    };
-  }, [isNear]);
-
-  const sweep = Math.max(0, Math.min(1, (progress - 0.1) / 0.75));
-  const fillCount = Math.floor(sweep * TOTAL);
-
-  return (
-    <div ref={sectionRef} style={{ position: "relative", height: "200vh" }}>
-      <div
-        style={{
-          position: "sticky",
-          top: 0,
-          height: "100vh",
-          display: "flex",
-          alignItems: "center",
-          padding: "0 24px",
-        }}
-      >
-      <div
-        style={{
-          maxWidth: 1200,
-          margin: "0 auto",
-          width: "100%",
-          display: "grid",
-          gridTemplateColumns: "minmax(0, 1fr) minmax(0, 1.1fr)",
-          gap: 64,
-          alignItems: "center",
-        }}
-        className="streak-section-grid"
-      >
-        <div>
-          <h2
-            style={{
-              fontFamily: "'Geist', system-ui, sans-serif",
-              fontWeight: 500,
-              fontSize: "clamp(40px, 5.5vw, 68px)",
-              lineHeight: 0.98,
-              letterSpacing: "-0.035em",
-              color: "rgb(var(--ink))",
-              margin: "0 0 22px",
-            }}
-          >
-            A little every day,
-            <br />
-            <em
-              style={{
-                fontStyle: "normal",
-                fontWeight: 600,
-                color: "rgb(var(--cobalt))",
-              }}
-            >
-              adds up fast.
-            </em>
-          </h2>
-          <p
-            style={{
-              fontSize: 16,
-              lineHeight: 1.65,
-              fontWeight: 300,
-              color: isDarkMode ? "rgba(255,255,255,0.55)" : "rgba(15,23,42,0.62)",
-              maxWidth: 420,
-              margin: "0 0 28px",
-            }}
-          >
-            Turn consistent studying into meaningful score improvements.
-          </p>
-          <button
-            onClick={() => navigate("/bank")}
-            style={{
-              display: "inline-flex",
-              alignItems: "center",
-              gap: 6,
-              fontSize: 14,
-              fontWeight: 600,
-              color: "rgb(var(--cobalt))",
-              background: "transparent",
-              border: "none",
-              cursor: "pointer",
-              padding: 0,
-              fontFamily: "'Geist', sans-serif",
-            }}
-          >
-            Start a streak
-            <ArrowRight size={14} />
-          </button>
-        </div>
-        <div style={{ position: "relative" }}>
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: `repeat(${COLS}, 1fr)`,
-              gap: 4,
-              position: "relative",
-            }}
-          >
-            {Array.from({ length: COLS * ROWS }).map((_, idx) => {
-              const c = idx % COLS;
-              const r = Math.floor(idx / COLS);
-              const visitOrder = c * ROWS + r;
-              const visible = visitOrder < fillCount;
-              const v = intensities[visitOrder];
-              let color: string;
-              if (!visible || v === 0) {
-                color = isDarkMode ? "rgba(255,255,255,0.045)" : "rgba(15,23,42,0.06)";
-              } else {
-                const alpha = 0.35 + v * 0.6;
-                const lightness = 75 - v * 28;
-                color = `hsla(201, 100%, ${lightness}%, ${alpha})`;
-              }
-              const daysAgo = TOTAL - 1 - visitOrder;
-              const cellDate = new Date(Date.now() - daysAgo * 86400000);
-              const questions = visible && v > 0 ? Math.max(1, Math.round(v * 22)) : 0;
-              const isFilled = visible && v > 0;
-              return (
-                <div
-                  key={idx}
-                  onMouseEnter={isFilled ? (e) => {
-                    const rect = (e.currentTarget as HTMLElement).getBoundingClientRect();
-                    setHoveredCell({ idx: visitOrder, x: rect.left + rect.width / 2, y: rect.top });
-                  } : undefined}
-                  onMouseLeave={isFilled ? () => setHoveredCell(null) : undefined}
-                  style={{
-                    aspectRatio: "1 / 1",
-                    background: color,
-                    borderRadius: 3,
-                    transition: "background 0.4s cubic-bezier(0.22, 1, 0.36, 1)",
-                    cursor: isFilled ? "default" : undefined,
-                  }}
-                  data-visit={visitOrder}
-                  data-date={cellDate.toISOString().slice(0, 10)}
-                  data-questions={questions}
-                />
-              );
-            })}
-            {hoveredCell !== null && (() => {
-              const daysAgo = TOTAL - 1 - hoveredCell.idx;
-              const cellDate = new Date(Date.now() - daysAgo * 86400000);
-              const v = intensities[hoveredCell.idx];
-              const questions = v > 0 ? Math.max(1, Math.round(v * 22)) : 0;
-              const dateStr = cellDate.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
-              return (
-                <div
-                  style={{
-                    position: "fixed",
-                    left: hoveredCell.x,
-                    top: hoveredCell.y - 8,
-                    transform: "translate(-50%, -100%)",
-                    background: isDarkMode ? "rgba(15,23,42,0.95)" : "rgba(255,255,255,0.97)",
-                    border: `1px solid ${isDarkMode ? "rgba(255,255,255,0.1)" : "rgba(15,23,42,0.1)"}`,
-                    borderRadius: 8,
-                    padding: "7px 11px",
-                    fontSize: 12,
-                    fontWeight: 500,
-                    color: isDarkMode ? "rgba(255,255,255,0.85)" : "rgba(15,23,42,0.85)",
-                    whiteSpace: "nowrap",
-                    pointerEvents: "none",
-                    zIndex: 9999,
-                    boxShadow: "0 4px 16px rgba(0,0,0,0.18)",
-                    fontFamily: "'Geist', sans-serif",
-                    lineHeight: 1.5,
-                  }}
-                >
-                  <div style={{ color: "rgb(var(--cobalt))", fontWeight: 600, marginBottom: 2 }}>
-                    {questions === 0 ? "No questions" : `${questions} question${questions === 1 ? "" : "s"}`}
-                  </div>
-                  <div style={{ opacity: 0.65, fontSize: 11 }}>{dateStr}</div>
-                </div>
-              );
-            })()}
-          </div>
-          <div
-            style={{
-              marginTop: 14,
-              display: "flex",
-              justifyContent: "flex-end",
-              alignItems: "center",
-              gap: 6,
-              fontSize: 11,
-              color: isDarkMode ? "rgba(255,255,255,0.4)" : "rgba(15,23,42,0.45)",
-            }}
-          >
-            <span>Less</span>
-            {[0.15, 0.4, 0.65, 0.9].map((v) => (
-              <div
-                key={v}
-                style={{
-                  width: 12,
-                  height: 12,
-                  borderRadius: 2,
-                  background: `hsla(201, 100%, ${75 - v * 28}%, ${0.35 + v * 0.6})`,
-                }}
-              />
-            ))}
-            <span>More</span>
-          </div>
-        </div>
-      </div>
-      </div>
-    </div>
-  );
-});
-StreakHeatmapSection.displayName = "StreakHeatmapSection";
-
 // ─── Home page ─────────────────────────────────────────────────────────────
 
 const Home = () => {
@@ -3785,18 +2753,6 @@ const Home = () => {
       @keyframes homeFadeUp {
         from { opacity: 0; transform: translateY(22px); }
         to   { opacity: 1; transform: translateY(0); }
-      }
-      @keyframes heroGlowPulse {
-        0%, 100% { opacity: 0.35; transform: scale(1); }
-        50%       { opacity: 0.65; transform: scale(1.08); }
-      }
-      @keyframes demoFloat {
-        0%, 100% { transform: translateY(0px) perspective(1200px) rotateX(1.5deg); }
-        50%       { transform: translateY(-10px) perspective(1200px) rotateX(1.5deg); }
-      }
-      @keyframes accuracyPulse {
-        0%, 100% { transform: scale(1); opacity: 0.25; }
-        50%      { transform: scale(1.6); opacity: 0; }
       }
       @keyframes explanationStepSlide {
         from { opacity: 0; transform: translateY(calc(22px * var(--step-dir, 1))); }
@@ -3873,25 +2829,6 @@ const Home = () => {
         0%, 50%       { opacity: 1; }
         50.01%, 100%  { opacity: 0; }
       }
-      .hp-cursor {
-        display: inline-block;
-        width: 2px;
-        height: 1.05em;
-        background: currentColor;
-        vertical-align: text-bottom;
-        margin-left: 1px;
-        animation: hpCaret 1s steps(2) infinite;
-      }
-      /* Whole row column shifts up during pushing; overflow:hidden parent clips
-         the old row off the top and the new empty slot 2 in from the bottom.
-         The bare floating-equation layout uses em units so the shift tracks
-         the equation font-size. */
-      @keyframes hpShiftUpBare {
-        from { transform: translateY(0); }
-        to   { transform: translateY(-1.6em); }
-      }
-      .hp-shift-up-bare { animation: hpShiftUpBare 520ms cubic-bezier(0.4, 0, 0.2, 1) forwards; }
-      .hp-shift-rest    { transform: translateY(0); }
       /* When the column resets (push → graphing), the new bottom row fades in
          so the freshly-revealed slot 2 doesn't pop. */
       @keyframes hpRowFadeIn {
@@ -3899,50 +2836,10 @@ const Home = () => {
         to   { opacity: 1; }
       }
       .hp-row-fade-in { animation: hpRowFadeIn 420ms ease forwards; }
-      /* Typing reveal: clip-path animates left→right so the typeset KaTeX
-         appears character-by-character. The caret rides the clip boundary
-         and blinks while it moves. Use steps(...) for a closer match to
-         per-character reveal vs. a continuous wipe. */
-      .hp-type-wrap {
-        position: relative;
-        display: inline-block;
-        white-space: nowrap;
-      }
-      .hp-type-reveal {
-        display: inline-block;
-        animation: hpTypeReveal 1.8s steps(22, end) forwards;
-        clip-path: inset(0 100% 0 0);
-      }
-      @keyframes hpTypeReveal {
-        from { clip-path: inset(0 100% 0 0); }
-        to   { clip-path: inset(0 0 0 0); }
-      }
-      .hp-type-caret {
-        position: absolute;
-        top: 0.05em;
-        left: 0;
-        width: 2px;
-        height: 1.1em;
-        background: currentColor;
-        animation:
-          hpTypeCaret 1.8s steps(22, end) forwards,
-          hpCaret 1s steps(2) infinite;
-      }
-      @keyframes hpTypeCaret {
-        from { left: 0; }
-        to   { left: 100%; }
-      }
-      .home-inline-math,
       .hp-equation-text {
         font-family: "Geist Mono", "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
         font-size: 0.96em;
         letter-spacing: 0;
-      }
-      .home-inline-math {
-        display: inline-block;
-        padding: 0 0.18em;
-        border-radius: 0.3em;
-        background: color-mix(in srgb, currentColor 8%, transparent);
       }
       /* Typewriter: pre-rendered equation text is revealed by a clip-path animation
          that steps left-to-right in charCount discrete chunks, one per
@@ -4002,155 +2899,54 @@ const Home = () => {
         backdrop-filter: blur(18px);
         -webkit-backdrop-filter: blur(18px);
       }
-.chip-cascade {
-        opacity: 0;
-        transform: translateY(14px);
-        transition: opacity 0.55s cubic-bezier(0.22, 1, 0.36, 1), transform 0.55s cubic-bezier(0.22, 1, 0.36, 1);
-      }
-      .chip-cascade.in {
-        opacity: 1;
-        transform: translateY(0);
-      }
-      .h-fade-1 { animation: homeFadeUp 0.75s ease 0.1s both; }
       .h-fade-2 { animation: homeFadeUp 0.75s ease 0.22s both; }
       .h-fade-3 { animation: homeFadeUp 0.75s ease 0.36s both; }
       .h-fade-4 { animation: homeFadeUp 0.75s ease 0.5s both; }
       .h-fade-5 { animation: homeFadeUp 0.75s ease 0.64s both; }
       .h-fade-6 { animation: homeFadeUp 0.85s ease 0.8s both; }
-      .demo-float { animation: none !important; }
       .practice-score-stack {
         position: relative;
-        height: 420px;
+        height: 380px;
         overflow: visible;
         isolation: isolate;
-      }
-      .practice-score-peek-viewport {
-        position: absolute;
-        left: 36px;
-        right: 36px;
-        height: 24px;
-        overflow: hidden;
-        pointer-events: none;
-        z-index: 12;
-        isolation: isolate;
-      }
-      .practice-score-peek-viewport-top {
-        top: 29px;
-        border-radius: 18px 18px 0 0;
-        transform-origin: center bottom;
-      }
-      .practice-score-peek-viewport-bottom {
-        top: 365px;
-        border-radius: 0 0 18px 18px;
-        transform-origin: center top;
-      }
-      .practice-score-peek-layer {
-        position: absolute;
-        inset: 0;
-        border-radius: inherit;
-        background: #c7dcff;
-        opacity: 0.9;
-        overflow: hidden;
-        transform: translate3d(0, 0, 0);
-        transition: transform 1600ms cubic-bezier(0.4, 0, 0.2, 1);
-        will-change: transform;
-      }
-      .practice-score-peek-layer::before {
-        content: '';
-        position: absolute;
-        inset: 0;
-        background:
-          linear-gradient(90deg, rgba(255,255,255,0.22), rgba(255,255,255,0) 38%),
-          radial-gradient(circle at calc(18% + var(--peek-offset, 0px)) 50%, rgba(255,255,255,0.18), transparent 28px);
-      }
-      .dark .practice-score-peek-layer {
-        background: #243b63;
-      }
-      .dark .practice-score-peek-layer::before {
-        background:
-          linear-gradient(90deg, rgba(255,255,255,0.08), rgba(255,255,255,0) 38%),
-          radial-gradient(circle at calc(18% + var(--peek-offset, 0px)) 50%, rgba(255,255,255,0.1), transparent 28px);
-      }
-      .practice-score-peek-current {
-        transform: translate3d(0, 0, 0);
-      }
-      .practice-score-peek-next {
-        transform: translate3d(0, 100%, 0);
-      }
-      .practice-score-peek-previous {
-        transform: translate3d(0, -100%, 0);
-      }
-      .practice-score-peek-hidden {
-        opacity: 0;
-        transform: translate3d(0, 100%, 0);
-        transition: none;
       }
       .practice-score-card-viewport {
         position: absolute;
-        top: 51px;
-        left: 14px;
-        right: 14px;
-        height: 316px;
+        inset: 0;
         z-index: 30;
-        overflow: hidden;
-        border-radius: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        overflow: visible;
+        border-radius: 0;
         isolation: isolate;
-        box-shadow:
-          0 -16px 28px -22px rgba(14,33,56,0.24),
-          0 28px 48px -24px rgba(14,33,56,0.34);
+        box-shadow: none;
       }
       .dark .practice-score-card-viewport {
-        box-shadow:
-          0 -16px 28px -22px rgba(0,0,0,0.45),
-          0 28px 48px -24px rgba(0,0,0,0.56);
+        box-shadow: none;
       }
       .practice-score-card-shell {
-        position: absolute;
-        inset: 0;
-        z-index: 1;
+        position: relative;
+        width: min(560px, 100%);
+        height: 316px;
         backface-visibility: hidden;
-        transform-origin: center center;
         overflow: visible;
         border-radius: 18px;
         contain: layout;
-        will-change: transform;
-        transition: transform 1600ms cubic-bezier(0.4, 0, 0.2, 1);
       }
       .practice-score-card-shell > article {
+        position: relative;
+        z-index: 1;
         height: 316px;
-        box-shadow: none !important;
-      }
-      .practice-score-card-current {
-        z-index: 2;
-        transform: translate3d(0, 0, 0);
-      }
-      .practice-score-card-next {
-        pointer-events: none;
-        transform: translate3d(0, 316px, 0);
-      }
-      .practice-score-card-previous {
-        pointer-events: none;
-        transform: translate3d(0, -316px, 0);
-      }
-      .practice-score-card-hidden {
-        z-index: 0;
-        opacity: 0;
-        pointer-events: none;
-        transform: translate3d(0, 316px, 0);
-        transition: none;
-      }
-      @media (prefers-reduced-motion: reduce) {
-        .practice-score-card-shell,
-        .practice-score-peek-layer {
-          transition: none !important;
-        }
+        box-shadow:
+          0 24px 54px -30px rgba(14,33,56,0.38) !important;
       }
 
       /* Mobile-only overrides for the home page. Desktop keeps its
          lavish spacing and animations. */
       @media (max-width: 767px) {
-        .h-fade-1, .h-fade-2, .h-fade-3, .h-fade-4, .h-fade-5, .h-fade-6,
-        .demo-float, .explanation-step-slide {
+        .h-fade-2, .h-fade-3, .h-fade-4, .h-fade-5, .h-fade-6,
+        .explanation-step-slide {
           animation: none !important;
           opacity: 1 !important;
           transform: none !important;
@@ -4161,14 +2957,6 @@ const Home = () => {
         }
         .hp-curve { animation: none !important; opacity: 1 !important; stroke-dashoffset: 0 !important; }
         .hp-static-curve { opacity: 1 !important; transition: none !important; }
-        .hp-type-reveal, .hp-type-caret, .hp-shift-up-bare { animation: none !important; }
-        .hp-type-reveal { clip-path: none !important; }
-        .hp-type-caret { display: none !important; }
-        .hp-desmos-panel { display: none !important; }
-        .streak-section-grid {
-          grid-template-columns: 1fr !important;
-          gap: 32px !important;
-        }
         .home-hero {
           padding: 32px 16px 0 !important;
         }
@@ -4195,7 +2983,6 @@ const Home = () => {
         .home-counter .home-count-num { font-size: 40px !important; }
         .home-demo-wrap { padding: 0 12px !important; }
         .home-demo-title { font-size: clamp(22px, 6vw, 28px) !important; }
-        .home-demo-subtitle { font-size: 14px !important; margin-top: 10px !important; }
         .filter-feature-row {
           grid-template-columns: 1fr !important;
           gap: 40px !important;
@@ -4212,14 +2999,10 @@ const Home = () => {
           max-width: 100% !important;
         }
         .practice-score-stack {
-          height: 420px !important;
+          height: 340px !important;
         }
-        .home-proof-section {
-          padding: 56px 16px 64px !important;
-        }
-        .home-proof-section > div {
-          grid-template-columns: 1fr !important;
-          gap: 32px !important;
+        .practice-score-card-shell {
+          width: min(330px, calc(100% - 16px)) !important;
         }
         .home-cta-final h2 { font-size: clamp(30px, 9vw, 42px) !important; }
         .home-cta-final button { padding: 14px 28px !important; }

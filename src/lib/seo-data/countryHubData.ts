@@ -1201,6 +1201,7 @@ export const countryPages: CountryPage[] = [
     sections: [
       {
         heading: "Saudi Arabia SAT test centers",
+        paragraphs: [],
         bullets: [
           "Riyadh: American International School of Riyadh (AIS-R), British International School Riyadh, Multinational School Riyadh",
           "Jeddah: American International School of Jeddah, British International School Jeddah, American Academy Jeddah",
@@ -1254,6 +1255,7 @@ export const countryPages: CountryPage[] = [
     sections: [
       {
         heading: "Qatar SAT test centers",
+        paragraphs: [],
         bullets: [
           "American School of Doha",
           "Qatar Academy Doha",
@@ -1315,6 +1317,7 @@ export const countryPages: CountryPage[] = [
     sections: [
       {
         heading: "Kuwait SAT test centers",
+        paragraphs: [],
         bullets: [
           "American School of Kuwait (ASK)",
           "American International School Kuwait",

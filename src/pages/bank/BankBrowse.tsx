@@ -52,6 +52,11 @@ const domainIcons: Record<string, string> = {
   "Standard English Conventions": "📝",
 };
 
+const PRACTICE_RUN_STORAGE_KEY = "practiceRunId";
+
+const buildPracticeRunId = (subject: BankSubject) =>
+  `${subject}-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
+
 const BankBrowse = () => {
   const navigate = useNavigate();
   const [searchParams, setSearchParams] = useSearchParams();
@@ -86,7 +91,7 @@ const BankBrowse = () => {
   const startPracticeSession = (questions: BankQuestion[]) => {
     if (questions.length === 0) return;
 
-    questions = spaceOutNearDuplicates(questions, questionFingerprint);
+    questions = spaceOutNearDuplicates<BankQuestion>(questions, questionFingerprint);
 
     const practiceSet = questions.map((q, index) => ({
       subject: q.subject,
@@ -99,17 +104,18 @@ const BankBrowse = () => {
     sessionStorage.removeItem('practiceExitTo');
     sessionStorage.setItem('practiceSet', JSON.stringify(practiceSet));
     sessionStorage.setItem('practiceSetTotal', String(practiceSet.length));
+    sessionStorage.setItem(PRACTICE_RUN_STORAGE_KEY, buildPracticeRunId(validSubject));
     const first = practiceSet[0];
     navigate(`/bank/${first.subject}/${first.id}?bankType=${first.bankType}&practice=true&idx=1`);
   };
 
-  const shuffleArray = <T extends { text?: string }>(arr: T[]): T[] => {
+  const shuffleArray = (arr: BankQuestion[]): BankQuestion[] => {
     const shuffled = [...arr];
     for (let i = shuffled.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
     }
-    return spaceOutNearDuplicates(shuffled, questionFingerprint);
+    return spaceOutNearDuplicates<BankQuestion>(shuffled, questionFingerprint);
   };
 
   const handleShuffleDomain = (domain: string) => {

@@ -611,6 +611,7 @@ function Flashcards({
   // mastered/learning are sets tracking what the user did this round, used for the summary
   // and for "continue with still-learning" restart.
   const [queue, setQueue] = useState<string[]>([]);
+  const [roundTotal, setRoundTotal] = useState(0);
   const [masteredThisRound, setMasteredThisRound] = useState<Set<string>>(new Set());
   const [learningThisRound, setLearningThisRound] = useState<Set<string>>(new Set());
   const [flipped, setFlipped] = useState(false);
@@ -634,7 +635,9 @@ function Flashcards({
   useEffect(() => {
     const d = deckRef.current;
     const unmastered = d.filter(w => w.mastery < 0.8).map(w => w.id);
-    setQueue(unmastered.length > 0 ? unmastered : d.map(w => w.id));
+    const nextQueue = unmastered.length > 0 ? unmastered : d.map(w => w.id);
+    setQueue(nextQueue);
+    setRoundTotal(nextQueue.length);
     setMasteredThisRound(new Set());
     setLearningThisRound(new Set());
     setFlipped(false);
@@ -700,7 +703,9 @@ function Flashcards({
   );
 
   const restartFull = () => {
-    setQueue(deckRef.current.map(w => w.id));
+    const nextQueue = deckRef.current.map(w => w.id);
+    setQueue(nextQueue);
+    setRoundTotal(nextQueue.length);
     setMasteredThisRound(new Set());
     setLearningThisRound(new Set());
     setFlipped(false);
@@ -710,14 +715,17 @@ function Flashcards({
     const ids = Array.from(learningThisRound).filter(id => !masteredThisRound.has(id));
     if (ids.length === 0) return;
     setQueue(ids);
+    setRoundTotal(ids.length);
     setMasteredThisRound(new Set());
     setLearningThisRound(new Set());
     setFlipped(false);
   };
 
   const resetAndStart = () => {
+    const nextQueue = deckRef.current.map(w => w.id);
     onResetSet();
-    setQueue(deckRef.current.map(w => w.id));
+    setQueue(nextQueue);
+    setRoundTotal(nextQueue.length);
     setMasteredThisRound(new Set());
     setLearningThisRound(new Set());
     setFlipped(false);
@@ -826,10 +834,10 @@ function Flashcards({
 
   if (!card) return null;
 
-  const totalForBar = deck.length;
-  const masteredAllTime = deck.filter(w => w.mastery >= 0.8).length;
+  const totalForBar = roundTotal || deck.length;
   const remaining = queue.length;
-  const masteredPct = (masteredAllTime / Math.max(totalForBar, 1)) * 100;
+  const reviewedThisRound = Math.max(0, totalForBar - remaining);
+  const progressPct = (reviewedThisRound / Math.max(totalForBar, 1)) * 100;
 
   return (
     <div style={{ maxWidth: 720, margin: "0 auto" }}>
@@ -853,12 +861,12 @@ function Flashcards({
         </span>
         <div
           style={{ flex: 1, height: 3, borderRadius: 2, background: "hsl(var(--border))", overflow: "hidden" }}
-          title={`${masteredAllTime} of ${totalForBar} mastered overall`}
+          title={`${reviewedThisRound} of ${totalForBar} reviewed this round`}
         >
           <div
             style={{
               height: "100%",
-              width: `${masteredPct}%`,
+              width: `${progressPct}%`,
               background: primary,
               transition: "width .3s",
             }}

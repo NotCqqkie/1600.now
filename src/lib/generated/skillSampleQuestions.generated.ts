@@ -351,31 +351,6 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "correctAnswer": "C"
     },
     {
-      "id": "9377a50a-f782-492e-a3bf-a2b90698cacc_2",
-      "difficulty": "Easy",
-      "testName": "August 2025 International Form B SAT Math Module 1",
-      "text": "$25 \\leq x \\leq 65$ represents the speed of the car, in miles per hour, on this part of the trip.",
-      "choices": [
-        {
-          "id": "A",
-          "text": "$x \\geq 25$"
-        },
-        {
-          "id": "B",
-          "text": "$x \\geq 65$"
-        },
-        {
-          "id": "C",
-          "text": "$25 \\leq x \\leq 65$"
-        },
-        {
-          "id": "D",
-          "text": "$x \\leq 90$"
-        }
-      ],
-      "correctAnswer": "C"
-    },
-    {
       "id": "10c690aa-0aad-48ab-952b-855b2555b311_5",
       "difficulty": "Easy",
       "testName": "June 2024 US Form C SAT Math Module 2",
@@ -399,6 +374,31 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
         }
       ],
       "correctAnswer": "A"
+    },
+    {
+      "id": "00907d99-e579-47a8-ac65-658aadef4aa7_7",
+      "difficulty": "Easy",
+      "testName": "March 2025 US Form B SAT Math Module 1",
+      "text": "$0.67x - 2 \\le 12$ represents the number of oranges, $x$, that the shopper can purchase for no more than \\$12.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "$0.67x + 2 \\le 12$"
+        },
+        {
+          "id": "B",
+          "text": "$0.67 + 2 \\ge 12$"
+        },
+        {
+          "id": "C",
+          "text": "$0.67x - 2 \\le 12$"
+        },
+        {
+          "id": "D",
+          "text": "$0.67x - 2 \\ge 12$"
+        }
+      ],
+      "correctAnswer": "C"
     }
   ],
   "nonlinear-equations-and-systems": [
@@ -714,7 +714,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_5",
       "difficulty": "Easy",
       "testName": "May 2025 International Form B SAT Math Module 2",
-      "text": "If 350 % of n is 35, what is the value of n?",
+      "text": "If 350% of n is 35, what is the value of n?",
       "choices": [
         {
           "id": "A",
@@ -1123,31 +1123,6 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
   ],
   "area-and-volume": [
     {
-      "id": "1b1871b9-081a-47fd-9218-97b0bbc4a454_13",
-      "difficulty": "Easy",
-      "testName": "October 2025 US Form A SAT Math Module 2",
-      "text": "$1,035x + 535y = 13,165$ represents the combined population of the city and the suburb adjacent to the city.",
-      "choices": [
-        {
-          "id": "A",
-          "text": "$1,035x + 535y = 13,165$"
-        },
-        {
-          "id": "B",
-          "text": "$1,035x + 535 = 13,165y$"
-        },
-        {
-          "id": "C",
-          "text": "$1,035x + 535 = 1,570y$"
-        },
-        {
-          "id": "D",
-          "text": "$1,035x + 535y = 1,570$"
-        }
-      ],
-      "correctAnswer": "A"
-    },
-    {
       "id": "1b1871b9-081a-47fd-9218-97b0bbc4a454_14",
       "difficulty": "Easy",
       "testName": "October 2025 US Form A SAT Math Module 2",
@@ -1193,6 +1168,31 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
         {
           "id": "D",
           "text": "8,624"
+        }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_1",
+      "difficulty": "Easy",
+      "testName": "September 2025 International Form A SAT Math Module 1",
+      "text": "The number of muskrat in a 134-acre area is estimated to be 2,278. What is the estimated population density, in muskrat per acre, of this area?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "17"
+        },
+        {
+          "id": "B",
+          "text": "134"
+        },
+        {
+          "id": "C",
+          "text": "151"
+        },
+        {
+          "id": "D",
+          "text": "2,295"
         }
       ],
       "correctAnswer": "A"

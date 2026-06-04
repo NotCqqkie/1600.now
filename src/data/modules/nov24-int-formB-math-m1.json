@@ -1,6 +1,45 @@
 [
   {
     "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
+    "difficulty": "Easy",
+    "question_number": 1,
+    "test_name": "November 2024 International Form B SAT Math Module 1",
+    "passage": "The system of two equations, $y = \\frac{16}{x}$ and $y = 16x$, is graphed in the $xy$-plane as shown. Which ordered pair is a solution to this system?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$(0, 0)$"
+      },
+      {
+        "label": "B",
+        "text": "$(0, 16)$"
+      },
+      {
+        "label": "C",
+        "text": "$(1, 16)$"
+      },
+      {
+        "label": "D",
+        "text": "$(16, 16)$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_1",
+    "images": [
+      {
+        "src": "/images/SAT-Style%20Questions/816fedc1-1434-4eb8-aa3b-6715a1e738ae_1_q_01_FIX.png",
+        "alt": "Graph of y equals 16 over x and y equals 16x intersecting at approximately (1, 16).",
+        "local": "images/SAT-Style Questions/816fedc1-1434-4eb8-aa3b-6715a1e738ae_1_q_01_FIX.png"
+      }
+    ]
+  },
+  {
+    "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
     "difficulty": "Easy",
@@ -70,12 +109,12 @@
     "difficulty": "Easy",
     "question_number": 4,
     "test_name": "November 2024 International Form B SAT Math Module 1",
-    "passage": "$h$ horses and $g$ goats. Each horse requires 2 acres of land, and each goat requires 1 acre of land. The $h$ horses and $g$ goats require a total of 21 acres of land. Which equation represents this situation?",
+    "passage": "Casey is raising $h$ horses and $g$ goats. Each horse requires 2 acres of land, and each goat requires 1 acre of land. The $h$ horses and $g$ goats require a total of 21 acres of land. Which equation represents this situation?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$g + h = 21$"
+        "text": "$2g + h = 21$"
       },
       {
         "label": "B",
@@ -207,9 +246,9 @@
     "id": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_8",
     "images": [
       {
-        "src": "/images_labeled/816fedc1-1434-4eb8-aa3b-6715a1e738ae_8_q_01_FIX.png",
+        "src": "/images/SAT-Style%20Questions/816fedc1-1434-4eb8-aa3b-6715a1e738ae_8_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/816fedc1-1434-4eb8-aa3b-6715a1e738ae_8_q_01_FIX.png"
+        "local": "images/SAT-Style Questions/816fedc1-1434-4eb8-aa3b-6715a1e738ae_8_q_01_FIX.png"
       }
     ]
   },
@@ -278,9 +317,9 @@
     "id": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_10",
     "images": [
       {
-        "src": "/images_labeled/816fedc1-1434-4eb8-aa3b-6715a1e738ae_10_q_01_FIX.png",
+        "src": "/images/SAT-Style%20Questions/816fedc1-1434-4eb8-aa3b-6715a1e738ae_10_q_01_FIX.png",
         "alt": "",
-        "local": "images_labeled/816fedc1-1434-4eb8-aa3b-6715a1e738ae_10_q_01_FIX.png"
+        "local": "images/SAT-Style Questions/816fedc1-1434-4eb8-aa3b-6715a1e738ae_10_q_01_FIX.png"
       }
     ]
   },
