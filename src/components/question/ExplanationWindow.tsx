@@ -67,6 +67,13 @@ export const ExplanationWindow = ({
   const [searchParams] = useSearchParams();
   const autoExplain = searchParams.get("autoExplain") === "1";
   const autoOpenedRef = useRef(false);
+  const correctAnswerText = typeof correctAnswer === "string" ? correctAnswer.trim() : "";
+  const renderCorrectAnswerBadge = () =>
+    correctAnswerText ? (
+      <div className="mb-3 inline-flex rounded-md border border-border bg-muted/30 px-2 py-1 text-xs font-medium text-muted-foreground">
+        Correct answer: {correctAnswerText}
+      </div>
+    ) : null;
 
   useEffect(() => {
     setIsOpen(false);
@@ -129,11 +136,11 @@ export const ExplanationWindow = ({
   };
 
   // Build the question object for the explanation API
-  const explanationQuestion = questionText && correctAnswer ? {
+  const explanationQuestion = questionText && correctAnswerText ? {
     section: questionSection || "Math",
     passage: questionText,
     choices: choices?.map(c => ({ label: c.id, text: c.text || "", image: c.image })),
-    correctAnswer: correctAnswer,
+    correctAnswer: correctAnswerText,
     domain: questionDomain,
     skill: questionSkill,
     difficulty: questionDifficulty ?? undefined,
@@ -185,19 +192,18 @@ export const ExplanationWindow = ({
             />
           ) : aiChecked && rationaleHtml ? (
             <div className="flex-1 overflow-y-auto px-4 py-3">
-              {correctAnswer && (
-                <div className="mb-3 inline-flex rounded-md border border-border bg-muted/30 px-2 py-1 text-xs font-medium text-muted-foreground">
-                  Answer: {correctAnswer}
-                </div>
-              )}
+              {renderCorrectAnswerBadge()}
               <div
                 className="question-html break-words prose prose-stone max-w-none text-sm leading-7 text-foreground dark:prose-invert [&_img]:my-3 [&_img]:block [&_img]:max-w-full [&_img]:h-auto [&_img]:mx-auto [&_img]:object-contain"
                 dangerouslySetInnerHTML={{ __html: rationaleHtml }}
               />
             </div>
           ) : aiChecked ? (
-            <div className="flex-1 w-full flex items-center justify-center">
-              <p className="text-muted-foreground text-sm">No explanation available.</p>
+            <div className="flex-1 overflow-y-auto px-4 py-3">
+              {renderCorrectAnswerBadge()}
+              <div className="flex min-h-[180px] items-center justify-center">
+                <p className="text-muted-foreground text-sm">No explanation available.</p>
+              </div>
             </div>
           ) : null}
         </div>

@@ -107,14 +107,16 @@ export function StepByStepExplanation({ questionId, question }: StepByStepExplan
   const isAllRevealed = revealedUpTo >= totalSteps - 1;
   const isOnLastRevealed = currentStep === revealedUpTo;
   const step = data.steps[Math.min(currentStep, totalSteps - 1)];
+  const correctAnswer = question.correctAnswer || data.correctAnswer;
 
   return (
     <div className="flex flex-col h-full">
-      {/* Header — correct answer badge + step dots */}
       <div className="flex items-center justify-between px-3 py-2 border-b border-border/50 bg-background/95 backdrop-blur-sm shrink-0">
-        <Badge variant="outline" className="text-[10px] px-1.5 py-0">
-          Answer: {data.correctAnswer}
-        </Badge>
+        {correctAnswer ? (
+          <Badge variant="outline" className="text-[10px] px-1.5 py-0">
+            Correct answer: {correctAnswer}
+          </Badge>
+        ) : <span />}
         <div className="flex gap-1.5">
           {data.steps.map((_, i) => (
             <button
