@@ -1,1 +1,19 @@
-{"questionId":"27590f35-8d6e-45c6-b665-222acb5e516d_6","correctAnswer":"A","section":"Math","steps":[{"title":"Substitute the given value","content":"With $f(x)=5x+b$ and $f(7)=35$, plug $x=7$ into the function:<br/>$$5(7)+b=35\\;\\Rightarrow\\;35+b=35$$"},{"title":"Solve for the unknown","content":"Subtract $35$ from both sides: $b=0$.<br/>That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}
+{
+  "questionId": "27590f35-8d6e-45c6-b665-222acb5e516d_6",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the given value",
+      "content": "With $f(x)=5x+b$ and $f(7)=35$, plug $x=7$ into the function:<br/>$$5(7)+b=35\\;\\Rightarrow\\;35+b=35$$"
+    },
+    {
+      "title": "Solve for the unknown",
+      "content": "Subtract $35$ from both sides: $b=0$.<br/>That matches choice <strong>A</strong> — <strong>A</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice A, 0. The other choices do not satisfy the same condition from the question, so <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,19 @@
-{"questionId":"ad300285-6ff9-46a9-97ab-7356c9cd2965_12","correctAnswer":"6","section":"Math","steps":[{"title":"Multiply the expressions","content":"Factor the left side: $72y^5-48y^4=y^4(72y-48)$. Factor a $6$ from the parenthesis: $$72y^5-48y^4=6y^4(12y-8).$$"},{"title":"Identify b","content":"Comparing $6y^4(12y-8)=ry^4(12y-8)$ gives $r=6$. The answer is <strong>6</strong>."}]}
+{
+  "questionId": "ad300285-6ff9-46a9-97ab-7356c9cd2965_12",
+  "correctAnswer": "6",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Multiply the expressions",
+      "content": "Factor the left side: $72y^5-48y^4=y^4(72y-48)$. Factor a $6$ from the parenthesis: $$72y^5-48y^4=6y^4(12y-8).$$"
+    },
+    {
+      "title": "Identify b",
+      "content": "Comparing $6y^4(12y-8)=ry^4(12y-8)$ gives $r=6$. The answer is <strong>6</strong>."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $6$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $6$."
+    }
+  ]
+}

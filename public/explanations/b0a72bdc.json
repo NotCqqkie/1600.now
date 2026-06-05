@@ -10,9 +10,11 @@
     },
     {
       "title": "Calculate the diameter",
-      "content": "From $r^2 = 16$, we get $r = \\sqrt{16} = 4$. Since diameter equals twice the radius: $$d = 2(4) = 8$$ That matches choice B \u2014 <strong>B</strong> is correct.",
+      "content": "From $r^2 = 16$, we get $r = \\sqrt{16} = 4$. Since diameter equals twice the radius: $$d = 2(4) = 8$$ That matches choice B — <strong>B</strong> is correct.",
       "formula": "$$d = 2r$$",
-      "desmosExpressions": ["(x-5)^2 + (y-3)^2 = 16"]
+      "desmosExpressions": [
+        "(x-5)^2 + (y-3)^2 = 16"
+      ]
     }
   ]
 }

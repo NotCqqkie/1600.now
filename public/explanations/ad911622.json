@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Convert percentage changes to multipliers",
-      "content": "When a value increases by 167%, the new amount is 100% + 167% = 267% of the original, or $$1 + 1.67 = 2.67$$ times the original. When a value decreases by 16%, it becomes 100% \u2212 16% = 84% of what it was, or $$1 \u2212 0.16 = 0.84$$ times that amount."
+      "content": "When a value increases by 167%, the new amount is 100% + 167% = 267% of the original, or $$1 + 1.67 = 2.67$$ times the original. When a value decreases by 16%, it becomes 100% − 16% = 84% of what it was, or $$1 − 0.16 = 0.84$$ times that amount."
     },
     {
       "title": "Apply both changes sequentially",
@@ -13,7 +13,7 @@
     },
     {
       "title": "Calculate the net multiplier and convert to percentage",
-      "content": "Computing the product: $$2.67 \\times 0.84 = 2.2428$$ This means the value at the end of 2013 is 2.2428 times its value at the end of 2011. A multiplier of 2.2428 corresponds to an increase of $$2.2428 \u2212 1 = 1.2428 = 124.28\\%$$. That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "Computing the product: $$2.67 \\times 0.84 = 2.2428$$ This means the value at the end of 2013 is 2.2428 times its value at the end of 2011. A multiplier of 2.2428 corresponds to an increase of $$2.2428 − 1 = 1.2428 = 124.28\\%$$. That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

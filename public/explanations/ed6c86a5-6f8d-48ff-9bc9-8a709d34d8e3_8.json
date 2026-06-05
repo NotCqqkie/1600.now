@@ -1,1 +1,29 @@
-{"questionId":"ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_8","correctAnswer":"D","section":"Math","steps":[{"title":"Identify the vertex","content":"The object reaches its maximum height of 268 feet at $t=3$ seconds, so the vertex of the parabola is $(h,k)=(3,268)$."},{"title":"Write the vertex form","content":"The vertex form is $$f(t)=a(t-h)^{2}+k.$$ Substituting $h=3$, $k=268$, and the standard projectile coefficient $a=-16$ (feet, downward) gives $$f(t)=-16(t-3)^{2}+268.$$"},{"title":"Check the initial height","content":"At $t=0$: $f(0)=-16(0-3)^{2}+268=-16(9)+268=-144+268=124.$ This matches the launch height of 124 feet."},{"title":"Evaluate each choice","content":"<ul><li>A) $f(t)=-16(t+268)^{2}-3$ &mdash; vertex would be $(-268,-3)$, not $(3,268)$. Eliminate.</li><li>B) $f(t)=-16(t-268)^{2}+3$ &mdash; vertex would be $(268,3)$, not $(3,268)$. Eliminate.</li><li>C) $f(t)=-16(t+3)^{2}-268$ &mdash; vertex would be $(-3,-268)$, a minimum below ground. Eliminate.</li><li>D) $f(t)=-16(t-3)^{2}+268$ &mdash; vertex $(3,268)$ and $f(0)=124$. Keep.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_8",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Fit the vertex model in Desmos",
+      "content": "The maximum height gives the vertex $(3,268)$, so the model has the form $f(t)=a(t-3)^2+268$. Use the initial height point $(0,124)$ and the vertex point $(3,268)$ in Desmos, then run $y_1\\sim a(x_1-3)^2+268$.",
+      "desmosExpressions": [
+        "x_1=[0,3]",
+        "y_1=[124,268]",
+        "y_1~a(x_1-3)^2+268",
+        "y=a(x-3)^2+268"
+      ]
+    },
+    {
+      "title": "Read the equation",
+      "content": "Desmos returns $a=-16$, so the equation is $f(t)=-16(t-3)^2+268$. This also matches the standard projectile coefficient for height measured in feet."
+    },
+    {
+      "title": "Check the initial height",
+      "content": "At $t=0$: $f(0)=-16(0-3)^{2}+268=-16(9)+268=-144+268=124.$ This matches the launch height of 124 feet."
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li>A) $f(t)=-16(t+268)^{2}-3$ &mdash; vertex would be $(-268,-3)$, not $(3,268)$. Eliminate.</li><li>B) $f(t)=-16(t-268)^{2}+3$ &mdash; vertex would be $(268,3)$, not $(3,268)$. Eliminate.</li><li>C) $f(t)=-16(t+3)^{2}-268$ &mdash; vertex would be $(-3,-268)$, a minimum below ground. Eliminate.</li><li>D) $f(t)=-16(t-3)^{2}+268$ &mdash; vertex $(3,268)$ and $f(0)=124$. Keep.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

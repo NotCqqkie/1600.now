@@ -1,1 +1,22 @@
-{"qid":"0c54aae7-15f2-4e7b-a138-cae820ff684e_17","correctAnswer":"C","steps":[{"title":"Recall what standard deviation measures","content":"Standard deviation measures how spread out values are from the mean. A distribution where most values cluster tightly near the mean has a small standard deviation; one where values are spread far from the mean has a large standard deviation."},{"title":"Examine group A (mean = 2.1)","content":"Group A&rsquo;s histogram shows most of its frequency pushed toward the outer weights (0 and 4), which are about 2 grams away from the mean of 2.1. Few objects sit near 2.1. The data is spread across the full range of the histogram."},{"title":"Examine group B (mean = 11.1)","content":"Group B&rsquo;s histogram shows the tallest bar is at weight 11, extremely close to the mean of 11.1. Most objects cluster tightly around 11.1, with very few in the tails at 9 and 13."},{"title":"Evaluate each choice","content":"<ul><li>Choice A: SD of A &lt; SD of B. Group A&rsquo;s values are more spread from its mean than group B&rsquo;s values are from theirs, so A&rsquo;s SD is larger, not smaller. Eliminated.</li><li>Choice B: SD of A = SD of B. The spreads are clearly different; A is more dispersed. Eliminated.</li><li>Choice C: SD of A &gt; SD of B. Group A has more frequency far from its mean, group B is tightly clustered near its mean, so group A has a greater standard deviation. That matches choice C &mdash; <strong>C</strong> is correct.</li><li>Choice D: Not enough information. The histograms give all the data needed to compare spreads. Eliminated.</li></ul>"}]}
+{
+  "qid": "0c54aae7-15f2-4e7b-a138-cae820ff684e_17",
+  "correctAnswer": "C",
+  "steps": [
+    {
+      "title": "Recall what standard deviation measures",
+      "content": "Standard deviation measures how spread out values are from the mean. A distribution where most values cluster tightly near the mean has a small standard deviation; one where values are spread far from the mean has a large standard deviation."
+    },
+    {
+      "title": "Examine group A (mean = 2.1)",
+      "content": "Group A&rsquo;s histogram shows most of its frequency pushed toward the outer weights (0 and 4), which are about 2 grams away from the mean of 2.1. Few objects sit near 2.1. The data is spread across the full range of the histogram."
+    },
+    {
+      "title": "Examine group B (mean = 11.1)",
+      "content": "Group B&rsquo;s histogram shows the tallest bar is at weight 11, extremely close to the mean of 11.1. Most objects cluster tightly around 11.1, with very few in the tails at 9 and 13."
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li>Choice A: SD of A &lt; SD of B. Group A&rsquo;s values are more spread from its mean than group B&rsquo;s values are from theirs, so A&rsquo;s SD is larger, not smaller. Eliminated.</li><li>Choice B: SD of A = SD of B. The spreads are clearly different; A is more dispersed. Eliminated.</li><li>Choice C: SD of A &gt; SD of B. Group A has more frequency far from its mean, group B is tightly clustered near its mean, so group A has a greater standard deviation. That matches choice C &mdash; <strong>C</strong> is correct.</li><li>Choice D: Not enough information. The histograms give all the data needed to compare spreads. Eliminated.</li></ul>"
+    }
+  ]
+}

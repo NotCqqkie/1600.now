@@ -1,1 +1,15 @@
-{"questionId": "44d65912", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Translate each game into an equation", "content": "Each coin is worth $c$ points and each star is worth $s$ points, so total score = (coins)($c$) + (stars)($s$).<br/><br/>Game 1: 20 coins and 10 stars for 700 points gives $20c + 10s = 700$.<br/><br/>Game 2: 25 coins and 12 stars for 850 points gives $25c + 12s = 850$."}, {"title": "Evaluate each answer choice", "content": "The correct system must match $20c + 10s = 700$ and $25c + 12s = 850$.<ul><li><strong>A.</strong> $10c + 20s = 700$ swaps the coin and star counts; eliminated.</li><li><strong>B.</strong> $20c + 10s = 700$ and $25c + 12s = 850$ matches both games exactly.</li><li><strong>C.</strong> Places 700 and 850 as coefficients of $s$, which is dimensionally wrong; eliminated.</li><li><strong>D.</strong> Places 700 and 850 as coefficients of $c$ with 10 and 12 on the right side; eliminated.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "44d65912",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate each game into an equation",
+      "content": "Each coin is worth $c$ points and each star is worth $s$ points, so total score = (coins)($c$) + (stars)($s$).<br/><br/>Game 1: 20 coins and 10 stars for 700 points gives $20c + 10s = 700$.<br/><br/>Game 2: 25 coins and 12 stars for 850 points gives $25c + 12s = 850$."
+    },
+    {
+      "title": "Evaluate each answer choice",
+      "content": "The correct system must match $20c + 10s = 700$ and $25c + 12s = 850$.<ul><li><strong>A.</strong> $10c + 20s = 700$ swaps the coin and star counts; eliminated.</li><li><strong>B.</strong> $20c + 10s = 700$ and $25c + 12s = 850$ matches both games exactly.</li><li><strong>C.</strong> Places 700 and 850 as coefficients of $s$, which is dimensionally wrong; eliminated.</li><li><strong>D.</strong> Places 700 and 850 as coefficients of $c$ with 10 and 12 on the right side; eliminated.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

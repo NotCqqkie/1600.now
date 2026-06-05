@@ -14,6 +14,10 @@
         "(x-6)^2 + (y-2)^2 = 36",
         "(12, 2)"
       ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $2$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $2$."
     }
   ]
 }

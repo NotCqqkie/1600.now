@@ -4,16 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve the equation",
-      "content": "From $|-5x+13|=73$: $-5x+13=73$ gives $x=-12$, and $-5x+13=-73$ gives $x=\\tfrac{86}{5}$."
+      "title": "Graph the absolute-value equation",
+      "content": "A fast way to solve this is to graph both sides in Desmos:<br/>$$y=|-5x+13|$$<br/>$$y=73$$<br/>The intersections give the two solutions to $|-5x+13|=73$.",
+      "desmosExpressions": [
+        "y=|-5x+13|",
+        "y=73"
+      ]
     },
     {
-      "title": "Sum the solutions",
-      "content": "Add: $-12+\\dfrac{86}{5}=\\dfrac{-60+86}{5}=\\dfrac{26}{5}$.<br/><br/>The answer is <strong>D</strong>.",
-      "desmosExpressions": [
-        "y = |-5x + 13|",
-        "y = 73"
-      ]
+      "title": "Read the two x-values",
+      "content": "The graphs intersect at $x=-12$ and $x=\\frac{86}{5}$. Those are the only two solutions because an absolute-value graph can cross a horizontal line at most twice."
+    },
+    {
+      "title": "Add the solutions",
+      "content": "The question asks for the sum, not either individual solution:<br/>$$-12+\\frac{86}{5}=\\frac{-60+86}{5}=\\frac{26}{5}$$<br/>That matches choice D, so <strong>D</strong> is correct."
     }
   ]
 }

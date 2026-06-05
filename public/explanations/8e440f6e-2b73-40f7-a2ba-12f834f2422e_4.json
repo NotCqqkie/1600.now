@@ -10,6 +10,10 @@
     {
       "title": "Multiply to find the equivalent pedes",
       "content": "The number of pedes equivalent to 3.8 leugas is: $$3.8 \\times 7,500 = 28,500$$"
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $28500$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $28500$."
     }
   ]
 }

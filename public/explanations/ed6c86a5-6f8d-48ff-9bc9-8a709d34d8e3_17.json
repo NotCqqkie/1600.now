@@ -1,1 +1,23 @@
-{"questionId":"ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_17","correctAnswer":"C","section":"Math","steps":[{"title":"Apply the triangle inequality","content":"With sides 10 and 12, the third side $x$ must satisfy $x < 10+12=22$ and $x > |10-12|=2$."},{"title":"Combine the two bounds","content":"Combining gives $$2 < x < 22.$$"},{"title":"Match the answer","content":"That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}
+{
+  "questionId": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_17",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the triangle inequality",
+      "content": "With sides 10 and 12, the third side $x$ must satisfy $x < 10+12=22$ and $x > |10-12|=2$."
+    },
+    {
+      "title": "Combine the two bounds",
+      "content": "Combining gives $$2 < x < 22.$$"
+    },
+    {
+      "title": "Match the answer",
+      "content": "That matches choice <strong>C</strong> — <strong>C</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice C, $2 < x < 22$. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
+    }
+  ]
+}

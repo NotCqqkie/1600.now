@@ -8,5 +8,8 @@
   ],
   "choiceAnalysis": "<ul><li><strong>Choice A &mdash; '4x + 2y = 86 and 3x + 5y = 166'</strong>: Hiro's equation: 4 shirts at x and 2 pants at y totaling 86 &#10003;; Sofia's equation: 3 shirts at x and 5 pants at y totaling 166 &#10003;. Both correct. &#10003;</li><li><strong>Choice B &mdash; 'x + 3y = 86 and 2x + 5y = 166'</strong>: Neither matches the given quantities (Hiro bought 4 shirts, not 1; Sofia bought 3 shirts, not 2). &#10007;</li><li><strong>Choice C &mdash; 'x + 2y = 166 and 3x + 5y = 86'</strong>: The totals are swapped (Hiro's total is 86, not 166) and coefficients are wrong. &#10007;</li><li><strong>Choice D &mdash; 'x + 3y = 166 and 2x + 5y = 86'</strong>: Both totals and coefficients are wrong. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.",
   "correctAnswer": "A",
-  "desmosExpressions": ["y=(86-4x)/2", "y=(166-3x)/5"]
+  "desmosExpressions": [
+    "y=(86-4x)/2",
+    "y=(166-3x)/5"
+  ]
 }

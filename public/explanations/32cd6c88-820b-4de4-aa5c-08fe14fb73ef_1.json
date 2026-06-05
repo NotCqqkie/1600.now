@@ -1,1 +1,15 @@
-{"questionId": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_1", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Understand what we're finding", "content": "The solution to a system of two linear equations is the point $(x, y)$ where the graphs of both equations intersect on the coordinate plane. The $y$-coordinate of that intersection is what we need."}, {"title": "Read the $y$-coordinate from the graph", "content": "From the figure, locate the point where the two lines cross and read its $y$-coordinate. The intersection point's $y$-coordinate is 2.<br/>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_1",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Understand what we're finding",
+      "content": "The solution to a system of two linear equations is the point $(x, y)$ where the graphs of both equations intersect on the coordinate plane. The $y$-coordinate of that intersection is what we need."
+    },
+    {
+      "title": "Read the $y$-coordinate from the graph",
+      "content": "From the figure, locate the point where the two lines cross and read its $y$-coordinate. The intersection point's $y$-coordinate is 2.<br/>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

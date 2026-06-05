@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the mean formula",
-      "content": "The mean is the sum divided by how many values there are. With 5 data points: $$\\text{mean} = \\frac{80}{5} = 16$$ That matches choice B \u2014 <strong>B</strong> is correct.",
+      "content": "The mean is the sum divided by how many values there are. With 5 data points: $$\\text{mean} = \\frac{80}{5} = 16$$ That matches choice B — <strong>B</strong> is correct.",
       "formula": "$$\\text{mean} = \\frac{\\text{sum of all values}}{\\text{number of values}}$$"
     }
   ]

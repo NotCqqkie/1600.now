@@ -1,1 +1,25 @@
-{"questionId":"5f3ee607","correctAnswer":"B","section":"Math","steps":[{"title":"Determine the slope direction","content":"Examine the scatterplot for the general trend. If the points fall from upper-left to lower-right, the data has a negative correlation and the line of best fit has a negative slope. The two options with negative slopes are A ($y=-1.9x-10.1$) and B ($y=-1.9x+10.1$)."},{"title":"Determine the y-intercept sign","content":"Locate where the trend would cross the y-axis (at $x=0$). A line with a positive y-intercept crosses above the x-axis; a negative y-intercept crosses below. For a downward trend whose left-side $y$ values are clearly positive, the y-intercept must be positive: $b=+10.1$."},{"title":"Combine slope and intercept","content":"A negative slope of $-1.9$ paired with a positive y-intercept of $+10.1$ gives $$y=-1.9x+10.1.$$"},{"title":"Evaluate each choice","content":"<ul><li>A) $y=-1.9x-10.1$ &mdash; correct negative slope, but the y-intercept is negative. Eliminate.</li><li>B) $y=-1.9x+10.1$ &mdash; negative slope and positive y-intercept match the downward trend. Keep.</li><li>C) $y=1.9x-10.1$ &mdash; positive slope contradicts the downward trend. Eliminate.</li><li>D) $y=1.9x+10.1$ &mdash; positive slope contradicts the downward trend. Eliminate.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "5f3ee607",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the signs",
+      "content": "The scatterplot trends downward from left to right, so the slope should be negative. The trend is above the origin near the $y$-axis, so the $y$-intercept should be positive."
+    },
+    {
+      "title": "Overlay the choices",
+      "content": "Graph the four equations in Desmos. Only $y=-1.9x+10.1$ has both the negative slope and positive intercept that match the data.",
+      "desmosExpressions": [
+        "y=-1.9x-10.1",
+        "y=-1.9x+10.1",
+        "y=1.9x-10.1",
+        "y=1.9x+10.1"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The most appropriate linear model is $y=-1.9x+10.1$, which matches choice <strong>B</strong>."
+    }
+  ]
+}

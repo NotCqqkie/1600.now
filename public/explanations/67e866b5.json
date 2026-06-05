@@ -1,1 +1,19 @@
-{"questionId":"67e866b5","correctAnswer":"D","section":"Math","steps":[{"title":"Identify like terms","content":"In $9x^2+7x^2+9x$, the terms $9x^2$ and $7x^2$ are like terms (both have $x^2$). The term $9x$ has a different exponent and is unlike them."},{"title":"Combine like terms","content":"Add the coefficients of the $x^2$ terms and keep $9x$ unchanged:$$9x^2+7x^2+9x=(9+7)x^2+9x=16x^2+9x$$"},{"title":"Eliminate the answer choices","content":"<ul><li>A) $63x^4+9x$: multiplies the coefficients and adds the exponents, but combining like terms keeps the exponent as $x^2$, not $x^4$.</li><li>B) $9x^2+16x$: adds the $x$ coefficient $9$ to the $x^2$ coefficient $7$, mixing unlike terms.</li><li>C) $25x^5$: treats $9x$ as $9x^2$ and adds all exponents, which is not how like terms combine.</li><li>D) $16x^2+9x$: correctly adds $9+7=16$ for the $x^2$ coefficient and leaves $9x$ alone.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "67e866b5",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify like terms",
+      "content": "In $9x^2+7x^2+9x$, the terms $9x^2$ and $7x^2$ are like terms (both have $x^2$). The term $9x$ has a different exponent and is unlike them."
+    },
+    {
+      "title": "Combine like terms",
+      "content": "Add the coefficients of the $x^2$ terms and keep $9x$ unchanged:$$9x^2+7x^2+9x=(9+7)x^2+9x=16x^2+9x$$"
+    },
+    {
+      "title": "Eliminate the answer choices",
+      "content": "<ul><li>A) $63x^4+9x$: multiplies the coefficients and adds the exponents, but combining like terms keeps the exponent as $x^2$, not $x^4$.</li><li>B) $9x^2+16x$: adds the $x$ coefficient $9$ to the $x^2$ coefficient $7$, mixing unlike terms.</li><li>C) $25x^5$: treats $9x$ as $9x^2$ and adds all exponents, which is not how like terms combine.</li><li>D) $16x^2+9x$: correctly adds $9+7=16$ for the $x^2$ coefficient and leaves $9x$ alone.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

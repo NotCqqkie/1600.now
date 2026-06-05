@@ -1,1 +1,19 @@
-{"questionId":"979898ba-60c7-4531-ac45-29c4db2b3361_18","correctAnswer":"C","section":"Math","steps":[{"title":"Set up","content":"The equation $d = 8t + 210$ is linear. The slope 8 means distance increases by 8 feet for every 1 minute elapsed."},{"title":"Solve","content":"Over 20 minutes: $8 \times 20 = 160$ feet."},{"title":"Answer","content":"<strong>C</strong> is correct."}]}
+{
+  "questionId": "979898ba-60c7-4531-ac45-29c4db2b3361_18",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "The equation $d = 8t + 210$ is linear. The slope 8 means distance increases by 8 feet for every 1 minute elapsed."
+    },
+    {
+      "title": "Solve",
+      "content": "Over 20 minutes: $8 \\times 20 = 160$ feet."
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>C</strong> is correct."
+    }
+  ]
+}

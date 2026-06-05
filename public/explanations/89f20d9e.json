@@ -1,1 +1,15 @@
-{"questionId":"89f20d9e","correctAnswer":"B","section":"Math","steps":[{"title":"Restrict to the conditional sample","content":"The condition <em>at least 10 years</em> keeps only the 10–19 and 20+ columns. From the table, those columns total $30+30=60$ participants. Group A within those columns contributes $17+8=25$."},{"title":"Apply the conditional probability formula","content":"$$P(A\\mid \\text{age}\\ge 10)=\\frac{25}{60}=\\frac{5}{12}.$$ That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}
+{
+  "questionId": "89f20d9e",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Restrict to the conditional sample",
+      "content": "The condition <em>at least 10 years</em> keeps only the 10–19 and 20+ columns. From the table, those columns total $30+30=60$ participants. Group A within those columns contributes $17+8=25$."
+    },
+    {
+      "title": "Apply the conditional probability formula",
+      "content": "$$P(A\\mid \\text{age}\\ge 10)=\\frac{25}{60}=\\frac{5}{12}.$$ That matches choice <strong>B</strong> — <strong>B</strong> is correct."
+    }
+  ]
+}

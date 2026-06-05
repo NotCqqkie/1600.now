@@ -11,7 +11,15 @@
     {
       "title": "Substitute and simplify",
       "content": "$$m = \\frac{12 - 3}{7 - 5} = \\frac{9}{2} = 4.5$$<br/>The slope is <strong>4.5</strong>.",
-      "desmosExpressions": ["y = 4.5x - 19.5", "(5, 3)", "(7, 12)"]
+      "desmosExpressions": [
+        "y = 4.5x - 19.5",
+        "(5, 3)",
+        "(7, 12)"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $4.5$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $4.5$."
     }
   ]
 }

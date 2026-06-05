@@ -1,1 +1,31 @@
-{"qid":"f89e1d6f","correctAnswer":"C","steps":["Regroup the expression: \\(x^2 - c^2 - 2cd - d^2 = x^2 - (c^2 + 2cd + d^2)\\).","Recognize that \\(c^2 + 2cd + d^2 = (c+d)^2\\). Since \\(a = c + d\\), substitute to get \\(x^2 - a^2\\).","Apply the difference of squares formula: \\(x^2 - a^2 = (x+a)(x-a)\\)."],"choices":[{"id":"A","text":"\\((x + a)^2\\)","explanation":"<ul><li>Expanding: \\((x+a)^2 = x^2 + 2ax + a^2\\). This has a \\(+2ax\\) term and \\(+a^2\\), neither of which appears in the original.</li><li>The original expression has \\(-a^2\\), not \\(+a^2\\).</li><li>Eliminated because the sign of \\(a^2\\) and the middle term are both wrong.</li></ul>"},{"id":"B","text":"\\((x - a)^2\\)","explanation":"<ul><li>Expanding: \\((x-a)^2 = x^2 - 2ax + a^2\\). This introduces a \\(-2ax\\) cross term and keeps \\(+a^2\\).</li><li>The original expression has no \\(x\\)-linear term and has \\(-a^2\\), not \\(+a^2\\).</li><li>Eliminated because both the sign of \\(a^2\\) and the extra cross term are wrong.</li></ul>"},{"id":"C","text":"\\((x + a)(x - a)\\)","explanation":"<ul><li>This is the difference of squares: \\((x+a)(x-a) = x^2 - a^2\\).</li><li>We showed \\(x^2 - c^2 - 2cd - d^2 = x^2 - (c+d)^2 = x^2 - a^2\\), which matches exactly.</li><li>That matches choice C &mdash; <strong>C</strong> is correct.</li></ul>"},{"id":"D","text":"\\(x^2 - a \\times x - a^2\\)","explanation":"<ul><li>This expression contains \\(-ax\\), a cross term in \\(x\\) and \\(a\\) that does not appear in the original.</li><li>No manipulation of \\(x^2 - c^2 - 2cd - d^2\\) produces a linear-in-\\(x\\) term.</li><li>Eliminated because the \\(-ax\\) term is extraneous.</li></ul>"}]}
+{
+  "qid": "f89e1d6f",
+  "correctAnswer": "C",
+  "steps": [
+    "Regroup the expression: $x^2 - c^2 - 2cd - d^2 = x^2 - (c^2 + 2cd + d^2)$.",
+    "Recognize that $c^2 + 2cd + d^2 = (c+d)^2$. Since $a = c + d$, substitute to get $x^2 - a^2$.",
+    "Apply the difference of squares formula: $x^2 - a^2 = (x+a)(x-a)$."
+  ],
+  "choices": [
+    {
+      "id": "A",
+      "text": "$(x + a)^2$",
+      "explanation": "<ul><li>Expanding: $(x+a)^2 = x^2 + 2ax + a^2$. This has a $+2ax$ term and $+a^2$, neither of which appears in the original.</li><li>The original expression has $-a^2$, not $+a^2$.</li><li>Eliminated because the sign of $a^2$ and the middle term are both wrong.</li></ul>"
+    },
+    {
+      "id": "B",
+      "text": "$(x - a)^2$",
+      "explanation": "<ul><li>Expanding: $(x-a)^2 = x^2 - 2ax + a^2$. This introduces a $-2ax$ cross term and keeps $+a^2$.</li><li>The original expression has no $x$-linear term and has $-a^2$, not $+a^2$.</li><li>Eliminated because both the sign of $a^2$ and the extra cross term are wrong.</li></ul>"
+    },
+    {
+      "id": "C",
+      "text": "$(x + a)(x - a)$",
+      "explanation": "<ul><li>This is the difference of squares: $(x+a)(x-a) = x^2 - a^2$.</li><li>We showed $x^2 - c^2 - 2cd - d^2 = x^2 - (c+d)^2 = x^2 - a^2$, which matches exactly.</li><li>That matches choice C &mdash; <strong>C</strong> is correct.</li></ul>"
+    },
+    {
+      "id": "D",
+      "text": "$x^2 - a \\times x - a^2$",
+      "explanation": "<ul><li>This expression contains $-ax$, a cross term in $x$ and $a$ that does not appear in the original.</li><li>No manipulation of $x^2 - c^2 - 2cd - d^2$ produces a linear-in-$x$ term.</li><li>Eliminated because the $-ax$ term is extraneous.</li></ul>"
+    }
+  ]
+}

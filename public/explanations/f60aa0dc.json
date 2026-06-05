@@ -1,1 +1,15 @@
-{"questionId":"f60aa0dc","correctAnswer":"D","section":"Math","steps":[{"title":"Apply the simplification from the given condition","content":"The given equation is $9(4-3x)+2 = 8(4-3x)+18$.<br/><br/>Subtract $8(4-3x)$ from both sides:<br/>$$(4-3x) + 2 = 18$$<br/><br/>Subtract 2 from both sides:<br/>$$4 - 3x = 16$$"},{"title":"Compute the target value","content":"So $4-3x = 16$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "f60aa0dc",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the simplification from the given condition",
+      "content": "The given equation is $9(4-3x)+2 = 8(4-3x)+18$.<br/><br/>Subtract $8(4-3x)$ from both sides:<br/>$$(4-3x) + 2 = 18$$<br/><br/>Subtract 2 from both sides:<br/>$$4 - 3x = 16$$"
+    },
+    {
+      "title": "Compute the target value",
+      "content": "So $4-3x = 16$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,19 @@
-{"questionId": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_11", "correctAnswer": "9600", "section": "Math", "steps": [{"title": "Identify similar triangles using the given angle", "content": "We have two triangles: $\\triangle PQT$ and $\\triangle RQS$, where PR and ST intersect at Q.<br/><br/>We are told that $\\angle PTQ \\cong \\angle RSQ$. Since PR and ST intersect at Q, the angles $\\angle PQT$ and $\\angle RQS$ are vertical angles, so they are also congruent.<br/><br/>By the AA (Angle-Angle) similarity criterion, $\\triangle PQT \\sim \\triangle RQS$."}, {"title": "Write the proportion of corresponding sides", "content": "Since the triangles are similar, their corresponding sides are proportional:<br/>$$\\frac{PQ}{RQ} = \\frac{TQ}{QS} = \\frac{PT}{RS}$$<br/>We know $TQ = 8400$ feet, $QS = 1400$ feet, $RS = 1600$ feet, and $PT = x$ feet (what we seek)."}, {"title": "Solve for x using the proportion", "content": "Using the proportion $\\frac{TQ}{QS} = \\frac{PT}{RS}$:<br/>$$\\frac{8400}{1400} = \\frac{x}{1600}$$<br/>Simplify the left side:<br/>$$\\frac{8400}{1400} = 6$$<br/>Therefore:<br/>$$6 = \\frac{x}{1600}$$<br/>$$x = 6 \\times 1600 = 9600$$<br/>The answer is $x = 9600$ feet."}]}
+{
+  "questionId": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_11",
+  "correctAnswer": "9600",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify similar triangles using the given angle",
+      "content": "We have two triangles: $\\triangle PQT$ and $\\triangle RQS$, where PR and ST intersect at Q.<br/><br/>We are told that $\\angle PTQ \\cong \\angle RSQ$. Since PR and ST intersect at Q, the angles $\\angle PQT$ and $\\angle RQS$ are vertical angles, so they are also congruent.<br/><br/>By the AA (Angle-Angle) similarity criterion, $\\triangle PQT \\sim \\triangle RQS$."
+    },
+    {
+      "title": "Write the proportion of corresponding sides",
+      "content": "Since the triangles are similar, their corresponding sides are proportional:<br/>$$\\frac{PQ}{RQ} = \\frac{TQ}{QS} = \\frac{PT}{RS}$$<br/>We know $TQ = 8400$ feet, $QS = 1400$ feet, $RS = 1600$ feet, and $PT = x$ feet (what we seek)."
+    },
+    {
+      "title": "Solve for x using the proportion",
+      "content": "Using the proportion $\\frac{TQ}{QS} = \\frac{PT}{RS}$:<br/>$$\\frac{8400}{1400} = \\frac{x}{1600}$$<br/>Simplify the left side:<br/>$$\\frac{8400}{1400} = 6$$<br/>Therefore:<br/>$$6 = \\frac{x}{1600}$$<br/>$$x = 6 \\times 1600 = 9600$$<br/>The answer is $x = 9600$ feet."
+    }
+  ]
+}

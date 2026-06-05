@@ -1,1 +1,25 @@
-{"questionId":"a8ae0d22","correctAnswer":"D","section":"Math","steps":[{"title":"Recognize the exponential pattern","content":"The phrase &quot;increases by a factor of 4&quot; for each unit increase in $x$ means $y$ is multiplied by $4$ each time $x$ increases by $1$. This is exponential growth of the form:<br/>$$y = a \\cdot b^x$$<br/>where $b = 4$ is the growth factor and $a$ is the initial value."},{"title":"Use the initial condition","content":"When $x = 0$, $y = 200$. Substituting:<br/>$$200 = a \\cdot 4^0 = a \\cdot 1 = a$$<br/>So $a = 200$, giving us:<br/>$$y = 200(4)^x$$"},{"title":"Evaluate each choice","content":"<ul><li><strong>A:</strong> $y=4(x)^{200}$ &mdash; this is a power function with $x$ as the base, not exponential growth; at $x=0$ this gives $y=0$, not $200$</li><li><strong>B:</strong> $y=4(200)^x$ &mdash; at $x=0$ this gives $y=4$, not $200$; also has growth factor $200$, not $4$</li><li><strong>C:</strong> $y=200(x)^4$ &mdash; power function; at $x=0$ this gives $y=0$, not $200$</li><li><strong>D:</strong> $y=200(4)^x$ &mdash; at $x=0$: $y=200(1)=200$ ✓; at $x=1$: $y=200(4)=800$, which is $200 \\times 4$ ✓</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "a8ae0d22",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the factor as the base",
+      "content": "The phrase \"for each increase of $1$ in $x$, $y$ increases by a factor of $4$\" means each step multiplies $y$ by $4$. That is exponential growth, so the model has the form $$y=a\\cdot 4^x$$ The initial condition says that when $x=0$, $y=200$. Since $4^0=1$, the starting coefficient is $a=200$."
+    },
+    {
+      "title": "Check it with a Desmos mini-table",
+      "content": "A fast Desmos check is to create the first few points from the words: $(0,200)$, $(1,800)$, and $(2,3200)$. Enter those as lists and run the exponential regression $y_1\\sim a b^{x_1}$. Desmos returns $a=200$ and $b=4$, so the graphable model is $$y=200(4)^x$$",
+      "desmosExpressions": [
+        "x_1=[0,1,2]",
+        "y_1=[200,800,3200]",
+        "y_1~a b^{x_1}",
+        "y=200(4)^x"
+      ]
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "Choices A and C put $x$ in the base, so they are power functions, not exponential growth models. Choice B has initial value $4$ and growth factor $200$, which reverses the two numbers. Choice D has initial value $200$ and multiplies by $4$ each time $x$ increases by $1$, so <strong>D</strong> is correct."
+    }
+  ]
+}

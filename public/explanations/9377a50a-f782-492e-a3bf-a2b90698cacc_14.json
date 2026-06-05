@@ -4,15 +4,23 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the roots",
-      "content": "Set each factor of $x(x-13)(x+6)(x-5)^2=0$ to zero: $x=0$, $x=13$, $x=-6$, and $x=5$."
+      "title": "Use the zero product property",
+      "content": "The equation is already factored: $$x(x-13)(x+6)(x-5)^2=0.$$ A product equals $0$ when at least one factor equals $0$."
     },
     {
-      "title": "Identify the greatest solution",
-      "content": "Among $\\{-6, 0, 5, 13\\}$, the greatest is $13$. The answer is <strong>13</strong>.",
+      "title": "List the solutions",
+      "content": "Set each factor equal to $0$: $$x=0, \\quad x=13, \\quad x=-6, \\quad x=5.$$ The squared factor $(x-5)^2$ still gives the solution $x=5$."
+    },
+    {
+      "title": "Choose the greatest solution",
+      "content": "Among $-6$, $0$, $5$, and $13$, the greatest solution is $13$.",
       "desmosExpressions": [
-        "y = x(x-13)(x+6)(x-5)^{2}"
+        "y=x(x-13)(x+6)(x-5)^2"
       ]
+    },
+    {
+      "title": "Confirm on the graph",
+      "content": "The graph crosses or touches the $x$-axis at $x=-6$, $0$, $5$, and $13$. The rightmost intercept is $13$, so the greatest solution is <strong>13</strong>."
     }
   ]
 }

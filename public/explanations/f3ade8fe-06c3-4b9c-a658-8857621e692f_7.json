@@ -1,1 +1,15 @@
-{"questionId": "f3ade8fe-06c3-4b9c-a658-8857621e692f_7", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Substitute the value x = 10", "content": "Replace $x$ with $10$ in $$h(x) = 2(9x - 10).$$ This gives $$h(10) = 2(9(10) - 10).$$"}, {"title": "Compute the result", "content": "Simplify: $$h(10) = 2(90 - 10) = 2(80) = 160.$$ That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "f3ade8fe-06c3-4b9c-a658-8857621e692f_7",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the value x = 10",
+      "content": "Replace $x$ with $10$ in $$h(x) = 2(9x - 10).$$ This gives $$h(10) = 2(9(10) - 10).$$"
+    },
+    {
+      "title": "Compute the result",
+      "content": "Simplify: $$h(10) = 2(90 - 10) = 2(80) = 160.$$ That matches choice <strong>D</strong> — <strong>D</strong> is correct."
+    }
+  ]
+}

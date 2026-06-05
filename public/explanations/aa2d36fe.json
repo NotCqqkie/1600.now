@@ -1,1 +1,19 @@
-{"questionId": "aa2d36fe", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Identify the standard form of a circle equation", "content": "The standard form of a circle equation reveals the center and radius directly. If an equation matches this pattern, the center is at $(h,k)$ and the radius is $r$, with no additional work needed.", "formula": "$$(x-h)^2 + (y-k)^2 = r^2$$"}, {"title": "Match the given equation to the standard form", "content": "The given equation is $$(x-13)^2 + (y-k)^2 = 64$$ Comparing directly: <ul><li>$(x-13)$ means $h = 13$</li><li>$(y-k)$ means the $y$-coordinate is $k$</li><li>$64 = 8^2$, so $r = 8$</li></ul> The center is at $(13, k)$ and the radius is $8$. That matches choice A — <strong>A</strong> is correct.", "desmosExpressions": ["(x-13)^2 + (y-k)^2 = 64"]}]}
+{
+  "questionId": "aa2d36fe",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the standard form of a circle equation",
+      "content": "The standard form of a circle equation reveals the center and radius directly. If an equation matches this pattern, the center is at $(h,k)$ and the radius is $r$, with no additional work needed.",
+      "formula": "$$(x-h)^2 + (y-k)^2 = r^2$$"
+    },
+    {
+      "title": "Match the given equation to the standard form",
+      "content": "The given equation is $$(x-13)^2 + (y-k)^2 = 64$$ Comparing directly: <ul><li>$(x-13)$ means $h = 13$</li><li>$(y-k)$ means the $y$-coordinate is $k$</li><li>$64 = 8^2$, so $r = 8$</li></ul> The center is at $(13, k)$ and the radius is $8$. That matches choice A — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "(x-13)^2 + (y-k)^2 = 64"
+      ]
+    }
+  ]
+}

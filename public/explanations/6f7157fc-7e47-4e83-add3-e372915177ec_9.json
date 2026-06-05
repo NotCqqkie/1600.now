@@ -3,16 +3,16 @@
   "correctAnswer": "A",
   "steps": [
     {
-      "text": "The equation \\(13x + 14y = 423\\) has the form (price)(quantity) + (price)(quantity) = total revenue. The numbers 13 and 14 are dollar prices per shirt; \\(x\\) and \\(y\\) are quantities sold."
+      "text": "The equation $13x + 14y = 423$ has the form (price)(quantity) + (price)(quantity) = total revenue. The numbers 13 and 14 are dollar prices per shirt; $x$ and $y$ are quantities sold."
     },
     {
-      "text": "Since \\(x\\) and \\(y\\) are quantities, the two choices saying \\(y\\) is a price (C and D) are immediately eliminated."
+      "text": "Since $x$ and $y$ are quantities, the two choices saying $y$ is a price (C and D) are immediately eliminated."
     },
     {
-      "text": "The coefficient of \\(y\\) is 14, the higher price. Long-sleeved shirts cost more than short-sleeved shirts, so \\(y\\) = number of long-sleeved shirts sold and \\(x\\) = number of short-sleeved shirts sold."
+      "text": "The coefficient of $y$ is 14, the higher price. Long-sleeved shirts cost more than short-sleeved shirts, so $y$ = number of long-sleeved shirts sold and $x$ = number of short-sleeved shirts sold."
     },
     {
-      "text": "<ul><li><strong>A</strong> &mdash; Number of long-sleeved shirts sold: paired with price \\(\\$14\\), consistent with long-sleeved costing more. That matches choice A &mdash; <strong>A</strong> is correct.</li><li><strong>B</strong> &mdash; Number of short-sleeved shirts sold: short-sleeved would be the cheaper item, corresponding to the \\(\\$13\\) coefficient (the \\(x\\) term), not \\(y\\). Eliminated.</li><li><strong>C</strong> &mdash; Price of each long-sleeved shirt: the variables are quantities, not prices. Eliminated.</li><li><strong>D</strong> &mdash; Price of each short-sleeved shirt: same reason &mdash; variables are quantities. Eliminated.</li></ul>"
+      "text": "<ul><li><strong>A</strong> &mdash; Number of long-sleeved shirts sold: paired with price $\\$14$, consistent with long-sleeved costing more. That matches choice A &mdash; <strong>A</strong> is correct.</li><li><strong>B</strong> &mdash; Number of short-sleeved shirts sold: short-sleeved would be the cheaper item, corresponding to the $\\$13$ coefficient (the $x$ term), not $y$. Eliminated.</li><li><strong>C</strong> &mdash; Price of each long-sleeved shirt: the variables are quantities, not prices. Eliminated.</li><li><strong>D</strong> &mdash; Price of each short-sleeved shirt: same reason &mdash; variables are quantities. Eliminated.</li></ul>"
     }
   ]
 }

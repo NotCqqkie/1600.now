@@ -1,1 +1,15 @@
-{"questionId":"10c690aa-0aad-48ab-952b-855b2555b311_19","correctAnswer":"B","section":"Math","steps":[{"title":"Identify what the question needs","content":"The store starts with 700 customers in January 2018 ($m=0$) and grows 8% per month. An 8% monthly increase means each month&apos;s count is multiplied by $1.08$. The model is $c = 700(1.08)^m$."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; $c = 700(0.08)^m$</strong>: $0.08$ is just the rate, not the growth factor; this decays to zero. &#10007;</li><li><strong>Choice B &mdash; $c = 700(1.08)^m$</strong>: starting value 700, growth factor $1 + 0.08 = 1.08$, exponent $m$ months. &#10003;</li><li><strong>Choice C &mdash; $c = 700 + 1.08m$</strong>: linear, not exponential; a flat 8% increase each month compounds. &#10007;</li><li><strong>Choice D &mdash; $c = 700 + 0.08m$</strong>: linear and uses the raw rate rather than customer counts. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "10c690aa-0aad-48ab-952b-855b2555b311_19",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The store starts with 700 customers in January 2018 ($m=0$) and grows 8% per month. An 8% monthly increase means each month&apos;s count is multiplied by $1.08$. The model is $c = 700(1.08)^m$."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; $c = 700(0.08)^m$</strong>: $0.08$ is just the rate, not the growth factor; this decays to zero. &#10007;</li><li><strong>Choice B &mdash; $c = 700(1.08)^m$</strong>: starting value 700, growth factor $1 + 0.08 = 1.08$, exponent $m$ months. &#10003;</li><li><strong>Choice C &mdash; $c = 700 + 1.08m$</strong>: linear, not exponential; a flat 8% increase each month compounds. &#10007;</li><li><strong>Choice D &mdash; $c = 700 + 0.08m$</strong>: linear and uses the raw rate rather than customer counts. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

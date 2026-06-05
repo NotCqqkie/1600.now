@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Apply the triangle angle sum property",
-      "content": "The sum of all interior angles in a triangle equals 180\u00b0. With \u2220K = 48\u00b0 and \u2220L = 48\u00b0, set up the equation:<br/>$$\u2220J + 48\u00b0 + 48\u00b0 = 180\u00b0$$"
+      "content": "The sum of all interior angles in a triangle equals 180°. With ∠K = 48° and ∠L = 48°, set up the equation:<br/>$$∠J + 48° + 48° = 180°$$"
     },
     {
       "title": "Solve for angle J",
-      "content": "Simplify the left side:<br/>$$\u2220J + 96\u00b0 = 180\u00b0$$<br/>Subtract 96\u00b0 from both sides:<br/>$$\u2220J = 84\u00b0$$<br/>The answer is <strong>84</strong>."
+      "content": "Simplify the left side:<br/>$$∠J + 96° = 180°$$<br/>Subtract 96° from both sides:<br/>$$∠J = 84°$$<br/>The answer is <strong>84</strong>."
     }
   ]
 }

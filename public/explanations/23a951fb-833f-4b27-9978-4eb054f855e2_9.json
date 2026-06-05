@@ -1,1 +1,16 @@
-{"questionId": "23a951fb-833f-4b27-9978-4eb054f855e2_9", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Understand margin of error and sample size", "content": "The margin of error represents the range of uncertainty in an estimate. A smaller margin of error indicates a more precise estimate. For a given population and confidence level, margin of error depends on sample size: larger samples produce smaller margins of error.", "formula": "$$ME = z \\cdot \\frac{s}{\\sqrt{n}}$$"}, {"title": "Apply the relationship to determine which sample was larger", "content": "Sample 1 has a margin of error of 1 minute; Sample 2 has a margin of error of 2.3 minutes.<br/><br/>The problem states both margins were calculated the same way, meaning both use the same confidence level and method.<br/><br/>Since both samples come from the same population (same type of oven), they estimate the same population variability.<br/><br/>Therefore, with the same confidence level and variability, the smaller margin of error in Sample 1 must result from a larger sample size.<br/><br/>The first sample contained more ovens than the second sample.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "23a951fb-833f-4b27-9978-4eb054f855e2_9",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Understand margin of error and sample size",
+      "content": "The margin of error represents the range of uncertainty in an estimate. A smaller margin of error indicates a more precise estimate. For a given population and confidence level, margin of error depends on sample size: larger samples produce smaller margins of error.",
+      "formula": "$$ME = z \\cdot \\frac{s}{\\sqrt{n}}$$"
+    },
+    {
+      "title": "Apply the relationship to determine which sample was larger",
+      "content": "Sample 1 has a margin of error of 1 minute; Sample 2 has a margin of error of 2.3 minutes.<br/><br/>The problem states both margins were calculated the same way, meaning both use the same confidence level and method.<br/><br/>Since both samples come from the same population (same type of oven), they estimate the same population variability.<br/><br/>Therefore, with the same confidence level and variability, the smaller margin of error in Sample 1 must result from a larger sample size.<br/><br/>The first sample contained more ovens than the second sample.<br/><br/>That matches choice A — <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -14,6 +14,10 @@
         "y = \\frac{1.75 - 0.7x}{0.35}",
         "y = \\frac{2.45 - 0.35x}{0.7}"
       ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $3$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $3$."
     }
   ]
 }

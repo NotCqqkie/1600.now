@@ -1,1 +1,19 @@
-{"questionId":"9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_4","section":"Math","correctAnswer":"A","steps":[{"title":"Use slope-intercept form","content":"A linear function has the form $$f(x) = mx + b,$$ where $m$ is the slope and $b$ is the $y$-intercept. The slope is given as $51$, so $m=51$."},{"title":"Find the y-intercept","content":"The graph passes through $(0,0)$, so the $y$-intercept is $b=0$. Substituting: $$f(x) = 51x + 0 = 51x.$$"},{"title":"Evaluate each choice","content":"<ul><li>A) $f(x)=51x$ — slope 51, passes through origin. Matches both conditions.</li><li>B) $f(x)=34x$ — slope is 34, not 51. Eliminated.</li><li>C) $f(x)=17x$ — slope is 17, not 51. Eliminated.</li><li>D) $f(x)=x$ — slope is 1, not 51. Eliminated.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_4",
+  "section": "Math",
+  "correctAnswer": "A",
+  "steps": [
+    {
+      "title": "Use slope-intercept form",
+      "content": "A linear function has the form $$f(x) = mx + b,$$ where $m$ is the slope and $b$ is the $y$-intercept. The slope is given as $51$, so $m=51$."
+    },
+    {
+      "title": "Find the y-intercept",
+      "content": "The graph passes through $(0,0)$, so the $y$-intercept is $b=0$. Substituting: $$f(x) = 51x + 0 = 51x.$$"
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li>A) $f(x)=51x$ — slope 51, passes through origin. Matches both conditions.</li><li>B) $f(x)=34x$ — slope is 34, not 51. Eliminated.</li><li>C) $f(x)=17x$ — slope is 17, not 51. Eliminated.</li><li>D) $f(x)=x$ — slope is 1, not 51. Eliminated.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

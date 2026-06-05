@@ -1,1 +1,19 @@
-{"questionId":"d327ac24-d8f4-466e-a351-90aa6dbe87e3_21","correctAnswer":"D","section":"Math","steps":[{"title":"Recognize the no-solution condition","content":"A system of two linear equations has no solution exactly when the two lines are <strong>parallel</strong> &mdash; they have the same slope but different y-intercepts, so they never intersect."},{"title":"Find the slope of the given equation","content":"The given equation has the form $7x - 27ry = c$ (a constant on the right). Solve for $y$ to put it in slope-intercept form:<br/>$$-27ry = -7x + c$$$$y = \\frac{7}{27r}\\,x - \\frac{c}{27r}$$The slope of the given line is $\\frac{7}{27r}$."},{"title":"Determine the slope of the other equation","content":"For no solution, the other line must be parallel to the given line, so it must share the same slope. The other equation therefore has slope $\\frac{7}{27r}$. That matches choice <strong>D</strong> &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_21",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the no-solution condition",
+      "content": "A system of two linear equations has no solution exactly when the two lines are <strong>parallel</strong> &mdash; they have the same slope but different y-intercepts, so they never intersect."
+    },
+    {
+      "title": "Find the slope of the given equation",
+      "content": "The given equation has the form $7x - 27ry = c$ (a constant on the right). Solve for $y$ to put it in slope-intercept form:<br/>$$-27ry = -7x + c$$$$y = \\frac{7}{27r}\\,x - \\frac{c}{27r}$$The slope of the given line is $\\frac{7}{27r}$."
+    },
+    {
+      "title": "Determine the slope of the other equation",
+      "content": "For no solution, the other line must be parallel to the given line, so it must share the same slope. The other equation therefore has slope $\\frac{7}{27r}$. That matches choice <strong>D</strong> &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

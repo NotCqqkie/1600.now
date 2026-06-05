@@ -1,1 +1,25 @@
-{"questionId": "1073d70c", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Translate the percent increase to a growth factor", "content": "An increase of $190\\%$ each hour means the new count equals the old count plus $1.90$ times the old count: $$\\text{new}=\\text{old}+1.90\\cdot\\text{old}=2.90\\cdot\\text{old}.$$ The hourly growth factor is $2.9$."}, {"title": "Build the exponential model", "content": "Exponential growth has the form $C=C_0\\cdot r^{t}$. With initial value $C_0=40$ and growth factor $r=2.9$: $$C=40(2.9)^{t}.$$"}, {"title": "Evaluate each choice", "content": "<ul><li>A) $C=40(1.19)^{t}$ &mdash; corresponds to a $19\\%$ hourly increase. Eliminated.</li><li>B) $C=40(1.9)^{t}$ &mdash; corresponds to a $90\\%$ increase per hour (forgets to add $1$). Eliminated.</li><li>C) $C=40(19)^{t}$ &mdash; corresponds to a $1800\\%$ increase per hour. Eliminated.</li><li>D) $C=40(2.9)^{t}$ &mdash; matches the $190\\%$ hourly increase.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "1073d70c",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the percent increase to a growth factor",
+      "content": "Use a quick exponential regression. The initial count is $40$, and a $190\\%$ increase means after one hour the count is $40+1.90(40)=116$. Enter $x_1=[0,1]$, $y_1=[40,116]$, and $y_1\\sim a b^{x_1}$ in Desmos.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[40,116]",
+        "y_1~a b^{x_1}",
+        "y=a b^x"
+      ]
+    },
+    {
+      "title": "Build the exponential model",
+      "content": "Desmos gives $a=40$ and $b=2.9$, so the model is $C=40(2.9)^t$. That means choice D has the correct initial value and the correct hourly growth factor."
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li>A) $C=40(1.19)^{t}$ &mdash; corresponds to a $19\\%$ hourly increase. Eliminated.</li><li>B) $C=40(1.9)^{t}$ &mdash; corresponds to a $90\\%$ increase per hour (forgets to add $1$). Eliminated.</li><li>C) $C=40(19)^{t}$ &mdash; corresponds to a $1800\\%$ increase per hour. Eliminated.</li><li>D) $C=40(2.9)^{t}$ &mdash; matches the $190\\%$ hourly increase.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

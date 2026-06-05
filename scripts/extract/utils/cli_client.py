@@ -2,27 +2,24 @@ from __future__ import annotations
 import json
 import os
 import signal
+import shlex
 import subprocess
 import time
 from pathlib import Path
 
 
 class ContentFilterBlocked(Exception):
-    """Raised when Anthropic's content moderation blocks the response.
-    Caller should retry with a smaller / different input rather than retrying as-is."""
+    pass
 
 
-class ClaudeCLIClient:
-    """Client that uses the local `claude` CLI (subscription-based) instead of API keys.
-
-    Each call spawns `claude -p` with --output-format json. Image inputs are passed by
-    embedding their absolute paths in the prompt and adding the parent dir via --add-dir,
-    so claude reads them via its Read tool.
-    """
-
-    def __init__(self, model: str = "sonnet", rpm: int = 30, allow_dirs: list[str] | None = None,
+class RateLimitedClient:
+    def __init__(self, model: str = "default", rpm: int = 30, allow_dirs: list[str] | None = None,
                  timeout_seconds: int = 300, max_consecutive_failures_before_pause: int = 3):
         self.model = model
+        self.command = os.environ.get("EXTRACTION_CLI", "model-cli")
+        self.command_args = shlex.split(os.environ.get("EXTRACTION_CLI_ARGS", "-p --output-format json"))
+        self.model_arg = os.environ.get("EXTRACTION_CLI_MODEL_ARG", "--model")
+        self.allow_dir_arg = os.environ.get("EXTRACTION_CLI_ALLOW_DIR_ARG", "--add-dir")
         self.min_interval = 60.0 / rpm
         self.last_call = 0.0
         self.allow_dirs = list(allow_dirs or [])
@@ -47,34 +44,28 @@ class ClaudeCLIClient:
 
     def call_with_images(self, system: str, text: str, image_paths: list[str],
                          max_tokens: int = 8192, retries: int = 3) -> str:
-        # Resolve image paths
         abs_paths = [str(Path(p).resolve()) for p in image_paths]
-        # Auto-add parent dirs to allow list
         for p in abs_paths:
             self.add_allow_dir(str(Path(p).parent))
 
-        # Build prompt with embedded image paths
         path_block = "\n".join(f"- {p}" for p in abs_paths)
         full_prompt = (
             f"{system}\n\n"
-            f"Read the following image file(s) using the Read tool, then respond:\n"
+            f"Read the following image file(s), then respond:\n"
             f"{path_block}\n\n"
             f"After reading the image(s), answer this:\n\n{text}\n\n"
             f"Return ONLY the requested JSON. No prose, no markdown fences, no explanation."
         )
 
-        cmd = [
-            "claude", "-p",
-            "--model", self.model,
-            "--output-format", "json",
-            "--permission-mode", "bypassPermissions",
-        ]
+        cmd = [self.command, *self.command_args]
+        if self.model and self.model != "default":
+            cmd.extend([self.model_arg, self.model])
         for d in self.allow_dirs:
-            cmd.extend(["--add-dir", d])
+            if self.allow_dir_arg:
+                cmd.extend([self.allow_dir_arg, d])
 
         for attempt in range(retries):
             self._wait_for_rate_limit()
-            # Adaptive backoff: when the CLI is degrading, give it more breathing room.
             if self.consecutive_failures >= self.max_consecutive_failures_before_pause:
                 cooldown = min(60, 10 * (self.consecutive_failures - self.max_consecutive_failures_before_pause + 1))
                 print(f"    [cooldown {cooldown}s after {self.consecutive_failures} consecutive failures]")
@@ -85,8 +76,6 @@ class ClaudeCLIClient:
                 )
                 self.last_call = time.time()
 
-                # Try to parse stdout as JSON regardless of rc — claude CLI sometimes
-                # returns rc=1 with the actual error message in stdout JSON.
                 parsed = None
                 try:
                     parsed = json.loads(result.stdout)
@@ -100,22 +89,21 @@ class ClaudeCLIClient:
                         print(f"    CLI error, retrying in {wait}s: {err}")
                         time.sleep(wait)
                         continue
-                    raise RuntimeError(f"claude CLI failed: {err}")
+                    raise RuntimeError(f"model CLI failed: {err}")
 
                 if parsed.get("is_error") or result.returncode != 0:
                     err_msg = parsed.get("result", "") or result.stderr[:500]
-                    # Detect content-filter false positives — these won't succeed on retry
                     if "content filtering" in err_msg.lower() or "blocked by" in err_msg.lower():
                         raise ContentFilterBlocked(err_msg)
                     if attempt < retries - 1:
                         wait = 5 * (2 ** attempt)
-                        print(f"    Claude error, retrying in {wait}s: {err_msg[:200]}")
+                        print(f"    CLI error, retrying in {wait}s: {err_msg[:200]}")
                         time.sleep(wait)
                         continue
-                    raise RuntimeError(f"claude returned error: {err_msg[:300]}")
+                    raise RuntimeError(f"model CLI returned error: {err_msg[:300]}")
 
                 self.call_count += 1
-                self.consecutive_failures = 0  # success — reset failure counter
+                self.consecutive_failures = 0
                 self.total_cost_usd += parsed.get("total_cost_usd", 0)
                 usage = parsed.get("usage", {})
                 self.total_input_tokens += usage.get("input_tokens", 0)
@@ -132,7 +120,6 @@ class ClaudeCLIClient:
                     continue
                 raise
             except ContentFilterBlocked:
-                # Don't count as a CLI degradation signal — re-raise so caller can fall back
                 raise
             except Exception:
                 self.consecutive_failures += 1
@@ -152,19 +139,13 @@ class ClaudeCLIClient:
 
 
 def _run_with_proc_group_kill(cmd: list[str], stdin_text: str, timeout: int):
-    """Run subprocess in its own process group; on timeout, kill the entire tree.
-
-    `claude -p` spawns Node child processes that survive a parent SIGTERM. Without this,
-    a hung claude run leaks processes that pile up across calls until macOS gets unhappy.
-    Putting the child in a new session and signalling the whole group fixes that.
-    """
     proc = subprocess.Popen(
         cmd,
         stdin=subprocess.PIPE,
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
         text=True,
-        start_new_session=True,  # claude becomes its own process group leader
+        start_new_session=True,
     )
     try:
         stdout, stderr = proc.communicate(input=stdin_text, timeout=timeout)

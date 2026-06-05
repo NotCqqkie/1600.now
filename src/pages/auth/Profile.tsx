@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { AlertCircle, ChevronRight, LogOut, Settings, Type } from "lucide-react";
+import { AlertCircle, ArrowRight, ChevronRight, LogOut, Settings, Type, User } from "lucide-react";
 
 import { useAuth } from "@/contexts/AuthContext";
 import { useThemeMode } from "@/hooks/useThemeMode";
@@ -55,29 +55,77 @@ const Profile = () => {
             Settings
           </h1>
 
-          <div className="flex items-center gap-3">
-            {user?.email && (
-              <span className="hidden text-sm sm:block" style={{ color: mutedColor }}>{user.email}</span>
-            )}
-            <Button
-              variant="outline"
-              size="sm"
-              onClick={handleSignOut}
-              className="text-red-600 hover:bg-red-50 hover:text-red-700 cursor-pointer"
-            >
-              <LogOut className="mr-2 h-4 w-4" />
-              Sign Out
-            </Button>
-          </div>
+          {user ? (
+            <div className="flex items-center gap-3">
+              {user.email && (
+                <span className="hidden text-sm sm:block" style={{ color: mutedColor }}>{user.email}</span>
+              )}
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={handleSignOut}
+                className="text-red-600 hover:bg-red-50 hover:text-red-700 cursor-pointer"
+              >
+                <LogOut className="mr-2 h-4 w-4" />
+                Sign Out
+              </Button>
+            </div>
+          ) : null}
         </div>
 
-        <SettingsView
-          user={user}
-          handleResetProgress={resetProgress}
-          isDarkMode={isDarkMode}
-          onOpenPersonalization={() => navigate("/profile/personalization")}
-        />
+        {user ? (
+          <SettingsView
+            user={user}
+            handleResetProgress={resetProgress}
+            isDarkMode={isDarkMode}
+            onOpenPersonalization={() => navigate("/profile/personalization")}
+          />
+        ) : (
+          <SettingsSignInPrompt mutedColor={mutedColor} />
+        )}
       </div>
+    </div>
+  );
+};
+
+const SettingsSignInPrompt = ({ mutedColor }: { mutedColor: string }) => {
+  const navigate = useNavigate();
+
+  return (
+    <div style={{ textAlign: "center", padding: "72px 0" }}>
+      <User
+        size={48}
+        style={{
+          margin: "0 auto 20px",
+          display: "block",
+          opacity: 0.2,
+          color: "hsl(var(--foreground))",
+        }}
+      />
+      <p
+        style={{
+          fontSize: 20,
+          fontFamily: "'Geist', serif",
+          fontWeight: 400,
+          color: "hsl(var(--foreground))",
+          marginBottom: 10,
+        }}
+      >
+        Sign in to manage settings
+      </p>
+      <p
+        style={{
+          fontSize: 14,
+          color: mutedColor,
+          marginBottom: 32,
+        }}
+      >
+        Your preferences are saved to your account across all devices.
+      </p>
+      <Button onClick={() => navigate("/login")} className="gap-2">
+        Sign in
+        <ArrowRight size={14} />
+      </Button>
     </div>
   );
 };

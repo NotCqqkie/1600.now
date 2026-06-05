@@ -1,1 +1,19 @@
-{"questionId":"0536ad4f","correctAnswer":"B","section":"Math","steps":[{"title":"Simplify inside the parentheses","content":"Combine the like terms inside the parentheses first:$$4w+3w=7w$$So the expression becomes $20w-7w$."},{"title":"Subtract the like terms","content":"Subtract:$$20w-7w=13w$$"},{"title":"Compare with each choice","content":"<ul><li><strong>A) $10w$:</strong> would require $20w-10w$, but we have $20w-7w$. Eliminated.</li><li><strong>B) $13w$:</strong> equals $20w-7w$. Matches.</li><li><strong>C) $19w$:</strong> would require subtracting only $w$, not $7w$. Eliminated.</li><li><strong>D) $21w$:</strong> larger than $20w$, but subtraction makes the value smaller. Eliminated.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "0536ad4f",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify inside the parentheses",
+      "content": "Combine the like terms inside the parentheses first:$$4w+3w=7w$$So the expression becomes $20w-7w$."
+    },
+    {
+      "title": "Subtract the like terms",
+      "content": "Subtract:$$20w-7w=13w$$"
+    },
+    {
+      "title": "Compare with each choice",
+      "content": "<ul><li><strong>A) $10w$:</strong> would require $20w-10w$, but we have $20w-7w$. Eliminated.</li><li><strong>B) $13w$:</strong> equals $20w-7w$. Matches.</li><li><strong>C) $19w$:</strong> would require subtracting only $w$, not $7w$. Eliminated.</li><li><strong>D) $21w$:</strong> larger than $20w$, but subtraction makes the value smaller. Eliminated.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

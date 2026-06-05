@@ -11,7 +11,10 @@
     {
       "title": "Read off h from the center",
       "content": "We're given that the center is at $(5, 1)$. In the standard form, the center is $(h, k)$, so the $x$-coordinate of the center is $h = 5$. That's our answer.",
-      "desmosExpressions": ["(x-5)^2 + (y-1)^2 = 49", "(5, 1)"]
+      "desmosExpressions": [
+        "(x-5)^2 + (y-1)^2 = 49",
+        "(5, 1)"
+      ]
     }
   ]
 }

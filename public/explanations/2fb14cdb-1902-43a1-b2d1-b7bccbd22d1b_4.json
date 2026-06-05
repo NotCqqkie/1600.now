@@ -1,1 +1,19 @@
-{"questionId": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_4", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Set the two ratios equal", "content": "$\\frac{6}{3} = \\frac{24}{3k}$.<br/>Simplify the left side: $\\frac{6}{3} = 2$, so $2 = \\frac{24}{3k}$."}, {"title": "Solve for $k$", "content": "Multiply both sides by $3k$: $2 \\cdot 3k = 24$, giving $6k = 24$, so $k = 4$."}, {"title": "Check the answer choices", "content": "<ul><li>A. $0.75$ &mdash; gives $3k = 2.25$, ratio $24/2.25 \\approx 10.7 \\neq 2$; eliminated.</li><li>B. $4$ &mdash; gives $3k = 12$, ratio $24/12 = 2$; matches.</li><li>C. $12$ &mdash; gives $3k = 36$, ratio $24/36 \\approx 0.67 \\neq 2$; eliminated.</li><li>D. $72$ &mdash; gives $3k = 216$, ratio $24/216 \\approx 0.11 \\neq 2$; eliminated.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_4",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the two ratios equal",
+      "content": "$\\frac{6}{3} = \\frac{24}{3k}$.<br/>Simplify the left side: $\\frac{6}{3} = 2$, so $2 = \\frac{24}{3k}$."
+    },
+    {
+      "title": "Solve for $k$",
+      "content": "Multiply both sides by $3k$: $2 \\cdot 3k = 24$, giving $6k = 24$, so $k = 4$."
+    },
+    {
+      "title": "Check the answer choices",
+      "content": "<ul><li>A. $0.75$ &mdash; gives $3k = 2.25$, ratio $24/2.25 \\approx 10.7 \\neq 2$; eliminated.</li><li>B. $4$ &mdash; gives $3k = 12$, ratio $24/12 = 2$; matches.</li><li>C. $12$ &mdash; gives $3k = 36$, ratio $24/36 \\approx 0.67 \\neq 2$; eliminated.</li><li>D. $72$ &mdash; gives $3k = 216$, ratio $24/216 \\approx 0.11 \\neq 2$; eliminated.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

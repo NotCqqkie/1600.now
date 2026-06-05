@@ -58,11 +58,20 @@ const primaryItems: SidebarItem[] = [
   { label: "Score Calculator", href: "/score-calculator", icon: Calculator, match: (pathname: string) => pathname.startsWith("/score-calculator"), tourId: "nav-calc" },
   { label: "Vocabulary", href: "/vocab", icon: SpellCheck, match: (pathname: string) => pathname.startsWith("/vocab"), tourId: "nav-vocab" },
   { label: "My Practice Sets", href: "/my-practice-sets", icon: BookOpenCheck, match: (pathname: string) => pathname.startsWith("/my-practice-sets") },
+  { label: "Test Results", href: "/test-results", icon: ClipboardList, match: (pathname: string) => pathname.startsWith("/test-results"), tourId: "nav-test-results" },
 ];
+
+const mobileItems = primaryItems.slice(0, 5);
+const mobileLabelByHref: Record<string, string> = {
+  "/bank": "Bank",
+  "/hard": "Hard",
+  "/modules": "Tests",
+  "/score-calculator": "Score",
+  "/vocab": "Vocab",
+};
 
 const secondaryItems: SidebarItem[] = [
   { label: "Settings", href: "/profile", icon: Settings, match: (pathname: string) => pathname.startsWith("/profile"), tourId: "nav-settings" },
-  { label: "Test Results", href: "/test-results", icon: ClipboardList, match: (pathname: string) => pathname.startsWith("/test-results"), tourId: "nav-test-results" },
   { label: "Statistics", href: "/analysis", icon: BarChart3, match: (pathname: string) => pathname.startsWith("/analysis"), tourId: "nav-stats" },
 ];
 
@@ -419,6 +428,31 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
           isSidebarHidden ? COLLAPSED_DESKTOP_PADDING_CLASS : "lg:pl-64",
         )}
       >
+        <nav
+          aria-label="Primary mobile navigation"
+          className="mx-auto mb-2 grid max-w-2xl grid-cols-5 gap-1 px-3 lg:hidden"
+        >
+          {mobileItems.map((item) => {
+            const active = item.match(location.pathname);
+            const Icon = item.icon;
+            const mobileLabel = mobileLabelByHref[item.href] ?? item.label;
+
+            return (
+              <Link
+                key={item.label}
+                to={item.href}
+                aria-label={item.label}
+                className={cn(
+                  "flex min-w-0 flex-col items-center justify-center gap-1 rounded-xl border border-border/60 bg-card/80 px-1 py-2 text-[11px] font-medium shadow-sm transition-colors",
+                  active ? "border-primary/40 bg-ds-accent text-ink-fixed" : "text-ink-muted hover:text-ink",
+                )}
+                >
+                  <Icon className="h-4 w-4 shrink-0" />
+                <span className="w-full truncate text-center leading-none">{mobileLabel}</span>
+              </Link>
+            );
+          })}
+        </nav>
         {children}
       </div>
     </div>

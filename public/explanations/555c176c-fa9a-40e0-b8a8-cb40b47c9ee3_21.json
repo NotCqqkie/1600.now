@@ -1,1 +1,27 @@
-{"questionId": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_21", "correctAnswer": "750", "section": "Math", "steps": [{"title": "Use the ratio of the two conditions to find the exponential base", "content": "Divide the two given equations to eliminate $a$:<br/>$$\\frac{f(5)}{f(3)} = \\frac{ab^{\\frac{5}{n}}}{ab^{\\frac{3}{n}}} = b^{\\frac{5}{n} - \\frac{3}{n}} = b^{\\frac{2}{n}}$$<br/>Substituting the values:<br/>$$b^{\\frac{2}{n}} = \\frac{150}{6} = 25$$"}, {"title": "Identify integer values for b and n", "content": "We need $b^{\\frac{2}{n}} = 25$ where $b$ and $n$ are integers. Since $25 = 5^2$, we can write:<br/>$$b^{\\frac{2}{n}} = 5^2$$<br/>The simplest solution is $b = 5$ and $n = 1$. We can verify: $5^{\\frac{2}{1}} = 5^2 = 25$ ✓"}, {"title": "Use the ratio pattern to find f(6)", "content": "Now that we know $b = 5$ and $n = 1$, the function is $f(x) = a \\cdot 5^x$. When $x$ increases by 1, the function is multiplied by $5^{\\frac{1}{1}} = 5$.<br/><br/>From $x = 5$ to $x = 6$ (an increase of 1):<br/>$$f(6) = f(5) \\cdot 5^1 = 150 \\cdot 5 = 750$$"}]}
+{
+  "questionId": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_21",
+  "correctAnswer": "750",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Treat the model as ordinary exponential growth",
+      "content": "Since $f(x)=ab^{x/n}$, let $k=b^{1/n}$. Then the model is $f(x)=ak^x$, where $k$ is the multiplier for each 1-unit increase in $x$. This avoids guessing separate values of $b$ and $n$."
+    },
+    {
+      "title": "Find the 1-unit multiplier",
+      "content": "Use the two given values as a ratio:<br/>$$\\frac{f(5)}{f(3)}=\\frac{150}{6}=25$$<br/>The input increased by $2$, so $k^2=25$. Because the function values are positive, $k=5$. In Desmos, put the two known points in lists and run an exponential regression; it gives the same multiplier.",
+      "desmosExpressions": [
+        "x_1=[3,5]",
+        "y_1=[6,150]",
+        "y_1~a k^{x_1}"
+      ]
+    },
+    {
+      "title": "Move one step from x = 5 to x = 6",
+      "content": "From $x=5$ to $x=6$ is one 1-unit increase, so multiply by $k=5$:<br/>$$f(6)=150\\cdot 5=750$$<br/>The Desmos regression also lets you evaluate the model at $x=6$. The answer is <strong>750</strong>.",
+      "desmosExpressions": [
+        "a k^6"
+      ]
+    }
+  ]
+}

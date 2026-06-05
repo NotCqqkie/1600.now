@@ -1,1 +1,19 @@
-{"questionId":"bd71c8f3-94e3-411f-929a-013a2ca9a277_12","correctAnswer":"D","section":"Math","steps":[{"title":"Evaluate each function at x = 3","content":"Substitute $x=3$: $f(3)=3+3=6$ and $g(3)=3(3)=9$."},{"title":"Combine and compute","content":"$6f(3)-g(3)=6(6)-9=36-9=27$.<br/><br/>The answer is <strong>D</strong>."}]}
+{
+  "questionId": "bd71c8f3-94e3-411f-929a-013a2ca9a277_12",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Evaluate each function at x = 3",
+      "content": "Substitute $x=3$: $f(3)=3+3=6$ and $g(3)=3(3)=9$."
+    },
+    {
+      "title": "Combine and compute",
+      "content": "$6f(3)-g(3)=6(6)-9=36-9=27$.<br/><br/>The answer is <strong>D</strong>."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice D, $27$. The other choices do not satisfy the same condition from the question, so <strong>D</strong> is correct."
+    }
+  ]
+}

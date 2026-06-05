@@ -1,1 +1,27 @@
-{"questionId": "05468350-9fef-44ab-b9cb-893b50a7cadd_3", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Solve the linear equation for x", "content": "From $x + 5 = 14$, subtract 5 from both sides: $$x = 14 - 5 = 9$$"}, {"title": "Substitute x = 9 into the quadratic equation", "content": "Plug $x = 9$ into $y = 3x^2 + 3$: $$y = 3(9)^2 + 3 = 3(81) + 3 = 243 + 3 = 246$$ The intersection point is $(9, 246)$. That matches choice C — <strong>C</strong> is correct.", "desmosExpressions": ["x = 9", "y = 3x^2 + 3"]}]}
+{
+  "questionId": "05468350-9fef-44ab-b9cb-893b50a7cadd_3",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve the linear equation for x",
+      "content": "Use Desmos first: graph the vertical line $x+5=14$ and the parabola $y=3x^2+3$, then plot the answer choices. The intersection is the point where the vertical line crosses the parabola, which is $(9,246)$.",
+      "desmosExpressions": [
+        "x+5=14",
+        "y=3x^2+3",
+        "(9,243)",
+        "(14,591)",
+        "(9,246)",
+        "(14,3)"
+      ]
+    },
+    {
+      "title": "Substitute x = 9 into the quadratic equation",
+      "content": "Plug $x = 9$ into $y = 3x^2 + 3$: $$y = 3(9)^2 + 3 = 3(81) + 3 = 243 + 3 = 246$$ The intersection point is $(9, 246)$. That matches choice C — <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "x = 9",
+        "y = 3x^2 + 3"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,22 @@
-{"questionId":"39729166-8e92-42cc-8ed6-76acdb673a3c_22","correctAnswer":"199/2,99.5","section":"Math","steps":[{"title":"Set up","content":"Two chords AC and BE intersect at D inside the circle. The intersecting chords theorem gives $AD \\cdot DC = BD \\cdot DE$. Since $BD = DE = \\sqrt{398}$, the right side is $\\sqrt{398} \\cdot \\sqrt{398} = 398$, so $AD \\cdot DC = 398$.<br/><br/>Because $BD = DE$, point D is the midpoint of chord BE. The perpendicular from the center to a chord bisects it, so AC &mdash; which is perpendicular to BE at D &mdash; passes through the center, making AC a diameter: $AD + DC = 201$."},{"title":"Solve","content":"Let $AD = t$, so $DC = 201 - t$. Then:<br/>$$t(201 - t) = 398 \\implies t^2 - 201t + 398 = 0$$<br/>$$t = \\frac{201 \\pm \\sqrt{40401 - 1592}}{2} = \\frac{201 \\pm \\sqrt{38809}}{2} = \\frac{201 \\pm 197}{2}$$<br/>So $t = 199$ or $t = 2$.<br/><br/>Since $AB < BC$, point B is closer to A, meaning D is closer to A: $AD = 2$, $DC = 199$.<br/>$$r = \\frac{DC}{AD} = \\frac{199}{2}$$"},{"title":"Answer","content":"<strong>199/2</strong> (equivalently 99.5) is correct.","desmosExpressions":["x^2 + y^2 = (201/2)^2"]}]}
+{
+  "questionId": "39729166-8e92-42cc-8ed6-76acdb673a3c_22",
+  "correctAnswer": "199/2,99.5",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "Two chords AC and BE intersect at D inside the circle. The intersecting chords theorem gives $AD \\cdot DC = BD \\cdot DE$. Since $BD = DE = \\sqrt{398}$, the right side is $\\sqrt{398} \\cdot \\sqrt{398} = 398$, so $AD \\cdot DC = 398$.<br/><br/>Because $BD = DE$, point D is the midpoint of chord BE. The perpendicular from the center to a chord bisects it, so AC &mdash; which is perpendicular to BE at D &mdash; passes through the center, making AC a diameter: $AD + DC = 201$."
+    },
+    {
+      "title": "Solve",
+      "content": "Let $AD = t$, so $DC = 201 - t$. Then:<br/>$$t(201 - t) = 398 \\implies t^2 - 201t + 398 = 0$$<br/>$$t = \\frac{201 \\pm \\sqrt{40401 - 1592}}{2} = \\frac{201 \\pm \\sqrt{38809}}{2} = \\frac{201 \\pm 197}{2}$$<br/>So $t = 199$ or $t = 2$.<br/><br/>Since $AB < BC$, point B is closer to A, meaning D is closer to A: $AD = 2$, $DC = 199$.<br/>$$r = \\frac{DC}{AD} = \\frac{199}{2}$$"
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>199/2</strong> (equivalently 99.5) is correct.",
+      "desmosExpressions": [
+        "x^2 + y^2 = (201/2)^2"
+      ]
+    }
+  ]
+}

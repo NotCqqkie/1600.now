@@ -1,1 +1,23 @@
-{"questionId": "6acacde7-ed77-4956-a395-7f7392d6ba20_19", "correctAnswer": "0.18,9/50", "section": "Math", "steps": [{"title": "Substitute the exponential function into the constraint", "content": "Express $f(n-1) = ab^{n-1}$ and $f(n) = ab^n$. Substitute both into the given equation:<br/>$$ab^{n-1} = ab^n + \\frac{82}{100}ab^{n-1}$$"}, {"title": "Collect terms with f(n-1) and factor", "content": "Move the $\\frac{82}{100}ab^{n-1}$ term to the left side:<br/>$$ab^{n-1} - \\frac{82}{100}ab^{n-1} = ab^n$$<br/>Factor the left side:<br/>$$ab^{n-1}\\left(1 - \\frac{82}{100}\\right) = ab^n$$<br/>$$ab^{n-1} \\cdot \\frac{18}{100} = ab^n$$"}, {"title": "Divide by $ab^{n-1}$ to solve for $b$", "content": "Divide both sides by $ab^{n-1}$ (non-zero since $a, b > 0$):<br/>$$\\frac{18}{100} = b$$<br/>Simplify the fraction:<br/>$$b = \\frac{18}{100} = \\frac{9}{50} = 0.18$$<br/>The answer is <strong>0.18,9/50</strong>."}]}
+{
+  "questionId": "6acacde7-ed77-4956-a395-7f7392d6ba20_19",
+  "correctAnswer": "0.18,9/50",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the one-step ratio",
+      "content": "For $f(x)=ab^x$, moving from $x=n-1$ to $x=n$ multiplies the output by $b$. In other words, $f(n)=b\\cdot f(n-1)$."
+    },
+    {
+      "title": "Rewrite the given equation as a percent left over",
+      "content": "The equation says<br/>$$f(n-1)=f(n)+\\frac{82}{100}f(n-1)$$<br/>Subtract the $82\\%$ part from both sides:<br/>$$f(n)=\\left(1-\\frac{82}{100}\\right)f(n-1)=\\frac{18}{100}f(n-1)$$"
+    },
+    {
+      "title": "Match that ratio to b",
+      "content": "Because $f(n)=b\\cdot f(n-1)$, the multiplier from $n-1$ to $n$ is exactly $b$. Therefore<br/>$$b=\\frac{18}{100}=\\frac{9}{50}=0.18$$<br/>A quick Desmos check is just evaluating the percent left after subtracting $82\\%$. The answer is <strong>0.18</strong> or <strong>9/50</strong>.",
+      "desmosExpressions": [
+        "1-82/100",
+        "9/50"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,23 @@
-{"questionId":"e53688cb","correctAnswer":"18","section":"Math","steps":[{"title":"Solve the system by substitution","content":"Substitute $3y=11$ into $x+3y=29$: $$x + 11 = 29 \\Rightarrow x = 18.$$"},{"title":"Find $x$","content":"So $x=18$. The answer is <strong>18</strong>.","desmosExpressions":["y = (29 - x)/3","y = 11/3"]}]}
+{
+  "questionId": "e53688cb",
+  "correctAnswer": "18",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve the system by substitution",
+      "content": "Substitute $3y=11$ into $x+3y=29$: $$x + 11 = 29 \\Rightarrow x = 18.$$"
+    },
+    {
+      "title": "Find $x$",
+      "content": "So $x=18$. The answer is <strong>18</strong>.",
+      "desmosExpressions": [
+        "y = (29 - x)/3",
+        "y = 11/3"
+      ]
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $18$. It's given by the second equation in the system that $3y=11$. Substituting $11$ for $3y$ in the first equation in the system, $x+3y=29$, yields $x+11=29$. Subtracting $11$ from both sides of this equation yields $x=18$."
+    }
+  ]
+}

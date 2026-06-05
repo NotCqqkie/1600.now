@@ -1,1 +1,15 @@
-{"questionId": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_8", "correctAnswer": "450", "section": "Math", "steps": [{"title": "Set up the equation", "content": "The mixture equation is $$0.10x + 0.20y = 0.19(x+y)$$<br/><br/>Substitute the given value $x = 50$:<br/>$$0.10(50) + 0.20y = 0.19(50 + y)$$<br/>$$5 + 0.20y = 9.5 + 0.19y$$"}, {"title": "Solve for y", "content": "Subtract $0.19y$ from both sides:<br/>$$5 + 0.01y = 9.5$$<br/><br/>Subtract 5 from both sides:<br/>$$0.01y = 4.5$$<br/><br/>Divide by $0.01$:<br/>$$y = 450$$<br/><br/>The answer is <strong>450</strong>."}]}
+{
+  "questionId": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_8",
+  "correctAnswer": "450",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the equation",
+      "content": "The mixture equation is $$0.10x + 0.20y = 0.19(x+y)$$<br/><br/>Substitute the given value $x = 50$:<br/>$$0.10(50) + 0.20y = 0.19(50 + y)$$<br/>$$5 + 0.20y = 9.5 + 0.19y$$"
+    },
+    {
+      "title": "Solve for y",
+      "content": "Subtract $0.19y$ from both sides:<br/>$$5 + 0.01y = 9.5$$<br/><br/>Subtract 5 from both sides:<br/>$$0.01y = 4.5$$<br/><br/>Divide by $0.01$:<br/>$$y = 450$$<br/><br/>The answer is <strong>450</strong>."
+    }
+  ]
+}

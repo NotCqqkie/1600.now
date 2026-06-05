@@ -1,1 +1,9 @@
-{"qid": "9628151f-9763-4abc-8c66-9dc08f82f715_2", "correctAnswer": "D", "steps": ["The cruising speed varies <strong>between 175 mph and 195 mph</strong>. &quot;Varies between&quot; means the speed is at least the lower value and at most the upper value: \\(s \\geq 175\\) and \\(s \\leq 195\\).", "Combine both conditions into a single compound inequality: $$175 \\leq s \\leq 195$$", "Evaluate each choice:<ul><li>A: \\(s \\leq 20\\) — Imposes a cap of 20 mph with no lower bound; unrelated to the given range. Eliminated.</li><li>B: \\(s \\leq 175\\) — Only an upper bound of 175 mph; ignores the upper limit of 195 mph and allows values below 175. Eliminated.</li><li>C: \\(s \\leq 195\\) — Only an upper bound of 195 mph; ignores the lower limit of 175 mph. Eliminated.</li><li>D: \\(175 \\leq s \\leq 195\\) — Requires \\(s\\) to be at least 175 and at most 195, matching both bounds exactly. That matches choice D — <strong>D</strong> is correct.</li></ul>"]}
+{
+  "qid": "9628151f-9763-4abc-8c66-9dc08f82f715_2",
+  "correctAnswer": "D",
+  "steps": [
+    "The cruising speed varies <strong>between 175 mph and 195 mph</strong>. &quot;Varies between&quot; means the speed is at least the lower value and at most the upper value: $s \\geq 175$ and $s \\leq 195$.",
+    "Combine both conditions into a single compound inequality: $$175 \\leq s \\leq 195$$",
+    "Evaluate each choice:<ul><li>A: $s \\leq 20$ — Imposes a cap of 20 mph with no lower bound; unrelated to the given range. Eliminated.</li><li>B: $s \\leq 175$ — Only an upper bound of 175 mph; ignores the upper limit of 195 mph and allows values below 175. Eliminated.</li><li>C: $s \\leq 195$ — Only an upper bound of 195 mph; ignores the lower limit of 175 mph. Eliminated.</li><li>D: $175 \\leq s \\leq 195$ — Requires $s$ to be at least 175 and at most 195, matching both bounds exactly. That matches choice D — <strong>D</strong> is correct.</li></ul>"
+  ]
+}

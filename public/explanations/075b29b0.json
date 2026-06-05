@@ -1,1 +1,31 @@
-{"questionId":"075b29b0","correctAnswer":"D","section":"Math","steps":[{"title":"Distribute and combine like terms","content":"Drop the parentheses and combine like terms:$$=9x^3+5x+7+6x^3+5x^2-5$$$$=15x^3+5x^2+5x+2$$"},{"title":"Match to the answer choices","content":"The simplified expression is $15x^3+5x^2+5x+2$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "075b29b0",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute and combine like terms",
+      "content": "Drop the parentheses and combine like terms:$$=9x^3+5x+7+6x^3+5x^2-5$$$$=15x^3+5x^2+5x+2$$"
+    },
+    {
+      "title": "Match to the answer choices",
+      "content": "The simplified expression is $15x^3+5x^2+5x+2$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice D is correct. The given expression can be rewritten as $\\left(9{x}^{3}+6{x}^{3}\\right)+5{x}^{2}+5x+\\left(7-5\\right)$. Combining like terms in this expression yields $15{x}^{3}+5{x}^{2}+5x+2$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A is incorrect and may result from conceptual or calculation errors."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice B is incorrect and may result from conceptual or calculation errors."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice C is incorrect and may result from conceptual or calculation errors."
+    }
+  ]
+}

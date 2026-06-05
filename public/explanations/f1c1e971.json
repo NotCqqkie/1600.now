@@ -9,8 +9,12 @@
     },
     {
       "title": "Convert from radians to degrees",
-      "content": "Multiply by the conversion factor $\\frac{180\u00b0}{\\pi}$:<br/>$$T = \\frac{13\\pi}{12} \\cdot \\frac{180\u00b0}{\\pi} = \\frac{13 \\cdot 180\u00b0}{12} = 13 \\cdot 15\u00b0 = 195\u00b0$$That matches choice C \u2014 <strong>C</strong> is correct.",
-      "desmosExpressions": ["x^2 + y^2 = 1", "(\\cos(2\\pi/3), \\sin(2\\pi/3))", "(\\cos(13\\pi/12), \\sin(13\\pi/12))"]
+      "content": "Multiply by the conversion factor $\\frac{180°}{\\pi}$:<br/>$$T = \\frac{13\\pi}{12} \\cdot \\frac{180°}{\\pi} = \\frac{13 \\cdot 180°}{12} = 13 \\cdot 15° = 195°$$That matches choice C — <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "x^2 + y^2 = 1",
+        "(\\cos(2\\pi/3), \\sin(2\\pi/3))",
+        "(\\cos(13\\pi/12), \\sin(13\\pi/12))"
+      ]
     }
   ]
 }

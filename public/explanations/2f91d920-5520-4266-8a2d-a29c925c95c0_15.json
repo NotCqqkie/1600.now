@@ -1,1 +1,22 @@
-{"questionId": "2f91d920-5520-4266-8a2d-a29c925c95c0_15", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Find the radius and semicircle arc length", "content": "From the circumference formula:<br/>$$C = 2\\pi r = 84\\pi$$<br/>Dividing both sides by $2\\pi$: $r = 42$.<br/><br/>Since any semicircle subtends half the circumference, the arc length of a semicircle is:<br/>$$\\text{Semicircle arc} = \\pi r = 42\\pi$$"}, {"title": "Use the diameter constraints to express arcs in terms of one variable", "content": "Since $\\overline{AC}$ is a diameter, the arc from $A$ to $C$ (one way) is a semicircle:<br/>$$\\text{Arc } AB + \\text{Arc } BC = 42\\pi \\quad (1)$$<br/>Since $\\overline{BD}$ is a diameter, the arc from $B$ to $D$ (one way) is a semicircle:<br/>$$\\text{Arc } BC + \\text{Arc } CD = 42\\pi \\quad (2)$$<br/>Let Arc $AB = x$. Then Arc $DA = 2x$ (from the problem statement).<br/><br/>From equation (1): $\\text{Arc } BC = 42\\pi - x$<br/><br/>From equation (2): $\\text{Arc } CD = 42\\pi - \\text{Arc } BC = 42\\pi - (42\\pi - x) = x$"}, {"title": "Solve for x using the complete circumference", "content": "The four arcs partition the entire circle:<br/>$$\\text{Arc } AB + \\text{Arc } BC + \\text{Arc } CD + \\text{Arc } DA = 84\\pi$$<br/>Substitute the expressions we found:<br/>$$x + (42\\pi - x) + x + 2x = 84\\pi$$<br/>$$3x + 42\\pi = 84\\pi$$<br/>$$3x = 42\\pi$$<br/>$$x = 14\\pi$$<br/>Therefore:<br/>$$\\text{Arc } BC = 42\\pi - x = 42\\pi - 14\\pi = 28\\pi$$<br/>That matches choice D — <strong>D</strong> is correct.", "desmosExpressions": ["x^2 + y^2 = 42^2"]}]}
+{
+  "questionId": "2f91d920-5520-4266-8a2d-a29c925c95c0_15",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the radius and semicircle arc length",
+      "content": "From the circumference formula:<br/>$$C = 2\\pi r = 84\\pi$$<br/>Dividing both sides by $2\\pi$: $r = 42$.<br/><br/>Since any semicircle subtends half the circumference, the arc length of a semicircle is:<br/>$$\\text{Semicircle arc} = \\pi r = 42\\pi$$"
+    },
+    {
+      "title": "Use the diameter constraints to express arcs in terms of one variable",
+      "content": "Since $\\overline{AC}$ is a diameter, the arc from $A$ to $C$ (one way) is a semicircle:<br/>$$\\text{Arc } AB + \\text{Arc } BC = 42\\pi \\quad (1)$$<br/>Since $\\overline{BD}$ is a diameter, the arc from $B$ to $D$ (one way) is a semicircle:<br/>$$\\text{Arc } BC + \\text{Arc } CD = 42\\pi \\quad (2)$$<br/>Let Arc $AB = x$. Then Arc $DA = 2x$ (from the problem statement).<br/><br/>From equation (1): $\\text{Arc } BC = 42\\pi - x$<br/><br/>From equation (2): $\\text{Arc } CD = 42\\pi - \\text{Arc } BC = 42\\pi - (42\\pi - x) = x$"
+    },
+    {
+      "title": "Solve for x using the complete circumference",
+      "content": "The four arcs partition the entire circle:<br/>$$\\text{Arc } AB + \\text{Arc } BC + \\text{Arc } CD + \\text{Arc } DA = 84\\pi$$<br/>Substitute the expressions we found:<br/>$$x + (42\\pi - x) + x + 2x = 84\\pi$$<br/>$$3x + 42\\pi = 84\\pi$$<br/>$$3x = 42\\pi$$<br/>$$x = 14\\pi$$<br/>Therefore:<br/>$$\\text{Arc } BC = 42\\pi - x = 42\\pi - 14\\pi = 28\\pi$$<br/>That matches choice D — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "x^2 + y^2 = 42^2"
+      ]
+    }
+  ]
+}

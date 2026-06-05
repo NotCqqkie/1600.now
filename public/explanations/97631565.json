@@ -1,1 +1,19 @@
-{"questionId":"97631565","correctAnswer":"B","section":"Math","steps":[{"title":"Find the sample proportion","content":"In Scott&quot;s random sample of 20 employees, 16 are enrolled in exactly three professional development courses. The proportion is $$\\frac{16}{20}=0.8.$$"},{"title":"Scale to the full population","content":"Multiply the sample proportion by the total 400 employees: $$0.8\\times 400=320.$$ So the best estimate is 320 employees."},{"title":"Evaluate each choice","content":"<ul><li>A) 4 &mdash; this is far too small; 4 is the number not enrolled in the sample, not a scaled estimate. Eliminate.</li><li>B) 320 &mdash; matches $0.8\\times 400=320$. Keep.</li><li>C) 380 &mdash; would require a sample proportion of $380/400=0.95$, not $0.8$. Eliminate.</li><li>D) 384 &mdash; would require a sample proportion of $384/400=0.96$, not $0.8$. Eliminate.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "97631565",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the sample proportion",
+      "content": "In Scott&quot;s random sample of 20 employees, 16 are enrolled in exactly three professional development courses. The proportion is $$\\frac{16}{20}=0.8.$$"
+    },
+    {
+      "title": "Scale to the full population",
+      "content": "Multiply the sample proportion by the total 400 employees: $$0.8\\times 400=320.$$ So the best estimate is 320 employees."
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li>A) 4 &mdash; this is far too small; 4 is the number not enrolled in the sample, not a scaled estimate. Eliminate.</li><li>B) 320 &mdash; matches $0.8\\times 400=320$. Keep.</li><li>C) 380 &mdash; would require a sample proportion of $380/400=0.95$, not $0.8$. Eliminate.</li><li>D) 384 &mdash; would require a sample proportion of $384/400=0.96$, not $0.8$. Eliminate.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

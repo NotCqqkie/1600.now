@@ -1,1 +1,23 @@
-{"questionId":"6197d48e-7c76-4333-af39-0b9aa39e924c_5","correctAnswer":"27","section":"Math","steps":[{"title":"Set up","content":"Plug $x = 2$ into $f(x) = x^3 + 19$."},{"title":"Solve","content":"$f(2) = 2^3 + 19 = 8 + 19 = 27$"},{"title":"Answer","content":"<strong>27</strong> is correct."}]}
+{
+  "questionId": "6197d48e-7c76-4333-af39-0b9aa39e924c_5",
+  "correctAnswer": "27",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "Plug $x = 2$ into $f(x) = x^3 + 19$."
+    },
+    {
+      "title": "Solve",
+      "content": "$f(2) = 2^3 + 19 = 8 + 19 = 27$"
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>27</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $27$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $27$."
+    }
+  ]
+}

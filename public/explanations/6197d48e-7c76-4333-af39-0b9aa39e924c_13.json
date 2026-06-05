@@ -15,6 +15,10 @@
         "(0, 60000)",
         "(580, 120000)"
       ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $580$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $580$."
     }
   ]
 }

@@ -1,1 +1,26 @@
-{"questionId":"2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_8","correctAnswer":"D","section":"Math","steps":[{"title":"Group the terms","content":"Group: $(7x^2 - 9x) + (14x - 18)$."},{"title":"Apply the common-factor step","content":"Factor each pair: $$x(7x-9) + 2(7x-9) = (x+2)(7x-9).$$"},{"title":"Identify the matching factor","content":"So $x+2$ is a factor. That matches choice <strong>D</strong> — <strong>D</strong> is correct.","desmosExpressions":["y = 7x^{2} + 5x - 18"]}]}
+{
+  "questionId": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_8",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Group the terms",
+      "content": "Group: $(7x^2 - 9x) + (14x - 18)$."
+    },
+    {
+      "title": "Apply the common-factor step",
+      "content": "Factor each pair: $$x(7x-9) + 2(7x-9) = (x+2)(7x-9).$$"
+    },
+    {
+      "title": "Identify the matching factor",
+      "content": "So $x+2$ is a factor. That matches choice <strong>D</strong> — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "y = 7x^{2} + 5x - 18"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice D, x + 2, and the other choices fail the same setup or substitution. Therefore <strong>D</strong> is correct."
+    }
+  ]
+}

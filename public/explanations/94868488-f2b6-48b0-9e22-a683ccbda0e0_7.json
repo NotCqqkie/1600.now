@@ -1,1 +1,19 @@
-{"questionId":"94868488-f2b6-48b0-9e22-a683ccbda0e0_7","correctAnswer":"15000","section":"Math","steps":[{"title":"Count the number of doublings","content":"From 1663 to 1963 is $1963-1663=300$ years. With doubling every 75 years, the count is $\\tfrac{300}{75}=4$ doublings."},{"title":"Solve for the initial population","content":"Let $P_0$ be the 1663 population. Then $P_0\\cdot 2^4=240{,}000$. $$P_0=\\frac{240{,}000}{16}=15{,}000.$$ The answer is <strong>15000</strong>."}]}
+{
+  "questionId": "94868488-f2b6-48b0-9e22-a683ccbda0e0_7",
+  "correctAnswer": "15000",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Count the number of doublings",
+      "content": "From 1663 to 1963 is $1963-1663=300$ years. With doubling every 75 years, the count is $\\tfrac{300}{75}=4$ doublings."
+    },
+    {
+      "title": "Solve for the initial population",
+      "content": "Let $P_0$ be the 1663 population. Then $P_0\\cdot 2^4=240{,}000$. $$P_0=\\frac{240{,}000}{16}=15{,}000.$$ The answer is <strong>15000</strong>."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, make sure the computed value answers exactly what the question asks for. The work above gives $15000$; substituting or interpreting it in the original condition satisfies the requirement, so $15000$ is the value to enter."
+    }
+  ]
+}

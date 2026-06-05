@@ -1,1 +1,17 @@
-{"questionId": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_12", "correctAnswer": "0.64,.64", "section": "Math", "steps": [{"title": "Calculate the volume of the cube", "content": "The cube has an edge length of 2.00 cm.<br/>$$V = (2.00)^3 = 8.00 \\text{ cm}^3$$", "formula": "$$V = s^3$$"}, {"title": "Apply the density formula and calculate", "content": "Substitute the mass (5.12 g) and volume (8.00 cm³) into the density formula:<br/>$$\\text{Density} = \\frac{5.12 \\text{ g}}{8.00 \\text{ cm}^3} = 0.64 \\text{ g/cm}^3$$", "formula": "$$\\text{Density} = \\frac{\\text{Mass}}{\\text{Volume}}$$"}]}
+{
+  "questionId": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_12",
+  "correctAnswer": "0.64,.64",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate the volume of the cube",
+      "content": "The cube has an edge length of 2.00 cm.<br/>$$V = (2.00)^3 = 8.00 \\text{ cm}^3$$",
+      "formula": "$$V = s^3$$"
+    },
+    {
+      "title": "Apply the density formula and calculate",
+      "content": "Substitute the mass (5.12 g) and volume (8.00 cm³) into the density formula:<br/>$$\\text{Density} = \\frac{5.12 \\text{ g}}{8.00 \\text{ cm}^3} = 0.64 \\text{ g/cm}^3$$",
+      "formula": "$$\\text{Density} = \\frac{\\text{Mass}}{\\text{Volume}}$$"
+    }
+  ]
+}

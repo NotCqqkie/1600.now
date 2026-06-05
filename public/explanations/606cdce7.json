@@ -4,13 +4,25 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Test choice B with a table point",
-      "content": "Backsolving — testing choice B ($9x + 3y = 3$): <br/> Substitute $x = -6$, $y = 65$ from the table: <br/> $$9(-6) + 3(65) = -54 + 195 = 141$$ <br/> Since $141 \\neq 3$, choice B does not work."
+      "title": "Fit the table first",
+      "content": "This is a linear table question, so use Desmos regression instead of doing all the slope algebra by hand. The table includes $(-6,65)$ and $(6,29)$. Enter those as lists and run $y_1\\sim m x_1+b$.",
+      "desmosExpressions": [
+        "x_1=[-6,6]",
+        "y_1=[65,29]",
+        "y_1~m x_1+b"
+      ]
     },
     {
-      "title": "Test choice A with the same point",
-      "content": "Fails. Testing choice A ($9x + 3y = 141$): <br/> Substitute $x = -6$, $y = 65$: <br/> $$9(-6) + 3(65) = -54 + 195 = 141$$ ✓ <br/> <br/> That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": ["9x+3y=141"]
+      "title": "Convert to the choice format",
+      "content": "Desmos gives $m=-3$ and $b=47$, so the table line is $$y=-3x+47$$ Move terms to match the answer choices: $$3x+y=47$$ Multiplying by $3$ gives $$9x+3y=141$$",
+      "desmosExpressions": [
+        "y=-3x+47",
+        "9x+3y=141"
+      ]
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "Choice A is exactly $9x+3y=141$. Choice B has the same left side but the wrong constant. Choices C and D switch the coefficients to $3x+9y$, which does not match the fitted line. Therefore <strong>A</strong> is correct."
     }
   ]
 }

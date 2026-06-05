@@ -12,8 +12,8 @@
       "content": "Substitute $r = 70$ inches into the formula: $$V = \\frac{2}{3}\\pi(70)^3$$ Calculate $70^3 = 70 \\times 70 \\times 70 = 4,900 \\times 70 = 343,000$. Then: $$V = \\frac{2}{3}\\pi(343,000) = \\frac{686,000}{3}\\pi$$ Simplifying the fraction: $\\frac{686,000}{3} \\approx 228,667$, so: $$V \\approx 228,667\\pi$$"
     },
     {
-      "title": "Multiply by \u03c0 and match to the answer choice",
-      "content": "Use the approximation $\\pi \\approx 3.14$: $$V \\approx 228,667 \\times 3.14 \\approx 718,000$$ The answer choice closest to 718,000 is 718,400. That matches choice D \u2014 <strong>D</strong> is correct."
+      "title": "Multiply by π and match to the answer choice",
+      "content": "Use the approximation $\\pi \\approx 3.14$: $$V \\approx 228,667 \\times 3.14 \\approx 718,000$$ The answer choice closest to 718,000 is 718,400. That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,23 @@
-{"questionId":"390a8264-19b1-4de0-9dc9-09609eadd7ca_22","correctAnswer":"-37","section":"Math","steps":[{"title":"Clear fractions to get a quadratic","content":"Multiply every term by $148cx$: $$148 = cx^{2} + 148x \\implies cx^{2} + 148x - 148 = 0.$$"},{"title":"Discriminant shortcut: one solution means \\(\\Delta = 0\\)","content":"Exactly one solution \\(\\Rightarrow b^{2} - 4ac = 0\\). With $a = c$, $b = 148$, $c_{\\text{const}} = -148$:<br/>$$148^{2} - 4(c)(-148) = 0$$$$21904 + 592c = 0$$$$c = -37.$$<br/>The answer is <strong>-37</strong>."}]}
+{
+  "questionId": "390a8264-19b1-4de0-9dc9-09609eadd7ca_22",
+  "correctAnswer": "-37",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Clear fractions to get a quadratic",
+      "content": "Multiply every term by $148cx$: $$148 = cx^{2} + 148x \\implies cx^{2} + 148x - 148 = 0.$$"
+    },
+    {
+      "title": "Use Desmos on the discriminant",
+      "content": "Exactly one solution means the quadratic's discriminant is $0$. For $cx^2+148x-148=0$, the discriminant is $$148^2-4(c)(-148)=148^2+4c(148).$$ In Desmos, enter $y_1=[0]$ and $y_1\\sim148^2+4c(148)$. Desmos returns $c=-37$.",
+      "desmosExpressions": [
+        "y_1=[0]",
+        "y_1~148^2+4c148"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "Solving the same equation by hand: $$148^2+592c=0$$ $$21{,}904+592c=0$$ $$c=-37.$$ The answer is <strong>-37</strong>."
+    }
+  ]
+}

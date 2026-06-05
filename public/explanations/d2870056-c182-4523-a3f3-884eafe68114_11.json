@@ -1,1 +1,23 @@
-{"questionId":"d2870056-c182-4523-a3f3-884eafe68114_11","correctAnswer":"B","section":"Math","steps":[{"title":"Set up","content":"The equation is $k + 21 = 63$. Subtract 21 from both sides to isolate $k$."},{"title":"Solve","content":"$k = 63 - 21 = 42$."},{"title":"Answer","content":"<strong>B</strong> is correct."}]}
+{
+  "questionId": "d2870056-c182-4523-a3f3-884eafe68114_11",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "The equation is $k + 21 = 63$. Subtract 21 from both sides to isolate $k$."
+    },
+    {
+      "title": "Solve",
+      "content": "$k = 63 - 21 = 42$."
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>B</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice B, 42. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
+    }
+  ]
+}

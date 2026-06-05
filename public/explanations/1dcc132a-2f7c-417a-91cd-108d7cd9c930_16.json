@@ -9,7 +9,13 @@
     },
     {
       "title": "Find the median of data set B and compare",
-      "content": "Data set B has 20 values (after 19 is removed), so the median is the average of the values at positions 10 and 11.<br/><br/>The cumulative counts remain the same (without 19):<ul><li>0 eagles: cumulative 1</li><li>1 eagle: cumulative 4</li><li>2 eagles: cumulative 8</li><li>3 eagles: cumulative 13</li></ul>Both positions 10 and 11 fall in the range [9, 13], which corresponds to 3 eagles. The median of data set B is $\\frac{3+3}{2}=3$.<br/><br/>Both medians equal 3. That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "Data set B has 20 values after 19 is removed, so the median is the average of positions 10 and 11. Both positions still fall in the 3-eagle group, so median B is $\\frac{3+3}{2}=3$. Desmos can verify both medians from expanded lists. Both medians equal 3, matching choice B.",
+      "desmosExpressions": [
+        "A=[0,1,1,1,2,2,2,2,3,3,3,3,3,4,4,4,4,5,5,5,19]",
+        "B=[0,1,1,1,2,2,2,2,3,3,3,3,3,4,4,4,4,5,5,5]",
+        "median(A)",
+        "median(B)"
+      ]
     }
   ]
 }

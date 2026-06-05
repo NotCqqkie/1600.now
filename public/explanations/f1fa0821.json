@@ -1,1 +1,15 @@
-{"questionId": "f1fa0821", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Read population values from the graph at x = 0 and x = 1", "content": "At $x = 0$ (year 2003), the curve passes through $y = 6$ thousand. At $x = 1$ (year 2004), the curve passes through $y = 9$ thousand."}, {"title": "Calculate the ratio of population at x = 1 to population at x = 0", "content": "The ratio is:<br/>$$\\frac{y(1)}{y(0)} = \\frac{9}{6} = 1.5$$<br/>The population at $x=1$ is $1.5$ times the population at $x=0$. That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "f1fa0821",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read population values from the graph at x = 0 and x = 1",
+      "content": "At $x = 0$ (year 2003), the curve passes through $y = 6$ thousand. At $x = 1$ (year 2004), the curve passes through $y = 9$ thousand."
+    },
+    {
+      "title": "Calculate the ratio of population at x = 1 to population at x = 0",
+      "content": "The ratio is:<br/>$$\\frac{y(1)}{y(0)} = \\frac{9}{6} = 1.5$$<br/>The population at $x=1$ is $1.5$ times the population at $x=0$. That matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

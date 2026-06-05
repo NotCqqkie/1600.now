@@ -1,1 +1,15 @@
-{"questionId": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_1", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Translate 50% to a decimal or fraction", "content": "The phrase <em>50% of 520</em> means we multiply: $0.5 \\times 520$. Alternatively, 50% is the same as $\\frac{1}{2}$, so we're finding half of 520."}, {"title": "Divide 520 by 2", "content": "$$520 \\div 2 = 260$$<br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_1",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate 50% to a decimal or fraction",
+      "content": "The phrase <em>50% of 520</em> means we multiply: $0.5 \\times 520$. Alternatively, 50% is the same as $\\frac{1}{2}$, so we're finding half of 520."
+    },
+    {
+      "title": "Divide 520 by 2",
+      "content": "$$520 \\div 2 = 260$$<br/>That matches choice C — <strong>C</strong> is correct."
+    }
+  ]
+}

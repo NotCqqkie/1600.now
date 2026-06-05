@@ -1,1 +1,23 @@
-{"questionId": "6b1e987d-70b0-4072-9d03-3ebd56371518_6", "correctAnswer": "67", "section": "Math", "steps": [{"title": "Substitute", "content": "Plug $x=2$ into $f(x)=x^{2}+x+61$.<br/>$$f(2)=2^{2}+2+61$$"}, {"title": "Compute the result", "content": "Square then add.<br/>$$f(2)=4+2+61=67$$<br/>The answer is <strong>67</strong>.", "desmosExpressions": ["f(x) = x^2 + x + 61", "(2, 67)"]}]}
+{
+  "questionId": "6b1e987d-70b0-4072-9d03-3ebd56371518_6",
+  "correctAnswer": "67",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute",
+      "content": "Plug $x=2$ into $f(x)=x^{2}+x+61$.<br/>$$f(2)=2^{2}+2+61$$"
+    },
+    {
+      "title": "Compute the result",
+      "content": "Square then add.<br/>$$f(2)=4+2+61=67$$<br/>The answer is <strong>67</strong>.",
+      "desmosExpressions": [
+        "f(x) = x^2 + x + 61",
+        "(2, 67)"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $67$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $67$."
+    }
+  ]
+}

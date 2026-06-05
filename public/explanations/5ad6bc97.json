@@ -1,1 +1,15 @@
-{"questionId": "5ad6bc97", "correctAnswer": "50", "section": "Math", "steps": [{"title": "Substitute x equals 7 and evaluate", "content": "The function $f(x) = 7x + 1$ gives the total people for $x$ managers. Substituting $x = 7$:<br/>$$f(7) = 7(7) + 1 = 49 + 1 = 50$$<br/>The answer is <strong>50</strong>."}]}
+{
+  "questionId": "5ad6bc97",
+  "correctAnswer": "50",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x equals 7 and evaluate",
+      "content": "The function $f(x) = 7x + 1$ gives the total people for $x$ managers. Substituting $x = 7$:<br/>$$f(7) = 7(7) + 1 = 49 + 1 = 50$$<br/>The answer is <strong>50</strong>."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $50$. It's given that the function $f$ gives the total number of people on a company retreat with $x$ managers. It's also given that $7$ managers are on the company retreat. Substituting $7$ for $x$ in the given function yields $f\\left(7\\right)=7\\left(7\\right)+1$, or $f\\left(7\\right)=50$. Therefore, there are a total of $50$ people on a company retreat with $7$ managers."
+    }
+  ]
+}

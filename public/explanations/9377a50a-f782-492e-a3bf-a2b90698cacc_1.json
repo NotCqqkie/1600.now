@@ -1,1 +1,23 @@
-{"questionId":"9377a50a-f782-492e-a3bf-a2b90698cacc_1","correctAnswer":"A","section":"Math","steps":[{"title":"Set up","content":"A day has 1,440 total minutes. Let $y$ = non-daylight minutes. With 840 daylight minutes: $$840 + y = 1440$$"},{"title":"Solve","content":"$$y = 1440 - 840 = 600$$"},{"title":"Answer","content":"<strong>A</strong> is correct."}]}
+{
+  "questionId": "9377a50a-f782-492e-a3bf-a2b90698cacc_1",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "A day has 1,440 total minutes. Let $y$ = non-daylight minutes. With 840 daylight minutes: $$840 + y = 1440$$"
+    },
+    {
+      "title": "Solve",
+      "content": "$$y = 1440 - 840 = 600$$"
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>A</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice A, $600$, and the other choices fail the same setup or substitution. Therefore <strong>A</strong> is correct."
+    }
+  ]
+}

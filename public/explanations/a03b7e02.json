@@ -1,1 +1,25 @@
-{"questionId": "a03b7e02", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Read the table values", "content": "The table gives: $x = -1 \\Rightarrow f(x) = 16$; $x = 0 \\Rightarrow f(x) = 17$; $x = 1 \\Rightarrow f(x) = 18$; $x = 2 \\Rightarrow f(x) = 19$."}, {"title": "Test for linearity: compute successive differences", "content": "$17 - 16 = 1$, $18 - 17 = 1$, $19 - 18 = 1$. All differences are equal, so the rate of change is constant. This is the signature of a linear function."}, {"title": "Determine direction and eliminate wrong choices", "content": "Since the outputs increase as x increases, the function is increasing. Check each choice:<ul><li>A: Decreasing linear — the function increases, not decreases. Eliminate A.</li><li>B: Increasing linear — constant positive differences confirm linear growth. That matches choice B — <strong>B</strong> is correct.</li><li>C: Decreasing exponential — exponential functions have constant ratios, not differences, and this function increases. Eliminate C.</li><li>D: Increasing exponential — ratios are 17/16 = 1.0625, 18/17 ≈ 1.0588, 19/18 ≈ 1.056; these are not constant, so it is not exponential. Eliminate D.</li></ul>"}]}
+{
+  "questionId": "a03b7e02",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Enter the table in Desmos",
+      "content": "Put the table into Desmos as $x_1=[-1,0,1,2]$ and $y_1=[16,17,18,19]$. Then run a linear regression with $y_1\\sim mx_1+b$. Desmos gives $m=1$ and $b=17$, so the data fit the line $y=x+17$.",
+      "desmosExpressions": [
+        "x_1=[-1,0,1,2]",
+        "y_1=[16,17,18,19]",
+        "y_1~m x_1+b",
+        "y=m x+b"
+      ]
+    },
+    {
+      "title": "Test for linearity: compute successive differences",
+      "content": "By hand, the outputs increase by $1$ each time: $17-16=1$, $18-17=1$, and $19-18=1$. Equal differences mean the function is linear, and the positive difference means it is increasing."
+    },
+    {
+      "title": "Determine direction and eliminate wrong choices",
+      "content": "Since the outputs increase as x increases, the function is increasing. Check each choice:<ul><li>A: Decreasing linear — the function increases, not decreases. Eliminate A.</li><li>B: Increasing linear — constant positive differences confirm linear growth. That matches choice B — <strong>B</strong> is correct.</li><li>C: Decreasing exponential — exponential functions have constant ratios, not differences, and this function increases. Eliminate C.</li><li>D: Increasing exponential — ratios are 17/16 = 1.0625, 18/17 ≈ 1.0588, 19/18 ≈ 1.056; these are not constant, so it is not exponential. Eliminate D.</li></ul>"
+    }
+  ]
+}

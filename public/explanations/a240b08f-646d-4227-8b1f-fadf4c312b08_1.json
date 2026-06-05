@@ -1,4 +1,15 @@
-{"questionId": "a240b08f-646d-4227-8b1f-fadf4c312b08_1", "correctAnswer": "B", "section": "Math", "steps": [
-  {"title": "Find the target total", "content": "$\\frac{2}{5}$ of 700 flowers = $\\frac{2}{5} \\cdot 700 = 280$ flowers. We need a pair that sums to exactly 280."},
-  {"title": "Read bar graph values and eliminate choices", "content": "From the bar graph: Daisy = 60, Orchid = 100, Tulip = 190, Lily = 180, Sunflower = 170.<br/><br/><ul><li><strong>Choice A &mdash; Daisy and Orchid</strong>: $60 + 100 = 160 \\neq 280$. &#10007;</li><li><strong>Choice B &mdash; Orchid and Lily</strong>: $100 + 180 = 280$. &#10003;</li><li><strong>Choice C &mdash; Orchid and Sunflower</strong>: $100 + 170 = 270 \\neq 280$. &#10007;</li><li><strong>Choice D &mdash; Lily and Sunflower</strong>: $180 + 170 = 350 \\neq 280$. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}
-]}
+{
+  "questionId": "a240b08f-646d-4227-8b1f-fadf4c312b08_1",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the target total",
+      "content": "$\\frac{2}{5}$ of 700 flowers = $\\frac{2}{5} \\cdot 700 = 280$ flowers. We need a pair that sums to exactly 280."
+    },
+    {
+      "title": "Read bar graph values and eliminate choices",
+      "content": "From the bar graph: Daisy = 60, Orchid = 100, Tulip = 190, Lily = 180, Sunflower = 170.<br/><br/><ul><li><strong>Choice A &mdash; Daisy and Orchid</strong>: $60 + 100 = 160 \\neq 280$. &#10007;</li><li><strong>Choice B &mdash; Orchid and Lily</strong>: $100 + 180 = 280$. &#10003;</li><li><strong>Choice C &mdash; Orchid and Sunflower</strong>: $100 + 170 = 270 \\neq 280$. &#10007;</li><li><strong>Choice D &mdash; Lily and Sunflower</strong>: $180 + 170 = 350 \\neq 280$. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,19 @@
-{"questionId": "979898ba-60c7-4531-ac45-29c4db2b3361_11", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Substitute to rewrite as a simpler quadratic", "content": "The expression $8x^4 + 26x^2 + 21$ is a quadratic in $x^2$. Substitute $u = x^2$ to rewrite it as:<br/>$$8u^2 + 26u + 21$$"}, {"title": "Factor the quadratic in u", "content": "To factor $8u^2 + 26u + 21$, find $(pu + q)(ru + s)$ where $pr = 8$ and $qs = 21$.<br/><br/>Try $p = 2, r = 4$ (so $2 \\times 4 = 8$) and $q = 3, s = 7$ (so $3 \\times 7 = 21$). Check the middle term:<br/>$$ps + qr = 2(7) + 3(4) = 14 + 12 = 26 \\quad \\checkmark$$<br/>Therefore:<br/>$$(2u + 3)(4u + 7) = 8u^2 + 26u + 21$$"}, {"title": "Substitute back and find ab", "content": "Substitute $u = x^2$ to get the factored form $(2x^2 + 3)(4x^2 + 7)$.<br/><br/>The question asks for $ab$ where $ax^2 + b$ is one of the factors. The factor $4x^2 + 7$ corresponds to $a = 4, b = 7$, giving $ab = 4 \\times 7 = 28$. (The other factor, $2x^2 + 3$, gives $ab = 6$, which is not among the answer choices.) That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "979898ba-60c7-4531-ac45-29c4db2b3361_11",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute to rewrite as a simpler quadratic",
+      "content": "The expression $8x^4 + 26x^2 + 21$ is a quadratic in $x^2$. Substitute $u = x^2$ to rewrite it as:<br/>$$8u^2 + 26u + 21$$"
+    },
+    {
+      "title": "Factor the quadratic in u",
+      "content": "To factor $8u^2 + 26u + 21$, find $(pu + q)(ru + s)$ where $pr = 8$ and $qs = 21$.<br/><br/>Try $p = 2, r = 4$ (so $2 \\times 4 = 8$) and $q = 3, s = 7$ (so $3 \\times 7 = 21$). Check the middle term:<br/>$$ps + qr = 2(7) + 3(4) = 14 + 12 = 26 \\quad \\checkmark$$<br/>Therefore:<br/>$$(2u + 3)(4u + 7) = 8u^2 + 26u + 21$$"
+    },
+    {
+      "title": "Substitute back and find ab",
+      "content": "Substitute $u = x^2$ to get the factored form $(2x^2 + 3)(4x^2 + 7)$.<br/><br/>The question asks for $ab$ where $ax^2 + b$ is one of the factors. The factor $4x^2 + 7$ corresponds to $a = 4, b = 7$, giving $ab = 4 \\times 7 = 28$. (The other factor, $2x^2 + 3$, gives $ab = 6$, which is not among the answer choices.) That matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

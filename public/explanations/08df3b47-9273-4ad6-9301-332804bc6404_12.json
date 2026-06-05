@@ -1,1 +1,23 @@
-{"questionId":"08df3b47-9273-4ad6-9301-332804bc6404_12","correctAnswer":"A","section":"Math","steps":[{"title":"Substitute x = 41 into the model","content":"The colony has 41 worker ants, and $20 \\leq 41 \\leq 110$, so the equation applies: $$y = 0.67(41) + 2.6$$"},{"title":"Compute","content":"$0.67 \\cdot 41 = 27.47$, then $27.47 + 2.6 = 30.07$ larvae."},{"title":"Eliminate the other choices","content":"<ul><li><strong>A) 30</strong> &mdash; matches 30.07, the predicted value.</li><li><strong>B) 44</strong> &mdash; would require $y \\approx 44$, far above 30.07.</li><li><strong>C) 57</strong> &mdash; way too high; you'd get this from $x \\approx 81$.</li><li><strong>D) 134</strong> &mdash; this is roughly $0.67 \\cdot 41 + 2.6$ multiplied wrong; nowhere near 30.07.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.","desmosExpressions":["y = 0.67x + 2.6 \\{20 \\leq x \\leq 110\\}","(41, 30.07)"]}]}
+{
+  "questionId": "08df3b47-9273-4ad6-9301-332804bc6404_12",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x = 41 into the model",
+      "content": "The colony has 41 worker ants, and $20 \\leq 41 \\leq 110$, so the equation applies: $$y = 0.67(41) + 2.6$$"
+    },
+    {
+      "title": "Compute",
+      "content": "$0.67 \\cdot 41 = 27.47$, then $27.47 + 2.6 = 30.07$ larvae."
+    },
+    {
+      "title": "Eliminate the other choices",
+      "content": "<ul><li><strong>A) 30</strong> &mdash; matches 30.07, the predicted value.</li><li><strong>B) 44</strong> &mdash; would require $y \\approx 44$, far above 30.07.</li><li><strong>C) 57</strong> &mdash; way too high; you'd get this from $x \\approx 81$.</li><li><strong>D) 134</strong> &mdash; this is roughly $0.67 \\cdot 41 + 2.6$ multiplied wrong; nowhere near 30.07.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y = 0.67x + 2.6 \\{20 \\leq x \\leq 110\\}",
+        "(41, 30.07)"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,19 @@
-{"questionId": "cd2abd24-f96a-43e7-860f-be962ea69e08_11", "correctAnswer": "25", "section": "Math", "steps": [{"title": "Isolate the radical", "content": "Subtract $38$ from both sides: $$\\sqrt{w}=43-38=5.$$"}, {"title": "Solve for the variable", "content": "Square both sides: $w=25$. The answer is <strong>25</strong>."}]}
+{
+  "questionId": "cd2abd24-f96a-43e7-860f-be962ea69e08_11",
+  "correctAnswer": "25",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the radical",
+      "content": "Subtract $38$ from both sides: $$\\sqrt{w}=43-38=5.$$"
+    },
+    {
+      "title": "Solve for the variable",
+      "content": "Square both sides: $w=25$. The answer is <strong>25</strong>."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $25$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $25$."
+    }
+  ]
+}

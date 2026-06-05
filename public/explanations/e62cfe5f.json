@@ -1,6 +1,6 @@
 {
   "questionId": "e62cfe5f",
-  "correctAnswer": "2.6",
+  "correctAnswer": "2.6,13/5",
   "section": "Math",
   "steps": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "title": "Substitute the body weight and compute",
-      "content": "With $w = 0.5$ grams, substitute directly: $$h = 0.6 + 4(0.5) = 0.6 + 2 = 2.6$$ The head width is <strong>2.6 millimeters</strong>."
+      "content": "With $w=0.5$ grams, substitute directly: $$h=0.6+4(0.5)=0.6+2=2.6$$ The head width is <strong>2.6 millimeters</strong>, so valid entries include <strong>2.6</strong> and <strong>13/5</strong>."
     }
   ]
 }

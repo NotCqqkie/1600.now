@@ -4,16 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Simplify both sides to standard form",
-      "content": "Expand the left side: $\\frac{12x+28}{4} = 3x + 7$, so the equation becomes:<br/>$$3x + 7 - \\frac{s}{13} = rx - 8r$$<br/>Both sides are now linear in $x$."
+      "title": "Use custom regression",
+      "content": "For infinitely many solutions, both sides must be identical for every $x$. In Desmos, enter $x_1=[0,1]$ and then type $\\frac{12x_1+28}{4}-\\frac{s}{13}\\sim r(x_1-8)$. Desmos solves the constants at once and returns $r=3$ and $s=403$.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "(12x_1+28)/4-s/13~r(x_1-8)"
+      ]
     },
     {
-      "title": "Apply the infinitely many solutions condition",
-      "content": "A linear equation has infinitely many solutions only if both sides are identical\u2014the coefficient of $x$ must match on both sides, and the constant term must match.<br/><br/>Coefficient of $x$: $3 = r$, so $r = 3$<br/>Constant terms: $7 - \\frac{s}{13} = -8r$"
+      "title": "Confirm by matching coefficients",
+      "content": "Simplify the left side: $$\\frac{12x+28}{4}-\\frac{s}{13}=3x+7-\\frac{s}{13}.$$ The right side is $rx-8r$. Matching the $x$-coefficients gives $r=3$."
     },
     {
-      "title": "Substitute r = 3 and solve for s",
-      "content": "Substitute $r = 3$ into the constant equation:<br/>$$7 - \\frac{s}{13} = -8(3) = -24$$<br/>$$-\\frac{s}{13} = -31$$<br/>$$s = 403$$"
+      "title": "Match constants and finish",
+      "content": "Now match constants: $$7-\\frac{s}{13}=-8(3)=-24$$ $$-\\frac{s}{13}=-31$$ $$s=403$$ Substitution checks the identity: $3x+7-31=3x-24$ and $3(x-8)=3x-24$. The answer is <strong>403</strong>."
     }
   ]
 }

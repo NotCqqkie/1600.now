@@ -1,1 +1,23 @@
-{"questionId":"94868488-f2b6-48b0-9e22-a683ccbda0e0_3","correctAnswer":"4","section":"Math","steps":[{"title":"Set up","content":"Given $y = 2$ cubic feet, substitute into $32x + 81y = 290$: $32x + 81(2) = 290$, so $32x + 162 = 290$."},{"title":"Solve","content":"$32x = 128$, so $x = 4$."},{"title":"Answer","content":"<strong>4</strong> is correct."}]}
+{
+  "questionId": "94868488-f2b6-48b0-9e22-a683ccbda0e0_3",
+  "correctAnswer": "4",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "Given $y = 2$ cubic feet, substitute into $32x + 81y = 290$: $32x + 81(2) = 290$, so $32x + 162 = 290$."
+    },
+    {
+      "title": "Solve",
+      "content": "$32x = 128$, so $x = 4$."
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>4</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, make sure the computed value answers exactly what the question asks for. The work above gives $4$; substituting or interpreting it in the original condition satisfies the requirement, so $4$ is the value to enter."
+    }
+  ]
+}

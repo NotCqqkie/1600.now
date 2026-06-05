@@ -1,1 +1,9 @@
-{"qid": "c50ede6d", "correctAnswer": "D", "steps": ["Identify the cost components: a fixed \\$25 service fee plus \\$10 per hour for \\(t\\) hours. Total cost = \\(25 + 10t\\).", "The person intends to spend <strong>at most</strong> \\$75, so the total cost must be less than or equal to 75: $$25 + 10t \\leq 75$$", "Evaluate each choice:<ul><li>A: \\(10t \\leq 75\\) — Omits the fixed \\$25 service fee entirely. Eliminated.</li><li>B: \\(10 + 25t \\leq 75\\) — Swaps the service fee and hourly rate (\\$10 fixed, \\$25/hr), contradicting the problem. Eliminated.</li><li>C: \\(25t \\leq 75\\) — Uses only the service fee amount as the hourly rate and drops the fixed fee structure. Eliminated.</li><li>D: \\(25 + 10t \\leq 75\\) — Correctly reflects the \\$25 fixed fee plus \\$10 per hour not exceeding \\$75. That matches choice D — <strong>D</strong> is correct.</li></ul>"]}
+{
+  "qid": "c50ede6d",
+  "correctAnswer": "D",
+  "steps": [
+    "Identify the cost components: a fixed \\$25 service fee plus \\$10 per hour for $t$ hours. Total cost = $25 + 10t$.",
+    "The person intends to spend <strong>at most</strong> \\$75, so the total cost must be less than or equal to 75: $$25 + 10t \\leq 75$$",
+    "Evaluate each choice:<ul><li>A: $10t \\leq 75$ — Omits the fixed \\$25 service fee entirely. Eliminated.</li><li>B: $10 + 25t \\leq 75$ — Swaps the service fee and hourly rate (\\$10 fixed, \\$25/hr), contradicting the problem. Eliminated.</li><li>C: $25t \\leq 75$ — Uses only the service fee amount as the hourly rate and drops the fixed fee structure. Eliminated.</li><li>D: $25 + 10t \\leq 75$ — Correctly reflects the \\$25 fixed fee plus \\$10 per hour not exceeding \\$75. That matches choice D — <strong>D</strong> is correct.</li></ul>"
+  ]
+}

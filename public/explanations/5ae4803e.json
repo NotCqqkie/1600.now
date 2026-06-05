@@ -14,6 +14,22 @@
         "y = \\frac{(x + 9)(x - 9)}{x + 9}",
         "y = 7"
       ]
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice C is correct. Since the left-hand side of the given equation has a factor of $x+9$ in both the numerator and the denominator, the solution to the given equation can be found by solving the equation $x-9=7$. Adding $9$ to both sides of this equation yields $x=16$. Substituting $16$ for $x$ in the given equation yields $\\frac{\\left(16+9\\right)\\left(16-9\\right)}{16+9}=7$, or $7=7$. Therefore, the solution to the given equation is $16$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A is incorrect. Substituting $7$ for $x$ in the given equation yields $\\frac{\\left(7+9\\right)\\left(7-9\\right)}{7+9}=7$, or $-2=7$, which is false."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice B is incorrect. Substituting $9$ for $x$ in the given equation yields $\\frac{\\left(9+9\\right)\\left(9-9\\right)}{9+9}=7$, or $0=7$, which is false."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice D is incorrect. Substituting $63$ for $x$ in the given equation yields $\\frac{\\left(63+9\\right)\\left(63-9\\right)}{63+9}=7$, or $54=7$, which is false."
     }
   ]
 }

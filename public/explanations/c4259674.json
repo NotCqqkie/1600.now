@@ -13,6 +13,22 @@
       "desmosExpressions": [
         "f(x)=4(x)^(-1)"
       ]
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice C is correct. It's given that function $f$ is defined by the equation $f\\left(x\\right)=4{x}^{-1}$. The value of $f\\left(21\\right)$ is the value of $f\\left(x\\right)$ when $x=21$. Substituting $21$ for $x$ in the given equation yields $f\\left(21\\right)=4{\\left(21\\right)}^{-1}$, which is equivalent to $f\\left(21\\right)=4\\left(\\frac{1}{21}\\right)$, or $f\\left(21\\right)=\\frac{4}{21}$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A is incorrect. This is the value of $f\\left(21\\right)$ when $f\\left(x\\right)=-4x$, rather than $f\\left(x\\right)=4{x}^{-1}$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice B is incorrect. This is the value of $f\\left(21\\right)$ when $f\\left(x\\right)={\\left(4x\\right)}^{-1}$, rather than $f\\left(x\\right)=4{x}^{-1}$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice D is incorrect. This is the value of $f\\left(21\\right)$ when $f\\left(x\\right)=\\left({4}^{-1}\\right)x$, rather than $f\\left(x\\right)=4{x}^{-1}$."
     }
   ]
 }

@@ -1,1 +1,23 @@
-{"questionId":"d0bf40d9-9809-4546-a0a3-4654ea36f6fb_9","correctAnswer":"8","section":"Math","steps":[{"title":"Eliminate x","content":"Multiply the first equation by 7: $7x+28y=287$. Subtract the second: $(7x+28y)-(7x-20y)=287-(-97)$, so $48y=384$."},{"title":"Combine and compute","content":"Divide: $y=\\dfrac{384}{48}=8$.<br/><br/>The answer is <strong>8</strong>.","desmosExpressions":["x + 4y = 41","7x - 20y = -97"]}]}
+{
+  "questionId": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_9",
+  "correctAnswer": "8",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Eliminate x",
+      "content": "Multiply the first equation by 7: $7x+28y=287$. Subtract the second: $(7x+28y)-(7x-20y)=287-(-97)$, so $48y=384$."
+    },
+    {
+      "title": "Combine and compute",
+      "content": "Divide: $y=\\dfrac{384}{48}=8$.<br/><br/>The answer is <strong>8</strong>.",
+      "desmosExpressions": [
+        "x + 4y = 41",
+        "7x - 20y = -97"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $8$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $8$."
+    }
+  ]
+}

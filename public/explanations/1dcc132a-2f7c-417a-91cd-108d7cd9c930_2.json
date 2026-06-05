@@ -1,1 +1,10 @@
-{"qid": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_2", "correctAnswer": "A", "steps": ["Identify like terms. The \\(yz^3\\) terms are \\(9yz^3\\) and \\(3yz^3\\). The only \\(yz\\) term is \\(6yz\\).", "Combine the \\(yz^3\\) terms: \\(9yz^3 + 3yz^3 = 12yz^3\\). The \\(6yz\\) term stays. Result: \\(12yz^3 + 6yz\\).", "When combining like terms, exponents are NOT added — only coefficients add. So \\(yz^3 + yz^3 = 2yz^3\\), not \\(yz^6\\).", "<ul><li><strong>A: \\(12yz^3 + 6yz\\)</strong> — Correct combination of like terms. That matches choice A — <strong>A</strong> is correct.</li><li><strong>B: \\(12yz^6 + 6yz\\)</strong> — Incorrectly adds the exponents (\\(3 + 3 = 6\\)) instead of the coefficients. Eliminated.</li><li><strong>C: \\(18yz^6\\)</strong> — Combines unlike terms and adds exponents incorrectly. Eliminated.</li><li><strong>D: \\(18yz^7\\)</strong> — Combines all three terms as if they were like terms and adds all exponents. Eliminated.</li></ul>"]}
+{
+  "qid": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_2",
+  "correctAnswer": "A",
+  "steps": [
+    "Identify like terms. The $yz^3$ terms are $9yz^3$ and $3yz^3$. The only $yz$ term is $6yz$.",
+    "Combine the $yz^3$ terms: $9yz^3 + 3yz^3 = 12yz^3$. The $6yz$ term stays. Result: $12yz^3 + 6yz$.",
+    "When combining like terms, exponents are NOT added — only coefficients add. So $yz^3 + yz^3 = 2yz^3$, not $yz^6$.",
+    "<ul><li><strong>A: $12yz^3 + 6yz$</strong> — Correct combination of like terms. That matches choice A — <strong>A</strong> is correct.</li><li><strong>B: $12yz^6 + 6yz$</strong> — Incorrectly adds the exponents ($3 + 3 = 6$) instead of the coefficients. Eliminated.</li><li><strong>C: $18yz^6$</strong> — Combines unlike terms and adds exponents incorrectly. Eliminated.</li><li><strong>D: $18yz^7$</strong> — Combines all three terms as if they were like terms and adds all exponents. Eliminated.</li></ul>"
+  ]
+}

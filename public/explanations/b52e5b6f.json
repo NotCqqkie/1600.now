@@ -1,1 +1,15 @@
-{"questionId": "b52e5b6f", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Set up the mixture equation", "content": "The mixture contains only vitamin D and calcium. Since these are the only two components, their masses must sum to the total mass:<br/>$$\\text{vitamin D mass} + \\text{calcium mass} = \\text{total mass}$$"}, {"title": "Solve for calcium mass", "content": "Substitute the known values into the equation:<br/>$$50 + \\text{calcium mass} = 150$$<br/>Subtract 50 from both sides:<br/>$$\\text{calcium mass} = 150 - 50 = 100$$<br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "b52e5b6f",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the mixture equation",
+      "content": "The mixture contains only vitamin D and calcium. Since these are the only two components, their masses must sum to the total mass:<br/>$$\\text{vitamin D mass} + \\text{calcium mass} = \\text{total mass}$$"
+    },
+    {
+      "title": "Solve for calcium mass",
+      "content": "Substitute the known values into the equation:<br/>$$50 + \\text{calcium mass} = 150$$<br/>Subtract 50 from both sides:<br/>$$\\text{calcium mass} = 150 - 50 = 100$$<br/>That matches choice C — <strong>C</strong> is correct."
+    }
+  ]
+}

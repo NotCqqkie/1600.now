@@ -1,1 +1,18 @@
-{"qid":"ffdaaea2-8ec1-44b7-903d-084c644b881a_2","correctAnswer":"D","steps":[{"explanation":"Find the mean of each dataset. All five sets sum to 235 (e.g., A: 44+45+47+49+50=235), so every dataset has mean \\(\\bar{x} = 235 \\div 5 = 47\\). Standard deviation depends only on the deviations from the mean."},{"explanation":"Compute squared deviations for each set from mean 47. Set A: \\((-3)^2+(-2)^2+0^2+2^2+3^2 = 9+4+0+4+9=26\\). Set B: \\((-2)^2+(-2)^2+0^2+2^2+2^2=4+4+0+4+4=16\\). Set C: \\((-2)^2+(-1)^2+0^2+1^2+2^2=4+1+0+1+4=10\\). Set D: \\((-1)^2+0^2+0^2+0^2+1^2=1+0+0+0+1=2\\)."},{"explanation":"The variance is (sum of squared deviations) &divide; 5. Set A: 5.2, Set B: 3.2, Set C: 2.0, Set D: 0.4. Set D has the smallest variance and therefore the smallest standard deviation (\\(\\sqrt{0.4} \\approx 0.63\\))."},{"explanation":"<ul><li>Choice A: {44,45,47,49,50} &mdash; deviations up to &plusmn;3; sum of squares = 26; SD &asymp; 2.28. Largest spread. Eliminated.</li><li>Choice B: {45,45,47,49,49} &mdash; deviations up to &plusmn;2; sum of squares = 16; SD &asymp; 1.79. Eliminated.</li><li>Choice C: {45,46,47,48,49} &mdash; deviations up to &plusmn;2; sum of squares = 10; SD &asymp; 1.41. Eliminated.</li><li>Choice D: {46,47,47,47,48} &mdash; deviations only &plusmn;1 with three values at the mean; sum of squares = 2; SD &asymp; 0.63. Smallest standard deviation. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"}]}
+{
+  "qid": "ffdaaea2-8ec1-44b7-903d-084c644b881a_2",
+  "correctAnswer": "D",
+  "steps": [
+    {
+      "explanation": "Find the mean of each dataset. All five sets sum to 235 (e.g., A: 44+45+47+49+50=235), so every dataset has mean $\\bar{x} = 235 \\div 5 = 47$. Standard deviation depends only on the deviations from the mean."
+    },
+    {
+      "explanation": "Compute squared deviations for each set from mean 47. Set A: $(-3)^2+(-2)^2+0^2+2^2+3^2 = 9+4+0+4+9=26$. Set B: $(-2)^2+(-2)^2+0^2+2^2+2^2=4+4+0+4+4=16$. Set C: $(-2)^2+(-1)^2+0^2+1^2+2^2=4+1+0+1+4=10$. Set D: $(-1)^2+0^2+0^2+0^2+1^2=1+0+0+0+1=2$."
+    },
+    {
+      "explanation": "The variance is (sum of squared deviations) &divide; 5. Set A: 5.2, Set B: 3.2, Set C: 2.0, Set D: 0.4. Set D has the smallest variance and therefore the smallest standard deviation ($\\sqrt{0.4} \\approx 0.63$)."
+    },
+    {
+      "explanation": "<ul><li>Choice A: {44,45,47,49,50} &mdash; deviations up to &plusmn;3; sum of squares = 26; SD &asymp; 2.28. Largest spread. Eliminated.</li><li>Choice B: {45,45,47,49,49} &mdash; deviations up to &plusmn;2; sum of squares = 16; SD &asymp; 1.79. Eliminated.</li><li>Choice C: {45,46,47,48,49} &mdash; deviations up to &plusmn;2; sum of squares = 10; SD &asymp; 1.41. Eliminated.</li><li>Choice D: {46,47,47,47,48} &mdash; deviations only &plusmn;1 with three values at the mean; sum of squares = 2; SD &asymp; 0.63. Smallest standard deviation. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
+    }
+  ]
+}

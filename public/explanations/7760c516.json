@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Recall the mean formula",
-      "content": "The mean is found by adding all the values and dividing by how many values there are. Count the data set: 6, 10, 13, 2, 15, 22, 10, 4, 4, 4 \u2014 there are 10 values.",
+      "content": "The mean is found by adding all the values and dividing by how many values there are. Count the data set: 6, 10, 13, 2, 15, 22, 10, 4, 4, 4 — there are 10 values.",
       "formula": "$$\\text{Mean} = \\frac{\\text{Sum of all values}}{\\text{Number of values}}$$"
     },
     {

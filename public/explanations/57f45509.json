@@ -1,1 +1,11 @@
-{"questionId": "57f45509", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Read the median from the box plot", "content": "In a box plot, the vertical line segment inside the box represents the median. Looking at the horizontal axis scale and where this line is positioned, it aligns with $5$. That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "57f45509",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the median from the box plot",
+      "content": "In a box plot, the vertical line segment inside the box represents the median. Looking at the horizontal axis scale and where this line is positioned, it aligns with $5$. That matches choice C — <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,31 @@
-{"questionId":"590f2187","correctAnswer":"B","section":"Math","steps":[{"title":"Apply the factoring from the given condition","content":"Factor $3$: $3(x-9) = 24$."},{"title":"Compute the target value","content":"Divide by $3$: $x-9 = 8$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}
+{
+  "questionId": "590f2187",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the factoring from the given condition",
+      "content": "Factor $3$: $3(x-9) = 24$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "Divide by $3$: $x-9 = 8$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice B is correct. Dividing each side of the given equation by $3$ yields $x-9=8$. Therefore, the value of $x-9$ is $8$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A is incorrect and may result from conceptual or calculation errors."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice C is incorrect. This is the value of $3x-27$, not $x-9$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice D is incorrect and may result from conceptual or calculation errors."
+    }
+  ]
+}

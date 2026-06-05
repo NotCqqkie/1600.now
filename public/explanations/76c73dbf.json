@@ -14,7 +14,10 @@
     {
       "title": "Extract the radius from standard form",
       "content": "The equation is now in the form $(x-h)^2 + (y-k)^2 = r^2$ with $r^2 = 100$. Therefore, the radius is $r = \\sqrt{100} = 10$.",
-      "desmosExpressions": ["x^2 + x + y^2 + y = 199/2", "(x+1/2)^2 + (y+1/2)^2 = 100"]
+      "desmosExpressions": [
+        "x^2 + x + y^2 + y = 199/2",
+        "(x+1/2)^2 + (y+1/2)^2 = 100"
+      ]
     }
   ]
 }

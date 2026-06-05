@@ -1,1 +1,14 @@
-{"questionId": "0837c3b9", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Use the scale shortcut: perimeter scales by linear factor k", "content": "Triangle $ABC$ and triangle $DEF$ are similar with $DE = 2 \\cdot AB$, so the linear scale factor is $k = 2$.<br/>Perimeters scale by the same factor $k$:<br/>$$\\text{Perimeter of } \\triangle DEF = 2 \\times 20 = 40$$<br/>That matches choice B — <strong>B</strong> is correct.", "desmosExpressions": ["2*20"]}]}
+{
+  "questionId": "0837c3b9",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the scale shortcut: perimeter scales by linear factor k",
+      "content": "Triangle $ABC$ and triangle $DEF$ are similar with $DE = 2 \\cdot AB$, so the linear scale factor is $k = 2$.<br/>Perimeters scale by the same factor $k$:<br/>$$\\text{Perimeter of } \\triangle DEF = 2 \\times 20 = 40$$<br/>That matches choice B — <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "2*20"
+      ]
+    }
+  ]
+}

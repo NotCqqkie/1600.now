@@ -1,1 +1,15 @@
-{"questionId": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_20", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Identify the sides relative to angle A", "content": "In a right triangle, <strong>tan(angle) = opposite/adjacent</strong>.<br/><br/>For angle A, the opposite side is BC and the adjacent side is AC. From the labeled side lengths on the figure, the side opposite angle A measures $2\\sqrt{3}$ and the side adjacent to angle A measures $2$.<br/>$$\\tan A = \\frac{\\text{opposite}}{\\text{adjacent}} = \\frac{2\\sqrt{3}}{2}$$"}, {"title": "Simplify the ratio", "content": "Cancel the common factor of $2$ in the numerator and denominator:<br/>$$\\frac{2\\sqrt{3}}{2} = \\sqrt{3}$$<br/>This is the tangent of a $60^\\circ$ angle, consistent with the $30$-$60$-$90$ ratio (opposite : adjacent : hypotenuse $= \\sqrt{3}k : k : 2k$). That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_20",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the sides relative to angle A",
+      "content": "In a right triangle, <strong>tan(angle) = opposite/adjacent</strong>.<br/><br/>For angle A, the opposite side is BC and the adjacent side is AC. From the labeled side lengths on the figure, the side opposite angle A measures $2\\sqrt{3}$ and the side adjacent to angle A measures $2$.<br/>$$\\tan A = \\frac{\\text{opposite}}{\\text{adjacent}} = \\frac{2\\sqrt{3}}{2}$$"
+    },
+    {
+      "title": "Simplify the ratio",
+      "content": "Cancel the common factor of $2$ in the numerator and denominator:<br/>$$\\frac{2\\sqrt{3}}{2} = \\sqrt{3}$$<br/>This is the tangent of a $60^\\circ$ angle, consistent with the $30$-$60$-$90$ ratio (opposite : adjacent : hypotenuse $= \\sqrt{3}k : k : 2k$). That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

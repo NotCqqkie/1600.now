@@ -1,1 +1,23 @@
-{"questionId": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_9", "correctAnswer": "28", "section": "Math", "steps": [{"title": "Equate coefficients of x", "content": "For infinitely many solutions, the coefficients of $x$ on both sides must be equal and the constant terms must be equal.<br/>The given equation is $$(2k+4)x + (3k-14) = (k+32)x + (k+42)$$<br/>Set the $x$‑coefficients equal:<br/>$$2k+4 = k+32$$<br/>Subtract $k$ from both sides:<br/>$$k+4 = 32$$<br/>Subtract $4$:<br/>$$k = 28$$"}, {"title": "Check constant terms", "content": "Now equate the constant terms:<br/>$$3k-14 = k+42$$<br/>Subtract $k$:<br/>$$2k-14 = 42$$<br/>Add $14$:<br/>$$2k = 56$$<br/>Divide by $2$:<br/>$$k = 28$$<br/>Both conditions give the same value, so the equation has infinitely many solutions when $k=28$.<br/>The answer is <strong>28</strong>."}]}
+{
+  "questionId": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_9",
+  "correctAnswer": "28",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use custom regression first",
+      "content": "For infinitely many solutions, the left and right expressions must be identical for all $x$. Enter two test inputs into Desmos, $x_1=[0,1]$, then type $(2k+4)x_1+(3k-14)\\sim(k+32)x_1+(k+42)$. The regression returns $k=28$.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "(2k+4) x_1+(3k-14)~(k+32) x_1+(k+42)"
+      ]
+    },
+    {
+      "title": "Verify both identity conditions",
+      "content": "Algebra gives the same result. Match $x$-coefficients: $$2k+4=k+32$$ $$k=28$$ Match constants: $$3k-14=k+42$$ $$2k=56$$ $$k=28$$ Both parts agree, so the equation becomes identical on both sides only when $k=28$."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "Substitute $k=28$: the left side is $(60)x+(70)$ and the right side is also $(60)x+(70)$. Therefore the equation has infinitely many solutions, and the answer is <strong>28</strong>."
+    }
+  ]
+}

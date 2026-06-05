@@ -1,1 +1,15 @@
-{"questionId": "e635aede", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Chaining the multipliers", "content": "Percentage increases are chained by multiplication. The 2007–2008 increase of 14% means multiplying by $1.14$. The 2008–2009 increase of 4% means multiplying by $1.04$. Therefore, the ratio of 2009 earnings to 2007 earnings is: $$y = 1.14 \\times 1.04$$"}, {"title": "Calculate the product", "content": "Expand $(1 + 0.14)(1 + 0.04)$: $$1.14 \\times 1.04 = 1 + 0.14 + 0.04 + (0.14)(0.04) = 1 + 0.18 + 0.0056 = 1.1856$$ That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "e635aede",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Chaining the multipliers",
+      "content": "Percentage increases are chained by multiplication. The 2007–2008 increase of 14% means multiplying by $1.14$. The 2008–2009 increase of 4% means multiplying by $1.04$. Therefore, the ratio of 2009 earnings to 2007 earnings is: $$y = 1.14 \\times 1.04$$"
+    },
+    {
+      "title": "Calculate the product",
+      "content": "Expand $(1 + 0.14)(1 + 0.04)$: $$1.14 \\times 1.04 = 1 + 0.14 + 0.04 + (0.14)(0.04) = 1 + 0.18 + 0.0056 = 1.1856$$ That matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

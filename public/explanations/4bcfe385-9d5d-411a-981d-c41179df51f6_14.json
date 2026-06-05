@@ -1,1 +1,19 @@
-{"questionId": "4bcfe385-9d5d-411a-981d-c41179df51f6_14", "correctAnswer": "14100", "section": "Math", "steps": [{"title": "Find undergraduate students from the graduate-to-undergraduate relationship", "content": "Graduate students represent 35% of undergraduate students. With 4,865 graduate students surveyed:<br/>$$4,865 = 0.35 \\times U$$<br/>Divide both sides by 0.35:<br/>$$U = \\frac{4,865}{0.35} = 13,900$$"}, {"title": "Find postdoctoral students from the undergraduate-to-postdoctoral relationship", "content": "Undergraduate students represent 6950% of postdoctoral students. Converting 6950% to decimal form: 6950% = 69.5. Using U = 13,900:<br/>$$13,900 = 69.5 \\times P$$<br/>Divide both sides by 69.5:<br/>$$P = \\frac{13,900}{69.5} = 200$$"}, {"title": "Add the two student populations", "content": "$$13,900 + 200 = 14,100$$<br/>The sum of undergraduate and postdoctoral students surveyed is <strong>14,100</strong>."}]}
+{
+  "questionId": "4bcfe385-9d5d-411a-981d-c41179df51f6_14",
+  "correctAnswer": "14100",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find undergraduate students from the graduate-to-undergraduate relationship",
+      "content": "Graduate students represent 35% of undergraduate students. With 4,865 graduate students surveyed:<br/>$$4,865 = 0.35 \\times U$$<br/>Divide both sides by 0.35:<br/>$$U = \\frac{4,865}{0.35} = 13,900$$"
+    },
+    {
+      "title": "Find postdoctoral students from the undergraduate-to-postdoctoral relationship",
+      "content": "Undergraduate students represent 6950% of postdoctoral students. Converting 6950% to decimal form: 6950% = 69.5. Using U = 13,900:<br/>$$13,900 = 69.5 \\times P$$<br/>Divide both sides by 69.5:<br/>$$P = \\frac{13,900}{69.5} = 200$$"
+    },
+    {
+      "title": "Add the two student populations",
+      "content": "$$13,900 + 200 = 14,100$$<br/>The sum of undergraduate and postdoctoral students surveyed is <strong>14,100</strong>."
+    }
+  ]
+}

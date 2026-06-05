@@ -1,1 +1,34 @@
-{"questionId": "788bfd56", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Substitute the value x = 144", "content": "Replace $x$ with $144$ in $$f(x) = 4 + \\sqrt{x}.$$ This gives $$f(144) = 4 + \\sqrt{144}.$$"}, {"title": "Compute the result", "content": "Simplify: $$f(144) = 4 + 12 = 16.$$ That matches choice <strong>B</strong> — <strong>B</strong> is correct.", "desmosExpressions": ["f(x)=4+sqrt(x)"]}]}
+{
+  "questionId": "788bfd56",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the value x = 144",
+      "content": "Replace $x$ with $144$ in $$f(x) = 4 + \\sqrt{x}.$$ This gives $$f(144) = 4 + \\sqrt{144}.$$"
+    },
+    {
+      "title": "Compute the result",
+      "content": "Simplify: $$f(144) = 4 + 12 = 16.$$ That matches choice <strong>B</strong> — <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "f(x)=4+\\sqrt{x}"
+      ]
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice B is correct. The value of $f\\left(144\\right)$ is the value of $f\\left(x\\right)$ when $x=144$. It's given that the function $f$ is defined by $f\\left(x\\right)=4+\\sqrt{x}$. Substituting $144$ for $x$ in this equation yields $f\\left(144\\right)=4+\\sqrt{144}$. Since the positive square root of $144$ is $12$, it follows that this equation can be rewritten as $f\\left(144\\right)=4+12$, or $f\\left(144\\right)=16$. Therefore, the value of $f\\left(144\\right)$ is $16$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A is incorrect and may result from conceptual or calculation errors."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice C is incorrect. This is the value of $f\\left(1,296\\right)$, not $f\\left(144\\right)$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice D is incorrect. This is the value of $f\\left(5,184\\right)$, not $f\\left(144\\right)$."
+    }
+  ]
+}

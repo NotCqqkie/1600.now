@@ -1,1 +1,19 @@
-{"questionId": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_7", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Analyze the equation", "content": "Subtract $2$, then divide by $8$ in $8x+2=10$: $$x=1.$$ The coefficient on $x$ is nonzero."}, {"title": "Count the solutions", "content": "There is exactly one solution. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}
+{
+  "questionId": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_7",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Analyze the equation",
+      "content": "Subtract $2$, then divide by $8$ in $8x+2=10$: $$x=1.$$ The coefficient on $x$ is nonzero."
+    },
+    {
+      "title": "Count the solutions",
+      "content": "There is exactly one solution. That matches choice <strong>A</strong> — <strong>A</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice A, Exactly one, and the other choices fail the same setup or substitution. Therefore <strong>A</strong> is correct."
+    }
+  ]
+}

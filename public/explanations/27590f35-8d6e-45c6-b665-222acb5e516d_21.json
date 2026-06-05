@@ -1,1 +1,25 @@
-{"questionId": "27590f35-8d6e-45c6-b665-222acb5e516d_21", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Find the growth rate p of f(x)", "content": "For $f(x) = k(1.84)^x$, increasing $x$ by 1 multiplies the output by 1.84: $$f(x+1) = k(1.84)^{x+1} = 1.84 \\cdot k(1.84)^x = 1.84 \\cdot f(x).$$ So $f(x)$ increases by $p = 84\\%$ for every unit increase in $x$."}, {"title": "Determine what g(x) must look like", "content": "We need $g(x)$ to increase by $84\\%$ — that is, multiply by $1.84$ — for every increase of $x$ by 4. So the ratio $g(x+4)/g(x)$ must equal $1.84$. Writing $g(x) = k \\cdot (1.84)^{h(x)}$, we need the exponent to increase by exactly $1$ when $x$ increases by $4$, which means $h(x) = x/4$."}, {"title": "Evaluate each choice", "content": "<ul><li>Choice A: $k(1.84^x)^{1/4} = k \\cdot 1.84^{x/4}$. When $x \\to x+4$: exponent goes from $x/4$ to $(x+4)/4 = x/4 + 1$, so it multiplies by $1.84^1 = 1.84$. Increases by $84\\%$ every 4 steps. &#10003;</li><li>Choice B: $k(1.84^x)^4 = k \\cdot 1.84^{4x}$. When $x \\to x+4$: multiplies by $1.84^{16}$, far more than $84\\%$ — eliminate.</li><li>Choice C: $k(1.84)^{x-4}$. Compute $g(x+4)/g(x) = k(1.84)^{(x+4)-4} / k(1.84)^{x-4} = 1.84^x / 1.84^{x-4} = 1.84^4 \\neq 1.84$ — eliminate.</li><li>Choice D: $k(1.84)^{x+4}$. Ratio $g(x+4)/g(x) = 1.84^{(x+8)}/1.84^{(x+4)} = 1.84^4 \\neq 1.84$ — eliminate.</li></ul>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "27590f35-8d6e-45c6-b665-222acb5e516d_21",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the growth rate p of f(x)",
+      "content": "For $f(x) = k(1.84)^x$, increasing $x$ by 1 multiplies the output by 1.84: $$f(x+1) = k(1.84)^{x+1} = 1.84 \\cdot k(1.84)^x = 1.84 \\cdot f(x).$$ So $f(x)$ increases by $p = 84\\%$ for every unit increase in $x$."
+    },
+    {
+      "title": "Use a ratio check on the choices",
+      "content": "The correct $g$ must satisfy $\\frac{g(4)}{g(0)}=1.84$, because increasing $x$ from $0$ to $4$ should multiply the output by the same factor that $f$ uses for one step. Set $k=1$ because it cancels in every ratio, then compare the four choice ratios in Desmos.",
+      "desmosExpressions": [
+        "((1.84^4)^{\\frac{1}{4}})/((1.84^0)^{\\frac{1}{4}})",
+        "((1.84^4)^4)/((1.84^0)^4)",
+        "(1.84^{4-4})/(1.84^{0-4})",
+        "(1.84^{4+4})/(1.84^{0+4})"
+      ]
+    },
+    {
+      "title": "Pick the matching ratio",
+      "content": "Choice A gives $1.84$ exactly:<br/>$$g(x)=k(1.84^x)^{1/4}=k(1.84)^{x/4}$$<br/>When $x$ increases by $4$, the exponent increases by $1$, so the output is multiplied by $1.84$. Choices B, C, and D multiply by powers other than $1.84$. Choice <strong>A</strong> is correct."
+    }
+  ]
+}

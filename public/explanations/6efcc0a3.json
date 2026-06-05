@@ -1,1 +1,36 @@
-{"questionId": "6efcc0a3", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Find the slope", "content": "Slope $=\\dfrac{40-41}{1-0}=-1$. Use a known point to find the intercept: $h(x)=-x+41$."}, {"title": "Identify the answer", "content": "The function is $$h(x)=-x+41.$$ That matches choice <strong>A</strong> — <strong>A</strong> is correct.", "desmosExpressions": ["y=-x+41", "(0,41)", "(1,40)"]}]}
+{
+  "questionId": "6efcc0a3",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope",
+      "content": "Slope $=\\dfrac{40-41}{1-0}=-1$. Use a known point to find the intercept: $h(x)=-x+41$."
+    },
+    {
+      "title": "Identify the answer",
+      "content": "The function is $$h(x)=-x+41.$$ That matches choice <strong>A</strong> — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y=-x+41",
+        "(0,41)",
+        "(1,40)"
+      ]
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice A is correct. An equation defining a linear function can be written in the form $h\\left(x\\right)=ax+b$, where $a$ and $b$ are constants. It's given that $h\\left(0\\right)=41$. Substituting $0$ for $x$ and $41$ for $h\\left(x\\right)$ in the equation $h\\left(x\\right)=ax+b$ yields $41=a\\left(0\\right)+b$, or $b=41$. Substituting $41$ for $b$ in the equation $h\\left(x\\right)=ax+b$ yields $h\\left(x\\right)=ax+41$. It's also given that $h\\left(1\\right)=40$. Substituting $1$ for $x$ and $40$ for $h\\left(x\\right)$ in the equation $h\\left(x\\right)=ax+41$ yields $40=a\\left(1\\right)+41$, or $40=a+41$. Subtracting $41$ from the left- and right-hand sides of this equation yields $-1=a$. Substituting $-1$ for $a$ in the equation $h\\left(x\\right)=ax+41$ yields $h\\left(x\\right)=-1x+41$, or $h\\left(x\\right)=-x+41$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice B is incorrect. Substituting $0$ for $x$ and $41$ for $h\\left(x\\right)$ in this equation yields $41=-0$, which isn't a true statement."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice C is incorrect. Substituting $0$ for $x$ and $41$ for $h\\left(x\\right)$ in this equation yields $41=-41\\left(0\\right)$, or $41=0$, which isn't a true statement."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice D is incorrect. Substituting $41$ for $h\\left(x\\right)$ in this equation yields $41=-41$, which isn't a true statement."
+    }
+  ]
+}

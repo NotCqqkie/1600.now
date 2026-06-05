@@ -1,1 +1,19 @@
-{"questionId": "1fc4f47b", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Recognize that all probabilities sum to 1", "content": "The three theaters account for all customers. Therefore:<br/>$$P(A) + P(B) + P(C) = 1$$"}, {"title": "Calculate the probability for theater C", "content": "Substitute the given probabilities:<br/>$$P(C) = 1 - 0.48 - 0.24 = 0.28$$"}, {"title": "Convert probability to number of customers", "content": "Multiply the probability by the total number of customers:<br/>$$0.28 \\times 350 = 98$$<br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "1fc4f47b",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize that all probabilities sum to 1",
+      "content": "The three theaters account for all customers. Therefore:<br/>$$P(A) + P(B) + P(C) = 1$$"
+    },
+    {
+      "title": "Calculate the probability for theater C",
+      "content": "Substitute the given probabilities:<br/>$$P(C) = 1 - 0.48 - 0.24 = 0.28$$"
+    },
+    {
+      "title": "Convert probability to number of customers",
+      "content": "Multiply the probability by the total number of customers:<br/>$$0.28 \\times 350 = 98$$<br/>That matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

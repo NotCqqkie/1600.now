@@ -1,1 +1,35 @@
-{"questionId": "65833256", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Solve the system by substitution", "content": "Substitute $y=6x+16$ into $-7x-y=36$: $$-7x-(6x+16)=36.$$ Simplify: $-13x=52$, so $x=-4$."}, {"title": "Find the matching ordered pair", "content": "Then $y=6(-4)+16=-8$. The answer is <strong>(A) $(-4,-8)$</strong>.", "desmosExpressions": ["y = 6x + 16", "y = -7x - 36"]}]}
+{
+  "questionId": "65833256",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve the system by substitution",
+      "content": "Substitute $y=6x+16$ into $-7x-y=36$: $$-7x-(6x+16)=36.$$ Simplify: $-13x=52$, so $x=-4$."
+    },
+    {
+      "title": "Find the matching ordered pair",
+      "content": "Then $y=6(-4)+16=-8$. The answer is <strong>(A) $(-4,-8)$</strong>.",
+      "desmosExpressions": [
+        "y = 6x + 16",
+        "y = -7x - 36"
+      ]
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice A is correct. The given system of linear equations can be solved by the substitution method. The first equation in the given system of equations defines $y$ as $6x+16$. Substituting $6x+16$ for $y$ in the second equation of the given system of equations yields $-7x-(6x+16)=36$. Applying the distributive property on the left-hand side of this equation yields $-7x-6x-16=36$, or $-13x-16=36$. Adding $16$ to both sides of this equation yields $-13x=52$. Dividing both sides of this equation by $-13$ yields $x=-4$. Substituting $-4$ for $x$ in the first equation of the given system of equations, $y=6x+16$, yields $y=6(-4)+16$, or $y=-8$. Therefore, the solution $(x,y)$ to the given system of equations is $(-4,-8)$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice B is incorrect and may result from conceptual or calculation errors."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice C is incorrect and may result from conceptual or calculation errors."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice D is incorrect and may result from conceptual or calculation errors."
+    }
+  ]
+}

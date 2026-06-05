@@ -1,1 +1,22 @@
-{"questionId": "35bd5fb1-7659-4393-b736-241352b7187e_4", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Identify what the question needs", "content": "Read the y-intercept of data set A's line of best fit from the graph, then apply the vertical shift: subtracting 9 from every y-value moves the entire line down by 9 units, so the new y-intercept is the original minus 9."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; $45.57$</strong>: The graph's line crosses the y-axis at approximately $54.57$. Subtracting 9 gives $54.57 - 9 = 45.57$. &#10003;</li><li><strong>Choice B &mdash; $53$</strong>: This is close to the original y-intercept, as if no shift was applied. &#10007;</li><li><strong>Choice C &mdash; $59.62$</strong>: This exceeds the original y-intercept — it would require adding rather than subtracting. &#10007;</li><li><strong>Choice D &mdash; $62.75$</strong>: Further above the original intercept; a common error from misreading the graph scale. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "35bd5fb1-7659-4393-b736-241352b7187e_4",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the vertical-shift shortcut",
+      "content": "Data set B is created by subtracting $9$ from every $y$-value in data set A. That moves the entire line of best fit down $9$ units without changing its slope."
+    },
+    {
+      "title": "Adjust the intercept",
+      "content": "The line of best fit for data set A has $y$-intercept about $54.57$. Shifting the line down $9$ units gives $54.57-9=45.57$.",
+      "desmosExpressions": [
+        "54.57-9"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The $y$-intercept for data set B is closest to $45.57$, which matches choice <strong>A</strong>."
+    }
+  ]
+}

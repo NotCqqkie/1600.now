@@ -1,1 +1,19 @@
-{"questionId": "e4f2c33b-9282-40a7-810c-d633e5197f95_13", "correctAnswer": "34300", "section": "Math", "steps": [{"title": "Set up", "content": "Let $U$ = undergraduates, $G$ = graduates, $P$ = postdoctoral students. The problem gives $U = 0.715P$, $G = 0.45U$, and $G = 6{,}435$. The goal is $U + P$."}, {"title": "Solve", "content": "From $G = 0.45U$: $U = \\dfrac{6{,}435}{0.45} = 14{,}300$. From $U = 0.715P$: $P = \\dfrac{14{,}300}{0.715} = 20{,}000$. Sum: $14{,}300 + 20{,}000 = 34{,}300$."}, {"title": "Answer", "content": "<strong>34300</strong> is correct."}]}
+{
+  "questionId": "e4f2c33b-9282-40a7-810c-d633e5197f95_13",
+  "correctAnswer": "34300",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "Let $U$ = undergraduates, $G$ = graduates, $P$ = postdoctoral students. The problem gives $U = 0.715P$, $G = 0.45U$, and $G = 6{,}435$. The goal is $U + P$."
+    },
+    {
+      "title": "Solve",
+      "content": "From $G = 0.45U$: $U = \\dfrac{6{,}435}{0.45} = 14{,}300$. From $U = 0.715P$: $P = \\dfrac{14{,}300}{0.715} = 20{,}000$. Sum: $14{,}300 + 20{,}000 = 34{,}300$."
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>34300</strong> is correct."
+    }
+  ]
+}

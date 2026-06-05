@@ -10,7 +10,23 @@
     {
       "title": "Calculate probability",
       "formula": "$$P = \\frac{\\text{favorable outcomes}}{\\text{total outcomes}}$$",
-      "content": "With 9 favorable outcomes and 50 total outcomes: $$P = \\frac{9}{50}$$. That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "With 9 favorable outcomes and 50 total outcomes: $$P = \\frac{9}{50}$$. That matches choice B — <strong>B</strong> is correct."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice B is correct. If one of these children is selected at random, the probability of selecting a child who chose a vegetarian sandwich is equal to the number of children who chose a vegetarian sandwich divided by the total number of children. According to the table, there are a total of $50$ children, and $9$ of these children chose a vegetarian sandwich. Therefore, the probability of selecting a child who chose a vegetarian sandwich is $\\frac{9}{50}$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A is incorrect and may result from conceptual or calculation errors."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice C is incorrect and may result from conceptual or calculation errors."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice D is incorrect and may result from conceptual or calculation errors."
     }
   ]
 }

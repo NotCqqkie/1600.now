@@ -1,1 +1,31 @@
-{"questionId":"9b886541","correctAnswer":"D","section":"Math","steps":[{"title":"Apply the rearrangement from the given condition","content":"Add $8$ to both sides: $3x = 15$."},{"title":"Compute the target value","content":"Then $3x+8 = 15+8 = 23$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "9b886541",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the rearrangement from the given condition",
+      "content": "Add $8$ to both sides: $3x = 15$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "Then $3x+8 = 15+8 = 23$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice D is correct. It's given that $3x-8=7$. Adding $8$ to both sides of this equation yields $3x=15$. Adding $8$ to both sides of this equation yields $3x+8=23$. Therefore, the value of $3x+8$ is $23$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A is incorrect and may result from conceptual or calculation errors."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice B is incorrect. This is the value of $x$, not $3x+8$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice C is incorrect and may result from conceptual or calculation errors."
+    }
+  ]
+}

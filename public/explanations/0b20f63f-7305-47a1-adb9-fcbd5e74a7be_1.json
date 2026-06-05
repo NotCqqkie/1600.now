@@ -1,1 +1,19 @@
-{"questionId": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_1", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Isolate the variable term", "content": "Starting from $$11x+50=160,$$ subtract 50 on both sides to isolate the variable term."}, {"title": "Identify the answer", "content": "This gives $$11x=110.$$ That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}
+{
+  "questionId": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_1",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the variable term",
+      "content": "Starting from $$11x+50=160,$$ subtract 50 on both sides to isolate the variable term."
+    },
+    {
+      "title": "Identify the answer",
+      "content": "This gives $$11x=110.$$ That matches choice <strong>C</strong> — <strong>C</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice C, $11x = 110$. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
+    }
+  ]
+}

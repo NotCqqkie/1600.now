@@ -1,1 +1,15 @@
-{"questionId": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_12", "correctAnswer": "18", "section": "Math", "steps": [{"title": "Set up the equation from the given information", "content": "Let <strong>p</strong> be the original price per shirt. Raheem bought 9 shirts at this price, so the original total cost is <strong>9p</strong> dollars. After applying a \\$54 coupon, the final cost was \\$108. This translates to the equation: $$9p - 54 = 108$$"}, {"title": "Solve for the price per shirt", "content": "Add 54 to both sides:<br/>$$9p = 162$$<br/>Divide both sides by 9:<br/>$$p = \\frac{162}{9} = 18$$<br/>Therefore, the original price for 1 shirt was <strong>\\$18</strong>."}]}
+{
+  "questionId": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_12",
+  "correctAnswer": "18",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the equation from the given information",
+      "content": "Let <strong>p</strong> be the original price per shirt. Raheem bought 9 shirts at this price, so the original total cost is <strong>9p</strong> dollars. After applying a \\$54 coupon, the final cost was \\$108. This translates to the equation: $$9p - 54 = 108$$"
+    },
+    {
+      "title": "Solve for the price per shirt",
+      "content": "Add 54 to both sides:<br/>$$9p = 162$$<br/>Divide both sides by 9:<br/>$$p = \\frac{162}{9} = 18$$<br/>Therefore, the original price for 1 shirt was <strong>\\$18</strong>."
+    }
+  ]
+}

@@ -1,12 +1,31 @@
 {
   "qid": "ffdaaea2-8ec1-44b7-903d-084c644b881a_18",
   "steps": [
-    "Set the two expressions for \\(y\\) equal: \\(x - c = -6(x-12)^2\\).",
-    "Expand and rearrange: \\(-6(x^2 - 24x + 144) - x + c = 0 \\Rightarrow 6x^2 - 143x + (864 - c) = 0\\).",
-    "For two distinct real solutions the discriminant must be strictly positive: \\(143^2 - 4 \\cdot 6 \\cdot (864 - c) > 0 \\Rightarrow 20449 - 20736 + 24c > 0 \\Rightarrow c > \\frac{287}{24} \\approx 11.96\\).",
-    "Only \\(c = 24\\) satisfies \\(c > 287/24\\); the boundary value \\(287/24\\) gives exactly one solution (tangent), and 7 and 11 are both below the threshold."
+    {
+      "title": "Set up the intersection equation",
+      "content": "The graphs intersect where $x-c=-6(x-12)^2$. Expanding and moving everything to one side gives:<br/>$$6x^2-143x+(864-c)=0$$"
+    },
+    {
+      "title": "Find the tangent boundary first",
+      "content": "Two distinct real solutions require the discriminant to be positive. Use Desmos to find the boundary where the discriminant is $0$:<br/>$$143^2-4(6)(864-c)=0$$<br/>The regression returns $c=\\frac{287}{24}\\approx 11.96$.",
+      "desmosExpressions": [
+        "y_1=[0]",
+        "y_1~143^2-4*6*(864-c)"
+      ]
+    },
+    {
+      "title": "Pick the listed value that gives two intersections",
+      "content": "$c=\\frac{287}{24}$ gives one repeated solution, not two distinct solutions. The value must be greater than that boundary. Among the choices, only $24$ is greater, so choice D is correct.",
+      "desmosExpressions": [
+        "y=x-24",
+        "y=-6(x-12)^{2}"
+      ]
+    }
   ],
-  "choiceEliminations": "<ul><li><strong>Choice A &mdash; '7'</strong>: \\(7 < 287/24 \\approx 11.96\\), so discriminant \\(< 0\\); no real solutions. &#10007;</li><li><strong>Choice B &mdash; '11'</strong>: \\(11 < 11.96\\), so discriminant is still negative; no real solutions. &#10007;</li><li><strong>Choice C &mdash; '\\(\\frac{287}{24}\\)'</strong>: Exactly at the threshold, discriminant \\(= 0\\); only one (repeated) solution, not two distinct ones. &#10007;</li><li><strong>Choice D &mdash; '24'</strong>: \\(24 > 11.96\\), so discriminant \\(> 0\\); two distinct real solutions. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.",
+  "choiceEliminations": "<ul><li><strong>Choice A &mdash; '7'</strong>: $7 < 287/24 \\approx 11.96$, so discriminant $< 0$; no real solutions. &#10007;</li><li><strong>Choice B &mdash; '11'</strong>: $11 < 11.96$, so discriminant is still negative; no real solutions. &#10007;</li><li><strong>Choice C &mdash; '$\\frac{287}{24}$'</strong>: Exactly at the threshold, discriminant $= 0$; only one (repeated) solution, not two distinct ones. &#10007;</li><li><strong>Choice D &mdash; '24'</strong>: $24 > 11.96$, so discriminant $> 0$; two distinct real solutions. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.",
   "correctAnswer": "D",
-  "desmosExpressions": ["y=x-24", "y=-6(x-12)^{2}"]
+  "desmosExpressions": [
+    "y=x-24",
+    "y=-6(x-12)^{2}"
+  ]
 }

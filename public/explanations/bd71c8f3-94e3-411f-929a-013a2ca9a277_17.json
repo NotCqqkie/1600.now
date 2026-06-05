@@ -1,8 +1,25 @@
 {
   "qid": "bd71c8f3-94e3-411f-929a-013a2ca9a277_17",
   "correctAnswer": "D",
-  "explanationHtml": "<p><strong>Step 1: Recall the discriminant rule.</strong><br>A quadratic \\(ax^2+bx+c=0\\) has exactly one distinct real solution when its discriminant \\(\\Delta=b^2-4ac=0\\).</p><p><strong>Step 2: Compute \\(\\Delta\\) for each choice.</strong><ul><li><strong>Choice A &mdash; &lsquo;\\(x^2-16=0\\)&rsquo;</strong>: \\(a=1,b=0,c=-16\\). \\(\\Delta=0-4(1)(-16)=64&gt;0\\) &rarr; two real solutions &#10007;</li><li><strong>Choice B &mdash; &lsquo;\\(x^2+16=0\\)&rsquo;</strong>: \\(a=1,b=0,c=16\\). \\(\\Delta=0-64=-64&lt;0\\) &rarr; no real solutions &#10007;</li><li><strong>Choice C &mdash; &lsquo;\\(x^2-16x+56=0\\)&rsquo;</strong>: \\(a=1,b=-16,c=56\\). \\(\\Delta=256-224=32&gt;0\\) &rarr; two real solutions &#10007;</li><li><strong>Choice D &mdash; &lsquo;\\(x^2-16x+64=0\\)&rsquo;</strong>: \\(a=1,b=-16,c=64\\). \\(\\Delta=256-256=0\\) &rarr; exactly one real solution \\((x=8)\\) &#10003;</li></ul></p><p>That matches choice D &mdash; <strong>D</strong> is correct.</p>",
-  "desmosExpressions": [
-    {"id": "choiceD", "latex": "y=x^2-16x+64"}
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Graph each answer choice",
+      "content": "Exactly one distinct real solution means the graph touches the x-axis exactly once. In Desmos, graph the left side of each equation and look for the parabola that is tangent to the x-axis.",
+      "desmosExpressions": [
+        "y=x^2-16",
+        "y=x^2+16",
+        "y=x^2-16x+56",
+        "y=x^2-16x+64"
+      ]
+    },
+    {
+      "title": "Identify the tangent graph",
+      "content": "Choice A crosses the x-axis twice, choice B never reaches the x-axis, and choice C crosses twice. Choice D is $y=x^2-16x+64=(x-8)^2$, which touches the x-axis once at $x=8$."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "Because $(x-8)^2=0$ has exactly one solution, $x=8$, choice <strong>D</strong> is correct."
+    }
   ]
 }

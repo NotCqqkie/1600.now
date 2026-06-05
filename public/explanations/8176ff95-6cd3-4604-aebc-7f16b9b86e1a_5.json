@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; '$2x+2y=44$'</strong>: The perimeter of a rectangle is twice the length plus twice the width, which equals 44. &#10003;</li><li><strong>Choice B &mdash; '$x+y=44$'</strong>: This only sums one length and one width \u2014 it forgets that a rectangle has two of each. &#10007;</li><li><strong>Choice C &mdash; '$2xy=44$'</strong>: This involves a product ($xy$), which gives area, not perimeter. &#10007;</li><li><strong>Choice D &mdash; '$xy=44$'</strong>: $xy$ is the area formula, not the perimeter. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; '$2x+2y=44$'</strong>: The perimeter of a rectangle is twice the length plus twice the width, which equals 44. &#10003;</li><li><strong>Choice B &mdash; '$x+y=44$'</strong>: This only sums one length and one width — it forgets that a rectangle has two of each. &#10007;</li><li><strong>Choice C &mdash; '$2xy=44$'</strong>: This involves a product ($xy$), which gives area, not perimeter. &#10007;</li><li><strong>Choice D &mdash; '$xy=44$'</strong>: $xy$ is the area formula, not the perimeter. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

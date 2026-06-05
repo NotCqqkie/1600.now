@@ -1,1 +1,24 @@
-{"questionId": "768f3b7c", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Find the slope from two table points", "content": "The table gives $(x,y)$ pairs $(-2s, 24)$, $(-s, 21)$, $(s, 15)$. Using the first two:<br/>$$\\text{slope} = \\frac{21 - 24}{-s - (-2s)} = \\frac{-3}{s}$$"}, {"title": "Build the line and convert to standard form", "content": "Point-slope with $(-s, 21)$ and slope $-\\tfrac{3}{s}$:<br/>$$y - 21 = -\\frac{3}{s}(x + s)$$<br/>Multiply by $s$: $sy - 21s = -3x - 3s$, so $3x + sy = 18s$. Check with $(s, 15)$: $3(s) + s(15) = 3s + 15s = 18s$. &check;"}, {"title": "Eliminate the other choices", "content": "<ul><li>Choice A: $sx + 3y = 18s$. Test $(-2s, 24)$: $s(-2s) + 3(24) = -2s^2 + 72$, which is not $18s$ in general. Eliminated.</li><li>Choice B: $3x + sy = 18s$. Verified above for all three points. Matches.</li><li>Choice C: $3x + sy = 18$. Test $(-2s, 24)$: $3(-2s) + s(24) = 18s$, not $18$. Eliminated.</li><li>Choice D: $sx + 3y = 18$. Test $(-2s, 24)$: $-2s^2 + 72 = 18$ forces $s^2 = 27$, not true in general. Eliminated.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "768f3b7c",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use a scale shortcut for s",
+      "content": "The $x$-values are $-2s$, $-s$, and $s$. Because all $x$-values are scaled by the same nonzero constant $s$, set $s=1$ to see the pattern quickly. The representative points are $(-2,24)$, $(-1,21)$, and $(1,15)$.",
+      "desmosExpressions": [
+        "x_1=[-2,-1,1]",
+        "y_1=[24,21,15]",
+        "y_1~m x_1+b"
+      ]
+    },
+    {
+      "title": "Translate the fitted line back to s",
+      "content": "With $s=1$, Desmos gives $y=-3x+18$. Restoring the original scale means the slope is $-\\frac{3}{s}$, so $$y=-\\frac{3}{s}x+18$$ Multiply by $s$: $$sy=-3x+18s$$ Then rearrange: $$3x+sy=18s$$"
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice <strong>B</strong> is $3x+sy=18s$, so B is correct."
+    }
+  ]
+}

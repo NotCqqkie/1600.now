@@ -1,1 +1,14 @@
-{"questionId": "99269e03", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Substitute x = 3 into the equation", "content": "To find $a$, evaluate $y = 4(2)^x + 3$ when $x = 3$.<br/>$$y = 4(2)^3 + 3$$<br/>Calculate $2^3 = 8$:<br/>$$y = 4(8) + 3$$<br/>Multiply $4 \\times 8 = 32$:<br/>$$y = 32 + 3$$<br/>$$y = 35$$<br/>Therefore $a = 35$. That matches choice B — <strong>B</strong> is correct.", "desmosExpressions": ["y=4((2))^(x)+3"]}]}
+{
+  "questionId": "99269e03",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x = 3 into the equation",
+      "content": "To find $a$, evaluate $y = 4(2)^x + 3$ when $x = 3$.<br/>$$y = 4(2)^3 + 3$$<br/>Calculate $2^3 = 8$:<br/>$$y = 4(8) + 3$$<br/>Multiply $4 \\times 8 = 32$:<br/>$$y = 32 + 3$$<br/>$$y = 35$$<br/>Therefore $a = 35$. That matches choice B — <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "y=4((2))^(x)+3"
+      ]
+    }
+  ]
+}

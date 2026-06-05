@@ -1,1 +1,19 @@
-{"questionId": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_6", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Substitute", "content": "Plug $x=6$ into $f(x)=\\tfrac{1}{2}(x+12)$.<br/>$$f(6)=\\tfrac{1}{2}(6+12)$$"}, {"title": "Compute the result", "content": "Add inside the parentheses, then halve.<br/>$$f(6)=\\tfrac12(18)=9$$<br/>That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_6",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute",
+      "content": "Plug $x=6$ into $f(x)=\\tfrac{1}{2}(x+12)$.<br/>$$f(6)=\\tfrac{1}{2}(6+12)$$"
+    },
+    {
+      "title": "Compute the result",
+      "content": "Add inside the parentheses, then halve.<br/>$$f(6)=\\tfrac12(18)=9$$<br/>That matches choice <strong>D</strong> — <strong>D</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice D, 9. The other choices do not satisfy the same condition from the question, so <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -179,7 +179,7 @@ def rewrite_sat_image_manifest() -> str:
         if path.is_file() and path.name != ".DS_Store"
     )
     manifest_lines = [
-        "// Auto-generated from public/images/SAT-Style Questions.",
+        "// SAT-style image manifest.",
         "// Only paths listed here are guaranteed to exist in this repo.",
         "",
         "export const satImageManifest = new Set<string>([",

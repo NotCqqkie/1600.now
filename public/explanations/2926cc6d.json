@@ -13,6 +13,22 @@
       "desmosExpressions": [
         "y = (5x + 4)(2x - 5)"
       ]
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice C is correct. Since a product of two factors is equal to $0$ if and only if at least one of the factors is $0$, either $5x+4=0$ or $2x-5=0$. Subtracting $4$ from each side of the equation $5x+4=0$ yields $5x=-4$. Dividing each side of this equation by $5$ yields $x=-\\frac{4}{5}$. Adding $5$ to each side of the equation $2x-5=0$ yields $2x=5$. Dividing each side of this equation by $2$ yields $x=\\frac{5}{2}$. It follows that the solutions to the given equation are $-\\frac{4}{5}$ and $\\frac{5}{2}$. Therefore, $-\\frac{4}{5}$ is a solution to the given equation."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A is incorrect and may result from conceptual or calculation errors."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice B is incorrect and may result from conceptual or calculation errors."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice D is incorrect and may result from conceptual or calculation errors."
     }
   ]
 }

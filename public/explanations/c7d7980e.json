@@ -1,1 +1,19 @@
-{"questionId":"c7d7980e","correctAnswer":"8","section":"Math","steps":[{"title":"Combine x terms","content":"Add $x$ to both sides of $13x=112-x$ to gather all $x$-terms on the left: $$14x=112.$$"},{"title":"Solve for x","content":"Divide both sides by $14$: $x=\\tfrac{112}{14}=8$. The answer is <strong>8</strong>."}]}
+{
+  "questionId": "c7d7980e",
+  "correctAnswer": "8",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Combine x terms",
+      "content": "Add $x$ to both sides of $13x=112-x$ to gather all $x$-terms on the left: $$14x=112.$$"
+    },
+    {
+      "title": "Solve for x",
+      "content": "Divide both sides by $14$: $x=\\tfrac{112}{14}=8$. The answer is <strong>8</strong>."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $8$. Adding $x$ to both sides of the given equation yields $14x=112$. Dividing both sides of this equation by $14$ yields $x=8$."
+    }
+  ]
+}

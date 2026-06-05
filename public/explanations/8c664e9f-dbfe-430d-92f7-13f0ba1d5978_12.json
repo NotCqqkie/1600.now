@@ -3,13 +3,13 @@
   "correctAnswer": "A",
   "steps": [
     {
-      "text": "Write the perimeter formula for a rectangle: \\(P = 2(\\text{length} + \\text{width})\\). With length = 55 and width = \\(x\\): \\(P = 2(55 + x) = 110 + 2x\\)."
+      "text": "Write the perimeter formula for a rectangle: $P = 2(\\text{length} + \\text{width})$. With length = 55 and width = $x$: $P = 2(55 + x) = 110 + 2x$."
     },
     {
-      "text": "&quot;At most 150 inches&quot; means the perimeter is less than or equal to 150, so the inequality is \\(2x + 110 \\leq 150\\)."
+      "text": "&quot;At most 150 inches&quot; means the perimeter is less than or equal to 150, so the inequality is $2x + 110 \\leq 150$."
     },
     {
-      "text": "Evaluate all choices:<ul><li>A: \\(2x + 110 \\leq 150\\) — matches the perimeter expression with the correct &le; sign for &quot;at most.&quot; That matches choice A — <strong>A</strong> is correct.</li><li>B: \\(2x + 110 \\geq 150\\) — &ge; means &quot;at least,&quot; not &quot;at most.&quot; Eliminated.</li><li>C: \\(x + 55 \\leq 150\\) — omits the factor of 2; this is only half the perimeter. Eliminated.</li><li>D: \\(x + 55 \\geq 150\\) — wrong sign and wrong perimeter expression. Eliminated.</li></ul>"
+      "text": "Evaluate all choices:<ul><li>A: $2x + 110 \\leq 150$ — matches the perimeter expression with the correct &le; sign for &quot;at most.&quot; That matches choice A — <strong>A</strong> is correct.</li><li>B: $2x + 110 \\geq 150$ — &ge; means &quot;at least,&quot; not &quot;at most.&quot; Eliminated.</li><li>C: $x + 55 \\leq 150$ — omits the factor of 2; this is only half the perimeter. Eliminated.</li><li>D: $x + 55 \\geq 150$ — wrong sign and wrong perimeter expression. Eliminated.</li></ul>"
     }
   ]
 }

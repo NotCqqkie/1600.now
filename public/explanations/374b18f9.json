@@ -1,1 +1,19 @@
-{"questionId": "374b18f9", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Locate the median on the box plot", "content": "In a box plot, the median is the vertical line inside the box. On this plot, that line sits between the 7,000 and 8,000 tick marks, just past 7,000."}, {"title": "Match the reading to a choice", "content": "Among the answer choices, 7,067 is the closest value to where the median line falls on the axis."}, {"title": "Eliminate the choices", "content": "<ul><li>A. 4,399 &mdash; this is closer to the lower quartile or minimum, not the median; incorrect.</li><li>B. 7,067 &mdash; matches the position of the median line.</li><li>C. 8,831 &mdash; this is closer to the upper quartile, not the median; incorrect.</li><li>D. 10,595 &mdash; this is closer to the maximum, not the median; incorrect.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "374b18f9",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Locate the median on the box plot",
+      "content": "In a box plot, the median is the vertical line inside the box. On this plot, that line sits between the 7,000 and 8,000 tick marks, just past 7,000."
+    },
+    {
+      "title": "Match the reading to a choice",
+      "content": "Among the answer choices, 7,067 is the closest value to where the median line falls on the axis."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li>A. 4,399 &mdash; this is closer to the lower quartile or minimum, not the median; incorrect.</li><li>B. 7,067 &mdash; matches the position of the median line.</li><li>C. 8,831 &mdash; this is closer to the upper quartile, not the median; incorrect.</li><li>D. 10,595 &mdash; this is closer to the maximum, not the median; incorrect.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

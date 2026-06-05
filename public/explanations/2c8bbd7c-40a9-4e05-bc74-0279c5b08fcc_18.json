@@ -1,1 +1,23 @@
-{"questionId":"2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_18","correctAnswer":"C","section":"Math","steps":[{"title":"Apply the triangle inequality","content":"With sides 8 and 13, the third side $x$ must satisfy $x < 8+13=21$ and $x > |8-13|=5$."},{"title":"Combine the two bounds","content":"Combining gives $$5 < x < 21.$$"},{"title":"Match the answer","content":"That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}
+{
+  "questionId": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_18",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the triangle inequality",
+      "content": "With sides 8 and 13, the third side $x$ must satisfy $x < 8+13=21$ and $x > |8-13|=5$."
+    },
+    {
+      "title": "Combine the two bounds",
+      "content": "Combining gives $$5 < x < 21.$$"
+    },
+    {
+      "title": "Match the answer",
+      "content": "That matches choice <strong>C</strong> — <strong>C</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice C, $5 < x < 21$. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
+    }
+  ]
+}

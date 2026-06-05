@@ -1,1 +1,18 @@
-{"questionId": "35bd5fb1-7659-4393-b736-241352b7187e_5", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Find the slope", "content": "Both given values are $f(0)=5$ and $f(7)=5$. Slope $= \\dfrac{5-5}{7-0} = 0$, so $f$ is a constant function."}, {"title": "Evaluate Each Choice", "content": "<ul><li><strong>Choice A &mdash; 'f(x) = 0'</strong>: A constant function always returning 0 contradicts $f(0)=5$. &#10007;</li><li><strong>Choice B &mdash; 'f(x) = 7'</strong>: A constant function returning 7 contradicts $f(0)=5$. &#10007;</li><li><strong>Choice C &mdash; 'f(x) = 5'</strong>: A constant function returning 5 satisfies $f(0)=5$ and $f(7)=5$. &#10003;</li><li><strong>Choice D &mdash; 'f(x) = x + 5'</strong>: This has slope 1, not 0; also $f(7)=12 \\neq 5$. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.", "desmosExpressions": ["y = 5"]}]}
+{
+  "questionId": "35bd5fb1-7659-4393-b736-241352b7187e_5",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope",
+      "content": "Both given values are $f(0)=5$ and $f(7)=5$. Slope $= \\dfrac{5-5}{7-0} = 0$, so $f$ is a constant function."
+    },
+    {
+      "title": "Evaluate Each Choice",
+      "content": "<ul><li><strong>Choice A &mdash; 'f(x) = 0'</strong>: A constant function always returning 0 contradicts $f(0)=5$. &#10007;</li><li><strong>Choice B &mdash; 'f(x) = 7'</strong>: A constant function returning 7 contradicts $f(0)=5$. &#10007;</li><li><strong>Choice C &mdash; 'f(x) = 5'</strong>: A constant function returning 5 satisfies $f(0)=5$ and $f(7)=5$. &#10003;</li><li><strong>Choice D &mdash; 'f(x) = x + 5'</strong>: This has slope 1, not 0; also $f(7)=12 \\neq 5$. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "y = 5"
+      ]
+    }
+  ]
+}

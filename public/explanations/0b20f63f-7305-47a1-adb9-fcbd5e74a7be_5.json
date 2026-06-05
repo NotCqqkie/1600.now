@@ -1,10 +1,10 @@
 {
   "qid": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_5",
   "steps": [
-    "Distribute the subtraction sign across the second parentheses: \\((3c + 9) - (4c^3 - 5) = 3c + 9 - 4c^3 + 5\\).",
-    "Combine like terms — the constant terms: \\(9 + 5 = 14\\).",
-    "Write the result in standard form (highest degree first): \\(-4c^3 + 3c + 14\\).",
-    "Evaluate each answer choice:<ul><li>Choice A: \\(4c^3 + 3c + 14\\) — the cubic coefficient is \\(+4\\), but distributing the negative gives \\(-4c^3\\). Eliminated.</li><li>Choice B: \\(-4c^3 + 3c + 14\\) — matches \\(-4c^3 + 3c + 14\\) exactly. That matches choice B — <strong>B</strong> is correct.</li><li>Choice C: \\(4c^3 + 3c + 4\\) — wrong sign on the cubic term and the constant is 4 instead of 14. Eliminated.</li><li>Choice D: \\(-4c^3 + 3c + 4\\) — the cubic sign is correct but the constant is 4, not 14. Eliminated.</li></ul>"
+    "Distribute the subtraction sign across the second parentheses: $(3c + 9) - (4c^3 - 5) = 3c + 9 - 4c^3 + 5$.",
+    "Combine like terms — the constant terms: $9 + 5 = 14$.",
+    "Write the result in standard form (highest degree first): $-4c^3 + 3c + 14$.",
+    "Evaluate each answer choice:<ul><li>Choice A: $4c^3 + 3c + 14$ — the cubic coefficient is $+4$, but distributing the negative gives $-4c^3$. Eliminated.</li><li>Choice B: $-4c^3 + 3c + 14$ — matches $-4c^3 + 3c + 14$ exactly. That matches choice B — <strong>B</strong> is correct.</li><li>Choice C: $4c^3 + 3c + 4$ — wrong sign on the cubic term and the constant is 4 instead of 14. Eliminated.</li><li>Choice D: $-4c^3 + 3c + 4$ — the cubic sign is correct but the constant is 4, not 14. Eliminated.</li></ul>"
   ],
   "correctAnswer": "B"
 }

@@ -13,8 +13,11 @@
     },
     {
       "title": "Write Circle B's equation and calculate 4a",
-      "content": "With center $(96, 6)$ and radius squared 7, Circle B's equation is $(x - 96)^2 + (y - 6)^2 = 7$. In the form $(x-h)^2 + (y-k)^2 = a$, we have $a = 7$. Therefore: $$4a = 4 \\cdot 7 = 28$$ That matches the expected answer \u2014 <strong>28</strong> is correct.",
-      "desmosExpressions": ["x^2 + (y-6)^2 = 7", "(x-96)^2 + (y-6)^2 = 7"]
+      "content": "With center $(96, 6)$ and radius squared 7, Circle B's equation is $(x - 96)^2 + (y - 6)^2 = 7$. In the form $(x-h)^2 + (y-k)^2 = a$, we have $a = 7$. Therefore: $$4a = 4 \\cdot 7 = 28$$ That matches the expected answer — <strong>28</strong> is correct.",
+      "desmosExpressions": [
+        "x^2 + (y-6)^2 = 7",
+        "(x-96)^2 + (y-6)^2 = 7"
+      ]
     }
   ]
 }

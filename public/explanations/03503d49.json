@@ -1,1 +1,19 @@
-{"questionId":"03503d49","correctAnswer":"B","section":"Math","steps":[{"title":"Translate the budget into an inequality","content":"Let $p$ be the pre-tax price per chair. The owner buys 81 chairs, so the pre-tax total is $81p$. A 7% sales tax multiplies this by $1.07$, giving an after-tax total of $81p \\cdot 1.07$. This cannot exceed the $\\$14{,}000$ budget: $81p \\cdot 1.07 \\leq 14{,}000$."},{"title":"Solve for the maximum p","content":"Divide both sides by $81 \\cdot 1.07 = 86.67$: $p \\leq \\dfrac{14{,}000}{86.67} \\approx 161.54$. The largest pre-tax price per chair is about $\\$161.53$."},{"title":"Compare with the choices","content":"<ul><li>$\\$148.15$ &mdash; this would correspond to $14{,}000 / (81 \\cdot 1.166)$, a tax of about 16.6%. Too low.</li><li>$\\$161.53$ &mdash; matches $14{,}000 / (81 \\cdot 1.07)$ exactly.</li><li>$\\$172.84$ &mdash; this is $14{,}000 / 81$ with no tax applied; ignores the 7% tax.</li><li>$\\$184.94$ &mdash; this is $14{,}000 \\cdot 1.07 / 81$, applying the tax in the wrong direction.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "03503d49",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the budget into an inequality",
+      "content": "Let $p$ be the pre-tax price per chair. The owner buys 81 chairs, so the pre-tax total is $81p$. A 7% sales tax multiplies this by $1.07$, giving an after-tax total of $81p \\cdot 1.07$. This cannot exceed the $\\$14{,}000$ budget: $81p \\cdot 1.07 \\leq 14{,}000$."
+    },
+    {
+      "title": "Solve for the maximum p",
+      "content": "Divide both sides by $81 \\cdot 1.07 = 86.67$: $p \\leq \\dfrac{14{,}000}{86.67} \\approx 161.54$. The largest pre-tax price per chair is about $\\$161.53$."
+    },
+    {
+      "title": "Compare with the choices",
+      "content": "<ul><li>$\\$148.15$ &mdash; this would correspond to $14{,}000 / (81 \\cdot 1.166)$, a tax of about 16.6%. Too low.</li><li>$\\$161.53$ &mdash; matches $14{,}000 / (81 \\cdot 1.07)$ exactly.</li><li>$\\$172.84$ &mdash; this is $14{,}000 / 81$ with no tax applied; ignores the 7% tax.</li><li>$\\$184.94$ &mdash; this is $14{,}000 \\cdot 1.07 / 81$, applying the tax in the wrong direction.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

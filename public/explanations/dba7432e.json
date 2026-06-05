@@ -1,1 +1,33 @@
-{"questionId": "dba7432e", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Identify the pattern in the table", "content": "The outputs are 5, \\(\\frac{5}{2}\\), \\(\\frac{5}{4}\\), \\(\\frac{5}{8}\\). Each output is exactly half the previous, so this is an exponential function with base \\(\\frac{1}{2}\\). The starting value at x = 0 is 5.<br/>$$f(x) = 5 \\cdot \\left(\\frac{1}{2}\\right)^x = 5 \\cdot 2^{-x}$$"}, {"title": "Test each choice at x = 0 and x = 1", "content": "<ul><li><strong>A</strong> &mdash; \\(f(x) = 5 \\times 2^{x+1}\\): \\(f(0) = 5 \\times 2^1 = 10 \\neq 5\\). Fails at x = 0. Wrong.</li><li><strong>B</strong> &mdash; \\(f(x) = 5 \\times 2^x\\): \\(f(0) = 5\\) &check;, but \\(f(1) = 10 \\neq \\frac{5}{2}\\). Fails at x = 1. Wrong.</li><li><strong>C</strong> &mdash; \\(f(x) = 5 \\times 2^{-(x+1)}\\): \\(f(0) = 5 \\times 2^{-1} = \\frac{5}{2} \\neq 5\\). Fails at x = 0. Wrong.</li><li><strong>D</strong> &mdash; \\(f(x) = 5 \\times 2^{-x}\\): \\(f(0)=5\\) &check;, \\(f(1)=\\frac{5}{2}\\) &check;, \\(f(2)=\\frac{5}{4}\\) &check;, \\(f(3)=\\frac{5}{8}\\) &check;. All values match. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"}]}
+{
+  "questionId": "dba7432e",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Enter the table",
+      "content": "The table gives $(0,5)$, $(1,\\frac{5}{2})$, $(2,\\frac{5}{4})$, and $(3,\\frac{5}{8})$. The output is multiplied by $\\frac{1}{2}$ every time $x$ increases by $1$, so the function is exponential decay.",
+      "desmosExpressions": [
+        "x_1=[0,1,2,3]",
+        "y_1=[5,\\frac{5}{2},\\frac{5}{4},\\frac{5}{8}]"
+      ]
+    },
+    {
+      "title": "Write the model from the pattern",
+      "content": "The starting value is $5$ when $x=0$, and the multiplier is $\\frac{1}{2}=2^{-1}$. Therefore $$f(x)=5\\left(\\frac{1}{2}\\right)^x=5\\cdot2^{-x}.$$"
+    },
+    {
+      "title": "Graph-check the choices",
+      "content": "In Desmos, overlay the choices on the table. Only $y=5\\cdot2^{-x}$ passes through all four table points.",
+      "desmosExpressions": [
+        "y=5\\cdot2^{x+1}",
+        "y=5\\cdot2^x",
+        "y=5\\cdot2^{-(x+1)}",
+        "y=5\\cdot2^{-x}"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "Choice D matches the starting value and the halving pattern: $f(0)=5$, $f(1)=\\frac{5}{2}$, $f(2)=\\frac{5}{4}$, and $f(3)=\\frac{5}{8}$. Choice <strong>D</strong> is correct."
+    }
+  ]
+}

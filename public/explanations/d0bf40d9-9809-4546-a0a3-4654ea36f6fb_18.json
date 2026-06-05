@@ -1,1 +1,15 @@
-{"questionId": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_18", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Apply the sphere volume formula with the given radius", "content": "The volume of a sphere is $V = \\frac{4}{3}\\pi r^3$. With radius $r = \\frac{8}{3}$ feet, substitute directly:<br/>$$V = \\frac{4}{3}\\pi \\left(\\frac{8}{3}\\right)^3$$"}, {"title": "Cube the radius and simplify", "content": "Calculate $\\left(\\frac{8}{3}\\right)^3 = \\frac{8^3}{3^3} = \\frac{512}{27}$.<br/><br/>Then multiply:<br/>$$V = \\frac{4}{3} \\cdot \\frac{512}{27}\\pi = \\frac{4 \\cdot 512}{3 \\cdot 27}\\pi = \\frac{2048}{81}\\pi$$<br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_18",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the sphere volume formula with the given radius",
+      "content": "The volume of a sphere is $V = \\frac{4}{3}\\pi r^3$. With radius $r = \\frac{8}{3}$ feet, substitute directly:<br/>$$V = \\frac{4}{3}\\pi \\left(\\frac{8}{3}\\right)^3$$"
+    },
+    {
+      "title": "Cube the radius and simplify",
+      "content": "Calculate $\\left(\\frac{8}{3}\\right)^3 = \\frac{8^3}{3^3} = \\frac{512}{27}$.<br/><br/>Then multiply:<br/>$$V = \\frac{4}{3} \\cdot \\frac{512}{27}\\pi = \\frac{4 \\cdot 512}{3 \\cdot 27}\\pi = \\frac{2048}{81}\\pi$$<br/>That matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

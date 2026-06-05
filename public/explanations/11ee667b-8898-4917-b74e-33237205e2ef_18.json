@@ -1,1 +1,15 @@
-{"questionId": "11ee667b-8898-4917-b74e-33237205e2ef_18", "correctAnswer": "272.4", "section": "Math", "steps": [{"title": "Set up the tangent inequality", "content": "We know that for a right triangle, $\\tan\\theta = \\dfrac{\\text{opposite}}{\\text{adjacent}} = \\dfrac{22.7}{x}$. <br/> The law requires $\\tan\\theta \\le \\dfrac{1}{12}$, so $$\\dfrac{22.7}{x} \\le \\dfrac{1}{12}.$$ Since $x>0$, multiply both sides by $12x$: $$22.7 \\cdot 12 \\le x.$$ That simplifies to $x \\ge 272.4$."}, {"title": "Compute the least possible x", "content": "From $x \\ge 12 \\times 22.7$, compute $12 \\times 22.7 = 272.4$. <br/> Therefore the least possible value of $x$ is $272.4$ inches. <br/> The answer is <strong>272.4</strong>."}]}
+{
+  "questionId": "11ee667b-8898-4917-b74e-33237205e2ef_18",
+  "correctAnswer": "272.4",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the tangent inequality",
+      "content": "We know that for a right triangle, $\\tan\\theta = \\dfrac{\\text{opposite}}{\\text{adjacent}} = \\dfrac{22.7}{x}$. <br/> The law requires $\\tan\\theta \\le \\dfrac{1}{12}$, so $$\\dfrac{22.7}{x} \\le \\dfrac{1}{12}.$$ Since $x>0$, multiply both sides by $12x$: $$22.7 \\cdot 12 \\le x.$$ That simplifies to $x \\ge 272.4$."
+    },
+    {
+      "title": "Compute the least possible x",
+      "content": "From $x \\ge 12 \\times 22.7$, compute $12 \\times 22.7 = 272.4$. <br/> Therefore the least possible value of $x$ is $272.4$ inches. <br/> The answer is <strong>272.4</strong>."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "c9e1513f-58d1-4e6c-8574-b9662226959f_1", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Substitute $t=5$ into the equation", "content": "The question asks for the speed $5$ seconds after the car began to accelerate, so substitute $t=5$ into $s = 50 + 4t$: $s = 50 + 4(5)$."}, {"title": "Compute the speed", "content": "$s = 50 + 20 = 70$ mi/h. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "c9e1513f-58d1-4e6c-8574-b9662226959f_1",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute $t=5$ into the equation",
+      "content": "The question asks for the speed $5$ seconds after the car began to accelerate, so substitute $t=5$ into $s = 50 + 4t$: $s = 50 + 4(5)$."
+    },
+    {
+      "title": "Compute the speed",
+      "content": "$s = 50 + 20 = 70$ mi/h. That matches choice <strong>D</strong> — <strong>D</strong> is correct."
+    }
+  ]
+}

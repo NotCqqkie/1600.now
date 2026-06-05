@@ -1,1 +1,30 @@
-{"questionId": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_12", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Find the slope using the given point and y-intercept", "content": "The line has y-intercept $(0, -16)$, so its equation is $y = mx - 16$. Using the point $(-12, 44)$ from the table:\n\n$$44 = m(-12) - 16$$\n\n$$60 = -12m$$\n\n$$m = -5$$"}, {"title": "Find a and b using the equation y = -5x - 16", "content": "From the table, when $y = 14$:\n\n$$14 = -5a - 16$$\n\n$$30 = -5a$$\n\n$$a = -6$$\n\nWhen $x = 2$:\n\n$$b = -5(2) - 16 = -26$$"}, {"title": "Calculate the value a + b", "content": "$$a + b = (-6) + (-26) = -32$$\n\nThat matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_12",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Build the line from the intercept and one point",
+      "content": "The $y$-intercept is $(0,-16)$, and the table gives the point $(-12,44)$. Enter those two points and run $y_1 \\sim m x_1+b$. Desmos gives $m=-5$ and $b=-16$, so the line is $y=-5x-16$.",
+      "desmosExpressions": [
+        "x_1=[0,-12]",
+        "y_1=[-16,44]",
+        "y_1~m x_1+b"
+      ]
+    },
+    {
+      "title": "Use the graph to read a and b",
+      "content": "Graph $y=-5x-16$ in Desmos. For $a$, the table row has $y=14$, so graph $y=14$ and read the intersection: $x=-6$, so $a=-6$. For $b$, use the row where $x=2$: $y=-5(2)-16=-26$, so $b=-26$.",
+      "desmosExpressions": [
+        "y=-5x-16",
+        "y=14",
+        "(-6,14)",
+        "(2,-26)"
+      ]
+    },
+    {
+      "title": "Add the constants",
+      "content": "$$a+b=-6+(-26)=-32$$ That matches choice <strong>A</strong>."
+    }
+  ]
+}

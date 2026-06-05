@@ -14,6 +14,10 @@
         "x = 11",
         "y = 8x - 86"
       ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice D, $2$, and the other choices fail the same setup or substitution. Therefore <strong>D</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,19 @@
-{"questionId":"3bf10f0c-6025-4955-91dc-118e340490f0_2","correctAnswer":"A","section":"Math","steps":[{"title":"Read the given relationship","content":"The original equation is $$11m = 9(n+p).$$ The goal is to isolate $m$ on one side so the result expresses $m$ purely in terms of $n$ and $p$."},{"title":"Divide both sides by 11","content":"Since 11 multiplies $m$, divide both sides by 11:<br/>$$\\frac{11m}{11} = \\frac{9(n+p)}{11}$$<br/>$$m = \\frac{9(n+p)}{11}.$$"},{"title":"Evaluate the answer choices","content":"<ul><li><strong>A.</strong> $m=\\frac{9(n+p)}{11}$ &mdash; exactly what algebra produced.</li><li><strong>B.</strong> $m=9(n+p)$ &mdash; drops the division by 11.</li><li><strong>C.</strong> $m=9(n+p)-11$ &mdash; subtracts 11 instead of dividing.</li><li><strong>D.</strong> $m=9-n-p-11$ &mdash; not algebraically equivalent.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "3bf10f0c-6025-4955-91dc-118e340490f0_2",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the given relationship",
+      "content": "The original equation is $$11m = 9(n+p).$$ The goal is to isolate $m$ on one side so the result expresses $m$ purely in terms of $n$ and $p$."
+    },
+    {
+      "title": "Divide both sides by 11",
+      "content": "Since 11 multiplies $m$, divide both sides by 11:<br/>$$\\frac{11m}{11} = \\frac{9(n+p)}{11}$$<br/>$$m = \\frac{9(n+p)}{11}.$$"
+    },
+    {
+      "title": "Evaluate the answer choices",
+      "content": "<ul><li><strong>A.</strong> $m=\\frac{9(n+p)}{11}$ &mdash; exactly what algebra produced.</li><li><strong>B.</strong> $m=9(n+p)$ &mdash; drops the division by 11.</li><li><strong>C.</strong> $m=9(n+p)-11$ &mdash; subtracts 11 instead of dividing.</li><li><strong>D.</strong> $m=9-n-p-11$ &mdash; not algebraically equivalent.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

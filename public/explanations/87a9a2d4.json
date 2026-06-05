@@ -1,1 +1,15 @@
-{"questionId":"87a9a2d4","correctAnswer":"B","section":"Math","steps":[{"title":"Set up the sine ratio","content":"From the figure, the side opposite angle $A$ has length $35$ and the hypotenuse has length $171$. By SOH-CAH-TOA:<br/>$$\\sin A = \\frac{\\text{opposite}}{\\text{hypotenuse}}$$"},{"title":"Compute","content":"Substitute the two lengths:<br/>$$\\sin A = \\frac{35}{171}$$<br/>That matches choice <strong>B</strong> &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "87a9a2d4",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the sine ratio",
+      "content": "From the figure, the side opposite angle $A$ has length $35$ and the hypotenuse has length $171$. By SOH-CAH-TOA:<br/>$$\\sin A = \\frac{\\text{opposite}}{\\text{hypotenuse}}$$"
+    },
+    {
+      "title": "Compute",
+      "content": "Substitute the two lengths:<br/>$$\\sin A = \\frac{35}{171}$$<br/>That matches choice <strong>B</strong> &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,24 @@
-{"questionId": "4cc05491", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Identify two clear points on the line of best fit", "content": "Trace the line of best fit from lower-left to upper-right. The line passes through approximately \\((0, 0)\\) and \\((10, 15)\\), which are easy reference points at the edges of the data."}, {"title": "Calculate the slope using rise over run", "content": "\\[m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{15 - 0}{10 - 0} = \\frac{15}{10} = 1.5\\]"}, {"title": "Select the closest answer choice", "content": "Compare 1.5 to each option:<ul><li>A) 0.2 — difference of 1.3; far too small. Incorrect.</li><li>B) 0.7 — difference of 0.8; still too small. Incorrect.</li><li>C) 1.8 — difference of 0.3; closest to 1.5. That matches choice C — <strong>C</strong> is correct.</li><li>D) 2.6 — difference of 1.1; too large. Incorrect.</li></ul>"}]}
+{
+  "questionId": "4cc05491",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use two points on the fit line",
+      "content": "For a slope question, choose two points on the line of best fit. The line passes approximately through $(0,0.2)$ and $(5,9.3)$.",
+      "desmosExpressions": [
+        "x_1=[0,5]",
+        "y_1=[0.2,9.3]",
+        "y_1~m x_1+b"
+      ]
+    },
+    {
+      "title": "Calculate the slope",
+      "content": "$$m=\\frac{9.3-0.2}{5-0}=\\frac{9.1}{5}=1.82$$"
+    },
+    {
+      "title": "Choose the closest value",
+      "content": "The closest answer choice to $1.82$ is $1.8$. Choice A, $0.2$, is the approximate $y$-intercept, not the slope. Therefore choice <strong>C</strong> is correct."
+    }
+  ]
+}

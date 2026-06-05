@@ -10,7 +10,9 @@
     {
       "title": "Solve for the radius",
       "content": "From our equation, $r^2 = 121$. Taking the square root of both sides: $$r = \\sqrt{121} = 11$$",
-      "desmosExpressions": ["(x+6)^2 + (y+3)^2 = 121"]
+      "desmosExpressions": [
+        "(x+6)^2 + (y+3)^2 = 121"
+      ]
     }
   ]
 }

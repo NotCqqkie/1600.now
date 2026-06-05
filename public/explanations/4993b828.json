@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Apply the rectangle area formula",
-      "content": "For a rectangle, Area = width \u00d7 length. The given area $A = w(w+9)$ is already factored as a product of two terms."
+      "content": "For a rectangle, Area = width × length. The given area $A = w(w+9)$ is already factored as a product of two terms."
     },
     {
       "title": "Identify the length",
-      "content": "Since Area = width \u00d7 length and we're given $A = w(w+9)$ with width = $w$, the remaining factor must be the length. Therefore, length = $(w+9)$. That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "Since Area = width × length and we're given $A = w(w+9)$ with width = $w$, the remaining factor must be the length. Therefore, length = $(w+9)$. That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

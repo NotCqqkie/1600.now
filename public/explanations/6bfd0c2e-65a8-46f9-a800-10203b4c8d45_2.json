@@ -10,7 +10,12 @@
     {
       "title": "Substitute and calculate",
       "content": "Plug in the values: $$\\text{Weight} = 5710 + 10.0 \\times 7$$ $$\\text{Weight} = 5710 + 70$$ $$\\text{Weight} = 5780 \\text{ pounds}$$ The estimated weight 7 hours after birth is <strong>5,780 pounds</strong>.",
-      "desmosExpressions": ["y = 5710 + 10x", "(0, 5710)", "(7, 5780)", "(120, 6910)"]
+      "desmosExpressions": [
+        "y = 5710 + 10x",
+        "(0, 5710)",
+        "(7, 5780)",
+        "(120, 6910)"
+      ]
     }
   ]
 }

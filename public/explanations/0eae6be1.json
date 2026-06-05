@@ -1,1 +1,15 @@
-{"questionId": "0eae6be1", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Translate the relationship", "content": "The phrase &quot;$y$ is $84$ less than $x$&quot; means take $x$ and subtract $84$:<br/>$$y = x - 84$$"}, {"title": "Evaluate each choice", "content": "<ul><li>Choice A: $y = x + 84$ &mdash; this adds $84$, meaning $y$ would be $84$ more than $x$, not less. Eliminate.</li><li>Choice B: $y = \\frac{1}{84}x$ &mdash; this divides $x$ by $84$, a multiplicative relationship, not a subtraction. Eliminate.</li><li>Choice C: $y = 84x$ &mdash; this multiplies $x$ by $84$, not subtracts. Eliminate.</li><li>Choice D: $y = x - 84$ &mdash; subtracts $84$ from $x$, matching &quot;$84$ less than $x$&quot;.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "0eae6be1",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the relationship",
+      "content": "The phrase &quot;$y$ is $84$ less than $x$&quot; means take $x$ and subtract $84$:<br/>$$y = x - 84$$"
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li>Choice A: $y = x + 84$ &mdash; this adds $84$, meaning $y$ would be $84$ more than $x$, not less. Eliminate.</li><li>Choice B: $y = \\frac{1}{84}x$ &mdash; this divides $x$ by $84$, a multiplicative relationship, not a subtraction. Eliminate.</li><li>Choice C: $y = 84x$ &mdash; this multiplies $x$ by $84$, not subtracts. Eliminate.</li><li>Choice D: $y = x - 84$ &mdash; subtracts $84$ from $x$, matching &quot;$84$ less than $x$&quot;.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

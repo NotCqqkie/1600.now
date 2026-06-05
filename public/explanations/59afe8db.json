@@ -1,1 +1,31 @@
-{"questionId":"59afe8db","correctAnswer":"A","section":"Math","steps":[{"title":"Distribute and combine","content":"Expand $5(x+4)=5x+20$ and combine $x$-terms: $$3x+5x+20=76 \\implies 8x+20=76.$$"},{"title":"Solve for x","content":"Subtract $20$: $8x=56$, then divide by $8$: $x=7$. That matches choice <strong>A</strong> &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "59afe8db",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute and combine",
+      "content": "Expand $5(x+4)=5x+20$ and combine $x$-terms: $$3x+5x+20=76 \\implies 8x+20=76.$$"
+    },
+    {
+      "title": "Solve for x",
+      "content": "Subtract $20$: $8x=56$, then divide by $8$: $x=7$. That matches choice <strong>A</strong> &mdash; <strong>A</strong> is correct."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice A is correct. Applying the distributive property on the left-hand side of the given equation yields $3x+5x+20=76$, or $8x+20=76$. Subtracting $20$ from each side of this equation yields $8x=56$. Dividing each side of this equation by $8$ yields $x=7$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice B is incorrect and may result from conceptual or calculation errors."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice C is incorrect and may result from conceptual or calculation errors."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice D is incorrect. This is the solution to the equation $x+4=76$, not $3x+5\\left(x+4\\right)=76$."
+    }
+  ]
+}

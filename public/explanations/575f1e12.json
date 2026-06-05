@@ -11,6 +11,10 @@
     {
       "title": "Calculate the result",
       "content": "$$34 \\times 29 = 986$$<br/>The area is <strong>986 square centimeters</strong>."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $986$. The area, $A$, of a rectangle is given by $A=lw$, where $l$ is the length of the rectangle and $w$ is its width. It's given that the length of the rectangle is $34$ centimeters (cm) and the width is $29$ cm. Substituting $34$ for $l$ and $29$ for $w$ in the equation $A=lw$ yields $A=\\left(34\\right)\\left(29\\right)$, or $A=986$. Therefore, the area, in square centimeters, of this rectangle is $986$."
     }
   ]
 }

@@ -85,19 +85,36 @@ export default defineConfig(({ mode }) => ({
         // React.createContext before the React chunk had executed. Letting
         // Rollup auto-chunk node_modules avoids the race.
         manualChunks(id) {
+          if (id.includes("/src/lib/generated/bankMetadata.generated.ts")) {
+            return "bank-data-metadata";
+          }
+
+          if (id.includes("/src/lib/generated/bankTotals.generated.ts")) {
+            return "bank-data-totals";
+          }
+
+          if (id.includes("/src/lib/generated/questionSimilarity.generated.ts")) {
+            return "bank-data-similarity";
+          }
+
+          if (id.includes("/src/lib/generated/hiddenBankQuestions.generated.ts")) {
+            return "bank-data-hidden";
+          }
+
+          if (id.includes("/src/data/pastQuestionDifficulty.ts")) {
+            return "bank-data-past-difficulty";
+          }
+
           if (id.includes("/src/data/unofficialQuestions.ts")) {
             return "bank-data-unofficial";
           }
 
-          if (id.includes("/src/data/all_questions.ts")) {
-            return "bank-data-past";
+          if (id.includes("/src/data/questions/math_past.json")) {
+            return "bank-data-past-math";
           }
 
-          if (
-            id.includes("/src/data/questions/math_past.json") ||
-            id.includes("/src/data/questions/reading_past.json")
-          ) {
-            return "bank-data-past";
+          if (id.includes("/src/data/questions/reading_past.json")) {
+            return "bank-data-past-reading";
           }
 
           if (id.includes("/src/data/questionCategories.ts")) {

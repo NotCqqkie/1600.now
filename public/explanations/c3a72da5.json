@@ -1,1 +1,23 @@
-{"questionId": "c3a72da5", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Write out the addition", "content": "The sum is \\((3x^4 + 2x^3) + (4x^4 + 7x^3)\\). Group terms by their exponent."}, {"title": "Add the \\(x^4\\) terms", "content": "\\(3x^4 + 4x^4 = (3 + 4)x^4 = 7x^4\\)."}, {"title": "Add the \\(x^3\\) terms", "content": "\\(2x^3 + 7x^3 = (2 + 7)x^3 = 9x^3\\). The full sum is \\(7x^4 + 9x^3\\)."}, {"title": "Evaluate all choices", "content": "<ul><li>A: \\(x^{14}\\) &mdash; Exponents are added as if multiplying, not adding polynomials. Eliminated.</li><li>B: \\(x^8 + 9x^6\\) &mdash; Exponents are doubled, not like terms combined. Eliminated.</li><li>C: \\(x^4 + 14x^3\\) &mdash; The \\(x^3\\) coefficient 14 comes from \\(7+7\\) rather than \\(2+7\\). Eliminated.</li><li>D: \\(x^4 + 9x^3\\) &mdash; The \\(x^3\\) coefficient 9 is correct (\\(2+7=9\\)). That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"}]}
+{
+  "questionId": "c3a72da5",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write out the addition",
+      "content": "The sum is $(3x^4 + 2x^3) + (4x^4 + 7x^3)$. Group terms by their exponent."
+    },
+    {
+      "title": "Add the $x^4$ terms",
+      "content": "$3x^4 + 4x^4 = (3 + 4)x^4 = 7x^4$."
+    },
+    {
+      "title": "Add the $x^3$ terms",
+      "content": "$2x^3 + 7x^3 = (2 + 7)x^3 = 9x^3$. The full sum is $7x^4 + 9x^3$."
+    },
+    {
+      "title": "Evaluate all choices",
+      "content": "<ul><li>A: $x^{14}$ &mdash; Exponents are added as if multiplying, not adding polynomials. Eliminated.</li><li>B: $x^8 + 9x^6$ &mdash; Exponents are doubled, not like terms combined. Eliminated.</li><li>C: $x^4 + 14x^3$ &mdash; The $x^3$ coefficient 14 comes from $7+7$ rather than $2+7$. Eliminated.</li><li>D: $x^4 + 9x^3$ &mdash; The $x^3$ coefficient 9 is correct ($2+7=9$). That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
+    }
+  ]
+}

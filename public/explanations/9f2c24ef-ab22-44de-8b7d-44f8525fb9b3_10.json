@@ -1,1 +1,19 @@
-{"questionId": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_10", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Substitute x = 0 to find the initial value", "content": "The equation $y = 390 - 142x$ gives remaining distance $y$ (in meters) and time $x$ (in hours). At the start of the experiment, $x = 0$.<br/><br/>Substituting:<br/>$$y = 390 - 142(0) = 390$$<br/>The remaining distance at the start is 390 meters."}, {"title": "Identify 390 as the y-intercept and interpret it", "content": "In a linear equation $y = mx + b$, the constant term $b$ is the y-intercept—the value of $y$ when $x = 0$. Here, 390 is the y-intercept.<br/><br/>The coefficient −142 represents the rate of change: the rover covers 142 meters per hour. So 142 is the rover's speed, not 390.<br/><br/>Since 390 is the remaining distance at the start of the experiment, it represents the rover's initial distance from its target. That matches choice C — <strong>C</strong> is correct.", "desmosExpressions": ["y = 390 - 142x", "(0, 390)"]}]}
+{
+  "questionId": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_10",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x = 0 to find the initial value",
+      "content": "The equation $y = 390 - 142x$ gives remaining distance $y$ (in meters) and time $x$ (in hours). At the start of the experiment, $x = 0$.<br/><br/>Substituting:<br/>$$y = 390 - 142(0) = 390$$<br/>The remaining distance at the start is 390 meters."
+    },
+    {
+      "title": "Identify 390 as the y-intercept and interpret it",
+      "content": "In a linear equation $y = mx + b$, the constant term $b$ is the y-intercept—the value of $y$ when $x = 0$. Here, 390 is the y-intercept.<br/><br/>The coefficient −142 represents the rate of change: the rover covers 142 meters per hour. So 142 is the rover's speed, not 390.<br/><br/>Since 390 is the remaining distance at the start of the experiment, it represents the rover's initial distance from its target. That matches choice C — <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "y = 390 - 142x",
+        "(0, 390)"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,22 @@
-{"questionId": "bba18ecb", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Vertex shortcut: x-intercepts are symmetric about the vertex x-coordinate", "content": "Vertex is $(-3, 6)$, so the axis of symmetry is $x = -3$. One x-intercept is at $x = -\\frac{17}{4}$."}, {"title": "Mirror the known root across the axis", "content": "Other intercept $= 2h - r_1 = 2(-3) - \\left(-\\dfrac{17}{4}\\right) = -6 + \\dfrac{17}{4} = -\\dfrac{24}{4} + \\dfrac{17}{4} = -\\dfrac{7}{4}$.<br/>The other x-intercept is $\\left(-\\dfrac{7}{4}, 0\\right)$. That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "bba18ecb",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Graph the vertex form",
+      "content": "The vertex is $(-3,6)$, so the model has the form $y=a(x+3)^2+6$. Use the known x-intercept $\\left(-\\frac{17}{4},0\\right)$ and the vertex point $(-3,6)$ in Desmos, then fit $y_1\\sim a(x_1+3)^2+6$.",
+      "desmosExpressions": [
+        "x_1=[-3,-17/4]",
+        "y_1=[6,0]",
+        "y_1~a(x_1+3)^2+6",
+        "y=a(x+3)^2+6",
+        "y=0"
+      ]
+    },
+    {
+      "title": "Mirror the known root across the axis",
+      "content": "Other intercept $= 2h - r_1 = 2(-3) - \\left(-\\dfrac{17}{4}\\right) = -6 + \\dfrac{17}{4} = -\\dfrac{24}{4} + \\dfrac{17}{4} = -\\dfrac{7}{4}$.<br/>The other x-intercept is $\\left(-\\dfrac{7}{4}, 0\\right)$. That matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

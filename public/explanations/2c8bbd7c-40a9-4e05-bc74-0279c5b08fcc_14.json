@@ -1,1 +1,19 @@
-{"questionId":"2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_14","correctAnswer":"A","section":"Math","steps":[{"title":"What removing a value does to mean and median","content":"The original data set has 11 values, the new one has 10 (after removing 78.2 &deg;F). Removing one value $v$ from a set of $n$ changes the mean from $\\bar{x}$ to $\\dfrac{n\\bar{x}-v}{n-1}$, which is less than $\\bar{x}$ exactly when $v>\\bar{x}$. The median of 11 numbers is the 6th value (sorted); the median of the remaining 10 is the average of the 5th and 6th sorted values from the original list (since 78.2 is the largest)."},{"title":"Apply to this histogram","content":"The histogram shows the bulk of the 10 lower readings concentrated well below 78.2 &deg;F (all of them are at most in the 60s based on the chart's bins). Therefore 78.2 &deg;F is greater than the original mean, so removing it must lower the mean &mdash; <strong>Statement I is true</strong>.<br/><br/>For the median: the original 6th value and the original 5th value both lie in the same lower bin of the histogram, and the histogram only resolves them to that bin (it does not force them to be different). Thus the average of the 5th and 6th original values could equal the 6th value itself (if they share the same temperature) &mdash; meaning the new median may be equal to, not strictly less than, the original median. <strong>Statement II is not guaranteed.</strong>"},{"title":"Eliminate the other choices","content":"<ul><li>A: I only &mdash; matches: removing the maximum 78.2 always lowers the mean, but the median need not strictly decrease.</li><li>B: II only &mdash; wrong because the mean must decrease (78.2 exceeds the original mean).</li><li>C: I and II &mdash; wrong because II is not forced: the 5th and 6th sorted values can be equal, leaving the median unchanged.</li><li>D: neither &mdash; wrong because I is always true.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_14",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "What removing a value does to mean and median",
+      "content": "The original data set has 11 values, the new one has 10 (after removing 78.2 &deg;F). Removing one value $v$ from a set of $n$ changes the mean from $\\bar{x}$ to $\\dfrac{n\\bar{x}-v}{n-1}$, which is less than $\\bar{x}$ exactly when $v>\\bar{x}$. The median of 11 numbers is the 6th value (sorted); the median of the remaining 10 is the average of the 5th and 6th sorted values from the original list (since 78.2 is the largest)."
+    },
+    {
+      "title": "Apply to this histogram",
+      "content": "The histogram shows the bulk of the 10 lower readings concentrated well below 78.2 &deg;F (all of them are at most in the 60s based on the chart's bins). Therefore 78.2 &deg;F is greater than the original mean, so removing it must lower the mean &mdash; <strong>Statement I is true</strong>.<br/><br/>For the median: the original 6th value and the original 5th value both lie in the same lower bin of the histogram, and the histogram only resolves them to that bin (it does not force them to be different). Thus the average of the 5th and 6th original values could equal the 6th value itself (if they share the same temperature) &mdash; meaning the new median may be equal to, not strictly less than, the original median. <strong>Statement II is not guaranteed.</strong>"
+    },
+    {
+      "title": "Eliminate the other choices",
+      "content": "<ul><li>A: I only &mdash; matches: removing the maximum 78.2 always lowers the mean, but the median need not strictly decrease.</li><li>B: II only &mdash; wrong because the mean must decrease (78.2 exceeds the original mean).</li><li>C: I and II &mdash; wrong because II is not forced: the 5th and 6th sorted values can be equal, leaving the median unchanged.</li><li>D: neither &mdash; wrong because I is always true.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

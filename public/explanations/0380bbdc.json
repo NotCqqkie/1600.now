@@ -1,1 +1,35 @@
-{"questionId":"0380bbdc","correctAnswer":"B","section":"Math","steps":[{"title":"Apply the equation from the given condition","content":"Divide by $4$ and square: $\\sqrt{2x}=4$ gives $2x=16$, so $x=8$."},{"title":"Compute the target value","content":"Then $6x = 6 \\cdot 8 = 48$. That matches choice <strong>B</strong> — <strong>B</strong> is correct.","desmosExpressions":["y = 4\\sqrt{2x}","y = 16"]}]}
+{
+  "questionId": "0380bbdc",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the equation from the given condition",
+      "content": "Divide by $4$ and square: $\\sqrt{2x}=4$ gives $2x=16$, so $x=8$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "Then $6x = 6 \\cdot 8 = 48$. That matches choice <strong>B</strong> — <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "y = 4\\sqrt{2x}",
+        "y = 16"
+      ]
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice B is correct. Dividing each side of the given equation by $4$ yields $\\sqrt{2x}=4$. Squaring both sides of this equation yields $2x=16$. Multiplying each side of this equation by $3$ yields $6x=48$. Therefore, the value of $6x$ is $48$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A is incorrect. This is the value of $3x$, not $6x$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice C is incorrect. This is the value of $9x$, not $6x$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice D is incorrect. This is the value of $12x$, not $6x$."
+    }
+  ]
+}

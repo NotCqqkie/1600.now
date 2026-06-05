@@ -1,1 +1,19 @@
-{"questionId":"555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_2","correctAnswer":"A","section":"Math","steps":[{"title":"Identify initial value and rate","content":"At birth ($x=0$ days), the calf weighs 226 pounds, so the starting value is 226. It gains an average of 3 pounds per day, so the rate of change is $+3$ per day."},{"title":"Write the linear model","content":"A linear model has the form $y=(\\text{initial})+(\\text{rate})x$. Substituting gives $$y=226+3x.$$"},{"title":"Eliminate the other choices","content":"<ul><li>$y=226+3x$: starts at 226 and grows by 3 each day &mdash; matches.</li><li>$y=226-3x$: would mean losing 3 pounds per day &mdash; contradicts gaining weight.</li><li>$y=3+226x$: starts at 3 pounds, not 226 &mdash; wrong starting weight.</li><li>$y=3-226x$: starts at 3 and decreases sharply &mdash; both starting value and direction wrong.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_2",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify initial value and rate",
+      "content": "At birth ($x=0$ days), the calf weighs 226 pounds, so the starting value is 226. It gains an average of 3 pounds per day, so the rate of change is $+3$ per day."
+    },
+    {
+      "title": "Write the linear model",
+      "content": "A linear model has the form $y=(\\text{initial})+(\\text{rate})x$. Substituting gives $$y=226+3x.$$"
+    },
+    {
+      "title": "Eliminate the other choices",
+      "content": "<ul><li>$y=226+3x$: starts at 226 and grows by 3 each day &mdash; matches.</li><li>$y=226-3x$: would mean losing 3 pounds per day &mdash; contradicts gaining weight.</li><li>$y=3+226x$: starts at 3 pounds, not 226 &mdash; wrong starting weight.</li><li>$y=3-226x$: starts at 3 and decreases sharply &mdash; both starting value and direction wrong.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

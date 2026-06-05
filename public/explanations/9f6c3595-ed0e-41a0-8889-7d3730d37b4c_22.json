@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Identify angles and use 30-60-90 triangle ratios",
-      "content": "Angle B is 90\u00b0 (right angle) and angle C is 30\u00b0, so angle A = 180\u00b0 \u2212 90\u00b0 \u2212 30\u00b0 = 60\u00b0. This is a 30-60-90 special right triangle. Since the hypotenuse is 124:<br/>$$AB = 124 \\cdot \\frac{1}{2} = 62$$<br/>$$BC = 124 \\cdot \\frac{\\sqrt{3}}{2} = 62\\sqrt{3}$$<br/>Here, AB is opposite the 30\u00b0 angle and BC is opposite the 60\u00b0 angle.",
+      "content": "Angle B is 90° (right angle) and angle C is 30°, so angle A = 180° − 90° − 30° = 60°. This is a 30-60-90 special right triangle. Since the hypotenuse is 124:<br/>$$AB = 124 \\cdot \\frac{1}{2} = 62$$<br/>$$BC = 124 \\cdot \\frac{\\sqrt{3}}{2} = 62\\sqrt{3}$$<br/>Here, AB is opposite the 30° angle and BC is opposite the 60° angle.",
       "formula": "$$1 : \\sqrt{3} : 2$$"
     },
     {

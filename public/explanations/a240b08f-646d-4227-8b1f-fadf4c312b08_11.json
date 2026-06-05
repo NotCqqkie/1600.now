@@ -1,1 +1,23 @@
-{"questionId": "a240b08f-646d-4227-8b1f-fadf4c312b08_11", "correctAnswer": "11", "section": "Math", "steps": [{"title": "Substitute y = 19 into both equations", "content": "Since the intersection point is $(q, 19)$, we know $y = 19$ at this point. Substitute $y = 19$ into both original equations:<br/><br/>Equation 1: $-x - w(19) = -337$ becomes $-x - 19w = -337$<br/>Equation 2: $2x - w(19) = 47$ becomes $2x - 19w = 47$<br/><br/>Now we have a system of two equations in two unknowns ($x$ and $w$)."}, {"title": "Subtract equations to eliminate w", "content": "Subtract equation 1 from equation 2 to eliminate the $w$ term:<br/>$$(2x - 19w) - (-x - 19w) = 47 - (-337)$$<br/>$$3x = 384$$<br/>$$x = 128$$<br/>So the x-coordinate of the intersection point is $q = 128$."}, {"title": "Substitute to solve for w", "content": "Now substitute $x = 128$ and $y = 19$ into equation 1 to find $w$:<br/>$$-(128) - 19w = -337$$<br/>$$-128 - 19w = -337$$<br/>$$-19w = -209$$<br/>$$w = 11$$", "desmosExpressions": ["y = \\frac{337 - x}{11}", "y = \\frac{2x - 47}{11}"]}]}
+{
+  "questionId": "a240b08f-646d-4227-8b1f-fadf4c312b08_11",
+  "correctAnswer": "11",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute y = 19 into both equations",
+      "content": "Since the intersection point is $(q, 19)$, we know $y = 19$ at this point. Substitute $y = 19$ into both original equations:<br/><br/>Equation 1: $-x - w(19) = -337$ becomes $-x - 19w = -337$<br/>Equation 2: $2x - w(19) = 47$ becomes $2x - 19w = 47$<br/><br/>Now we have a system of two equations in two unknowns ($x$ and $w$)."
+    },
+    {
+      "title": "Subtract equations to eliminate w",
+      "content": "Subtract equation 1 from equation 2 to eliminate the $w$ term:<br/>$$(2x - 19w) - (-x - 19w) = 47 - (-337)$$<br/>$$3x = 384$$<br/>$$x = 128$$<br/>So the x-coordinate of the intersection point is $q = 128$."
+    },
+    {
+      "title": "Substitute to solve for w",
+      "content": "Now substitute $x = 128$ and $y = 19$ into equation 1 to find $w$:<br/>$$-(128) - 19w = -337$$<br/>$$-128 - 19w = -337$$<br/>$$-19w = -209$$<br/>$$w = 11$$",
+      "desmosExpressions": [
+        "y = \\frac{337 - x}{11}",
+        "y = \\frac{2x - 47}{11}"
+      ]
+    }
+  ]
+}

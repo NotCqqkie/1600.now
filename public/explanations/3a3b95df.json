@@ -10,7 +10,9 @@
     {
       "title": "Simplify the fraction and subtract",
       "content": "Divide: $\\frac{300}{30} = 10$.<br/>Then: $$d = 16 - 10 = 6$$<br/>That matches choice B — <strong>B</strong> is correct.",
-      "desmosExpressions": ["y=16-\\frac{x}{30}"]
+      "desmosExpressions": [
+        "y=16-\\frac{x}{30}"
+      ]
     }
   ]
 }

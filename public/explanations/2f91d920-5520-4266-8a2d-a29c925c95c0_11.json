@@ -1,1 +1,23 @@
-{"questionId":"2f91d920-5520-4266-8a2d-a29c925c95c0_11","correctAnswer":"A","section":"Math","steps":["Notice that each of B&rsquo;s first five values is exactly 1 more than A&rsquo;s: 9=8+1, 12=11+1, 13=12+1, 16=15+1, 22=21+1. Shifting every value by the same constant does not change the standard deviation. So if \\(h = 28\\) (= 27+1), then SD(B) = SD(A) exactly &mdash; equal, not less.","Compute Variance(A): Mean A = 94/6 &asymp; 15.667. Sum of squared deviations &asymp; 251.3, so Variance(A) = 251.3/6 &asymp; 41.9.","Test \\(h=23\\): Mean B = 95/6 &asymp; 15.833. Sum of squared deviations &asymp; 159, Variance(B) &asymp; 26.5. Since 26.5 &lt; 41.9, SD(A) &gt; SD(B). &#10003;<br/>Test \\(h=28\\): Variance(B) = Variance(A) &asymp; 41.9 (equal shift). SD(A) &gt; SD(B) is NOT satisfied. &#10007;<br/>Test \\(h=29\\): Mean B = 101/6 &asymp; 16.833. Sum of squared deviations &asymp; 274.8, Variance(B) &asymp; 45.8. Since 45.8 &gt; 41.9, SD(A) &lt; SD(B). &#10007;","<ul><li><strong>Choice A &mdash; '&Iota; only'</strong>: Only \\(h=23\\) makes SD(A) &gt; SD(B). &#10003;</li><li><strong>Choice B &mdash; '&Iota;&Iota; only'</strong>: \\(h=28\\) gives SD(A) = SD(B), not strictly greater. &#10007;</li><li><strong>Choice C &mdash; '&Iota;&Iota;&Iota; only'</strong>: \\(h=29\\) gives SD(B) &gt; SD(A), the opposite of the required condition. &#10007;</li><li><strong>Choice D &mdash; '&Iota;&Iota; or &Iota;&Iota;&Iota;'</strong>: Neither II nor III satisfies the condition. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."]}
+{
+  "questionId": "2f91d920-5520-4266-8a2d-a29c925c95c0_11",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the shift shortcut",
+      "content": "The first five values in data set B are exactly $1$ more than the first five values in data set A: $9=8+1$, $12=11+1$, $13=12+1$, $16=15+1$, and $22=21+1$. Adding the same constant to every value does not change standard deviation."
+    },
+    {
+      "title": "Test II quickly",
+      "content": "If $h=28$, then the last value of B is also $27+1$. That makes data set B exactly data set A shifted up by $1$, so the standard deviations are equal. The problem needs $\\text{SD}(A)>\\text{SD}(B)$, so II does not work."
+    },
+    {
+      "title": "Test I and III by spread",
+      "content": "If $h=23$, the last value of B moves much closer to the center than $28$ would, so data set B is less spread out than data set A. That makes $\\text{SD}(A)>\\text{SD}(B)$, so I works. If $h=29$, the last value is farther out than the shifted value $28$, so B is more spread out than A and III fails."
+    },
+    {
+      "title": "Match the choice",
+      "content": "Only I could be the value of $h$. That matches choice <strong>A</strong>."
+    }
+  ]
+}

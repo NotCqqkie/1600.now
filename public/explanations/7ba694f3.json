@@ -15,7 +15,9 @@
     {
       "title": "Write the equation and verify",
       "content": "Substitute $a = 44,000$ and $b = 2$: $$y = 44,000 \\cdot 2^t$$ Verify at $t = 0$: $y = 44,000(2)^0 = 44,000$ ✓ at the start. <br/>Verify at $t = 1$: $y = 44,000(2)^1 = 88,000$, double the initial amount ✓. <br/>This matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": ["y=44000((2))^(t)"]
+      "desmosExpressions": [
+        "y=44000((2))^(t)"
+      ]
     }
   ]
 }

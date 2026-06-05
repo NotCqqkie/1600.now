@@ -10,7 +10,9 @@
     {
       "title": "Parallel lines share the same slope",
       "content": "Parallel lines have equal slopes. Line $j$ is parallel to line $k$, so the slope of $j$ is also $\\frac{1}{4} = 0.25$. That matches the answer — <strong>0.25</strong> is correct.",
-      "desmosExpressions": ["y=\\frac{1}{4}x+1"]
+      "desmosExpressions": [
+        "y=\\frac{1}{4}x+1"
+      ]
     }
   ]
 }

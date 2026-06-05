@@ -1,1 +1,19 @@
-{"questionId":"2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_8","correctAnswer":"10000","section":"Math","steps":[{"title":"Count the number of doublings","content":"From 1652 to 1952 is $1952-1652=300$ years. With doubling every 75 years, the count is $\\tfrac{300}{75}=4$ doublings."},{"title":"Solve for the initial population","content":"Let $P_0$ be the 1652 population. Then $P_0\\cdot 2^4=160{,}000$. $$P_0=\\frac{160{,}000}{16}=10{,}000.$$ The answer is <strong>10000</strong>."}]}
+{
+  "questionId": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_8",
+  "correctAnswer": "10000",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Count the number of doublings",
+      "content": "From 1652 to 1952 is $1952-1652=300$ years. With doubling every 75 years, the count is $\\tfrac{300}{75}=4$ doublings."
+    },
+    {
+      "title": "Solve for the initial population",
+      "content": "Let $P_0$ be the 1652 population. Then $P_0\\cdot 2^4=160{,}000$. $$P_0=\\frac{160{,}000}{16}=10{,}000.$$ The answer is <strong>10000</strong>."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, make sure the computed value answers exactly what the question asks for. The work above gives $10000$; substituting or interpreting it in the original condition satisfies the requirement, so $10000$ is the value to enter."
+    }
+  ]
+}

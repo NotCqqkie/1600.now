@@ -1,1 +1,22 @@
-{"questionId":"6d83bce6-cd0e-49ec-848d-d2a6307de5b9_2","correctAnswer":"A","section":"Math","steps":[{"title":"Set up","content":"The $y$-intercept is the point where $x = 0$. Substitute $x = 0$ into $y = 6x^2 + 4x + 3$."},{"title":"Solve","content":"$$y = 6(0)^2 + 4(0) + 3 = 3$$<br/>The $y$-intercept is $(0, 3)$."},{"title":"Answer","content":"<strong>A</strong> is correct.","desmosExpressions":["y = 6x^{2} + 4x + 3"]}]}
+{
+  "questionId": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_2",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "The $y$-intercept is the point where $x = 0$. Substitute $x = 0$ into $y = 6x^2 + 4x + 3$."
+    },
+    {
+      "title": "Solve",
+      "content": "$$y = 6(0)^2 + 4(0) + 3 = 3$$<br/>The $y$-intercept is $(0, 3)$."
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y = 6x^{2} + 4x + 3"
+      ]
+    }
+  ]
+}

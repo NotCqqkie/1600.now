@@ -1,1 +1,19 @@
-{"questionId": "1f0966db", "correctAnswer": "3", "section": "Math", "steps": [{"title": "Set up the equation", "content": "Set $f(x)=5$ and write the equation.<br/>$$\\tfrac{9}{7}x+\\tfrac{8}{7}=5$$"}, {"title": "Solve for x", "content": "Multiply by $7$, subtract $8$, divide by $9$.<br/>$$9x+8=35\\;\\Rightarrow\\;x=3$$<br/>The answer is <strong>3</strong>."}]}
+{
+  "questionId": "1f0966db",
+  "correctAnswer": "3",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the equation",
+      "content": "Set $f(x)=5$ and write the equation.<br/>$$\\tfrac{9}{7}x+\\tfrac{8}{7}=5$$"
+    },
+    {
+      "title": "Solve for x",
+      "content": "Multiply by $7$, subtract $8$, divide by $9$.<br/>$$9x+8=35\\;\\Rightarrow\\;x=3$$<br/>The answer is <strong>3</strong>."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $3$. Substituting $5$ for $f\\left(x\\right)$ in the given function yields $5=\\frac{9}{7}x+\\frac{8}{7}$. Multiplying each side of this equation by $7$ yields $7\\left(5\\right)=7\\left(\\frac{9}{7}x+\\frac{8}{7}\\right)$, or $35=9x+8$. Subtracting $8$ from each side of this equation yields $27=9x$. Dividing each side of this equation by $9$ yields $3=x$. Therefore, $f\\left(x\\right)=5$ when the value of $x$ is $3$."
+    }
+  ]
+}

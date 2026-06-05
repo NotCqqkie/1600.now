@@ -14,6 +14,10 @@
         "y = x - 3",
         "y = \\sqrt{x^2 - 39}"
       ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice C, 13. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
     }
   ]
 }

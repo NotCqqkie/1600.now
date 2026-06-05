@@ -1,1 +1,31 @@
-{"questionId":"b82a943c","correctAnswer":"B","section":"Math","steps":[{"title":"Apply the equation from the given condition","content":"Divide by $7$: $x=4$."},{"title":"Compute the target value","content":"Then $8x = 8 \\cdot 4 = 32$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}
+{
+  "questionId": "b82a943c",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the equation from the given condition",
+      "content": "Divide by $7$: $x=4$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "Then $8x = 8 \\cdot 4 = 32$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice B is correct. Dividing both sides of the given equation $7x=28$ by $7$ yields $x=4$. Substituting $4$ for $x$ in the expression $8x$ yields $8\\left(4\\right)$, which is equivalent to $32$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A is incorrect. This is the value of $\\frac{21}{4}x$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice C is incorrect. This is the value of $42x$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice D is incorrect. This is the value of $56x$."
+    }
+  ]
+}

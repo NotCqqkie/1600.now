@@ -1,1 +1,15 @@
-{"questionId": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_16", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Compute k = f(1)", "content": "For \\(k\\) to appear as a visible coefficient, the exponent must equal 0 when \\(x = 1\\) (so the base disappears and the coefficient stands alone). Any form \\(A \\cdot (1.4)^{x-1}\\) gives \\(f(1) = A \\cdot (1.4)^0 = A\\), making \\(A = k\\) a literal constant."}, {"title": "Scan the choices", "content": "A: \\(50(1.4)^{x+1}\\) \u2014 at \\(x=1\\) the exponent is 2, so 50 \\(\\neq\\) k; 50 is not k.<br/>B: \\(70(1.4)^x\\) \u2014 at \\(x=1\\) the exponent is 1, so \\(70 \\cdot 1.4 = 98 = k\\); the coefficient 70 is not k.<br/>C: \\(98(1.4)^{x-1}\\) \u2014 at \\(x=1\\) the exponent is 0, so the coefficient 98 equals k directly. \u2713<br/>D: \\(137.2(1.4)^{x-2}\\) \u2014 at \\(x=1\\) the exponent is \\(-1\\), so \\(137.2/1.4 = 98 = k\\); the coefficient 137.2 is not k.<br/>That matches choice C \u2014 <strong>C</strong> is correct."}]}
+{
+  "questionId": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_16",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compute k = f(1)",
+      "content": "For $k$ to appear as a visible coefficient, the exponent must equal 0 when $x = 1$ (so the base disappears and the coefficient stands alone). Any form $A \\cdot (1.4)^{x-1}$ gives $f(1) = A \\cdot (1.4)^0 = A$, making $A = k$ a literal constant."
+    },
+    {
+      "title": "Scan the choices",
+      "content": "A: $50(1.4)^{x+1}$ — at $x=1$ the exponent is 2, so 50 $\\neq$ k; 50 is not k.<br/>B: $70(1.4)^x$ — at $x=1$ the exponent is 1, so $70 \\cdot 1.4 = 98 = k$; the coefficient 70 is not k.<br/>C: $98(1.4)^{x-1}$ — at $x=1$ the exponent is 0, so the coefficient 98 equals k directly. ✓<br/>D: $137.2(1.4)^{x-2}$ — at $x=1$ the exponent is $-1$, so $137.2/1.4 = 98 = k$; the coefficient 137.2 is not k.<br/>That matches choice C — <strong>C</strong> is correct."
+    }
+  ]
+}

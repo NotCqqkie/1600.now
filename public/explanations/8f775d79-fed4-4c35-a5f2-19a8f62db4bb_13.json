@@ -1,1 +1,25 @@
-{"questionId": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_13", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Calculate the original mean from the frequency table", "content": "Sum the products of weight and frequency:<br/>$$\\text{Sum} = 13(12) + 14(10) + 15(3) + 16(5) + 17(7) + 18(12) + 19(13) + 20(9)$$<br/>$$= 156 + 140 + 45 + 80 + 119 + 216 + 247 + 180 = 1183$$<br/>$$\\text{Original mean} = \\frac{1183}{71} \\approx 16.66$$"}, {"title": "Find the original median position and value", "content": "With 71 data points, the median is the 36th value when ordered. Track cumulative frequency:<ul><li>Through weight 13: 12</li><li>Through weight 14: 22</li><li>Through weight 15: 25</li><li>Through weight 16: 30</li><li>Through weight 17: 37</li></ul>The 36th value falls within weight 17 group (cumulative reaches 37 at weight 17).<br/>$$\\text{Original median} = 17$$"}, {"title": "Determine effect of adding weight 32 to the data set", "content": "New sum: $1183 + 32 = 1215$<br/>$$\\text{New mean} = \\frac{1215}{72} \\approx 16.88$$<br/>Since $16.88 > 16.66$, the mean increased.<br/><br/>For the median with 72 values: the middle is between the 36th and 37th values. Since 32 is much larger than all existing weights (which max out at 20), the value 32 occupies the 72nd position when sorted. The 36th and 37th values remain weight 17.<br/>$$\\text{New median} = 17$$<br/>The mean increased but the median stayed the same. That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_13",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate the original mean from the frequency table",
+      "content": "Sum the products of weight and frequency:<br/>$$13(12)+14(10)+15(3)+16(5)+17(7)+18(12)+19(13)+20(9)=1183$$<br/>$$\\text{Original mean}=\\frac{1183}{71}\\approx16.66$$ In Desmos, use separate value and frequency lists, then compute the weighted mean with totals.",
+      "desmosExpressions": [
+        "W=[13,14,15,16,17,18,19,20]",
+        "F=[12,10,3,5,7,12,13,9]",
+        "total(W*F)/total(F)",
+        "(total(W*F)+32)/(total(F)+1)"
+      ]
+    },
+    {
+      "title": "Find the original median position and value",
+      "content": "With 71 data points, the median is the 36th value when ordered. Track cumulative frequency:<ul><li>Through weight 13: 12</li><li>Through weight 14: 22</li><li>Through weight 15: 25</li><li>Through weight 16: 30</li><li>Through weight 17: 37</li></ul>The 36th value falls within weight 17 group (cumulative reaches 37 at weight 17).<br/>$$\\text{Original median} = 17$$"
+    },
+    {
+      "title": "Determine effect of adding weight 32 to the data set",
+      "content": "New sum: $1183 + 32 = 1215$<br/>$$\\text{New mean} = \\frac{1215}{72} \\approx 16.88$$<br/>Since $16.88 > 16.66$, the mean increased.<br/><br/>For the median with 72 values: the middle is between the 36th and 37th values. Since 32 is much larger than all existing weights (which max out at 20), the value 32 occupies the 72nd position when sorted. The 36th and 37th values remain weight 17.<br/>$$\\text{New median} = 17$$<br/>The mean increased but the median stayed the same. That matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

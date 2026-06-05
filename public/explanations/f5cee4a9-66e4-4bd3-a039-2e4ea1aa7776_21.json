@@ -1,1 +1,24 @@
-{"questionId": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_21", "correctAnswer": "-6", "section": "Math", "steps": [{"title": "Compute the slope from the table", "content": "Pick any two rows $(x_1, y_1)$ and $(x_2, y_2)$ from the table and apply $m = \\dfrac{y_2 - y_1}{x_2 - x_1}$. From the table values, this calculation gives a slope of $m = 6$."}, {"title": "Relate the slope to A/B", "content": "Solving $Ax + By = C$ for $y$ gives $y = -\\dfrac{A}{B}x + \\dfrac{C}{B}$, so the slope of the line equals $-\\dfrac{A}{B}$. Setting $-\\dfrac{A}{B} = 6$ yields $\\dfrac{A}{B} = \\mathbf{-6}$."}]}
+{
+  "questionId": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_21",
+  "correctAnswer": "-6",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Fit the table first",
+      "content": "The table gives the points $(-2,19)$, $(0,31)$, and $(2,43)$. Enter those in Desmos and run $y_1 \\sim m x_1+b$ to get the line quickly.",
+      "desmosExpressions": [
+        "x_1=[-2,0,2]",
+        "y_1=[19,31,43]",
+        "y_1~m x_1+b"
+      ]
+    },
+    {
+      "title": "Connect slope to A over B",
+      "content": "Desmos gives $m=6$, so the line has slope $6$. For an equation in the form $Ax+By=C$, solving for $y$ gives $$y=-\\frac{A}{B}x+\\frac{C}{B}$$ Therefore the slope is $-\\frac{A}{B}$."
+    },
+    {
+      "title": "Answer the question",
+      "content": "Set $-\\frac{A}{B}=6$. Multiplying by $-1$ gives $\\frac{A}{B}=-6$. The correct free-response answer is <strong>-6</strong>."
+    }
+  ]
+}

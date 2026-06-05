@@ -1,1 +1,35 @@
-{"questionId":"e3bbde69","correctAnswer":"B","section":"Math","steps":[{"title":"Solve the system by substitution","content":"Substitute $y=9x+1$ into $8x+y=5$: $$8x+(9x+1)=5 \\Rightarrow 17x=4.$$"},{"title":"Find $x$","content":"So $x=\\tfrac{4}{17}$. That matches choice <strong>B</strong> — <strong>B</strong> is correct.","desmosExpressions":["y = 5 - 8x","y = 9x + 1"]}]}
+{
+  "questionId": "e3bbde69",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve the system by substitution",
+      "content": "Substitute $y=9x+1$ into $8x+y=5$: $$8x+(9x+1)=5 \\Rightarrow 17x=4.$$"
+    },
+    {
+      "title": "Find $x$",
+      "content": "So $x=\\tfrac{4}{17}$. That matches choice <strong>B</strong> — <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "y = 5 - 8x",
+        "y = 9x + 1"
+      ]
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice B is correct. The second equation in the given system is $y=9x+1$. Substituting $9x+1$ for $y$ in the first equation in the given system yields $8x+9x+1=5$, which is equivalent to $17x+1=5$. Subtracting $1$ from both sides of this equation yields $17x=4$. Dividing both sides of this equation by $17$ yields $x=\\frac{4}{17}$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A is incorrect and may result from conceptual or calculation errors."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice C is incorrect and may result from conceptual or calculation errors."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice D is incorrect and may result from conceptual or calculation errors."
+    }
+  ]
+}

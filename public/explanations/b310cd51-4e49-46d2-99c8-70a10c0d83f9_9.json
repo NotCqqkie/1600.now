@@ -10,7 +10,11 @@
     {
       "title": "Test all four choices",
       "content": "<ul><li><strong>Choice A &mdash; $y = 15x + 7$</strong>: Slope $= 15 \\neq 8$. Not parallel to $k$. &#10007;</li><li><strong>Choice B &mdash; $y = -15x + 7$</strong>: Slope $= -15 \\neq 8$. Not parallel to $k$. &#10007;</li><li><strong>Choice C &mdash; $y = 8x + 15$</strong>: Slope $= 8$ (parallel to $k$) and passes through $(0,15)$. &#10003;</li><li><strong>Choice D &mdash; $y = -8x + 15$</strong>: Slope $= -8 \\neq 8$. Not parallel to $k$ (perpendicular slopes would be $-\\frac{1}{8}$, not $-8$). &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.",
-      "desmosExpressions": ["y = 8x + 7", "y = 8x + 15", "(0, 15)"]
+      "desmosExpressions": [
+        "y = 8x + 7",
+        "y = 8x + 15",
+        "(0, 15)"
+      ]
     }
   ]
 }

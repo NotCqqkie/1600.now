@@ -1,1 +1,23 @@
-{"questionId": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_14", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Read the histogram to establish the data", "content": "The histogram shows 14 salmon weights distributed as:<ul><li>[70, 75): 2 salmon</li><li>[75, 80): 1 salmon</li><li>[80, 85): 2 salmon</li><li>[85, 90): 6 salmon</li><li>[90, 95): 3 salmon</li></ul>The new weight of 32 lbs is far below every original value (minimum 70 lbs), so it becomes the new minimum when added, shifting all original positions up by one."}, {"title": "Test whether the median must decrease", "content": "Original median (14 values) = average of the 7th and 8th sorted values. After 32 is inserted at position 1, the new 15-value dataset has median = 8th value = the original 7th value.<br/><br/>From cumulative counts: positions 1&ndash;2 are in [70,75), position 3 in [75,80), positions 4&ndash;5 in [80,85), positions 6&ndash;11 in [85,90). Both the 7th and 8th original values fall in [85,90). They could be equal, making the new median equal to &mdash; not less than &mdash; the old median. So the median does <em>not</em> must decrease."}, {"title": "Test whether the mean must decrease", "content": "Let $S$ = sum of the 14 original weights. Original mean $= \\\\dfrac{S}{14}$. New mean $= \\\\dfrac{S+32}{15}$.<br/><br/>For the new mean to be less:<br/>$$\\\\frac{S+32}{15} < \\\\frac{S}{14}$$<br/>Cross-multiply: $14(S+32) < 15S \\\\Rightarrow 14S + 448 < 15S \\\\Rightarrow S > 448$.<br/><br/>Since all 14 weights are at least 70 lbs, $S \\\\geq 14 \\\\times 70 = 980 > 448$. The inequality always holds, so the mean <em>must</em> decrease."}, {"title": "Evaluate all choices", "content": "<ul><li><strong>A (I only):</strong> The median need not decrease &mdash; the 7th and 8th values could be equal, keeping the median the same. Eliminated.</li><li><strong>B (II only):</strong> The mean must decrease because $S \\\\geq 980 > 448$ is guaranteed by the histogram. That matches choice B &mdash; <strong>B</strong> is correct.</li><li><strong>C (I and II):</strong> Since the median does not must decrease, both cannot must decrease. Eliminated.</li><li><strong>D (Neither I nor II):</strong> The mean must decrease, so &ldquo;neither&rdquo; is false. Eliminated.</li></ul>"}]}
+{
+  "questionId": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_14",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the histogram to establish the data",
+      "content": "The histogram shows 14 salmon weights distributed as:<ul><li>[70, 75): 2 salmon</li><li>[75, 80): 1 salmon</li><li>[80, 85): 2 salmon</li><li>[85, 90): 6 salmon</li><li>[90, 95): 3 salmon</li></ul>The new weight of 32 lbs is far below every original value (minimum 70 lbs), so it becomes the new minimum when added, shifting all original positions up by one."
+    },
+    {
+      "title": "Test whether the median must decrease",
+      "content": "Original median (14 values) = average of the 7th and 8th sorted values. After 32 is inserted at position 1, the new 15-value dataset has median = 8th value = the original 7th value.<br/><br/>From cumulative counts: positions 1&ndash;2 are in [70,75), position 3 in [75,80), positions 4&ndash;5 in [80,85), positions 6&ndash;11 in [85,90). Both the 7th and 8th original values fall in [85,90). They could be equal, making the new median equal to &mdash; not less than &mdash; the old median. So the median does <em>not</em> must decrease."
+    },
+    {
+      "title": "Test whether the mean must decrease",
+      "content": "Let $S$ = sum of the 14 original weights. Original mean $= \\\\dfrac{S}{14}$. New mean $= \\\\dfrac{S+32}{15}$.<br/><br/>For the new mean to be less:<br/>$$\\\\frac{S+32}{15} < \\\\frac{S}{14}$$<br/>Cross-multiply: $14(S+32) < 15S \\\\Rightarrow 14S + 448 < 15S \\\\Rightarrow S > 448$.<br/><br/>Since all 14 weights are at least 70 lbs, $S \\\\geq 14 \\\\times 70 = 980 > 448$. The inequality always holds, so the mean <em>must</em> decrease."
+    },
+    {
+      "title": "Evaluate all choices",
+      "content": "<ul><li><strong>A (I only):</strong> The median need not decrease &mdash; the 7th and 8th values could be equal, keeping the median the same. Eliminated.</li><li><strong>B (II only):</strong> The mean must decrease because $S \\\\geq 980 > 448$ is guaranteed by the histogram. That matches choice B &mdash; <strong>B</strong> is correct.</li><li><strong>C (I and II):</strong> Since the median does not must decrease, both cannot must decrease. Eliminated.</li><li><strong>D (Neither I nor II):</strong> The mean must decrease, so &ldquo;neither&rdquo; is false. Eliminated.</li></ul>"
+    }
+  ]
+}

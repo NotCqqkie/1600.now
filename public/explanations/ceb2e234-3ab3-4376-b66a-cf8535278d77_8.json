@@ -1,1 +1,19 @@
-{"questionId":"ceb2e234-3ab3-4376-b66a-cf8535278d77_8","correctAnswer":"C","section":"Math","steps":[{"title":"Apply the rearrangement from the given condition","content":"Subtract $18$: $2(x-9) = 48-18$."},{"title":"Compute the target value","content":"So $2(x-9) = 30$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}
+{
+  "questionId": "ceb2e234-3ab3-4376-b66a-cf8535278d77_8",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the rearrangement from the given condition",
+      "content": "Subtract $18$: $2(x-9) = 48-18$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "So $2(x-9) = 30$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice C, 30. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
+    }
+  ]
+}

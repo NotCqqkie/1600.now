@@ -1,1 +1,29 @@
-{"questionId":"29b11893-ee0c-48ae-8103-403d9652ad14_19","correctAnswer":"A","section":"Math","steps":[{"title":"Read a point from the original line of best fit","content":"From the scatterplot for data set P, the line of best fit passes through approximately $(100, 14)$. This point will be used to test each candidate equation."},{"title":"Apply the horizontal shift","content":"Data set Q is created by adding 540 to every $x$-value of P. A horizontal shift does not change the slope of the line of best fit, but it slides every point right by 540. So the point $(100, 14)$ becomes $(640, 14)$, and the Q line of best fit must pass through (or very near) $(640, 14)$."},{"title":"Test each choice at x = 640","content":"<ul><li>A. $y = -3 + \\frac{35}{1{,}301}x$ at $x=640$: $y = -3 + \\frac{35 \\cdot 640}{1301} = -3 + \\frac{22400}{1301} \\approx -3 + 17.22 \\approx 14.2$. Matches $(640, 14)$.</li><li>B. $y = 9 + \\frac{1}{131}x$ at $x=640$: $y = 9 + \\frac{640}{131} \\approx 9 + 4.89 \\approx 13.9$. Close to 14, but the slope $\\frac{1}{131} \\approx 0.0076$ is much smaller than P's visible slope, so the original P line would not match. Eliminated.</li><li>C. $y = 18 + \\frac{1}{131}x$ at $x=640$: $y \\approx 18 + 4.89 \\approx 22.9$. Far from 14. Eliminated.</li><li>D. $y = 26 + \\frac{35}{1{,}301}x$ at $x=640$: $y \\approx 26 + 17.22 \\approx 43.2$. Far from 14. Eliminated.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.","desmosExpressions":["y = -3 + \\frac{35}{1301}x"]}]}
+{
+  "questionId": "29b11893-ee0c-48ae-8103-403d9652ad14_19",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read a point from the original line of best fit",
+      "content": "From the scatterplot for data set P, the line of best fit passes through approximately $(100, 14)$. This point will be used to test each candidate equation."
+    },
+    {
+      "title": "Apply the horizontal shift",
+      "content": "Data set Q is created by adding $540$ to every $x$-value of P. A horizontal shift does not change slope; it slides each point right by $540$. So $(100,14)$ becomes $(640,14)$. Graph the four candidate equations and plot $(640,14)$; the correct model should pass near that shifted point with the original slope.",
+      "desmosExpressions": [
+        "(640,14)",
+        "y=-3+(35/1301)x",
+        "y=9+(1/131)x",
+        "y=18+(1/131)x",
+        "y=26+(35/1301)x"
+      ]
+    },
+    {
+      "title": "Test each choice at x = 640",
+      "content": "<ul><li>A. $y = -3 + \\frac{35}{1{,}301}x$ at $x=640$: $y = -3 + \\frac{35 \\cdot 640}{1301} = -3 + \\frac{22400}{1301} \\approx -3 + 17.22 \\approx 14.2$. Matches $(640, 14)$.</li><li>B. $y = 9 + \\frac{1}{131}x$ at $x=640$: $y = 9 + \\frac{640}{131} \\approx 9 + 4.89 \\approx 13.9$. Close to 14, but the slope $\\frac{1}{131} \\approx 0.0076$ is much smaller than P's visible slope, so the original P line would not match. Eliminated.</li><li>C. $y = 18 + \\frac{1}{131}x$ at $x=640$: $y \\approx 18 + 4.89 \\approx 22.9$. Far from 14. Eliminated.</li><li>D. $y = 26 + \\frac{35}{1{,}301}x$ at $x=640$: $y \\approx 26 + 17.22 \\approx 43.2$. Far from 14. Eliminated.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y=-3+(35/1301)x"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,24 @@
-{"questionId": "6d99b141", "correctAnswer": "83", "section": "Math", "steps": [{"title": "Find base angles of isosceles triangle ACD", "content": "Since $AC = CD$ and angle $ACD = 104°$, triangle $ACD$ is isosceles. In an isosceles triangle, the base angles are equal:<br/>$$\\angle CAD = \\angle CDA = \\frac{180° - 104°}{2} = \\frac{76°}{2} = 38°$$", "formula": "$$\\text{Base angles} = \\frac{180° - \\text{vertex angle}}{2}$$"}, {"title": "Identify the relevant collinear points from the figure", "content": "From the figure, points $D$, $C$, $B$ are collinear (so $\\angle ACB$ and $\\angle ACD$ form a linear pair), and points $D$, $E$, $A$ are collinear (so $E$ lies on segment $DA$). In particular, $\\angle BDE = \\angle CDA = 38°$ since $E$ is on $DA$ and $C$ is on $DB$."}, {"title": "Apply the exterior angle theorem to triangle BDE", "content": "Consider triangle $BDE$ with vertices $B$, $D$, $E$. The angle $\\angle BEA = x$ is the exterior angle at vertex $E$ (since $D$, $E$, $A$ are collinear, $\\angle BEA$ and $\\angle BED$ are supplementary, and $x$ sits on the side opposite the triangle's interior at $E$).<br/><br/>By the exterior angle theorem, the exterior angle equals the sum of the two non-adjacent interior angles:<br/>$$x = \\angle DBE + \\angle BDE$$"}, {"title": "Substitute the known angles to find x", "content": "We have $\\angle DBE = \\angle EBC = 45°$ (given) and $\\angle BDE = 38°$ (from Step 1). Therefore:<br/>$$x = 45° + 38° = 83°$$<br/>The answer is <strong>83</strong>."}]}
+{
+  "questionId": "6d99b141",
+  "correctAnswer": "83",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find base angles of isosceles triangle ACD",
+      "content": "Since $AC = CD$ and angle $ACD = 104°$, triangle $ACD$ is isosceles. In an isosceles triangle, the base angles are equal:<br/>$$\\angle CAD = \\angle CDA = \\frac{180° - 104°}{2} = \\frac{76°}{2} = 38°$$",
+      "formula": "$$\\text{Base angles} = \\frac{180° - \\text{vertex angle}}{2}$$"
+    },
+    {
+      "title": "Identify the relevant collinear points from the figure",
+      "content": "From the figure, points $D$, $C$, $B$ are collinear (so $\\angle ACB$ and $\\angle ACD$ form a linear pair), and points $D$, $E$, $A$ are collinear (so $E$ lies on segment $DA$). In particular, $\\angle BDE = \\angle CDA = 38°$ since $E$ is on $DA$ and $C$ is on $DB$."
+    },
+    {
+      "title": "Apply the exterior angle theorem to triangle BDE",
+      "content": "Consider triangle $BDE$ with vertices $B$, $D$, $E$. The angle $\\angle BEA = x$ is the exterior angle at vertex $E$ (since $D$, $E$, $A$ are collinear, $\\angle BEA$ and $\\angle BED$ are supplementary, and $x$ sits on the side opposite the triangle's interior at $E$).<br/><br/>By the exterior angle theorem, the exterior angle equals the sum of the two non-adjacent interior angles:<br/>$$x = \\angle DBE + \\angle BDE$$"
+    },
+    {
+      "title": "Substitute the known angles to find x",
+      "content": "We have $\\angle DBE = \\angle EBC = 45°$ (given) and $\\angle BDE = 38°$ (from Step 1). Therefore:<br/>$$x = 45° + 38° = 83°$$<br/>The answer is <strong>83</strong>."
+    }
+  ]
+}

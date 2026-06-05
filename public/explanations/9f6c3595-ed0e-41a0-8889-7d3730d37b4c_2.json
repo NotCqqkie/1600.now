@@ -4,12 +4,24 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Locate x = 3 on the line of best fit",
-      "content": "Find age 3 on the horizontal axis. Trace vertically upward from x = 3 until you reach the line of best fit. Then read horizontally left to the y-axis to find the predicted body length. The line of best fit crosses x = 3 at approximately <strong>100 cm</strong>."
+      "title": "Model the line of best fit",
+      "content": "Instead of only tracing the graph by eye, use two points on the line of best fit. The line is approximately through $(0,72)$ and $(6,126)$.",
+      "desmosExpressions": [
+        "x_1=[0,6]",
+        "y_1=[72,126]",
+        "y_1~m x_1+b"
+      ]
     },
     {
-      "title": "Round to the nearest 10 cm",
-      "content": "The value we read from the graph is 100 cm. Since 100 is already a multiple of 10, no rounding adjustment is needed. The predicted body length is <strong>100 cm</strong>."
+      "title": "Predict at age 3",
+      "content": "The fitted line has slope about $9$ and intercept about $72$, so at $x=3$ the prediction is $72+9(3)=99$ centimeters.",
+      "desmosExpressions": [
+        "m 3+b"
+      ]
+    },
+    {
+      "title": "Round as requested",
+      "content": "The question asks for the nearest $10$ centimeters. $99$ rounds to $100$, so the predicted body length is $100$ centimeters."
     }
   ]
 }

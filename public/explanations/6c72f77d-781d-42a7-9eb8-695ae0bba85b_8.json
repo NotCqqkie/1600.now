@@ -1,1 +1,18 @@
-{"questionId":"6c72f77d-781d-42a7-9eb8-695ae0bba85b_8","correctAnswer":"5","section":"Math","steps":[{"title":"Vieta's shortcut: sum = \\(-b/a\\)","content":"For $x^{2} - 5x - 24 = 0$, identify $a = 1$, $b = -5$. No need to factor or use the quadratic formula."},{"title":"Apply directly","content":"$$\\text{Sum of solutions} = -\\frac{b}{a} = -\\frac{-5}{1} = 5.$$<br/>The answer is <strong>5</strong>.","desmosExpressions":["y = x^{2} - 5x - 24"]}]}
+{
+  "questionId": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_8",
+  "correctAnswer": "5",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Vieta's shortcut: sum = $-b/a$",
+      "content": "For $x^{2} - 5x - 24 = 0$, identify $a = 1$, $b = -5$. No need to factor or use the quadratic formula."
+    },
+    {
+      "title": "Apply directly",
+      "content": "$$\\text{Sum of solutions} = -\\frac{b}{a} = -\\frac{-5}{1} = 5.$$<br/>The answer is <strong>5</strong>.",
+      "desmosExpressions": [
+        "y = x^{2} - 5x - 24"
+      ]
+    }
+  ]
+}

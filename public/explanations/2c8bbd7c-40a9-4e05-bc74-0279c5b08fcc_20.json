@@ -1,1 +1,24 @@
-{"questionId": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_20", "correctAnswer": "1200", "section": "Math", "steps": [{"title": "Set up vertex form", "content": "The object peaks at 1,600 ft when t = 10, so the vertex is (10, 1600). Write f(t) = a(t &minus; 10)&sup2; + 1600."}, {"title": "Find a using f(0) = 0", "content": "The object launched from height 0: 0 = a(0 &minus; 10)&sup2; + 1600 &rarr; 100a = &minus;1600 &rarr; a = &minus;16. So f(t) = &minus;16(t &minus; 10)&sup2; + 1600."}, {"title": "Answer", "content": "f(15) = &minus;16(5)&sup2; + 1600 = &minus;400 + 1600 = <strong>1200</strong> is correct.", "desmosExpressions": ["f(t) = -16(t-10)^2 + 1600", "(10, 1600)", "(15, 1200)"]}]}
+{
+  "questionId": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_20",
+  "correctAnswer": "1200",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up vertex form",
+      "content": "The object peaks at 1,600 ft when t = 10, so the vertex is (10, 1600). Write f(t) = a(t &minus; 10)&sup2; + 1600."
+    },
+    {
+      "title": "Find a using f(0) = 0",
+      "content": "The object launched from height 0: 0 = a(0 &minus; 10)&sup2; + 1600 &rarr; 100a = &minus;1600 &rarr; a = &minus;16. So f(t) = &minus;16(t &minus; 10)&sup2; + 1600."
+    },
+    {
+      "title": "Answer",
+      "content": "f(15) = &minus;16(5)&sup2; + 1600 = &minus;400 + 1600 = <strong>1200</strong> is correct.",
+      "desmosExpressions": [
+        "f(t) = -16(t-10)^2 + 1600",
+        "(10, 1600)",
+        "(15, 1200)"
+      ]
+    }
+  ]
+}

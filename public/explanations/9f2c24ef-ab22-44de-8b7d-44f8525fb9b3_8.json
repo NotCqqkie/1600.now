@@ -1,1 +1,19 @@
-{"questionId": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_8", "correctAnswer": "112", "section": "Math", "steps": [{"title": "Set up the equation", "content": "Set $g(x)=76$ and write the equation.<br/>$$2x-148=76$$"}, {"title": "Solve for x", "content": "Add $148$, then divide by $2$.<br/>$$2x=224\\;\\Rightarrow\\;x=112$$<br/>The answer is <strong>112</strong>."}]}
+{
+  "questionId": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_8",
+  "correctAnswer": "112",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the output equal to 76",
+      "content": "The question asks for the input where $g(x)=76$. Since $g(x)=2x-148$, solve $$2x-148=76.$$"
+    },
+    {
+      "title": "Solve for x",
+      "content": "Add $148$ to both sides: $$2x=224.$$ Then divide by $2$: $$x=112.$$"
+    },
+    {
+      "title": "Check by substitution",
+      "content": "Substitute $112$ into the function: $g(112)=2(112)-148=224-148=76$. This gives the required output, so the value of $x$ is <strong>112</strong>."
+    }
+  ]
+}

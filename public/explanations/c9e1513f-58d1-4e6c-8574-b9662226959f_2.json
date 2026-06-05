@@ -1,1 +1,23 @@
-{"questionId": "c9e1513f-58d1-4e6c-8574-b9662226959f_2", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Substitute the value x = 2", "content": "Replace $x$ with $2$ in $$f(x) = x^2 + 15.$$ This gives $$f(2) = (2)^2 + 15.$$"}, {"title": "Compute the result", "content": "Simplify: $$f(2) = 4 + 15 = 19.$$ That matches choice <strong>D</strong> — <strong>D</strong> is correct.", "desmosExpressions": ["f(x) = x^2 + 15", "(2, 19)"]}]}
+{
+  "questionId": "c9e1513f-58d1-4e6c-8574-b9662226959f_2",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the value x = 2",
+      "content": "Replace $x$ with $2$ in $$f(x) = x^2 + 15.$$ This gives $$f(2) = (2)^2 + 15.$$"
+    },
+    {
+      "title": "Compute the result",
+      "content": "Simplify: $$f(2) = 4 + 15 = 19.$$ That matches choice <strong>D</strong> — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "f(x) = x^2 + 15",
+        "(2, 19)"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice D, 19, and the other choices fail the same setup or substitution. Therefore <strong>D</strong> is correct."
+    }
+  ]
+}

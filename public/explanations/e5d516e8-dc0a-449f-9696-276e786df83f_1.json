@@ -1,1 +1,10 @@
-{"questionId":"e5d516e8-dc0a-449f-9696-276e786df83f_1","correctAnswer":"D","section":"Math","steps":["Distribute 7xy across both terms inside the parentheses: 7xy &middot; 2x&sup2; = 14x&sup3;y and 7xy &middot; 8y = 56xy&sup2;.","Combine: 14x&sup3;y + 56xy&sup2;."],"choiceElimination":"<ul><li><strong>Choice A &mdash; '14x&sup3;y + 56y&sup2;'</strong>: The second term is missing the x factor. 7xy &middot; 8y = 56xy&sup2;, not 56y&sup2;. &#10007;</li><li><strong>Choice B &mdash; '14x&sup2;y + 56xy'</strong>: First term drops an x (should be x&sup3;), second term drops a y (should be xy&sup2;). &#10007;</li><li><strong>Choice C &mdash; '14x&sup2;y + 56xy&sup2;'</strong>: First term has x&sup2; instead of x&sup3;; 7xy &middot; 2x&sup2; = 14x&sup3;y, not 14x&sup2;y. &#10007;</li><li><strong>Choice D &mdash; '14x&sup3;y + 56xy&sup2;'</strong>: Both terms match the distribution exactly. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}
+{
+  "questionId": "e5d516e8-dc0a-449f-9696-276e786df83f_1",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    "Distribute 7xy across both terms inside the parentheses: 7xy &middot; 2x&sup2; = 14x&sup3;y and 7xy &middot; 8y = 56xy&sup2;.",
+    "Combine: 14x&sup3;y + 56xy&sup2;."
+  ],
+  "choiceElimination": "<ul><li><strong>Choice A &mdash; '14x&sup3;y + 56y&sup2;'</strong>: The second term is missing the x factor. 7xy &middot; 8y = 56xy&sup2;, not 56y&sup2;. &#10007;</li><li><strong>Choice B &mdash; '14x&sup2;y + 56xy'</strong>: First term drops an x (should be x&sup3;), second term drops a y (should be xy&sup2;). &#10007;</li><li><strong>Choice C &mdash; '14x&sup2;y + 56xy&sup2;'</strong>: First term has x&sup2; instead of x&sup3;; 7xy &middot; 2x&sup2; = 14x&sup3;y, not 14x&sup2;y. &#10007;</li><li><strong>Choice D &mdash; '14x&sup3;y + 56xy&sup2;'</strong>: Both terms match the distribution exactly. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+}

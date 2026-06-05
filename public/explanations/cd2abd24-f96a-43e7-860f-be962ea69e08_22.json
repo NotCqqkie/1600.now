@@ -1,1 +1,19 @@
-{"questionId":"cd2abd24-f96a-43e7-860f-be962ea69e08_22","correctAnswer":"38115","section":"Math","steps":[{"title":"Substitute the given values","content":"Substitute $x=2.75$, $y=9528.75$: $$900a(2.75)^{2}=9528.75 \\Rightarrow 900a\\cdot 7.5625=9528.75,$$ so $900a=1260$."},{"title":"Solve for the unknown","content":"For $x=5.50$: $$y=1260\\cdot(5.50)^2=1260\\cdot 30.25=38{,}115.$$ The answer is <strong>38115</strong>."}]}
+{
+  "questionId": "cd2abd24-f96a-43e7-860f-be962ea69e08_22",
+  "correctAnswer": "38115",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the given values",
+      "content": "Substitute $x=2.75$, $y=9528.75$: $$900a(2.75)^{2}=9528.75 \\Rightarrow 900a\\cdot 7.5625=9528.75,$$ so $900a=1260$."
+    },
+    {
+      "title": "Solve for the unknown",
+      "content": "For $x=5.50$: $$y=1260\\cdot(5.50)^2=1260\\cdot 30.25=38{,}115.$$ The answer is <strong>38115</strong>."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $38115$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $38115$."
+    }
+  ]
+}

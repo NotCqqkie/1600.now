@@ -5,12 +5,12 @@
   "steps": [
     {
       "title": "Recognize the complementary angle relationship",
-      "content": "In a right triangle, the two non-right angles must sum to 90\u00b0 (since all three angles sum to 180\u00b0 and one is already 90\u00b0). The problem confirms $R + S = 90\u00b0$, so these angles are complementary. When two angles sum to 90\u00b0, there's a direct relationship between their sine and cosine:",
-      "formula": "$$\\sin(A) = \\cos(90\u00b0 - A)$$"
+      "content": "In a right triangle, the two non-right angles must sum to 90° (since all three angles sum to 180° and one is already 90°). The problem confirms $R + S = 90°$, so these angles are complementary. When two angles sum to 90°, there's a direct relationship between their sine and cosine:",
+      "formula": "$$\\sin(A) = \\cos(90° - A)$$"
     },
     {
       "title": "Apply the complementary angle identity",
-      "content": "Since $R + S = 90\u00b0$, we have $S = 90\u00b0 - R$. Therefore: $$\\sin(R) = \\cos(90\u00b0 - R) = \\cos(S)$$ We're given that $\\sin(R) = \\frac{\\sqrt{11}}{6}$, so immediately: $$\\cos(S) = \\frac{\\sqrt{11}}{6}$$ That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "Since $R + S = 90°$, we have $S = 90° - R$. Therefore: $$\\sin(R) = \\cos(90° - R) = \\cos(S)$$ We're given that $\\sin(R) = \\frac{\\sqrt{11}}{6}$, so immediately: $$\\cos(S) = \\frac{\\sqrt{11}}{6}$$ That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

@@ -10,7 +10,11 @@
     {
       "title": "Discriminant shortcut: solve for $c$",
       "content": "$$20^2 - 4(-2)c = 0$$$$400 + 8c = 0 \\implies c = -50$$<br/>That matches choice B — <strong>B</strong> is correct.",
-      "desmosExpressions": ["y = -2x^2 + 20x + c", "c = -50"]
+      "desmosExpressions": [
+        "y_1=[0]",
+        "y_1~20^2-4*(-2)*c",
+        "y = -2x^2 + 20x - 50"
+      ]
     }
   ]
 }

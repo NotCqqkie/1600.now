@@ -1,7 +1,7 @@
 import {
   BANK_SOURCE_LABELS,
   type BankSourceFilter,
-} from "@/data/questionBank";
+} from "@/data/bankTypes";
 import { SegmentedToggle, type SegmentedToggleOption } from "@/components/ui/segmented-toggle";
 
 interface BankSourceToggleProps {

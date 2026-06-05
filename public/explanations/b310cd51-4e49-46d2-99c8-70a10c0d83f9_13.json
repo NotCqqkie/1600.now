@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Backsolving \u2014 testing choice B (8/27)",
-      "content": "Backsolving \u2014 testing choice B $\\left(\\frac{8}{27}\\right)$:<br/>$$f\\left(\\frac{8}{27}\\right)=\\sqrt{3\\cdot\\frac{8}{27}+8}=\\sqrt{\\frac{8}{9}+8}=\\sqrt{\\frac{80}{9}}=\\frac{\\sqrt{80}}{3}\\approx 2.98$$<br/>$$-9\\cdot\\frac{8}{27}=-\\frac{8}{3}\\approx -2.67$$<br/>Since the left-hand side is positive and the right-hand side is negative, they cannot be equal, so choice B is not correct."
+      "title": "Backsolving — testing choice B (8/27)",
+      "content": "Backsolving — testing choice B $\\left(\\frac{8}{27}\\right)$:<br/>$$f\\left(\\frac{8}{27}\\right)=\\sqrt{3\\cdot\\frac{8}{27}+8}=\\sqrt{\\frac{8}{9}+8}=\\sqrt{\\frac{80}{9}}=\\frac{\\sqrt{80}}{3}\\approx 2.98$$<br/>$$-9\\cdot\\frac{8}{27}=-\\frac{8}{3}\\approx -2.67$$<br/>Since the left-hand side is positive and the right-hand side is negative, they cannot be equal, so choice B is not correct."
     },
     {
       "title": "Testing choice C (-8/27)",
-      "content": "Testing choice C $\\left(-\\frac{8}{27}\\right)$:<br/>$$f\\left(-\\frac{8}{27}\\right)=\\sqrt{3\\cdot\\left(-\\frac{8}{27}\\right)+8}=\\sqrt{-\\frac{8}{9}+8}=\\sqrt{\\frac{64}{9}}=\\frac{8}{3}$$<br/>$$-9\\cdot\\left(-\\frac{8}{27}\\right)=\\frac{72}{27}=\\frac{8}{3}$$<br/>Both sides equal $\\frac{8}{3}$, so the equation holds.<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "Testing choice C $\\left(-\\frac{8}{27}\\right)$:<br/>$$f\\left(-\\frac{8}{27}\\right)=\\sqrt{3\\cdot\\left(-\\frac{8}{27}\\right)+8}=\\sqrt{-\\frac{8}{9}+8}=\\sqrt{\\frac{64}{9}}=\\frac{8}{3}$$<br/>$$-9\\cdot\\left(-\\frac{8}{27}\\right)=\\frac{72}{27}=\\frac{8}{3}$$<br/>Both sides equal $\\frac{8}{3}$, so the equation holds.<br/>That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

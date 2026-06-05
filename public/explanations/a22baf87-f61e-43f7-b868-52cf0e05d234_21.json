@@ -1,1 +1,19 @@
-{"questionId": "a22baf87-f61e-43f7-b868-52cf0e05d234_21", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Find the y-intercept of f", "content": "Evaluate at $x=0$: $$f(0)=20(2)^{0}+6(2)^{0}=20+6=26.$$ So the y-intercept is $26$."}, {"title": "Combine like terms", "content": "Since both terms share $(2)^{x}$: $$f(x)=20(2)^{x}+6(2)^{x}=26(2)^{x}.$$ The coefficient $26$ now equals the y-intercept."}, {"title": "Match to the choices", "content": "We need a form that displays $26$ as a coefficient or base.<ul><li>A) $80(2)^{x-2}+24(2)^{x-2}$ &mdash; equivalent, but $26$ does not appear; $f(0)=80/4+24/4=20+6=26$ is hidden.</li><li>B) $2(10(2)^{x}+3(2)^{x})$ &mdash; coefficients $2,10,3$; $26$ is not displayed.</li><li>C) $20(4)^{x/2}+6(4)^{x/2}$ &mdash; uses base $4$; $26$ is not displayed.</li><li>D) $26(2)^{x}$ &mdash; the coefficient $26$ is exactly the y-intercept.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "a22baf87-f61e-43f7-b868-52cf0e05d234_21",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the y-intercept of f",
+      "content": "Evaluate at $x=0$: $$f(0)=20(2)^{0}+6(2)^{0}=20+6=26.$$ So the y-intercept is $26$."
+    },
+    {
+      "title": "Combine like terms",
+      "content": "Since both terms share $(2)^{x}$: $$f(x)=20(2)^{x}+6(2)^{x}=26(2)^{x}.$$ The coefficient $26$ now equals the y-intercept."
+    },
+    {
+      "title": "Match to the choices",
+      "content": "We need a form that displays $26$ as a coefficient or base.<ul><li>A) $80(2)^{x-2}+24(2)^{x-2}$ &mdash; equivalent, but $26$ does not appear; $f(0)=80/4+24/4=20+6=26$ is hidden.</li><li>B) $2(10(2)^{x}+3(2)^{x})$ &mdash; coefficients $2,10,3$; $26$ is not displayed.</li><li>C) $20(4)^{x/2}+6(4)^{x/2}$ &mdash; uses base $4$; $26$ is not displayed.</li><li>D) $26(2)^{x}$ &mdash; the coefficient $26$ is exactly the y-intercept.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

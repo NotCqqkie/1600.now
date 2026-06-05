@@ -1,1 +1,28 @@
-{"questionId":"d7afa874-519b-4f1b-b45f-1c75ea45613b_21","correctAnswer":"A","section":"Math","steps":[{"title":"Set up the factored form","content":"The graph passes through (10, 0) and (-5, 0), so these are roots. Thus \\(f(x) = a(x-10)(x+5)\\) for integer \\(a &gt; 1\\)."},{"title":"Expand to find b","content":"\\(f(x) = a(x^2 - 5x - 50) = ax^2 - 5ax - 50a\\), so \\(b = -5a\\)."},{"title":"Compute a + b","content":"\\(a + b = a + (-5a) = -4a\\). Since \\(a\\) is an integer greater than 1, the smallest case is \\(a = 2\\), giving \\(a + b = -8\\)."},{"title":"Eliminate choices","content":"<ul><li><strong>Choice A &mdash; '-8'</strong>: \\(-4a = -8 \\Rightarrow a = 2\\), which is an integer &gt; 1. &#10003;</li><li><strong>Choice B &mdash; '-4'</strong>: \\(-4a = -4 \\Rightarrow a = 1\\), but \\(a\\) must be greater than 1. &#10007;</li><li><strong>Choice C &mdash; '5'</strong>: \\(-4a = 5 \\Rightarrow a = -1.25\\), not a positive integer &gt; 1. &#10007;</li><li><strong>Choice D &mdash; '6'</strong>: \\(-4a = 6 \\Rightarrow a = -1.5\\), not a positive integer &gt; 1. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.","desmosExpressions":["y = 2(x-10)(x+5)","(10,0)","(-5,0)"]}]}
+{
+  "questionId": "d7afa874-519b-4f1b-b45f-1c75ea45613b_21",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the factored form",
+      "content": "The graph passes through (10, 0) and (-5, 0), so these are roots. Thus $f(x) = a(x-10)(x+5)$ for integer $a &gt; 1$."
+    },
+    {
+      "title": "Expand to find b",
+      "content": "$f(x) = a(x^2 - 5x - 50) = ax^2 - 5ax - 50a$, so $b = -5a$."
+    },
+    {
+      "title": "Compute a + b",
+      "content": "$a + b = a + (-5a) = -4a$. Since $a$ is an integer greater than 1, the smallest case is $a = 2$, giving $a + b = -8$."
+    },
+    {
+      "title": "Eliminate choices",
+      "content": "<ul><li><strong>Choice A &mdash; '-8'</strong>: $-4a = -8 \\Rightarrow a = 2$, which is an integer &gt; 1. &#10003;</li><li><strong>Choice B &mdash; '-4'</strong>: $-4a = -4 \\Rightarrow a = 1$, but $a$ must be greater than 1. &#10007;</li><li><strong>Choice C &mdash; '5'</strong>: $-4a = 5 \\Rightarrow a = -1.25$, not a positive integer &gt; 1. &#10007;</li><li><strong>Choice D &mdash; '6'</strong>: $-4a = 6 \\Rightarrow a = -1.5$, not a positive integer &gt; 1. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y = 2(x-10)(x+5)",
+        "(10,0)",
+        "(-5,0)"
+      ]
+    }
+  ]
+}

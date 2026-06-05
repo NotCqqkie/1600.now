@@ -2,16 +2,16 @@
   "qid": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_18",
   "steps": [
     {
-      "explanation": "The difference between angle A and angle B is \\(-\\dfrac{5\\pi}{12}\\) radians (the choices confirm the radian measure is \\(-\\dfrac{5\\pi}{12}\\), not \\(-5\\pi\\))."
+      "explanation": "The difference between angle A and angle B is $-\\dfrac{5\\pi}{12}$ radians (the choices confirm the radian measure is $-\\dfrac{5\\pi}{12}$, not $-5\\pi$)."
     },
     {
-      "explanation": "To convert radians to degrees, multiply by the factor \\(\\dfrac{180^\\circ}{\\pi}\\)."
+      "explanation": "To convert radians to degrees, multiply by the factor $\\dfrac{180^\\circ}{\\pi}$."
     },
     {
-      "explanation": "Applying the conversion: \\(-\\dfrac{5\\pi}{12} \\times \\dfrac{180^\\circ}{\\pi} = -\\dfrac{5 \\times 180^\\circ}{12} = -75^\\circ\\)."
+      "explanation": "Applying the conversion: $-\\dfrac{5\\pi}{12} \\times \\dfrac{180^\\circ}{\\pi} = -\\dfrac{5 \\times 180^\\circ}{12} = -75^\\circ$."
     },
     {
-      "explanation": "<ul><li>A: \\(-\\dfrac{5}{12} \\cdot \\dfrac{360^\\circ}{\\pi}\\) — uses \\(\\dfrac{360^\\circ}{\\pi}\\) instead of \\(\\dfrac{180^\\circ}{\\pi}\\) and drops \\(\\pi\\) from the radian measure. Incorrect.</li><li>B: \\(-\\dfrac{5}{12}\\pi \\cdot \\dfrac{\\pi}{180^\\circ}\\) — multiplies by \\(\\dfrac{\\pi}{180^\\circ}\\), which converts degrees to radians (wrong direction). Incorrect.</li><li>C: \\(-\\dfrac{5}{12}\\pi \\cdot \\dfrac{180^\\circ}{\\pi}\\) — correctly multiplies the radian measure by \\(\\dfrac{180^\\circ}{\\pi}\\). That matches choice C — <strong>C</strong> is correct.</li><li>D: \\(-\\dfrac{5}{12}\\pi \\cdot \\dfrac{360^\\circ}{\\pi}\\) — uses \\(\\dfrac{360^\\circ}{\\pi}\\), doubling the correct answer. Incorrect.</li></ul>"
+      "explanation": "<ul><li>A: $-\\dfrac{5}{12} \\cdot \\dfrac{360^\\circ}{\\pi}$ — uses $\\dfrac{360^\\circ}{\\pi}$ instead of $\\dfrac{180^\\circ}{\\pi}$ and drops $\\pi$ from the radian measure. Incorrect.</li><li>B: $-\\dfrac{5}{12}\\pi \\cdot \\dfrac{\\pi}{180^\\circ}$ — multiplies by $\\dfrac{\\pi}{180^\\circ}$, which converts degrees to radians (wrong direction). Incorrect.</li><li>C: $-\\dfrac{5}{12}\\pi \\cdot \\dfrac{180^\\circ}{\\pi}$ — correctly multiplies the radian measure by $\\dfrac{180^\\circ}{\\pi}$. That matches choice C — <strong>C</strong> is correct.</li><li>D: $-\\dfrac{5}{12}\\pi \\cdot \\dfrac{360^\\circ}{\\pi}$ — uses $\\dfrac{360^\\circ}{\\pi}$, doubling the correct answer. Incorrect.</li></ul>"
     }
   ],
   "correctAnswer": "C"

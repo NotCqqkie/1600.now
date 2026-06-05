@@ -24,9 +24,9 @@ const sections = [
   {
     title: "3. Description of the Service",
     body: [
-      "1600.now is an independent SAT preparation platform that provides study tools and educational content, including a question bank, full-length and modular practice tests, AI-generated step-by-step explanations, an embedded Desmos calculator, vocabulary review, score calculators and projections, performance analytics, personalization, and progress tracking.",
+      "1600.now is an independent SAT preparation platform that provides study tools and educational content, including a question bank, full-length and modular practice tests, step-by-step explanations, an embedded Desmos calculator, vocabulary review, score calculators and projections, performance analytics, personalization, and progress tracking.",
       "Some features require a free account. We may add, remove, modify, suspend, throttle, or discontinue any feature, content set, integration, or portion of the Service at any time, with or without notice. We are not obligated to preserve any specific feature, question, explanation, dataset, score estimate, saved note, or workflow indefinitely.",
-      "The Service relies on third-party providers, including Google Firebase (authentication, Cloud Firestore, Firebase Hosting, and Google Analytics for Firebase), the Desmos graphing calculator, and large language model APIs used to pre-generate explanations. Availability of the Service may be affected by the availability of those providers.",
+      "The Service relies on third-party providers, including Google Firebase (authentication, Cloud Firestore, Firebase Hosting, and Google Analytics for Firebase), the Desmos graphing calculator, and providers used to prepare explanations. Availability of the Service may be affected by the availability of those providers.",
     ],
   },
   {
@@ -34,7 +34,7 @@ const sections = [
     body: [
       "1600.now is an independent educational platform. We are not affiliated with, sponsored by, endorsed by, licensed by, or otherwise connected to the College Board, ETS, Khan Academy, Bluebook, the Desmos Studio team (beyond use of the publicly available embeddable calculator), or any college, university, or scholarship program.",
       "\"SAT,\" \"PSAT,\" \"Bluebook,\" \"College Board,\" and related marks are trademarks of their respective owners. Any references to such marks are made for the limited purpose of identifying the test or program for which we provide preparation materials and do not imply any endorsement, partnership, or affiliation.",
-      "Practice questions, modules, score conversions, score projections, AI-generated explanations, recommendations, and analytics are provided for study purposes only. They are estimates and predictions, not guarantees of any actual SAT score, admissions outcome, scholarship outcome, placement decision, or other academic result.",
+      "Practice questions, modules, score conversions, score projections, explanations, recommendations, and analytics are provided for study purposes only. They are estimates and predictions, not guarantees of any actual SAT score, admissions outcome, scholarship outcome, placement decision, or other academic result.",
     ],
   },
   {
@@ -51,7 +51,7 @@ const sections = [
     body: [
       "You agree to use the Service only for lawful, personal, non-commercial educational purposes and in accordance with these Terms. You agree not to, and not to attempt to:",
       "(a) access, tamper with, or use non-public areas of the Service, our systems, or the technical delivery systems of our providers; (b) probe, scan, or test the vulnerability of any system or network, or breach or circumvent any security or authentication measures; (c) decompile, disassemble, reverse engineer, or otherwise attempt to derive source code, models, prompts, or underlying ideas from the Service, except to the extent applicable law permits despite this restriction;",
-      "(d) scrape, crawl, harvest, mirror, frame, deep-link, or otherwise extract or copy questions, explanations, vocabulary lists, datasets, analytics, or other Service content in bulk or in a manner that exceeds normal individual study use, whether by manual or automated means (including bots, agents, scripts, headless browsers, or AI training pipelines); (e) use any Service content to train, fine-tune, evaluate, or augment any machine learning model, dataset, or AI system without our express written permission;",
+      "(d) scrape, crawl, harvest, mirror, frame, deep-link, or otherwise extract or copy questions, explanations, vocabulary lists, datasets, analytics, or other Service content in bulk or in a manner that exceeds normal individual study use, whether by manual or automated means (including bots, agents, scripts, headless browsers, or model-training pipelines); (e) use any Service content to train, fine-tune, evaluate, or augment any machine learning model, dataset, or automated system without our express written permission;",
       "(f) interfere with, disrupt, overload, or impair the Service or any servers, networks, or third-party providers connected to the Service, or otherwise circumvent rate limits, quotas, paywalls, geographic restrictions, or device restrictions; (g) introduce viruses, worms, malware, or any other malicious or technologically harmful code; (h) impersonate any person or entity, misrepresent your identity, or falsely state or otherwise misrepresent your affiliation with a person or entity;",
       "(i) use the Service to transmit, upload, or otherwise make available content that is unlawful, infringing, defamatory, harassing, threatening, hateful, abusive, sexually explicit, deceptive, or that violates the privacy or rights of any third party; (j) use the Service in connection with cheating, plagiarism, score manipulation, or any conduct that violates the rules of the College Board, the SAT, or any other testing authority, school, or institution; (k) resell, sublicense, lease, rent, distribute, or otherwise commercially exploit the Service or any portion of it.",
     ],
@@ -59,7 +59,7 @@ const sections = [
   {
     title: "7. Intellectual Property",
     body: [
-      "The Service, including all software, code, designs, layouts, user interfaces, databases, question organization, taxonomies, AI-generated explanations, vocabulary curation, score conversion logic, copy text, audio, images, logos, and other materials made available through the Service (collectively, the \"Service Materials\"), is owned by 1600.now or its licensors and is protected by copyright, trademark, trade secret, and other intellectual property and proprietary rights laws.",
+      "The Service, including all software, code, designs, layouts, user interfaces, databases, question organization, taxonomies, explanations, vocabulary curation, score conversion logic, copy text, audio, images, logos, and other materials made available through the Service (collectively, the \"Service Materials\"), is owned by 1600.now or its licensors and is protected by copyright, trademark, trade secret, and other intellectual property and proprietary rights laws.",
       "Subject to your compliance with these Terms, we grant you a limited, personal, revocable, non-exclusive, non-transferable, non-sublicensable license to access and use the Service and Service Materials solely for your own individual, non-commercial SAT preparation. All rights not expressly granted are reserved.",
       "Some content displayed in the Service (such as questions adapted from publicly released practice materials) may be the property of third parties and is used for educational and commentary purposes. Such third-party content remains the property of its respective owners.",
       "\"1600.now\" and our logos are our trademarks. You may not use them without our prior written permission. Other names, logos, and marks appearing in the Service are the property of their respective owners.",
@@ -75,17 +75,17 @@ const sections = [
     ],
   },
   {
-    title: "9. AI-Generated Explanations and Educational Content",
+    title: "9. Generated Explanations and Educational Content",
     body: [
-      "Step-by-step explanations, hints, and certain other educational outputs in the Service are generated, in whole or in part, by automated systems and large language models. While we make significant efforts to review, refine, and pre-generate high-quality explanations, AI-generated content can contain errors, omissions, factual inaccuracies, mathematical mistakes, hallucinated references, or content that is incomplete, outdated, or otherwise unreliable.",
-      "You should treat AI-generated explanations as study aids only and independently verify any answer, formula, score conversion, or recommendation before relying on it for high-stakes decisions. We make no representation or warranty that any AI-generated content is accurate, complete, current, or fit for any particular purpose.",
+      "Step-by-step explanations, hints, and certain other educational outputs in the Service may be generated, in whole or in part, by automated systems. While we make significant efforts to review, refine, and pre-generate high-quality explanations, generated content can contain errors, omissions, factual inaccuracies, mathematical mistakes, unsupported references, or content that is incomplete, outdated, or otherwise unreliable.",
+      "You should treat generated explanations as study aids only and independently verify any answer, formula, score conversion, or recommendation before relying on it for high-stakes decisions. We make no representation or warranty that generated content is accurate, complete, current, or fit for any particular purpose.",
       "Score projections, percentile estimates, and adaptive recommendations are statistical estimates based on your activity within the Service and on publicly available scoring information. They do not predict your actual SAT score and are not endorsed by the College Board.",
     ],
   },
   {
     title: "10. Third-Party Services, Links, and Integrations",
     body: [
-      "The Service relies on, integrates with, and may link to third-party products and services, including but not limited to: Google Firebase (Authentication, Cloud Firestore, Firebase Hosting, Google Analytics for Firebase) for authentication, data storage, hosting, and analytics; Google Sign-In for federated login; the Desmos graphing calculator embedded for math practice; and large language model providers (such as OpenRouter and the underlying model providers it routes to) used to pre-generate explanations.",
+      "The Service relies on, integrates with, and may link to third-party products and services, including but not limited to: Google Firebase (Authentication, Cloud Firestore, Firebase Hosting, Google Analytics for Firebase) for authentication, data storage, hosting, and analytics; Google Sign-In for federated login; the Desmos graphing calculator embedded for math practice; and providers used to pre-generate explanations.",
       "Your use of those third-party services is governed by their own terms and privacy policies, not these Terms. We are not responsible for the availability, content, accuracy, security, privacy practices, or any other aspect of any third-party product, service, or website, and we do not endorse them.",
       "If a third-party service becomes unavailable, changes its terms, or modifies its functionality, the Service or specific features may be impacted, and we may modify or remove affected features without liability.",
     ],
@@ -115,7 +115,7 @@ const sections = [
   {
     title: "14. Disclaimers",
     body: [
-      "THE SERVICE AND ALL CONTENT, INCLUDING WITHOUT LIMITATION QUESTIONS, EXPLANATIONS, SCORE PROJECTIONS, ANALYTICS, AND ANY AI-GENERATED OUTPUT, ARE PROVIDED \"AS IS\" AND \"AS AVAILABLE,\" WITH ALL FAULTS AND WITHOUT WARRANTIES OF ANY KIND, WHETHER EXPRESS, IMPLIED, OR STATUTORY.",
+      "THE SERVICE AND ALL CONTENT, INCLUDING WITHOUT LIMITATION QUESTIONS, EXPLANATIONS, SCORE PROJECTIONS, ANALYTICS, AND ANY GENERATED OUTPUT, ARE PROVIDED \"AS IS\" AND \"AS AVAILABLE,\" WITH ALL FAULTS AND WITHOUT WARRANTIES OF ANY KIND, WHETHER EXPRESS, IMPLIED, OR STATUTORY.",
       "TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, 1600.NOW AND ITS OWNERS, EMPLOYEES, CONTRACTORS, AGENTS, LICENSORS, AND PROVIDERS DISCLAIM ALL WARRANTIES, INCLUDING IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT, ACCURACY, AVAILABILITY, QUIET ENJOYMENT, AND ANY WARRANTIES ARISING OUT OF COURSE OF DEALING, COURSE OF PERFORMANCE, OR TRADE USAGE.",
       "WE DO NOT WARRANT THAT THE SERVICE WILL BE UNINTERRUPTED, TIMELY, SECURE, OR ERROR-FREE; THAT DEFECTS WILL BE CORRECTED; OR THAT THE SERVICE OR THE SERVERS THAT MAKE IT AVAILABLE ARE FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS. WE DO NOT WARRANT THAT ANY SCORE ESTIMATE, EXPLANATION, RECOMMENDATION, OR OTHER OUTPUT IS ACCURATE, COMPLETE, OR RELIABLE, OR THAT YOUR USE OF THE SERVICE WILL RESULT IN ANY PARTICULAR EDUCATIONAL OUTCOME.",
       "Some jurisdictions do not allow the exclusion of certain warranties; in those jurisdictions, the above exclusions apply to the maximum extent permitted by law.",

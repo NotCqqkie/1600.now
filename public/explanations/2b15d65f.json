@@ -1,1 +1,27 @@
-{"questionId": "2b15d65f", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Find the slope using the two data points", "content": "Since demand is a linear function of price, the rate of change (slope) is constant. Using the two given points:<br/>$$\\text{slope} = \\frac{15,000 - 20,000}{60 - 40} = \\frac{-5,000}{20} = -250$$<br/>The demand decreases by 250 units for every dollar increase in price."}, {"title": "Determine the price change from a known point", "content": "We know the demand at $P = 40$ dollars. To reach the target price of $P = 55$ dollars, the price increase is:<br/>$$55 - 40 = 15 \\text{ dollars}$$"}, {"title": "Apply the slope to find the demand at the target price", "content": "At a slope of $-250$ units per dollar, a 15 dollar increase in price corresponds to a change in demand of:<br/>$$\\Delta Q = 15 \\times (-250) = -3,750 \\text{ units}$$<br/>Starting from 20,000 units at $P = 40$ dollars:<br/>$$Q = 20,000 - 3,750 = 16,250 \\text{ units}$$<br/>That matches choice A — <strong>A</strong> is correct.", "desmosExpressions": ["y=-200x+28000"]}]}
+{
+  "questionId": "2b15d65f",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the two demand points",
+      "content": "Treat price as $x$ and demand as $y$. The two given points are $(40,20000)$ and $(60,15000)$."
+    },
+    {
+      "title": "Find the linear rate of change",
+      "content": "The slope is $$\\frac{15000-20000}{60-40}=\\frac{-5000}{20}=-250.$$ Demand decreases by $250$ units for every $1$ dollar increase in price."
+    },
+    {
+      "title": "Evaluate at the target price",
+      "content": "From $P=40$ to $P=55$ is a $15$ dollar increase, so demand changes by $$15(-250)=-3750.$$ Starting from $20000$ units gives $$20000-3750=16250.$$",
+      "desmosExpressions": [
+        "y=-250x+30000",
+        "x=55"
+      ]
+    },
+    {
+      "title": "Check the choice",
+      "content": "The model $y=-250x+30000$ gives $y=16250$ when $x=55$. That matches choice <strong>A</strong>."
+    }
+  ]
+}

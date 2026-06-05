@@ -1,1 +1,19 @@
-{"questionId": "ad300285-6ff9-46a9-97ab-7356c9cd2965_13", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Identify variable meanings", "content": "In the equation $y = 0.25x^2 - 6.5x + 64.25$:<ul><li>$x$ represents the number of days after the company went public</li><li>$y$ represents the estimated stock price in dollars</li></ul>"}, {"title": "Interpret the ordered pair (1, 58)", "content": "The ordered pair $(x, y) = (1, 58)$ means when $x = 1$ and $y = 58$. Since $x = 1$ day and $y = 58$ dollars, this tells us that one day after the company went public, the estimated stock price is 58 dollars. That matches choice A — <strong>A</strong> is correct.", "desmosExpressions": ["y = 0.25x^{2} - 6.5x + 64.25", "(1, 58)"]}]}
+{
+  "questionId": "ad300285-6ff9-46a9-97ab-7356c9cd2965_13",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify variable meanings",
+      "content": "In the equation $y = 0.25x^2 - 6.5x + 64.25$:<ul><li>$x$ represents the number of days after the company went public</li><li>$y$ represents the estimated stock price in dollars</li></ul>"
+    },
+    {
+      "title": "Interpret the ordered pair (1, 58)",
+      "content": "The ordered pair $(x, y) = (1, 58)$ means when $x = 1$ and $y = 58$. Since $x = 1$ day and $y = 58$ dollars, this tells us that one day after the company went public, the estimated stock price is 58 dollars. That matches choice A — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y = 0.25x^{2} - 6.5x + 64.25",
+        "(1, 58)"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "1ce51655", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Calculate water lost", "content": "The bowl started with 20 ounces and now contains 9 ounces.<br/>$$\\text{Water lost} = 20 - 9 = 11 \\text{ ounces}$$"}, {"title": "Convert water loss to days using the rate", "content": "The water decreases by 1 ounce every 4 days. For 11 ounces of loss:<br/>$$\\text{Days uncovered} = 11 \\text{ ounces} \\times \\frac{4 \\text{ days}}{1 \\text{ ounce}} = 44 \\text{ days}$$<br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "1ce51655",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate water lost",
+      "content": "The bowl started with 20 ounces and now contains 9 ounces.<br/>$$\\text{Water lost} = 20 - 9 = 11 \\text{ ounces}$$"
+    },
+    {
+      "title": "Convert water loss to days using the rate",
+      "content": "The water decreases by 1 ounce every 4 days. For 11 ounces of loss:<br/>$$\\text{Days uncovered} = 11 \\text{ ounces} \\times \\frac{4 \\text{ days}}{1 \\text{ ounce}} = 44 \\text{ days}$$<br/>That matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

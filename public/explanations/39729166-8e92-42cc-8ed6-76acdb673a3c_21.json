@@ -18,7 +18,11 @@
     {
       "title": "Evaluate all four answer choices",
       "content": "<ul><li><strong>Choice A &mdash; 'I only'</strong>: Equation I gives infinitely many solutions &#10003;, but Equation II also gives at least one solution &#10003;, so &ldquo;I only&rdquo; is too restrictive. &#10007;</li><li><strong>Choice B &mdash; 'II only'</strong>: Equation II gives exactly one solution &#10003;, but Equation I also gives at least one solution &#10003;, so &ldquo;II only&rdquo; is too restrictive. &#10007;</li><li><strong>Choice C &mdash; 'I and II'</strong>: Both Equation I (infinitely many solutions) and Equation II (exactly one solution) satisfy the condition of having at least one solution. &#10003;</li><li><strong>Choice D &mdash; 'Neither I nor II'</strong>: Both equations do yield at least one solution, so &ldquo;Neither&rdquo; is incorrect. &#10007;</li></ul>",
-      "desmosExpressions": ["y = \\frac{6 - 5x}{3}", "y = \\frac{9 - 7.5x}{4.5}", "y = \\frac{7.5x - 9}{4.5}"]
+      "desmosExpressions": [
+        "y = \\frac{6 - 5x}{3}",
+        "y = \\frac{9 - 7.5x}{4.5}",
+        "y = \\frac{7.5x - 9}{4.5}"
+      ]
     },
     {
       "title": "Conclusion",

@@ -1,1 +1,23 @@
-{"questionId":"1362ccde","correctAnswer":"35","section":"Math","steps":[{"title":"Solve the system by substitution","content":"Substitute $y=4x+1$ into $4y=15x-8$: $$4(4x+1)=15x-8 \\Rightarrow 16x+4=15x-8 \\Rightarrow x=-12.$$ Then $y=4(-12)+1=-47$."},{"title":"Find $x - y$","content":"So $x-y=-12-(-47)=35$. The answer is <strong>35</strong>.","desmosExpressions":["y = 4x + 1","y = (15x - 8)/4"]}]}
+{
+  "questionId": "1362ccde",
+  "correctAnswer": "35",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve the system by substitution",
+      "content": "Substitute $y=4x+1$ into $4y=15x-8$: $$4(4x+1)=15x-8 \\Rightarrow 16x+4=15x-8 \\Rightarrow x=-12.$$ Then $y=4(-12)+1=-47$."
+    },
+    {
+      "title": "Find $x - y$",
+      "content": "So $x-y=-12-(-47)=35$. The answer is <strong>35</strong>.",
+      "desmosExpressions": [
+        "y = 4x + 1",
+        "y = (15x - 8)/4"
+      ]
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $35$. The first equation in the given system of equations defines $y$ as $4x+1$. Substituting $4x+1$ for $y$ in the second equation in the given system of equations yields $4\\left(4x+1\\right)=15x-8$. Applying the distributive property on the left-hand side of this equation yields $16x+4=15x-8$. Subtracting $15x$ from each side of this equation yields $x+4=-8$. Subtracting $4$ from each side of this equation yields $x=-12$. Substituting $-12$ for $x$ in the first equation of the given system of equations yields $y=4\\left(-12\\right)+1$, or $y=-47$. Substituting $-12$ for $x$ and $-47$ for $y$ into the expression $x-y$ yields $-12-\\left(-47\\right)$, or $35$."
+    }
+  ]
+}

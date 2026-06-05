@@ -1,1 +1,19 @@
-{"questionId":"4771a64a","correctAnswer":"11","section":"Math","steps":[{"title":"Apply the simplification from the given condition","content":"Move the $(2-4x)$ terms together: $5-16 = 7(2-4x)-8(2-4x)$, giving $-11 = -(2-4x)$."},{"title":"Compute the target value","content":"So $2-4x = 11$. The answer is <strong>11</strong>."}]}
+{
+  "questionId": "4771a64a",
+  "correctAnswer": "11",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the simplification from the given condition",
+      "content": "Move the $(2-4x)$ terms together: $5-16 = 7(2-4x)-8(2-4x)$, giving $-11 = -(2-4x)$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "So $2-4x = 11$. The answer is <strong>11</strong>."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $11$. Subtracting $5$ from each side of the given equation yields $-7\\left(2-4x\\right)=11-8\\left(2-4x\\right)$. Adding $8\\left(2-4x\\right)$ to each side of this equation yields $2-4x=11$. Therefore, the value of $2-4x$ is $11$."
+    }
+  ]
+}

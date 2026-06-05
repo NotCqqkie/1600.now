@@ -1,1 +1,15 @@
-{"questionId":"7268586c","correctAnswer":"D","section":"Math","steps":[{"title":"Identify the isosceles triangle","content":"This problem uses isosceles-triangle properties rather than Pythagoras. Since $PQ = QR$, triangle $PQR$ is isosceles, so the base angles opposite the equal sides are equal: angle $P$ = angle $R$."},{"title":"Compute the requested value","content":"With angle $P = 24°$, the base-angle equality gives angle $R = 24°$, and the diagram labels angle $R$ as $x°$:<br/>$$x = 24$$<br/>That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "7268586c",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the isosceles triangle",
+      "content": "This problem uses isosceles-triangle properties rather than Pythagoras. Since $PQ = QR$, triangle $PQR$ is isosceles, so the base angles opposite the equal sides are equal: angle $P$ = angle $R$."
+    },
+    {
+      "title": "Compute the requested value",
+      "content": "With angle $P = 24°$, the base-angle equality gives angle $R = 24°$, and the diagram labels angle $R$ as $x°$:<br/>$$x = 24$$<br/>That matches choice <strong>D</strong> — <strong>D</strong> is correct."
+    }
+  ]
+}

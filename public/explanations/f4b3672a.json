@@ -1,1 +1,21 @@
-{"qid": "f4b3672a", "correctAnswer": "C", "steps": ["Find the sample mean. Add the five tree counts: \\(51 + 59 + 45 + 52 + 73 = 280\\). Divide by 5: \\(280 \\div 5 = 56\\) trees per acre.", "Scale to the full forest: \\(56 \\times 253\\). Break it apart: \\(56 \\times 250 = 14{,}000\\) and \\(56 \\times 3 = 168\\). Total estimate = \\(14{,}168\\) trees.", "Identify which answer range contains \\(14{,}168\\): the interval 13,500 to 14,500 does.", "<ul><li>Choice A: 11,000 to 12,000 &mdash; the estimate 14,168 is above this range; incorrect.</li><li>Choice B: 12,500 to 13,500 &mdash; 14,168 exceeds 13,500; incorrect.</li><li>Choice C: 13,500 to 14,500 &mdash; 14,168 falls within this range. That matches choice C &mdash; <strong>C</strong> is correct.</li><li>Choice D: 18,000 to 19,000 &mdash; this would require a mean of about 71 trees per acre, well above the sample mean of 56; incorrect.</li></ul>"]}
+{
+  "qid": "f4b3672a",
+  "correctAnswer": "C",
+  "steps": [
+    {
+      "title": "Use the sample mean",
+      "content": "Find the sample mean from the five acre counts: $$\\frac{51+59+45+52+73}{5}=56$$ So the sample estimates about $56$ trees per acre."
+    },
+    {
+      "title": "Scale to the whole forest",
+      "content": "Multiply by the forest size: $$56\\times253=14{,}168$$ Desmos can do this in one expression by taking the mean of the sample list and multiplying by $253$.",
+      "desmosExpressions": [
+        "mean([51,59,45,52,73])*253"
+      ]
+    },
+    {
+      "title": "Choose the interval",
+      "content": "$14{,}168$ falls between $13{,}500$ and $14{,}500$. That matches choice C, so <strong>C</strong> is correct."
+    }
+  ]
+}

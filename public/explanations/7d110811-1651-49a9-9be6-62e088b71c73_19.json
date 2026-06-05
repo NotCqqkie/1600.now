@@ -1,1 +1,19 @@
-{"questionId": "7d110811-1651-49a9-9be6-62e088b71c73_19", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Set the appropriate variable to 0", "content": "For the $y$-intercept, set $x=0$ in $y=10^{x}+22$: $$y=10^{0}+22=1+22.$$"}, {"title": "Compute the intercept", "content": "This gives $y=23$, so the $y$-intercept is $(0,23)$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}
+{
+  "questionId": "7d110811-1651-49a9-9be6-62e088b71c73_19",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the appropriate variable to 0",
+      "content": "For the $y$-intercept, set $x=0$ in $y=10^{x}+22$: $$y=10^{0}+22=1+22.$$"
+    },
+    {
+      "title": "Compute the intercept",
+      "content": "This gives $y=23$, so the $y$-intercept is $(0,23)$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice C, $(0,23)$. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
+    }
+  ]
+}

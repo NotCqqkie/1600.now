@@ -1,1 +1,23 @@
-{"questionId":"23a951fb-833f-4b27-9978-4eb054f855e2_10","correctAnswer":"7","section":"Math","steps":[{"title":"Set up","content":"Equal ratios form a proportion: $$\\frac{154}{110} = \\frac{x}{5}$$"},{"title":"Solve","content":"Cross-multiply: $154 \\times 5 = 110x$, so $770 = 110x$, giving $x = \\frac{770}{110} = 7$."},{"title":"Answer","content":"<strong>7</strong> is correct."}]}
+{
+  "questionId": "23a951fb-833f-4b27-9978-4eb054f855e2_10",
+  "correctAnswer": "7",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "Equal ratios form a proportion: $$\\frac{154}{110} = \\frac{x}{5}$$"
+    },
+    {
+      "title": "Solve",
+      "content": "Cross-multiply: $154 \\times 5 = 110x$, so $770 = 110x$, giving $x = \\frac{770}{110} = 7$."
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>7</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, make sure the computed value answers exactly what the question asks for. The work above gives $7$; substituting or interpreting it in the original condition satisfies the requirement, so $7$ is the value to enter."
+    }
+  ]
+}

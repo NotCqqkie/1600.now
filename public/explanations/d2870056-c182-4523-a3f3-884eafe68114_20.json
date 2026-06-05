@@ -1,1 +1,22 @@
-{"questionId": "d2870056-c182-4523-a3f3-884eafe68114_20", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Analyze the equation", "content": "Factor as a difference of squares: $$x^2-49=(x-7)(x+7)=0.$$ So $x=7$ or $x=-7$."}, {"title": "Count the solutions", "content": "There are two real solutions, $7$ and $-7$. That matches choice <strong>C</strong> — <strong>C</strong> is correct.", "desmosExpressions": ["y = x^{2} - 49"]}]}
+{
+  "questionId": "d2870056-c182-4523-a3f3-884eafe68114_20",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Analyze the equation",
+      "content": "Factor as a difference of squares: $$x^2-49=(x-7)(x+7)=0.$$ So $x=7$ or $x=-7$."
+    },
+    {
+      "title": "Count the solutions",
+      "content": "There are two real solutions, $7$ and $-7$. That matches choice <strong>C</strong> — <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "y = x^{2} - 49"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice C, Exactly two, and the other choices fail the same setup or substitution. Therefore <strong>C</strong> is correct."
+    }
+  ]
+}

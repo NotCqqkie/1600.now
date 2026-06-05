@@ -2,16 +2,16 @@
   "qid": "b0c5ece5",
   "steps": [
     {
-      "text": "The figure is a right triangle (indicated by the right angle marker). The two legs are 4 and \\(b\\), and the hypotenuse (the side opposite the right angle, which is always the longest side) is 19."
+      "text": "The figure is a right triangle (indicated by the right angle marker). The two legs are 4 and $b$, and the hypotenuse (the side opposite the right angle, which is always the longest side) is 19."
     },
     {
-      "text": "The Pythagorean theorem states that for a right triangle with legs \\(a\\) and \\(b\\) and hypotenuse \\(c\\): \\(a^2 + b^2 = c^2\\). Substituting: \\(4^2 + b^2 = 19^2\\)."
+      "text": "The Pythagorean theorem states that for a right triangle with legs $a$ and $b$ and hypotenuse $c$: $a^2 + b^2 = c^2$. Substituting: $4^2 + b^2 = 19^2$."
     },
     {
-      "text": "Check: \\(4^2 = 16\\), \\(19^2 = 361\\), so \\(b^2 = 361 - 16 = 345\\), meaning \\(b = \\sqrt{345}\\). This is valid for a right triangle."
+      "text": "Check: $4^2 = 16$, $19^2 = 361$, so $b^2 = 361 - 16 = 345$, meaning $b = \\sqrt{345}$. This is valid for a right triangle."
     },
     {
-      "text": "<ul><li>Choice A: \\(4b = 19\\) treats the relationship as a product, which has no geometric basis here. Eliminated.</li><li>Choice B: \\(4 + b = 19\\) treats the relationship as a sum of sides, which is not the Pythagorean theorem. Eliminated.</li><li>Choice C: \\(4^2 + b^2 = 19^2\\) is the Pythagorean theorem with legs 4 and \\(b\\) and hypotenuse 19. That matches choice C &mdash; <strong>C</strong> is correct.</li><li>Choice D: \\(4^2 - b^2 = 19^2\\) rearranges incorrectly and would make \\(b^2\\) negative. Eliminated.</li></ul>"
+      "text": "<ul><li>Choice A: $4b = 19$ treats the relationship as a product, which has no geometric basis here. Eliminated.</li><li>Choice B: $4 + b = 19$ treats the relationship as a sum of sides, which is not the Pythagorean theorem. Eliminated.</li><li>Choice C: $4^2 + b^2 = 19^2$ is the Pythagorean theorem with legs 4 and $b$ and hypotenuse 19. That matches choice C &mdash; <strong>C</strong> is correct.</li><li>Choice D: $4^2 - b^2 = 19^2$ rearranges incorrectly and would make $b^2$ negative. Eliminated.</li></ul>"
     }
   ],
   "correctAnswer": "C"

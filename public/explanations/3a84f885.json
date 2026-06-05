@@ -1,1 +1,23 @@
-{"questionId": "3a84f885", "correctAnswer": "1677", "section": "Math", "steps": [{"title": "Solve the system by elimination", "content": "Add the two equations to cancel $4(y+7)$: $$2(x-2)=117+442=559\\Rightarrow x-2=279.5.$$"}, {"title": "Find $6(x-2)$", "content": "Multiply: $6(x-2)=6\\cdot 279.5=1677$. The answer is <strong>1677</strong>.", "desmosExpressions": ["y = (x - 147)/4", "y = (416 - x)/4"]}]}
+{
+  "questionId": "3a84f885",
+  "correctAnswer": "1677",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the equations",
+      "content": "The system is $$(x-2)-4(y+7)=117$$ $$(x-2)+4(y+7)=442.$$ Add the equations so the $-4(y+7)$ and $+4(y+7)$ terms cancel."
+    },
+    {
+      "title": "Target the requested expression",
+      "content": "Adding gives $$2(x-2)=117+442=559.$$ The question asks for $6(x-2)$, which is $3$ times $2(x-2)$."
+    },
+    {
+      "title": "Multiply directly",
+      "content": "Multiply both sides of $2(x-2)=559$ by $3$: $$6(x-2)=1677.$$"
+    },
+    {
+      "title": "Confirm the shortcut",
+      "content": "There is no need to find $x$ or $y$ separately. The elimination step gives the requested expression directly, so the answer is <strong>1677</strong>."
+    }
+  ]
+}

@@ -1,1 +1,19 @@
-{"questionId":"d5718376-6a71-41d6-aa0f-411bb7f3bb75_8","correctAnswer":"D","section":"Math","steps":[{"title":"Factor the expression","content":"The GCF of $24$ and $30$ is $6$. Factor it out:$$24x+30=6(4x+5)$$"},{"title":"Match to the answer choices","content":"The factored form is $6(4x+5)$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_8",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor the expression",
+      "content": "The GCF of $24$ and $30$ is $6$. Factor it out:$$24x+30=6(4x+5)$$"
+    },
+    {
+      "title": "Match to the answer choices",
+      "content": "The factored form is $6(4x+5)$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice D, $6(4x + 5)$. The other choices do not satisfy the same condition from the question, so <strong>D</strong> is correct."
+    }
+  ]
+}

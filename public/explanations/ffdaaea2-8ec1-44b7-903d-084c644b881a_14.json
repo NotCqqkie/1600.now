@@ -1,1 +1,15 @@
-{"questionId": "ffdaaea2-8ec1-44b7-903d-084c644b881a_14", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Identify the linear scale factor", "content": "The edge length of cube Y is $\\frac{3}{86}$ times the edge length of cube X, so the linear scale factor is $k = \\frac{3}{86}$."}, {"title": "Apply surface area scaling", "content": "For similar solids, surface area scales by $k^2$. Therefore:<br/>$$n = \\left(\\frac{3}{86}\\right)^2 = \\frac{9}{7396}$$<br/>This matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "ffdaaea2-8ec1-44b7-903d-084c644b881a_14",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the linear scale factor",
+      "content": "The edge length of cube Y is $\\frac{3}{86}$ times the edge length of cube X, so the linear scale factor is $k = \\frac{3}{86}$."
+    },
+    {
+      "title": "Apply surface area scaling",
+      "content": "For similar solids, surface area scales by $k^2$. Therefore:<br/>$$n = \\left(\\frac{3}{86}\\right)^2 = \\frac{9}{7396}$$<br/>This matches choice A — <strong>A</strong> is correct."
+    }
+  ]
+}

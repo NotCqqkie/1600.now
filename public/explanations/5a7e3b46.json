@@ -1,1 +1,20 @@
-{"questionId": "5a7e3b46", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Recognize the 3-4-5 Pythagorean triple", "content": "Since $\\cos A = \\frac{3}{5}$ and $\\sin^2 A + \\cos^2 A = 1$, we have $\\sin A = \\frac{4}{5}$.<br/><br/>In right triangle ABC with ∠B = 90°, the trigonometric ratios $\\cos A = \\frac{AB}{AC} = \\frac{3}{5}$ and $\\sin A = \\frac{BC}{AC} = \\frac{4}{5}$ match the 3-4-5 Pythagorean triple.<br/><br/>Therefore, AB : BC : AC = 3 : 4 : 5.", "formula": "$$3^2 + 4^2 = 5^2$$"}, {"title": "Find the scale factor", "content": "BC = 136 corresponds to 4 in the 3-4-5 ratio. Setting $4k = 136$: $$k = 34$$"}, {"title": "Calculate AB and match the choice", "content": "AB corresponds to 3 in the ratio: $$AB = 3 \\cdot 34 = 102 \\text{ mm}$$That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "5a7e3b46",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the 3-4-5 Pythagorean triple",
+      "content": "Since $\\cos A = \\frac{3}{5}$ and $\\sin^2 A + \\cos^2 A = 1$, we have $\\sin A = \\frac{4}{5}$.<br/><br/>In right triangle ABC with ∠B = 90°, the trigonometric ratios $\\cos A = \\frac{AB}{AC} = \\frac{3}{5}$ and $\\sin A = \\frac{BC}{AC} = \\frac{4}{5}$ match the 3-4-5 Pythagorean triple.<br/><br/>Therefore, AB : BC : AC = 3 : 4 : 5.",
+      "formula": "$$3^2 + 4^2 = 5^2$$"
+    },
+    {
+      "title": "Find the scale factor",
+      "content": "BC = 136 corresponds to 4 in the 3-4-5 ratio. Setting $4k = 136$: $$k = 34$$"
+    },
+    {
+      "title": "Calculate AB and match the choice",
+      "content": "AB corresponds to 3 in the ratio: $$AB = 3 \\cdot 34 = 102 \\text{ mm}$$That matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

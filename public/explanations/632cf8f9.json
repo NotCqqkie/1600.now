@@ -1,1 +1,15 @@
-{"questionId": "632cf8f9", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Identify increasing or decreasing", "content": "Scan from left to right across the graph. As $x$ increases, $y$ increases. The function is increasing. This eliminates <strong>A</strong> (decreasing exponential) and <strong>C</strong> (decreasing linear)."}, {"title": "Identify exponential or linear shape", "content": "The graph is curved, not straight. The rate of increase accelerates: the $y$-values rise slowly for negative $x$, then more rapidly as $x$ approaches and passes zero.<br/><br/>This accelerating growth is the signature of exponential functions, while linear functions have constant slope and produce straight lines.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "632cf8f9",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify increasing or decreasing",
+      "content": "Scan from left to right across the graph. As $x$ increases, $y$ increases. The function is increasing. This eliminates <strong>A</strong> (decreasing exponential) and <strong>C</strong> (decreasing linear)."
+    },
+    {
+      "title": "Identify exponential or linear shape",
+      "content": "The graph is curved, not straight. The rate of increase accelerates: the $y$-values rise slowly for negative $x$, then more rapidly as $x$ approaches and passes zero.<br/><br/>This accelerating growth is the signature of exponential functions, while linear functions have constant slope and produce straight lines.<br/><br/>That matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

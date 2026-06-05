@@ -9,8 +9,10 @@
     },
     {
       "title": "The negative coefficient indicates the slope direction",
-      "content": "The equation $\\text{Remaining} = N - rt$ is linear with slope $-r$. Since the slope is negative, remaining shirts decrease at a constant rate as time increases. That matches choice B \u2014 <strong>B</strong> is correct.",
-      "desmosExpressions": ["y = -mx + b"]
+      "content": "The equation $\\text{Remaining} = N - rt$ is linear with slope $-r$. Since the slope is negative, remaining shirts decrease at a constant rate as time increases. That matches choice B — <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "y = -mx + b"
+      ]
     }
   ]
 }

@@ -1,1 +1,22 @@
-{"qid":"b8caaf84","steps":[{"step":"Expand \\(pv\\) by substituting \\(p = 3x+4\\) and \\(v = x+5\\) and using FOIL: \\((3x+4)(x+5) = 3x^2 + 15x + 4x + 20 = 3x^2 + 19x + 20\\).","result":"\\(pv = 3x^2 + 19x + 20\\)"},{"step":"Expand \\(-2p\\): \\(-2(3x+4) = -6x - 8\\).","result":"\\(-2p = -6x - 8\\)"},{"step":"Add all three parts together: \\((3x^2+19x+20) + (-6x-8) + (x+5)\\). Combine like terms: \\(x^2\\) terms give \\(3x^2\\); \\(x\\) terms give \\(19x - 6x + x = 14x\\); constants give \\(20 - 8 + 5 = 17\\). Result: \\(3x^2 + 14x + 17\\).","result":"\\(3x^2 + 14x + 17\\)"},{"step":"<ul><li>Choice A: \\(3x^2 + 12x + 7\\). The \\(x\\)-coefficient is 12, but we computed 14. Eliminated.</li><li>Choice B: \\(3x^2 + 14x + 17\\). Matches \\(3x^2 + 14x + 17\\) exactly. That matches choice B &mdash; <strong>B</strong> is correct.</li><li>Choice C: \\(3x^2 + 19x + 20\\). This equals \\(pv\\) alone, without the \\(-2p + v\\) adjustment. Eliminated.</li><li>Choice D: \\(3x^2 + 26x + 33\\). The \\(x\\)-coefficient and constant are both too large; likely a sign error on \\(-2p\\). Eliminated.</li></ul>","result":"B"}],"correctAnswer":"B"}
+{
+  "qid": "b8caaf84",
+  "steps": [
+    {
+      "step": "Expand $pv$ by substituting $p = 3x+4$ and $v = x+5$ and using FOIL: $(3x+4)(x+5) = 3x^2 + 15x + 4x + 20 = 3x^2 + 19x + 20$.",
+      "result": "$pv = 3x^2 + 19x + 20$"
+    },
+    {
+      "step": "Expand $-2p$: $-2(3x+4) = -6x - 8$.",
+      "result": "$-2p = -6x - 8$"
+    },
+    {
+      "step": "Add all three parts together: $(3x^2+19x+20) + (-6x-8) + (x+5)$. Combine like terms: $x^2$ terms give $3x^2$; $x$ terms give $19x - 6x + x = 14x$; constants give $20 - 8 + 5 = 17$. Result: $3x^2 + 14x + 17$.",
+      "result": "$3x^2 + 14x + 17$"
+    },
+    {
+      "step": "<ul><li>Choice A: $3x^2 + 12x + 7$. The $x$-coefficient is 12, but we computed 14. Eliminated.</li><li>Choice B: $3x^2 + 14x + 17$. Matches $3x^2 + 14x + 17$ exactly. That matches choice B &mdash; <strong>B</strong> is correct.</li><li>Choice C: $3x^2 + 19x + 20$. This equals $pv$ alone, without the $-2p + v$ adjustment. Eliminated.</li><li>Choice D: $3x^2 + 26x + 33$. The $x$-coefficient and constant are both too large; likely a sign error on $-2p$. Eliminated.</li></ul>",
+      "result": "B"
+    }
+  ],
+  "correctAnswer": "B"
+}

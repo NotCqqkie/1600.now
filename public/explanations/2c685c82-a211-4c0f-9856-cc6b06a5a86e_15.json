@@ -1,1 +1,15 @@
-{"questionId": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_15", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Compute c", "content": "\\(c\\) is the multiplicative factor when \\(x\\) increases by 2. For \\(f(x) = 42 \\cdot (\\text{base})^{\\text{exp}}\\), compute base raised to power 2 in each choice: A gives \\(2^{12} = 4096\\), B gives \\(8^4 = 4096\\), C gives \\(64^2 = 4096\\), D gives \\(4096^1 = 4096\\). All are equivalent, so \\(c = 4096\\)."}, {"title": "Scan for 4096 as a visible literal base", "content": "A: \\(42(2)^{6x}\\) — base is 2, not 4096.<br/>B: \\(42(8)^{2x}\\) — base is 8, not 4096.<br/>C: \\(42(64)^x\\) — base is 64, not 4096.<br/>D: \\(42(4{,}096)^{x/2}\\) — base is 4096, which is c displayed literally. ✓<br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_15",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compute c",
+      "content": "$c$ is the multiplicative factor when $x$ increases by 2. For $f(x) = 42 \\cdot (\\text{base})^{\\text{exp}}$, compute base raised to power 2 in each choice: A gives $2^{12} = 4096$, B gives $8^4 = 4096$, C gives $64^2 = 4096$, D gives $4096^1 = 4096$. All are equivalent, so $c = 4096$."
+    },
+    {
+      "title": "Scan for 4096 as a visible literal base",
+      "content": "A: $42(2)^{6x}$ — base is 2, not 4096.<br/>B: $42(8)^{2x}$ — base is 8, not 4096.<br/>C: $42(64)^x$ — base is 64, not 4096.<br/>D: $42(4{,}096)^{x/2}$ — base is 4096, which is c displayed literally. ✓<br/>That matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

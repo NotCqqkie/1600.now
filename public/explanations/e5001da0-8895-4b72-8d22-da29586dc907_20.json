@@ -1,1 +1,19 @@
-{"questionId": "e5001da0-8895-4b72-8d22-da29586dc907_20", "correctAnswer": "1021", "section": "Math", "steps": [{"title": "Interpret as a quadratic in z to the ninth power and set up factorization", "content": "The expression $34z^{18} + bz^9 + 30$ is a quadratic in $z^9$. If $qz^9 + r$ is a factor, then: $$34z^{18} + bz^9 + 30 = (qz^9 + r)(az^9 + c)$$\nfor positive integers $a$ and $c$."}, {"title": "Expand and match coefficients to find constraints on b", "content": "Expanding the right side: $$(qz^9 + r)(az^9 + c) = qaz^{18} + (qc + ra)z^9 + rc$$\n\nMatching with the original expression: <ul><li>$z^{18}$: $qa = 34$</li><li>$z^9$: $qc + ra = b$</li><li>Constant: $rc = 30$</li></ul>\n\nTherefore $b = qc + ra$, where $(q, a)$ and $(r, c)$ are factor pairs of 34 and 30 respectively."}, {"title": "Maximize b by testing extreme factor pairings", "content": "To maximize $b = qc + ra$, test divisor pairings at the extremes.<br/><br/>When $(q, a) = (1, 34)$ and $(r, c) = (30, 1)$: $$b = 1 \\cdot 1 + 30 \\cdot 34 = 1 + 1020 = 1021$$\n\nWhen $(q, a) = (34, 1)$ and $(r, c) = (1, 30)$: $$b = 34 \\cdot 30 + 1 \\cdot 1 = 1020 + 1 = 1021$$\n\nOther factor pairs (such as $(2, 17)$ paired with divisors of 30) produce smaller sums.<br/><br/>The greatest possible value of $b$ is <strong>1021</strong>."}]}
+{
+  "questionId": "e5001da0-8895-4b72-8d22-da29586dc907_20",
+  "correctAnswer": "1021",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret as a quadratic in z to the ninth power and set up factorization",
+      "content": "The expression $34z^{18} + bz^9 + 30$ is a quadratic in $z^9$. If $qz^9 + r$ is a factor, then: $$34z^{18} + bz^9 + 30 = (qz^9 + r)(az^9 + c)$$\nfor positive integers $a$ and $c$."
+    },
+    {
+      "title": "Expand and match coefficients to find constraints on b",
+      "content": "Expanding the right side: $$(qz^9 + r)(az^9 + c) = qaz^{18} + (qc + ra)z^9 + rc$$\n\nMatching with the original expression: <ul><li>$z^{18}$: $qa = 34$</li><li>$z^9$: $qc + ra = b$</li><li>Constant: $rc = 30$</li></ul>\n\nTherefore $b = qc + ra$, where $(q, a)$ and $(r, c)$ are factor pairs of 34 and 30 respectively."
+    },
+    {
+      "title": "Maximize b by testing extreme factor pairings",
+      "content": "To maximize $b = qc + ra$, test divisor pairings at the extremes.<br/><br/>When $(q, a) = (1, 34)$ and $(r, c) = (30, 1)$: $$b = 1 \\cdot 1 + 30 \\cdot 34 = 1 + 1020 = 1021$$\n\nWhen $(q, a) = (34, 1)$ and $(r, c) = (1, 30)$: $$b = 34 \\cdot 30 + 1 \\cdot 1 = 1020 + 1 = 1021$$\n\nOther factor pairs (such as $(2, 17)$ paired with divisors of 30) produce smaller sums.<br/><br/>The greatest possible value of $b$ is <strong>1021</strong>."
+    }
+  ]
+}

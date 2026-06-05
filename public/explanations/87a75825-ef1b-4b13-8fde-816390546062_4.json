@@ -1,1 +1,23 @@
-{"questionId":"87a75825-ef1b-4b13-8fde-816390546062_4","correctAnswer":"C","section":"Math","steps":[{"title":"Set up","content":"Plug $x = 8$ into $g(x) = 7x^{-1}$: $$g(8) = 7(8)^{-1} = \\frac{7}{8}$$"},{"title":"Solve","content":"A negative exponent means reciprocal: $7 \\cdot \\frac{1}{8} = \\frac{7}{8}$."},{"title":"Answer","content":"<strong>C</strong> is correct."}]}
+{
+  "questionId": "87a75825-ef1b-4b13-8fde-816390546062_4",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "Plug $x = 8$ into $g(x) = 7x^{-1}$: $$g(8) = 7(8)^{-1} = \\frac{7}{8}$$"
+    },
+    {
+      "title": "Solve",
+      "content": "A negative exponent means reciprocal: $7 \\cdot \\frac{1}{8} = \\frac{7}{8}$."
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>C</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice C, $\\frac{7}{8}$. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
+    }
+  ]
+}

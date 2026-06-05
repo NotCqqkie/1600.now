@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Recognize the conditional probability from the phrase",
-      "content": "The question asks for the fraction <em>of chocolate-colored kittens</em> \u2014 this phrase signals conditional probability. We need P(deep blue eyes | chocolate coat), not the overall proportion. The denominator is the total number of chocolate kittens, not all 48."
+      "content": "The question asks for the fraction <em>of chocolate-colored kittens</em> — this phrase signals conditional probability. We need P(deep blue eyes | chocolate coat), not the overall proportion. The denominator is the total number of chocolate kittens, not all 48."
     },
     {
       "title": "Look up values and form the fraction",
-      "content": "From the chocolate row: 12 have deep blue eyes out of 16 total chocolate kittens. The fraction is: $$\\frac{12}{16}$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "From the chocolate row: 12 have deep blue eyes out of 16 total chocolate kittens. The fraction is: $$\\frac{12}{16}$$<br/>That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

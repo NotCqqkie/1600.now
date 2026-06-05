@@ -1,1 +1,21 @@
-{"questionId": "ffdaaea2-8ec1-44b7-903d-084c644b881a_22", "correctAnswer": "1701", "section": "Math", "steps": [{"title": "Find the growth factor", "content": "Let k = b^{1/n}. Then f(x) = a·k^x. <br/>Using the given values: $$\\frac{f(8)}{f(5)} = \\frac{a k^8}{a k^5} = k^3 = \\frac{189}{7} = 27$$ <br/>Thus k^3 = 27, so k = 3."}, {"title": "Compute f(10)", "content": "First find a: $$a = \\frac{f(5)}{k^5} = \\frac{7}{3^5} = \\frac{7}{243}$$ <br/>Then $$f(10) = a·k^{10} = \\frac{7}{243}·3^{10} = 7·3^5 = 7·243 = 1701$$ <br/>The answer is <strong>1701</strong>."}]}
+{
+  "questionId": "ffdaaea2-8ec1-44b7-903d-084c644b881a_22",
+  "correctAnswer": "1701",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the growth factor",
+      "content": "Let $k=b^{1/n}$. Then $f(x)=ab^{x/n}$ becomes $f(x)=ak^x$. Use the two known values as a ratio:<br/>$$\\frac{f(8)}{f(5)}=\\frac{189}{7}=27$$<br/>The input increased by $3$, so $k^3=27$ and $k=3$."
+    },
+    {
+      "title": "Use Desmos or multiply from the nearer known value",
+      "content": "In Desmos, enter the points $(5,7)$ and $(8,189)$ as lists, then regress $y_1\\sim ak^{x_1}$ and evaluate at $x=10$. The mental shortcut is even faster: from $x=8$ to $x=10$ is two unit steps, so multiply by $3^2=9$:<br/>$$f(10)=189\\cdot 9=1701$$<br/>The answer is <strong>1701</strong>.",
+      "desmosExpressions": [
+        "x_1=[5,8]",
+        "y_1=[7,189]",
+        "y_1~a k^{x_1}",
+        "a k^10"
+      ]
+    }
+  ]
+}

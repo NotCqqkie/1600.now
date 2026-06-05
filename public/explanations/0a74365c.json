@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Count the number of doubling periods",
-      "content": "From 1659 to 1959 is <strong>1959 \u2212 1659 = 300 years</strong>.<br/>Since the population doubles every 75 years, the number of doubling periods is $$\\frac{300}{75} = 4$$"
+      "content": "From 1659 to 1959 is <strong>1959 − 1659 = 300 years</strong>.<br/>Since the population doubles every 75 years, the number of doubling periods is $$\\frac{300}{75} = 4$$"
     },
     {
       "title": "Set up the exponential growth equation",

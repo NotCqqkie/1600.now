@@ -1,1 +1,23 @@
-{"questionId": "ed92fb68", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Recognize the system of equations", "content": "The two equations are $4x + 5y = 100$ and $5x + 4y = 62$. Rather than solving for $x$ and $y$ individually, notice what happens when you add them."}, {"title": "Add the two equations", "content": "$$4x + 5y = 100$$<br/>$$5x + 4y = 62$$<br/>Adding left sides: $(4x + 5x) + (5y + 4y) = 9x + 9y$.<br/>Adding right sides: $100 + 62 = 162$.<br/>So $9x + 9y = 162$."}, {"title": "Solve for x + y", "content": "Divide both sides by 9:<br/>$$x + y = \\frac{162}{9} = 18$$<br/>That matches choice C — <strong>C</strong> is correct.", "desmosExpressions": ["y = (100 - 4x) / 5", "y = (62 - 5x) / 4"]}]}
+{
+  "questionId": "ed92fb68",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the system of equations",
+      "content": "The two equations are $4x + 5y = 100$ and $5x + 4y = 62$. Rather than solving for $x$ and $y$ individually, notice what happens when you add them."
+    },
+    {
+      "title": "Add the two equations",
+      "content": "$$4x + 5y = 100$$<br/>$$5x + 4y = 62$$<br/>Adding left sides: $(4x + 5x) + (5y + 4y) = 9x + 9y$.<br/>Adding right sides: $100 + 62 = 162$.<br/>So $9x + 9y = 162$."
+    },
+    {
+      "title": "Solve for x + y",
+      "content": "Divide both sides by 9:<br/>$$x + y = \\frac{162}{9} = 18$$<br/>That matches choice C — <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "y = (100 - 4x) / 5",
+        "y = (62 - 5x) / 4"
+      ]
+    }
+  ]
+}

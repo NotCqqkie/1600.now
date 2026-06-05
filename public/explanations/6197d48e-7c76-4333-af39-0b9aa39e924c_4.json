@@ -1,1 +1,19 @@
-{"questionId": "6197d48e-7c76-4333-af39-0b9aa39e924c_4", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Distribute the 6 across the second group", "content": "Expand \\(6(x^{2}+5)\\):\\[6x^{2} + 30\\]"}, {"title": "Rewrite with expanded terms and combine like terms", "content": "Substitute back and group:\\[(x^{3}+8x^{2}-7x) + (6x^{2}+30) = x^{3} + (8x^{2}+6x^{2}) + (-7x) + 30 = x^{3}+14x^{2}-7x+30\\]"}, {"title": "Evaluate each choice", "content": "The simplified expression is \\(x^{3}+14x^{2}-7x+30\\).<ul><li>A) \\(x^{3}+6x^{2}-7x+30\\): \\(x^2\\) coefficient is 6, not 14 — incorrect.</li><li>B) \\(x^{3}+8x^{2}-7x+30\\): \\(x^2\\) coefficient is 8, ignoring the distributed \\(6x^2\\) — incorrect.</li><li>C) \\(x^{3}+14x^{2}-7x+30\\): matches exactly. That matches choice C — <strong>C</strong> is correct.</li><li>D) \\(x^{3}+5x^{2}-7x+30\\): \\(x^2\\) coefficient is 5 — incorrect.</li></ul>"}]}
+{
+  "questionId": "6197d48e-7c76-4333-af39-0b9aa39e924c_4",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute the 6 across the second group",
+      "content": "Expand $6(x^{2}+5)$:$$6x^{2} + 30$$"
+    },
+    {
+      "title": "Rewrite with expanded terms and combine like terms",
+      "content": "Substitute back and group:$$(x^{3}+8x^{2}-7x) + (6x^{2}+30) = x^{3} + (8x^{2}+6x^{2}) + (-7x) + 30 = x^{3}+14x^{2}-7x+30$$"
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "The simplified expression is $x^{3}+14x^{2}-7x+30$.<ul><li>A) $x^{3}+6x^{2}-7x+30$: $x^2$ coefficient is 6, not 14 — incorrect.</li><li>B) $x^{3}+8x^{2}-7x+30$: $x^2$ coefficient is 8, ignoring the distributed $6x^2$ — incorrect.</li><li>C) $x^{3}+14x^{2}-7x+30$: matches exactly. That matches choice C — <strong>C</strong> is correct.</li><li>D) $x^{3}+5x^{2}-7x+30$: $x^2$ coefficient is 5 — incorrect.</li></ul>"
+    }
+  ]
+}

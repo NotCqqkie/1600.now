@@ -1,1 +1,15 @@
-{"questionId": "23a951fb-833f-4b27-9978-4eb054f855e2_6", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Translate the percentage statement to an equation", "content": "The phrase <em>5% of $w$ is 901.32</em> means we multiply $w$ by the decimal equivalent of 5%.<br/>$$0.05w = 901.32$$"}, {"title": "Solve for w by dividing", "content": "Divide both sides by 0.05:<br/>$$w = \\frac{901.32}{0.05}$$<br/>To divide by 0.05, multiply by its reciprocal, 20:<br/>$$w = 901.32 \\times 20 = 18,026.4$$<br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "23a951fb-833f-4b27-9978-4eb054f855e2_6",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the percentage statement to an equation",
+      "content": "The phrase <em>5% of $w$ is 901.32</em> means we multiply $w$ by the decimal equivalent of 5%.<br/>$$0.05w = 901.32$$"
+    },
+    {
+      "title": "Solve for w by dividing",
+      "content": "Divide both sides by 0.05:<br/>$$w = \\frac{901.32}{0.05}$$<br/>To divide by 0.05, multiply by its reciprocal, 20:<br/>$$w = 901.32 \\times 20 = 18,026.4$$<br/>That matches choice C — <strong>C</strong> is correct."
+    }
+  ]
+}

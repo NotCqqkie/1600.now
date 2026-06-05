@@ -1,1 +1,19 @@
-{"questionId": "fc46af57", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Apply the margin of error to find the plausible range", "content": "The sample estimate is 15% with a margin of error of 2%. The plausible range for the true percentage is:<br/>$$15\\% - 2\\% = 13\\% \\quad \\text{to} \\quad 15\\% + 2\\% = 17\\%$$"}, {"title": "Convert percentage bounds to actual bead counts", "content": "With 10,000 total beads:<br/>Lower bound: \\(13\\% \\times 10{,}000 = 1{,}300\\)<br/>Upper bound: \\(17\\% \\times 10{,}000 = 1{,}700\\)<br/>So the plausible range is \\(1{,}300 &lt; r &lt; 1{,}700\\)."}, {"title": "Evaluate each choice", "content": "<ul><li><strong>Choice A &mdash; 'r is greater than 1,700'</strong>: 1,700 is the upper bound of the plausible range; values above it are outside the margin of error. &#10007;</li><li><strong>Choice B &mdash; '1,300 is less than r, which is less than 1,700'</strong>: This is exactly the interval 13%&ndash;17% of 10,000, matching the estimate ± margin. &#10003;</li><li><strong>Choice C &mdash; 'is less than r, which is less than 1,500'</strong>: 1,500 corresponds to 15%, the point estimate; values between some lower limit and 1,500 cover only part of the plausible range and exclude the upper half. &#10007;</li><li><strong>Choice D &mdash; 'r is less than 1,300'</strong>: 1,300 is the lower bound; values below it are outside the margin of error. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "fc46af57",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the margin of error to find the plausible range",
+      "content": "The sample estimate is 15% with a margin of error of 2%. The plausible range for the true percentage is:<br/>$$15\\% - 2\\% = 13\\% \\quad \\text{to} \\quad 15\\% + 2\\% = 17\\%$$"
+    },
+    {
+      "title": "Convert percentage bounds to actual bead counts",
+      "content": "With 10,000 total beads:<br/>Lower bound: $13\\% \\times 10{,}000 = 1{,}300$<br/>Upper bound: $17\\% \\times 10{,}000 = 1{,}700$<br/>So the plausible range is $1{,}300 &lt; r &lt; 1{,}700$."
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; 'r is greater than 1,700'</strong>: 1,700 is the upper bound of the plausible range; values above it are outside the margin of error. &#10007;</li><li><strong>Choice B &mdash; '1,300 is less than r, which is less than 1,700'</strong>: This is exactly the interval 13%&ndash;17% of 10,000, matching the estimate ± margin. &#10003;</li><li><strong>Choice C &mdash; 'is less than r, which is less than 1,500'</strong>: 1,500 corresponds to 15%, the point estimate; values between some lower limit and 1,500 cover only part of the plausible range and exclude the upper half. &#10007;</li><li><strong>Choice D &mdash; 'r is less than 1,300'</strong>: 1,300 is the lower bound; values below it are outside the margin of error. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

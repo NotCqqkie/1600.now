@@ -1,1 +1,23 @@
-{"questionId":"bd71c8f3-94e3-411f-929a-013a2ca9a277_4","correctAnswer":"B","section":"Math","steps":[{"title":"Set up","content":"The maximum is 92 trees per acre. For 2 acres, multiply: $92 \\ \\times \\ 2$"},{"title":"Solve","content":"$92 \\times 2 = 184$"},{"title":"Answer","content":"<strong>B</strong> is correct."}]}
+{
+  "questionId": "bd71c8f3-94e3-411f-929a-013a2ca9a277_4",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "The maximum is 92 trees per acre. For 2 acres, multiply: $92 \\ \\times \\ 2$"
+    },
+    {
+      "title": "Solve",
+      "content": "$92 \\times 2 = 184$"
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>B</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice B, $184$. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -4,15 +4,18 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the discriminant condition for no real solutions",
-      "content": "A quadratic equation $ax^2 + bx + c = 0$ has no real solutions when its discriminant is negative.<br/><br/>The discriminant is $$\\Delta = b^2 - 4ac$$ If $\\Delta < 0$, there are no real solutions; if $\\Delta = 0$, there is one real solution; if $\\Delta > 0$, there are two real solutions.<br/><br/>For each choice, we need to write the equation in standard form and identify the coefficients $a$, $b$, and $c$."
+      "title": "Graph each choice",
+      "content": "A quadratic equation has no real solutions when its graph has no x-intercepts. In Desmos, graph the left side of each answer choice as a function of $x$ and look for the one that never touches the x-axis.",
+      "desmosExpressions": [
+        "y=-2x^2",
+        "y=-2x^2+2",
+        "y=-2x^2+2x",
+        "y=-2x^2+2x-2"
+      ]
     },
     {
       "title": "Check the discriminant for each choice",
-      "content": "<strong>Choice A:</strong> $-2x^2 = 0$ is $-2x^2 + 0x + 0 = 0$, so $a = -2$, $b = 0$, $c = 0$. Discriminant: $$\\Delta = 0^2 - 4(-2)(0) = 0$$ This has one real solution.<br/><br/><strong>Choice B:</strong> $-2x^2 + 2 = 0$ is $-2x^2 + 0x + 2 = 0$, so $a = -2$, $b = 0$, $c = 2$. Discriminant: $$\\Delta = 0^2 - 4(-2)(2) = 0 + 16 = 16$$ Since $\\Delta > 0$, this has two real solutions.<br/><br/><strong>Choice C:</strong> $-2x^2 + 2x = 0$ is $-2x^2 + 2x + 0 = 0$, so $a = -2$, $b = 2$, $c = 0$. Discriminant: $$\\Delta = 2^2 - 4(-2)(0) = 4 - 0 = 4$$ Since $\\Delta > 0$, this has two real solutions.<br/><br/><strong>Choice D:</strong> $-2x^2 + 2x - 2 = 0$ has $a = -2$, $b = 2$, $c = -2$. Discriminant: $$\\Delta = 2^2 - 4(-2)(-2) = 4 - 16 = -12$$ Since $\\Delta < 0$, this has no real solutions. That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y = x^2 + 1"
-      ]
+      "content": "Choices A, B, and C hit the x-axis, so they have real solutions. Choice D stays below the x-axis. Algebra confirms it: for $-2x^2+2x-2=0$, the discriminant is $2^2-4(-2)(-2)=4-16=-12<0$, so there are no real solutions. Choice <strong>D</strong> is correct."
     }
   ]
 }

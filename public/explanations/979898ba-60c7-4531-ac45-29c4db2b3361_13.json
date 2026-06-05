@@ -14,7 +14,9 @@
     {
       "title": "Match to the answer choices",
       "content": "<ul><li><strong>Choice A &mdash; '$g(x)=4x+10$'</strong>: Slope is 4, not 6, so $g(x+1)-g(x)=4 \\neq 6$. &#10007;</li><li><strong>Choice B &mdash; '$g(x)=4x+6$'</strong>: Slope is 4, not 6. &#10007;</li><li><strong>Choice C &mdash; '$g(x)=6x-14$'</strong>: Slope is 6 (matches difference condition) and $g(4)=24-14=10$ (matches point condition). &#10003;</li><li><strong>Choice D &mdash; '$g(x)=6x-24$'</strong>: Slope is correct but $g(4)=24-24=0 \\neq 10$. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.",
-      "desmosExpressions": ["y = 6x - 14"]
+      "desmosExpressions": [
+        "y = 6x - 14"
+      ]
     }
   ]
 }

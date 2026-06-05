@@ -4,8 +4,21 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the y-intercept from the table",
-      "content": "The <em>y</em>-intercept is the <em>y</em>-value where <em>x</em> = 0. The table includes the row $x = 0$, $y = 17$, so the <em>y</em>-intercept is <strong>17</strong>."
+      "title": "Use the table shortcut",
+      "content": "The $y$-intercept is the $y$-value when $x=0$. The table already includes the row $x=0$, so the answer can be read directly: $y=17$."
+    },
+    {
+      "title": "Optional Desmos regression check",
+      "content": "If you enter the table and run a linear regression, the intercept $b$ is $17$.",
+      "desmosExpressions": [
+        "x_1=[0,1,2]",
+        "y_1=[17,24,31]",
+        "y_1~m x_1+b"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The $y$-coordinate of the $y$-intercept is $17$."
     }
   ]
 }

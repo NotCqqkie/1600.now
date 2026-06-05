@@ -9,7 +9,7 @@
     },
     {
       "title": "Build the exponential formula",
-      "content": "Starting with 2,800 toys, applying a factor of $\\frac{1}{2}$ for each of $w$ weeks:<br/>$$c = 2,800 \\left(\\frac{1}{2}\\right)^w$$<br/>Verify at $w = 1$: $c = 2,800 \\cdot \\frac{1}{2} = 1,400$ (half of 2,800\u2014correct for one week).<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "Starting with 2,800 toys, applying a factor of $\\frac{1}{2}$ for each of $w$ weeks:<br/>$$c = 2,800 \\left(\\frac{1}{2}\\right)^w$$<br/>Verify at $w = 1$: $c = 2,800 \\cdot \\frac{1}{2} = 1,400$ (half of 2,800—correct for one week).<br/>That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

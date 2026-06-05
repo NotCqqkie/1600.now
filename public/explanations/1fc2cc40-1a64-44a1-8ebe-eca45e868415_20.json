@@ -1,1 +1,19 @@
-{"questionId":"1fc2cc40-1a64-44a1-8ebe-eca45e868415_20","correctAnswer":"D","section":"Math","steps":[{"title":"Factor and set up the no-solution condition","content":"Factor the left side: $-6x + 42px = (-6 + 42p)x = 84$.<br/>A linear equation $Ax = B$ (with $B \\ne 0$) has <strong>no solution</strong> when $A = 0$, producing the contradiction $0 = 84$.<br/>Require: $-6 + 42p = 0 \\implies p = \\dfrac{6}{42} = \\dfrac{1}{7}$."},{"title":"Test all four choices","content":"<ul><li><strong>Choice A &mdash; $\\frac{1}{3}$</strong>: $-6 + 42(\\frac{1}{3}) = -6 + 14 = 8 \\ne 0$. Equation becomes $8x = 84$, which has the unique solution $x = 10.5$. &#10007;</li><li><strong>Choice B &mdash; $0$</strong>: $-6 + 42(0) = -6 \\ne 0$. Equation becomes $-6x = 84$, unique solution $x = -14$. &#10007;</li><li><strong>Choice C &mdash; $2$</strong>: $-6 + 42(2) = -6 + 84 = 78 \\ne 0$. Unique solution exists. &#10007;</li><li><strong>Choice D &mdash; $\\frac{1}{7}$</strong>: $-6 + 42(\\frac{1}{7}) = -6 + 6 = 0$. Equation becomes $0 = 84$, a contradiction with no solution. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_20",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor and set up the no-solution condition",
+      "content": "Factor the left side: $$-6x+42px=(-6+42p)x$$ The equation is $(-6+42p)x=84$. Since $84\\ne0$, no solution happens only when the $x$-coefficient is $0$, producing the false statement $0=84$. Desmos can solve $-6+42p=0$ directly.",
+      "desmosExpressions": [
+        "u_1=[1]",
+        "(-6+42p)u_1~0u_1"
+      ]
+    },
+    {
+      "title": "Test all four choices",
+      "content": "<ul><li><strong>Choice A &mdash; $\\frac{1}{3}$</strong>: $-6 + 42(\\frac{1}{3}) = -6 + 14 = 8 \\ne 0$. Equation becomes $8x = 84$, which has the unique solution $x = 10.5$. &#10007;</li><li><strong>Choice B &mdash; $0$</strong>: $-6 + 42(0) = -6 \\ne 0$. Equation becomes $-6x = 84$, unique solution $x = -14$. &#10007;</li><li><strong>Choice C &mdash; $2$</strong>: $-6 + 42(2) = -6 + 84 = 78 \\ne 0$. Unique solution exists. &#10007;</li><li><strong>Choice D &mdash; $\\frac{1}{7}$</strong>: $-6 + 42(\\frac{1}{7}) = -6 + 6 = 0$. Equation becomes $0 = 84$, a contradiction with no solution. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

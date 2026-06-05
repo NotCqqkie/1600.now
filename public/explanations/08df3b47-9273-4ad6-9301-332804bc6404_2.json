@@ -1,1 +1,19 @@
-{"questionId": "08df3b47-9273-4ad6-9301-332804bc6404_2", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Translate &quot;at least twice&quot; into an inequality", "content": "The phrase &quot;x is at least twice the value of y&quot; breaks into two parts: &quot;at least&quot; means \\(\\geq\\), and &quot;twice the value of y&quot; means \\(2y\\). Together: \\(x \\geq 2y\\)."}, {"title": "Substitute y = 51", "content": "Replace y with 51: \\(x \\geq 2(51) = 102\\). The boundary value is 102."}, {"title": "Evaluate all choices", "content": "<ul><li>A: \\(x \\geq 49\\) &mdash; 49 is \\(51 - 2\\), not twice 51. Eliminated.</li><li>B: \\(x \\geq 53\\) &mdash; 53 is \\(51 + 2\\), not twice 51. Eliminated.</li><li>C: \\(x \\geq 102\\) &mdash; \\(2 \\times 51 = 102\\). This is exactly &quot;at least twice y.&quot; That matches choice C &mdash; <strong>C</strong> is correct.</li><li>D: \\(x \\geq 104\\) &mdash; 104 is \\(2(51) + 2\\), off by 2. Eliminated.</li></ul>"}]}
+{
+  "questionId": "08df3b47-9273-4ad6-9301-332804bc6404_2",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate &quot;at least twice&quot; into an inequality",
+      "content": "The phrase &quot;x is at least twice the value of y&quot; breaks into two parts: &quot;at least&quot; means $\\geq$, and &quot;twice the value of y&quot; means $2y$. Together: $x \\geq 2y$."
+    },
+    {
+      "title": "Substitute y = 51",
+      "content": "Replace y with 51: $x \\geq 2(51) = 102$. The boundary value is 102."
+    },
+    {
+      "title": "Evaluate all choices",
+      "content": "<ul><li>A: $x \\geq 49$ &mdash; 49 is $51 - 2$, not twice 51. Eliminated.</li><li>B: $x \\geq 53$ &mdash; 53 is $51 + 2$, not twice 51. Eliminated.</li><li>C: $x \\geq 102$ &mdash; $2 \\times 51 = 102$. This is exactly &quot;at least twice y.&quot; That matches choice C &mdash; <strong>C</strong> is correct.</li><li>D: $x \\geq 104$ &mdash; 104 is $2(51) + 2$, off by 2. Eliminated.</li></ul>"
+    }
+  ]
+}

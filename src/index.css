@@ -824,7 +824,9 @@ All colors MUST be HSL.
 
 /* Tailwind Typography (prose) adds an outer border to table elements — remove it. */
 .prose table {
-  border: none;
+  border: 0 !important;
+  outline: 0;
+  box-shadow: none;
 }
 
 /* Question-bank HTML tables. The source data emits class names like
@@ -835,8 +837,13 @@ All colors MUST be HSL.
 table.tableWithBorder,
 table.table_WithBorder,
 table.table_Borderless {
+  width: auto;
+  max-width: 100%;
   border-collapse: collapse;
-  margin: 0.75em 0;
+  border-spacing: 0;
+  border: 0;
+  margin: 0.6em 0;
+  font-size: 0.8em;
   font-variant-numeric: tabular-nums;
 }
 .cb-table th,
@@ -846,12 +853,12 @@ table.tableWithBorder td,
 table.table_WithBorder th,
 table.table_WithBorder td {
   border: 1px solid hsl(var(--border));
-  padding: 0.4em 0.75em;
+  padding: 0.32em 0.6em;
   text-align: left;
 }
 table.table_Borderless th,
 table.table_Borderless td {
-  padding: 0.25em 0.6em;
+  padding: 0.2em 0.48em;
 }
 .cb-table th,
 table.tableWithBorder th,

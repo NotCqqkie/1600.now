@@ -1,1 +1,12 @@
-{"questionId": "7cd1c6db", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Use the time-distance-speed formula", "content": "The time to travel a distance at constant speed is: $$\\text{time} = \\frac{\\text{distance}}{\\text{speed}}$$<br/>Substituting the given values: $$\\text{time} = \\frac{108 \\text{ cm}}{12 \\text{ cm/s}} = 9 \\text{ s}$$<br/>That matches choice A — <strong>A</strong> is correct.", "formula": "$$\\text{distance} = \\text{speed} \\times \\text{time}$$"}]}
+{
+  "questionId": "7cd1c6db",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the time-distance-speed formula",
+      "content": "The time to travel a distance at constant speed is: $$\\text{time} = \\frac{\\text{distance}}{\\text{speed}}$$<br/>Substituting the given values: $$\\text{time} = \\frac{108 \\text{ cm}}{12 \\text{ cm/s}} = 9 \\text{ s}$$<br/>That matches choice A — <strong>A</strong> is correct.",
+      "formula": "$$\\text{distance} = \\text{speed} \\times \\text{time}$$"
+    }
+  ]
+}

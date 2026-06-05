@@ -1,1 +1,23 @@
-{"questionId":"f3ade8fe-06c3-4b9c-a658-8857621e692f_19","correctAnswer":"127","section":"Math","steps":[{"title":"Square both sides to get a quadratic","content":"Square $\\sqrt{k-x} = 32 - x$ (valid when $32 - x \\ge 0$):<br/>$$k - x = x^{2} - 64x + 1024 \\implies x^{2} - 63x + (1024 - k) = 0.$$"},{"title":"Discriminant shortcut: one solution means \\(\\Delta = 0\\)","content":"$$63^{2} - 4(1024 - k) = 0$$$$3969 - 4096 + 4k = 0 \\implies 4k = 127.$$<br/>Check: repeated root $x = \\tfrac{63}{2} = 31.5 \\le 32$, so it is valid."},{"title":"Answer","content":"The minimum value of $4k$ is <strong>127</strong>."}]}
+{
+  "questionId": "f3ade8fe-06c3-4b9c-a658-8857621e692f_19",
+  "correctAnswer": "127",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Square to make a quadratic",
+      "content": "The equation is $$\\sqrt{k-x}=32-x.$$ Since the left side is nonnegative, any real solution must have $32-x\\ge 0$, or $x\\le 32$. Squaring gives $$k-x=(32-x)^2.$$"
+    },
+    {
+      "title": "Put the quadratic in standard form",
+      "content": "Expand and move everything to one side: $$k-x=x^2-64x+1024$$ $$0=x^2-63x+1024-k.$$"
+    },
+    {
+      "title": "Force exactly one real solution",
+      "content": "For the quadratic to have exactly one real solution, set the discriminant equal to $0$: $$63^2-4(1)(1024-k)=0$$ $$3969-4096+4k=0$$ $$4k=127.$$"
+    },
+    {
+      "title": "Check the domain condition",
+      "content": "The repeated root is $x=\\frac{63}{2}=31.5$, and $31.5\\le 32$, so it satisfies the original radical equation's requirement. Therefore the minimum possible value of $4k$ is <strong>127</strong>."
+    }
+  ]
+}

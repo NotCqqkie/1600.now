@@ -1,1 +1,23 @@
-{"questionId":"87f513aa-a49e-436a-9a4c-c87bd3101b4c_17","correctAnswer":"28500","section":"Math","steps":[{"title":"Set up","content":"1 leuga = 7,500 pedes. Multiply to convert 3.8 leugas: 3.8 &times; 7,500."},{"title":"Solve","content":"3.8 &times; 7,500 = 3 &times; 7,500 + 0.8 &times; 7,500 = 22,500 + 6,000 = 28,500."},{"title":"Answer","content":"<strong>28500</strong> is correct."}]}
+{
+  "questionId": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_17",
+  "correctAnswer": "28500",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "1 leuga = 7,500 pedes. Multiply to convert 3.8 leugas: 3.8 &times; 7,500."
+    },
+    {
+      "title": "Solve",
+      "content": "3.8 &times; 7,500 = 3 &times; 7,500 + 0.8 &times; 7,500 = 22,500 + 6,000 = 28,500."
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>28500</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, make sure the computed value answers exactly what the question asks for. The work above gives $28500$; substituting or interpreting it in the original condition satisfies the requirement, so $28500$ is the value to enter."
+    }
+  ]
+}

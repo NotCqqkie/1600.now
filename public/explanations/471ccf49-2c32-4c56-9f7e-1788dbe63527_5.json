@@ -1,1 +1,11 @@
-{"questionId": "471ccf49-2c32-4c56-9f7e-1788dbe63527_5", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Apply triangle angle sum property", "content": "The sum of all angles in a triangle equals 180°. With ∠F = 39° and ∠G = 39°:<br/>$$\\angle F + \\angle G + \\angle H = 180°$$<br/>$$39° + 39° + \\angle H = 180°$$<br/>$$78° + \\angle H = 180°$$<br/>$$\\angle H = 102°$$<br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "471ccf49-2c32-4c56-9f7e-1788dbe63527_5",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply triangle angle sum property",
+      "content": "The sum of all angles in a triangle equals 180°. With ∠F = 39° and ∠G = 39°:<br/>$$\\angle F + \\angle G + \\angle H = 180°$$<br/>$$39° + 39° + \\angle H = 180°$$<br/>$$78° + \\angle H = 180°$$<br/>$$\\angle H = 102°$$<br/>That matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

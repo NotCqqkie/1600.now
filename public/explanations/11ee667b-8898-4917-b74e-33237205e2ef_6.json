@@ -1,1 +1,15 @@
-{"questionId":"11ee667b-8898-4917-b74e-33237205e2ef_6","correctAnswer":"38","section":"Math","steps":[{"title":"Set up the equation from the parts","content":"Let $x$ be the length of one equal part. The three parts sum to the total length: $$49 + 2x = 125.$$"},{"title":"Solve for the requested length","content":"Subtract and divide: $2x = 125 - 49 = 76$, so $x = 38$. The answer is <strong>38</strong>."}]}
+{
+  "questionId": "11ee667b-8898-4917-b74e-33237205e2ef_6",
+  "correctAnswer": "38",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the equation from the parts",
+      "content": "Let $x$ be the length of one equal part. The three parts sum to the total length: $$49 + 2x = 125.$$"
+    },
+    {
+      "title": "Solve for the requested length",
+      "content": "Subtract and divide: $2x = 125 - 49 = 76$, so $x = 38$. The answer is <strong>38</strong>."
+    }
+  ]
+}

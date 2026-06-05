@@ -1,1 +1,15 @@
-{"questionId": "9d845a11-6019-4b88-9309-26d92ced4f70_4", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Recall what y-intercept means", "content": "The y-intercept is the point where a graph crosses the y-axis, which is the point on the line with $x = 0$. So we read the $y$-coordinate of the line at $x = 0$ from the figure."}, {"title": "Read the y-intercept from the figure", "content": "From the figure, the line crosses the y-axis at $(0, -4)$, which matches <strong>choice D</strong>."}]}
+{
+  "questionId": "9d845a11-6019-4b88-9309-26d92ced4f70_4",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recall what y-intercept means",
+      "content": "The y-intercept is the point where a graph crosses the y-axis, which is the point on the line with $x = 0$. So we read the $y$-coordinate of the line at $x = 0$ from the figure."
+    },
+    {
+      "title": "Read the y-intercept from the figure",
+      "content": "From the figure, the line crosses the y-axis at $(0, -4)$, which matches <strong>choice D</strong>."
+    }
+  ]
+}

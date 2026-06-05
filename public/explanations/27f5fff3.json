@@ -1,1 +1,27 @@
-{"questionId": "27f5fff3", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Extract the system from the graph", "content": "The slanted line passes through (0, 3) with slope $-\\frac{1}{2}$, giving $x + 2y = 6$. The horizontal line is $y = 2$. These two equations form the original system."}, {"title": "Solve the original system", "content": "Substitute $y = 2$ into $x + 2y = 6$:<br/>$$x + 2(2) = 6$$<br/>$$x = 2$$<br/>The original system has solution $(2, 2)$."}, {"title": "Check if the solution satisfies the new equation", "content": "Test $(2, 2)$ in $x + 4y = -16$:<br/>$$2 + 4(2) = 2 + 8 = 10$$<br/>Since $10 \\neq -16$, the point $(2, 2)$ does not lie on the third line. Therefore, no point satisfies all three equations. That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "27f5fff3",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the existing intersection",
+      "content": "The original two-line system has exactly one solution: the point where the two shown lines intersect. From the graph, that intersection is $(8,2)$."
+    },
+    {
+      "title": "Test the third equation",
+      "content": "For the three-equation system to have a solution, the original intersection point must also satisfy the new equation $x+4y=-16$. Substitute $(8,2)$: $$8+4(2)=16$$"
+    },
+    {
+      "title": "Compare to the required value",
+      "content": "The new equation requires $x+4y=-16$, but the original intersection gives $16$. Since $(8,2)$ is not on the third line, no point can satisfy all three equations.",
+      "desmosExpressions": [
+        "x+4y=-16",
+        "(8,2)"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The resulting system has zero solutions, which matches choice <strong>A</strong>."
+    }
+  ]
+}

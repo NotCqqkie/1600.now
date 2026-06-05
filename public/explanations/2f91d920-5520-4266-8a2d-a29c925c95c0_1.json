@@ -1,1 +1,19 @@
-{"questionId":"2f91d920-5520-4266-8a2d-a29c925c95c0_1","correctAnswer":"D","section":"Math","steps":[{"title":"Apply the multiplier from the given condition","content":"Note $4x = 2 \\cdot 2x$, and $2x=10$."},{"title":"Compute the target value","content":"So $4x = 2 \\cdot 10 = 20$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "2f91d920-5520-4266-8a2d-a29c925c95c0_1",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the multiplier from the given condition",
+      "content": "Note $4x = 2 \\cdot 2x$, and $2x=10$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "So $4x = 2 \\cdot 10 = 20$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice D, 20. The other choices do not satisfy the same condition from the question, so <strong>D</strong> is correct."
+    }
+  ]
+}

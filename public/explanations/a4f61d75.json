@@ -14,7 +14,10 @@
     {
       "title": "Select a possible value",
       "content": "Choosing one of these, take $$a=8$$ (it satisfies all conditions).<br/>The answer is <strong>8</strong>.<br/><br/>Equivalent forms accepted: <strong>7</strong>, <strong>8</strong>, or <strong>13</strong>.",
-      "desmosExpressions": ["y = x^2 - a x + 12", "a = 7"]
+      "desmosExpressions": [
+        "y = x^2 - a x + 12",
+        "a = 7"
+      ]
     }
   ]
 }

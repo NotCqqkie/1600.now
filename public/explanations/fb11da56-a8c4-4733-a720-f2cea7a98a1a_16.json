@@ -9,7 +9,7 @@
     },
     {
       "title": "Calculate total surface area",
-      "content": "Each face is a square with side 48 cm, so each has area $48^2 = 2,304$ cm\u00b2. With 5 faces:<br/>$$5 \\times 2,304 = 11,520 \\text{ cm}^2$$"
+      "content": "Each face is a square with side 48 cm, so each has area $48^2 = 2,304$ cm². With 5 faces:<br/>$$5 \\times 2,304 = 11,520 \\text{ cm}^2$$"
     },
     {
       "title": "Convert to square meters",

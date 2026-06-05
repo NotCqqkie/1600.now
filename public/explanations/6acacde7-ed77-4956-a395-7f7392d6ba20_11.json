@@ -9,7 +9,7 @@
     },
     {
       "title": "Backsolve to find the initial value",
-      "content": "Backsolving \u2014 testing choice B (116):<br/>$$1.3125 \\times 116 = 152.25 \\neq 168$$<br/>Fails. Testing choice A (128):<br/>$$1.3125 \\times 128 = 128 + 40 = 168$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "Backsolving — testing choice B (116):<br/>$$1.3125 \\times 116 = 152.25 \\neq 168$$<br/>Fails. Testing choice A (128):<br/>$$1.3125 \\times 128 = 128 + 40 = 168$$<br/>That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

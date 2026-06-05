@@ -1,1 +1,23 @@
-{"questionId":"ceb2e234-3ab3-4376-b66a-cf8535278d77_3","correctAnswer":"A","section":"Math","steps":[{"title":"Use slope-intercept form","content":"A linear function with slope $m$ and y-intercept $b$ has the form $f(x)=mx+b$. Since $(0,7)$ is on the graph, $b=7$."},{"title":"Plug in the slope","content":"With $m=\\dfrac{1}{3}$ and $b=7$: $f(x)=\\dfrac{1}{3}x+7$.","desmosExpressions":["f(x)=\\frac{1}{3}x+7","(0,7)"]},{"title":"Eliminate each choice","content":"<ul><li>A) $\\dfrac{1}{3}x+7$ &mdash; $f(0)=7$. Matches the given point.</li><li>B) $\\dfrac{1}{3}x+\\dfrac{1}{7}$ &mdash; $f(0)=\\dfrac{1}{7}\\ne 7$. Eliminate.</li><li>C) $\\dfrac{1}{3}x-\\dfrac{7}{3}$ &mdash; $f(0)=-\\dfrac{7}{3}\\ne 7$. Eliminate.</li><li>D) $\\dfrac{1}{3}x-7$ &mdash; $f(0)=-7\\ne 7$. Eliminate.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "ceb2e234-3ab3-4376-b66a-cf8535278d77_3",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use slope-intercept form",
+      "content": "A linear function with slope $m$ and y-intercept $b$ has the form $f(x)=mx+b$. Since $(0,7)$ is on the graph, $b=7$."
+    },
+    {
+      "title": "Plug in the slope",
+      "content": "With $m=\\dfrac{1}{3}$ and $b=7$: $f(x)=\\dfrac{1}{3}x+7$.",
+      "desmosExpressions": [
+        "f(x)=\\frac{1}{3}x+7",
+        "(0,7)"
+      ]
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li>A) $\\dfrac{1}{3}x+7$ &mdash; $f(0)=7$. Matches the given point.</li><li>B) $\\dfrac{1}{3}x+\\dfrac{1}{7}$ &mdash; $f(0)=\\dfrac{1}{7}\\ne 7$. Eliminate.</li><li>C) $\\dfrac{1}{3}x-\\dfrac{7}{3}$ &mdash; $f(0)=-\\dfrac{7}{3}\\ne 7$. Eliminate.</li><li>D) $\\dfrac{1}{3}x-7$ &mdash; $f(0)=-7\\ne 7$. Eliminate.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

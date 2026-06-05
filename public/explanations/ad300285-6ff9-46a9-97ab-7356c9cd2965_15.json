@@ -1,1 +1,23 @@
-{"questionId":"ad300285-6ff9-46a9-97ab-7356c9cd2965_15","correctAnswer":"C","section":"Math","steps":[{"title":"Apply the cross-multiplication from the given condition","content":"Multiply both sides by $x$: $42 = 7x^{2}$."},{"title":"Compute the target value","content":"So $7x^{2} = 42$. That matches choice <strong>C</strong> — <strong>C</strong> is correct.","desmosExpressions":["y = \\frac{42}{x}","y = 7x"]}]}
+{
+  "questionId": "ad300285-6ff9-46a9-97ab-7356c9cd2965_15",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the cross-multiplication from the given condition",
+      "content": "Multiply both sides by $x$: $42 = 7x^{2}$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "So $7x^{2} = 42$. That matches choice <strong>C</strong> — <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "y = \\frac{42}{x}",
+        "y = 7x"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice C, 42. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId":"2c578582-a4c6-4b17-a43d-0f06aaab91b7_1","correctAnswer":"A","section":"Math","steps":[{"title":"Identify what the question needs","content":"Find which pair of flower types together account for exactly 2/5 of the total 700 flowers. 2/5 &times; 700 = 280, so the pair must sum to 280."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Orchid and Lily'</strong>: 180 + 100 = 280. &#10003;</li><li><strong>Choice B &mdash; 'Tulip and Lily'</strong>: 140 + 100 = 240 &ne; 280. &#10007;</li><li><strong>Choice C &mdash; 'Orchid and Sunflower'</strong>: 180 + 160 = 340 &ne; 280. &#10007;</li><li><strong>Choice D &mdash; 'Tulip and Daisy'</strong>: 140 + 120 = 260 &ne; 280. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_1",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "Find which pair of flower types together account for exactly 2/5 of the total 700 flowers. 2/5 &times; 700 = 280, so the pair must sum to 280."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'Orchid and Lily'</strong>: 180 + 100 = 280. &#10003;</li><li><strong>Choice B &mdash; 'Tulip and Lily'</strong>: 140 + 100 = 240 &ne; 280. &#10007;</li><li><strong>Choice C &mdash; 'Orchid and Sunflower'</strong>: 180 + 160 = 340 &ne; 280. &#10007;</li><li><strong>Choice D &mdash; 'Tulip and Daisy'</strong>: 140 + 120 = 260 &ne; 280. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Determine angle A",
-      "content": "In right triangle ABC with the right angle at C and angle B = 30\u00b0, use the angle sum property:<br/>$$A + 90 + 30 = 180$$<br/>Therefore angle A = 60\u00b0."
+      "content": "In right triangle ABC with the right angle at C and angle B = 30°, use the angle sum property:<br/>$$A + 90 + 30 = 180$$<br/>Therefore angle A = 60°."
     },
     {
       "title": "Apply 30-60-90 triangle side ratios",
-      "content": "In a 30-60-90 triangle, the sides opposite the 30\u00b0, 60\u00b0, and 90\u00b0 angles are in ratio $1 : \\sqrt{3} : 2$. With hypotenuse AB = 54:<ul><li>AC (opposite the 30\u00b0 angle) = $\\frac{54}{2} = 27$</li><li>BC (opposite the 60\u00b0 angle) = $\\frac{54\\sqrt{3}}{2} = 27\\sqrt{3}$</li></ul>"
+      "content": "In a 30-60-90 triangle, the sides opposite the 30°, 60°, and 90° angles are in ratio $1 : \\sqrt{3} : 2$. With hypotenuse AB = 54:<ul><li>AC (opposite the 30° angle) = $\\frac{54}{2} = 27$</li><li>BC (opposite the 60° angle) = $\\frac{54\\sqrt{3}}{2} = 27\\sqrt{3}$</li></ul>"
     },
     {
       "title": "Calculate tan A and identify the answer",
-      "content": "For angle A, tangent equals the opposite side divided by the adjacent side:<br/>$$\\tan A = \\frac{BC}{AC} = \\frac{27\\sqrt{3}}{27} = \\sqrt{3}$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "For angle A, tangent equals the opposite side divided by the adjacent side:<br/>$$\\tan A = \\frac{BC}{AC} = \\frac{27\\sqrt{3}}{27} = \\sqrt{3}$$<br/>That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

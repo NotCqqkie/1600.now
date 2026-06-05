@@ -1,1 +1,10 @@
-{"qid": "4e375d1f", "correctAnswer": "B", "steps": ["The conversion factor is 100 centimeters = 1 meter. To convert centimeters to meters, divide by 100.", "\\(2{,}300 \\div 100 = 23\\) meters.", "Verify the unit direction: dividing by 100 makes the number smaller, which is correct since a meter is larger than a centimeter.", "<ul><li>Choice A: \\(0.043\\) &mdash; this is far too small; dividing by 100 does not yield a value less than 1 for 2,300 cm; incorrect.</li><li>Choice B: \\(23\\) &mdash; \\(2300 \\div 100 = 23\\). That matches choice B &mdash; <strong>B</strong> is correct.</li><li>Choice C: \\(2{,}400\\) &mdash; this is larger than the original number of centimeters and goes in the wrong direction; incorrect.</li><li>Choice D: \\(230{,}000\\) &mdash; this would result from multiplying by 100 instead of dividing; incorrect.</li></ul>"]}
+{
+  "qid": "4e375d1f",
+  "correctAnswer": "B",
+  "steps": [
+    "The conversion factor is 100 centimeters = 1 meter. To convert centimeters to meters, divide by 100.",
+    "$2{,}300 \\div 100 = 23$ meters.",
+    "Verify the unit direction: dividing by 100 makes the number smaller, which is correct since a meter is larger than a centimeter.",
+    "<ul><li>Choice A: $0.043$ &mdash; this is far too small; dividing by 100 does not yield a value less than 1 for 2,300 cm; incorrect.</li><li>Choice B: $23$ &mdash; $2300 \\div 100 = 23$. That matches choice B &mdash; <strong>B</strong> is correct.</li><li>Choice C: $2{,}400$ &mdash; this is larger than the original number of centimeters and goes in the wrong direction; incorrect.</li><li>Choice D: $230{,}000$ &mdash; this would result from multiplying by 100 instead of dividing; incorrect.</li></ul>"
+  ]
+}

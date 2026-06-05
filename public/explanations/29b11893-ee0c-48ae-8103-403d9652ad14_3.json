@@ -1,1 +1,15 @@
-{"questionId": "29b11893-ee0c-48ae-8103-403d9652ad14_3", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Convert the square root to a fractional exponent", "content": "A square root is the same as raising to the power $\\frac{1}{2}$: $$\\sqrt{x^{153}} = \\left(x^{153}\\right)^{1/2} = x^{153 \\cdot \\frac{1}{2}} = x^{153/2}.$$"}, {"title": "Eliminate incorrect choices", "content": "<ul><li>Choice A: $x^{2/153}$ — this would be the $153$rd root squared, not the square root of $x^{153}$ — eliminate.</li><li>Choice B: $x^{153/2}$ — matches the derivation above — keep.</li><li>Choice C: $x^{151}$ — the exponent would need to be $153/2 = 76.5$, not $151$ — eliminate.</li><li>Choice D: $x^{306}$ — squaring $x^{153}$ gives $x^{306}$, but we are taking the square root, not squaring — eliminate.</li></ul>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "29b11893-ee0c-48ae-8103-403d9652ad14_3",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert the square root to a fractional exponent",
+      "content": "A square root is the same as raising to the power $\\frac{1}{2}$: $$\\sqrt{x^{153}} = \\left(x^{153}\\right)^{1/2} = x^{153 \\cdot \\frac{1}{2}} = x^{153/2}.$$"
+    },
+    {
+      "title": "Eliminate incorrect choices",
+      "content": "<ul><li>Choice A: $x^{2/153}$ — this would be the $153$rd root squared, not the square root of $x^{153}$ — eliminate.</li><li>Choice B: $x^{153/2}$ — matches the derivation above — keep.</li><li>Choice C: $x^{151}$ — the exponent would need to be $153/2 = 76.5$, not $151$ — eliminate.</li><li>Choice D: $x^{306}$ — squaring $x^{153}$ gives $x^{306}$, but we are taking the square root, not squaring — eliminate.</li></ul>That matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

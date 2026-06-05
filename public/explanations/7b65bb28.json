@@ -1,1 +1,23 @@
-{"questionId": "7b65bb28", "correctAnswer": "C", "section": "Math", "steps": [{"title": "List the recorded prices", "content": "The recorded prices are $3.609, 3.679, 3.699, 3.729, 3.729$."}, {"title": "Find the median by sorting", "content": "$$3.609, 3.679, 3.699, 3.729, 3.729$$<br/>The median is the third value: $$3.699$$.<br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "7b65bb28",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "List the recorded prices",
+      "content": "The recorded prices are $3.609, 3.679, 3.699, 3.729, 3.729$."
+    },
+    {
+      "title": "Find the median by sorting",
+      "content": "$$3.609, 3.679, 3.699, 3.729, 3.729$$<br/>The median is the third value: $$3.699$$.<br/>That matches choice C — <strong>C</strong> is correct."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice C is correct. The median of a data set is the middle value when the data is in ascending or descending order. In ascending order, the gas prices are \\$3.609, \\$3.679, \\$3.699, \\$3.729, and \\$3.729. The middle number of this list is 3.699, so it follows that \\$3.699 is the median gas price."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A is incorrect. When the gas prices are listed in ascending order, this value isn&rsquo;t the middle number. Choice B is incorrect. This value represents the mean gas price. Choice D is incorrect. This value represents both the mode and the maximum gas price."
+    }
+  ]
+}

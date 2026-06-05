@@ -1,1 +1,23 @@
-{"questionId": "36f068e2", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Identify intercepts and slope of the first equation", "content": "For $x + y = 53$:<ul><li>$y$-intercept: set $x = 0 \\Rightarrow y = 53$, giving $(0, 53)$</li><li>$x$-intercept: set $y = 0 \\Rightarrow x = 53$, giving $(53, 0)$</li><li>Slope: $-1$ (line slants downward)</li></ul>"}, {"title": "Identify intercepts and slope of the second equation", "content": "For $11x + 18y = 730$:<ul><li>$y$-intercept: set $x = 0 \\Rightarrow y = \\frac{730}{18} \\approx 41$, giving $(0, 41)$</li><li>$x$-intercept: set $y = 0 \\Rightarrow x = \\frac{730}{11} \\approx 66$, giving $(66, 0)$</li><li>Slope: $-\\frac{11}{18}$ (line slants downward)</li></ul>"}, {"title": "Select the graph matching both equations", "content": "The correct graph shows both lines slanting downward: the first through $(0, 53)$ and $(53, 0)$, the second through $(0, 41)$ and $(66, 0)$.<br/><br/><strong>Testing choices:</strong><ul><li><strong>Choice A:</strong> Second line slants <em>upward</em> — incorrect slope</li><li><strong>Choice B:</strong> Both lines slant downward; intercepts match</li><li><strong>Choice C:</strong> Second line slants <em>upward</em> — incorrect slope</li><li><strong>Choice D:</strong> First line is horizontal — incorrect slope</li></ul>That matches choice B — <strong>B</strong> is correct.", "desmosExpressions": ["y = 53 - x", "y = (730 - 11x)/18"]}]}
+{
+  "questionId": "36f068e2",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify intercepts and slope of the first equation",
+      "content": "For $x + y = 53$:<ul><li>$y$-intercept: set $x = 0 \\Rightarrow y = 53$, giving $(0, 53)$</li><li>$x$-intercept: set $y = 0 \\Rightarrow x = 53$, giving $(53, 0)$</li><li>Slope: $-1$ (line slants downward)</li></ul>"
+    },
+    {
+      "title": "Identify intercepts and slope of the second equation",
+      "content": "For $11x + 18y = 730$:<ul><li>$y$-intercept: set $x = 0 \\Rightarrow y = \\frac{730}{18} \\approx 41$, giving $(0, 41)$</li><li>$x$-intercept: set $y = 0 \\Rightarrow x = \\frac{730}{11} \\approx 66$, giving $(66, 0)$</li><li>Slope: $-\\frac{11}{18}$ (line slants downward)</li></ul>"
+    },
+    {
+      "title": "Select the graph matching both equations",
+      "content": "The correct graph shows both lines slanting downward: the first through $(0, 53)$ and $(53, 0)$, the second through $(0, 41)$ and $(66, 0)$.<br/><br/><strong>Testing choices:</strong><ul><li><strong>Choice A:</strong> Second line slants <em>upward</em> — incorrect slope</li><li><strong>Choice B:</strong> Both lines slant downward; intercepts match</li><li><strong>Choice C:</strong> Second line slants <em>upward</em> — incorrect slope</li><li><strong>Choice D:</strong> First line is horizontal — incorrect slope</li></ul>That matches choice B — <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "y = 53 - x",
+        "y = (730 - 11x)/18"
+      ]
+    }
+  ]
+}

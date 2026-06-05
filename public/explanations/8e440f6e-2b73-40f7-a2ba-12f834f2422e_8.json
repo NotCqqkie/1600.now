@@ -1,1 +1,15 @@
-{"questionId": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_8", "correctAnswer": "26", "section": "Math", "steps": [{"title": "Identify corresponding angles in the congruent triangles", "content": "Since triangles ABC and DEF are congruent with A ↔ D and B ↔ E, the correspondence is complete: A ↔ D, B ↔ E, and C ↔ F. In triangle ABC, we know ∠A = 64° and ∠B = 90°."}, {"title": "Use angle sum to find angle F", "content": "In triangle ABC, the sum of angles equals 180°:<br/>$$64° + 90° + \\angle C = 180°$$<br/>$$\\angle C = 26°$$<br/>Since C corresponds to F, ∠F = 26°."}]}
+{
+  "questionId": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_8",
+  "correctAnswer": "26",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify corresponding angles in the congruent triangles",
+      "content": "Since triangles ABC and DEF are congruent with A ↔ D and B ↔ E, the correspondence is complete: A ↔ D, B ↔ E, and C ↔ F. In triangle ABC, we know ∠A = 64° and ∠B = 90°."
+    },
+    {
+      "title": "Use angle sum to find angle F",
+      "content": "In triangle ABC, the sum of angles equals 180°:<br/>$$64° + 90° + \\angle C = 180°$$<br/>$$\\angle C = 26°$$<br/>Since C corresponds to F, ∠F = 26°."
+    }
+  ]
+}

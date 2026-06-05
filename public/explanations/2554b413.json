@@ -5,16 +5,19 @@
   "steps": [
     {
       "title": "Recognize the y-intercept",
-      "content": "The point \\((0, 8)\\) lies on the line. Since \\(x = 0\\) at this point, \\(y = 8\\) is the \\(y\\)-intercept."
+      "content": "The point $(0, 8)$ lies on the line. Since $x = 0$ at this point, $y = 8$ is the $y$-intercept."
     },
     {
       "title": "Write the equation",
-      "content": "With slope \\(m = 6\\) and \\(y\\)-intercept \\(b = 8\\), slope-intercept form gives: $$y = 6x + 8$$",
-      "desmosExpressions": ["y=6x+8", "(0,8)"]
+      "content": "With slope $m = 6$ and $y$-intercept $b = 8$, slope-intercept form gives: $$y = 6x + 8$$",
+      "desmosExpressions": [
+        "y=6x+8",
+        "(0,8)"
+      ]
     },
     {
       "title": "Evaluate all choices",
-      "content": "<ul><li><strong>Choice A &mdash; '\\(y = 6x + 8\\)'</strong>: Slope 6 and \\(y\\)-intercept 8 — both match. &#10003;</li><li><strong>Choice B &mdash; '\\(y = 6x + 48\\)'</strong>: Slope 6 is correct, but \\(y\\)-intercept 48 does not match 8. &#10007;</li><li><strong>Choice C &mdash; '\\(y = 8x + 6\\)'</strong>: Slope 8 is wrong (should be 6) and \\(y\\)-intercept 6 is wrong (should be 8). &#10007;</li><li><strong>Choice D &mdash; '\\(y = 8x + 48\\)'</strong>: Both slope and \\(y\\)-intercept are incorrect. &#10007;</li></ul>That matches choice A — <strong>A</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; '$y = 6x + 8$'</strong>: Slope 6 and $y$-intercept 8 — both match. &#10003;</li><li><strong>Choice B &mdash; '$y = 6x + 48$'</strong>: Slope 6 is correct, but $y$-intercept 48 does not match 8. &#10007;</li><li><strong>Choice C &mdash; '$y = 8x + 6$'</strong>: Slope 8 is wrong (should be 6) and $y$-intercept 6 is wrong (should be 8). &#10007;</li><li><strong>Choice D &mdash; '$y = 8x + 48$'</strong>: Both slope and $y$-intercept are incorrect. &#10007;</li></ul>That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

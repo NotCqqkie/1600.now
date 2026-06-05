@@ -1,1 +1,14 @@
-{"steps":[{"text":"Distribute the subtraction sign to every term in the second polynomial: \\((6t^{4}-6t^{2}+4t-2)-(5t^{4}-3t^{3}+7t^{2}-2) = 6t^{4}-6t^{2}+4t-2-5t^{4}+3t^{3}-7t^{2}+2\\)."},{"text":"Group and combine like terms by degree: \\(t^4\\): \\(6-5=1\\); \\(t^3\\): \\(+3\\); \\(t^2\\): \\(-6-7=-13\\); \\(t\\): \\(+4\\); constant: \\(-2+2=0\\). Result: \\(t^{4}+3t^{3}-13t^{2}+4t\\)."},{"text":"Evaluate every choice:<ul><li>A: \\(t^{4}+3t^{3}-13t^{2}+4t\\) — Matches exactly. That matches choice A — <strong>A</strong> is correct.</li><li>B: \\(t^{4}-3t^{2}+3t\\) — Missing the \\(3t^3\\) term and has wrong \\(t^2\\) and \\(t\\) coefficients. Eliminated.</li><li>C: \\(t^{4}-3t^{3}+11t-4\\) — Wrong sign on \\(t^3\\), no \\(t^2\\) term, wrong constant. Eliminated.</li><li>D: \\(t^{4}+3t^{3}-13t^{2}+4t-4\\) — Includes a \\(-4\\) constant, but the constants cancel to 0. Eliminated.</li></ul>"}],"correctAnswer":"A"}
+{
+  "steps": [
+    {
+      "text": "Distribute the subtraction sign to every term in the second polynomial: $(6t^{4}-6t^{2}+4t-2)-(5t^{4}-3t^{3}+7t^{2}-2) = 6t^{4}-6t^{2}+4t-2-5t^{4}+3t^{3}-7t^{2}+2$."
+    },
+    {
+      "text": "Group and combine like terms by degree: $t^4$: $6-5=1$; $t^3$: $+3$; $t^2$: $-6-7=-13$; $t$: $+4$; constant: $-2+2=0$. Result: $t^{4}+3t^{3}-13t^{2}+4t$."
+    },
+    {
+      "text": "Evaluate every choice:<ul><li>A: $t^{4}+3t^{3}-13t^{2}+4t$ — Matches exactly. That matches choice A — <strong>A</strong> is correct.</li><li>B: $t^{4}-3t^{2}+3t$ — Missing the $3t^3$ term and has wrong $t^2$ and $t$ coefficients. Eliminated.</li><li>C: $t^{4}-3t^{3}+11t-4$ — Wrong sign on $t^3$, no $t^2$ term, wrong constant. Eliminated.</li><li>D: $t^{4}+3t^{3}-13t^{2}+4t-4$ — Includes a $-4$ constant, but the constants cancel to 0. Eliminated.</li></ul>"
+    }
+  ],
+  "correctAnswer": "A"
+}

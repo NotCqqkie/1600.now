@@ -1,10 +1,23 @@
 {
-  "qid": "4626102e",
+  "questionId": "4626102e",
+  "correctAnswer": "C",
+  "section": "Math",
   "steps": [
-    "Adding a constant to every value in a data set shifts all values equally.",
-    "The median is the 8th value (middle of 15) when ordered. Adding 56 to every value shifts the ordered list up by 56, so the median of B = median of A + 56 &mdash; it is greater.",
-    "Range = max &minus; min. Adding 56 to both max and min: (max + 56) &minus; (min + 56) = max &minus; min. Range is unchanged.",
-    "<ul><li><strong>Choice A &mdash; 'medians equal, ranges equal'</strong>: Median of B is 56 more than median of A, so they are not equal. &#10007;</li><li><strong>Choice B &mdash; 'medians equal, range of B greater'</strong>: Medians are not equal, and the range does not grow. &#10007;</li><li><strong>Choice C &mdash; 'median of B greater, ranges equal'</strong>: Adding 56 raises every value, so the median rises; max &minus; min is unchanged. &#10003;</li><li><strong>Choice D &mdash; 'median of B greater, range of B greater'</strong>: The median comparison is correct, but the range stays the same. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
-  ],
-  "correctAnswer": "C"
+    {
+      "title": "Use the constant-shift rule",
+      "content": "Data set B is created by adding $56$ to every value in data set A. Adding a constant shifts the whole dot plot right but does not stretch it out."
+    },
+    {
+      "title": "Compare medians",
+      "content": "Data set A has $15$ values, so its median is the $8$th value. The dot plot shows that value is $23$. After adding $56$ to every value, the median of B is $23+56=79$, which is greater than the median of A."
+    },
+    {
+      "title": "Compare ranges",
+      "content": "The minimum and maximum of data set A are $22$ and $26$, so its range is $26-22=4$. In data set B, those become $78$ and $82$, so the range is $82-78=4$. The range stays equal."
+    },
+    {
+      "title": "Match the comparison",
+      "content": "The median of B is greater than the median of A, and the range of B equals the range of A. That matches choice <strong>C</strong>."
+    }
+  ]
 }

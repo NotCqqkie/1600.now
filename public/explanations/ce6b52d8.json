@@ -1,1 +1,19 @@
-{"questionId":"ce6b52d8","correctAnswer":"60","section":"Math","steps":[{"title":"Apply the simplification from the given condition","content":"Expand the left: $6t-20+t = 7t-20$. Subtract $4t$ and add $20$: $3t = 60$."},{"title":"Compute the target value","content":"So $3t = 60$. The answer is <strong>60</strong>."}]}
+{
+  "questionId": "ce6b52d8",
+  "correctAnswer": "60",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the simplification from the given condition",
+      "content": "Expand the left: $6t-20+t = 7t-20$. Subtract $4t$ and add $20$: $3t = 60$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "So $3t = 60$. The answer is <strong>60</strong>."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $60$. Subtracting $t$ from both sides of the given equation yields $2(3t-10)=40+3t$. Applying the distributive property to the left-hand side of this equation yields $6t-20=40+3t$. Adding $20$ to both sides of this equation yields $6t=60+3t$. Subtracting $3t$ from both sides of this equation yields $3t=60$. Therefore, the value of $3t$ is $60$."
+    }
+  ]
+}

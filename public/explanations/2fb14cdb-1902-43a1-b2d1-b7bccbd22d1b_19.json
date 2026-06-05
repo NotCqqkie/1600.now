@@ -1,1 +1,15 @@
-{"questionId":"2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_19","correctAnswer":"1360","section":"Math","steps":[{"title":"Set up the angle relationship","content":"Each obtuse angle is supplementary to the acute, so obtuse $=180-(7x-410)$. The sum of one acute and three obtuse equals $$(7x-410)+3[180-(7x-410)] = 540 - 2(7x-410).$$"},{"title":"Solve for the requested measure","content":"Simplify: $540 - 14x + 820 = -14x + 1360$. Matching $-14x+w$ gives $$w = 1360.$$ The answer is <strong>1360</strong>."}]}
+{
+  "questionId": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_19",
+  "correctAnswer": "1360",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the angle relationship",
+      "content": "Each obtuse angle is supplementary to the acute, so obtuse $=180-(7x-410)$. The sum of one acute and three obtuse equals $$(7x-410)+3[180-(7x-410)] = 540 - 2(7x-410).$$"
+    },
+    {
+      "title": "Solve for the requested measure",
+      "content": "Simplify: $540 - 14x + 820 = -14x + 1360$. Matching $-14x+w$ gives $$w = 1360.$$ The answer is <strong>1360</strong>."
+    }
+  ]
+}

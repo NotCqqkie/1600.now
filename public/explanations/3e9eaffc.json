@@ -10,7 +10,9 @@
     {
       "title": "Match to the correct interpretation",
       "content": "The y-intercept of 30 represents the initial juice amount, not a per-item rate. Choice C states that Caleb had approximately 30 fluid ounces of juice when he began to make the popsicles, which matches our interpretation of the y-intercept. That matches choice C — <strong>C</strong> is correct.",
-      "desmosExpressions": ["y=-5x+30"]
+      "desmosExpressions": [
+        "y=-5x+30"
+      ]
     }
   ]
 }

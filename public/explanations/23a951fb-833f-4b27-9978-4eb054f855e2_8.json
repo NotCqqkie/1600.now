@@ -1,1 +1,19 @@
-{"questionId":"23a951fb-833f-4b27-9978-4eb054f855e2_8","correctAnswer":"C","section":"Math","steps":[{"title":"Set up","content":"Price rises from $11 to $13 — a $2 increase. Each $1 increase cuts sales by 9 bags, so a $2 increase cuts sales by $2 \times 9 = 18$ bags."},{"title":"Solve","content":"New quantity: $90 - 18 = 72$ bags. Revenue: $13 \times 72 = 936$."},{"title":"Answer","content":"<strong>C</strong> is correct."}]}
+{
+  "questionId": "23a951fb-833f-4b27-9978-4eb054f855e2_8",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "Price rises from $11 to $13 — a $2 increase. Each $1 increase cuts sales by 9 bags, so a $2 increase cuts sales by $2 \\times 9 = 18$ bags."
+    },
+    {
+      "title": "Solve",
+      "content": "New quantity: $90 - 18 = 72$ bags. Revenue: $13 \\times 72 = 936$."
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>C</strong> is correct."
+    }
+  ]
+}

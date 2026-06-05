@@ -14,7 +14,10 @@
     {
       "title": "Simplify $(7k)^2$",
       "content": "$$(7k)^2 = 49k^2$$<br/>So the equation is $(x-16)^2 + (y-17)^2 = 49k^2$.",
-      "desmosExpressions": ["(x-16)^2 + (y-17)^2 = 49", "(16, 17)"]
+      "desmosExpressions": [
+        "(x-16)^2 + (y-17)^2 = 49",
+        "(16, 17)"
+      ]
     }
   ],
   "choiceAnalysis": "<ul><li><strong>Choice A &mdash; '$(x-16)^2 + (y-17)^2 = 49k$'</strong>: Uses $49k$ instead of $(7k)^2 = 49k^2$ &mdash; forgets to square the entire radius expression. &#10007;</li><li><strong>Choice B &mdash; '$(x-16)^2 + (y-17)^2 = 49k^2$'</strong>: Correctly squares the radius: $(7k)^2 = 49k^2$. &#10003;</li><li><strong>Choice C &mdash; '$(x-16)^2 + (y-17)^2 = 7k$'</strong>: Places the unsquared radius $7k$ on the right side. &#10007;</li><li><strong>Choice D &mdash; '$(x-16)^2 + (y-17)^2 = 7x^2$'</strong>: Introduces $x$ into the right side, which is not part of the radius. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."

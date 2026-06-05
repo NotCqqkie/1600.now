@@ -9,8 +9,11 @@
     },
     {
       "title": "Substitute x into an original equation to find y",
-      "content": "Use $y = 3x + 1$ with $x = 7$:$$y = 3(7) + 1 = 21 + 1 = 22$$The intersection point is $(7, 22)$. That matches choice C \u2014 <strong>C</strong> is correct.",
-      "desmosExpressions": ["y = 3x + 1", "y = 4x - 6"]
+      "content": "Use $y = 3x + 1$ with $x = 7$:$$y = 3(7) + 1 = 21 + 1 = 22$$The intersection point is $(7, 22)$. That matches choice C — <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "y = 3x + 1",
+        "y = 4x - 6"
+      ]
     }
   ]
 }

@@ -1,1 +1,23 @@
-{"questionId":"e5001da0-8895-4b72-8d22-da29586dc907_12","correctAnswer":"D","section":"Math","steps":[{"title":"Set up","content":"Total mixture = sum of all components: 30 + 45 + x = 135."},{"title":"Solve","content":"75 + x = 135 &rarr; x = 60."},{"title":"Answer","content":"<strong>D</strong> is correct."}]}
+{
+  "questionId": "e5001da0-8895-4b72-8d22-da29586dc907_12",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "Total mixture = sum of all components: 30 + 45 + x = 135."
+    },
+    {
+      "title": "Solve",
+      "content": "75 + x = 135 &rarr; x = 60."
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>D</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice D, 60. The other choices do not satisfy the same condition from the question, so <strong>D</strong> is correct."
+    }
+  ]
+}

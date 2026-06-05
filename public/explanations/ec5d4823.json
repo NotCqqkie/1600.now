@@ -1,1 +1,16 @@
-{"questionId": "ec5d4823", "correctAnswer": "360", "section": "Math", "steps": [{"title": "Identify the volume formula for a rectangular prism", "content": "The volume of a right rectangular prism is found by multiplying its three dimensions together. We're given:<ul><li>Length = 4 cm</li><li>Width = 9 cm</li><li>Height = 10 cm</li></ul>", "formula": "$$V = \\text{length} \\times \\text{width} \\times \\text{height}$$"}, {"title": "Substitute the values and calculate", "content": "Substitute each measurement into the formula:<br/>$$V = 4 \\times 9 \\times 10$$<br/>Calculate by multiplying step by step:<br/>$$4 \\times 9 = 36$$<br/>$$36 \\times 10 = 360$$<br/>The volume is <strong>360 cubic centimeters</strong>."}]}
+{
+  "questionId": "ec5d4823",
+  "correctAnswer": "360",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the volume formula for a rectangular prism",
+      "content": "The volume of a right rectangular prism is found by multiplying its three dimensions together. We're given:<ul><li>Length = 4 cm</li><li>Width = 9 cm</li><li>Height = 10 cm</li></ul>",
+      "formula": "$$V = \\text{length} \\times \\text{width} \\times \\text{height}$$"
+    },
+    {
+      "title": "Substitute the values and calculate",
+      "content": "Substitute each measurement into the formula:<br/>$$V = 4 \\times 9 \\times 10$$<br/>Calculate by multiplying step by step:<br/>$$4 \\times 9 = 36$$<br/>$$36 \\times 10 = 360$$<br/>The volume is <strong>360 cubic centimeters</strong>."
+    }
+  ]
+}

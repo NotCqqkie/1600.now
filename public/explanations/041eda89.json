@@ -9,7 +9,10 @@
     },
     {
       "title": "Calculate the discriminant to find k",
-      "content": "Compute the expression under the radical:<br/>\n$$b^2 - 4ac = 7^2 - 4(1)(5) = 49 - 20 = 29$$<br/>\nIn the given form $x = \\frac{-7 + \\sqrt{k}}{2}$, this means $\\sqrt{k} = \\sqrt{29}$, so $k = 29$."
+      "content": "Compute the expression under the radical:<br/>$$b^2-4ac=7^2-4(1)(5)=49-20=29$$<br/>In the given form $x=\\frac{-7+\\sqrt{k}}{2}$, this means $\\sqrt{k}=\\sqrt{29}$, so $k=29$. Desmos can evaluate the discriminant directly. The answer is <strong>29</strong>.",
+      "desmosExpressions": [
+        "7^2-4*1*5"
+      ]
     }
   ]
 }

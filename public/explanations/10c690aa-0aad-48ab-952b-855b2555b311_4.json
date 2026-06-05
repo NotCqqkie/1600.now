@@ -1,1 +1,29 @@
-{"questionId":"10c690aa-0aad-48ab-952b-855b2555b311_4","correctAnswer":"B","section":"Math","steps":[{"title":"Determine the slope's sign","content":"The scatterplot's $y$-values rise as $x$ increases, climbing from about $(1, 25)$ to $(5, 65)$. The slope must be positive, and approximately $$\\frac{65 - 25}{5 - 1} = 10.$$"},{"title":"Pin down the y-intercept with a data point","content":"Test $x = 1, y \\approx 25$ in each choice:<ul><li>Choice A ($14.7 - 10x$): $14.7 - 10 = 4.7$ &mdash; wrong slope sign, doesn't match.</li><li>Choice B ($14.7 + 10x$): $14.7 + 10 = 24.7$ &mdash; matches the data.</li><li>Choice C ($-14.7 - 10x$): $-24.7$ &mdash; far off.</li><li>Choice D ($-14.7 + 10x$): $-4.7$ &mdash; nowhere near $25$.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.","desmosExpressions":["(1,25)","(2,35)","(3,45)","(4,55)","(5,65)","y = 14.7 + 10x"]}]}
+{
+  "questionId": "10c690aa-0aad-48ab-952b-855b2555b311_4",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Determine the slope's sign",
+      "content": "This is a model-matching question, so graph all four choices in Desmos. The data rise from about $(1,25)$ to $(5,65)$, so the correct line should have positive slope near $10$ and a y-intercept near $15$.",
+      "desmosExpressions": [
+        "y=14.7-10x",
+        "y=14.7+10x",
+        "y=-14.7-10x",
+        "y=-14.7+10x"
+      ]
+    },
+    {
+      "title": "Pin down the y-intercept with a data point",
+      "content": "Test $x = 1, y \\approx 25$ in each choice:<ul><li>Choice A ($14.7 - 10x$): $14.7 - 10 = 4.7$ &mdash; wrong slope sign, doesn't match.</li><li>Choice B ($14.7 + 10x$): $14.7 + 10 = 24.7$ &mdash; matches the data.</li><li>Choice C ($-14.7 - 10x$): $-24.7$ &mdash; far off.</li><li>Choice D ($-14.7 + 10x$): $-4.7$ &mdash; nowhere near $25$.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "(1,25)",
+        "(2,35)",
+        "(3,45)",
+        "(4,55)",
+        "(5,65)",
+        "y=14.7+10x"
+      ]
+    }
+  ]
+}

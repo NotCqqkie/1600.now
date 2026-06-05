@@ -1,1 +1,15 @@
-{"questionId":"131fb2cc-899f-43fd-ad5b-8d89c1062d52_1","correctAnswer":"B","section":"Math","steps":[{"title":"Identify what the question needs","content":"Read the bar heights from the graph and find which letter appears exactly 80 times."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Letter A'</strong>: bar reaches 50. &#10007;</li><li><strong>Choice B &mdash; 'Letter B'</strong>: bar reaches 80. &#10003;</li><li><strong>Choice C &mdash; 'Letter C'</strong>: bar reaches 40. &#10007;</li><li><strong>Choice D &mdash; 'Letter D'</strong>: bar reaches 43. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_1",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "Read the bar heights from the graph and find which letter appears exactly 80 times."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'Letter A'</strong>: bar reaches 50. &#10007;</li><li><strong>Choice B &mdash; 'Letter B'</strong>: bar reaches 80. &#10003;</li><li><strong>Choice C &mdash; 'Letter C'</strong>: bar reaches 40. &#10007;</li><li><strong>Choice D &mdash; 'Letter D'</strong>: bar reaches 43. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

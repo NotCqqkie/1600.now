@@ -1,1 +1,19 @@
-{"questionId": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_1", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Write the formula for average acceleration", "content": "$$\\text{average acceleration} = \\frac{\\Delta v}{\\Delta t}$$"}, {"title": "Plug in the given change in speed and time", "content": "$$\\frac{22}{8} = 2.75$$<br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_1",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the formula for average acceleration",
+      "content": "$$\\text{average acceleration} = \\frac{\\Delta v}{\\Delta t}$$"
+    },
+    {
+      "title": "Plug in the given change in speed and time",
+      "content": "$$\\frac{22}{8} = 2.75$$<br/>That matches choice B — <strong>B</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice B, 2.75. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
+    }
+  ]
+}

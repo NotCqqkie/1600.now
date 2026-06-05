@@ -1,1 +1,23 @@
-{"questionId":"32388549-e820-4b4a-91a9-d9c32e611098_1","correctAnswer":"B","section":"Math","steps":[{"title":"Set up","content":"Substitute x = 3 into g(x) = 18 &minus; x: $$g(3) = 18 - 3$$"},{"title":"Solve","content":"$$g(3) = 15$$"},{"title":"Answer","content":"<strong>B</strong> is correct."}]}
+{
+  "questionId": "32388549-e820-4b4a-91a9-d9c32e611098_1",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "Substitute x = 3 into g(x) = 18 &minus; x: $$g(3) = 18 - 3$$"
+    },
+    {
+      "title": "Solve",
+      "content": "$$g(3) = 15$$"
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>B</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice B, 15. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
+    }
+  ]
+}

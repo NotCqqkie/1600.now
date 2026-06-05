@@ -1,1 +1,27 @@
-{"questionId":"659cbbc1-2d38-4d45-8ecb-79f43367862e_22","correctAnswer":"15435","section":"Math","steps":[{"title":"Substitute the given values","content":"Substitute $x=1.75$, $y=3858.75$: $$900a(1.75)^{2}=3858.75 \\Rightarrow 900a\\cdot 3.0625=3858.75,$$ so $900a=1260$."},{"title":"Solve for the unknown","content":"For $x=3.50$: $$y=1260\\cdot(3.50)^2=1260\\cdot 12.25=15{,}435.$$ The answer is <strong>15435</strong>."}]}
+{
+  "questionId": "659cbbc1-2d38-4d45-8ecb-79f43367862e_22",
+  "correctAnswer": "15435",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the given values",
+      "content": "Use custom regression for the one unknown coefficient. Enter the known point as $x_1=[1.75]$, $y_1=[3858.75]$, then type $y_1\\sim 900a x_1^2$. Desmos solves $a$ from the data point.",
+      "desmosExpressions": [
+        "x_1=[1.75]",
+        "y_1=[3858.75]",
+        "y_1~900a x_1^2"
+      ]
+    },
+    {
+      "title": "Solve for the unknown",
+      "content": "Desmos gives $900a=1260$. For $x=3.50$, evaluate $1260(3.50)^2=15{,}435$. The answer is <strong>15435</strong>.",
+      "desmosExpressions": [
+        "1260(3.5)^2"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $15435$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $15435$."
+    }
+  ]
+}

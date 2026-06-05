@@ -1,1 +1,15 @@
-{"qid":"6863c7ce","steps":[{"explanation":"The equation \\(d = 16t\\) is a linear relationship. In the form \\(d = rt\\), the coefficient of \\(t\\) represents the rate at which \\(d\\) changes per unit of \\(t\\). Here \\(d\\) is in inches and \\(t\\) is in seconds, so the coefficient has units of inches per second."},{"explanation":"When \\(t = 1\\), \\(d = 16\\). When \\(t = 2\\), \\(d = 32\\). Each additional second adds exactly 16 inches, confirming 16 is the speed of the object."},{"explanation":"Evaluating all choices:<ul><li>Choice A: &quot;The object moved a total of 16 inches.&quot; Incorrect &mdash; the total distance depends on \\(t\\) and is \\(16t\\), not a fixed 16.</li><li>Choice B: &quot;The object moved a total of \\(16t\\) inches.&quot; Incorrect &mdash; \\(16t\\) describes the full expression for \\(d\\), not the interpretation of 16 alone.</li><li>Choice C: &quot;The object is moving at a rate of 16 inches per second.&quot; Correct &mdash; the coefficient 16 is the rate of change of distance with respect to time. That matches choice C &mdash; <strong>C</strong> is correct.</li><li>Choice D: &quot;The object is moving at a rate of \\(\\frac{1}{16}\\) inches per second.&quot; Incorrect &mdash; this would be the rate if the equation were \\(d = \\frac{t}{16}\\).</li></ul>"}],"correctAnswer":"C"}
+{
+  "qid": "6863c7ce",
+  "steps": [
+    {
+      "explanation": "The equation $d = 16t$ is a linear relationship. In the form $d = rt$, the coefficient of $t$ represents the rate at which $d$ changes per unit of $t$. Here $d$ is in inches and $t$ is in seconds, so the coefficient has units of inches per second."
+    },
+    {
+      "explanation": "When $t = 1$, $d = 16$. When $t = 2$, $d = 32$. Each additional second adds exactly 16 inches, confirming 16 is the speed of the object."
+    },
+    {
+      "explanation": "Evaluating all choices:<ul><li>Choice A: &quot;The object moved a total of 16 inches.&quot; Incorrect &mdash; the total distance depends on $t$ and is $16t$, not a fixed 16.</li><li>Choice B: &quot;The object moved a total of $16t$ inches.&quot; Incorrect &mdash; $16t$ describes the full expression for $d$, not the interpretation of 16 alone.</li><li>Choice C: &quot;The object is moving at a rate of 16 inches per second.&quot; Correct &mdash; the coefficient 16 is the rate of change of distance with respect to time. That matches choice C &mdash; <strong>C</strong> is correct.</li><li>Choice D: &quot;The object is moving at a rate of $\\frac{1}{16}$ inches per second.&quot; Incorrect &mdash; this would be the rate if the equation were $d = \\frac{t}{16}$.</li></ul>"
+    }
+  ],
+  "correctAnswer": "C"
+}

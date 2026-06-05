@@ -1,1 +1,15 @@
-{"questionId":"305aaf32-2803-4909-83d0-d08ba71a35a7_10","correctAnswer":"C","section":"Math","steps":[{"title":"Identify what the question needs","content":"The equation $0.2t + 3 = 6$ models hair length in inches over time in months. The question asks what $0.2$ represents in this context. Since $0.2$ multiplies $t$ (months), its units are inches per month &mdash; it is the monthly growth rate."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; the number of months it takes to grow 0.2 inches</strong>: that would be a time value, not a coefficient. &#10007;</li><li><strong>Choice B &mdash; the total length Antwon&apos;s hair grew</strong>: total growth depends on $t$; $0.2$ alone gives no total. &#10007;</li><li><strong>Choice C &mdash; the length, in inches, Antwon&apos;s hair grows each month</strong>: $0.2$ inches/month times $t$ months yields inches. &#10003;</li><li><strong>Choice D &mdash; the length, in inches, of Antwon&apos;s hair when he began growing it out</strong>: the starting length is 3 (the constant term), not 0.2. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "305aaf32-2803-4909-83d0-d08ba71a35a7_10",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The equation $0.2t + 3 = 6$ models hair length in inches over time in months. The question asks what $0.2$ represents in this context. Since $0.2$ multiplies $t$ (months), its units are inches per month &mdash; it is the monthly growth rate."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; the number of months it takes to grow 0.2 inches</strong>: that would be a time value, not a coefficient. &#10007;</li><li><strong>Choice B &mdash; the total length Antwon&apos;s hair grew</strong>: total growth depends on $t$; $0.2$ alone gives no total. &#10007;</li><li><strong>Choice C &mdash; the length, in inches, Antwon&apos;s hair grows each month</strong>: $0.2$ inches/month times $t$ months yields inches. &#10003;</li><li><strong>Choice D &mdash; the length, in inches, of Antwon&apos;s hair when he began growing it out</strong>: the starting length is 3 (the constant term), not 0.2. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

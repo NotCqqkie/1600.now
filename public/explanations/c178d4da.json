@@ -1,1 +1,27 @@
-{"questionId": "c178d4da", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Compute the weighted sum for data set A", "content": "From the table, data set A has the following frequencies: <ul><li>0 appears 2 times</li><li>1 appears 3 times</li><li>2 appears 4 times</li><li>3 appears 5 times</li><li>4 appears 4 times</li><li>5 appears 3 times</li><li>6 appears 2 times</li><li>7 appears 2 times</li><li>8 appears 1 time</li><li>9 appears 1 time</li></ul>The weighted sum is $$\\text{Sum}_A = 0\\cdot2 + 1\\cdot3 + 2\\cdot4 + 3\\cdot5 + 4\\cdot4 + 5\\cdot3 + 6\\cdot2 + 7\\cdot2 + 8\\cdot1 + 9\\cdot1 = 100$$."}, {"title": "Find the mean of data set A", "content": "Since there are 27 values, the mean of A is $$\\mu_A = \\frac{100}{27} \\approx 3.70$$."}, {"title": "Compute the weighted sum and mean for data set B", "content": "From the table, data set B has the following frequencies: <ul><li>0 appears 4 times</li><li>1 appears 4 times</li><li>2 appears 5 times</li><li>3 appears 4 times</li><li>4 appears 3 times</li><li>5 appears 3 times</li><li>6 appears 2 times</li><li>7 appears 1 time</li><li>8 appears 1 time</li></ul>The weighted sum is $$\\text{Sum}_B = 0\\cdot4 + 1\\cdot4 + 2\\cdot5 + 3\\cdot4 + 4\\cdot3 + 5\\cdot3 + 6\\cdot2 + 7\\cdot1 + 8\\cdot1 = 80$$.<br/>Thus the mean of B is $$\\mu_B = \\frac{80}{27} \\approx 2.96$$."}, {"title": "Compare the means and select the correct choice", "content": "Since $$\\frac{100}{27} > \\frac{80}{27}$$, we have $$\\mu_A > \\mu_B$$.<br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "c178d4da",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use Desmos to compare the means",
+      "content": "A frequency table can be turned into a list by repeating each value according to its frequency. For data set A, enter two $30$s, four $34$s, five $38$s, seven $42$s, and nine $46$s. For data set B, enter nine $30$s, seven $34$s, five $38$s, four $42$s, and two $46$s. Then use `mean` on each list.",
+      "desmosExpressions": [
+        "mean([30,30,34,34,34,34,38,38,38,38,38,42,42,42,42,42,42,42,46,46,46,46,46,46,46,46,46])",
+        "mean([30,30,30,30,30,30,30,30,30,34,34,34,34,34,34,34,38,38,38,38,38,42,42,42,42,46,46])"
+      ]
+    },
+    {
+      "title": "Compute data set A by hand",
+      "content": "The weighted sum for data set A is $$30(2)+34(4)+38(5)+42(7)+46(9)=60+136+190+294+414=1{,}094.$$ Since data set A has $27$ values, $$\\mu_A=\\frac{1{,}094}{27}\\approx40.52.$$"
+    },
+    {
+      "title": "Compute data set B by hand",
+      "content": "The weighted sum for data set B is $$30(9)+34(7)+38(5)+42(4)+46(2)=270+238+190+168+92=958.$$ Since data set B also has $27$ values, $$\\mu_B=\\frac{958}{27}\\approx35.48.$$"
+    },
+    {
+      "title": "Compare the means and select the correct choice",
+      "content": "Both data sets have the same number of values, so comparing means is the same as comparing their weighted sums. Since $1{,}094>958$, data set A has the greater mean. That matches choice <strong>A</strong>."
+    }
+  ]
+}

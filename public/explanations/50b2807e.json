@@ -1,1 +1,28 @@
-{"questionId": "50b2807e", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Determine the slope's sign", "content": "The scatterplot shows $y$ decreasing as $x$ increases, so the linear model must have a negative slope. This immediately rules out any choice with a positive coefficient on $x$."}, {"title": "Estimate slope magnitude and y-intercept", "content": "The leftmost data is near $y \\approx 10$ when $x \\approx 0$, and the rightmost data sits near $y \\approx 2$ when $x \\approx 9$. The slope is roughly $$\\frac{2 - 10}{9 - 0} \\approx -0.9,$$ and the $y$-intercept is near $9.4$."}, {"title": "Evaluate each choice", "content": "<ul><li>A: $y = 0.9 + 9.4x$ has positive slope $9.4$. Eliminate.</li><li>B: $y = 0.9 - 9.4x$ has slope $-9.4$, far steeper than observed, and $y$-intercept $0.9$, far below the data. Eliminate.</li><li>C: $y = 9.4 + 0.9x$ has positive slope $0.9$, but the data trends downward. Eliminate.</li><li>D: $y = 9.4 - 0.9x$ has slope $-0.9$ and $y$-intercept $9.4$, matching both estimates. Keep.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "50b2807e",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the scatterplot trend",
+      "content": "The scatterplot decreases as $x$ increases, so the model needs a negative slope. This eliminates choices A and C immediately because their slopes are positive."
+    },
+    {
+      "title": "Estimate intercept and slope",
+      "content": "The left side of the scatterplot is near $y=10$ when $x$ is near $0$, so the $y$-intercept should be around $9$ or $10$. The right side is near $y=1$ or $2$ when $x$ is near $9$, so the slope is about $$\\frac{2-10}{9-0}\\approx -0.9.$$"
+    },
+    {
+      "title": "Overlay the answer choices",
+      "content": "Graphing representative points with the candidate from choice D makes the fit clear. The line has intercept $9.4$ and slope $-0.9$, matching the scatterplot. The other choices are already eliminated by slope sign or unreasonable intercept.",
+      "desmosExpressions": [
+        "x_1=[0,1,2.4,3.1,4.8,5.4,6.6,7.3,8.8,9.7]",
+        "y_1=[10,9,8,5,5,3,3,3,1,2]",
+        "y=9.4-0.9x"
+      ]
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "Choice B has a negative slope, but its intercept is only $0.9$ and its slope $-9.4$ is much too steep. Choice D is the only line with both the right intercept and the right negative slope, so <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,28 @@
-{"questionId": "979898ba-60c7-4531-ac45-29c4db2b3361_12", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Compare the new point to the original line", "content": "At $x=9$ the original line predicts $y=-5.6+8.8(9)=-5.6+79.2=73.6$. The actual new point $(9,52)$ lies $73.6-52=21.6$ pounds below the line."}, {"title": "Reason about how the slope must change", "content": "Adding a point that sits well below the existing line, at an $x$-value far to the right of the original data, pulls the right end of the best-fit line downward. That rotation reduces the slope, so the new slope $s$ must satisfy $s<8.8$."}, {"title": "Evaluate each choice", "content": "<ul><li>A) $5.9$ &mdash; less than $8.8$, consistent with a flattened line. Matches.</li><li>B) $8.8$ &mdash; equal to the original slope, but adding a point off the line must change it. Eliminated.</li><li>C) $14.4$ &mdash; larger than $8.8$, would require the new point to be above the line. Eliminated.</li><li>D) $17.8$ &mdash; even larger; would require an even steeper line. Eliminated.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "979898ba-60c7-4531-ac45-29c4db2b3361_12",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use regression for data set B",
+      "content": "This is a line-of-best-fit question, so the fastest reliable method is a Desmos table regression. From the scatterplot and the new point, data set B is approximately $(2,12)$, $(3,22)$, $(4,28)$, $(5,40)$, $(6,46)$, and $(9,52)$."
+    },
+    {
+      "title": "Enter the table in Desmos",
+      "content": "Create a table with the $x$-values in $x_1$ and the weights in $y_1$, then run the custom regression $y_1\\sim mx_1+b$. Desmos reports $m\\approx 5.82$.",
+      "desmosExpressions": [
+        "x_1=[2,3,4,5,6,9]",
+        "y_1=[12,22,28,40,46,52]",
+        "y_1~mx_1+b"
+      ]
+    },
+    {
+      "title": "Compare to the choices",
+      "content": "The slope $s$ of the new best-fit line is about $5.82$, so the closest answer choice is $5.9$."
+    },
+    {
+      "title": "Check the direction",
+      "content": "This also makes sense without calculation: the new point $(9,52)$ is far below the old line's prediction $-5.6+8.8(9)=73.6$, so the new slope should be much less than $8.8$. Choice <strong>A</strong> is correct."
+    }
+  ]
+}

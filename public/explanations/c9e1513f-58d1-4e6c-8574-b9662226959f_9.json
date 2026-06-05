@@ -9,8 +9,11 @@
     },
     {
       "title": "Parallel lines never intersect",
-      "content": "When two lines have the same slope and different y-intercepts, they are parallel. Parallel lines never intersect in the coordinate plane. Therefore, the graphs meet at zero points. That matches choice A \u2014 <strong>A</strong> is correct.",
-      "desmosExpressions": ["y = 5x + 10", "y = 5x - 2"]
+      "content": "When two lines have the same slope and different y-intercepts, they are parallel. Parallel lines never intersect in the coordinate plane. Therefore, the graphs meet at zero points. That matches choice A — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y = 5x + 10",
+        "y = 5x - 2"
+      ]
     }
   ]
 }

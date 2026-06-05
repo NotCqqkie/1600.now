@@ -1,1 +1,15 @@
-{"questionId": "f6cbb04a", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Substitute each time into the distance formula", "content": "Evaluate $d = 55t$ at both times:<ul><li>After $9k$ hours: $d = 55(9k) = 495k$ miles</li><li>After $3k$ hours: $d = 55(3k) = 165k$ miles</li></ul>"}, {"title": "Calculate the ratio", "content": "Divide the distance at $9k$ hours by the distance at $3k$ hours:<br/>$$\\frac{495k}{165k} = \\frac{495}{165} = 3$$<br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "f6cbb04a",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute each time into the distance formula",
+      "content": "Evaluate $d = 55t$ at both times:<ul><li>After $9k$ hours: $d = 55(9k) = 495k$ miles</li><li>After $3k$ hours: $d = 55(3k) = 165k$ miles</li></ul>"
+    },
+    {
+      "title": "Calculate the ratio",
+      "content": "Divide the distance at $9k$ hours by the distance at $3k$ hours:<br/>$$\\frac{495k}{165k} = \\frac{495}{165} = 3$$<br/>That matches choice A — <strong>A</strong> is correct."
+    }
+  ]
+}

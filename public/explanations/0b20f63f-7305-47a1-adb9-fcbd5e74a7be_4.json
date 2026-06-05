@@ -1,1 +1,19 @@
-{"questionId": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_4", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Recognize the difference of squares inside the parentheses", "content": "The expression inside the parentheses is $x^2 - 100y^2$. Notice that $x^2 = (x)^2$ and $100y^2 = (10y)^2$, so this fits the pattern $a^2 - b^2 = (a-b)(a+b)$ with $a = x$ and $b = 10y$."}, {"title": "Factor the difference of squares", "content": "$$x^2 - 100y^2 = (x - 10y)(x + 10y).$$ Multiplying back in the outer factor of 14: $$14(x^2 - 100y^2) = 14(x - 10y)(x + 10y).$$"}, {"title": "Evaluate each answer choice", "content": "<ul><li>Choice A: $14(x - 10y)(x - 10y)$ — this is $14(x-10y)^2$, which expands to $14(x^2 - 20xy + 100y^2)$, not the original. Eliminated.</li><li>Choice B: $14(x - 10y)(x + 10y)$ — this is exactly the factored form derived above. Kept.</li><li>Choice C: $14(x - 2y)(x - 50y)$ — expands to $14(x^2 - 52xy + 100y^2)$, wrong middle and sign. Eliminated.</li><li>Choice D: $14(x - 2y)(x + 50y)$ — expands to $14(x^2 + 48xy - 100y^2)$, wrong on all counts. Eliminated.</li></ul>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_4",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the difference of squares inside the parentheses",
+      "content": "The expression inside the parentheses is $x^2 - 100y^2$. Notice that $x^2 = (x)^2$ and $100y^2 = (10y)^2$, so this fits the pattern $a^2 - b^2 = (a-b)(a+b)$ with $a = x$ and $b = 10y$."
+    },
+    {
+      "title": "Factor the difference of squares",
+      "content": "$$x^2 - 100y^2 = (x - 10y)(x + 10y).$$ Multiplying back in the outer factor of 14: $$14(x^2 - 100y^2) = 14(x - 10y)(x + 10y).$$"
+    },
+    {
+      "title": "Evaluate each answer choice",
+      "content": "<ul><li>Choice A: $14(x - 10y)(x - 10y)$ — this is $14(x-10y)^2$, which expands to $14(x^2 - 20xy + 100y^2)$, not the original. Eliminated.</li><li>Choice B: $14(x - 10y)(x + 10y)$ — this is exactly the factored form derived above. Kept.</li><li>Choice C: $14(x - 2y)(x - 50y)$ — expands to $14(x^2 - 52xy + 100y^2)$, wrong middle and sign. Eliminated.</li><li>Choice D: $14(x - 2y)(x + 50y)$ — expands to $14(x^2 + 48xy - 100y^2)$, wrong on all counts. Eliminated.</li></ul>That matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

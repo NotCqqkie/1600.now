@@ -1,1 +1,23 @@
-{"questionId":"9f6c3595-ed0e-41a0-8889-7d3730d37b4c_3","correctAnswer":"B","section":"Math","steps":[{"title":"Set up","content":"The given equation is $6x+36=54$. The question asks for the value of $x+6$."},{"title":"Solve","content":"Factor $6$ from the left side:$$6(x+6)=54$$Divide both sides by $6$:$$x+6=9$$"},{"title":"Answer","content":"<strong>B</strong> is correct."}]}
+{
+  "questionId": "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_3",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "The given equation is $6x+36=54$. The question asks for the value of $x+6$."
+    },
+    {
+      "title": "Solve",
+      "content": "Factor $6$ from the left side:$$6(x+6)=54$$Divide both sides by $6$:$$x+6=9$$"
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>B</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice B, 9. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
+    }
+  ]
+}

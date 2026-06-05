@@ -1,1 +1,15 @@
-{"questionId": "2afd3cec", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Interpret the percentage relationship", "content": "If 20% of the original marbles were removed, then 80% of the original remained. Since 360 marbles remained, we know:<br/>$$0.8 \\times \\text{original} = 360$$"}, {"title": "Find 20% removed using proportions", "content": "We don't need to solve for the original. Instead, note that 20 is $\\frac{1}{4}$ of 80 (since $\\frac{20}{80} = \\frac{1}{4}$).<br/><br/>This means the marbles removed equal $\\frac{1}{4}$ of the marbles remaining:<br/>$$\\text{Removed} = \\frac{1}{4} \\times 360 = 90$$<br/>This matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "2afd3cec",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret the percentage relationship",
+      "content": "If 20% of the original marbles were removed, then 80% of the original remained. Since 360 marbles remained, we know:<br/>$$0.8 \\times \\text{original} = 360$$"
+    },
+    {
+      "title": "Find 20% removed using proportions",
+      "content": "We don't need to solve for the original. Instead, note that 20 is $\\frac{1}{4}$ of 80 (since $\\frac{20}{80} = \\frac{1}{4}$).<br/><br/>This means the marbles removed equal $\\frac{1}{4}$ of the marbles remaining:<br/>$$\\text{Removed} = \\frac{1}{4} \\times 360 = 90$$<br/>This matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

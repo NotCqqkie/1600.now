@@ -1,1 +1,19 @@
-{"questionId":"94868488-f2b6-48b0-9e22-a683ccbda0e0_6","correctAnswer":"D","section":"Math","steps":[{"title":"Set up","content":"Start inside out. Plug $x = -10$ into $g(x) = |13x - 9|$:<br/>$$g(-10) = |13(-10) - 9| = |-130 - 9| = |-139| = 139$$"},{"title":"Solve","content":"Now plug $g(-10) = 139$ into $f(x) = 5(g(x)) - 2$:<br/>$$f(-10) = 5(139) - 2 = 695 - 2 = 693$$"},{"title":"Answer","content":"<strong>D</strong> is correct."}]}
+{
+  "questionId": "94868488-f2b6-48b0-9e22-a683ccbda0e0_6",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "Start inside out. Plug $x = -10$ into $g(x) = |13x - 9|$:<br/>$$g(-10) = |13(-10) - 9| = |-130 - 9| = |-139| = 139$$"
+    },
+    {
+      "title": "Solve",
+      "content": "Now plug $g(-10) = 139$ into $f(x) = 5(g(x)) - 2$:<br/>$$f(-10) = 5(139) - 2 = 695 - 2 = 693$$"
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>D</strong> is correct."
+    }
+  ]
+}

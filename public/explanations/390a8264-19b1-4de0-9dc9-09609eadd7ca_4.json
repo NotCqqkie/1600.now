@@ -1,1 +1,19 @@
-{"questionId":"390a8264-19b1-4de0-9dc9-09609eadd7ca_4","correctAnswer":"A","section":"Math","steps":[{"title":"Clear the denominator","content":"Multiply both sides of $u=-\\dfrac{w}{188x}$ by $188x$:$$188x\\cdot u=-w$$"},{"title":"Isolate $w$","content":"Multiply both sides by $-1$:$$w=-188ux$$"},{"title":"Compare with each choice","content":"<ul><li><strong>A) $w=-188ux$:</strong> matches the derived expression.</li><li><strong>B) $w=-\\dfrac{188u}{x}$:</strong> would require dividing by $x$, but we multiplied by $188x$. Eliminated.</li><li><strong>C) $w=\\dfrac{x}{188u}$:</strong> wrong variable placement and wrong sign. Eliminated.</li><li><strong>D) $w=u+188x$:</strong> the original equation is multiplicative, not additive. Eliminated.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "390a8264-19b1-4de0-9dc9-09609eadd7ca_4",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Clear the denominator",
+      "content": "Multiply both sides of $u=-\\dfrac{w}{188x}$ by $188x$:$$188x\\cdot u=-w$$"
+    },
+    {
+      "title": "Isolate $w$",
+      "content": "Multiply both sides by $-1$:$$w=-188ux$$"
+    },
+    {
+      "title": "Compare with each choice",
+      "content": "<ul><li><strong>A) $w=-188ux$:</strong> matches the derived expression.</li><li><strong>B) $w=-\\dfrac{188u}{x}$:</strong> would require dividing by $x$, but we multiplied by $188x$. Eliminated.</li><li><strong>C) $w=\\dfrac{x}{188u}$:</strong> wrong variable placement and wrong sign. Eliminated.</li><li><strong>D) $w=u+188x$:</strong> the original equation is multiplicative, not additive. Eliminated.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

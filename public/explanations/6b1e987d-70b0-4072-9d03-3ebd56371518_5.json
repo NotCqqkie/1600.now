@@ -1,1 +1,19 @@
-{"questionId":"6b1e987d-70b0-4072-9d03-3ebd56371518_5","correctAnswer":"C","section":"Math","steps":[{"title":"Substitute into the function","content":"With $g(x)=\\tfrac{5}{9}x-\\tfrac{7}{9}$, replace $x$ with $18$: $$g(18)=\\tfrac{5}{9}(18)-\\tfrac{7}{9}.$$"},{"title":"Simplify","content":"$$g(18)=\\tfrac{90}{9}-\\tfrac{7}{9}=\\tfrac{83}{9}.$$ That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}
+{
+  "questionId": "6b1e987d-70b0-4072-9d03-3ebd56371518_5",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute into the function",
+      "content": "With $g(x)=\\tfrac{5}{9}x-\\tfrac{7}{9}$, replace $x$ with $18$: $$g(18)=\\tfrac{5}{9}(18)-\\tfrac{7}{9}.$$"
+    },
+    {
+      "title": "Simplify",
+      "content": "$$g(18)=\\tfrac{90}{9}-\\tfrac{7}{9}=\\tfrac{83}{9}.$$ That matches choice <strong>C</strong> — <strong>C</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice C, $\\frac{83}{9}$. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
+    }
+  ]
+}

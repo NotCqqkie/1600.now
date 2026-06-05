@@ -1,1 +1,31 @@
-{"questionId": "9d845a11-6019-4b88-9309-26d92ced4f70_13", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Set equations equal to find intersection", "content": "When the parabola and line intersect, their $y$-values are equal. Setting $2x^2 - 13x + 24 = 3x + a$ and rearranging:<br/>$$2x^2 - 16x + 24 - a = 0$$"}, {"title": "Apply discriminant condition for exactly one intersection", "content": "For the graphs to intersect at exactly one point (tangent), the quadratic must have exactly one solution. This occurs when the discriminant equals zero. With coefficients $a = 2$, $b = -16$, and $c = 24 - a$:<br/>$$(-16)^2 - 4(2)(24-a) = 0$$<br/>$$256 - 8(24-a) = 0$$<br/>$$256 - 192 + 8a = 0$$<br/>$$a = -8$$", "formula": "$$\\Delta = b^2 - 4ac$$"}, {"title": "Solve for x with the value of a", "content": "Substituting $a = -8$ into our quadratic equation:<br/>$$2x^2 - 16x + 32 = 0$$<br/>$$x^2 - 8x + 16 = 0$$<br/>$$(x - 4)^2 = 0$$<br/>$$x = 4$$<br/>That matches choice C — <strong>C</strong> is correct.", "desmosExpressions": ["y = 2x^2 - 13x + 24", "y = 3x + 4"]}]}
+{
+  "questionId": "9d845a11-6019-4b88-9309-26d92ced4f70_13",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Turn one intersection into a discriminant check",
+      "content": "Set the two $y$-values equal:<br/>$$2x^2-13x+24=3x+a$$<br/>$$2x^2-16x+(24-a)=0$$<br/>For the line to touch the parabola at exactly one point, this quadratic must have discriminant $0$.",
+      "desmosExpressions": [
+        "y_1=[0]",
+        "y_1~(-16)^2-4*2*(24-a)"
+      ]
+    },
+    {
+      "title": "Graph the corrected line",
+      "content": "The regression gives $a=-8$, so the line is $y=3x-8$. Graph $y=2x^2-13x+24$ with $y=3x-8$; the graphs touch once, which is the condition in the question.",
+      "desmosExpressions": [
+        "y = 2x^2 - 13x + 24",
+        "y = 3x - 8"
+      ],
+      "formula": "$$\\Delta = b^2 - 4ac$$"
+    },
+    {
+      "title": "Confirm the x-value",
+      "content": "Substitute $a=-8$ into the intersection equation:<br/>$$2x^2-16x+32=0$$<br/>Divide by $2$: $$x^2-8x+16=0$$<br/>$$(x-4)^2=0$$<br/>So the single intersection has $x=4$. That matches choice C, so <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "(4,4)"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,19 @@
-{"questionId":"9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_17","correctAnswer":"B","section":"Math","steps":[{"title":"Read the vertex directly from vertex form","content":"The equation $y = -4.9(x - 9.1)^2 + 10{,}700$ is already in vertex form $y = a(x - h)^2 + k$. Read off $(h, k)$ immediately: the vertex is $(9.1,\\ 10{,}700)$. No algebra needed."},{"title":"Interpret the vertex in context","content":"Since $a = -4.9 < 0$, the parabola opens downward, so the vertex is the <strong>maximum</strong>. The $x$-coordinate $9.1$ is the time in seconds; the $y$-coordinate $10{,}700$ is the height in meters. That means the plane reached a maximum height of $10{,}700$ meters at $9.1$ seconds. That matches choice B — <strong>B</strong> is correct.","desmosExpressions":["y=-4.9(x-9.1)^{2}+10700","(9.1,10700)"]}]}
+{
+  "questionId": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_17",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the vertex directly from vertex form",
+      "content": "The equation $y = -4.9(x - 9.1)^2 + 10{,}700$ is already in vertex form $y = a(x - h)^2 + k$. Read off $(h, k)$ immediately: the vertex is $(9.1,\\ 10{,}700)$. No algebra needed."
+    },
+    {
+      "title": "Interpret the vertex in context",
+      "content": "Since $a = -4.9 < 0$, the parabola opens downward, so the vertex is the <strong>maximum</strong>. The $x$-coordinate $9.1$ is the time in seconds; the $y$-coordinate $10{,}700$ is the height in meters. That means the plane reached a maximum height of $10{,}700$ meters at $9.1$ seconds. That matches choice B — <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "y=-4.9(x-9.1)^{2}+10700",
+        "(9.1,10700)"
+      ]
+    }
+  ]
+}

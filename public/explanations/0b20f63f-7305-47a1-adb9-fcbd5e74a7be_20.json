@@ -14,6 +14,10 @@
         "y = (x-10)(x-8)(x-4)",
         "y = (x-10)(x-8)(x-4) + 6"
       ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, make sure the computed value answers exactly what the question asks for. The work above gives $-314$; substituting or interpreting it in the original condition satisfies the requirement, so $-314$ is the value to enter."
     }
   ]
 }

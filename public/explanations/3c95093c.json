@@ -1,1 +1,19 @@
-{"questionId": "3c95093c", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Identify a common factor across all terms", "content": "The given inequality is \\(3x - 9y > 12\\). (Note: the printed stem omits the coefficient 3 on x; the answer choices confirm the intended inequality has 3x.) All three terms — \\(3x\\), \\(-9y\\), and \\(12\\) — share a common factor of 3."}, {"title": "Factor out 3 from all terms", "content": "$$3x - 9y > 12$$<br/>Divide every term by 3 (a positive number, so the inequality direction is preserved):<br/>$$\\frac{3x}{3} - \\frac{9y}{3} > \\frac{12}{3}$$<br/>$$x - 3y > 4$$"}, {"title": "Evaluate all choices", "content": "<ul><li>A: \\(x - y > 2\\) — the \\(y\\)-coefficient should be \\(-3\\), not \\(-1\\), and the right side should be 4, not 2. Eliminated.</li><li>B: \\(x - 3y > 4\\) — matches \\(x - 3y > 4\\) exactly after dividing by 3. Correct.</li><li>C: \\(x - 2y > 4\\) — the \\(y\\)-coefficient should be \\(-3\\), not \\(-2\\). Eliminated.</li><li>D: \\(y - 2x > 2\\) — completely different rearrangement; variables and signs don&apos;t align with any valid transformation. Eliminated.</li></ul>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "3c95093c",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify a common factor across all terms",
+      "content": "The given inequality is $3x - 9y > 12$. (Note: the printed stem omits the coefficient 3 on x; the answer choices confirm the intended inequality has 3x.) All three terms — $3x$, $-9y$, and $12$ — share a common factor of 3."
+    },
+    {
+      "title": "Factor out 3 from all terms",
+      "content": "$$3x - 9y > 12$$<br/>Divide every term by 3 (a positive number, so the inequality direction is preserved):<br/>$$\\frac{3x}{3} - \\frac{9y}{3} > \\frac{12}{3}$$<br/>$$x - 3y > 4$$"
+    },
+    {
+      "title": "Evaluate all choices",
+      "content": "<ul><li>A: $x - y > 2$ — the $y$-coefficient should be $-3$, not $-1$, and the right side should be 4, not 2. Eliminated.</li><li>B: $x - 3y > 4$ — matches $x - 3y > 4$ exactly after dividing by 3. Correct.</li><li>C: $x - 2y > 4$ — the $y$-coefficient should be $-3$, not $-2$. Eliminated.</li><li>D: $y - 2x > 2$ — completely different rearrangement; variables and signs don&apos;t align with any valid transformation. Eliminated.</li></ul>That matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

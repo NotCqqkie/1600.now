@@ -1,1 +1,25 @@
-{"questionId":"e744499e","correctAnswer":"A","section":"Math","steps":[{"title":"Translate &quot;at least 20 items&quot;","content":"With $x$ workbooks and $y$ flash card sets, the total number of items is $x + y$. &quot;At least 20&quot; means the total is greater than or equal to 20:<br/>$$x + y \\geq 20$$"},{"title":"Translate &quot;total cost not over \\$80&quot;","content":"Workbooks cost \\$3 each and flash cards cost \\$4 per set, so the total cost in dollars is $3x + 4y$. &quot;Not over \\$80&quot; means less than or equal to 80:<br/>$$3x + 4y \\leq 80$$"},{"title":"Match against the choices","content":"The system is $x + y \\geq 20$ together with $3x + 4y \\leq 80$.<ul><li>A. $x+y \\ge 20$ and $3x+4y \\le 80$ &mdash; matches both inequalities exactly. Correct.</li><li>B. $x+y \\ge 20$ and $3x+4y \\ge 80$ &mdash; reverses the cost inequality, allowing orders that exceed \\$80. Eliminated.</li><li>C. $x+4y \\le 20$ and $x+y \\ge 80$ &mdash; mixes up the coefficients and reverses both directions. Eliminated.</li><li>D. $x+y \\le 20$ and $3x+4y \\ge 80$ &mdash; reverses both inequalities, so it caps the count and requires a minimum cost. Eliminated.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.","desmosExpressions":["x+y \\ge 20","3x+4y \\le 80","x \\ge 0","y \\ge 0"]}]}
+{
+  "questionId": "e744499e",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate &quot;at least 20 items&quot;",
+      "content": "With $x$ workbooks and $y$ flash card sets, the total number of items is $x + y$. &quot;At least 20&quot; means the total is greater than or equal to 20:<br/>$$x + y \\geq 20$$"
+    },
+    {
+      "title": "Translate &quot;total cost not over \\$80&quot;",
+      "content": "Workbooks cost \\$3 each and flash cards cost \\$4 per set, so the total cost in dollars is $3x + 4y$. &quot;Not over \\$80&quot; means less than or equal to 80:<br/>$$3x + 4y \\leq 80$$"
+    },
+    {
+      "title": "Match against the choices",
+      "content": "The system is $x + y \\geq 20$ together with $3x + 4y \\leq 80$.<ul><li>A. $x+y \\ge 20$ and $3x+4y \\le 80$ &mdash; matches both inequalities exactly. Correct.</li><li>B. $x+y \\ge 20$ and $3x+4y \\ge 80$ &mdash; reverses the cost inequality, allowing orders that exceed \\$80. Eliminated.</li><li>C. $x+4y \\le 20$ and $x+y \\ge 80$ &mdash; mixes up the coefficients and reverses both directions. Eliminated.</li><li>D. $x+y \\le 20$ and $3x+4y \\ge 80$ &mdash; reverses both inequalities, so it caps the count and requires a minimum cost. Eliminated.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "x+y \\ge 20",
+        "3x+4y \\le 80",
+        "x \\ge 0",
+        "y \\ge 0"
+      ]
+    }
+  ]
+}

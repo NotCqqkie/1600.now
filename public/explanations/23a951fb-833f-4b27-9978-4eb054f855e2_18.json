@@ -4,12 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the original y-intercept",
-      "content": "To find where the graph of $9x + 10y = 19$ crosses the $y$-axis, set $x = 0$:<br/>$$10y = 19$$<br/>$$y = \\frac{19}{10}$$"
+      "title": "Graph the shift directly",
+      "content": "Solve the original equation for $y$: $9x+10y=19$ becomes $y=\\frac{19-9x}{10}$. In Desmos, graph that line and then graph the shifted line by adding $6$ to the whole expression.",
+      "desmosExpressions": [
+        "y=(19-9x)/10",
+        "y=(19-9x)/10+6"
+      ]
     },
     {
-      "title": "Apply the vertical shift",
-      "content": "A vertical shift up 6 units adds 6 to every $y$-coordinate. The new $y$-intercept is:<br/>$$\\frac{19}{10} + 6 = \\frac{19}{10} + \\frac{60}{10} = \\frac{79}{10}$$<br/>This matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Read the new intercept",
+      "content": "A vertical shift up $6$ units keeps the same slope and adds $6$ to every $y$-value. The original $y$-intercept is $\\frac{19}{10}$, so the shifted $y$-intercept is $\\frac{19}{10}+6=\\frac{19}{10}+\\frac{60}{10}=\\frac{79}{10}$."
+    },
+    {
+      "title": "Match the ordered pair",
+      "content": "The resulting graph crosses the $y$-axis at $(0,\\frac{79}{10})$. That matches choice <strong>A</strong>."
     }
   ]
 }

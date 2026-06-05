@@ -1,1 +1,44 @@
-{"qid":"a5834ea4","steps":[{"text":"The function $f(x) = 39$ is a constant linear function. A constant function outputs the same value for every input $x$, regardless of what $x$ is."},{"text":"Since $f(x) = 39$ for all $x$, we need a table where every $f(x)$ entry equals $39$, no matter which $x$ values are chosen."},{"text":"Evaluating each choice: Choice A shows all outputs equal $0$, so that represents $f(x) = 0$. Choice C shows outputs $0, 39, 78$, which is $f(x) = 39x$. Choice D shows outputs $39, 0, -39$, which is $f(x) = 39 - 39x$."},{"text":"Choice B shows $f(0) = 39$, $f(1) = 39$, $f(2) = 39$ &mdash; every output is $39$, matching $f(x) = 39$ exactly. That matches choice B &mdash; <strong>B</strong> is correct.","choices":[{"id":"A","text":"<ul><li>All three outputs are $0$, so this table represents $f(x) = 0$, not $f(x) = 39$. Eliminated.</li></ul>"},{"id":"B","text":"<ul><li>All three outputs are $39$, exactly matching the constant function $f(x) = 39$. That matches choice B &mdash; <strong>B</strong> is correct.</li></ul>"},{"id":"C","text":"<ul><li>Outputs are $0, 39, 78$ &mdash; each increases by $39$, so this represents $f(x) = 39x$, not a constant. Eliminated.</li></ul>"},{"id":"D","text":"<ul><li>Outputs are $39, 0, -39$ &mdash; each decreases by $39$, so this represents $f(x) = 39 - 39x$. Eliminated.</li></ul>"}]}],"correctAnswer":"B"}
+{
+  "qid": "a5834ea4",
+  "steps": [
+    {
+      "title": "Use Desmos list evaluation",
+      "content": "The fastest check is to evaluate the function at all three table inputs at once. Enter $f(x)=39$ and then $f([0,1,2])$ in Desmos. The output is $[39,39,39]$, so every row must have output $39$.",
+      "desmosExpressions": [
+        "f(x)=39",
+        "f([0,1,2])"
+      ]
+    },
+    {
+      "title": "Understand the constant function",
+      "content": "Since $f(x)=39$ has no $x$ term, changing $x$ does not change the output. Whether $x=0$, $x=1$, or $x=2$, the value of $f(x)$ is always $39$."
+    },
+    {
+      "title": "Eliminate the wrong tables",
+      "content": "Choice A has outputs all equal to $0$, so it represents $f(x)=0$. Choice C has outputs $0,39,78$, which increase by $39$ each time and represent $f(x)=39x$. Choice D has outputs $39,0,-39$, which decrease by $39$ each time."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "Choice B shows $f(0)=39$, $f(1)=39$, and $f(2)=39$. That exactly matches the constant function, so choice <strong>B</strong> is correct.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "<ul><li>All three outputs are $0$, so this table represents $f(x) = 0$, not $f(x) = 39$. Eliminated.</li></ul>"
+        },
+        {
+          "id": "B",
+          "text": "<ul><li>All three outputs are $39$, exactly matching the constant function $f(x) = 39$. That matches choice B &mdash; <strong>B</strong> is correct.</li></ul>"
+        },
+        {
+          "id": "C",
+          "text": "<ul><li>Outputs are $0, 39, 78$ &mdash; each increases by $39$, so this represents $f(x) = 39x$, not a constant. Eliminated.</li></ul>"
+        },
+        {
+          "id": "D",
+          "text": "<ul><li>Outputs are $39, 0, -39$ &mdash; each decreases by $39$, so this represents $f(x) = 39 - 39x$. Eliminated.</li></ul>"
+        }
+      ]
+    }
+  ],
+  "correctAnswer": "B"
+}

@@ -1,1 +1,19 @@
-{"questionId": "b05db4ac-dd48-4b3f-b365-b39330c879e5_3", "correctAnswer": "23", "section": "Math", "steps": [{"title": "Factor out the common binomial", "content": "The expression $(x-k)$ appears in both terms. Factor it out:<br/>$$0 = (x-k)(7x+t) - (x-k)$$<br/>$$0 = (x-k)(7x + t - 1)$$"}, {"title": "Identify which solution corresponds to the given value", "content": "From the factored equation, solutions occur when either factor equals zero:<ul><li>$x - k = 0 \\Rightarrow x = k$</li><li>$7x + t - 1 = 0 \\Rightarrow x = \\frac{1-t}{7}$</li></ul>Since $k$ is a positive constant and the given solution $-\\frac{22}{7}$ is negative, it must come from the second factor:<br/>$$\\frac{1-t}{7} = -\\frac{22}{7}$$"}, {"title": "Solve for $t$", "content": "Multiply both sides by 7:<br/>$$1 - t = -22$$<br/>$$-t = -23$$<br/>$$t = 23$$"}]}
+{
+  "questionId": "b05db4ac-dd48-4b3f-b365-b39330c879e5_3",
+  "correctAnswer": "23",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor out the common binomial",
+      "content": "The expression $(x-k)$ appears in both terms. Factor it out:<br/>$$0 = (x-k)(7x+t) - (x-k)$$<br/>$$0 = (x-k)(7x + t - 1)$$"
+    },
+    {
+      "title": "Identify which solution corresponds to the given value",
+      "content": "From the factored equation, solutions occur when either factor equals zero:<ul><li>$x - k = 0 \\Rightarrow x = k$</li><li>$7x + t - 1 = 0 \\Rightarrow x = \\frac{1-t}{7}$</li></ul>Since $k$ is a positive constant and the given solution $-\\frac{22}{7}$ is negative, it must come from the second factor:<br/>$$\\frac{1-t}{7} = -\\frac{22}{7}$$"
+    },
+    {
+      "title": "Solve for $t$",
+      "content": "Multiply both sides by 7:<br/>$$1 - t = -22$$<br/>$$-t = -23$$<br/>$$t = 23$$"
+    }
+  ]
+}

@@ -1,1 +1,19 @@
-{"questionId": "87a75825-ef1b-4b13-8fde-816390546062_16", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Set up variables for total costs", "content": "Let $x$ = total cost of square tables and $y$ = total cost of hexagonal tables.<br/><br/>From the problem:<ul><li>Total cost: $x + y = 25,740$</li><li>Revenues are $2x$ (square) and $2.5y$ (hexagonal), so total revenue: $2x + 2.5y = 61,875$</li></ul>"}, {"title": "Solve the system using substitution", "content": "From $x + y = 25,740$, we get $x = 25,740 - y$.<br/><br/>Substitute into $2x + 2.5y = 61,875$:<br/>$$2(25,740 - y) + 2.5y = 61,875$$<br/>$$51,480 - 2y + 2.5y = 61,875$$<br/>$$0.5y = 10,395$$<br/>$$y = 20,790$$<br/>Therefore: $x = 25,740 - 20,790 = 4,950$"}, {"title": "Calculate the revenue difference", "content": "Revenue from hexagonal tables: $2.5y = 2.5(20,790) = 51,975$<br/><br/>Revenue from square tables: $2x = 2(4,950) = 9,900$<br/><br/>Revenue difference: $51,975 - 9,900 = 42,075$. That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "87a75825-ef1b-4b13-8fde-816390546062_16",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up variables for total costs",
+      "content": "Let $x$ = total cost of square tables and $y$ = total cost of hexagonal tables.<br/><br/>From the problem:<ul><li>Total cost: $x + y = 25,740$</li><li>Revenues are $2x$ (square) and $2.5y$ (hexagonal), so total revenue: $2x + 2.5y = 61,875$</li></ul>"
+    },
+    {
+      "title": "Solve the system using substitution",
+      "content": "From $x + y = 25,740$, we get $x = 25,740 - y$.<br/><br/>Substitute into $2x + 2.5y = 61,875$:<br/>$$2(25,740 - y) + 2.5y = 61,875$$<br/>$$51,480 - 2y + 2.5y = 61,875$$<br/>$$0.5y = 10,395$$<br/>$$y = 20,790$$<br/>Therefore: $x = 25,740 - 20,790 = 4,950$"
+    },
+    {
+      "title": "Calculate the revenue difference",
+      "content": "Revenue from hexagonal tables: $2.5y = 2.5(20,790) = 51,975$<br/><br/>Revenue from square tables: $2x = 2(4,950) = 9,900$<br/><br/>Revenue difference: $51,975 - 9,900 = 42,075$. That matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

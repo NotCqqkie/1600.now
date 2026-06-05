@@ -1,1 +1,18 @@
-{"questionId": "3cdbf026", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Substitute the point (0, -3) to find k", "content": "Since $(0, -3)$ lies on the line $ax + ky = 6$, substitute $x = 0$ and $y = -3$:<br/>$$a(0) + k(-3) = 6$$<br/>$$-3k = 6$$<br/>$$k = -2$$<br/>That matches choice A — <strong>A</strong> is correct."}, {"title": "Verify with the second point", "content": "Substitute $k = -2$ and point $(-2, -6)$:<br/>$$a(-2) + (-2)(-6) = 6$$<br/>$$-2a + 12 = 6$$<br/>$$a = 3$$<br/>The equation $3x - 2y = 6$ passes through both $(0, -3)$ and $(-2, -6)$, confirming $k = -2$.", "desmosExpressions": ["ax+ky=6"]}]}
+{
+  "questionId": "3cdbf026",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the point (0, -3) to find k",
+      "content": "Since $(0, -3)$ lies on the line $ax + ky = 6$, substitute $x = 0$ and $y = -3$:<br/>$$a(0) + k(-3) = 6$$<br/>$$-3k = 6$$<br/>$$k = -2$$<br/>That matches choice A — <strong>A</strong> is correct."
+    },
+    {
+      "title": "Verify with the second point",
+      "content": "Substitute $k = -2$ and point $(-2, -6)$:<br/>$$a(-2) + (-2)(-6) = 6$$<br/>$$-2a + 12 = 6$$<br/>$$a = 3$$<br/>The equation $3x - 2y = 6$ passes through both $(0, -3)$ and $(-2, -6)$, confirming $k = -2$.",
+      "desmosExpressions": [
+        "ax+ky=6"
+      ]
+    }
+  ]
+}

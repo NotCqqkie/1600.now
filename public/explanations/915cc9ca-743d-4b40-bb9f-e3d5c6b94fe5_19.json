@@ -1,1 +1,15 @@
-{"questionId": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_19", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Identify what the question needs", "content": "We already know &ang;A = &ang;P = 52&deg;. AA similarity requires just one more pair of equal angles. The right choice must supply information that produces a matching second angle pair in both triangles."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A</strong>: gives sides, not angles &mdash; can&apos;t establish AA from side lengths alone. &#10007;</li><li><strong>Choice B</strong>: gives only one additional angle in one triangle &mdash; insufficient to match angle pairs. &#10007;</li><li><strong>Choice C &mdash; '&ang;B = 34&deg; and &ang;R = 94&deg;'</strong>: Triangle ABC gives &ang;C = 180 &minus; 52 &minus; 34 = 94&deg;; Triangle PQR gives &ang;Q = 180 &minus; 52 &minus; 94 = 34&deg;. All three pairs match: &ang;A = &ang;P, &ang;B = &ang;Q, &ang;C = &ang;R. &#10003;</li><li><strong>Choice D</strong>: gives angles that don&apos;t produce matching pairs with the known 52&deg;. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_19",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "We already know &ang;A = &ang;P = 52&deg;. AA similarity requires just one more pair of equal angles. The right choice must supply information that produces a matching second angle pair in both triangles."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A</strong>: gives sides, not angles &mdash; can&apos;t establish AA from side lengths alone. &#10007;</li><li><strong>Choice B</strong>: gives only one additional angle in one triangle &mdash; insufficient to match angle pairs. &#10007;</li><li><strong>Choice C &mdash; '&ang;B = 34&deg; and &ang;R = 94&deg;'</strong>: Triangle ABC gives &ang;C = 180 &minus; 52 &minus; 34 = 94&deg;; Triangle PQR gives &ang;Q = 180 &minus; 52 &minus; 94 = 34&deg;. All three pairs match: &ang;A = &ang;P, &ang;B = &ang;Q, &ang;C = &ang;R. &#10003;</li><li><strong>Choice D</strong>: gives angles that don&apos;t produce matching pairs with the known 52&deg;. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

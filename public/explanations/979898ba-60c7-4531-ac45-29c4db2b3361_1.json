@@ -1,1 +1,19 @@
-{"questionId":"979898ba-60c7-4531-ac45-29c4db2b3361_1","correctAnswer":"B","section":"Math","steps":[{"title":"Substitute into the function","content":"With $g(x)=25-x$, replace $x$ with $3$: $$g(3)=25-3.$$"},{"title":"Simplify","content":"$$g(3)=22.$$ That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}
+{
+  "questionId": "979898ba-60c7-4531-ac45-29c4db2b3361_1",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute into the function",
+      "content": "With $g(x)=25-x$, replace $x$ with $3$: $$g(3)=25-3.$$"
+    },
+    {
+      "title": "Simplify",
+      "content": "$$g(3)=22.$$ That matches choice <strong>B</strong> — <strong>B</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice B, $22$. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
+    }
+  ]
+}

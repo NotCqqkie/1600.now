@@ -8,6 +8,10 @@ import {
   resetPersonalizationPreferences,
   subscribeToPersonalization,
 } from "@/lib/personalization";
+import {
+  getQuestionUiStateMap,
+  subscribeToQuestionUiState,
+} from "@/lib/practice/questionUiState";
 
 // Mounts the user-progress sync effect at the app root so that on
 // login/signup, local data is merged into the user's Firestore document
@@ -46,6 +50,58 @@ export const AccountSync = () => {
     };
 
     return subscribeToPersonalization(push);
+  }, [user]);
+
+  useEffect(() => {
+    if (!user || !db) return;
+
+    const push = () => {
+      const ref = doc(db, "user_progress", user.id);
+      setDoc(
+        ref,
+        { user_id: user.id, questionState: getQuestionUiStateMap(user.id) },
+        { merge: true },
+      ).catch((err) =>
+        console.error("Failed to sync question state to Firestore:", err),
+      );
+    };
+
+    return subscribeToQuestionUiState(push);
+  }, [user]);
+
+  useEffect(() => {
+    if (!user || !db) return;
+
+    let cancelled = false;
+    let unsubscribe: (() => void) | undefined;
+
+    const setup = async () => {
+      const customSets = await import("@/lib/practice/customPracticeSets");
+      if (cancelled) return;
+
+      const push = () => {
+        const ref = doc(db, "user_progress", user.id);
+        setDoc(
+          ref,
+          {
+            user_id: user.id,
+            customPracticeSets: customSets.getCustomPracticeSets(user.id),
+          },
+          { merge: true },
+        ).catch((err) =>
+          console.error("Failed to sync custom practice sets to Firestore:", err),
+        );
+      };
+
+      unsubscribe = customSets.subscribeToCustomPracticeSets(push);
+    };
+
+    void setup();
+
+    return () => {
+      cancelled = true;
+      unsubscribe?.();
+    };
   }, [user]);
 
   return null;

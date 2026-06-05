@@ -1,1 +1,19 @@
-{"questionId":"b4a6ed81","correctAnswer":"6","section":"Math","steps":[{"title":"Factor the left side","content":"Factor the left side: $90y^5-54y^4=y^4(90y-54)$. Factor a $6$ from the parenthesis: $$90y^5-54y^4=6y^4(15y-9).$$"},{"title":"Identify r","content":"Comparing $6y^4(15y-9)=ry^4(15y-9)$ gives $r=6$. The answer is <strong>6</strong>."}]}
+{
+  "questionId": "b4a6ed81",
+  "correctAnswer": "6",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor the left side",
+      "content": "Factor the left side: $90y^5-54y^4=y^4(90y-54)$. Factor a $6$ from the parenthesis: $$90y^5-54y^4=6y^4(15y-9).$$"
+    },
+    {
+      "title": "Identify r",
+      "content": "Comparing $6y^4(15y-9)=ry^4(15y-9)$ gives $r=6$. The answer is <strong>6</strong>."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $6$. Applying the distributive property to the expression $r{y}^{4}\\left(15y-9\\right)$ yields $15r{y}^{5}-9r{y}^{4}$. Since $90{y}^{5}-54{y}^{4}$ is equivalent to $r{y}^{4}\\left(15y-9\\right)$, it follows that $90{y}^{5}-54{y}^{4}$ is also equivalent to $15r{y}^{5}-9r{y}^{4}$. Since these expressions are equivalent, it follows that corresponding coefficients are equivalent. Therefore, $90=15r$ and $-54=-9r$. Solving either of these equations for $r$ will yield the value of $r$. Dividing both sides of $90=15r$ by $15$ yields $6=r$. Therefore, the value of $r$ is $6$."
+    }
+  ]
+}

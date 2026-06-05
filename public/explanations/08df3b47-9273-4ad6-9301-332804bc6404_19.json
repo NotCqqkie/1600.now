@@ -3,13 +3,22 @@
   "correctAnswer": "B",
   "steps": [
     {
-      "explanation": "A 13% increase each year means each year's value is multiplied by \\(1 + 0.13 = 1.13\\). Repeated multiplication by a constant factor is the defining feature of exponential growth."
+      "title": "Enter two years in Desmos",
+      "content": "A $13\\%$ increase means one year after $20{,}000$, the value is $20{,}000(1.13)=22{,}600$. Enter $x_1=[0,1]$, $y_1=[20000,22600]$, and $y_1\\sim a b^{x_1}$.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[20000,22600]",
+        "y_1~a b^{x_1}",
+        "y=a b^x"
+      ]
     },
     {
-      "explanation": "The sequence is: \\(20{,}000;\\; 20{,}000(1.13)^1;\\; 20{,}000(1.13)^2;\\; \\ldots\\) The general formula after \\(t\\) years is \\(y = 20{,}000(1.13)^t\\)."
+      "title": "Classify the model",
+      "content": "Desmos gives $a=20000$ and $b=1.13$. Since the variable is in the exponent, the model is exponential; since $1.13>1$, it is increasing."
     },
     {
-      "explanation": "Since the base \\(1.13 > 1\\), the function grows larger as \\(t\\) increases. It is increasing exponential."
+      "title": "Confirm the answer",
+      "content": "The model is increasing exponential, so choice <strong>B</strong> is correct."
     },
     {
       "explanation": "<ul><li>Choice A: Decreasing exponential &mdash; would require a base between 0 and 1 (e.g., 0.87). Eliminated.</li><li>Choice B: Increasing exponential &mdash; base is 1.13 &gt; 1 and grows each year. That matches choice B &mdash; <strong>B</strong> is correct.</li><li>Choice C: Decreasing linear &mdash; a constant percentage increase is not linear and does not decrease. Eliminated.</li><li>Choice D: Increasing linear &mdash; linear means adding the same amount each year, not the same percentage. 13% of a growing base adds more each year, making it exponential. Eliminated.</li></ul>"

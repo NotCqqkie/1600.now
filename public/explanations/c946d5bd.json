@@ -1,1 +1,24 @@
-{"questionId": "c946d5bd", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Understand the shift transformation", "content": "The equation $g(x+28) = \\frac{1}{10}(x-a)^2(x-b)^2(x-c)$ relates two functions. The right side has zeros when $x = a$ (double), $x = b$ (double), or $x = c$ (single). These occur exactly when $x+28$ equals a zero of $g$.<br/><br/>Therefore: if $g$ has a zero at $z$, then $g(x+28) = 0$ when $x + 28 = z$, giving $x = z - 28$.<br/>This means the zeros of $g$ shifted left by 28 units are the zeros of the factorization.", "formula": "$$\\text{If } g(z) = 0 \\text{, then } g(x+28) = 0 \\text{ when } x = z - 28$$"}, {"title": "Identify the polynomial's structure from the graph", "content": "From the graph of $g(x)$:<ul><li><strong>Crossing at $x \\approx -2$</strong>: the curve crosses the $x$-axis (simple zero, multiplicity 1)</li><li><strong>Touching behavior around $x \\approx 1$ to $2$</strong>: the curve approaches $y = 0$ and bounces (double zero, multiplicity 2)</li><li><strong>Near $x = 3$</strong>: the curve is very close to the $x$-axis, consistent with a double zero touching point</li></ul>The degree-5 polynomial $(x-a)^2(x-b)^2(x-c)$ requires exactly two touching points (the double zeros $a$ and $b$) and one crossing (the simple zero $c$)."}, {"title": "Apply the backward-shift formula to the zero near $x = 3$", "content": "If $g$ has a double zero at $x = 3$, then $g(x+28) = 0$ when $x + 28 = 3$.<br/>Solving: $x = 3 - 28 = -25$.<br/><br/>Since this zero is a double zero of $g$ (touching point), it must correspond to one of the two double zeros of $g(x+28)$, which are the values $a$ and $b$.<br/>Therefore, $b = -25$ (or $a = -25$). That matches choice D — <strong>D</strong> is correct."}, {"title": "Verify by eliminating other choices", "content": "For each other choice, the corresponding zero of $g$ would lie far outside the visible graph range:<ul><li><strong>Choice A</strong> ($b = 31$): requires $g$ to have a zero at $x = 31 + 28 = 59$ — not visible</li><li><strong>Choice B</strong> ($b = 3$): requires $g$ to have a double zero at $x = 3 + 28 = 31$ — not visible</li><li><strong>Choice C</strong> ($b = -2$): would place a double zero at $x = -2 + 28 = 26$ — not visible, and conflicts with the simple zero observed at $x \\approx -2$</li></ul>Only choice D ($b = -25$) corresponds to a zero visible on the graph."}]}
+{
+  "questionId": "c946d5bd",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Understand the shift transformation",
+      "content": "The equation $g(x+28) = \\frac{1}{10}(x-a)^2(x-b)^2(x-c)$ relates two functions. The right side has zeros when $x = a$ (double), $x = b$ (double), or $x = c$ (single). These occur exactly when $x+28$ equals a zero of $g$.<br/><br/>Therefore: if $g$ has a zero at $z$, then $g(x+28) = 0$ when $x + 28 = z$, giving $x = z - 28$.<br/>This means the zeros of $g$ shifted left by 28 units are the zeros of the factorization.",
+      "formula": "$$\\text{If } g(z) = 0 \\text{, then } g(x+28) = 0 \\text{ when } x = z - 28$$"
+    },
+    {
+      "title": "Identify the polynomial's structure from the graph",
+      "content": "From the graph of $g(x)$:<ul><li><strong>Crossing at $x \\approx -2$</strong>: the curve crosses the $x$-axis (simple zero, multiplicity 1)</li><li><strong>Touching behavior around $x \\approx 1$ to $2$</strong>: the curve approaches $y = 0$ and bounces (double zero, multiplicity 2)</li><li><strong>Near $x = 3$</strong>: the curve is very close to the $x$-axis, consistent with a double zero touching point</li></ul>The degree-5 polynomial $(x-a)^2(x-b)^2(x-c)$ requires exactly two touching points (the double zeros $a$ and $b$) and one crossing (the simple zero $c$)."
+    },
+    {
+      "title": "Apply the backward-shift formula to the zero near $x = 3$",
+      "content": "If $g$ has a double zero at $x = 3$, then $g(x+28) = 0$ when $x + 28 = 3$.<br/>Solving: $x = 3 - 28 = -25$.<br/><br/>Since this zero is a double zero of $g$ (touching point), it must correspond to one of the two double zeros of $g(x+28)$, which are the values $a$ and $b$.<br/>Therefore, $b = -25$ (or $a = -25$). That matches choice D — <strong>D</strong> is correct."
+    },
+    {
+      "title": "Verify by eliminating other choices",
+      "content": "For each other choice, the corresponding zero of $g$ would lie far outside the visible graph range:<ul><li><strong>Choice A</strong> ($b = 31$): requires $g$ to have a zero at $x = 31 + 28 = 59$ — not visible</li><li><strong>Choice B</strong> ($b = 3$): requires $g$ to have a double zero at $x = 3 + 28 = 31$ — not visible</li><li><strong>Choice C</strong> ($b = -2$): would place a double zero at $x = -2 + 28 = 26$ — not visible, and conflicts with the simple zero observed at $x \\approx -2$</li></ul>Only choice D ($b = -25$) corresponds to a zero visible on the graph."
+    }
+  ]
+}

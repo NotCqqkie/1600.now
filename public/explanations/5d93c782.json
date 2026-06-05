@@ -1,1 +1,23 @@
-{"questionId": "5d93c782", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Set up the factoring", "content": "For $x^2 + bx + c$, find two numbers that multiply to $c = -40$ and add to $b = 3$."}, {"title": "Find the pair", "content": "Pairs multiplying to $-40$: $(1,-40), (-1,40), (2,-20), (-2,20), (4,-10), (-4,10), (5,-8), (-5,8)$. The pair summing to $3$ is $-5$ and $8$."}, {"title": "Write the factored form", "content": "$x^2 + 3x - 40 = (x - 5)(x + 8)$."}, {"title": "Eliminate the choices", "content": "<ul><li>A: $(x-4)(x+10) = x^2 + 6x - 40$ &mdash; wrong middle term.</li><li>B: $(x-5)(x+8) = x^2 + 3x - 40$ &mdash; matches.</li><li>C: $(x-8)(x+5) = x^2 - 3x - 40$ &mdash; wrong sign on $x$.</li><li>D: $(x-10)(x+4) = x^2 - 6x - 40$ &mdash; wrong middle term.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "5d93c782",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the factoring",
+      "content": "For $x^2 + bx + c$, find two numbers that multiply to $c = -40$ and add to $b = 3$."
+    },
+    {
+      "title": "Find the pair",
+      "content": "Pairs multiplying to $-40$: $(1,-40), (-1,40), (2,-20), (-2,20), (4,-10), (-4,10), (5,-8), (-5,8)$. The pair summing to $3$ is $-5$ and $8$."
+    },
+    {
+      "title": "Write the factored form",
+      "content": "$x^2 + 3x - 40 = (x - 5)(x + 8)$."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li>A: $(x-4)(x+10) = x^2 + 6x - 40$ &mdash; wrong middle term.</li><li>B: $(x-5)(x+8) = x^2 + 3x - 40$ &mdash; matches.</li><li>C: $(x-8)(x+5) = x^2 - 3x - 40$ &mdash; wrong sign on $x$.</li><li>D: $(x-10)(x+4) = x^2 - 6x - 40$ &mdash; wrong middle term.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

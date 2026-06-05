@@ -1,1 +1,19 @@
-{"questionId": "e17babed", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Set up the comparison", "content": "A data point's actual $y$-value is greater than the predicted $y$-value exactly when the point lies strictly <em>above</em> the line of best fit. So the question reduces to counting points above the line."}, {"title": "Count points above the line of best fit", "content": "Examine each of the $10$ data points and check whether it sits above the line in the scatterplot. Doing this carefully gives $6$ points above the line.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "e17babed",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the question",
+      "content": "The predicted $y$-value is the height of the line of best fit at the same $x$-value as the data point. A point has an actual $y$-value greater than the predicted value exactly when the point is visually above the line."
+    },
+    {
+      "title": "Count by residual sign",
+      "content": "Scan from left to right and mark each point as above, on, or below the line. Only points strictly above the line count; points on the line would have actual and predicted values equal, so they do not count."
+    },
+    {
+      "title": "Match the count",
+      "content": "The scatterplot has $6$ points above the line of best fit and $4$ points at or below it. The number of data points with actual $y$-values greater than predicted $y$-values is $6$, which matches choice <strong>C</strong>."
+    }
+  ]
+}

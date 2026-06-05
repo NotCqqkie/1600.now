@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Identify the angle structure from the figure",
-      "content": "Line \\(l\\) intersects line \\(j\\) creating angles \\(w\\) and \\(x\\) (supplementary pair), and intersects line \\(k\\) at a point where the known angle is \\(54°\\), with adjacent angles \\(y\\) and \\(z\\). For lines \\(j\\) and \\(k\\) to be parallel, the corresponding angles at each intersection must be equal."
+      "content": "Line $l$ intersects line $j$ creating angles $w$ and $x$ (supplementary pair), and intersects line $k$ at a point where the known angle is $54°$, with adjacent angles $y$ and $z$. For lines $j$ and $k$ to be parallel, the corresponding angles at each intersection must be equal."
     },
     {
       "title": "Determine what the angles at k already imply",
-      "content": "At the intersection with \\(k\\): the given \\(54°\\) and \\(z\\) are a linear pair, so \\(z = 126°\\) always. The \\(54°\\) and \\(y\\) are vertical angles, so \\(y = 54°\\) always. These values are fixed regardless of whether \\(j \\parallel k\\), so knowing \\(y = 54\\) or \\(z = 126\\) gives no new information about \\(j\\)."
+      "content": "At the intersection with $k$: the given $54°$ and $z$ are a linear pair, so $z = 126°$ always. The $54°$ and $y$ are vertical angles, so $y = 54°$ always. These values are fixed regardless of whether $j \\parallel k$, so knowing $y = 54$ or $z = 126$ gives no new information about $j$."
     },
     {
       "title": "Test all four choices",
-      "content": "<ul><li><strong>Choice A &mdash; &#39;w = 54&#39;</strong>: \\(w\\) is the angle at \\(j\\) corresponding to the \\(54°\\) angle at \\(k\\). If \\(w = 54\\), corresponding angles are equal &mdash; this is exactly the condition for \\(j \\parallel k\\). &#10003;</li><li><strong>Choice B &mdash; &#39;x = 126&#39;</strong>: \\(x\\) and \\(w\\) are supplementary at \\(j\\), so \\(x = 126 \\Rightarrow w = 54\\). This is equivalent to choice A and does prove parallelism... but per the figure \\(x\\) and \\(w\\) are vertical (not supplementary) &mdash; so \\(x = 126 \\Rightarrow w = 126\\), contradicting the requirement. &#10007;</li><li><strong>Choice C &mdash; &#39;y = 54&#39;</strong>: \\(y = 54\\) is always true (vertical angle to the fixed \\(54°\\) at \\(k\\)) &mdash; it tells us nothing about \\(j\\). &#10007;</li><li><strong>Choice D &mdash; &#39;z = 126&#39;</strong>: \\(z = 126\\) is always true (linear pair with \\(54°\\) at \\(k\\)) &mdash; again tells us nothing about \\(j\\). &#10007;</li></ul>That matches choice A &#8212; <strong>A</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; &#39;w = 54&#39;</strong>: $w$ is the angle at $j$ corresponding to the $54°$ angle at $k$. If $w = 54$, corresponding angles are equal &mdash; this is exactly the condition for $j \\parallel k$. &#10003;</li><li><strong>Choice B &mdash; &#39;x = 126&#39;</strong>: $x$ and $w$ are supplementary at $j$, so $x = 126 \\Rightarrow w = 54$. This is equivalent to choice A and does prove parallelism... but per the figure $x$ and $w$ are vertical (not supplementary) &mdash; so $x = 126 \\Rightarrow w = 126$, contradicting the requirement. &#10007;</li><li><strong>Choice C &mdash; &#39;y = 54&#39;</strong>: $y = 54$ is always true (vertical angle to the fixed $54°$ at $k$) &mdash; it tells us nothing about $j$. &#10007;</li><li><strong>Choice D &mdash; &#39;z = 126&#39;</strong>: $z = 126$ is always true (linear pair with $54°$ at $k$) &mdash; again tells us nothing about $j$. &#10007;</li></ul>That matches choice A &#8212; <strong>A</strong> is correct."
     }
   ]
 }

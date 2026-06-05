@@ -1,1 +1,15 @@
-{"questionId": "014edcb7", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Find the interior angle at R using the linear pair", "content": "Since S, R, and Q are collinear, angles ∠QRP and ∠PRS form a linear pair on the line and are supplementary.<br/>$$∠QRP + ∠PRS = 180°$$<br/>$$∠QRP = 180° - 163° = 17°$$"}, {"title": "Apply the angle sum property to find ∠QPR", "content": "The sum of all angles in triangle PQR equals 180°:<br/>$$∠QPR + ∠PQR + ∠QRP = 180°$$<br/>$$∠QPR + 132° + 17° = 180°$$<br/>$$∠QPR = 31°$$<br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}
+{
+  "questionId": "014edcb7",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the interior angle at R using the linear pair",
+      "content": "Since S, R, and Q are collinear, angles ∠QRP and ∠PRS form a linear pair on the line and are supplementary.<br/>$$∠QRP + ∠PRS = 180°$$<br/>$$∠QRP = 180° - 163° = 17°$$"
+    },
+    {
+      "title": "Apply the angle sum property to find ∠QPR",
+      "content": "The sum of all angles in triangle PQR equals 180°:<br/>$$∠QPR + ∠PQR + ∠QRP = 180°$$<br/>$$∠QPR + 132° + 17° = 180°$$<br/>$$∠QPR = 31°$$<br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."
+    }
+  ]
+}

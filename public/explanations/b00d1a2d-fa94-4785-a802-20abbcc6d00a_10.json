@@ -1,1 +1,24 @@
-{"questionId":"b00d1a2d-fa94-4785-a802-20abbcc6d00a_10","correctAnswer":"A","section":"Math","steps":[{"title":"Identify what the question needs","content":"The best linear model must match both the slope and the $y$-intercept visible in the scatterplot. Choices B and D have no $y$-intercept term (they pass through the origin), so the question reduces to whether the intercept is near $0$ or near $30$."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; '$y=30.38+15.12x$'</strong>: $y$-intercept $\\approx 30$ matches where the line of best fit crosses the $y$-axis, and slope $\\approx 15$ matches the rise per unit. &#10003;</li><li><strong>Choice B &mdash; '$y=15.12x$'</strong>: no intercept, so the line passes through the origin. The data clearly does not start at $0$. &#10007;</li><li><strong>Choice C &mdash; '$y=30.38+0.76x$'</strong>: intercept is right, but slope $0.76$ is far too shallow for the steep rise shown. &#10007;</li><li><strong>Choice D &mdash; '$y=0.76x$'</strong>: both slope and intercept are wrong. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.","desmosExpressions":["y = 30.38 + 15.12x"]}]}
+{
+  "questionId": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_10",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "For a scatterplot model question, the fastest route is to graph all four answer choices on top of the plotted data. The best model should run through the middle of the cloud and match both the steepness and the y-intercept.",
+      "desmosExpressions": [
+        "y=30.38+15.12x",
+        "y=15.12x",
+        "y=30.38+0.76x",
+        "y=0.76x"
+      ]
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; '$y=30.38+15.12x$'</strong>: $y$-intercept $\\approx 30$ matches where the line of best fit crosses the $y$-axis, and slope $\\approx 15$ matches the rise per unit. &#10003;</li><li><strong>Choice B &mdash; '$y=15.12x$'</strong>: no intercept, so the line passes through the origin. The data clearly does not start at $0$. &#10007;</li><li><strong>Choice C &mdash; '$y=30.38+0.76x$'</strong>: intercept is right, but slope $0.76$ is far too shallow for the steep rise shown. &#10007;</li><li><strong>Choice D &mdash; '$y=0.76x$'</strong>: both slope and intercept are wrong. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y=30.38+15.12x"
+      ]
+    }
+  ]
+}

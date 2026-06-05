@@ -1,1 +1,23 @@
-{"questionId":"23a951fb-833f-4b27-9978-4eb054f855e2_1","correctAnswer":"3200","section":"Math","steps":[{"title":"Set up","content":"The function is $f(x) = 320x$. Substitute $x = 10$."},{"title":"Solve","content":"$$f(10) = 320 × 10 = 3200$$"},{"title":"Answer","content":"<strong>3200</strong> is correct."}]}
+{
+  "questionId": "23a951fb-833f-4b27-9978-4eb054f855e2_1",
+  "correctAnswer": "3200",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "The function is $f(x) = 320x$. Substitute $x = 10$."
+    },
+    {
+      "title": "Solve",
+      "content": "$$f(10) = 320 × 10 = 3200$$"
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>3200</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $3200$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $3200$."
+    }
+  ]
+}

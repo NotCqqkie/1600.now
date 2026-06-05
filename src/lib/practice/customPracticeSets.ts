@@ -29,12 +29,19 @@ export interface CustomPracticeSet {
   originQuestionStableId: string;
   questionCount: number;
   items: CustomPracticeSetItem[];
+  sourceType?: "related-question" | "bank-selection";
 }
 
-const CUSTOM_PRACTICE_SETS_KEY = "custom-practice-sets:v1";
+const LEGACY_CUSTOM_PRACTICE_SETS_KEY = "custom-practice-sets:v1";
+const CUSTOM_PRACTICE_SETS_KEY_PREFIX = "custom-practice-sets:v1:";
 const PRACTICE_RUN_STORAGE_KEY = "practiceRunId";
+const ANON_SUFFIX = "anon";
 const MIN_CUSTOM_PRACTICE_SET_QUESTIONS = 5;
 const MAX_CUSTOM_PRACTICE_SET_QUESTIONS = 20;
+export const CUSTOM_PRACTICE_SETS_EVENT = "app-custom-practice-sets-change";
+
+export const customPracticeSetsStorageKey = (uid: string | null | undefined) =>
+  `${CUSTOM_PRACTICE_SETS_KEY_PREFIX}${uid ?? ANON_SUFFIX}`;
 
 const getStorage = () =>
   typeof window === "undefined" ? null : window.localStorage;
@@ -59,9 +66,43 @@ const writeJson = (key: string, value: unknown) => {
 const buildPracticeRunId = (setId: string) =>
   `${setId}-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
 
-const saveCustomPracticeSets = (sets: CustomPracticeSet[]) => {
-  writeJson(CUSTOM_PRACTICE_SETS_KEY, sets);
+export const saveCustomPracticeSets = (
+  sets: CustomPracticeSet[],
+  uid?: string | null,
+  options: { notify?: boolean } = {},
+) => {
+  writeJson(customPracticeSetsStorageKey(uid), sets);
+  if (options.notify !== false && typeof window !== "undefined") {
+    window.dispatchEvent(new Event(CUSTOM_PRACTICE_SETS_EVENT));
+  }
 };
+
+export const mergeCustomPracticeSets = (
+  local: CustomPracticeSet[],
+  remote: CustomPracticeSet[],
+): CustomPracticeSet[] => {
+  const byId = new Map<string, CustomPracticeSet>();
+  for (const set of remote) byId.set(set.id, set);
+  for (const set of local) {
+    const existing = byId.get(set.id);
+    if (!existing || set.updatedAt >= existing.updatedAt) {
+      byId.set(set.id, set);
+    }
+  }
+  return [...byId.values()].sort((left, right) => right.updatedAt - left.updatedAt);
+};
+
+export const migrateLegacyCustomPracticeSets = (uid?: string | null) => {
+  const storage = getStorage();
+  if (!storage) return;
+  const legacy = readJson<CustomPracticeSet[]>(LEGACY_CUSTOM_PRACTICE_SETS_KEY, []);
+  if (legacy.length === 0) return;
+  const scoped = readJson<CustomPracticeSet[]>(customPracticeSetsStorageKey(uid), []);
+  saveCustomPracticeSets(mergeCustomPracticeSets(scoped, legacy), uid, { notify: false });
+  storage.removeItem(LEGACY_CUSTOM_PRACTICE_SETS_KEY);
+};
+
+if (typeof window !== "undefined") migrateLegacyCustomPracticeSets(null);
 
 const allBankQuestionsByStableId = () => {
   const questions = [
@@ -71,8 +112,12 @@ const allBankQuestionsByStableId = () => {
   return new Map(questions.map((question) => [question.stableId, question]));
 };
 
-const isPracticeSetSize = (count: number) =>
-  count >= MIN_CUSTOM_PRACTICE_SET_QUESTIONS && count <= MAX_CUSTOM_PRACTICE_SET_QUESTIONS;
+const isValidPracticeSetSize = (count: number, sourceType?: CustomPracticeSet["sourceType"]) =>
+  count >= MIN_CUSTOM_PRACTICE_SET_QUESTIONS &&
+  (sourceType === "bank-selection" || count <= MAX_CUSTOM_PRACTICE_SET_QUESTIONS);
+
+const isSavedCustomPracticeSet = (set: CustomPracticeSet) =>
+  set.sourceType === "related-question" || (!set.sourceType && set.id.startsWith("similar-"));
 
 const methodTitleOverrides: Record<string, string> = {
   "algebraic equivalence": "Algebraic Equivalence",
@@ -304,14 +349,17 @@ const refreshCustomPracticeSet = (
   const storedQuestions = set.items
     .map((item) => byStableId.get(item.storageId))
     .filter((question): question is BankQuestion => Boolean(question));
-  const needsQuestionRefresh = set.questionCount !== set.items.length || !isPracticeSetSize(set.items.length);
+  const sourceType = set.sourceType ?? "related-question";
+  const needsQuestionRefresh = set.questionCount !== set.items.length || !isValidPracticeSetSize(set.items.length, sourceType);
   const refreshedQuestions = needsQuestionRefresh && originQuestion
     ? getSimilarQuestionsForQuestion(originQuestion)
     : needsQuestionRefresh
       ? getQuestionsForSimilarityGroup(set.similarityGroupId)
       : storedQuestions;
-  const practiceSetQuestions = getUniquePracticeSetQuestions(refreshedQuestions);
-  if (!isPracticeSetSize(practiceSetQuestions.length)) return null;
+  const practiceSetQuestions = sourceType === "bank-selection"
+    ? getUniqueQuestions(refreshedQuestions)
+    : getUniquePracticeSetQuestions(refreshedQuestions);
+  if (!isValidPracticeSetSize(practiceSetQuestions.length, sourceType)) return null;
   const items = toCustomPracticeSetItems(practiceSetQuestions);
   const summary = summarizeQuestions(practiceSetQuestions);
   const nextSimilarityGroupId = originQuestion?.similarityGroupId ?? set.similarityGroupId;
@@ -327,32 +375,38 @@ const refreshCustomPracticeSet = (
     originQuestionStableId: originQuestion?.stableId ?? set.originQuestionStableId,
     questionCount: items.length,
     items,
+    sourceType,
   };
 };
 
-export const getCustomPracticeSets = (): CustomPracticeSet[] => {
-  const storedSets = readJson<CustomPracticeSet[]>(CUSTOM_PRACTICE_SETS_KEY, []);
-  const needsRefresh = storedSets.some(
+export const getCustomPracticeSets = (uid?: string | null): CustomPracticeSet[] => {
+  const storedSets = readJson<CustomPracticeSet[]>(customPracticeSetsStorageKey(uid), []);
+  const savedSets = storedSets.filter(isSavedCustomPracticeSet);
+  const needsPrune = savedSets.length !== storedSets.length;
+  const needsRefresh = savedSets.some(
     (set) =>
       set.questionCount !== set.items.length ||
-      !isPracticeSetSize(set.items.length) ||
+      !isValidPracticeSetSize(set.items.length, set.sourceType ?? "related-question") ||
       shouldRegeneratePracticeSetTitle(set),
   );
   const byStableId = needsRefresh ? allBankQuestionsByStableId() : null;
   const sets = needsRefresh
-    ? storedSets
+    ? savedSets
         .map((set) => refreshCustomPracticeSet(set, byStableId!))
         .filter((set): set is CustomPracticeSet => Boolean(set))
-    : storedSets;
-  if (needsRefresh) saveCustomPracticeSets(sets);
+    : savedSets;
+  if (needsRefresh || needsPrune) saveCustomPracticeSets(sets, uid, { notify: false });
   return sets.sort((left, right) => right.updatedAt - left.updatedAt);
 };
 
-export const getCustomPracticeSet = (setId: string): CustomPracticeSet | null =>
-  getCustomPracticeSets().find((set) => set.id === setId) ?? null;
+export const getCustomPracticeSet = (
+  setId: string,
+  uid?: string | null,
+): CustomPracticeSet | null =>
+  getCustomPracticeSets(uid).find((set) => set.id === setId) ?? null;
 
-export const deleteCustomPracticeSet = (setId: string) => {
-  saveCustomPracticeSets(getCustomPracticeSets().filter((set) => set.id !== setId));
+export const deleteCustomPracticeSet = (setId: string, uid?: string | null) => {
+  saveCustomPracticeSets(getCustomPracticeSets(uid).filter((set) => set.id !== setId), uid);
 };
 
 export const createCustomPracticeSetFromQuestions = ({
@@ -361,21 +415,33 @@ export const createCustomPracticeSetFromQuestions = ({
   id,
   similarityGroupId = null,
   originQuestionStableId,
+  uid,
+  maxQuestions = MAX_CUSTOM_PRACTICE_SET_QUESTIONS,
+  sourceType = "related-question",
 }: {
   questions: BankQuestion[];
   title?: string;
   id?: string;
   similarityGroupId?: string | null;
   originQuestionStableId?: string;
+  uid?: string | null;
+  maxQuestions?: number | null;
+  sourceType?: CustomPracticeSet["sourceType"];
 }): CustomPracticeSet => {
-  const uniqueQuestions = getUniquePracticeSetQuestions(questions);
-  if (!isPracticeSetSize(uniqueQuestions.length)) {
-    throw new Error("Practice sets require 5-20 questions.");
+  const uniqueQuestions = maxQuestions === null
+    ? getUniqueQuestions(questions)
+    : getUniqueQuestions(questions).slice(0, maxQuestions);
+  if (!isValidPracticeSetSize(uniqueQuestions.length, sourceType)) {
+    throw new Error(
+      sourceType === "bank-selection"
+        ? "Practice sets require at least 5 questions."
+        : "Practice sets require 5-20 questions.",
+    );
   }
   const items = toCustomPracticeSetItems(uniqueQuestions);
   const summary = summarizeQuestions(uniqueQuestions);
   const setId = id ?? `custom-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
-  const existingSets = getCustomPracticeSets();
+  const existingSets = getCustomPracticeSets(uid);
   const existingSet = existingSets.find((set) => set.id === setId);
   const now = Date.now();
   const nextSet: CustomPracticeSet = {
@@ -393,11 +459,12 @@ export const createCustomPracticeSetFromQuestions = ({
     originQuestionStableId: originQuestionStableId ?? uniqueQuestions[0]?.stableId ?? "",
     questionCount: items.length,
     items,
+    sourceType,
   };
   saveCustomPracticeSets([
     nextSet,
     ...existingSets.filter((set) => set.id !== setId),
-  ]);
+  ], uid);
   return nextSet;
 };
 
@@ -439,13 +506,24 @@ export const createBankPracticeSessionFromQuestions = ({
   };
 };
 
-export const createCustomPracticeSetForQuestion = (question: BankQuestion): CustomPracticeSet =>
+export const createCustomPracticeSetForQuestion = (
+  question: BankQuestion,
+  uid?: string | null,
+): CustomPracticeSet =>
   createCustomPracticeSetFromQuestions({
     questions: getSimilarQuestionsForQuestion(question),
     id: `similar-${question.stableId}`,
     similarityGroupId: question.similarityGroupId ?? null,
     originQuestionStableId: question.stableId,
+    uid,
+    sourceType: "related-question",
   });
+
+export const subscribeToCustomPracticeSets = (callback: () => void) => {
+  if (typeof window === "undefined") return () => {};
+  window.addEventListener(CUSTOM_PRACTICE_SETS_EVENT, callback);
+  return () => window.removeEventListener(CUSTOM_PRACTICE_SETS_EVENT, callback);
+};
 
 export const launchCustomPracticeSet = (
   set: CustomPracticeSet,

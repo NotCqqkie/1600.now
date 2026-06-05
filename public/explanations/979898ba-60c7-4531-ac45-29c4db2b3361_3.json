@@ -1,1 +1,18 @@
-{"qid":"979898ba-60c7-4531-ac45-29c4db2b3361_3","correctAnswer":"B","steps":[{"explanation":"Set up the proportion. The ratio 10 to 2 is equivalent to the ratio 40 to \\(2k\\), so write \\(\\frac{10}{2} = \\frac{40}{2k}\\). Simplify the left side: \\(5 = \\frac{40}{2k}\\)."},{"explanation":"Multiply both sides by \\(2k\\): \\(10k = 40\\). Divide both sides by 10: \\(k = 4\\)."},{"explanation":"Verify: with \\(k = 4\\), the ratio 40 to \\(2(4) = 8\\) simplifies to \\(\\frac{40}{8} = 5\\), which equals \\(\\frac{10}{2} = 5\\). The ratios are equivalent."},{"explanation":"<ul><li>Choice A: \\(k = 0.5\\) &rarr; \\(2k = 1\\) &rarr; ratio 40 to 1 = 40 &ne; 5. Eliminated.</li><li>Choice B: \\(k = 4\\) &rarr; \\(2k = 8\\) &rarr; ratio 40 to 8 = 5 = 10 to 2. That matches choice B &mdash; <strong>B</strong> is correct.</li><li>Choice C: \\(k = 8\\) &rarr; \\(2k = 16\\) &rarr; ratio 40 to 16 = 2.5 &ne; 5. Eliminated.</li><li>Choice D: \\(k = 80\\) &rarr; \\(2k = 160\\) &rarr; ratio 40 to 160 = 0.25 &ne; 5. Eliminated.</li></ul>"}]}
+{
+  "qid": "979898ba-60c7-4531-ac45-29c4db2b3361_3",
+  "correctAnswer": "B",
+  "steps": [
+    {
+      "explanation": "Set up the proportion. The ratio 10 to 2 is equivalent to the ratio 40 to $2k$, so write $\\frac{10}{2} = \\frac{40}{2k}$. Simplify the left side: $5 = \\frac{40}{2k}$."
+    },
+    {
+      "explanation": "Multiply both sides by $2k$: $10k = 40$. Divide both sides by 10: $k = 4$."
+    },
+    {
+      "explanation": "Verify: with $k = 4$, the ratio 40 to $2(4) = 8$ simplifies to $\\frac{40}{8} = 5$, which equals $\\frac{10}{2} = 5$. The ratios are equivalent."
+    },
+    {
+      "explanation": "<ul><li>Choice A: $k = 0.5$ &rarr; $2k = 1$ &rarr; ratio 40 to 1 = 40 &ne; 5. Eliminated.</li><li>Choice B: $k = 4$ &rarr; $2k = 8$ &rarr; ratio 40 to 8 = 5 = 10 to 2. That matches choice B &mdash; <strong>B</strong> is correct.</li><li>Choice C: $k = 8$ &rarr; $2k = 16$ &rarr; ratio 40 to 16 = 2.5 &ne; 5. Eliminated.</li><li>Choice D: $k = 80$ &rarr; $2k = 160$ &rarr; ratio 40 to 160 = 0.25 &ne; 5. Eliminated.</li></ul>"
+    }
+  ]
+}

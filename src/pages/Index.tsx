@@ -250,7 +250,7 @@ const Index = () => {
         >
           Browse by Topic
         </h2>
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid min-w-0 gap-8 md:grid-cols-2">
           {Object.entries(categoryTree).map(([subject, data]) => {
             const Icon = data.icon;
             const totalQuestions = Object.values(data.domains).reduce((sum, domain) => 
@@ -258,12 +258,12 @@ const Index = () => {
             );
             
             return (
-              <Card key={subject} className="p-6">
-                <div className="flex items-center gap-3 mb-6">
-                  <div className={`p-3 rounded-lg ${subject === "Math" ? "bg-blue-100 dark:bg-blue-900" : "bg-green-100 dark:bg-green-900"}`}>
+              <Card key={subject} className="min-w-0 p-4 sm:p-6">
+                <div className="mb-6 flex min-w-0 items-center gap-3">
+                  <div className={`shrink-0 rounded-lg p-3 ${subject === "Math" ? "bg-blue-100 dark:bg-blue-900" : "bg-green-100 dark:bg-green-900"}`}>
                     <Icon className={`h-6 w-6 ${subject === "Math" ? "text-blue-600 dark:text-blue-400" : "text-green-600 dark:text-green-400"}`} />
                   </div>
-                  <div>
+                  <div className="min-w-0">
                     <h2 className="text-2xl font-bold">{subject}</h2>
                     <p className="text-sm text-muted-foreground">{totalQuestions} questions</p>
                   </div>
@@ -274,10 +274,10 @@ const Index = () => {
                     const domainTotal = domainData.skills.reduce((s, skill) => s + (skillCounts[skill] || 0), 0);
                     
                     return (
-                      <div key={domain} className="border rounded-lg p-4">
-                        <div className="flex items-center justify-between mb-3">
-                          <h3 className="font-semibold text-lg">{domain}</h3>
-                          <Badge variant="secondary">{domainTotal}</Badge>
+                      <div key={domain} className="min-w-0 rounded-lg border p-3 sm:p-4">
+                        <div className="mb-3 flex min-w-0 items-start justify-between gap-3">
+                          <h3 className="min-w-0 break-words text-lg font-semibold">{domain}</h3>
+                          <Badge variant="secondary" className="shrink-0">{domainTotal}</Badge>
                         </div>
                         
                         <div className="space-y-1">
@@ -285,11 +285,11 @@ const Index = () => {
                             <Button
                               key={skill}
                               variant="ghost"
-                              className="w-full justify-between h-auto py-2 px-3 text-left hover:bg-muted"
+                              className="h-auto w-full min-w-0 justify-between overflow-hidden px-3 py-2 text-left hover:bg-muted"
                               onClick={() => handleSkillClick(subject, skill)}
                             >
-                              <span className="text-sm truncate flex-1 mr-2">{skill}</span>
-                              <div className="flex items-center gap-2 flex-shrink-0">
+                              <span className="mr-2 min-w-0 flex-1 truncate text-sm">{skill}</span>
+                              <div className="flex flex-shrink-0 items-center gap-2">
                                 <Badge variant="outline" className="text-xs min-w-[40px] justify-center">
                                   {isLoading ? (
                                     <Loader2 className="h-3 w-3 animate-spin" />

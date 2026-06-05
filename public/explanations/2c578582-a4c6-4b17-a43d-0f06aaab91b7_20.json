@@ -2,13 +2,13 @@
   "qid": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_20",
   "steps": [
     {
-      "text": "A percent increase of 676% means the mass grew by 676% of its original value. The new mass equals original plus increase: \\(k + 6.76k = 7.76k\\)."
+      "text": "A percent increase of 676% means the mass grew by 676% of its original value. The new mass equals original plus increase: $k + 6.76k = 7.76k$."
     },
     {
-      "text": "Equivalently, multiply by the growth factor: \\(k \\times (1 + 676/100) = k \\times 7.76 = 7.76k\\)."
+      "text": "Equivalently, multiply by the growth factor: $k \\times (1 + 676/100) = k \\times 7.76 = 7.76k$."
     },
     {
-      "text": "<ul><li>Choice A: \\(7.76k\\) &mdash; equals \\(k \\times (1 + 6.76)\\), correctly applying a 676% increase. That matches choice A &mdash; <strong>A</strong> is correct.</li><li>Choice B: \\(6.76k\\) &mdash; omits the original mass; this represents only the increase, not the final mass. Incorrect.</li><li>Choice C: \\(1.08k\\) &mdash; corresponds to an 8% increase, not 676%. Incorrect.</li><li>Choice D: \\(0.08k\\) &mdash; represents an 8% decrease from the original, not related to a 676% increase. Incorrect.</li></ul>"
+      "text": "<ul><li>Choice A: $7.76k$ &mdash; equals $k \\times (1 + 6.76)$, correctly applying a 676% increase. That matches choice A &mdash; <strong>A</strong> is correct.</li><li>Choice B: $6.76k$ &mdash; omits the original mass; this represents only the increase, not the final mass. Incorrect.</li><li>Choice C: $1.08k$ &mdash; corresponds to an 8% increase, not 676%. Incorrect.</li><li>Choice D: $0.08k$ &mdash; represents an 8% decrease from the original, not related to a 676% increase. Incorrect.</li></ul>"
     }
   ],
   "correctAnswer": "A"

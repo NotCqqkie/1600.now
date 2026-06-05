@@ -1,1 +1,19 @@
-{"questionId":"e5001da0-8895-4b72-8d22-da29586dc907_14","correctAnswer":"B","section":"Math","steps":[{"title":"Identify what cause-and-effect requires","content":"To attempt to establish a cause-and-effect relationship between a treatment and an outcome, subjects must be <strong>randomly assigned</strong> to the treatment and control groups. Random assignment balances out confounding variables, so any difference in outcomes can be attributed to the treatment itself."},{"title":"Distinguish random assignment from random selection","content":"Random <em>selection</em> from the population is what lets you <strong>generalize</strong> results to that population, but it does not justify a causal claim. Random <em>assignment</em> to groups within the study is what makes a causal claim possible."},{"title":"Evaluate each choice","content":"<ul><li>A: Equal group sizes across species are not required to establish causation. Eliminated.</li><li>B: Randomly assigning the chipmunks and prairie dogs to treatment and control groups is exactly what is required for a causal conclusion.</li><li>C: Random selection from each habitat supports generalization, not causation. Eliminated.</li><li>D: Matching average ages across species is not required and does not by itself enable a causal claim. Eliminated.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "e5001da0-8895-4b72-8d22-da29586dc907_14",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what cause-and-effect requires",
+      "content": "To attempt to establish a cause-and-effect relationship between a treatment and an outcome, subjects must be <strong>randomly assigned</strong> to the treatment and control groups. Random assignment balances out confounding variables, so any difference in outcomes can be attributed to the treatment itself."
+    },
+    {
+      "title": "Distinguish random assignment from random selection",
+      "content": "Random <em>selection</em> from the population is what lets you <strong>generalize</strong> results to that population, but it does not justify a causal claim. Random <em>assignment</em> to groups within the study is what makes a causal claim possible."
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li>A: Equal group sizes across species are not required to establish causation. Eliminated.</li><li>B: Randomly assigning the chipmunks and prairie dogs to treatment and control groups is exactly what is required for a causal conclusion.</li><li>C: Random selection from each habitat supports generalization, not causation. Eliminated.</li><li>D: Matching average ages across species is not required and does not by itself enable a causal claim. Eliminated.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

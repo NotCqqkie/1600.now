@@ -1,1 +1,20 @@
-{"questionId": "459dd6c5", "correctAnswer": "135/8", "section": "Math", "steps": [{"title": "Identify the linear scale factor", "content": "The problem states that each side length of triangle ABC is 4 times the corresponding side length of triangle DEF. This means the linear scale factor from DEF to ABC is <strong>4</strong>."}, {"title": "Apply the area scaling rule for similar figures", "content": "When two similar figures have a linear scale factor of $k$, their areas are related by a scale factor of $k^2$. <br/><br/>Since the linear scale factor is 4:<br/>$$\\text{Area}(\\text{ABC}) = 4^2 \\times \\text{Area}(\\text{DEF})$$<br/>$$270 = 16 \\times \\text{Area}(\\text{DEF})$$", "formula": "$$\\text{Area}_{\\text{large}} = k^2 \\times \\text{Area}_{\\text{small}}$$"}, {"title": "Solve for the area of triangle DEF", "content": "Divide both sides by 16:<br/>$$\\text{Area}(\\text{DEF}) = \\frac{270}{16}$$<br/>Simplify this fraction by dividing both numerator and denominator by 2:<br/>$$\\text{Area}(\\text{DEF}) = \\frac{135}{8} \\text{ square inches}$$"}]}
+{
+  "questionId": "459dd6c5",
+  "correctAnswer": "135/8",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the linear scale factor",
+      "content": "The problem states that each side length of triangle ABC is 4 times the corresponding side length of triangle DEF. This means the linear scale factor from DEF to ABC is <strong>4</strong>."
+    },
+    {
+      "title": "Apply the area scaling rule for similar figures",
+      "content": "When two similar figures have a linear scale factor of $k$, their areas are related by a scale factor of $k^2$. <br/><br/>Since the linear scale factor is 4:<br/>$$\\text{Area}(\\text{ABC}) = 4^2 \\times \\text{Area}(\\text{DEF})$$<br/>$$270 = 16 \\times \\text{Area}(\\text{DEF})$$",
+      "formula": "$$\\text{Area}_{\\text{large}} = k^2 \\times \\text{Area}_{\\text{small}}$$"
+    },
+    {
+      "title": "Solve for the area of triangle DEF",
+      "content": "Divide both sides by 16:<br/>$$\\text{Area}(\\text{DEF}) = \\frac{270}{16}$$<br/>Simplify this fraction by dividing both numerator and denominator by 2:<br/>$$\\text{Area}(\\text{DEF}) = \\frac{135}{8} \\text{ square inches}$$"
+    }
+  ]
+}

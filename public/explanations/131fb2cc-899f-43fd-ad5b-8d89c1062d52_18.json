@@ -1,1 +1,36 @@
-{"qid":"131fb2cc-899f-43fd-ad5b-8d89c1062d52_18","steps":[{"text":"Define variables: $x$ = number of 1-point questions, $y$ = number of 2-point questions. Each 1-point question contributes $1 \\cdot x$ points; each 2-point question contributes $2 \\cdot y$ points."},{"text":"The total points from both question types must equal $78$: $x + 2y = 78$."},{"text":"Check the other choices: $xy = 78$ is a product, not a sum of contributions. $3(x+y) = 78$ implies each question is worth 3 points on average. $x + y = 78$ counts the number of questions, not the point values."},{"text":"Only $x + 2y = 78$ correctly weights each question type by its point value and sums to the total. That matches choice D &mdash; <strong>D</strong> is correct.","choices":[{"id":"A","text":"<ul><li>$xy = 78$ multiplies the counts together rather than summing their point contributions. This has no relevant meaning for the total points. Eliminated.</li></ul>"},{"id":"B","text":"<ul><li>$3(x+y) = 78$ means $x + y = 26$ total questions each worth 3 points on average &mdash; not how the scoring is defined. Eliminated.</li></ul>"},{"id":"C","text":"<ul><li>$x + y = 78$ would mean the total number of questions is 78, ignoring the different point values. Eliminated.</li></ul>"},{"id":"D","text":"<ul><li>$x + 2y = 78$: 1-point questions contribute $x$ points and 2-point questions contribute $2y$ points, summing to 78. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"}]}],"correctAnswer":"D"}
+{
+  "qid": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_18",
+  "steps": [
+    {
+      "text": "Define variables: $x$ = number of 1-point questions, $y$ = number of 2-point questions. Each 1-point question contributes $1 \\cdot x$ points; each 2-point question contributes $2 \\cdot y$ points."
+    },
+    {
+      "text": "The total points from both question types must equal $78$: $x + 2y = 78$."
+    },
+    {
+      "text": "Check the other choices: $xy = 78$ is a product, not a sum of contributions. $3(x+y) = 78$ implies each question is worth 3 points on average. $x + y = 78$ counts the number of questions, not the point values."
+    },
+    {
+      "text": "Only $x + 2y = 78$ correctly weights each question type by its point value and sums to the total. That matches choice D &mdash; <strong>D</strong> is correct.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "<ul><li>$xy = 78$ multiplies the counts together rather than summing their point contributions. This has no relevant meaning for the total points. Eliminated.</li></ul>"
+        },
+        {
+          "id": "B",
+          "text": "<ul><li>$3(x+y) = 78$ means $x + y = 26$ total questions each worth 3 points on average &mdash; not how the scoring is defined. Eliminated.</li></ul>"
+        },
+        {
+          "id": "C",
+          "text": "<ul><li>$x + y = 78$ would mean the total number of questions is 78, ignoring the different point values. Eliminated.</li></ul>"
+        },
+        {
+          "id": "D",
+          "text": "<ul><li>$x + 2y = 78$: 1-point questions contribute $x$ points and 2-point questions contribute $2y$ points, summing to 78. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
+        }
+      ]
+    }
+  ],
+  "correctAnswer": "D"
+}

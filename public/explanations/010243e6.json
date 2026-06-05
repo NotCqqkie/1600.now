@@ -1,1 +1,19 @@
-{"questionId": "010243e6", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Identify both triangles as right isosceles triangles", "content": "In triangle PQR with P(4,5), Q(4,7), R(6,5):<br/>Q is directly above P (x = 4) and R is directly right of P (y = 5), so sides PQ and PR are perpendicular. Thus ∠P = 90°.<br/><br/>The distances are |PQ| = 2 and |PR| = 2, so PQ = PR, making PQR an isosceles right triangle.<br/><br/>Similarly, in triangle LMN with L(4,5), M(4,7+k), N(6+k,5):<br/>M is directly above L and N is directly right of L, so ∠L = 90°.<br/><br/>The distances are |LM| = 2+k and |LN| = 2+k, so LM = LN, making LMN an isosceles right triangle."}, {"title": "Apply the 45-45-90 triangle property", "content": "In an isosceles right triangle, the right angle is 90° and both other angles must be 45° (since they are equal and sum to 90°).<br/><br/>Therefore:<ul><li>In triangle PQR: ∠Q = 45°, so <em>t</em> = 45°</li><li>In triangle LMN: ∠N = 45°</li></ul>"}, {"title": "Express ∠N in terms of t", "content": "Since ∠N = 45° and <em>t</em> = 45°, we have:<br/>$$\\angle N = 45° = 90° - 45° = 90° - t°$$<br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "010243e6",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify both triangles as right isosceles triangles",
+      "content": "In triangle PQR with P(4,5), Q(4,7), R(6,5):<br/>Q is directly above P (x = 4) and R is directly right of P (y = 5), so sides PQ and PR are perpendicular. Thus ∠P = 90°.<br/><br/>The distances are |PQ| = 2 and |PR| = 2, so PQ = PR, making PQR an isosceles right triangle.<br/><br/>Similarly, in triangle LMN with L(4,5), M(4,7+k), N(6+k,5):<br/>M is directly above L and N is directly right of L, so ∠L = 90°.<br/><br/>The distances are |LM| = 2+k and |LN| = 2+k, so LM = LN, making LMN an isosceles right triangle."
+    },
+    {
+      "title": "Apply the 45-45-90 triangle property",
+      "content": "In an isosceles right triangle, the right angle is 90° and both other angles must be 45° (since they are equal and sum to 90°).<br/><br/>Therefore:<ul><li>In triangle PQR: ∠Q = 45°, so <em>t</em> = 45°</li><li>In triangle LMN: ∠N = 45°</li></ul>"
+    },
+    {
+      "title": "Express ∠N in terms of t",
+      "content": "Since ∠N = 45° and <em>t</em> = 45°, we have:<br/>$$\\angle N = 45° = 90° - 45° = 90° - t°$$<br/>That matches choice C — <strong>C</strong> is correct."
+    }
+  ]
+}

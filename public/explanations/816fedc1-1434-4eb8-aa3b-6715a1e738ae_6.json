@@ -1,1 +1,19 @@
-{"questionId":"816fedc1-1434-4eb8-aa3b-6715a1e738ae_6","correctAnswer":"C","section":"Math","steps":[{"title":"Distribute and combine like terms","content":"Use FOIL on $(w+7)(3w-10)$:$$=3w^2-10w+21w-70$$$$=3w^2+11w-70$$"},{"title":"Match to the answer choices","content":"The simplified expression is $3w^2+11w-70$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}
+{
+  "questionId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_6",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute and combine like terms",
+      "content": "Use FOIL on $(w+7)(3w-10)$:$$=3w^2-10w+21w-70$$$$=3w^2+11w-70$$"
+    },
+    {
+      "title": "Match to the answer choices",
+      "content": "The simplified expression is $3w^2+11w-70$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice C, $3w^2 + 11w - 70$. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
+    }
+  ]
+}

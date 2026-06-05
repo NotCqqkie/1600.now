@@ -1,1 +1,23 @@
-{"questionId": "3a9d60b2", "correctAnswer": "9", "section": "Math", "steps": [{"title": "Solve the equation", "content": "Combine like terms: $5|4-x|=25$, so $|4-x|=5$. Then $$4-x=\\pm 5,$$ giving $x=-1$ or $x=9$."}, {"title": "Identify the positive solution", "content": "Take the positive value. The answer is <strong>9</strong>.", "desmosExpressions": ["y = 2|4 - x| + 3|4 - x|", "y = 25"]}]}
+{
+  "questionId": "3a9d60b2",
+  "correctAnswer": "9",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve the equation",
+      "content": "Combine like terms: $5|4-x|=25$, so $|4-x|=5$. Then $$4-x=\\pm 5,$$ giving $x=-1$ or $x=9$."
+    },
+    {
+      "title": "Identify the positive solution",
+      "content": "Take the positive value. The answer is <strong>9</strong>.",
+      "desmosExpressions": [
+        "y = 2|4 - x| + 3|4 - x|",
+        "y = 25"
+      ]
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $9$. The given equation can be rewritten as $5\\left|4-x\\right|=25$. Dividing each side of this equation by $5$ yields $\\left|4-x\\right|=5$. By the definition of absolute value, if $\\left|4-x\\right|=5$, then $4-x=5$ or $4-x=-5$. Subtracting $4$ from each side of the equation $4-x=5$ yields $-x=1$. Dividing each side of this equation by $-1$ yields $x=-1$. Similarly, subtracting $4$ from each side of the equation $4-x=-5$ yields $-x=-9$. Dividing each side of this equation by $-1$ yields $x=9$. Therefore, since the two solutions to the given equation are $-1$ and $9$, the positive solution to the given equation is $9$."
+    }
+  ]
+}

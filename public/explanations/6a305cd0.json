@@ -6,13 +6,13 @@
       "text": "A margin of error defines a symmetric range around the sample statistic. With sample mean 37 and margin of error 3, the confidence interval is $$37 \\pm 3$$"
     },
     {
-      "text": "Compute the bounds: lower = \\(37 - 3 = 34\\), upper = \\(37 + 3 = 40\\). The interval is \\([34, 40]\\)."
+      "text": "Compute the bounds: lower = $37 - 3 = 34$, upper = $37 + 3 = 40$. The interval is $[34, 40]$."
     },
     {
       "text": "The most appropriate conclusion is that the population mean lies within this interval, not definitively above or below 37."
     },
     {
-      "text": "<ul><li><strong>A</strong> &mdash; &ldquo;Less than 37&rdquo; ignores values from 37 to 40 that are in the interval. Eliminated.</li><li><strong>B</strong> &mdash; &ldquo;Greater than 37&rdquo; ignores values from 34 to 37 that are in the interval. Eliminated.</li><li><strong>C</strong> &mdash; &ldquo;Between 34 and 40&rdquo; matches exactly \\(37 \\pm 3\\). That matches choice C &mdash; <strong>C</strong> is correct.</li><li><strong>D</strong> &mdash; &ldquo;Less than 34 or greater than 40&rdquo; describes values outside the interval. Eliminated.</li></ul>"
+      "text": "<ul><li><strong>A</strong> &mdash; &ldquo;Less than 37&rdquo; ignores values from 37 to 40 that are in the interval. Eliminated.</li><li><strong>B</strong> &mdash; &ldquo;Greater than 37&rdquo; ignores values from 34 to 37 that are in the interval. Eliminated.</li><li><strong>C</strong> &mdash; &ldquo;Between 34 and 40&rdquo; matches exactly $37 \\pm 3$. That matches choice C &mdash; <strong>C</strong> is correct.</li><li><strong>D</strong> &mdash; &ldquo;Less than 34 or greater than 40&rdquo; describes values outside the interval. Eliminated.</li></ul>"
     }
   ]
 }

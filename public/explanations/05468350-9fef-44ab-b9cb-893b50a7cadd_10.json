@@ -1,1 +1,22 @@
-{"questionId":"05468350-9fef-44ab-b9cb-893b50a7cadd_10","correctAnswer":"C","section":"Math","steps":[{"title":"Find the decay factor","content":"A 27% decrease leaves $100\\%-27\\%=73\\%$ of the previous mass each period. So the multiplier per period is $0.73$, not $0.27$."},{"title":"Write the exponential decay form","content":"For periodic decay, use $M=M_{0}\\cdot b^{t/T}$, where $b$ is the per-period factor and $T$ is the period length in the same units as $t$. Here $b=0.73$ and $T=14.07$ minutes, so:$$M=100(0.73)^{t/14.07}$$"},{"title":"Compare with each choice","content":"<ul><li><strong>A) $M=100(0.27)^{t/14.07}$:</strong> uses $0.27$ as the multiplier, which would mean 73% lost per period, not 27%. Eliminated.</li><li><strong>B) $M=100(0.27)^{t+14.07}$:</strong> wrong base and the exponent $t+14.07$ is not the number of periods. Eliminated.</li><li><strong>C) $M=100(0.73)^{t/14.07}$:</strong> correct base $0.73$ and exponent $t/14.07$ counts periods. Matches.</li><li><strong>D) $M=100(0.73)^{t+14.07}$:</strong> correct base, but $t+14.07$ is not the number of periods. Eliminated.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.","desmosExpressions":["M=100(0.73)^{t/14.07}"]}]}
+{
+  "questionId": "05468350-9fef-44ab-b9cb-893b50a7cadd_10",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the decay factor",
+      "content": "A 27% decrease leaves $100\\%-27\\%=73\\%$ of the previous mass each period. So the multiplier per period is $0.73$, not $0.27$."
+    },
+    {
+      "title": "Write the exponential decay form",
+      "content": "For periodic decay, use $M=M_{0}\\cdot b^{t/T}$, where $b$ is the per-period factor and $T$ is the period length in the same units as $t$. Here $b=0.73$ and $T=14.07$ minutes, so:$$M=100(0.73)^{t/14.07}$$"
+    },
+    {
+      "title": "Compare with each choice",
+      "content": "<ul><li><strong>A) $M=100(0.27)^{t/14.07}$:</strong> uses $0.27$ as the multiplier, which would mean 73% lost per period, not 27%. Eliminated.</li><li><strong>B) $M=100(0.27)^{t+14.07}$:</strong> wrong base and the exponent $t+14.07$ is not the number of periods. Eliminated.</li><li><strong>C) $M=100(0.73)^{t/14.07}$:</strong> correct base $0.73$ and exponent $t/14.07$ counts periods. Matches.</li><li><strong>D) $M=100(0.73)^{t+14.07}$:</strong> correct base, but $t+14.07$ is not the number of periods. Eliminated.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "M=100(0.73)^{t/14.07}"
+      ]
+    }
+  ]
+}

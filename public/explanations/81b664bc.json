@@ -1,1 +1,20 @@
-{"questionId":"81b664bc","correctAnswer":"B","section":"Math","steps":[{"title":"Identify the proportional-segments setup","content":"Three parallel lines $\\overline{AF}$, $\\overline{BE}$, and $\\overline{CD}$ are cut by two transversals: one passing through A, B, C and one through F, E, D. By the Basic Proportionality Theorem, parallel lines divide transversals proportionally: $$\\frac{AB}{BC} = \\frac{FE}{ED}$$"},{"title":"Substitute and solve for ED","content":"$$\\frac{9}{18.5} = \\frac{8.5}{ED} \\implies ED = \\frac{18.5 \\times 8.5}{9} = \\frac{157.25}{9} \\approx 17.47$$<br/>Rounded to the nearest tenth: $ED \\approx 17.5$."},{"title":"Test all four choices","content":"<ul><li><strong>Choice A &mdash; 16.8</strong>: Would require $\\frac{9}{18.5} = \\frac{8.5}{16.8}$, i.e., $0.486 = 0.506$ &mdash; not equal. &#10007;</li><li><strong>Choice B &mdash; 17.5</strong>: $\\frac{9}{18.5} = \\frac{8.5}{17.5}$, i.e., $0.4865 \\approx 0.4857$ &mdash; matches to nearest tenth (exact: 17.472&hellip; rounds to 17.5). &#10003;</li><li><strong>Choice C &mdash; 18.4</strong>: Would require ratio $\\frac{8.5}{18.4} = 0.462 \\ne 0.486$. &#10007;</li><li><strong>Choice D &mdash; 19.6</strong>: Would require ratio $\\frac{8.5}{19.6} = 0.434 \\ne 0.486$. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.","desmosExpressions":[]}]}
+{
+  "questionId": "81b664bc",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the proportional-segments setup",
+      "content": "Three parallel lines $\\overline{AF}$, $\\overline{BE}$, and $\\overline{CD}$ are cut by two transversals: one passing through A, B, C and one through F, E, D. By the Basic Proportionality Theorem, parallel lines divide transversals proportionally: $$\\frac{AB}{BC} = \\frac{FE}{ED}$$"
+    },
+    {
+      "title": "Substitute and solve for ED",
+      "content": "$$\\frac{9}{18.5} = \\frac{8.5}{ED} \\implies ED = \\frac{18.5 \\times 8.5}{9} = \\frac{157.25}{9} \\approx 17.47$$<br/>Rounded to the nearest tenth: $ED \\approx 17.5$."
+    },
+    {
+      "title": "Test all four choices",
+      "content": "<ul><li><strong>Choice A &mdash; 16.8</strong>: Would require $\\frac{9}{18.5} = \\frac{8.5}{16.8}$, i.e., $0.486 = 0.506$ &mdash; not equal. &#10007;</li><li><strong>Choice B &mdash; 17.5</strong>: $\\frac{9}{18.5} = \\frac{8.5}{17.5}$, i.e., $0.4865 \\approx 0.4857$ &mdash; matches to nearest tenth (exact: 17.472&hellip; rounds to 17.5). &#10003;</li><li><strong>Choice C &mdash; 18.4</strong>: Would require ratio $\\frac{8.5}{18.4} = 0.462 \\ne 0.486$. &#10007;</li><li><strong>Choice D &mdash; 19.6</strong>: Would require ratio $\\frac{8.5}{19.6} = 0.434 \\ne 0.486$. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
+      "desmosExpressions": []
+    }
+  ]
+}

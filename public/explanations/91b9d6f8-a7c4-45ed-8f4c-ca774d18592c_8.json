@@ -1,1 +1,23 @@
-{"questionId": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_8", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Identify slope and y-intercept", "content": "Slope-intercept form is $y = mx + b$ where $m$ is the slope and $b$ is the $y$-intercept. The slope is given as $m = 7$. The point $(0, 5)$ has $x = 0$, which means it is the $y$-intercept, so $b = 5$."}, {"title": "Write the equation", "content": "Substituting $m = 7$ and $b = 5$:<br/>$$y = 7x + 5$$"}, {"title": "Evaluate each choice", "content": "<ul><li><strong>A) $y = -5x + 7$:</strong> Slope is $-5$, not $7$. Eliminated.</li><li><strong>B) $y = -5x - 7$:</strong> Slope is $-5$ and $y$-intercept is $-7$. Neither matches. Eliminated.</li><li><strong>C) $y = 7x + 5$:</strong> Slope $7$ and $y$-intercept $5$. Matches.</li><li><strong>D) $y = 7x - 5$:</strong> Slope $7$ is right, but $y$-intercept is $-5$, not $5$. Eliminated.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.", "desmosExpressions": ["y = 7x + 5", "(0, 5)"]}]}
+{
+  "questionId": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_8",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify slope and y-intercept",
+      "content": "Slope-intercept form is $y = mx + b$ where $m$ is the slope and $b$ is the $y$-intercept. The slope is given as $m = 7$. The point $(0, 5)$ has $x = 0$, which means it is the $y$-intercept, so $b = 5$."
+    },
+    {
+      "title": "Write the equation",
+      "content": "Substituting $m = 7$ and $b = 5$:<br/>$$y = 7x + 5$$"
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li><strong>A) $y = -5x + 7$:</strong> Slope is $-5$, not $7$. Eliminated.</li><li><strong>B) $y = -5x - 7$:</strong> Slope is $-5$ and $y$-intercept is $-7$. Neither matches. Eliminated.</li><li><strong>C) $y = 7x + 5$:</strong> Slope $7$ and $y$-intercept $5$. Matches.</li><li><strong>D) $y = 7x - 5$:</strong> Slope $7$ is right, but $y$-intercept is $-5$, not $5$. Eliminated.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "y = 7x + 5",
+        "(0, 5)"
+      ]
+    }
+  ]
+}

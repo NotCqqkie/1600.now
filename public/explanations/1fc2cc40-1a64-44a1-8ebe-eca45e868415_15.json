@@ -1,1 +1,19 @@
-{"questionId": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_15", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Compare the coefficients", "content": "Form ratios of the matching $x$, $y$, and constant terms in $$3x + y = 21$$ and $$9x - y = 3$$. This gives $\\frac{9}{3}=3$ but $\\frac{-1}{1}=-1$."}, {"title": "Identify the answer", "content": "The $x$ and $y$ coefficient ratios differ, so the lines intersect once — exactly one solution. That matches choice <strong>D</strong> — <strong>D</strong> is correct.", "desmosExpressions": ["y = 21 - 3x", "y = 9x - 3"]}]}
+{
+  "questionId": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_15",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compare the coefficients",
+      "content": "Form ratios of the matching $x$, $y$, and constant terms in $$3x + y = 21$$ and $$9x - y = 3$$. This gives $\\frac{9}{3}=3$ but $\\frac{-1}{1}=-1$."
+    },
+    {
+      "title": "Identify the answer",
+      "content": "The $x$ and $y$ coefficient ratios differ, so the lines intersect once — exactly one solution. That matches choice <strong>D</strong> — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "y = 21 - 3x",
+        "y = 9x - 3"
+      ]
+    }
+  ]
+}

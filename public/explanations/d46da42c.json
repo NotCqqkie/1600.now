@@ -2,13 +2,13 @@
   "qid": "d46da42c",
   "steps": [
     {
-      "text": "Identify key features of \\(f(x) = x^2 + 4\\): vertex at \\((0, 4)\\), opens upward (coefficient of \\(x^2\\) is positive), minimum value is 4."
+      "text": "Identify key features of $f(x) = x^2 + 4$: vertex at $(0, 4)$, opens upward (coefficient of $x^2$ is positive), minimum value is 4."
     },
     {
-      "text": "Since the minimum \\(y\\)-value is 4, the graph never crosses or touches the \\(x\\)-axis. The \\(y\\)-intercept is \\((0,4)\\) and the parabola is symmetric about the \\(y\\)-axis."
+      "text": "Since the minimum $y$-value is 4, the graph never crosses or touches the $x$-axis. The $y$-intercept is $(0,4)$ and the parabola is symmetric about the $y$-axis."
     },
     {
-      "text": "<ul><li>Choice A: a graph that does not show an upward-opening parabola with vertex at \\((0,4)\\). Incorrect.</li><li>Choice B: a graph that does not match the vertex or direction of opening. Incorrect.</li><li>Choice C: a graph that does not show the correct vertex or orientation. Incorrect.</li><li>Choice D: an upward-opening parabola with vertex at \\((0,4)\\), entirely above the \\(x\\)-axis. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
+      "text": "<ul><li>Choice A: a graph that does not show an upward-opening parabola with vertex at $(0,4)$. Incorrect.</li><li>Choice B: a graph that does not match the vertex or direction of opening. Incorrect.</li><li>Choice C: a graph that does not show the correct vertex or orientation. Incorrect.</li><li>Choice D: an upward-opening parabola with vertex at $(0,4)$, entirely above the $x$-axis. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
     }
   ],
   "correctAnswer": "D"

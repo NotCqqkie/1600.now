@@ -1,1 +1,19 @@
-{"questionId": "620fe971", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Backsolving — testing choice B", "content": "Choice B claims the team moves about 4.8 tons per hour. In the linear model $$y = 120 - 25x$$, the slope $$-25$$ indicates the cargo is decreasing at 25 tons per hour. Since 4.8 ≠ 25, choice B does not describe the x‑intercept."}, {"title": "Backsolving — testing choice C", "content": "Choice C states the team moves about 25 tons per hour. While the slope magnitude is 25 tons/hour, the x‑intercept represents a time, not a rate. Therefore choice C does not interpret the x‑intercept."}, {"title": "Backsolving — testing choice A", "content": "To find the x‑intercept set $$y = 0$$: $$0 = 120 - 25x$$ $$→$$ $$25x = 120$$ $$→$$ $$x = \\frac{120}{25} = 4.8$$. This means after 4.8 hours no cargo remains, i.e., the team has finished moving all the cargo. That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "620fe971",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Backsolving — testing choice B",
+      "content": "Choice B claims the team moves about 4.8 tons per hour. In the linear model $$y = 120 - 25x$$, the slope $$-25$$ indicates the cargo is decreasing at 25 tons per hour. Since 4.8 ≠ 25, choice B does not describe the x‑intercept."
+    },
+    {
+      "title": "Backsolving — testing choice C",
+      "content": "Choice C states the team moves about 25 tons per hour. While the slope magnitude is 25 tons/hour, the x‑intercept represents a time, not a rate. Therefore choice C does not interpret the x‑intercept."
+    },
+    {
+      "title": "Backsolving — testing choice A",
+      "content": "To find the x‑intercept set $$y = 0$$: $$0 = 120 - 25x$$ $$→$$ $$25x = 120$$ $$→$$ $$x = \\frac{120}{25} = 4.8$$. This means after 4.8 hours no cargo remains, i.e., the team has finished moving all the cargo. That matches choice A — <strong>A</strong> is correct."
+    }
+  ]
+}

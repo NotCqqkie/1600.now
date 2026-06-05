@@ -1,1 +1,15 @@
-{"questionId": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_6", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Identify the operation", "content": "When a region is removed from a shape, the resulting area equals the original area minus the removed area."}, {"title": "Calculate the remaining area", "content": "Rectangle P has area 56 square inches. We remove a rectangle with area 30 square inches. The resulting area is:<br/>$$56 - 30 = 26 \\text{ square inches}$$<br/>This matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_6",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the operation",
+      "content": "When a region is removed from a shape, the resulting area equals the original area minus the removed area."
+    },
+    {
+      "title": "Calculate the remaining area",
+      "content": "Rectangle P has area 56 square inches. We remove a rectangle with area 30 square inches. The resulting area is:<br/>$$56 - 30 = 26 \\text{ square inches}$$<br/>This matches choice A — <strong>A</strong> is correct."
+    }
+  ]
+}

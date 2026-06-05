@@ -1,1 +1,16 @@
-{"questionId": "3318d37b", "correctAnswer": "66", "section": "Math", "steps": [{"title": "Identify the unit rate", "content": "We are given that the product costs \\$11.00 per pound. This is the unit rate — the cost per unit quantity."}, {"title": "Calculate total cost by scaling the unit rate", "content": "To find the cost for 6 pounds, multiply the unit rate by the quantity:<br/>$$11 \\times 6 = 66$$<br/>The cost for 6 pounds is \\$66.00.", "formula": "$$\\text{Total Cost} = \\text{Unit Price} \\times \\text{Quantity}$$"}]}
+{
+  "questionId": "3318d37b",
+  "correctAnswer": "66",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the unit rate",
+      "content": "We are given that the product costs \\$11.00 per pound. This is the unit rate — the cost per unit quantity."
+    },
+    {
+      "title": "Calculate total cost by scaling the unit rate",
+      "content": "To find the cost for 6 pounds, multiply the unit rate by the quantity:<br/>$$11 \\times 6 = 66$$<br/>The cost for 6 pounds is \\$66.00.",
+      "formula": "$$\\text{Total Cost} = \\text{Unit Price} \\times \\text{Quantity}$$"
+    }
+  ]
+}

@@ -5,15 +5,20 @@
   "steps": [
     {
       "title": "Condition for infinitely many solutions",
-      "content": "A system has infinitely many solutions when both equations represent the same line &mdash; one must be a constant multiple of the other. Given: \\(3x + 9y = 10\\) and \\(rx + 18y = 20\\). Compare corresponding coefficients."
+      "content": "A system has infinitely many solutions when both equations represent the same line &mdash; one must be a constant multiple of the other. Given: $3x + 9y = 10$ and $rx + 18y = 20$. Compare corresponding coefficients."
     },
     {
       "title": "Find the scale factor",
-      "content": "The y-coefficient changes from 9 to 18: scale factor = \\(18 \\div 9 = 2\\). The constant changes from 10 to 20: scale factor = \\(20 \\div 10 = 2\\). Both confirm the scale factor is 2, so the x-coefficient must also scale by 2: \\(r = 3 \\times 2 = 6\\)."
+      "content": "The $y$-coefficient changes from $9$ to $18$, and the constant changes from $10$ to $20$, so the scale factor is $2$. The $x$-coefficient must also scale by $2$: $$r=2(3)=6$$ A fast Desmos check is to use two coefficient-list entries: one entry represents the $x$-coefficient and one represents the $y$-coefficient. The regression returns $r=6$.",
+      "desmosExpressions": [
+        "x_1=[1,0]",
+        "y_1=[0,1]",
+        "r x_1+18y_1~(20/10)(3x_1+9y_1)"
+      ]
     },
     {
       "title": "Test all four choices",
-      "content": "<ul><li><strong>Choice A &mdash; r = 2</strong>: Eq 2 becomes \\(2x + 18y = 20\\). But \\(2 \\times (3x+9y=10)\\) gives \\(6x+18y=20\\). The x-coefficient 2 &ne; 6. &#10007;</li><li><strong>Choice B &mdash; r = 3</strong>: Eq 2 becomes \\(3x + 18y = 20\\). The x-coefficient 3 &ne; 6. &#10007;</li><li><strong>Choice C &mdash; r = 6</strong>: Eq 2 becomes \\(6x + 18y = 20 = 2 \\times (3x + 9y = 10)\\). All three coefficient ratios equal 2. The lines are identical. &#10003;</li><li><strong>Choice D &mdash; r = 9</strong>: Eq 2 becomes \\(9x + 18y = 20\\). The x-coefficient 9 &ne; 6. &#10007;</li></ul>"
+      "content": "<ul><li><strong>Choice A &mdash; r = 2</strong>: Eq 2 becomes $2x + 18y = 20$. But $2 \\times (3x+9y=10)$ gives $6x+18y=20$. The x-coefficient 2 &ne; 6. &#10007;</li><li><strong>Choice B &mdash; r = 3</strong>: Eq 2 becomes $3x + 18y = 20$. The x-coefficient 3 &ne; 6. &#10007;</li><li><strong>Choice C &mdash; r = 6</strong>: Eq 2 becomes $6x + 18y = 20 = 2 \\times (3x + 9y = 10)$. All three coefficient ratios equal 2. The lines are identical. &#10003;</li><li><strong>Choice D &mdash; r = 9</strong>: Eq 2 becomes $9x + 18y = 20$. The x-coefficient 9 &ne; 6. &#10007;</li></ul>"
     },
     {
       "title": "Conclusion",

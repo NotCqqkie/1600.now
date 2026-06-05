@@ -4,13 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Convert the percentage to decimal form",
-      "content": "To find 4% of 350 objects, convert the percentage to decimal: $4\\% = \\frac{4}{100} = 0.04$.",
-      "formula": "$$\\text{Part} = \\text{Percentage (as decimal)} \\times \\text{Whole}$$"
+      "title": "Convert the percent",
+      "content": "A percent means out of $100$, so $4\\%=\\frac{4}{100}=0.04$."
     },
     {
-      "title": "Multiply the decimal by the total",
-      "content": "Number of spheres = $$0.04 \\times 350 = 14$$. The bag contains 14 spheres."
+      "title": "Take 4 percent of 350",
+      "content": "Multiply the total number of objects by the decimal form of the percent: $$0.04(350)=14.$$"
+    },
+    {
+      "title": "Confirm the count",
+      "content": "The question asks for the number of spheres, and $4\\%$ of $350$ objects is $14$ objects. Therefore there are <strong>14</strong> spheres in the bag."
     }
   ]
 }

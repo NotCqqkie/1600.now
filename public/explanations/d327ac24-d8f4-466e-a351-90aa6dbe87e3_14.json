@@ -1,1 +1,19 @@
-{"questionId":"d327ac24-d8f4-466e-a351-90aa6dbe87e3_14","correctAnswer":"D","section":"Math","steps":[{"title":"Evaluate each function at x = 4","content":"Substitute $x=4$: $f(4)=4+5=9$ and $g(4)=5(4)=20$."},{"title":"Combine and compute","content":"$7f(4)-g(4)=7(9)-20=63-20=43$.<br/><br/>The answer is <strong>D</strong>."}]}
+{
+  "questionId": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_14",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Evaluate each function at x = 4",
+      "content": "Substitute $x=4$: $f(4)=4+5=9$ and $g(4)=5(4)=20$."
+    },
+    {
+      "title": "Combine and compute",
+      "content": "$7f(4)-g(4)=7(9)-20=63-20=43$.<br/><br/>The answer is <strong>D</strong>."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice D, 43. The other choices do not satisfy the same condition from the question, so <strong>D</strong> is correct."
+    }
+  ]
+}

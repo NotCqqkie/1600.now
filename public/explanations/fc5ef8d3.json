@@ -1,1 +1,15 @@
-{"questionId": "fc5ef8d3", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Find the scale factor from the perimeters", "content": "For similar triangles, corresponding sides are proportional, and the ratio of perimeters equals the ratio of corresponding sides. From the table, the scale factor is:<br/>$$k = \\frac{\\text{Perimeter of XYZ}}{\\text{Perimeter of TUV}} = \\frac{150}{50} = 3$$"}, {"title": "Apply the scale factor to find XY", "content": "Since $TU$ corresponds to $XY$, and the scale factor is 3:<br/>$$XY = TU \\times 3 = 6 \\times 3 = 18$$<br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "fc5ef8d3",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the scale factor from the perimeters",
+      "content": "For similar triangles, corresponding sides are proportional, and the ratio of perimeters equals the ratio of corresponding sides. From the table, the scale factor is:<br/>$$k = \\frac{\\text{Perimeter of XYZ}}{\\text{Perimeter of TUV}} = \\frac{150}{50} = 3$$"
+    },
+    {
+      "title": "Apply the scale factor to find XY",
+      "content": "Since $TU$ corresponds to $XY$, and the scale factor is 3:<br/>$$XY = TU \\times 3 = 6 \\times 3 = 18$$<br/>That matches choice C — <strong>C</strong> is correct."
+    }
+  ]
+}

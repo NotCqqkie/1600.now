@@ -10,8 +10,10 @@
     },
     {
       "title": "Calculate the radius",
-      "content": "We have $r^2 = 81$. Taking the square root of both sides:<br/>$$r = \\sqrt{81} = 9$$<br/>That matches choice C \u2014 <strong>C</strong> is correct.",
-      "desmosExpressions": ["(x-6)^2 + (y-3)^2 = 81"]
+      "content": "We have $r^2 = 81$. Taking the square root of both sides:<br/>$$r = \\sqrt{81} = 9$$<br/>That matches choice C — <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "(x-6)^2 + (y-3)^2 = 81"
+      ]
     }
   ]
 }

@@ -4,13 +4,17 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the equation using a point from the table",
-      "content": "Take the point $(10, 82)$ from the first row. Substitute $x = 10$ and $f(x) = 82$ into the given equation $f(x) = mx - 28$:<br/>$$82 = m(10) - 28$$"
+      "title": "Match Desmos to the given equation form",
+      "content": "The problem already tells you the model is $f(x)=mx-28$. Instead of solving from one point, enter all four table points and use a custom regression with the same fixed intercept term.",
+      "desmosExpressions": [
+        "x_1=[10,15,20,25]",
+        "y_1=[82,137,192,247]",
+        "y_1~m x_1-28"
+      ]
     },
     {
-      "title": "Solve for m by isolating the variable",
-      "content": "Add 28 to both sides:<br/>$$82 + 28 = 10m$$<br/>$$110 = 10m$$<br/>Divide both sides by 10:<br/>$$m = 11$$",
-      "desmosExpressions": ["y=11x-28", "(10,82)", "(15,137)", "(20,192)", "(25,247)"]
+      "title": "Read the coefficient",
+      "content": "The row $y_1 \\sim m x_1-28$ returns $m=11$. A quick algebra check with the first point gives $82=10m-28$, so $110=10m$ and $m=11$. The correct free-response answer is <strong>11</strong>."
     }
   ]
 }

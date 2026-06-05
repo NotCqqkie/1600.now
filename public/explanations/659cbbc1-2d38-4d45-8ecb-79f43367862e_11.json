@@ -1,1 +1,19 @@
-{"questionId":"659cbbc1-2d38-4d45-8ecb-79f43367862e_11","correctAnswer":"B","section":"Math","steps":[{"title":"Move everything to one side and factor","content":"Start with $x - a = (x-a)(x-24)$. Subtract the right side: $(x-a) - (x-a)(x-24) = 0$. Factor out $(x-a)$: $(x-a)\\bigl[1 - (x-24)\\bigr] = 0$, which simplifies to $(x-a)(25-x) = 0$."},{"title":"Read off the solutions","content":"By the zero-product property, $x - a = 0$ or $25 - x = 0$, so $x = a$ or $x = 25$. Because $a > 25$, these are two distinct solutions and $x = 24$ is not one of them."},{"title":"Test the statements","content":"<ul><li><strong>Statement I &mdash; $x = a$</strong>: This is one of the two roots of $(x-a)(25-x) = 0$. True.</li><li><strong>Statement II &mdash; $x = 24$</strong>: Substitute into the original: LHS $= 24 - a$, RHS $= (24 - a)(24 - 24) = 0$. They are equal only when $24 - a = 0$, i.e. $a = 24$. But $a > 25$, so LHS $\\ne 0$ and the equation fails. False.</li><li><strong>Statement III &mdash; $x = 25$</strong>: Substitute: LHS $= 25 - a$, RHS $= (25 - a)(25 - 24) = 25 - a$. Equal for every $a$, so this is always a solution. True.</li></ul>So I and III only. That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "659cbbc1-2d38-4d45-8ecb-79f43367862e_11",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Move everything to one side and factor",
+      "content": "Start with $x - a = (x-a)(x-24)$. Subtract the right side: $(x-a) - (x-a)(x-24) = 0$. Factor out $(x-a)$: $(x-a)\\bigl[1 - (x-24)\\bigr] = 0$, which simplifies to $(x-a)(25-x) = 0$."
+    },
+    {
+      "title": "Read off the solutions",
+      "content": "By the zero-product property, $x - a = 0$ or $25 - x = 0$, so $x = a$ or $x = 25$. Because $a > 25$, these are two distinct solutions and $x = 24$ is not one of them."
+    },
+    {
+      "title": "Test the statements",
+      "content": "<ul><li><strong>Statement I &mdash; $x = a$</strong>: This is one of the two roots of $(x-a)(25-x) = 0$. True.</li><li><strong>Statement II &mdash; $x = 24$</strong>: Substitute into the original: LHS $= 24 - a$, RHS $= (24 - a)(24 - 24) = 0$. They are equal only when $24 - a = 0$, i.e. $a = 24$. But $a > 25$, so LHS $\\ne 0$ and the equation fails. False.</li><li><strong>Statement III &mdash; $x = 25$</strong>: Substitute: LHS $= 25 - a$, RHS $= (25 - a)(25 - 24) = 25 - a$. Equal for every $a$, so this is always a solution. True.</li></ul>So I and III only. That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

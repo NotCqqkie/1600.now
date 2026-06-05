@@ -1,1 +1,15 @@
-{"questionId": "a7146625-47ea-49cb-9061-578e226240d5_10", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Similar figures: lengths scale by the same factor $k$", "content": "Triangle TUV (perimeter 12) is similar to triangle XYZ (perimeter 36). Since perimeters scale by the same factor as side lengths: $$k = \\frac{36}{12} = 3$$"}, {"title": "Scale the corresponding side", "content": "$$XY = TU \\times k = 6 \\times 3 = 18$$<br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "a7146625-47ea-49cb-9061-578e226240d5_10",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Similar figures: lengths scale by the same factor $k$",
+      "content": "Triangle TUV (perimeter 12) is similar to triangle XYZ (perimeter 36). Since perimeters scale by the same factor as side lengths: $$k = \\frac{36}{12} = 3$$"
+    },
+    {
+      "title": "Scale the corresponding side",
+      "content": "$$XY = TU \\times k = 6 \\times 3 = 18$$<br/>That matches choice C — <strong>C</strong> is correct."
+    }
+  ]
+}

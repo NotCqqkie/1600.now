@@ -56,6 +56,7 @@ interface FilterPanelProps {
   portalContainer?: HTMLElement | null;
   compactLabels?: boolean;
   homeDemoMultiOpen?: boolean;
+  homeDemoCloseSignal?: number;
 }
 
 const formatTimeSpentValue = (seconds: number, isUpperBound = false): string => {
@@ -101,6 +102,7 @@ export function QuestionBankFilterPanel({
   portalContainer,
   compactLabels = false,
   homeDemoMultiOpen = false,
+  homeDemoCloseSignal = 0,
 }: FilterPanelProps) {
   const [internalOpen, setInternalOpen] = useState(defaultOpen);
   const [homeDemoOpenControls, setHomeDemoOpenControls] = useState<string[]>([]);
@@ -137,7 +139,7 @@ export function QuestionBankFilterPanel({
 
   useEffect(() => {
     if (homeDemoMultiOpen) setHomeDemoOpenControls([]);
-  }, [filters, homeDemoMultiOpen]);
+  }, [homeDemoCloseSignal, homeDemoMultiOpen]);
 
   return (
     <div className="space-y-4">

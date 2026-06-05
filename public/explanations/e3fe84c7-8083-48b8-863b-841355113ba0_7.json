@@ -1,1 +1,19 @@
-{"questionId":"e3fe84c7-8083-48b8-863b-841355113ba0_7","correctAnswer":"C","section":"Math","steps":[{"title":"Set up","content":"Start with $r = \\sqrt{9w - 5}$. Square both sides to remove the radical: $r^2 = 9w - 5$."},{"title":"Solve","content":"Add 5: $r^2 + 5 = 9w$. Divide by 9: $$w = \\frac{r^2 + 5}{9}$$"},{"title":"Answer","content":"<strong>C</strong> is correct."}]}
+{
+  "questionId": "e3fe84c7-8083-48b8-863b-841355113ba0_7",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "Start with $r = \\sqrt{9w - 5}$. Square both sides to remove the radical: $r^2 = 9w - 5$."
+    },
+    {
+      "title": "Solve",
+      "content": "Add 5: $r^2 + 5 = 9w$. Divide by 9: $$w = \\frac{r^2 + 5}{9}$$"
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>C</strong> is correct."
+    }
+  ]
+}

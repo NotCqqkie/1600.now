@@ -1,1 +1,15 @@
-{"questionId": "aee9fd2d", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Recognize the identical numerator", "content": "The equation $\\frac{x+6}{3}=\\frac{x+6}{13}$ has the same numerator with different denominators. For $\\frac{A}{3}=\\frac{A}{13}$ to hold true, the numerator must be zero: $x+6 = 0$."}, {"title": "Identify the range containing 0", "content": "We need to determine which pair contains 0. The value 0 is between $-2$ and $2$. That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "aee9fd2d",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the identical numerator",
+      "content": "The equation $\\frac{x+6}{3}=\\frac{x+6}{13}$ has the same numerator with different denominators. For $\\frac{A}{3}=\\frac{A}{13}$ to hold true, the numerator must be zero: $x+6 = 0$."
+    },
+    {
+      "title": "Identify the range containing 0",
+      "content": "We need to determine which pair contains 0. The value 0 is between $-2$ and $2$. That matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,19 @@
-{"questionId": "5cf1bbc9", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Interpret slope as the rate of change", "content": "Slope measures $\\frac{\\Delta y}{\\Delta x} = \\frac{\\text{change in total cost}}{\\text{change in games}}$. This is the cost added for each additional game—the <strong>per-game price</strong>."}, {"title": "Eliminate the y-intercept interpretations", "content": "Choices B and C refer to the system's cost, which is a fixed initial expense. In $y = mx + b$, that fixed cost is the $y$-intercept (the value when $x = 0$), not the slope. The slope specifically measures the additional cost per game, not a one-time system fee."}, {"title": "Identify the slope and choose", "content": "Among the answer choices, only choice A states a cost of $25 per game, which represents a slope of 25. The other choices describe a system cost (a fixed one-time fee), which is the y-intercept, not the slope. That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "5cf1bbc9",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret slope as the rate of change",
+      "content": "Slope measures $\\frac{\\Delta y}{\\Delta x} = \\frac{\\text{change in total cost}}{\\text{change in games}}$. This is the cost added for each additional game—the <strong>per-game price</strong>."
+    },
+    {
+      "title": "Eliminate the y-intercept interpretations",
+      "content": "Choices B and C refer to the system's cost, which is a fixed initial expense. In $y = mx + b$, that fixed cost is the $y$-intercept (the value when $x = 0$), not the slope. The slope specifically measures the additional cost per game, not a one-time system fee."
+    },
+    {
+      "title": "Identify the slope and choose",
+      "content": "Among the answer choices, only choice A states a cost of $25 per game, which represents a slope of 25. The other choices describe a system cost (a fixed one-time fee), which is the y-intercept, not the slope. That matches choice A — <strong>A</strong> is correct."
+    }
+  ]
+}

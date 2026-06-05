@@ -1,1 +1,20 @@
-{"questionId":"d0bf40d9-9809-4546-a0a3-4654ea36f6fb_21","correctAnswer":"D","section":"Math","steps":[{"title":"Identify what the question needs","content":"For a system to have no solution, the two lines must be parallel: same slope, different y-intercepts. Line h (from the graph) has slope &minus;10 and y-intercept &minus;8, giving the equation 10x + y = &minus;8. Line k is sx + 40y = t. For k to be parallel to h, the coefficient ratio must match: s/40 must equal 10/1, so s = 400. With s = 400, line k becomes 10x + y = t/40. The system has no solution as long as t/40 &ne; &minus;8, i.e., t &ne; &minus;320. The one value that is NOT possible is t = &minus;320 (which makes the lines identical, giving infinitely many solutions instead)."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; '200'</strong>: t/40 = 5 &ne; &minus;8, so the lines are distinct and parallel &mdash; no solution exists. Possible. &#10007;</li><li><strong>Choice B &mdash; '64'</strong>: t/40 = 1.6 &ne; &minus;8 &mdash; lines are parallel and distinct. Possible. &#10007;</li><li><strong>Choice C &mdash; '&minus;8'</strong>: t/40 = &minus;0.2 &ne; &minus;8 &mdash; lines are parallel and distinct. Possible. &#10007;</li><li><strong>Choice D &mdash; '&minus;320'</strong>: t/40 = &minus;8, which is the same right-hand side as line h. The two equations are identical &mdash; the system has infinitely many solutions, not no solution. This value is NOT possible. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_21",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "For no solution, line $k$ must be parallel to line $h$ but not identical. Use two readable points from $h$, $(0,-8)$ and $(1,-18)$, and fit $sx+40y=t$ directly in Desmos with $x_1=[0,1]$, $y_1=[-8,-18]$, and $s x_1+40y_1\\sim t$.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[-8,-18]",
+        "s x_1+40y_1~t"
+      ]
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "Desmos gives the identical-line value $t=-320$. That value makes line $k$ the same as $h$, giving infinitely many solutions rather than no solution. Any different listed $t$ would make a distinct parallel line. Therefore the value that is not possible is choice <strong>D</strong>."
+    }
+  ]
+}

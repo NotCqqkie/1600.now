@@ -1,1 +1,15 @@
-{"questionId": "174885f8", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Compute distance for walking and running", "content": "Distance equals rate times time. Walking gives $$3 \\cdot w = 3w$$ miles and running gives $$5 \\cdot r = 5r$$ miles."}, {"title": "Write the total-distance equation", "content": "The combined total is 14 miles, so $$3w + 5r = 14.$$<ul><li>A) $3w+5r=14$ &mdash; matches the distance equation.</li><li>B) $\\frac{1}{3}w+\\frac{1}{5}r=14$ &mdash; uses reciprocals of the rates, which would give time, not distance.</li><li>C) $\\frac{1}{3}w+\\frac{1}{5}r=112$ &mdash; wrong coefficients and wrong total.</li><li>D) $3w+5r=112$ &mdash; correct coefficients but wrong total (the total is 14, not 112).</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "174885f8",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compute distance for walking and running",
+      "content": "Distance equals rate times time. Walking gives $$3 \\cdot w = 3w$$ miles and running gives $$5 \\cdot r = 5r$$ miles."
+    },
+    {
+      "title": "Write the total-distance equation",
+      "content": "The combined total is 14 miles, so $$3w + 5r = 14.$$<ul><li>A) $3w+5r=14$ &mdash; matches the distance equation.</li><li>B) $\\frac{1}{3}w+\\frac{1}{5}r=14$ &mdash; uses reciprocals of the rates, which would give time, not distance.</li><li>C) $\\frac{1}{3}w+\\frac{1}{5}r=112$ &mdash; wrong coefficients and wrong total.</li><li>D) $3w+5r=112$ &mdash; correct coefficients but wrong total (the total is 14, not 112).</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

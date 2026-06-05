@@ -1,1 +1,19 @@
-{"questionId": "3563d76d", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Set up a proportion using similar triangles", "content": "At the same moment, the sun's angle is identical for all objects. The Washington Monument and the cherry tree each form a right triangle with their respective shadows. These triangles are similar, so the ratios of height to shadow length are equal:<br/>$$\\frac{\\text{Monument height}}{\\text{Monument shadow}} = \\frac{\\text{Tree height}}{\\text{Tree shadow}}$$<br/>$$\\frac{555}{300} = \\frac{h}{16}$$"}, {"title": "Solve for the tree height", "content": "Cross-multiply:<br/>$$300h = 555 \\times 16 = 8880$$<br/>$$h = \\frac{8880}{300} = 29.6 \\text{ feet}$$"}, {"title": "Choose the closest answer", "content": "\\(29.6\\) feet rounds to \\(30\\) feet. Evaluate choices:<ul><li>A: \\(10\\) — far below 29.6. Eliminated.</li><li>B: \\(20\\) — difference of 9.6 from 29.6. Eliminated.</li><li>C: \\(30\\) — difference of 0.4 from 29.6, the closest. That matches choice C — <strong>C</strong> is correct.</li><li>D: \\(35\\) — difference of 5.4 from 29.6. Eliminated.</li></ul>"}]}
+{
+  "questionId": "3563d76d",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up a proportion using similar triangles",
+      "content": "At the same moment, the sun's angle is identical for all objects. The Washington Monument and the cherry tree each form a right triangle with their respective shadows. These triangles are similar, so the ratios of height to shadow length are equal:<br/>$$\\frac{\\text{Monument height}}{\\text{Monument shadow}} = \\frac{\\text{Tree height}}{\\text{Tree shadow}}$$<br/>$$\\frac{555}{300} = \\frac{h}{16}$$"
+    },
+    {
+      "title": "Solve for the tree height",
+      "content": "Cross-multiply:<br/>$$300h = 555 \\times 16 = 8880$$<br/>$$h = \\frac{8880}{300} = 29.6 \\text{ feet}$$"
+    },
+    {
+      "title": "Choose the closest answer",
+      "content": "$29.6$ feet rounds to $30$ feet. Evaluate choices:<ul><li>A: $10$ — far below 29.6. Eliminated.</li><li>B: $20$ — difference of 9.6 from 29.6. Eliminated.</li><li>C: $30$ — difference of 0.4 from 29.6, the closest. That matches choice C — <strong>C</strong> is correct.</li><li>D: $35$ — difference of 5.4 from 29.6. Eliminated.</li></ul>"
+    }
+  ]
+}

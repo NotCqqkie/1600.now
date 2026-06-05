@@ -1,1 +1,19 @@
-{"questionId":"642519d7","correctAnswer":"A","section":"Math","steps":[{"title":"Identify the key principle","content":"A single random sample gives an <em>estimate</em> of a population parameter, not a guaranteed value. Sampling variability means another sample will generally produce a different proportion, and results from one city say nothing about another city."},{"title":"Evaluate each Roman numeral statement","content":"Statement I says the entire city must be 78% satisfied &mdash; but 78% is a sample estimate, not proof. Not necessarily true.<br/>Statement II says another random sample of 1,000 adults must also yield 78% &mdash; sampling variability rules this out. Not necessarily true.<br/>Statement III says a sample from a different city must yield 78% &mdash; a different population can have any satisfaction rate. Not necessarily true."},{"title":"Eliminate each choice","content":"<ul><li>A) None: matches our finding that no statement must be true. Keep.</li><li>B) II only: II is not guaranteed. Eliminate.</li><li>C) I and II only: neither is guaranteed. Eliminate.</li><li>D) I and III only: neither is guaranteed. Eliminate.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "642519d7",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the key principle",
+      "content": "A single random sample gives an <em>estimate</em> of a population parameter, not a guaranteed value. Sampling variability means another sample will generally produce a different proportion, and results from one city say nothing about another city."
+    },
+    {
+      "title": "Evaluate each Roman numeral statement",
+      "content": "Statement I says the entire city must be 78% satisfied &mdash; but 78% is a sample estimate, not proof. Not necessarily true.<br/>Statement II says another random sample of 1,000 adults must also yield 78% &mdash; sampling variability rules this out. Not necessarily true.<br/>Statement III says a sample from a different city must yield 78% &mdash; a different population can have any satisfaction rate. Not necessarily true."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li>A) None: matches our finding that no statement must be true. Keep.</li><li>B) II only: II is not guaranteed. Eliminate.</li><li>C) I and II only: neither is guaranteed. Eliminate.</li><li>D) I and III only: neither is guaranteed. Eliminate.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

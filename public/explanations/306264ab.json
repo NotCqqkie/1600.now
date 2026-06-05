@@ -1,1 +1,15 @@
-{"questionId": "306264ab", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Verify the Pythagorean theorem to identify the legs", "content": "Since we're given three sides and told it's a right triangle, we need to confirm which sides are the legs. Compute the squares:<br/>$$(2\\sqrt{2})^2 = 4 \\cdot 2 = 8$$<br/>$$(6\\sqrt{2})^2 = 36 \\cdot 2 = 72$$<br/>$$(\\sqrt{80})^2 = 80$$<br/>Check: $8 + 72 = 80$ ✓<br/><br/>So $2\\sqrt{2}$ and $6\\sqrt{2}$ are the legs, and $\\sqrt{80}$ is the hypotenuse."}, {"title": "Apply the area formula for a right triangle", "content": "The area of a right triangle is $A = \\frac{1}{2} \\times \\text{leg}_1 \\times \\text{leg}_2$.<br/>$$A = \\frac{1}{2} \\times 2\\sqrt{2} \\times 6\\sqrt{2}$$<br/>When multiplying the legs, combine the coefficients and radicals:<br/>$$2\\sqrt{2} \\times 6\\sqrt{2} = (2 \\times 6) \\times (\\sqrt{2} \\times \\sqrt{2}) = 12 \\times 2 = 24$$<br/>Therefore:<br/>$$A = \\frac{1}{2} \\times 24 = 12$$<br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "306264ab",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Verify the Pythagorean theorem to identify the legs",
+      "content": "Since we're given three sides and told it's a right triangle, we need to confirm which sides are the legs. Compute the squares:<br/>$$(2\\sqrt{2})^2 = 4 \\cdot 2 = 8$$<br/>$$(6\\sqrt{2})^2 = 36 \\cdot 2 = 72$$<br/>$$(\\sqrt{80})^2 = 80$$<br/>Check: $8 + 72 = 80$ ✓<br/><br/>So $2\\sqrt{2}$ and $6\\sqrt{2}$ are the legs, and $\\sqrt{80}$ is the hypotenuse."
+    },
+    {
+      "title": "Apply the area formula for a right triangle",
+      "content": "The area of a right triangle is $A = \\frac{1}{2} \\times \\text{leg}_1 \\times \\text{leg}_2$.<br/>$$A = \\frac{1}{2} \\times 2\\sqrt{2} \\times 6\\sqrt{2}$$<br/>When multiplying the legs, combine the coefficients and radicals:<br/>$$2\\sqrt{2} \\times 6\\sqrt{2} = (2 \\times 6) \\times (\\sqrt{2} \\times \\sqrt{2}) = 12 \\times 2 = 24$$<br/>Therefore:<br/>$$A = \\frac{1}{2} \\times 24 = 12$$<br/>That matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,11 +1,13 @@
 {
   "qid": "70753f99",
   "steps": [
-    "From \\(f(x)=(x+3)(x+1)\\), the roots are \\(x=-3\\) and \\(x=-1\\).",
-    "The vertex of a parabola lies at the midpoint of the roots: \\(x_{\\text{vertex}}=\\frac{-3+(-1)}{2}=-2\\).",
-    "Check each choice: \\(x=-2\\) must lie strictly inside the interval. Only \\(-3<x<1\\) (choice B) contains \\(-2\\)."
+    "From $f(x)=(x+3)(x+1)$, the roots are $x=-3$ and $x=-1$.",
+    "The vertex of a parabola lies at the midpoint of the roots: $x_{\\text{vertex}}=\\frac{-3+(-1)}{2}=-2$.",
+    "Check each choice: $x=-2$ must lie strictly inside the interval. Only $-3<x<1$ (choice B) contains $-2$."
   ],
-  "choiceElimination": "<ul><li><strong>Choice A &mdash; 'negative 4 is less than x, which is less than negative 3'</strong>: \\(-2\\) is not in \\((-4,-3)\\). &#10007;</li><li><strong>Choice B &mdash; 'negative 3 is less than x, which is less than 1'</strong>: \\(-3 < -2 < 1\\), so \\(-2\\) lies in this interval. &#10003;</li><li><strong>Choice C &mdash; 'negative 2 is less than x, which is less than 3'</strong>: This interval starts just above \\(-2\\), so \\(-2\\) is not contained (the left endpoint is excluded). &#10007;</li><li><strong>Choice D &mdash; 'negative 2 is less than x, which is less than 4'</strong>: Same issue — left bound is \\(-2\\) exclusive, so \\(-2\\) is not inside. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
+  "choiceElimination": "<ul><li><strong>Choice A &mdash; 'negative 4 is less than x, which is less than negative 3'</strong>: $-2$ is not in $(-4,-3)$. &#10007;</li><li><strong>Choice B &mdash; 'negative 3 is less than x, which is less than 1'</strong>: $-3 < -2 < 1$, so $-2$ lies in this interval. &#10003;</li><li><strong>Choice C &mdash; 'negative 2 is less than x, which is less than 3'</strong>: This interval starts just above $-2$, so $-2$ is not contained (the left endpoint is excluded). &#10007;</li><li><strong>Choice D &mdash; 'negative 2 is less than x, which is less than 4'</strong>: Same issue — left bound is $-2$ exclusive, so $-2$ is not inside. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
   "correctAnswer": "B",
-  "desmosExpressions": ["f(x)=(x+3)(x+1)"]
+  "desmosExpressions": [
+    "f(x)=(x+3)(x+1)"
+  ]
 }

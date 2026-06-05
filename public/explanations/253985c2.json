@@ -1,1 +1,16 @@
-{"questionId":"253985c2","correctAnswer":"C","section":"Math","steps":[{"title":"Combine like terms","content":"Group the $x$ terms together: $6x + 5x = 11x$. The $y$ term has no like terms, so it stays as $4y$. Result: $11x + 4y$."},{"title":"Match to the answer choices","content":"The simplified expression is $11x + 4y$. That matches choice C &mdash; <strong>C</strong> is correct."}],"choiceAnalysis":"<ul><li><strong>Choice A &mdash; '15x'</strong>: Adds all three terms as if they were like terms and drops $4y$ entirely &mdash; $x$ and $y$ terms cannot be combined. &#10007;</li><li><strong>Choice B &mdash; '15y'</strong>: Treats all terms as $y$ terms and uses the wrong sum &mdash; no basis for this. &#10007;</li><li><strong>Choice C &mdash; '11x + 4y'</strong>: $6x + 5x = 11x$ and $4y$ remains unchanged. &#10003;</li><li><strong>Choice D &mdash; '30x + 4y'</strong>: Multiplies the $x$ coefficients (6 &times; 5 = 30) instead of adding them. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}
+{
+  "questionId": "253985c2",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Combine like terms",
+      "content": "Group the $x$ terms together: $6x + 5x = 11x$. The $y$ term has no like terms, so it stays as $4y$. Result: $11x + 4y$."
+    },
+    {
+      "title": "Match to the answer choices",
+      "content": "The simplified expression is $11x + 4y$. That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ],
+  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; '15x'</strong>: Adds all three terms as if they were like terms and drops $4y$ entirely &mdash; $x$ and $y$ terms cannot be combined. &#10007;</li><li><strong>Choice B &mdash; '15y'</strong>: Treats all terms as $y$ terms and uses the wrong sum &mdash; no basis for this. &#10007;</li><li><strong>Choice C &mdash; '11x + 4y'</strong>: $6x + 5x = 11x$ and $4y$ remains unchanged. &#10003;</li><li><strong>Choice D &mdash; '30x + 4y'</strong>: Multiplies the $x$ coefficients (6 &times; 5 = 30) instead of adding them. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+}

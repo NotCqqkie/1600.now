@@ -1,1 +1,15 @@
-{"questionId": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_1", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Set up the density formula", "content": "Population density equals total population divided by total area:<br/>$$\\text{Density} = \\frac{\\text{Population}}{\\text{Area}} = \\frac{2{,}278}{134} \\text{ muskrats per acre}$$"}, {"title": "Divide", "content": "$$\\frac{2{,}278}{134} = 17$$<br/>Check: $134 \\times 17 = 134 \\times 10 + 134 \\times 7 = 1{,}340 + 938 = 2{,}278.$ &#10003;<br/><br/>The estimated population density is <strong>17</strong> muskrats per acre."}]}
+{
+  "questionId": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_1",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the density formula",
+      "content": "Population density equals total population divided by total area:<br/>$$\\text{Density} = \\frac{\\text{Population}}{\\text{Area}} = \\frac{2{,}278}{134} \\text{ muskrats per acre}$$"
+    },
+    {
+      "title": "Divide",
+      "content": "$$\\frac{2{,}278}{134} = 17$$<br/>Check: $134 \\times 17 = 134 \\times 10 + 134 \\times 7 = 1{,}340 + 938 = 2{,}278.$ &#10003;<br/><br/>The estimated population density is <strong>17</strong> muskrats per acre."
+    }
+  ]
+}

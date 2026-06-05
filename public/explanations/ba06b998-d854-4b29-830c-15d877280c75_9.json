@@ -1,1 +1,19 @@
-{"questionId": "ba06b998-d854-4b29-830c-15d877280c75_9", "correctAnswer": "29", "section": "Math", "steps": [{"title": "Factor out the common $x^5$", "content": "Factor out the common $x^5$: $$19x^{5}+20x^{5}-10x^{5}=x^{5}(19+20-10)$$"}, {"title": "Add the coefficients", "content": "Add the coefficients: $19+20-10=29$, so the expression equals $29x^{5}$. Hence $b=29$. The answer is <strong>29</strong>."}]}
+{
+  "questionId": "ba06b998-d854-4b29-830c-15d877280c75_9",
+  "correctAnswer": "29",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor out the common $x^5$",
+      "content": "Factor out the common $x^5$: $$19x^{5}+20x^{5}-10x^{5}=x^{5}(19+20-10)$$"
+    },
+    {
+      "title": "Add the coefficients",
+      "content": "Add the coefficients: $19+20-10=29$, so the expression equals $29x^{5}$. Hence $b=29$. The answer is <strong>29</strong>."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $29$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $29$."
+    }
+  ]
+}

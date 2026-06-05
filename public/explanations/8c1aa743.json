@@ -1,1 +1,16 @@
-{"questionId": "8c1aa743", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Identify the area scaling rule", "content": "For similar figures, if the linear scale factor is $k$, then the area scale factor is $k^2$. Since each side of EFGH is $6$ times the corresponding side of ABCD, we have $k = 6$, so areas scale by $6^2 = 36$.", "formula": "$$A_{\\text{new}} = A_{\\text{old}} \\times k^2$$"}, {"title": "Calculate the new area", "content": "Multiply the area of ABCD by the area scale factor: $54 \\times 36 = 1,944$ square units. That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "8c1aa743",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the area scaling rule",
+      "content": "For similar figures, if the linear scale factor is $k$, then the area scale factor is $k^2$. Since each side of EFGH is $6$ times the corresponding side of ABCD, we have $k = 6$, so areas scale by $6^2 = 36$.",
+      "formula": "$$A_{\\text{new}} = A_{\\text{old}} \\times k^2$$"
+    },
+    {
+      "title": "Calculate the new area",
+      "content": "Multiply the area of ABCD by the area scale factor: $54 \\times 36 = 1,944$ square units. That matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,23 @@
-{"questionId":"d5718376-6a71-41d6-aa0f-411bb7f3bb75_10","correctAnswer":"7","section":"Math","steps":[{"title":"Set up","content":"Substitute $x = 6$ into $g(x) = \\dfrac{6x - 1}{5}$:<br/>$$g(6) = \\frac{6(6) - 1}{5} = \\frac{36 - 1}{5} = \\frac{35}{5}$$"},{"title":"Solve","content":"$$\\frac{35}{5} = 7$$"},{"title":"Answer","content":"<strong>7</strong> is correct."}]}
+{
+  "questionId": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_10",
+  "correctAnswer": "7",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "Substitute $x = 6$ into $g(x) = \\dfrac{6x - 1}{5}$:<br/>$$g(6) = \\frac{6(6) - 1}{5} = \\frac{36 - 1}{5} = \\frac{35}{5}$$"
+    },
+    {
+      "title": "Solve",
+      "content": "$$\\frac{35}{5} = 7$$"
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>7</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, make sure the computed value answers exactly what the question asks for. The work above gives $7$; substituting or interpreting it in the original condition satisfies the requirement, so $7$ is the value to enter."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId":"390a8264-19b1-4de0-9dc9-09609eadd7ca_5","correctAnswer":"A","section":"Math","steps":[{"title":"Identify what the question needs","content":"The expression $(x+8)^2 + 14(x+8) + 49$ is a trinomial with a compound base. Recognize whether it fits the perfect-square pattern $u^2 + 14u + 49 = (u+7)^2$ by setting $u = x+8$."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; $(x+15)^2$</strong>: substituting $u = x+8$ gives $(u+7)^2 = (x+8+7)^2 = (x+15)^2$. &#10003;</li><li><strong>Choice B &mdash; $(x+8)^2$</strong>: ignores the $+14u+49$ terms; only correct if those were zero. &#10007;</li><li><strong>Choice C &mdash; $(x+9)^2$</strong>: would require $u+1$, not $u+7$. &#10007;</li><li><strong>Choice D &mdash; $(x+57)^2$</strong>: no combination of the terms produces a constant of 57. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "390a8264-19b1-4de0-9dc9-09609eadd7ca_5",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The expression $(x+8)^2 + 14(x+8) + 49$ is a trinomial with a compound base. Recognize whether it fits the perfect-square pattern $u^2 + 14u + 49 = (u+7)^2$ by setting $u = x+8$."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; $(x+15)^2$</strong>: substituting $u = x+8$ gives $(u+7)^2 = (x+8+7)^2 = (x+15)^2$. &#10003;</li><li><strong>Choice B &mdash; $(x+8)^2$</strong>: ignores the $+14u+49$ terms; only correct if those were zero. &#10007;</li><li><strong>Choice C &mdash; $(x+9)^2$</strong>: would require $u+1$, not $u+7$. &#10007;</li><li><strong>Choice D &mdash; $(x+57)^2$</strong>: no combination of the terms produces a constant of 57. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

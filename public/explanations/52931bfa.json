@@ -1,1 +1,19 @@
-{"questionId":"52931bfa","correctAnswer":"B","section":"Math","steps":[{"title":"Factor the numerator","content":"Both terms in the numerator share the factor $(x-7)$: $$8x(x-7)-3(x-7)=(x-7)(8x-3).$$"},{"title":"Factor the denominator and cancel","content":"Factor $2$ from the denominator: $2x-14=2(x-7)$. Because $x>7$, the factor $(x-7)$ is nonzero and can be canceled: $$\\frac{(x-7)(8x-3)}{2(x-7)}=\\frac{8x-3}{2}.$$"},{"title":"Evaluate each choice","content":"<ul><li>A) $\\frac{x-7}{5}$ &mdash; loses the $8x-3$ factor entirely. Eliminated.</li><li>B) $\\frac{8x-3}{2}$ &mdash; matches the simplified expression.</li><li>C) $\\frac{8x^{2}-3x-14}{2x-14}$ &mdash; equals $\\frac{x(8x-3)-14}{2(x-7)}$, which does not equal the original. Eliminated.</li><li>D) $\\frac{8x^{2}-3x-77}{2x-14}$ &mdash; $8x^{2}-3x-77$ is not divisible by $(x-7)$: plugging in $x=7$ gives $8(49)-3(7)-77=392-21-77=294\\neq 0$, so it cannot simplify to $\\frac{8x-3}{2}$. Eliminated.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "52931bfa",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor the numerator",
+      "content": "Both terms in the numerator share the factor $(x-7)$: $$8x(x-7)-3(x-7)=(x-7)(8x-3).$$"
+    },
+    {
+      "title": "Factor the denominator and cancel",
+      "content": "Factor $2$ from the denominator: $2x-14=2(x-7)$. Because $x>7$, the factor $(x-7)$ is nonzero and can be canceled: $$\\frac{(x-7)(8x-3)}{2(x-7)}=\\frac{8x-3}{2}.$$"
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li>A) $\\frac{x-7}{5}$ &mdash; loses the $8x-3$ factor entirely. Eliminated.</li><li>B) $\\frac{8x-3}{2}$ &mdash; matches the simplified expression.</li><li>C) $\\frac{8x^{2}-3x-14}{2x-14}$ &mdash; equals $\\frac{x(8x-3)-14}{2(x-7)}$, which does not equal the original. Eliminated.</li><li>D) $\\frac{8x^{2}-3x-77}{2x-14}$ &mdash; $8x^{2}-3x-77$ is not divisible by $(x-7)$: plugging in $x=7$ gives $8(49)-3(7)-77=392-21-77=294\\neq 0$, so it cannot simplify to $\\frac{8x-3}{2}$. Eliminated.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

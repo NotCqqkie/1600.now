@@ -1,1 +1,20 @@
-{"questionId": "63d03c0b", "correctAnswer": "3331", "section": "Math", "steps": [{"title": "Substitute the point (3331, 433) into the function equation", "content": "We know that $f(3331) = 433$. Substituting $x = 3331$ into $f(x) = \\frac{1}{7}(x - a) + 433$:<br/>$$\\frac{1}{7}(3331 - a) + 433 = 433$$"}, {"title": "Solve for the constant a", "content": "Subtract 433 from both sides:<br/>$$\\frac{1}{7}(3331 - a) = 0$$<br/>Multiply both sides by 7:<br/>$$3331 - a = 0$$<br/>$$a = 3331$$"}]}
+{
+  "questionId": "63d03c0b",
+  "correctAnswer": "3331",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the point (3331, 433) into the function equation",
+      "content": "We know that $f(3331) = 433$. Substituting $x = 3331$ into $f(x) = \\frac{1}{7}(x - a) + 433$:<br/>$$\\frac{1}{7}(3331 - a) + 433 = 433$$"
+    },
+    {
+      "title": "Solve for the constant a",
+      "content": "Subtract $433$ from both sides:<br/>$$\\frac{1}{7}(3331-a)=0$$<br/>Multiply by $7$: $$3331-a=0$$<br/>So $a=3331$. Desmos can also regress the given points against the model and returns the same constant. The answer is <strong>3331</strong>.",
+      "desmosExpressions": [
+        "x_1=[3331,4500]",
+        "y_1=[433,600]",
+        "y_1~(1/7)(x_1-a)+433"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,36 @@
-{"qid": "a7146625-47ea-49cb-9061-578e226240d5_16", "correctAnswer": "B", "steps": [{"step": 1, "text": "Read circle \\(M\\): \\((x-3)^{2}+(y-6)^{2}=4\\) is in standard form \\((x-h)^{2}+(y-k)^{2}=r^{2}\\), so center \\(= (3,6)\\) and \\(r_{M} = \\sqrt{4} = 2\\)."}, {"step": 2, "text": "Circle \\(P\\) has the same center \\((3,6)\\) and radius \\(r_{P} = 2 \\times r_{M} = 2 \\times 2 = 4\\), so \\(r_{P}^{2} = 16\\)."}, {"step": 3, "text": "Circle \\(P\\)&apos;s equation: \\((x-3)^{2}+(y-6)^{2}=16\\). Evaluate each choice.", "choices": [{"id": "A", "explanation": "<ul><li>\\((x-3)^{2}+(y-6)^{2}=8\\) uses \\(r^{2}=8\\), giving \\(r = 2\\sqrt{2} \\approx 2.83\\), not twice circle \\(M\\)&apos;s radius of 2. Not correct.</li></ul>"}, {"id": "B", "explanation": "<ul><li>\\((x-3)^{2}+(y-6)^{2}=16\\) has center \\((3,6)\\) (same as \\(M\\)) and \\(r^{2}=16\\) so \\(r=4=2\\times 2\\). That matches choice B &mdash; <strong>B</strong> is correct.</li></ul>"}, {"id": "C", "explanation": "<ul><li>\\((x-6)^{2}+(y-12)^{2}=4\\) has center \\((6,12)\\), which differs from circle \\(M\\)&apos;s center \\((3,6)\\). Not correct.</li></ul>"}, {"id": "D", "explanation": "<ul><li>\\((x-6)^{2}+(y-12)^{2}=8\\) has center \\((6,12)\\), not \\((3,6)\\). Not correct.</li></ul>"}]}]}
+{
+  "qid": "a7146625-47ea-49cb-9061-578e226240d5_16",
+  "correctAnswer": "B",
+  "steps": [
+    {
+      "step": 1,
+      "text": "Read circle $M$: $(x-3)^{2}+(y-6)^{2}=4$ is in standard form $(x-h)^{2}+(y-k)^{2}=r^{2}$, so center $= (3,6)$ and $r_{M} = \\sqrt{4} = 2$."
+    },
+    {
+      "step": 2,
+      "text": "Circle $P$ has the same center $(3,6)$ and radius $r_{P} = 2 \\times r_{M} = 2 \\times 2 = 4$, so $r_{P}^{2} = 16$."
+    },
+    {
+      "step": 3,
+      "text": "Circle $P$&apos;s equation: $(x-3)^{2}+(y-6)^{2}=16$. Evaluate each choice.",
+      "choices": [
+        {
+          "id": "A",
+          "explanation": "<ul><li>$(x-3)^{2}+(y-6)^{2}=8$ uses $r^{2}=8$, giving $r = 2\\sqrt{2} \\approx 2.83$, not twice circle $M$&apos;s radius of 2. Not correct.</li></ul>"
+        },
+        {
+          "id": "B",
+          "explanation": "<ul><li>$(x-3)^{2}+(y-6)^{2}=16$ has center $(3,6)$ (same as $M$) and $r^{2}=16$ so $r=4=2\\times 2$. That matches choice B &mdash; <strong>B</strong> is correct.</li></ul>"
+        },
+        {
+          "id": "C",
+          "explanation": "<ul><li>$(x-6)^{2}+(y-12)^{2}=4$ has center $(6,12)$, which differs from circle $M$&apos;s center $(3,6)$. Not correct.</li></ul>"
+        },
+        {
+          "id": "D",
+          "explanation": "<ul><li>$(x-6)^{2}+(y-12)^{2}=8$ has center $(6,12)$, not $(3,6)$. Not correct.</li></ul>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,1 +1,31 @@
-{"questionId": "70f98ab4", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Isolate the target variable", "content": "Add $29r$ to both sides of $q-29r=s$ to get $$q=s+29r.$$"}, {"title": "Match to the answer choices", "content": "The form $q=s+29r$ matches choice B. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}
+{
+  "questionId": "70f98ab4",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the target variable",
+      "content": "Add $29r$ to both sides of $q-29r=s$ to get $$q=s+29r.$$"
+    },
+    {
+      "title": "Match to the answer choices",
+      "content": "The form $q=s+29r$ matches choice B. That matches choice <strong>B</strong> — <strong>B</strong> is correct."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice B is correct. Adding $29r$ to each side of the given equation yields $q=s+29r$. Therefore, the equation $q=s+29r$ correctly expresses $q$ in terms of $r$ and $s$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A is incorrect and may result from conceptual or calculation errors."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice C is incorrect and may result from conceptual or calculation errors."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice D is incorrect and may result from conceptual or calculation errors."
+    }
+  ]
+}

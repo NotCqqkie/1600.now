@@ -1,1 +1,23 @@
-{"qid":"ffdaaea2-8ec1-44b7-903d-084c644b881a_12","steps":["From the graph, read the intercepts: the y-intercept is (0, 3) and the x-intercept is (-1.5, 0).","Compute the slope: m = \\frac{3 - 0}{0 - (-1.5)} = \\frac{3}{1.5} = 2.","Write the slope-intercept form: y = 2x + 3. Rearrange to standard form: -2x + y = 3.","Multiply through by 6: -12x + 6y = 18. This matches the form -12x + Ry = 18 with R = 6, a positive constant. That matches choice D — <strong>D</strong> is correct."],"choices":[{"id":"A","text":"$Rx+12y=18$","explanation":"<ul><li>This gives a negative slope of -R/12 with y-intercept 18/12 = 3/2, not 3. Does not match the graph. Eliminate A.</li></ul>"},{"id":"B","text":"$Rx-12y=-18$","explanation":"<ul><li>Rewrite as Rx - 12y = -18 → y = (Rx+18)/12. For positive R the slope is positive, but the graph has a positive slope only if x-intercept is negative — checking y-intercept: y = 18/12 = 3/2, not 3. Does not match. Eliminate B.</li></ul>"},{"id":"C","text":"$12x+Ry=18$","explanation":"<ul><li>y-intercept: set x=0 → Ry=18 → y=18/R. x-intercept: set y=0 → x=18/12=3/2 (positive), but the graph x-intercept is negative. Eliminate C.</li></ul>"},{"id":"D","text":"$-12x+Ry=18$","explanation":"<ul><li>y-intercept: x=0 → Ry=18 → y=18/R. With R=6, y=3. x-intercept: y=0 → -12x=18 → x=-1.5. Slope = 12/R = 12/6 = 2. All match the graph. That matches choice D — <strong>D</strong> is correct.</li></ul>"}],"correctAnswer":"D"}
+{
+  "questionId": "ffdaaea2-8ec1-44b7-903d-084c644b881a_12",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the intercepts",
+      "content": "The graph has $y$-intercept $(0,3)$ and $x$-intercept $(-1.5,0)$. A line through those intercepts has positive slope."
+    },
+    {
+      "title": "Build the equation",
+      "content": "Using the intercepts, the slope is $\\frac{3-0}{0-(-1.5)}=2$, so the line is $y=2x+3$. Rewrite it: $$y=2x+3 \\Rightarrow -2x+y=3$$ Multiplying by $6$ gives $$-12x+6y=18$$",
+      "desmosExpressions": [
+        "y=2x+3",
+        "-12x+6y=18"
+      ]
+    },
+    {
+      "title": "Match the positive constant",
+      "content": "The equation $-12x+6y=18$ has the form $-12x+Ry=18$ with $R=6$, a positive constant. That matches choice <strong>D</strong>."
+    }
+  ]
+}

@@ -1,14 +1,29 @@
 {
-  "qid": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_5",
+  "questionId": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_5",
   "correctAnswer": "A",
+  "section": "Math",
   "steps": [
-    "The line of best fit passes through approximately the origin (0, 0), so the y-intercept is 0. This eliminates C and D, which are non-zero horizontal lines.",
-    "The line slopes upward from left to right (positive slope), eliminating B (y = -1.1x, negative slope).",
-    "Estimating slope from the line: it rises about 1.1 units for every 1 unit run, giving slope \\approx 1.1.",
-    "Equation: y = 1.1x, which matches choice A."
-  ],
-  "explanation": "<ul><li><strong>Choice A &mdash; '$y = 1.1x$'</strong>: Positive slope of 1.1 through the origin. Consistent with a line that rises steadily and passes near (0, 0) in a scatterplot with positively correlated data. &#10003;</li><li><strong>Choice B &mdash; '$y = -1.1x$'</strong>: Negative slope means the line falls from left to right. The scatterplot shows an upward-trending line, so this is the wrong direction. &#10007;</li><li><strong>Choice C &mdash; '$y = 5.2$'</strong>: A horizontal line at y = 5.2 indicates no relationship between x and y. A line of best fit through clearly trending data would not be horizontal. &#10007;</li><li><strong>Choice D &mdash; '$y = -5.2$'</strong>: A horizontal line at y = -5.2 below the x-axis. Neither horizontal nor at a reasonable y-value for the data shown. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.",
-  "desmosExpressions": [
-    { "id": "g1", "latex": "y=1.1x", "color": "#2d70b3" }
+    {
+      "title": "Check shape first",
+      "content": "The shown line of best fit rises from left to right and passes close to the origin. That means the model should have a positive slope and a $y$-intercept near $0$."
+    },
+    {
+      "title": "Eliminate by graph behavior",
+      "content": "Choices C and D are horizontal lines, so they do not model an upward trend. Choice B has negative slope, so it would fall from left to right. Only choice A has a positive slope and passes through the origin."
+    },
+    {
+      "title": "Use Desmos to compare choices",
+      "content": "Graph the four choices and compare them with the shown line of best fit. The line $y=1.1x$ has the correct direction and intercept, so it best matches the scatterplot.",
+      "desmosExpressions": [
+        "y=1.1x",
+        "y=-1.1x",
+        "y=5.2",
+        "y=-5.2"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The best-fit equation is $y=1.1x$, which matches choice <strong>A</strong>."
+    }
   ]
 }

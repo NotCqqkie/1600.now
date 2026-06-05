@@ -1,1 +1,15 @@
-{"qid":"ffdaaea2-8ec1-44b7-903d-084c644b881a_5","steps":[{"text":"Parse the setup. The rectangle has width \\(w\\) feet and a length that is 49 times the width, so length \\(= 49w\\) feet. Area \\(=\\) length \\(\\times\\) width \\(= (49w)(w) = y\\)."},{"text":"Identify the role of \\(49w\\) in the expression \\(y=(49w)(w)\\). One factor is \\(w\\) (width) and the other factor \\(49w\\) must be the other dimension, which is the length."},{"text":"Evaluate each choice:<ul><li>Choice A: The length of the rectangle, in feet &mdash; since length \\(= 49\\times w = 49w\\), this is exactly what \\(49w\\) represents. That matches choice A &mdash; <strong>A</strong> is correct.</li><li>Choice B: The area of the rectangle, in square feet &mdash; the area is \\(y\\), not \\(49w\\). Incorrect.</li><li>Choice C: The difference between length and width &mdash; that would be \\(49w - w = 48w\\), not \\(49w\\). Incorrect.</li><li>Choice D: The width of the rectangle, in feet &mdash; \\(w\\) is the width; \\(49w\\) is 49 times larger. Incorrect.</li></ul>"}],"correctAnswer":"A"}
+{
+  "qid": "ffdaaea2-8ec1-44b7-903d-084c644b881a_5",
+  "steps": [
+    {
+      "text": "Parse the setup. The rectangle has width $w$ feet and a length that is 49 times the width, so length $= 49w$ feet. Area $=$ length $\\times$ width $= (49w)(w) = y$."
+    },
+    {
+      "text": "Identify the role of $49w$ in the expression $y=(49w)(w)$. One factor is $w$ (width) and the other factor $49w$ must be the other dimension, which is the length."
+    },
+    {
+      "text": "Evaluate each choice:<ul><li>Choice A: The length of the rectangle, in feet &mdash; since length $= 49\\times w = 49w$, this is exactly what $49w$ represents. That matches choice A &mdash; <strong>A</strong> is correct.</li><li>Choice B: The area of the rectangle, in square feet &mdash; the area is $y$, not $49w$. Incorrect.</li><li>Choice C: The difference between length and width &mdash; that would be $49w - w = 48w$, not $49w$. Incorrect.</li><li>Choice D: The width of the rectangle, in feet &mdash; $w$ is the width; $49w$ is 49 times larger. Incorrect.</li></ul>"
+    }
+  ],
+  "correctAnswer": "A"
+}

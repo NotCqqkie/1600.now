@@ -12,11 +12,14 @@ import {
 } from "@/lib/practice/modulePracticeSession";
 import { getPracticeModule } from "@/data/modulePracticeBank";
 import { cn } from "@/lib/utils";
+import { useAuth } from "@/contexts/AuthContext";
 
 const ModulePracticeReview = () => {
   const { moduleId } = useParams<{ moduleId: string }>();
   const [searchParams] = useSearchParams();
   const navigate = useNavigate();
+  const { user } = useAuth();
+  const uid = user?.id ?? null;
   const module = useMemo(
     () => (moduleId ? getPracticeModule(moduleId) : null),
     [moduleId],
@@ -51,7 +54,7 @@ const ModulePracticeReview = () => {
       ...session,
       status: "submitted",
     });
-    saveModulePracticeResult(result);
+    saveModulePracticeResult(result, uid);
     clearModulePracticeSession(module.slug);
     sessionStorage.removeItem("practiceSet");
     sessionStorage.removeItem("practiceExitTo");

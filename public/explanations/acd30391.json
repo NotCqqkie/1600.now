@@ -1,1 +1,25 @@
-{"qid":"acd30391","steps":[{"explanation":"The equation \\((x+3)^2+(y-1)^2=25\\) has center \\((-3,1)\\) and radius \\(5\\). A point is in the interior when \\((x+3)^2+(y-1)^2 &lt; 25\\), and NOT in the interior when \\(\\geq 25\\)."},{"explanation":"Compute the left-hand side for each point: A \\((-7,3)\\): \\((-4)^2+2^2=20\\); B \\((-3,1)\\): \\(0\\); C \\((0,0)\\): \\(9+1=10\\); D \\((3,2)\\): \\(6^2+1^2=37\\)."},{"explanation":"<ul><li>A \\((-7,3)\\): value 20 &lt; 25 — inside the circle. Eliminated.</li><li>B \\((-3,1)\\): value 0 &lt; 25 — the center itself, inside. Eliminated.</li><li>C \\((0,0)\\): value 10 &lt; 25 — inside the circle. Eliminated.</li><li>D \\((3,2)\\): value 37 &gt; 25 — outside the circle, not in the interior. That matches choice D — <strong>D</strong> is correct.</li></ul>"}],"correctAnswer":"D"}
+{
+  "qid": "acd30391",
+  "steps": [
+    {
+      "title": "Graph the circle and the choices",
+      "content": "The fastest way is to graph the circle $(x+3)^2+(y-1)^2=25$ in Desmos and plot each answer choice. A point is in the interior if it lands inside the circle; it is not in the interior if it is on or outside the circle.",
+      "desmosExpressions": [
+        "(x+3)^2+(y-1)^2=25",
+        "(-7,3)",
+        "(-3,1)",
+        "(0,0)",
+        "(3,2)"
+      ]
+    },
+    {
+      "title": "Use the equation to verify the graph",
+      "content": "For a point to be inside the circle, $(x+3)^2+(y-1)^2<25$. Choice A gives $(-4)^2+2^2=20$, choice B gives $0$, and choice C gives $3^2+(-1)^2=10$; all three are less than $25$, so they are inside."
+    },
+    {
+      "title": "Choose the outside point",
+      "content": "Choice D, $(3,2)$, gives $(3+3)^2+(2-1)^2=36+1=37$, which is greater than $25$. It is outside the circle, so it is not in the interior. Choice <strong>D</strong> is correct."
+    }
+  ],
+  "correctAnswer": "D"
+}

@@ -1,1 +1,36 @@
-{"qid": "946ab892", "correctAnswer": "C", "steps": [{"step": 1, "text": "A linear function with slope 2 has the form \\(g(x) = 2x + b\\)."}, {"step": 2, "text": "Substitute the point \\((1, 14)\\): \\(14 = 2(1) + b \\Rightarrow b = 12\\). So \\(g(x) = 2x + 12\\)."}, {"step": 3, "text": "Evaluate each choice.", "choices": [{"id": "A", "explanation": "<ul><li>\\(g(x) = 2x\\) has \\(b=0\\). Checking: \\(g(1) = 2(1) = 2 \\neq 14\\). Not correct.</li></ul>"}, {"id": "B", "explanation": "<ul><li>\\(g(x) = 2x+2\\) gives \\(g(1) = 4 \\neq 14\\). Not correct.</li></ul>"}, {"id": "C", "explanation": "<ul><li>\\(g(x) = 2x+12\\) gives \\(g(1) = 2+12 = 14\\) ✓ and slope \\(= 2\\) ✓. That matches choice C &mdash; <strong>C</strong> is correct.</li></ul>"}, {"id": "D", "explanation": "<ul><li>\\(g(x) = 2x+14\\) gives \\(g(1) = 16 \\neq 14\\). Not correct.</li></ul>"}]}]}
+{
+  "qid": "946ab892",
+  "correctAnswer": "C",
+  "steps": [
+    {
+      "step": 1,
+      "text": "A linear function with slope 2 has the form $g(x) = 2x + b$."
+    },
+    {
+      "step": 2,
+      "text": "Substitute the point $(1, 14)$: $14 = 2(1) + b \\Rightarrow b = 12$. So $g(x) = 2x + 12$."
+    },
+    {
+      "step": 3,
+      "text": "Evaluate each choice.",
+      "choices": [
+        {
+          "id": "A",
+          "explanation": "<ul><li>$g(x) = 2x$ has $b=0$. Checking: $g(1) = 2(1) = 2 \\neq 14$. Not correct.</li></ul>"
+        },
+        {
+          "id": "B",
+          "explanation": "<ul><li>$g(x) = 2x+2$ gives $g(1) = 4 \\neq 14$. Not correct.</li></ul>"
+        },
+        {
+          "id": "C",
+          "explanation": "<ul><li>$g(x) = 2x+12$ gives $g(1) = 2+12 = 14$ ✓ and slope $= 2$ ✓. That matches choice C &mdash; <strong>C</strong> is correct.</li></ul>"
+        },
+        {
+          "id": "D",
+          "explanation": "<ul><li>$g(x) = 2x+14$ gives $g(1) = 16 \\neq 14$. Not correct.</li></ul>"
+        }
+      ]
+    }
+  ]
+}

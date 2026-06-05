@@ -1,1 +1,12 @@
-{"qid":"87f513aa-a49e-436a-9a4c-c87bd3101b4c_5","steps":[{"explanation":"Starting from \\(\\frac{j}{5} = k + 9m\\), multiply both sides by 5 to isolate j: \\(j = 5(k + 9m)\\)."},{"explanation":"<ul><li>A \\(j = k + 5(9m)\\): distributes the 5 only to 9m, leaving k unchanged \u2014 incorrect algebra. Eliminated.</li><li>B \\(j = 5(k + 9m)\\): matches the result exactly. That matches choice B \u2014 <strong>B</strong> is correct.</li><li>C \\(j = 5k + 9m\\): distributes 5 to k but not to 9m \u2014 partial distribution error. Eliminated.</li><li>D \\(j = \\frac{k+9m}{5}\\): divides instead of multiplies \u2014 the inverse operation. Eliminated.</li></ul>"}],"correctAnswer":"B"}
+{
+  "qid": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_5",
+  "steps": [
+    {
+      "explanation": "Starting from $\\frac{j}{5} = k + 9m$, multiply both sides by 5 to isolate j: $j = 5(k + 9m)$."
+    },
+    {
+      "explanation": "<ul><li>A $j = k + 5(9m)$: distributes the 5 only to 9m, leaving k unchanged — incorrect algebra. Eliminated.</li><li>B $j = 5(k + 9m)$: matches the result exactly. That matches choice B — <strong>B</strong> is correct.</li><li>C $j = 5k + 9m$: distributes 5 to k but not to 9m — partial distribution error. Eliminated.</li><li>D $j = \\frac{k+9m}{5}$: divides instead of multiplies — the inverse operation. Eliminated.</li></ul>"
+    }
+  ],
+  "correctAnswer": "B"
+}

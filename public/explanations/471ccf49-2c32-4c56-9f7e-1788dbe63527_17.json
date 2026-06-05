@@ -1,1 +1,19 @@
-{"questionId": "471ccf49-2c32-4c56-9f7e-1788dbe63527_17", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Set up the surface area equation", "content": "The surface area formula for a cylinder is $SA = 2\\pi r^2 + 2\\pi rh$. Given that $h = r + 6$ and $SA = 1080\\pi$, substitute these values:<br/>$$1080\\pi = 2\\pi r^2 + 2\\pi r(r+6)$$"}, {"title": "Simplify to a quadratic equation", "content": "Divide both sides by $2\\pi$:<br/>$$540 = r^2 + r(r+6)$$<br/>Expand and combine:<br/>$$540 = r^2 + r^2 + 6r = 2r^2 + 6r$$<br/>Divide by 2 and rearrange:<br/>$$r^2 + 3r - 270 = 0$$"}, {"title": "Factor and solve for radius", "content": "Find two numbers that multiply to $-270$ and add to $3$. These are $18$ and $-15$, giving:<br/>$$(r+18)(r-15) = 0$$<br/>So $r = -18$ or $r = 15$. Since radius must be positive, $r = 15$. That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "471ccf49-2c32-4c56-9f7e-1788dbe63527_17",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the surface area equation",
+      "content": "The surface area formula for a cylinder is $SA = 2\\pi r^2 + 2\\pi rh$. Given that $h = r + 6$ and $SA = 1080\\pi$, substitute these values:<br/>$$1080\\pi = 2\\pi r^2 + 2\\pi r(r+6)$$"
+    },
+    {
+      "title": "Simplify to a quadratic equation",
+      "content": "Divide both sides by $2\\pi$:<br/>$$540 = r^2 + r(r+6)$$<br/>Expand and combine:<br/>$$540 = r^2 + r^2 + 6r = 2r^2 + 6r$$<br/>Divide by 2 and rearrange:<br/>$$r^2 + 3r - 270 = 0$$"
+    },
+    {
+      "title": "Factor and solve for radius",
+      "content": "Find two numbers that multiply to $-270$ and add to $3$. These are $18$ and $-15$, giving:<br/>$$(r+18)(r-15) = 0$$<br/>So $r = -18$ or $r = 15$. Since radius must be positive, $r = 15$. That matches choice A — <strong>A</strong> is correct."
+    }
+  ]
+}

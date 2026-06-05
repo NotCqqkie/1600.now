@@ -1,1 +1,15 @@
-{"questionId": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_8", "correctAnswer": "B", "section": "Math", "steps": [{"title": "sin X = cos Y means X + Y = 90°", "content": "$\\frac{\\sin X}{\\cos Y} = 1$ → $\\sin X = \\cos Y$. The complementary identity says: if $\\sin A = \\cos B$ (both acute), then $A + B = 90°$."},{"title": "Plug in Y = 32° and solve", "content": "$X + 32° = 90°$ → $X = 58°$. That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_8",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "sin X = cos Y means X + Y = 90°",
+      "content": "$\\frac{\\sin X}{\\cos Y} = 1$ → $\\sin X = \\cos Y$. The complementary identity says: if $\\sin A = \\cos B$ (both acute), then $A + B = 90°$."
+    },
+    {
+      "title": "Plug in Y = 32° and solve",
+      "content": "$X + 32° = 90°$ → $X = 58°$. That matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

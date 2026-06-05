@@ -1,1 +1,22 @@
-{"questionId":"816fedc1-1434-4eb8-aa3b-6715a1e738ae_15","correctAnswer":"D","section":"Math","steps":[{"title":"Apply the factoring identity from the given condition","content":"Recognize $\\frac{1}{2}x - \\frac{33}{2} = \\frac{x-33}{2}$, so $\\left(\\frac{x-33}{2}\\right)^2 = \\frac{(x-33)^2}{4}$. The equation becomes $\\frac{(x-33)^2}{4} = 64$."},{"title":"Compute the target value","content":"Multiply by $4$: $(x-33)^{2} = 256$. That matches choice <strong>D</strong> — <strong>D</strong> is correct.","desmosExpressions":["y = \\left(\\frac{1}{2}x - \\frac{33}{2}\\right)^{2} - 64"]}]}
+{
+  "questionId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_15",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the factoring identity from the given condition",
+      "content": "Recognize $\\frac{1}{2}x - \\frac{33}{2} = \\frac{x-33}{2}$, so $\\left(\\frac{x-33}{2}\\right)^2 = \\frac{(x-33)^2}{4}$. The equation becomes $\\frac{(x-33)^2}{4} = 64$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "Multiply by $4$: $(x-33)^{2} = 256$. That matches choice <strong>D</strong> — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "y = \\left(\\frac{1}{2}x - \\frac{33}{2}\\right)^{2} - 64"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice D, 256, and the other choices fail the same setup or substitution. Therefore <strong>D</strong> is correct."
+    }
+  ]
+}

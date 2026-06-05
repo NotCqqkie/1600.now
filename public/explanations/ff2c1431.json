@@ -1,1 +1,18 @@
-{"qid": "ff2c1431", "steps": [{"explanation": "Start with $7m = 5(n + p)$. Divide both sides by $5$ to isolate the parenthesized expression: $$\\frac{7m}{5} = n + p$$"}, {"explanation": "Subtract $p$ from both sides to isolate $n$: $$n = \\frac{7m}{5} - p$$", "choices": ["<li>Choice A: $n = \\frac{5p}{7m}$ — this inverts and conflates the terms; dividing $5p$ by $7m$ has no basis in the original equation. Eliminated.</li>", "<li>Choice B: $n = \\frac{7m}{5} - p$ — dividing both sides by $5$ then subtracting $p$ gives exactly this expression. That matches choice B — <strong>B</strong> is correct.</li>", "<li>Choice C: $n = 5(7m) + p$ — this multiplies instead of divides and adds instead of subtracts. Eliminated.</li>", "<li>Choice D: $n = 7m - 5 - p$ — this subtracts $5$ as a separate term rather than dividing by it. Eliminated.</li>"]}], "correctAnswer": "B"}
+{
+  "qid": "ff2c1431",
+  "steps": [
+    {
+      "explanation": "Start with $7m = 5(n + p)$. Divide both sides by $5$ to isolate the parenthesized expression: $$\\frac{7m}{5} = n + p$$"
+    },
+    {
+      "explanation": "Subtract $p$ from both sides to isolate $n$: $$n = \\frac{7m}{5} - p$$",
+      "choices": [
+        "<li>Choice A: $n = \\frac{5p}{7m}$ — this inverts and conflates the terms; dividing $5p$ by $7m$ has no basis in the original equation. Eliminated.</li>",
+        "<li>Choice B: $n = \\frac{7m}{5} - p$ — dividing both sides by $5$ then subtracting $p$ gives exactly this expression. That matches choice B — <strong>B</strong> is correct.</li>",
+        "<li>Choice C: $n = 5(7m) + p$ — this multiplies instead of divides and adds instead of subtracts. Eliminated.</li>",
+        "<li>Choice D: $n = 7m - 5 - p$ — this subtracts $5$ as a separate term rather than dividing by it. Eliminated.</li>"
+      ]
+    }
+  ],
+  "correctAnswer": "B"
+}

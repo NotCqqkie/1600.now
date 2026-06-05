@@ -1,1 +1,19 @@
-{"questionId": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_16", "correctAnswer": "36", "section": "Math", "steps": [{"title": "Evaluate the value m at x=3", "content": "Substitute x=3 into m(x)=5x+3.<br/>$$ m(3) = 5(3) + 3 = 15 + 3 = 18 $$"}, {"title": "Evaluate the value p at x=3", "content": "Substitute x=3 into p(x)=3-x.<br/>$$ p(3) = 3 - 3 = 0 $$"}, {"title": "Combine the results", "content": "Now compute 2m(3)-p(3) using the values found.<br/>$$ 2m(3) - p(3) = 2(18) - 0 = 36 $$<br/>The answer is <strong>36</strong>."}]}
+{
+  "questionId": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_16",
+  "correctAnswer": "36",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Evaluate the value m at x=3",
+      "content": "Substitute x=3 into m(x)=5x+3.<br/>$$ m(3) = 5(3) + 3 = 15 + 3 = 18 $$"
+    },
+    {
+      "title": "Evaluate the value p at x=3",
+      "content": "Substitute x=3 into p(x)=3-x.<br/>$$ p(3) = 3 - 3 = 0 $$"
+    },
+    {
+      "title": "Combine the results",
+      "content": "Now compute 2m(3)-p(3) using the values found.<br/>$$ 2m(3) - p(3) = 2(18) - 0 = 36 $$<br/>The answer is <strong>36</strong>."
+    }
+  ]
+}

@@ -1,1 +1,18 @@
-{"questionId": "32388549-e820-4b4a-91a9-d9c32e611098_18", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Interpret the second condition", "content": "Simplify what we're given for $f(s+1)$:<br/>$$f(s+1) = t - 0.87t = (1 - 0.87)t = 0.13t$$"}, {"title": "Use the exponential growth property", "content": "For $f(x) = ab^x$, stepping forward by 1 unit multiplies the output by $b$. Therefore:<br/>$$f(s+1) = f(s) \\cdot b$$<br/>Substitute the known values:<br/>$$0.13t = t \\cdot b$$<br/>$$b = 0.13$$<br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "32388549-e820-4b4a-91a9-d9c32e611098_18",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret the second condition",
+      "content": "Simplify what we're given for $f(s+1)$:<br/>$$f(s+1)=t-0.87t=(1-0.87)t=0.13t$$<br/>Desmos can check the percent-left calculation immediately with $1-0.87$.",
+      "desmosExpressions": [
+        "1-0.87"
+      ]
+    },
+    {
+      "title": "Use the exponential growth property",
+      "content": "For $f(x) = ab^x$, stepping forward by 1 unit multiplies the output by $b$. Therefore:<br/>$$f(s+1) = f(s) \\cdot b$$<br/>Substitute the known values:<br/>$$0.13t = t \\cdot b$$<br/>$$b = 0.13$$<br/>That matches choice A — <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,19 @@
-{"questionId":"d0a2fed5","correctAnswer":"294","section":"Math","steps":[{"title":"Apply the equation from the given condition","content":"Subtract $18$: $\\tfrac{6}{7}p = 36$, so $p = 42$."},{"title":"Compute the target value","content":"Then $7p = 7 \\cdot 42 = 294$. The answer is <strong>294</strong>."}]}
+{
+  "questionId": "d0a2fed5",
+  "correctAnswer": "294",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the equation from the given condition",
+      "content": "Subtract $18$: $\\tfrac{6}{7}p = 36$, so $p = 42$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "Then $7p = 7 \\cdot 42 = 294$. The answer is <strong>294</strong>."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $294$. Subtracting $18$ from each side of the given equation yields $\\frac{6}{7}p=36$. Multiplying each side of this equation by $\\frac{7}{6}$ yields $p=42$. Multiplying each side of this equation by $7$ yields $7p=294$. Therefore, the value of $7p$ is $294$."
+    }
+  ]
+}

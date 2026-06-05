@@ -1,1 +1,15 @@
-{"questionId":"b79b2afa-5519-4128-ab30-39cfd5c26d43_11","correctAnswer":"C","section":"Math","steps":[{"title":"Apply the zero product property","content":"Since $-5\\ne 0$, the solutions come from setting each binomial factor of $-5(v-8)(v-2)(v+9)=0$ to zero, giving $v=8,\\ 2,\\ -9$."},{"title":"Match a choice","content":"Among the options $-5,\\ -2,\\ 8,\\ 9$, only $v=8$ appears in the solution set. That matches choice <strong>C</strong> &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "b79b2afa-5519-4128-ab30-39cfd5c26d43_11",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the zero product property",
+      "content": "Since $-5\\ne 0$, the solutions come from setting each binomial factor of $-5(v-8)(v-2)(v+9)=0$ to zero, giving $v=8,\\ 2,\\ -9$."
+    },
+    {
+      "title": "Match a choice",
+      "content": "Among the options $-5,\\ -2,\\ 8,\\ 9$, only $v=8$ appears in the solution set. That matches choice <strong>C</strong> &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -4,16 +4,21 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Determine the value of k using the y-intercept property",
-      "content": "The y-intercept occurs where $x = 0$. Since the y-intercept is $(k-5, b)$, we need $k - 5 = 0$, which gives $k = 5$. <br/> Substituting $k = 5$ into the table, the two points are $(5, 13)$ and $(5+7, -15) = (12, -15)$."
+      "title": "Use the intercept clue first",
+      "content": "A $y$-intercept always has $x=0$. The intercept is written as $(k-5,b)$, so $k-5=0$ and $k=5$. After substituting $k=5$ into the table, the two points on the line are $(5,13)$ and $(12,-15)$."
     },
     {
-      "title": "Calculate the slope",
-      "content": "Using the two points $(5, 13)$ and $(12, -15)$:<br/> $$m = \\frac{-15 - 13}{12 - 5} = \\frac{-28}{7} = -4$$"
+      "title": "Fit the line in Desmos",
+      "content": "Enter the two points as lists and run $y_1 \\sim m x_1+b$. Desmos gives $m=-4$ and $b=33$, so the line is $y=-4x+33$.",
+      "desmosExpressions": [
+        "x_1=[5,12]",
+        "y_1=[13,-15]",
+        "y_1~m x_1+b"
+      ]
     },
     {
-      "title": "Find the y-coordinate of the y-intercept",
-      "content": "Using point-slope form with point $(5, 13)$ and slope $-4$:<br/> $$y - 13 = -4(x - 5)$$<br/> At the y-intercept where $x = 0$:<br/> $$y - 13 = -4(0 - 5) = 20$$<br/> $$y = 33$$<br/> Therefore, $b = 33$."
+      "title": "Answer b",
+      "content": "The number $b$ is the $y$-coordinate of the $y$-intercept. Since the fitted line has intercept $(0,33)$, the value of $b$ is <strong>33</strong>."
     }
   ]
 }

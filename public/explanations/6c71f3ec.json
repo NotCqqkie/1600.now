@@ -1,1 +1,19 @@
-{"questionId": "6c71f3ec", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Set up the total earnings inequality", "content": "Total earnings = base salary $$x$$ + commission $$0.11s$$.<br/>The goal requires total earnings be at least $$3x$$ and at most $$4x$$:<br/>$$3x \\le x + 0.11s \\le 4x$$"}, {"title": "Isolate s", "content": "Subtract $$x$$ from all parts:<br/>$$2x \\le 0.11s \\le 3x$$<br/>Divide by $$0.11$$:<br/>$$\\frac{2}{0.11}x \\le s \\le \\frac{3}{0.11}x$$"}, {"title": "Match to the answer choices", "content": "<ul><li><strong>Choice A &mdash; '$2x\\le s\\le3x$'</strong>: This would mean dividing by 1, not 0.11 — ignores the commission rate. &#10007;</li><li><strong>Choice B &mdash; '$\\frac{2}{0.11}x\\le s\\le\\frac{3}{0.11}x$'</strong>: Matches exactly. &#10003;</li><li><strong>Choice C &mdash; '$3x\\le s\\le4x$'</strong>: Uses the original multipliers 3 and 4, not the reduced values 2 and 3 after subtracting x. &#10007;</li><li><strong>Choice D &mdash; '$\\frac{3}{0.11}x\\le s\\le\\frac{4}{0.11}x$'</strong>: Uses 3 and 4 as numerators instead of 2 and 3 — does not subtract x first. &#10007;</li></ul>That matches choice B &#8212; <strong>B</strong> is correct."}]}
+{
+  "questionId": "6c71f3ec",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the total earnings inequality",
+      "content": "Total earnings = base salary $$x$$ + commission $$0.11s$$.<br/>The goal requires total earnings be at least $$3x$$ and at most $$4x$$:<br/>$$3x \\le x + 0.11s \\le 4x$$"
+    },
+    {
+      "title": "Isolate s",
+      "content": "Subtract $$x$$ from all parts:<br/>$$2x \\le 0.11s \\le 3x$$<br/>Divide by $$0.11$$:<br/>$$\\frac{2}{0.11}x \\le s \\le \\frac{3}{0.11}x$$"
+    },
+    {
+      "title": "Match to the answer choices",
+      "content": "<ul><li><strong>Choice A &mdash; '$2x\\le s\\le3x$'</strong>: This would mean dividing by 1, not 0.11 — ignores the commission rate. &#10007;</li><li><strong>Choice B &mdash; '$\\frac{2}{0.11}x\\le s\\le\\frac{3}{0.11}x$'</strong>: Matches exactly. &#10003;</li><li><strong>Choice C &mdash; '$3x\\le s\\le4x$'</strong>: Uses the original multipliers 3 and 4, not the reduced values 2 and 3 after subtracting x. &#10007;</li><li><strong>Choice D &mdash; '$\\frac{3}{0.11}x\\le s\\le\\frac{4}{0.11}x$'</strong>: Uses 3 and 4 as numerators instead of 2 and 3 — does not subtract x first. &#10007;</li></ul>That matches choice B &#8212; <strong>B</strong> is correct."
+    }
+  ]
+}

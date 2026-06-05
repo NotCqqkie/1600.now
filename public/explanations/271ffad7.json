@@ -4,12 +4,19 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the vertex and use symmetry",
-      "content": "<ul><li>Vertex form: $$h(t)=a(t-3)^2+51.1$$</li><li>Since the projectile starts at height 7 m at $$t=0$$, the axis of symmetry passes through the vertex at $$t=3$$.</li><li>For any two times with the same height, their average equals the vertex time: $$\\frac{t_1+t_2}{2}=3$$.</li></ul>"
+      "title": "Graph the vertex model",
+      "content": "The maximum height is at $t=3$, so the axis of symmetry is $t=3$. To make this visible, fit $h=a(t-3)^2+51.1$ using the launch point $(0,7)$ and the vertex $(3,51.1)$, then graph the horizontal line $y=7$.",
+      "desmosExpressions": [
+        "t_1=[0,3]",
+        "h_1=[7,51.1]",
+        "h_1~a(t_1-3)^2+51.1",
+        "y=a(x-3)^2+51.1",
+        "y=7"
+      ]
     },
     {
       "title": "Compute the return time",
-      "content": "<ul><li>Set $$t_1=0$$ (launch) and solve for $$t_2$$: $$\\frac{0+t_2}{2}=3 \\implies t_2=6$$ seconds.</li><li>That matches choice B \u2014 <strong>B</strong> is correct.</li></ul>"
+      "content": "The graph intersects $y=7$ at $t=0$ and again at $t=6$. By symmetry, the two equal-height times must average to the vertex time: $\\frac{0+t_2}{2}=3$, so $t_2=6$. That matches choice <strong>B</strong>."
     }
   ]
 }

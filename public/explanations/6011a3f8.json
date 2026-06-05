@@ -12,8 +12,9 @@
       "title": "Test which choice satisfies the condition",
       "content": "We need $b^2 > 6400$, which means $|b| > 80$.<ul><li>Choice A: $b = -91$ gives $(-91)^2 = 8281 > 6400$ ✓</li><li>Choice B: $b = -80$ gives $(-80)^2 = 6400 \\not> 6400$ ✗</li><li>Choice C: $b = 5$ gives $(5)^2 = 25 \\not> 6400$ ✗</li><li>Choice D: $b = 40$ gives $(40)^2 = 1600 \\not> 6400$ ✗</li></ul>Only choice A satisfies the condition. That matches choice A — <strong>A</strong> is correct.",
       "desmosExpressions": [
-        "y = 64x^2 + b x + 25",
-        "b = 81"
+        "B=[-91,-80,5,40]",
+        "B^2-6400",
+        "y = 64x^2 - 91x + 25"
       ]
     }
   ]

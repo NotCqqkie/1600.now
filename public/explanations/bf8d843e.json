@@ -1,1 +1,15 @@
-{"questionId": "bf8d843e", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Find DC using the 30-60-90 triangle BDC", "content": "Triangle BDC has a right angle at D (BD ⊥ AC), angle BCD = 60°, and angle DBC = 30°. This is a 30-60-90 right triangle.<br/><br/>In a 30-60-90 triangle, the sides opposite 30°, 60°, and 90° are in the ratio $1 : \\sqrt{3} : 2$.<br/><br/>With BC = 12 (the hypotenuse), we have:<br/>$$DC = 12 \\cdot \\frac{1}{2} = 6$$<br/>$$BD = 12 \\cdot \\frac{\\sqrt{3}}{2} = 6\\sqrt{3}$$"}, {"title": "Find AD using the 30-60-90 triangle ABD", "content": "Triangle ABD has a right angle at D, angle ABD = 30°, and angle BAD = 60°. This is also a 30-60-90 triangle.<br/><br/>Using the same side ratio, with BD = $6\\sqrt{3}$ (the side opposite 60°):<br/>$$AD = \\frac{6\\sqrt{3}}{\\sqrt{3}} = 6$$<br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "bf8d843e",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find DC using the 30-60-90 triangle BDC",
+      "content": "Triangle BDC has a right angle at D (BD ⊥ AC), angle BCD = 60°, and angle DBC = 30°. This is a 30-60-90 right triangle.<br/><br/>In a 30-60-90 triangle, the sides opposite 30°, 60°, and 90° are in the ratio $1 : \\sqrt{3} : 2$.<br/><br/>With BC = 12 (the hypotenuse), we have:<br/>$$DC = 12 \\cdot \\frac{1}{2} = 6$$<br/>$$BD = 12 \\cdot \\frac{\\sqrt{3}}{2} = 6\\sqrt{3}$$"
+    },
+    {
+      "title": "Find AD using the 30-60-90 triangle ABD",
+      "content": "Triangle ABD has a right angle at D, angle ABD = 30°, and angle BAD = 60°. This is also a 30-60-90 triangle.<br/><br/>Using the same side ratio, with BD = $6\\sqrt{3}$ (the side opposite 60°):<br/>$$AD = \\frac{6\\sqrt{3}}{\\sqrt{3}} = 6$$<br/>That matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

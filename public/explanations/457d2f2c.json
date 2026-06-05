@@ -1,1 +1,23 @@
-{"questionId": "457d2f2c", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Set up the structure of the data set", "content": "With 27 numbers and a mean of 33, the total sum is $27 \\times 33 = 891$. Since 27 is odd, the median is the 14th value when sorted. That means 13 values are less than 33, one value equals 33 (the median itself), and 13 values are greater than 33."}, {"title": "Compute the effect on the sum and mean", "content": "The transformation adds 7 to each of the 13 values above the median and subtracts 7 from each of the 13 values below the median. Net change to sum: $+7 \\times 13 - 7 \\times 13 = 0$. The sum remains 891 and the mean remains $891 \\div 27 = 33$.<ul><li>Choice B (Mean): still 33 in both sets — same value, not the answer.</li><li>Choice C (Sum): still 891 in both sets — same value, not the answer.</li></ul>"}, {"title": "Check whether the median changes", "content": "Subtracting 7 from any value that was less than 33 keeps it less than 33; adding 7 to any value greater than 33 keeps it greater than 33. The relative order is preserved, so the 14th value remains 33.<ul><li>Choice A (Median): still 33 — same value, not the answer.</li></ul>"}, {"title": "Determine the effect on standard deviation", "content": "Standard deviation measures how spread out values are around the mean (33). For each value below the mean, the transformation moves it $7$ units farther from 33. For each value above the mean, it moves $7$ units farther from 33. The median value itself stays at 33. Every non-median squared deviation strictly increases, so variance increases and standard deviation increases.<ul><li>Choice D (Standard deviation): larger in the new data set than the original — this does NOT have the same value. That matches choice D — <strong>D</strong> is correct.</li></ul>"}]}
+{
+  "questionId": "457d2f2c",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the structure of the data set",
+      "content": "With 27 numbers and a mean of 33, the total sum is $27 \\times 33 = 891$. Since 27 is odd, the median is the 14th value when sorted. That means 13 values are less than 33, one value equals 33 (the median itself), and 13 values are greater than 33."
+    },
+    {
+      "title": "Compute the effect on the sum and mean",
+      "content": "The transformation adds 7 to each of the 13 values above the median and subtracts 7 from each of the 13 values below the median. Net change to sum: $+7 \\times 13 - 7 \\times 13 = 0$. The sum remains 891 and the mean remains $891 \\div 27 = 33$.<ul><li>Choice B (Mean): still 33 in both sets — same value, not the answer.</li><li>Choice C (Sum): still 891 in both sets — same value, not the answer.</li></ul>"
+    },
+    {
+      "title": "Check whether the median changes",
+      "content": "Subtracting 7 from any value that was less than 33 keeps it less than 33; adding 7 to any value greater than 33 keeps it greater than 33. The relative order is preserved, so the 14th value remains 33.<ul><li>Choice A (Median): still 33 — same value, not the answer.</li></ul>"
+    },
+    {
+      "title": "Determine the effect on standard deviation",
+      "content": "Standard deviation measures how spread out values are around the mean (33). For each value below the mean, the transformation moves it $7$ units farther from 33. For each value above the mean, it moves $7$ units farther from 33. The median value itself stays at 33. Every non-median squared deviation strictly increases, so variance increases and standard deviation increases.<ul><li>Choice D (Standard deviation): larger in the new data set than the original — this does NOT have the same value. That matches choice D — <strong>D</strong> is correct.</li></ul>"
+    }
+  ]
+}

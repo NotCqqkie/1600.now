@@ -1,1 +1,29 @@
-{"questionId": "305aaf32-2803-4909-83d0-d08ba71a35a7_9", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Determine the direction of the trend", "content": "Examine the scatter plot: as x increases, y also increases. The trend is clearly positive. This eliminates both choices with negative slopes immediately.<ul><li><strong>Choice A &mdash; 'y = -1.8x - 0.2'</strong>: Negative slope &mdash; line falls as x grows, opposite of the data. &#10007;</li><li><strong>Choice B &mdash; 'y = -0.2x - 1.8'</strong>: Also negative slope &mdash; same direction problem. &#10007;</li><li><strong>Choice C &mdash; 'y = 0.2x + 1.8'</strong>: Positive slope, but only 0.2 &mdash; this line is nearly flat, rising just 0.2 units per 1-unit increase in x. Keep for now. &#10007;</li><li><strong>Choice D &mdash; 'y = 1.80x + 0.2'</strong>: Positive slope of 1.80 &mdash; line rises steeply, which matches a data set that climbs noticeably across the plot. Keep for now. &#10003;</li></ul>"}, {"title": "Distinguish C from D using the slope magnitude", "content": "The scatter plot shows a steep upward trend, not a nearly horizontal one. A slope of 0.2 would produce a nearly flat line across the full range of x; a slope of 1.80 produces a line that rises roughly 9 units over 5 units of x. The data clearly follows the steeper pattern, confirming D over C.", "desmosExpressions": ["y = 1.80x + 0.2", "y = 0.2x + 1.8"]}, {"title": "Spot-check with a representative point", "content": "Using the point (5, 9) visible near the center of the plot:<br/>Choice D: y = 1.80(5) + 0.2 = 9.0 + 0.2 = 9.2 &mdash; within 0.2 of 9. &#10003;<br/>Choice C: y = 0.2(5) + 1.8 = 1.0 + 1.8 = 2.8 &mdash; far below the actual value of 9. &#10007;<br/>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "305aaf32-2803-4909-83d0-d08ba71a35a7_9",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Determine the direction of the trend",
+      "content": "Graph all four candidate lines in Desmos and compare them to the scatterplot. The data trend upward steeply, so the correct line should have positive slope and should not be nearly flat.",
+      "desmosExpressions": [
+        "y=-1.8x-0.2",
+        "y=-0.2x-1.8",
+        "y=0.2x+1.8",
+        "y=1.8x+0.2"
+      ]
+    },
+    {
+      "title": "Distinguish C from D using the slope magnitude",
+      "content": "The scatter plot shows a steep upward trend, not a nearly horizontal one. A slope of 0.2 would produce a nearly flat line across the full range of x; a slope of 1.80 produces a line that rises roughly 9 units over 5 units of x. The data clearly follows the steeper pattern, confirming D over C.",
+      "desmosExpressions": [
+        "y=1.8x+0.2",
+        "y=0.2x+1.8"
+      ]
+    },
+    {
+      "title": "Spot-check with a representative point",
+      "content": "Using the point (5, 9) visible near the center of the plot:<br/>Choice D: y = 1.80(5) + 0.2 = 9.0 + 0.2 = 9.2 &mdash; within 0.2 of 9. &#10003;<br/>Choice C: y = 0.2(5) + 1.8 = 1.0 + 1.8 = 2.8 &mdash; far below the actual value of 9. &#10007;<br/>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

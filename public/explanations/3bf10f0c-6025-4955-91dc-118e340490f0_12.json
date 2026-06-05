@@ -10,7 +10,7 @@
     },
     {
       "title": "Calculate and solve for the other leg",
-      "content": "Compute both squares:<br/>$$1428.84 + b^2 = 29652.84$$<br/>Subtract 1428.84 from both sides:<br/>$$b^2 = 28224$$<br/>Take the positive square root:<br/>$$b = \\sqrt{28224} = 168$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "Compute both squares:<br/>$$1428.84 + b^2 = 29652.84$$<br/>Subtract 1428.84 from both sides:<br/>$$b^2 = 28224$$<br/>Take the positive square root:<br/>$$b = \\sqrt{28224} = 168$$<br/>That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

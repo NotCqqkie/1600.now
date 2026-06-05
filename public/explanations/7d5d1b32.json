@@ -1,1 +1,23 @@
-{"questionId": "7d5d1b32", "correctAnswer": "-.9333", "section": "Math", "steps": [{"title": "Expand the left side", "content": "Distribute 2 across the parentheses:<br/>$$2kx - 2n = -\\frac{28}{15}x - \\frac{36}{19}$$"}, {"title": "Identify the condition for no solution", "content": "A linear equation has no solution when the coefficients of $x$ are equal on both sides, but the constant terms differ—creating a false statement like $0 = -5$.<br/><br/>For no solution, set the coefficients of $x$ equal:<br/>$$2k = -\\frac{28}{15}$$"}, {"title": "Solve for k", "content": "Divide both sides by 2:<br/>$$k = -\\frac{28}{30} = -\\frac{14}{15}$$<br/>In decimal form: $k \\approx -0.9333$"}]}
+{
+  "questionId": "7d5d1b32",
+  "correctAnswer": "-.9333",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use custom regression for the coefficient",
+      "content": "For a linear equation to have no solution, the $x$-coefficients must match while the constants differ. Enter $x_1=[1]$ in Desmos and type $2kx_1\\sim-\\frac{28}{15}x_1$. Desmos returns $k=-\\frac{14}{15}$.",
+      "desmosExpressions": [
+        "x_1=[1]",
+        "2k x_1~(-28/15)x_1"
+      ]
+    },
+    {
+      "title": "Confirm by expanding",
+      "content": "Distribute the $2$: $$2(kx-n)=-\\frac{28}{15}x-\\frac{36}{19}$$ $$2kx-2n=-\\frac{28}{15}x-\\frac{36}{19}.$$ Match the $x$-coefficients: $$2k=-\\frac{28}{15}$$ $$k=-\\frac{14}{15}\\approx-0.9333.$$"
+    },
+    {
+      "title": "Check the contradiction",
+      "content": "With this $k$, the $x$-terms cancel. The constants are $-2n$ and $-\\frac{36}{19}$. Since $n>1$, $2n>2>\\frac{36}{19}$, so the constants cannot be equal. That leaves a false statement, which is exactly the no-solution condition. The answer is <strong>-0.9333</strong>."
+    }
+  ]
+}

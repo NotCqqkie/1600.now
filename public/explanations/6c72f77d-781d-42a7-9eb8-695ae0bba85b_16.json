@@ -1,1 +1,27 @@
-{"questionId": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_16", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Identify what the question asks for", "content": "The question asks which equation displays its minimum value as a constant or coefficient—meaning the minimum value must appear directly as one of the stated numbers in the given form.<br/><br/>For example, vertex form $y = a(x - h)^2 + k$ displays the minimum $k$.<br/><br/>We need to check whether the minimum of function I or II equals any of its stated coefficients."}, {"title": "Analyze function I on the domain $x > 0$", "content": "For $f(x) = 18(1.4)^{x+5}$:<ul><li>The base is $1.4 > 1$, so this is an exponential growth function</li><li>As $x$ increases from just above 0, the exponent $x + 5$ increases, making $(1.4)^{x+5}$ larger</li><li>Therefore $f(x)$ is strictly increasing on $(0, \\infty)$ with no actual minimum</li><li>The infimum (greatest lower bound) is $\\lim_{x \\to 0^+} 18(1.4)^{x+5} = 18(1.4)^5 \\approx 96.8$</li></ul>The displayed coefficients are 18, 1.4, and 5. The infimum 96.8 is not one of these."}, {"title": "Analyze function II on the domain $x > 0$", "content": "For $g(x) = 18(1.16)(1.4)^{x+3}$:<ul><li>The base is again $1.4 > 1$, so this is also exponential growth</li><li>For $x > 0$, the exponent $x + 3$ increases, so the function increases</li><li>This function is also strictly increasing on $(0, \\infty)$ with no actual minimum</li><li>The infimum is $\\lim_{x \\to 0^+} 18(1.16)(1.4)^{x+3} = 18(1.16)(1.4)^3 \\approx 57.3$</li></ul>The displayed coefficients are 18, 1.16, 1.4, and 3. The infimum 57.3 is not one of these."}, {"title": "Conclusion: neither equation displays its minimum as a coefficient", "content": "Both functions are increasing exponentials whose infimums are never actually attained on the domain $x > 0$. Even if we consider the infimum, it is not a displayed constant or coefficient in either equation. That matches choice D — <strong>D</strong> is correct.", "desmosExpressions": ["f(x) = 18(1.4)^{x+5}", "g(x) = 18 \\cdot 1.16 \\cdot 1.4^{x+3}"]}]}
+{
+  "questionId": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_16",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what the question asks for",
+      "content": "The question asks which equation displays its minimum value as a constant or coefficient—meaning the minimum value must appear directly as one of the stated numbers in the given form.<br/><br/>For example, vertex form $y = a(x - h)^2 + k$ displays the minimum $k$.<br/><br/>We need to check whether the minimum of function I or II equals any of its stated coefficients."
+    },
+    {
+      "title": "Analyze function I on the domain $x > 0$",
+      "content": "For $f(x) = 18(1.4)^{x+5}$:<ul><li>The base is $1.4 > 1$, so this is an exponential growth function</li><li>As $x$ increases from just above 0, the exponent $x + 5$ increases, making $(1.4)^{x+5}$ larger</li><li>Therefore $f(x)$ is strictly increasing on $(0, \\infty)$ with no actual minimum</li><li>The infimum (greatest lower bound) is $\\lim_{x \\to 0^+} 18(1.4)^{x+5} = 18(1.4)^5 \\approx 96.8$</li></ul>The displayed coefficients are 18, 1.4, and 5. The infimum 96.8 is not one of these."
+    },
+    {
+      "title": "Analyze function II on the domain $x > 0$",
+      "content": "For $g(x) = 18(1.16)(1.4)^{x+3}$:<ul><li>The base is again $1.4 > 1$, so this is also exponential growth</li><li>For $x > 0$, the exponent $x + 3$ increases, so the function increases</li><li>This function is also strictly increasing on $(0, \\infty)$ with no actual minimum</li><li>The infimum is $\\lim_{x \\to 0^+} 18(1.16)(1.4)^{x+3} = 18(1.16)(1.4)^3 \\approx 57.3$</li></ul>The displayed coefficients are 18, 1.16, 1.4, and 3. The infimum 57.3 is not one of these."
+    },
+    {
+      "title": "Conclusion: neither equation displays its minimum as a coefficient",
+      "content": "Both functions are increasing exponentials whose infimums are never actually attained on the domain $x > 0$. Even if we consider the infimum, it is not a displayed constant or coefficient in either equation. That matches choice D — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "f(x) = 18(1.4)^{x+5}",
+        "g(x) = 18 \\cdot 1.16 \\cdot 1.4^{x+3}"
+      ]
+    }
+  ]
+}

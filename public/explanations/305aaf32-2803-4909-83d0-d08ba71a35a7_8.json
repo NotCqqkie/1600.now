@@ -1,1 +1,15 @@
-{"questionId":"305aaf32-2803-4909-83d0-d08ba71a35a7_8","correctAnswer":"40","section":"Math","steps":[{"title":"Identify the model from the data","content":"The graph shows a straight line, so $f$ is a linear function. The initial deposit is the balance at $x=0$ months, which is the $y$-intercept $f(0)$."},{"title":"Write the equation","content":"Reading the graph, the line crosses the $y$-axis at $y=40$, so $$f(0)=40.$$ The answer is <strong>40</strong>."}]}
+{
+  "questionId": "305aaf32-2803-4909-83d0-d08ba71a35a7_8",
+  "correctAnswer": "40",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the model from the data",
+      "content": "The graph shows a straight line, so $f$ is a linear function. The initial deposit is the balance at $x=0$ months, which is the $y$-intercept $f(0)$."
+    },
+    {
+      "title": "Write the equation",
+      "content": "Reading the graph, the line crosses the $y$-axis at $y=40$, so $$f(0)=40.$$ The answer is <strong>40</strong>."
+    }
+  ]
+}

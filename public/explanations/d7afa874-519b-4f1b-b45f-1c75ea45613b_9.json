@@ -1,1 +1,27 @@
-{"questionId":"d7afa874-519b-4f1b-b45f-1c75ea45613b_9","correctAnswer":"70875","section":"Math","steps":[{"title":"Set up","content":"The equation is $y = 900ax^2$. Use the known data point: $x = 2.75$, $y = 9{,}528.75$. Solve for $a$:<br/>$$9528.75 = 900 \\cdot a \\cdot (2.75)^2 = 6806.25a$$<br/>$$a = \\frac{9528.75}{6806.25} = 1.4$$"},{"title":"Solve","content":"Substitute $a = 1.4$ and $x = 7.50$:<br/>$$y = 900 \\cdot 1.4 \\cdot (7.50)^2 = 900 \\cdot 1.4 \\cdot 56.25 = 70{,}875$$"},{"title":"Answer","content":"<strong>70875</strong> is correct."}]}
+{
+  "questionId": "d7afa874-519b-4f1b-b45f-1c75ea45613b_9",
+  "correctAnswer": "70875",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "Use custom regression for the one unknown coefficient in $y=900ax^2$. Enter the known point as $x_1=[2.75]$, $y_1=[9528.75]$, then type $y_1\\sim 900a x_1^2$.",
+      "desmosExpressions": [
+        "x_1=[2.75]",
+        "y_1=[9528.75]",
+        "y_1~900a x_1^2"
+      ]
+    },
+    {
+      "title": "Solve",
+      "content": "Desmos gives $a=1.4$, so $900a=1260$. Evaluate the model at $x=7.50$: $1260(7.50)^2=70{,}875$.",
+      "desmosExpressions": [
+        "1260(7.5)^2"
+      ]
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>70875</strong> is correct."
+    }
+  ]
+}

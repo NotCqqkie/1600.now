@@ -1,1 +1,19 @@
-{"questionId":"8a096929-9162-4ef5-b1c5-1da19c60ea8c_20","correctAnswer":"372","section":"Math","steps":[{"title":"Set up","content":"$p(x) = a((x+5)^2 - b)((x+5)^2 - c)$ depends only on $(x+5)^2$. Find that value for each $x$: $x = -6 \\Rightarrow 1$, $x = -4 \\Rightarrow 1$, $x = 0 \\Rightarrow 25$, $x = -10 \\Rightarrow 25$."},{"title":"Solve","content":"Equal $(x+5)^2$ means equal outputs: $p(-4) = p(-6) = 30$ and $p(-10) = p(0) = 342$. So $p(-10) + p(-4) = 342 + 30 = 372$."},{"title":"Answer","content":"<strong>372</strong> is correct."}]}
+{
+  "questionId": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_20",
+  "correctAnswer": "372",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "$p(x) = a((x+5)^2 - b)((x+5)^2 - c)$ depends only on $(x+5)^2$. Find that value for each $x$: $x = -6 \\Rightarrow 1$, $x = -4 \\Rightarrow 1$, $x = 0 \\Rightarrow 25$, $x = -10 \\Rightarrow 25$."
+    },
+    {
+      "title": "Solve",
+      "content": "Equal $(x+5)^2$ means equal outputs: $p(-4) = p(-6) = 30$ and $p(-10) = p(0) = 342$. So $p(-10) + p(-4) = 342 + 30 = 372$."
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>372</strong> is correct."
+    }
+  ]
+}

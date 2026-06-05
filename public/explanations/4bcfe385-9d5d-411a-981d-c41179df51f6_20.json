@@ -1,1 +1,15 @@
-{"questionId": "4bcfe385-9d5d-411a-981d-c41179df51f6_20", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Express the perimeter in terms of the hypotenuse", "content": "In an isosceles right triangle with legs of length $a$ and hypotenuse $h$, the Pythagorean theorem gives $h = a\\sqrt{2}$, so $a = \\frac{h}{\\sqrt{2}}$ and $2a = h\\sqrt{2}$.<br/><br/>The perimeter is $2a + h = h\\sqrt{2} + h = h(1 + \\sqrt{2})$."}, {"title": "Solve for the hypotenuse", "content": "Set the perimeter equal to the given value: $$h(1 + \\sqrt{2}) = 52 + 52\\sqrt{2} = 52(1 + \\sqrt{2})$$<br/>Divide both sides by $(1 + \\sqrt{2})$: $$h = 52$$<br/>That matches choice C."}]}
+{
+  "questionId": "4bcfe385-9d5d-411a-981d-c41179df51f6_20",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Express the perimeter in terms of the hypotenuse",
+      "content": "In an isosceles right triangle with legs of length $a$ and hypotenuse $h$, the Pythagorean theorem gives $h = a\\sqrt{2}$, so $a = \\frac{h}{\\sqrt{2}}$ and $2a = h\\sqrt{2}$.<br/><br/>The perimeter is $2a + h = h\\sqrt{2} + h = h(1 + \\sqrt{2})$."
+    },
+    {
+      "title": "Solve for the hypotenuse",
+      "content": "Set the perimeter equal to the given value: $$h(1 + \\sqrt{2}) = 52 + 52\\sqrt{2} = 52(1 + \\sqrt{2})$$<br/>Divide both sides by $(1 + \\sqrt{2})$: $$h = 52$$<br/>That matches choice C."
+    }
+  ]
+}

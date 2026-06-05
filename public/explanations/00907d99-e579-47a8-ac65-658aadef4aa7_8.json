@@ -9,7 +9,7 @@
     },
     {
       "title": "Substitute and calculate",
-      "content": "Substituting $r = 35$ into the formula:<br/>$$A = \\pi(35)^2$$<br/>Since $35^2 = 1225$:<br/>$$A = 1225\\pi \\text{ mm}^2$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "Substituting $r = 35$ into the formula:<br/>$$A = \\pi(35)^2$$<br/>Since $35^2 = 1225$:<br/>$$A = 1225\\pi \\text{ mm}^2$$<br/>That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

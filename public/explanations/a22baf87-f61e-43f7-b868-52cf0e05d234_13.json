@@ -1,1 +1,19 @@
-{"questionId":"a22baf87-f61e-43f7-b868-52cf0e05d234_13","correctAnswer":"89","section":"Math","steps":[{"title":"Set up","content":"Circumference formula: $C = \\pi d$. Substitute $C = 89\\pi$: $89\\pi = \\pi d$."},{"title":"Solve","content":"Divide both sides by $\\pi$: $d = 89$."},{"title":"Answer","content":"<strong>89</strong> is correct."}]}
+{
+  "questionId": "a22baf87-f61e-43f7-b868-52cf0e05d234_13",
+  "correctAnswer": "89",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the circumference formula",
+      "content": "For a circle, circumference equals $\\pi$ times diameter: $$C=\\pi d.$$ The problem gives $C=89\\pi$, so $$89\\pi=\\pi d.$$"
+    },
+    {
+      "title": "Cancel pi",
+      "content": "Divide both sides by $\\pi$: $$d=89.$$ This is faster than finding the radius first because the formula already uses diameter."
+    },
+    {
+      "title": "Confirm the diameter",
+      "content": "If the diameter is $89$, then the circumference is $\\pi(89)=89\\pi$, matching the given circumference. The diameter is <strong>89</strong> centimeters."
+    }
+  ]
+}

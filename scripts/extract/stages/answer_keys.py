@@ -1,7 +1,7 @@
 from __future__ import annotations
 import json
 from pathlib import Path
-from ..utils.claude_client import RateLimitedClient, parse_json_response
+from ..utils.cli_client import RateLimitedClient, parse_json_response
 
 ANSWER_KEY_PROMPT = """Extract the answer key from these SAT practice test answer pages.
 

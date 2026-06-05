@@ -1,1 +1,23 @@
-{"questionId":"555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_13","correctAnswer":"13.86","section":"Math","steps":[{"title":"Identify the slope","content":"$F$ is linear in $x$ with slope $\\tfrac{9}{5}$, so each $1$-kelvin increase raises $F$ by $\\tfrac{9}{5}$ degrees."},{"title":"Scale by the change","content":"For a 7.7-kelvin increase, $$\\Delta F=\\tfrac{9}{5}\\cdot 7.7=13.86.$$"},{"title":"State the answer","content":"The answer is <strong>13.86</strong>."}]}
+{
+  "questionId": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_13",
+  "correctAnswer": "13.86",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the slope",
+      "content": "$F$ is linear in $x$ with slope $\\tfrac{9}{5}$, so each $1$-kelvin increase raises $F$ by $\\tfrac{9}{5}$ degrees."
+    },
+    {
+      "title": "Scale by the change",
+      "content": "For a 7.7-kelvin increase, $$\\Delta F=\\tfrac{9}{5}\\cdot 7.7=13.86.$$"
+    },
+    {
+      "title": "State the answer",
+      "content": "The answer is <strong>13.86</strong>."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, make sure the computed value answers exactly what the question asks for. The work above gives $13.86$; substituting or interpreting it in the original condition satisfies the requirement, so $13.86$ is the value to enter."
+    }
+  ]
+}

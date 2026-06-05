@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 
 const buttonVariants = cva(
   // Inter, weight 600, sentence-case, radius 10px. Tabular-nums inherited from body.
-  "inline-flex select-none items-center justify-center gap-2 whitespace-nowrap rounded-[10px] font-sans text-[14px] font-semibold tracking-[-0.005em] ring-offset-background transition-[background-color,border-color,color,box-shadow,transform] duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [-webkit-user-drag:none] [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0",
+  "inline-flex min-w-0 select-none items-center justify-center gap-2 whitespace-nowrap rounded-[10px] font-sans text-[14px] font-semibold tracking-[-0.005em] ring-offset-background transition-[background-color,border-color,color,box-shadow,transform] duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [-webkit-user-drag:none] [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0",
   {
     variants: {
       variant: {

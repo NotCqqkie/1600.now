@@ -1,1 +1,19 @@
-{"questionId": "25faa756", "correctAnswer": ".88", "section": "Math", "steps": [{"title": "Express a in terms of b", "content": "Since $a$ is 60% greater than $b$:<br/>$$a = b + 0.60b = 1.60b$$"}, {"title": "Express c in terms of a", "content": "Since $c$ is 45% less than $a$:<br/>$$c = a - 0.45a = 0.55a$$"}, {"title": "Substitute to find the multiple", "content": "Substitute $a = 1.60b$ into $c = 0.55a$:<br/>$$c = 0.55(1.60b) = 0.88b$$<br/>Therefore, $c$ is <strong>0.88</strong> times $b$."}]}
+{
+  "questionId": "25faa756",
+  "correctAnswer": ".88",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Express a in terms of b",
+      "content": "Since $a$ is 60% greater than $b$:<br/>$$a = b + 0.60b = 1.60b$$"
+    },
+    {
+      "title": "Express c in terms of a",
+      "content": "Since $c$ is 45% less than $a$:<br/>$$c = a - 0.45a = 0.55a$$"
+    },
+    {
+      "title": "Substitute to find the multiple",
+      "content": "Substitute $a = 1.60b$ into $c = 0.55a$:<br/>$$c = 0.55(1.60b) = 0.88b$$<br/>Therefore, $c$ is <strong>0.88</strong> times $b$."
+    }
+  ]
+}

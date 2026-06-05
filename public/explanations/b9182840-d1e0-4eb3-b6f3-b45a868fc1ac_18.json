@@ -1,1 +1,23 @@
-{"questionId": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_18", "correctAnswer": "340", "section": "Math", "steps": [{"title": "Solve the system by elimination", "content": "Rewrite as $6x+7y=2170$ and divide the second by $4$ to get $6x-7y=350$. Add: $$12x=2520 \\Rightarrow x=210,$$ then $7y=2170-6(210)=910$, so $y=130$."}, {"title": "Find the value of $x + y$", "content": "So $x+y=210+130=340$. The answer is <strong>340</strong>.", "desmosExpressions": ["y = \\frac{-6x + 2170}{7}", "y = \\frac{24x - 1400}{28}"]}]}
+{
+  "questionId": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_18",
+  "correctAnswer": "340",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve the system by elimination",
+      "content": "Rewrite as $6x+7y=2170$ and divide the second by $4$ to get $6x-7y=350$. Add: $$12x=2520 \\Rightarrow x=210,$$ then $7y=2170-6(210)=910$, so $y=130$."
+    },
+    {
+      "title": "Find the value of $x + y$",
+      "content": "So $x+y=210+130=340$. The answer is <strong>340</strong>.",
+      "desmosExpressions": [
+        "y = \\frac{-6x + 2170}{7}",
+        "y = \\frac{24x - 1400}{28}"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, make sure the computed value answers exactly what the question asks for. The work above gives $340$; substituting or interpreting it in the original condition satisfies the requirement, so $340$ is the value to enter."
+    }
+  ]
+}

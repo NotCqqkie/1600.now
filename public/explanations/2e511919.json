@@ -1,1 +1,15 @@
-{"questionId": "2e511919", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Read the line graph for the highest point", "content": "The line graph shows estimated chipmunk counts from 1989 to 1999. Look for the year corresponding to the highest peak on the line."}, {"title": "Identify the year of the maximum", "content": "The graph's highest point falls at $1994$. That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "2e511919",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the line graph for the highest point",
+      "content": "The line graph shows estimated chipmunk counts from 1989 to 1999. Look for the year corresponding to the highest peak on the line."
+    },
+    {
+      "title": "Identify the year of the maximum",
+      "content": "The graph's highest point falls at $1994$. That matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

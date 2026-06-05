@@ -9,7 +9,7 @@
     },
     {
       "title": "Convert to degrees",
-      "content": "Multiply by the conversion factor $\\frac{180\u00b0}{\\pi}$:<br/>$$T = \\frac{17\\pi}{12} \\cdot \\frac{180\u00b0}{\\pi} = \\frac{17 \\cdot 180\u00b0}{12} = \\frac{3060\u00b0}{12} = 255\u00b0$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "Multiply by the conversion factor $\\frac{180°}{\\pi}$:<br/>$$T = \\frac{17\\pi}{12} \\cdot \\frac{180°}{\\pi} = \\frac{17 \\cdot 180°}{12} = \\frac{3060°}{12} = 255°$$<br/>That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

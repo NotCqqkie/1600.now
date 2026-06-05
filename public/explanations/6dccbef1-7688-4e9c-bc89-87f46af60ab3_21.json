@@ -1,1 +1,19 @@
-{"questionId": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_21", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Calculate base area and side length", "content": "Total surface area equals base area plus lateral surface area. The base area is $28,160 - 16,060 = 12,100$ square inches. Since the pyramid has a square base, $s^2 = 12,100$, which gives $s = 110$ inches."}, {"title": "Find the slant height from lateral surface area", "content": "The four lateral faces are triangles with base $s$ and height $\\ell$ (the slant height). Their combined area is $2s\\ell = 16,060$. With $s = 110$:<br/>$$220\\ell = 16,060$$<br/>$$\\ell = 73 \\text{ inches}$$"}, {"title": "Use Pythagorean theorem to find pyramid height", "content": "In a right square pyramid, the slant height $\\ell$, pyramid height $h$, and the distance from the base center to an edge midpoint ($s/2 = 55$) form a right triangle. By the Pythagorean theorem:<br/>$$h^2 + 55^2 = 73^2$$<br/>$$h^2 + 3,025 = 5,329$$<br/>$$h^2 = 2,304$$<br/>$$h = 48 \\text{ inches}$$<br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_21",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate base area and side length",
+      "content": "Total surface area equals base area plus lateral surface area. The base area is $28,160 - 16,060 = 12,100$ square inches. Since the pyramid has a square base, $s^2 = 12,100$, which gives $s = 110$ inches."
+    },
+    {
+      "title": "Find the slant height from lateral surface area",
+      "content": "The four lateral faces are triangles with base $s$ and height $\\ell$ (the slant height). Their combined area is $2s\\ell = 16,060$. With $s = 110$:<br/>$$220\\ell = 16,060$$<br/>$$\\ell = 73 \\text{ inches}$$"
+    },
+    {
+      "title": "Use Pythagorean theorem to find pyramid height",
+      "content": "In a right square pyramid, the slant height $\\ell$, pyramid height $h$, and the distance from the base center to an edge midpoint ($s/2 = 55$) form a right triangle. By the Pythagorean theorem:<br/>$$h^2 + 55^2 = 73^2$$<br/>$$h^2 + 3,025 = 5,329$$<br/>$$h^2 = 2,304$$<br/>$$h = 48 \\text{ inches}$$<br/>That matches choice A — <strong>A</strong> is correct."
+    }
+  ]
+}

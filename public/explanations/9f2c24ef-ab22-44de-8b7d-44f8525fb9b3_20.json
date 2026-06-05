@@ -1,1 +1,23 @@
-{"questionId": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_20", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Identify center and radius of circle P", "content": "Standard form $(x-h)^2 + (y-k)^2 = r^2$ has center $(h,k)$ and radius $r$. For $(x-3)^2 + (y+7)^2 = 25$: center $(3, -7)$, radius $\\sqrt{25} = 5$."}, {"title": "Find center of circle Q", "content": "Shift 1 right and 2 down: $(3+1, -7-2) = (4, -9)$."}, {"title": "Find radius of circle Q", "content": "Diameter of Q is double that of P. P has diameter $10$, so Q has diameter $20$ and radius $10$. Thus $r^2 = 100$."}, {"title": "Eliminate the choices", "content": "<ul><li>A: $(x-2)^2 + (y+5)^2 = 50$ &mdash; wrong shift (would mean 1 left, 2 up) and wrong radius.</li><li>B: $(x-4)^2 + (y+9)^2 = 50$ &mdash; correct center but $r^2 = 50$ gives $r = \\sqrt{50}$, not 10.</li><li>C: $(x-2)^2 + (y+5)^2 = 100$ &mdash; correct radius but wrong center shift.</li><li>D: $(x-4)^2 + (y+9)^2 = 100$ &mdash; correct center $(4,-9)$ and $r^2 = 100$.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_20",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify center and radius of circle P",
+      "content": "Standard form $(x-h)^2 + (y-k)^2 = r^2$ has center $(h,k)$ and radius $r$. For $(x-3)^2 + (y+7)^2 = 25$: center $(3, -7)$, radius $\\sqrt{25} = 5$."
+    },
+    {
+      "title": "Find center of circle Q",
+      "content": "Shift 1 right and 2 down: $(3+1, -7-2) = (4, -9)$."
+    },
+    {
+      "title": "Find radius of circle Q",
+      "content": "Diameter of Q is double that of P. P has diameter $10$, so Q has diameter $20$ and radius $10$. Thus $r^2 = 100$."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li>A: $(x-2)^2 + (y+5)^2 = 50$ &mdash; wrong shift (would mean 1 left, 2 up) and wrong radius.</li><li>B: $(x-4)^2 + (y+9)^2 = 50$ &mdash; correct center but $r^2 = 50$ gives $r = \\sqrt{50}$, not 10.</li><li>C: $(x-2)^2 + (y+5)^2 = 100$ &mdash; correct radius but wrong center shift.</li><li>D: $(x-4)^2 + (y+9)^2 = 100$ &mdash; correct center $(4,-9)$ and $r^2 = 100$.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

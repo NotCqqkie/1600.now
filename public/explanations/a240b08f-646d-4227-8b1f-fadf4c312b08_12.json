@@ -1,1 +1,19 @@
-{"questionId":"a240b08f-646d-4227-8b1f-fadf4c312b08_12","correctAnswer":"0.7,7/10,35/50","section":"Math","steps":[{"title":"Set up","content":"We need P(Site A | Red maple): given a tree is a red maple, what is the probability it comes from Site A? The condition restricts the denominator to red maples only."},{"title":"Solve","content":"From the table: red maples at Site A = 35, total red maples = 50. So P(Site A | Red maple) = 35/50 = 7/10 = 0.7."},{"title":"Answer","content":"<strong>0.7</strong> is correct."}]}
+{
+  "questionId": "a240b08f-646d-4227-8b1f-fadf4c312b08_12",
+  "correctAnswer": "0.7,7/10,35/50",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "We need P(Site A | Red maple): given a tree is a red maple, what is the probability it comes from Site A? The condition restricts the denominator to red maples only."
+    },
+    {
+      "title": "Solve",
+      "content": "From the table: red maples at Site A = 35, total red maples = 50. So P(Site A | Red maple) = 35/50 = 7/10 = 0.7."
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>0.7</strong> is correct."
+    }
+  ]
+}

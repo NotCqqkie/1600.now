@@ -1,1 +1,25 @@
-{"questionId":"99c5e794","correctAnswer":"D","section":"Math","steps":[{"title":"Translate the 4% annual increase","content":"Each year the population becomes the previous year's value plus 4% of it, so it is multiplied by $1 + 0.04 = 1.04$ every year."},{"title":"Build the exponential model","content":"Starting at $15{,}000$ when $x = 0$, after $x$ years the population is:<br/>$$p = 15{,}000 \\cdot (1.04)^x$$"},{"title":"Evaluate each choice","content":"<ul><li>$p = 0.96(15{,}000)^x$: base $15{,}000$ is the starting value, not a growth factor — eliminate.</li><li>$p = 1.04(15{,}000)^x$: same problem — eliminate.</li><li>$p = 15{,}000(0.96)^x$: $0.96$ would mean a $4\\%$ decrease — eliminate.</li><li>$p = 15{,}000(1.04)^x$: correct $4\\%$ growth — matches.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "99c5e794",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the 4% annual increase",
+      "content": "Use two easy table points. At $x=0$, the population is $15{,}000$; after one year, it is $15{,}000(1.04)=15{,}600$. Enter $x_1=[0,1]$, $y_1=[15000,15600]$, and $y_1\\sim a b^{x_1}$ in Desmos.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[15000,15600]",
+        "y_1~a b^{x_1}",
+        "y=a b^x"
+      ]
+    },
+    {
+      "title": "Build the exponential model",
+      "content": "Desmos gives $a=15000$ and $b=1.04$, so the model is $p=15000(1.04)^x$."
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li>$p = 0.96(15{,}000)^x$: base $15{,}000$ is the starting value, not a growth factor — eliminate.</li><li>$p = 1.04(15{,}000)^x$: same problem — eliminate.</li><li>$p = 15{,}000(0.96)^x$: $0.96$ would mean a $4\\%$ decrease — eliminate.</li><li>$p = 15{,}000(1.04)^x$: correct $4\\%$ growth — matches.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

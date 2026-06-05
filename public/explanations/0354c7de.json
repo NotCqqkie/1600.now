@@ -1,1 +1,19 @@
-{"questionId": "0354c7de", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Identify the greatest common factor", "content": "In the expression 5x + 15, find a common factor of both terms:<ul><li>5x = 5 &middot; x</li><li>15 = 5 &middot; 3</li></ul>The greatest common factor (GCF) is 5."}, {"title": "Factor out the GCF", "content": "Divide each term by 5 and write the result inside parentheses:<br/>5x + 15 = 5(x + 3)"}, {"title": "Evaluate each choice", "content": "<ul><li>Choice A: 5(x + 3) — distributing gives 5x + 15 ✓. That matches choice A — <strong>A</strong> is correct.</li><li>Choice B: 5(x + 10) — distributing gives 5x + 50 &ne; 5x + 15. Eliminated.</li><li>Choice C: 5(x + 15) — distributing gives 5x + 75 &ne; 5x + 15. Eliminated.</li><li>Choice D: 5(x + 20) — distributing gives 5x + 100 &ne; 5x + 15. Eliminated.</li></ul>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "0354c7de",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the greatest common factor",
+      "content": "In the expression 5x + 15, find a common factor of both terms:<ul><li>5x = 5 &middot; x</li><li>15 = 5 &middot; 3</li></ul>The greatest common factor (GCF) is 5."
+    },
+    {
+      "title": "Factor out the GCF",
+      "content": "Divide each term by 5 and write the result inside parentheses:<br/>5x + 15 = 5(x + 3)"
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li>Choice A: 5(x + 3) — distributing gives 5x + 15 ✓. That matches choice A — <strong>A</strong> is correct.</li><li>Choice B: 5(x + 10) — distributing gives 5x + 50 &ne; 5x + 15. Eliminated.</li><li>Choice C: 5(x + 15) — distributing gives 5x + 75 &ne; 5x + 15. Eliminated.</li><li>Choice D: 5(x + 20) — distributing gives 5x + 100 &ne; 5x + 15. Eliminated.</li></ul>That matches choice A — <strong>A</strong> is correct."
+    }
+  ]
+}

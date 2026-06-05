@@ -1,1 +1,19 @@
-{"questionId":"70b33953-aa61-407d-a25a-a438792bed03_3","correctAnswer":"A","section":"Math","steps":[{"title":"Factor the second equation","content":"Rewrite: $\\dfrac{cx}{4y}=\\dfrac{c}{4}\\cdot\\dfrac{x}{y}=52$."},{"title":"Combine and compute","content":"Substitute $\\dfrac{x}{y}=52$: $\\dfrac{c}{4}\\cdot 52=52$, so $\\dfrac{c}{4}=1$ and $c=4$.<br/><br/>The answer is <strong>A</strong>."}]}
+{
+  "questionId": "70b33953-aa61-407d-a25a-a438792bed03_3",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor the second equation",
+      "content": "Rewrite: $\\dfrac{cx}{4y}=\\dfrac{c}{4}\\cdot\\dfrac{x}{y}=52$."
+    },
+    {
+      "title": "Combine and compute",
+      "content": "Substitute $\\dfrac{x}{y}=52$: $\\dfrac{c}{4}\\cdot 52=52$, so $\\dfrac{c}{4}=1$ and $c=4$.<br/><br/>The answer is <strong>A</strong>."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice A, 4. The other choices do not satisfy the same condition from the question, so <strong>A</strong> is correct."
+    }
+  ]
+}

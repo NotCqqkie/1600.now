@@ -1,1 +1,21 @@
-{"qid": "4096a482", "steps": [{"explanation": "A margin of error applied to a sample mean produces a confidence interval. With mean $20.5$ and margin of error $1$: lower bound $= 20.5 - 1 = 19.5$, upper bound $= 20.5 + 1 = 21.5$. The interval is $[19.5, 21.5]$."}, {"explanation": "A confidence interval conveys that the true population mean is <em>plausible</em> within the computed range, not that it is guaranteed to lie there. Values outside the interval are not impossible — they are simply less supported by this sample."}, {"explanation": "The interval describes the <em>mean</em> of the population, not the range of every individual data value in the population.", "choices": ["<li>Choice A: &quot;It is plausible that the actual mean is between $19.5$ and $21.5$&quot; — this captures the correct statistical meaning of a confidence interval. That matches choice A — <strong>A</strong> is correct.</li>", "<li>Choice B: &quot;It is not possible&quot; for the mean to fall outside — confidence intervals do not eliminate other values; the true mean could fall outside this range. Eliminated.</li>", "<li>Choice C: Every value in the population is between $19.5$ and $21.5$ — the interval applies to the population <em>mean</em>, not to each individual observation. Eliminated.</li>", "<li>Choice D: The mean is exactly $20.5$ — a sample estimate supports a range, not an exact population value. Eliminated.</li>"]}], "correctAnswer": "A"}
+{
+  "qid": "4096a482",
+  "steps": [
+    {
+      "explanation": "A margin of error applied to a sample mean produces a confidence interval. With mean $20.5$ and margin of error $1$: lower bound $= 20.5 - 1 = 19.5$, upper bound $= 20.5 + 1 = 21.5$. The interval is $[19.5, 21.5]$."
+    },
+    {
+      "explanation": "A confidence interval conveys that the true population mean is <em>plausible</em> within the computed range, not that it is guaranteed to lie there. Values outside the interval are not impossible — they are simply less supported by this sample."
+    },
+    {
+      "explanation": "The interval describes the <em>mean</em> of the population, not the range of every individual data value in the population.",
+      "choices": [
+        "<li>Choice A: &quot;It is plausible that the actual mean is between $19.5$ and $21.5$&quot; — this captures the correct statistical meaning of a confidence interval. That matches choice A — <strong>A</strong> is correct.</li>",
+        "<li>Choice B: &quot;It is not possible&quot; for the mean to fall outside — confidence intervals do not eliminate other values; the true mean could fall outside this range. Eliminated.</li>",
+        "<li>Choice C: Every value in the population is between $19.5$ and $21.5$ — the interval applies to the population <em>mean</em>, not to each individual observation. Eliminated.</li>",
+        "<li>Choice D: The mean is exactly $20.5$ — a sample estimate supports a range, not an exact population value. Eliminated.</li>"
+      ]
+    }
+  ],
+  "correctAnswer": "A"
+}

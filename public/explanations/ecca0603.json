@@ -1,1 +1,23 @@
-{"questionId": "ecca0603", "correctAnswer": "A", "section": "Math", "steps": [{"title": "State the constraints", "content": "Every pair (x, y) in the table must satisfy both conditions simultaneously:<br/>&bull; y &lt; x<br/>&bull; x &lt; 22"}, {"title": "Eliminate choices with x &ge; 22", "content": "Choices C and D have x-values of 23, 24, 25. All violate x &lt; 22. Both eliminated."}, {"title": "Evaluate each remaining choice", "content": "<ul><li><strong>Choice A &mdash; (19,18), (20,19), (21,20)</strong>: Every row: y = x&minus;1 &lt; x &#10003;, and x &isin; {19,20,21} all &lt; 22 &#10003;. All three pairs satisfy both inequalities. &#10003;</li><li><strong>Choice B &mdash; (19,20), (20,21), (21,22)</strong>: First row: y = 20 &gt; x = 19, violates y &lt; x. &#10007;</li><li><strong>Choice C &mdash; (23,22), (24,23), (25,24)</strong>: x-values 23, 24, 25 all violate x &lt; 22. &#10007;</li><li><strong>Choice D &mdash; (23,24), (24,25), (25,26)</strong>: x-values 23, 24, 25 all violate x &lt; 22, and y &gt; x in every row. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.", "desmosExpressions": ["y<x", "x<22"]}]}
+{
+  "questionId": "ecca0603",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "State the constraints",
+      "content": "Every pair (x, y) in the table must satisfy both conditions simultaneously:<br/>&bull; y &lt; x<br/>&bull; x &lt; 22"
+    },
+    {
+      "title": "Eliminate choices with x &ge; 22",
+      "content": "Choices C and D have x-values of 23, 24, 25. All violate x &lt; 22. Both eliminated."
+    },
+    {
+      "title": "Evaluate each remaining choice",
+      "content": "<ul><li><strong>Choice A &mdash; (19,18), (20,19), (21,20)</strong>: Every row: y = x&minus;1 &lt; x &#10003;, and x &isin; {19,20,21} all &lt; 22 &#10003;. All three pairs satisfy both inequalities. &#10003;</li><li><strong>Choice B &mdash; (19,20), (20,21), (21,22)</strong>: First row: y = 20 &gt; x = 19, violates y &lt; x. &#10007;</li><li><strong>Choice C &mdash; (23,22), (24,23), (25,24)</strong>: x-values 23, 24, 25 all violate x &lt; 22. &#10007;</li><li><strong>Choice D &mdash; (23,24), (24,25), (25,26)</strong>: x-values 23, 24, 25 all violate x &lt; 22, and y &gt; x in every row. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y<x",
+        "x<22"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "f0773a55", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Identify the linear model", "content": "The graph shows total charge C versus hours x. Since the electrician charges a onetime fee plus an hourly rate, the relationship is linear: C = (hourly rate)·x + (onetime fee). The slope m = ΔC/Δx represents the change in charge per change in hours, i.e., dollars per hour."}, {"title": "Interpret the slope", "content": "The slope tells us how much the total charge increases for each additional hour of work. That is exactly the electrician’s hourly rate. That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "f0773a55",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the linear model",
+      "content": "The graph shows total charge C versus hours x. Since the electrician charges a onetime fee plus an hourly rate, the relationship is linear: C = (hourly rate)·x + (onetime fee). The slope m = ΔC/Δx represents the change in charge per change in hours, i.e., dollars per hour."
+    },
+    {
+      "title": "Interpret the slope",
+      "content": "The slope tells us how much the total charge increases for each additional hour of work. That is exactly the electrician’s hourly rate. That matches choice A — <strong>A</strong> is correct."
+    }
+  ]
+}

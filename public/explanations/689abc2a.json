@@ -1,1 +1,15 @@
-{"questionId": "689abc2a", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Recognize the operation", "content": "When area is removed from a rectangle, subtract the removed area from the original area to find what remains."}, {"title": "Calculate the remaining area", "content": "Area of rectangle P minus area of removed rectangle:<br/>$$72 - 20 = 52$$<br/>The resulting figure has area $52$ square inches. That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "689abc2a",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the operation",
+      "content": "When area is removed from a rectangle, subtract the removed area from the original area to find what remains."
+    },
+    {
+      "title": "Calculate the remaining area",
+      "content": "Area of rectangle P minus area of removed rectangle:<br/>$$72 - 20 = 52$$<br/>The resulting figure has area $52$ square inches. That matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

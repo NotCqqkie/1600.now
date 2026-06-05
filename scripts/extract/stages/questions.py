@@ -1,7 +1,7 @@
 from __future__ import annotations
 import json
 from pathlib import Path
-from ..utils.claude_client import RateLimitedClient, parse_json_response
+from ..utils.cli_client import RateLimitedClient, parse_json_response
 from ..utils.checkpoint import Checkpoint
 
 QUESTION_EXTRACTION_SYSTEM = "You are extracting SAT practice test questions from official College Board PDFs. Return only valid JSON."

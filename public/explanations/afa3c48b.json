@@ -1,1 +1,15 @@
-{"questionId": "afa3c48b", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Identify the angle relationship", "content": "Since lines $m$ and $n$ are parallel and line $\\ell$ is a transversal cutting through both, the angles $x°$ and $26°$ are on the same side of the transversal and between the parallel lines.<br/><br/>These are <strong>co-interior angles</strong> (also called consecutive interior angles or same-side interior angles)."}, {"title": "Apply the co-interior angle theorem and solve", "content": "When a transversal crosses two parallel lines, co-interior angles are supplementary—they sum to $180°$:<br/>$$x + 26 = 180$$<br/>$$x = 154$$<br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "afa3c48b",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the angle relationship",
+      "content": "Since lines $m$ and $n$ are parallel and line $\\ell$ is a transversal cutting through both, the angles $x°$ and $26°$ are on the same side of the transversal and between the parallel lines.<br/><br/>These are <strong>co-interior angles</strong> (also called consecutive interior angles or same-side interior angles)."
+    },
+    {
+      "title": "Apply the co-interior angle theorem and solve",
+      "content": "When a transversal crosses two parallel lines, co-interior angles are supplementary—they sum to $180°$:<br/>$$x + 26 = 180$$<br/>$$x = 154$$<br/>That matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

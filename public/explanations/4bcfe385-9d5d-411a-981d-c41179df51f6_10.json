@@ -1,1 +1,15 @@
-{"questionId":"4bcfe385-9d5d-411a-981d-c41179df51f6_10","correctAnswer":"A","section":"Math","steps":[{"title":"Identify what the question needs","content":"The equation $H = 2.403L + 23.31$ is linear. The question asks for the best interpretation of the coefficient 2.403 in context. In a linear model $H = mL + b$, the slope $m$ is the change in $H$ per one-unit increase in $L$."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; \"increase in estimated height for each 1-inch increase in femur length\"</strong>: Slope = rise/run = change in $H$ per change in $L$. This is exactly what 2.403 represents. &#10003;</li><li><strong>Choice B &mdash; \"increase in femur length for each 1-inch increase in estimated height\"</strong>: Reverses the roles of $H$ and $L$. The slope gives $ΔH/ΔL$, not $ΔL/ΔH$. &#10007;</li><li><strong>Choice C &mdash; \"increase in femur length for each 23.31-inch increase in estimated height\"</strong>: Confuses slope with the $y$-intercept and still reverses the variables. &#10007;</li><li><strong>Choice D &mdash; \"estimated height of a student whose femur has length $L$ inches\"</strong>: That description fits the entire expression $H$, not the coefficient 2.403 alone. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "4bcfe385-9d5d-411a-981d-c41179df51f6_10",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The equation $H = 2.403L + 23.31$ is linear. The question asks for the best interpretation of the coefficient 2.403 in context. In a linear model $H = mL + b$, the slope $m$ is the change in $H$ per one-unit increase in $L$."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; \"increase in estimated height for each 1-inch increase in femur length\"</strong>: Slope = rise/run = change in $H$ per change in $L$. This is exactly what 2.403 represents. &#10003;</li><li><strong>Choice B &mdash; \"increase in femur length for each 1-inch increase in estimated height\"</strong>: Reverses the roles of $H$ and $L$. The slope gives $ΔH/ΔL$, not $ΔL/ΔH$. &#10007;</li><li><strong>Choice C &mdash; \"increase in femur length for each 23.31-inch increase in estimated height\"</strong>: Confuses slope with the $y$-intercept and still reverses the variables. &#10007;</li><li><strong>Choice D &mdash; \"estimated height of a student whose femur has length $L$ inches\"</strong>: That description fits the entire expression $H$, not the coefficient 2.403 alone. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -10,6 +10,10 @@
     {
       "title": "Multiply total by the decimal percentage",
       "content": "Number of black tiles = $$450 \\times 0.06 = 27$$"
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $27$. It's given that $6%$ of the $450$ tiles in a box are black. Therefore, the number of black tiles in the box can be calculated by multiplying the number of tiles in the box by $\\frac{6}{100}$, which is equivalent to $450\\left(\\frac{6}{100}\\right)$, or $27$."
     }
   ]
 }

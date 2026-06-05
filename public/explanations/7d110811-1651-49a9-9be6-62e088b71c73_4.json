@@ -1,1 +1,25 @@
-{"questionId":"7d110811-1651-49a9-9be6-62e088b71c73_4","correctAnswer":"B","section":"Math","steps":[{"title":"Set up","content":"The slope of the line of best fit equals the rate of temperature change per hour. Read two points: (0, 175) and (10, 575)."},{"title":"Solve","content":"$$\\text{slope} = \\frac{575 - 175}{10 - 0} = \\frac{400}{10} = 40 \\text{ &deg;F per hour}$$The slope is positive, so temperature increases at 40&deg;F per hour."},{"title":"Answer","content":"<strong>B</strong> is correct."}]}
+{
+  "questionId": "7d110811-1651-49a9-9be6-62e088b71c73_4",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "The slope of the line of best fit equals the rate of temperature change per hour. Read two points from the line, $(0,175)$ and $(10,575)$, then use Desmos to fit a line.",
+      "desmosExpressions": [
+        "x_1=[0,10]",
+        "y_1=[175,575]",
+        "y_1~m x_1+b",
+        "y=m x+b"
+      ]
+    },
+    {
+      "title": "Solve",
+      "content": "$$\\text{slope} = \\frac{575 - 175}{10 - 0} = \\frac{400}{10} = 40 \\text{ &deg;F per hour}$$The slope is positive, so temperature increases at 40&deg;F per hour."
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>B</strong> is correct."
+    }
+  ]
+}

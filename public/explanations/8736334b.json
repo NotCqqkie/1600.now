@@ -13,7 +13,10 @@
     },
     {
       "title": "Solve for x",
-      "content": "Multiply both sides by 5: $$284 + x = 370$$. Subtract 284 from both sides: $$x = 86$$. That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "Multiply both sides by $5$: $$284+x=370$$ Subtract $284$: $$x=86$$ In Desmos, you can enter the two means as a single equation and solve the missing value directly. That matches choice C, so <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "mean([72,73,73,76,76])=mean([61,64,74,85,x])"
+      ]
     }
   ]
 }

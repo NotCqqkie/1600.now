@@ -1,1 +1,19 @@
-{"questionId": "4ff597db", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Find the total years worked by all 20 employees", "content": "Use the mean formula: sum of all values equals mean times the count.<br/>$$\\text{Sum}_{20} = 6.7 \\times 20 = 134 \\text{ years}$$"}, {"title": "Find the total years worked by the remaining 19 employees", "content": "After one employee leaves, the remaining 19 have a mean of 6.25 years:<br/>$$\\text{Sum}_{19} = 6.25 \\times 19 = 118.75 \\text{ years}$$"}, {"title": "Find the departing employee's years of service", "content": "Subtract the remaining sum from the original sum:<br/>$$\\text{Departing employee's years} = 134 - 118.75 = 15.25$$<br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "4ff597db",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the total years worked by all 20 employees",
+      "content": "Use the mean formula: sum of all values equals mean times the count.<br/>$$\\text{Sum}_{20} = 6.7 \\times 20 = 134 \\text{ years}$$"
+    },
+    {
+      "title": "Find the total years worked by the remaining 19 employees",
+      "content": "After one employee leaves, the remaining 19 have a mean of 6.25 years:<br/>$$\\text{Sum}_{19} = 6.25 \\times 19 = 118.75 \\text{ years}$$"
+    },
+    {
+      "title": "Find the departing employee's years of service",
+      "content": "Subtract the remaining sum from the original sum:<br/>$$\\text{Departing employee's years} = 134 - 118.75 = 15.25$$<br/>That matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

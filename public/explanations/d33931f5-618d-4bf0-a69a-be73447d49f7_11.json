@@ -1,1 +1,15 @@
-{"questionId": "d33931f5-618d-4bf0-a69a-be73447d49f7_11", "correctAnswer": "8", "section": "Math", "steps": [{"title": "Substitute the value x = 2", "content": "Replace $x$ with $2$ in $$f(x) = 4(x - 2) + 8.$$ This gives $$f(2) = 4(2 - 2) + 8.$$"}, {"title": "Compute the result", "content": "Simplify: $$f(2) = 4(0) + 8 = 0 + 8 = 8.$$ The answer is <strong>8</strong>."}]}
+{
+  "questionId": "d33931f5-618d-4bf0-a69a-be73447d49f7_11",
+  "correctAnswer": "8",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the value x = 2",
+      "content": "Replace $x$ with $2$ in $$f(x) = 4(x - 2) + 8.$$ This gives $$f(2) = 4(2 - 2) + 8.$$"
+    },
+    {
+      "title": "Compute the result",
+      "content": "Simplify: $$f(2) = 4(0) + 8 = 0 + 8 = 8.$$ The answer is <strong>8</strong>."
+    }
+  ]
+}

@@ -1,1 +1,19 @@
-{"questionId":"1e8d7183","correctAnswer":"D","section":"Math","steps":[{"title":"Recognize a difference of squares","content":"Write each term as a perfect square: $256w^2 = (16w)^2$ and $676 = 26^2$. So $256w^2 - 676 = (16w)^2 - 26^2$."},{"title":"Apply $a^2-b^2=(a-b)(a+b)$","content":"With $a=16w$ and $b=26$: $(16w)^2 - 26^2 = (16w - 26)(16w + 26)$."},{"title":"Test the choices","content":"Expand each candidate and compare to $256w^2 - 676$.<ul><li><strong>Choice A &mdash; $(16w-26)(16w-26)$</strong>: $(16w-26)^2 = 256w^2 - 832w + 676$. Has a $w$ term and wrong constant sign. Eliminate.</li><li><strong>Choice B &mdash; $(8w-13)(8w+13)$</strong>: $64w^2 - 169$. Wrong leading coefficient and constant. Eliminate.</li><li><strong>Choice C &mdash; $(8w-13)(8w-13)$</strong>: $64w^2 - 208w + 169$. Wrong on all three terms. Eliminate.</li><li><strong>Choice D &mdash; $(16w-26)(16w+26)$</strong>: $256w^2 - 676$. Exact match.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "1e8d7183",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize a difference of squares",
+      "content": "Write each term as a perfect square: $256w^2 = (16w)^2$ and $676 = 26^2$. So $256w^2 - 676 = (16w)^2 - 26^2$."
+    },
+    {
+      "title": "Apply $a^2-b^2=(a-b)(a+b)$",
+      "content": "With $a=16w$ and $b=26$: $(16w)^2 - 26^2 = (16w - 26)(16w + 26)$."
+    },
+    {
+      "title": "Test the choices",
+      "content": "Expand each candidate and compare to $256w^2 - 676$.<ul><li><strong>Choice A &mdash; $(16w-26)(16w-26)$</strong>: $(16w-26)^2 = 256w^2 - 832w + 676$. Has a $w$ term and wrong constant sign. Eliminate.</li><li><strong>Choice B &mdash; $(8w-13)(8w+13)$</strong>: $64w^2 - 169$. Wrong leading coefficient and constant. Eliminate.</li><li><strong>Choice C &mdash; $(8w-13)(8w-13)$</strong>: $64w^2 - 208w + 169$. Wrong on all three terms. Eliminate.</li><li><strong>Choice D &mdash; $(16w-26)(16w+26)$</strong>: $256w^2 - 676$. Exact match.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

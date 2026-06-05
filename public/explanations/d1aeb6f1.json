@@ -1,1 +1,35 @@
-{"questionId":"d1aeb6f1","correctAnswer":"D","section":"Math","steps":[{"title":"Solve the system by substitution","content":"From $10x=110$, $x=11$. Substitute into $6x-63=y$: $$y = 6(11)-63 = 66-63 = 3.$$"},{"title":"Find $y$","content":"So $y=3$. That matches choice <strong>D</strong> — <strong>D</strong> is correct.","desmosExpressions":["x = 11","y = 6x - 63"]}]}
+{
+  "questionId": "d1aeb6f1",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve the system by substitution",
+      "content": "From $10x=110$, $x=11$. Substitute into $6x-63=y$: $$y = 6(11)-63 = 66-63 = 3.$$"
+    },
+    {
+      "title": "Find $y$",
+      "content": "So $y=3$. That matches choice <strong>D</strong> — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "x = 11",
+        "y = 6x - 63"
+      ]
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice D is correct. Dividing both sides of the equation $10x=110$ by $10$ yields $x=11$. Substituting $11$ for $x$ in the equation $6x-63=y$ yields $6(11)-63=y$, which is equivalent to $66-63=y$, or $3=y$. Therefore, the value of $y$ is $3$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A is incorrect and may result from conceptual or calculation errors."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice B is incorrect. This is the value of $x$, not $y$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice C is incorrect and may result from conceptual or calculation errors."
+    }
+  ]
+}

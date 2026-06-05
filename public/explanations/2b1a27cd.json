@@ -1,1 +1,28 @@
-{"questionId": "2b1a27cd", "correctAnswer": "168", "section": "Math", "steps": [{"title": "Recognize vertex form from the given maximum", "content": "The seal reaches maximum depth at $t = 6$ minutes with depth 302.4 meters. This vertex point $(6, 302.4)$ directly gives us vertex form:<br/>$$g(t) = a(t - 6)^2 + 302.4$$<br/>We don't need to expand or solve a system—the vertex is already built into the equation."}, {"title": "Find coefficient a using the surface point", "content": "The seal reaches the surface (depth = 0) at $t = 12$ minutes. Substitute into the vertex form:<br/>$$0 = a(12 - 6)^2 + 302.4$$<br/>$$0 = 36a + 302.4$$<br/>$$a = -\\frac{302.4}{36} = -8.4$$<br/>So the complete function is $g(t) = -8.4(t - 6)^2 + 302.4$."}, {"title": "Evaluate at t = 10 minutes", "content": "Substitute $t = 10$ into the function:<br/>$$g(10) = -8.4(10 - 6)^2 + 302.4$$<br/>$$g(10) = -8.4(16) + 302.4$$<br/>$$g(10) = -134.4 + 302.4$$<br/>$$g(10) = 168$$<br/>The estimated depth of the seal 10 minutes after entering the water was <strong>168 meters</strong>."}]}
+{
+  "questionId": "2b1a27cd",
+  "correctAnswer": "168",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Fit vertex form in Desmos",
+      "content": "The maximum depth is the vertex $(6,302.4)$, so use $g=a(t-6)^2+302.4$. The seal reaches the surface at $t=12$, so another point is $(12,0)$. Enter those points and fit the coefficient with $d_1\\sim a(t_1-6)^2+302.4$.",
+      "desmosExpressions": [
+        "t_1=[6,12]",
+        "d_1=[302.4,0]",
+        "d_1~a(t_1-6)^2+302.4",
+        "y=a(x-6)^2+302.4"
+      ]
+    },
+    {
+      "title": "Read the model",
+      "content": "Desmos returns $a=-8.4$, so the depth model is $g(t)=-8.4(t-6)^2+302.4$. This is the same result as substituting $(12,0)$ into vertex form."
+    },
+    {
+      "title": "Evaluate at t = 10 minutes",
+      "content": "Evaluate the model at $t=10$: $g(10)=-8.4(10-6)^2+302.4=-8.4(16)+302.4=168$. The estimated depth was <strong>168 meters</strong>.",
+      "desmosExpressions": [
+        "-8.4(10-6)^2+302.4"
+      ]
+    }
+  ]
+}

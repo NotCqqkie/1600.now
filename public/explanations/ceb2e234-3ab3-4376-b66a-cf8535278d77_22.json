@@ -1,1 +1,23 @@
-{"questionId": "ceb2e234-3ab3-4376-b66a-cf8535278d77_22", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Write s(t) and identify a, b, c", "content": "$s(t) = r(t) + 1 = -2t^2 + 53t + 1$. So $a = -2$, $b = 53$, $c = 1$. Negative leading coefficient → parabola opens down → vertex is the maximum."}, {"title": "Vertex shortcut: maximum = $c - \\dfrac{b^2}{4a}$", "content": "Maximum value $= c - \\dfrac{b^2}{4a} = 1 - \\dfrac{53^2}{4(-2)} = 1 + \\dfrac{2809}{8} = 1 + 2\\!\\left(\\dfrac{53}{4}\\right)^2$.", "desmosExpressions": ["y=-2x^2+53x+1", "1+2*(53/4)^2"]}, {"title": "Match the answer", "content": "The maximum of $s$ is $1 + 2\\!\\left(\\dfrac{53}{4}\\right)^2$. That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "ceb2e234-3ab3-4376-b66a-cf8535278d77_22",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write s(t) and identify a, b, c",
+      "content": "$s(t) = r(t) + 1 = -2t^2 + 53t + 1$. So $a = -2$, $b = 53$, $c = 1$. Negative leading coefficient → parabola opens down → vertex is the maximum."
+    },
+    {
+      "title": "Vertex shortcut: maximum = $c - \\dfrac{b^2}{4a}$",
+      "content": "Maximum value $= c - \\dfrac{b^2}{4a} = 1 - \\dfrac{53^2}{4(-2)} = 1 + \\dfrac{2809}{8} = 1 + 2\\!\\left(\\dfrac{53}{4}\\right)^2$.",
+      "desmosExpressions": [
+        "y=-2x^2+53x+1",
+        "1+2*(53/4)^2"
+      ]
+    },
+    {
+      "title": "Match the answer",
+      "content": "The maximum of $s$ is $1 + 2\\!\\left(\\dfrac{53}{4}\\right)^2$. That matches choice C — <strong>C</strong> is correct."
+    }
+  ]
+}

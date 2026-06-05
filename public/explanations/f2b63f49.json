@@ -1,1 +1,19 @@
-{"questionId":"f2b63f49","correctAnswer":"130","section":"Math","steps":[{"title":"Combine like terms","content":"On the left, $8x-7x=x$, so the equation becomes $$x+130=260.$$"},{"title":"Solve for x","content":"Subtract $130$ from both sides: $x=260-130=130$. The answer is <strong>130</strong>."}]}
+{
+  "questionId": "f2b63f49",
+  "correctAnswer": "130",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Combine like terms",
+      "content": "On the left, $8x-7x=x$, so the equation becomes $$x+130=260.$$"
+    },
+    {
+      "title": "Solve for x",
+      "content": "Subtract $130$ from both sides: $x=260-130=130$. The answer is <strong>130</strong>."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $130$. It's given that $8x-7x+130=260$. Combining like terms on the left-hand side of this equation yields $x+130=260$. Subtracting $130$ from each side of this equation yields $x=130$. Therefore, the value of $x$ that's the solution to the given equation is $130$."
+    }
+  ]
+}

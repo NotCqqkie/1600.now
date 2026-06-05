@@ -398,7 +398,7 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Linear functions",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 13,
     "test_name": "May 2024 International Form A SAT Math Module 2",
     "passage": "The function $ f $ is defined by $ f(x) = (x - 9)(x - 6)(x - 5) $. In the $xy$-plane, the graph of $ y = g(x) $ is the result of translating the graph of $ y = f(x) $ up 4 units. What is the value of $ g(0) $?",
@@ -539,7 +539,7 @@
     "section": "Math",
     "domain": "Advanced Math",
     "skill": "Equivalent expressions",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "question_number": 19,
     "test_name": "May 2024 International Form A SAT Math Module 2",
     "passage": "Which of the following expressions has a factor of $x + 2b$, where $b$ is a positive integer constant?",
@@ -574,7 +574,7 @@
     "difficulty": "Hard",
     "question_number": 20,
     "test_name": "May 2024 International Form A SAT Math Module 2",
-    "passage": "$31(x - n) = 31y + 31n$\nOne of the equations in a system of two linear equations is given, where $n$ is a positive constant. The system has no solution. Which equation could be the second equation in this system?",
+    "passage": "$3(x - n) = 9y + 15n$\nOne of the equations in a system of two linear equations is given, where $n$ is a positive constant. The system has no solution. Which equation could be the second equation in this system?",
     "question_text": null,
     "choices": [
       {

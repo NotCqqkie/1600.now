@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Read braking distances and calculate the difference",
-      "content": "From the graph, at 30 miles per hour the braking distance is approximately 75 feet, and at 50 miles per hour it is approximately 200 feet. The difference is: $$200 - 75 = 125 \\text{ feet}$$ That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "From the graph, at 30 miles per hour the braking distance is approximately 75 feet, and at 50 miles per hour it is approximately 200 feet. The difference is: $$200 - 75 = 125 \\text{ feet}$$ That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

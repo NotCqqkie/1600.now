@@ -1,1 +1,15 @@
-{"questionId": "79340403", "correctAnswer": "30", "section": "Math", "steps": [{"title": "Read Group 1's bar value from the graph", "content": "Locate group 1 on the horizontal axis. The bar for group 1 reaches to 30 on the vertical axis (Number of books). The answer is <strong>30</strong>. — the answer is 30."}]}
+{
+  "questionId": "79340403",
+  "correctAnswer": "30",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read Group 1's bar value from the graph",
+      "content": "Locate group 1 on the horizontal axis. The bar for group 1 reaches to 30 on the vertical axis (Number of books). The answer is <strong>30</strong>. — the answer is 30."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $30$. The height of each bar in the bar graph shown represents the number of books collected by the group specified at the bottom of the bar. The bar for group $1$ reaches a height of $30$. Therefore, group $1$ collected $30$ books."
+    }
+  ]
+}

@@ -7,6 +7,7 @@ import { SatScoreCard } from "@/components/practice/SatScoreCard";
 import { getAllPracticeTestResults } from "@/lib/practice/practiceTestSession";
 import { getAllModulePracticeResults, type ModulePracticeResult } from "@/lib/practice/modulePracticeSession";
 import { cn } from "@/lib/utils";
+import { useAuth } from "@/contexts/AuthContext";
 
 type ResultType = "full" | "modules";
 
@@ -95,11 +96,13 @@ const ModuleResultCard = ({
 
 const TestResults = () => {
   const [searchParams, setSearchParams] = useSearchParams();
+  const { user } = useAuth();
+  const uid = user?.id ?? null;
   const activeSessionId = searchParams.get("session");
   const requestedType = searchParams.get("type");
   const resultType: ResultType = requestedType === "modules" ? "modules" : "full";
-  const fullTestResults = useMemo(() => getAllPracticeTestResults(), []);
-  const moduleResults = useMemo(() => getAllModulePracticeResults(), []);
+  const fullTestResults = useMemo(() => getAllPracticeTestResults(uid), [uid]);
+  const moduleResults = useMemo(() => getAllModulePracticeResults(uid), [uid]);
   const showingModules = resultType === "modules";
 
   const setResultType = (value: ResultType) => {

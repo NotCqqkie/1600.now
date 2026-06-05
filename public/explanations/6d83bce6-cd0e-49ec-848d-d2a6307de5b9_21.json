@@ -1,1 +1,21 @@
-{"questionId": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_21", "correctAnswer": "600", "section": "Math", "steps": [{"title": "Define variables in terms of mass B", "content": "Let mass of A = 4.38B (since 438% = 4.38).<br/>Let mass of A = 0.00073C (since 0.073% = 0.00073).<br/>Equate the two expressions for A: $$4.38B = 0.00073C$$", "formula": "$$\\frac{\\text{mass A}}{\\text{mass B}} = 4.38$$"}, {"title": "Solve for C in terms of B", "content": "Substitute into equation: $$4.38B = 0.00073C \\Rightarrow C = \\frac{4.38}{0.00073}B$$<br/>Simplify the division: $$\\frac{4.38}{0.00073} = 6000$$<br/>Thus: $$C = 6000B$$", "formula": "$$C = \\frac{\\text{mass C}}{\\text{mass B}} = 6000$$"}, {"title": "Convert to percentage and divide by 1000", "content": "Since C = 6000B, mass C is 6000% of mass B (p = 6000%).<br/>Calculate $\\frac{p}{1000}$: $$\\frac{6000}{1000} = 600$$<br/>The answer is <strong>600</strong>."}]}
+{
+  "questionId": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_21",
+  "correctAnswer": "600",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Define variables in terms of mass B",
+      "content": "Let mass of A = 4.38B (since 438% = 4.38).<br/>Let mass of A = 0.00073C (since 0.073% = 0.00073).<br/>Equate the two expressions for A: $$4.38B = 0.00073C$$",
+      "formula": "$$\\frac{\\text{mass A}}{\\text{mass B}} = 4.38$$"
+    },
+    {
+      "title": "Solve for C in terms of B",
+      "content": "Substitute into equation: $$4.38B = 0.00073C \\Rightarrow C = \\frac{4.38}{0.00073}B$$<br/>Simplify the division: $$\\frac{4.38}{0.00073} = 6000$$<br/>Thus: $$C = 6000B$$",
+      "formula": "$$C = \\frac{\\text{mass C}}{\\text{mass B}} = 6000$$"
+    },
+    {
+      "title": "Convert to percentage and divide by 1000",
+      "content": "Since C = 6000B, mass C is 6000% of mass B (p = 6000%).<br/>Calculate $\\frac{p}{1000}$: $$\\frac{6000}{1000} = 600$$<br/>The answer is <strong>600</strong>."
+    }
+  ]
+}

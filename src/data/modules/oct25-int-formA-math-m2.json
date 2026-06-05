@@ -634,7 +634,7 @@
     "section": "Math",
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, angles, and triangles",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "question_number": 21,
     "test_name": "October 2025 International Form A SAT Math Module 2",
     "passage": "In triangle $RST$, angle $T$ is a right angle, point $L$ lies on $\\overline{RS}$, point $K$ lies on $\\overline{ST}$, and $\\overline{LK}$ is parallel to $\\overline{RT}$. If the length of $\\overline{RT}$ is 63 units, the length of $\\overline{LK}$ is 21 units, and the area of triangle $RST$ is 252 square units, what is the length of $\\overline{KT}$, in units?",

@@ -1,1 +1,19 @@
-{"questionId": "0df106df", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Set up the system of equations", "content": "Let $n$ = number of novels and $m$ = number of magazines.<br/><br/>Since there are 11 total items: $$n + m = 11$$<br/>Since the total cost is \\$20: $$4n + m = 20$$"}, {"title": "Solve by elimination", "content": "Subtract the first equation from the second to eliminate $m$:<br/>$$(4n + m) - (n + m) = 20 - 11$$<br/>Simplify: $$3n = 9$$<br/>Divide both sides by 3: $$n = 3$$<br/>That matches choice B — <strong>B</strong> is correct.", "desmosExpressions": ["y = 11 - x", "y = 20 - 4x"]}]}
+{
+  "questionId": "0df106df",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the system of equations",
+      "content": "Let $n$ = number of novels and $m$ = number of magazines.<br/><br/>Since there are 11 total items: $$n + m = 11$$<br/>Since the total cost is \\$20: $$4n + m = 20$$"
+    },
+    {
+      "title": "Solve by elimination",
+      "content": "Subtract the first equation from the second to eliminate $m$:<br/>$$(4n + m) - (n + m) = 20 - 11$$<br/>Simplify: $$3n = 9$$<br/>Divide both sides by 3: $$n = 3$$<br/>That matches choice B — <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "y = 11 - x",
+        "y = 20 - 4x"
+      ]
+    }
+  ]
+}

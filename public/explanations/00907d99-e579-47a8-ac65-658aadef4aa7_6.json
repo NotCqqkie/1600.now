@@ -1,1 +1,23 @@
-{"questionId": "00907d99-e579-47a8-ac65-658aadef4aa7_6", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Solve the system by substitution", "content": "Substitute $x=16$ into $-3x+y=-5$: $$-3(16)+y=-5 \\Rightarrow y=-5+48=43.$$"}, {"title": "Find the value of $x + y$", "content": "Then $x+y=16+43=59$. That matches choice <strong>C</strong> — <strong>C</strong> is correct.", "desmosExpressions": ["x = 4", "y = 3x - 5"]}]}
+{
+  "questionId": "00907d99-e579-47a8-ac65-658aadef4aa7_6",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve the system by substitution",
+      "content": "Substitute $x=16$ into $-3x+y=-5$: $$-3(16)+y=-5 \\Rightarrow y=-5+48=43.$$"
+    },
+    {
+      "title": "Find the value of $x + y$",
+      "content": "Then $x+y=16+43=59$. That matches choice <strong>C</strong> — <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "x = 4",
+        "y = 3x - 5"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice C, 11. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
+    }
+  ]
+}

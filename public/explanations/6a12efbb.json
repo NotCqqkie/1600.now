@@ -1,1 +1,15 @@
-{"questionId": "6a12efbb", "correctAnswer": "15", "section": "Math", "steps": [{"title": "Substitute y = 8 into the perimeter equation", "content": "The given perimeter equation for the rectangular rug is $ 46 = 2x + 2y $. The width $ y $ of the rug is given as 8 feet. Substitute this value into the equation: <br/>$$ 46 = 2x + 2(8) $$<br/>Simplify the right side: $$ 46 = 2x + 16 $$<br/>Subtract 16 from both sides: $$ 30 = 2x $$<br/>Divide both sides by 2: $$ x = 15 $$<br/> The answer is <strong>15</strong>.", "desmosExpressions": ["2x+2y=46", "(15,8)"]}]}
+{
+  "questionId": "6a12efbb",
+  "correctAnswer": "15",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute y = 8 into the perimeter equation",
+      "content": "The given perimeter equation for the rectangular rug is $ 46 = 2x + 2y $. The width $ y $ of the rug is given as 8 feet. Substitute this value into the equation: <br/>$$ 46 = 2x + 2(8) $$<br/>Simplify the right side: $$ 46 = 2x + 16 $$<br/>Subtract 16 from both sides: $$ 30 = 2x $$<br/>Divide both sides by 2: $$ x = 15 $$<br/> The answer is <strong>15</strong>.",
+      "desmosExpressions": [
+        "2x+2y=46",
+        "(15,8)"
+      ]
+    }
+  ]
+}

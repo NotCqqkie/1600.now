@@ -1,1 +1,15 @@
-{"questionId": "94868488-f2b6-48b0-9e22-a683ccbda0e0_15", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Calculate temperature after the first 4 minutes", "content": "During the first 4.0 minutes, the temperature increases at 6.5°C per minute.<br/><br/>Temperature increase: $6.5 \\times 4.0 = 26°C$<br/>Temperature at $t = 4.0$ minutes: $23 + 26 = 49°C$"}, {"title": "Set up equation for the second phase", "content": "After $t = 4.0$, the temperature increases at 2.4°C per minute for $(x - 4.0)$ minutes. The final temperature equals the temperature at $t = 4.0$ plus the increase during the second phase:<br/>$$49 + 2.4(x - 4.0) = 63$$<br/>Rearranging to match the answer choices:<br/>$$63 = 2.4(x - 4.0) + 49$$<br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "94868488-f2b6-48b0-9e22-a683ccbda0e0_15",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate temperature after the first 4 minutes",
+      "content": "During the first 4.0 minutes, the temperature increases at 6.5°C per minute.<br/><br/>Temperature increase: $6.5 \\times 4.0 = 26°C$<br/>Temperature at $t = 4.0$ minutes: $23 + 26 = 49°C$"
+    },
+    {
+      "title": "Set up equation for the second phase",
+      "content": "After $t = 4.0$, the temperature increases at 2.4°C per minute for $(x - 4.0)$ minutes. The final temperature equals the temperature at $t = 4.0$ plus the increase during the second phase:<br/>$$49 + 2.4(x - 4.0) = 63$$<br/>Rearranging to match the answer choices:<br/>$$63 = 2.4(x - 4.0) + 49$$<br/>That matches choice C — <strong>C</strong> is correct."
+    }
+  ]
+}

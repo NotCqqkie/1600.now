@@ -1,1 +1,11 @@
-{"questionId": "fde6f3bb", "correctAnswer": "D", "section": "Math", "steps": ["Multiply g(x) &middot; h(x) = (3/5 x + 7/6)(6x &minus; 5) by distributing each term: (3/5 x)(6x) = 18x&sup2;/5, (3/5 x)(&minus;5) = &minus;3x, (7/6)(6x) = 7x, (7/6)(&minus;5) = &minus;35/6.", "Combine the x-terms: &minus;3x + 7x = 4x.", "Result: 18x&sup2;/5 + 4x &minus; 35/6."], "choiceElimination": "<ul><li><strong>Choice A &mdash; '18x&sup2;/5 &minus; 35/6'</strong>: Missing the 4x middle term. The inner and outer products (&minus;3x and +7x) sum to +4x, not zero. &#10007;</li><li><strong>Choice B &mdash; '18x&sup2;/5 + 27x/11 &minus; 35/6'</strong>: 27x/11 is not produced by any combination of the given fractions; &minus;3x + 7x = 4x, not 27x/11. &#10007;</li><li><strong>Choice C &mdash; '18x&sup2;/5 &minus; 4x &minus; 35/6'</strong>: Sign on the x-term is wrong. Outer is &minus;3x, inner is +7x, giving +4x not &minus;4x. &#10007;</li><li><strong>Choice D &mdash; '18x&sup2;/5 + 4x &minus; 35/6'</strong>: Matches exactly: 18x&sup2;/5 + 4x &minus; 35/6. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}
+{
+  "questionId": "fde6f3bb",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    "Multiply g(x) &middot; h(x) = (3/5 x + 7/6)(6x &minus; 5) by distributing each term: (3/5 x)(6x) = 18x&sup2;/5, (3/5 x)(&minus;5) = &minus;3x, (7/6)(6x) = 7x, (7/6)(&minus;5) = &minus;35/6.",
+    "Combine the x-terms: &minus;3x + 7x = 4x.",
+    "Result: 18x&sup2;/5 + 4x &minus; 35/6."
+  ],
+  "choiceElimination": "<ul><li><strong>Choice A &mdash; '18x&sup2;/5 &minus; 35/6'</strong>: Missing the 4x middle term. The inner and outer products (&minus;3x and +7x) sum to +4x, not zero. &#10007;</li><li><strong>Choice B &mdash; '18x&sup2;/5 + 27x/11 &minus; 35/6'</strong>: 27x/11 is not produced by any combination of the given fractions; &minus;3x + 7x = 4x, not 27x/11. &#10007;</li><li><strong>Choice C &mdash; '18x&sup2;/5 &minus; 4x &minus; 35/6'</strong>: Sign on the x-term is wrong. Outer is &minus;3x, inner is +7x, giving +4x not &minus;4x. &#10007;</li><li><strong>Choice D &mdash; '18x&sup2;/5 + 4x &minus; 35/6'</strong>: Matches exactly: 18x&sup2;/5 + 4x &minus; 35/6. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+}

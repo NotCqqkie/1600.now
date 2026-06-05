@@ -1,1 +1,15 @@
-{"questionId": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_10", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Factor out the GCF", "content": "The greatest common factor of $7x^{6}$ and $14x^{2}$ is $7x^{2}$. Pull it out: $$7x^{6}-14x^{2}=7x^{2}(x^{4}-2).$$"}, {"title": "Check each choice", "content": "<ul><li>A: $7(x^{3}-2x^{2})^{2}$ expands to $7(x^{6}-4x^{5}+4x^{4})=7x^{6}-28x^{5}+28x^{4}$ &mdash; wrong.</li><li>B: $x^{2}(7x-2)^{4}$ uses a 4th power, producing terms like $2401x^{6}$ with extra middle terms &mdash; wrong.</li><li>C: $7x^{2}(x-2)^{4}$ also uses a 4th power and gives $7x^{6}-56x^{5}+\\dots$ &mdash; wrong.</li><li>D: $7x^{2}(x^{4}-2)=7x^{6}-14x^{2}$ &mdash; matches.</li></ul><strong>D</strong> is correct."}]}
+{
+  "questionId": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_10",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor out the GCF",
+      "content": "The greatest common factor of $7x^{6}$ and $14x^{2}$ is $7x^{2}$. Pull it out: $$7x^{6}-14x^{2}=7x^{2}(x^{4}-2).$$"
+    },
+    {
+      "title": "Check each choice",
+      "content": "<ul><li>A: $7(x^{3}-2x^{2})^{2}$ expands to $7(x^{6}-4x^{5}+4x^{4})=7x^{6}-28x^{5}+28x^{4}$ &mdash; wrong.</li><li>B: $x^{2}(7x-2)^{4}$ uses a 4th power, producing terms like $2401x^{6}$ with extra middle terms &mdash; wrong.</li><li>C: $7x^{2}(x-2)^{4}$ also uses a 4th power and gives $7x^{6}-56x^{5}+\\dots$ &mdash; wrong.</li><li>D: $7x^{2}(x^{4}-2)=7x^{6}-14x^{2}$ &mdash; matches.</li></ul><strong>D</strong> is correct."
+    }
+  ]
+}

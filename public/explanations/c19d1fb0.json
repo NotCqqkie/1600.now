@@ -10,7 +10,9 @@
     {
       "title": "Evaluate the equation at t = 0",
       "content": "Substitute $t = 0$ into $h = -4.9t^2 + 9t + 18$:<br/>$$h = -4.9(0)^2 + 9(0) + 18 = 18$$The initial height is <strong>18 meters</strong>.",
-      "desmosExpressions": ["h=-4.9(t)^(2)+9t+18"]
+      "desmosExpressions": [
+        "h=-4.9(t)^(2)+9t+18"
+      ]
     }
   ]
 }

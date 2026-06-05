@@ -1,1 +1,22 @@
-{"questionId":"9f6c3595-ed0e-41a0-8889-7d3730d37b4c_19","correctAnswer":"D","section":"Math","steps":[{"title":"Set up","content":"A 60&deg; arc is $\\frac{60}{360} = \\frac{1}{6}$ of the full circle, so arc length = $\\frac{1}{6} \\cdot C$. Set that equal to 4: $$4 = \\frac{1}{6} \\cdot C$$"},{"title":"Solve","content":"Multiply both sides by 6: $$C = 24 \\text{ inches}$$"},{"title":"Answer","content":"<strong>D</strong> is correct.","desmosExpressions":["x^2 + y^2 = (24/(2\\pi))^2"]}]}
+{
+  "questionId": "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_19",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "A 60&deg; arc is $\\frac{60}{360} = \\frac{1}{6}$ of the full circle, so arc length = $\\frac{1}{6} \\cdot C$. Set that equal to 4: $$4 = \\frac{1}{6} \\cdot C$$"
+    },
+    {
+      "title": "Solve",
+      "content": "Multiply both sides by 6: $$C = 24 \\text{ inches}$$"
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "x^2 + y^2 = (24/(2\\pi))^2"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,28 @@
-{"questionId":"301d8663-e49a-4c21-9635-ef2d02614b43_10","correctAnswer":"D","section":"Math","steps":[{"title":"Set up","content":"Find the slope using two table points: $m = \\dfrac{\\left(27 + \\frac{1}{27}\\right) - \\left(27 + \\frac{11}{27}\\right)}{-1-(-11)} = \\dfrac{-\\frac{10}{27}}{10} = -\\dfrac{1}{27}$."},{"title":"Solve","content":"Use point-slope form with $(-1,\\ 27 + \\frac{1}{27})$: $y = -\\frac{1}{27}x + 27$. Set $y = 0$: $\\frac{1}{27}x = 27 \\Rightarrow x = 729$."},{"title":"Answer","content":"<strong>D</strong> is correct."}]}
+{
+  "questionId": "301d8663-e49a-4c21-9635-ef2d02614b43_10",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use Desmos to fit the fractional table",
+      "content": "Enter the two visible points as lists: $x_1=[-11,-1]$ and $y_1=[27+\\frac{11}{27},27+\\frac{1}{27}]$. Then type $y_1 \\sim m x_1+b$. Desmos returns $m=-\\frac{1}{27}$ and $b=27$, so the line is $y=-\\frac{x}{27}+27$.",
+      "desmosExpressions": [
+        "x_1=[-11,-1]",
+        "y_1=[27+\\frac{11}{27},27+\\frac{1}{27}]",
+        "y_1~m x_1+b",
+        "y=-x/27+27"
+      ]
+    },
+    {
+      "title": "Find the x-intercept",
+      "content": "The x-intercept is where $y=0$. From $y=-\\frac{x}{27}+27$, set $0=-\\frac{x}{27}+27$. Then $\\frac{x}{27}=27$, so $x=729$. The intercept is $(729,0)$.",
+      "desmosExpressions": [
+        "(729,0)"
+      ]
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>D</strong> is correct."
+    }
+  ]
+}

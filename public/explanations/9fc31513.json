@@ -1,1 +1,15 @@
-{"questionId": "9fc31513", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Find total length of the two equal sides", "content": "Each equal side is 10 ft, so together they measure $$2 \\times 10 = 20$$ feet."}, {"title": "Subtract from the perimeter to get the third side", "content": "Perimeter is 36 ft, so the third side is $$36 - 20 = 16$$ feet.<br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "9fc31513",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find total length of the two equal sides",
+      "content": "Each equal side is 10 ft, so together they measure $$2 \\times 10 = 20$$ feet."
+    },
+    {
+      "title": "Subtract from the perimeter to get the third side",
+      "content": "Perimeter is 36 ft, so the third side is $$36 - 20 = 16$$ feet.<br/>That matches choice C — <strong>C</strong> is correct."
+    }
+  ]
+}

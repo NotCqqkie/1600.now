@@ -1,1 +1,15 @@
-{"qid":"a16355d1-6cca-4c4e-8e0a-f405892830f1_11","steps":[{"explanation":"The problem states the length is 72 times the width w, so length = 72w. Area = length × width = (72w)(w), which matches the given function."},{"explanation":"In the expression y = (72w)(w), the two factors are the two dimensions: w is the width and 72w is the length."},{"explanation":"<ul><li>A: &quot;The length of the rectangle, in feet&quot; — 72w = 72 times the width, which is exactly the length. That matches choice A — <strong>A</strong> is correct.</li><li>B: &quot;The area of the rectangle&quot; — the area is y, the entire product (72w)(w), not just one factor. Eliminated.</li><li>C: &quot;The difference between length and width&quot; — that would be 72w - w = 71w, not 72w. Eliminated.</li><li>D: &quot;The width of the rectangle&quot; — the width is w, not 72w. Eliminated.</li></ul>"}],"correctAnswer":"A"}
+{
+  "qid": "a16355d1-6cca-4c4e-8e0a-f405892830f1_11",
+  "steps": [
+    {
+      "explanation": "The problem states the length is 72 times the width w, so length = 72w. Area = length × width = (72w)(w), which matches the given function."
+    },
+    {
+      "explanation": "In the expression y = (72w)(w), the two factors are the two dimensions: w is the width and 72w is the length."
+    },
+    {
+      "explanation": "<ul><li>A: &quot;The length of the rectangle, in feet&quot; — 72w = 72 times the width, which is exactly the length. That matches choice A — <strong>A</strong> is correct.</li><li>B: &quot;The area of the rectangle&quot; — the area is y, the entire product (72w)(w), not just one factor. Eliminated.</li><li>C: &quot;The difference between length and width&quot; — that would be 72w - w = 71w, not 72w. Eliminated.</li><li>D: &quot;The width of the rectangle&quot; — the width is w, not 72w. Eliminated.</li></ul>"
+    }
+  ],
+  "correctAnswer": "A"
+}

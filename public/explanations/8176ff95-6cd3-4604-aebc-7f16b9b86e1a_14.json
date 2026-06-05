@@ -1,1 +1,19 @@
-{"questionId":"8176ff95-6cd3-4604-aebc-7f16b9b86e1a_14","correctAnswer":"72/5,14.4","section":"Math","steps":[{"title":"Simplify the function","content":"We have $c(r) = \\frac{2}{5}(2\\pi r)$. Multiplying the constants:<br/>$$c(r) = \\frac{4\\pi r}{5}$$<br/>This is a linear function with slope $\\frac{4\\pi}{5}$."},{"title":"Find k using the rate of change","content":"For a linear function, when the radius increases by 18 cm, the change in $c$ is:<br/>$$\\Delta c = \\frac{4\\pi}{5} \\cdot 18 = \\frac{72\\pi}{5}$$<br/>Since this change equals $k\\pi$, we have $k\\pi = \\frac{72\\pi}{5}$, so $k = \\frac{72}{5} = 14.4$.<br/><br/>Equivalent forms accepted: <strong>72/5</strong>, <strong>14.4</strong>.","desmosExpressions":["y = \\frac{2}{5}(2\\pi x)","y = \\frac{4\\pi}{5}x"]}]}
+{
+  "questionId": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_14",
+  "correctAnswer": "72/5,14.4",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify the function",
+      "content": "We have $c(r) = \\frac{2}{5}(2\\pi r)$. Multiplying the constants:<br/>$$c(r) = \\frac{4\\pi r}{5}$$<br/>This is a linear function with slope $\\frac{4\\pi}{5}$."
+    },
+    {
+      "title": "Find k using the rate of change",
+      "content": "For a linear function, when the radius increases by 18 cm, the change in $c$ is:<br/>$$\\Delta c = \\frac{4\\pi}{5} \\cdot 18 = \\frac{72\\pi}{5}$$<br/>Since this change equals $k\\pi$, we have $k\\pi = \\frac{72\\pi}{5}$, so $k = \\frac{72}{5} = 14.4$.<br/><br/>Equivalent forms accepted: <strong>72/5</strong>, <strong>14.4</strong>.",
+      "desmosExpressions": [
+        "y = \\frac{2}{5}(2\\pi x)",
+        "y = \\frac{4\\pi}{5}x"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "ffdaaea2-8ec1-44b7-903d-084c644b881a_4", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Read the shaded region from the figure", "content": "From the figure, the shaded region is bounded by one or more lines and occupies a specific portion of the coordinate plane. To find which ordered pair is a solution, plot each candidate point on the same axes and check whether it lies inside the shaded region (including any solid boundary) or outside it."}, {"title": "Test each choice against the shaded region", "content": "Locate each candidate point on the graph and compare its position to the shaded region shown:<ul><li><strong>Choice A &mdash; $(-5, 0)$</strong>: lies on the negative $x$-axis, outside the shaded region in the figure. &#10007;</li><li><strong>Choice B &mdash; $(0, 5)$</strong>: lies on the positive $y$-axis, outside the shaded region in the figure. &#10007;</li><li><strong>Choice C &mdash; $(0, -5)$</strong>: lies on the negative $y$-axis, outside the shaded region in the figure. &#10007;</li><li><strong>Choice D &mdash; $(5, 0)$</strong>: lies on the positive $x$-axis, inside the shaded region shown in the figure. &#10003;</li></ul>Only $(5, 0)$ falls within the shaded region, so it is the only ordered pair that satisfies the inequality."}]}
+{
+  "questionId": "ffdaaea2-8ec1-44b7-903d-084c644b881a_4",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the shaded region from the figure",
+      "content": "From the figure, the shaded region is bounded by one or more lines and occupies a specific portion of the coordinate plane. To find which ordered pair is a solution, plot each candidate point on the same axes and check whether it lies inside the shaded region (including any solid boundary) or outside it."
+    },
+    {
+      "title": "Test each choice against the shaded region",
+      "content": "Locate each candidate point on the graph and compare its position to the shaded region shown:<ul><li><strong>Choice A &mdash; $(-5, 0)$</strong>: lies on the negative $x$-axis, outside the shaded region in the figure. &#10007;</li><li><strong>Choice B &mdash; $(0, 5)$</strong>: lies on the positive $y$-axis, outside the shaded region in the figure. &#10007;</li><li><strong>Choice C &mdash; $(0, -5)$</strong>: lies on the negative $y$-axis, outside the shaded region in the figure. &#10007;</li><li><strong>Choice D &mdash; $(5, 0)$</strong>: lies on the positive $x$-axis, inside the shaded region shown in the figure. &#10003;</li></ul>Only $(5, 0)$ falls within the shaded region, so it is the only ordered pair that satisfies the inequality."
+    }
+  ]
+}

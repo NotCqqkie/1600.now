@@ -1,1 +1,32 @@
-{"qid":"9c1847da-e82b-4814-a0ec-0b4f99891322_14","steps":["In any triangle the three interior angles sum to 180&deg;. For triangle DEF: \\(m\\angle F = 180^\\circ - 43^\\circ - 112^\\circ = 25^\\circ\\).","For triangle RST: \\(m\\angle T = 180^\\circ - 43^\\circ - 112^\\circ = 25^\\circ\\). Both triangles have the exact same three angles: 43&deg;, 112&deg;, and 25&deg;.","The Angle-Angle (AA) similarity criterion states that if two pairs of corresponding angles are equal, the triangles are similar. Here \\(\\angle D = \\angle R = 43^\\circ\\) and \\(\\angle E = \\angle S = 112^\\circ\\), so similarity is already established from the given information alone.","Therefore no additional information is required to conclude that triangle DEF is similar to triangle RST."],"choices":[{"id":"A","text":"The measure of angle F","explanation":"<ul><li>Angle F is fully determined by the angle-sum property: \\(180^\\circ - 43^\\circ - 112^\\circ = 25^\\circ\\). It provides no new information beyond what is already given. This is not needed.</li></ul>"},{"id":"B","text":"The measure of angle T","explanation":"<ul><li>Angle T is likewise fixed at \\(180^\\circ - 43^\\circ - 112^\\circ = 25^\\circ\\). Learning it explicitly changes nothing about the similarity conclusion. This is not needed.</li></ul>"},{"id":"C","text":"The measure of angle F and the measure of angle T","explanation":"<ul><li>Both angles are already determined by arithmetic from the given information. Knowing both still adds nothing beyond what can be computed directly. This is not needed.</li></ul>"},{"id":"D","text":"No additional information is needed.","explanation":"<ul><li>With \\(\\angle D = \\angle R = 43^\\circ\\) and \\(\\angle E = \\angle S = 112^\\circ\\), AA similarity is satisfied immediately. The third angles are forced to equal 25&deg; each. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"}],"correctAnswer":"D"}
+{
+  "qid": "9c1847da-e82b-4814-a0ec-0b4f99891322_14",
+  "steps": [
+    "In any triangle the three interior angles sum to 180&deg;. For triangle DEF: $m\\angle F = 180^\\circ - 43^\\circ - 112^\\circ = 25^\\circ$.",
+    "For triangle RST: $m\\angle T = 180^\\circ - 43^\\circ - 112^\\circ = 25^\\circ$. Both triangles have the exact same three angles: 43&deg;, 112&deg;, and 25&deg;.",
+    "The Angle-Angle (AA) similarity criterion states that if two pairs of corresponding angles are equal, the triangles are similar. Here $\\angle D = \\angle R = 43^\\circ$ and $\\angle E = \\angle S = 112^\\circ$, so similarity is already established from the given information alone.",
+    "Therefore no additional information is required to conclude that triangle DEF is similar to triangle RST."
+  ],
+  "choices": [
+    {
+      "id": "A",
+      "text": "The measure of angle F",
+      "explanation": "<ul><li>Angle F is fully determined by the angle-sum property: $180^\\circ - 43^\\circ - 112^\\circ = 25^\\circ$. It provides no new information beyond what is already given. This is not needed.</li></ul>"
+    },
+    {
+      "id": "B",
+      "text": "The measure of angle T",
+      "explanation": "<ul><li>Angle T is likewise fixed at $180^\\circ - 43^\\circ - 112^\\circ = 25^\\circ$. Learning it explicitly changes nothing about the similarity conclusion. This is not needed.</li></ul>"
+    },
+    {
+      "id": "C",
+      "text": "The measure of angle F and the measure of angle T",
+      "explanation": "<ul><li>Both angles are already determined by arithmetic from the given information. Knowing both still adds nothing beyond what can be computed directly. This is not needed.</li></ul>"
+    },
+    {
+      "id": "D",
+      "text": "No additional information is needed.",
+      "explanation": "<ul><li>With $\\angle D = \\angle R = 43^\\circ$ and $\\angle E = \\angle S = 112^\\circ$, AA similarity is satisfied immediately. The third angles are forced to equal 25&deg; each. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
+    }
+  ],
+  "correctAnswer": "D"
+}

@@ -1,1 +1,31 @@
-{"questionId":"1480dd5c","correctAnswer":"A","section":"Math","steps":[{"title":"Substitute the given value","content":"With $f(x)=4x+b$ and $f(7)=28$, plug $x=7$ into the function:<br/>$$4(7)+b=28\\;\\Rightarrow\\;28+b=28$$"},{"title":"Solve for the unknown","content":"Subtract $28$ from both sides: $b=0$.<br/>That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}
+{
+  "questionId": "1480dd5c",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the given value",
+      "content": "With $f(x)=4x+b$ and $f(7)=28$, plug $x=7$ into the function:<br/>$$4(7)+b=28\\;\\Rightarrow\\;28+b=28$$"
+    },
+    {
+      "title": "Solve for the unknown",
+      "content": "Subtract $28$ from both sides: $b=0$.<br/>That matches choice <strong>A</strong> — <strong>A</strong> is correct."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice A is correct. For the linear function $f$, it's given that $f\\left(7\\right)=28$. Substituting $7$ for $x$ and $28$ for $f\\left(x\\right)$ in the given function yields $28=4\\left(7\\right)+b$, or $28=28+b$. Subtracting $28$ from each side of this equation yields $0=b$. Therefore, the value of $b$ is $0$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice B is incorrect. Substituting $1$ for $b$ in the given function yields $f\\left(x\\right)=4x+1$. For this function, when the value of $x$ is $7$, the value of $f\\left(x\\right)$ is $29$, not $28$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice C is incorrect. Substituting $4$ for $b$ in the given function yields $f\\left(x\\right)=4x+4$. For this function, when the value of $x$ is $7$, the value of $f\\left(x\\right)$ is $32$, not $28$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice D is incorrect. Substituting $7$ for $b$ in the given function yields $f\\left(x\\right)=4x+7$. For this function, when the value of $x$ is $7$, the value of $f\\left(x\\right)$ is $35$, not $28$."
+    }
+  ]
+}

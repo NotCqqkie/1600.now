@@ -1,1 +1,23 @@
-{"questionId":"9c629a63-5faf-46a6-929d-d4196f7c3150_20","correctAnswer":"A","section":"Math","steps":[{"title":"Compare the two data sets","content":"Set A is $\\{8,11,12,15,21,27\\}$. The first five values of Set B are $\\{9,12,13,16,22\\}$, which are exactly the first five values of A each increased by $1$. So whether $\\text{SD}(B)$ is smaller or larger than $\\text{SD}(A)$ depends entirely on how $h$ compares to $27+1=28$."},{"title":"Key fact about adding a constant","content":"Adding the same constant to every value in a data set shifts the mean by that constant but leaves the standard deviation unchanged. So if $h=28$, Set B is just Set A shifted by $+1$, giving $\\text{SD}(B)=\\text{SD}(A)$. To make $\\text{SD}(A)>\\text{SD}(B)$, $h$ must be closer to the rest of the data than $28$ is &mdash; that is, between roughly the mean of the other five values and $28$."},{"title":"Test each option","content":"Mean of the first five B values: $(9+12+13+16+22)/5=14.4$. The value $h=28$ is $13.6$ away from this. Any $h$ between about $14.4-13.6\\approx 0.8$ and $28$ keeps SD(B) below SD(A); anything beyond $28$ (in either direction) increases it.<ul><li>I. $h=23$: distance from $14.4$ is $8.6<13.6$, so SD(B)$<$SD(A). Works.</li><li>II. $h=28$: gives SD(B)$=$SD(A), not strictly less. Fails.</li><li>III. $h=29$: distance from $14.4$ is $14.6>13.6$, so SD(B)$>$SD(A). Fails.</li></ul>Only I works."},{"title":"Match to a choice","content":"<ul><li>A) I only &mdash; matches our result.</li><li>B) II only &mdash; II gives equal SDs, not greater. Eliminated.</li><li>C) III only &mdash; III gives SD(B)$>$SD(A). Eliminated.</li><li>D) II or III &mdash; neither works. Eliminated.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "9c629a63-5faf-46a6-929d-d4196f7c3150_20",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compare the two data sets",
+      "content": "Set A is $\\{8,11,12,15,21,27\\}$. The first five values of Set B are $\\{9,12,13,16,22\\}$, which are exactly the first five values of A each increased by $1$. So whether $\\text{SD}(B)$ is smaller or larger than $\\text{SD}(A)$ depends entirely on how $h$ compares to $27+1=28$."
+    },
+    {
+      "title": "Key fact about adding a constant",
+      "content": "Adding the same constant to every value in a data set shifts the mean by that constant but leaves the standard deviation unchanged. So if $h=28$, Set B is just Set A shifted by $+1$, giving $\\text{SD}(B)=\\text{SD}(A)$. To make $\\text{SD}(A)>\\text{SD}(B)$, $h$ must be closer to the rest of the data than $28$ is &mdash; that is, between roughly the mean of the other five values and $28$."
+    },
+    {
+      "title": "Test each option",
+      "content": "Mean of the first five B values: $(9+12+13+16+22)/5=14.4$. The value $h=28$ is $13.6$ away from this. Any $h$ between about $14.4-13.6\\approx 0.8$ and $28$ keeps SD(B) below SD(A); anything beyond $28$ (in either direction) increases it.<ul><li>I. $h=23$: distance from $14.4$ is $8.6<13.6$, so SD(B)$<$SD(A). Works.</li><li>II. $h=28$: gives SD(B)$=$SD(A), not strictly less. Fails.</li><li>III. $h=29$: distance from $14.4$ is $14.6>13.6$, so SD(B)$>$SD(A). Fails.</li></ul>Only I works."
+    },
+    {
+      "title": "Match to a choice",
+      "content": "<ul><li>A) I only &mdash; matches our result.</li><li>B) II only &mdash; II gives equal SDs, not greater. Eliminated.</li><li>C) III only &mdash; III gives SD(B)$>$SD(A). Eliminated.</li><li>D) II or III &mdash; neither works. Eliminated.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

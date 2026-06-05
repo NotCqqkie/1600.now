@@ -1,1 +1,19 @@
-{"questionId":"23a951fb-833f-4b27-9978-4eb054f855e2_3","correctAnswer":"C","section":"Math","steps":[{"title":"Apply the multiplier from the given condition","content":"Note $56x = 7 \\cdot 8x$, and $8x=9$."},{"title":"Compute the target value","content":"So $56x = 7 \\cdot 9 = 63$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}
+{
+  "questionId": "23a951fb-833f-4b27-9978-4eb054f855e2_3",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the multiplier from the given condition",
+      "content": "Note $56x = 7 \\cdot 8x$, and $8x=9$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "So $56x = 7 \\cdot 9 = 63$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice C, 63. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
+    }
+  ]
+}

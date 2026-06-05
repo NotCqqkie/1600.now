@@ -1,1 +1,11 @@
-{"questionId": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_22", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Apply area formula to find the ratio", "content": "Right angle at B makes AC the hypotenuse with AB = 24 and AC = 37 (from AB + 13). The area can be expressed two ways:<ul><li>Using legs: $(1/2) \\cdot AB \\cdot BC$</li><li>Using hypotenuse and altitude: $(1/2) \\cdot AC \\cdot BD$</li></ul>Setting them equal: $AB \\cdot BC = AC \\cdot BD$.<br/><br/>Solving for the ratio: $\\frac{BC}{BD} = \\frac{AC}{AB} = \\frac{37}{24}$. That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_22",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply area formula to find the ratio",
+      "content": "Right angle at B makes AC the hypotenuse with AB = 24 and AC = 37 (from AB + 13). The area can be expressed two ways:<ul><li>Using legs: $(1/2) \\cdot AB \\cdot BC$</li><li>Using hypotenuse and altitude: $(1/2) \\cdot AC \\cdot BD$</li></ul>Setting them equal: $AB \\cdot BC = AC \\cdot BD$.<br/><br/>Solving for the ratio: $\\frac{BC}{BD} = \\frac{AC}{AB} = \\frac{37}{24}$. That matches choice C — <strong>C</strong> is correct."
+    }
+  ]
+}

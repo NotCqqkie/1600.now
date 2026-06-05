@@ -1,1 +1,15 @@
-{"questionId": "a16355d1-6cca-4c4e-8e0a-f405892830f1_20", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Vieta shortcut: sum of solutions $= -b/a$", "content": "For $x^2 - 84x - 14 = 0$: $a = 1$, $b = -84$.<br/>$$\\text{sum} = -\\frac{b}{a} = -\\frac{-84}{1} = 84$$<br/>No quadratic formula needed."}, {"title": "Read the answer", "content": "The sum of the two solutions is 84. That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "a16355d1-6cca-4c4e-8e0a-f405892830f1_20",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Vieta shortcut: sum of solutions $= -b/a$",
+      "content": "For $x^2 - 84x - 14 = 0$: $a = 1$, $b = -84$.<br/>$$\\text{sum} = -\\frac{b}{a} = -\\frac{-84}{1} = 84$$<br/>No quadratic formula needed."
+    },
+    {
+      "title": "Read the answer",
+      "content": "The sum of the two solutions is 84. That matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

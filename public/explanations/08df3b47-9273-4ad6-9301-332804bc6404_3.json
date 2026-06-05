@@ -1,1 +1,15 @@
-{"questionId": "08df3b47-9273-4ad6-9301-332804bc6404_3", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Identify the given equation", "content": "The given equation is $m = 6(n + p)$. The question asks which choice correctly gives $m$ in terms of $n$ and $p$ — that is, which matches the given equation."}, {"title": "Compare each choice to the given equation", "content": "<ul><li><strong>Choice A &mdash; '$m = \\\\frac{6(n+p)}{11}$'</strong>: Divides by 11, which is not in the original equation. &#10007;</li><li><strong>Choice B &mdash; '$m = 6(n + p)$'</strong>: Identical to the given equation. &#10003;</li><li><strong>Choice C &mdash; '$m = 6(n + p) - 11$'</strong>: Subtracts 11, which is not in the original equation. &#10007;</li><li><strong>Choice D &mdash; '$m = 6 - n - p - 11$'</strong>: Completely changes the structure; distributes incorrectly and subtracts extra terms. &#10007;</li></ul>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "08df3b47-9273-4ad6-9301-332804bc6404_3",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the given equation",
+      "content": "The given equation is $m = 6(n + p)$. The question asks which choice correctly gives $m$ in terms of $n$ and $p$ — that is, which matches the given equation."
+    },
+    {
+      "title": "Compare each choice to the given equation",
+      "content": "<ul><li><strong>Choice A &mdash; '$m = \\\\frac{6(n+p)}{11}$'</strong>: Divides by 11, which is not in the original equation. &#10007;</li><li><strong>Choice B &mdash; '$m = 6(n + p)$'</strong>: Identical to the given equation. &#10003;</li><li><strong>Choice C &mdash; '$m = 6(n + p) - 11$'</strong>: Subtracts 11, which is not in the original equation. &#10007;</li><li><strong>Choice D &mdash; '$m = 6 - n - p - 11$'</strong>: Completely changes the structure; distributes incorrectly and subtracts extra terms. &#10007;</li></ul>That matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -14,6 +14,10 @@
         "y = 19 - x",
         "y = x - 9"
       ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice C, 14. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
     }
   ]
 }

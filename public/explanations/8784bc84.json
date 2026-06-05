@@ -1,1 +1,15 @@
-{"questionId": "8784bc84", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Convert the percentage to a fraction", "content": "To find $20\\%$ of $440$, we express the percentage as a fraction: $20\\% = \\frac{20}{100} = \\frac{1}{5}$."}, {"title": "Multiply the fraction by the whole", "content": "Now we multiply: $$\\frac{1}{5} \\times 440 = \\frac{440}{5} = 88.$$ That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "8784bc84",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert the percentage to a fraction",
+      "content": "To find $20\\%$ of $440$, we express the percentage as a fraction: $20\\% = \\frac{20}{100} = \\frac{1}{5}$."
+    },
+    {
+      "title": "Multiply the fraction by the whole",
+      "content": "Now we multiply: $$\\frac{1}{5} \\times 440 = \\frac{440}{5} = 88.$$ That matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

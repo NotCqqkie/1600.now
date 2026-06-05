@@ -1,1 +1,23 @@
-{"questionId":"b310cd51-4e49-46d2-99c8-70a10c0d83f9_6","correctAnswer":"A","section":"Math","steps":[{"title":"Solve the system by elimination","content":"Add the two equations to eliminate $x$: $$2y=\\left(\\tfrac{x}{4}+6\\right)+\\left(-\\tfrac{x}{4}+20\\right)=26.$$"},{"title":"Find $2y$","content":"So $2y=26$. That matches choice <strong>A</strong> — <strong>A</strong> is correct.","desmosExpressions":["y = \\frac{x}{4} + 6","y = -\\frac{x}{4} + 20"]}]}
+{
+  "questionId": "b310cd51-4e49-46d2-99c8-70a10c0d83f9_6",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve the system by elimination",
+      "content": "Add the two equations to eliminate $x$: $$2y=\\left(\\tfrac{x}{4}+6\\right)+\\left(-\\tfrac{x}{4}+20\\right)=26.$$"
+    },
+    {
+      "title": "Find $2y$",
+      "content": "So $2y=26$. That matches choice <strong>A</strong> — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y = \\frac{x}{4} + 6",
+        "y = -\\frac{x}{4} + 20"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice A, $26$. The other choices do not satisfy the same condition from the question, so <strong>A</strong> is correct."
+    }
+  ]
+}

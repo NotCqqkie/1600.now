@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Calculate perimeter components",
-      "content": "The triangle is isosceles with two congruent sides of 19 feet each. The perimeter is the sum of all sides: $$66 = 19 + 19 + x$$ where $x$ is the third side.<br/><br/>Sum of the two equal sides: $19 + 19 = 38$. Subtract this from the total perimeter: $$66 - 38 = 28$$.<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "The triangle is isosceles with two congruent sides of 19 feet each. The perimeter is the sum of all sides: $$66 = 19 + 19 + x$$ where $x$ is the third side.<br/><br/>Sum of the two equal sides: $19 + 19 = 38$. Subtract this from the total perimeter: $$66 - 38 = 28$$.<br/><br/>That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

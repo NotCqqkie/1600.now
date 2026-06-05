@@ -11,7 +11,11 @@
     {
       "title": "Find the boundary where the discriminant becomes zero",
       "content": "The equation transitions from one solution to zero solutions when $1156 - 4c = 0$. Solving: $4c = 1156$, so $c = 289$. Since no real solutions occur when $c > 289$, the least possible value of $n$ is <strong>289</strong>.",
-      "desmosExpressions": ["y = x^2 - 34x + c", "c = 289"]
+      "desmosExpressions": [
+        "y_1=[0]",
+        "y_1~1156-4c",
+        "y = x^2 - 34x + 290"
+      ]
     }
   ]
 }

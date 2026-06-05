@@ -1,1 +1,23 @@
-{"questionId": "e5001da0-8895-4b72-8d22-da29586dc907_21", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Find the base width from the base area", "content": "Base area $$= l \\times w$$. Given base area $$= 16t$$ cm² and length $$l = \\frac{8}{3}$$ cm:<br/>$$16t = \\frac{8}{3} \\cdot w \\implies w = 16t \\cdot \\frac{3}{8} = 6t \\text{ cm}$$"}, {"title": "Set up the surface area formula", "content": "A right rectangular prism has six faces forming three pairs. With $$l = \\frac{8}{3}$$, $$w = 6t$$, $$h = 9$$:<br/>$$SA = 2lw + 2lh + 2wh$$"}, {"title": "Compute each pair of faces", "content": "<ul><li>Two bases: $$2lw = 2 \\times 16t = 32t$$ cm²</li><li>Two length-height faces: $$2lh = 2 \\times \\frac{8}{3} \\times 9 = 2 \\times 24 = 48$$ cm²</li><li>Two width-height faces: $$2wh = 2 \\times 6t \\times 9 = 108t$$ cm²</li></ul>$$SA = 32t + 48 + 108t = 140t + 48 \\text{ cm}^2$$"}, {"title": "Eliminate wrong choices", "content": "<ul><li>Choice A: $$32t + 96$$ — uses $$2lh = 96$$, which would require $$lh = 48$$; but $$\\frac{8}{3} \\times 9 = 24$$, so $$2lh = 48$$, not 96. Also missing the $$108t$$ term. Eliminated.</li><li>Choice B: $$140t + 48$$ — matches $$32t + 108t + 48 = 140t + 48$$. Correct.</li><li>Choice C: $$800t + 48$$ — the variable coefficient is far too large; no combination of the given dimensions produces it. Eliminated.</li><li>Choice D: $$144t$$ — purely variable with no constant term, but the length-height faces contribute a constant 48. Eliminated.</li></ul>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "e5001da0-8895-4b72-8d22-da29586dc907_21",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the base width from the base area",
+      "content": "Base area $$= l \\times w$$. Given base area $$= 16t$$ cm² and length $$l = \\frac{8}{3}$$ cm:<br/>$$16t = \\frac{8}{3} \\cdot w \\implies w = 16t \\cdot \\frac{3}{8} = 6t \\text{ cm}$$"
+    },
+    {
+      "title": "Set up the surface area formula",
+      "content": "A right rectangular prism has six faces forming three pairs. With $$l = \\frac{8}{3}$$, $$w = 6t$$, $$h = 9$$:<br/>$$SA = 2lw + 2lh + 2wh$$"
+    },
+    {
+      "title": "Compute each pair of faces",
+      "content": "<ul><li>Two bases: $$2lw = 2 \\times 16t = 32t$$ cm²</li><li>Two length-height faces: $$2lh = 2 \\times \\frac{8}{3} \\times 9 = 2 \\times 24 = 48$$ cm²</li><li>Two width-height faces: $$2wh = 2 \\times 6t \\times 9 = 108t$$ cm²</li></ul>$$SA = 32t + 48 + 108t = 140t + 48 \\text{ cm}^2$$"
+    },
+    {
+      "title": "Eliminate wrong choices",
+      "content": "<ul><li>Choice A: $$32t + 96$$ — uses $$2lh = 96$$, which would require $$lh = 48$$; but $$\\frac{8}{3} \\times 9 = 24$$, so $$2lh = 48$$, not 96. Also missing the $$108t$$ term. Eliminated.</li><li>Choice B: $$140t + 48$$ — matches $$32t + 108t + 48 = 140t + 48$$. Correct.</li><li>Choice C: $$800t + 48$$ — the variable coefficient is far too large; no combination of the given dimensions produces it. Eliminated.</li><li>Choice D: $$144t$$ — purely variable with no constant term, but the length-height faces contribute a constant 48. Eliminated.</li></ul>That matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

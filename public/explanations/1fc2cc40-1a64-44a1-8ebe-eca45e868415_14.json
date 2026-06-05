@@ -1,1 +1,20 @@
-{"questionId": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_14", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Find slope and y-intercept", "content": "The point (0, 0) lies on the y-axis, so the y-intercept is 0.<br/>The slope between (0, 0) and (1, 10) is:<br/>$$m = \\frac{10-0}{1-0} = 10$$"}, {"title": "Form the linear equation", "content": "Using the slope-intercept form $y = mx + b$ with $m = 10$ and $b = 0$:<br/>$$h(x) = 10x$$<br/>That matches choice A — <strong>A</strong> is correct.", "desmosExpressions": ["y = 10x", "(0, 0)", "(1, 10)"]}]}
+{
+  "questionId": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_14",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find slope and y-intercept",
+      "content": "The point (0, 0) lies on the y-axis, so the y-intercept is 0.<br/>The slope between (0, 0) and (1, 10) is:<br/>$$m = \\frac{10-0}{1-0} = 10$$"
+    },
+    {
+      "title": "Form the linear equation",
+      "content": "Using the slope-intercept form $y = mx + b$ with $m = 10$ and $b = 0$:<br/>$$h(x) = 10x$$<br/>That matches choice A — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y = 10x",
+        "(0, 0)",
+        "(1, 10)"
+      ]
+    }
+  ]
+}

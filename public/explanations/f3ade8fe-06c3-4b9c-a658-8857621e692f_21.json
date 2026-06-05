@@ -1,1 +1,26 @@
-{"questionId":"f3ade8fe-06c3-4b9c-a658-8857621e692f_21","correctAnswer":"49","section":"Math","steps":[{"title":"Rewrite as a standard quadratic","content":"$x(kx - 40) = -8 \\Rightarrow kx^{2} - 40x + 8 = 0$."},{"title":"Discriminant shortcut: two distinct solutions means \\(\\Delta > 0\\)","content":"$$(-40)^{2} - 4(k)(8) > 0$$$$1600 - 32k > 0 \\implies k < 50.$$"},{"title":"Greatest integer value","content":"Since $k$ is an integer, the greatest value is $k = 49$. The answer is <strong>49</strong>."}]}
+{
+  "questionId": "f3ade8fe-06c3-4b9c-a658-8857621e692f_21",
+  "correctAnswer": "49",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rewrite as a quadratic",
+      "content": "Expand the equation and move everything to one side: $$x(kx-40)=-8$$ $$kx^2-40x+8=0.$$"
+    },
+    {
+      "title": "Use the discriminant shortcut",
+      "content": "Two distinct real solutions means the discriminant is positive. With $a=k$, $b=-40$, and $c=8$, use $$(-40)^2-4(k)(8)>0.$$"
+    },
+    {
+      "title": "Solve the threshold",
+      "content": "Simplify the inequality: $$1600-32k>0$$ $$1600>32k$$ $$50>k.$$ Desmos can show the cutoff by graphing $1600-32x>0$.",
+      "desmosExpressions": [
+        "1600-32x>0"
+      ]
+    },
+    {
+      "title": "Choose the greatest integer",
+      "content": "The greatest integer less than $50$ is $49$. Check: $1600-32(49)=32>0$, so the quadratic still has two distinct real solutions. The answer is <strong>49</strong>."
+    }
+  ]
+}

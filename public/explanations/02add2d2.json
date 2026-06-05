@@ -1,1 +1,19 @@
-{"questionId": "02add2d2", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Translate 7% growth into a multiplier", "content": "Growth by 7% means multiplying by (100% + 7%) = 107% = 1.07 each month. Do not use 0.07 (which represents keeping only 7%, not adding 7%) or 1.7 (which represents 70% growth)."}, {"title": "Write the exponential equation", "content": "Exponential growth repeats the same multiplier each period. After $m$ months of applying the multiplier 1.07:<br/>$$c = 1,300 \\times (1.07)^m$$<br/>That matches choice B — <strong>B</strong> is correct.", "formula": "$$c = c_0(1+r)^m$$", "desmosExpressions": ["c=1300((1.07))^(m)"]}]}
+{
+  "questionId": "02add2d2",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate 7% growth into a multiplier",
+      "content": "Growth by 7% means multiplying by (100% + 7%) = 107% = 1.07 each month. Do not use 0.07 (which represents keeping only 7%, not adding 7%) or 1.7 (which represents 70% growth)."
+    },
+    {
+      "title": "Write the exponential equation",
+      "content": "Exponential growth repeats the same multiplier each period. After $m$ months of applying the multiplier 1.07:<br/>$$c = 1,300 \\times (1.07)^m$$<br/>That matches choice B — <strong>B</strong> is correct.",
+      "formula": "$$c = c_0(1+r)^m$$",
+      "desmosExpressions": [
+        "c=1300((1.07))^(m)"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId":"0b20f63f-7305-47a1-adb9-fcbd5e74a7be_13","correctAnswer":"A","section":"Math","steps":[{"title":"Compute the confidence interval","content":"A margin of error of $0.2$ ounce around a sample mean of $10.83$ ounces gives the interval $[10.83 - 0.2,\\ 10.83 + 0.2] = [10.63,\\ 11.03]$ ounces. Plausible values for the true population mean lie within this range."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A — between 10.63 and 11.03 ounces</strong>: correctly describes values inside the interval $\\pm$ the margin of error. &#10003;</li><li><strong>Choice B — less than 10.63 or greater than 11.03 ounces</strong>: describes values <em>outside</em> the interval — the opposite of what the margin of error tells us. &#10007;</li><li><strong>Choice C — greater than 10.98 ounces</strong>: $10.98 = 10.83 + 0.15$ has no meaning here; the margin of error defines a two-sided interval, not a one-sided lower bound. &#10007;</li><li><strong>Choice D — less than 10.98 ounces</strong>: same flaw as C — uses a one-sided bound that does not follow from the margin of error. &#10007;</li></ul>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_13",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compute the confidence interval",
+      "content": "A margin of error of $0.2$ ounce around a sample mean of $10.83$ ounces gives the interval $[10.83 - 0.2,\\ 10.83 + 0.2] = [10.63,\\ 11.03]$ ounces. Plausible values for the true population mean lie within this range."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — between 10.63 and 11.03 ounces</strong>: correctly describes values inside the interval $\\pm$ the margin of error. &#10003;</li><li><strong>Choice B — less than 10.63 or greater than 11.03 ounces</strong>: describes values <em>outside</em> the interval — the opposite of what the margin of error tells us. &#10007;</li><li><strong>Choice C — greater than 10.98 ounces</strong>: $10.98 = 10.83 + 0.15$ has no meaning here; the margin of error defines a two-sided interval, not a one-sided lower bound. &#10007;</li><li><strong>Choice D — less than 10.98 ounces</strong>: same flaw as C — uses a one-sided bound that does not follow from the margin of error. &#10007;</li></ul>That matches choice A — <strong>A</strong> is correct."
+    }
+  ]
+}

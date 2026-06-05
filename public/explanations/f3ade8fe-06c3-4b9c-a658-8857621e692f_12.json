@@ -1,1 +1,15 @@
-{"questionId":"f3ade8fe-06c3-4b9c-a658-8857621e692f_12","correctAnswer":"A","section":"Math","steps":[{"title":"Identify what the question needs","content":"Points drop 20% every 5 seconds, starting at 490. A 20% decrease means each interval multiplies by $0.80$. After $x$ seconds there are $x/5$ intervals, so $f(x) = 490(0.80)^{x/5}$."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; '$490(0.80)^{x/5}$'</strong>: decay factor 0.80 per 5-second interval, exponent $x/5$ counts intervals. &#10003;</li><li><strong>Choice B &mdash; '$490(0.20)^{x/5}$'</strong>: 0.20 is the amount lost, not the amount kept &mdash; this drops to nearly zero far too fast. &#10007;</li><li><strong>Choice C &mdash; '$490(0.80)^{5x}$'</strong>: exponent $5x$ multiplies intervals by 5 instead of dividing &mdash; way too fast a decay. &#10007;</li><li><strong>Choice D &mdash; '$490(0.20)^{5x}$'</strong>: wrong factor and wrong exponent. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "f3ade8fe-06c3-4b9c-a658-8857621e692f_12",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "Points drop 20% every 5 seconds, starting at 490. A 20% decrease means each interval multiplies by $0.80$. After $x$ seconds there are $x/5$ intervals, so $f(x) = 490(0.80)^{x/5}$."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; '$490(0.80)^{x/5}$'</strong>: decay factor 0.80 per 5-second interval, exponent $x/5$ counts intervals. &#10003;</li><li><strong>Choice B &mdash; '$490(0.20)^{x/5}$'</strong>: 0.20 is the amount lost, not the amount kept &mdash; this drops to nearly zero far too fast. &#10007;</li><li><strong>Choice C &mdash; '$490(0.80)^{5x}$'</strong>: exponent $5x$ multiplies intervals by 5 instead of dividing &mdash; way too fast a decay. &#10007;</li><li><strong>Choice D &mdash; '$490(0.20)^{5x}$'</strong>: wrong factor and wrong exponent. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

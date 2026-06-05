@@ -228,35 +228,75 @@ const HomePreviewSkeleton = memo(({
         ...style,
       }}
     >
-      <div className="flex h-full flex-col p-4">
-        <div className="mb-4 flex items-center justify-between">
-          <div className="flex gap-2">
-            <HomeSkeletonBlock isDarkMode={isDarkMode} className="h-7 w-16 rounded-full" style={{ background: accentBg }} />
-            <HomeSkeletonBlock isDarkMode={isDarkMode} className="h-7 w-24 rounded-full" />
+      <div className="relative flex h-full flex-col">
+        <div
+          className="relative flex h-14 shrink-0 items-center justify-end gap-2 border-b px-4"
+          style={{ borderColor, background: panelBg }}
+        >
+          <div className="absolute left-1/2 flex -translate-x-1/2 items-center gap-3">
+            <HomeSkeletonBlock isDarkMode={isDarkMode} className="h-4 w-4 rounded-full" />
+            <HomeSkeletonBlock isDarkMode={isDarkMode} className="h-5 w-14 rounded-full" />
+            <HomeSkeletonBlock isDarkMode={isDarkMode} className="h-4 w-4 rounded-sm" />
           </div>
-          <HomeSkeletonBlock isDarkMode={isDarkMode} className="h-8 w-28 rounded-md" />
+          <HomeSkeletonBlock isDarkMode={isDarkMode} className="h-9 w-32 rounded-md" />
+          <HomeSkeletonBlock isDarkMode={isDarkMode} className="h-9 w-24 rounded-md" style={{ background: accentBg }} />
+          <HomeSkeletonBlock isDarkMode={isDarkMode} className="h-9 w-20 rounded-md" />
         </div>
-        <div className="grid min-h-0 flex-1 grid-cols-[1fr_0.92fr] gap-5">
-          <div className="space-y-3 rounded-lg p-4" style={{ background: softBg }}>
-            <HomeSkeletonBlock isDarkMode={isDarkMode} className="h-4 w-28 rounded-full" />
-            <HomeSkeletonBlock isDarkMode={isDarkMode} className="h-4 w-full rounded-full" />
-            <HomeSkeletonBlock isDarkMode={isDarkMode} className="h-4 w-11/12 rounded-full" />
-            <HomeSkeletonBlock isDarkMode={isDarkMode} className="h-4 w-4/5 rounded-full" />
-            <HomeSkeletonBlock isDarkMode={isDarkMode} className="mt-4 h-40 w-full rounded-lg" style={{ background: accentBg }} />
-          </div>
-          <div className="space-y-3">
-            {[0, 1, 2, 3].map((item) => (
-              <div key={item} className="flex items-center gap-3 rounded-lg p-3" style={{ background: softBg }}>
-                <HomeSkeletonBlock isDarkMode={isDarkMode} className="h-7 w-7 shrink-0 rounded-full" />
-                <div className="w-full space-y-2">
-                  <HomeSkeletonBlock isDarkMode={isDarkMode} className="h-3 w-full rounded-full" />
-                  <HomeSkeletonBlock isDarkMode={isDarkMode} className="h-3 w-3/4 rounded-full" />
-                </div>
+
+        <div className="min-h-0 flex-1 overflow-hidden px-4 py-6">
+          <div className="mx-auto max-w-[56rem] p-4 sm:p-6">
+            <div
+              className="mb-6 flex h-12 items-center justify-between overflow-hidden rounded-md border"
+              style={{ borderColor, background: softBg }}
+            >
+              <HomeSkeletonBlock isDarkMode={isDarkMode} className="h-full w-16 rounded-none" />
+              <div className="flex h-full flex-1 items-center gap-3 px-3">
+                <HomeSkeletonBlock isDarkMode={isDarkMode} className="h-6 w-32 rounded-md" />
               </div>
-            ))}
+              <HomeSkeletonBlock isDarkMode={isDarkMode} className="mr-2 h-9 w-9 rounded-md" />
+            </div>
+
+            <div className="mb-8 space-y-4">
+              <HomeSkeletonBlock isDarkMode={isDarkMode} className="h-4 w-24 rounded-full" style={{ background: accentBg }} />
+              <HomeSkeletonBlock isDarkMode={isDarkMode} className="h-4 w-full rounded-full" />
+              <HomeSkeletonBlock isDarkMode={isDarkMode} className="h-4 w-11/12 rounded-full" />
+            </div>
+
+            <div className="space-y-3">
+              {[0, 1, 2, 3].map((item) => (
+                <div
+                  key={item}
+                  className="flex min-h-[4rem] items-center gap-3 rounded-lg border p-4"
+                  style={{ borderColor, background: item === 1 ? accentBg : panelBg }}
+                >
+                  <HomeSkeletonBlock isDarkMode={isDarkMode} className="h-8 w-8 shrink-0 rounded-full" />
+                  <div className="w-full space-y-2">
+                    <HomeSkeletonBlock isDarkMode={isDarkMode} className="h-3 w-full rounded-full" />
+                    <HomeSkeletonBlock isDarkMode={isDarkMode} className="h-3 w-2/3 rounded-full" />
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
+        </div>
+
+        <div
+          className="absolute bottom-0 left-0 right-0 border-t px-4 py-3 shadow-lg"
+          style={{ borderColor, background: panelBg }}
+        >
+          <div className="grid grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-2">
+            <HomeSkeletonBlock isDarkMode={isDarkMode} className="h-10 w-24 rounded-md" />
+            <div className="flex justify-center gap-2">
+              <HomeSkeletonBlock isDarkMode={isDarkMode} className="h-10 w-28 rounded-md" />
+              <HomeSkeletonBlock isDarkMode={isDarkMode} className="h-10 w-24 rounded-md" style={{ background: accentBg }} />
+            </div>
+            <div className="flex gap-2">
+              <HomeSkeletonBlock isDarkMode={isDarkMode} className="h-10 w-24 rounded-md" />
+              <HomeSkeletonBlock isDarkMode={isDarkMode} className="h-10 w-20 rounded-md" />
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
     </div>
   );
 });
@@ -636,13 +676,13 @@ const AnimatedExplanation = memo(({ isDarkMode, active }: { isDarkMode: boolean;
         </div>
       </div>
 
-      <div className="px-3 py-2 border-t border-border/50 shrink-0 flex items-center gap-2">
+      <div className="flex min-w-0 shrink-0 items-center gap-2 border-t border-border/50 px-3 py-2">
         <Button
           variant="ghost"
           size="sm"
           onClick={() => goTo(currentStep - 1)}
           disabled={currentStep === 0}
-          className="flex-1 gap-1"
+          className="min-w-0 flex-1 gap-1 px-2"
         >
           <ChevronUp className="w-4 h-4" />
           Back
@@ -655,9 +695,10 @@ const AnimatedExplanation = memo(({ isDarkMode, active }: { isDarkMode: boolean;
           <Button
             size="sm"
             onClick={() => goTo(currentStep + 1)}
-            className="flex-1 gap-1"
+            className="min-w-0 flex-1 gap-1 px-2"
           >
-            Next Step
+            <span className="hidden sm:inline">Next Step</span>
+            <span className="sm:hidden">Next</span>
             <ChevronDown className="w-4 h-4" />
           </Button>
         )}
@@ -751,8 +792,8 @@ const FilterFeatureSection = memo(({
             margin: "0 0 28px",
           }}
         >
-          Slice {totalQuestions.toLocaleString()} real SAT questions by difficulty, topic, time
-          spent, and what you have or haven&rsquo;t solved &mdash; in one click.
+          Find the exact SAT questions you need by difficulty, topic, time spent,
+          and what you have or haven&rsquo;t solved &mdash; in one click.
         </p>
         <button
           type="button"
@@ -872,8 +913,8 @@ const PracticeTestsFeatureSection = memo(({ isDarkMode }: { isDarkMode: boolean 
             margin: "0 0 28px",
           }}
         >
-          Full-length SAT practice tests grouped by year, form, subject, and module &mdash;
-          take the whole test or just one module at a time.
+          Full-length SAT practice tests organized by subject and module &mdash;
+          take a complete test, drill one section, or review a single module.
         </p>
         <button
           type="button"
@@ -914,8 +955,7 @@ const FILTER_DEMO_CURSOR_SPEED_PX_PER_MS = 0.127;
 const FILTER_DEMO_CURSOR_CLICK_PAUSE_MS = 32;
 const FILTER_DEMO_CURSOR_MENU_PAUSE_MS = 0;
 const FILTER_DEMO_CURSOR_NEXT_STEP_PAUSE_MS = 8;
-const FILTER_DEMO_CURSOR_IDLE_RETRY_MS = 900;
-const FILTER_DEMO_CURSOR_START_DELAY_MS = 160;
+const FILTER_DEMO_CURSOR_IDLE_RETRY_MS = 180;
 const FILTER_DEMO_CURSOR_CLOSE_MENU_DURATION_MS = 220;
 const FILTER_DEMO_MENU_AUTO_CLOSE_CHECK_MS = 90;
 const FILTER_DEMO_USER_INTERACTION_PAUSE_MS = 2200;
@@ -964,9 +1004,9 @@ const isVisibleElement = (element: HTMLElement) => {
   return rect.width > 0 && rect.height > 0;
 };
 
-const isLiveInViewport = (element: HTMLElement) => {
+const isVisibleInViewport = (element: HTMLElement) => {
   const rect = element.getBoundingClientRect();
-  return rect.bottom > -80 && rect.top < window.innerHeight + 80;
+  return rect.bottom > 0 && rect.top < window.innerHeight;
 };
 
 const activateDemoElement = (element: HTMLElement) => {
@@ -1092,23 +1132,17 @@ const DemoCursor = memo(({ x, y, visible, clickKey }: DemoCursorState & { clickK
 ));
 DemoCursor.displayName = "DemoCursor";
 
-const cloneQuestionBankFilters = (filters: QuestionBankFilters): QuestionBankFilters => ({
-  ...filters,
-  difficulty: [...filters.difficulty],
-  timeSpentRange: [...filters.timeSpentRange] as [number, number],
-});
-
 const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const isNear = true;
   const [demoLoaded, setDemoLoaded] = useState(false);
-  const [demoShouldMount, setDemoShouldMount] = useState(false);
+  const demoShouldMount = true;
   const [demoScale, setDemoScale] = useState(FILTER_DEMO_MAX_SCALE);
   const [filters, setFilters] = useState<QuestionBankFilters>(defaultBankFilters);
   const [cursor, setCursor] = useState<DemoCursorState>({
-    x: -120,
-    y: -120,
-    visible: false,
+    x: 12,
+    y: 40,
+    visible: true,
     durationMs: 0,
   });
   const cursorRef = useRef(cursor);
@@ -1119,15 +1153,12 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
   const lastManualInteractionAtRef = useRef(0);
   const [clickKey, setClickKey] = useState(0);
   const [demoMode, setDemoMode] = useState<FilterDemoMode>("apply");
-  const [demoTick, setDemoTick] = useState(0);
+  const [demoTick, setDemoTick] = useState(1);
   const [manualInteractionVersion, setManualInteractionVersion] = useState(0);
+  const [filterPanelCloseSignal, setFilterPanelCloseSignal] = useState(0);
   const filtersRef = useRef<QuestionBankFilters>(defaultBankFilters);
   const modeRef = useRef<FilterDemoMode>(demoMode);
   const applyDemoFilters = useCallback((nextFilters: QuestionBankFilters) => {
-    if (scriptedInteractionDepthRef.current === 0 && Date.now() < userFilterPauseUntilRef.current) {
-      setFilters(cloneQuestionBankFilters(filtersRef.current));
-      return;
-    }
     filtersRef.current = nextFilters;
     setFilters(nextFilters);
   }, []);
@@ -1138,6 +1169,33 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
       return next;
     });
   }, []);
+  const applyDemoOptionKey = useCallback((optionKey: string) => {
+    const [group, value] = optionKey.split(":");
+    if (!value) return;
+    const currentFilters = filtersRef.current;
+    if (group === "difficulty") {
+      const nextDifficulty = currentFilters.difficulty.includes(value as QuestionBankFilters["difficulty"][number])
+        ? currentFilters.difficulty.filter((difficulty) => difficulty !== value)
+        : [...currentFilters.difficulty, value as QuestionBankFilters["difficulty"][number]];
+      setDemoFilterPatch({ difficulty: nextDifficulty });
+      return;
+    }
+    if (group === "activity") {
+      setDemoFilterPatch({ activeQuestions: value as QuestionBankFilters["activeQuestions"] });
+      return;
+    }
+    if (group === "marked") {
+      setDemoFilterPatch({ markedForReview: value as QuestionBankFilters["markedForReview"] });
+      return;
+    }
+    if (group === "solved") {
+      setDemoFilterPatch({ solved: value as QuestionBankFilters["solved"] });
+      return;
+    }
+    if (group === "incorrect") {
+      setDemoFilterPatch({ answeredIncorrectly: value as QuestionBankFilters["answeredIncorrectly"] });
+    }
+  }, [setDemoFilterPatch]);
   const handleBankDemoReady = useCallback(() => {
     setDemoLoaded(true);
   }, []);
@@ -1148,7 +1206,7 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
     const resumeDelay = Math.max(0, userFilterPauseUntilRef.current - Date.now());
     manualResumeTimerRef.current = window.setTimeout(() => {
       manualResumeTimerRef.current = null;
-      setFilters(cloneQuestionBankFilters(filtersRef.current));
+      setFilterPanelCloseSignal((signal) => signal + 1);
       const resumedCursor = { ...cursorRef.current, visible: true, durationMs: 0 };
       cursorRef.current = resumedCursor;
       setCursor(resumedCursor);
@@ -1223,20 +1281,6 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
   useEffect(() => {
     modeRef.current = demoMode;
   }, [demoMode]);
-  useEffect(() => {
-    if (!isNear || demoShouldMount) return;
-    const mountTimer = window.setTimeout(() => setDemoShouldMount(true), 900);
-    return () => window.clearTimeout(mountTimer);
-  }, [demoShouldMount, isNear]);
-
-  useEffect(() => {
-    if (!isNear || !demoLoaded) return;
-    const id = window.setTimeout(() => {
-      setDemoTick((tick) => tick + 1);
-    }, FILTER_DEMO_CURSOR_START_DELAY_MS);
-    return () => window.clearTimeout(id);
-  }, [demoLoaded, isNear]);
-
   useLayoutEffect(() => {
     const container = containerRef.current;
     const parent = container?.closest<HTMLElement>(".filter-demo-shell") ?? container?.parentElement;
@@ -1367,7 +1411,7 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
       return scheduleDemoTick(pausedForUserMs);
     }
     const container = containerRef.current;
-    if (!container || !isLiveInViewport(container)) {
+    if (!container) {
       return scheduleDemoTick(FILTER_DEMO_CURSOR_IDLE_RETRY_MS);
     }
     const action = resolveDemoAction(container, filtersRef.current, modeRef.current);
@@ -1400,10 +1444,6 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
       const hit = target.ownerDocument.elementFromPoint(point.x, point.y);
       return Boolean(hit && target.contains(hit));
     };
-    if (!isTargetInViewport(action.target)) {
-      return scheduleDemoTick(FILTER_DEMO_CURSOR_IDLE_RETRY_MS);
-    }
-
     const markUserScroll = () => {
       demoInterrupted = true;
       userScrolled = true;
@@ -1426,12 +1466,11 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
       Date.now() >= userFilterPauseUntilRef.current &&
       target.isConnected &&
       isVisibleElement(target) &&
-      isLiveInViewport(container) &&
-      isTargetInViewport(target) &&
-      isPointOnTarget(target)
+      (!isTargetInViewport(target) || isPointOnTarget(target))
     );
     const restoreScroll = () => {
       if (userScrolled) return;
+      if (!isVisibleInViewport(container)) return;
       if (Math.abs(window.scrollX - scrollX) > 12 || Math.abs(window.scrollY - scrollY) > 12) {
         window.scrollTo(scrollX, scrollY);
       }
@@ -1596,42 +1635,77 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
 
     if (action.timeDrag) {
       const { from, to, setRange } = action.timeDrag;
-      const firstMoveDuration = setCursorToPoint(getDemoTimePoint(action.target, from[0]));
-      const firstClickDelay = firstMoveDuration + FILTER_DEMO_CURSOR_CLICK_PAUSE_MS;
-      schedule(() => {
-        if (!canRunStep(action.target)) {
-          queueDemoRetry();
-          return;
-        }
-        setClickKey((key) => key + 1);
-        const firstDragDuration = setCursorToPoint(getDemoTimePoint(action.target, to[0]));
-        animateRangeValue(0, from[0], to[0], [from[0], from[1]], setRange, firstDragDuration);
+      const changedHandles = ([0, 1] as const).filter((index) => from[index] !== to[index]);
+      if (changedHandles.length === 0) {
+        setRange([to[0], to[1]]);
+        restoreScrollSoon();
+        queueDemoTick();
+        return () => {
+          stopWatchingScroll();
+          timers.forEach((timer) => window.clearTimeout(timer));
+          rafs.forEach((frame) => window.cancelAnimationFrame(frame));
+        };
+      }
+
+      let currentRange: [number, number] = [from[0], from[1]];
+      const runTimeHandle = (handlePosition: number) => {
+        const handleIndex = changedHandles[handlePosition];
+        const startValue = currentRange[handleIndex];
+        const endValue = to[handleIndex];
+        const moveDuration = setCursorToPoint(getDemoTimePoint(action.target, startValue));
         schedule(() => {
           if (!canRunStep(action.target)) {
             queueDemoRetry();
             return;
           }
-          const secondMoveDuration = setCursorToPoint(getDemoTimePoint(action.target, from[1]));
+          setClickKey((key) => key + 1);
+          const animationBase: [number, number] = [currentRange[0], currentRange[1]];
+          const dragDuration = setCursorToPoint(getDemoTimePoint(action.target, endValue));
+          animateRangeValue(handleIndex, startValue, endValue, animationBase, setRange, dragDuration);
           schedule(() => {
             if (!canRunStep(action.target)) {
               queueDemoRetry();
               return;
             }
-            setClickKey((key) => key + 1);
-            const secondDragDuration = setCursorToPoint(getDemoTimePoint(action.target, to[1]));
-            animateRangeValue(1, from[1], to[1], [to[0], from[1]], setRange, secondDragDuration);
-            schedule(() => {
-              if (!canRunStep(action.target)) {
-                queueDemoRetry();
-                return;
-              }
+            currentRange = [currentRange[0], currentRange[1]];
+            currentRange[handleIndex] = endValue;
+            setRange(currentRange);
+            restoreScrollSoon();
+            if (handlePosition + 1 < changedHandles.length) {
+              runTimeHandle(handlePosition + 1);
+            } else {
               setRange([to[0], to[1]]);
-              restoreScrollSoon();
               queueDemoTick();
-            }, secondDragDuration + FILTER_DEMO_CURSOR_CLICK_PAUSE_MS);
-          }, secondMoveDuration + FILTER_DEMO_CURSOR_CLICK_PAUSE_MS);
-        }, firstDragDuration + FILTER_DEMO_CURSOR_CLICK_PAUSE_MS);
-      }, firstClickDelay);
+            }
+          }, dragDuration + FILTER_DEMO_CURSOR_CLICK_PAUSE_MS);
+        }, moveDuration + FILTER_DEMO_CURSOR_CLICK_PAUSE_MS);
+      };
+
+      runTimeHandle(0);
+      return () => {
+        stopWatchingScroll();
+        timers.forEach((timer) => window.clearTimeout(timer));
+        rafs.forEach((frame) => window.cancelAnimationFrame(frame));
+      };
+    }
+
+    if (action.optionKey && !isVisibleInViewport(container)) {
+      const controlName = action.optionKey.split(":")[0];
+      const controlTarget = container.querySelector<HTMLElement>(
+        `[data-filter-demo-control="${controlName}"]`,
+      ) ?? action.target;
+      const moveDuration = setCursorToPoint(viewportPointForElement(controlTarget));
+      schedule(() => {
+        if (!canRunStep(controlTarget)) {
+          queueDemoRetry();
+          return;
+        }
+        setCursorToPoint(viewportPointForElement(controlTarget), 0);
+        setClickKey((key) => key + 1);
+        applyDemoOptionKey(action.optionKey!);
+        restoreScrollSoon();
+        queueDemoTick();
+      }, moveDuration + FILTER_DEMO_CURSOR_CLICK_PAUSE_MS);
       return () => {
         stopWatchingScroll();
         timers.forEach((timer) => window.clearTimeout(timer));
@@ -1719,7 +1793,7 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
       timers.forEach((timer) => window.clearTimeout(timer));
       rafs.forEach((frame) => window.cancelAnimationFrame(frame));
     };
-  }, [activateScriptedElement, demoLoaded, demoTick, isNear, manualInteractionVersion, resolveDemoAction]);
+  }, [activateScriptedElement, applyDemoOptionKey, demoLoaded, demoTick, isNear, manualInteractionVersion, resolveDemoAction]);
 
   const activePreviewHeight = demoScale < 0.65 ? 840 : FILTER_DEMO_PREVIEW_HEIGHT;
   const visibleWidth = FILTER_DEMO_PREVIEW_WIDTH * demoScale;
@@ -1757,6 +1831,7 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
                 homeFilterDemoFilters={filters}
                 onHomeFilterDemoFiltersChange={applyDemoFilters}
                 onHomeFilterDemoReady={handleBankDemoReady}
+                homeFilterDemoCloseSignal={filterPanelCloseSignal}
               />
             </Suspense>
           </div>
@@ -1951,7 +2026,7 @@ const SlotMachineCounter = memo(({
       cancelAnimationFrame(raf);
       window.removeEventListener("load", trigger);
     };
-  }, []);
+  }, [countDuration, startValue, value]);
 
   // inline-grid stacks both children in the same cell. The hidden placeholder
   // reserves the target width so the counting span can change text without

@@ -1,1 +1,25 @@
-{"questionId":"a775af14","correctAnswer":"C","section":"Math","steps":[{"title":"Find the slope","content":"Using the two points $(0,2)$ and $(8,34)$:<br/>$$m=\\frac{34-2}{8-0}=\\frac{32}{8}=4$$"},{"title":"Use the y-intercept","content":"The point $(0,2)$ lies on the line, so the y-intercept is $b=2$. With slope $4$ and y-intercept $2$, the function is $f(x)=4x+2$."},{"title":"Eliminate each choice","content":"<ul><li>A) $f(x)=2x+42$: gives $f(0)=42\\neq 2$. Eliminate.</li><li>B) $f(x)=32x+36$: gives $f(0)=36\\neq 2$. Eliminate.</li><li>C) $f(x)=4x+2$: gives $f(0)=2$ and $f(8)=34$. Keep.</li><li>D) $f(x)=8x+2$: gives $f(8)=66\\neq 34$. Eliminate.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "a775af14",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Fit the two points in Desmos",
+      "content": "This is a perfect table-regression question. Enter the two given points as $x_1=[0,8]$ and $y_1=[2,34]$, then type $y_1\\sim mx_1+b$. Desmos returns $m=4$ and $b=2$, so the line is $y=4x+2$.",
+      "desmosExpressions": [
+        "x_1=[0,8]",
+        "y_1=[2,34]",
+        "y_1~m x_1+b",
+        "y=m x+b"
+      ]
+    },
+    {
+      "title": "Check the same result by hand",
+      "content": "The slope is $\\frac{34-2}{8-0}=\\frac{32}{8}=4$. Since the point $(0,2)$ is on the graph, the y-intercept is $2$. That confirms the function is $f(x)=4x+2$."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li>A) $f(x)=2x+42$: gives $f(0)=42\\neq 2$. Eliminate.</li><li>B) $f(x)=32x+36$: gives $f(0)=36\\neq 2$. Eliminate.</li><li>C) $f(x)=4x+2$: gives $f(0)=2$ and $f(8)=34$. Keep.</li><li>D) $f(x)=8x+2$: gives $f(8)=66\\neq 34$. Eliminate.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

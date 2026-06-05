@@ -4,19 +4,19 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up",
-      "content": "At t = 0 the object is dropped from 40.96 ft, so h(t) = &minus;16t^2 + 40.96. Set h(t) = 0 to find when it hits the ground: &minus;16t^2 + 40.96 = 0."
+      "title": "Find b",
+      "content": "At $t=0$, the object is $40.96$ feet above the ground. Since $h(0)=-16(0)^2+b=b$, the function is<br/>$$h(t)=-16t^2+40.96$$"
     },
     {
-      "title": "Solve",
-      "content": "16t^2 = 40.96 &rarr; t^2 = 40.96/16 = 2.56 &rarr; t = &radic;2.56 = 8/5 = 1.6 seconds."
+      "title": "Solve h(t)=0",
+      "content": "The object hits the ground when its height is $0$:<br/>$$-16t^2+40.96=0$$<br/>$$16t^2=40.96$$<br/>$$t^2=2.56$$<br/>$$t=\\sqrt{2.56}=1.6$$"
     },
     {
-      "title": "Answer",
-      "content": "<strong>1.6</strong> (or 8/5) is correct.",
+      "title": "Confirm the positive time",
+      "content": "Time cannot be negative, so use the positive solution. Since $1.6=\\frac{8}{5}$, accepted entries include <strong>1.6</strong> or <strong>8/5</strong>.",
       "desmosExpressions": [
-        "h(t) = -16t^2 + 40.96",
-        "(0, 40.96)",
+        "y=-16x^2+40.96",
+        "y=0",
         "(1.6, 0)"
       ]
     }

@@ -1,1 +1,23 @@
-{"questionId": "6b1e987d-70b0-4072-9d03-3ebd56371518_17", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Identify the triangle and known sides", "content": "The figure shows a right triangle with hypotenuse labeled 14 and an acute angle of $58^\\\\circ$. Segment $AB$ is the side opposite this angle."}, {"title": "Apply the sine ratio", "content": "$$\\\\sin \\\\theta = \\\\frac{\\\\text{opposite}}{\\\\text{hypotenuse}}$$<br/>Here $\\\\theta = 58^\\\\circ$, hypotenuse $= 14$, opposite side $= AB$:<br/>$$\\\\sin 58^\\\\circ = \\\\frac{AB}{14} \\\\implies AB = 14\\\\sin 58^\\\\circ$$", "formula": "$$\\\\sin \\\\theta = \\\\frac{\\\\text{opposite}}{\\\\text{hypotenuse}}$$", "desmosExpressions": ["14\\\\sin(58\\\\cdot\\\\pi/180)"]}, {"title": "Evaluate each choice", "content": "<ul><li><strong>Choice A &mdash; '$14\\\\sin 58^\\\\circ$'</strong>: Hypotenuse times sine of the given angle gives the opposite side $AB$. &#10003;</li><li><strong>Choice B &mdash; '$\\\\frac{14}{\\\\sin 58^\\\\circ}$'</strong>: Would only be correct if 14 were the opposite side and we wanted the hypotenuse. &#10007;</li><li><strong>Choice C &mdash; '$14\\\\cos 58^\\\\circ$'</strong>: Cosine gives the adjacent side, not the opposite side. &#10007;</li><li><strong>Choice D &mdash; '$\\\\frac{14}{\\\\cos 58^\\\\circ}$'</strong>: Would relate the adjacent side to the hypotenuse, not $AB$. &#10007;</li></ul>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "6b1e987d-70b0-4072-9d03-3ebd56371518_17",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify opposite and hypotenuse",
+      "content": "The figure shows a right triangle with hypotenuse $14$ and an acute angle of $58^\\circ$. Segment $AB$ is opposite the $58^\\circ$ angle."
+    },
+    {
+      "title": "Use the sine ratio",
+      "content": "Sine relates opposite side to hypotenuse: $$\\sin \\theta=\\frac{\\text{opposite}}{\\text{hypotenuse}}.$$ Here that gives $$\\sin 58^\\circ=\\frac{AB}{14}.$$"
+    },
+    {
+      "title": "Solve for AB",
+      "content": "Multiply both sides by $14$: $$AB=14\\sin 58^\\circ.$$ This is an expression choice question, so a calculator value is not needed."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A is $14\\sin 58^\\circ$, which matches the expression for the opposite side. Choice C would use cosine and gives the adjacent side instead. Choices B and D divide by a trig ratio, which would be used if $14$ were a leg rather than the hypotenuse. Choice <strong>A</strong> is correct."
+    }
+  ]
+}

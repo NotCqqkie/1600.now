@@ -9,7 +9,15 @@
     },
     {
       "title": "Multiply to find the total cost",
-      "content": "$$2 \\times c = 2c \\text{ dollars}$$<br/>This matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "$$2 \\times c = 2c \\text{ dollars}$$<br/>This matches choice A — <strong>A</strong> is correct."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice A is correct. If one pound of grapes costs \\$2, two pounds of grapes will cost 2 times \\$2, three pounds of grapes will cost 3 times \\$2, and so on. Therefore, <em>c</em> pounds of grapes will cost <em>c</em> times \\$2, which is 2<em>c</em> dollars."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice B is incorrect and may result from incorrectly adding instead of multiplying. Choice C is incorrect and may result from assuming that <em>c</em> pounds cost \\$2, and then finding the cost per pound. Choice D is incorrect and could result from incorrectly assuming that 2 pounds cost \\$<em>c</em>, and then finding the cost per pound."
     }
   ]
 }

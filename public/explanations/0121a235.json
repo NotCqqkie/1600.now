@@ -1,1 +1,32 @@
-{"questionId": "0121a235", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Identify the zeros from the table", "content": "Read the table to find where $p(x) = 0$:<ul><li>At $x = -1$: $p(-1) = 0$</li><li>At $x = 2$: $p(2) = 0$</li></ul>"}, {"title": "Apply the Factor Theorem", "content": "The Factor Theorem states: if $p(r) = 0$, then $(x - r)$ is a factor of $p(x)$.<br/>Since $p(-1) = 0$, we know $(x + 1)$ is a factor.<br/>Since $p(2) = 0$, we know $(x - 2)$ is a factor.", "formula": "$$\\text{If } p(r) = 0 \\text{, then } (x - r) \\text{ is a factor}$$"}, {"title": "Match both factors to the answer choice", "content": "We need a choice containing both $(x + 1)$ and $(x - 2)$ as factors.<ul><li><strong>A:</strong> $(x - 3)$ — would require $p(3) = 0$; not in table</li><li><strong>B:</strong> $(x + 3)$ — would require $p(-3) = 0$; not in table</li><li><strong>C:</strong> $(x - 1) \\times (x + 2)$ — would require $p(1) = 0$ and $p(-2) = 0$, but the table shows $p(1) = -1$ and $p(-2) = 5$</li><li><strong>D:</strong> $(x + 1) \\times (x - 2)$ — matches both our factors ✓</li></ul>$(x + 1)(x - 2)$ matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "0121a235",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the zeros in the table",
+      "content": "A factor comes from an $x$-value where the polynomial equals $0$. The table shows $p(-1)=0$ and $p(2)=0$.",
+      "desmosExpressions": [
+        "x_1=[-2,-1,0,1,2]",
+        "y_1=[5,0,-3,-1,0]"
+      ]
+    },
+    {
+      "title": "Translate zeros into factors",
+      "content": "By the Factor Theorem, if $p(r)=0$, then $(x-r)$ is a factor. Since $p(-1)=0$, $(x+1)$ is a factor. Since $p(2)=0$, $(x-2)$ is a factor."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A would require a zero at $x=3$, and choice B would require a zero at $x=-3$. Choice C would require zeros at $x=1$ and $x=-2$, but the table shows $p(1)=-1$ and $p(-2)=5$.",
+      "desmosExpressions": [
+        "x=-1",
+        "x=2",
+        "y=(x+1)(x-2)"
+      ]
+    },
+    {
+      "title": "Confirm the factor",
+      "content": "The only choice that uses both zeros from the table is $(x+1)(x-2)$. Choice <strong>D</strong> is correct."
+    }
+  ]
+}

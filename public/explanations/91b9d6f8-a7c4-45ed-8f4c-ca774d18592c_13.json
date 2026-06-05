@@ -1,1 +1,36 @@
-{"qid":"91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_13","steps":[{"text":"A confidence interval built from a sample mean and margin of error defines the range of plausible values for the true population mean. The interval spans from (mean &minus; margin of error) to (mean + margin of error)."},{"text":"Given: sample mean = $28.88$ ounces, margin of error = $0.13$ ounce. Lower bound: $28.88 - 0.13 = 28.75$ ounces. Upper bound: $28.88 + 0.13 = 29.01$ ounces."},{"text":"The interpretation is that plausible values for the true average weight of all bags lie between $28.75$ ounces and $29.01$ ounces. This does not say the true mean IS in the interval with certainty, only that these are plausible values consistent with the sample."},{"text":"Choice A states plausible values are between $28.75$ and $29.01$ ounces, which exactly matches our calculation. That matches choice A &mdash; <strong>A</strong> is correct.","choices":[{"id":"A","text":"<ul><li>Plausible values between $28.75$ and $29.01$ ounces matches mean &plusmn; margin of error: $28.88 \\pm 0.13$. That matches choice A &mdash; <strong>A</strong> is correct.</li></ul>"},{"id":"B","text":"<ul><li>This says plausible values are OUTSIDE the interval &mdash; the opposite of what a margin of error means. Eliminated.</li></ul>"},{"id":"C","text":"<ul><li>This says the mean is less than $28.99$ ounces. But $28.99$ has no special significance here, and margin of error defines an interval around the estimate, not a one-sided bound. Eliminated.</li></ul>"},{"id":"D","text":"<ul><li>This says the mean is greater than $28.99$ ounces. The upper bound is $29.01$, not $28.99$, and again the margin of error defines a two-sided interval. Eliminated.</li></ul>"}]}],"correctAnswer":"A"}
+{
+  "qid": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_13",
+  "steps": [
+    {
+      "text": "A confidence interval built from a sample mean and margin of error defines the range of plausible values for the true population mean. The interval spans from (mean &minus; margin of error) to (mean + margin of error)."
+    },
+    {
+      "text": "Given: sample mean = $28.88$ ounces, margin of error = $0.13$ ounce. Lower bound: $28.88 - 0.13 = 28.75$ ounces. Upper bound: $28.88 + 0.13 = 29.01$ ounces."
+    },
+    {
+      "text": "The interpretation is that plausible values for the true average weight of all bags lie between $28.75$ ounces and $29.01$ ounces. This does not say the true mean IS in the interval with certainty, only that these are plausible values consistent with the sample."
+    },
+    {
+      "text": "Choice A states plausible values are between $28.75$ and $29.01$ ounces, which exactly matches our calculation. That matches choice A &mdash; <strong>A</strong> is correct.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "<ul><li>Plausible values between $28.75$ and $29.01$ ounces matches mean &plusmn; margin of error: $28.88 \\pm 0.13$. That matches choice A &mdash; <strong>A</strong> is correct.</li></ul>"
+        },
+        {
+          "id": "B",
+          "text": "<ul><li>This says plausible values are OUTSIDE the interval &mdash; the opposite of what a margin of error means. Eliminated.</li></ul>"
+        },
+        {
+          "id": "C",
+          "text": "<ul><li>This says the mean is less than $28.99$ ounces. But $28.99$ has no special significance here, and margin of error defines an interval around the estimate, not a one-sided bound. Eliminated.</li></ul>"
+        },
+        {
+          "id": "D",
+          "text": "<ul><li>This says the mean is greater than $28.99$ ounces. The upper bound is $29.01$, not $28.99$, and again the margin of error defines a two-sided interval. Eliminated.</li></ul>"
+        }
+      ]
+    }
+  ],
+  "correctAnswer": "A"
+}

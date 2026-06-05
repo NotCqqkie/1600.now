@@ -11,7 +11,12 @@
     {
       "title": "Project to 2015 using the linear model",
       "content": "From 1991 to 2015 is $2015 - 1991 = 24$ years. With a constant rate of 8.35 thousand per year, the population grows by:\n\n$$8.35 \\times 24 = 200.4 \\text{ thousand}$$\n\nStarting from 57 thousand in 1991:\n\n$$x = 57 + 200.4 = 257.4$$\n\nRounded to the nearest whole number, the value of $x$ is <strong>257</strong>.",
-      "desmosExpressions": ["y=8.35x+57", "(0,57)", "(20,224)", "(24,257)"]
+      "desmosExpressions": [
+        "y=8.35x+57",
+        "(0,57)",
+        "(20,224)",
+        "(24,257)"
+      ]
     }
   ]
 }

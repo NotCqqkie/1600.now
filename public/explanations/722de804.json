@@ -1,1 +1,23 @@
-{"questionId":"722de804","correctAnswer":"94","section":"Math","steps":[{"title":"Expand to standard form","content":"$(x-47)^2=1 \\Rightarrow x^2-94x+2209=1 \\Rightarrow x^2-94x+2208=0$<br/>So $a=1$, $b=-94$."},{"title":"Apply Vieta&apos;s sum formula","content":"$$\\text{sum of solutions}=\\frac{-b}{a}=\\frac{-(-94)}{1}=94$$<br/>The answer is <strong>94</strong>.","desmosExpressions":["y=(x-47)^2","y=1"]}]}
+{
+  "questionId": "722de804",
+  "correctAnswer": "94",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Expand to standard form",
+      "content": "$(x-47)^2=1 \\Rightarrow x^2-94x+2209=1 \\Rightarrow x^2-94x+2208=0$<br/>So $a=1$, $b=-94$."
+    },
+    {
+      "title": "Apply Vieta&apos;s sum formula",
+      "content": "$$\\text{sum of solutions}=\\frac{-b}{a}=\\frac{-(-94)}{1}=94$$<br/>The answer is <strong>94</strong>.",
+      "desmosExpressions": [
+        "y=(x-47)^2",
+        "y=1"
+      ]
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $94$. Taking the square root of each side of the given equation yields $x-47=1$ or $x-47=-1$. Adding $47$ to both sides of the equation $x-47=1$ yields $x=48$. Adding $47$ to both sides of the equation $x-47=-1$ yields $x=46$. Therefore, the sum of the solutions to the given equation is $48+46$, or $94$."
+    }
+  ]
+}

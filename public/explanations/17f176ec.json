@@ -1,1 +1,23 @@
-{"questionId": "17f176ec", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Identify the two constraints", "content": "The problem gives us two key pieces of information: the <strong>total number of tickets</strong> sold was 214, and the <strong>total revenue</strong> collected was \\$2,145. These are two different quantities, so we need two equations."}, {"title": "Translate the ticket count to an equation", "content": "Since $f$ is the number of full-price tickets and $r$ is the number of reduced-price tickets, the total number of tickets is their sum:<br/>$$f + r = 214$$"}, {"title": "Translate the revenue to an equation", "content": "Revenue equals price per ticket times the number of tickets. Full-price tickets contribute $11f$ in revenue, and reduced-price tickets contribute $8.25r$ in revenue. The total revenue is \\$2,145:<br/>$$11f + 8.25r = 2,145$$<br/>That matches choice B — <strong>B</strong> is correct.", "desmosExpressions": ["y = 214 - x", "y = (2145 - 11x)/8.25"]}]}
+{
+  "questionId": "17f176ec",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the two constraints",
+      "content": "The problem gives us two key pieces of information: the <strong>total number of tickets</strong> sold was 214, and the <strong>total revenue</strong> collected was \\$2,145. These are two different quantities, so we need two equations."
+    },
+    {
+      "title": "Translate the ticket count to an equation",
+      "content": "Since $f$ is the number of full-price tickets and $r$ is the number of reduced-price tickets, the total number of tickets is their sum:<br/>$$f + r = 214$$"
+    },
+    {
+      "title": "Translate the revenue to an equation",
+      "content": "Revenue equals price per ticket times the number of tickets. Full-price tickets contribute $11f$ in revenue, and reduced-price tickets contribute $8.25r$ in revenue. The total revenue is \\$2,145:<br/>$$11f + 8.25r = 2,145$$<br/>That matches choice B — <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "y = 214 - x",
+        "y = (2145 - 11x)/8.25"
+      ]
+    }
+  ]
+}

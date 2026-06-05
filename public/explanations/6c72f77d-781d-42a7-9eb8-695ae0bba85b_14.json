@@ -9,12 +9,20 @@
     },
     {
       "title": "Use the discriminant condition to find a",
-      "content": "Rearrange to standard form: $2x^2 - 16x + (23-a) = 0$. Apply $\\Delta = b^2 - 4ac = 0$:<br/>$$(-16)^2 - 4(2)(23-a) = 0$$<br/>$$256 - 184 + 8a = 0$$<br/>$$8a = -72$$<br/>$$a = -9$$"
+      "content": "Rearrange to standard form: $2x^2-16x+(23-a)=0$. Apply $\\Delta=b^2-4ac=0$:<br/>$$(-16)^2-4(2)(23-a)=0$$<br/>$$256-184+8a=0$$<br/>$$a=-9$$<br/>Desmos can solve this boundary directly with a one-row regression.",
+      "desmosExpressions": [
+        "y_1=[0]",
+        "y_1~(-16)^2-4*2*(23-a)"
+      ]
     },
     {
       "title": "Solve the resulting quadratic for x",
-      "content": "Substitute $a = -9$ into the quadratic: $2x^2 - 16x + 32 = 0$, or dividing by 2: $x^2 - 8x + 16 = 0$. Factor: $(x-4)^2 = 0$. Therefore $x = 4$. That matches choice C \u2014 <strong>C</strong> is correct.",
-      "desmosExpressions": ["y = 2x^2 - 15x + 23", "y = x + 4"]
+      "content": "Substitute $a = -9$ into the quadratic: $2x^2 - 16x + 32 = 0$, or dividing by 2: $x^2 - 8x + 16 = 0$. Factor: $(x-4)^2 = 0$. Therefore $x = 4$. That matches choice C — <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "y = 2x^2 - 15x + 23",
+        "y = x - 9",
+        "(4,-5)"
+      ]
     }
   ]
 }

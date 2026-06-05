@@ -9,7 +9,23 @@
     },
     {
       "title": "Compute the division",
-      "content": "$$\\frac{370}{10} = 37$$. That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "$$\\frac{370}{10} = 37$$. That matches choice B — <strong>B</strong> is correct."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice B is correct. $10%$ of a quantity means $\\frac{10}{100}$ times the quantity. Therefore, $10%$ of $370$ can be represented as $\\frac{10}{100}\\left(370\\right)$, which is equivalent to $0.10\\left(370\\right)$, or $37$. Therefore, $10%$ of $370$ is $37$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A is incorrect. This is $10%$ of $270$, not $10%$ of $370$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice C is incorrect. This is $90%$ of $370$, not $10%$ of $370$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice D is incorrect. This is $370-10$, not $10%$ of $370$."
     }
   ]
 }

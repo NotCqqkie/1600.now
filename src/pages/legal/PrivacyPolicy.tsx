@@ -8,7 +8,7 @@ const sections = [
   {
     title: "1. Introduction",
     body: [
-      "This Privacy Policy explains how 1600.now (\"we,\" \"us,\" or \"our\") collects, uses, discloses, and protects information about you when you visit our website at 1600.now or otherwise interact with our SAT preparation services, including the question bank, practice modules, score calculator, vocabulary review, AI-generated explanations, embedded Desmos calculator, and related tools (collectively, the \"Service\").",
+      "This Privacy Policy explains how 1600.now (\"we,\" \"us,\" or \"our\") collects, uses, discloses, and protects information about you when you visit our website at 1600.now or otherwise interact with our SAT preparation services, including the question bank, practice modules, score calculator, vocabulary review, step-by-step explanations, embedded Desmos calculator, and related tools (collectively, the \"Service\").",
       "By using the Service, you acknowledge that your information will be handled as described in this Privacy Policy. This policy is incorporated into and governed by our Terms of Service. Capitalized terms used but not defined here have the meanings given in the Terms of Service.",
       "We may update this Privacy Policy from time to time. The \"Effective date\" above reflects the most recent version. Material changes will be communicated through the Service or by email where appropriate.",
     ],
@@ -29,7 +29,7 @@ const sections = [
     title: "3. How We Use Information",
     body: [
       "We use the information we collect to:",
-      "(a) provide, operate, maintain, and secure the Service, including authenticating you, syncing your progress across devices, displaying your analytics, saving your notes and answers, generating personalized recommendations, and serving AI-generated explanations; (b) develop, debug, and improve the Service, fix bugs, evaluate feature performance, conduct internal research, and add new content and functionality;",
+      "(a) provide, operate, maintain, and secure the Service, including authenticating you, syncing your progress across devices, displaying your analytics, saving your notes and answers, generating personalized recommendations, and serving step-by-step explanations; (b) develop, debug, and improve the Service, fix bugs, evaluate feature performance, conduct internal research, and add new content and functionality;",
       "(c) communicate with you about the Service, respond to support requests, send transactional messages (such as password resets, account notifications, and security alerts), and, where permitted, send occasional product updates; (d) detect, investigate, and prevent fraud, abuse, automated scraping, security incidents, and violations of our Terms of Service or applicable law;",
       "(e) comply with our legal obligations, enforce our Terms of Service, defend against legal claims, and protect our rights and the rights, safety, and property of our users and third parties; and (f) create aggregated or de-identified information that does not identify any individual and use it for any lawful purpose, including improving SAT preparation content and benchmarking feature performance.",
       "Legal bases for users in the European Economic Area, the United Kingdom, and Switzerland: We process personal information based on (i) the performance of our contract with you (to provide the Service), (ii) our legitimate interests (such as securing the Service, preventing abuse, and improving features) where those interests are not overridden by your rights, (iii) your consent (where required, for example for certain analytics or communications), and (iv) compliance with legal obligations.",
@@ -50,7 +50,7 @@ const sections = [
     title: "5. How We Share Information",
     body: [
       "We do not sell or rent personal information for monetary consideration. We do not share personal information for cross-context behavioral advertising. We share personal information only as described below.",
-      "Service providers and subprocessors: We share information with vendors that help us operate the Service under contractual obligations to use the information only on our behalf. Our primary subprocessors are: Google LLC (Firebase Authentication, Cloud Firestore, Firebase Hosting, Google Analytics for Firebase, and Google Sign-In); Desmos (the embedded graphing calculator, loaded from Desmos's servers); and the LLM providers (such as OpenRouter and the underlying model providers it routes to) that we use to pre-generate explanations. Your interactions with the Service are not used to train third-party AI models without our authorization, although content sent to LLM providers in the course of pre-generation is subject to those providers' policies.",
+      "Service providers and subprocessors: We share information with vendors that help us operate the Service under contractual obligations to use the information only on our behalf. Our primary subprocessors are: Google LLC (Firebase Authentication, Cloud Firestore, Firebase Hosting, Google Analytics for Firebase, and Google Sign-In); Desmos (the embedded graphing calculator, loaded from Desmos's servers); and explanation-generation providers used to prepare study content. Your interactions with the Service are not used to train third-party models without our authorization, although content sent to generation providers is subject to those providers' policies.",
       "Compliance and protection: We may disclose information when we believe in good faith that disclosure is necessary to (a) comply with applicable law, regulation, legal process, or governmental request; (b) enforce our Terms of Service or other agreements; (c) detect, prevent, or otherwise address fraud, security, or technical issues; or (d) protect against harm to the rights, property, or safety of 1600.now, our users, or others.",
       "Business transfers: If we are involved in a merger, acquisition, financing, reorganization, bankruptcy, sale of all or part of our assets, or similar transaction, information may be transferred as part of that transaction. We will require the recipient to honor this Privacy Policy or provide notice of any material changes.",
       "With your consent or at your direction: We may share information for any other purpose disclosed to you with your consent.",
@@ -105,10 +105,10 @@ const sections = [
     ],
   },
   {
-    title: "12. AI-Generated Content and Privacy",
+    title: "12. Generated Content and Privacy",
     body: [
-      "Step-by-step explanations and certain other content shown in the Service are generated using large language models. Where such content is pre-generated server-side or at build time, we do not transmit your personal information to model providers as part of the request. Where any user-supplied content (such as a question or note) is sent to a model provider in connection with a feature, that content is processed by the provider under its own terms and privacy policies and used solely to generate the requested output for you.",
-      "We do not use your personal information to train third-party AI models. We do not authorize third-party LLM providers to use your personal information for their own purposes beyond providing the requested service to us.",
+      "Step-by-step explanations and certain other content shown in the Service may be prepared with automated generation systems. Where such content is pre-generated server-side or at build time, we do not transmit your personal information to model providers as part of the request. Where any user-supplied content (such as a question or note) is sent to a model provider in connection with a feature, that content is processed by the provider under its own terms and privacy policies and used solely to generate the requested output for you.",
+      "We do not use your personal information to train third-party models. We do not authorize model providers to use your personal information for their own purposes beyond providing the requested service to us.",
     ],
   },
   {

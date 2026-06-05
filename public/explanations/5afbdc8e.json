@@ -9,7 +9,7 @@
     },
     {
       "title": "Set up and solve for the square's side",
-      "content": "The square has the same area as the circle, so if $s$ is the side length:<br/>$$s^2 = 4\\pi$$<br/>Taking the square root of both sides:<br/>$$s = \\sqrt{4\\pi} = \\sqrt{4} \\cdot \\sqrt{\\pi} = 2\\sqrt{\\pi}$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "The square has the same area as the circle, so if $s$ is the side length:<br/>$$s^2 = 4\\pi$$<br/>Taking the square root of both sides:<br/>$$s = \\sqrt{4\\pi} = \\sqrt{4} \\cdot \\sqrt{\\pi} = 2\\sqrt{\\pi}$$<br/>That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

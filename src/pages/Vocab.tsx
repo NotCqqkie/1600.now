@@ -12,6 +12,7 @@ import { doc, setDoc } from "firebase/firestore";
 
 type Pos = "adj" | "verb" | "noun";
 type Mode = "flashcards" | "learn" | "match" | "test" | "browse";
+type PracticeMode = Exclude<Mode, "browse">;
 type StudyStatus = "new" | "learning" | "mastered";
 
 interface Word {
@@ -29,7 +30,13 @@ interface Word {
 }
 
 interface StoredProgress {
-  [wordId: string]: StudyStatus;
+  [wordId: string]: StoredWordProgress;
+}
+
+interface StoredWordProgress {
+  status: StudyStatus;
+  confirmations: number;
+  modes: Partial<Record<PracticeMode, number>>;
 }
 
 /* ═══════════════════════════════════════════════
@@ -47,6 +54,9 @@ const okFg = "hsl(122 50% 35%)";
 const okBg = "hsl(122 50% 96%)";
 const errFg = "hsl(0 70% 50%)";
 const errBg = "hsl(0 70% 97%)";
+const MASTERY_CONFIRMATIONS = 3;
+const MASTERY_MODE_COUNT = 2;
+const PRACTICE_MODES: PracticeMode[] = ["flashcards", "learn", "match", "test"];
 
 
 const TAG_LIGHT: Record<Pos, { bg: string; fg: string }> = {
@@ -73,10 +83,87 @@ function hashStr(s: string): number {
   return Math.abs(h);
 }
 
-function statusToMastery(s: StudyStatus): number {
-  if (s === "mastered") return 1;
-  if (s === "learning") return 0.5;
-  return 0;
+function isStudyStatus(v: unknown): v is StudyStatus {
+  return v === "new" || v === "learning" || v === "mastered";
+}
+
+function countModes(modes: Partial<Record<PracticeMode, number>>): number {
+  return PRACTICE_MODES.filter(mode => (modes[mode] ?? 0) > 0).length;
+}
+
+function isMasteredProgress(progress: StoredWordProgress): boolean {
+  return progress.confirmations >= MASTERY_CONFIRMATIONS && countModes(progress.modes) >= MASTERY_MODE_COUNT;
+}
+
+function deriveStatus(
+  confirmations: number,
+  modes: Partial<Record<PracticeMode, number>>,
+  touched: boolean,
+): StudyStatus {
+  if (confirmations >= MASTERY_CONFIRMATIONS && countModes(modes) >= MASTERY_MODE_COUNT) return "mastered";
+  if (confirmations > 0 || touched) return "learning";
+  return "new";
+}
+
+function progressFromStatus(status: StudyStatus): StoredWordProgress {
+  if (status === "mastered") {
+    return {
+      status: "mastered",
+      confirmations: MASTERY_CONFIRMATIONS,
+      modes: { flashcards: 1, learn: 1 },
+    };
+  }
+  if (status === "learning") {
+    return { status: "learning", confirmations: 1, modes: { flashcards: 1 } };
+  }
+  return { status: "new", confirmations: 0, modes: {} };
+}
+
+function normalizeProgressValue(value: unknown): StoredWordProgress | null {
+  if (isStudyStatus(value)) return progressFromStatus(value);
+  if (!value || typeof value !== "object") return null;
+
+  const raw = value as {
+    status?: unknown;
+    confirmations?: unknown;
+    modes?: unknown;
+  };
+  const modes: Partial<Record<PracticeMode, number>> = {};
+  if (raw.modes && typeof raw.modes === "object") {
+    for (const mode of PRACTICE_MODES) {
+      const count = Number((raw.modes as Partial<Record<PracticeMode, unknown>>)[mode]);
+      if (Number.isFinite(count) && count > 0) modes[mode] = Math.floor(count);
+    }
+  }
+  let confirmations = Number(raw.confirmations);
+  confirmations = Number.isFinite(confirmations) ? Math.max(0, Math.floor(confirmations)) : 0;
+
+  if (raw.status === "mastered" && (confirmations < MASTERY_CONFIRMATIONS || countModes(modes) < MASTERY_MODE_COUNT)) {
+    confirmations = Math.max(confirmations, MASTERY_CONFIRMATIONS);
+    modes.flashcards = Math.max(modes.flashcards ?? 0, 1);
+    modes.learn = Math.max(modes.learn ?? 0, 1);
+  }
+
+  const status = isStudyStatus(raw.status)
+    ? raw.status
+    : deriveStatus(confirmations, modes, confirmations > 0);
+
+  return {
+    status: status === "mastered" && !isMasteredProgress({ status, confirmations, modes })
+      ? "learning"
+      : deriveStatus(confirmations, modes, status !== "new"),
+    confirmations,
+    modes,
+  };
+}
+
+function progressToMastery(progress?: StoredWordProgress): number {
+  if (!progress) return 0;
+  if (progress.status === "mastered") return 1;
+  if (progress.status === "new") return 0;
+  const confirmationScore = Math.min(progress.confirmations, MASTERY_CONFIRMATIONS) / MASTERY_CONFIRMATIONS;
+  const modeScore = Math.min(countModes(progress.modes), MASTERY_MODE_COUNT) / MASTERY_MODE_COUNT;
+  return Math.min(0.75, Math.max(0.25, confirmationScore * 0.65 + modeScore * 0.15));
 }
 
 function synthesizeWord(
@@ -91,7 +178,7 @@ function synthesizeWord(
     setId: string;
     setName: string;
   },
-  status: StudyStatus,
+  progress?: StoredWordProgress,
 ): Word {
   return {
     id: `${raw.setId}::${raw.word.toLowerCase()}`,
@@ -102,7 +189,7 @@ function synthesizeWord(
     syn: raw.synonyms,
     ant: raw.antonyms,
     freq: Math.round((11 - raw.difficulty) * 10),
-    mastery: statusToMastery(status),
+    mastery: progressToMastery(progress),
     etym: raw.setName,
     setName: raw.setName,
   };
@@ -191,6 +278,67 @@ const btnPrimary: CSSProperties = {
   color: "#fff",
   borderColor: "#0E2138",
 };
+
+function MasteredSetPrompt({
+  setName,
+  onReset,
+}: {
+  setName?: string;
+  onReset: () => void;
+}) {
+  const [confirmReset, setConfirmReset] = useState(false);
+
+  return (
+    <div style={{ maxWidth: 520, margin: "0 auto", textAlign: "center" }}>
+      <div
+        style={{
+          padding: "32px 28px",
+          borderRadius: 16,
+          background: cardBg,
+          border: `1px solid ${borderC}`,
+          boxShadow: "0 12px 32px -18px rgba(15,23,42,.12)",
+        }}
+      >
+        <h2 style={{ margin: 0, fontSize: 24, fontWeight: 600, color: fg }}>Set mastered</h2>
+        <p style={{ color: okFg, margin: "10px 0 22px", fontSize: 13, fontWeight: 500 }}>
+          You've mastered every word{setName ? ` in ${setName}` : ""}.
+        </p>
+        {!confirmReset ? (
+          <button
+            onClick={() => setConfirmReset(true)}
+            style={{ ...btnSecondary, padding: "0 24px", color: muted, width: "100%" }}
+          >
+            Reset progress for this set
+          </button>
+        ) : (
+          <div style={{ display: "flex", gap: 8 }}>
+            <button
+              onClick={() => setConfirmReset(false)}
+              style={{ ...btnSecondary, padding: "0 18px", flex: 1 }}
+            >
+              Cancel
+            </button>
+            <button
+              onClick={() => {
+                onReset();
+                setConfirmReset(false);
+              }}
+              style={{
+                ...btnPrimary,
+                padding: "0 18px",
+                flex: 1,
+                background: errFg,
+                borderColor: errFg,
+              }}
+            >
+              Confirm reset
+            </button>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
 
 /* ═══════════════════════════════════════════════
    Set picker (tier × number grid)
@@ -594,6 +742,12 @@ function Header({
    Flashcards
    ═══════════════════════════════════════════════ */
 
+const FLASHCARD_GROUP_SIZE = 10;
+
+function getUnmasteredFlashcardIds(deck: Word[]): string[] {
+  return deck.filter(w => w.mastery < 0.8).map(w => w.id);
+}
+
 function Flashcards({
   deck,
   isDark,
@@ -603,16 +757,17 @@ function Flashcards({
 }: {
   deck: Word[];
   isDark: boolean;
-  onMark: (id: string, status: StudyStatus) => void;
+  onMark: (id: string, status: StudyStatus, mode: PracticeMode) => void;
   onResetSet: () => void;
   setName: string;
 }) {
   // Session-only state. Queue holds IDs of cards still to be answered this round.
-  // mastered/learning are sets tracking what the user did this round, used for the summary
+  // confirmed/learning are sets tracking what the user did this round, used for the summary
   // and for "continue with still-learning" restart.
   const [queue, setQueue] = useState<string[]>([]);
   const [roundTotal, setRoundTotal] = useState(0);
-  const [masteredThisRound, setMasteredThisRound] = useState<Set<string>>(new Set());
+  const [roundStart, setRoundStart] = useState(0);
+  const [confirmedThisRound, setConfirmedThisRound] = useState<Set<string>>(new Set());
   const [learningThisRound, setLearningThisRound] = useState<Set<string>>(new Set());
   const [flipped, setFlipped] = useState(false);
   const [confirmReset, setConfirmReset] = useState(false);
@@ -632,16 +787,22 @@ function Flashcards({
   // mastery values update, so a join of IDs gives us a deck-identity dep.
   const deckIds = deck.map(w => w.id).join("|");
 
-  useEffect(() => {
+  const startGroup = (requestedStart: number) => {
     const d = deckRef.current;
-    const unmastered = d.filter(w => w.mastery < 0.8).map(w => w.id);
-    const nextQueue = unmastered.length > 0 ? unmastered : d.map(w => w.id);
+    const unmastered = getUnmasteredFlashcardIds(d);
+    const nextStart = unmastered.length > 0 && requestedStart < unmastered.length ? Math.max(0, requestedStart) : 0;
+    const nextQueue = unmastered.slice(nextStart, nextStart + FLASHCARD_GROUP_SIZE);
+    setRoundStart(nextStart);
     setQueue(nextQueue);
     setRoundTotal(nextQueue.length);
-    setMasteredThisRound(new Set());
+    setConfirmedThisRound(new Set());
     setLearningThisRound(new Set());
     setFlipped(false);
     setConfirmReset(false);
+  };
+
+  useEffect(() => {
+    startGroup(0);
   }, [deckIds]);
 
   const cardId = queue[0];
@@ -660,8 +821,8 @@ function Flashcards({
   const markGotIt = () => {
     if (!card) return;
     const id = card.id;
-    onMark(id, "mastered");
-    setMasteredThisRound(s => {
+    onMark(id, "mastered", "flashcards");
+    setConfirmedThisRound(s => {
       const n = new Set(s);
       n.add(id);
       return n;
@@ -672,7 +833,7 @@ function Flashcards({
   const markStudyAgain = () => {
     if (!card) return;
     const id = card.id;
-    onMark(id, "learning");
+    onMark(id, "learning", "flashcards");
     setLearningThisRound(s => {
       const n = new Set(s);
       n.add(id);
@@ -703,30 +864,26 @@ function Flashcards({
   );
 
   const restartFull = () => {
-    const nextQueue = deckRef.current.map(w => w.id);
-    setQueue(nextQueue);
-    setRoundTotal(nextQueue.length);
-    setMasteredThisRound(new Set());
-    setLearningThisRound(new Set());
-    setFlipped(false);
+    startGroup(roundStart);
   };
 
   const restartLearning = () => {
-    const ids = Array.from(learningThisRound).filter(id => !masteredThisRound.has(id));
+    const ids = Array.from(learningThisRound).filter(id => !confirmedThisRound.has(id));
     if (ids.length === 0) return;
     setQueue(ids);
     setRoundTotal(ids.length);
-    setMasteredThisRound(new Set());
+    setConfirmedThisRound(new Set());
     setLearningThisRound(new Set());
     setFlipped(false);
   };
 
   const resetAndStart = () => {
-    const nextQueue = deckRef.current.map(w => w.id);
     onResetSet();
+    const nextQueue = deckRef.current.map(w => w.id).slice(0, FLASHCARD_GROUP_SIZE);
+    setRoundStart(0);
     setQueue(nextQueue);
     setRoundTotal(nextQueue.length);
-    setMasteredThisRound(new Set());
+    setConfirmedThisRound(new Set());
     setLearningThisRound(new Set());
     setFlipped(false);
     setConfirmReset(false);
@@ -756,9 +913,17 @@ function Flashcards({
   }
 
   if (done) {
-    const masteredCount = masteredThisRound.size;
-    const stillLearningCount = Array.from(learningThisRound).filter(id => !masteredThisRound.has(id)).length;
+    const confirmedCount = confirmedThisRound.size;
+    const stillLearningCount = Array.from(learningThisRound).filter(id => !confirmedThisRound.has(id)).length;
     const allMastered = deck.every(w => w.mastery >= 0.8);
+    const unmasteredIds = getUnmasteredFlashcardIds(deck);
+    const nextStart = roundStart + FLASHCARD_GROUP_SIZE;
+    const hasNextGroup = nextStart < unmasteredIds.length;
+    const nextGroupSize = Math.min(
+      FLASHCARD_GROUP_SIZE,
+      hasNextGroup ? unmasteredIds.length - nextStart : unmasteredIds.length,
+    );
+    const startNextGroup = () => startGroup(hasNextGroup ? nextStart : 0);
 
     return (
       <div style={{ maxWidth: 520, margin: "0 auto", textAlign: "center" }}>
@@ -771,12 +936,16 @@ function Flashcards({
             boxShadow: "0 12px 32px -18px rgba(15,23,42,.12)",
           }}
         >
-          <h2 style={{ margin: 0, fontSize: 24, fontWeight: 600, color: fg }}>Round complete</h2>
+          <h2 style={{ margin: 0, fontSize: 24, fontWeight: 600, color: fg }}>
+            {allMastered && confirmedCount === 0 && stillLearningCount === 0 ? "Set mastered" : "Round complete"}
+          </h2>
           <p style={{ margin: "10px 0 6px", color: muted, fontSize: 15 }}>
-            {masteredCount > 0 && <>{masteredCount} mastered</>}
-            {masteredCount > 0 && stillLearningCount > 0 && " · "}
+            {confirmedCount > 0 && <>{confirmedCount} confirmed</>}
+            {confirmedCount > 0 && stillLearningCount > 0 && " · "}
             {stillLearningCount > 0 && <>{stillLearningCount} still learning</>}
-            {masteredCount === 0 && stillLearningCount === 0 && "No cards reviewed."}
+            {confirmedCount === 0 && stillLearningCount === 0 && (
+              allMastered ? "Reset this set to study it from scratch." : "No cards reviewed."
+            )}
           </p>
           {allMastered && (
             <p style={{ color: okFg, margin: "10px 0 22px", fontSize: 13, fontWeight: 500 }}>
@@ -790,9 +959,11 @@ function Flashcards({
                 Continue with still-learning ({stillLearningCount})
               </button>
             )}
-            <button onClick={restartFull} style={{ ...btnSecondary, padding: "0 24px" }}>
-              Restart full set ({deck.length})
-            </button>
+            {!allMastered && (
+              <button onClick={startNextGroup} style={{ ...btnSecondary, padding: "0 24px" }}>
+                {hasNextGroup ? "Next group" : "Start next pass"} ({nextGroupSize})
+              </button>
+            )}
             {!confirmReset ? (
               <button
                 onClick={() => setConfirmReset(true)}
@@ -838,6 +1009,9 @@ function Flashcards({
   const remaining = queue.length;
   const reviewedThisRound = Math.max(0, totalForBar - remaining);
   const progressPct = (reviewedThisRound / Math.max(totalForBar, 1)) * 100;
+  const unmasteredCount = getUnmasteredFlashcardIds(deck).length;
+  const groupCount = Math.max(1, Math.ceil(unmasteredCount / FLASHCARD_GROUP_SIZE));
+  const groupNumber = Math.min(groupCount, Math.floor(roundStart / FLASHCARD_GROUP_SIZE) + 1);
 
   return (
     <div style={{ maxWidth: 720, margin: "0 auto" }}>
@@ -856,8 +1030,12 @@ function Flashcards({
       >
         <span style={{ whiteSpace: "nowrap" }}>
           <span style={{ fontFamily: "'Inter Tight', sans-serif", fontWeight: 600, fontVariantNumeric: "tabular-nums", color: "rgb(var(--ink))" }}>{remaining}</span> left
+          {" in group "}
+          <span style={{ fontFamily: "'Inter Tight', sans-serif", fontWeight: 600, fontVariantNumeric: "tabular-nums", color: "rgb(var(--ink))" }}>{groupNumber}</span>
+          /
+          <span style={{ fontFamily: "'Inter Tight', sans-serif", fontWeight: 600, fontVariantNumeric: "tabular-nums", color: "rgb(var(--ink))" }}>{groupCount}</span>
           {" · "}
-          <span style={{ fontFamily: "'Inter Tight', sans-serif", fontWeight: 600, fontVariantNumeric: "tabular-nums", color: "rgb(var(--ink))" }}>{masteredThisRound.size}</span> this round
+          <span style={{ fontFamily: "'Inter Tight', sans-serif", fontWeight: 600, fontVariantNumeric: "tabular-nums", color: "rgb(var(--ink))" }}>{confirmedThisRound.size}</span> confirmed
         </span>
         <div
           style={{ flex: 1, height: 3, borderRadius: 2, background: "hsl(var(--border))", overflow: "hidden" }}
@@ -875,7 +1053,7 @@ function Flashcards({
         {/* Restart link — Inter 500, 13px, ink-mid. Hover flips to ink. No underline. */}
         <button
           onClick={restartFull}
-          title="Restart this round"
+          title="Restart this group"
           style={{
             background: "transparent",
             border: "none",
@@ -884,12 +1062,14 @@ function Flashcards({
             fontFamily: "'Inter', sans-serif",
             fontSize: 13,
             fontWeight: 500,
-            padding: "2px 6px",
+            minHeight: 36,
+            borderRadius: 8,
+            padding: "8px 10px",
           }}
           onMouseEnter={e => (e.currentTarget.style.color = "rgb(var(--ink))")}
           onMouseLeave={e => (e.currentTarget.style.color = "rgb(var(--ink-mid))")}
         >
-          ↺ Restart
+          ↺ Restart group
         </button>
       </div>
 
@@ -1221,10 +1401,8 @@ function FlashcardBack({ card, isDark }: { card: Word; isDark: boolean }) {
 const LEARN_ROUND_SIZE = 10;
 
 function buildLearnRound(deck: Word[]): string[] {
-  // Prefer unmastered words; if none, use the full deck. Within each pool we shuffle.
   const unmastered = deck.filter(w => w.mastery < 0.8);
-  const fallback = unmastered.length ? unmastered : deck;
-  const ids = fallback.map(w => w.id);
+  const ids = unmastered.map(w => w.id);
   for (let i = ids.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [ids[i], ids[j]] = [ids[j], ids[i]];
@@ -1240,7 +1418,7 @@ function Learn({
 }: {
   deck: Word[];
   isDark: boolean;
-  onMark: (id: string, s: StudyStatus) => void;
+  onMark: (id: string, s: StudyStatus, mode: PracticeMode) => void;
   onResetSet: () => void;
 }) {
   const okFgL = isDark ? "hsl(122 60% 65%)" : okFg;
@@ -1309,14 +1487,14 @@ function Learn({
     if (!w || revealed) return;
     setPicked(i);
     if (i === correct) {
-      onMark(w.id, "mastered");
+      onMark(w.id, "mastered", "learn");
       setCorrectIds(s => {
         const n = new Set(s);
         n.add(w.id);
         return n;
       });
     } else {
-      onMark(w.id, "learning");
+      onMark(w.id, "learning", "learn");
       setWrongIds(s => {
         const n = new Set(s);
         n.add(w.id);
@@ -1360,6 +1538,9 @@ function Learn({
 
   if (deck.length === 0) {
     return <div style={{ color: muted, textAlign: "center", padding: 40 }}>No words.</div>;
+  }
+  if (deck.every(w => w.mastery >= 0.8) && !done) {
+    return <MasteredSetPrompt setName={deck[0]?.setName} onReset={resetAndStart} />;
   }
 
   if (done) {
@@ -1542,6 +1723,7 @@ const MATCH_POOL_SIZE = 6;
 
 function buildMatchPool(deck: Word[]): Word[] {
   const unmastered = deck.filter(w => w.mastery < 0.8);
+  if (!unmastered.length) return [];
   const mastered = deck.filter(w => w.mastery >= 0.8);
   const shuffled = [...unmastered];
   for (let i = shuffled.length - 1; i > 0; i--) {
@@ -1564,10 +1746,12 @@ function Match({
   deck,
   isDark,
   onMark,
+  onResetSet,
 }: {
   deck: Word[];
   isDark: boolean;
-  onMark: (id: string, s: StudyStatus) => void;
+  onMark: (id: string, s: StudyStatus, mode: PracticeMode) => void;
+  onResetSet: () => void;
 }) {
   const okFgL = isDark ? "hsl(122 60% 65%)" : okFg;
   const okBgL = isDark ? "hsl(122 40% 15%)" : okBg;
@@ -1599,6 +1783,11 @@ function Match({
     setSelected(null);
   };
 
+  const resetAndStart = () => {
+    onResetSet();
+    window.setTimeout(startRound, 0);
+  };
+
   const deckIds = deck.map(w => w.id).join("|");
   useEffect(() => {
     startRound();
@@ -1626,7 +1815,7 @@ function Match({
     setSelected(null);
     setMissedPair(null);
     const target = pool[wi];
-    if (target) onMark(target.id, (missCounts[wi] ?? 0) > 0 ? "learning" : "mastered");
+    if (target) onMark(target.id, (missCounts[wi] ?? 0) > 0 ? "learning" : "mastered", "match");
   };
 
   const matched = (wi: number, slot: number) => wi === defOrder[slot];
@@ -1639,6 +1828,9 @@ function Match({
 
   if (deck.length === 0) {
     return <div style={{ color: muted, textAlign: "center", padding: 40 }}>No words.</div>;
+  }
+  if (deck.every(w => w.mastery >= 0.8) && pool.length === 0) {
+    return <MasteredSetPrompt setName={deck[0]?.setName} onReset={resetAndStart} />;
   }
 
   return (
@@ -1669,7 +1861,9 @@ function Match({
               color: muted,
               cursor: "pointer",
               fontSize: 13,
-              padding: "2px 6px",
+              minHeight: 36,
+              borderRadius: 8,
+              padding: "8px 10px",
               fontFamily: "inherit",
             }}
           >
@@ -1793,9 +1987,149 @@ function Match({
 
 const TEST_QUESTION_COUNT = 12;
 const TEST_PER_Q_SECONDS = 45;
+type TestQuestionType = "definition-to-word" | "word-to-definition" | "sentence-completion" | "synonym" | "antonym";
 
-function buildTestQuestions(deck: Word[]): Word[] {
+type TestQuestion = {
+  id: string;
+  word: Word;
+  type: TestQuestionType;
+  prompt: string;
+  context?: string;
+  choices: string[];
+  correct: number;
+  answer: string;
+};
+
+const TEST_TYPE_ORDER: TestQuestionType[] = [
+  "definition-to-word",
+  "sentence-completion",
+  "word-to-definition",
+  "synonym",
+  "antonym",
+];
+
+function escapeRegExp(s: string): string {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function blankExample(w: Word): string | null {
+  const re = new RegExp(`\\b${escapeRegExp(w.w)}\\b`, "i");
+  if (!re.test(w.ex)) return null;
+  return w.ex.replace(re, "_____");
+}
+
+function buildChoices(correct: string, distractors: string[], seed: number): { choices: string[]; correct: number } {
+  const unique = distractors.filter((value, index, arr) => value && value !== correct && arr.indexOf(value) === index);
+  const picked: string[] = [];
+  let k = 0;
+  while (picked.length < 3 && unique.length) {
+    const candidate = unique[(seed + k * 7) % unique.length];
+    k++;
+    if (!picked.includes(candidate)) picked.push(candidate);
+    if (k > 1000) break;
+  }
+  const correctIdx = seed % 4;
+  const choices: string[] = [];
+  let di = 0;
+  for (let i = 0; i < 4; i++) {
+    choices.push(i === correctIdx ? correct : picked[di++] ?? "—");
+  }
+  return { choices, correct: correctIdx };
+}
+
+function availableTestTypes(w: Word): TestQuestionType[] {
+  return TEST_TYPE_ORDER.filter(type => {
+    if (type === "sentence-completion") return blankExample(w) !== null;
+    if (type === "synonym") return w.syn.length > 0;
+    if (type === "antonym") return w.ant.length > 0;
+    return true;
+  });
+}
+
+function pickTestType(w: Word, index: number): TestQuestionType {
+  const available = availableTestTypes(w);
+  const preferred = TEST_TYPE_ORDER[index % TEST_TYPE_ORDER.length];
+  if (available.includes(preferred)) return preferred;
+  return available[hashStr(`${w.id}:${index}`) % available.length] ?? "definition-to-word";
+}
+
+function buildTestQuestion(w: Word, deck: Word[], index: number): TestQuestion {
+  const type = pickTestType(w, index);
+  const seed = hashStr(`${w.id}:${type}:${index}`);
+  const otherWords = deck.filter(d => d.id !== w.id);
+  const wordChoices = () => buildChoices(w.w, otherWords.map(d => d.w), seed);
+  const definitionChoices = () => buildChoices(w.def, otherWords.map(d => d.def), seed);
+
+  if (type === "word-to-definition") {
+    const { choices, correct } = definitionChoices();
+    return {
+      id: `${w.id}:definition:${index}`,
+      word: w,
+      type,
+      prompt: `Which definition best matches "${w.w}"?`,
+      choices,
+      correct,
+      answer: w.def,
+    };
+  }
+
+  if (type === "sentence-completion") {
+    const { choices, correct } = wordChoices();
+    return {
+      id: `${w.id}:sentence:${index}`,
+      word: w,
+      type,
+      prompt: "Which word best completes the sentence?",
+      context: blankExample(w) ?? w.ex,
+      choices,
+      correct,
+      answer: w.w,
+    };
+  }
+
+  if (type === "synonym") {
+    const clue = w.syn[seed % w.syn.length];
+    const { choices, correct } = wordChoices();
+    return {
+      id: `${w.id}:synonym:${index}`,
+      word: w,
+      type,
+      prompt: `Which word is closest in meaning to "${clue}"?`,
+      choices,
+      correct,
+      answer: w.w,
+    };
+  }
+
+  if (type === "antonym") {
+    const clue = w.ant[seed % w.ant.length];
+    const { choices, correct } = wordChoices();
+    return {
+      id: `${w.id}:antonym:${index}`,
+      word: w,
+      type,
+      prompt: `Which word is most nearly opposite in meaning to "${clue}"?`,
+      choices,
+      correct,
+      answer: w.w,
+    };
+  }
+
+  const { choices, correct } = wordChoices();
+  return {
+    id: `${w.id}:word:${index}`,
+    word: w,
+    type,
+    prompt: `Which word means "${w.def}"?`,
+    choices,
+    correct,
+    answer: w.w,
+  };
+}
+
+function buildTestQuestions(deck: Word[]): TestQuestion[] {
   const unmastered = deck.filter(w => w.mastery < 0.8);
+  if (!unmastered.length) return [];
   const mastered = deck.filter(w => w.mastery >= 0.8);
   const shuffle = (arr: Word[]) => {
     const a = [...arr];
@@ -1807,13 +2141,15 @@ function buildTestQuestions(deck: Word[]): Word[] {
   };
   const pool = shuffle(unmastered);
   if (pool.length < TEST_QUESTION_COUNT) pool.push(...shuffle(mastered));
-  return pool.slice(0, Math.min(TEST_QUESTION_COUNT, pool.length));
+  return pool
+    .slice(0, Math.min(TEST_QUESTION_COUNT, pool.length))
+    .map((w, index) => buildTestQuestion(w, deck, index));
 }
 
 type TestResult = {
-  word: Word;
-  correctWord: string;
-  pickedWord: string | null;
+  question: TestQuestion;
+  correctAnswer: string;
+  pickedAnswer: string | null;
   correct: boolean;
 };
 
@@ -1824,14 +2160,14 @@ function Test({
   setName,
 }: {
   deck: Word[];
-  onMark: (id: string, s: StudyStatus) => void;
+  onMark: (id: string, s: StudyStatus, mode: PracticeMode) => void;
   onResetSet: () => void;
   setName: string;
 }) {
   const deckRef = useRef(deck);
   deckRef.current = deck;
 
-  const [questions, setQuestions] = useState<Word[]>([]);
+  const [questions, setQuestions] = useState<TestQuestion[]>([]);
   const [qIdx, setQIdx] = useState(0);
   const [sel, setSel] = useState<number | null>(null);
   const [results, setResults] = useState<TestResult[]>([]);
@@ -1853,29 +2189,9 @@ function Test({
   const q = questions[qIdx];
 
   const options = useMemo(() => {
-    if (!q) return { words: [] as string[], correct: 0 };
-    const others = deckRef.current.filter(d => d.id !== q.id);
-    const h = hashStr(q.w + "opts");
-    const seen = new Set<string>();
-    const distractors: string[] = [];
-    let k = 0;
-    while (distractors.length < 3 && others.length) {
-      const pick = others[(h + k * 11) % others.length];
-      k++;
-      if (k > 1000) break;
-      if (!pick || seen.has(pick.id)) continue;
-      seen.add(pick.id);
-      distractors.push(pick.w);
-    }
-    const correctIdx = h % 4;
-    const words: string[] = [];
-    let di = 0;
-    for (let i = 0; i < 4; i++) {
-      if (i === correctIdx) words.push(q.w);
-      else words.push(distractors[di++] ?? "—");
-    }
-    return { words, correct: correctIdx };
-  }, [q?.id]); // eslint-disable-line react-hooks/exhaustive-deps
+    if (!q) return { choices: [] as string[], correct: 0 };
+    return { choices: q.choices, correct: q.correct };
+  }, [q?.id, q?.correct, q?.choices]);
 
   useEffect(() => {
     setTimeLeft(TEST_PER_Q_SECONDS);
@@ -1896,13 +2212,13 @@ function Test({
 
   const goNext = (wasCorrect: boolean) => {
     if (q) {
-      onMark(q.id, wasCorrect ? "mastered" : "learning");
+      onMark(q.word.id, wasCorrect ? "mastered" : "learning", "test");
       setResults(prev => [
         ...prev,
         {
-          word: q,
-          correctWord: q.w,
-          pickedWord: sel !== null ? options.words[sel] : null,
+          question: q,
+          correctAnswer: q.answer,
+          pickedAnswer: sel !== null ? options.choices[sel] : null,
           correct: wasCorrect,
         },
       ]);
@@ -1937,6 +2253,9 @@ function Test({
   };
 
   if (!deck.length) return <div style={{ color: muted, textAlign: "center", padding: 40 }}>No words.</div>;
+  if (deck.every(w => w.mastery >= 0.8) && !done && questions.length === 0) {
+    return <MasteredSetPrompt setName={setName} onReset={resetAndStart} />;
+  }
 
   if (done) {
     const correctCount = results.filter(r => r.correct).length;
@@ -1961,7 +2280,7 @@ function Test({
           <div style={{ display: "flex", flexDirection: "column", gap: 8, marginBottom: 24 }}>
             {results.map((r, i) => (
               <div
-                key={`${r.word.id}-${i}`}
+                key={`${r.question.id}-${i}`}
                 style={{
                   display: "flex",
                   gap: 12,
@@ -1990,15 +2309,15 @@ function Test({
                   {r.correct ? "✓" : "✕"}
                 </div>
                 <div style={{ flex: 1, minWidth: 0 }}>
-                  <div style={{ display: "flex", justifyContent: "space-between", gap: 12, alignItems: "baseline" }}>
-                    <span style={{ fontSize: 15, fontWeight: 600, color: fg }}>{r.correctWord}</span>
-                    {!r.correct && (
-                      <span style={{ fontSize: 12, color: errFg, whiteSpace: "nowrap" }}>
-                        you picked: {r.pickedWord ?? "—"}
-                      </span>
-                    )}
+                  <div style={{ fontSize: 15, fontWeight: 600, color: fg }}>{r.question.word.w}</div>
+                  <div style={{ fontSize: 13, color: muted, marginTop: 2, lineHeight: 1.45 }}>
+                    Correct: {r.correctAnswer}
                   </div>
-                  <div style={{ fontSize: 13, color: muted, marginTop: 2, lineHeight: 1.45 }}>{r.word.def}</div>
+                  {!r.correct && (
+                    <div style={{ fontSize: 12, color: errFg, marginTop: 3, lineHeight: 1.45 }}>
+                      You picked: {r.pickedAnswer ?? "—"}
+                    </div>
+                  )}
                 </div>
               </div>
             ))}
@@ -2133,31 +2452,38 @@ function Test({
           boxShadow: "0 12px 32px -18px rgba(15,23,42,.12)",
         }}
       >
-        <p
-          style={{
-            fontFamily: '"Source Serif 4",serif',
-            fontSize: 20,
-            lineHeight: 1.55,
-            margin: "0 0 24px",
-            color: fg,
-          }}
-        >
-          Which word means "{q.def}"? The answer is{" "}
-          <span
+        <div style={{ marginBottom: 24 }}>
+          <p
             style={{
-              borderBottom: `2px solid ${primary}`,
-              padding: "0 8px",
-              color: sel !== null ? fg : "transparent",
-              fontWeight: 500,
+              fontFamily: '"Source Serif 4",serif',
+              fontSize: 20,
+              lineHeight: 1.55,
+              margin: 0,
+              color: fg,
             }}
           >
-            {sel !== null ? options.words[sel] : "_____"}
-          </span>
-          .
-        </p>
+            {q.prompt}
+          </p>
+          {q.context && (
+            <div
+              style={{
+                marginTop: 14,
+                padding: "14px 16px",
+                borderRadius: 10,
+                background: surface,
+                border: `1px solid ${borderC}`,
+                color: fg,
+                fontSize: 15,
+                lineHeight: 1.55,
+              }}
+            >
+              {q.context}
+            </div>
+          )}
+        </div>
 
         <div style={{ display: "grid", gap: 10 }}>
-          {options.words.map((wd, i) => {
+          {options.choices.map((choice, i) => {
             const on = sel === i;
             return (
               <button
@@ -2196,7 +2522,7 @@ function Test({
                 >
                   {String.fromCharCode(65 + i)}
                 </span>
-                <span style={{ fontSize: 16 }}>{wd}</span>
+                <span style={{ fontSize: 15, lineHeight: 1.45 }}>{choice}</span>
               </button>
             );
           })}
@@ -2480,15 +2806,10 @@ const Vocab = () => {
         }
         const parsed = JSON.parse(raw);
         if (parsed && typeof parsed === "object") {
-          // Accept either the new flat {id: status} shape or the legacy {id: {status,...}} shape
           const next: StoredProgress = {};
           for (const [k, v] of Object.entries(parsed as Record<string, unknown>)) {
-            if (typeof v === "string" && (v === "new" || v === "learning" || v === "mastered")) {
-              next[k] = v;
-            } else if (v && typeof v === "object" && "status" in (v as object)) {
-              const s = (v as { status?: unknown }).status;
-              if (s === "new" || s === "learning" || s === "mastered") next[k] = s;
-            }
+            const normalized = normalizeProgressValue(v);
+            if (normalized) next[k] = normalized;
           }
           setProgress(next);
         } else {
@@ -2514,10 +2835,30 @@ const Vocab = () => {
     }
   }, [progress, uid, user]);
 
-  const markWord = (id: string, status: StudyStatus) => {
+  const markWord = (id: string, status: StudyStatus, mode: PracticeMode) => {
     setProgress(prev => {
-      if (prev[id] === status) return prev;
-      return { ...prev, [id]: status };
+      const current = prev[id] ?? progressFromStatus("new");
+      const modes = { ...current.modes };
+      let confirmations = current.confirmations;
+      if (status === "mastered") {
+        confirmations += 1;
+        modes[mode] = (modes[mode] ?? 0) + 1;
+      } else {
+        confirmations = Math.max(0, confirmations - 1);
+      }
+      const next: StoredWordProgress = {
+        status: deriveStatus(confirmations, modes, true),
+        confirmations,
+        modes,
+      };
+      if (
+        current.status === next.status &&
+        current.confirmations === next.confirmations &&
+        PRACTICE_MODES.every(key => (current.modes[key] ?? 0) === (next.modes[key] ?? 0))
+      ) {
+        return prev;
+      }
+      return { ...prev, [id]: next };
     });
   };
 
@@ -2554,7 +2895,7 @@ const Vocab = () => {
           setId: activeSet.id,
           setName: activeSet.name,
         },
-        progress[`${activeSet.id}::${w.word.toLowerCase()}`] ?? "new",
+        progress[`${activeSet.id}::${w.word.toLowerCase()}`],
       ),
     );
   }, [activeSet, progress]);
@@ -2564,8 +2905,8 @@ const Vocab = () => {
     const next: Record<string, SetPickerStatus> = {};
     for (const set of vocabularySets) {
       const wordIds = set.words.map(w => `${set.id}::${w.word.toLowerCase()}`);
-      const progressed = wordIds.filter(id => progress[id] && progress[id] !== "new").length;
-      const mastered = wordIds.filter(id => progress[id] === "mastered").length;
+      const progressed = wordIds.filter(id => progress[id] && progress[id].status !== "new").length;
+      const mastered = wordIds.filter(id => progress[id]?.status === "mastered").length;
       next[set.id] = mastered === wordIds.length && wordIds.length > 0
         ? "done"
         : progressed > 0
@@ -2593,7 +2934,7 @@ const Vocab = () => {
   else if (mode === "learn")
     content = <Learn deck={deck} isDark={isDark} onMark={markWord} onResetSet={resetActive} />;
   else if (mode === "match")
-    content = <Match deck={deck} isDark={isDark} onMark={markWord} />;
+    content = <Match deck={deck} isDark={isDark} onMark={markWord} onResetSet={resetActive} />;
   else if (mode === "test")
     content = (
       <Test deck={deck} onMark={markWord} onResetSet={resetActive} setName={activeSet?.name ?? ""} />

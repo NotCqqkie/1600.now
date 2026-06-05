@@ -1,1 +1,27 @@
-{"questionId":"32cd6c88-820b-4de4-aa5c-08fe14fb73ef_9","correctAnswer":"D","section":"Math","steps":[{"title":"Set up","content":"Substitute $x = -2$ into $h(x) = 7|x|$."},{"title":"Solve","content":"$$h(-2) = 7|-2| = 7 \\cdot 2 = 14$$"},{"title":"Answer","content":"<strong>D</strong> is correct.", "desmosExpressions": ["y = 7|x|", "(-2, 14)"]}]}
+{
+  "questionId": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_9",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "Substitute $x = -2$ into $h(x) = 7|x|$."
+    },
+    {
+      "title": "Solve",
+      "content": "$$h(-2) = 7|-2| = 7 \\cdot 2 = 14$$"
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "y = 7|x|",
+        "(-2, 14)"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice D, 14. The other choices do not satisfy the same condition from the question, so <strong>D</strong> is correct."
+    }
+  ]
+}

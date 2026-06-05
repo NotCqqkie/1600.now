@@ -3,13 +3,14 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
-import { Suspense, lazy, useEffect, useState, type ReactNode } from "react";
+import { Suspense, lazy, useEffect, useState, type CSSProperties, type ReactNode } from "react";
 import { AuthProvider, useAuth } from "@/contexts/AuthContext";
 import { AuthReturnTracker } from "@/components/auth/AuthReturnTracker";
 import { EmailVerificationGuard } from "@/components/auth/EmailVerificationGuard";
 import { AnalyticsPageTracker } from "@/components/AnalyticsPageTracker";
 import { ScrollToTop } from "@/components/ScrollToTop";
 import { LegalDisclaimer } from "@/components/brand/LegalDisclaimer";
+import { BrandLogo } from "@/components/brand/BrandLogo";
 import { Seo } from "@/components/seo/Seo";
 import { ErrorBoundary } from "@/components/ErrorBoundary";
 import "@/lib/personalization";
@@ -574,6 +575,180 @@ const SettingsSkeleton = () => (
 
 const skeletonRange = (length: number) => Array.from({ length }, (_, index) => index);
 
+const HomeAmbientSkeleton = () => (
+  <>
+    <div
+      aria-hidden
+      className="absolute inset-x-0 top-16 h-[calc(100vh-4rem)] opacity-80"
+      style={{
+        backgroundImage: `
+          radial-gradient(circle at 20% 12%, rgba(56,189,248,0.18), transparent 34%),
+          radial-gradient(circle at 78% 18%, rgba(129,140,248,0.14), transparent 32%),
+          radial-gradient(circle at 45% 72%, rgba(244,114,182,0.08), transparent 34%)
+        `,
+      }}
+    />
+    <div
+      aria-hidden
+      className="absolute inset-x-0 top-16 h-[calc(100vh-4rem)] opacity-60"
+      style={{
+        backgroundImage: `
+          linear-gradient(rgba(15,23,42,0.08) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(15,23,42,0.08) 1px, transparent 1px)
+        `,
+        backgroundSize: "54px 54px",
+        WebkitMaskImage: "linear-gradient(to bottom, black 0%, black 72%, transparent 100%)",
+        maskImage: "linear-gradient(to bottom, black 0%, black 72%, transparent 100%)",
+      }}
+    />
+    <svg
+      aria-hidden
+      viewBox="0 0 1400 900"
+      preserveAspectRatio="xMidYMid slice"
+      className="absolute inset-x-0 top-16 h-[calc(100vh-4rem)] w-full opacity-45"
+    >
+      <path
+        d="M 0 600 Q 700 -60 1400 600"
+        fill="none"
+        stroke="rgba(125,211,252,0.58)"
+        strokeWidth="4.5"
+        strokeLinecap="round"
+      />
+      <path
+        d="M 0 230 L 1400 610"
+        fill="none"
+        stroke="rgba(125,211,252,0.32)"
+        strokeWidth="3"
+        strokeLinecap="round"
+      />
+    </svg>
+  </>
+);
+
+const HomeQuestionPreviewSkeleton = ({ className = "" }: { className?: string }) => (
+  <div className={`overflow-hidden rounded-[14px] border border-border bg-card shadow-2xl ${className}`}>
+    <div className="flex h-full flex-col p-4">
+      <div className="mb-4 flex items-center justify-between">
+        <div className="flex gap-2">
+          <LoadingBlock className="h-7 w-16 rounded-full" />
+          <LoadingBlock className="h-7 w-24 rounded-full" />
+        </div>
+        <LoadingBlock className="h-8 w-28 rounded-md" />
+      </div>
+      <div className="grid min-h-0 flex-1 gap-5 md:grid-cols-[1fr_0.92fr]">
+        <div className="space-y-3 rounded-lg bg-muted/30 p-4">
+          <LoadingBlock className="h-4 w-28 rounded-full" />
+          <LoadingBlock className="h-4 w-full rounded-full" />
+          <LoadingBlock className="h-4 w-11/12 rounded-full" />
+          <LoadingBlock className="h-4 w-4/5 rounded-full" />
+          <LoadingBlock className="mt-4 h-40 w-full rounded-lg" />
+        </div>
+        <div className="space-y-3">
+          {skeletonRange(4).map((item) => (
+            <div key={item} className="flex items-center gap-3 rounded-lg bg-muted/30 p-3">
+              <LoadingBlock className="h-7 w-7 shrink-0 rounded-full" />
+              <div className="w-full space-y-2">
+                <LoadingBlock className="h-3 w-full rounded-full" />
+                <LoadingBlock className="h-3 w-3/4 rounded-full" />
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </div>
+);
+
+const HomeFilterPreviewSkeleton = ({ className = "", style }: { className?: string; style?: CSSProperties }) => (
+  <div className={`overflow-hidden rounded-[14px] border border-border bg-card shadow-2xl ${className}`} style={style}>
+    <div className="flex h-full flex-col p-4">
+      <div className="mb-4 flex items-center justify-between">
+        <div className="space-y-2">
+          <LoadingBlock className="h-5 w-40 rounded-full" />
+          <LoadingBlock className="h-3 w-56 max-w-full rounded-full" />
+        </div>
+        <LoadingBlock className="h-8 w-24 rounded-md" />
+      </div>
+      <div className="grid min-h-0 flex-1 gap-4 md:grid-cols-[0.56fr_1fr]">
+        <div className="space-y-3 rounded-lg bg-muted/30 p-3">
+          {skeletonRange(5).map((item) => (
+            <div key={item} className="space-y-2">
+              <LoadingBlock className="h-3 w-2/3 rounded-full" />
+              <LoadingBlock className="h-8 w-full rounded-md" />
+            </div>
+          ))}
+        </div>
+        <div className="grid min-h-0 gap-3 sm:grid-cols-2">
+          {skeletonRange(2).map((column) => (
+            <div key={column} className="space-y-3 rounded-lg bg-muted/30 p-3">
+              <div className="flex items-center gap-3">
+                <LoadingBlock className="h-9 w-9 rounded-lg" />
+                <div className="space-y-2">
+                  <LoadingBlock className="h-4 w-28 rounded-full" />
+                  <LoadingBlock className="h-3 w-20 rounded-full" />
+                </div>
+              </div>
+              {skeletonRange(6).map((item) => (
+                <div key={item} className="flex items-center gap-2">
+                  <LoadingBlock className="h-4 w-4 rounded" />
+                  <LoadingBlock className="h-3 flex-1 rounded-full" />
+                  <LoadingBlock className="h-3 w-10 rounded-full" />
+                </div>
+              ))}
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </div>
+);
+
+const HomeExplanationSkeleton = () => (
+  <div className="overflow-hidden rounded-[14px] border border-border bg-card shadow-2xl">
+    <div className="flex h-[528px] flex-col">
+      <div className="flex items-center justify-between border-b border-border/50 bg-background/95 px-3 py-2">
+        <LoadingBlock className="h-5 w-16 rounded-full" />
+        <div className="flex gap-1.5">
+          <LoadingBlock className="h-1.5 w-3 rounded-full" />
+          <LoadingBlock className="h-1.5 w-1.5 rounded-full" />
+          <LoadingBlock className="h-1.5 w-1.5 rounded-full" />
+        </div>
+      </div>
+      <div className="flex-1 px-3 py-4">
+        <div className="flex items-start gap-2">
+          <LoadingBlock className="mt-0.5 h-7 w-7 rounded-full" />
+          <div className="space-y-2">
+            <LoadingBlock className="h-5 w-44 rounded-full" />
+            <LoadingBlock className="h-3 w-24 rounded-full" />
+          </div>
+        </div>
+        <div className="mt-5 space-y-3 pl-9">
+          <LoadingBlock className="h-4 w-full rounded-full" />
+          <LoadingBlock className="h-4 w-11/12 rounded-full" />
+          <LoadingBlock className="h-4 w-4/5 rounded-full" />
+          <LoadingBlock className="mt-5 h-56 w-full rounded-lg" />
+        </div>
+      </div>
+      <div className="flex items-center gap-2 border-t border-border/50 px-3 py-2">
+        <LoadingBlock className="h-9 flex-1 rounded-md" />
+        <LoadingBlock className="h-9 flex-1 rounded-md" />
+      </div>
+    </div>
+  </div>
+);
+
+const HomeFeatureCopySkeleton = ({ align = "left" }: { align?: "left" | "right" }) => (
+  <div className={align === "right" ? "lg:pl-2" : ""}>
+    <LoadingBlock className="h-14 w-full max-w-[420px] rounded-full" />
+    <LoadingBlock className="mt-3 h-14 w-64 rounded-full" />
+    <div className="mt-6 space-y-2">
+      <LoadingBlock className="h-4 w-full max-w-[440px] rounded-full" />
+      <LoadingBlock className="h-4 w-4/5 max-w-[390px] rounded-full" />
+    </div>
+    <LoadingBlock className="mt-7 h-5 w-40 rounded-full" />
+  </div>
+);
+
 const AccurateShellSkeleton = ({
   children,
   maxWidth = "max-w-5xl",
@@ -617,49 +792,133 @@ const AccurateShellSkeleton = ({
 );
 
 const AccurateHomeSkeleton = () => (
-  <div className="min-h-screen bg-background text-foreground">
+  <div className="min-h-screen bg-background text-foreground" style={{ fontFamily: "'Geist', 'Inter', system-ui, sans-serif" }}>
     <header className="sticky top-0 z-20 border-b border-border bg-card/95 backdrop-blur">
       <div className="container mx-auto flex h-16 items-center justify-between gap-3 px-3 sm:px-4">
-        <LoadingBlock className="h-9 w-9 rounded-lg" />
-        <div className="absolute left-1/2 hidden -translate-x-1/2 items-center gap-3 md:flex">
-          {skeletonRange(4).map((item) => (
-            <LoadingBlock key={item} className="h-8 w-28 rounded-md" />
-          ))}
-        </div>
-        <div className="flex items-center gap-2">
-          <LoadingBlock className="hidden h-8 w-16 rounded-full sm:block" />
-          <LoadingBlock className="h-8 w-20 rounded-full" />
+        <BrandLogo variant="mark" className="h-9 w-9" />
+        <nav className="absolute left-1/2 hidden -translate-x-1/2 items-center gap-1 md:flex">
+          <a href="/bank" className="rounded-md px-3 py-1.5 font-sans text-[14px] font-medium tracking-[-0.005em] text-ink">Question Bank</a>
+          <a href="/hard" className="rounded-md px-3 py-1.5 font-sans text-[14px] font-medium tracking-[-0.005em] text-ink">100 Hard Math</a>
+          <a href="/modules" className="rounded-md px-3 py-1.5 font-sans text-[14px] font-medium tracking-[-0.005em] text-ink">Practice Tests</a>
+          <a href="/score-calculator" className="rounded-md px-3 py-1.5 font-sans text-[14px] font-medium tracking-[-0.005em] text-ink">Score Calculator</a>
+        </nav>
+        <div className="inline-flex flex-shrink-0 items-center gap-1.5">
+          <a href="/login" className="hidden rounded-full px-3 py-2 text-sm font-medium text-foreground sm:inline-flex">Log In</a>
+          <a href="/signup" className="inline-flex h-9 items-center rounded-full bg-primary px-4 text-sm font-semibold text-primary-foreground">Sign Up</a>
         </div>
       </div>
     </header>
-    <section className="relative overflow-hidden px-4 pb-20 pt-[76px]">
-      <div className="mx-auto max-w-[860px] text-center">
-        <LoadingBlock className="mx-auto h-16 w-full max-w-[680px] rounded-full" />
-        <LoadingBlock className="mx-auto mt-4 h-16 w-full max-w-[560px] rounded-full" />
-        <LoadingBlock className="mx-auto mt-8 h-5 w-full max-w-[540px] rounded-full" />
-        <div className="mt-10 flex flex-wrap justify-center gap-3">
-          <LoadingBlock className="h-12 w-48 rounded-[10px]" />
-          <LoadingBlock className="h-12 w-36 rounded-[10px]" />
+    <section className="relative overflow-hidden pb-[clamp(72px,7vw,108px)]">
+      <HomeAmbientSkeleton />
+      <div className="relative mx-auto max-w-[860px] px-6 pt-[76px] text-center">
+        <h1
+          style={{
+            fontFamily: "'Geist', system-ui, sans-serif",
+            fontWeight: 500,
+            fontSize: "clamp(44px, 6.8vw, 96px)",
+            lineHeight: 0.98,
+            color: "rgb(var(--ink))",
+            margin: "0 0 26px",
+            letterSpacing: "-0.035em",
+          }}
+        >
+          Reach your
+          <br />
+          <span style={{ fontWeight: 600, color: "rgb(var(--cobalt))" }}>best score.</span>
+        </h1>
+        <p
+          style={{
+            fontSize: 19,
+            color: "rgb(var(--ink-mid))",
+            maxWidth: 540,
+            margin: "0 auto 38px",
+            lineHeight: 1.55,
+            fontWeight: 300,
+          }}
+        >
+          Accurate SAT practice built from real past tests.
+        </p>
+        <div className="flex flex-wrap justify-center gap-3">
+          <a href="/bank" className="inline-flex h-[52px] items-center rounded-[10px] bg-primary px-6 text-[15px] font-semibold text-primary-foreground">
+            Explore question bank
+          </a>
+          <a href="/modules" className="inline-flex h-[52px] items-center rounded-[10px] border border-border bg-card/80 px-6 text-[15px] font-semibold text-foreground">
+            Practice Tests
+          </a>
         </div>
-        <div className="mt-16">
-          <LoadingBlock className="mx-auto h-20 w-64 rounded-full" />
-          <LoadingBlock className="mx-auto mt-4 h-3 w-40 rounded-full" />
+        <div className="mt-[52px]">
+          <div
+            style={{
+              fontSize: "clamp(44px, 5.2vw, 72px)",
+              fontFamily: "'Inter Tight', sans-serif",
+              fontWeight: 600,
+              color: "rgb(var(--ink))",
+              letterSpacing: "-0.04em",
+              lineHeight: 0.95,
+              fontVariantNumeric: "tabular-nums",
+            }}
+          >
+            8,349
+          </div>
+          <div
+            style={{
+              fontSize: 11,
+              color: "rgb(var(--ink-muted))",
+              marginTop: 14,
+              letterSpacing: "0.32em",
+              textTransform: "uppercase",
+              fontWeight: 600,
+              lineHeight: 1,
+            }}
+          >
+            Practice questions
+          </div>
         </div>
       </div>
-      <div className="mx-auto mt-52 max-w-[1200px] px-2">
-        <LoadingBlock className="mx-auto h-14 w-full max-w-[680px] rounded-full" />
-        <div className="mx-auto mt-8 overflow-hidden rounded-[24px] border border-border bg-card p-4 shadow-2xl">
-          <div className="grid gap-5 lg:grid-cols-[1fr_0.92fr]">
-            <div className="space-y-3 rounded-lg bg-muted/30 p-5">
-              <LoadingBlock className="h-4 w-28 rounded-full" />
-              <LoadingBlock className="h-4 w-full rounded-full" />
-              <LoadingBlock className="h-4 w-11/12 rounded-full" />
-              <LoadingBlock className="h-44 w-full rounded-lg" />
-            </div>
+      <div className="relative mx-auto mt-[210px] max-w-[1200px] px-6">
+        <div className="mx-auto mb-7 max-w-[720px] text-center">
+          <h2
+            style={{
+              fontFamily: "'Geist', system-ui, sans-serif",
+              fontSize: "clamp(28px, 4.4vw, 52px)",
+              fontWeight: 500,
+              letterSpacing: "-0.035em",
+              lineHeight: 1.05,
+              color: "rgb(var(--ink))",
+              margin: 0,
+            }}
+          >
+            An interface so easy, you can use it right here.
+          </h2>
+        </div>
+        <HomeQuestionPreviewSkeleton className="h-[352px] md:h-[646px]" />
+      </div>
+    </section>
+    <section className="bg-background">
+      <div className="mx-auto grid max-w-[1200px] items-center gap-12 px-6 py-24 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.15fr)] lg:gap-16">
+        <HomeFeatureCopySkeleton />
+        <HomeExplanationSkeleton />
+      </div>
+    </section>
+    <section className="bg-background">
+      <div className="mx-auto grid max-w-[1380px] items-center gap-12 px-6 py-28 lg:grid-cols-[minmax(0,1.38fr)_minmax(300px,0.82fr)] lg:gap-[72px]">
+        <HomeFilterPreviewSkeleton className="h-[580px]" />
+        <HomeFeatureCopySkeleton align="right" />
+      </div>
+    </section>
+    <section className="bg-background">
+      <div className="mx-auto grid max-w-[1200px] items-center gap-12 px-6 pb-14 pt-16 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.15fr)] lg:gap-16">
+        <HomeFeatureCopySkeleton />
+        <div className="ml-auto w-full max-w-[620px]">
+          <div className="rounded-2xl border border-border bg-card p-5 shadow-2xl">
             <div className="space-y-3">
-              {skeletonRange(4).map((item) => (
-                <LoadingBlock key={item} className="h-16 w-full rounded-lg" />
-              ))}
+              <LoadingBlock className="h-5 w-40 rounded-full" />
+              <LoadingBlock className="h-16 w-40 rounded-full" />
+              <div className="grid gap-3 sm:grid-cols-2">
+                <LoadingBlock className="h-24 rounded-xl" />
+                <LoadingBlock className="h-24 rounded-xl" />
+              </div>
+              <LoadingBlock className="h-36 w-full rounded-xl" />
             </div>
           </div>
         </div>
@@ -1699,7 +1958,7 @@ const classifySkeleton = (pathname: string) => {
 
 const PageSkeleton = ({ pathname }: { pathname: string }) => {
   const kind = classifySkeleton(pathname);
-  if (kind === "home") return <AccurateHomeSkeleton />;
+  if (kind === "home") return <div className="min-h-screen bg-background" />;
   if (kind === "login") return <AccurateLoginSkeleton />;
   if (kind === "signup") return <AccurateSignupSkeleton />;
   if (kind === "verify-email") return <AccurateVerifyEmailSkeleton />;

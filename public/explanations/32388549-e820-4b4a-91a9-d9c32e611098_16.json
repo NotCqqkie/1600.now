@@ -1,1 +1,19 @@
-{"questionId": "32388549-e820-4b4a-91a9-d9c32e611098_16", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Factor out the common term", "content": "Both terms contain $36(x+12)$: $$36x^{2}(x+12)-36(x+12)^{3} = 36(x+12)\\bigl[x^{2}-(x+12)^{2}\\bigr].$$"}, {"title": "Apply difference of squares", "content": "$$x^{2}-(x+12)^{2} = \\bigl(x-(x+12)\\bigr)\\bigl(x+(x+12)\\bigr) = (-12)(2x+12).$$ So the full factorization is $$36(x+12)(-12)(2x+12) = -432(x+12)(2x+12).$$"}, {"title": "Match to a choice", "content": "The factors are constants times $(x+12)$ and $(2x+12)$.<ul><li>A) $-12x+144 = -12(x-12)$ &mdash; not a factor.</li><li>B) $2x+12$ &mdash; appears directly in the factorization.</li><li>C) $6x+6 = 6(x+1)$ &mdash; not a factor.</li><li>D) $24x-144 = 24(x-6)$ &mdash; not a factor.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "32388549-e820-4b4a-91a9-d9c32e611098_16",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor out the common term",
+      "content": "Both terms contain $36(x+12)$: $$36x^{2}(x+12)-36(x+12)^{3} = 36(x+12)\\bigl[x^{2}-(x+12)^{2}\\bigr].$$"
+    },
+    {
+      "title": "Apply difference of squares",
+      "content": "$$x^{2}-(x+12)^{2} = \\bigl(x-(x+12)\\bigr)\\bigl(x+(x+12)\\bigr) = (-12)(2x+12).$$ So the full factorization is $$36(x+12)(-12)(2x+12) = -432(x+12)(2x+12).$$"
+    },
+    {
+      "title": "Match to a choice",
+      "content": "The factors are constants times $(x+12)$ and $(2x+12)$.<ul><li>A) $-12x+144 = -12(x-12)$ &mdash; not a factor.</li><li>B) $2x+12$ &mdash; appears directly in the factorization.</li><li>C) $6x+6 = 6(x+1)$ &mdash; not a factor.</li><li>D) $24x-144 = 24(x-6)$ &mdash; not a factor.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

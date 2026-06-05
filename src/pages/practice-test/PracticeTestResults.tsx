@@ -18,6 +18,7 @@ import { getPracticeSet } from "@/data/modulePracticeBank";
 import { cn, normalizePublicAssetPath } from "@/lib/utils";
 import { renderMixedContent } from "@/lib/text/mathRendering";
 import { normalizeReadingDisplayText } from "@/lib/text/readingTextNormalization";
+import { useAuth } from "@/contexts/AuthContext";
 
 const lerp = (start: number, end: number, amount: number) =>
   start + (end - start) * amount;
@@ -172,15 +173,17 @@ const PracticeTestResults = () => {
   const [questionSortDirection, setQuestionSortDirection] = useState<"asc" | "desc">("asc");
   const [moduleFilter, setModuleFilter] = useState<string>("all");
   const [isSharing, setIsSharing] = useState(false);
+  const { user } = useAuth();
+  const uid = user?.id ?? null;
   const sessionId = searchParams.get("session");
   const practiceSet = useMemo(() => (setId ? getPracticeSet(setId) : null), [setId]);
   const result = useMemo(() => {
     if (!practiceSet) return null;
     if (sessionId) {
-      return getPracticeTestResult(sessionId) ?? getLatestPracticeTestResult(practiceSet.id);
+      return getPracticeTestResult(sessionId, uid) ?? getLatestPracticeTestResult(practiceSet.id, uid);
     }
-    return getLatestPracticeTestResult(practiceSet.id);
-  }, [practiceSet, sessionId]);
+    return getLatestPracticeTestResult(practiceSet.id, uid);
+  }, [practiceSet, sessionId, uid]);
   const sourceQuestionMap = useMemo(() => {
     if (!practiceSet) return new Map();
     return new Map(

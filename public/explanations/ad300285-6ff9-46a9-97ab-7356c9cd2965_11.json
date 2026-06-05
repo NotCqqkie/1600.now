@@ -1,1 +1,26 @@
-{"questionId": "ad300285-6ff9-46a9-97ab-7356c9cd2965_11", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Read two points from the line of best fit", "content": "From the scatterplot, the line of best fit slopes downward (a negative slope). Two readable points are approximately $(0, 12)$ and $(10, 1)$."}, {"title": "Compute the slope", "content": "$$m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{1 - 12}{10 - 0} = \\frac{-11}{10} = -1.1$$"}, {"title": "Evaluate each choice", "content": "<ul><li>Choice A: $-3.3$ &mdash; far too steep; the line drops about $11$ units over $10$ units, not $33$. Eliminate.</li><li>Choice B: $-1.1$ &mdash; matches the rise-over-run calculation.</li><li>Choice C: $1.1$ &mdash; correct magnitude but the line clearly slopes downward, so slope must be negative. Eliminate.</li><li>Choice D: $3.3$ &mdash; wrong magnitude and wrong sign. Eliminate.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "ad300285-6ff9-46a9-97ab-7356c9cd2965_11",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use two anchor points from the best-fit line",
+      "content": "For a line-of-best-fit slope question, pick two readable points on the drawn line, not necessarily two scatterplot dots. The line passes approximately through $(0,12)$ and $(10,1)$. Enter those as a quick Desmos table and fit a line.",
+      "desmosExpressions": [
+        "x_1=[0,10]",
+        "y_1=[12,1]",
+        "(x_1,y_1)",
+        "y_1~m x_1+b",
+        "y=m x+b"
+      ]
+    },
+    {
+      "title": "Compute the slope",
+      "content": "$$m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{1 - 12}{10 - 0} = \\frac{-11}{10} = -1.1$$"
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li>Choice A: $-3.3$ &mdash; far too steep; the line drops about $11$ units over $10$ units, not $33$. Eliminate.</li><li>Choice B: $-1.1$ &mdash; matches the rise-over-run calculation.</li><li>Choice C: $1.1$ &mdash; correct magnitude but the line clearly slopes downward, so slope must be negative. Eliminate.</li><li>Choice D: $3.3$ &mdash; wrong magnitude and wrong sign. Eliminate.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

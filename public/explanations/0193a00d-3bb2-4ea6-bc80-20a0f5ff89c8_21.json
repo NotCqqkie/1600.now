@@ -1,1 +1,10 @@
-{"qid": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_21", "correctAnswer": "D", "steps": ["Find the growth rate in cm per month: the tree grows 69 cm every \\(m\\) months, so the rate is \\(\\dfrac{69}{m}\\) cm per month.", "Convert \\(k\\) years to months: \\(k \\times 12 = 12k\\) months.", "Multiply rate by time to get total growth: \\(\\dfrac{69}{m} \\times 12k = \\dfrac{828k}{m}\\) cm.", "Evaluate every choice against \\(\\dfrac{828k}{m}\\):<ul><li>A: \\(\\dfrac{69m}{12k}\\) — places \\(m\\) in the numerator and \\(k\\) in the denominator, inverting both conversions. Eliminated.</li><li>B: \\(\\dfrac{69k}{12m}\\) — simplifies to \\(\\dfrac{23k}{4m}\\), not \\(\\dfrac{828k}{m}\\). Eliminated.</li><li>C: \\(\\dfrac{69km}{12}\\) — multiplies by \\(m\\) instead of dividing by it. Eliminated.</li><li>D: \\(\\dfrac{828k}{m}\\) — matches \\(\\dfrac{69}{m} \\times 12k\\) exactly. That matches choice D — <strong>D</strong> is correct.</li></ul>"]}
+{
+  "qid": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_21",
+  "correctAnswer": "D",
+  "steps": [
+    "Find the growth rate in cm per month: the tree grows 69 cm every $m$ months, so the rate is $\\dfrac{69}{m}$ cm per month.",
+    "Convert $k$ years to months: $k \\times 12 = 12k$ months.",
+    "Multiply rate by time to get total growth: $\\dfrac{69}{m} \\times 12k = \\dfrac{828k}{m}$ cm.",
+    "Evaluate every choice against $\\dfrac{828k}{m}$:<ul><li>A: $\\dfrac{69m}{12k}$ — places $m$ in the numerator and $k$ in the denominator, inverting both conversions. Eliminated.</li><li>B: $\\dfrac{69k}{12m}$ — simplifies to $\\dfrac{23k}{4m}$, not $\\dfrac{828k}{m}$. Eliminated.</li><li>C: $\\dfrac{69km}{12}$ — multiplies by $m$ instead of dividing by it. Eliminated.</li><li>D: $\\dfrac{828k}{m}$ — matches $\\dfrac{69}{m} \\times 12k$ exactly. That matches choice D — <strong>D</strong> is correct.</li></ul>"
+  ]
+}

@@ -1,1 +1,19 @@
-{"questionId": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_17", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Isolate the $b$-term", "content": "Start from $a = \\frac{3}{11}b + 6$. Subtract 6 from both sides: $$a - 6 = \\frac{3}{11}b$$"}, {"title": "Solve for $b$", "content": "Multiply both sides by $\\frac{11}{3}$ (the reciprocal of $\\frac{3}{11}$): $$b = \\frac{11}{3}(a - 6)$$ Distribute: $$b = \\frac{11}{3}a - \\frac{11}{3} \\cdot 6 = \\frac{11}{3}a - 22$$"}, {"title": "Compare to each choice", "content": "<ul><li>A) $b = \\frac{3}{11}a + 6$ &mdash; just swaps variables, wrong coefficient and sign; eliminate.</li><li>B) $b = \\frac{3}{11}a - 22$ &mdash; correct constant but wrong slope ($\\frac{3}{11}$ vs $\\frac{11}{3}$); eliminate.</li><li>C) $b = \\frac{11}{3}a - 6$ &mdash; correct slope but wrong constant ($-6$ vs $-22$); eliminate.</li><li>D) $b = \\frac{11}{3}a - 22$ &mdash; matches the derived expression exactly.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_17",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the $b$-term",
+      "content": "Start from $a = \\frac{3}{11}b + 6$. Subtract 6 from both sides: $$a - 6 = \\frac{3}{11}b$$"
+    },
+    {
+      "title": "Solve for $b$",
+      "content": "Multiply both sides by $\\frac{11}{3}$ (the reciprocal of $\\frac{3}{11}$): $$b = \\frac{11}{3}(a - 6)$$ Distribute: $$b = \\frac{11}{3}a - \\frac{11}{3} \\cdot 6 = \\frac{11}{3}a - 22$$"
+    },
+    {
+      "title": "Compare to each choice",
+      "content": "<ul><li>A) $b = \\frac{3}{11}a + 6$ &mdash; just swaps variables, wrong coefficient and sign; eliminate.</li><li>B) $b = \\frac{3}{11}a - 22$ &mdash; correct constant but wrong slope ($\\frac{3}{11}$ vs $\\frac{11}{3}$); eliminate.</li><li>C) $b = \\frac{11}{3}a - 6$ &mdash; correct slope but wrong constant ($-6$ vs $-22$); eliminate.</li><li>D) $b = \\frac{11}{3}a - 22$ &mdash; matches the derived expression exactly.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

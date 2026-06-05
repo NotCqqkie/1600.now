@@ -1,1 +1,23 @@
-{"questionId": "2f91d920-5520-4266-8a2d-a29c925c95c0_6", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Translate the input x = 5", "content": "In $P(x) = 533(1.011)^x$, $x$ is the number of years after 1951. So $x = 5$ corresponds to the year $1951 + 5 = 1956$."}, {"title": "Translate the output P(5) ≈ 563", "content": "$P(x)$ is the modeled population. Therefore $P(5) \\approx 563$ says the population in 1956 is approximately 563."}, {"title": "Eliminate the answer choices", "content": "<ul><li><strong>A</strong> says the population grew by about 5 from 1951 to 1956, confusing the input $x = 5$ with the output.</li><li><strong>B</strong> says the population is about 563 in 1956 &mdash; this matches the interpretation of $P(5) \\approx 563$.</li><li><strong>C</strong> says the 1956 population is 5 times the 1951 population, but $P(0) = 533$ and $563/533 \\approx 1.06$, not 5.</li><li><strong>D</strong> describes a constant increase of 563 every 5 years, but the model is exponential, not linear, and 563 is a population value, not an increment.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.", "desmosExpressions": ["P(x) = 533(1.011)^{x}", "(5, 563)"]}]}
+{
+  "questionId": "2f91d920-5520-4266-8a2d-a29c925c95c0_6",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the input x = 5",
+      "content": "In $P(x) = 533(1.011)^x$, $x$ is the number of years after 1951. So $x = 5$ corresponds to the year $1951 + 5 = 1956$."
+    },
+    {
+      "title": "Translate the output P(5) ≈ 563",
+      "content": "$P(x)$ is the modeled population. Therefore $P(5) \\approx 563$ says the population in 1956 is approximately 563."
+    },
+    {
+      "title": "Eliminate the answer choices",
+      "content": "<ul><li><strong>A</strong> says the population grew by about 5 from 1951 to 1956, confusing the input $x = 5$ with the output.</li><li><strong>B</strong> says the population is about 563 in 1956 &mdash; this matches the interpretation of $P(5) \\approx 563$.</li><li><strong>C</strong> says the 1956 population is 5 times the 1951 population, but $P(0) = 533$ and $563/533 \\approx 1.06$, not 5.</li><li><strong>D</strong> describes a constant increase of 563 every 5 years, but the model is exponential, not linear, and 563 is a population value, not an increment.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "P(x) = 533(1.011)^{x}",
+        "(5, 563)"
+      ]
+    }
+  ]
+}

@@ -67,7 +67,7 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Systems of two linear equations in two variables",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "question_number": 3,
     "test_name": "September 2025 US Form A SAT Math Module 2",
     "passage": "$x + 5 = 14$\n$y = 3x^2 + 3$\nAt what point $(x, y)$ do the graphs of the equations in the given system intersect?",

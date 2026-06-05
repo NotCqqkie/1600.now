@@ -1,1 +1,23 @@
-{"questionId":"05468350-9fef-44ab-b9cb-893b50a7cadd_1","correctAnswer":"C","section":"Math","steps":[{"title":"Set up","content":"Substitute $d = 36$ into $1.5c + 3d = 108$."},{"title":"Solve","content":"$1.5c + 3(36) = 108$ $\\Rightarrow$ $1.5c + 108 = 108$ $\\Rightarrow$ $1.5c = 0$ $\\Rightarrow$ $c = 0$."},{"title":"Answer","content":"<strong>C</strong> is correct."}]}
+{
+  "questionId": "05468350-9fef-44ab-b9cb-893b50a7cadd_1",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "Substitute $d = 36$ into $1.5c + 3d = 108$."
+    },
+    {
+      "title": "Solve",
+      "content": "$1.5c + 3(36) = 108$ $\\Rightarrow$ $1.5c + 108 = 108$ $\\Rightarrow$ $1.5c = 0$ $\\Rightarrow$ $c = 0$."
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>C</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice C, $0$, and the other choices fail the same setup or substitution. Therefore <strong>C</strong> is correct."
+    }
+  ]
+}

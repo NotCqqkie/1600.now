@@ -1,1 +1,31 @@
-{"questionId": "bd9eb2b5", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Set up the equation", "content": "Set $f(x)=72$ and write the equation.<br/>$$8x=72$$"}, {"title": "Solve for x", "content": "Divide both sides by $8$.<br/>$$x=9$$<br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}
+{
+  "questionId": "bd9eb2b5",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the equation",
+      "content": "Set $f(x)=72$ and write the equation.<br/>$$8x=72$$"
+    },
+    {
+      "title": "Solve for x",
+      "content": "Divide both sides by $8$.<br/>$$x=9$$<br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice B is correct. Substituting $72$ for $f\\left(x\\right)$ in the given function yields $72=8x$. Dividing each side of this equation by $8$ yields $9=x$. Therefore, $f\\left(x\\right)=72$ when the value of $x$ is $9$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A is incorrect. This is the value of $x$ for which $f\\left(x\\right)=64$, not $f\\left(x\\right)=72$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice C is incorrect. This is the value of $x$ for which $f\\left(x\\right)=512$, not $f\\left(x\\right)=72$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice D is incorrect. This is the value of $x$ for which $f\\left(x\\right)=640$, not $f\\left(x\\right)=72$."
+    }
+  ]
+}

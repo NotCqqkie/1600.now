@@ -1,1 +1,15 @@
-{"questionId": "c602140f", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Expand the square (and other terms)", "content": "$(x - 11y)(2x - 3y) = 2x^2 - 3xy - 22xy + 33y^2 = 2x^2 - 25xy + 33y^2$. Then $-12y(-2x + 3y) = 24xy - 36y^2$."}, {"title": "Combine and simplify", "content": "Sum: $2x^2 - 25xy + 33y^2 + 24xy - 36y^2 = 2x^2 - xy - 3y^2$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}
+{
+  "questionId": "c602140f",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Expand the square (and other terms)",
+      "content": "$(x - 11y)(2x - 3y) = 2x^2 - 3xy - 22xy + 33y^2 = 2x^2 - 25xy + 33y^2$. Then $-12y(-2x + 3y) = 24xy - 36y^2$."
+    },
+    {
+      "title": "Combine and simplify",
+      "content": "Sum: $2x^2 - 25xy + 33y^2 + 24xy - 36y^2 = 2x^2 - xy - 3y^2$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."
+    }
+  ]
+}

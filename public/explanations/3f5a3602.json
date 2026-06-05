@@ -4,17 +4,31 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify intercepts for both lines",
-      "content": "Reading from the graph:<ul><li><strong>Upper line:</strong> $y$-intercept is (0, 6.4), $x$-intercept is (8, 0)</li><li><strong>Lower line:</strong> $y$-intercept is (0, 3.2), $x$-intercept is (8, 0)</li></ul>"
+      "title": "Graph the answer choices",
+      "content": "This is faster as a Desmos check than as a full algebra problem. Graph each candidate system and compare it to the picture. The correct choice must give two downward-sloping lines that meet the $x$-axis at the same point, $(8,0)$.",
+      "desmosExpressions": [
+        "4x + 10y = 32",
+        "-8x - 10y = -64"
+      ]
     },
     {
-      "title": "Determine each line's equation",
-      "content": "For the upper line with slope $m = \\frac{0 - 6.4}{8 - 0} = -\\frac{4}{5}$ and $y$-intercept 6.4:<br/>$y = -\\frac{4}{5}x + 6.4$ \u2014 multiply by 10 to get $8x + 10y = 64$<br/><br/>For the lower line with slope $m = \\frac{0 - 3.2}{8 - 0} = -\\frac{2}{5}$ and $y$-intercept 3.2:<br/>$y = -\\frac{2}{5}x + 3.2$ \u2014 multiply by 10 to get $4x + 10y = 32$"
+      "title": "Check the shared x-intercept",
+      "content": "For choice D, set $y=0$. The first equation gives $4x=32$, so $x=8$. The second equation gives $-8x=-64$, so $x=8$ again. Both lines share the required $x$-intercept $(8,0)$, matching the graph.",
+      "desmosExpressions": [
+        "(8,0)"
+      ]
     },
     {
-      "title": "Match to answer choice form",
-      "content": "Rewrite the first equation by multiplying by $-1$: $8x + 10y = 64$ becomes $-8x - 10y = -64$.<br/>The system is:<br/>$$4x + 10y = 32$$<br/>$$-8x - 10y = -64$$<br/>That matches choice D \u2014 <strong>D</strong> is correct.",
-      "desmosExpressions": ["y = (32 - 4x)/10", "y = (-64 + 8x)/(-10)"]
+      "title": "Check the y-intercepts",
+      "content": "Now set $x=0$. From $4x+10y=32$, $10y=32$, so $y=3.2$. From $-8x-10y=-64$, $-10y=-64$, so $y=6.4$. Those are the lower and upper $y$-intercepts shown in the graph.",
+      "desmosExpressions": [
+        "(0,3.2)",
+        "(0,6.4)"
+      ]
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "Choice D is the only system whose two lines share $x$-intercept $8$ and have $y$-intercepts $3.2$ and $6.4$. That matches the graph, so <strong>D</strong> is correct."
     }
   ]
 }

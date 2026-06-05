@@ -1,1 +1,19 @@
-{"questionId": "8838a672", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Distribute the subtraction", "content": "Rewrite by distributing the minus sign to every term in the second polynomial:<br/>$$(4x^3 - 5x^2 + 3) - (6x^3 + 2x^2 - x)$$<br/>$$= 4x^3 - 5x^2 + 3 - 6x^3 - 2x^2 + x$$"}, {"title": "Combine like terms by degree", "content": "Group terms by their power of \\(x\\):<ul><li>\\(x^3\\) terms: \\(4x^3 - 6x^3 = -2x^3\\)</li><li>\\(x^2\\) terms: \\(-5x^2 - 2x^2 = -7x^2\\)</li><li>\\(x\\) terms: \\(+x\\)</li><li>constants: \\(+3\\)</li></ul>$$-2x^3 - 7x^2 + x + 3$$"}, {"title": "Evaluate all choices", "content": "<ul><li>A: \\(-10x^3 - 3x^2 + x + 3\\) — the \\(x^3\\) coefficient would require \\(4+(-6)=-10\\), but subtraction gives \\(-2\\), not \\(-10\\). Eliminated.</li><li>B: \\(-2x^3 - 7x^2 + x + 3\\) — matches \\(-2x^3\\), \\(-7x^2\\), \\(+x\\), \\(+3\\) exactly.</li><li>C: \\(-2x^3 - 3x^2 + x + 3\\) — \\(x^2\\) coefficient is \\(-3\\) instead of the correct \\(-7\\). Eliminated.</li><li>D: \\(10x^3 - 7x^2 - x + 3\\) — wrong sign on both \\(x^3\\) and \\(x\\). Eliminated.</li></ul>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "8838a672",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute the subtraction",
+      "content": "Rewrite by distributing the minus sign to every term in the second polynomial:<br/>$$(4x^3 - 5x^2 + 3) - (6x^3 + 2x^2 - x)$$<br/>$$= 4x^3 - 5x^2 + 3 - 6x^3 - 2x^2 + x$$"
+    },
+    {
+      "title": "Combine like terms by degree",
+      "content": "Group terms by their power of $x$:<ul><li>$x^3$ terms: $4x^3 - 6x^3 = -2x^3$</li><li>$x^2$ terms: $-5x^2 - 2x^2 = -7x^2$</li><li>$x$ terms: $+x$</li><li>constants: $+3$</li></ul>$$-2x^3 - 7x^2 + x + 3$$"
+    },
+    {
+      "title": "Evaluate all choices",
+      "content": "<ul><li>A: $-10x^3 - 3x^2 + x + 3$ — the $x^3$ coefficient would require $4+(-6)=-10$, but subtraction gives $-2$, not $-10$. Eliminated.</li><li>B: $-2x^3 - 7x^2 + x + 3$ — matches $-2x^3$, $-7x^2$, $+x$, $+3$ exactly.</li><li>C: $-2x^3 - 3x^2 + x + 3$ — $x^2$ coefficient is $-3$ instead of the correct $-7$. Eliminated.</li><li>D: $10x^3 - 7x^2 - x + 3$ — wrong sign on both $x^3$ and $x$. Eliminated.</li></ul>That matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

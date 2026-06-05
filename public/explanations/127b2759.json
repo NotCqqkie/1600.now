@@ -1,1 +1,19 @@
-{"questionId":"127b2759","correctAnswer":"B","section":"Math","steps":[{"title":"Combine the constants","content":"The expression $8+d^2+3$ has two numerical constants and one $d^2$ term. Add the constants: $$8+3=11.$$ The $d^2$ term has no like term to combine with, so it stays as is."},{"title":"Write the simplified form","content":"Putting it together: $$8+d^2+3 = d^2+11.$$"},{"title":"Evaluate each choice","content":"<ul><li>A) $d^2+24$ — would need $8+3=24$, but $8+3=11$, not 24. Eliminated.</li><li>B) $d^2+11$ — matches $8+3=11$ exactly.</li><li>C) $d^2+5$ — would require subtracting, but the expression adds the constants. Eliminated.</li><li>D) $d^2-11$ — the sign is wrong; $8+3$ is positive 11. Eliminated.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "127b2759",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Combine the constants",
+      "content": "The expression $8+d^2+3$ has two numerical constants and one $d^2$ term. Add the constants: $$8+3=11.$$ The $d^2$ term has no like term to combine with, so it stays as is."
+    },
+    {
+      "title": "Write the simplified form",
+      "content": "Putting it together: $$8+d^2+3 = d^2+11.$$"
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li>A) $d^2+24$ — would need $8+3=24$, but $8+3=11$, not 24. Eliminated.</li><li>B) $d^2+11$ — matches $8+3=11$ exactly.</li><li>C) $d^2+5$ — would require subtracting, but the expression adds the constants. Eliminated.</li><li>D) $d^2-11$ — the sign is wrong; $8+3$ is positive 11. Eliminated.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

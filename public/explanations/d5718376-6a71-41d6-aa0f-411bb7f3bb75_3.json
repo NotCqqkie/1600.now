@@ -1,1 +1,19 @@
-{"questionId": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_3", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Subtract 40 from both sides", "content": "Starting with $12x + 40 = 160$, subtract $40$ from both sides:<br/>$$12x = 160 - 40 = 120$$"}, {"title": "Identify the equivalent equation", "content": "The original equation is equivalent to $12x = 120$, which has the same solution ($x = 10$)."}, {"title": "Eliminate the choices", "content": "<ul><li>A. $12x = 40$ gives $x = \\frac{10}{3}$; different solution.</li><li>B. $12x = 80$ gives $x = \\frac{20}{3}$; different solution.</li><li>C. $12x = 120$ gives $x = 10$; matches the original.</li><li>D. $12x = 160$ gives $x = \\frac{40}{3}$; different solution.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_3",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Subtract 40 from both sides",
+      "content": "Starting with $12x + 40 = 160$, subtract $40$ from both sides:<br/>$$12x = 160 - 40 = 120$$"
+    },
+    {
+      "title": "Identify the equivalent equation",
+      "content": "The original equation is equivalent to $12x = 120$, which has the same solution ($x = 10$)."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li>A. $12x = 40$ gives $x = \\frac{10}{3}$; different solution.</li><li>B. $12x = 80$ gives $x = \\frac{20}{3}$; different solution.</li><li>C. $12x = 120$ gives $x = 10$; matches the original.</li><li>D. $12x = 160$ gives $x = \\frac{40}{3}$; different solution.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,25 @@
-{"questionId": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_13", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Identify the exponential decay structure", "content": "The problem describes a decay process: start with 800 photons, and each 7 mm of material reduces the count by 50%. This is exponential decay of the form $I = I_0 \\cdot b^n$, where:<ul><li>$I_0$ = initial photons = 800</li><li>$b$ = decay factor per period = 0.5 (decreasing by 50% means keeping 50%)</li><li>$n$ = number of periods</li></ul>"}, {"title": "Set up the exponent based on distance", "content": "Since the decay factor applies once every 7 mm, and we are measuring distance $x$ millimeters from the surface, the number of complete 7 mm periods is $\\frac{x}{7}$.<br/><br/>Substituting into the exponential formula:<br/>$$I = 800(0.5)^{\\frac{x}{7}}$$<br/>This matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_13",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the exponential decay structure",
+      "content": "The beam starts with $800$ photons at the surface. Each $7$ millimeters cuts the number in half, so the decay factor per $7$ mm is $0.5$. The number of 7-mm intervals in $x$ millimeters is $\\frac{x}{7}$."
+    },
+    {
+      "title": "Use a Desmos table regression check",
+      "content": "The first few model points are $(0,800)$, $(7,400)$, and $(14,200)$. Enter them as lists and run $y_1\\sim a b^{x_1/7}$. Desmos returns $a=800$ and $b=0.5$, so the model is $$I=800(0.5)^{x/7}$$",
+      "desmosExpressions": [
+        "x_1=[0,7,14]",
+        "y_1=[800,400,200]",
+        "y_1~a b^{x_1/7}",
+        "y=800(0.5)^{x/7}"
+      ]
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "Choice B halves the beam every $1$ mm, not every $7$ mm. Choices A and C use bases greater than $1$, so they grow instead of decay. Choice <strong>D</strong> has initial value $800$, decay factor $0.5$, and exponent $x/7$, so it is correct."
+    }
+  ]
+}

@@ -1,1 +1,25 @@
-{"questionId":"2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_16","correctAnswer":"A","section":"Math","steps":[{"title":"Read the graphed line","content":"The line shown is $y=f(x)+11$. Reading two points from the grid gives a negative slope and the equation $y=-x+6$."},{"title":"Solve for $f(x)$","content":"Subtract $11$ from both sides: $$f(x)=-x+6-11=-x-5.$$"},{"title":"Match to the form with positive $c,d$","content":"Rewrite as $f(x)=-5-1\\cdot x=-d-cx$ with $d=5,\\ c=1$ (both positive). That matches choice <strong>A</strong> — <strong>A</strong> is correct.","desmosExpressions":["y = -d - cx","y = d + cx","y = d - cx","y = -d + cx"]}]}
+{
+  "questionId": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_16",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the graphed line",
+      "content": "The line shown is $y=f(x)+11$. Reading two points from the grid gives a negative slope and the equation $y=-x+6$."
+    },
+    {
+      "title": "Solve for $f(x)$",
+      "content": "Subtract $11$ from both sides: $$f(x)=-x+6-11=-x-5.$$"
+    },
+    {
+      "title": "Match to the form with positive $c,d$",
+      "content": "Rewrite as $f(x)=-5-1\\cdot x=-d-cx$ with $d=5,\\ c=1$ (both positive). That matches choice <strong>A</strong> — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y = -d - cx",
+        "y = d + cx",
+        "y = d - cx",
+        "y = -d + cx"
+      ]
+    }
+  ]
+}

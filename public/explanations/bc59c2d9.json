@@ -1,1 +1,25 @@
-{"questionId": "bc59c2d9", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Read the line of best fit at x = 4,000 feet", "content": "On the graph, locate 4,000 on the horizontal axis (Distance above sea level). Trace vertically upward to where the line of best fit passes through that x-value. At $x = 4,000$, the line of best fit shows a temperature of 35°F. That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "bc59c2d9",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Trace the line at x = 4000",
+      "content": "The line of best fit predicts the temperature. At $x=4000$ feet, the line has $y=35$, so the predicted temperature is $35^\\circ\\text{F}$."
+    },
+    {
+      "title": "Optional line check",
+      "content": "A quick model check uses two points on the fit line, such as $(0,47)$ and $(4000,35)$. The fitted model returns $35$ when $x=4000$.",
+      "desmosExpressions": [
+        "x_1=[0,4000]",
+        "y_1=[47,35]",
+        "y_1~m x_1+b",
+        "m 4000+b"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The predicted temperature is $35$, which matches choice <strong>B</strong>."
+    }
+  ]
+}

@@ -1,1 +1,19 @@
-{"questionId": "e4f2c33b-9282-40a7-810c-d633e5197f95_6", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Substitute x = 39 into the equation", "content": "The equation $y = 0.67x + 2.6$ predicts larvae count for a given number of worker ants. With $x = 39$ worker ants, substitute directly:<br/>$$y = 0.67(39) + 2.6$$"}, {"title": "Evaluate and identify the closest choice", "content": "Multiply first: $0.67 \\times 39 = 26.13$. Then add the constant:<br/>$$y = 26.13 + 2.6 = 28.73$$<br/>Among the choices $29$, $42$, $54$, and $128$, the value $28.73$ is closest to $29$. That matches choice A — <strong>A</strong> is correct.", "desmosExpressions": ["y = 0.67x + 2.6 \\{20 \\leq x \\leq 110\\}", "(39, 28.73)"]}]}
+{
+  "questionId": "e4f2c33b-9282-40a7-810c-d633e5197f95_6",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x = 39 into the equation",
+      "content": "The equation $y = 0.67x + 2.6$ predicts larvae count for a given number of worker ants. With $x = 39$ worker ants, substitute directly:<br/>$$y = 0.67(39) + 2.6$$"
+    },
+    {
+      "title": "Evaluate and identify the closest choice",
+      "content": "Multiply first: $0.67 \\times 39 = 26.13$. Then add the constant:<br/>$$y = 26.13 + 2.6 = 28.73$$<br/>Among the choices $29$, $42$, $54$, and $128$, the value $28.73$ is closest to $29$. That matches choice A — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y = 0.67x + 2.6 \\{20 \\leq x \\leq 110\\}",
+        "(39, 28.73)"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,23 @@
-{"questionId":"9628151f-9763-4abc-8c66-9dc08f82f715_3","correctAnswer":"C","section":"Math","steps":[{"title":"Set up","content":"Note that $20x = 4 \\cdot 5x$, so find $5x$ first."},{"title":"Solve","content":"Given $5x = 9$, multiply both sides by 4: $$20x = 4 \\cdot 9 = 36$$"},{"title":"Answer","content":"<strong>C</strong> is correct."}]}
+{
+  "questionId": "9628151f-9763-4abc-8c66-9dc08f82f715_3",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "Note that $20x = 4 \\cdot 5x$, so find $5x$ first."
+    },
+    {
+      "title": "Solve",
+      "content": "Given $5x = 9$, multiply both sides by 4: $$20x = 4 \\cdot 9 = 36$$"
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>C</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice C, 36, and the other choices fail the same setup or substitution. Therefore <strong>C</strong> is correct."
+    }
+  ]
+}

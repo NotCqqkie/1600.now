@@ -1,1 +1,15 @@
-{"questionId":"390a8264-19b1-4de0-9dc9-09609eadd7ca_16","correctAnswer":"D","section":"Math","steps":[{"title":"Identify what the question needs","content":"A 149% increase means the new value equals the original plus 149% of it: new = x + 1.49x = 2.49x. The answer is whichever choice equals 2.49x."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; '0.149x'</strong>: this is only 14.9% of x, not the new value after a 149% increase. &#10007;</li><li><strong>Choice B &mdash; '0.51x'</strong>: smaller than x, so it represents a decrease, not an increase. &#10007;</li><li><strong>Choice C &mdash; '1.49x'</strong>: represents only a 49% increase (1.49x &minus; x = 0.49x). &#10007;</li><li><strong>Choice D &mdash; '2.49x'</strong>: 2.49x &minus; x = 1.49x, which is exactly 149% of x. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "390a8264-19b1-4de0-9dc9-09609eadd7ca_16",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "A 149% increase means the new value equals the original plus 149% of it: new = x + 1.49x = 2.49x. The answer is whichever choice equals 2.49x."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; '0.149x'</strong>: this is only 14.9% of x, not the new value after a 149% increase. &#10007;</li><li><strong>Choice B &mdash; '0.51x'</strong>: smaller than x, so it represents a decrease, not an increase. &#10007;</li><li><strong>Choice C &mdash; '1.49x'</strong>: represents only a 49% increase (1.49x &minus; x = 0.49x). &#10007;</li><li><strong>Choice D &mdash; '2.49x'</strong>: 2.49x &minus; x = 1.49x, which is exactly 149% of x. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,24 @@
-{"questionId":"87a75825-ef1b-4b13-8fde-816390546062_10","correctAnswer":"A","section":"Math","steps":[{"title":"One solution &Rarr; discriminant = 0","content":"For $x^2 + \\sqrt{k-3}\\,x + 33 = 0$: $a=1$, $b=\\sqrt{k-3}$, $c=33$. Set $b^2-4ac=0$."},{"title":"Solve for k","content":"$(\\sqrt{k-3})^2 - 4(1)(33) = 0 \\Rightarrow k-3-132=0 \\Rightarrow k=135$. That matches choice A &mdash; <strong>A</strong> is correct.","desmosExpressions":["y=x^{2}+\\sqrt{132}\\,x+33"]}]}
+{
+  "questionId": "87a75825-ef1b-4b13-8fde-816390546062_10",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "One solution &Rarr; discriminant = 0",
+      "content": "For $x^2 + \\sqrt{k-3}\\,x + 33 = 0$: $a=1$, $b=\\sqrt{k-3}$, $c=33$. Set $b^2-4ac=0$."
+    },
+    {
+      "title": "Solve for k",
+      "content": "$(\\sqrt{k-3})^2-4(1)(33)=0$, so $k-3-132=0$ and $k=135$. Desmos can do the same discriminant shortcut with a one-row regression. That matches choice A, so <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y_1=[0]",
+        "y_1~(\\sqrt{k-3})^2-4*1*33",
+        "y=x^{2}+\\sqrt{132}\\,x+33"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice A, 135, and the other choices fail the same setup or substitution. Therefore <strong>A</strong> is correct."
+    }
+  ]
+}

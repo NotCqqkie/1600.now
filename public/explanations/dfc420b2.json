@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Find the angle at C in triangle ABC",
-      "content": "In triangle ABC, the angle at A is 20\u00b0 and the angle at B is $x\u00b0 = 100\u00b0$. Using the triangle angle sum:<br/>$$20\u00b0 + 100\u00b0 + \\angle ACB = 180\u00b0$$<br/>$$\\angle ACB = 60\u00b0$$"
+      "content": "In triangle ABC, the angle at A is 20° and the angle at B is $x° = 100°$. Using the triangle angle sum:<br/>$$20° + 100° + \\angle ACB = 180°$$<br/>$$\\angle ACB = 60°$$"
     },
     {
       "title": "Use vertically opposite angles at the intersection point",
-      "content": "Lines AD and BE intersect at C, forming two pairs of vertically opposite angles. Since angles ACB and DCE are opposite each other:<br/>$$\\angle DCE = \\angle ACB = 60\u00b0$$"
+      "content": "Lines AD and BE intersect at C, forming two pairs of vertically opposite angles. Since angles ACB and DCE are opposite each other:<br/>$$\\angle DCE = \\angle ACB = 60°$$"
     },
     {
       "title": "Find y using the angle sum in triangle CDE",
-      "content": "In triangle CDE, we now know the angle at C is 60\u00b0 and the angle at E is 40\u00b0. Using the triangle angle sum:<br/>$$60\u00b0 + 40\u00b0 + y = 180\u00b0$$<br/>$$y = 80\u00b0$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "In triangle CDE, we now know the angle at C is 60° and the angle at E is 40°. Using the triangle angle sum:<br/>$$60° + 40° + y = 180°$$<br/>$$y = 80°$$<br/>That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

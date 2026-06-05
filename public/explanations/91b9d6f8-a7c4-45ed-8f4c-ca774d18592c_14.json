@@ -1,1 +1,23 @@
-{"questionId": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_14", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Identify the component shapes", "content": "The figure combines a rectangle and a semicircle. The rectangle has width $WX = 20$ and height $WZ = 5$. The semicircle sits on top with diameter 20."}, {"title": "Calculate the rectangle area", "content": "$$\\text{Area}_{\\text{rect}} = 20 \\times 5$$"}, {"title": "Calculate the semicircle area and sum", "content": "The semicircle has diameter 20, so radius = 10.<br/>$$\\frac{1}{2}\\pi(10)^2 = 50\\pi$$<br/>Total area = rectangle + semicircle:<br/>$$20 \\times 5 + 50\\pi$$<br/>That matches choice C &#8212; <strong>C</strong> is correct."}], "choiceAnalysis": "<ul><li><strong>Choice A &mdash; '20+5+10&pi;'</strong>: Adds the dimensions instead of multiplying to get rectangle area, and uses 10&pi; which is neither the full circle nor correct semicircle area. &#10007;</li><li><strong>Choice B &mdash; '20 &times; 5 + 10&pi;'</strong>: Rectangle area 100 is correct, but 10&pi; = &frac12;&pi;(10)<sup>2</sup> / 5 does not match the semicircle formula; the semicircle area should be &frac12;&pi;r<sup>2</sup> = 50&pi;. &#10007;</li><li><strong>Choice C &mdash; '20 &times; 5 + 50&pi;'</strong>: Rectangle area = 20 &times; 5 = 100; semicircle radius = 10, area = &frac12;&pi;(10)<sup>2</sup> = 50&pi;. Total = 20 &times; 5 + 50&pi;. &#10003;</li><li><strong>Choice D &mdash; '20 &times; 5 + 100&pi;'</strong>: 100&pi; is the area of a full circle with radius 10, not a semicircle. &#10007;</li></ul>That matches choice C &#8212; <strong>C</strong> is correct.", "desmosExpressions": ["20 \\cdot 5 + \\frac{1}{2} \\cdot \\pi \\cdot 10^{2}"]}
+{
+  "questionId": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_14",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the component shapes",
+      "content": "The figure combines a rectangle and a semicircle. The rectangle has width $WX = 20$ and height $WZ = 5$. The semicircle sits on top with diameter 20."
+    },
+    {
+      "title": "Calculate the rectangle area",
+      "content": "$$\\text{Area}_{\\text{rect}} = 20 \\times 5$$"
+    },
+    {
+      "title": "Calculate the semicircle area and sum",
+      "content": "The semicircle has diameter 20, so radius = 10.<br/>$$\\frac{1}{2}\\pi(10)^2 = 50\\pi$$<br/>Total area = rectangle + semicircle:<br/>$$20 \\times 5 + 50\\pi$$<br/>That matches choice C &#8212; <strong>C</strong> is correct."
+    }
+  ],
+  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; '20+5+10&pi;'</strong>: Adds the dimensions instead of multiplying to get rectangle area, and uses 10&pi; which is neither the full circle nor correct semicircle area. &#10007;</li><li><strong>Choice B &mdash; '20 &times; 5 + 10&pi;'</strong>: Rectangle area 100 is correct, but 10&pi; = &frac12;&pi;(10)<sup>2</sup> / 5 does not match the semicircle formula; the semicircle area should be &frac12;&pi;r<sup>2</sup> = 50&pi;. &#10007;</li><li><strong>Choice C &mdash; '20 &times; 5 + 50&pi;'</strong>: Rectangle area = 20 &times; 5 = 100; semicircle radius = 10, area = &frac12;&pi;(10)<sup>2</sup> = 50&pi;. Total = 20 &times; 5 + 50&pi;. &#10003;</li><li><strong>Choice D &mdash; '20 &times; 5 + 100&pi;'</strong>: 100&pi; is the area of a full circle with radius 10, not a semicircle. &#10007;</li></ul>That matches choice C &#8212; <strong>C</strong> is correct.",
+  "desmosExpressions": [
+    "20 \\cdot 5 + \\frac{1}{2} \\cdot \\pi \\cdot 10^{2}"
+  ]
+}

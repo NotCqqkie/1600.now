@@ -4,13 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "explanation": "In the function \\(f(x) = 3{,}000(0.75)^x\\), the variable \\(x\\) is years after 2008. Setting \\(x = 0\\) gives the population at the starting year 2008: \\(f(0) = 3{,}000 \\cdot (0.75)^0 = 3{,}000 \\cdot 1 = 3{,}000\\)."
+      "explanation": "In the function $f(x) = 3{,}000(0.75)^x$, the variable $x$ is years after 2008. Setting $x = 0$ gives the population at the starting year 2008: $f(0) = 3{,}000 \\cdot (0.75)^0 = 3{,}000 \\cdot 1 = 3{,}000$."
     },
     {
-      "explanation": "In any exponential model \\(f(x) = a \\cdot b^x\\), the coefficient \\(a\\) is the initial value when \\(x = 0\\). Here \\(a = 3{,}000\\) is the population at \\(x = 0\\), which corresponds to 2008."
+      "explanation": "In any exponential model $f(x) = a \\cdot b^x$, the coefficient $a$ is the initial value when $x = 0$. Here $a = 3{,}000$ is the population at $x = 0$, which corresponds to 2008."
     },
     {
-      "explanation": "Evaluate each choice:<ul><li>Choice A: &ldquo;estimated percent decrease every 8 years after 2008.&rdquo; The number 3,000 is not a percent, and \\(x\\) counts individual years, not 8-year blocks. Incorrect.</li><li>Choice B: &ldquo;estimated percent decrease each year after 2008.&rdquo; The annual decay factor is 0.75, not 3,000; 3,000 is not a percent. Incorrect.</li><li>Choice C: &ldquo;estimated population 8 years after 2008.&rdquo; \\(f(8) = 3{,}000(0.75)^8 \\approx 300\\), not 3,000. Incorrect.</li><li>Choice D: &ldquo;estimated initial population in 2008.&rdquo; \\(f(0) = 3{,}000\\), so 3,000 is the population when the program began in 2008. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
+      "explanation": "Evaluate each choice:<ul><li>Choice A: &ldquo;estimated percent decrease every 8 years after 2008.&rdquo; The number 3,000 is not a percent, and $x$ counts individual years, not 8-year blocks. Incorrect.</li><li>Choice B: &ldquo;estimated percent decrease each year after 2008.&rdquo; The annual decay factor is 0.75, not 3,000; 3,000 is not a percent. Incorrect.</li><li>Choice C: &ldquo;estimated population 8 years after 2008.&rdquo; $f(8) = 3{,}000(0.75)^8 \\approx 300$, not 3,000. Incorrect.</li><li>Choice D: &ldquo;estimated initial population in 2008.&rdquo; $f(0) = 3{,}000$, so 3,000 is the population when the program began in 2008. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
     }
   ]
 }

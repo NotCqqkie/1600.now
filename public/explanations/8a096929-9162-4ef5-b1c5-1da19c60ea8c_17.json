@@ -13,7 +13,7 @@
     },
     {
       "title": "Identify s and t from the given form",
-      "content": "The solution with the minus sign is $x = \\frac{-9 - \\sqrt{61}}{2}$. <br/>Factor out the negative: $x = \\frac{-(9 + \\sqrt{61})}{2} = -\\frac{9 + \\sqrt{61}}{2}$. <br/>Comparing to the given form $x = -\\frac{s+\\sqrt{t}}{2}$, we have $s = 9$ and $t = 61$. <br/>Therefore $\\frac{s}{t} = \\frac{9}{61}$. That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "The solution with the minus sign is $x = \\frac{-9 - \\sqrt{61}}{2}$. <br/>Factor out the negative: $x = \\frac{-(9 + \\sqrt{61})}{2} = -\\frac{9 + \\sqrt{61}}{2}$. <br/>Comparing to the given form $x = -\\frac{s+\\sqrt{t}}{2}$, we have $s = 9$ and $t = 61$. <br/>Therefore $\\frac{s}{t} = \\frac{9}{61}$. That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

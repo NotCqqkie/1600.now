@@ -1,1 +1,18 @@
-{"questionId": "2992ac30", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Simplify and interpret the exponent", "content": "Rewrite: $\\frac{6}{4}t = 1.5t$. Since $t$ is in years, the coefficient 1.5 represents the number of 4% growth periods per year."}, {"title": "Find the period in months", "content": "If growth of 4% occurs every $n$ months, then in 12 months (1 year), there are $\\frac{12}{n}$ periods. This must equal 1.5:<br/>$$\\frac{12}{n} = 1.5$$<br/>$$n = \\frac{12}{1.5} = 8$$<br/>That matches choice A — <strong>A</strong> is correct.", "desmosExpressions": ["P(t)=260((1.04))^(((6)/(4))t)"]}]}
+{
+  "questionId": "2992ac30",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify and interpret the exponent",
+      "content": "Rewrite: $\\frac{6}{4}t = 1.5t$. Since $t$ is in years, the coefficient 1.5 represents the number of 4% growth periods per year."
+    },
+    {
+      "title": "Find the period in months",
+      "content": "If growth of 4% occurs every $n$ months, then in 12 months (1 year), there are $\\frac{12}{n}$ periods. This must equal 1.5:<br/>$$\\frac{12}{n} = 1.5$$<br/>$$n = \\frac{12}{1.5} = 8$$<br/>That matches choice A — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "P(t)=260((1.04))^(((6)/(4))t)"
+      ]
+    }
+  ]
+}

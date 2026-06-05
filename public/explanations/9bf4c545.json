@@ -1,1 +1,19 @@
-{"questionId": "9bf4c545", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Identify the target population vs. the sample", "content": "The council wanted to assess opinions of <strong>all city residents</strong>, but only surveyed residents who <strong>own dogs</strong>. These are not the same group. All non-dog-owning residents were excluded from the sample."}, {"title": "Identify why this creates bias", "content": "Dog owners have a direct personal interest in a dog park. Their preferences systematically differ from those of residents who do not own dogs. A sample drawn entirely from one interested subgroup cannot represent the full population."}, {"title": "Evaluate all choices", "content": "<ul><li><strong>A:</strong> We cannot conclude the <em>majority</em> of all residents favor the park based on a biased sample. The sample does not represent all residents. Eliminated.</li><li><strong>B:</strong> More dog owners would not fix the bias &mdash; it would make it worse by further over-representing one group. Eliminated.</li><li><strong>C:</strong> Surveying only non-dog-owners would create the opposite bias. The goal is a representative sample, not one skewed the other way. Eliminated.</li><li><strong>D:</strong> The sample is biased because it draws exclusively from dog owners, who are not representative of all city residents. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"}]}
+{
+  "questionId": "9bf4c545",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the target population vs. the sample",
+      "content": "The council wanted to assess opinions of <strong>all city residents</strong>, but only surveyed residents who <strong>own dogs</strong>. These are not the same group. All non-dog-owning residents were excluded from the sample."
+    },
+    {
+      "title": "Identify why this creates bias",
+      "content": "Dog owners have a direct personal interest in a dog park. Their preferences systematically differ from those of residents who do not own dogs. A sample drawn entirely from one interested subgroup cannot represent the full population."
+    },
+    {
+      "title": "Evaluate all choices",
+      "content": "<ul><li><strong>A:</strong> We cannot conclude the <em>majority</em> of all residents favor the park based on a biased sample. The sample does not represent all residents. Eliminated.</li><li><strong>B:</strong> More dog owners would not fix the bias &mdash; it would make it worse by further over-representing one group. Eliminated.</li><li><strong>C:</strong> Surveying only non-dog-owners would create the opposite bias. The goal is a representative sample, not one skewed the other way. Eliminated.</li><li><strong>D:</strong> The sample is biased because it draws exclusively from dog owners, who are not representative of all city residents. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
+    }
+  ]
+}

@@ -1,1 +1,28 @@
-{"questionId": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_6", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Set up vertex form using the maximum", "content": "The object reaches its maximum height of 185 ft at \\(t = 2\\) s, so the vertex is \\((2, 185)\\). Vertex form:<br/>$$f(t) = a(t - 2)^2 + 185$$"}, {"title": "Solve for the leading coefficient using the initial condition", "content": "At \\(t = 0\\), the height is 121 ft:<br/>$$f(0) = a(0-2)^2 + 185 = 4a + 185 = 121$$<br/>$$4a = -64 \\implies a = -16$$<br/>So \\(f(t) = -16(t-2)^2 + 185\\)."}, {"title": "Verify", "content": "\\(f(0) = -16(4) + 185 = 121\\) &#10003;&nbsp;&nbsp; \\(f(2) = 0 + 185 = 185\\) &#10003;"}, {"title": "Evaluate each choice", "content": "<ul><li><strong>Choice A &mdash; '\\(f(t) = -16(t+185)^2 - 2\\)'</strong>: Places the vertex at \\((-185, -2)\\), which is completely wrong. &#10007;</li><li><strong>Choice B &mdash; '\\(f(t) = -16(t-185)^2 + 2\\)'</strong>: Places the vertex at \\((185, 2)\\); the maximum height would be only 2 ft, not 185. &#10007;</li><li><strong>Choice C &mdash; '\\(f(t) = -16(t+2)^2 - 185\\)'</strong>: Places the vertex at \\((-2, -185)\\); the maximum height would be \\(-185\\) ft, which is impossible. &#10007;</li><li><strong>Choice D &mdash; '\\(f(t) = -16(t-2)^2 + 185\\)'</strong>: Vertex at \\((2, 185)\\), initial height \\(f(0) = 121\\). Both conditions satisfied. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.", "desmosExpressions": ["f(t)=-16(t-2)^{2}+185", "(2,185)", "(0,121)"]}]}
+{
+  "questionId": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_6",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up vertex form using the maximum",
+      "content": "The object reaches its maximum height of 185 ft at $t = 2$ s, so the vertex is $(2, 185)$. Vertex form:<br/>$$f(t) = a(t - 2)^2 + 185$$"
+    },
+    {
+      "title": "Solve for the leading coefficient using the initial condition",
+      "content": "At $t = 0$, the height is 121 ft:<br/>$$f(0) = a(0-2)^2 + 185 = 4a + 185 = 121$$<br/>$$4a = -64 \\implies a = -16$$<br/>So $f(t) = -16(t-2)^2 + 185$."
+    },
+    {
+      "title": "Verify",
+      "content": "$f(0) = -16(4) + 185 = 121$ &#10003;&nbsp;&nbsp; $f(2) = 0 + 185 = 185$ &#10003;"
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; '$f(t) = -16(t+185)^2 - 2$'</strong>: Places the vertex at $(-185, -2)$, which is completely wrong. &#10007;</li><li><strong>Choice B &mdash; '$f(t) = -16(t-185)^2 + 2$'</strong>: Places the vertex at $(185, 2)$; the maximum height would be only 2 ft, not 185. &#10007;</li><li><strong>Choice C &mdash; '$f(t) = -16(t+2)^2 - 185$'</strong>: Places the vertex at $(-2, -185)$; the maximum height would be $-185$ ft, which is impossible. &#10007;</li><li><strong>Choice D &mdash; '$f(t) = -16(t-2)^2 + 185$'</strong>: Vertex at $(2, 185)$, initial height $f(0) = 121$. Both conditions satisfied. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "f(t)=-16(t-2)^{2}+185",
+        "(2,185)",
+        "(0,121)"
+      ]
+    }
+  ]
+}

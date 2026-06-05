@@ -1,1 +1,15 @@
-{"questionId": "74c98c82", "correctAnswer": "16", "section": "Math", "steps": [{"title": "Set up and simplify the budget inequality", "content": "With $a$ attendees, the total cost is $35 + 10.25a$. To stay within the budget of $200$:<br/>$$35 + 10.25a \\leq 200$$<br/>Subtract the venue fee from both sides:<br/>$$10.25a \\leq 165$$<br/>Divide both sides by 10.25:<br/>$$a \\leq \\frac{165}{10.25}$$"}, {"title": "Calculate the maximum whole number of attendees", "content": "Evaluating the division: $\\frac{165}{10.25} \\approx 16.097$<br/><br/>Since the number of attendees must be a whole number and we need the greatest number without exceeding the budget, the answer is $a = 16$. Verification: $35 + 10.25(16) = 199 \\leq 200$, which is within the budget."}]}
+{
+  "questionId": "74c98c82",
+  "correctAnswer": "16",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up and simplify the budget inequality",
+      "content": "With $a$ attendees, the total cost is $35 + 10.25a$. To stay within the budget of $200$:<br/>$$35 + 10.25a \\leq 200$$<br/>Subtract the venue fee from both sides:<br/>$$10.25a \\leq 165$$<br/>Divide both sides by 10.25:<br/>$$a \\leq \\frac{165}{10.25}$$"
+    },
+    {
+      "title": "Calculate the maximum whole number of attendees",
+      "content": "Evaluating the division: $\\frac{165}{10.25} \\approx 16.097$<br/><br/>Since the number of attendees must be a whole number and we need the greatest number without exceeding the budget, the answer is $a = 16$. Verification: $35 + 10.25(16) = 199 \\leq 200$, which is within the budget."
+    }
+  ]
+}

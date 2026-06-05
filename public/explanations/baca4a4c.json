@@ -1,1 +1,31 @@
-{"questionId": "baca4a4c", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Isolate the variable term", "content": "Starting from $$7(2x-3)=63,$$ divide both sides by 7 to isolate the variable term."}, {"title": "Identify the answer", "content": "This gives $$2x-3=9.$$ That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}
+{
+  "questionId": "baca4a4c",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the variable term",
+      "content": "Starting from $$7(2x-3)=63,$$ divide both sides by 7 to isolate the variable term."
+    },
+    {
+      "title": "Identify the answer",
+      "content": "This gives $$2x-3=9.$$ That matches choice <strong>A</strong> — <strong>A</strong> is correct."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice A is correct. Dividing each side of the given equation by $7$ yields $\\frac{7\\left(2x-3\\right)}{7}=\\frac{63}{7}$, or $2x-3=9$. Therefore, the equation $2x-3=9$ is equivalent to the given equation and has the same solution."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice B is incorrect. This equation is equivalent to $7\\left(2x-3\\right)=392$, not $7\\left(2x-3\\right)=63$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice C is incorrect. Distributing $7$ on the left-hand side of the given equation yields $14x-21=63$, not $2x-21=63$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice D is incorrect. Distributing $7$ on the left-hand side of the given equation yields $14x-21=63$, not $2x-21=70$."
+    }
+  ]
+}

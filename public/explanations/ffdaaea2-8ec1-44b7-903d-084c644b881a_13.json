@@ -1,1 +1,24 @@
-{"questionId":"ffdaaea2-8ec1-44b7-903d-084c644b881a_13","correctAnswer":"A","section":"Math","steps":[{"title":"Set up","content":"The boundary line is rx + ty = &minus;36. Use the y-intercept (0, &minus;12) from the graph: r(0) + t(&minus;12) = &minus;36, so &minus;12t = &minus;36, giving t = 3."},{"title":"Solve","content":"Use a second point on the line, (&minus;12, &minus;8): r(&minus;12) + 3(&minus;8) = &minus;36 &rArr; &minus;12r &minus; 24 = &minus;36 &rArr; &minus;12r = &minus;12 &rArr; r = 1.<br/>So r + t = 1 + 3 = 4."},{"title":"Answer","content":"<strong>A</strong> is correct."}]}
+{
+  "questionId": "ffdaaea2-8ec1-44b7-903d-084c644b881a_13",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "The boundary line has the form $rx+ty=-36$. Read two points from the line, $(0,-12)$ and $(-12,-8)$, and enter them in Desmos as $x_1=[0,-12]$, $y_1=[-12,-8]$. Then run the custom regression $r x_1+t y_1\\sim -36$.",
+      "desmosExpressions": [
+        "x_1=[0,-12]",
+        "y_1=[-12,-8]",
+        "r x_1+t y_1~-36"
+      ]
+    },
+    {
+      "title": "Solve",
+      "content": "Desmos gives $r=1$ and $t=3$, so $r+t=1+3=4$."
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>A</strong> is correct."
+    }
+  ]
+}

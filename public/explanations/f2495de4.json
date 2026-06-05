@@ -1,1 +1,39 @@
-{"questionId":"f2495de4","correctAnswer":"C","section":"Math","steps":[{"title":"Compute each power","content":"Subtract full periods of $2\\pi$. Since $\\tfrac{565\\pi}{6}=\\tfrac{564\\pi}{6}+\\tfrac{\\pi}{6}=47\\cdot 2\\pi+\\tfrac{\\pi}{6}$, the angle is coterminal with $\\tfrac{\\pi}{6}$."},{"title":"Add and identify","content":"So $$\\cos\\!\\tfrac{565\\pi}{6}=\\cos\\tfrac{\\pi}{6}=\\tfrac{\\sqrt{3}}{2}.$$ That matches choice <strong>C</strong> — <strong>C</strong> is correct.","desmosExpressions":["x^2 + y^2 = 1","(\\cos(565\\pi/6), \\sin(565\\pi/6))"]}]}
+{
+  "questionId": "f2495de4",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compute each power",
+      "content": "Subtract full periods of $2\\pi$. Since $\\tfrac{565\\pi}{6}=\\tfrac{564\\pi}{6}+\\tfrac{\\pi}{6}=47\\cdot 2\\pi+\\tfrac{\\pi}{6}$, the angle is coterminal with $\\tfrac{\\pi}{6}$."
+    },
+    {
+      "title": "Add and identify",
+      "content": "So $$\\cos\\!\\tfrac{565\\pi}{6}=\\cos\\tfrac{\\pi}{6}=\\tfrac{\\sqrt{3}}{2}.$$ That matches choice <strong>C</strong> — <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "x^2 + y^2 = 1",
+        "(\\cos(565\\pi/6), \\sin(565\\pi/6))"
+      ]
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice C is correct. The cosine of an angle is equal to the cosine of $n(2π)$ radians more than the angle, where $n$ is an integer constant. Since $\\frac{565π}{6}$ is equivalent to $47(2π)+\\frac{π}{6}$, $\\cos(\\frac{565π}{6})$ can be rewritten as $\\cos(47(2π)+\\frac{π}{6})$, which is equal to $\\cos(\\frac{π}{6})$. Therefore, the value of $\\cos(\\frac{565π}{6})$ is equal to the value of $\\cos(\\frac{π}{6})$, which is $\\frac{\\sqrt{3}}{2}$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Alternate approach: A trigonometric ratio can be found using the unit circle, that is, a circle with radius $1$ unit. The cosine of a number $t$ is the <em>x</em>-coordinate of the point resulting from traveling a distance of $t$ counterclockwise from the point $(1,0)$ around a unit circle centered at the origin in the <em>xy</em>-plane. A unit circle has a circumference of $2π$. It follows that since $\\frac{565π}{6}$ is equal to $47(2π)+\\frac{π}{6}$, traveling a distance of $\\frac{565π}{6}$ counterclockwise around a unit circle means traveling around the circle completely $47$ times and then another $\\frac{π}{6}$ beyond that. That is, traveling $\\frac{565π}{6}$ results in the same point as traveling $\\frac{π}{6}$. Traveling $\\frac{π}{6}$ counterclockwise from the point $(1,0)$ around a unit circle centered at the origin in the <em>xy</em>-plane results in the point $(\\frac{\\sqrt{3}}{2},\\frac{1}{2})$. Thus, the value of $\\cos\\frac{565π}{6}$ is the <em>x</em>-coordinate of the point $(\\frac{\\sqrt{3}}{2},\\frac{1}{2})$, which is $\\frac{\\sqrt{3}}{2}$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A is incorrect. This is the value of $\\sin\\frac{565π}{6}$, not $\\cos\\frac{565π}{6}$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice B is incorrect. This is the value of the cosine of a multiple of $2π$, not $\\frac{565π}{6}$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice D is incorrect. This is the value of $\\frac{1}{\\tan\\frac{565π}{6}}$, not $\\cos\\frac{565π}{6}$."
+    }
+  ]
+}

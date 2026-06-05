@@ -1,1 +1,22 @@
-{"questionId": "36b6f8ba", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Read the y-intercept from the graph", "content": "The graph shown is $y = f(x) + 4$. Its $y$-intercept occurs where $x = 0$. Reading the graph, the curve crosses the $y$-axis at $(0, 8)$."}, {"title": "Solve for f(0)", "content": "Substitute $x = 0$ into $y = f(x) + 4$:<br/>$$8 = f(0) + 4 \\Rightarrow f(0) = 4$$<br/>Every choice has the form $f(x) = -3^x + c$, so at $x = 0$:<br/>$$-3^0 + c = -1 + c = 4 \\Rightarrow c = 5$$<br/>Therefore $f(x) = -3^x + 5$."}, {"title": "Evaluate each choice", "content": "<ul><li><strong>A) $-3^x + 1$:</strong> Gives $f(0) = -1 + 1 = 0$, so $y = 0 + 4 = 4$. Doesn&#39;t match $y$-intercept of $8$.</li><li><strong>B) $-3^x + 5$:</strong> Gives $f(0) = -1 + 5 = 4$, so $y = 4 + 4 = 8$. Matches the graph.</li><li><strong>C) $-3^x + 8$:</strong> Gives $f(0) = -1 + 8 = 7$, so $y = 7 + 4 = 11$. Wrong.</li><li><strong>D) $-3^x + 9$:</strong> Gives $f(0) = -1 + 9 = 8$, so $y = 8 + 4 = 12$. Wrong.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.", "desmosExpressions": ["f(x)=-(3)^(x)+5"]}]}
+{
+  "questionId": "36b6f8ba",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the y-intercept from the graph",
+      "content": "The graph shown is $y = f(x) + 4$. Its $y$-intercept occurs where $x = 0$. Reading the graph, the curve crosses the $y$-axis at $(0, 8)$."
+    },
+    {
+      "title": "Solve for f(0)",
+      "content": "Substitute $x = 0$ into $y = f(x) + 4$:<br/>$$8 = f(0) + 4 \\Rightarrow f(0) = 4$$<br/>Every choice has the form $f(x) = -3^x + c$, so at $x = 0$:<br/>$$-3^0 + c = -1 + c = 4 \\Rightarrow c = 5$$<br/>Therefore $f(x) = -3^x + 5$."
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li><strong>A) $-3^x + 1$:</strong> Gives $f(0) = -1 + 1 = 0$, so $y = 0 + 4 = 4$. Doesn&#39;t match $y$-intercept of $8$.</li><li><strong>B) $-3^x + 5$:</strong> Gives $f(0) = -1 + 5 = 4$, so $y = 4 + 4 = 8$. Matches the graph.</li><li><strong>C) $-3^x + 8$:</strong> Gives $f(0) = -1 + 8 = 7$, so $y = 7 + 4 = 11$. Wrong.</li><li><strong>D) $-3^x + 9$:</strong> Gives $f(0) = -1 + 9 = 8$, so $y = 8 + 4 = 12$. Wrong.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "f(x)=-(3)^(x)+5"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "c256b723", "correctAnswer": "10", "section": "Math", "steps": [{"title": "Identify what to calculate", "content": "The tip is 20% of the \\$50 bill. We need to find 20% of \\$50."}, {"title": "Convert percentage to decimal and multiply", "content": "To find a percentage of a number, convert the percentage to decimal form and multiply:<br/>$$20\\% = 0.20$$<br/>$$\\text{Tip} = 0.20 \\times 50 = 10$$<br/>The tip Hanna gave is \\$10."}]}
+{
+  "questionId": "c256b723",
+  "correctAnswer": "10",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what to calculate",
+      "content": "The tip is 20% of the \\$50 bill. We need to find 20% of \\$50."
+    },
+    {
+      "title": "Convert percentage to decimal and multiply",
+      "content": "To find a percentage of a number, convert the percentage to decimal form and multiply:<br/>$$20\\% = 0.20$$<br/>$$\\text{Tip} = 0.20 \\times 50 = 10$$<br/>The tip Hanna gave is \\$10."
+    }
+  ]
+}

@@ -1,1 +1,19 @@
-{"questionId":"9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_8","correctAnswer":"18","section":"Math","steps":[{"title":"Multiply the expressions","content":"Multiply coefficients and add exponents: $$(6x^2)(3x^7)=18x^{9}.$$"},{"title":"Identify b","content":"Comparing $18x^9=bx^9$ gives $b=18$. The answer is <strong>18</strong>."}]}
+{
+  "questionId": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_8",
+  "correctAnswer": "18",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Multiply the expressions",
+      "content": "Multiply coefficients and add exponents: $$(6x^2)(3x^7)=18x^{9}.$$"
+    },
+    {
+      "title": "Identify b",
+      "content": "Comparing $18x^9=bx^9$ gives $b=18$. The answer is <strong>18</strong>."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $18$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $18$."
+    }
+  ]
+}

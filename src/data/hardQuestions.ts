@@ -791,7 +791,7 @@ const baseQuestions: Question[] = [
   },
   {
     id: 84,
-    text: "A study is comparing two schools, school A and school B. The total ratio of male students to female students is $3:4$ for both schools. The ratio of female students attending school A to school B is $27:40$. There are $440$ students attending school A and $498$ students attending school B. How many more male students are there attending school A than school B?",
+    text: "A study is comparing two schools, school A and school B. Across both schools combined, the ratio of male students to female students is $3:4$. The ratio of female students attending school A to school B is $27:40$. There are $440$ students attending school A and $498$ students attending school B. How many more male students are there attending school A than school B?",
     correctAnswer: "46",
     type: "free-response",
   },

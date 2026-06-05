@@ -1,1 +1,15 @@
-{"qid": "b76a2815", "correctAnswer": "A", "steps": [{"text": "Start with \\(P = \\\\dfrac{W}{t}\\). To isolate \\(W\\), multiply both sides by \\(t\\): \\(P \\cdot t = \\\\dfrac{W}{t} \\cdot t\\)."}, {"text": "The \\(t\\) cancels on the right: \\(W = Pt\\)."}, {"text": "Evaluate all choices:<ul><li>A: \\(W = Pt\\) — correct, matches the derived equation. That matches choice A — <strong>A</strong> is correct.</li><li>B: \\(W = \\\\dfrac{P}{t}\\) — divides instead of multiplies by \\(t\\). Eliminated.</li><li>C: \\(W = \\\\dfrac{t}{P}\\) — inverts both variables; does not follow from the algebra. Eliminated.</li><li>D: \\(W = P + t\\) — adds instead of multiplies. Eliminated.</li></ul>"}]}
+{
+  "qid": "b76a2815",
+  "correctAnswer": "A",
+  "steps": [
+    {
+      "text": "Start with $P = \\\\dfrac{W}{t}$. To isolate $W$, multiply both sides by $t$: $P \\cdot t = \\\\dfrac{W}{t} \\cdot t$."
+    },
+    {
+      "text": "The $t$ cancels on the right: $W = Pt$."
+    },
+    {
+      "text": "Evaluate all choices:<ul><li>A: $W = Pt$ — correct, matches the derived equation. That matches choice A — <strong>A</strong> is correct.</li><li>B: $W = \\\\dfrac{P}{t}$ — divides instead of multiplies by $t$. Eliminated.</li><li>C: $W = \\\\dfrac{t}{P}$ — inverts both variables; does not follow from the algebra. Eliminated.</li><li>D: $W = P + t$ — adds instead of multiplies. Eliminated.</li></ul>"
+    }
+  ]
+}

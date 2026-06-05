@@ -1,1 +1,19 @@
-{"questionId":"0b20f63f-7305-47a1-adb9-fcbd5e74a7be_12","correctAnswer":"C","section":"Math","steps":[{"title":"Identify the cost structure","content":"First 2 hours: flat \\$950. Each hour after the first 2: \\$50/hour. For \\(t\\) total hours (\\(t>2\\)), the number of additional hours is \\(t-2\\), costing \\(50(t-2)\\)."},{"title":"Write the equation","content":"$$950 + 50(t-2) = 1{,}150$$"},{"title":"Evaluate all choices","content":"<ul><li><strong>Choice A &mdash; '\\(950(t-2)+50t=1{,}150\\)'</strong>: Multiplies the \\$950 flat fee by \\((t-2)\\) as if it scales with time, and charges \\$50 for all \\(t\\) hours rather than only the extra hours. &#10007;</li><li><strong>Choice B &mdash; '\\(950(2t)+50t=1{,}150\\)'</strong>: Multiplies the flat fee by \\(2t\\) — nonsensical scaling. &#10007;</li><li><strong>Choice C &mdash; '\\(950+50(t-2)=1{,}150\\)'</strong>: Flat fee \\$950 plus \\$50 for each of the \\((t-2)\\) additional hours. Verify: \\(950+50(t-2)=1150 \\Rightarrow 50(t-2)=200 \\Rightarrow t-2=4 \\Rightarrow t=6\\) hours. Reasonable. That matches choice C &mdash; <strong>C</strong> is correct. &#10003;</li><li><strong>Choice D &mdash; '\\(950+50(2t)=1{,}150\\)'</strong>: Charges \\$50 for \\(2t\\) hours instead of \\((t-2)\\) extra hours. &#10007;</li></ul>"}]}
+{
+  "questionId": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_12",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the cost structure",
+      "content": "First 2 hours: flat \\$950. Each hour after the first 2: \\$50/hour. For $t$ total hours ($t>2$), the number of additional hours is $t-2$, costing $50(t-2)$."
+    },
+    {
+      "title": "Write the equation",
+      "content": "$$950 + 50(t-2) = 1{,}150$$"
+    },
+    {
+      "title": "Evaluate all choices",
+      "content": "<ul><li><strong>Choice A &mdash; '$950(t-2)+50t=1{,}150$'</strong>: Multiplies the \\$950 flat fee by $(t-2)$ as if it scales with time, and charges \\$50 for all $t$ hours rather than only the extra hours. &#10007;</li><li><strong>Choice B &mdash; '$950(2t)+50t=1{,}150$'</strong>: Multiplies the flat fee by $2t$ — nonsensical scaling. &#10007;</li><li><strong>Choice C &mdash; '$950+50(t-2)=1{,}150$'</strong>: Flat fee \\$950 plus \\$50 for each of the $(t-2)$ additional hours. Verify: $950+50(t-2)=1150 \\Rightarrow 50(t-2)=200 \\Rightarrow t-2=4 \\Rightarrow t=6$ hours. Reasonable. That matches choice C &mdash; <strong>C</strong> is correct. &#10003;</li><li><strong>Choice D &mdash; '$950+50(2t)=1{,}150$'</strong>: Charges \\$50 for $2t$ hours instead of $(t-2)$ extra hours. &#10007;</li></ul>"
+    }
+  ]
+}

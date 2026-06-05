@@ -1,1 +1,15 @@
-{"questionId": "aeaba0b6", "correctAnswer": "11", "section": "Math", "steps": [{"title": "Set up the equation", "content": "We need the number of games when total cost is \\$58. Substitute into the function:<br/>$$14 + 4x = 58$$"}, {"title": "Solve for x", "content": "Subtract 14 from both sides:<br/>$$4x = 44$$<br/>Divide both sides by 4:<br/>$$x = 11$$<br/>Therefore, 11 games can be played for \\$58."}]}
+{
+  "questionId": "aeaba0b6",
+  "correctAnswer": "11",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the equation",
+      "content": "We need the number of games when total cost is \\$58. Substitute into the function:<br/>$$14 + 4x = 58$$"
+    },
+    {
+      "title": "Solve for x",
+      "content": "Subtract 14 from both sides:<br/>$$4x = 44$$<br/>Divide both sides by 4:<br/>$$x = 11$$<br/>Therefore, 11 games can be played for \\$58."
+    }
+  ]
+}

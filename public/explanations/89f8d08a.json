@@ -1,1 +1,16 @@
-{"questionId": "89f8d08a", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Calculate sample proportion and scale to population", "content": "The sample data shows 20 out of 80 customers purchased fruit. This gives a sample proportion of:<br/>$$\\frac{20}{80} = \\frac{1}{4} = 0.25$$<br/>To estimate how many of the total 1,500 customers purchased fruit, apply this proportion to the full population:<br/>$$1,500 \\times \\frac{1}{4} = 375 \\text{ customers}$$", "formula": "$$\\text{Population estimate} = \\text{Population size} \\times \\frac{\\text{Sample count}}{\\text{Sample size}}$$"}, {"title": "Identify appropriate language and select the choice", "content": "When inferring population characteristics from a sample, the correct statistical language is <em>best estimate</em>, not <em>exactly must have</em>. Sample-based conclusions always carry uncertainty because we observed only a portion of the population.<br/><br/>This eliminates choices A and B—both incorrectly claim the count <em>must</em> be exact. Between the remaining choices:<ul><li><strong>Choice C:</strong> Estimates 75 (incorrect count)</li><li><strong>Choice D:</strong> Estimates 375 (matches our calculation) with appropriate statistical language</li></ul>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "89f8d08a",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate sample proportion and scale to population",
+      "content": "The sample data shows 20 out of 80 customers purchased fruit. This gives a sample proportion of:<br/>$$\\frac{20}{80} = \\frac{1}{4} = 0.25$$<br/>To estimate how many of the total 1,500 customers purchased fruit, apply this proportion to the full population:<br/>$$1,500 \\times \\frac{1}{4} = 375 \\text{ customers}$$",
+      "formula": "$$\\text{Population estimate} = \\text{Population size} \\times \\frac{\\text{Sample count}}{\\text{Sample size}}$$"
+    },
+    {
+      "title": "Identify appropriate language and select the choice",
+      "content": "When inferring population characteristics from a sample, the correct statistical language is <em>best estimate</em>, not <em>exactly must have</em>. Sample-based conclusions always carry uncertainty because we observed only a portion of the population.<br/><br/>This eliminates choices A and B—both incorrectly claim the count <em>must</em> be exact. Between the remaining choices:<ul><li><strong>Choice C:</strong> Estimates 75 (incorrect count)</li><li><strong>Choice D:</strong> Estimates 375 (matches our calculation) with appropriate statistical language</li></ul>That matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

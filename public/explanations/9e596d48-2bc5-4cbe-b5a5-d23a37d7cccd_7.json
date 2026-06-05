@@ -1,1 +1,27 @@
-{"questionId": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_7", "correctAnswer": "25", "section": "Math", "steps": [{"title": "Set the equations equal to form a quadratic", "content": "$$y = -0.5 = x^2 + 10x + a$$<br/>$$x^2 + 10x + a + 0.5 = 0$$"}, {"title": "Apply the discriminant condition for no real solutions", "content": "For $$Ax^2 + Bx + C = 0$$, no real solutions when discriminant $$B^2 - 4AC < 0$$.<br/>Here $$A=1, B=10, C = a+0.5$$.<br/>So $$10^2 - 4(1)(a+0.5) < 0$$."}, {"title": "Solve the inequality for a", "content": "$$100 - 4a - 2 < 0$$<br/>$$98 - 4a < 0$$<br/>$$4a > 98$$<br/>$$a > 24.5$$<br/>Since $$a$$ is a positive integer, the least possible value is $$a = 25$$.<br/>The answer is <strong>25</strong>.","desmosExpressions":["y = -0.5","y = x^2 + 10x + 25"]}]}
+{
+  "questionId": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_7",
+  "correctAnswer": "25",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the equations equal to form a quadratic",
+      "content": "$$y = -0.5 = x^2 + 10x + a$$<br/>$$x^2 + 10x + a + 0.5 = 0$$"
+    },
+    {
+      "title": "Apply the discriminant condition for no real solutions",
+      "content": "For $Ax^2+Bx+C=0$, no real solutions means the discriminant is negative. The boundary case is discriminant $0$:<br/>$$10^2-4(1)(a+0.5)=0$$<br/>Desmos can solve that boundary directly and gives $a=24.5$. To have no real solutions, $a$ must be greater than $24.5$.",
+      "desmosExpressions": [
+        "y_1=[0]",
+        "y_1~10^2-4*1*(a+0.5)"
+      ]
+    },
+    {
+      "title": "Solve the inequality for a",
+      "content": "$$100 - 4a - 2 < 0$$<br/>$$98 - 4a < 0$$<br/>$$4a > 98$$<br/>$$a > 24.5$$<br/>Since $$a$$ is a positive integer, the least possible value is $$a = 25$$.<br/>The answer is <strong>25</strong>.",
+      "desmosExpressions": [
+        "y = -0.5",
+        "y = x^2 + 10x + 25"
+      ]
+    }
+  ]
+}

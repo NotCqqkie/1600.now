@@ -1,1 +1,19 @@
-{"questionId": "a7a14e87", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Find the slope of line k, then flip-and-negate for perpendicular", "content": "Line $k$: $x + y = 0 \\Rightarrow y = -x$, so slope $= -1$. Perpendicular slope is the negative reciprocal: $-\\frac{1}{-1} = 1$."}, {"title": "Write line j and convert to standard form", "content": "Line $j$ has slope $1$ and passes through $(0, 3)$, so $y = x + 3$. Rearranging: $x - y = -3$. That matches choice D — <strong>D</strong> is correct.", "desmosExpressions": ["x+y=0", "y=x+3"]}]}
+{
+  "questionId": "a7a14e87",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope of line k, then flip-and-negate for perpendicular",
+      "content": "Line $k$: $x + y = 0 \\Rightarrow y = -x$, so slope $= -1$. Perpendicular slope is the negative reciprocal: $-\\frac{1}{-1} = 1$."
+    },
+    {
+      "title": "Write line j and convert to standard form",
+      "content": "Line $j$ has slope $1$ and passes through $(0, 3)$, so $y = x + 3$. Rearranging: $x - y = -3$. That matches choice D — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "x+y=0",
+        "y=x+3"
+      ]
+    }
+  ]
+}

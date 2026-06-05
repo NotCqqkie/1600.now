@@ -13,7 +13,7 @@
     },
     {
       "title": "Count the number of zeros",
-      "content": "Since $f(x) < 0$ for all $x$, the curve never crosses or touches the $x$-axis (where $y = 0$). Therefore, there are zero values of $x$ where $f(x) = 0$. That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "Since $f(x) < 0$ for all $x$, the curve never crosses or touches the $x$-axis (where $y = 0$). Therefore, there are zero values of $x$ where $f(x) = 0$. That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

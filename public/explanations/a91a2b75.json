@@ -1,1 +1,22 @@
-{"questionId": "a91a2b75", "correctAnswer": "9", "section": "Math", "steps": [{"title": "Set up the intercept", "content": "The $y$-intercept of $y=f(x)$ occurs where $x=0$, so evaluate $f(0)$."}, {"title": "Solve for the value", "content": "Substituting gives $$f(0)=-9(0)+9=9.$$ The answer is <strong>9</strong>.", "desmosExpressions": ["y=-9x+9"]}]}
+{
+  "questionId": "a91a2b75",
+  "correctAnswer": "9",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the intercept",
+      "content": "The $y$-intercept of $y=f(x)$ occurs where $x=0$, so evaluate $f(0)$."
+    },
+    {
+      "title": "Solve for the value",
+      "content": "Substituting gives $$f(0)=-9(0)+9=9.$$ The answer is <strong>9</strong>.",
+      "desmosExpressions": [
+        "y=-9x+9"
+      ]
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $9$. The <em>y</em>-intercept of the graph of $y=f(x)$ in the <em>xy</em>-plane is the point where the graph of $y=f(x)$ crosses the <em>y</em>-axis, which occurs at $x=0$. It's given that the function $f$ is defined by $f(x)=-9x+9$. Substituting $0$ for $x$ and $y$ for $f(x)$ in this equation yields $y=-9(0)+9$, or $y=9$. It follows that $y=9$ when $x=0$ and that the <em>y</em>-intercept of the graph of $y=f(x)$ in the <em>xy</em>-plane is $(0,9)$. Therefore, the <em>y</em>-coordinate of the <em>y</em>-intercept of the graph of $y=f(x)$ in the <em>xy</em>-plane is $9$."
+    }
+  ]
+}

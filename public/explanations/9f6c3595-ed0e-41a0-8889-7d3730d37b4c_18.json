@@ -1,1 +1,20 @@
-{"questionId":"9f6c3595-ed0e-41a0-8889-7d3730d37b4c_18","correctAnswer":"168","section":"Math","steps":[{"title":"Parallel lines have equal slope","content":"<strong>Shortcut (par/perp):</strong> Parallel lines share the same slope. The line $y = 42x + 6$ has slope 42. Since line $s$ is parallel, it also has slope 42."},{"title":"Write the equation through the origin and evaluate","content":"Line $s$ passes through $(0, 0)$, so its equation is $y = 42x$. At $x = 4$: $d = 42 \\times 4 = 168$. The answer is <strong>168</strong>.","desmosExpressions":["y=42x+6","y=42x","(4,168)"]}]}
+{
+  "questionId": "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_18",
+  "correctAnswer": "168",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Parallel lines have equal slope",
+      "content": "<strong>Shortcut (par/perp):</strong> Parallel lines share the same slope. The line $y = 42x + 6$ has slope 42. Since line $s$ is parallel, it also has slope 42."
+    },
+    {
+      "title": "Write the equation through the origin and evaluate",
+      "content": "Line $s$ passes through $(0, 0)$, so its equation is $y = 42x$. At $x = 4$: $d = 42 \\times 4 = 168$. The answer is <strong>168</strong>.",
+      "desmosExpressions": [
+        "y=42x+6",
+        "y=42x",
+        "(4,168)"
+      ]
+    }
+  ]
+}

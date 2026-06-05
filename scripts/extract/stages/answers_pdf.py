@@ -10,7 +10,7 @@ from __future__ import annotations
 import json
 import re
 from pathlib import Path
-from ..utils.claude_client import RateLimitedClient
+from ..utils.cli_client import RateLimitedClient
 from ..utils.cli_client import ContentFilterBlocked
 from ..utils.checkpoint import Checkpoint
 from .render import render_pdf_pages

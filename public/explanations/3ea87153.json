@@ -9,8 +9,10 @@
     },
     {
       "title": "Solve for x",
-      "content": "Subtract 9 from both sides:<br/>$$x^2 = 16$$<br/>Taking the square root:<br/>$$x = \\pm 4$$<br/>The solutions are $x = 4$ and $x = -4$. Of these, only $x = 4$ appears in the choices. That matches choice A \u2014 <strong>A</strong> is correct.",
-      "desmosExpressions": ["g(x)=(x)^(2)+9"]
+      "content": "Subtract 9 from both sides:<br/>$$x^2 = 16$$<br/>Taking the square root:<br/>$$x = \\pm 4$$<br/>The solutions are $x = 4$ and $x = -4$. Of these, only $x = 4$ appears in the choices. That matches choice A — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "g(x)=(x)^(2)+9"
+      ]
     }
   ]
 }

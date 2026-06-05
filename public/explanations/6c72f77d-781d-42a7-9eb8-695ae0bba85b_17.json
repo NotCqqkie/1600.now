@@ -1,1 +1,24 @@
-{"questionId": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_17", "correctAnswer": "403", "section": "Math", "steps": [{"title": "Simplify both sides", "content": "Expand the left side: $\\frac{12x+28}{4} = \\frac{12x}{4} + \\frac{28}{4} = 3x + 7$, so it becomes $3x + 7 - \\frac{s}{13}$.<br/><br/>Expand the right side: $r(x-8) = rx - 8r$.<br/><br/>The equation is now:<br/>$$3x + 7 - \\frac{s}{13} = rx - 8r$$"}, {"title": "Set conditions for infinitely many solutions", "content": "A linear equation has infinitely many solutions when both sides are identical—the same expression in $x$. Rearrange by moving all terms with $x$ to the left:<br/>$$3x - rx = -8r - 7 + \\frac{s}{13}$$<br/>$$(3 - r)x = -8r - 7 + \\frac{s}{13}$$<br/>For this to be true for all $x$, the coefficient of $x$ must be zero AND the constant on the right must be zero:<div class=\"callout\"><strong>Condition 1:</strong> $3 - r = 0 \\Rightarrow r = 3$<br/><strong>Condition 2:</strong> $-8r - 7 + \\frac{s}{13} = 0$</div>"}, {"title": "Substitute and solve for s", "content": "Substitute $r = 3$ into Condition 2:<br/>$$-8(3) - 7 + \\frac{s}{13} = 0$$<br/>$$-24 - 7 + \\frac{s}{13} = 0$$<br/>$$-31 + \\frac{s}{13} = 0$$<br/>$$\\frac{s}{13} = 31$$<br/>$$s = 31 \\times 13 = 403$$<br/>Check: With $s = 403$ and $r = 3$, the left side is $3x + 7 - 31 = 3x - 24$ and the right side is $3(x-8) = 3x - 24$. Both sides are identical, confirming infinitely many solutions.", "formula": "$$s = 403$$"}]}
+{
+  "questionId": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_17",
+  "correctAnswer": "403",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use Desmos to solve the constants",
+      "content": "Because the equation has infinitely many solutions, both sides must be the same linear expression. Use two $x$-values in a Desmos custom regression: enter $x_1=[0,1]$, then type $\\frac{12x_1+28}{4}-\\frac{s}{13}\\sim r(x_1-8)$. Desmos returns $r=3$ and $s=403$.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "(12x_1+28)/4-s/13~r(x_1-8)"
+      ]
+    },
+    {
+      "title": "Check the coefficient condition",
+      "content": "Simplify the left side: $$\\frac{12x+28}{4}-\\frac{s}{13}=3x+7-\\frac{s}{13}.$$ The right side is $rx-8r$. For the two sides to be identical, the $x$-coefficients must match, so $r=3$."
+    },
+    {
+      "title": "Use the constant condition",
+      "content": "Now match constants using $r=3$: $$7-\\frac{s}{13}=-8(3)=-24$$ $$-\\frac{s}{13}=-31$$ $$s=403$$ With $s=403$, the left side becomes $3x+7-31=3x-24$, and the right side is $3(x-8)=3x-24$. The answer is <strong>403</strong>.",
+      "formula": "$$s = 403$$"
+    }
+  ]
+}

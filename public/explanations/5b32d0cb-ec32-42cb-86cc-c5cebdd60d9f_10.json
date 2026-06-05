@@ -1,1 +1,19 @@
-{"questionId": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_10", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Identify like terms", "content": "The expression \\(20x^2 + 3 + 5x^2\\) has two terms with \\(x^2\\): \\(20x^2\\) and \\(5x^2\\). The constant 3 has no like term."}, {"title": "Combine like terms", "content": "Add the \\(x^2\\) coefficients:<br/>$$20x^2 + 5x^2 = 25x^2$$<br/>The simplified expression is \\(25x^2 + 3\\)."}, {"title": "Evaluate each answer choice", "content": "<ul><li><strong>A</strong>: \\(25x^4 + 3\\) &mdash; the exponent 4 is wrong; combining \\(x^2\\) terms does not change the exponent. Incorrect.</li><li><strong>B</strong>: \\(25x^2 + 3\\) &mdash; matches our result exactly. That matches choice B &mdash; <strong>B</strong> is correct.</li><li><strong>C</strong>: \\(28x^4\\) &mdash; the coefficient 28 and exponent 4 are both wrong, and the constant 3 is missing. Incorrect.</li><li><strong>D</strong>: \\(28x^2\\) &mdash; the coefficient should be 25, not 28 (\\(20 + 5 = 25\\), not 28), and the constant 3 is missing. Incorrect.</li></ul>"}]}
+{
+  "questionId": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_10",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify like terms",
+      "content": "The expression $20x^2 + 3 + 5x^2$ has two terms with $x^2$: $20x^2$ and $5x^2$. The constant 3 has no like term."
+    },
+    {
+      "title": "Combine like terms",
+      "content": "Add the $x^2$ coefficients:<br/>$$20x^2 + 5x^2 = 25x^2$$<br/>The simplified expression is $25x^2 + 3$."
+    },
+    {
+      "title": "Evaluate each answer choice",
+      "content": "<ul><li><strong>A</strong>: $25x^4 + 3$ &mdash; the exponent 4 is wrong; combining $x^2$ terms does not change the exponent. Incorrect.</li><li><strong>B</strong>: $25x^2 + 3$ &mdash; matches our result exactly. That matches choice B &mdash; <strong>B</strong> is correct.</li><li><strong>C</strong>: $28x^4$ &mdash; the coefficient 28 and exponent 4 are both wrong, and the constant 3 is missing. Incorrect.</li><li><strong>D</strong>: $28x^2$ &mdash; the coefficient should be 25, not 28 ($20 + 5 = 25$, not 28), and the constant 3 is missing. Incorrect.</li></ul>"
+    }
+  ]
+}

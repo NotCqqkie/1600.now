@@ -1,1 +1,15 @@
-{"questionId": "36661021", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Identify the right triangle and apply the Pythagorean theorem", "content": "The right angle is marked at the bottom-left corner. The two legs are 9 (vertical) and 6 (horizontal), and $c$ is the hypotenuse. By the Pythagorean theorem:<br/>$$c^2 = 9^2 + 6^2$$"}, {"title": "Calculate the sum and solve for c", "content": "$$c^2 = 81 + 36 = 117$$<br/>$$c = \\sqrt{117}$$<br/>To approximate $\\sqrt{117}$: since $10^2 = 100$ and $11^2 = 121$, we know $\\sqrt{117}$ is between 10 and 11, closer to 11. More precisely, $10.8^2 = 116.64$, which is very close to 117. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}
+{
+  "questionId": "36661021",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the right triangle and apply the Pythagorean theorem",
+      "content": "The right angle is marked at the bottom-left corner. The two legs are 9 (vertical) and 6 (horizontal), and $c$ is the hypotenuse. By the Pythagorean theorem:<br/>$$c^2 = 9^2 + 6^2$$"
+    },
+    {
+      "title": "Calculate the sum and solve for c",
+      "content": "$$c^2 = 81 + 36 = 117$$<br/>$$c = \\sqrt{117}$$<br/>To approximate $\\sqrt{117}$: since $10^2 = 100$ and $11^2 = 121$, we know $\\sqrt{117}$ is between 10 and 11, closer to 11. More precisely, $10.8^2 = 116.64$, which is very close to 117. That matches choice <strong>B</strong> — <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,18 @@
-{"questionId":"6197d48e-7c76-4333-af39-0b9aa39e924c_8","correctAnswer":"15","section":"Math","steps":[{"title":"Identify the y-intercept form","content":"The y-intercept of a function occurs where $x = 0$. For the equation $y = x^2 + 15$, substitute $x = 0$ into the equation: <br/> $$ y = (0)^2 + 15 $$"},{"title":"Calculate the value","content":"Simplifying the equation: <br/> $$ y = 0 + 15 $$ <br/> $$ y = 15 $$ <br/> This matches the y-intercept form $(0, y)$, so the value of $y$ is 15. The answer is <strong>15</strong>.","desmosExpressions":["y = x^{2} + 15"]}]}
+{
+  "questionId": "6197d48e-7c76-4333-af39-0b9aa39e924c_8",
+  "correctAnswer": "15",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the y-intercept form",
+      "content": "The y-intercept of a function occurs where $x = 0$. For the equation $y = x^2 + 15$, substitute $x = 0$ into the equation: <br/> $$ y = (0)^2 + 15 $$"
+    },
+    {
+      "title": "Calculate the value",
+      "content": "Simplifying the equation: <br/> $$ y = 0 + 15 $$ <br/> $$ y = 15 $$ <br/> This matches the y-intercept form $(0, y)$, so the value of $y$ is 15. The answer is <strong>15</strong>.",
+      "desmosExpressions": [
+        "y = x^{2} + 15"
+      ]
+    }
+  ]
+}

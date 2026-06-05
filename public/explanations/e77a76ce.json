@@ -10,7 +10,10 @@
     {
       "title": "Check each choice for parallel lines",
       "content": "<ul><li><strong>Choice A:</strong> $y = 6x + 3$ and $y = 6x + 9$ both have slope 6, with different y-intercepts (3 and 9). Parallel—no solution.</li><li><strong>Choice B:</strong> $y = 10$ has slope 0; $y = 10x + 10$ has slope 10. Different slopes—they intersect.</li><li><strong>Choice C:</strong> $y = 14x + 14$ has slope 14; $y = 10x + 14$ has slope 10. Different slopes—they intersect.</li><li><strong>Choice D:</strong> $x = 3$ (vertical line) and $y = 10$ (horizontal line) intersect.</li></ul>That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": ["y = 6x + 3", "y = 6x + 9"]
+      "desmosExpressions": [
+        "y = 6x + 3",
+        "y = 6x + 9"
+      ]
     }
   ]
 }

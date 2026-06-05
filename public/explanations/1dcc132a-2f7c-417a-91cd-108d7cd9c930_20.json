@@ -1,1 +1,19 @@
-{"questionId": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_20", "correctAnswer": "1680", "section": "Math", "steps": [{"title": "Find the linear scale factor from volumes", "content": "From the table: Cylinder A has volume $392\\pi$ cubic units and Cylinder B has volume $10,584\\pi$ cubic units. The ratio is:<br/>$$\\frac{10,584\\pi}{392\\pi} = 27$$<br/>For similar solids, volumes scale by the cube of the linear scale factor. If the linear scale factor is $s$, then $s^3 = 27$, giving $s = 3$."}, {"title": "Find the height of cylinder A from its volume", "content": "Using the volume formula $V = \\pi r^2 h$ with $r = 7$ and $V = 392\\pi$:<br/>$$\\pi(7)^2 h = 392\\pi$$<br/>$$49h = 392$$<br/>$$h = 8$$"}, {"title": "Calculate surface areas and use the scale factor for the difference", "content": "Surface area of cylinder A with $r = 7$ and $h = 8$:<br/>$$SA_A = 2\\pi(7)^2 + 2\\pi(7)(8) = 98\\pi + 112\\pi = 210\\pi$$<br/>Thus $k = 210$.<br/><br/>Since surface areas are 2-dimensional, they scale by $3^2 = 9$:<br/>$$SA_B = 9 \\times 210\\pi = 1890\\pi$$<br/>Thus $n = 1890$, and:<br/>$$n - k = 1890 - 210 = 1680$$"}]}
+{
+  "questionId": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_20",
+  "correctAnswer": "1680",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the linear scale factor from volumes",
+      "content": "From the table: Cylinder A has volume $392\\pi$ cubic units and Cylinder B has volume $10,584\\pi$ cubic units. The ratio is:<br/>$$\\frac{10,584\\pi}{392\\pi} = 27$$<br/>For similar solids, volumes scale by the cube of the linear scale factor. If the linear scale factor is $s$, then $s^3 = 27$, giving $s = 3$."
+    },
+    {
+      "title": "Find the height of cylinder A from its volume",
+      "content": "Using the volume formula $V = \\pi r^2 h$ with $r = 7$ and $V = 392\\pi$:<br/>$$\\pi(7)^2 h = 392\\pi$$<br/>$$49h = 392$$<br/>$$h = 8$$"
+    },
+    {
+      "title": "Calculate surface areas and use the scale factor for the difference",
+      "content": "Surface area of cylinder A with $r = 7$ and $h = 8$:<br/>$$SA_A = 2\\pi(7)^2 + 2\\pi(7)(8) = 98\\pi + 112\\pi = 210\\pi$$<br/>Thus $k = 210$.<br/><br/>Since surface areas are 2-dimensional, they scale by $3^2 = 9$:<br/>$$SA_B = 9 \\times 210\\pi = 1890\\pi$$<br/>Thus $n = 1890$, and:<br/>$$n - k = 1890 - 210 = 1680$$"
+    }
+  ]
+}

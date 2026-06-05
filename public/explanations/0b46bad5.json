@@ -1,1 +1,23 @@
-{"questionId":"0b46bad5","correctAnswer":"C","section":"Math","steps":[{"title":"Rewrite in slope-intercept form","content":"Solve $ax+by=b$ for $y$:$$by=-ax+b\\Rightarrow y=-\\tfrac{a}{b}x+1$$So the y-intercept is $(0,1)$ and the slope is $-\\tfrac{a}{b}$."},{"title":"Use 0 < a < b to bound the slope","content":"Since $0<a<b$, we have $0<\\tfrac{a}{b}<1$, so $-1<-\\tfrac{a}{b}<0$. The line has a gentle negative slope (steeper than horizontal but flatter than $y=-x$)."},{"title":"Find the x-intercept","content":"Set $y=0$ in $ax+by=b$: $ax=b\\Rightarrow x=\\tfrac{b}{a}$. Since $b>a>0$, $\\tfrac{b}{a}>1$, so the x-intercept is to the right of $x=1$."},{"title":"Eliminate the answer choices","content":"The correct graph must (i) pass through $(0,1)$, (ii) have a negative slope between $-1$ and $0$, and (iii) cross the x-axis to the right of $x=1$.<ul><li>A) Wrong slope sign or wrong intercept &mdash; eliminated.</li><li>B) Slope too steep or wrong direction &mdash; eliminated.</li><li>C) y-intercept at $1$, gentle negative slope, x-intercept past $1$ &mdash; matches.</li><li>D) Wrong intercept or positive slope &mdash; eliminated.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "0b46bad5",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rewrite in slope-intercept form",
+      "content": "Solve $ax+by=b$ for $y$:$$by=-ax+b\\Rightarrow y=-\\tfrac{a}{b}x+1$$So the y-intercept is $(0,1)$ and the slope is $-\\tfrac{a}{b}$."
+    },
+    {
+      "title": "Use 0 < a < b to bound the slope",
+      "content": "Since $0<a<b$, we have $0<\\tfrac{a}{b}<1$, so $-1<-\\tfrac{a}{b}<0$. The line has a gentle negative slope (steeper than horizontal but flatter than $y=-x$)."
+    },
+    {
+      "title": "Find the x-intercept",
+      "content": "Set $y=0$ in $ax+by=b$: $ax=b\\Rightarrow x=\\tfrac{b}{a}$. Since $b>a>0$, $\\tfrac{b}{a}>1$, so the x-intercept is to the right of $x=1$."
+    },
+    {
+      "title": "Eliminate the answer choices",
+      "content": "The correct graph must (i) pass through $(0,1)$, (ii) have a negative slope between $-1$ and $0$, and (iii) cross the x-axis to the right of $x=1$.<ul><li>A) Wrong slope sign or wrong intercept &mdash; eliminated.</li><li>B) Slope too steep or wrong direction &mdash; eliminated.</li><li>C) y-intercept at $1$, gentle negative slope, x-intercept past $1$ &mdash; matches.</li><li>D) Wrong intercept or positive slope &mdash; eliminated.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

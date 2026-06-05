@@ -1,1 +1,28 @@
-{"questionId": "2f91d920-5520-4266-8a2d-a29c925c95c0_3", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Use the initial value to pin down the coefficient", "content": "An exponential function $h(x) = a \\cdot b^x$ gives $h(0) = a$. The table shows $h(0) = 1.25$, so $a = 1.25$. This already rules out the choices with coefficient $1.20$."}, {"title": "Solve for the base using another row of the table", "content": "Using $(2, 1.80)$: $1.25 \\cdot b^2 = 1.80$, so $b^2 = \\frac{1.80}{1.25} = 1.44$ and $b = 1.20$. The model is $h(x) = 1.25(1.20)^x$."}, {"title": "Check each choice", "content": "<ul><li>Choice A: $1.20(0.25)^x$ has the wrong initial value and the base $0.25 < 1$ would shrink the heights instead of growing them. Eliminated.</li><li>Choice B: $1.20(1.25)^x$ has the wrong initial value $1.20$ at $x = 0$. Eliminated.</li><li>Choice C: $1.25(0.20)^x$ starts at the right value but the base $0.20$ would make heights collapse toward zero. Eliminated.</li><li>Choice D: $1.25(1.20)^x$ gives $h(0) = 1.25$ and $h(2) = 1.25(1.44) = 1.80$, matching the table. Matches.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.", "desmosExpressions": ["y = 1.25 \\cdot 1.20^{x} \\{x \\leq 4\\}"]}]}
+{
+  "questionId": "2f91d920-5520-4266-8a2d-a29c925c95c0_3",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use Desmos to fit the exponential table",
+      "content": "This is a table-to-exponential-model question, so enter the table rows in Desmos and regress. Use $x_1=[0,2]$ and $y_1=[1.25,1.80]$, then type $y_1 \\sim a b^{x_1}$. Desmos gives $a=1.25$ and $b=1.20$, so the model is $h(x)=1.25(1.20)^x$.",
+      "desmosExpressions": [
+        "x_1=[0,2]",
+        "y_1=[1.25,1.80]",
+        "y_1~a b^{x_1}",
+        "y=1.25(1.20)^x\\{x\\le4\\}"
+      ]
+    },
+    {
+      "title": "Check the model quickly",
+      "content": "The coefficient is correct because $h(0)=1.25(1.20)^0=1.25$. The base is correct because $h(2)=1.25(1.20)^2=1.25(1.44)=1.80$, matching the table."
+    },
+    {
+      "title": "Check each choice",
+      "content": "<ul><li>Choice A: $1.20(0.25)^x$ has the wrong initial value and the base $0.25 < 1$ would shrink the heights instead of growing them. Eliminated.</li><li>Choice B: $1.20(1.25)^x$ has the wrong initial value $1.20$ at $x = 0$. Eliminated.</li><li>Choice C: $1.25(0.20)^x$ starts at the right value but the base $0.20$ would make heights collapse toward zero. Eliminated.</li><li>Choice D: $1.25(1.20)^x$ gives $h(0) = 1.25$ and $h(2) = 1.25(1.44) = 1.80$, matching the table. Matches.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "y=1.25(1.20)^x\\{x\\le4\\}"
+      ]
+    }
+  ]
+}

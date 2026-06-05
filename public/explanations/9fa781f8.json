@@ -1,1 +1,19 @@
-{"questionId": "9fa781f8", "correctAnswer": "90", "section": "Math", "steps": [{"title": "Set up the ratio proportion", "content": "If $x:y = 9:5$, then:<br/>$$\\frac{x}{9} = \\frac{y}{5}$$<br/>Substitute $x = 162$:<br/>$$\\frac{162}{9} = \\frac{y}{5}$$"}, {"title": "Solve for y", "content": "Evaluate the left side:<br/>$$18 = \\frac{y}{5}$$<br/>Multiply both sides by $5$:<br/>$$y = 18 \\cdot 5 = 90$$"}]}
+{
+  "questionId": "9fa781f8",
+  "correctAnswer": "90",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the ratio proportion",
+      "content": "If $x:y = 9:5$, then:<br/>$$\\frac{x}{9} = \\frac{y}{5}$$<br/>Substitute $x = 162$:<br/>$$\\frac{162}{9} = \\frac{y}{5}$$"
+    },
+    {
+      "title": "Solve for y",
+      "content": "Evaluate the left side:<br/>$$18 = \\frac{y}{5}$$<br/>Multiply both sides by $5$:<br/>$$y = 18 \\cdot 5 = 90$$"
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $90$. It's given that the ratio of $x$ to $y$ is equivalent to the ratio $9$ to $5$. It follows that $\\frac{x}{y}=\\frac{9}{5}$. Multiplying each side of this equation by $5y$ yields $\\frac{\\left(5y\\right)x}{y}=\\frac{9\\left(5y\\right)}{5}$, or $5x=9y$. Dividing each side of this equation by $9$ yields $\\frac{5x}{9}=y$. Substituting $162$ for $x$ in this equation yields $\\frac{5\\left(162\\right)}{9}=y$, which is equivalent to $\\frac{810}{9}=y$, or $90=y$. Therefore, if the value of $x$ is $162$, the value of $y$ is $90$."
+    }
+  ]
+}

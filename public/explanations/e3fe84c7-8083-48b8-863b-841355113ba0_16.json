@@ -6,11 +6,11 @@
     {
       "title": "Find BC using the Pythagorean theorem",
       "formula": "$$a^2 + b^2 = c^2$$",
-      "content": "Triangle ABC has a right angle at C, meaning BC \u22a5 AC. With AB = \u221a61 (hypotenuse) and AC = 6 (one leg), apply the Pythagorean theorem:<br/>$$BC^2 + 6^2 = (\\sqrt{61})^2$$<br/>$$BC^2 + 36 = 61$$<br/>$$BC^2 = 25$$<br/>$$BC = 5$$"
+      "content": "Triangle ABC has a right angle at C, meaning BC ⊥ AC. With AB = √61 (hypotenuse) and AC = 6 (one leg), apply the Pythagorean theorem:<br/>$$BC^2 + 6^2 = (\\sqrt{61})^2$$<br/>$$BC^2 + 36 = 61$$<br/>$$BC^2 = 25$$<br/>$$BC = 5$$"
     },
     {
       "title": "Establish similar triangles ABC and AED",
-      "content": "Both BC and ED are perpendicular to the line containing A, C, and E, so BC \u2225 ED. Triangle ABC has a right angle at C, and triangle AED has a right angle at E. Both triangles share angle \u2220A, so by AA similarity, triangles ABC and AED are similar."
+      "content": "Both BC and ED are perpendicular to the line containing A, C, and E, so BC ∥ ED. Triangle ABC has a right angle at C, and triangle AED has a right angle at E. Both triangles share angle ∠A, so by AA similarity, triangles ABC and AED are similar."
     },
     {
       "title": "Apply the similarity ratio to find the area",

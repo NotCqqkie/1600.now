@@ -1,1 +1,19 @@
-{"questionId":"d327ac24-d8f4-466e-a351-90aa6dbe87e3_7","correctAnswer":"D","section":"Math","steps":[{"title":"Use slope-intercept form","content":"A linear function with slope $m$ and y-intercept $b$ is $f(x)=mx+b$. Here $m=69$, and $f(0)=3$ gives $b=3$."},{"title":"Write the equation","content":"Substituting: $$f(x)=69x+3.$$"},{"title":"Eliminate the other choices","content":"<ul><li>$f(x)=3x$: slope $3$, not $69$ &mdash; wrong slope and wrong intercept.</li><li>$f(x)=3x+3$: slope $3$, not $69$ &mdash; wrong slope.</li><li>$f(x)=69x$: gives $f(0)=0$, not $3$ &mdash; wrong intercept.</li><li>$f(x)=69x+3$: slope $69$ and $f(0)=3$ &mdash; matches.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_7",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use slope-intercept form",
+      "content": "A linear function with slope $m$ and y-intercept $b$ is $f(x)=mx+b$. Here $m=69$, and $f(0)=3$ gives $b=3$."
+    },
+    {
+      "title": "Write the equation",
+      "content": "Substituting: $$f(x)=69x+3.$$"
+    },
+    {
+      "title": "Eliminate the other choices",
+      "content": "<ul><li>$f(x)=3x$: slope $3$, not $69$ &mdash; wrong slope and wrong intercept.</li><li>$f(x)=3x+3$: slope $3$, not $69$ &mdash; wrong slope.</li><li>$f(x)=69x$: gives $f(0)=0$, not $3$ &mdash; wrong intercept.</li><li>$f(x)=69x+3$: slope $69$ and $f(0)=3$ &mdash; matches.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

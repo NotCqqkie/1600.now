@@ -9,7 +9,12 @@
     },
     {
       "title": "Match numerators to find r and t",
-      "content": "Since the left side equals the right side:<br/>$$\\frac{5x+4}{(x-2)(x+5)} = \\frac{rx+t}{(x-2)(x+5)}$$<br/>The numerators must be equal for all valid $x$:<br/>$$5x + 4 = rx + t$$<br/>Comparing coefficients: $r = 5$ (coefficient of $x$) and $t = 4$ (constant term). Therefore: $rt = 5 \\times 4 = 20$. That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "Since the left side equals the right side:<br/>$$\\frac{5x+4}{(x-2)(x+5)}=\\frac{rx+t}{(x-2)(x+5)}$$<br/>The numerators must match for every valid $x$: $$5x+4=rx+t$$<br/>So $r=5$ and $t=4$, making $rt=20$. In Desmos, test values such as $3,4,5$ avoid the excluded values $2$ and $-5$ and solve $r$ and $t$ directly. That matches choice C, so <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "x_1=[3,4,5]",
+        "2/(x_1-2)+3/(x_1+5)~(r x_1+t)/((x_1-2)(x_1+5))",
+        "r t"
+      ]
     }
   ]
 }

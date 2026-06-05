@@ -1,1 +1,19 @@
-{"questionId":"c9355dec","correctAnswer":"A","section":"Math","steps":[{"title":"Find the boundary line","content":"From the graph, the solid boundary line passes through $(0,-6)$ and $(9,0)$. The slope is $\\frac{0-(-6)}{9-0}=\\frac{6}{9}=\\frac{2}{3}$, and the $y$-intercept is $-6$, giving boundary $y=\\frac{2}{3}x-6$."},{"title":"Determine the inequality direction","content":"The shaded region lies above the line and the line itself is solid (included), so the inequality is $y\\ge\\frac{2}{3}x-6$."},{"title":"Evaluate each choice","content":"<ul><li>A) $y\\ge\\frac{2}{3}x-6$ &mdash; correct slope and correct $y$-intercept of $-6$. Matches.</li><li>B) $y\\ge\\frac{2}{3}x+6$ &mdash; $y$-intercept of $+6$ does not match the graph. Eliminated.</li><li>C) $y\\ge\\frac{2}{3}x-9$ &mdash; $y$-intercept of $-9$ does not match the graph. Eliminated.</li><li>D) $y\\ge\\frac{2}{3}x+9$ &mdash; $y$-intercept of $+9$ does not match. Eliminated.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "c9355dec",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the boundary line",
+      "content": "From the graph, the solid boundary line passes through $(0,-6)$ and $(9,0)$. The slope is $\\frac{0-(-6)}{9-0}=\\frac{6}{9}=\\frac{2}{3}$, and the $y$-intercept is $-6$, giving boundary $y=\\frac{2}{3}x-6$."
+    },
+    {
+      "title": "Determine the inequality direction",
+      "content": "The shaded region lies above the line and the line itself is solid (included), so the inequality is $y\\ge\\frac{2}{3}x-6$."
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li>A) $y\\ge\\frac{2}{3}x-6$ &mdash; correct slope and correct $y$-intercept of $-6$. Matches.</li><li>B) $y\\ge\\frac{2}{3}x+6$ &mdash; $y$-intercept of $+6$ does not match the graph. Eliminated.</li><li>C) $y\\ge\\frac{2}{3}x-9$ &mdash; $y$-intercept of $-9$ does not match the graph. Eliminated.</li><li>D) $y\\ge\\frac{2}{3}x+9$ &mdash; $y$-intercept of $+9$ does not match. Eliminated.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

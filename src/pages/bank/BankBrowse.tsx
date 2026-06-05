@@ -150,7 +150,7 @@ const BankBrowse = () => {
         <div className="max-w-4xl mx-auto space-y-8">
           {/* Header */}
           <div className="flex items-center gap-4">
-            <Button variant="ghost" size="icon" onClick={() => navigate(basePath)}>
+            <Button variant="ghost" size="icon" className="h-10 w-10 shrink-0" onClick={() => navigate(basePath)}>
               <ArrowLeft className="h-5 w-5" />
             </Button>
             <div className="flex items-center gap-3">
@@ -206,12 +206,12 @@ const BankBrowse = () => {
                   value={domain}
                   className="relative overflow-hidden rounded-xl border bg-card px-0"
                 >
-                  <AccordionTrigger className="px-4 py-0 pr-40 hover:no-underline sm:pr-48">
-                    <div className="flex min-h-[5rem] w-full items-center gap-3">
-                      <span className="text-xl">{icon}</span>
-                      <div className="flex-1 text-left">
-                        <div className="flex items-center gap-2">
-                          <span className="font-semibold">{domain}</span>
+                  <AccordionTrigger className="px-4 py-0 pr-10 hover:no-underline sm:pr-48">
+                    <div className="flex min-h-[5rem] w-full min-w-0 items-center gap-3 py-3">
+                      <span className="shrink-0 text-xl">{icon}</span>
+                      <div className="min-w-0 flex-1 text-left">
+                        <div className="flex min-w-0 flex-wrap items-center gap-2">
+                          <span className="min-w-0 break-words font-semibold">{domain}</span>
                           <Badge variant="secondary" className="text-xs">
                             {domainCount} questions
                           </Badge>
@@ -219,11 +219,11 @@ const BankBrowse = () => {
                       </div>
                     </div>
                   </AccordionTrigger>
-                  <div className="absolute right-10 top-10 z-10 flex -translate-y-1/2 items-center gap-1 sm:right-12">
+                  <div className="flex items-center gap-2 border-t border-border/60 px-4 py-3 sm:absolute sm:right-12 sm:top-10 sm:z-10 sm:-translate-y-1/2 sm:border-t-0 sm:p-0">
                     <Button
                       variant="ghost"
                       size="icon"
-                      className="h-8 w-8"
+                      className="h-10 w-10 sm:h-8 sm:w-8"
                       onClick={(e) => {
                         e.stopPropagation();
                         handleShuffleDomain(domain);
@@ -239,38 +239,38 @@ const BankBrowse = () => {
                         e.stopPropagation();
                         handleDomainClick(domain);
                       }}
-                      className="text-xs"
+                      className="h-10 flex-1 text-xs sm:h-9 sm:flex-none"
                     >
                       Practice All
                       <ChevronRight className="ml-1 h-3 w-3" />
                     </Button>
                   </div>
                   <AccordionContent className="pb-4">
-                    <div className="grid gap-2 pl-8">
+                    <div className="grid gap-2 px-3 sm:pl-8 sm:pr-4">
                       {skills.map((skill) => {
                         const count = skillCounts[skill] || 0;
                         return (
                           <Card
                             key={skill}
-                            className="p-3 flex items-center justify-between hover:bg-muted/50 cursor-pointer transition-colors"
+                            className="flex min-w-0 cursor-pointer items-center justify-between gap-3 p-3 transition-colors hover:bg-muted/50"
                             onClick={() => handleSkillClick(skill)}
                           >
-                            <div className="flex items-center gap-2">
-                              <Target className="h-4 w-4 text-muted-foreground" />
-                              <span className="text-sm">{skill}</span>
+                            <div className="flex min-w-0 items-center gap-2">
+                              <Target className="h-4 w-4 shrink-0 text-muted-foreground" />
+                              <span className="min-w-0 break-words text-sm">{skill}</span>
                             </div>
-                            <div className="flex items-center gap-2">
+                            <div className="flex shrink-0 items-center gap-2">
                               <Button
                                 variant="ghost"
                                 size="icon"
-                                className="h-6 w-6"
+                                className="h-9 w-9 sm:h-7 sm:w-7"
                                 onClick={(e) => {
                                   e.stopPropagation();
                                   handleShuffleSkill(skill);
                                 }}
                                 title="Shuffle Skill"
                               >
-                                <Shuffle className="h-3 w-3" />
+                                <Shuffle className="h-3.5 w-3.5" />
                               </Button>
                               <Badge variant="outline" className="text-xs">
                                 {count}
@@ -289,26 +289,29 @@ const BankBrowse = () => {
 
           {/* Quick Actions */}
           <Card className="p-4 bg-muted/30">
-            <div className="flex items-center gap-3">
+            <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
               <Layers className="h-5 w-5 text-muted-foreground" />
-              <div className="flex-1">
+              <div className="min-w-0 flex-1">
                 <p className="text-sm font-medium">Practice All {isMath ? "Math" : "Reading"}</p>
                 <p className="text-xs text-muted-foreground">
                   Jump into all {totalQuestions} questions in order
                 </p>
               </div>
-              <Button
-                variant="outline"
-                size="icon"
-                onClick={handleShuffleAll}
-                title="Shuffle All"
-              >
-                  <Shuffle className="h-4 w-4" />
-              </Button>
-              <Button onClick={() => navigate(`${basePath}/${validSubject}/1`)}>
-                Start
-                <ChevronRight className="h-4 w-4 ml-1" />
-              </Button>
+              <div className="flex w-full gap-2 sm:w-auto">
+                <Button
+                  variant="outline"
+                  size="icon"
+                  onClick={handleShuffleAll}
+                  title="Shuffle All"
+                  className="h-11 w-11 shrink-0"
+                >
+                    <Shuffle className="h-4 w-4" />
+                </Button>
+                <Button className="flex-1 sm:flex-none" onClick={() => navigate(`${basePath}/${validSubject}/1`)}>
+                  Start
+                  <ChevronRight className="h-4 w-4 ml-1" />
+                </Button>
+              </div>
             </div>
           </Card>
         </div>

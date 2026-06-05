@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Navigate, useLocation, useNavigate } from "react-router-dom";
 import { ArrowLeft, Paintbrush, RotateCcw, Type } from "lucide-react";
 
 import { useThemeMode } from "@/hooks/useThemeMode";
@@ -7,6 +7,7 @@ import { usePersonalization } from "@/hooks/usePersonalization";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
+import { useAuth } from "@/contexts/AuthContext";
 import {
   DEFAULT_PERSONALIZATION,
   FONT_OPTIONS,
@@ -19,6 +20,8 @@ import {
 
 const Personalization = () => {
   const navigate = useNavigate();
+  const location = useLocation();
+  const { user } = useAuth();
   const isDarkMode = useThemeMode();
   const prefs = usePersonalization();
   const headingColor = isDarkMode ? "#f8fafc" : "#0f172a";
@@ -36,6 +39,10 @@ const Personalization = () => {
     applyPersonalizationPreferences({ ...getPersonalizationPreferences(), textSize });
   const resetToDefaults = () =>
     applyPersonalizationPreferences(DEFAULT_PERSONALIZATION);
+
+  if (!user) {
+    return <Navigate to="/login" replace state={{ from: location }} />;
+  }
 
   return (
     <div

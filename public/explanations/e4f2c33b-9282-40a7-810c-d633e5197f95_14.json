@@ -4,12 +4,21 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply the no-solution condition",
-      "content": "Rewrite both as $16x-26y=8$ and $-8x+ty=\\tfrac{1}{5}$. For no solution, the coefficients of $x$ and $y$ must be proportional: $$\\frac{-8}{16}=\\frac{t}{-26}.$$"
+      "title": "Match the coefficients, not the constants",
+      "content": "Rewrite the system as $16x-26y=8$ and $-8x+ty=\\tfrac{1}{5}$. For no solution, the $x$- and $y$-coefficients must be proportional so the lines are parallel. The constants must not have that same ratio."
     },
     {
-      "title": "Solve for the parameter",
-      "content": "Cross-multiplying gives $16t=208$, so $t=13$. The constant terms differ, confirming no solution. The answer is <strong>13</strong>.",
+      "title": "Use Desmos to find t",
+      "content": "In Desmos, use coefficient lists to find the scale factor $s$ and the value of $t$ at the same time. The regression returns $s=-\\frac{1}{2}$ and $t=13$.",
+      "desmosExpressions": [
+        "x_1=[1,0]",
+        "y_1=[0,1]",
+        "-8x_1+t y_1~s(16x_1-26y_1)"
+      ]
+    },
+    {
+      "title": "Confirm no solution",
+      "content": "With $t=13$, the second equation's coefficients are $-\\frac{1}{2}$ times the first equation's coefficients: $-8=-\\frac{1}{2}(16)$ and $13=-\\frac{1}{2}(-26)$. But the constants do not match that factor, since $\\tfrac{1}{5}\\ne -\\frac{1}{2}(8)$. The lines are parallel and distinct, so the system has no solution. The answer is <strong>13</strong>.",
       "desmosExpressions": [
         "y = \\frac{16x - 8}{26}",
         "y = \\frac{8x + 0.2}{13}"

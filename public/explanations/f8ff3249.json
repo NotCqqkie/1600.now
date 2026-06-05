@@ -1,1 +1,25 @@
-{"section":"Math","correctAnswer":"C","steps":[{"title":"Understand the inequality","content":"We need a table where every (x, y) pair satisfies y &lt; 6x + 2. For each x, compute the upper bound 6x + 2 and check that y is strictly less than that value."},{"title":"Compute the bounds","content":"For x = 3: 6(3) + 2 = 20, so y &lt; 20.<br/>For x = 5: 6(5) + 2 = 32, so y &lt; 32.<br/>For x = 7: 6(7) + 2 = 44, so y &lt; 44."},{"title":"Test each table","content":"<ul><li>Choice A: at x = 3, y = 20, but 20 &lt; 20 is false. Eliminated.</li><li>Choice B: at x = 5, y = 36, but 36 &lt; 32 is false. Eliminated.</li><li>Choice C: 16 &lt; 20, 28 &lt; 32, and 40 &lt; 44 all hold. Works.</li><li>Choice D: at x = 3, y = 24, but 24 &lt; 20 is false. Eliminated.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "f8ff3249",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compute the upper bounds",
+      "content": "The inequality is $y<6x+2$. For the x-values in the tables:<br/>$$x=3 \\Rightarrow 6x+2=20$$<br/>$$x=5 \\Rightarrow 6x+2=32$$<br/>$$x=7 \\Rightarrow 6x+2=44$$"
+    },
+    {
+      "title": "Check the table that looks promising",
+      "content": "Choice C has y-values $16$, $28$, and $40$. Each is strictly below the matching upper bound:<br/>$$16<20,\\quad 28<32,\\quad 40<44$$",
+      "desmosExpressions": [
+        "x_1=[3,5,7]",
+        "c_1=[16,28,40]",
+        "6x_1+2",
+        "c_1<6x_1+2"
+      ]
+    },
+    {
+      "title": "Eliminate the failed choices",
+      "content": "Choice A fails because it includes $y=20$ when $x=3$, and $20<20$ is false. Choice B fails because $36<32$ is false when $x=5$. Choice D fails because $24<20$ is false when $x=3$. So choice C is correct."
+    }
+  ]
+}

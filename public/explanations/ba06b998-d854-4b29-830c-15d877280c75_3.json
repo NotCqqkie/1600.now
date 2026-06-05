@@ -1,1 +1,15 @@
-{"questionId":"ba06b998-d854-4b29-830c-15d877280c75_3","correctAnswer":"A","section":"Math","steps":[{"title":"Identify the dimensions","content":"The width is $w=5$ cm. The length is $30$ cm longer than the width, so $\\ell = 5 + 30 = 35$ cm."},{"title":"Compute the area","content":"Area of a rectangle is $A = \\ell \\cdot w$, so $A = 35 \\cdot 5 = 175$ square cm. Choice <strong>A</strong> matches."}]}
+{
+  "questionId": "ba06b998-d854-4b29-830c-15d877280c75_3",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the dimensions",
+      "content": "The width is $w=5$ cm. The length is $30$ cm longer than the width, so $\\ell = 5 + 30 = 35$ cm."
+    },
+    {
+      "title": "Compute the area",
+      "content": "Area of a rectangle is $A = \\ell \\cdot w$, so $A = 35 \\cdot 5 = 175$ square cm. Choice <strong>A</strong> matches."
+    }
+  ]
+}

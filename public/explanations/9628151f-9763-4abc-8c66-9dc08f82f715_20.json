@@ -1,1 +1,16 @@
-{"questionId": "9628151f-9763-4abc-8c66-9dc08f82f715_20", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Identify the linear scale factor", "content": "Each dimension increases by 40%, so it's multiplied by 1 + 0.40 = 1.4."}, {"title": "Apply area scaling and compute the new area", "content": "When all linear dimensions scale by factor k, area scales by k². With k = 1.4:<br/>$$\\text{Area scale factor} = (1.4)^2 = 1.96$$<br/>$$\\text{New area} = 3,500 \\times 1.96 = 6,860 \\text{ square inches}$$<br/>That matches choice A — <strong>A</strong> is correct.", "formula": "$$\\text{Area}_{\\text{new}} = \\text{Area}_{\\text{original}} \\times k^2$$"}]}
+{
+  "questionId": "9628151f-9763-4abc-8c66-9dc08f82f715_20",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the linear scale factor",
+      "content": "Each dimension increases by 40%, so it's multiplied by 1 + 0.40 = 1.4."
+    },
+    {
+      "title": "Apply area scaling and compute the new area",
+      "content": "When all linear dimensions scale by factor k, area scales by k². With k = 1.4:<br/>$$\\text{Area scale factor} = (1.4)^2 = 1.96$$<br/>$$\\text{New area} = 3,500 \\times 1.96 = 6,860 \\text{ square inches}$$<br/>That matches choice A — <strong>A</strong> is correct.",
+      "formula": "$$\\text{Area}_{\\text{new}} = \\text{Area}_{\\text{original}} \\times k^2$$"
+    }
+  ]
+}

@@ -1,1 +1,19 @@
-{"questionId": "e9349667", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Substitute and simplify to a quadratic in y", "content": "From the line $x + y = -1$, so $x = -y - 1$. Substitute into $y = x^2 + 2x + 1$:<br/>$y = (-y-1)^2 + 2(-y-1) + 1 = y^2 + 2y + 1 - 2y - 2 + 1 = y^2$.<br/>Rearrange: $y^2 - y = 0$."}, {"title": "Vieta shortcut: sum of roots = -b/a", "content": "$y^2 - y = 0$ has $a = 1$, $b = -1$. Sum of $y$-values $= -\\frac{b}{a} = -\\frac{-1}{1} = 1$. That matches choice D — <strong>D</strong> is correct.", "desmosExpressions": ["y = x^2 + 2x + 1", "x + y + 1 = 0"]}]}
+{
+  "questionId": "e9349667",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute and simplify to a quadratic in y",
+      "content": "From the line $x + y = -1$, so $x = -y - 1$. Substitute into $y = x^2 + 2x + 1$:<br/>$y = (-y-1)^2 + 2(-y-1) + 1 = y^2 + 2y + 1 - 2y - 2 + 1 = y^2$.<br/>Rearrange: $y^2 - y = 0$."
+    },
+    {
+      "title": "Vieta shortcut: sum of roots = -b/a",
+      "content": "$y^2 - y = 0$ has $a = 1$, $b = -1$. Sum of $y$-values $= -\\frac{b}{a} = -\\frac{-1}{1} = 1$. That matches choice D — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "y = x^2 + 2x + 1",
+        "x + y + 1 = 0"
+      ]
+    }
+  ]
+}

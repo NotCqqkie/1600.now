@@ -1,1 +1,30 @@
-{"qid": "35bd5fb1-7659-4393-b736-241352b7187e_15", "steps": [{"explanation": "&quot;170% more&quot; means the new amount equals the old amount plus 170% of the old amount, i.e., $1 + 1.70 = 2.70$ times the previous count. The annual growth factor is $2.7$, so the model takes the form $n = n_0 \\cdot (2.7)^t$ where $t$ is years after the end of 2015."}, {"explanation": "At the end of 2016, $t = 1$ and $n = 216$. Substituting: $216 = n_0 \\cdot (2.7)^1$, so $n_0 = \\dfrac{216}{2.7} = 80$. The equation is $n = 80(2.7)^t$."}, {"explanation": "Verify by checking $t = 1$: $80 \\times 2.7 = 216$. Confirmed.", "choices": ["<li>Choice A: $n = 80(1.7)^t$ — uses a growth factor of $1.7$, which would represent a 70% increase, not 170% more. Eliminated.</li>", "<li>Choice B: $n = 80(2.7)^t$ — growth factor $2.7$ correctly reflects 170% more, and $n_0 = 80$ is confirmed by back-solving with $n = 216$ at $t = 1$. That matches choice B — <strong>B</strong> is correct.</li>", "<li>Choice C: $n = 216(1.7)^t$ — wrong growth factor and uses the year-2016 count as the starting value, shifting the timeline. Eliminated.</li>", "<li>Choice D: $n = 216(2.7)^t$ — correct factor but wrong initial value; this would give $n_0 = 216$ at $t = 0$ (end of 2015), contradicting the problem. Eliminated.</li>"]}], "correctAnswer": "B"}
+{
+  "qid": "35bd5fb1-7659-4393-b736-241352b7187e_15",
+  "steps": [
+    {
+      "title": "Use a two-point exponential fit",
+      "content": "\"170% more\" means the growth factor is $1+1.70=2.70$. Since the end-of-2016 count is $216$ and $t=1$ then, the implied $t=0$ value is $216/2.7=80$. Enter $x_1=[0,1]$, $y_1=[216/2.7,216]$, and $y_1\\sim a b^{x_1}$.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[216/2.7,216]",
+        "y_1~a b^{x_1}",
+        "y=a b^x"
+      ]
+    },
+    {
+      "title": "Read the model",
+      "content": "Desmos gives $a=80$ and $b=2.7$, so the equation is $n=80(2.7)^t$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Verify by checking $t=1$: $80\\times2.7=216$. Choice B has the correct starting value and growth factor, so <strong>B</strong> is correct.",
+      "choices": [
+        "<li>Choice A: $n = 80(1.7)^t$ — uses a growth factor of $1.7$, which would represent a 70% increase, not 170% more. Eliminated.</li>",
+        "<li>Choice B: $n = 80(2.7)^t$ — growth factor $2.7$ correctly reflects 170% more, and $n_0 = 80$ is confirmed by back-solving with $n = 216$ at $t = 1$. That matches choice B — <strong>B</strong> is correct.</li>",
+        "<li>Choice C: $n = 216(1.7)^t$ — wrong growth factor and uses the year-2016 count as the starting value, shifting the timeline. Eliminated.</li>",
+        "<li>Choice D: $n = 216(2.7)^t$ — correct factor but wrong initial value; this would give $n_0 = 216$ at $t = 0$ (end of 2015), contradicting the problem. Eliminated.</li>"
+      ]
+    }
+  ],
+  "correctAnswer": "B"
+}

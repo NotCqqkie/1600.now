@@ -1,1 +1,27 @@
-{"questionId": "f75bd744", "correctAnswer": "8", "section": "Math", "steps": [{"title": "Apply the no-solution condition", "content": "Rewrite as $4x-16y=2$ and $-2x+ty=\\tfrac{1}{2}$. For no solution, coefficients must be proportional: $$\\frac{-2}{4}=\\frac{t}{-16}.$$"}, {"title": "Solve for the parameter", "content": "This gives $-\\tfrac{1}{2}=\\tfrac{t}{-16}$, so $t=8$. The constants differ, confirming no solution. The answer is <strong>8</strong>.", "desmosExpressions": ["y = (4x - 2)/16", "y = (1/2 + 2x)/8"]}]}
+{
+  "questionId": "f75bd744",
+  "correctAnswer": "8",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the no-solution condition",
+      "content": "Rewrite as $4x-16y=2$ and $-2x+ty=\\tfrac{1}{2}$. For no solution, coefficients must be proportional: $$\\frac{-2}{4}=\\frac{t}{-16}.$$"
+    },
+    {
+      "title": "Solve for the parameter",
+      "content": "This gives $-\\tfrac{1}{2}=\\tfrac{t}{-16}$, so $t=8$. The constants differ, confirming no solution. The answer is <strong>8</strong>.",
+      "desmosExpressions": [
+        "y = (4x - 2)/16",
+        "y = (1/2 + 2x)/8"
+      ]
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $8$. The given system of equations can be solved using the elimination method. Multiplying both sides of the second equation in the given system by $-2$ yields $-2ty=-1-4x$, or $-1-4x=-2ty$. Adding this equation to the first equation in the given system, $4x-6y=10y+2$, yields $\\left(4x-6y\\right)+\\left(-1-4x\\right)=\\left(10y+2\\right)+\\left(-2ty\\right)$, or $-1-6y=10y-2ty+2$. Subtracting $10y$ from both sides of this equation yields $\\left(-1-6y\\right)-\\left(10y\\right)=\\left(10y-2ty+2\\right)-\\left(10y\\right)$, or $-1-16y=-2ty+2$. If the given system has no solution, then the equation $-1-16y=-2ty+2$ has no solution. If this equation has no solution, the coefficients of $y$ on each side of the equation, $-16$ and $-2t$, must be equal, which yields the equation $-16=-2t$. Dividing both sides of this equation by $-2$ yields $8=t$. Thus, if the system has no solution, the value of $t$ is $8$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Alternate approach: A system of two linear equations in two variables, $x$ and $y$, has no solution if the lines represented by the equations in the <em>xy</em>-plane are parallel and distinct. Lines represented by equations in the form $Ax+By=C$, where $A$, $B$, and $C$ are constant terms, are parallel if the ratio of the <em>x</em>-coefficients is equal to the ratio of the <em>y</em>-coefficients, and distinct if the ratio of the <em>x</em>-coefficients are not equal to the ratio of the constant terms. Subtracting $10y$ from both sides of the first equation in the given system yields $\\left(4x-6y\\right)-\\left(10y\\right)=\\left(10y+2\\right)-\\left(10y\\right)$, or $4x-16y=2$. Subtracting $2x$ from both sides of the second equation in the given system yields $\\left(ty\\right)-\\left(2x\\right)=\\left(\\frac{1}{2}+2x\\right)-\\left(2x\\right)$, or $-2x+ty=\\frac{1}{2}$. The ratio of the <em>x</em>-coefficients for these equations is $-\\frac{2}{4}$, or $-\\frac{1}{2}$. The ratio of the <em>y</em>-coefficients for these equations is $-\\frac{t}{16}$. The ratio of the constant terms for these equations is $\\frac{\\frac{1}{2}}{2}$, or $\\frac{1}{4}$. Since the ratio of the <em>x</em>-coefficients, $-\\frac{1}{2}$, is not equal to the ratio of the constants, $\\frac{1}{4}$, the lines represented by the equations are distinct. Setting the ratio of the <em>x</em>-coefficients equal to the ratio of the <em>y</em>-coefficients yields $-\\frac{1}{2}=-\\frac{t}{16}$. Multiplying both sides of this equation by $-16$ yields $\\left(-\\frac{1}{2}\\right)\\left(-16\\right)=\\left(-\\frac{t}{16}\\right)\\left(-16\\right)$, or $t=8$. Therefore, when $t=8$, the lines represented by these equations are parallel. Thus, if the system has no solution, the value of $t$ is $8$."
+    }
+  ]
+}

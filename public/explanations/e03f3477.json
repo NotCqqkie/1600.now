@@ -1,1 +1,20 @@
-{"questionId": "e03f3477", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Understand what margin of error means", "content": "A margin of error defines the interval around a sample statistic where the true population parameter is expected to fall. We construct the confidence interval by adding and subtracting the margin from the point estimate.", "formula": "$$\\text{Confidence interval} = \\text{Point estimate} \\pm \\text{Margin of error}$$"}, {"title": "Calculate the confidence interval", "content": "With point estimate 32% and margin of error 3.41%, the confidence interval is:<br/><br/>Lower bound: $32\\% - 3.41\\% = 28.59\\%$<br/><br/>Upper bound: $32\\% + 3.41\\% = 35.41\\%$"}, {"title": "Match to the correct choice", "content": "Choice A claims more than 35.41%, exceeding our upper bound.<br/><br/>Choices C and D incorrectly reject all conclusions, misunderstanding that a random sample provides valid population estimates.<br/><br/>Choice B states the interval between 28.59% and 35.41%, which matches our confidence interval exactly.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "e03f3477",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Understand what margin of error means",
+      "content": "A margin of error defines the interval around a sample statistic where the true population parameter is expected to fall. We construct the confidence interval by adding and subtracting the margin from the point estimate.",
+      "formula": "$$\\text{Confidence interval} = \\text{Point estimate} \\pm \\text{Margin of error}$$"
+    },
+    {
+      "title": "Calculate the confidence interval",
+      "content": "With point estimate 32% and margin of error 3.41%, the confidence interval is:<br/><br/>Lower bound: $32\\% - 3.41\\% = 28.59\\%$<br/><br/>Upper bound: $32\\% + 3.41\\% = 35.41\\%$"
+    },
+    {
+      "title": "Match to the correct choice",
+      "content": "Choice A claims more than 35.41%, exceeding our upper bound.<br/><br/>Choices C and D incorrectly reject all conclusions, misunderstanding that a random sample provides valid population estimates.<br/><br/>Choice B states the interval between 28.59% and 35.41%, which matches our confidence interval exactly.<br/><br/>That matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

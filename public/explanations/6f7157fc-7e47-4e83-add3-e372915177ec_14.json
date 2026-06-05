@@ -11,7 +11,10 @@
     {
       "title": "Solve for the radius",
       "content": "Take the square root of both sides to isolate $r$: $$r = \\sqrt{169} = 13$$",
-      "desmosExpressions": ["(x+4)^2 + (y+8)^2 = 169", "(-4, -8)"]
+      "desmosExpressions": [
+        "(x+4)^2 + (y+8)^2 = 169",
+        "(-4, -8)"
+      ]
     }
   ]
 }

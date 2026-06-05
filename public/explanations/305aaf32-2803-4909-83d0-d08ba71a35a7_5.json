@@ -1,1 +1,29 @@
-{"questionId":"305aaf32-2803-4909-83d0-d08ba71a35a7_5","correctAnswer":"C","section":"Math","steps":[{"explanation":"Read the vertex from the graph. The parabola opens upward and its lowest point (vertex) sits at \\((0, 3)\\)."},{"explanation":"Use vertex form \\(f(x) = a(x - h)^2 + k\\) with vertex \\((h, k) = (0, 3)\\): \\(f(x) = a(x)^2 + 3 = ax^2 + 3\\)."},{"explanation":"Confirm the stretch factor. The graph passes through \\((1, 8)\\): \\(8 = a(1)^2 + 3 \\Rightarrow a = 5\\). So \\(f(x) = 5x^2 + 3\\)."},{"explanation":"Evaluate all choices:<ul><li>Choice A: \\(5(x+1)^2 + 2\\) has vertex \\((-1, 2)\\). Does not match vertex \\((0,3)\\). Incorrect.</li><li>Choice B: \\(5(x+1)^2\\) has vertex \\((-1, 0)\\). Does not match vertex \\((0,3)\\). Incorrect.</li><li>Choice C: \\(5x^2 + 3\\) has vertex \\((0, 3)\\) and \\(f(1) = 5 + 3 = 8\\), consistent with the graph. That matches choice C &mdash; <strong>C</strong> is correct.</li><li>Choice D: \\(5x^2\\) has vertex \\((0, 0)\\). Does not match vertex \\((0,3)\\). Incorrect.</li></ul>"}]}
+{
+  "questionId": "305aaf32-2803-4909-83d0-d08ba71a35a7_5",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Graph the answer choices",
+      "content": "This is a graph-matching question, so the fastest check is to graph all four choices in Desmos and compare the vertex. The displayed parabola opens upward and has vertex $(0,3)$, so only a choice with that vertex can work.",
+      "desmosExpressions": [
+        "y=5(x+1)^2+2",
+        "y=5(x+1)^2",
+        "y=5x^2+3",
+        "y=5x^2"
+      ]
+    },
+    {
+      "title": "Use the vertex",
+      "content": "In vertex form, $f(x)=a(x-h)^2+k$ has vertex $(h,k)$. Choices A and B have vertex $(-1,2)$ and $(-1,0)$, while choice D has vertex $(0,0)$. Choice C, $f(x)=5x^2+3$, has vertex $(0,3)$."
+    },
+    {
+      "title": "Confirm with one more point",
+      "content": "The graph also passes through approximately $(1,8)$. Choice C gives $f(1)=5(1)^2+3=8$, so it matches both the vertex and another clear point."
+    },
+    {
+      "title": "Choose the match",
+      "content": "Choice C is the only graph with vertex $(0,3)$ and the correct height at $x=1$. Therefore choice <strong>C</strong> is correct."
+    }
+  ]
+}

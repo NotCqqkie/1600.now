@@ -1,1 +1,22 @@
-{"questionId": "39729166-8e92-42cc-8ed6-76acdb673a3c_17", "correctAnswer": "49", "section": "Math", "steps": [{"title": "Slope of r, then negative reciprocal for perpendicular s", "content": "Line $r$ through $(2, 16)$ and $(7, 17)$: slope $= \\frac{17-16}{7-2} = \\frac{1}{5}$. Perpendicular slope $= -\\frac{1}{(1/5)} = -5$."},{"title": "Equation of line s through (1, 2) with slope −5", "content": "$y - 2 = -5(x - 1)$ → $5x + y = 7$."},{"title": "Scale to match ax + 7y = c", "content": "Multiply $5x + y = 7$ by 7: $35x + 7y = 49$, so $c = 49$. That matches choice 49 — <strong>49</strong> is correct.", "desmosExpressions": ["5x+y=7"]}]}
+{
+  "questionId": "39729166-8e92-42cc-8ed6-76acdb673a3c_17",
+  "correctAnswer": "49",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Slope of r, then negative reciprocal for perpendicular s",
+      "content": "Line $r$ through $(2, 16)$ and $(7, 17)$: slope $= \\frac{17-16}{7-2} = \\frac{1}{5}$. Perpendicular slope $= -\\frac{1}{(1/5)} = -5$."
+    },
+    {
+      "title": "Equation of line s through (1, 2) with slope −5",
+      "content": "$y - 2 = -5(x - 1)$ → $5x + y = 7$."
+    },
+    {
+      "title": "Scale to match ax + 7y = c",
+      "content": "Multiply $5x + y = 7$ by 7: $35x + 7y = 49$, so $c = 49$. That matches choice 49 — <strong>49</strong> is correct.",
+      "desmosExpressions": [
+        "5x+y=7"
+      ]
+    }
+  ]
+}

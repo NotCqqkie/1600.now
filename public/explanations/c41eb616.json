@@ -1,1 +1,19 @@
-{"questionId":"c41eb616","correctAnswer":"A","section":"Math","steps":[{"title":"Set up the angle relationships","content":"Two intersecting lines create four angles. Vertical angles are equal, and adjacent angles are supplementary (sum to 180&deg;). If one angle is \\((9x - 140)\\)&deg;, then its vertical angle is also \\((9x - 140)\\)&deg;, and each of the other two angles is \\(180 - (9x - 140) = (320 - 9x)\\)&deg;."},{"title":"List all achievable sums of two angles","content":"The only distinct sums possible from any two of the four angles are:<br/><br/>(1) Two equal acute angles: \\((9x-140)+(9x-140) = (18x-280)\\)&deg;<br/>(2) Two equal obtuse angles: \\((320-9x)+(320-9x) = (-18x+640)\\)&deg;<br/>(3) One of each (a supplementary pair): \\((9x-140)+(320-9x) = 180\\)&deg;"},{"title":"Identify which choice is NOT achievable","content":"<ul><li><strong>A &mdash; \\((-18x+280)\\)&deg;</strong>: Does not equal any of the three achievable sums. Not achievable. &#10003;</li><li><strong>B &mdash; \\((-18x+640)\\)&deg;</strong>: Equals the sum of the two obtuse angles. Achievable; eliminated. &#10007;</li><li><strong>C &mdash; \\((18x-280)\\)&deg;</strong>: Equals the sum of the two acute angles. Achievable; eliminated. &#10007;</li><li><strong>D &mdash; \\(180\\)&deg;</strong>: Equals the sum of one acute and one obtuse angle. Achievable; eliminated. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "c41eb616",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the angle relationships",
+      "content": "Two intersecting lines create four angles. Vertical angles are equal, and adjacent angles are supplementary (sum to 180&deg;). If one angle is $(9x - 140)$&deg;, then its vertical angle is also $(9x - 140)$&deg;, and each of the other two angles is $180 - (9x - 140) = (320 - 9x)$&deg;."
+    },
+    {
+      "title": "List all achievable sums of two angles",
+      "content": "The only distinct sums possible from any two of the four angles are:<br/><br/>(1) Two equal acute angles: $(9x-140)+(9x-140) = (18x-280)$&deg;<br/>(2) Two equal obtuse angles: $(320-9x)+(320-9x) = (-18x+640)$&deg;<br/>(3) One of each (a supplementary pair): $(9x-140)+(320-9x) = 180$&deg;"
+    },
+    {
+      "title": "Identify which choice is NOT achievable",
+      "content": "<ul><li><strong>A &mdash; $(-18x+280)$&deg;</strong>: Does not equal any of the three achievable sums. Not achievable. &#10003;</li><li><strong>B &mdash; $(-18x+640)$&deg;</strong>: Equals the sum of the two obtuse angles. Achievable; eliminated. &#10007;</li><li><strong>C &mdash; $(18x-280)$&deg;</strong>: Equals the sum of the two acute angles. Achievable; eliminated. &#10007;</li><li><strong>D &mdash; $180$&deg;</strong>: Equals the sum of one acute and one obtuse angle. Achievable; eliminated. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

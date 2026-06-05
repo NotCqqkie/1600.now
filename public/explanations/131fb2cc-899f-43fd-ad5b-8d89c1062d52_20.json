@@ -1,1 +1,19 @@
-{"questionId":"131fb2cc-899f-43fd-ad5b-8d89c1062d52_20","correctAnswer":"112","section":"Math","steps":[{"title":"Set up","content":"Triangle ABC ~ triangle XYZ with A&#8596;X, B&#8596;Y, C&#8596;Z, so &ang;Z = &ang;C. The interior angles of triangle ABC sum to 180&deg;: $$∠A + ∠B + ∠C = 180°$$"},{"title":"Solve","content":"Substitute the given angle measures: $$44° + 24° + ∠C = 180°$$ $$∠C = 180° - 68° = 112°$$ Since &ang;Z = &ang;C, the measure of angle Z is 112&deg;."},{"title":"Answer","content":"<strong>112</strong> is correct."}]}
+{
+  "questionId": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_20",
+  "correctAnswer": "112",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "Triangle ABC ~ triangle XYZ with A&#8596;X, B&#8596;Y, C&#8596;Z, so &ang;Z = &ang;C. The interior angles of triangle ABC sum to 180&deg;: $$∠A + ∠B + ∠C = 180°$$"
+    },
+    {
+      "title": "Solve",
+      "content": "Substitute the given angle measures: $$44° + 24° + ∠C = 180°$$ $$∠C = 180° - 68° = 112°$$ Since &ang;Z = &ang;C, the measure of angle Z is 112&deg;."
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>112</strong> is correct."
+    }
+  ]
+}

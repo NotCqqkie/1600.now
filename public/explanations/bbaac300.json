@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Identify corresponding angles in the similar triangles",
-      "content": "Triangle ABC ~ Triangle DEF with angle A corresponding to angle D. Since angles C and F are both right angles (90\u00b0), angles B and E are the two acute angles in their respective triangles."
+      "content": "Triangle ABC ~ Triangle DEF with angle A corresponding to angle D. Since angles C and F are both right angles (90°), angles B and E are the two acute angles in their respective triangles."
     },
     {
       "title": "Use complementary angles in right triangles",
-      "content": "In a right triangle, the two acute angles are complementary:<br/>$$A + B = 90\u00b0$$<br/>$$D + E = 90\u00b0$$<br/>Since $A = D$ (corresponding angles), we have $E = 90\u00b0 - D = 90\u00b0 - A = B$."
+      "content": "In a right triangle, the two acute angles are complementary:<br/>$$A + B = 90°$$<br/>$$D + E = 90°$$<br/>Since $A = D$ (corresponding angles), we have $E = 90° - D = 90° - A = B$."
     },
     {
       "title": "Find cos E",
-      "content": "Since $E = B$ and $\\cos B = \\frac{1}{22}$, we have $\\cos E = \\frac{1}{22}$. That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "Since $E = B$ and $\\cos B = \\frac{1}{22}$, we have $\\cos E = \\frac{1}{22}$. That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId": "550b352c", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Solve the linear equation", "content": "Starting with $10 = 2x + 4$, subtract 4 from both sides:<br/>$$10 - 4 = 2x + 4 - 4$$<br/>$$6 = 2x$$<br/>Divide both sides by 2:<br/>$$\\frac{6}{2} = \\frac{2x}{2}$$<br/>$$x = 3$$"}, {"title": "Count the solutions", "content": "We found exactly one value of $x$ that satisfies the equation. Since a linear equation in one variable with a non-zero coefficient on the variable produces exactly one solution, there is exactly one solution to this equation. That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "550b352c",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve the linear equation",
+      "content": "Starting with $10 = 2x + 4$, subtract 4 from both sides:<br/>$$10 - 4 = 2x + 4 - 4$$<br/>$$6 = 2x$$<br/>Divide both sides by 2:<br/>$$\\frac{6}{2} = \\frac{2x}{2}$$<br/>$$x = 3$$"
+    },
+    {
+      "title": "Count the solutions",
+      "content": "We found exactly one value of $x$ that satisfies the equation. Since a linear equation in one variable with a non-zero coefficient on the variable produces exactly one solution, there is exactly one solution to this equation. That matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

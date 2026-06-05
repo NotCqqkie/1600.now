@@ -1,1 +1,23 @@
-{"questionId": "4ca30186", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Identify the two curves", "content": "The system consists of a linear equation (the straight line) and a nonlinear equation (the curved line). The solution to the system is the point where these two graphs intersect."}, {"title": "Locate the intersection point graphically", "content": "Tracing both curves on the coordinate plane, the straight line and the parabola meet at a single point. At this intersection, both equations are satisfied simultaneously."}, {"title": "Read the coordinates from the graph", "content": "At the intersection point, the x-coordinate is 2 and the y-coordinate is 4. Therefore, the solution to the system is <strong>(2, 4)</strong>. That matches choice C — <strong>C</strong> is correct.", "desmosExpressions": ["y = x^2 - 2", "y = x"]}]}
+{
+  "questionId": "4ca30186",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the two curves",
+      "content": "The system consists of a linear equation (the straight line) and a nonlinear equation (the curved line). The solution to the system is the point where these two graphs intersect."
+    },
+    {
+      "title": "Locate the intersection point graphically",
+      "content": "Tracing both curves on the coordinate plane, the straight line and the parabola meet at a single point. At this intersection, both equations are satisfied simultaneously."
+    },
+    {
+      "title": "Read the coordinates from the graph",
+      "content": "At the intersection point, the x-coordinate is 2 and the y-coordinate is 4. Therefore, the solution to the system is <strong>(2, 4)</strong>. That matches choice C — <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "y = x^2 - 2",
+        "y = x"
+      ]
+    }
+  ]
+}

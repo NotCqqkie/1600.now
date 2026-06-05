@@ -1,1 +1,19 @@
-{"questionId":"32388549-e820-4b4a-91a9-d9c32e611098_14","correctAnswer":"C","section":"Math","steps":[{"title":"Population after the first two weeks","content":"Initial population is 1,100 bees. For the first two weeks the increase is 120 bees per week.<br/>Population after week 2: $$1100 + 2 \\times 120 = 1340$$ bees."},{"title":"Population after week w (>2) and remaining needed","content":"For week w > 2, there are (w-2) additional weeks each adding 180 bees.<br/>Population at end of week w: $$1340 + 180(w-2) = 1340 + 180w - 360 = 980 + 180w$$ bees.<br/>Bees still needed to reach the goal of 2,600: $$2600 - (980 + 180w) = 1620 - 180w$$.<br/>That matches choice C — <strong>C</strong> is correct.","desmosExpressions":["y = 1620 - 180x \\{x > 2\\}","(0, 1500)"]}]}
+{
+  "questionId": "32388549-e820-4b4a-91a9-d9c32e611098_14",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Population after the first two weeks",
+      "content": "Initial population is 1,100 bees. For the first two weeks the increase is 120 bees per week.<br/>Population after week 2: $$1100 + 2 \\times 120 = 1340$$ bees."
+    },
+    {
+      "title": "Population after week w (>2) and remaining needed",
+      "content": "For week w > 2, there are (w-2) additional weeks each adding 180 bees.<br/>Population at end of week w: $$1340 + 180(w-2) = 1340 + 180w - 360 = 980 + 180w$$ bees.<br/>Bees still needed to reach the goal of 2,600: $$2600 - (980 + 180w) = 1620 - 180w$$.<br/>That matches choice C — <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "y = 1620 - 180x \\{x > 2\\}",
+        "(0, 1500)"
+      ]
+    }
+  ]
+}

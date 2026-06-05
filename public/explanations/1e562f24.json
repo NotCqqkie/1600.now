@@ -1,1 +1,19 @@
-{"questionId": "1e562f24", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Construct the confidence interval", "content": "Estimate = 0.49, margin of error = 0.04. Plausible range: [0.49 - 0.04, 0.49 + 0.04] = [0.45, 0.53]."}, {"title": "Interpret what the interval means", "content": "Any proportion within [0.45, 0.53] is plausible. Proportions outside this range are not supported by the sample data."}, {"title": "Evaluate all four choices", "content": "<ul><li><strong>Choice A &mdash; 'It is plausible that the proportion is between 0.45 and 0.53.'</strong>: This exactly describes the confidence interval [0.45, 0.53]. &#10003;</li><li><strong>Choice B &mdash; 'It is plausible that the proportion is less than 0.45.'</strong>: Values below 0.45 are outside the interval; the margin of error does not support this. &#10007;</li><li><strong>Choice C &mdash; 'The proportion is exactly 0.49.'</strong>: 0.49 is the point estimate, not the true population proportion; we cannot claim exactness. &#10007;</li><li><strong>Choice D &mdash; 'It is plausible that the proportion is greater than 0.53.'</strong>: Values above 0.53 are outside the interval; not supported. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "1e562f24",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Construct the confidence interval",
+      "content": "Estimate = 0.49, margin of error = 0.04. Plausible range: [0.49 - 0.04, 0.49 + 0.04] = [0.45, 0.53]."
+    },
+    {
+      "title": "Interpret what the interval means",
+      "content": "Any proportion within [0.45, 0.53] is plausible. Proportions outside this range are not supported by the sample data."
+    },
+    {
+      "title": "Evaluate all four choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'It is plausible that the proportion is between 0.45 and 0.53.'</strong>: This exactly describes the confidence interval [0.45, 0.53]. &#10003;</li><li><strong>Choice B &mdash; 'It is plausible that the proportion is less than 0.45.'</strong>: Values below 0.45 are outside the interval; the margin of error does not support this. &#10007;</li><li><strong>Choice C &mdash; 'The proportion is exactly 0.49.'</strong>: 0.49 is the point estimate, not the true population proportion; we cannot claim exactness. &#10007;</li><li><strong>Choice D &mdash; 'It is plausible that the proportion is greater than 0.53.'</strong>: Values above 0.53 are outside the interval; not supported. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -9,8 +9,10 @@
     },
     {
       "title": "Write the exponential model",
-      "content": "Starting from 15,000 in 2005, multiply by 1.04 for each year that passes:<ul><li>$x = 1$: $p = 15,000 \\cdot 1.04$</li><li>$x = 2$: $p = 15,000 \\cdot 1.04^2$</li><li>$x = 3$: $p = 15,000 \\cdot 1.04^3$</li></ul>The general pattern is:<br/>$$p = 15,000(1.04)^x$$<br/>This matches choice D \u2014 <strong>D</strong> is correct.",
-      "desmosExpressions": ["p=15000((1.04))^(x)"]
+      "content": "Starting from 15,000 in 2005, multiply by 1.04 for each year that passes:<ul><li>$x = 1$: $p = 15,000 \\cdot 1.04$</li><li>$x = 2$: $p = 15,000 \\cdot 1.04^2$</li><li>$x = 3$: $p = 15,000 \\cdot 1.04^3$</li></ul>The general pattern is:<br/>$$p = 15,000(1.04)^x$$<br/>This matches choice D — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "p=15000((1.04))^(x)"
+      ]
     }
   ]
 }

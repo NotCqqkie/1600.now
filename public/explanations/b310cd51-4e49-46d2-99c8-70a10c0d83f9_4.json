@@ -1,1 +1,15 @@
-{"questionId":"b310cd51-4e49-46d2-99c8-70a10c0d83f9_4","correctAnswer":"B","section":"Math","steps":[{"title":"Apply similarity to identify equal angles","content":"Triangle $CAE \\sim$ triangle $CBD$, with the vertex correspondence $C\\leftrightarrow C$, $A\\leftrightarrow B$, $E\\leftrightarrow D$. Corresponding angles in similar triangles are congruent, so angle $CAE$ = angle $CBD$. The side scale factor ($AE = 24 \\cdot BD$) does not affect angle measures."},{"title":"Find the requested value","content":"Since angle $CBD = 56°$:<br/>$$\\angle CAE = \\angle CBD = 56°$$<br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}
+{
+  "questionId": "b310cd51-4e49-46d2-99c8-70a10c0d83f9_4",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply similarity to identify equal angles",
+      "content": "Triangle $CAE \\sim$ triangle $CBD$, with the vertex correspondence $C\\leftrightarrow C$, $A\\leftrightarrow B$, $E\\leftrightarrow D$. Corresponding angles in similar triangles are congruent, so angle $CAE$ = angle $CBD$. The side scale factor ($AE = 24 \\cdot BD$) does not affect angle measures."
+    },
+    {
+      "title": "Find the requested value",
+      "content": "Since angle $CBD = 56°$:<br/>$$\\angle CAE = \\angle CBD = 56°$$<br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."
+    }
+  ]
+}

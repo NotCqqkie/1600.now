@@ -1,1 +1,19 @@
-{"questionId": "6acacde7-ed77-4956-a395-7f7392d6ba20_17", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Translate the growth condition", "content": "For $f(x) = k(1.83)^x$, when $x$ increases by 1, the output multiplies by 1.83. Since $1.83 = 1 + 0.83$, this represents an 83% increase.<br/>We need $g(x)$ to multiply by the same factor when $x$ increases by $\\frac{1}{4}$."}, {"title": "Solve for g(x) and match to choices", "content": "For an exponential $g(x) = ka^x$, a $\\frac{1}{4}$ increase in $x$ multiplies the output by $a^{1/4}$. Setting $a^{1/4} = 1.83$ gives $a = 1.83^4$.<br/>$$g(x) = k(1.83^4)^x = k(1.83)^{4x} = k(1.83^x)^4$$<br/>This matches choice B — <strong>B</strong> is correct.", "desmosExpressions": ["f(x) = (1.83)^{x}", "g(x) = (1.83)^{4x}"]}]}
+{
+  "questionId": "6acacde7-ed77-4956-a395-7f7392d6ba20_17",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the growth condition",
+      "content": "For $f(x) = k(1.83)^x$, when $x$ increases by 1, the output multiplies by 1.83. Since $1.83 = 1 + 0.83$, this represents an 83% increase.<br/>We need $g(x)$ to multiply by the same factor when $x$ increases by $\\frac{1}{4}$."
+    },
+    {
+      "title": "Solve for g(x) and match to choices",
+      "content": "For an exponential $g(x) = ka^x$, a $\\frac{1}{4}$ increase in $x$ multiplies the output by $a^{1/4}$. Setting $a^{1/4} = 1.83$ gives $a = 1.83^4$.<br/>$$g(x) = k(1.83^4)^x = k(1.83)^{4x} = k(1.83^x)^4$$<br/>This matches choice B — <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "f(x) = (1.83)^{x}",
+        "g(x) = (1.83)^{4x}"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,23 @@
-{"questionId":"32388549-e820-4b4a-91a9-d9c32e611098_5","correctAnswer":"A","section":"Math","steps":[{"title":"Set up","content":"Start with $p = \\sqrt{12c} - 25$. Add 25 to both sides: $p + 25 = \\sqrt{12c}$."},{"title":"Solve","content":"Square both sides: $(p+25)^2 = 12c$. Divide by 12: $c = \\dfrac{(p+25)^2}{12}$."},{"title":"Answer","content":"<strong>A</strong> is correct."}]}
+{
+  "questionId": "32388549-e820-4b4a-91a9-d9c32e611098_5",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "Start with $p = \\sqrt{12c} - 25$. Add 25 to both sides: $p + 25 = \\sqrt{12c}$."
+    },
+    {
+      "title": "Solve",
+      "content": "Square both sides: $(p+25)^2 = 12c$. Divide by 12: $c = \\dfrac{(p+25)^2}{12}$."
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>A</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice A, $c=\\frac{(p+25)^{2}}{12}$, and the other choices fail the same setup or substitution. Therefore <strong>A</strong> is correct."
+    }
+  ]
+}

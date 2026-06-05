@@ -37,7 +37,6 @@ import { BankSourceToggle } from "@/components/question/BankSourceToggle";
 import { spaceOutNearDuplicates, questionFingerprint } from "@/lib/text/nearDuplicateSpacing";
 import {
   createBankPracticeSessionFromQuestions,
-  createCustomPracticeSetFromQuestions,
   launchCustomPracticeSet,
 } from "@/lib/practice/customPracticeSets";
 import { renderMixedContent } from "@/lib/text/mathRendering";
@@ -93,7 +92,7 @@ const createEmptySelection = (): TopicSelectionState => {
 };
 
 const multiSelectModeCheckboxClass =
-  "h-5 w-5 rounded-[5px] border-2 border-primary/45 bg-primary/5 text-primary shadow-sm transition-colors data-[state=checked]:border-primary data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground data-[state=checked]:hover:border-cobalt data-[state=checked]:hover:bg-cobalt data-[state=checked]:hover:text-white hover:border-primary/70 hover:bg-primary/10 focus-visible:ring-2 focus-visible:ring-ring/50 dark:border-primary/55 dark:bg-primary/10 dark:data-[state=checked]:border-primary dark:data-[state=checked]:bg-primary";
+  "h-9 w-9 rounded-[8px] border-2 border-primary/45 bg-primary/5 text-primary shadow-sm transition-colors data-[state=checked]:border-primary data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground data-[state=checked]:hover:border-cobalt data-[state=checked]:hover:bg-cobalt data-[state=checked]:hover:text-white hover:border-primary/70 hover:bg-primary/10 focus-visible:ring-2 focus-visible:ring-ring/50 dark:border-primary/55 dark:bg-primary/10 dark:data-[state=checked]:border-primary dark:data-[state=checked]:bg-primary sm:h-5 sm:w-5 sm:rounded-[5px]";
 
 const topicCheckboxClass =
   `absolute left-0 top-0 ${multiSelectModeCheckboxClass}`;
@@ -125,13 +124,8 @@ const getQuestionSearchText = (question: BankQuestion): string =>
     question.prompt,
     question.passage,
     question.questionText,
-    question.testName,
-    question.sourceId,
-    question.bankLabel,
-    question.category.domain,
-    question.category.skill,
-    question.difficulty,
     question.choices?.map((choice) => choice.text || "").join(" "),
+    question.correctAnswer,
   ]
     .map((value) => normalizeQuestionSearchText(value))
     .join(" ");
@@ -275,7 +269,7 @@ const TopicCheckboxSlot = ({
   checked: boolean;
   onCheckedChange: (checked: boolean) => void;
 }) => (
-  <div className="relative h-5 w-5 shrink-0">
+  <div className="relative h-9 w-9 shrink-0 sm:h-5 sm:w-5">
     {visible && (
       <Checkbox
         checked={checked}
@@ -326,6 +320,7 @@ type BankIndexProps = {
   homeFilterDemoFilters?: QuestionBankFilters;
   onHomeFilterDemoFiltersChange?: (filters: QuestionBankFilters) => void;
   onHomeFilterDemoReady?: () => void;
+  homeFilterDemoCloseSignal?: number;
 };
 
 export const BankIndex = ({
@@ -333,6 +328,7 @@ export const BankIndex = ({
   homeFilterDemoFilters,
   onHomeFilterDemoFiltersChange,
   onHomeFilterDemoReady,
+  homeFilterDemoCloseSignal = 0,
 }: BankIndexProps = {}) => {
   const navigate = useNavigate();
   const [searchParams, setSearchParams] = useSearchParams();
@@ -872,13 +868,8 @@ export const BankIndex = ({
       }
       questions = shuffled;
     }
-    questions = spaceOutNearDuplicates<BankQuestion>(questions, questionFingerprint);
-
-    const practiceSet = createCustomPracticeSetFromQuestions({
-      questions,
-    });
-    launchCustomPracticeSet(practiceSet, navigate, `/bank?bankType=${bankSource}`);
-  }, [bankSource, getSelectedQuestions, navigate]);
+    startBankPracticeSession(questions);
+  }, [getSelectedQuestions, startBankPracticeSession]);
 
   const handleQuickStart = useCallback(async (subject: "math" | "reading", domain?: string, skill?: string, shuffle: boolean = false) => {
     let questions = await getSelectedQuestions(subject, domain, skill);
@@ -1091,9 +1082,6 @@ export const BankIndex = ({
                         className="line-clamp-1 text-[13px] leading-5 text-ink-mid [&_.katex]:text-[0.95em]"
                         dangerouslySetInnerHTML={{ __html: previewHtml }}
                       />
-                      <p className="truncate text-[11px] leading-4 text-ink-muted">
-                        {question.testName} - {question.bankLabel} - ID {question.sourceId}
-                      </p>
                     </div>
                     <ChevronRight className="h-4 w-4 shrink-0 text-ink-muted" />
                   </button>
@@ -1609,22 +1597,23 @@ export const BankIndex = ({
               forceOpen={isHomeFilterDemo}
               compactLabels={isHomeFilterDemo}
               homeDemoMultiOpen={isHomeFilterDemo}
+              homeDemoCloseSignal={homeFilterDemoCloseSignal}
               portalContainer={isHomeFilterDemo ? homeDemoPortalContainer : undefined}
               rightContent={!isHomeFilterDemo ? (
-                <div className="flex items-center gap-4">
+                <div className="flex w-full flex-col items-stretch gap-3 sm:w-auto sm:flex-row sm:items-center sm:gap-4">
                   <BankSourceToggle value={bankSource} onChange={handleBankSourceChange} />
                   {hasActiveQuestionBankFilters(filters) && (
                     <Button
                       variant="ghost"
                       size="sm"
                       onClick={() => setFilters(defaultFilters)}
-                      className="gap-2 text-muted-foreground hover:text-foreground"
+                      className="h-10 gap-2 text-muted-foreground hover:text-foreground"
                     >
                       <RotateCcw className="h-3 w-3" />
                       Reset Filters
                     </Button>
                   )}
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center justify-between gap-2 sm:justify-start">
                     <Checkbox
                       id="multi-select-mode"
                       checked={isMultiSelect}
@@ -1632,7 +1621,8 @@ export const BankIndex = ({
                       className={multiSelectModeCheckboxClass}
                     />
                     <Label htmlFor="multi-select-mode" className="cursor-pointer text-sm font-medium text-foreground">
-                      Select multiple topics
+                      <span className="sm:hidden">Multi-select</span>
+                      <span className="hidden sm:inline">Select multiple topics</span>
                     </Label>
                   </div>
                 </div>
@@ -1647,11 +1637,12 @@ export const BankIndex = ({
 
       {/* Create Practice Set Button - Fixed at bottom right */}
       {selectedTopicsInfo.totalSelected > 0 && (
-        <div className="fixed bottom-6 right-6 z-50 flex gap-2">
+        <div className="fixed bottom-6 left-4 right-4 z-50 flex justify-end gap-2 sm:left-auto sm:right-6">
           <Button
             size="icon"
+            variant="outline"
             onClick={() => handleCreatePracticeSet(true)}
-            className="shadow-lg h-12 w-12 rounded-full"
+            className="h-12 w-12 shrink-0 rounded-full shadow-lg"
             title="Create Shuffled Practice Set"
           >
             <Shuffle className="h-5 w-5" />
@@ -1659,10 +1650,11 @@ export const BankIndex = ({
           <Button
             size="lg"
             onClick={() => handleCreatePracticeSet(false)}
-            className="shadow-lg gap-2"
+            className="min-w-0 flex-1 gap-2 px-3 text-[13px] shadow-lg sm:flex-none sm:px-[22px] sm:text-[15px]"
           >
-            <Play className="h-4 w-4" />
-            Create Practice Set ({selectedQuestionCount} questions)
+            <Play className="h-4 w-4 shrink-0" />
+            <span className="truncate sm:hidden">Create Set ({selectedQuestionCount})</span>
+            <span className="hidden sm:inline">Create Practice Set ({selectedQuestionCount} questions)</span>
           </Button>
         </div>
       )}

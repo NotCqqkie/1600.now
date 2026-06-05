@@ -1,1 +1,27 @@
-{"questionId": "a22baf87-f61e-43f7-b868-52cf0e05d234_18", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Find the median of each data set", "content": "From the dot plots, both Data Set A and Data Set B contain 21 values and are symmetric, centered at value 7.<br/>With 21 values (an odd count), the median is the 11th value when sorted. Counting through the dot plot for each data set, the 11th value falls at 7 for both.<br/><strong>Statement I is true: the medians are equal.</strong>"}, {"title": "Compare the standard deviations", "content": "Standard deviation measures spread around the mean.<br/>Data Set A is sharply peaked at its center (values clustered tightly near 7).<br/>Data Set B has a flatter, more uniform spread across the range.<br/>A tighter cluster means smaller standard deviation; a broader spread means larger standard deviation.<br/>The two distributions have different shapes, so their standard deviations differ.<br/><strong>Statement II is false.</strong>"}, {"title": "Evaluate each choice", "content": "<ul><li>Choice A: I and II &#8212; Statement II is false, so this is incorrect. Eliminated.</li><li>Choice B: I only &#8212; Statement I is true and Statement II is false. That matches choice B &#8212; <strong>B</strong> is correct.</li><li>Choice C: II only &#8212; Statement II is false. Eliminated.</li><li>Choice D: Neither I nor II &#8212; Statement I is true. Eliminated.</li></ul>That matches choice B &#8212; <strong>B</strong> is correct."}]}
+{
+  "questionId": "a22baf87-f61e-43f7-b868-52cf0e05d234_18",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the median of each data set",
+      "content": "From the dot plots, both Data Set A and Data Set B contain 21 values and are symmetric, centered at value 7.<br/>With 21 values (an odd count), the median is the 11th value when sorted. Counting through the dot plot for each data set, the 11th value falls at 7 for both.<br/><strong>Statement I is true: the medians are equal.</strong>"
+    },
+    {
+      "title": "Compare the standard deviations",
+      "content": "Standard deviation measures spread around the mean. Data Set A is more tightly clustered near $7$, while Data Set B is more spread out toward the ends. To make the comparison concrete, enter both dot plots as lists in Desmos. The medians are both $7$, but the standard deviations are different, so Statement II is false.",
+      "desmosExpressions": [
+        "A=[4,5,5,5,6,6,6,6,7,7,7,7,7,8,8,8,8,9,9,9,10]",
+        "B=[4,4,5,5,5,6,6,6,6,7,7,7,8,8,8,8,9,9,9,10,10]",
+        "median(A)",
+        "median(B)",
+        "stdevp(A)",
+        "stdevp(B)"
+      ]
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li>Choice A: I and II &#8212; Statement II is false, so this is incorrect. Eliminated.</li><li>Choice B: I only &#8212; Statement I is true and Statement II is false. That matches choice B &#8212; <strong>B</strong> is correct.</li><li>Choice C: II only &#8212; Statement II is false. Eliminated.</li><li>Choice D: Neither I nor II &#8212; Statement I is true. Eliminated.</li></ul>That matches choice B &#8212; <strong>B</strong> is correct."
+    }
+  ]
+}

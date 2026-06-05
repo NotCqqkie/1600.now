@@ -1,1 +1,19 @@
-{"questionId": "4de87c9a", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Translate the phrase into an expression", "content": "&quot;8 times a number x&quot; is $8x$. &quot;3 more than&quot; means add 3, giving $8x + 3$."}, {"title": "Set equal to 83", "content": "The full statement &quot;is equal to 83&quot; gives: $$8x + 3 = 83$$"}, {"title": "Eliminate wrong choices and confirm", "content": "<ul><li>A: $(3)(8)x = 83$ simplifies to $24x = 83$ — this is 24 times x, not 3 more than 8 times x. Eliminate A.</li><li>B: $8x = 83 + 3$ puts the 3 on the wrong side, giving $8x = 86$. Eliminate B.</li><li>C: $3x + 8 = 83$ swaps the roles of 3 and 8 — this is &quot;8 more than 3 times x.&quot; Eliminate C.</li><li>D: $8x + 3 = 83$ is exactly &quot;3 more than 8 times x equals 83.&quot; That matches choice D — <strong>D</strong> is correct.</li></ul>"}]}
+{
+  "questionId": "4de87c9a",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the phrase into an expression",
+      "content": "&quot;8 times a number x&quot; is $8x$. &quot;3 more than&quot; means add 3, giving $8x + 3$."
+    },
+    {
+      "title": "Set equal to 83",
+      "content": "The full statement &quot;is equal to 83&quot; gives: $$8x + 3 = 83$$"
+    },
+    {
+      "title": "Eliminate wrong choices and confirm",
+      "content": "<ul><li>A: $(3)(8)x = 83$ simplifies to $24x = 83$ — this is 24 times x, not 3 more than 8 times x. Eliminate A.</li><li>B: $8x = 83 + 3$ puts the 3 on the wrong side, giving $8x = 86$. Eliminate B.</li><li>C: $3x + 8 = 83$ swaps the roles of 3 and 8 — this is &quot;8 more than 3 times x.&quot; Eliminate C.</li><li>D: $8x + 3 = 83$ is exactly &quot;3 more than 8 times x equals 83.&quot; That matches choice D — <strong>D</strong> is correct.</li></ul>"
+    }
+  ]
+}

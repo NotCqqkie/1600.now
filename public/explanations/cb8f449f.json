@@ -9,8 +9,11 @@
     },
     {
       "title": "Substitute y into the second equation and solve for x",
-      "content": "Substitute $y = 8$ into the second equation:<br/>$$x - \\frac{1}{2}(8) = 2$$<br/>$$x - 4 = 2$$<br/>$$x = 6$$<br/>That matches choice D \u2014 <strong>D</strong> is correct.",
-      "desmosExpressions": ["y = 8", "y = 2x - 4"]
+      "content": "Substitute $y = 8$ into the second equation:<br/>$$x - \\frac{1}{2}(8) = 2$$<br/>$$x - 4 = 2$$<br/>$$x = 6$$<br/>That matches choice D — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "y = 8",
+        "y = 2x - 4"
+      ]
     }
   ]
 }

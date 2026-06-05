@@ -1,1 +1,27 @@
-{"questionId":"b5883220-eb88-4f6b-8d82-979efee65d2d_13","correctAnswer":"11","section":"Math","steps":[{"title":"Read slope of line s directly","content":"$8x + 2y = 0 \\Rightarrow y = -4x$, so slope of $s$ is $-4$."},{"title":"Perpendicular shortcut: flip and negate","content":"Perpendicular slope = negative reciprocal: $m_t = -\\dfrac{1}{-4} = \\dfrac{1}{4}$."},{"title":"Use slope formula with the two points","content":"Line $t$ passes through $(6, 0)$ and $(k, \\tfrac{5}{4})$ with slope $\\tfrac{1}{4}$:<br/>$$\\frac{\\tfrac{5}{4} - 0}{k - 6} = \\frac{1}{4} \\implies k - 6 = 5 \\implies k = 11.$$<br/>The answer is <strong>11</strong>.","desmosExpressions":["8x + 2y = 0","y = -4x","y = \\frac{1}{4}(x - 6)","(6, 0)","(11, \\frac{5}{4})"]}]}
+{
+  "questionId": "b5883220-eb88-4f6b-8d82-979efee65d2d_13",
+  "correctAnswer": "11",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope of line s",
+      "content": "Rewrite $8x+2y=0$ in slope-intercept form: $$2y=-8x$$ $$y=-4x.$$ So line $s$ has slope $-4$."
+    },
+    {
+      "title": "Use the perpendicular slope",
+      "content": "A line perpendicular to slope $-4$ has slope equal to the negative reciprocal, which is $\\frac{1}{4}$. Line $t$ passes through $(6,0)$, so its equation is $$y=\\frac{1}{4}(x-6).$$",
+      "desmosExpressions": [
+        "8x+2y=0",
+        "y=\\frac{1}{4}(x-6)"
+      ]
+    },
+    {
+      "title": "Use the given y-value",
+      "content": "The other point on line $t$ is $(k,\\frac{5}{4})$, so plug in $y=\\frac{5}{4}$: $$\\frac{5}{4}=\\frac{1}{4}(k-6).$$ Multiply by $4$ to get $5=k-6$, so $k=11$."
+    },
+    {
+      "title": "Check the point",
+      "content": "At $x=11$, the line $y=\\frac{1}{4}(x-6)$ gives $y=\\frac{1}{4}(5)=\\frac{5}{4}$. Therefore the point is $(11,\\frac{5}{4})$, and the value of $k$ is <strong>11</strong>."
+    }
+  ]
+}

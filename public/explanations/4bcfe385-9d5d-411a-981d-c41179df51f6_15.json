@@ -1,1 +1,19 @@
-{"questionId": "4bcfe385-9d5d-411a-981d-c41179df51f6_15", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Substitute the temperature", "content": "Set $T(x) = 16$ in the given function:<br/>$$16 = \\frac{22{,}000 - 6.5x}{1{,}000}$$"}, {"title": "Clear the denominator", "content": "Multiply both sides by $1{,}000$:<br/>$$16{,}000 = 22{,}000 - 6.5x$$"}, {"title": "Solve for $x$", "content": "Isolate the $x$ term:<br/>$$6.5x = 22{,}000 - 16{,}000 = 6{,}000$$<br/>$$x = \\frac{6{,}000}{6.5} \\approx 923.08$$<br/>The altitude closest to this value is $923$ meters, which matches <strong>B</strong>."}]}
+{
+  "questionId": "4bcfe385-9d5d-411a-981d-c41179df51f6_15",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the temperature",
+      "content": "Set $T(x) = 16$ in the given function:<br/>$$16 = \\frac{22{,}000 - 6.5x}{1{,}000}$$"
+    },
+    {
+      "title": "Clear the denominator",
+      "content": "Multiply both sides by $1{,}000$:<br/>$$16{,}000 = 22{,}000 - 6.5x$$"
+    },
+    {
+      "title": "Solve for $x$",
+      "content": "Isolate the $x$ term:<br/>$$6.5x = 22{,}000 - 16{,}000 = 6{,}000$$<br/>$$x = \\frac{6{,}000}{6.5} \\approx 923.08$$<br/>The altitude closest to this value is $923$ meters, which matches <strong>B</strong>."
+    }
+  ]
+}

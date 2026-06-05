@@ -1,1 +1,15 @@
-{"questionId":"b00d1a2d-fa94-4785-a802-20abbcc6d00a_15","correctAnswer":"B","section":"Math","steps":[{"title":"Set up the discriminant condition for two solutions","content":"<strong>Shortcut (discriminant):</strong> For $88x^2 + bx + c = 0$ to have more than one real solution, the discriminant must be positive: $b^2 - 4ac > 0$. With $a = 88$:<br/>$b^2 - 4(88)c > 0$<br/>$b^2 - 352c > 0$<br/>$b^2 > 352c$"},{"title":"Solve for b","content":"Since $b$ is positive, take the square root: $b > \\sqrt{352c}$. That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_15",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the discriminant condition for two solutions",
+      "content": "<strong>Shortcut (discriminant):</strong> For $88x^2 + bx + c = 0$ to have more than one real solution, the discriminant must be positive: $b^2 - 4ac > 0$. With $a = 88$:<br/>$b^2 - 4(88)c > 0$<br/>$b^2 - 352c > 0$<br/>$b^2 > 352c$"
+    },
+    {
+      "title": "Solve for b",
+      "content": "Since $b$ is positive, take the square root: $b > \\sqrt{352c}$. That matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

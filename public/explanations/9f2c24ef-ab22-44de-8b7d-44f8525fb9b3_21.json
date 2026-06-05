@@ -1,1 +1,27 @@
-{"questionId": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_21", "correctAnswer": "2775", "section": "Math", "steps": [{"title": "Solve the system by elimination", "content": "Add the two equations to cancel $8(y+3)$: $$2(x-2)=123+432=555\\Rightarrow x-2=277.5.$$"}, {"title": "Find $10(x-2)$", "content": "Multiply: $10(x-2)=2775$. The answer is <strong>2775</strong>.", "desmosExpressions": ["y = \\frac{(x - 2) - 123}{8} - 3", "y = \\frac{432 - (x - 2)}{8} - 3"]}]}
+{
+  "questionId": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_21",
+  "correctAnswer": "2775",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the equations first",
+      "content": "The fastest move is to add the two equations because the $-8(y+3)$ and $+8(y+3)$ terms cancel: $$(x-2)-8(y+3)=123$$ $$(x-2)+8(y+3)=432.$$"
+    },
+    {
+      "title": "Solve for the expression needed",
+      "content": "Adding gives $$2(x-2)=123+432=555.$$ Therefore $$x-2=277.5.$$ The question asks for $10(x-2)$, so $$10(x-2)=10(277.5)=2775.$$"
+    },
+    {
+      "title": "Desmos graph check",
+      "content": "If you graph both equations, the intersection has $x=279.5$, so $x-2=277.5$. That confirms $10(x-2)=2775$.",
+      "desmosExpressions": [
+        "y=\\frac{x-125}{8}-3",
+        "y=\\frac{434-x}{8}-3"
+      ]
+    },
+    {
+      "title": "Confirm the requested value",
+      "content": "The system does not ask for $x$ or $y$ by itself; it asks for $10(x-2)$. The computed value is <strong>2775</strong>."
+    }
+  ]
+}

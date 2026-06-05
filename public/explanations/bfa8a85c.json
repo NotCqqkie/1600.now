@@ -1,1 +1,19 @@
-{"questionId":"bfa8a85c","correctAnswer":"B","section":"Math","steps":[{"title":"Find the original median","content":"The original set 6, 6, 8, 8, 8, 10, 21 has 7 values. The median is the 4th value: <strong>8</strong>."},{"title":"Find which choice has median 8","content":"Each choice has 6 values; its median = average of 3rd and 4th values."},{"title":"Evaluate all choices","content":"<ul><li>Choice A: 4, 6, 6, 6, 8, 8 — median = (6+6)/2 = 6. Eliminated.</li><li>Choice B: 6, 6, 8, 8, 10, 10 — median = (8+8)/2 = 8. That matches choice B — <strong>B</strong> is correct.</li><li>Choice C: 6, 8, 10, 10, 10, 12 — median = (10+10)/2 = 10. Eliminated.</li><li>Choice D: 8, 8, 10, 10, 21, 21 — median = (10+10)/2 = 10. Eliminated.</li></ul>"}]}
+{
+  "questionId": "bfa8a85c",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the original median",
+      "content": "The original set 6, 6, 8, 8, 8, 10, 21 has 7 values. The median is the 4th value: <strong>8</strong>."
+    },
+    {
+      "title": "Find which choice has median 8",
+      "content": "Each choice has 6 values; its median = average of 3rd and 4th values."
+    },
+    {
+      "title": "Evaluate all choices",
+      "content": "<ul><li>Choice A: 4, 6, 6, 6, 8, 8 — median = (6+6)/2 = 6. Eliminated.</li><li>Choice B: 6, 6, 8, 8, 10, 10 — median = (8+8)/2 = 8. That matches choice B — <strong>B</strong> is correct.</li><li>Choice C: 6, 8, 10, 10, 10, 12 — median = (10+10)/2 = 10. Eliminated.</li><li>Choice D: 8, 8, 10, 10, 21, 21 — median = (10+10)/2 = 10. Eliminated.</li></ul>"
+    }
+  ]
+}

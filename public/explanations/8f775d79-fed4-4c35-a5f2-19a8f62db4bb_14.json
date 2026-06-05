@@ -1,1 +1,19 @@
-{"questionId": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_14", "correctAnswer": "377/2,188.5", "section": "Math", "steps": [{"title": "Factor the left side", "content": "Notice that the first two terms share the factor $(9x - 2a)$:<br/>$$x(9x - 2a) + b(9x - 2a) - (x + b) = 0$$<br/>Factor out $(9x - 2a)$:<br/>$$(9x - 2a)(x + b) - (x + b) = 0$$<br/>Now factor out $(x + b)$:<br/>$$(x + b)(9x - 2a - 1) = 0$$"}, {"title": "Identify which factor gives x = 42", "content": "The factored form gives two solutions. Either $x + b = 0$, so $x = -b$ (negative since $b > 0$), or $9x - 2a - 1 = 0$, so $x = \\frac{2a + 1}{9}$. Since $x = 42$ is a positive solution, it must satisfy the second equation:<br/>$$\\frac{2a + 1}{9} = 42$$"}, {"title": "Solve for a", "content": "Multiply both sides by 9:<br/>$$2a + 1 = 378$$<br/>Subtract 1:<br/>$$2a = 377$$<br/>Divide by 2:<br/>$$a = \\frac{377}{2}$$<br/>Equivalent forms accepted: <strong>377/2</strong>, <strong>188.5</strong>."}]}
+{
+  "questionId": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_14",
+  "correctAnswer": "377/2,188.5",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor the left side",
+      "content": "Notice that the first two terms share the factor $(9x - 2a)$:<br/>$$x(9x - 2a) + b(9x - 2a) - (x + b) = 0$$<br/>Factor out $(9x - 2a)$:<br/>$$(9x - 2a)(x + b) - (x + b) = 0$$<br/>Now factor out $(x + b)$:<br/>$$(x + b)(9x - 2a - 1) = 0$$"
+    },
+    {
+      "title": "Identify which factor gives x = 42",
+      "content": "The factored form gives two solutions. Either $x + b = 0$, so $x = -b$ (negative since $b > 0$), or $9x - 2a - 1 = 0$, so $x = \\frac{2a + 1}{9}$. Since $x = 42$ is a positive solution, it must satisfy the second equation:<br/>$$\\frac{2a + 1}{9} = 42$$"
+    },
+    {
+      "title": "Solve for a",
+      "content": "Multiply both sides by 9:<br/>$$2a + 1 = 378$$<br/>Subtract 1:<br/>$$2a = 377$$<br/>Divide by 2:<br/>$$a = \\frac{377}{2}$$<br/>Equivalent forms accepted: <strong>377/2</strong>, <strong>188.5</strong>."
+    }
+  ]
+}

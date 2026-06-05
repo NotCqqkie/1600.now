@@ -1,1 +1,19 @@
-{"questionId":"0c54aae7-15f2-4e7b-a138-cae820ff684e_20","correctAnswer":"40/9,4.444","section":"Math","steps":[{"title":"Show z = w from the figure","content":"The figure marks a right angle at $A$ and a right angle at $D$, so $AD$ is the altitude from the right-angle vertex of right triangle $ABC$ to the hypotenuse $BC$. In this altitude-to-hypotenuse setup, the smaller right triangles formed are similar to $\\triangle ABC$, which forces $\\angle CAD = \\angle ABD$. So $z = w$."},{"title":"Find sin w from cos w","content":"Given $\\cos w^\\circ = \\frac{9}{41}$, use $\\sin^2 w^\\circ + \\cos^2 w^\\circ = 1$: $$\\sin^2 w^\\circ = 1 - \\frac{81}{1681} = \\frac{1600}{1681}, \\quad \\sin w^\\circ = \\frac{40}{41}.$$"},{"title":"Compute tan z","content":"Since $z = w$: $$\\tan z^\\circ = \\tan w^\\circ = \\frac{\\sin w^\\circ}{\\cos w^\\circ} = \\frac{40/41}{9/41} = \\frac{40}{9}.$$ That matches the accepted answer &mdash; <strong>40/9</strong> (or <strong>4.444</strong>) is correct."}]}
+{
+  "questionId": "0c54aae7-15f2-4e7b-a138-cae820ff684e_20",
+  "correctAnswer": "40/9,4.444",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Show z = w from the figure",
+      "content": "The figure marks a right angle at $A$ and a right angle at $D$, so $AD$ is the altitude from the right-angle vertex of right triangle $ABC$ to the hypotenuse $BC$. In this altitude-to-hypotenuse setup, the smaller right triangles formed are similar to $\\triangle ABC$, which forces $\\angle CAD = \\angle ABD$. So $z = w$."
+    },
+    {
+      "title": "Find sin w from cos w",
+      "content": "Given $\\cos w^\\circ = \\frac{9}{41}$, use $\\sin^2 w^\\circ + \\cos^2 w^\\circ = 1$: $$\\sin^2 w^\\circ = 1 - \\frac{81}{1681} = \\frac{1600}{1681}, \\quad \\sin w^\\circ = \\frac{40}{41}.$$"
+    },
+    {
+      "title": "Compute tan z",
+      "content": "Since $z = w$: $$\\tan z^\\circ = \\tan w^\\circ = \\frac{\\sin w^\\circ}{\\cos w^\\circ} = \\frac{40/41}{9/41} = \\frac{40}{9}.$$ That matches the accepted answer &mdash; <strong>40/9</strong> (or <strong>4.444</strong>) is correct."
+    }
+  ]
+}

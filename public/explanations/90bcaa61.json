@@ -1,1 +1,22 @@
-{"questionId":"90bcaa61","correctAnswer":"410","section":"Math","steps":[{"title":"Identify the doubling time parameter","content":"In $f(t)=60{,}000(2)^{t/410}$, the population doubles when the exponent equals $1$, i.e. when $t/410=1$."},{"title":"Apply to interpret the doubling time","content":"That gives $t=410$ minutes. The answer is <strong>410</strong>.", "desmosExpressions": ["f(t)=60000((2))^((t)/(410))"]}]}
+{
+  "questionId": "90bcaa61",
+  "correctAnswer": "410",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the doubling time parameter",
+      "content": "In $f(t)=60{,}000(2)^{t/410}$, the population doubles when the exponent equals $1$, i.e. when $t/410=1$."
+    },
+    {
+      "title": "Apply to interpret the doubling time",
+      "content": "That gives $t=410$ minutes. The answer is <strong>410</strong>.",
+      "desmosExpressions": [
+        "f(t)=60000((2))^((t)/(410))"
+      ]
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $410$. It's given that $t$ minutes after an initial observation, the number of bacteria in a population is $60,000{\\left(2\\right)}^{\\frac{t}{410}}$. This expression consists of the initial number of bacteria, $60,000$, multiplied by the expression ${2}^{\\frac{t}{410}}$. The time it takes for the number of bacteria to double is the increase in the value of $t$ that causes the expression ${2}^{\\frac{t}{410}}$ to double. Since the base of the expression ${2}^{\\frac{t}{410}}$ is $2$, the expression ${2}^{\\frac{t}{410}}$ will double when the exponent increases by $1$. Since the exponent of the expression ${2}^{\\frac{t}{410}}$ is $\\frac{t}{410}$, the exponent will increase by $1$ when $t$ increases by $410$. Therefore the time, in minutes, it takes for the number of bacteria in the population to double is $410$."
+    }
+  ]
+}

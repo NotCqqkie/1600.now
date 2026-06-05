@@ -1,4 +1,15 @@
-{"questionId": "d0efc1dd", "correctAnswer": "A", "section": "Math", "steps": [
-  {"title": "Set up", "content": "The list is 15, 14, 18, 17, $x$. The sum of the known values is $15 + 14 + 18 + 17 = 64$, so mean $= \\frac{64 + x}{5}$. The median is the 3rd value when all five numbers are in order. Test each choice to see which makes mean $\\neq$ median."},
-  {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; $x = 6$</strong>: Ordered: 6, 14, 15, 17, 18. Median $= 15$. Mean $= \\frac{70}{5} = 14$. Mean $\\neq$ median, so $x = 6$ is NOT a possible value. &#10003;</li><li><strong>Choice B &mdash; $x = 11$</strong>: Ordered: 11, 14, 15, 17, 18. Median $= 15$. Mean $= \\frac{75}{5} = 15$. Equal &mdash; possible. &#10007;</li><li><strong>Choice C &mdash; $x = 16$</strong>: Ordered: 14, 15, 16, 17, 18. Median $= 16$. Mean $= \\frac{80}{5} = 16$. Equal &mdash; possible. &#10007;</li><li><strong>Choice D &mdash; $x = 21$</strong>: Ordered: 14, 15, 17, 18, 21. Median $= 17$. Mean $= \\frac{85}{5} = 17$. Equal &mdash; possible. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}
-]}
+{
+  "questionId": "d0efc1dd",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "The list is 15, 14, 18, 17, $x$. The sum of the known values is $15 + 14 + 18 + 17 = 64$, so mean $= \\frac{64 + x}{5}$. The median is the 3rd value when all five numbers are in order. Test each choice to see which makes mean $\\neq$ median."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; $x = 6$</strong>: Ordered: 6, 14, 15, 17, 18. Median $= 15$. Mean $= \\frac{70}{5} = 14$. Mean $\\neq$ median, so $x = 6$ is NOT a possible value. &#10003;</li><li><strong>Choice B &mdash; $x = 11$</strong>: Ordered: 11, 14, 15, 17, 18. Median $= 15$. Mean $= \\frac{75}{5} = 15$. Equal &mdash; possible. &#10007;</li><li><strong>Choice C &mdash; $x = 16$</strong>: Ordered: 14, 15, 16, 17, 18. Median $= 16$. Mean $= \\frac{80}{5} = 16$. Equal &mdash; possible. &#10007;</li><li><strong>Choice D &mdash; $x = 21$</strong>: Ordered: 14, 15, 17, 18, 21. Median $= 17$. Mean $= \\frac{85}{5} = 17$. Equal &mdash; possible. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

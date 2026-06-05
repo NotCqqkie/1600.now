@@ -1,1 +1,16 @@
-{"questionId": "121dc44f", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Express a 7% increase algebraically", "content": "An increase of 7% adds 0.07 times the original amount to the original:<br/>$$\\text{2016 population} = \\text{2015 population} + 0.07 \\cdot \\text{2015 population}$$<br/>Factor the right side:<br/>$$\\text{2016 population} = (1 + 0.07) \\cdot \\text{2015 population} = 1.07 \\cdot \\text{2015 population}$$", "formula": "$$\\text{New} = (1 + p) \\cdot \\text{Original}, \\text{ where } p = \\text{decimal form of percentage}$$"}, {"title": "Identify the constant k", "content": "The problem states that the 2016 population is $k$ times the 2015 population. From our factorization, this multiplier is $1.07$, so $k = 1.07$. That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "121dc44f",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Express a 7% increase algebraically",
+      "content": "An increase of 7% adds 0.07 times the original amount to the original:<br/>$$\\text{2016 population} = \\text{2015 population} + 0.07 \\cdot \\text{2015 population}$$<br/>Factor the right side:<br/>$$\\text{2016 population} = (1 + 0.07) \\cdot \\text{2015 population} = 1.07 \\cdot \\text{2015 population}$$",
+      "formula": "$$\\text{New} = (1 + p) \\cdot \\text{Original}, \\text{ where } p = \\text{decimal form of percentage}$$"
+    },
+    {
+      "title": "Identify the constant k",
+      "content": "The problem states that the 2016 population is $k$ times the 2015 population. From our factorization, this multiplier is $1.07$, so $k = 1.07$. That matches choice C — <strong>C</strong> is correct."
+    }
+  ]
+}

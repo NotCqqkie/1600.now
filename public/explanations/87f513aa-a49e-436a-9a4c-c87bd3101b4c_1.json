@@ -1,1 +1,19 @@
-{"questionId":"87f513aa-a49e-436a-9a4c-c87bd3101b4c_1","correctAnswer":"B","section":"Math","steps":[{"title":"Read the intersection from the graph","content":"The solution to a graphed system is the point where the two lines cross. Here that point is at $x=4,\\ y=3$."},{"title":"State the ordered pair","content":"The solution is $(4,3)$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}
+{
+  "questionId": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_1",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the intersection from the graph",
+      "content": "The solution to a graphed system is the point where the two lines cross. Here that point is at $x=4,\\ y=3$."
+    },
+    {
+      "title": "State the ordered pair",
+      "content": "The solution is $(4,3)$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice B, $(4,3)$, and the other choices fail the same setup or substitution. Therefore <strong>B</strong> is correct."
+    }
+  ]
+}

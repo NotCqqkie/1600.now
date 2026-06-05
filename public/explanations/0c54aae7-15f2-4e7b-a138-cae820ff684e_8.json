@@ -1,1 +1,15 @@
-{"questionId": "0c54aae7-15f2-4e7b-a138-cae820ff684e_8", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Translate the problem into equations", "content": "The string is cut into two parts that sum to 108 inches: $x + y = 108$. The phrase <em>x is 8 more than 4 times y</em> translates to: $x = 4y + 8$."}, {"title": "Substitute and solve for x", "content": "Substitute $x = 4y + 8$ into the first equation:<br/>$$(4y + 8) + y = 108$$<br/>$$5y + 8 = 108$$<br/>$$5y = 100$$<br/>$$y = 20$$<br/>Then $x = 4(20) + 8 = 88$. That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "0c54aae7-15f2-4e7b-a138-cae820ff684e_8",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the problem into equations",
+      "content": "The string is cut into two parts that sum to 108 inches: $x + y = 108$. The phrase <em>x is 8 more than 4 times y</em> translates to: $x = 4y + 8$."
+    },
+    {
+      "title": "Substitute and solve for x",
+      "content": "Substitute $x = 4y + 8$ into the first equation:<br/>$$(4y + 8) + y = 108$$<br/>$$5y + 8 = 108$$<br/>$$5y = 100$$<br/>$$y = 20$$<br/>Then $x = 4(20) + 8 = 88$. That matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

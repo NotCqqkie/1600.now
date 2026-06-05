@@ -68,6 +68,7 @@ export const DesmosDialog = ({
 }: DesmosDialogProps) => {
   const [isOpen, setIsOpen] = useState(false);
   const [hasEverOpened, setHasEverOpened] = useState(false);
+  const [calculatorResetKey, setCalculatorResetKey] = useState(0);
   const containerRef = useRef<HTMLDivElement>(null);
   const calcRef = useRef<DesmosCalculator | null>(null);
   const writeTimerRef = useRef<number | null>(null);
@@ -81,11 +82,13 @@ export const DesmosDialog = ({
   const previousCloseSignalRef = useRef(closeSignal);
   const restoredOpenStateKeyRef = useRef<string | undefined>(undefined);
   const suppressNextLayoutPersistRef = useRef(false);
+  const isOpenRef = useRef(isOpen);
 
   calculatorStateKeyRef.current = calculatorStateKey;
   storageAreaRef.current = storageArea;
   onSplitScreenChangeRef.current = onSplitScreenChange;
   onSidebarToggleRef.current = onSidebarToggle;
+  isOpenRef.current = isOpen;
 
   const flushCalculatorState = useCallback((key = calculatorStateKeyRef.current, area = storageAreaRef.current) => {
     if (!key || !area || !calcRef.current?.getState) return;
@@ -210,7 +213,7 @@ export const DesmosDialog = ({
     return () => {
       cancelled = true;
     };
-  }, [flushCalculatorState, hasEverOpened, readCalculatorState]);
+  }, [calculatorResetKey, flushCalculatorState, hasEverOpened, readCalculatorState]);
 
   useEffect(() => {
     if (!openStateKey || !storageArea) return;
@@ -232,6 +235,7 @@ export const DesmosDialog = ({
     const previousKey = previousCalculatorStateKeyRef.current;
     const previousArea = previousStorageAreaRef.current;
     if (previousKey === calculatorStateKey && previousArea === storageArea) return;
+    const wasOpen = isOpenRef.current;
 
     flushCalculatorState(previousKey, previousArea);
     if (writeTimerRef.current !== null) {
@@ -242,10 +246,14 @@ export const DesmosDialog = ({
     removeChangeObserverRef.current = null;
     calcRef.current?.destroy();
     calcRef.current = null;
-    setHasEverOpened(false);
-    setIsOpen(false);
-    onSplitScreenChange?.(false, "desmos");
-    onSidebarToggle?.("desmos", false);
+    setHasEverOpened(wasOpen);
+    setIsOpen(wasOpen);
+    if (wasOpen) {
+      setCalculatorResetKey((key) => key + 1);
+    } else {
+      onSplitScreenChange?.(false, "desmos");
+      onSidebarToggle?.("desmos", false);
+    }
     previousCalculatorStateKeyRef.current = calculatorStateKey;
     previousStorageAreaRef.current = storageArea;
   }, [calculatorStateKey, flushCalculatorState, onSidebarToggle, onSplitScreenChange, storageArea]);
@@ -257,8 +265,9 @@ export const DesmosDialog = ({
 
     flushCalculatorState();
     suppressNextLayoutPersistRef.current = true;
+    writeOpenState(false);
     setIsOpen(false);
-  }, [closeSignal, flushCalculatorState, isOpen]);
+  }, [closeSignal, flushCalculatorState, isOpen, writeOpenState]);
 
   // Tear down only on full unmount of this component (route change, etc).
   useEffect(() => {
@@ -313,6 +322,7 @@ export const DesmosDialog = ({
         keepMountedWhenClosed={hasEverOpened}
         portalContainer={windowPortalContainer}
         boundsElement={windowBoundsElement}
+        centerOnExitSidebar
       >
         <div ref={containerRef} className="w-full h-full" />
       </DraggableWindow>

@@ -1,1 +1,10 @@
-{"qid":"e4f2c33b-9282-40a7-810c-d633e5197f95_8","steps":["Start with \\(P = N(34 - C)\\). Divide both sides by N: \\(\\frac{P}{N} = 34 - C\\).","Isolate C by subtracting 34 from both sides and multiplying by &minus;1: \\(C = 34 - \\frac{P}{N}\\)."],"eliminationHtml":"<ul><li><strong>Choice A &mdash; '\\(C + \\frac{P}{N}\\)'</strong>: This expression still contains C, so it is not a solved expression for C. &#10007;</li><li><strong>Choice B &mdash; '\\(34 + \\frac{P}{N}\\)'</strong>: Wrong sign; dividing P/N = 34 &minus; C gives C = 34 &minus; P/N, not 34 + P/N. &#10007;</li><li><strong>Choice C &mdash; '\\(34 - \\frac{P}{C}\\)'</strong>: C appears in the denominator, so C is not isolated. &#10007;</li><li><strong>Choice D &mdash; '\\(34 - \\frac{P}{N}\\)'</strong>: Matches the algebra exactly: divide both sides by N, then move C to get C = 34 &minus; P/N. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.","correctAnswer":"D","desmosExpressions":[]}
+{
+  "qid": "e4f2c33b-9282-40a7-810c-d633e5197f95_8",
+  "steps": [
+    "Start with $P = N(34 - C)$. Divide both sides by N: $\\frac{P}{N} = 34 - C$.",
+    "Isolate C by subtracting 34 from both sides and multiplying by &minus;1: $C = 34 - \\frac{P}{N}$."
+  ],
+  "eliminationHtml": "<ul><li><strong>Choice A &mdash; '$C + \\frac{P}{N}$'</strong>: This expression still contains C, so it is not a solved expression for C. &#10007;</li><li><strong>Choice B &mdash; '$34 + \\frac{P}{N}$'</strong>: Wrong sign; dividing P/N = 34 &minus; C gives C = 34 &minus; P/N, not 34 + P/N. &#10007;</li><li><strong>Choice C &mdash; '$34 - \\frac{P}{C}$'</strong>: C appears in the denominator, so C is not isolated. &#10007;</li><li><strong>Choice D &mdash; '$34 - \\frac{P}{N}$'</strong>: Matches the algebra exactly: divide both sides by N, then move C to get C = 34 &minus; P/N. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.",
+  "correctAnswer": "D",
+  "desmosExpressions": []
+}

@@ -1,1 +1,27 @@
-{"questionId": "c81b6c57", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Use the equivalence to set up an equation in p", "content": "Two polynomial expressions are equivalent when their corresponding coefficients are equal. The original expression contains the constant $p$, and it must be equivalent to $6x^2 - 155x + 24$. So expand the original expression (distributing any binomial factors) and collect terms in $x^2$, $x$, and the constant."}, {"title": "Match the coefficient of x to solve for p", "content": "After expanding, equate the coefficient of $x$ in the original expression with $-155$ (the coefficient of $x$ in the target). This produces a linear equation in $p$. Solving that linear equation gives $p = 7$."}, {"title": "Confirm with the other coefficients", "content": "Substitute $p = 7$ back into the original expression and verify that the $x^2$ coefficient is $6$ and the constant term is $24$, matching $6x^2 - 155x + 24$ on every term. That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "c81b6c57",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use a polynomial regression check",
+      "content": "The two expressions must agree for every $x$, so use several test inputs in Desmos. Enter $x_1=[0,1,2]$, then type $3(2x_1^2+p x_1+8)-16x_1(p+4)\\sim6x_1^2-155x_1+24$. Desmos solves the unknown constant and returns $p=7$.",
+      "desmosExpressions": [
+        "x_1=[0,1,2]",
+        "3(2x_1^2+p x_1+8)-16x_1(p+4)~6x_1^2-155x_1+24"
+      ]
+    },
+    {
+      "title": "Expand to confirm",
+      "content": "Expand the original expression: $$3(2x^2+px+8)-16x(p+4)$$ $$=6x^2+3px+24-16px-64x$$ $$=6x^2+(-13p-64)x+24$$"
+    },
+    {
+      "title": "Match the middle coefficient",
+      "content": "The target expression is $6x^2-155x+24$, so the $x$-coefficient must be $-155$: $$-13p-64=-155$$ $$-13p=-91$$ $$p=7$$"
+    },
+    {
+      "title": "Check the choices",
+      "content": "$p=7$ matches choice <strong>B</strong>. Substitution gives $6x^2+(-91-64)x+24=6x^2-155x+24$, so the expressions are equivalent."
+    }
+  ]
+}

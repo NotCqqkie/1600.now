@@ -1,1 +1,19 @@
-{"questionId": "184ce5aa", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Isolate y to read off the slope of line h", "content": "$\\tfrac{1}{5}x + \\tfrac{1}{7}y - 70 = 0 \\Rightarrow \\tfrac{1}{7}y = -\\tfrac{1}{5}x + 70 \\Rightarrow y = -\\tfrac{7}{5}x + 490$. Slope of $h = -\\tfrac{7}{5}$."}, {"title": "Flip and negate for the perpendicular slope", "content": "Perpendicular shortcut: negative reciprocal of $-\\tfrac{7}{5}$ is $\\tfrac{5}{7}$. That matches choice D — <strong>D</strong> is correct.", "desmosExpressions": ["(1/5)x+(1/7)y-70=0", "y=(5/7)x"]}]}
+{
+  "questionId": "184ce5aa",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate y to read off the slope of line h",
+      "content": "$\\tfrac{1}{5}x + \\tfrac{1}{7}y - 70 = 0 \\Rightarrow \\tfrac{1}{7}y = -\\tfrac{1}{5}x + 70 \\Rightarrow y = -\\tfrac{7}{5}x + 490$. Slope of $h = -\\tfrac{7}{5}$."
+    },
+    {
+      "title": "Flip and negate for the perpendicular slope",
+      "content": "Perpendicular shortcut: negative reciprocal of $-\\tfrac{7}{5}$ is $\\tfrac{5}{7}$. That matches choice D — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "(1/5)x+(1/7)y-70=0",
+        "y=(5/7)x"
+      ]
+    }
+  ]
+}

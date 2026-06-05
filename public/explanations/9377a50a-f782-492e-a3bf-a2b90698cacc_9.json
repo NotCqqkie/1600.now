@@ -9,7 +9,7 @@
     },
     {
       "title": "Interpret point (4, 9)",
-      "content": "The point $(4, 9)$ has $x = 4$ and $y = 9$. Since the problem defines $x$ as length and $y$ as width:<ul><li>Length = 4 m</li><li>Width = 9 m</li></ul>Verify: $4 + 9 = 13$ \u2713, confirming it satisfies the perimeter constraint. That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "The point $(4, 9)$ has $x = 4$ and $y = 9$. Since the problem defines $x$ as length and $y$ as width:<ul><li>Length = 4 m</li><li>Width = 9 m</li></ul>Verify: $4 + 9 = 13$ ✓, confirming it satisfies the perimeter constraint. That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

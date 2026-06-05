@@ -1,1 +1,19 @@
-{"questionId": "301faf80", "correctAnswer": "14", "section": "Math", "steps": [{"title": "Translate the relationship into an equation", "content": "Let $n$ be the smaller integer. The larger integer is $5$ greater than twice the smaller, so it equals $2n+5$. Their product is $462$:<br/>$$n(2n+5)=462$$"}, {"title": "Solve the quadratic", "content": "Expand and rearrange to standard form:<br/>$$2n^2+5n-462=0$$<br/>Apply the quadratic formula with $a=2$, $b=5$, $c=-462$:<br/>$$n=\\frac{-5\\pm\\sqrt{25+4(2)(462)}}{4}=\\frac{-5\\pm\\sqrt{3721}}{4}=\\frac{-5\\pm 61}{4}$$<br/>The positive root is $n=\\frac{56}{4}=14$."}, {"title": "Verify", "content": "If $n=14$, the larger integer is $2(14)+5=33$, and $14\\times 33=462$, which matches.<br/>The smaller integer is <strong>14</strong>."}]}
+{
+  "questionId": "301faf80",
+  "correctAnswer": "14",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the relationship into an equation",
+      "content": "Let $n$ be the smaller integer. The larger integer is $5$ greater than twice the smaller, so it equals $2n+5$. Their product is $462$:<br/>$$n(2n+5)=462$$"
+    },
+    {
+      "title": "Solve the quadratic",
+      "content": "Expand and rearrange to standard form:<br/>$$2n^2+5n-462=0$$<br/>Apply the quadratic formula with $a=2$, $b=5$, $c=-462$:<br/>$$n=\\frac{-5\\pm\\sqrt{25+4(2)(462)}}{4}=\\frac{-5\\pm\\sqrt{3721}}{4}=\\frac{-5\\pm 61}{4}$$<br/>The positive root is $n=\\frac{56}{4}=14$."
+    },
+    {
+      "title": "Verify",
+      "content": "If $n=14$, the larger integer is $2(14)+5=33$, and $14\\times 33=462$, which matches.<br/>The smaller integer is <strong>14</strong>."
+    }
+  ]
+}

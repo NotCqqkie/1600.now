@@ -14,6 +14,7 @@ export const isLikelyInlineMath = (candidate: string): boolean => {
 
   if (/\\[A-Za-z]+/.test(trimmed)) return true;
   if (/[\\^_{}]/.test(trimmed)) return true;
+  if (/[π√∠△°·×÷≤≥≠≈±−²³]/.test(trimmed)) return true;
 
   // Reject English prose before short-circuiting on operators. Otherwise
   // "Substitute x = 7 into the function" wraps as $...$ and KaTeX strips
@@ -23,10 +24,13 @@ export const isLikelyInlineMath = (candidate: string): boolean => {
   if (proseWords.length >= 2) return false;
 
   if (/^\(?\s*[+\-−]\s*\)?$/.test(trimmed)) return true;
-  if (/[=<>+*/]/.test(trimmed)) return true;
+  if (/[=<>+*/·×÷]/.test(trimmed)) return true;
+  if (/^[+\-−]\s*\d[\d.,]*$/.test(trimmed)) return true;
+  if (/^[+\-−]\s*[A-Za-z][A-Za-z0-9]*$/.test(trimmed)) return true;
   if (/(^|[^A-Za-z])-(?=\d|[A-Za-z(])/.test(trimmed)) return true;
 
   if (/^\d[\d.,]*$/.test(trimmed)) return true;
+  if (/^[-+]?\.\d[\d,]*$/.test(trimmed)) return true;
   if (/^\d+(?:\.\d+)?(?:\s*:\s*\d+(?:\.\d+)?)+$/.test(trimmed)) return true;
   if (/^[A-Za-z][A-Za-z0-9]{0,3}$/.test(trimmed)) return true;
   if (/^[A-Za-z][A-Za-z0-9]*\([^)]*\)$/.test(trimmed)) return true;
@@ -34,10 +38,10 @@ export const isLikelyInlineMath = (candidate: string): boolean => {
   if (/[\dA-Za-z)]\s*-\s*[\dA-Za-z(]/.test(trimmed)) return true;
 
   // Comma-separated list of numbers, e.g. "4, 10, 18, 4, 4, 5, 6, 5"
-  if (/^-?\d+(?:\.\d+)?(?:\s*,\s*-?\d+(?:\.\d+)?)+$/.test(trimmed)) return true;
+  if (/^[+\-−]?\s*\d+(?:\.\d+)?(?:\s*,\s*[+\-−]?\s*\d+(?:\.\d+)?)+$/.test(trimmed)) return true;
 
   // Bracketed list of numbers, e.g. "[4, 4, 4, 5, 5, 6, 10, 18]"
-  if (/^\[\s*-?\d+(?:\.\d+)?(?:\s*,\s*-?\d+(?:\.\d+)?)*\s*\]$/.test(trimmed)) return true;
+  if (/^\[\s*[+\-−]?\s*\d+(?:\.\d+)?(?:\s*,\s*[+\-−]?\s*\d+(?:\.\d+)?)*\s*\]$/.test(trimmed)) return true;
 
   if (/\s/.test(trimmed) && !/[=<>+*/\\^_{}]/.test(trimmed)) return false;
   if (/\b(and|or|the|of|to|for|in|is|are)\b/i.test(trimmed)) return false;
@@ -447,11 +451,11 @@ const normalizeNestedDollarSigns = (content: string): string => {
       .replace(/\{\$(\\[a-zA-Z])/g, "{$1")
       .replace(/\[\$(\\[a-zA-Z])/g, "[$1")
       // Inner `$}` adjacent to a `{`/`}`/end-of-span → strip the `$`
-      .replace(/\$\}(?=[{}])/g, "}")
+      .replace(/(^|[^\\])\$\}(?=[{}])/g, "$1}")
       // `}{$` (segment boundary where an inner `$` was lost) — strip leftover
       .replace(/\}\{\$(?=\\[a-zA-Z])/g, "}{")
       // Trailing `$}<closing-$>` of inner span just before outer closer
-      .replace(/\$\}\$/g, "}$");
+      .replace(/(^|[^\\])\$\}\$/g, (_match, prefix: string) => `${prefix}}$`);
   } while (pre !== prev);
 
   // Per-span cleanup pass for any remaining `{$...$}` adjacency inside a span.
@@ -473,7 +477,9 @@ const normalizeNestedDollarSigns = (content: string): string => {
       continue;
     }
     const inner = pre.slice(cursor + delimiterLength, closing);
-    const cleaned = inner.replace(/\{\$/g, "{").replace(/\$\}/g, "}");
+    const cleaned = inner
+      .replace(/\{\$(?=\\[A-Za-z])/g, "{")
+      .replace(/(^|[^\\])\$\}/g, "$1}");
     result += pre.slice(cursor, cursor + delimiterLength) + cleaned + pre.slice(closing, closing + delimiterLength);
     cursor = closing + delimiterLength;
   }
@@ -504,8 +510,51 @@ const stripTableInlineWidths = (content: string): string => {
 // to mark the focal word, but most renderers won't underline inside math).
 const normalizeInlineHtmlEmphasis = (content: string): string =>
   content
+    .replace(/<em>([^<]*?[=+\-*/][^<]*?),(?=\s+which\b)/gi, "<em>$1</em>,")
     .replace(/<span\b[^>]*class\s*=\s*"[^"]*\bitalic\b[^"]*"[^>]*>([\s\S]*?)<\/span>/gi, "<em>$1</em>")
     .replace(/<u\b[^>]*>([\s\S]*?)<\/u>/gi, "<em>$1</em>");
+
+const normalizeMathSpanContent = (content: string): string =>
+  content
+    .replace(/&divide;/gi, "\\div")
+    .replace(/\\text\{\s*\\\$\s*\}/g, () => "\\$")
+    .replace(/\\text\{\s+([^{}]*?)\}/g, "\\text{$1}")
+    .replace(/\\text\{([^{}]*[A-Za-z])\}(?=\d)/g, "\\text{$1 }")
+    .replace(/(^|[^\\])%/g, "$1\\%")
+    .replace(/\\%(?=\\text\{[A-Za-z])/g, "\\% ");
+
+const normalizeMathSpanContents = (content: string): string => {
+  let result = "";
+  let cursor = 0;
+
+  while (cursor < content.length) {
+    if (content[cursor] !== "$" || isEscapedAt(content, cursor)) {
+      result += content[cursor];
+      cursor += 1;
+      continue;
+    }
+
+    const isDisplayMath =
+      content[cursor + 1] === "$" &&
+      !isEscapedAt(content, cursor + 1);
+    const delimiterLength: 1 | 2 = isDisplayMath ? 2 : 1;
+    const closing = findClosingMathDelimiter(content, cursor, delimiterLength);
+
+    if (closing === -1) {
+      result += content[cursor];
+      cursor += 1;
+      continue;
+    }
+
+    const inner = content.slice(cursor + delimiterLength, closing);
+    result += content.slice(cursor, cursor + delimiterLength);
+    result += normalizeMathSpanContent(inner);
+    result += content.slice(closing, closing + delimiterLength);
+    cursor = closing + delimiterLength;
+  }
+
+  return result;
+};
 
 // Bullet items in choice text often contain TTS narration of graph features
 // ("• The vertex is at the point (2 comma negative 6)"). Convert the high-
@@ -612,7 +661,7 @@ const repairLlmEscapedMathOpen = (content: string): string => {
 
     if (!inMathSpan && ch === "\\" && content[cursor + 1] === "$") {
       const tail = content.slice(cursor);
-      const match = tail.match(/^\\\$([^$\n<]{1,80}?)\$(?!\$)/);
+      const match = tail.match(/^\\\$([^$\n<]{1,80}?)(?:\\\$|\$(?!\$))/);
       if (match) {
         const inner = match[1];
         const trimmed = inner.trim();
@@ -648,15 +697,17 @@ export function normalizeTextForMathRendering(text: string | null | undefined): 
   const normalizedCurrency = normalizeInlineMathSpacing(
     normalizeMathWrappedCurrency(
       normalizeMathWrappedPercentages(
-        normalizeMalformedComparatorCommands(
-          normalizeImplicitFunctionArguments(
-            normalizeBareMathFragments(
-              normalizeImplicitMathExponents(
-                normalizeDecimalCommas(
-                  normalizeFullWidthMathPunctuation(
-                    wrapBareLatexSegments(
-                      normalizeAdjacentTextBlocks(
-                        normalizeAsteriskWrappedMath(preprocessed),
+        normalizeMathSpanContents(
+          normalizeMalformedComparatorCommands(
+            normalizeImplicitFunctionArguments(
+              normalizeBareMathFragments(
+                normalizeImplicitMathExponents(
+                  normalizeDecimalCommas(
+                    normalizeFullWidthMathPunctuation(
+                      wrapBareLatexSegments(
+                        normalizeAdjacentTextBlocks(
+                          normalizeAsteriskWrappedMath(preprocessed),
+                        ),
                       ),
                     ),
                   ),

@@ -1,1 +1,19 @@
-{"questionId":"94868488-f2b6-48b0-9e22-a683ccbda0e0_1","correctAnswer":"B","section":"Math","steps":[{"title":"Distribute the negative sign","content":"$(3x^3 - 4x + 9) - (6x^6 + 8x - 4) = 3x^3 - 4x + 9 - 6x^6 - 8x + 4.$"},{"title":"Combine like terms","content":"Group by degree: $x^6$ term: $-6x^6$. $x^3$ term: $3x^3$. $x$ terms: $-4x - 8x = -12x$. Constants: $9 + 4 = 13$. Result: $$-6x^6 + 3x^3 - 12x + 13.$$"},{"title":"Evaluate each choice","content":"<ul><li>A: $-3x^9 - 12x - 13$. Wrong &mdash; you cannot combine $3x^3$ and $-6x^6$ into $-3x^9$ (different degrees), and the constant sign is wrong.</li><li>B: $-6x^6 + 3x^3 - 12x + 13$. Matches the simplified expression. Correct.</li><li>C: $-6x^6 + 3x^3 + 4x + 5$. Wrong &mdash; sign on $-8x$ and on $-(-4)$ were mishandled.</li><li>D: $-3x^9 - 4x + 5$. Wrong &mdash; same illegal exponent addition and arithmetic errors.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "94868488-f2b6-48b0-9e22-a683ccbda0e0_1",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute the negative sign",
+      "content": "$(3x^3 - 4x + 9) - (6x^6 + 8x - 4) = 3x^3 - 4x + 9 - 6x^6 - 8x + 4.$"
+    },
+    {
+      "title": "Combine like terms",
+      "content": "Group by degree: $x^6$ term: $-6x^6$. $x^3$ term: $3x^3$. $x$ terms: $-4x - 8x = -12x$. Constants: $9 + 4 = 13$. Result: $$-6x^6 + 3x^3 - 12x + 13.$$"
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li>A: $-3x^9 - 12x - 13$. Wrong &mdash; you cannot combine $3x^3$ and $-6x^6$ into $-3x^9$ (different degrees), and the constant sign is wrong.</li><li>B: $-6x^6 + 3x^3 - 12x + 13$. Matches the simplified expression. Correct.</li><li>C: $-6x^6 + 3x^3 + 4x + 5$. Wrong &mdash; sign on $-8x$ and on $-(-4)$ were mishandled.</li><li>D: $-3x^9 - 4x + 5$. Wrong &mdash; same illegal exponent addition and arithmetic errors.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

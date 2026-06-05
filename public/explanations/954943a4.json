@@ -1,1 +1,18 @@
-{"qid": "954943a4", "correctAnswer": "B", "steps": [{"explanation": "Extract the key fact. One serving (\\(x = 1\\)) provides 180 mg of potassium, which equals 5% of the daily allowance. So one serving contributes \\(p = 5\\) percentage points."}, {"explanation": "Scale linearly. Each serving independently contributes 5 percentage points. For \\(x\\) servings: \\(p = 5 \\cdot x = 5x\\). This is a linear (proportional) relationship."}, {"explanation": "Verify with \\(x = 1\\): \\(p = 5(1) = 5\\). Check: 1 serving = 5% of daily allowance. Correct."}, {"explanation": "Evaluate each choice.<ul><li>Choice A: \\(p = 0.5x\\) — gives \\(p = 0.5\\) when \\(x = 1\\), but one serving provides 5%, not 0.5%. Eliminate A.</li><li>Choice B: \\(p = 5x\\) — gives \\(p = 5\\) when \\(x = 1\\), matching the given fact that one serving provides 5% of daily allowance. This is correct.</li><li>Choice C: \\(p = (0.05)^x\\) — an exponential expression; at \\(x = 1\\) gives \\(p = 0.05\\), which is 0.05%, not 5%. Eliminate C.</li><li>Choice D: \\(p = (1.05)^x\\) — an exponential growth expression; at \\(x = 1\\) gives \\(p = 1.05\\), not 5. Eliminate D.</li></ul>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "qid": "954943a4",
+  "correctAnswer": "B",
+  "steps": [
+    {
+      "explanation": "Extract the key fact. One serving ($x = 1$) provides 180 mg of potassium, which equals 5% of the daily allowance. So one serving contributes $p = 5$ percentage points."
+    },
+    {
+      "explanation": "Scale linearly. Each serving independently contributes 5 percentage points. For $x$ servings: $p = 5 \\cdot x = 5x$. This is a linear (proportional) relationship."
+    },
+    {
+      "explanation": "Verify with $x = 1$: $p = 5(1) = 5$. Check: 1 serving = 5% of daily allowance. Correct."
+    },
+    {
+      "explanation": "Evaluate each choice.<ul><li>Choice A: $p = 0.5x$ — gives $p = 0.5$ when $x = 1$, but one serving provides 5%, not 0.5%. Eliminate A.</li><li>Choice B: $p = 5x$ — gives $p = 5$ when $x = 1$, matching the given fact that one serving provides 5% of daily allowance. This is correct.</li><li>Choice C: $p = (0.05)^x$ — an exponential expression; at $x = 1$ gives $p = 0.05$, which is 0.05%, not 5%. Eliminate C.</li><li>Choice D: $p = (1.05)^x$ — an exponential growth expression; at $x = 1$ gives $p = 1.05$, not 5. Eliminate D.</li></ul>That matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,16 @@
-{"questionId": "1b1871b9-081a-47fd-9218-97b0bbc4a454_14", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Apply the triangle area formula", "content": "The area of a triangle depends on its base and height. We have base = 48 cm and height = 96 cm.", "formula": "$$A = \\frac{1}{2} \\cdot \\text{base} \\cdot \\text{height}$$"}, {"title": "Substitute and calculate the area", "content": "Substitute base = 48 and height = 96 into the formula:<br/>$$A = \\frac{1}{2} \\cdot 48 \\cdot 96$$<br/>Simplify by calculating $\\frac{1}{2} \\cdot 48 = 24$:<br/>$$A = 24 \\cdot 96 = 2,304$$<br/>The area is 2,304 square centimeters. That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "1b1871b9-081a-47fd-9218-97b0bbc4a454_14",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the triangle area formula",
+      "content": "The area of a triangle depends on its base and height. We have base = 48 cm and height = 96 cm.",
+      "formula": "$$A = \\frac{1}{2} \\cdot \\text{base} \\cdot \\text{height}$$"
+    },
+    {
+      "title": "Substitute and calculate the area",
+      "content": "Substitute base = 48 and height = 96 into the formula:<br/>$$A = \\frac{1}{2} \\cdot 48 \\cdot 96$$<br/>Simplify by calculating $\\frac{1}{2} \\cdot 48 = 24$:<br/>$$A = 24 \\cdot 96 = 2,304$$<br/>The area is 2,304 square centimeters. That matches choice A — <strong>A</strong> is correct."
+    }
+  ]
+}

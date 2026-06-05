@@ -1,1 +1,31 @@
-{"questionId":"1006cad7","correctAnswer":"B","section":"Math","steps":[{"title":"Read the intersection from the graph","content":"The solution to a graphed system is the point where the two lines cross. Here that point is at $x=2,\\ y=4$."},{"title":"State the ordered pair","content":"The solution is $(2,4)$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}
+{
+  "questionId": "1006cad7",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the intersection from the graph",
+      "content": "The solution to a graphed system is the point where the two lines cross. Here that point is at $x=2,\\ y=4$."
+    },
+    {
+      "title": "State the ordered pair",
+      "content": "The solution is $(2,4)$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice B is correct. A solution to a system of equations must be the solution to each equation in the system. It follows that if $\\left(x,y\\right)$ is a solution to the system, the point $\\left(x,y\\right)$ lies on the graph in the <em>xy</em>-plane of each equation in the system. The point that lies on each graph of the system of linear equations shown is their intersection point $\\left(2,4\\right)$. Therefore, the solution to the system is $\\left(2,4\\right)$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A is incorrect. The point $\\left(0,5\\right)$ lies on one, but not both, of the graphs of the linear equations shown."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice C is incorrect. The point $\\left(5,10\\right)$ lies on one, but not both, of the graphs of the linear equations shown."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice D is incorrect. The point $\\left(10,0\\right)$ lies on one, but not both, of the graphs of the linear equations shown."
+    }
+  ]
+}

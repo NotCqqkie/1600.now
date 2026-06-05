@@ -1,1 +1,24 @@
-{"questionId": "87a75825-ef1b-4b13-8fde-816390546062_19", "correctAnswer": "61", "section": "Math", "steps": [{"title": "Use Vieta's formulas to extract relationships", "content": "For any equation $x^2 + bx + c = 0$, the sum of roots equals $-b$ and their product equals $c$.<br/><br/>From $x^2+6x+6=0$: $r + s = -6$ and $rs = 6$<br/>From $x^2+10x+13=0$: $t + u = -10$ and $tu = 13$<br/><br/>The sum of the new roots is $(r+u) + (s+t) = (r+s) + (t+u) = -6 + (-10) = -16$, confirming it matches the coefficient in $x^2+16x+c=0$."}, {"title": "Solve for exact roots using the quadratic formula", "content": "For $x^2+6x+6=0$: discriminant is $36 - 24 = 12$, so $$x = \\frac{-6 \\pm 2\\sqrt{3}}{2} = -3 \\pm \\sqrt{3}$$<br/>Thus $r = -3 - \\sqrt{3}$ and $s = -3 + \\sqrt{3}$.<br/><br/>For $x^2+10x+13=0$: discriminant is $100 - 52 = 48$, so $$x = \\frac{-10 \\pm 4\\sqrt{3}}{2} = -5 \\pm 2\\sqrt{3}$$<br/>Thus $t = -5 - 2\\sqrt{3}$ and $u = -5 + 2\\sqrt{3}$."}, {"title": "Calculate $(r+u)(s+t)$ using difference of squares", "content": "First, compute the new roots:<br/>$$r + u = (-3 - \\sqrt{3}) + (-5 + 2\\sqrt{3}) = -8 + \\sqrt{3}$$<br/>$$s + t = (-3 + \\sqrt{3}) + (-5 - 2\\sqrt{3}) = -8 - \\sqrt{3}$$<br/>By Vieta's formulas, the constant term $c$ equals the product of roots:<br/>$$c = (r+u)(s+t) = (-8 + \\sqrt{3})(-8 - \\sqrt{3})$$<br/>Using the difference-of-squares pattern $(p + q)(p - q) = p^2 - q^2$:<br/>$$= (-8)^2 - (\\sqrt{3})^2 = 64 - 3 = 61$$<br/>Therefore, $c = 61$.", "desmosExpressions": ["y = x^{2} + 6x + 6", "y = x^{2} + 10x + 13", "y = x^{2} + 16x + 61"]}]}
+{
+  "questionId": "87a75825-ef1b-4b13-8fde-816390546062_19",
+  "correctAnswer": "61",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use Vieta's formulas to extract relationships",
+      "content": "For any equation $x^2 + bx + c = 0$, the sum of roots equals $-b$ and their product equals $c$.<br/><br/>From $x^2+6x+6=0$: $r + s = -6$ and $rs = 6$<br/>From $x^2+10x+13=0$: $t + u = -10$ and $tu = 13$<br/><br/>The sum of the new roots is $(r+u) + (s+t) = (r+s) + (t+u) = -6 + (-10) = -16$, confirming it matches the coefficient in $x^2+16x+c=0$."
+    },
+    {
+      "title": "Solve for exact roots using the quadratic formula",
+      "content": "For $x^2+6x+6=0$: discriminant is $36 - 24 = 12$, so $$x = \\frac{-6 \\pm 2\\sqrt{3}}{2} = -3 \\pm \\sqrt{3}$$<br/>Thus $r = -3 - \\sqrt{3}$ and $s = -3 + \\sqrt{3}$.<br/><br/>For $x^2+10x+13=0$: discriminant is $100 - 52 = 48$, so $$x = \\frac{-10 \\pm 4\\sqrt{3}}{2} = -5 \\pm 2\\sqrt{3}$$<br/>Thus $t = -5 - 2\\sqrt{3}$ and $u = -5 + 2\\sqrt{3}$."
+    },
+    {
+      "title": "Calculate $(r+u)(s+t)$ using difference of squares",
+      "content": "First, compute the new roots:<br/>$$r + u = (-3 - \\sqrt{3}) + (-5 + 2\\sqrt{3}) = -8 + \\sqrt{3}$$<br/>$$s + t = (-3 + \\sqrt{3}) + (-5 - 2\\sqrt{3}) = -8 - \\sqrt{3}$$<br/>By Vieta's formulas, the constant term $c$ equals the product of roots:<br/>$$c = (r+u)(s+t) = (-8 + \\sqrt{3})(-8 - \\sqrt{3})$$<br/>Using the difference-of-squares pattern $(p + q)(p - q) = p^2 - q^2$:<br/>$$= (-8)^2 - (\\sqrt{3})^2 = 64 - 3 = 61$$<br/>Therefore, $c = 61$.",
+      "desmosExpressions": [
+        "y = x^{2} + 6x + 6",
+        "y = x^{2} + 10x + 13",
+        "y = x^{2} + 16x + 61"
+      ]
+    }
+  ]
+}

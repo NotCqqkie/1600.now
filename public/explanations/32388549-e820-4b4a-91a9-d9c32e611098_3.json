@@ -4,14 +4,21 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the y-intercept and calculate the slope",
-      "content": "From the table, when $x = 0$, we have $y = 95$, so the y-intercept is $b = 95$.<br/>From any two consecutive points, we can find the slope: from $(0, 95)$ to $(1, 105)$,<br/>$$m = \\frac{105 - 95}{1 - 0} = \\frac{10}{1} = 10$$",
-      "formula": "$$m = \\frac{y_2 - y_1}{x_2 - x_1}$$"
+      "title": "Fit the line from the table",
+      "content": "For a table-to-equation question, enter two table points and run a linear regression. The table includes $(0,95)$ and $(1,105)$, so use $y_1 \\sim m x_1+b$ in Desmos.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[95,105]",
+        "y_1~m x_1+b"
+      ]
     },
     {
-      "title": "Form the linear equation and match the choice",
-      "content": "With slope $m = 10$ and y-intercept $b = 95$, the equation is<br/>$$y = 10x + 95$$<br/>That matches choice A \u2014 <strong>A</strong> is correct.",
-      "formula": "$$y = mx + b$$"
+      "title": "Read the equation",
+      "content": "Desmos gives $m=10$ and $b=95$, so the relationship is $y=10x+95$. This also matches the table because increasing $x$ by $1$ increases $y$ by $10$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice <strong>A</strong> is $y=10x+95$, so A is correct."
     }
   ]
 }

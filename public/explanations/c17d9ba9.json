@@ -1,1 +1,15 @@
-{"questionId": "c17d9ba9", "correctAnswer": "-2", "section": "Math", "steps": [{"title": "Translate the English into an inequality", "content": "The phrase describes $x$ as being <em>at most</em> some value.<br/><br/>That value is <em>17 less than 5 times $y$</em>, which is $5y - 17$.<br/><br/>Therefore:<br/>$$x \\leq 5y - 17$$"}, {"title": "Substitute y = 3 and solve for the greatest x", "content": "Substitute $y = 3$:<br/>$$x \\leq 5(3) - 17$$<br/>$$x \\leq 15 - 17$$<br/>$$x \\leq -2$$<br/>The greatest possible value of $x$ is $-2$."}]}
+{
+  "questionId": "c17d9ba9",
+  "correctAnswer": "-2",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the English into an inequality",
+      "content": "The phrase describes $x$ as being <em>at most</em> some value.<br/><br/>That value is <em>17 less than 5 times $y$</em>, which is $5y - 17$.<br/><br/>Therefore:<br/>$$x \\leq 5y - 17$$"
+    },
+    {
+      "title": "Substitute y = 3 and solve for the greatest x",
+      "content": "Substitute $y = 3$:<br/>$$x \\leq 5(3) - 17$$<br/>$$x \\leq 15 - 17$$<br/>$$x \\leq -2$$<br/>The greatest possible value of $x$ is $-2$."
+    }
+  ]
+}

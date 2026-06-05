@@ -1,1 +1,23 @@
-{"questionId":"32cd6c88-820b-4de4-aa5c-08fe14fb73ef_21","correctAnswer":"-7","section":"Math","steps":[{"title":"Apply the rearrangement from the given condition","content":"Move the $(4-9x)$ terms to one side: $9-2=4(4-9x)-5(4-9x)$, giving $7=-(4-9x)$."},{"title":"Compute the target value","content":"So $4-9x = -7$. The answer is <strong>-7</strong>."}]}
+{
+  "questionId": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_21",
+  "correctAnswer": "-7",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Treat the repeated expression as one value",
+      "content": "Let $u=4-9x$. Then the equation $$9-4(4-9x)=2-5(4-9x)$$ becomes $$9-4u=2-5u.$$"
+    },
+    {
+      "title": "Solve for u",
+      "content": "Add $5u$ to both sides: $$9+u=2.$$ Subtract $9$: $$u=-7.$$"
+    },
+    {
+      "title": "Answer the requested expression",
+      "content": "Since $u$ was defined as $4-9x$, the value of $4-9x$ is <strong>-7</strong>."
+    },
+    {
+      "title": "Check in the original equation",
+      "content": "If $4-9x=-7$, then $9-4(-7)=37$ and $2-5(-7)=37$. Both sides match, so $-7$ is correct."
+    }
+  ]
+}

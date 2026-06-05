@@ -159,7 +159,7 @@ const Login = () => {
                   <button
                     type="button"
                     onClick={openResetDialog}
-                    className="text-xs text-muted-foreground underline-offset-4 hover:text-foreground hover:underline"
+                    className="min-h-9 rounded-md px-2 text-xs text-muted-foreground underline-offset-4 hover:text-foreground hover:underline"
                   >
                     Forgot password?
                   </button>

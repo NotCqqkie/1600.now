@@ -11,7 +11,10 @@
     {
       "title": "Identify the center and radius",
       "content": "The given equation $(x - 14)^2 + (y - k)^2 = 36$ matches the standard form $(x - h)^2 + (y - m)^2 = r^2$ with $h = 14$, $m = k$, and $r^2 = 36$. Therefore, the center is $(14, k)$ and the radius is $\\sqrt{36} = 6$. That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": ["(x-14)^2 + (y-2)^2 = 36", "(14, 2)"]
+      "desmosExpressions": [
+        "(x-14)^2 + (y-2)^2 = 36",
+        "(14, 2)"
+      ]
     }
   ]
 }

@@ -1,1 +1,26 @@
-{"questionId": "1178f2df", "correctAnswer": "-2112", "section": "Math", "steps": [{"title": "Extract f(x) values and identify the axis of symmetry", "content": "From $y = f(x) + 4$, we have $f(x) = y - 4$. Converting each table value:<ul><li>At $x = 21$: $f(21) = -8 - 4 = -12$</li><li>At $x = 23$: $f(23) = 8 - 4 = 4$</li><li>At $x = 25$: $f(25) = -8 - 4 = -12$</li></ul>Since $f(21) = f(25) = -12$, the parabola is symmetric between $x = 21$ and $x = 25$. The axis of symmetry is at the midpoint: $$x = \\frac{21 + 25}{2} = 23$$ The vertex is at $(23, 4)$."}, {"title": "Set up vertex form and find the leading coefficient", "content": "With vertex $(23, 4)$, use vertex form:<br/>$$f(x) = a(x - 23)^2 + 4$$<br/>Substitute the point $(21, -12)$:<br/>$$-12 = a(21 - 23)^2 + 4$$<br/>$$-12 = a(-2)^2 + 4$$<br/>$$-12 = 4a + 4$$<br/>$$-16 = 4a$$<br/>$$a = -4$$<br/>Therefore, $f(x) = -4(x - 23)^2 + 4$."}, {"title": "Evaluate f(0) for the y-intercept", "content": "Substitute $x = 0$ into $f(x) = -4(x - 23)^2 + 4$:<br/>$$f(0) = -4(0 - 23)^2 + 4$$<br/>$$f(0) = -4(23)^2 + 4$$<br/>$$f(0) = -4(529) + 4$$<br/>$$f(0) = -2116 + 4$$<br/>$$f(0) = -2112$$ The $y$-coordinate of the $y$-intercept is $-2112$."}]}
+{
+  "questionId": "1178f2df",
+  "correctAnswer": "-2112",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert the table to f(x) values",
+      "content": "The table is for $y=f(x)+4$, but the question asks about the graph of $y=f(x)$. Subtract 4 from each listed $y$-value:<ul><li>$f(21)=-8-4=-12$</li><li>$f(23)=8-4=4$</li><li>$f(25)=-8-4=-12$</li></ul>"
+    },
+    {
+      "title": "Use Desmos regression to get f(0)",
+      "content": "Enter the adjusted points in Desmos as $x_1=[21,23,25]$ and $y_1=[-12,4,-12]$. Then use the quadratic regression row $y_1 \\sim a x_1^2+b x_1+c$. Desmos gives $a=-4$, $b=184$, and $c=-2112$, so $f(x)=-4x^2+184x-2112$. The y-intercept of $y=f(x)$ is $f(0)$, which is the constant term $c=-2112$.",
+      "desmosExpressions": [
+        "x_1=[21,23,25]",
+        "y_1=[-12,4,-12]",
+        "y_1~a x_1^2+b x_1+c",
+        "y=-4(x-23)^2+4",
+        "(0,-2112)"
+      ]
+    },
+    {
+      "title": "Quick hand check",
+      "content": "The equal values $f(21)=f(25)=-12$ show symmetry around $x=23$, so the vertex is $(23,4)$. In vertex form, $f(x)=a(x-23)^2+4$. Using $(21,-12)$ gives $-12=4a+4$, so $a=-4$. Then $f(0)=-4(23)^2+4=-2112$. The answer is <strong>-2112</strong>."
+    }
+  ]
+}

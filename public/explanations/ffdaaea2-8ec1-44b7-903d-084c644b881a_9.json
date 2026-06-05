@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Identify the density-volume relationship",
-      "content": "To find mass, we use:<br/>$$\\text{Mass} = \\text{Density} \\times \\text{Volume}$$<br/>Given:<ul><li>Edge of cube = 3.000 cm</li><li>Density = 0.220 g/cm\u00b3</li></ul>For a cube, Volume = (edge)\u00b3.",
+      "content": "To find mass, we use:<br/>$$\\text{Mass} = \\text{Density} \\times \\text{Volume}$$<br/>Given:<ul><li>Edge of cube = 3.000 cm</li><li>Density = 0.220 g/cm³</li></ul>For a cube, Volume = (edge)³.",
       "formula": "$$\\text{Mass} = \\text{Density} \\times \\text{Volume}$$"
     },
     {

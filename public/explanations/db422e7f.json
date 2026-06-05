@@ -1,1 +1,15 @@
-{"questionId": "db422e7f", "correctAnswer": ".5", "section": "Math", "steps": [{"title": "Isolate y to read off the slope", "content": "$4y + 8x = 6 \\Rightarrow y = -2x + \\tfrac{3}{2}$. Slope = $-2$."}, {"title": "Flip and negate for the perpendicular slope", "content": "Perpendicular shortcut: negative reciprocal of $-2$ is $-\\tfrac{1}{-2} = \\tfrac{1}{2} = 0.5$. That matches choice .5 — <strong>.5</strong> is correct.", "desmosExpressions": ["1/2"]}]}
+{
+  "questionId": "db422e7f",
+  "correctAnswer": ".5",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Put line p in slope-intercept form",
+      "content": "Start with $4y+8x=6$. Subtract $8x$ and divide by $4$:<br/>$$4y=-8x+6$$<br/>$$y=-2x+\\frac{3}{2}$$<br/>So line $p$ has slope $-2$."
+    },
+    {
+      "title": "Use the perpendicular-slope shortcut",
+      "content": "Perpendicular lines have slopes that are negative reciprocals. The negative reciprocal of $-2$ is<br/>$$-\\frac{1}{-2}=\\frac{1}{2}=0.5$$<br/>The slope of line $r$ is $\\frac{1}{2}$, so enter <strong>1/2</strong> or <strong>0.5</strong>."
+    }
+  ]
+}

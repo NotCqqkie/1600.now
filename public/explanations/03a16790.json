@@ -1,1 +1,24 @@
-{"questionId": "03a16790", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Read two points on the line of best fit", "content": "From the scatterplot, the line of best fit crosses the $y$-axis near $(0, 13)$ and passes near the lower-right corner of the data at approximately $(10, 5)$."}, {"title": "Compute the slope between those points", "content": "$$m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{5 - 13}{10 - 0} = \\frac{-8}{10} = -0.8.$$"}, {"title": "Match to a choice", "content": "The computed slope $-0.8$ matches choice B exactly, and the negative sign agrees with the visible downward trend of the data. That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "03a16790",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use source points on the fit line",
+      "content": "The line of best fit decreases as $x$ increases, so the slope is negative. Two approximate points on the line are $(1,12)$ and $(11,4)$.",
+      "desmosExpressions": [
+        "x_1=[1,11]",
+        "y_1=[12,4]",
+        "y_1~m x_1+b"
+      ]
+    },
+    {
+      "title": "Calculate the slope",
+      "content": "$$m=\\frac{4-12}{11-1}=\\frac{-8}{10}=-0.8$$"
+    },
+    {
+      "title": "Match the answer",
+      "content": "The closest slope is $-0.8$, which matches choice <strong>B</strong>."
+    }
+  ]
+}

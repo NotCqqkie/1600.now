@@ -1,1 +1,15 @@
-{"questionId":"82dfb646","correctAnswer":"D","section":"Math","steps":[{"title":"Identify the sampling population","content":"The 200 people were selected at random from people who indicated they liked the book.<br/><br/>A valid statistical inference can only be generalized to the population from which the random sample was drawn.<br/><br/>Sampling population: people who like the book. Result: 95% disliked the movie."},{"title":"Apply the sampling principle to each choice","content":"<ul><li><strong>A:</strong> Generalizes to <em>all people who go see movies</em> &mdash; this population was not sampled, so no valid inference can be made about them</li><li><strong>B:</strong> Generalizes to <em>all people who read books</em> &mdash; we only sampled those who like THIS particular book, not all readers</li><li><strong>C:</strong> Makes a claim about people who <em>dislike</em> the book &mdash; we sampled zero people from this group, so we have no data on them</li><li><strong>D:</strong> Makes a claim about people who <em>like</em> the book &mdash; this is exactly our sampling population, and 95% (which is &quot;most&quot;) disliked the movie</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "82dfb646",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the sampling population",
+      "content": "The 200 people were selected at random from people who indicated they liked the book.<br/><br/>A valid statistical inference can only be generalized to the population from which the random sample was drawn.<br/><br/>Sampling population: people who like the book. Result: 95% disliked the movie."
+    },
+    {
+      "title": "Apply the sampling principle to each choice",
+      "content": "<ul><li><strong>A:</strong> Generalizes to <em>all people who go see movies</em> &mdash; this population was not sampled, so no valid inference can be made about them</li><li><strong>B:</strong> Generalizes to <em>all people who read books</em> &mdash; we only sampled those who like THIS particular book, not all readers</li><li><strong>C:</strong> Makes a claim about people who <em>dislike</em> the book &mdash; we sampled zero people from this group, so we have no data on them</li><li><strong>D:</strong> Makes a claim about people who <em>like</em> the book &mdash; this is exactly our sampling population, and 95% (which is &quot;most&quot;) disliked the movie</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

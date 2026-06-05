@@ -1,1 +1,23 @@
-{"questionId":"390a8264-19b1-4de0-9dc9-09609eadd7ca_13","correctAnswer":"4","section":"Math","steps":[{"title":"Set up","content":"The function is $g(x)=3x$. Find the value of $x$ such that $g(x)=12$."},{"title":"Solve","content":"$$3x=12$$$$x=4$$"},{"title":"Answer","content":"<strong>4</strong> is correct."}]}
+{
+  "questionId": "390a8264-19b1-4de0-9dc9-09609eadd7ca_13",
+  "correctAnswer": "4",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "The function is $g(x)=3x$. Find the value of $x$ such that $g(x)=12$."
+    },
+    {
+      "title": "Solve",
+      "content": "$$3x=12$$$$x=4$$"
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>4</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $4$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $4$."
+    }
+  ]
+}

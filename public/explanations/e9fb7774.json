@@ -1,1 +1,31 @@
-{"questionId": "e9fb7774", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Translate the question to a formula", "content": "To find what percentage of 300 is 75, we set up: $$\\text{percentage} = \\frac{75}{300} \\times 100$$"}, {"title": "Simplify the fraction and compute", "content": "Simplify $\\frac{75}{300}$ by dividing both by 75 to get $\\frac{1}{4}$. Then: $$\\frac{1}{4} \\times 100 = 25\\%$$"}]}
+{
+  "questionId": "e9fb7774",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the question to a formula",
+      "content": "To find what percentage of 300 is 75, we set up: $$\\text{percentage} = \\frac{75}{300} \\times 100$$"
+    },
+    {
+      "title": "Simplify the fraction and compute",
+      "content": "Simplify $\\frac{75}{300}$ by dividing both by 75 to get $\\frac{1}{4}$. Then: $$\\frac{1}{4} \\times 100 = 25\\%$$"
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice A is correct. Let $x$ represent the percentage of $300$ that is $75$. This can be written as $\\frac{x}{100}\\left(300\\right)=75$, or $3x=75$. Dividing both sides of this equation by $3$ yields $x=25$. Therefore, $25%$ of $300$ is $75$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice B is incorrect. $50%$ of $300$ is $150$, not $75$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice C is incorrect. $75%$ of $300$ is $225$, not $75$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice D is incorrect. $225%$ of $300$ is $675$, not $75$."
+    }
+  ]
+}

@@ -1,1 +1,16 @@
-{"questionId": "dba6a25a", "correctAnswer": "30", "section": "Math", "steps": [{"title": "Use similar triangles to find CA", "content": "Since $\\overline{BD} \\parallel \\overline{AE}$, triangles $CBD$ and $CAE$ are similar by AA similarity (they share angle $C$, and corresponding angles are equal). The similarity ratio is:<br/>$$\\frac{BD}{AE} = \\frac{6}{18} = \\frac{1}{3}$$<br/>From this ratio, corresponding sides are proportional:<br/>$$\\frac{CB}{CA} = \\frac{1}{3}$$<br/>Since $CB = 8$:<br/>$$\\frac{8}{CA} = \\frac{1}{3} \\implies CA = 24$$"}, {"title": "Apply Pythagorean theorem to find CE", "content": "Triangle $CAE$ has a right angle at $A$, with legs $CA = 24$ and $AE = 18$. Using the Pythagorean theorem:<br/>$$CE = \\sqrt{CA^2 + AE^2} = \\sqrt{24^2 + 18^2} = \\sqrt{576 + 324} = \\sqrt{900} = 30$$<br/>The length of $\\overline{CE}$ is <strong>30</strong>.", "formula": "$$c^2 = a^2 + b^2$$"}]}
+{
+  "questionId": "dba6a25a",
+  "correctAnswer": "30",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use similar triangles to find CA",
+      "content": "Since $\\overline{BD} \\parallel \\overline{AE}$, triangles $CBD$ and $CAE$ are similar by AA similarity (they share angle $C$, and corresponding angles are equal). The similarity ratio is:<br/>$$\\frac{BD}{AE} = \\frac{6}{18} = \\frac{1}{3}$$<br/>From this ratio, corresponding sides are proportional:<br/>$$\\frac{CB}{CA} = \\frac{1}{3}$$<br/>Since $CB = 8$:<br/>$$\\frac{8}{CA} = \\frac{1}{3} \\implies CA = 24$$"
+    },
+    {
+      "title": "Apply Pythagorean theorem to find CE",
+      "content": "Triangle $CAE$ has a right angle at $A$, with legs $CA = 24$ and $AE = 18$. Using the Pythagorean theorem:<br/>$$CE = \\sqrt{CA^2 + AE^2} = \\sqrt{24^2 + 18^2} = \\sqrt{576 + 324} = \\sqrt{900} = 30$$<br/>The length of $\\overline{CE}$ is <strong>30</strong>.",
+      "formula": "$$c^2 = a^2 + b^2$$"
+    }
+  ]
+}

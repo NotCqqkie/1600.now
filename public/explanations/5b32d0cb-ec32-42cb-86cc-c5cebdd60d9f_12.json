@@ -1,1 +1,19 @@
-{"questionId": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_12", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Set the appropriate variable to 0", "content": "For the $y$-intercept, set $x=0$ in $y=14^{x}$: $$y=14^{0}.$$"}, {"title": "Compute the intercept", "content": "Any nonzero base to the $0$ power is $1$, so $y=1$ and the $y$-intercept is $(0,1)$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}
+{
+  "questionId": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_12",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the appropriate variable to 0",
+      "content": "For the $y$-intercept, set $x=0$ in $y=14^{x}$: $$y=14^{0}.$$"
+    },
+    {
+      "title": "Compute the intercept",
+      "content": "Any nonzero base to the $0$ power is $1$, so $y=1$ and the $y$-intercept is $(0,1)$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice C, $(0,1)$, and the other choices fail the same setup or substitution. Therefore <strong>C</strong> is correct."
+    }
+  ]
+}

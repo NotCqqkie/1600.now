@@ -5,7 +5,15 @@
   "steps": [
     {
       "title": "Read the intersection point from the graph",
-      "content": "The graphed system's solution is the point where the two lines cross. Tracing both lines, they intersect at $$\\left(\\frac{3}{2}, 0\\right)$$, meaning $$x=\\frac{3}{2}$$ and $$y=0$$."
+      "content": "The solution to a system is its intersection point. Graph each answer-choice system in Desmos and compare its intersection to the displayed graph. The graph's intersection is $\\left(\\frac{3}{2},0\\right)$.",
+      "desmosExpressions": [
+        "y=0",
+        "x=3/2",
+        "y=3/2",
+        "x=0",
+        "x=1",
+        "y=1"
+      ]
     },
     {
       "title": "Eliminate wrong choices and confirm",

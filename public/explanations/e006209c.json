@@ -1,1 +1,15 @@
-{"questionId": "e006209c", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Set up the linear inequality", "content": "Let $x$ = additional samples needed. The total samples collected will be current samples plus additional samples. Since the geologist needs at least 67 samples:<br/>$$63 + x \\geq 67$$"}, {"title": "Solve for the minimum additional samples", "content": "Subtract 63 from both sides:<br/>$$x \\geq 4$$<br/>The minimum number of additional samples is 4. That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "e006209c",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the linear inequality",
+      "content": "Let $x$ = additional samples needed. The total samples collected will be current samples plus additional samples. Since the geologist needs at least 67 samples:<br/>$$63 + x \\geq 67$$"
+    },
+    {
+      "title": "Solve for the minimum additional samples",
+      "content": "Subtract 63 from both sides:<br/>$$x \\geq 4$$<br/>The minimum number of additional samples is 4. That matches choice C — <strong>C</strong> is correct."
+    }
+  ]
+}

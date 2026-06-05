@@ -10,7 +10,9 @@
     {
       "title": "Evaluate at the start of the experiment",
       "content": "Since $x$ represents days after the start, $x = 0$ corresponds to the beginning of the experiment. At this point:<br/>$$f(0) = 39 - 0.18(0) = 39 \\text{ cm}$$<br/>So 39 cm is the height of the fluid at the start. That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": ["y=39-0.2x"]
+      "desmosExpressions": [
+        "y=39-0.2x"
+      ]
     }
   ]
 }

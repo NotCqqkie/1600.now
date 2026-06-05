@@ -1,4 +1,4 @@
-// Auto-generated from official module image assets. Do not edit by hand.
+// Official module image assets. Regenerate from the image library when assets change.
 export interface QuestionImageMapEntry {
   questionImages?: { src: string; alt: string }[];
   choiceImages?: Record<string, string>;

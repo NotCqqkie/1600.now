@@ -1,1 +1,19 @@
-{"questionId": "f3ade8fe-06c3-4b9c-a658-8857621e692f_4", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Set the appropriate variable to 0", "content": "For the $y$-intercept, set $x=0$ in $y=12(5)^{x+2}$: $$y=12\\cdot 5^{0+2}=12\\cdot 25.$$"}, {"title": "Compute the intercept", "content": "This gives $y=300$, so the $y$-intercept is $(0,300)$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}
+{
+  "questionId": "f3ade8fe-06c3-4b9c-a658-8857621e692f_4",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the appropriate variable to 0",
+      "content": "For the $y$-intercept, set $x=0$ in $y=12(5)^{x+2}$: $$y=12\\cdot 5^{0+2}=12\\cdot 25.$$"
+    },
+    {
+      "title": "Compute the intercept",
+      "content": "This gives $y=300$, so the $y$-intercept is $(0,300)$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice C, $(0,300)$. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
+    }
+  ]
+}

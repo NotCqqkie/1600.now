@@ -1,1 +1,21 @@
-{"questionId": "471ccf49-2c32-4c56-9f7e-1788dbe63527_20", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Convert percentage decrease to multiplier and identify time period", "content": "A 3.5% decrease per year means the population is multiplied by $(1 - 0.035) = 0.965$ each year.<br/><br/>From 2005 to 2015: $2015 - 2005 = 10$ years."}, {"title": "Apply the exponential decay formula", "content": "With initial amount 6.32, we multiply by 0.965 for each of the 10 years:<br/>$$6.32 \\times (0.965)^{10}$$<br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "471ccf49-2c32-4c56-9f7e-1788dbe63527_20",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert percentage decrease to multiplier and identify time period",
+      "content": "A $3.5\\%$ decrease per year means the population is multiplied by $1-0.035=0.965$ each year. Use Desmos with $x_1=[0,1]$, $y_1=[6.32,6.32(0.965)]$, and $y_1\\sim a b^{x_1}$.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[6.32,6.32(0.965)]",
+        "y_1~a b^{x_1}",
+        "y=a b^x"
+      ]
+    },
+    {
+      "title": "Apply the exponential decay formula",
+      "content": "Desmos gives $a=6.32$ and $b=0.965$. From 2005 to 2015 is $10$ years, so the expression is $6.32(0.965)^{10}$. That matches choice <strong>D</strong>."
+    }
+  ]
+}

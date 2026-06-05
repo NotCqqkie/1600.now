@@ -1,1 +1,22 @@
-{"questionId":"6dccbef1-7688-4e9c-bc89-87f46af60ab3_13","correctAnswer":"B","section":"Math","steps":[{"title":"Simplify the equation","content":"Subtract $37$ from both sides: $$(x+k)^{2}=0.$$"},{"title":"Interpret the count","content":"A perfect square equals $0$ only when its base is $0$, giving the single solution $x=-k$. That matches choice <strong>B</strong> &mdash; <strong>B</strong> is correct.", "desmosExpressions": ["y = (x + k)^{2}"]}]}
+{
+  "questionId": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_13",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify the equation",
+      "content": "Subtract $37$ from both sides: $$(x+k)^{2}=0.$$"
+    },
+    {
+      "title": "Interpret the count",
+      "content": "A perfect square equals $0$ only when its base is $0$, giving the single solution $x=-k$. That matches choice <strong>B</strong> &mdash; <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "y = (x + k)^{2}"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice B, Exactly one, and the other choices fail the same setup or substitution. Therefore <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,31 @@
-{"questionId":"fd65f47f","correctAnswer":"D","section":"Math","steps":[{"title":"Distribute and combine like terms","content":"Drop the parentheses and combine like terms:$$=2x^2+x-9+x^2+6x+1$$$$=3x^2+7x-8$$"},{"title":"Match to the answer choices","content":"The simplified expression is $3x^2+7x-8$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "fd65f47f",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute and combine like terms",
+      "content": "Drop the parentheses and combine like terms:$$=2x^2+x-9+x^2+6x+1$$$$=3x^2+7x-8$$"
+    },
+    {
+      "title": "Match to the answer choices",
+      "content": "The simplified expression is $3x^2+7x-8$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice D is correct. The given expression is equivalent to $\\left(2{x}^{2}+x+\\left(-9\\right)\\right)+\\left({x}^{2}+6x+1\\right)$, which can be rewritten as $\\left(2{x}^{2}+{x}^{2}\\right)+\\left(x+6x\\right)+\\left(-9+1\\right)$. Adding like terms in this expression yields $3{x}^{2}+7x+\\left(-8\\right)$, or $3{x}^{2}+7x-8$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A is incorrect and may result from conceptual or calculation errors."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice B is incorrect and may result from conceptual or calculation errors."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice C is incorrect and may result from conceptual or calculation errors."
+    }
+  ]
+}

@@ -1,1 +1,23 @@
-{"questionId": "390a8264-19b1-4de0-9dc9-09609eadd7ca_18", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Find total area to cover", "content": "The deck has d square feet. Covering it <strong>twice</strong> means a total coverage area of 2d square feet."}, {"title": "Calculate gallons needed", "content": "One gallon covers 250 sq ft, so gallons needed = $$\\frac{2d}{250} = \\frac{d}{125}$$"}, {"title": "Calculate cost", "content": "Cost = gallons &times; price per gallon = $$\\frac{d}{125} \\times 23 = 23\\!\\left(\\frac{d}{125}\\right)$$"}, {"title": "Evaluate each choice", "content": "<ul><li><strong>Choice A &mdash; 'c = 250d / 23'</strong>: This inverts the ratio &mdash; it multiplies by 250 instead of dividing, giving a cost far too large. &#10007;</li><li><strong>Choice B &mdash; 'c = 500d / 23'</strong>: Accounts for double coverage (500 = 2 &times; 250) in the numerator but the algebra is inverted &mdash; gallons should be d/250, not 250d. &#10007;</li><li><strong>Choice C &mdash; 'c = 23(d / 125)'</strong>: Divides by 125 (= 250/2) to account for double coverage, then multiplies by $23. This correctly gives c = 23d/125 = 46d/250, i.e. the cost for 2d sq ft at $23 per 250 sq ft. &#10003;</li><li><strong>Choice D &mdash; 'c = 23(d / 250)'</strong>: Gives the cost for covering the deck only once, not twice. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "390a8264-19b1-4de0-9dc9-09609eadd7ca_18",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find total area to cover",
+      "content": "The deck has d square feet. Covering it <strong>twice</strong> means a total coverage area of 2d square feet."
+    },
+    {
+      "title": "Calculate gallons needed",
+      "content": "One gallon covers 250 sq ft, so gallons needed = $$\\frac{2d}{250} = \\frac{d}{125}$$"
+    },
+    {
+      "title": "Calculate cost",
+      "content": "Cost = gallons &times; price per gallon = $$\\frac{d}{125} \\times 23 = 23\\!\\left(\\frac{d}{125}\\right)$$"
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; 'c = 250d / 23'</strong>: This inverts the ratio &mdash; it multiplies by 250 instead of dividing, giving a cost far too large. &#10007;</li><li><strong>Choice B &mdash; 'c = 500d / 23'</strong>: Accounts for double coverage (500 = 2 &times; 250) in the numerator but the algebra is inverted &mdash; gallons should be d/250, not 250d. &#10007;</li><li><strong>Choice C &mdash; 'c = 23(d / 125)'</strong>: Divides by 125 (= 250/2) to account for double coverage, then multiplies by $23. This correctly gives c = 23d/125 = 46d/250, i.e. the cost for 2d sq ft at $23 per 250 sq ft. &#10003;</li><li><strong>Choice D &mdash; 'c = 23(d / 250)'</strong>: Gives the cost for covering the deck only once, not twice. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

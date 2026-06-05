@@ -9,8 +9,19 @@
     },
     {
       "title": "Solve for the parametric form of points on the line",
-      "content": "From $8x + 7y = 9$, solve for $y$: $$7y = -8x + 9$$ $$y = -\\frac{8x}{7} + \\frac{9}{7}$$ Using $r$ as the parameter (so $x = r$), points on the line are $(r, -\\frac{8r}{7} + \\frac{9}{7})$ for each real number $r$. That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": ["y = (9 - 8x)/7", "y = (27 - 24x)/21"]
+      "content": "Define $L(x,y)=8x+7y$. A correct parametrization must make $L(x,y)=9$ for every value of $r$. Set $r=[0,1]$ and evaluate each choice. Choice A returns $[9,9]$, so it works for the whole line.",
+      "desmosExpressions": [
+        "r=[0,1]",
+        "L(x,y)=8x+7y",
+        "L(r,-8r/7+9/7)",
+        "L(-8r/7+9/7,r)",
+        "L(-8r/7+9,8r/7+27)",
+        "L(r/3+9,-r/3+27)"
+      ]
+    },
+    {
+      "title": "Confirm choice A",
+      "content": "For choice A, $x=r$ and $y=-\\frac{8r}{7}+\\frac{9}{7}$. Substitution gives $8r+7\\left(-\\frac{8r}{7}+\\frac{9}{7}\\right)=8r-8r+9=9$, true for every $r$. Choice <strong>A</strong> is correct."
     }
   ]
 }

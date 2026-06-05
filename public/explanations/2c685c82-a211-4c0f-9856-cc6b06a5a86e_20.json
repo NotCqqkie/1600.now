@@ -1,1 +1,23 @@
-{"questionId":"2c685c82-a211-4c0f-9856-cc6b06a5a86e_20","correctAnswer":"31","section":"Math","steps":[{"title":"Rearrange to standard quadratic form","content":"Move all terms to one side: $(k-24)x^2 - 16x + 8 = 0$. So $a = k-24$, $b = -16$, $c = 8$."},{"title":"Discriminant shortcut: b² - 4ac > 0 for two distinct real roots","content":"Plug in: $(-16)^2 - 4(k-24)(8) > 0$<br/>$256 - 32(k-24) > 0$<br/>$1024 - 32k > 0$<br/>$k < 32$","formula":"$$\\Delta = b^2 - 4ac > 0$$","desmosExpressions":["256 - 32(k-24) = 0"]},{"title":"Greatest integer k","content":"Since $k$ must be an integer with $k < 32$, the greatest value is $k = 31$. That matches choice 31 — <strong>31</strong> is correct."}]}
+{
+  "questionId": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_20",
+  "correctAnswer": "31",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rearrange to standard quadratic form",
+      "content": "Move all terms to one side: $(k-24)x^2 - 16x + 8 = 0$. So $a = k-24$, $b = -16$, $c = 8$."
+    },
+    {
+      "title": "Discriminant shortcut: b² - 4ac > 0 for two distinct real roots",
+      "content": "Plug in: $(-16)^2 - 4(k-24)(8) > 0$<br/>$256 - 32(k-24) > 0$<br/>$1024 - 32k > 0$<br/>$k < 32$",
+      "formula": "$$\\Delta = b^2 - 4ac > 0$$",
+      "desmosExpressions": [
+        "256 - 32(k-24) = 0"
+      ]
+    },
+    {
+      "title": "Greatest integer k",
+      "content": "Since $k$ must be an integer with $k < 32$, the greatest value is $k = 31$. That matches choice 31 — <strong>31</strong> is correct."
+    }
+  ]
+}

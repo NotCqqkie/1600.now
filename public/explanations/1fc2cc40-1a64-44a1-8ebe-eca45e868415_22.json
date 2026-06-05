@@ -1,1 +1,24 @@
-{"questionId": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_22", "correctAnswer": "13/2,6.5", "section": "Math", "steps": [{"title": "Set w(r) equal to zero", "content": "When $w(r) = 0$, we have:<br/>$$\\frac{1}{r-8} - \\frac{r-5}{-r+4.25} = 0$$<br/>Move the second fraction to the right side:<br/>$$\\frac{1}{r-8} = \\frac{r-5}{-r+4.25}$$"}, {"title": "Simplify the right side and cross-multiply", "content": "Since $-r + 4.25 = -(r - 4.25)$, we can rewrite:<br/>$$\\frac{1}{r-8} = -\\frac{r-5}{r-4.25}$$<br/>Cross-multiplying:<br/>$$(r - 4.25) = -(r-5)(r-8)$$"}, {"title": "Expand and form a quadratic equation", "content": "Expand $(r-5)(r-8) = r^2 - 13r + 40$:<br/>$$r - 4.25 = -r^2 + 13r - 40$$<br/>Rearrange to standard form:<br/>$$r^2 - 12r + 35.75 = 0$$<br/>Multiply by 4 to clear the decimal:<br/>$$4r^2 - 48r + 143 = 0$$"}, {"title": "Solve using the quadratic formula", "content": "With $a = 4$, $b = -48$, and $c = 143$:<br/>$$r = \\frac{48 \\pm \\sqrt{2304 - 2288}}{8} = \\frac{48 \\pm \\sqrt{16}}{8} = \\frac{48 \\pm 4}{8}$$<br/>The two solutions are $r = \\frac{52}{8} = \\frac{13}{2}$ and $r = \\frac{44}{8} = \\frac{11}{2}$. The greatest possible value is $\\frac{13}{2}$ or $6.5$.<br/><br/>Equivalent forms accepted: <strong>13/2</strong>, <strong>6.5</strong>.", "formula": "$$r = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$$"}]}
+{
+  "questionId": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_22",
+  "correctAnswer": "13/2,6.5",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set w(r) equal to zero",
+      "content": "When $w(r) = 0$, we have:<br/>$$\\frac{1}{r-8} - \\frac{r-5}{-r+4.25} = 0$$<br/>Move the second fraction to the right side:<br/>$$\\frac{1}{r-8} = \\frac{r-5}{-r+4.25}$$"
+    },
+    {
+      "title": "Simplify the right side and cross-multiply",
+      "content": "Since $-r + 4.25 = -(r - 4.25)$, we can rewrite:<br/>$$\\frac{1}{r-8} = -\\frac{r-5}{r-4.25}$$<br/>Cross-multiplying:<br/>$$(r - 4.25) = -(r-5)(r-8)$$"
+    },
+    {
+      "title": "Expand and form a quadratic equation",
+      "content": "Expand $(r-5)(r-8) = r^2 - 13r + 40$:<br/>$$r - 4.25 = -r^2 + 13r - 40$$<br/>Rearrange to standard form:<br/>$$r^2 - 12r + 35.75 = 0$$<br/>Multiply by 4 to clear the decimal:<br/>$$4r^2 - 48r + 143 = 0$$"
+    },
+    {
+      "title": "Solve using the quadratic formula",
+      "content": "With $a = 4$, $b = -48$, and $c = 143$:<br/>$$r = \\frac{48 \\pm \\sqrt{2304 - 2288}}{8} = \\frac{48 \\pm \\sqrt{16}}{8} = \\frac{48 \\pm 4}{8}$$<br/>The two solutions are $r = \\frac{52}{8} = \\frac{13}{2}$ and $r = \\frac{44}{8} = \\frac{11}{2}$. The greatest possible value is $\\frac{13}{2}$ or $6.5$.<br/><br/>Equivalent forms accepted: <strong>13/2</strong>, <strong>6.5</strong>.",
+      "formula": "$$r = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$$"
+    }
+  ]
+}

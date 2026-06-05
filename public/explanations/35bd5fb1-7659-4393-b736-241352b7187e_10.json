@@ -5,12 +5,12 @@
   "steps": [
     {
       "title": "Identify the midsegment",
-      "content": "D is the midpoint of AB and E is the midpoint of BC, so DE is the midsegment of triangle ABC connecting midpoints of two sides. By the Triangle Midsegment Theorem, DE is parallel to AC and \\(DE = \\frac{1}{2} AC\\).",
+      "content": "D is the midpoint of AB and E is the midpoint of BC, so DE is the midsegment of triangle ABC connecting midpoints of two sides. By the Triangle Midsegment Theorem, DE is parallel to AC and $DE = \\frac{1}{2} AC$.",
       "formula": "$$DE = \\frac{1}{2} AC$$"
     },
     {
       "title": "Solve for AC and test all choices",
-      "content": "$$AC = 2 \\times DE = 2 \\times 14 = 28$$<ul><li><strong>Choice A &mdash; 28</strong>: \\(2 \\times 14 = 28\\). &#10003;</li><li><strong>Choice B &mdash; 26</strong>: Does not equal \\(2 \\times 14\\). &#10007;</li><li><strong>Choice C &mdash; 22</strong>: Does not equal \\(2 \\times 14\\). &#10007;</li><li><strong>Choice D &mdash; 16</strong>: Equals \\(BD + DE = 8 + 14 - 6\\)? No valid derivation gives 16. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "$$AC = 2 \\times DE = 2 \\times 14 = 28$$<ul><li><strong>Choice A &mdash; 28</strong>: $2 \\times 14 = 28$. &#10003;</li><li><strong>Choice B &mdash; 26</strong>: Does not equal $2 \\times 14$. &#10007;</li><li><strong>Choice C &mdash; 22</strong>: Does not equal $2 \\times 14$. &#10007;</li><li><strong>Choice D &mdash; 16</strong>: Equals $BD + DE = 8 + 14 - 6$? No valid derivation gives 16. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ],
   "desmosExpressions": []

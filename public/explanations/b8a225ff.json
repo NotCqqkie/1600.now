@@ -10,7 +10,10 @@
     {
       "title": "Find Circle B's radius and the value of k",
       "content": "Circle B has the same center but its radius is twice Circle A's: $r_B = 2 \\times 2 = 4$. <br/>Since $k$ in the equation $(x+5)^2 + (y-5)^2 = k$ represents the square of the radius, $k = r_B^2 = 4^2 = 16$.",
-      "desmosExpressions": ["(x+5)^2 + (y-5)^2 = 4", "(x+5)^2 + (y-5)^2 = 16"]
+      "desmosExpressions": [
+        "(x+5)^2 + (y-5)^2 = 4",
+        "(x+5)^2 + (y-5)^2 = 16"
+      ]
     }
   ]
 }

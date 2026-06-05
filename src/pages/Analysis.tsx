@@ -2,7 +2,8 @@ import { type ReactNode, useMemo, useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "@/contexts/AuthContext";
 import { useUserProgress } from "@/hooks/useUserProgress";
-import { getBankPool, type BankSubject } from "@/data/questionBank";
+import type { BankSubject } from "@/data/bankTypes";
+import { getBankQuestionMetaRows } from "@/data/bankQuestionMetadata";
 import { Button } from "@/components/ui/button";
 import {
   AreaChart,
@@ -42,14 +43,14 @@ const buildLiveCategoryMap = (): Record<string, CategoryMapItem> => {
   if (cachedLiveCategoryMap) return cachedLiveCategoryMap;
   const map: Record<string, CategoryMapItem> = {};
   try {
-    for (const q of getBankPool("math", "all")) {
+    for (const q of getBankQuestionMetaRows("math", "all")) {
       map[q.stableId] = {
         subject: "math",
         domain: q.category.domain,
         skill: q.category.skill,
       };
     }
-    for (const q of getBankPool("reading", "all")) {
+    for (const q of getBankQuestionMetaRows("reading", "all")) {
       map[q.stableId] = {
         subject: "reading",
         domain: q.category.domain,
@@ -759,10 +760,11 @@ const PastTestsStrip = ({ results }: { results: PracticeTestResult[] }) => {
 const Analysis = () => {
   const navigate = useNavigate();
   const { user } = useAuth();
+  const uid = user?.id ?? null;
   const { progress } = useUserProgress();
   const isDarkMode = useThemeMode();
   const liveCategoryMap = useMemo(() => buildLiveCategoryMap(), []);
-  const pastTests = useMemo(() => getAllPracticeTestResults(), []);
+  const pastTests = useMemo(() => getAllPracticeTestResults(uid), [uid]);
 
   useEffect(() => {
     const link = document.createElement("link");
@@ -1028,7 +1030,7 @@ const Analysis = () => {
       readingSlowestTypes: buildTimeItems("reading", "desc", "skill"),
       dailyCounts,
     };
-  }, [progress]);
+  }, [liveCategoryMap, progress]);
 
   const accuracy =
     stats.totalAttempted > 0

@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Sum the numbers",
-      "content": "$$2 + 10 + 3 + 7 + 6 = 28$$"
+      "title": "Use the definition of mean",
+      "content": "The mean of a list is<br/>$$\\frac{\\text{sum of the values}}{\\text{number of values}}$$<br/>There are $5$ numbers, so the mean is automatically $\\frac{1}{5}$ of the sum."
     },
     {
-      "title": "Calculate the mean",
-      "content": "$$\\text{Mean} = \\frac{28}{5}$$"
-    },
-    {
-      "title": "Express mean as a fraction of the sum",
-      "content": "$$\\frac{\\text{Mean}}{\\text{Sum}} = \\frac{28/5}{28} = \\frac{28}{5} \\times \\frac{1}{28} = \\frac{1}{5}$$"
+      "title": "Confirm with the actual sum",
+      "content": "The sum is $2+10+3+7+6=28$, and the mean is $\\frac{28}{5}$. As a fraction of the sum,<br/>$$\\frac{28/5}{28}=\\frac{1}{5}=0.2$$<br/>Accepted entries include <strong>1/5</strong>, <strong>0.2</strong>, or <strong>.2</strong>."
     }
   ]
 }

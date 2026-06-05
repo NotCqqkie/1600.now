@@ -1,1 +1,20 @@
-{"questionId": "ea6d05bb", "correctAnswer": "-419", "section": "Math", "steps": [{"title": "Expand the expression using FOIL", "content": "Apply FOIL to $(3x-23)(19x+6)$:<ul><li><strong>First:</strong> $3x \\cdot 19x = 57x^2$</li><li><strong>Outer:</strong> $3x \\cdot 6 = 18x$</li><li><strong>Inner:</strong> $-23 \\cdot 19x = -437x$</li><li><strong>Last:</strong> $-23 \\cdot 6 = -138$</li></ul>Combining all terms:<br/>$$57x^2 + 18x - 437x - 138$$"}, {"title": "Combine like terms to find b", "content": "The $x$ terms are $18x$ and $-437x$. Their sum is:<br/>$$18x - 437x = -419x$$<br/>Therefore, the expanded form is $57x^2 - 419x - 138$, which means $b = -419$."}]}
+{
+  "questionId": "ea6d05bb",
+  "correctAnswer": "-419",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use quadratic table regression for the coefficient",
+      "content": "The product is equivalent to $ax^2+bx+c$, so evaluate the product at three easy $x$-values and regress those outputs to a quadratic. Desmos then gives the middle coefficient directly.",
+      "desmosExpressions": [
+        "x_1=[0,1,2]",
+        "y_1=(3x_1-23)(19x_1+6)",
+        "y_1~a x_1^2+b x_1+c"
+      ]
+    },
+    {
+      "title": "Read b and confirm the arithmetic",
+      "content": "The regression returns $b=-419$. By hand, the $x$-terms from FOIL are $3x\\cdot6=18x$ and $-23\\cdot19x=-437x$, so<br/>$$18x-437x=-419x$$<br/>Therefore the value of $b$ is <strong>-419</strong>."
+    }
+  ]
+}

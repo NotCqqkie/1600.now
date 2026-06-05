@@ -1,1 +1,18 @@
-{"questionId": "9f70fd47", "correctAnswer": "189/5", "section": "Math", "steps": [{"title": "Substitute x = 0 into the equation", "content": "The $y$-intercept is where the graph crosses the $y$-axis, which occurs when $x = 0$. Substituting into the given equation:<br/>$$\\frac{3(0)}{7}=-\\frac{5y}{9}+21$$<br/>$$0=-\\frac{5y}{9}+21$$"}, {"title": "Solve for y", "content": "Add $\\frac{5y}{9}$ to both sides:<br/>$$\\frac{5y}{9}=21$$<br/>Multiply both sides by 9:<br/>$$5y = 189$$<br/>Divide by 5:<br/>$$y = \\frac{189}{5}$$", "desmosExpressions": ["\\frac{3x}{7}=-\\frac{5y}{9}+21"]}]}
+{
+  "questionId": "9f70fd47",
+  "correctAnswer": "189/5",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x = 0 into the equation",
+      "content": "The $y$-intercept is where the graph crosses the $y$-axis, which occurs when $x = 0$. Substituting into the given equation:<br/>$$\\frac{3(0)}{7}=-\\frac{5y}{9}+21$$<br/>$$0=-\\frac{5y}{9}+21$$"
+    },
+    {
+      "title": "Solve for y",
+      "content": "Add $\\frac{5y}{9}$ to both sides:<br/>$$\\frac{5y}{9}=21$$<br/>Multiply both sides by 9:<br/>$$5y = 189$$<br/>Divide by 5:<br/>$$y = \\frac{189}{5}$$",
+      "desmosExpressions": [
+        "\\frac{3x}{7}=-\\frac{5y}{9}+21"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,23 @@
-{"questionId":"d327ac24-d8f4-466e-a351-90aa6dbe87e3_8","correctAnswer":"C","section":"Math","steps":[{"title":"Set up","content":"\"5% of $w$ is 741.41\" translates directly to: $$0.05w = 741.41$$"},{"title":"Solve","content":"Divide both sides by 0.05 (equivalently, multiply by 20): $$w = 741.41 × 20 = 14{,}828.2$$"},{"title":"Answer","content":"<strong>C</strong> is correct."}]}
+{
+  "questionId": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_8",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "\"5% of $w$ is 741.41\" translates directly to: $$0.05w = 741.41$$"
+    },
+    {
+      "title": "Solve",
+      "content": "Divide both sides by 0.05 (equivalently, multiply by 20): $$w = 741.41 × 20 = 14{,}828.2$$"
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>C</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice C, 14,828.2, and the other choices fail the same setup or substitution. Therefore <strong>C</strong> is correct."
+    }
+  ]
+}

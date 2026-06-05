@@ -4,23 +4,23 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Eliminate the negative-slope choices",
-      "content": "The scatterplot shows a clear positive trend — as $x$ increases, $y$ increases. Choices C ($y = -0.8x + 3$) and D ($y = -3x + 0.8$) both have negative slopes and predict the opposite trend, so they are eliminated."
+      "title": "Use the trend and two anchor points",
+      "content": "The scatterplot has a strong positive trend, so choices C and D are out because their slopes are negative. To choose between the two positive-slope lines, use the approximate leftmost and rightmost data points from the graph: $(1,4)$ and $(8,26)$."
     },
     {
-      "title": "Compare the two positive-slope choices at a data point",
-      "content": "The rightmost data point is near $(8, 26)$.<br/>Choice B predicts $y = 0.8(8) + 3 = 9.4$ — far below the actual value.<br/>Choice A predicts $y = 3(8) + 0.8 = 24.8$ — very close to 26.<br/>Choice A also matches the leftmost point near $(1, 4)$: $y = 3(1) + 0.8 = 3.8$. That matches choice A — <strong>A</strong> is correct.",
+      "title": "Run the quick Desmos regression",
+      "content": "Enter the two anchor points as $x_1=[1,8]$ and $y_1=[4,26]$, then run $y_1\\sim m x_1+b$. Desmos gives a slope a little above $3$ and a y-intercept a little below $1$, so the line should look close to $y=3x+0.8$.",
       "desmosExpressions": [
-        "(1, 4)",
-        "(2, 7)",
-        "(3, 10)",
-        "(4, 13)",
-        "(5, 15)",
-        "(6, 18)",
-        "(7, 22)",
-        "(8, 26)",
-        "y = 3x + 0.8"
+        "x_1=[1,8]",
+        "y_1=[4,26]",
+        "y_1~m x_1+b",
+        "y=3x+0.8",
+        "y=0.8x+3"
       ]
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "Choice B, $y=0.8x+3$, predicts only $9.4$ when $x=8$, far below the rightmost point near $26$. Choice A, $y=3x+0.8$, predicts $24.8$ when $x=8$ and $3.8$ when $x=1$, which stays close to both anchor points. Therefore <strong>A</strong> is correct."
     }
   ]
 }

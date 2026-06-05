@@ -1,1 +1,15 @@
-{"questionId": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_19", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Substitute the value x = 3", "content": "Replace $x$ with $3$ in $$h(x) = 14 \\cdot 2^{-x} + 7.$$ This gives $$h(3) = 14 \\cdot 2^{-3} + 7.$$"}, {"title": "Compute the result", "content": "Simplify: $$h(3) = \\frac{14}{8} + 7 = \\frac{7}{4} + 7 = \\frac{35}{4}.$$ That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}
+{
+  "questionId": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_19",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the value x = 3",
+      "content": "Replace $x$ with $3$ in $$h(x) = 14 \\cdot 2^{-x} + 7.$$ This gives $$h(3) = 14 \\cdot 2^{-3} + 7.$$"
+    },
+    {
+      "title": "Compute the result",
+      "content": "Simplify: $$h(3) = \\frac{14}{8} + 7 = \\frac{7}{4} + 7 = \\frac{35}{4}.$$ That matches choice <strong>B</strong> — <strong>B</strong> is correct."
+    }
+  ]
+}

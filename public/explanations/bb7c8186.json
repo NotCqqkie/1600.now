@@ -5,8 +5,24 @@
   "steps": [
     {
       "title": "Calculate 23% of 100",
-      "content": "To find 23% of 100, convert the percentage to decimal form: $23\\% = 0.23$. Multiply this by 100: $0.23 \\times 100 = 23$. That matches choice A \u2014 <strong>A</strong> is correct.",
+      "content": "To find 23% of 100, convert the percentage to decimal form: $23\\% = 0.23$. Multiply this by 100: $0.23 \\times 100 = 23$. That matches choice A — <strong>A</strong> is correct.",
       "formula": "$$\\text{Percentage of a number} = \\frac{\\text{percent}}{100} \\times \\text{number}$$"
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice A is correct. $23%$ of $100$ can be calculated by multiplying $\\frac{23}{100}$ by $100$, which yields $\\left(\\frac{23}{100}\\right)100$, or $23$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice B is incorrect. This is $46%$, not $23%$, of $100$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice C is incorrect. This is $23%$ less than $100$, not $23%$ of $100$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice D is incorrect. This is $23%$ greater than $100$, not $23%$ of $100$."
     }
   ]
 }

@@ -1,1 +1,23 @@
-{"questionId": "f196343a-4470-4649-8efb-edf349dd4393_12", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Identify what controls margin of error", "content": "The margin of error for a proportion estimate is $$\\text{MOE} = z^* \\sqrt{\\frac{\\hat{p}(1-\\hat{p})}{n}}$$, where $$n$$ is the sample size. The MOE is inversely proportional to $$\\sqrt{n}$$: larger samples produce smaller margins of error."}, {"title": "Determine the effect of doubling n", "content": "The sample size doubles from 159 to 318. The new MOE scales by the factor:<br/>$$\\frac{\\text{MOE}_{\\text{new}}}{\\text{MOE}_{\\text{old}}} = \\sqrt{\\frac{159}{318}} = \\sqrt{\\frac{1}{2}} \\approx 0.707$$<br/>New MOE \\(\\approx 5.05\\% \\times 0.707 \\approx 3.57\\%\\), which is lower."}, {"title": "Note that the point estimate is unaffected", "content": "Increasing sample size makes the estimate more precise (smaller MOE), but does not systematically shift the estimate itself up or down. The 88% figure is expected to remain approximately the same."}, {"title": "Eliminate wrong choices", "content": "<ul><li>Choice A: The margin of error will be lower — correct; larger sample shrinks MOE.</li><li>Choice B: The margin of error will be higher — wrong; larger $$n$$ reduces MOE, not increases it. Eliminated.</li><li>Choice C: The estimate will be lower — wrong; sample size does not bias the estimate downward. Eliminated.</li><li>Choice D: The estimate will be higher — wrong; same reasoning, the estimate is not systematically shifted. Eliminated.</li></ul>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "f196343a-4470-4649-8efb-edf349dd4393_12",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what controls margin of error",
+      "content": "The margin of error for a proportion estimate is $$\\text{MOE} = z^* \\sqrt{\\frac{\\hat{p}(1-\\hat{p})}{n}}$$, where $$n$$ is the sample size. The MOE is inversely proportional to $$\\sqrt{n}$$: larger samples produce smaller margins of error."
+    },
+    {
+      "title": "Determine the effect of doubling n",
+      "content": "The sample size doubles from 159 to 318. The new MOE scales by the factor:<br/>$$\\frac{\\text{MOE}_{\\text{new}}}{\\text{MOE}_{\\text{old}}} = \\sqrt{\\frac{159}{318}} = \\sqrt{\\frac{1}{2}} \\approx 0.707$$<br/>New MOE $\\approx 5.05\\% \\times 0.707 \\approx 3.57\\%$, which is lower."
+    },
+    {
+      "title": "Note that the point estimate is unaffected",
+      "content": "Increasing sample size makes the estimate more precise (smaller MOE), but does not systematically shift the estimate itself up or down. The 88% figure is expected to remain approximately the same."
+    },
+    {
+      "title": "Eliminate wrong choices",
+      "content": "<ul><li>Choice A: The margin of error will be lower — correct; larger sample shrinks MOE.</li><li>Choice B: The margin of error will be higher — wrong; larger $$n$$ reduces MOE, not increases it. Eliminated.</li><li>Choice C: The estimate will be lower — wrong; sample size does not bias the estimate downward. Eliminated.</li><li>Choice D: The estimate will be higher — wrong; same reasoning, the estimate is not systematically shifted. Eliminated.</li></ul>That matches choice A — <strong>A</strong> is correct."
+    }
+  ]
+}

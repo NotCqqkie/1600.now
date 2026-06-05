@@ -1,1 +1,19 @@
-{"questionId":"c6e85cd7","correctAnswer":".2916","section":"Math","steps":[{"title":"Apply the exponent rule from the given condition","content":"Rewrite the right side: $\\sqrt[3]{4^{7}} = 4^{7/3}$. Equate exponents: $8c = \\tfrac{7}{3}$."},{"title":"Compute the target value","content":"Divide by $8$: $c = \\tfrac{7}{24} \\approx 0.2916$. The answer is <strong>.2916</strong>."}]}
+{
+  "questionId": "c6e85cd7",
+  "correctAnswer": ".2916",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the exponent rule from the given condition",
+      "content": "Rewrite the right side: $\\sqrt[3]{4^{7}} = 4^{7/3}$. Equate exponents: $8c = \\tfrac{7}{3}$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "Divide by $8$: $c = \\tfrac{7}{24} \\approx 0.2916$. The answer is <strong>.2916</strong>."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $\\frac{7}{24}$. An expression of the form $\\sqrt[n]{{a}^{m}}$, where $m$ and $n$ are integers greater than $1$ and $a\\ge0$, is equivalent to ${a}^{\\frac{m}{n}}$. Therefore, the expression on the right-hand side of the given equation, $\\sqrt[3]{{4}^{7}}$, is equivalent to ${4}^{\\frac{7}{3}}$. Thus, ${4}^{8c}={4}^{\\frac{7}{3}}$. It follows that $8c=\\frac{7}{3}$. Dividing both sides of this equation by $8$ yields $c=\\frac{7}{24}$. Note that 7/24,.2916,.2917, 0.219, and 0.292 are examples of ways to enter a correct answer."
+    }
+  ]
+}

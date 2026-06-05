@@ -1,1 +1,23 @@
-{"questionId": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_1", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Solve the system by substitution", "content": "Substitute $y=3$ into the first equation: $$x+5(3)=17.$$ Then $x=17-15=2$."}, {"title": "Find the matching ordered pair", "content": "With $x=2$ and $y=3$, the ordered pair is $(2, 3)$. That matches choice <strong>D</strong> — <strong>D</strong> is correct.", "desmosExpressions": ["y = \\frac{17 - x}{5}", "y = 3"]}]}
+{
+  "questionId": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_1",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve the system by substitution",
+      "content": "Substitute $y=3$ into the first equation: $$x+5(3)=17.$$ Then $x=17-15=2$."
+    },
+    {
+      "title": "Find the matching ordered pair",
+      "content": "With $x=2$ and $y=3$, the ordered pair is $(2, 3)$. That matches choice <strong>D</strong> — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "y = \\frac{17 - x}{5}",
+        "y = 3"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice D, $(2, 3)$, and the other choices fail the same setup or substitution. Therefore <strong>D</strong> is correct."
+    }
+  ]
+}

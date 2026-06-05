@@ -1,1 +1,23 @@
-{"questionId":"92f812bb","correctAnswer":"D","section":"Math","steps":[{"title":"Use vertex form and determine the sign of a","content":"With vertex $(9, -14)$ the parabola is $y = a(x - 9)^2 - 14$. Since it crosses the x-axis at two points and the vertex is below the x-axis, the parabola opens upward, so $a > 0$."},{"title":"Express $a + b + c$ using $f(1)$","content":"In $y = ax^2 + bx + c$, plugging $x = 1$ gives $f(1) = a + b + c$. Using vertex form:<br/>$$a + b + c = a(1 - 9)^2 - 14 = 64a - 14$$"},{"title":"Apply the constraint $a > 0$","content":"Since $a > 0$, we need $64a - 14 > -14$, so $a + b + c > -14$."},{"title":"Evaluate each choice","content":"<ul><li>$-23$: less than $-14$ — impossible, eliminate.</li><li>$-19$: less than $-14$ — impossible, eliminate.</li><li>$-14$: would require $a = 0$, not a parabola — eliminate.</li><li>$-12$: gives $64a - 14 = -12$, so $a = \\frac{1}{32} > 0$ — works.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "92f812bb",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use vertex form and determine the sign of a",
+      "content": "With vertex $(9, -14)$ the parabola is $y = a(x - 9)^2 - 14$. Since it crosses the x-axis at two points and the vertex is below the x-axis, the parabola opens upward, so $a > 0$."
+    },
+    {
+      "title": "Express $a + b + c$ using $f(1)$",
+      "content": "In $y = ax^2 + bx + c$, plugging $x = 1$ gives $f(1) = a + b + c$. Using vertex form:<br/>$$a + b + c = a(1 - 9)^2 - 14 = 64a - 14$$"
+    },
+    {
+      "title": "Apply the constraint $a > 0$",
+      "content": "Since $a > 0$, we need $64a - 14 > -14$, so $a + b + c > -14$."
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li>$-23$: less than $-14$ — impossible, eliminate.</li><li>$-19$: less than $-14$ — impossible, eliminate.</li><li>$-14$: would require $a = 0$, not a parabola — eliminate.</li><li>$-12$: gives $64a - 14 = -12$, so $a = \\frac{1}{32} > 0$ — works.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

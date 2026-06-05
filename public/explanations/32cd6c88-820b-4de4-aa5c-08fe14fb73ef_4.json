@@ -1,1 +1,25 @@
-{"questionId":"32cd6c88-820b-4de4-aa5c-08fe14fb73ef_4","correctAnswer":"A","section":"Math","steps":[{"title":"Read the table","content":"The table gives three points: $(0,22)$, $(1,23)$, and $(2,24)$."},{"title":"Find slope and intercept","content":"Using $(0,22)$ and $(1,23)$, the slope is $m=\\frac{23-22}{1-0}=1$. The $y$-intercept is the $y$-value at $x=0$, which is $22$. So $y=x+22$. Check $(2,24)$: $2+22=24$. Confirmed."},{"title":"Evaluate each choice","content":"<ul><li>A) $y=x+22$ &mdash; slope $1$, intercept $22$. Matches all three points.</li><li>B) $y=24x$ &mdash; at $x=0$ gives $y=0$, not $22$. Eliminated.</li><li>C) $y=24x+2$ &mdash; at $x=0$ gives $y=2$, not $22$. Eliminated.</li><li>D) $y=22x$ &mdash; at $x=0$ gives $y=0$, not $22$. Eliminated.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_4",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use Desmos to fit the table",
+      "content": "Enter the table points as lists: $x_1=[0,1,2]$ and $y_1=[22,23,24]$. Then type the linear regression row $y_1 \\sim m x_1+b$. Desmos gives $m=1$ and $b=22$, so the equation is $y=x+22$.",
+      "desmosExpressions": [
+        "x_1=[0,1,2]",
+        "y_1=[22,23,24]",
+        "y_1~m x_1+b",
+        "y=x+22"
+      ]
+    },
+    {
+      "title": "Check the model against the table",
+      "content": "The model gives $y=22$ when $x=0$, $y=23$ when $x=1$, and $y=24$ when $x=2$. All three rows match, so the Desmos model is reliable."
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li>A) $y=x+22$ &mdash; slope $1$, intercept $22$. Matches all three points.</li><li>B) $y=24x$ &mdash; at $x=0$ gives $y=0$, not $22$. Eliminated.</li><li>C) $y=24x+2$ &mdash; at $x=0$ gives $y=2$, not $22$. Eliminated.</li><li>D) $y=22x$ &mdash; at $x=0$ gives $y=0$, not $22$. Eliminated.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

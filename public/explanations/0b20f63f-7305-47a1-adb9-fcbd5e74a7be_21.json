@@ -1,1 +1,19 @@
-{"questionId": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_21", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Identify the circle&apos;s center and radius", "content": "Compare $(x+3)^2 + (y-18)^2 = 169$ to the standard form $(x-h)^2 + (y-k)^2 = r^2$. Center: $(-3,\\ 18)$. Radius: $\\sqrt{169} = 13$."}, {"title": "Find the range of valid $x$-values on the circle", "content": "The $x$-coordinate of any point on the circle lies within one radius of the center&apos;s $x$-coordinate: $$-3 - 13 \\le a \\le -3 + 13$$ $$-16 \\le a \\le 10$$"}, {"title": "Test each choice against the range", "content": "<ul><li>A) $a = -17$: $-17 < -16$, outside the range &mdash; eliminate.</li><li>B) $a = -11$: $-16 \\le -11 \\le 10$, inside the range &mdash; valid.</li><li>C) $a = 13$: $13 > 10$, outside the range &mdash; eliminate.</li><li>D) $a = 18$: $18 > 10$, outside the range &mdash; eliminate.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_21",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the circle&apos;s center and radius",
+      "content": "Compare $(x+3)^2 + (y-18)^2 = 169$ to the standard form $(x-h)^2 + (y-k)^2 = r^2$. Center: $(-3,\\ 18)$. Radius: $\\sqrt{169} = 13$."
+    },
+    {
+      "title": "Find the range of valid $x$-values on the circle",
+      "content": "The $x$-coordinate of any point on the circle lies within one radius of the center&apos;s $x$-coordinate: $$-3 - 13 \\le a \\le -3 + 13$$ $$-16 \\le a \\le 10$$"
+    },
+    {
+      "title": "Test each choice against the range",
+      "content": "<ul><li>A) $a = -17$: $-17 < -16$, outside the range &mdash; eliminate.</li><li>B) $a = -11$: $-16 \\le -11 \\le 10$, inside the range &mdash; valid.</li><li>C) $a = 13$: $13 > 10$, outside the range &mdash; eliminate.</li><li>D) $a = 18$: $18 > 10$, outside the range &mdash; eliminate.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

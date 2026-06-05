@@ -1,1 +1,18 @@
-{"questionId": "d0430601", "correctAnswer": "285", "section": "Math", "steps": [{"title": "Interpret the slope", "content": "<ul><li>The slope of 57 means that for each 1°C increase in temperature, the model predicts 57 more visitors.</li><li>That is $$57\\text{ visitors}/^\\circ\\text{C}$$.</li></ul>"}, {"title": "Calculate the increase for a 5°C rise", "content": "<ul><li>For a 5°C increase, multiply the slope by 5: $$57 \\times 5 = 285$$ visitors.</li><li>The answer is <strong>285</strong>.</li></ul>", "desmosExpressions": ["y = 57x"]}]}
+{
+  "questionId": "d0430601",
+  "correctAnswer": "285",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret the slope",
+      "content": "<ul><li>The slope of 57 means that for each 1°C increase in temperature, the model predicts 57 more visitors.</li><li>That is $$57\\text{ visitors}/^\\circ\\text{C}$$.</li></ul>"
+    },
+    {
+      "title": "Calculate the increase for a 5°C rise",
+      "content": "<ul><li>For a 5°C increase, multiply the slope by 5: $$57 \\times 5 = 285$$ visitors.</li><li>The answer is <strong>285</strong>.</li></ul>",
+      "desmosExpressions": [
+        "y = 57x"
+      ]
+    }
+  ]
+}

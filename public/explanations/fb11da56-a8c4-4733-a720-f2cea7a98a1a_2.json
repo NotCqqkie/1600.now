@@ -1,1 +1,23 @@
-{"questionId": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_2", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Substitute the value", "content": "Plug $d=38$ into $3.5c+7d=266$ to get $$3.5c+7(38)=266.$$"}, {"title": "Solve for the variable", "content": "Simplify to $3.5c+266=266$, so $3.5c=0$ and $c=0$."}, {"title": "Match the choice", "content": "The business can care for $0$ cats. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}
+{
+  "questionId": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_2",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the value",
+      "content": "Plug $d=38$ into $3.5c+7d=266$ to get $$3.5c+7(38)=266.$$"
+    },
+    {
+      "title": "Solve for the variable",
+      "content": "Simplify to $3.5c+266=266$, so $3.5c=0$ and $c=0$."
+    },
+    {
+      "title": "Match the choice",
+      "content": "The business can care for $0$ cats. That matches choice <strong>A</strong> — <strong>A</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice A, 0, and the other choices fail the same setup or substitution. Therefore <strong>A</strong> is correct."
+    }
+  ]
+}

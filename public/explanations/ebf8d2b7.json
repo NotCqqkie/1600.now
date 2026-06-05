@@ -1,1 +1,19 @@
-{"questionId":"ebf8d2b7","correctAnswer":"B","section":"Math","steps":[{"title":"Translate the time used per box","content":"$x$ large boxes use $10x$ minutes (10 min each). $y$ small boxes use $5y$ minutes (5 min each)."},{"title":"Set the total equal to 700","content":"The total daily time is 700 minutes: $10x + 5y = 700$."},{"title":"Eliminate the other choices","content":"<ul><li>A) $5x + 10y = 700$: swaps the per-box times (5 min for large, 10 min for small).</li><li>B) $10x + 5y = 700$: correctly multiplies each box count by its own time.</li><li>C) $(x+y)(10+5)=700$: this would only work if every box took 15 minutes, which is not the case.</li><li>D) $(10+x)(5+y)=700$: adds counts and times, which is not how time accumulates.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "ebf8d2b7",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the time used per box",
+      "content": "$x$ large boxes use $10x$ minutes (10 min each). $y$ small boxes use $5y$ minutes (5 min each)."
+    },
+    {
+      "title": "Set the total equal to 700",
+      "content": "The total daily time is 700 minutes: $10x + 5y = 700$."
+    },
+    {
+      "title": "Eliminate the other choices",
+      "content": "<ul><li>A) $5x + 10y = 700$: swaps the per-box times (5 min for large, 10 min for small).</li><li>B) $10x + 5y = 700$: correctly multiplies each box count by its own time.</li><li>C) $(x+y)(10+5)=700$: this would only work if every box took 15 minutes, which is not the case.</li><li>D) $(10+x)(5+y)=700$: adds counts and times, which is not how time accumulates.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

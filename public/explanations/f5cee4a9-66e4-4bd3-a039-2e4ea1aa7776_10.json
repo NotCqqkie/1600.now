@@ -1,1 +1,23 @@
-{"questionId":"f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_10","correctAnswer":"A","section":"Math","steps":[{"title":"Set the appropriate variable to 0","content":"For the $y$-intercept, set $x=0$ in $y=16^{x+3}$: $$y=16^{0+3}=16^{3}.$$"},{"title":"Compute the intercept","content":"$16^{3}=4096$, so the $y$-intercept is $(0,4096)$. That matches choice <strong>A</strong> — <strong>A</strong> is correct.","desmosExpressions":["y = 16^{x+3}","(0, 4096)"]}]}
+{
+  "questionId": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_10",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the appropriate variable to 0",
+      "content": "For the $y$-intercept, set $x=0$ in $y=16^{x+3}$: $$y=16^{0+3}=16^{3}.$$"
+    },
+    {
+      "title": "Compute the intercept",
+      "content": "$16^{3}=4096$, so the $y$-intercept is $(0,4096)$. That matches choice <strong>A</strong> — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y = 16^{x+3}",
+        "(0, 4096)"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice A, $(0, 4096)$. The other choices do not satisfy the same condition from the question, so <strong>A</strong> is correct."
+    }
+  ]
+}

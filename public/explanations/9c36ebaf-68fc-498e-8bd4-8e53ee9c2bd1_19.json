@@ -14,7 +14,10 @@
     {
       "title": "Conclusion",
       "content": "All three coefficient ratios equal 3: $$\\frac{1.5}{0.5} = \\frac{3.6}{1.2} = \\frac{27}{9} = 3$$ The equations are equivalent, giving infinitely many solutions. That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": ["y = \\frac{9 - 0.5x}{1.2}", "y = \\frac{27 - 1.5x}{3.6}"]
+      "desmosExpressions": [
+        "y = \\frac{9 - 0.5x}{1.2}",
+        "y = \\frac{27 - 1.5x}{3.6}"
+      ]
     }
   ]
 }

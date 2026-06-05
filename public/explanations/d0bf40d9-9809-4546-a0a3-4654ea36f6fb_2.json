@@ -1,1 +1,15 @@
-{"questionId":"d0bf40d9-9809-4546-a0a3-4654ea36f6fb_2","correctAnswer":"C","section":"Math","steps":[{"title":"Identify what the question needs","content":"x is the additional amount Sabrina must save. She already has $180, so her total is 180 + x. &apos;At least $240&apos; means total &ge; 240. The correct inequality adds 180 and x on the left, with &ge; 240 on the right."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; '$\\frac{x}{180} \\ge 240$'</strong>: divides x by 180 instead of adding &mdash; no arithmetic reason for division here. &#10007;</li><li><strong>Choice B &mdash; '$180x \\ge 240$'</strong>: multiplies 180 by x instead of adding &mdash; wrong operation. &#10007;</li><li><strong>Choice C &mdash; '$180 + x \\ge 240$'</strong>: total savings = 180 + x, and at least $240 means &ge; 240. &#10003;</li><li><strong>Choice D &mdash; '$180 - x \\ge 240$'</strong>: subtracts x, which would make her total smaller, not larger. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_2",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "x is the additional amount Sabrina must save. She already has $180, so her total is 180 + x. &apos;At least $240&apos; means total &ge; 240. The correct inequality adds 180 and x on the left, with &ge; 240 on the right."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; '$\\frac{x}{180} \\ge 240$'</strong>: divides x by 180 instead of adding &mdash; no arithmetic reason for division here. &#10007;</li><li><strong>Choice B &mdash; '$180x \\ge 240$'</strong>: multiplies 180 by x instead of adding &mdash; wrong operation. &#10007;</li><li><strong>Choice C &mdash; '$180 + x \\ge 240$'</strong>: total savings = 180 + x, and at least $240 means &ge; 240. &#10003;</li><li><strong>Choice D &mdash; '$180 - x \\ge 240$'</strong>: subtracts x, which would make her total smaller, not larger. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

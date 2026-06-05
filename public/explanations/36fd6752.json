@@ -1,1 +1,24 @@
-{"questionId": "36fd6752", "correctAnswer": "10", "section": "Math", "steps": [{"title": "Apply the no-solution condition", "content": "Rewrite as $7r-pw=-6$ and $7r-10w=11$. For no solution, coefficients of $r$ and $w$ must be proportional: $$\\frac{7}{7}=\\frac{-p}{-10}.$$"}, {"title": "Solve for the parameter", "content": "This gives $1=\\tfrac{p}{10}$, so $p=10$. The constants differ, confirming no solution. The answer is <strong>10</strong>.", "desmosExpressions": ["y = (6 + 7x)/10", "y = (7x - 11)/10"]}]}
+{
+  "questionId": "36fd6752",
+  "correctAnswer": "10",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Put both equations in matching form",
+      "content": "Rewrite the first equation as $7r-pw=-6$. Rewrite the second as $7r-10w=11$. For the system to have no solution, the $r$- and $w$-coefficients must match proportionally, while the constants are different."
+    },
+    {
+      "title": "Match the coefficients",
+      "content": "The $r$-coefficients are both $7$, so the scale factor is $1$. Therefore the $w$-coefficients must match: $-p=-10$, so $p=10$. A Desmos coefficient regression can solve the same match directly.",
+      "desmosExpressions": [
+        "r_1=[1,0]",
+        "w_1=[0,1]",
+        "7r_1-pw_1~7r_1-10w_1"
+      ]
+    },
+    {
+      "title": "Confirm no solution",
+      "content": "With $p=10$, the equations have the same left side, $7r-10w$, but different constants, $-6$ and $11$. That creates parallel distinct lines, so the system has no solution. The answer is <strong>10</strong>."
+    }
+  ]
+}

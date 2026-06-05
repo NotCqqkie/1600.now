@@ -1,1 +1,15 @@
-{"questionId":"29b11893-ee0c-48ae-8103-403d9652ad14_18","correctAnswer":"1.485","section":"Math","steps":[{"title":"Apply cofunction identities","content":"Use the cofunction shortcut: $\\cos(90 - a)° = \\sin a°$ and $\\sin(90 - b)° = \\cos b°$. With $y = 0$, $\\sin(a + 0)° = \\sin a°$. The expression becomes: $$2\\sin a° \\cdot \\cos b° + \\sin a° \\cdot \\cos b°.$$"},{"title":"Factor and substitute","content":"Factor: $3\\sin a° \\cdot \\cos b°$. Substitute $\\sin a° = 0.50$ and $\\cos b° = 0.99$: $$3 \\times 0.50 \\times 0.99 = 1.485.$$ That matches choice 1.485 — <strong>1.485</strong> is correct."}]}
+{
+  "questionId": "29b11893-ee0c-48ae-8103-403d9652ad14_18",
+  "correctAnswer": "1.485",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply cofunction identities",
+      "content": "Use the cofunction shortcut: $\\cos(90 - a)° = \\sin a°$ and $\\sin(90 - b)° = \\cos b°$. With $y = 0$, $\\sin(a + 0)° = \\sin a°$. The expression becomes: $$2\\sin a° \\cdot \\cos b° + \\sin a° \\cdot \\cos b°.$$"
+    },
+    {
+      "title": "Factor and substitute",
+      "content": "Factor: $3\\sin a° \\cdot \\cos b°$. Substitute $\\sin a° = 0.50$ and $\\cos b° = 0.99$: $$3 \\times 0.50 \\times 0.99 = 1.485.$$ That matches choice 1.485 — <strong>1.485</strong> is correct."
+    }
+  ]
+}

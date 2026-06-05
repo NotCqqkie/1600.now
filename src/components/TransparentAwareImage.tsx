@@ -15,6 +15,26 @@ const trimmedImageCache = new Map<string, string>();
 
 const isPngAsset = (src: string) => /\.png(?:$|[?#])/i.test(src);
 
+const isTableImageAlt = (alt: string) => /\btable\b/i.test(alt);
+
+const scaleTableImageClassName = (className?: string) => {
+  let scaled = className ?? "";
+  const replacements: [string, string][] = [
+    ["max-h-[460px]", "max-h-[368px]"],
+    ["max-h-[420px]", "max-h-[336px]"],
+    ["max-h-[340px]", "max-h-[272px]"],
+    ["max-h-[309px]", "max-h-[247px]"],
+    ["max-h-[260px]", "max-h-[208px]"],
+    ["max-h-[220px]", "max-h-[176px]"],
+    ["max-h-[195px]", "max-h-[156px]"],
+    ["sm:max-h-[260px]", "sm:max-h-[208px]"],
+  ];
+  replacements.forEach(([from, to]) => {
+    scaled = scaled.split(from).join(to);
+  });
+  return cn(scaled, "max-w-[80%] border-0 rounded-none");
+};
+
 const hasTransparentPixel = (img: HTMLImageElement) => {
   const width = img.naturalWidth;
   const height = img.naturalHeight;
@@ -201,6 +221,7 @@ export const TransparentAwareImage = ({
 }: TransparentAwareImageProps) => {
   const [hasTransparency, setHasTransparency] = useState(false);
   const [resolvedSrc, setResolvedSrc] = useState(src);
+  const imageClassName = isTableImageAlt(alt) ? scaleTableImageClassName(className) : className;
   const cachedTrimmedInitial = trimWhitespace ? trimmedImageCache.get(src) : undefined;
   const [isReady, setIsReady] = useState(() => !trimWhitespace || Boolean(cachedTrimmedInitial));
 
@@ -284,7 +305,7 @@ export const TransparentAwareImage = ({
       <img
         src={resolvedSrc}
         alt={alt}
-        className={className}
+        className={imageClassName}
         loading={loading}
         style={isReady ? undefined : { visibility: "hidden" }}
       />

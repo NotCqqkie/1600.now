@@ -9,7 +9,6 @@ import { useAuth } from "@/contexts/AuthContext";
 import { getAuthReturnTo } from "@/components/auth/AuthReturnTracker";
 import { useToast } from "@/hooks/use-toast";
 import { describeAuthError } from "@/lib/firebase/authErrors";
-import { AUTH_PASSWORD_DESCRIPTION, isPasswordPolicyCompliant } from "@/lib/authSecurity";
 import { Loader2, CheckCircle } from "lucide-react";
 
 const GoogleIcon = () => (
@@ -27,13 +26,36 @@ const perks = [
 
 const isValidEmail = (v: string) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v.trim());
 
+const getEmailIssue = (value: string) => {
+  if (!value.trim()) return "Enter your email.";
+  if (!isValidEmail(value)) return "Enter a valid email address.";
+  return "";
+};
+
+const getPasswordIssue = (value: string) => {
+  if (!value) return "Enter a password.";
+  const missing: string[] = [];
+  if (value.length < 8) missing.push("at least 8 characters");
+  if (!/\d/.test(value)) missing.push("a number");
+  if (!missing.length) return "";
+  return `Password needs ${missing.join(" and ")}.`;
+};
+
 const Signup = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [hasSubmitted, setHasSubmitted] = useState(false);
+  const [touched, setTouched] = useState({ email: false, password: false });
+  const [authFieldErrors, setAuthFieldErrors] = useState<Partial<Record<"email" | "password", string>>>({});
   const { signInWithGoogle, signUpWithEmailPassword, user, loading: authLoading, redirectError, clearRedirectError } = useAuth();
   const navigate = useNavigate();
   const { toast } = useToast();
+
+  const emailIssue = getEmailIssue(email);
+  const passwordIssue = getPasswordIssue(password);
+  const shownEmailIssue = (hasSubmitted || touched.email) ? emailIssue || authFieldErrors.email || "" : "";
+  const shownPasswordIssue = (hasSubmitted || touched.password) ? passwordIssue || authFieldErrors.password || "" : "";
 
   useEffect(() => {
     if (authLoading || !user) return;
@@ -61,12 +83,22 @@ const Signup = () => {
   // return path before the verified check runs.
   const handleSignup = async (e: React.FormEvent) => {
     e.preventDefault();
+    setHasSubmitted(true);
+    setTouched({ email: true, password: true });
+    setAuthFieldErrors({});
+    const currentEmailIssue = getEmailIssue(email);
+    const currentPasswordIssue = getPasswordIssue(password);
+    if (currentEmailIssue || currentPasswordIssue) return;
     setIsSubmitting(true);
     try {
-      await signUpWithEmailPassword(email, password);
+      await signUpWithEmailPassword(email.trim(), password);
     } catch (error: unknown) {
       const friendly = describeAuthError(error, "signup");
-      toast({ variant: "destructive", title: friendly.title, description: friendly.description });
+      if (friendly.field) {
+        setAuthFieldErrors({ [friendly.field]: friendly.description });
+      } else {
+        toast({ variant: "destructive", title: friendly.title, description: friendly.description });
+      }
     } finally {
       setIsSubmitting(false);
     }
@@ -110,20 +142,9 @@ const Signup = () => {
           <BrandLogo variant="mark" className="h-9 w-9" />
 
           <div className="flex-1 flex flex-col justify-center max-w-md">
-            {/* Left-panel headline — Inter Tight 600, similar to display-md but smaller. */}
-            <h1
-              style={{
-                fontFamily: "'Inter Tight', sans-serif",
-                fontSize: "clamp(36px, 3.4vw, 50px)",
-                fontWeight: 600,
-                lineHeight: 1.0,
-                marginBottom: 16,
-                letterSpacing: "-0.025em",
-                color: "rgb(var(--ink))",
-              }}
-            >
+            <h1 className="mb-4 font-display text-[42px] font-semibold leading-none text-ink xl:text-[50px]">
               Start your{" "}
-              <span style={{ fontFamily: "'Instrument Serif', Georgia, serif", fontStyle: "italic", fontWeight: 400, color: "rgb(var(--ds-accent-deep))" }}>
+              <span className="text-accent-deep">
                 free account.
               </span>
             </h1>
@@ -149,13 +170,9 @@ const Signup = () => {
       <div className="flex-1 flex flex-col items-center justify-center px-6 py-10 bg-background">
         <div className="w-full max-w-sm">
           <div className="mb-8">
-            {/* Auth title — Inter Tight 600, 30px. */}
             <h2 className="font-display text-[30px] font-semibold leading-[1.1] tracking-[-0.025em] text-ink">
               Create account
             </h2>
-            <p className="mt-2 font-sans text-[14px] leading-[1.5] text-ink-mid">
-              Free, no card required.
-            </p>
           </div>
 
           <div className="space-y-4">
@@ -173,7 +190,7 @@ const Signup = () => {
               </div>
             </div>
 
-            <form onSubmit={handleSignup} className="space-y-4">
+            <form onSubmit={handleSignup} className="space-y-4" noValidate>
               <div className="space-y-1.5">
                 <Label htmlFor="email">Email</Label>
                 <Input
@@ -181,22 +198,46 @@ const Signup = () => {
                   type="email"
                   placeholder="you@example.com"
                   value={email}
-                  onChange={(e) => setEmail(e.target.value)}
+                  onChange={(e) => {
+                    setEmail(e.target.value);
+                    setAuthFieldErrors((current) => ({ ...current, email: undefined }));
+                  }}
+                  onBlur={() => setTouched((current) => ({ ...current, email: true }))}
+                  aria-invalid={Boolean(shownEmailIssue)}
+                  aria-describedby={shownEmailIssue ? "signup-email-error" : undefined}
+                  className={shownEmailIssue ? "border-destructive focus-visible:ring-destructive" : undefined}
                   required
                 />
+                {shownEmailIssue && (
+                  <p id="signup-email-error" role="alert" className="text-[12px] leading-[1.4] text-destructive">
+                    {shownEmailIssue}
+                  </p>
+                )}
               </div>
               <div className="space-y-1.5">
                 <Label htmlFor="password">Password</Label>
                 <Input
                   id="password"
                   type="password"
-                  placeholder={AUTH_PASSWORD_DESCRIPTION}
+                  placeholder="Choose a password"
                   value={password}
-                  onChange={(e) => setPassword(e.target.value)}
+                  onChange={(e) => {
+                    setPassword(e.target.value);
+                    setAuthFieldErrors((current) => ({ ...current, password: undefined }));
+                  }}
+                  onBlur={() => setTouched((current) => ({ ...current, password: true }))}
+                  aria-invalid={Boolean(shownPasswordIssue)}
+                  aria-describedby={shownPasswordIssue ? "signup-password-error" : undefined}
+                  className={shownPasswordIssue ? "border-destructive focus-visible:ring-destructive" : undefined}
                   required
                 />
+                {shownPasswordIssue && (
+                  <p id="signup-password-error" role="alert" className="text-[12px] leading-[1.4] text-destructive">
+                    {shownPasswordIssue}
+                  </p>
+                )}
               </div>
-              <Button type="submit" className="w-full cursor-pointer" disabled={isSubmitting || authLoading || !isValidEmail(email) || !isPasswordPolicyCompliant(password)}>
+              <Button type="submit" className="w-full cursor-pointer" disabled={isSubmitting || authLoading}>
                 {isSubmitting && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
                 Create account
               </Button>
@@ -209,8 +250,7 @@ const Signup = () => {
               Log in
             </Link>
           </p>
-          {/* Legal footer — JetBrains Mono 500, 11px, muted-dim. Mono signals "system / legal". */}
-          <p className="mt-6 text-center font-mono text-[11px] font-medium tracking-[0.02em] text-ink-muted-dim">
+          <p className="mt-6 text-center font-sans text-[12px] leading-[1.5] text-ink-muted">
             By signing up, you agree to our terms.
           </p>
         </div>

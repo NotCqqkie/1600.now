@@ -1,1 +1,25 @@
-{"questionId":"f423771c","correctAnswer":"D","section":"Math","steps":[{"title":"Find the initial value","content":"For $h(x)=a\\cdot b^x$, plugging in $x=0$ gives $h(0)=a$. The table says $h(0)=1.23$, so $a=1.23$."},{"title":"Find the base from h(2)","content":"$h(2)=1.23\\cdot b^2=1.54$, so $b^2=\\dfrac{1.54}{1.23}\\approx 1.252$ and $b\\approx \\sqrt{1.252}\\approx 1.12$. Check $x=4$: $1.23\\cdot(1.12)^4\\approx 1.23\\cdot 1.574\\approx 1.94$, which matches the table."},{"title":"Check each choice","content":"<ul><li>A) $1.12(0.23)^x$: $h(0)=1.12$, not $1.23$; and $0.23$ would shrink the values. Eliminated.</li><li>B) $1.12(1.23)^x$: $h(0)=1.12$, not $1.23$. Eliminated.</li><li>C) $1.23(0.12)^x$: correct starting value, but $h(2)=1.23(0.12)^2\\approx 0.018$, nowhere near $1.54$. Eliminated.</li><li>D) $1.23(1.12)^x$: $h(0)=1.23$, $h(2)\\approx 1.54$, $h(4)\\approx 1.94$. Matches all rows.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "f423771c",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use Desmos to fit the exponential table",
+      "content": "This is a table-to-equation question, so the fastest method is to use Desmos regression. Enter the x-values and h(x)-values as two lists, then use the exponential regression row $y_1 \\sim a b^{x_1}$. Desmos gives $a \\approx 1.23$ and $b \\approx 1.12$, so the model is $h(x)=1.23(1.12)^x$.",
+      "desmosExpressions": [
+        "x_1=[0,2,4]",
+        "y_1=[1.23,1.54,1.94]",
+        "y_1~a b^{x_1}",
+        "y=1.23(1.12)^x"
+      ]
+    },
+    {
+      "title": "Confirm the model against the table",
+      "content": "The first value confirms the coefficient: when $x=0$, $h(0)=1.23(1.12)^0=1.23$. The second value checks the base: $1.23(1.12)^2 \\approx 1.54$. The third value also matches: $1.23(1.12)^4 \\approx 1.94$."
+    },
+    {
+      "title": "Check each choice",
+      "content": "<ul><li>A) $1.12(0.23)^x$: $h(0)=1.12$, not $1.23$; and $0.23$ would shrink the values. Eliminated.</li><li>B) $1.12(1.23)^x$: $h(0)=1.12$, not $1.23$. Eliminated.</li><li>C) $1.23(0.12)^x$: correct starting value, but $h(2)=1.23(0.12)^2\\approx 0.018$, nowhere near $1.54$. Eliminated.</li><li>D) $1.23(1.12)^x$: $h(0)=1.23$, $h(2)\\approx 1.54$, $h(4)\\approx 1.94$. Matches all rows.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

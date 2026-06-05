@@ -5,7 +5,23 @@
   "steps": [
     {
       "title": "Read the bar graph for the color with frequency 70",
-      "content": "Reading the bar graph directly: the y-axis shows frequency, and we locate the bar that reaches 70. The Green bar reaches exactly 70 on the y-axis. That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "Reading the bar graph directly: the y-axis shows frequency, and we locate the bar that reaches 70. The Green bar reaches exactly 70 on the y-axis. That matches choice B — <strong>B</strong> is correct."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice B is correct. It's given that a data set consists of $173$ colors and the bar graph shows the number of times each color appears in the data set. Therefore, for each color specified at the bottom of the bar, the frequency corresponds to the number of times that color appears in the data set. The color that appears $70$ times in the data set has a frequency of $70$ on the bar graph. Since the bar with a frequency of $70$ corresponds to green, green is the color that appears $70$ times."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A is incorrect. The color blue appears about $27$ times, not $70$ times."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice C is incorrect. The color red appears about $33$ times, not $70$ times."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice D is incorrect. The color yellow appears about $43$ times, not $70$ times."
     }
   ]
 }

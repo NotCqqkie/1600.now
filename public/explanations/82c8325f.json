@@ -1,1 +1,19 @@
-{"questionId":"82c8325f","correctAnswer":"D","section":"Math","steps":[{"title":"Write the standard form with the center","content":"A circle with center $(h,k)$ and radius $r$ has equation $(x-h)^2 + (y-k)^2 = r^2$. With center $(-4,5)$:<br/>$$(x-(-4))^2 + (y-5)^2 = r^2 \\;\\Rightarrow\\; (x+4)^2 + (y-5)^2 = r^2$$"},{"title":"Find r^2 using the given point","content":"The point $(-8,8)$ lies on the circle, so:<br/>$$(-8+4)^2 + (8-5)^2 = (-4)^2 + 3^2 = 16 + 9 = 25$$<br/>So $r^2 = 25$, giving $(x+4)^2 + (y-5)^2 = 25$."},{"title":"Evaluate each choice","content":"<ul><li><strong>A)</strong> $(x-4)^2 + (y+5)^2 = 5$ &mdash; wrong center signs and $r^2 = 5$. Wrong.</li><li><strong>B)</strong> $(x+4)^2 + (y-5)^2 = 5$ &mdash; correct center but $r^2 = 5$ instead of 25. Wrong.</li><li><strong>C)</strong> $(x-4)^2 + (y+5)^2 = 25$ &mdash; correct $r^2 = 25$ but center signs are flipped, giving center $(4,-5)$. Wrong.</li><li><strong>D)</strong> $(x+4)^2 + (y-5)^2 = 25$ &mdash; correct center $(-4,5)$ and $r^2 = 25$. Correct.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "82c8325f",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the standard form with the center",
+      "content": "A circle with center $(h,k)$ and radius $r$ has equation $(x-h)^2 + (y-k)^2 = r^2$. With center $(-4,5)$:<br/>$$(x-(-4))^2 + (y-5)^2 = r^2 \\;\\Rightarrow\\; (x+4)^2 + (y-5)^2 = r^2$$"
+    },
+    {
+      "title": "Find r^2 using the given point",
+      "content": "The point $(-8,8)$ lies on the circle, so:<br/>$$(-8+4)^2 + (8-5)^2 = (-4)^2 + 3^2 = 16 + 9 = 25$$<br/>So $r^2 = 25$, giving $(x+4)^2 + (y-5)^2 = 25$."
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li><strong>A)</strong> $(x-4)^2 + (y+5)^2 = 5$ &mdash; wrong center signs and $r^2 = 5$. Wrong.</li><li><strong>B)</strong> $(x+4)^2 + (y-5)^2 = 5$ &mdash; correct center but $r^2 = 5$ instead of 25. Wrong.</li><li><strong>C)</strong> $(x-4)^2 + (y+5)^2 = 25$ &mdash; correct $r^2 = 25$ but center signs are flipped, giving center $(4,-5)$. Wrong.</li><li><strong>D)</strong> $(x+4)^2 + (y-5)^2 = 25$ &mdash; correct center $(-4,5)$ and $r^2 = 25$. Correct.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

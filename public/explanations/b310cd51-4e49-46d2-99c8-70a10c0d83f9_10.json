@@ -1,1 +1,19 @@
-{"questionId":"b310cd51-4e49-46d2-99c8-70a10c0d83f9_10","correctAnswer":"D","section":"Math","steps":[{"title":"Set up","content":"$p$ is linear with slope 8, so $p(x) = 8x + b$. Use $p(5) = 42$ to find $b$: $$8(5) + b = 42 → b = 2$$ Then find $c$ from $p(c) = -6$: $$8c + 2 = -6 → c = -1$$"},{"title":"Solve","content":"$t$ passes through $(-1,\\ -7)$ and $(6,\\ 56)$. Its slope is: $$m = \\frac{56 - (-7)}{6 - (-1)} = \\frac{63}{7} = 9$$"},{"title":"Answer","content":"<strong>D</strong> is correct."}]}
+{
+  "questionId": "b310cd51-4e49-46d2-99c8-70a10c0d83f9_10",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "$p$ is linear with slope 8, so $p(x) = 8x + b$. Use $p(5) = 42$ to find $b$: $$8(5) + b = 42 → b = 2$$ Then find $c$ from $p(c) = -6$: $$8c + 2 = -6 → c = -1$$"
+    },
+    {
+      "title": "Solve",
+      "content": "$t$ passes through $(-1,\\ -7)$ and $(6,\\ 56)$. Its slope is: $$m = \\frac{56 - (-7)}{6 - (-1)} = \\frac{63}{7} = 9$$"
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>D</strong> is correct."
+    }
+  ]
+}

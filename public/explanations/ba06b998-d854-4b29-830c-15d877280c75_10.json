@@ -1,1 +1,20 @@
-{"questionId": "ba06b998-d854-4b29-830c-15d877280c75_10", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Identify two points on the line from the graph", "content": "Reading directly from the graph: the line passes through <strong>(-12, 0)</strong> (where it crosses the x-axis) and <strong>(0, -11)</strong> (the y-intercept)."}, {"title": "Calculate the slope", "content": "Using the slope formula with $(-12, 0)$ and $(0, -11)$:<br/>$$m = \\frac{-11 - 0}{0 - (-12)} = \\frac{-11}{12}$$", "formula": "$$m = \\frac{y_2 - y_1}{x_2 - x_1}$$"}, {"title": "Write the equation and substitute $y = -5$", "content": "Using the y-intercept form with slope $m = -\\frac{11}{12}$ and y-intercept $-11$:<br/>$$y = -\\frac{11}{12}x - 11$$<br/>Substitute $y = -5$ to find $v$:<br/>$$-5 = -\\frac{11}{12}v - 11$$<br/>$$6 = -\\frac{11}{12}v$$<br/>$$v = 6 \\cdot \\left(-\\frac{12}{11}\\right) = -\\frac{72}{11}$$<br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "ba06b998-d854-4b29-830c-15d877280c75_10",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify two points on the line from the graph",
+      "content": "Reading directly from the graph: the line passes through <strong>(-12, 0)</strong> (where it crosses the x-axis) and <strong>(0, -11)</strong> (the y-intercept)."
+    },
+    {
+      "title": "Calculate the slope",
+      "content": "Using the slope formula with $(-12, 0)$ and $(0, -11)$:<br/>$$m = \\frac{-11 - 0}{0 - (-12)} = \\frac{-11}{12}$$",
+      "formula": "$$m = \\frac{y_2 - y_1}{x_2 - x_1}$$"
+    },
+    {
+      "title": "Write the equation and substitute $y = -5$",
+      "content": "Using the y-intercept form with slope $m = -\\frac{11}{12}$ and y-intercept $-11$:<br/>$$y = -\\frac{11}{12}x - 11$$<br/>Substitute $y = -5$ to find $v$:<br/>$$-5 = -\\frac{11}{12}v - 11$$<br/>$$6 = -\\frac{11}{12}v$$<br/>$$v = 6 \\cdot \\left(-\\frac{12}{11}\\right) = -\\frac{72}{11}$$<br/>That matches choice A — <strong>A</strong> is correct."
+    }
+  ]
+}

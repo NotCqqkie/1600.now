@@ -1,1 +1,26 @@
-{"questionId": "b05db4ac-dd48-4b3f-b365-b39330c879e5_20", "correctAnswer": "15", "section": "Math", "steps": [{"title": "No real solutions → discriminant &lt; 0", "content": "$-2x^2 + bx - 32 = 0$: $a = -2$, $b = b$, $c = -32$. No real solutions means $b^2 - 4ac < 0$ → $b^2 - 4(-2)(-32) < 0$ → $b^2 - 256 < 0$.", "desmosExpressions": ["b^2-256<0"]}, {"title": "Solve and find largest positive integer", "content": "$b^2 < 256$ → $|b| < 16$. Since $b$ is a positive integer, $b$ can be $1, 2, \\ldots, 15$. The largest is $15$ (at $b = 16$ the discriminant equals $0$, giving one solution — not allowed). That matches choice 15 — <strong>15</strong> is correct."}]}
+{
+  "questionId": "b05db4ac-dd48-4b3f-b365-b39330c879e5_20",
+  "correctAnswer": "15",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the discriminant test",
+      "content": "For a quadratic $ax^2+bx+c=0$, no real solution means the discriminant is negative: $b^2-4ac\\lt0$. Here $a=-2$ and $c=-32$, so $$b^2-4(-2)(-32)\\lt0.$$"
+    },
+    {
+      "title": "Find the allowable values of b",
+      "content": "Simplify the inequality: $$b^2-256\\lt0$$ $$b^2\\lt256.$$ Thus $-16\\lt b\\lt16$. Since the question says $b$ is a positive integer, the possible values are $1$ through $15$.",
+      "desmosExpressions": [
+        "x^2-256<0"
+      ]
+    },
+    {
+      "title": "Pick the largest integer",
+      "content": "The largest positive integer less than $16$ is $15$. At $b=16$, the discriminant is $0$, which would give one real solution instead of no real solution."
+    },
+    {
+      "title": "Check the boundary",
+      "content": "With $b=15$, the discriminant is $15^2-256=-31$, which is negative, so the equation has no real solution. Therefore the greatest possible value is <strong>15</strong>."
+    }
+  ]
+}

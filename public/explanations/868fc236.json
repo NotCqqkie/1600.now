@@ -1,1 +1,24 @@
-{"questionId": "868fc236", "correctAnswer": "B", "section": "Math", "steps": ["From the table, read paired (food calories, kilojoules) values per gram. Fat: 9 kcal, 37.7 kJ. Carbs: 4 kcal, 16.7 kJ. Protein: 4 kcal, 16.7 kJ.", "Compute kJ per food calorie: 37.7 / 9 &asymp; 4.19, 16.7 / 4 &asymp; 4.18. The ratio is consistently &asymp; 4.2.", "So k = 4.2x (kilojoules = 4.2 &times; food calories)."], "choiceElimination": "<ul><li><strong>Choice A &mdash; 'k = 0.24x'</strong>: 0.24 &asymp; 1/4.2, which is the inverse ratio (calories per kJ, not kJ per calorie). &#10007;</li><li><strong>Choice B &mdash; 'k = 4.2x'</strong>: k (kJ) = 4.2 &times; x (food calories) matches the table ratio of ~4.2 kJ per food calorie. &#10003;</li><li><strong>Choice C &mdash; 'x = 4.2k'</strong>: This says food calories = 4.2 &times; kJ, which inverts the relationship. &#10007;</li><li><strong>Choice D &mdash; 'xk = 4.2'</strong>: This makes x and k inversely proportional (product = 4.2), but they are directly proportional. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}
+{
+  "questionId": "868fc236",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use calories as x and kilojoules as y",
+      "content": "The question asks how $x$ food calories correspond to $k$ kilojoules, so use calories as the input and kilojoules as the output. Two rows from the table are $(4.0,16.7)$ and $(9.0,37.7)$."
+    },
+    {
+      "title": "Find the conversion rate",
+      "content": "A quick Desmos line fit through those two rows gives slope $4.2$; the tiny intercept offset comes from the table's rounded values. The rate calculation is $$\\frac{37.7-16.7}{9.0-4.0}=\\frac{21}{5}=4.2$$ So $k$ is about $4.2$ times $x$.",
+      "desmosExpressions": [
+        "x_1=[4,9]",
+        "y_1=[16.7,37.7]",
+        "y_1~m x_1+b"
+      ]
+    },
+    {
+      "title": "Check the choices",
+      "content": "The relationship is best represented by $k=4.2x$. That matches choice <strong>B</strong>."
+    }
+  ]
+}

@@ -13,7 +13,7 @@
     },
     {
       "title": "Isolate a and take the square root",
-      "content": "Divide both sides by 25:<br/>$$a^2 = \\frac{4b^2}{25}$$<br/>Take the positive square root (since $a > 0$):<br/>$$a = \\sqrt{\\frac{4b^2}{25}} = \\frac{2b}{5}$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "Divide both sides by 25:<br/>$$a^2 = \\frac{4b^2}{25}$$<br/>Take the positive square root (since $a > 0$):<br/>$$a = \\sqrt{\\frac{4b^2}{25}} = \\frac{2b}{5}$$<br/>That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,23 @@
-{"questionId":"1dcc132a-2f7c-417a-91cd-108d7cd9c930_12","correctAnswer":"D","section":"Math","steps":[{"title":"Identify roots from the factored form","content":"$h(x)=(x+p)(x-4)(2x-12)$ has zeros at $x=-p,\\ x=4,\\ x=6$."},{"title":"Use the given point to set up an equation in p","content":"Since $(-2,0)$ is a zero and $-2\\ne 4,6$, we need $-2+p=0$, so $p=2$."},{"title":"Compute h(0) and conclude","content":"$h(0)=(2)(-4)(-12)=96$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_12",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify roots from the factored form",
+      "content": "$h(x)=(x+p)(x-4)(2x-12)$ has zeros at $x=-p,\\ x=4,\\ x=6$."
+    },
+    {
+      "title": "Use the given point to set up an equation in p",
+      "content": "Since $(-2,0)$ is a zero and $-2\\ne 4,6$, we need $-2+p=0$, so $p=2$."
+    },
+    {
+      "title": "Compute h(0) and conclude",
+      "content": "$h(0)=(2)(-4)(-12)=96$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice D, $96$, and the other choices fail the same setup or substitution. Therefore <strong>D</strong> is correct."
+    }
+  ]
+}

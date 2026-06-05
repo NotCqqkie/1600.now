@@ -1,1 +1,27 @@
-{"questionId":"20291f47","correctAnswer":"C","section":"Math","steps":[{"title":"Distribute and combine like terms","content":"Note $x^2y-8xy=xy(x-8)$. Get the common denominator and combine:$$\\frac{(y+12)\\cdot xy}{x^2y-8xy}+\\frac{y(x-8)}{x^2y-8xy}=\\frac{xy^2+12xy+xy-8y}{x^2y-8xy}=\\frac{xy^2+13xy-8y}{x^2y-8xy}$$"},{"title":"Match to the answer choices","content":"The simplified expression is $\\dfrac{xy^2+13xy-8y}{x^2y-8xy}$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}
+{
+  "questionId": "20291f47",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor the second denominator",
+      "content": "Start with $$\\frac{y+12}{x-8}+\\frac{y(x-8)}{x^2y-8xy}$$ The second denominator factors as $$x^2y-8xy=xy(x-8)$$ so the first fraction needs to be multiplied by $\\frac{xy}{xy}$ to get the same denominator."
+    },
+    {
+      "title": "Combine the numerators",
+      "content": "With the common denominator, the expression becomes $$\\frac{xy(y+12)}{xy(x-8)}+\\frac{y(x-8)}{xy(x-8)}$$ Combine the numerators: $$\\frac{xy(y+12)+y(x-8)}{xy(x-8)}$$ Distribute in the numerator: $$xy^2+12xy+xy-8y=xy^2+13xy-8y$$"
+    },
+    {
+      "title": "Match the final form",
+      "content": "The denominator $xy(x-8)$ is the same as $x^2y-8xy$, so the simplified expression is $$\\frac{xy^2+13xy-8y}{x^2y-8xy}$$ That matches choice <strong>C</strong>."
+    },
+    {
+      "title": "Optional Desmos check",
+      "content": "As a quick check after simplifying, plug in safe values such as $x=10$ and $y=2$ so no denominator is zero. The original expression and choice C both evaluate to $7.1$, which supports the algebraic match. Choices A, B, and D have the wrong numerator or denominator structure, so <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "((2+12)/(10-8))+(2(10-8))/(10^2(2)-8(10)(2))",
+        "(10(2)^2+13(10)(2)-8(2))/(10^2(2)-8(10)(2))"
+      ]
+    }
+  ]
+}

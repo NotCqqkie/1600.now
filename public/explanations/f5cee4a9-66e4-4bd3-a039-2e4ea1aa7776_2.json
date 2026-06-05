@@ -1,1 +1,11 @@
-{"steps":[{"explanation":"Distribute 13 across the binomial: 13(x&sup2; &minus; 7) = 13 &middot; x&sup2; &minus; 13 &middot; 7 = 13x&sup2; &minus; 91."},{"explanation":"<ul><li>A: 13x&sup2; &minus; 91 &mdash; matches 13 &middot; x&sup2; minus 13 &middot; 7 exactly.</li><li>B: 13x&sup2; &minus; 20 &mdash; subtracts 7 + 13 instead of multiplying.</li><li>C: 13x&sup2; &minus; 7 &mdash; does not distribute 13 onto the constant term.</li><li>D: 13x&sup2; + 6 &mdash; adds 13 and &minus;7 instead of distributing.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}],"correctAnswer":"A"}
+{
+  "steps": [
+    {
+      "explanation": "Distribute 13 across the binomial: 13(x&sup2; &minus; 7) = 13 &middot; x&sup2; &minus; 13 &middot; 7 = 13x&sup2; &minus; 91."
+    },
+    {
+      "explanation": "<ul><li>A: 13x&sup2; &minus; 91 &mdash; matches 13 &middot; x&sup2; minus 13 &middot; 7 exactly.</li><li>B: 13x&sup2; &minus; 20 &mdash; subtracts 7 + 13 instead of multiplying.</li><li>C: 13x&sup2; &minus; 7 &mdash; does not distribute 13 onto the constant term.</li><li>D: 13x&sup2; + 6 &mdash; adds 13 and &minus;7 instead of distributing.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ],
+  "correctAnswer": "A"
+}

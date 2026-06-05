@@ -1,1 +1,11 @@
-{"questionId": "27590f35-8d6e-45c6-b665-222acb5e516d_5", "correctAnswer": "C", "section": "Math", "steps": ["The x-axis shows years after the 2000 census; y-axis shows population in thousands. Find the y-value where x = 2.", "Trace x = 2 vertically up to the curve. The curve reads y &asymp; 4.3 (thousands).", "Convert: 4.3 &times; 1,000 = 4,300 people."], "choiceElimination": "<ul><li><strong>Choice A &mdash; '7,400'</strong>: This would be y &asymp; 7.4 on the graph, which is above the curve at x = 2. &#10007;</li><li><strong>Choice B &mdash; '6,200'</strong>: This would be y &asymp; 6.2 on the graph, still above the curve at x = 2. &#10007;</li><li><strong>Choice C &mdash; '4,300'</strong>: The curve at x = 2 reads y &asymp; 4.3, giving 4,300 people. &#10003;</li><li><strong>Choice D &mdash; '3,000'</strong>: This would be y = 3.0, which is below the curve at x = 2. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}
+{
+  "questionId": "27590f35-8d6e-45c6-b665-222acb5e516d_5",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    "The x-axis shows years after the 2000 census; y-axis shows population in thousands. Find the y-value where x = 2.",
+    "Trace x = 2 vertically up to the curve. The curve reads y &asymp; 4.3 (thousands).",
+    "Convert: 4.3 &times; 1,000 = 4,300 people."
+  ],
+  "choiceElimination": "<ul><li><strong>Choice A &mdash; '7,400'</strong>: This would be y &asymp; 7.4 on the graph, which is above the curve at x = 2. &#10007;</li><li><strong>Choice B &mdash; '6,200'</strong>: This would be y &asymp; 6.2 on the graph, still above the curve at x = 2. &#10007;</li><li><strong>Choice C &mdash; '4,300'</strong>: The curve at x = 2 reads y &asymp; 4.3, giving 4,300 people. &#10003;</li><li><strong>Choice D &mdash; '3,000'</strong>: This would be y = 3.0, which is below the curve at x = 2. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+}

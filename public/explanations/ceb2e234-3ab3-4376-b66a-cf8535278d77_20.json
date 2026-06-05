@@ -1,1 +1,19 @@
-{"questionId":"ceb2e234-3ab3-4376-b66a-cf8535278d77_20","correctAnswer":"83/84,0.988,.9880,.9881","section":"Math","steps":[{"title":"Set up","content":"Right angle at $S$, so $TR = 84$ is the hypotenuse and $RS = \\sqrt{167}$. Find leg $TS$ via the Pythagorean theorem: $$TS^2 = 84^2 - 167 = 7056 - 167 = 6889$$ $$TS = 83$$"},{"title":"Solve","content":"$\\sin R$ uses the side opposite $R$ (which is $TS$) over the hypotenuse: $$\\sin R = \\frac{TS}{TR} = \\frac{83}{84} \\approx 0.9881$$"},{"title":"Answer","content":"<strong>83/84</strong> is correct."}]}
+{
+  "questionId": "ceb2e234-3ab3-4376-b66a-cf8535278d77_20",
+  "correctAnswer": "83/84,0.988,.9880,.9881",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "Right angle at $S$, so $TR = 84$ is the hypotenuse and $RS = \\sqrt{167}$. Find leg $TS$ via the Pythagorean theorem: $$TS^2 = 84^2 - 167 = 7056 - 167 = 6889$$ $$TS = 83$$"
+    },
+    {
+      "title": "Solve",
+      "content": "$\\sin R$ uses the side opposite $R$ (which is $TS$) over the hypotenuse: $$\\sin R = \\frac{TS}{TR} = \\frac{83}{84} \\approx 0.9881$$"
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>83/84</strong> is correct."
+    }
+  ]
+}

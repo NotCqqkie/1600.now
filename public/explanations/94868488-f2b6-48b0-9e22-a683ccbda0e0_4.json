@@ -1,1 +1,22 @@
-{"questionId":"94868488-f2b6-48b0-9e22-a683ccbda0e0_4","correctAnswer":"A","section":"Math","steps":[{"title":"Set up","content":"Rearrange $x^2 + 13x = -9$ to standard form by adding 9 to both sides: $$x^2 + 13x + 9 = 0$$ So $a = 1$, $b = 13$, $c = 9$."},{"title":"Solve","content":"Compute the discriminant: $b^2 - 4ac = 169 - 36 = 133$. Substitute into the quadratic formula: $$x = \\frac{-13 \\pm \\sqrt{133}}{2}$$"},{"title":"Answer","content":"<strong>A</strong> is correct.","desmosExpressions":["y = x^{2} + 13x + 9"]}]}
+{
+  "questionId": "94868488-f2b6-48b0-9e22-a683ccbda0e0_4",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "Rearrange $x^2 + 13x = -9$ to standard form by adding 9 to both sides: $$x^2 + 13x + 9 = 0$$ So $a = 1$, $b = 13$, $c = 9$."
+    },
+    {
+      "title": "Solve",
+      "content": "Compute the discriminant: $b^2 - 4ac = 169 - 36 = 133$. Substitute into the quadratic formula: $$x = \\frac{-13 \\pm \\sqrt{133}}{2}$$"
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y = x^{2} + 13x + 9"
+      ]
+    }
+  ]
+}

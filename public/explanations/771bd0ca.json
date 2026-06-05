@@ -1,1 +1,19 @@
-{"questionId":"771bd0ca","correctAnswer":"-22","section":"Math","steps":[{"title":"Combine like terms","content":"Factor $(t+3)$ from the left: $5(t+3)-7(t+3)=-2(t+3)$, so $$-2(t+3)=38.$$"},{"title":"Solve for t","content":"Divide by $-2$: $t+3=-19$, then subtract $3$: $t=-22$. The answer is <strong>-22</strong>."}]}
+{
+  "questionId": "771bd0ca",
+  "correctAnswer": "-22",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Combine like terms",
+      "content": "Factor $(t+3)$ from the left: $5(t+3)-7(t+3)=-2(t+3)$, so $$-2(t+3)=38.$$"
+    },
+    {
+      "title": "Solve for t",
+      "content": "Divide by $-2$: $t+3=-19$, then subtract $3$: $t=-22$. The answer is <strong>-22</strong>."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $-22$. The given equation can be rewritten as $-2\\left(t+3\\right)=38$. Dividing both sides of this equation by $-2$ yields $t+3=-19$. Subtracting $3$ from both sides of this equation yields $t=-22$. Therefore, $-22$ is the value of $t$ that is the solution to the given equation."
+    }
+  ]
+}

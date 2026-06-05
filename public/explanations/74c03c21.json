@@ -1,1 +1,19 @@
-{"questionId":"74c03c21","correctAnswer":"B","section":"Math","steps":[{"title":"Set up a time equation","content":"The trip lasted $4$ hours total. Since $x$ is the time on the highway and $y$ is the time on local roads, the times add to the total: $x+y=4$."},{"title":"Set up a distance equation","content":"Distance equals rate times time. On the highway, the bus covered $55x$ miles; on local roads, it covered $25y$ miles. Together these equal the $160$ mile trip: $55x+25y=160$."},{"title":"Match the correct system","content":"The system is $55x+25y=160$ and $x+y=4$.<ul><li><strong>A)</strong> $55x+25y=4$, $x+y=160$ swaps the totals: the distances equal $4$ and times equal $160$, which is impossible.</li><li><strong>B)</strong> $55x+25y=160$, $x+y=4$ matches the distance and time equations derived above.</li><li><strong>C)</strong> $25x+55y=4$, $x+y=160$ both swaps totals and assigns $25$ mph to the highway time $x$ instead of $55$ mph.</li><li><strong>D)</strong> $25x+55y=160$, $x+y=4$ has the right totals but pairs the $25$ mph local rate with the highway time $x$ and the $55$ mph highway rate with the local time $y$. That matches choice B &mdash; <strong>B</strong> is correct.</li></ul>"}]}
+{
+  "questionId": "74c03c21",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up a time equation",
+      "content": "The trip lasted $4$ hours total. Since $x$ is the time on the highway and $y$ is the time on local roads, the times add to the total: $x+y=4$."
+    },
+    {
+      "title": "Set up a distance equation",
+      "content": "Distance equals rate times time. On the highway, the bus covered $55x$ miles; on local roads, it covered $25y$ miles. Together these equal the $160$ mile trip: $55x+25y=160$."
+    },
+    {
+      "title": "Match the correct system",
+      "content": "The system is $55x+25y=160$ and $x+y=4$.<ul><li><strong>A)</strong> $55x+25y=4$, $x+y=160$ swaps the totals: the distances equal $4$ and times equal $160$, which is impossible.</li><li><strong>B)</strong> $55x+25y=160$, $x+y=4$ matches the distance and time equations derived above.</li><li><strong>C)</strong> $25x+55y=4$, $x+y=160$ both swaps totals and assigns $25$ mph to the highway time $x$ instead of $55$ mph.</li><li><strong>D)</strong> $25x+55y=160$, $x+y=4$ has the right totals but pairs the $25$ mph local rate with the highway time $x$ and the $55$ mph highway rate with the local time $y$. That matches choice B &mdash; <strong>B</strong> is correct.</li></ul>"
+    }
+  ]
+}

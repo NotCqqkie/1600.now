@@ -1,1 +1,19 @@
-{"questionId":"305aaf32-2803-4909-83d0-d08ba71a35a7_22","correctAnswer":"B","section":"Math","steps":[{"title":"Identify what the question needs","content":"Divide both sides of $-2|x-7| = -8x$ by $-2$: $$|x-7| = 4x$$ Since $|x-7| \\ge 0$, we need $x \\ge 0$. Solve both cases, then reject any that fail a check-back."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; '$-\\frac{7}{3}$'</strong>: Case $x \\ge 7$: $x - 7 = 4x \\Rightarrow x = -\\frac{7}{3}$. But $-\\frac{7}{3} < 0$, so $|x-7| \\ne 4x$ &mdash; rejected. &#10007;</li><li><strong>Choice B &mdash; '$\\frac{7}{5}$'</strong>: Case $x < 7$: $7 - x = 4x \\Rightarrow 7 = 5x \\Rightarrow x = \\frac{7}{5}$. Check: $|\\frac{7}{5} - 7| = \\frac{28}{5}$ and $4 \\cdot \\frac{7}{5} = \\frac{28}{5}$. &#10003;</li><li><strong>Choice C &mdash; '$-\\frac{7}{3}$ and $\\frac{7}{5}$'</strong>: Includes the rejected value. &#10007;</li><li><strong>Choice D &mdash; '$\\frac{7}{5}$ and $\\frac{7}{3}$'</strong>: $\\frac{7}{3}$ comes from the $x \\ge 7$ case solved incorrectly without rejecting. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "305aaf32-2803-4909-83d0-d08ba71a35a7_22",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Graph both sides first",
+      "content": "This is an absolute-value equation, so the quickest check is to graph the two sides in Desmos:<br/>$$y=-2|x-7|$$<br/>$$y=-8x$$<br/>The solution is the $x$-coordinate where the graphs intersect.",
+      "desmosExpressions": [
+        "y=-2|x-7|",
+        "y=-8x"
+      ]
+    },
+    {
+      "title": "Confirm the one intersection",
+      "content": "The graphs intersect only once, at $x=\\frac{7}{5}$. Algebraically, dividing the original equation by $-2$ gives $|x-7|=4x$, so $x$ must be nonnegative. For the valid branch $x<7$,<br/>$$7-x=4x$$<br/>$$x=\\frac{7}{5}$$<br/>The negative value in choices A and C fails the nonnegative-side check, and choice D includes an extra value. Choice <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_21", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Translate and equate the two relationships", "content": "$a$ is 290% of $b$ gives $a = 2.9b$. $a$ is 90% of $c$ gives $a = 0.9c$. <br/><br/> Setting these equal: <br/> $$2.9b = 0.9c$$"}, {"title": "Solve for c as a percentage of b", "content": "Divide both sides by 0.9: <br/> $$c = \\frac{2.9}{0.9}b = \\frac{29}{9}b$$ <br/> Express as a percentage by multiplying by 100: <br/> $$p = \\frac{29}{9} \\times 100 = \\frac{2900}{9} \\approx 322.22$$ <br/> The closest value is 322. That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_21",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate and equate the two relationships",
+      "content": "$a$ is 290% of $b$ gives $a = 2.9b$. $a$ is 90% of $c$ gives $a = 0.9c$. <br/><br/> Setting these equal: <br/> $$2.9b = 0.9c$$"
+    },
+    {
+      "title": "Solve for c as a percentage of b",
+      "content": "Divide both sides by 0.9: <br/> $$c = \\frac{2.9}{0.9}b = \\frac{29}{9}b$$ <br/> Express as a percentage by multiplying by 100: <br/> $$p = \\frac{29}{9} \\times 100 = \\frac{2900}{9} \\approx 322.22$$ <br/> The closest value is 322. That matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

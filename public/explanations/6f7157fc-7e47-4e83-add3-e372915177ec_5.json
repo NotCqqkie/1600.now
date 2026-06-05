@@ -1,1 +1,23 @@
-{"questionId":"6f7157fc-7e47-4e83-add3-e372915177ec_5","correctAnswer":"35","section":"Math","steps":[{"title":"Set up","content":"Plug $x = 2$ into $f(x) = x^3 + 27$: $$f(2) = (2)^3 + 27.$$"},{"title":"Solve","content":"$$f(2) = 8 + 27 = 35$$"},{"title":"Answer","content":"<strong>35</strong> is correct."}]}
+{
+  "questionId": "6f7157fc-7e47-4e83-add3-e372915177ec_5",
+  "correctAnswer": "35",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "Plug $x = 2$ into $f(x) = x^3 + 27$: $$f(2) = (2)^3 + 27.$$"
+    },
+    {
+      "title": "Solve",
+      "content": "$$f(2) = 8 + 27 = 35$$"
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>35</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $35$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $35$."
+    }
+  ]
+}

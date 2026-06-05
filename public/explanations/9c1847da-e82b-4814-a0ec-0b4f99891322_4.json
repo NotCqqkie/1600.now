@@ -1,1 +1,15 @@
-{"questionId": "9c1847da-e82b-4814-a0ec-0b4f99891322_4", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Set up the constraint", "content": "Each pull delivers 4–9 liters. If the elephant pulls $n$ times, the total is between $4n$ and $9n$ liters. For 140 liters:<br/>$$4n \\le 140 \\le 9n$$<br/>Which choice for $n$ satisfies this constraint?"}, {"title": "Backsolve with the answer choices", "content": "Backsolving — testing choice B (15):<br/>$4(15) = 60$ and $9(15) = 135$. Is $60 \\le 140 \\le 135$? No, because $140 > 135$.<br/><br/>Fails. Testing choice C (34):<br/>$4(34) = 136$ and $9(34) = 306$. Is $136 \\le 140 \\le 306$? Yes!<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "9c1847da-e82b-4814-a0ec-0b4f99891322_4",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the constraint",
+      "content": "Each pull delivers 4–9 liters. If the elephant pulls $n$ times, the total is between $4n$ and $9n$ liters. For 140 liters:<br/>$$4n \\le 140 \\le 9n$$<br/>Which choice for $n$ satisfies this constraint?"
+    },
+    {
+      "title": "Backsolve with the answer choices",
+      "content": "Backsolving — testing choice B (15):<br/>$4(15) = 60$ and $9(15) = 135$. Is $60 \\le 140 \\le 135$? No, because $140 > 135$.<br/><br/>Fails. Testing choice C (34):<br/>$4(34) = 136$ and $9(34) = 306$. Is $136 \\le 140 \\le 306$? Yes!<br/><br/>That matches choice C — <strong>C</strong> is correct."
+    }
+  ]
+}

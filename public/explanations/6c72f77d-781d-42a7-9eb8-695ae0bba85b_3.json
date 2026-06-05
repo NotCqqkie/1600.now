@@ -1,1 +1,15 @@
-{"questionId":"6c72f77d-781d-42a7-9eb8-695ae0bba85b_3","correctAnswer":"C","section":"Math","steps":[{"title":"Identify what the question needs","content":"a = advanced skaters in 2010, b = intermediate skaters in 2010. Each group grows by its own rate; the 2020 totals must still sum correctly. Advanced grew 53% &rarr; multiply by 1.53. Intermediate grew 44% &rarr; multiply by 1.44. The overall total of 35 grew 49% &rarr; multiply 35 by 1.49. The equation sets the two 2020 group counts equal to the 2020 total."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; '$1.53a + 1.49b = 35(1.44)$'</strong>: uses 1.49 (the total&apos;s growth rate) for intermediate instead of 1.44, and uses 1.44 (intermediate&apos;s rate) on the right side for the total. Wrong rates on wrong groups. &#10007;</li><li><strong>Choice B &mdash; '$1.49a + 0.53b = 35(1.44)$'</strong>: applies the total&apos;s multiplier to advanced and treats 53% increase as 0.53 (a decrease). Right side also misuses 1.44. &#10007;</li><li><strong>Choice C &mdash; '$1.53a + 1.44b = 35(1.49)$'</strong>: advanced &times; 1.53, intermediate &times; 1.44, total = 35 &times; 1.49. Each multiplier goes to the correct group. &#10003;</li><li><strong>Choice D &mdash; '$1.44a + 1.53b = 35(1.49)$'</strong>: swaps the multipliers &mdash; gives advanced the intermediate rate and vice versa. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_3",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "a = advanced skaters in 2010, b = intermediate skaters in 2010. Each group grows by its own rate; the 2020 totals must still sum correctly. Advanced grew 53% &rarr; multiply by 1.53. Intermediate grew 44% &rarr; multiply by 1.44. The overall total of 35 grew 49% &rarr; multiply 35 by 1.49. The equation sets the two 2020 group counts equal to the 2020 total."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; '$1.53a + 1.49b = 35(1.44)$'</strong>: uses 1.49 (the total&apos;s growth rate) for intermediate instead of 1.44, and uses 1.44 (intermediate&apos;s rate) on the right side for the total. Wrong rates on wrong groups. &#10007;</li><li><strong>Choice B &mdash; '$1.49a + 0.53b = 35(1.44)$'</strong>: applies the total&apos;s multiplier to advanced and treats 53% increase as 0.53 (a decrease). Right side also misuses 1.44. &#10007;</li><li><strong>Choice C &mdash; '$1.53a + 1.44b = 35(1.49)$'</strong>: advanced &times; 1.53, intermediate &times; 1.44, total = 35 &times; 1.49. Each multiplier goes to the correct group. &#10003;</li><li><strong>Choice D &mdash; '$1.44a + 1.53b = 35(1.49)$'</strong>: swaps the multipliers &mdash; gives advanced the intermediate rate and vice versa. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

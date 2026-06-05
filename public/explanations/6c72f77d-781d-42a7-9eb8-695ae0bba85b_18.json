@@ -1,1 +1,15 @@
-{"questionId": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_18", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Isosceles right triangle relationships", "content": "In an isosceles right triangle with equal legs of length $a$, the hypotenuse is $a\\sqrt{2}$ by the Pythagorean theorem. The perimeter is:<br/>$$a + a + a\\sqrt{2} = a(2 + \\sqrt{2})$$"}, {"title": "Backsolving with choice C", "content": "Backsolving — testing choice C (18): If the hypotenuse is 18, then since the hypotenuse equals $a\\sqrt{2}$, we have $a = \\frac{18}{\\sqrt{2}} = 9\\sqrt{2}$. The perimeter is:<br/>$$2(9\\sqrt{2}) + 18 = 18\\sqrt{2} + 18 = 18 + 18\\sqrt{2}$$<br/>This matches the given perimeter exactly. That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_18",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isosceles right triangle relationships",
+      "content": "In an isosceles right triangle with equal legs of length $a$, the hypotenuse is $a\\sqrt{2}$ by the Pythagorean theorem. The perimeter is:<br/>$$a + a + a\\sqrt{2} = a(2 + \\sqrt{2})$$"
+    },
+    {
+      "title": "Backsolving with choice C",
+      "content": "Backsolving — testing choice C (18): If the hypotenuse is 18, then since the hypotenuse equals $a\\sqrt{2}$, we have $a = \\frac{18}{\\sqrt{2}} = 9\\sqrt{2}$. The perimeter is:<br/>$$2(9\\sqrt{2}) + 18 = 18\\sqrt{2} + 18 = 18 + 18\\sqrt{2}$$<br/>This matches the given perimeter exactly. That matches choice C — <strong>C</strong> is correct."
+    }
+  ]
+}

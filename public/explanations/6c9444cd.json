@@ -1,1 +1,19 @@
-{"questionId": "6c9444cd", "correctAnswer": "4", "section": "Math", "steps": [{"title": "Read the minimum and maximum from each box plot", "content": "The range of a dataset is the difference between its maximum and minimum values. Reading the whisker endpoints from the box plots:<br/><br/>Class A: minimum $\\approx 1$, maximum $\\approx 5$<br/>Class B: minimum $\\approx 2$, maximum $\\approx 10$"}, {"title": "Calculate the range for each class", "content": "Range = maximum $-$ minimum<br/><br/>Class A: $5 - 1 = 4$<br/>Class B: $10 - 2 = 8$"}, {"title": "Find the positive difference between the ranges", "content": "Positive difference $= |4 - 8| = 4$. The answer is <strong>4</strong>."}]}
+{
+  "questionId": "6c9444cd",
+  "correctAnswer": "4",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the minimum and maximum from each box plot",
+      "content": "The range of a dataset is the difference between its maximum and minimum values. Reading the whisker endpoints from the box plots:<br/><br/>Class A: minimum $\\approx 1$, maximum $\\approx 5$<br/>Class B: minimum $\\approx 2$, maximum $\\approx 10$"
+    },
+    {
+      "title": "Calculate the range for each class",
+      "content": "Range = maximum $-$ minimum<br/><br/>Class A: $5 - 1 = 4$<br/>Class B: $10 - 2 = 8$"
+    },
+    {
+      "title": "Find the positive difference between the ranges",
+      "content": "Positive difference $= |4 - 8| = 4$. The answer is <strong>4</strong>."
+    }
+  ]
+}

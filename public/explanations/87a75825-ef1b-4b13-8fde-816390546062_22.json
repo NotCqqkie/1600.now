@@ -9,11 +9,11 @@
     },
     {
       "title": "Identify which form displays 27 as the base with the coefficient 1/c",
-      "content": "Check each form for base 27:\n\n<ul><li><strong>A:</strong> $(3)^{\\frac{1}{2}x}$ \u2014 base is 3, not 27</li>\n<li><strong>B:</strong> $(3^{3})^{\\frac{1}{6}x} = (27)^{\\frac{1}{6}x}$ \u2014 base is explicitly 27, coefficient of $x$ is $\\frac{1}{6}$ \u2713</li>\n<li><strong>C:</strong> $(9)^{\\frac{1}{4}x}$ \u2014 base is 9, not 27</li>\n<li><strong>D:</strong> $(27^{\\frac{1}{3}x})^{\\frac{1}{2}} = 27^{\\frac{1}{6}x}$ \u2014 simplifies to base 27, but the coefficient $\\frac{1}{6}$ is not directly displayed</li></ul>\n\nChoice B directly displays $(27)^{\\frac{1}{6}x}$, which means $\\frac{1}{c} = \\frac{1}{6}$, so $c = 6$."
+      "content": "Check each form for base 27:\n\n<ul><li><strong>A:</strong> $(3)^{\\frac{1}{2}x}$ — base is 3, not 27</li>\n<li><strong>B:</strong> $(3^{3})^{\\frac{1}{6}x} = (27)^{\\frac{1}{6}x}$ — base is explicitly 27, coefficient of $x$ is $\\frac{1}{6}$ ✓</li>\n<li><strong>C:</strong> $(9)^{\\frac{1}{4}x}$ — base is 9, not 27</li>\n<li><strong>D:</strong> $(27^{\\frac{1}{3}x})^{\\frac{1}{2}} = 27^{\\frac{1}{6}x}$ — simplifies to base 27, but the coefficient $\\frac{1}{6}$ is not directly displayed</li></ul>\n\nChoice B directly displays $(27)^{\\frac{1}{6}x}$, which means $\\frac{1}{c} = \\frac{1}{6}$, so $c = 6$."
     },
     {
       "title": "Verify the constraint is satisfied",
-      "content": "With $c = 6$:\n$$f(x+6) = 73 \\cdot 27^{\\frac{1}{6}(x+6)} = 73 \\cdot 27^{\\frac{x}{6} + 1} = 73 \\cdot 27^{\\frac{x}{6}} \\cdot 27^1 = 27 \\cdot f(x)$$\n\nWhen $x$ increases by 6, $f(x)$ multiplies by 27. \u2713\n\nThat matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "With $c = 6$:\n$$f(x+6) = 73 \\cdot 27^{\\frac{1}{6}(x+6)} = 73 \\cdot 27^{\\frac{x}{6} + 1} = 73 \\cdot 27^{\\frac{x}{6}} \\cdot 27^1 = 27 \\cdot f(x)$$\n\nWhen $x$ increases by 6, $f(x)$ multiplies by 27. ✓\n\nThat matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

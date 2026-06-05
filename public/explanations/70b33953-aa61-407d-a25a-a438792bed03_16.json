@@ -1,1 +1,19 @@
-{"questionId": "70b33953-aa61-407d-a25a-a438792bed03_16", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Translate the given percentages to equations", "content": "The problem gives us two relationships:<ul><li>$a$ is 270% of $b$, so $a = 2.7b$</li><li>$a$ is 80% of $c$, so $a = 0.8c$</li></ul>"}, {"title": "Equate the two expressions for a and solve for c in terms of b", "content": "Since both expressions equal $a$, set them equal:<br/>$$2.7b = 0.8c$$<br/>Divide both sides by 0.8:<br/>$$c = \\frac{2.7b}{0.8}$$<br/>Simplify: $\\frac{2.7}{0.8} = \\frac{27}{8} = 3.375$, so:<br/>$$c = 3.375b$$"}, {"title": "Convert to a percentage and match to a choice", "content": "If $c = 3.375b$, then $c$ is $3.375 \\times 100\\% = 337.5\\%$ of $b$. Therefore $p = 337.5$, which is closest to 338. That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "70b33953-aa61-407d-a25a-a438792bed03_16",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the given percentages to equations",
+      "content": "The problem gives us two relationships:<ul><li>$a$ is 270% of $b$, so $a = 2.7b$</li><li>$a$ is 80% of $c$, so $a = 0.8c$</li></ul>"
+    },
+    {
+      "title": "Equate the two expressions for a and solve for c in terms of b",
+      "content": "Since both expressions equal $a$, set them equal:<br/>$$2.7b = 0.8c$$<br/>Divide both sides by 0.8:<br/>$$c = \\frac{2.7b}{0.8}$$<br/>Simplify: $\\frac{2.7}{0.8} = \\frac{27}{8} = 3.375$, so:<br/>$$c = 3.375b$$"
+    },
+    {
+      "title": "Convert to a percentage and match to a choice",
+      "content": "If $c = 3.375b$, then $c$ is $3.375 \\times 100\\% = 337.5\\%$ of $b$. Therefore $p = 337.5$, which is closest to 338. That matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

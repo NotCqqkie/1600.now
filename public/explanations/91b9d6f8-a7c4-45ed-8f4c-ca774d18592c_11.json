@@ -1,1 +1,23 @@
-{"questionId": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_11", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Set the equations equal", "content": "Setting $x + 24 = 7x$ gives $24 = 6x$, so $x = 4$."}, {"title": "Count the intersection points", "content": "Two lines intersect at exactly one point. That matches choice <strong>B</strong> — <strong>B</strong> is correct.", "desmosExpressions": ["y = x + 24", "y = 7x"]}]}
+{
+  "questionId": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_11",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the equations equal",
+      "content": "Setting $x + 24 = 7x$ gives $24 = 6x$, so $x = 4$."
+    },
+    {
+      "title": "Count the intersection points",
+      "content": "Two lines intersect at exactly one point. That matches choice <strong>B</strong> — <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "y = x + 24",
+        "y = 7x"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice B, 1, and the other choices fail the same setup or substitution. Therefore <strong>B</strong> is correct."
+    }
+  ]
+}

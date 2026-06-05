@@ -1,1 +1,23 @@
-{"questionId": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_21", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Establish the growth rate in months", "content": "The tree grows 87 cm every \\(m\\) months. The rate per month is:<br/>$$\\text{rate} = \\frac{87}{m} \\text{ cm/month}$$"}, {"title": "Convert k years to months", "content": "Since there are 12 months per year:<br/>$$k \\text{ years} = 12k \\text{ months}$$"}, {"title": "Multiply rate by time to get total growth", "content": "Total growth over \\(k\\) years:<br/>$$\\frac{87}{m} \\times 12k = \\frac{87 \\times 12k}{m} = \\frac{1{,}044k}{m}$$"}, {"title": "Evaluate all choices", "content": "<ul><li>A: \\(\\dfrac{29m}{4k}\\) — rate and time are inverted; growth should increase with \\(k\\), not decrease. Eliminated.</li><li>B: \\(\\dfrac{29k}{4m}\\) — \\(29/4 = 7.25\\), not \\(87 \\times 12 / \\text{something}\\); coefficient is wrong. Eliminated.</li><li>C: \\(\\dfrac{1{,}044m}{k}\\) — \\(m\\) and \\(k\\) positions are swapped; growth should be proportional to \\(k\\) and inversely proportional to \\(m\\). Eliminated.</li><li>D: \\(\\dfrac{1{,}044k}{m}\\) — coefficient \\(87 \\times 12 = 1{,}044\\), numerator \\(k\\) (more years = more growth), denominator \\(m\\) (larger \\(m\\) means slower monthly rate). Matches exactly.</li></ul>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_21",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Establish the growth rate in months",
+      "content": "The tree grows 87 cm every $m$ months. The rate per month is:<br/>$$\\text{rate} = \\frac{87}{m} \\text{ cm/month}$$"
+    },
+    {
+      "title": "Convert k years to months",
+      "content": "Since there are 12 months per year:<br/>$$k \\text{ years} = 12k \\text{ months}$$"
+    },
+    {
+      "title": "Multiply rate by time to get total growth",
+      "content": "Total growth over $k$ years:<br/>$$\\frac{87}{m} \\times 12k = \\frac{87 \\times 12k}{m} = \\frac{1{,}044k}{m}$$"
+    },
+    {
+      "title": "Evaluate all choices",
+      "content": "<ul><li>A: $\\dfrac{29m}{4k}$ — rate and time are inverted; growth should increase with $k$, not decrease. Eliminated.</li><li>B: $\\dfrac{29k}{4m}$ — $29/4 = 7.25$, not $87 \\times 12 / \\text{something}$; coefficient is wrong. Eliminated.</li><li>C: $\\dfrac{1{,}044m}{k}$ — $m$ and $k$ positions are swapped; growth should be proportional to $k$ and inversely proportional to $m$. Eliminated.</li><li>D: $\\dfrac{1{,}044k}{m}$ — coefficient $87 \\times 12 = 1{,}044$, numerator $k$ (more years = more growth), denominator $m$ (larger $m$ means slower monthly rate). Matches exactly.</li></ul>That matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

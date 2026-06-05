@@ -1,1 +1,15 @@
-{"questionId": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_13", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Identify similar triangles", "content": "The angle marks indicate angle QWX = angle QYZ. Combined with angle WQX = angle YQZ (vertical angles), triangle WQX is similar to triangle YQZ by AA similarity."}, {"title": "Apply the proportion to find YZ", "content": "For similar triangles, corresponding sides are proportional:<br/>$$\\frac{WQ}{YQ} = \\frac{WX}{YZ}$$<br/>$$\\frac{90}{27} = \\frac{60}{YZ}$$<br/>Cross multiply:<br/>$$90 \\cdot YZ = 1620$$<br/>$$YZ = 18$$<br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_13",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify similar triangles",
+      "content": "The angle marks indicate angle QWX = angle QYZ. Combined with angle WQX = angle YQZ (vertical angles), triangle WQX is similar to triangle YQZ by AA similarity."
+    },
+    {
+      "title": "Apply the proportion to find YZ",
+      "content": "For similar triangles, corresponding sides are proportional:<br/>$$\\frac{WQ}{YQ} = \\frac{WX}{YZ}$$<br/>$$\\frac{90}{27} = \\frac{60}{YZ}$$<br/>Cross multiply:<br/>$$90 \\cdot YZ = 1620$$<br/>$$YZ = 18$$<br/>That matches choice A — <strong>A</strong> is correct."
+    }
+  ]
+}

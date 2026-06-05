@@ -1,1 +1,19 @@
-{"questionId": "f196343a-4470-4649-8efb-edf349dd4393_1", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Define average acceleration", "content": "$$ a = \\frac{\\Delta v}{\\Delta t} $$"}, {"title": "Compute the value", "content": "$$ a = \\frac{45}{6} = 7.5 $$ m/s².<br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "f196343a-4470-4649-8efb-edf349dd4393_1",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Define average acceleration",
+      "content": "$$ a = \\frac{\\Delta v}{\\Delta t} $$"
+    },
+    {
+      "title": "Compute the value",
+      "content": "$$ a = \\frac{45}{6} = 7.5 $$ m/s².<br/>That matches choice B — <strong>B</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice B, 7.5. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
+    }
+  ]
+}

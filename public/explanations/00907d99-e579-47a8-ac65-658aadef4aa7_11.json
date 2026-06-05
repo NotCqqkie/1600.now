@@ -1,1 +1,19 @@
-{"questionId":"00907d99-e579-47a8-ac65-658aadef4aa7_11","correctAnswer":"4","section":"Math","steps":[{"title":"Factor the second equation","content":"Rewrite: $\\dfrac{cx}{4y}=\\dfrac{c}{4}\\cdot\\dfrac{x}{y}=76$."},{"title":"Combine and compute","content":"Substitute $\\dfrac{x}{y}=76$: $\\dfrac{c}{4}\\cdot 76=76$, so $\\dfrac{c}{4}=1$ and $c=4$.<br/><br/>The answer is <strong>4</strong>."}]}
+{
+  "questionId": "00907d99-e579-47a8-ac65-658aadef4aa7_11",
+  "correctAnswer": "4",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor the second equation",
+      "content": "Rewrite: $\\dfrac{cx}{4y}=\\dfrac{c}{4}\\cdot\\dfrac{x}{y}=76$."
+    },
+    {
+      "title": "Combine and compute",
+      "content": "Substitute $\\dfrac{x}{y}=76$: $\\dfrac{c}{4}\\cdot 76=76$, so $\\dfrac{c}{4}=1$ and $c=4$.<br/><br/>The answer is <strong>4</strong>."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $4$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $4$."
+    }
+  ]
+}

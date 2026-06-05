@@ -1,1 +1,23 @@
-{"questionId":"9c1847da-e82b-4814-a0ec-0b4f99891322_10","correctAnswer":"4140","section":"Math","steps":[{"title":"Substitute the number of sides into the formula","content":"We evaluate the function at $x=25$: $$f(25)=180(25-2)$$."},{"title":"Simplify to find the sum","content":"Compute the product: $$180 \\times 23 = 4140$$.<br/>The answer is <strong>4140</strong>.","desmosExpressions":["y = 180(x - 2)","(25, 4140)"]}]}
+{
+  "questionId": "9c1847da-e82b-4814-a0ec-0b4f99891322_10",
+  "correctAnswer": "4140",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the number of sides into the formula",
+      "content": "We evaluate the function at $x=25$: $$f(25)=180(25-2)$$."
+    },
+    {
+      "title": "Simplify to find the sum",
+      "content": "Compute the product: $$180 \\times 23 = 4140$$.<br/>The answer is <strong>4140</strong>.",
+      "desmosExpressions": [
+        "y = 180(x - 2)",
+        "(25, 4140)"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $4140$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $4140$."
+    }
+  ]
+}

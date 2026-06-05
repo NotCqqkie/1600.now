@@ -1,1 +1,25 @@
-{"questionId": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_4", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Read two endpoint values from the line of best fit", "content": "The line of best fit spans x = 0 to x = 10 hours. Reading from the graph:<ul><li>At $x = 0$: $y \\approx 175$&deg;F (y-intercept)</li><li>At $x = 10$: $y \\approx 575$&deg;F</li></ul>"}, {"title": "Compute the slope", "content": "$$\\text{slope} = \\frac{575 - 175}{10 - 0} = \\frac{400}{10} = 40 \\text{ &deg;F per hour}$$<br/>The slope is positive (line rises left to right), so temperature is increasing."}, {"title": "Match the slope and direction to the choices", "content": "Evaluate each answer against the computed slope of +40&deg;F/hr:<ul><li><strong>Choice A &mdash; 'The predicted temperature increases at a constant rate of approximately 170&deg;F per hour'</strong>: Direction is correct (increasing), but 170&deg;F/hr is roughly the total change over 10 hours, not the per-hour rate. Off by a factor of ~10. &#10007;</li><li><strong>Choice B &mdash; 'The predicted temperature decreases at a constant rate of approximately 170&deg;F per hour'</strong>: Direction is wrong (the line rises) and the magnitude is wrong. &#10007;</li><li><strong>Choice C &mdash; 'The predicted temperature increases at a constant rate of approximately 40&deg;F per hour'</strong>: Direction is correct and the rate matches the computed slope of 40&deg;F/hr. &#10003;</li><li><strong>Choice D &mdash; 'The predicted temperature decreases at a constant rate of approximately 40&deg;F per hour'</strong>: Magnitude is correct but direction is wrong &mdash; the line slopes upward, not downward. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_4",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read two endpoint values from the line of best fit",
+      "content": "The line of best fit spans $x=0$ to $x=10$ hours. Reading from the graph, two clear points on the line are approximately $(0,175)$ and $(10,575)$."
+    },
+    {
+      "title": "Use a mini-table regression to get the slope",
+      "content": "Enter those two points as lists in Desmos and regress $y_1\\sim mx_1+b$. Desmos returns $m=40$, so the line predicts an increase of about $40^\\circ\\text{F}$ per hour.",
+      "desmosExpressions": [
+        "x_1=[0,10]",
+        "y_1=[175,575]",
+        "y_1~m x_1+b",
+        "m"
+      ]
+    },
+    {
+      "title": "Match the slope and direction to the choices",
+      "content": "The slope is positive, so the predicted temperature increases, not decreases. Its size is about $40^\\circ\\text{F}$ per hour, not $170^\\circ\\text{F}$ per hour. Choice <strong>C</strong> states both the correct direction and the correct rate."
+    }
+  ]
+}

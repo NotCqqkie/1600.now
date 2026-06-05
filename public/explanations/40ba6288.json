@@ -1,1 +1,31 @@
-{"questionId":"40ba6288","correctAnswer":"B","section":"Math","steps":[{"title":"Substitute $3x=30$ into the target expression","content":"The expression $3x-12$ contains $3x$, and the given equation states $3x=30$, so replace $3x$ with $30$ to get $30-12$."},{"title":"Compute the target value","content":"So $3x-12 = 30-12 = 18$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}
+{
+  "questionId": "40ba6288",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute $3x=30$ into the target expression",
+      "content": "The expression $3x-12$ contains $3x$, and the given equation states $3x=30$, so replace $3x$ with $30$ to get $30-12$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "So $3x-12 = 30-12 = 18$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice B is correct. Subtracting $12$ from each side of the given equation yields $3x-12=30-12$, or $3x-12=18$. Therefore, the value of $3x-12$ is $18$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A is incorrect. This is the value of $x-12$, not $3x-12$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice C is incorrect. This is the value of $x+12$, not $3x-12$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice D is incorrect. This is the value of $3x+12$, not $3x-12$."
+    }
+  ]
+}

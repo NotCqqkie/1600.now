@@ -1,1 +1,9 @@
-{"qid": "e312081b", "correctAnswer": "B", "steps": ["Remove the parentheses: \\((x + 5) + (2x - 3) = x + 5 + 2x - 3\\).", "Combine the \\(x\\)-terms: \\(x + 2x = 3x\\). Combine the constants: \\(5 + (-3) = 2\\). The result is \\(3x + 2\\).", "<ul><li><strong>A: \\(3x - 2\\)</strong> — The constant is \\(+2\\), not \\(-2\\). Eliminated.</li><li><strong>B: \\(3x + 2\\)</strong> — Matches exactly. That matches choice B — <strong>B</strong> is correct.</li><li><strong>C: \\(3x - 8\\)</strong> — Incorrect constant; would require \\(5 - 3 = -8\\), which is false. Eliminated.</li><li><strong>D: \\(3x + 8\\)</strong> — Incorrect constant; would require \\(5 + 3 = 8\\), ignoring the minus sign. Eliminated.</li></ul>"]}
+{
+  "qid": "e312081b",
+  "correctAnswer": "B",
+  "steps": [
+    "Remove the parentheses: $(x + 5) + (2x - 3) = x + 5 + 2x - 3$.",
+    "Combine the $x$-terms: $x + 2x = 3x$. Combine the constants: $5 + (-3) = 2$. The result is $3x + 2$.",
+    "<ul><li><strong>A: $3x - 2$</strong> — The constant is $+2$, not $-2$. Eliminated.</li><li><strong>B: $3x + 2$</strong> — Matches exactly. That matches choice B — <strong>B</strong> is correct.</li><li><strong>C: $3x - 8$</strong> — Incorrect constant; would require $5 - 3 = -8$, which is false. Eliminated.</li><li><strong>D: $3x + 8$</strong> — Incorrect constant; would require $5 + 3 = 8$, ignoring the minus sign. Eliminated.</li></ul>"
+  ]
+}

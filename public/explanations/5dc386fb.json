@@ -1,1 +1,15 @@
-{"questionId": "5dc386fb", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Lookup the relevant counts from the table", "content": "From the table, the number of states with a state-level sales tax and no state-level income tax is 6 (row No state income tax, column State sales tax). The total number of states with a state-level sales tax is 45 (sum of column State sales tax: 39 + 6)."}, {"title": "Calculate the percentage and match the answer", "content": "Divide the 6 states with sales tax but no income tax by the 45 states with any sales tax: 6 / 45 = 0.1333...; multiply by 100 gives 13.33...%, which rounds to 13.3% to the nearest tenth of a percent. That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "5dc386fb",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Lookup the relevant counts from the table",
+      "content": "From the table, the number of states with a state-level sales tax and no state-level income tax is 6 (row No state income tax, column State sales tax). The total number of states with a state-level sales tax is 45 (sum of column State sales tax: 39 + 6)."
+    },
+    {
+      "title": "Calculate the percentage and match the answer",
+      "content": "Divide the 6 states with sales tax but no income tax by the 45 states with any sales tax: 6 / 45 = 0.1333...; multiply by 100 gives 13.33...%, which rounds to 13.3% to the nearest tenth of a percent. That matches choice C — <strong>C</strong> is correct."
+    }
+  ]
+}

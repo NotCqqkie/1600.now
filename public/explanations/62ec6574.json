@@ -1,1 +1,20 @@
-{"questionId": "62ec6574", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Find the width of the base", "content": "Base area = length &times; width, so:<br/>$$24t = \\frac{8}{3} \\times w \\implies w = 24t \\times \\frac{3}{8} = 9t \\text{ cm}$$<br/>Dimensions: l = 8/3 cm, w = 9t cm, h = 15 cm."}, {"title": "Apply the surface area formula", "formula": "$$SA = 2(lw + lh + wh)$$", "content": "Compute each face pair:<ul><li>$$lw = \\frac{8}{3} \\times 9t = 24t$$</li><li>$$lh = \\frac{8}{3} \\times 15 = 40$$</li><li>$$wh = 9t \\times 15 = 135t$$</li></ul>$$SA = 2(24t + 40 + 135t) = 2(159t + 40) = 318t + 80$$"}, {"title": "Evaluate each choice", "content": "<ul><li><strong>Choice A &mdash; '48t + 160'</strong>: This is only 2(lw + lh) &mdash; it omits the two wh faces entirely. &#10007;</li><li><strong>Choice B &mdash; '318t + 80'</strong>: Equals 2(159t + 40) = 2(24t + 40 + 135t), accounting for all three pairs of faces. &#10003;</li><li><strong>Choice C &mdash; '1,968t + 80'</strong>: Far too large; likely from a multiplication error with the width. &#10007;</li><li><strong>Choice D &mdash; '360t'</strong>: Has no constant term, but lh = 40 is a constant, so the surface area must include a constant. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "62ec6574",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the width of the base",
+      "content": "Base area = length &times; width, so:<br/>$$24t = \\frac{8}{3} \\times w \\implies w = 24t \\times \\frac{3}{8} = 9t \\text{ cm}$$<br/>Dimensions: l = 8/3 cm, w = 9t cm, h = 15 cm."
+    },
+    {
+      "title": "Apply the surface area formula",
+      "formula": "$$SA = 2(lw + lh + wh)$$",
+      "content": "Compute each face pair:<ul><li>$$lw = \\frac{8}{3} \\times 9t = 24t$$</li><li>$$lh = \\frac{8}{3} \\times 15 = 40$$</li><li>$$wh = 9t \\times 15 = 135t$$</li></ul>$$SA = 2(24t + 40 + 135t) = 2(159t + 40) = 318t + 80$$"
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; '48t + 160'</strong>: This is only 2(lw + lh) &mdash; it omits the two wh faces entirely. &#10007;</li><li><strong>Choice B &mdash; '318t + 80'</strong>: Equals 2(159t + 40) = 2(24t + 40 + 135t), accounting for all three pairs of faces. &#10003;</li><li><strong>Choice C &mdash; '1,968t + 80'</strong>: Far too large; likely from a multiplication error with the width. &#10007;</li><li><strong>Choice D &mdash; '360t'</strong>: Has no constant term, but lh = 40 is a constant, so the surface area must include a constant. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

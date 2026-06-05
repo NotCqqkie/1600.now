@@ -1,1 +1,26 @@
-{"qid": "390a8264-19b1-4de0-9dc9-09609eadd7ca_12", "correctAnswer": "D", "steps": [{"explanation": "Identify the growth model. A 3.5% decrease each year means each year's count is multiplied by \\(1 - 0.035 = 0.965\\). This is exponential decay with multiplier 0.965."}, {"explanation": "Count the years from 2005 to 2015: \\(2015 - 2005 = 10\\) years. The exponent on the multiplier is 10."}, {"explanation": "Write the formula. Starting from 6.22 pheasants per mile in 2005, after 10 years the count is \\(6.22 \\cdot (0.965)^{10}\\)."}, {"explanation": "Evaluate each choice.<ul><li>Choice A: \\(0.965(6.22)^{10}\\) raises the initial value to the 10th power, not the multiplier. This is not exponential decay — eliminate A.</li><li>Choice B: \\(1.035(6.22)^{10}\\) uses the growth factor and again raises the wrong base. Eliminate B.</li><li>Choice C: \\(6.22(0.035)^{10}\\) uses 0.035 (the rate alone) as the base instead of \\(1 - 0.035 = 0.965\\). Eliminate C.</li><li>Choice D: \\(6.22(0.965)^{10}\\) is exactly the exponential decay formula with the correct starting value, correct multiplier, and correct exponent. That matches choice D — <strong>D</strong> is correct.</li></ul>"}]}
+{
+  "qid": "390a8264-19b1-4de0-9dc9-09609eadd7ca_12",
+  "correctAnswer": "D",
+  "steps": [
+    {
+      "title": "Use an exponential table setup",
+      "content": "A $3.5\\%$ decrease each year means each year's count is multiplied by $1-0.035=0.965$. Enter the first two years as $x_1=[0,1]$ and $y_1=[6.22,6.22(0.965)]$, then run $y_1\\sim a b^{x_1}$ in Desmos.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[6.22,6.22(0.965)]",
+        "y_1~a b^{x_1}",
+        "y=a b^x"
+      ]
+    },
+    {
+      "explanation": "Count the years from 2005 to 2015: $2015 - 2005 = 10$ years. The exponent on the multiplier is 10."
+    },
+    {
+      "title": "Write the formula",
+      "content": "Desmos gives $a=6.22$ and $b=0.965$. From 2005 to 2015 is $10$ years, so the count is $6.22(0.965)^{10}$."
+    },
+    {
+      "explanation": "Evaluate each choice.<ul><li>Choice A: $0.965(6.22)^{10}$ raises the initial value to the 10th power, not the multiplier. This is not exponential decay — eliminate A.</li><li>Choice B: $1.035(6.22)^{10}$ uses the growth factor and again raises the wrong base. Eliminate B.</li><li>Choice C: $6.22(0.035)^{10}$ uses 0.035 (the rate alone) as the base instead of $1 - 0.035 = 0.965$. Eliminate C.</li><li>Choice D: $6.22(0.965)^{10}$ is exactly the exponential decay formula with the correct starting value, correct multiplier, and correct exponent. That matches choice D — <strong>D</strong> is correct.</li></ul>"
+    }
+  ]
+}

@@ -1,1 +1,27 @@
-{"questionId": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_6", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Set up", "content": "Plug $x=-1$ into $f(x)=-5x^2-7$."}, {"title": "Solve", "content": "$$f(-1)=-5(-1)^2-7=-5(1)-7=-12$$"}, {"title": "Answer", "content": "<strong>A</strong> is correct.", "desmosExpressions": ["f(x) = -5x^2 - 7", "(-1, -12)"]}]}
+{
+  "questionId": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_6",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "Plug $x=-1$ into $f(x)=-5x^2-7$."
+    },
+    {
+      "title": "Solve",
+      "content": "$$f(-1)=-5(-1)^2-7=-5(1)-7=-12$$"
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "f(x) = -5x^2 - 7",
+        "(-1, -12)"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice A, -12. The other choices do not satisfy the same condition from the question, so <strong>A</strong> is correct."
+    }
+  ]
+}

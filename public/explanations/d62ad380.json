@@ -1,1 +1,24 @@
-{"qid":"d62ad380","correctAnswer":"C","steps":["Find the slope using two table points: \\(m = \\frac{18 - 8}{6 - 3} = \\frac{10}{3}\\).","Find the \\(y\\)-intercept using point \\((3, 8)\\): \\(8 = \\frac{10}{3}(3) + b \\Rightarrow 8 = 10 + b \\Rightarrow b = -2\\).","The equation is \\(P = \\frac{10}{3}s - 2\\). Verify with \\(s = 9\\): \\(P = 30 - 2 = 28\\). Correct."],"choices":[{"id":"A","text":"\\(p = 3s + 10\\)","explanation":"<ul><li>Test \\(s = 3\\): \\(P = 9 + 10 = 19\\). The table says 8.00.</li><li>The slope is 3, not \\(\\frac{10}{3}\\), so this does not match the rate of change in the table.</li><li>Eliminated because it fails the first data point.</li></ul>"},{"id":"B","text":"\\(p = \\frac{10}{3}s + 8\\)","explanation":"<ul><li>Test \\(s = 3\\): \\(P = \\frac{10}{3}(3) + 8 = 10 + 8 = 18\\). The table says 8.00.</li><li>The slope is right but the intercept is wrong; adding 8 instead of &ndash;2 shifts the line up by 10.</li><li>Eliminated because it fails the first data point.</li></ul>"},{"id":"C","text":"\\(p = \\frac{10}{3}s - 2\\)","explanation":"<ul><li>Test \\(s = 3\\): \\(P = 10 - 2 = 8\\). Matches. Test \\(s = 6\\): \\(P = 20 - 2 = 18\\). Matches. Test \\(s = 9\\): \\(P = 30 - 2 = 28\\). Matches.</li><li>Slope \\(\\frac{10}{3}\\) and intercept \\(-2\\) were derived directly from the table data.</li><li>That matches choice C &mdash; <strong>C</strong> is correct.</li></ul>"},{"id":"D","text":"\\(p = \\frac{3}{10}s - \\frac{1}{10}\\)","explanation":"<ul><li>Test \\(s = 3\\): \\(P = 0.9 - 0.1 = 0.8\\). The table says 8.00.</li><li>This slope \\(\\frac{3}{10}\\) is the reciprocal of the correct slope and is far too small.</li><li>Eliminated because all three table values are off by an order of magnitude.</li></ul>"}]}
+{
+  "questionId": "d62ad380",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Fit price as a function of side length",
+      "content": "Use side length $s$ as $x$ and price $P$ as $y$. Enter the table points $(3,8)$, $(6,18)$, and $(9,28)$ and run $y_1 \\sim m x_1+b$.",
+      "desmosExpressions": [
+        "x_1=[3,6,9]",
+        "y_1=[8,18,28]",
+        "y_1~m x_1+b"
+      ]
+    },
+    {
+      "title": "Read the fitted equation",
+      "content": "Desmos gives $m=\\frac{10}{3}$ and $b=-2$, so the relationship is $P=\\frac{10}{3}s-2$. This checks because $\\frac{10}{3}(3)-2=8$ and $\\frac{10}{3}(6)-2=18$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice <strong>C</strong> is $P=\\frac{10}{3}s-2$, so C is correct."
+    }
+  ]
+}

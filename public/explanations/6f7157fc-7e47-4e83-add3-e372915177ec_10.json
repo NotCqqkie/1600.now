@@ -1,1 +1,10 @@
-{"qid": "6f7157fc-7e47-4e83-add3-e372915177ec_10", "correctAnswer": "B", "steps": ["Express each concentration as a decimal: 2% = 0.02, 5% = 0.05, 3% = 0.03.", "Compute the salt contributed by each solution: \\(x\\) liters at 2% gives \\(0.02x\\) liters of salt; \\(y\\) liters at 5% gives \\(0.05y\\) liters of salt.", "The combined volume is \\(x + y\\) liters at 3%, so the salt in the mixture is \\(0.03(x+y)\\). Setting total salt in equal to total salt out: \\(0.02x + 0.05y = 0.03(x+y)\\).", "Evaluate every choice:<ul><li>A: \\(0.02x + 0.05y = 3(x+y)\\) — uses 3 instead of 0.03 on the right side, making the concentration 300%. Eliminated.</li><li>B: \\(0.02x + 0.05y = 0.03(x+y)\\) — correctly balances salt in decimal form. That matches choice B — <strong>B</strong> is correct.</li><li>C: \\(0.2x + 0.5y = 3(x+y)\\) — scales both sides up by a factor of 10 on the left but 100 on the right. Inconsistent. Eliminated.</li><li>D: \\(0.2x + 0.5y = 0.3(x+y)\\) — represents 20%, 50%, and 30% concentrations, not the given values. Eliminated.</li></ul>"]}
+{
+  "qid": "6f7157fc-7e47-4e83-add3-e372915177ec_10",
+  "correctAnswer": "B",
+  "steps": [
+    "Express each concentration as a decimal: 2% = 0.02, 5% = 0.05, 3% = 0.03.",
+    "Compute the salt contributed by each solution: $x$ liters at 2% gives $0.02x$ liters of salt; $y$ liters at 5% gives $0.05y$ liters of salt.",
+    "The combined volume is $x + y$ liters at 3%, so the salt in the mixture is $0.03(x+y)$. Setting total salt in equal to total salt out: $0.02x + 0.05y = 0.03(x+y)$.",
+    "Evaluate every choice:<ul><li>A: $0.02x + 0.05y = 3(x+y)$ — uses 3 instead of 0.03 on the right side, making the concentration 300%. Eliminated.</li><li>B: $0.02x + 0.05y = 0.03(x+y)$ — correctly balances salt in decimal form. That matches choice B — <strong>B</strong> is correct.</li><li>C: $0.2x + 0.5y = 3(x+y)$ — scales both sides up by a factor of 10 on the left but 100 on the right. Inconsistent. Eliminated.</li><li>D: $0.2x + 0.5y = 0.3(x+y)$ — represents 20%, 50%, and 30% concentrations, not the given values. Eliminated.</li></ul>"
+  ]
+}

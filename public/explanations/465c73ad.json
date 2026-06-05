@@ -1,1 +1,19 @@
-{"questionId":"465c73ad","correctAnswer":"8.6","section":"Math","steps":[{"title":"Isolate x","content":"Divide both sides of $10x=86$ by $10$: $$x=\\tfrac{86}{10}.$$"},{"title":"Simplify","content":"Compute the quotient: $x=8.6$. The answer is <strong>8.6</strong>."}]}
+{
+  "questionId": "465c73ad",
+  "correctAnswer": "8.6",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate x",
+      "content": "Divide both sides of $10x=86$ by $10$: $$x=\\tfrac{86}{10}.$$"
+    },
+    {
+      "title": "Simplify",
+      "content": "Compute the quotient: $x=8.6$. The answer is <strong>8.6</strong>."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $8.6$. Dividing both sides of the given equation by $10$ yields $x=8.6$. Therefore, $8.6$ is the solution to the given equation. Note that 8.6 and 43/5 are examples of ways to enter a correct answer."
+    }
+  ]
+}

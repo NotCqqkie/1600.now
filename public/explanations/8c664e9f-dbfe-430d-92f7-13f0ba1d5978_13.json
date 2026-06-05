@@ -1,1 +1,19 @@
-{"questionId":"8c664e9f-dbfe-430d-92f7-13f0ba1d5978_13","correctAnswer":"12","section":"Math","steps":[{"title":"Apply the circumference formula","content":"The circumference of a circle is $C=\\pi d$, where $d$ is the diameter. Substitute the given $C=12\\pi$: $$12\\pi=\\pi d.$$"},{"title":"Solve for the diameter","content":"Divide both sides by $\\pi$: $$d=12.$$ The answer is <strong>12</strong>."}]}
+{
+  "questionId": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_13",
+  "correctAnswer": "12",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the circumference formula",
+      "content": "The circumference of a circle is $C=\\pi d$, where $d$ is the diameter. Substitute the given $C=12\\pi$: $$12\\pi=\\pi d.$$"
+    },
+    {
+      "title": "Solve for the diameter",
+      "content": "Divide both sides by $\\pi$: $$d=12.$$ The answer is <strong>12</strong>."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, make sure the computed value answers exactly what the question asks for. The work above gives $12$; substituting or interpreting it in the original condition satisfies the requirement, so $12$ is the value to enter."
+    }
+  ]
+}

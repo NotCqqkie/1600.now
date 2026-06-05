@@ -1,1 +1,19 @@
-{"questionId": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_1", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Set up the mass range", "content": "The panda's mass $p$ is between $\\frac{1}{950}$ and $\\frac{1}{850}$ of the mother's $95{,}950$ grams: $$\\frac{95{,}950}{950} \\le p \\le \\frac{95{,}950}{850}.$$"}, {"title": "Compute the bounds", "content": "Lower bound: $950 \\times 101 = 95{,}950$, so $\\frac{95{,}950}{950}=101$. Upper bound: $\\frac{95{,}950}{850} \\approx 112.88$. Thus $$101 \\le p \\le 112.88.$$"}, {"title": "Match the lower bound", "content": "The answer choices show only a lower bound; we need $101 \\le p$.<ul><li>A) $10.1 \\le p$ &mdash; off by a factor of 10.</li><li>B) $101 \\le p$ &mdash; matches the computed lower bound exactly.</li><li>C) $1{,}010 \\le p$ &mdash; off by a factor of 10.</li><li>D) $10{,}100 \\le p$ &mdash; far too large.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_1",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the mass range",
+      "content": "The panda's mass $p$ is between $\\frac{1}{950}$ and $\\frac{1}{850}$ of the mother's $95{,}950$ grams: $$\\frac{95{,}950}{950} \\le p \\le \\frac{95{,}950}{850}.$$"
+    },
+    {
+      "title": "Compute the bounds",
+      "content": "Lower bound: $950 \\times 101 = 95{,}950$, so $\\frac{95{,}950}{950}=101$. Upper bound: $\\frac{95{,}950}{850} \\approx 112.88$. Thus $$101 \\le p \\le 112.88.$$"
+    },
+    {
+      "title": "Match the lower bound",
+      "content": "The answer choices show only a lower bound; we need $101 \\le p$.<ul><li>A) $10.1 \\le p$ &mdash; off by a factor of 10.</li><li>B) $101 \\le p$ &mdash; matches the computed lower bound exactly.</li><li>C) $1{,}010 \\le p$ &mdash; off by a factor of 10.</li><li>D) $10{,}100 \\le p$ &mdash; far too large.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

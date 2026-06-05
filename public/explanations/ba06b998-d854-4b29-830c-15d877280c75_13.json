@@ -1,1 +1,15 @@
-{"questionId": "ba06b998-d854-4b29-830c-15d877280c75_13", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Apply the fractional exponent rule", "content": "For any nonnegative base $u$, $$u^{1/2} = \\sqrt{u}.$$ With $u = 133y$, this gives $$(133y)^{1/2} = \\sqrt{133y}.$$"}, {"title": "Evaluate each choice", "content": "<ul><li>A: $133 \\cdot \\sqrt{y}$ equals $\\sqrt{133^2 \\cdot y} = \\sqrt{17689y}$, not $\\sqrt{133y}$. Eliminate.</li><li>B: $\\sqrt{133} \\cdot y$ equals $\\sqrt{133 \\cdot y^2} = \\sqrt{133y^2}$, not $\\sqrt{133y}$. Eliminate.</li><li>C: $\\sqrt{133y}$ matches the derived expression. Keep.</li><li>D: $\\sqrt{(133y)^2} = 133y$ (for $y > 0$), which is not equivalent to $\\sqrt{133y}$. Eliminate.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "ba06b998-d854-4b29-830c-15d877280c75_13",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the fractional exponent rule",
+      "content": "For any nonnegative base $u$, $$u^{1/2} = \\sqrt{u}.$$ With $u = 133y$, this gives $$(133y)^{1/2} = \\sqrt{133y}.$$"
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li>A: $133 \\cdot \\sqrt{y}$ equals $\\sqrt{133^2 \\cdot y} = \\sqrt{17689y}$, not $\\sqrt{133y}$. Eliminate.</li><li>B: $\\sqrt{133} \\cdot y$ equals $\\sqrt{133 \\cdot y^2} = \\sqrt{133y^2}$, not $\\sqrt{133y}$. Eliminate.</li><li>C: $\\sqrt{133y}$ matches the derived expression. Keep.</li><li>D: $\\sqrt{(133y)^2} = 133y$ (for $y > 0$), which is not equivalent to $\\sqrt{133y}$. Eliminate.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,31 @@
-{"questionId": "f79fffba", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Substitute the value x = -2", "content": "Replace $x$ with $-2$ in $$h(x) = 3x - 7.$$ This gives $$h(-2) = 3(-2) - 7.$$"}, {"title": "Compute the result", "content": "Simplify: $$h(-2) = -6 - 7 = -13.$$ That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}
+{
+  "questionId": "f79fffba",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the value x = -2",
+      "content": "Replace $x$ with $-2$ in $$h(x) = 3x - 7.$$ This gives $$h(-2) = 3(-2) - 7.$$"
+    },
+    {
+      "title": "Compute the result",
+      "content": "Simplify: $$h(-2) = -6 - 7 = -13.$$ That matches choice <strong>A</strong> — <strong>A</strong> is correct."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice A is correct. The value of $h\\left(-2\\right)$ can be found by substituting $-2$ for $x$ in the equation defining $h$. Substituting $-2$ for $x$ in $h\\left(x\\right)=3x-7$ yields $h\\left(-2\\right)=3\\left(-2\\right)-7$, or $h\\left(-2\\right)=-13$. Therefore, the value of $h\\left(-2\\right)$ is $-13$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice B is incorrect. This is the value of $h\\left(-1\\right)$, not $h\\left(-2\\right)$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice C is incorrect and may result from conceptual or calculation errors."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice D is incorrect and may result from conceptual or calculation errors."
+    }
+  ]
+}

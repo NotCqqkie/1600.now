@@ -1,1 +1,15 @@
-{"questionId": "ee2f611f", "correctAnswer": "28", "section": "Math", "steps": [{"title": "Set up the inequality for when a monthly pass saves money", "content": "To find the minimum number of trips where a monthly pass becomes cheaper, assume all trips cost the maximum price (\\$3.50 each). For the pass to cost less than individual tickets:<br/>$$95 < n \\times 3.50$$<br/>where $n$ is the number of trips."}, {"title": "Solve for the minimum number of trips", "content": "Divide both sides by $3.50$:<br/>$$n > \\frac{95}{3.50}$$<br/>Rewrite the fraction:<br/>$$n > \\frac{950}{35} = \\frac{190}{7}$$<br/>Calculate: $190 \\div 7 = 27\\frac{1}{7} \\approx 27.14$<br/><br/>Since $n$ must be a whole number and $n > 27.14$, the minimum is $n = 28$.<br/><br/>Verification: 28 trips at \\$3.50 each costs \\$98, which exceeds the \\$95 monthly pass. Therefore, the answer is 28."}]}
+{
+  "questionId": "ee2f611f",
+  "correctAnswer": "28",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the inequality for when a monthly pass saves money",
+      "content": "To find the minimum number of trips where a monthly pass becomes cheaper, assume all trips cost the maximum price (\\$3.50 each). For the pass to cost less than individual tickets:<br/>$$95 < n \\times 3.50$$<br/>where $n$ is the number of trips."
+    },
+    {
+      "title": "Solve for the minimum number of trips",
+      "content": "Divide both sides by $3.50$:<br/>$$n > \\frac{95}{3.50}$$<br/>Rewrite the fraction:<br/>$$n > \\frac{950}{35} = \\frac{190}{7}$$<br/>Calculate: $190 \\div 7 = 27\\frac{1}{7} \\approx 27.14$<br/><br/>Since $n$ must be a whole number and $n > 27.14$, the minimum is $n = 28$.<br/><br/>Verification: 28 trips at \\$3.50 each costs \\$98, which exceeds the \\$95 monthly pass. Therefore, the answer is 28."
+    }
+  ]
+}

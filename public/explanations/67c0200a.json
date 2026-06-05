@@ -1,1 +1,15 @@
-{"questionId": "67c0200a", "correctAnswer": ".54", "section": "Math", "steps": [{"title": "Express a as a percentage of b", "content": "The number <em>a</em> is 70% less than <em>b</em>, so <em>a</em> = <em>b</em> - 0.70<em>b</em> = 0.30<em>b</em>.<br/>$$a = b - 0.70b = 0.30b$$"}, {"title": "Find c in terms of b", "content": "The number <em>c</em> is 80% greater than <em>a</em>, so <em>c</em> = <em>a</em> + 0.80<em>a</em> = 1.80<em>a</em>.<br/>Substituting <em>a</em> = 0.30<em>b</em> gives <em>c</em> = 1.80 × 0.30<em>b</em> = 0.54<em>b</em>.<br/>$$c = 1.80a = 1.80(0.30b) = 0.54b$$<br/>Thus <em>c</em> is 0.54 times <em>b</em>.<br/>The answer is <strong>.54</strong>."}]}
+{
+  "questionId": "67c0200a",
+  "correctAnswer": ".54",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Express a as a percentage of b",
+      "content": "The number <em>a</em> is 70% less than <em>b</em>, so <em>a</em> = <em>b</em> - 0.70<em>b</em> = 0.30<em>b</em>.<br/>$$a = b - 0.70b = 0.30b$$"
+    },
+    {
+      "title": "Find c in terms of b",
+      "content": "The number <em>c</em> is 80% greater than <em>a</em>, so <em>c</em> = <em>a</em> + 0.80<em>a</em> = 1.80<em>a</em>.<br/>Substituting <em>a</em> = 0.30<em>b</em> gives <em>c</em> = 1.80 × 0.30<em>b</em> = 0.54<em>b</em>.<br/>$$c = 1.80a = 1.80(0.30b) = 0.54b$$<br/>Thus <em>c</em> is 0.54 times <em>b</em>.<br/>The answer is <strong>.54</strong>."
+    }
+  ]
+}

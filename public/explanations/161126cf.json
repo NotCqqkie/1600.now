@@ -1,1 +1,23 @@
-{"questionId":"161126cf","correctAnswer":"A","section":"Math","steps":[{"title":"Rewrite to match the target form","content":"Pull the \\(\\tfrac{1}{4}\\) out of the exponent so the outer power is \\(x\\):$$f(x)=(1.84)^{x/4}=\\left((1.84)^{1/4}\\right)^{x}.$$Set this equal to \\(\\left(1+\\tfrac{p}{100}\\right)^{x}\\) and match the bases:$$1+\\frac{p}{100}=(1.84)^{1/4}.$$"},{"title":"Compute the fourth root","content":"\\((1.84)^{1/4}\\approx 1.1647\\) (check: \\(1.1647^{4}\\approx 1.840\\)). So$$\\frac{p}{100}\\approx 0.1647\\;\\Rightarrow\\; p\\approx 16.47.$$"},{"title":"Evaluate each choice","content":"<ul><li>A) \\(16\\): differs from 16.47 by about 0.47 &mdash; closest match.</li><li>B) \\(21\\): would need \\((1.21)^4\\approx 1.85\\)? Actually \\(1.21^4\\approx 2.14\\) &mdash; too big.</li><li>C) \\(46\\): \\(1.46^4\\approx 4.54\\) &mdash; far too big.</li><li>D) \\(96\\): \\(1.96^4\\approx 14.76\\) &mdash; far too big.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.","desmosExpressions":["f(x)=(1.84)^(x/4)","(1.84)^(1/4)"]}]}
+{
+  "questionId": "161126cf",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rewrite to match the target form",
+      "content": "Pull the $\\tfrac{1}{4}$ out of the exponent so the outer power is $x$:$$f(x)=(1.84)^{x/4}=\\left((1.84)^{1/4}\\right)^{x}.$$Set this equal to $\\left(1+\\tfrac{p}{100}\\right)^{x}$ and match the bases:$$1+\\frac{p}{100}=(1.84)^{1/4}.$$"
+    },
+    {
+      "title": "Compute the fourth root",
+      "content": "$(1.84)^{1/4}\\approx 1.1647$ (check: $1.1647^{4}\\approx 1.840$). So$$\\frac{p}{100}\\approx 0.1647\\;\\Rightarrow\\; p\\approx 16.47.$$"
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li>A) $16$: differs from 16.47 by about 0.47 &mdash; closest match.</li><li>B) $21$: would need $(1.21)^4\\approx 1.85$? Actually $1.21^4\\approx 2.14$ &mdash; too big.</li><li>C) $46$: $1.46^4\\approx 4.54$ &mdash; far too big.</li><li>D) $96$: $1.96^4\\approx 14.76$ &mdash; far too big.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "f(x)=(1.84)^(x/4)",
+        "(1.84)^(1/4)"
+      ]
+    }
+  ]
+}

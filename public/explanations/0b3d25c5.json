@@ -1,1 +1,19 @@
-{"questionId":"0b3d25c5","correctAnswer":"D","section":"Math","steps":[{"title":"Factor the radicand","content":"$x^2 + 8x + 16$ is a perfect square trinomial because $8 = 2 \\cdot 4$ and $16 = 4^2$. So $x^2 + 8x + 16 = (x + 4)^2$, and since $x > 0$, $x + 4 > 0$."},{"title":"Apply the fourth root","content":"$\\sqrt[4]{(x+4)^2} = ((x+4)^2)^{1/4} = (x+4)^{2/4} = (x+4)^{1/2}$."},{"title":"Check each choice","content":"<ul><li>$(x+4)^4$ &mdash; this would require raising the radicand to the 16th power, not taking a fourth root. Way too big.</li><li>$(x+4)^2$ &mdash; equals the radicand itself, not its fourth root.</li><li>$(x+4)$ &mdash; equals the square root of the radicand, not the fourth root.</li><li>$(x+4)^{1/2}$ &mdash; matches the exponent $2/4 = 1/2$ from the calculation above.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "0b3d25c5",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor the radicand",
+      "content": "$x^2 + 8x + 16$ is a perfect square trinomial because $8 = 2 \\cdot 4$ and $16 = 4^2$. So $x^2 + 8x + 16 = (x + 4)^2$, and since $x > 0$, $x + 4 > 0$."
+    },
+    {
+      "title": "Apply the fourth root",
+      "content": "$\\sqrt[4]{(x+4)^2} = ((x+4)^2)^{1/4} = (x+4)^{2/4} = (x+4)^{1/2}$."
+    },
+    {
+      "title": "Check each choice",
+      "content": "<ul><li>$(x+4)^4$ &mdash; this would require raising the radicand to the 16th power, not taking a fourth root. Way too big.</li><li>$(x+4)^2$ &mdash; equals the radicand itself, not its fourth root.</li><li>$(x+4)$ &mdash; equals the square root of the radicand, not the fourth root.</li><li>$(x+4)^{1/2}$ &mdash; matches the exponent $2/4 = 1/2$ from the calculation above.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

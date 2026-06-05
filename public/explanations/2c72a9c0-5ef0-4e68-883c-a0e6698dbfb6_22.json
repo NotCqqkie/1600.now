@@ -13,10 +13,7 @@
     },
     {
       "title": "Apply circle equation to derive constraint on ratio",
-      "content": "Use point $A = (-x, 0)$ in the circle equation $(X-h)^2 + (Y-k)^2 = 87.5^2$:<br/>$$\\left(-x - \\frac{y-x}{2}\\right)^2 + \\left(\\frac{346-xy}{2\\sqrt{346}}\\right)^2 = 7656.25$$<br/>Simplifying the left side: $\\left(-\\frac{x+y}{2}\\right)^2 + \\frac{(346-xy)^2}{4 \\cdot 346} = 7656.25$<br/>Multiply by $1384 = 4 \\cdot 346$:<br/>$$346(x+y)^2 + (346-xy)^2 = 346 \\cdot 30625$$<br/>We know $x + y = 175$, so substitute $s = xy$:<br/>$$346(175)^2 + (346 - s)^2 = 346 \\cdot 30625$$<br/>$$346 \\cdot 30625 + (346 - s)^2 = 346 \\cdot 30625$$<br/>$$(346 - s)^2 = 0 \\implies s = xy = 346$$<br/>Now solve the system $x + y = 175$ and $xy = 346$. These are roots of:<br/>$$t^2 - 175t + 346 = 0$$<br/>$$t = \\frac{175 \\pm \\sqrt{175^2 - 4 \\cdot 346}}{2} = \\frac{175 \\pm \\sqrt{30625 - 1384}}{2} = \\frac{175 \\pm \\sqrt{29241}}{2} = \\frac{175 \\pm 171}{2}$$<br/>So $t = 173$ or $t = 2$, giving $\\{x, y\\} = \\{2, 173\\}$ and ratio $r = \\frac{173}{2}$ — <strong>173/2</strong> is correct.<br/>The answer is <strong>86.5,173/2</strong>.",
-      "desmosExpressions": [
-        "x^2 + y^2 = (175/2)^2"
-      ]
+      "content": "Use point $A = (-x, 0)$ in the circle equation $(X-h)^2 + (Y-k)^2 = 87.5^2$:<br/>$$\\left(-x - \\frac{y-x}{2}\\right)^2 + \\left(\\frac{346-xy}{2\\sqrt{346}}\\right)^2 = 7656.25$$<br/>Simplifying the left side: $\\left(-\\frac{x+y}{2}\\right)^2 + \\frac{(346-xy)^2}{4 \\cdot 346} = 7656.25$<br/>Multiply by $1384 = 4 \\cdot 346$:<br/>$$346(x+y)^2 + (346-xy)^2 = 346 \\cdot 30625$$<br/>The diameter gives $x + y = 175$, so substitute $s = xy$:<br/>$$346(175)^2 + (346 - s)^2 = 346 \\cdot 30625$$<br/>$$346 \\cdot 30625 + (346 - s)^2 = 346 \\cdot 30625$$<br/>$$(346 - s)^2 = 0 \\implies s = xy = 346$$<br/>Now solve the system $x + y = 175$ and $xy = 346$. These are roots of:<br/>$$t^2 - 175t + 346 = 0$$<br/>$$t = \\frac{175 \\pm \\sqrt{175^2 - 4 \\cdot 346}}{2} = \\frac{175 \\pm 171}{2}$$<br/>So $t = 173$ or $t = 2$. Since $AB<BC$, $CD$ is the longer segment, so $r=\\frac{CD}{AD}=\\frac{173}{2}$. The exact answer is <strong>173/2</strong>."
     }
   ]
 }

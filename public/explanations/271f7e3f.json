@@ -9,7 +9,7 @@
     },
     {
       "title": "Evaluate f(1) and compute the difference",
-      "content": "Substitute $x = 1$:<br/>$$f(1) = \\frac{1 + 7}{4} = \\frac{8}{4} = 2$$<br/>Now find the difference:<br/>$$f(9) - f(1) = 4 - 2 = 2$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "Substitute $x = 1$:<br/>$$f(1) = \\frac{1 + 7}{4} = \\frac{8}{4} = 2$$<br/>Now find the difference:<br/>$$f(9) - f(1) = 4 - 2 = 2$$<br/>That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

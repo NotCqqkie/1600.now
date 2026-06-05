@@ -1,1 +1,25 @@
-{"questionId": "d230e963", "correctAnswer": "A", "section": "Math", "steps": ["The line of best fit has two key features to read from the scatterplot: the y-intercept (where the line crosses the y-axis) and the slope (direction and steepness).", "The line crosses the y-axis at approximately \\(y = 2.8\\), so the y-intercept is positive (+2.8). This eliminates choices C (\\(-2.8\\) intercept) and D (\\(-2.8\\) intercept).", "As \\(x\\) increases, \\(y\\) also increases, so the slope is positive (+1.7). This eliminates choice B (slope \\(-1.7\\)).", "The equation \\(y = 2.8 + 1.7x\\) has a positive y-intercept of 2.8 and a positive slope of 1.7, matching the line shown."], "choiceAnalysis": "<ul><li><strong>Choice A &mdash; '\\(y=2.8+1.7x\\)'</strong>: Positive y-intercept (2.8) and positive slope (1.7) &mdash; matches a line that rises from left to right and crosses the y-axis above the origin. &#10003;</li><li><strong>Choice B &mdash; '\\(y=2.8-1.7x\\)'</strong>: Positive y-intercept but negative slope &mdash; the line would fall from left to right, contradicting the upward trend shown. &#10007;</li><li><strong>Choice C &mdash; '\\(y=-2.8+1.7x\\)'</strong>: Negative y-intercept &mdash; the line would cross the y-axis below the origin, contradicting the scatterplot. &#10007;</li><li><strong>Choice D &mdash; '\\(y=-2.8-1.7x\\)'</strong>: Both the intercept and slope are negative &mdash; the line falls and starts below the origin, contradicting the scatterplot. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.", "desmosExpressions": ["y = 2.8 + 1.7x"]}
+{
+  "questionId": "d230e963",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read signs from the line",
+      "content": "The line of best fit crosses the $y$-axis above the origin, so the intercept is positive. It also rises from left to right, so the slope is positive."
+    },
+    {
+      "title": "Use the choices as a shortcut",
+      "content": "The equations differ only by the signs of the intercept and slope. Choices C and D have negative intercepts, so they cross the $y$-axis below the origin. Choices B and D have negative slopes, so they fall from left to right.",
+      "desmosExpressions": [
+        "y=2.8+1.7x",
+        "y=2.8-1.7x",
+        "y=-2.8+1.7x",
+        "y=-2.8-1.7x"
+      ]
+    },
+    {
+      "title": "Confirm the model",
+      "content": "Choice A, $y=2.8+1.7x$, has both required features: positive $y$-intercept and positive slope. Therefore choice <strong>A</strong> is correct."
+    }
+  ]
+}

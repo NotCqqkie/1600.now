@@ -1,1 +1,24 @@
-{"questionId": "fb866265", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Determine whether the model grows or decays", "content": "In $y = a(b)^x$ with $a > 0$:<br/>&bull; if $b > 1$, $y$ increases as $x$ increases (growth);<br/>&bull; if $0 < b < 1$, $y$ decreases as $x$ increases (decay).<br/><br/>The scatterplot shows $y$ decreasing as $x$ increases, so the model represents decay and $b$ must lie strictly between 0 and 1."}, {"title": "Estimate $b$ from two points on the fitted curve", "content": "Using two readable points such as $(1, 110)$ and $(9, 25)$:<br/>$$\\frac{y_2}{y_1} = b^{x_2 - x_1} \\;\\Rightarrow\\; \\frac{25}{110} = b^{8}$$<br/>$$b^{8} \\approx 0.227 \\;\\Rightarrow\\; b \\approx (0.227)^{1/8} \\approx 0.83$$"}, {"title": "Evaluate each answer choice", "content": "<ul><li><strong>A.</strong> $0.83$: satisfies $0 < b < 1$ and matches the computed estimate.</li><li><strong>B.</strong> $1.83$: greater than 1, which would mean growth; eliminated.</li><li><strong>C.</strong> $18.36$: greater than 1; eliminated.</li><li><strong>D.</strong> $126.35$: greater than 1; eliminated.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "fb866265",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the decay shortcut",
+      "content": "In $y=a(b)^x$, the value of $b$ is the multiplier for each $1$-unit increase in $x$. Since the model decreases as $x$ increases, $b$ must be between $0$ and $1$. That already eliminates $1.83$, $18.36$, and $126.35$."
+    },
+    {
+      "title": "Confirm with exponential regression",
+      "content": "To verify the estimate, enter two readable points on the fitted curve, such as $(1,110)$ and $(9,25)$, then run an exponential regression.",
+      "desmosExpressions": [
+        "x_1=[1,9]",
+        "y_1=[110,25]",
+        "y_1~a b^{x_1}"
+      ]
+    },
+    {
+      "title": "Match the multiplier",
+      "content": "The regression gives $b\\approx 0.83$. That is the only plausible decay multiplier among the choices, so choice <strong>A</strong> is correct."
+    }
+  ]
+}

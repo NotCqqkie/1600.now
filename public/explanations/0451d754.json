@@ -1,1 +1,31 @@
-{"questionId": "0451d754", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Read the slope of line k", "content": "Line $k$: $y = \\tfrac{17}{7}x + 4$. Slope = $\\tfrac{17}{7}$."}, {"title": "Parallel lines share the same slope", "content": "Parallel shortcut: equal slopes. Line $j \\parallel k$, so slope of $j = \\tfrac{17}{7}$. That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "0451d754",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the slope of line k",
+      "content": "Line $k$: $y = \\tfrac{17}{7}x + 4$. Slope = $\\tfrac{17}{7}$."
+    },
+    {
+      "title": "Parallel lines share the same slope",
+      "content": "Parallel shortcut: equal slopes. Line $j \\parallel k$, so slope of $j = \\tfrac{17}{7}$. That matches choice B — <strong>B</strong> is correct."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice B is correct. It's given that line $k$ is defined by $y=\\frac{17x}{7}+4$. For an equation of a line written in the form $y=mx+b$, $m$ is the slope of the line and $b$ is the <em>y</em>-coordinate of the <em>y</em>-intercept of the line. It follows that the slope of line $k$ is $\\frac{17}{7}$. It's also given that line $j$ is parallel to line $k$ in the <em>xy</em>-plane. Since parallel lines have equal slopes, line $j$ also has a slope of $\\frac{17}{7}$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A is incorrect and may result from conceptual or calculation errors."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice C is incorrect. This is the <em>y</em>-coordinate of the <em>y</em>-intercept of line $k$, not the slope of line $j$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice D is incorrect and may result from conceptual or calculation errors."
+    }
+  ]
+}

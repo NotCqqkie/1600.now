@@ -9,8 +9,10 @@
     },
     {
       "title": "Calculate p(12) using c = 8",
-      "content": "Now substitute $x = 12$ and $c = 8$ into the original function:\n\n$$p(12) = \\frac{(12-8)^2 + 160}{2(8)}$$\n\nSimplify the numerator:\n\n$$p(12) = \\frac{4^2 + 160}{16} = \\frac{16 + 160}{16} = \\frac{176}{16} = 11$$\n\nThat matches choice D \u2014 <strong>D</strong> is correct.",
-      "desmosExpressions": ["p(x)=((x-c)^2+160)/(2c)"]
+      "content": "Now substitute $x = 12$ and $c = 8$ into the original function:\n\n$$p(12) = \\frac{(12-8)^2 + 160}{2(8)}$$\n\nSimplify the numerator:\n\n$$p(12) = \\frac{4^2 + 160}{16} = \\frac{16 + 160}{16} = \\frac{176}{16} = 11$$\n\nThat matches choice D — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "p(x)=((x-c)^2+160)/(2c)"
+      ]
     }
   ]
 }

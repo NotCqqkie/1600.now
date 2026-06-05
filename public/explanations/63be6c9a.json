@@ -1,1 +1,19 @@
-{"questionId": "63be6c9a", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Read slope from the parallel line", "content": "Line $s$ is parallel to $y = 18x + 2$. Parallel lines have equal slopes, so slope of $s$ $= 18$."}, {"title": "Write line s through the origin and evaluate at x = 4", "content": "Line $s$ passes through $(0, 0)$ with slope $18$: $y = 18x$. Substitute $x = 4$: $d = 18 \\times 4 = 72$. That matches choice C — <strong>C</strong> is correct.", "desmosExpressions": ["y=18x+2", "y=18x"]}]}
+{
+  "questionId": "63be6c9a",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read slope from the parallel line",
+      "content": "Line $s$ is parallel to $y = 18x + 2$. Parallel lines have equal slopes, so slope of $s$ $= 18$."
+    },
+    {
+      "title": "Write line s through the origin and evaluate at x = 4",
+      "content": "Line $s$ passes through $(0, 0)$ with slope $18$: $y = 18x$. Substitute $x = 4$: $d = 18 \\times 4 = 72$. That matches choice C — <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "y=18x+2",
+        "y=18x"
+      ]
+    }
+  ]
+}

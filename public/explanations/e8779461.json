@@ -14,6 +14,10 @@
         "y = x^2 + 14x + 48",
         "x + 8 = 11"
       ]
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $99$. In the given system of equations, the second equation is $x+8=11$. Subtracting $8$ from both sides of this equation yields $x=3$. In the given system of equations, the first equation is $y={x}^{2}+14x+48$. Substituting $3$ for $x$ in this equation yields $y={\\left(3\\right)}^{2}+14\\left(3\\right)+48$, or $y=99$. Therefore, the solution to the given system of equations is $\\left(x,y\\right)=\\left(3,99\\right)$. Thus, the value of $y$ is $99$."
     }
   ]
 }

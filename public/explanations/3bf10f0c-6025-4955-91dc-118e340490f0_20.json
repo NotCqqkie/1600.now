@@ -10,7 +10,10 @@
     {
       "title": "Eliminate the choices",
       "content": "<ul><li><strong>Choice A — $y = 150(4)^{x-1}$</strong>: At $x = 0$, this gives $y = 150(4)^{-1} = 37.5$, not 150. The initial condition fails. &#10007;</li><li><strong>Choice B — $y = 150(4)^x$</strong>: At $x = 0$, $y = 150(4)^0 = 150$. &#10003; At $x = 1$, $y = 150 \\times 4 = 600$, a factor of 4 increase. &#10003; Both conditions satisfied. &#10003;</li><li><strong>Choice C — $y = 4(150)^x$</strong>: The base is 150, not 4. At $x = 1$, $y = 4 \\times 150 = 600$, but at $x = 2$, $y = 4 \\times 150^2 = 90{,}000$ — a factor of 150 increase, not 4. The growth factor is wrong. &#10007;</li><li><strong>Choice D — $y = 4(150)^{x-1}$</strong>: Same base problem as C, and at $x = 0$, $y = 4(150)^{-1} \\approx 0.027$, far from 150. Both conditions fail. &#10007;</li></ul>That matches choice B — <strong>B</strong> is correct.",
-      "desmosExpressions": ["y = 150 \\cdot 4^{x}", "(0, 150)"]
+      "desmosExpressions": [
+        "y = 150 \\cdot 4^{x}",
+        "(0, 150)"
+      ]
     }
   ]
 }

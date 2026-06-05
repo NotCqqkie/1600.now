@@ -1,1 +1,21 @@
-{"questionId":"6c72f77d-781d-42a7-9eb8-695ae0bba85b_11","correctAnswer":"-12","section":"Math","steps":[{"title":"Vertex x-coordinate = midpoint of the two roots","content":"A parabola is symmetric about its vertex, so the vertex x-coordinate equals the average of the roots. Roots are $x = -20$ and $x = -4$."},{"title":"Compute r","content":"$$r = \\frac{-20 + (-4)}{2} = \\frac{-24}{2} = -12.$$<br/>The answer is <strong>-12</strong>.","desmosExpressions":["f(x) = (x+20)(x+4)","(-20, 0)","(-4, 0)","(-12, -64)"]}]}
+{
+  "questionId": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_11",
+  "correctAnswer": "-12",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Vertex x-coordinate = midpoint of the two roots",
+      "content": "A parabola is symmetric about its vertex, so the vertex x-coordinate equals the average of the roots. Roots are $x = -20$ and $x = -4$."
+    },
+    {
+      "title": "Compute r",
+      "content": "$$r = \\frac{-20 + (-4)}{2} = \\frac{-24}{2} = -12.$$<br/>The answer is <strong>-12</strong>.",
+      "desmosExpressions": [
+        "f(x) = (x+20)(x+4)",
+        "(-20, 0)",
+        "(-4, 0)",
+        "(-12, -64)"
+      ]
+    }
+  ]
+}

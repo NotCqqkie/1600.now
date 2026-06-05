@@ -1,1 +1,19 @@
-{"questionId": "7028c74f", "correctAnswer": "10.33", "section": "Math", "steps": [{"title": "Rearrange to identify the quadratic", "content": "Bring everything to one side: $15(x-17)(x+7) - 5(x+7) = 0$. Factor out $(x+7)$: $(x+7)[15(x-17)-5]=0$, giving $15x^2 - 155x - 1820 = 0$. So $a = 15$, $b = -155$."}, {"title": "Vieta shortcut: sum $= -b/a$", "content": "$$\\text{sum} = \\frac{-(-155)}{15} = \\frac{155}{15} = \\frac{31}{3} \\approx 10.33$$<br/>That matches choice 10.33 — <strong>10.33</strong> is correct.", "desmosExpressions": ["y = 5(x + 7)", "y = 15(x - 17)(x + 7)"]}]}
+{
+  "questionId": "7028c74f",
+  "correctAnswer": "10.33",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rearrange to identify the quadratic",
+      "content": "Bring everything to one side: $15(x-17)(x+7) - 5(x+7) = 0$. Factor out $(x+7)$: $(x+7)[15(x-17)-5]=0$, giving $15x^2 - 155x - 1820 = 0$. So $a = 15$, $b = -155$."
+    },
+    {
+      "title": "Vieta shortcut: sum $= -b/a$",
+      "content": "$$\\text{sum} = \\frac{-(-155)}{15} = \\frac{155}{15} = \\frac{31}{3} \\approx 10.33$$<br/>That matches choice 10.33 — <strong>10.33</strong> is correct.",
+      "desmosExpressions": [
+        "y = 5(x + 7)",
+        "y = 15(x - 17)(x + 7)"
+      ]
+    }
+  ]
+}

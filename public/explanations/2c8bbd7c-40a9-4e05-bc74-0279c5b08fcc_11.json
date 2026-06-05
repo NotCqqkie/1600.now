@@ -1,1 +1,19 @@
-{"questionId":"2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_11","correctAnswer":"B","section":"Math","steps":[{"title":"Solve the equation","content":"From $|x-6|=13$: $x-6=13$ or $x-6=-13$, so $x=19$ or $x=-7$."},{"title":"Sum the solutions","content":"Add: $19+(-7)=12$. (Shortcut: $|x-a|=b$ gives sum $2a=12$.)<br/><br/>The answer is <strong>B</strong>."}]}
+{
+  "questionId": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_11",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve the equation",
+      "content": "From $|x-6|=13$: $x-6=13$ or $x-6=-13$, so $x=19$ or $x=-7$."
+    },
+    {
+      "title": "Sum the solutions",
+      "content": "Add: $19+(-7)=12$. (Shortcut: $|x-a|=b$ gives sum $2a=12$.)<br/><br/>The answer is <strong>B</strong>."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice B, 12. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
+    }
+  ]
+}

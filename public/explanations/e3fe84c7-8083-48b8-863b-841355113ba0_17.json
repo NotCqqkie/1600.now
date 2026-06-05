@@ -1,1 +1,24 @@
-{"questionId": "e3fe84c7-8083-48b8-863b-841355113ba0_17", "correctAnswer": "300", "section": "Math", "steps": [{"title": "Identify the equation of line g from the graph", "content": "The graph shows line $g$ passing through the marked points $(-10, 12)$ and approximately $(0, 1)$ (the $y$-intercept).<br/><br/>The slope is $\\frac{\\Delta y}{\\Delta x} = \\frac{1 - 12}{0 - (-10)} = \\frac{-11}{10}$.<br/><br/>Using slope-intercept form with $y$-intercept $1$: $y = -\\frac{11}{10}x + 1$. Multiplying through by $10$: $10y = -11x + 10$, or in standard form $11x + 10y = 10$."}, {"title": "Set up proportionality for identical lines", "content": "For the system to have infinitely many solutions, lines $g$ and $k$ must be identical (represent the same line).<br/><br/>Two linear equations $a_1 x + b_1 y = c_1$ and $a_2 x + b_2 y = c_2$ represent the same line if and only if their coefficients are proportional:<br/>$$\\frac{a_2}{a_1} = \\frac{b_2}{b_1} = \\frac{c_2}{c_1}$$<br/>Line $g$ has equation $11x + 10y = 10$, and line $k$ has equation $165x + py = w$.<br/><br/>For them to be identical: $$(165, p, w) = k(11, 10, 10)$$ for some non-zero constant $k$."}, {"title": "Solve for p and w using the proportionality constant", "content": "From the coefficient of $x$:<br/>$$165 = k \\cdot 11 \\implies k = 15$$<br/>From the coefficient of $y$:<br/>$$p = k \\cdot 10 = 15 \\cdot 10 = 150$$<br/>From the constant term:<br/>$$w = k \\cdot 10 = 15 \\cdot 10 = 150$$<br/>Therefore, $p + w = 150 + 150 = 300$. The answer is <strong>300</strong>. — the answer is $\\boxed{300}$."}]}
+{
+  "questionId": "e3fe84c7-8083-48b8-863b-841355113ba0_17",
+  "correctAnswer": "300",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the equation of line g from the graph",
+      "content": "The graph shows line $g$ passing through $(-10,12)$ and approximately $(0,1)$. Since line $k$ has the form $165x+py=w$, use Desmos to fit $p$ and $w$ directly from those two points: enter $x_1=[-10,0]$, $y_1=[12,1]$, and $165x_1+p y_1\\sim w$.",
+      "desmosExpressions": [
+        "x_1=[-10,0]",
+        "y_1=[12,1]",
+        "165x_1+p y_1~w"
+      ]
+    },
+    {
+      "title": "Set up proportionality for identical lines",
+      "content": "For the system to have infinitely many solutions, lines $g$ and $k$ must be identical (represent the same line).<br/><br/>Two linear equations $a_1 x + b_1 y = c_1$ and $a_2 x + b_2 y = c_2$ represent the same line if and only if their coefficients are proportional:<br/>$$\\frac{a_2}{a_1} = \\frac{b_2}{b_1} = \\frac{c_2}{c_1}$$<br/>Line $g$ has equation $11x + 10y = 10$, and line $k$ has equation $165x + py = w$.<br/><br/>For them to be identical: $$(165, p, w) = k(11, 10, 10)$$ for some non-zero constant $k$."
+    },
+    {
+      "title": "Solve for p and w using the proportionality constant",
+      "content": "Desmos returns $p=150$ and $w=150$. Therefore $p+w=150+150=300$. The answer is <strong>300</strong>."
+    }
+  ]
+}

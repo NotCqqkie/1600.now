@@ -1,1 +1,31 @@
-{"questionId":"0adbe034","correctAnswer":"C","section":"Math","steps":[{"title":"Apply the factoring from the given condition","content":"Factor $4$: $4(x-7) = -24$."},{"title":"Compute the target value","content":"Divide by $4$: $x-7 = -6$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}
+{
+  "questionId": "0adbe034",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the factoring from the given condition",
+      "content": "Factor $4$: $4(x-7) = -24$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "Divide by $4$: $x-7 = -6$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice C is correct. Dividing all terms in the given equation by $4$ yields $\\frac{4x}{4}-\\frac{28}{4}=-\\frac{24}{4}$, or $x-7=-6$. Therefore, the value of $x-7$ is $-6$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A is incorrect. This is the value of $4x-28$, not $x-7$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice B is incorrect and may result from conceptual or calculation errors."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice D is incorrect and may result from conceptual or calculation errors."
+    }
+  ]
+}

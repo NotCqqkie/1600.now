@@ -1,1 +1,19 @@
-{"questionId":"6b1e987d-70b0-4072-9d03-3ebd56371518_18","correctAnswer":"26","section":"Math","steps":[{"title":"Set up","content":"The product of x and (x &minus; 15) equals 286: x(x &minus; 15) = 286, which gives x&sup2; &minus; 15x &minus; 286 = 0."},{"title":"Solve","content":"Factor: (x &minus; 26)(x + 11) = 0, so x = 26 or x = &minus;11. Since x must be positive, x = 26."},{"title":"Answer","content":"<strong>26</strong> is correct."}]}
+{
+  "questionId": "6b1e987d-70b0-4072-9d03-3ebd56371518_18",
+  "correctAnswer": "26",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "The product of x and (x &minus; 15) equals 286: x(x &minus; 15) = 286, which gives x&sup2; &minus; 15x &minus; 286 = 0."
+    },
+    {
+      "title": "Solve",
+      "content": "Factor: (x &minus; 26)(x + 11) = 0, so x = 26 or x = &minus;11. Since x must be positive, x = 26."
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>26</strong> is correct."
+    }
+  ]
+}

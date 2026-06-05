@@ -1,1 +1,15 @@
-{"questionId": "7e6c745f", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Calculate cost per gram of protein for each food", "content": "From the table, extract the cost and protein amount for each food, then divide to find cost per gram of protein.<br/><br/>For a large egg: \\$0.36 costs 6 grams of protein, so cost per gram is $$\\frac{0.36}{6} = 0.06 \\text{ dollars per gram}$$<br/>For a cup of milk: \\$0.24 costs 8 grams of protein, so cost per gram is $$\\frac{0.24}{8} = 0.03 \\text{ dollars per gram}$$"}, {"title": "Form the ratio of cost per gram", "content": "The ratio of cost per gram in a large egg to cost per gram in a cup of milk is $$\\frac{0.06}{0.03} = \\frac{6}{3} = 2$$<br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "7e6c745f",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate cost per gram of protein for each food",
+      "content": "From the table, extract the cost and protein amount for each food, then divide to find cost per gram of protein.<br/><br/>For a large egg: \\$0.36 costs 6 grams of protein, so cost per gram is $$\\frac{0.36}{6} = 0.06 \\text{ dollars per gram}$$<br/>For a cup of milk: \\$0.24 costs 8 grams of protein, so cost per gram is $$\\frac{0.24}{8} = 0.03 \\text{ dollars per gram}$$"
+    },
+    {
+      "title": "Form the ratio of cost per gram",
+      "content": "The ratio of cost per gram in a large egg to cost per gram in a cup of milk is $$\\frac{0.06}{0.03} = \\frac{6}{3} = 2$$<br/>That matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -2,16 +2,16 @@
   "qid": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_22",
   "steps": [
     {
-      "text": "Establish the base rate: the tree grows 51 cm every \\(m\\) months, so the rate is \\(51/m\\) cm per month."
+      "text": "Establish the base rate: the tree grows 51 cm every $m$ months, so the rate is $51/m$ cm per month."
     },
     {
-      "text": "Convert \\(k\\) years to months: \\(k\\) years \\(\\times 12\\) months/year \\(= 12k\\) months."
+      "text": "Convert $k$ years to months: $k$ years $\\times 12$ months/year $= 12k$ months."
     },
     {
-      "text": "Multiply rate by time: growth in \\(k\\) years \\(= \\dfrac{51}{m} \\times 12k = \\dfrac{612k}{m}\\) centimeters."
+      "text": "Multiply rate by time: growth in $k$ years $= \\dfrac{51}{m} \\times 12k = \\dfrac{612k}{m}$ centimeters."
     },
     {
-      "text": "<ul><li>Choice A: \\(\\dfrac{17m}{4k}\\) &mdash; has \\(m\\) in the numerator and \\(k\\) in the denominator, inverted from what we need, and the constant is wrong. Incorrect.</li><li>Choice B: \\(\\dfrac{17k}{4m}\\) &mdash; simplifies to \\(612k/(48m)\\), not \\(612k/m\\). Incorrect.</li><li>Choice C: \\(\\dfrac{612m}{k}\\) &mdash; \\(m\\) and \\(k\\) are swapped relative to our result. Incorrect.</li><li>Choice D: \\(\\dfrac{612k}{m}\\) &mdash; matches our derived expression exactly. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
+      "text": "<ul><li>Choice A: $\\dfrac{17m}{4k}$ &mdash; has $m$ in the numerator and $k$ in the denominator, inverted from what we need, and the constant is wrong. Incorrect.</li><li>Choice B: $\\dfrac{17k}{4m}$ &mdash; simplifies to $612k/(48m)$, not $612k/m$. Incorrect.</li><li>Choice C: $\\dfrac{612m}{k}$ &mdash; $m$ and $k$ are swapped relative to our result. Incorrect.</li><li>Choice D: $\\dfrac{612k}{m}$ &mdash; matches our derived expression exactly. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
     }
   ],
   "correctAnswer": "D"

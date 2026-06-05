@@ -3,16 +3,16 @@
   "correctAnswer": "A",
   "steps": [
     {
-      "explanation": "Convert the area unit first. Since \\(1 \\text{ m} = 3.28 \\text{ ft}\\), squaring both sides gives \\(1 \\text{ m}^2 = (3.28)^2 \\text{ ft}^2 = 10.7584 \\text{ ft}^2\\)."
+      "explanation": "Convert the area unit first. Since $1 \\text{ m} = 3.28 \\text{ ft}$, squaring both sides gives $1 \\text{ m}^2 = (3.28)^2 \\text{ ft}^2 = 10.7584 \\text{ ft}^2$."
     },
     {
-      "explanation": "Convert \\(280 \\text{ ft}^2/\\text{hr}\\) to \\(\\text{m}^2/\\text{hr}\\): $$\\frac{280}{10.7584} \\approx 26.01 \\text{ m}^2/\\text{hr}$$"
+      "explanation": "Convert $280 \\text{ ft}^2/\\text{hr}$ to $\\text{m}^2/\\text{hr}$: $$\\frac{280}{10.7584} \\approx 26.01 \\text{ m}^2/\\text{hr}$$"
     },
     {
       "explanation": "Convert from per hour to per minute by dividing by 60: $$\\frac{26.01}{60} \\approx 0.433 \\text{ m}^2/\\text{min}$$"
     },
     {
-      "explanation": "<ul><li>Choice A: 0.43 &mdash; matches \\(0.433\\) rounded. That matches choice A &mdash; <strong>A</strong> is correct.</li><li>Choice B: 1.42 &mdash; does not match. Eliminated.</li><li>Choice C: 15.31 &mdash; does not match. Eliminated.</li><li>Choice D: 26.03 &mdash; this is the rate in \\(\\text{m}^2/\\text{hr}\\), not per minute. Eliminated.</li></ul>"
+      "explanation": "<ul><li>Choice A: 0.43 &mdash; matches $0.433$ rounded. That matches choice A &mdash; <strong>A</strong> is correct.</li><li>Choice B: 1.42 &mdash; does not match. Eliminated.</li><li>Choice C: 15.31 &mdash; does not match. Eliminated.</li><li>Choice D: 26.03 &mdash; this is the rate in $\\text{m}^2/\\text{hr}$, not per minute. Eliminated.</li></ul>"
     }
   ]
 }

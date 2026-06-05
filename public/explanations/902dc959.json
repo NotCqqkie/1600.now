@@ -1,1 +1,20 @@
-{"questionId": "902dc959", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Identify angle A and the right angle in the triangle", "content": "Angle A is at the bottom-left vertex. The right angle is at vertex C (marked with a small square). This means C is the vertex where the two legs meet at 90°."}, {"title": "Identify the sides relative to angle A", "content": "From angle A's perspective:<ul><li><strong>Opposite side</strong> (across from A): BC = 20 (vertical leg)</li><li><strong>Adjacent side</strong> (next to A): AC = 21 (horizontal leg)</li></ul>"}, {"title": "Apply the tangent ratio", "content": "The tangent of an angle in a right triangle is the ratio of opposite to adjacent:<br/>$$\\tan A = \\frac{\\text{opposite}}{\\text{adjacent}} = \\frac{20}{21}$$<br/>That matches choice C — <strong>C</strong> is correct.", "formula": "$$\\tan A = \\frac{\\text{opposite}}{\\text{adjacent}}$$"}]}
+{
+  "questionId": "902dc959",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify angle A and the right angle in the triangle",
+      "content": "Angle A is at the bottom-left vertex. The right angle is at vertex C (marked with a small square). This means C is the vertex where the two legs meet at 90°."
+    },
+    {
+      "title": "Identify the sides relative to angle A",
+      "content": "From angle A's perspective:<ul><li><strong>Opposite side</strong> (across from A): BC = 20 (vertical leg)</li><li><strong>Adjacent side</strong> (next to A): AC = 21 (horizontal leg)</li></ul>"
+    },
+    {
+      "title": "Apply the tangent ratio",
+      "content": "The tangent of an angle in a right triangle is the ratio of opposite to adjacent:<br/>$$\\tan A = \\frac{\\text{opposite}}{\\text{adjacent}} = \\frac{20}{21}$$<br/>That matches choice C — <strong>C</strong> is correct.",
+      "formula": "$$\\tan A = \\frac{\\text{opposite}}{\\text{adjacent}}$$"
+    }
+  ]
+}

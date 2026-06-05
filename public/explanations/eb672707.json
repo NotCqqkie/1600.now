@@ -10,6 +10,10 @@
     {
       "title": "Calculate the equivalent in tablespoons",
       "content": "$$14 \\div 3 = \\frac{14}{3} \\text{ tablespoons}$$"
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $\\frac{14}{3}$. It's given that $3$ teaspoons is equivalent to $1$ tablespoon. Therefore, $14$ teaspoons is equivalent to $\\left(14\\text{teaspoons}\\right)\\left(\\frac{1\\text{tablespoon}}{3\\text{teaspoons}}\\right)$, or $\\frac{14}{3}$ tablespoons. Note that 14/3, 4.666, and 4.667 are examples of ways to enter a correct answer."
     }
   ]
 }

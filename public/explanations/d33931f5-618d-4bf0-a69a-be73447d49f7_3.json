@@ -10,7 +10,10 @@
     {
       "title": "Match the interpretation to the correct choice",
       "content": "Choice C states: '...44 students in the organization <strong>4 years after</strong> it was established.' This aligns with $ k(4) = 44 $, where the input $ x = 4 $ years directly maps to the described time period. Other choices incorrectly associate 44 students with 0 or 10 years.<br/><br/>That matches choice <strong>C</strong> — <strong>C</strong> is correct.",
-      "desmosExpressions": ["k(x) = -0.5x^2 + 8x + 20", "(4, 44)"]
+      "desmosExpressions": [
+        "k(x) = -0.5x^2 + 8x + 20",
+        "(4, 44)"
+      ]
     }
   ]
 }

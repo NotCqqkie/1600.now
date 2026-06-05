@@ -1,1 +1,16 @@
-{"questionId": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_2", "correctAnswer": "6", "section": "Math", "steps": [{"title": "Recognize the unit rate setup", "content": "When a customer spends a total amount at a constant price per unit, we can find the quantity purchased. Here: Total cost = \\$18, Cost per unit = \\$3 per pound.", "formula": "$$\\text{Quantity} = \\frac{\\text{Total Cost}}{\\text{Cost per unit}}$$"}, {"title": "Divide to find the quantity", "content": "$$\\frac{18}{3} = 6$$<br/>The customer purchased <strong>6 pounds</strong> of oranges."}]}
+{
+  "questionId": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_2",
+  "correctAnswer": "6",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the unit rate setup",
+      "content": "When a customer spends a total amount at a constant price per unit, we can find the quantity purchased. Here: Total cost = \\$18, Cost per unit = \\$3 per pound.",
+      "formula": "$$\\text{Quantity} = \\frac{\\text{Total Cost}}{\\text{Cost per unit}}$$"
+    },
+    {
+      "title": "Divide to find the quantity",
+      "content": "$$\\frac{18}{3} = 6$$<br/>The customer purchased <strong>6 pounds</strong> of oranges."
+    }
+  ]
+}

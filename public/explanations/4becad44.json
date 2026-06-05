@@ -1,1 +1,23 @@
-{"questionId": "4becad44", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Rewrite the given equation", "content": "Divide $3x=36y-45$ by $3$ to get $$x=12y-15.$$"}, {"title": "Match slopes with different intercepts", "content": "For no solution, the second equation needs the same slope but a different constant. Choice B: $\\frac{1}{3}x=4y$ scales to $x=12y$, same slope, different constant."}, {"title": "Identify the choice", "content": "Choice B produces parallel lines with no intersection. That matches choice <strong>B</strong> — <strong>B</strong> is correct.", "desmosExpressions": ["y = (3x + 45)/36", "y = x/4"]}]}
+{
+  "questionId": "4becad44",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rewrite the given equation",
+      "content": "Divide $3x=36y-45$ by $3$ to get $$x=12y-15.$$"
+    },
+    {
+      "title": "Match slopes with different intercepts",
+      "content": "For no solution, the second equation needs the same slope but a different constant. Choice B: $\\frac{1}{3}x=4y$ scales to $x=12y$, same slope, different constant."
+    },
+    {
+      "title": "Identify the choice",
+      "content": "Choice B produces parallel lines with no intersection. That matches choice <strong>B</strong> — <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "y = (3x + 45)/36",
+        "y = x/4"
+      ]
+    }
+  ]
+}

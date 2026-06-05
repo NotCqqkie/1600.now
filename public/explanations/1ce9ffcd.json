@@ -10,7 +10,11 @@
     {
       "title": "Solve for c",
       "content": "$$36c = -900 \\Rightarrow c = -25$$<br/>That matches choice C — <strong>C</strong> is correct.",
-      "desmosExpressions": ["y = -9x^2 + 30x + c", "c = 0"]
+      "desmosExpressions": [
+        "y_1=[0]",
+        "y_1~30^2-4*(-9)*c",
+        "y = -9x^2 + 30x - 25"
+      ]
     }
   ]
 }

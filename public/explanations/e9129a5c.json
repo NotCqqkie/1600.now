@@ -1,1 +1,24 @@
-{"questionId": "e9129a5c", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Identify two clear points on the line of best fit", "content": "Examine the line of best fit drawn through the scatterplot. The line slopes gently upward from left to right. Reading carefully, the line passes through approximately $(0, 2.5)$ and $(10, 4.5)$."}, {"title": "Apply the slope formula", "content": "Use the slope formula with these two points:<br/>$$m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{4.5 - 2.5}{10 - 0} = \\frac{2}{10} = 0.2$$<br/>Checking another pair of points on the line ($x = 2$, $y \\approx 2.9$ and $x = 8$, $y \\approx 4.3$):<br/>$$m = \\frac{4.3 - 2.9}{8 - 2} = \\frac{1.4}{6} \\approx 0.233$$<br/>Both estimates give a slope close to $0.22$."}, {"title": "Evaluate each choice", "content": "<ul><li><strong>A) $-2.45$:</strong> A steep negative slope &mdash; the line clearly rises (positive slope), so this is eliminated.</li><li><strong>B) $-0.22$:</strong> Negative sign is wrong; the line rises, not falls.</li><li><strong>C) $0.22$:</strong> Matches our calculated slope of roughly $0.2$ to $0.23$.</li><li><strong>D) $2.45$:</strong> Far too steep; a slope of $2.45$ would rise much faster than what is shown.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "e9129a5c",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read two points on the line",
+      "content": "The line of best fit rises gently. Two clear approximate points on the line are $(0,2.5)$ and $(10,4.7)$. Use points on the fit line itself, not random scatterplot points.",
+      "desmosExpressions": [
+        "x_1=[0,10]",
+        "y_1=[2.5,4.7]",
+        "y_1~m x_1+b"
+      ]
+    },
+    {
+      "title": "Find the slope",
+      "content": "$$m=\\frac{4.7-2.5}{10-0}=\\frac{2.2}{10}=0.22$$ The slope is positive because the line rises from left to right."
+    },
+    {
+      "title": "Eliminate by sign and size",
+      "content": "Choices A and B are negative, but the line has positive slope. Choice D, $2.45$, is much too steep for a line that rises only about $2.2$ units over $10$ units of run. Choice <strong>C</strong>, $0.22$, is correct."
+    }
+  ]
+}

@@ -1,1 +1,23 @@
-{"questionId": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_18", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Convert &quot;158% greater&quot; to a growth multiplier", "content": "If the mass is 158% greater than the previous period, the new mass equals the old mass plus 158% of the old mass: \\(M_{\\text{new}} = M_{\\text{old}} + 1.58 \\cdot M_{\\text{old}} = 2.58 \\cdot M_{\\text{old}}\\). The growth factor per 5-week period is \\(2.58\\)."}, {"title": "Build the exponential model", "content": "Starting from initial mass \\(M_0\\), after \\(t\\) weeks the number of 5-week periods elapsed is \\(\\frac{t}{5}\\). The model is: \\(M = M_0 \\cdot (2.58)^{t/5}\\). The exponent must be \\(\\frac{t}{5}\\), not \\(\\frac{5}{t}\\), so that M grows as t increases."}, {"title": "Solve for \\(M_0\\) using t = 15, M = 627.7", "content": "Substitute \\(t = 15\\): \\(627.7 = M_0 \\cdot (2.58)^{15/5} = M_0 \\cdot (2.58)^3\\). Compute \\((2.58)^3 = 2.58 \\times 2.58 \\times 2.58 \\approx 17.17\\). So \\(M_0 = \\frac{627.7}{17.17} \\approx 36.55\\)."}, {"title": "Evaluate all choices", "content": "<ul><li>A: \\(M = 538.92(1.58)^{5/t}\\) &mdash; Uses multiplier 1.58 (not 2.58) and wrong exponent \\(\\frac{5}{t}\\). Eliminated.</li><li>B: \\(M = 457.66(2.58)^{5/t}\\) &mdash; Correct multiplier but wrong exponent direction \\(\\frac{5}{t}\\); also wrong initial mass. Eliminated.</li><li>C: \\(M = 159.14(1.58)^{t/5}\\) &mdash; Uses multiplier 1.58 instead of 2.58. Eliminated.</li><li>D: \\(M = 36.55(2.58)^{t/5}\\) &mdash; Multiplier 2.58 and exponent \\(\\frac{t}{5}\\) are both correct, and \\(M_0 \\approx 36.55\\) matches our calculation. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"}]}
+{
+  "questionId": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_18",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert &quot;158% greater&quot; to a growth multiplier",
+      "content": "If the mass is 158% greater than the previous period, the new mass equals the old mass plus 158% of the old mass: $M_{\\text{new}} = M_{\\text{old}} + 1.58 \\cdot M_{\\text{old}} = 2.58 \\cdot M_{\\text{old}}$. The growth factor per 5-week period is $2.58$."
+    },
+    {
+      "title": "Build the exponential model",
+      "content": "Starting from initial mass $M_0$, after $t$ weeks the number of 5-week periods elapsed is $\\frac{t}{5}$. The model is: $M = M_0 \\cdot (2.58)^{t/5}$. The exponent must be $\\frac{t}{5}$, not $\\frac{5}{t}$, so that M grows as t increases."
+    },
+    {
+      "title": "Solve for $M_0$ using t = 15, M = 627.7",
+      "content": "Substitute $t = 15$: $627.7 = M_0 \\cdot (2.58)^{15/5} = M_0 \\cdot (2.58)^3$. Compute $(2.58)^3 = 2.58 \\times 2.58 \\times 2.58 \\approx 17.17$. So $M_0 = \\frac{627.7}{17.17} \\approx 36.55$."
+    },
+    {
+      "title": "Evaluate all choices",
+      "content": "<ul><li>A: $M = 538.92(1.58)^{5/t}$ &mdash; Uses multiplier 1.58 (not 2.58) and wrong exponent $\\frac{5}{t}$. Eliminated.</li><li>B: $M = 457.66(2.58)^{5/t}$ &mdash; Correct multiplier but wrong exponent direction $\\frac{5}{t}$; also wrong initial mass. Eliminated.</li><li>C: $M = 159.14(1.58)^{t/5}$ &mdash; Uses multiplier 1.58 instead of 2.58. Eliminated.</li><li>D: $M = 36.55(2.58)^{t/5}$ &mdash; Multiplier 2.58 and exponent $\\frac{t}{5}$ are both correct, and $M_0 \\approx 36.55$ matches our calculation. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
+    }
+  ]
+}

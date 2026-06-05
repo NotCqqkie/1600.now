@@ -1,1 +1,35 @@
-{"questionId":"4ec95eab","correctAnswer":"C","section":"Math","steps":[{"title":"Solve the system by substitution","content":"Substitute $y=-3x$ into $4x+y=15$: $$4x - 3x = 15 \\Rightarrow x = 15.$$"},{"title":"Find $x$","content":"So $x=15$. That matches choice <strong>C</strong> — <strong>C</strong> is correct.","desmosExpressions":["y = -3x","y = 15 - 4x"]}]}
+{
+  "questionId": "4ec95eab",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve the system by substitution",
+      "content": "Substitute $y=-3x$ into $4x+y=15$: $$4x - 3x = 15 \\Rightarrow x = 15.$$"
+    },
+    {
+      "title": "Find $x$",
+      "content": "So $x=15$. That matches choice <strong>C</strong> — <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "y = -3x",
+        "y = 15 - 4x"
+      ]
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice C is correct. The given system of linear equations can be solved by the substitution method. Substituting $-3x$ for $y$ from the first equation in the given system into the second equation yields $4x+\\left(-3x\\right)=15$, or $x=15$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A is incorrect and may result from conceptual or calculation errors."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice B is incorrect and may result from conceptual or calculation errors."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice D is incorrect. This is the absolute value of $y$, not the value of $x$."
+    }
+  ]
+}

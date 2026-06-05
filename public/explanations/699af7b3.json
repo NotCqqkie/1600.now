@@ -1,1 +1,19 @@
-{"questionId": "699af7b3", "correctAnswer": "60000", "section": "Math", "steps": [{"title": "Set up equations from percentage statements", "content": "From <em>A is 468% of B</em>: $A = 4.68B$<br/>From <em>A is 0.780% of C</em>: $A = 0.00780C$"}, {"title": "Equate the expressions and isolate C", "content": "Since both equal $A$:<br/>$$4.68B = 0.00780C$$<br/>$$C = \\frac{4.68}{0.00780}B$$"}, {"title": "Simplify the ratio to find p", "content": "Evaluate $\\frac{4.68}{0.00780}$:<br/>$$\\frac{4.68}{0.00780} = \\frac{46800}{78} = 600$$<br/>So $C = 600B$. Since $C$ is $p$ percent of $B$, we write $C = \\frac{p}{100}B$. Therefore $\\frac{p}{100} = 600$, and $p = 60000$."}]}
+{
+  "questionId": "699af7b3",
+  "correctAnswer": "60000",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up equations from percentage statements",
+      "content": "From <em>A is 468% of B</em>: $A = 4.68B$<br/>From <em>A is 0.780% of C</em>: $A = 0.00780C$"
+    },
+    {
+      "title": "Equate the expressions and isolate C",
+      "content": "Since both equal $A$:<br/>$$4.68B = 0.00780C$$<br/>$$C = \\frac{4.68}{0.00780}B$$"
+    },
+    {
+      "title": "Simplify the ratio to find p",
+      "content": "Evaluate $\\frac{4.68}{0.00780}$:<br/>$$\\frac{4.68}{0.00780} = \\frac{46800}{78} = 600$$<br/>So $C = 600B$. Since $C$ is $p$ percent of $B$, we write $C = \\frac{p}{100}B$. Therefore $\\frac{p}{100} = 600$, and $p = 60000$."
+    }
+  ]
+}

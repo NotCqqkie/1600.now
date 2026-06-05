@@ -3,18 +3,26 @@
   "correctAnswer": "B",
   "steps": [
     {
-      "title": "Extract two data points and calculate the rate",
-      "content": "From the table, use two rows: area of 560 ft\\(^2\\) drains 1,008 gallons, and area of 840 ft\\(^2\\) drains 1,512 gallons. Compute the rate (gallons per sq ft): $$\\frac{1{,}512 - 1{,}008}{840 - 560} = \\frac{504}{280} = 1.8$$"
+      "title": "Use proportional regression in Desmos",
+      "content": "The choices all have the form $f(x)=kx$, so enter two table rows and regress only the multiplier. Use $x_1=[560,840]$ and $y_1=[1008,1512]$, then type $y_1 \\sim kx_1$. Desmos returns $k=1.8$, so the function is $f(x)=1.8x$.",
+      "desmosExpressions": [
+        "x_1=[560,840]",
+        "y_1=[1008,1512]",
+        "y_1~k x_1",
+        "y=1.8x"
+      ]
     },
     {
       "title": "Confirm the function passes through the origin",
-      "content": "Zero roof area produces zero drainage, so \\(f(0) = 0\\). The function has no constant term: \\(f(x) = 1.8x\\)."
+      "content": "Because zero roof area would drain zero gallons, the model should have no added constant. The Desmos model $f(x)=1.8x$ has exactly that structure."
     },
     {
       "title": "Match to the answer choices",
-      "content": "\\(f(x) = 1.8x\\) matches choice B. Verify: \\(f(560) = 1.8 \\times 560 = 1{,}008\\). \\(f(840) = 1.8 \\times 840 = 1{,}512\\). Both confirmed."
+      "content": "$f(x) = 1.8x$ matches choice B. Verify: $f(560) = 1.8 \\times 560 = 1{,}008$. $f(840) = 1.8 \\times 840 = 1{,}512$. Both confirmed."
     }
   ],
   "explanation": "<ul><li><strong>Choice A &mdash; 'f(x) = 0.6x'</strong>: At x = 560, gives 336 gallons, but the table shows 1,008. &#10007;</li><li><strong>Choice B &mdash; 'f(x) = 1.8x'</strong>: At x = 560, gives 1,008; at x = 840, gives 1,512. Both match the table exactly. &#10003;</li><li><strong>Choice C &mdash; 'f(x) = 504.0x'</strong>: At x = 560, gives 282,240 gallons &mdash; vastly too large. &#10007;</li><li><strong>Choice D &mdash; 'f(x) = 1,008.0x'</strong>: At x = 560, gives 564,480 gallons &mdash; vastly too large. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
-  "desmosExpressions": ["f(x) = 1.8x"]
+  "desmosExpressions": [
+    "f(x) = 1.8x"
+  ]
 }

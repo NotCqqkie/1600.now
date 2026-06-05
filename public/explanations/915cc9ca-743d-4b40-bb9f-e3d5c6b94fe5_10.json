@@ -1,1 +1,26 @@
-{"questionId": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_10", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Read the graph", "content": "The line crosses the $y$-axis at $y=1.5$ (a positive $y$-intercept) and slopes downward from left to right, so its slope is negative."}, {"title": "Convert each choice to slope-intercept form", "content": "Solve each equation for $y$ and use $R>0$ to determine the sign of the slope and the value of the $y$-intercept."}, {"title": "Evaluate each choice", "content": "<ul><li>A) $Rx+12y=18 \\Rightarrow y=-\\frac{R}{12}x+\\frac{3}{2}$. Slope $-\\frac{R}{12}<0$ and $y$-intercept $1.5$. Matches the graph.</li><li>B) $Rx-12y=-18 \\Rightarrow y=\\frac{R}{12}x+\\frac{3}{2}$. Slope is positive. Eliminated.</li><li>C) $Rx+12y=-18 \\Rightarrow y=-\\frac{R}{12}x-\\frac{3}{2}$. $y$-intercept is $-1.5$. Eliminated.</li><li>D) $Rx-12y=18 \\Rightarrow y=\\frac{R}{12}x-\\frac{3}{2}$. Slope positive and $y$-intercept negative. Eliminated.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_10",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read sign and intercept",
+      "content": "The graph has a positive $y$-intercept of $1.5$ and a negative slope. Since $R$ is positive, use those two facts to eliminate choices quickly."
+    },
+    {
+      "title": "Check the choices with R positive",
+      "content": "Set $R=1$ in Desmos and graph the four forms. Choice A has negative slope and positive $y$-intercept; the others have the wrong slope sign, wrong intercept sign, or both.",
+      "desmosExpressions": [
+        "R=1",
+        "R x+12y=18",
+        "R x-12y=-18",
+        "R x+12y=-18",
+        "R x-12y=18"
+      ]
+    },
+    {
+      "title": "Confirm algebraically",
+      "content": "Choice A gives $Rx+12y=18$, so $y=-\\frac{R}{12}x+\\frac{18}{12}=-\\frac{R}{12}x+1.5$. With $R>0$, this has negative slope and $y$-intercept $1.5$, matching the graph. Choice <strong>A</strong> is correct."
+    }
+  ]
+}

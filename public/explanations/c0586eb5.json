@@ -1,1 +1,16 @@
-{"questionId": "c0586eb5", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Extract the radius from the given diameter", "content": "We're given diameter = 8 inches. Since radius is half the diameter, $r = \\frac{8}{2} = 4$ inches."}, {"title": "Apply the cylinder volume formula", "content": "Substitute $r = 4$ and $h = 12$ into the cylinder volume formula:<br/>$$V = \\pi \\cdot 4^2 \\cdot 12 = \\pi \\cdot 16 \\cdot 12 = 192\\pi$$<br/>That matches choice C — <strong>C</strong> is correct.", "formula": "$$V = \\pi r^2 h$$"}]}
+{
+  "questionId": "c0586eb5",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Extract the radius from the given diameter",
+      "content": "We're given diameter = 8 inches. Since radius is half the diameter, $r = \\frac{8}{2} = 4$ inches."
+    },
+    {
+      "title": "Apply the cylinder volume formula",
+      "content": "Substitute $r = 4$ and $h = 12$ into the cylinder volume formula:<br/>$$V = \\pi \\cdot 4^2 \\cdot 12 = \\pi \\cdot 16 \\cdot 12 = 192\\pi$$<br/>That matches choice C — <strong>C</strong> is correct.",
+      "formula": "$$V = \\pi r^2 h$$"
+    }
+  ]
+}

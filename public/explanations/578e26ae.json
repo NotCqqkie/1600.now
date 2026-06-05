@@ -1,1 +1,23 @@
-{"questionId": "578e26ae", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Effect on median", "content": "Adding 46 to each value shifts the median by 46. $$\\text{median}_B = \\text{median}_A + 46$$ Since 46 > 0, $$\\text{median}_B > \\text{median}_A.$$"}, {"title": "Effect on range and conclusion", "content": "Adding a constant to every data point does not affect the range, so $$\\text{range}_B = \\text{range}_A.$$ Together with the median increase from step 1, this corresponds to choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "578e26ae",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the shift rule",
+      "content": "Data set B is made by adding $46$ to every value in data set A. This shifts the entire dot plot right by $46$ units. It changes location measures like the median, but it does not change spread measures like the range."
+    },
+    {
+      "title": "Compare medians",
+      "content": "Data set A has $15$ values, so the median is the $8$th value. From the dot plot, that value is $23$. The median of data set B is $23+46=69$, which is greater than the median of data set A."
+    },
+    {
+      "title": "Compare ranges",
+      "content": "The minimum and maximum in data set A are $22$ and $26$, so the range is $26-22=4$. After adding $46$, the minimum and maximum are $68$ and $72$, so the range is still $72-68=4$."
+    },
+    {
+      "title": "Match the choice",
+      "content": "The median of B is greater, and the range is equal. That matches choice <strong>A</strong>."
+    }
+  ]
+}

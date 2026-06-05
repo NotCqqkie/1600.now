@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Identify the formula relating mass, density, and volume",
-      "content": "We know the density (0.230 g/cm\u00b3) and need to find the mass. We'll calculate the volume of the cube, then multiply by density.",
+      "content": "We know the density (0.230 g/cm³) and need to find the mass. We'll calculate the volume of the cube, then multiply by density.",
       "formula": "$$\\text{Mass} = \\text{Density} \\times \\text{Volume}$$"
     },
     {

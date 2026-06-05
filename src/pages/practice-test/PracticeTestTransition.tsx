@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { useNavigate, useParams, useSearchParams } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -29,7 +29,7 @@ const PracticeTestTransition = () => {
     setSession(practiceSet ? getPracticeTestSession(practiceSet.id) : null);
   }, [practiceSet, sessionId]);
 
-  const continueToNextQuestion = (activeSession = session) => {
+  const continueToNextQuestion = useCallback((activeSession = session) => {
     if (!practiceSet || !activeSession) return;
     const questionSet = buildPracticeTestQuestionSet(practiceSet.id);
     const targetQuestion = questionSet?.[activeSession.currentIndex];
@@ -41,7 +41,7 @@ const PracticeTestTransition = () => {
     navigate(
       `/bank/${targetQuestion.subject}/${targetQuestion.sourceId}?bankType=past&practice=true&idx=${activeSession.currentIndex + 1}&practiceTest=${practiceSet.id}&practiceTestSession=${activeSession.sessionId}`,
     );
-  };
+  }, [navigate, practiceSet, session]);
 
   const skipBreak = () => {
     if (!practiceSet || !sessionId) return;
@@ -98,7 +98,7 @@ const PracticeTestTransition = () => {
     }, MODULE_TRANSITION_MS);
 
     return () => window.clearTimeout(timeoutId);
-  }, [kind, practiceSet, session, sessionId]);
+  }, [continueToNextQuestion, kind, practiceSet, session, sessionId]);
 
   if (!practiceSet || !session || !sessionId || session.sessionId !== sessionId || !nextModule) {
     return (

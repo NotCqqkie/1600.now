@@ -1,1 +1,20 @@
-{"questionId": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_7", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Apply the percent increase formula", "content": "Identify the original price (\\$16), new price (\\$80), and change (\\$80 - \\$16 = \\$64).", "formula": "$$\\text{percent increase} = \\frac{\\text{new} - \\text{old}}{\\text{old}} \\times 100\\%$$"}, {"title": "Calculate the percent increase", "content": "$$\\frac{64}{16} \\times 100\\% = 4 \\times 100\\% = 400\\%$$ That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_7",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the percent increase formula",
+      "content": "Identify the original price (\\$16), new price (\\$80), and change (\\$80 - \\$16 = \\$64).",
+      "formula": "$$\\text{percent increase} = \\frac{\\text{new} - \\text{old}}{\\text{old}} \\times 100\\%$$"
+    },
+    {
+      "title": "Calculate the percent increase",
+      "content": "$$\\frac{64}{16} \\times 100\\% = 4 \\times 100\\% = 400\\%$$ That matches choice D — <strong>D</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice D, $400\\%$, and the other choices fail the same setup or substitution. Therefore <strong>D</strong> is correct."
+    }
+  ]
+}

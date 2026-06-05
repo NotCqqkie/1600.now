@@ -1,1 +1,27 @@
-{"questionId": "94868488-f2b6-48b0-9e22-a683ccbda0e0_16", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Build the transformed function", "content": "Given \\(f(x) = 24x^3\\), replace \\(x\\) with \\(-x\\):<br/>$$f(-x) = 24(-x)^3 = -24x^3$$<br/>Adding the constant \\(c\\) gives:<br/>$$y = -24x^3 + c$$"}, {"title": "Find the y-intercept (set x = 0)", "content": "$$y = -24(0)^3 + c = c$$<br/>Since \\(c\\) is a positive integer, \\(t = c &gt; 0\\)."}, {"title": "Find the x-intercept (set y = 0)", "content": "$$0 = -24r^3 + c \\implies r^3 = \\frac{c}{24}$$<br/>Since \\(c &gt; 0\\), we have \\(r^3 &gt; 0\\), so \\(r &gt; 0\\)."}, {"title": "Evaluate each choice", "content": "<ul><li><strong>Choice A &mdash; '\\(r &lt; 0\\) and \\(t &gt; 0\\)'</strong>: We showed \\(r &gt; 0\\), not negative. &#10007;</li><li><strong>Choice B &mdash; '\\(r &gt; 0\\) and \\(t &gt; 0\\)'</strong>: Both \\(r = \\sqrt[3]{c/24} &gt; 0\\) and \\(t = c &gt; 0\\). &#10003;</li><li><strong>Choice C &mdash; '\\(r &gt; 0\\) and \\(t &lt; 0\\)'</strong>: \\(t = c &gt; 0\\), so \\(t\\) cannot be negative. &#10007;</li><li><strong>Choice D &mdash; '\\(r &lt; 0\\) and \\(t &lt; 0\\)'</strong>: Both conclusions are wrong; \\(r &gt; 0\\) and \\(t &gt; 0\\). &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.", "desmosExpressions": ["y=-24x^{3}+c", "c=1"]}]}
+{
+  "questionId": "94868488-f2b6-48b0-9e22-a683ccbda0e0_16",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Build the transformed function",
+      "content": "Given $f(x) = 24x^3$, replace $x$ with $-x$:<br/>$$f(-x) = 24(-x)^3 = -24x^3$$<br/>Adding the constant $c$ gives:<br/>$$y = -24x^3 + c$$"
+    },
+    {
+      "title": "Find the y-intercept (set x = 0)",
+      "content": "$$y = -24(0)^3 + c = c$$<br/>Since $c$ is a positive integer, $t = c &gt; 0$."
+    },
+    {
+      "title": "Find the x-intercept (set y = 0)",
+      "content": "$$0 = -24r^3 + c \\implies r^3 = \\frac{c}{24}$$<br/>Since $c &gt; 0$, we have $r^3 &gt; 0$, so $r &gt; 0$."
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; '$r &lt; 0$ and $t &gt; 0$'</strong>: We showed $r &gt; 0$, not negative. &#10007;</li><li><strong>Choice B &mdash; '$r &gt; 0$ and $t &gt; 0$'</strong>: Both $r = \\sqrt[3]{c/24} &gt; 0$ and $t = c &gt; 0$. &#10003;</li><li><strong>Choice C &mdash; '$r &gt; 0$ and $t &lt; 0$'</strong>: $t = c &gt; 0$, so $t$ cannot be negative. &#10007;</li><li><strong>Choice D &mdash; '$r &lt; 0$ and $t &lt; 0$'</strong>: Both conclusions are wrong; $r &gt; 0$ and $t &gt; 0$. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "y=-24x^{3}+c",
+        "c=1"
+      ]
+    }
+  ]
+}

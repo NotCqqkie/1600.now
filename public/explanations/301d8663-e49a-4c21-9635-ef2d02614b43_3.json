@@ -1,1 +1,15 @@
-{"questionId": "301d8663-e49a-4c21-9635-ef2d02614b43_3", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Isolate the term with p", "content": "Subtract 55 from both sides of the equation.<br/>$$10p + 55 = 375$$<br/>$$10p + 55 - 55 = 375 - 55$$<br/>$$10p = 320$$"}, {"title": "Solve for p", "content": "Divide both sides by 10 to isolate $p$.<br/>$$\\frac{10p}{10} = \\frac{320}{10}$$<br/>$$p = 32$$<br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "301d8663-e49a-4c21-9635-ef2d02614b43_3",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the term with p",
+      "content": "Subtract 55 from both sides of the equation.<br/>$$10p + 55 = 375$$<br/>$$10p + 55 - 55 = 375 - 55$$<br/>$$10p = 320$$"
+    },
+    {
+      "title": "Solve for p",
+      "content": "Divide both sides by 10 to isolate $p$.<br/>$$\\frac{10p}{10} = \\frac{320}{10}$$<br/>$$p = 32$$<br/>That matches choice A — <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,19 @@
-{"questionId":"b4553284","correctAnswer":"54","section":"Math","steps":[{"title":"Apply the equation from the given condition","content":"Divide by $2$: $x=6$."},{"title":"Compute the target value","content":"Then $9x = 9 \\cdot 6 = 54$. The answer is <strong>54</strong>."}]}
+{
+  "questionId": "b4553284",
+  "correctAnswer": "54",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the equation from the given condition",
+      "content": "Divide by $2$: $x=6$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "Then $9x = 9 \\cdot 6 = 54$. The answer is <strong>54</strong>."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $54$. Dividing both sides of the given equation by $2$ yields $x=6$. Multiplying both sides of this equation by $9$ yields $9x=54$. Thus, the value of $9x$ is $54$."
+    }
+  ]
+}

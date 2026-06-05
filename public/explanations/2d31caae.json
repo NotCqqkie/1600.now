@@ -5,11 +5,19 @@
   "steps": [
     {
       "title": "Locate the relevant counts",
-      "content": "From the table, Employee A received <strong>16</strong> one\u2011star calls out of a total of <strong>145</strong> calls."
+      "content": "From the table, Employee A received <strong>16</strong> one‑star calls out of a total of <strong>145</strong> calls."
     },
     {
-      "title": "Backsolving \u2014 testing choice B (11%)",
-      "content": "$$0.11 \\times 145 = 15.95 \\approx 16$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+      "title": "Backsolving — testing choice B (11%)",
+      "content": "$$0.11 \\times 145 = 15.95 \\approx 16$$<br/>That matches choice B — <strong>B</strong> is correct."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice B is correct. The percent of Employee A's calls that received a rating of 1 star is the number of Employee A's 1-star calls divided by the total number of Employee A's calls. This quotient, $16 / 145$, is approximately equal to $0.1103$, or $11.03 %$. To the nearest whole percent, this is 11%."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A is incorrect. This is the percent of all calls taken by Employee A that received a rating of 1 star. Choice C is incorrect and may result from a conceptual error. For example, 16 is the number, not the percent, of calls taken by Employee A that received a rating of 1 star. Choice D is incorrect. This is the percent of all calls that received a rating of 1 star that were taken by Employee A."
     }
   ]
 }

@@ -25,6 +25,7 @@ import {
   questionSimilarityGroupByQuestion,
   questionSimilarityGroupsById,
 } from "@/lib/generated/questionSimilarity.generated";
+import { HIDDEN_BANK_QUESTION_IDS } from "@/lib/generated/hiddenBankQuestions.generated";
 import {
   BANK_SOURCE_LABELS,
   DEFAULT_BANK_SOURCE,
@@ -34,6 +35,7 @@ import {
   type BankSourceId,
   type BankSubject,
 } from "./bankTypes";
+import { getPastQuestionDifficulty } from "./pastQuestionDifficulty";
 
 interface RawBankSource {
   bankType: BankSourceId;
@@ -57,6 +59,8 @@ const rawSources: RawBankSource[] = [
 const rawSourceMap: Record<BankSourceId, RawBankSource> = Object.fromEntries(
   rawSources.map((source) => [source.bankType, source]),
 ) as Record<BankSourceId, RawBankSource>;
+
+const hiddenBankQuestionIds = new Set<string>(HIDDEN_BANK_QUESTION_IDS);
 
 export interface BankChoice {
   id: string;
@@ -85,8 +89,10 @@ export interface BankQuestion {
   rationale?: string | null;
   questionImages?: { src: string; alt: string }[];
   difficulty?: "Easy" | "Medium" | "Hard" | null;
-  /** Whether this question is currently used in practice tests. Does NOT control visibility in the question bank — all questions show. */
+  /** Whether this question is currently used in practice tests. Does NOT control visibility in the question bank. */
   inPracticeTests?: boolean | null;
+  /** Source question is retained for practice/test resolution but omitted from browseable bank pools. */
+  hiddenFromBank?: boolean | null;
   /** Category classification */
   category: QuestionCategory;
   /** Fine-grained whole-bank similar-question group tag */
@@ -110,6 +116,11 @@ const normalizeDifficulty = (value: string | null | undefined): "Easy" | "Medium
   if (normalized === "hard") return "Hard";
   return null;
 };
+
+const resolveDifficulty = (source: RawBankSource, q: SourceQuestion): "Easy" | "Medium" | "Hard" | null =>
+  source.bankType === "past"
+    ? getPastQuestionDifficulty(q.id) ?? normalizeDifficulty(q.difficulty)
+    : normalizeDifficulty(q.difficulty);
 
 const sanitizeMathText = (text: string | null | undefined): string => {
   return normalizeTextForMathRendering(text);
@@ -497,6 +508,7 @@ const normalizeQuestion = (source: RawBankSource, q: SourceQuestion): Omit<BankQ
 
   const sourceId = String(q.id);
   const stableId = buildBankQuestionKey(source.bankType, subject, sourceId);
+  const hiddenFromBank = hiddenBankQuestionIds.has(stableId);
   const similarityGroupId = questionSimilarityGroupByQuestion[stableId] ?? null;
   const similarityGroup = similarityGroupId
     ? questionSimilarityGroupsById[similarityGroupId]
@@ -531,8 +543,9 @@ const normalizeQuestion = (source: RawBankSource, q: SourceQuestion): Omit<BankQ
     correctAnswer: normalizedCorrectAnswer,
     rationale: normalizedRationale,
     questionImages: normalizedQuestionImages,
-    difficulty: normalizeDifficulty(q.difficulty),
+    difficulty: resolveDifficulty(source, q),
     inPracticeTests: q.inPracticeTests ?? null,
+    hiddenFromBank,
     category,
     similarityTag: similarityGroupId,
     similarityGroupId,
@@ -542,6 +555,7 @@ const normalizeQuestion = (source: RawBankSource, q: SourceQuestion): Omit<BankQ
 };
 
 const poolCache = new Map<string, BankQuestion[]>();
+const sourcePoolCache = new Map<string, BankQuestion[]>();
 const rawSourceSubjectCache = new Map<string, SourceQuestion[]>();
 const normalizedSourceSubjectCache = new Map<string, Omit<BankQuestion, "id">[]>();
 
@@ -650,7 +664,9 @@ export const getBankPool = (
   const rawPool = getSourceIdsForFilter(bankSource)
     .flatMap((sourceId) => getNormalizedSourceSubjectQuestions(sourceId, subject));
 
-  const pool = spaceOutNearDuplicates(rawPool).map((question, index) => ({
+  const visiblePool = rawPool.filter((question) => !question.hiddenFromBank);
+
+  const pool = spaceOutNearDuplicates(visiblePool).map((question, index) => ({
     ...question,
     id: index + 1,
   }));
@@ -661,6 +677,25 @@ export const getBankPool = (
 
 export const getAllBankQuestions = getBankPool;
 
+export const getAllSourceBankQuestions = (
+  subject: BankSubject,
+  bankSource: BankSourceFilter = DEFAULT_BANK_SOURCE,
+): BankQuestion[] => {
+  const cacheKey = makePoolCacheKey(subject, bankSource);
+  const cached = sourcePoolCache.get(cacheKey);
+  if (cached) return cached;
+
+  const sourcePool = getSourceIdsForFilter(bankSource)
+    .flatMap((sourceId) => getNormalizedSourceSubjectQuestions(sourceId, subject))
+    .map((question, index) => ({
+      ...question,
+      id: index + 1,
+    }));
+
+  sourcePoolCache.set(cacheKey, sourcePool);
+  return sourcePool;
+};
+
 export const getBankQuestion = (
   subject: BankSubject,
   questionIndex: number,
@@ -668,6 +703,7 @@ export const getBankQuestion = (
 ): BankQuestion | null => getBankPool(subject, bankSource)[questionIndex - 1] || null;
 
 const sourceIdIndexCache = new Map<string, Map<string, BankQuestion>>();
+const sourceQuestionIdIndexCache = new Map<string, Map<string, BankQuestion>>();
 
 export const getBankQuestionBySourceId = (
   subject: BankSubject,
@@ -683,17 +719,25 @@ export const getBankQuestionBySourceId = (
   return index.get(sourceId) ?? null;
 };
 
+export const getSourceBankQuestionBySourceId = (
+  subject: BankSubject,
+  sourceId: string,
+  bankSource: BankSourceFilter = DEFAULT_BANK_SOURCE,
+): BankQuestion | null => {
+  const cacheKey = makePoolCacheKey(subject, bankSource);
+  let index = sourceQuestionIdIndexCache.get(cacheKey);
+  if (!index) {
+    index = new Map(getAllSourceBankQuestions(subject, bankSource).map((q) => [q.sourceId, q]));
+    sourceQuestionIdIndexCache.set(cacheKey, index);
+  }
+  return index.get(sourceId) ?? null;
+};
+
 export const getBankCounts = (
   bankSource: BankSourceFilter = DEFAULT_BANK_SOURCE,
 ): Record<BankSubject, number> => ({
-  math: getSourceIdsForFilter(bankSource).reduce(
-    (total, sourceId) => total + getRawSourceSubjectQuestions(sourceId, "math").length,
-    0,
-  ),
-  reading: getSourceIdsForFilter(bankSource).reduce(
-    (total, sourceId) => total + getRawSourceSubjectQuestions(sourceId, "reading").length,
-    0,
-  ),
+  math: getBankPool("math", bankSource).length,
+  reading: getBankPool("reading", bankSource).length,
 });
 
 export const bankCounts = getBankCounts("all");

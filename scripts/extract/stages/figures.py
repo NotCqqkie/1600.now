@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 import fitz  # PyMuPDF
 from PIL import Image
-from ..utils.claude_client import RateLimitedClient, parse_json_response
+from ..utils.cli_client import RateLimitedClient, parse_json_response
 
 BBOX_PROMPT = """This page contains a question with a figure (graph, chart, diagram, or image).
 

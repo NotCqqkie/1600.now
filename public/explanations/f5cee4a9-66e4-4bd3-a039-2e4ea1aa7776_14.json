@@ -1,1 +1,19 @@
-{"questionId":"f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_14","correctAnswer":"16,10","section":"Math","steps":[{"title":"Find the roots","content":"Set each factor of $(x-16)(x-10)(x+7)(x+17)=0$ to zero: $x=16$, $x=10$, $x=-7$, and $x=-17$."},{"title":"Identify the positive solution","content":"The positive solutions are $16$ and $10$. The answer is <strong>16</strong> or <strong>10</strong>."}]}
+{
+  "questionId": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_14",
+  "correctAnswer": "16,10",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the roots",
+      "content": "Set each factor of $(x-16)(x-10)(x+7)(x+17)=0$ to zero: $x=16$, $x=10$, $x=-7$, and $x=-17$."
+    },
+    {
+      "title": "Identify the positive solution",
+      "content": "The positive solutions are $16$ and $10$. The answer is <strong>16</strong> or <strong>10</strong>."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $16,10$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $16,10$."
+    }
+  ]
+}

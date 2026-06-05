@@ -1,9 +1,10 @@
 import {
   buildBankQuestionKey,
-  getAllBankQuestions,
+  getAllSourceBankQuestions,
   type BankQuestion,
   type BankSubject,
 } from "@/data/questionBank";
+import { getPastQuestionDifficulty } from "@/data/pastQuestionDifficulty";
 import type { QuestionCategory } from "@/data/questionCategories";
 import {
   questionSimilarityGroupByQuestion,
@@ -229,8 +230,8 @@ const sortPracticeModules = (left: PracticeModule, right: PracticeModule) => {
   return left.testName.localeCompare(right.testName);
 };
 
-const pastMathBank = getAllBankQuestions("math", "past");
-const pastReadingBank = getAllBankQuestions("reading", "past");
+const pastMathBank = getAllSourceBankQuestions("math", "past");
+const pastReadingBank = getAllSourceBankQuestions("reading", "past");
 
 const synthesizedBankQuestions: Record<BankSubject, Map<string, BankQuestion>> = {
   math: new Map(),
@@ -254,7 +255,7 @@ const synthesizeBankQuestion = (
     skill: rawQuestion.skill as QuestionCategory["skill"],
     confidence: "high",
   };
-  const difficulty: BankQuestion["difficulty"] = (() => {
+  const moduleDifficulty: BankQuestion["difficulty"] = (() => {
     const d = (rawQuestion.difficulty ?? "").trim().toLowerCase();
     if (d === "easy") return "Easy";
     if (d === "medium") return "Medium";
@@ -287,7 +288,7 @@ const synthesizeBankQuestion = (
     correctAnswer: rawQuestion.correct_answer ?? baseQuestion?.correctAnswer ?? null,
     rationale: rawQuestion.rationale ?? baseQuestion?.rationale ?? null,
     questionImages: rawQuestion.images?.map((img) => ({ src: img.src, alt: img.alt ?? "" })) ?? baseQuestion?.questionImages,
-    difficulty: difficulty ?? baseQuestion?.difficulty ?? null,
+    difficulty: getPastQuestionDifficulty(rawQuestion.id) ?? moduleDifficulty ?? baseQuestion?.difficulty ?? null,
     inPracticeTests: true,
     category,
     similarityTag: similarityGroupId,
@@ -422,7 +423,7 @@ for (const moduleSource of rawModuleSources) {
       skill: question.skill,
       domain: question.domain,
       type: question.is_fill_in_blank ? "free-response" : "multiple-choice",
-      difficulty: question.difficulty ?? null,
+      difficulty: getPastQuestionDifficulty(question.id) ?? question.difficulty ?? null,
       bankQuestion: moduleQuestion,
     });
   }

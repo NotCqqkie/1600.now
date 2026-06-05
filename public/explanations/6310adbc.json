@@ -9,7 +9,7 @@
     },
     {
       "title": "Substitute t = 10 and solve for u",
-      "content": "Substitute $t = 10$ into the equation:\n$$\\frac{10}{u} = \\frac{1}{2}$$\n\nCross-multiply to isolate <em>u</em>:\n$$10 \\cdot 2 = 1 \\cdot u$$\n$$20 = u$$\n\nThat matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "Substitute $t = 10$ into the equation:\n$$\\frac{10}{u} = \\frac{1}{2}$$\n\nCross-multiply to isolate <em>u</em>:\n$$10 \\cdot 2 = 1 \\cdot u$$\n$$20 = u$$\n\nThat matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

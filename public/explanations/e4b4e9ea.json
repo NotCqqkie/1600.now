@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up the volume formula for a right prism",
-      "content": "For any prism, Volume = Base Area \u00d7 Height. The base is a square with edge length 6, so:\n$$\\text{Base Area} = 6^2 = 36 \\text{ square units}$$\nSubstituting into the volume formula:\n$$2880 = 36 \\times h$$"
+      "content": "For any prism, Volume = Base Area × Height. The base is a square with edge length 6, so:\n$$\\text{Base Area} = 6^2 = 36 \\text{ square units}$$\nSubstituting into the volume formula:\n$$2880 = 36 \\times h$$"
     },
     {
       "title": "Solve for height",
-      "content": "Divide both sides by 36:\n$$h = \\frac{2880}{36} = 80 \\text{ units}$$\nThat matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "Divide both sides by 36:\n$$h = \\frac{2880}{36} = 80 \\text{ units}$$\nThat matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

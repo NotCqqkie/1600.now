@@ -1,1 +1,15 @@
-{"questionId":"11ee667b-8898-4917-b74e-33237205e2ef_9","correctAnswer":"B","section":"Math","steps":[{"title":"Find the roots","content":"By the zero-product property, $2x(x-3)(x+5)=0$ requires one factor to be zero. That gives $x=0$, $x=3$, or $x=-5$."},{"title":"Identify a valid solution","content":"Among the choices, $0$ is a root of the equation. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}
+{
+  "questionId": "11ee667b-8898-4917-b74e-33237205e2ef_9",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the roots",
+      "content": "By the zero-product property, $2x(x-3)(x+5)=0$ requires one factor to be zero. That gives $x=0$, $x=3$, or $x=-5$."
+    },
+    {
+      "title": "Identify a valid solution",
+      "content": "Among the choices, $0$ is a root of the equation. That matches choice <strong>B</strong> — <strong>B</strong> is correct."
+    }
+  ]
+}

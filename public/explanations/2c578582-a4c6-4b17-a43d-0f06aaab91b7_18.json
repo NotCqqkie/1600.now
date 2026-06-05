@@ -1,1 +1,19 @@
-{"questionId": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_18", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Clear fractions by multiplying by the LCD", "content": "The equation is $\\frac{1}{5xy} + xyz = \\frac{1}{4yz}$. The denominators are $5xy$ and $4yz$, with LCD $= 20xyz$. Multiply all terms by $20xyz$:<br/>$$20xyz \\cdot \\frac{1}{5xy} + 20xyz \\cdot xyz = 20xyz \\cdot \\frac{1}{4yz}$$<br/>Simplifying each term:<br/>- First: $\\frac{20xyz}{5xy} = 4z$<br/>- Second: $20xyz \\cdot xyz = 20x^2y^2z^2$<br/>- Third: $\\frac{20xyz}{4yz} = 5x$<br/><br/>This gives: $$4z + 20x^2y^2z^2 = 5x$$"}, {"title": "Rearrange to isolate y squared", "content": "Isolate the $y^2$ term on the left:<br/>$$20x^2y^2z^2 = 5x - 4z$$<br/>Divide both sides by $20x^2z^2$:<br/>$$y^2 = \\frac{5x - 4z}{20x^2z^2}$$"}, {"title": "Take the square root to find y", "content": "Since $y$ is positive, take the positive square root of both sides:<br/>$$y = \\sqrt{\\frac{5x - 4z}{20x^2z^2}}$$<br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_18",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Clear fractions by multiplying by the LCD",
+      "content": "The equation is $\\frac{1}{5xy} + xyz = \\frac{1}{4yz}$. The denominators are $5xy$ and $4yz$, with LCD $= 20xyz$. Multiply all terms by $20xyz$:<br/>$$20xyz \\cdot \\frac{1}{5xy} + 20xyz \\cdot xyz = 20xyz \\cdot \\frac{1}{4yz}$$<br/>Simplifying each term:<br/>- First: $\\frac{20xyz}{5xy} = 4z$<br/>- Second: $20xyz \\cdot xyz = 20x^2y^2z^2$<br/>- Third: $\\frac{20xyz}{4yz} = 5x$<br/><br/>This gives: $$4z + 20x^2y^2z^2 = 5x$$"
+    },
+    {
+      "title": "Rearrange to isolate y squared",
+      "content": "Isolate the $y^2$ term on the left:<br/>$$20x^2y^2z^2 = 5x - 4z$$<br/>Divide both sides by $20x^2z^2$:<br/>$$y^2 = \\frac{5x - 4z}{20x^2z^2}$$"
+    },
+    {
+      "title": "Take the square root to find y",
+      "content": "Since $y$ is positive, take the positive square root of both sides:<br/>$$y = \\sqrt{\\frac{5x - 4z}{20x^2z^2}}$$<br/>That matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,23 @@
-{"questionId":"9d845a11-6019-4b88-9309-26d92ced4f70_19","correctAnswer":"B","section":"Math","steps":[{"title":"Set the equations equal","content":"Set $x+21 = 12x$, giving $$11x = 21 \\Rightarrow x = \\tfrac{21}{11}.$$"},{"title":"Count the intersection points","content":"Two distinct lines with different slopes meet at exactly one point. That matches choice <strong>B</strong> — <strong>B</strong> is correct.","desmosExpressions":["y = x + 21","y = 12x"]}]}
+{
+  "questionId": "9d845a11-6019-4b88-9309-26d92ced4f70_19",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the equations equal",
+      "content": "Set $x+21 = 12x$, giving $$11x = 21 \\Rightarrow x = \\tfrac{21}{11}.$$"
+    },
+    {
+      "title": "Count the intersection points",
+      "content": "Two distinct lines with different slopes meet at exactly one point. That matches choice <strong>B</strong> — <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "y = x + 21",
+        "y = 12x"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice B, 1, and the other choices fail the same setup or substitution. Therefore <strong>B</strong> is correct."
+    }
+  ]
+}

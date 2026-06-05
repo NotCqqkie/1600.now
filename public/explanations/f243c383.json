@@ -1,1 +1,19 @@
-{"questionId": "f243c383", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Express surface area formulas", "content": "A rectangular prism with square base of side $s$ and height $h$ has surface area $2s^2 + 4sh$.<br/><br/>For each given prism with height 90 cm:<br/>$$K = 2s^2 + 4s(90) = 2s^2 + 360s = 2s(s + 180)$$<br/>When two prisms are glued along a square base, they form a prism of height 180 cm:<br/>$$2s^2 + 4s(180) = 2s^2 + 720s = 2s(s + 360)$$"}, {"title": "Set up and simplify the ratio equation", "content": "The combined surface area is $\\frac{92}{47}K$, so:<br/>$$\\frac{2s(s + 360)}{2s(s + 180)} = \\frac{92}{47}$$<br/>Factor out $2s$ and cancel:<br/>$$\\frac{s + 360}{s + 180} = \\frac{92}{47}$$"}, {"title": "Solve for the side length", "content": "Cross multiply:<br/>$$47(s + 360) = 92(s + 180)$$<br/>$$47s + 16920 = 92s + 16560$$<br/>$$360 = 45s$$<br/>$$s = 8$$<br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "f243c383",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Express surface area formulas",
+      "content": "A rectangular prism with square base of side $s$ and height $h$ has surface area $2s^2 + 4sh$.<br/><br/>For each given prism with height 90 cm:<br/>$$K = 2s^2 + 4s(90) = 2s^2 + 360s = 2s(s + 180)$$<br/>When two prisms are glued along a square base, they form a prism of height 180 cm:<br/>$$2s^2 + 4s(180) = 2s^2 + 720s = 2s(s + 360)$$"
+    },
+    {
+      "title": "Set up and simplify the ratio equation",
+      "content": "The combined surface area is $\\frac{92}{47}K$, so:<br/>$$\\frac{2s(s + 360)}{2s(s + 180)} = \\frac{92}{47}$$<br/>Factor out $2s$ and cancel:<br/>$$\\frac{s + 360}{s + 180} = \\frac{92}{47}$$"
+    },
+    {
+      "title": "Solve for the side length",
+      "content": "Cross multiply:<br/>$$47(s + 360) = 92(s + 180)$$<br/>$$47s + 16920 = 92s + 16560$$<br/>$$360 = 45s$$<br/>$$s = 8$$<br/>That matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

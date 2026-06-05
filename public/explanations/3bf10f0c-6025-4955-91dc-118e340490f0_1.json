@@ -1,1 +1,15 @@
-{"questionId": "3bf10f0c-6025-4955-91dc-118e340490f0_1", "correctAnswer": "21", "section": "Math", "steps": [{"title": "Locate the row", "content": "Find the row corresponding to an air temperature of $33\\text{°F}$ in the table."}, {"title": "Read the value", "content": "In that row, the column for a wind speed of $20$ mph gives a wind chill of $21\\text{°F}$. The answer is <strong>21</strong>."}]}
+{
+  "questionId": "3bf10f0c-6025-4955-91dc-118e340490f0_1",
+  "correctAnswer": "21",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Locate the row",
+      "content": "Find the row corresponding to an air temperature of $33\\text{°F}$ in the table."
+    },
+    {
+      "title": "Read the value",
+      "content": "In that row, the column for a wind speed of $20$ mph gives a wind chill of $21\\text{°F}$. The answer is <strong>21</strong>."
+    }
+  ]
+}

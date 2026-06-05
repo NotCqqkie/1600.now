@@ -1,1 +1,19 @@
-{"questionId": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_6", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Analyze the equation", "content": "Add $7x$ to both sides of $7x-19=19-7x$: $$14x=38.$$ The coefficient on $x$ is nonzero, so there is a unique solution."}, {"title": "Count the solutions", "content": "There is exactly one solution. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}
+{
+  "questionId": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_6",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Analyze the equation",
+      "content": "Add $7x$ to both sides of $7x-19=19-7x$: $$14x=38.$$ The coefficient on $x$ is nonzero, so there is a unique solution."
+    },
+    {
+      "title": "Count the solutions",
+      "content": "There is exactly one solution. That matches choice <strong>B</strong> — <strong>B</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice B, Exactly one, and the other choices fail the same setup or substitution. Therefore <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,19 @@
-{"questionId":"6ce95fc8","correctAnswer":"D","section":"Math","steps":[{"title":"Rearrange to standard form","content":"Start with $2x^2 - 2 = 2x + 3$. Move all terms to the left:<br/>$$2x^2 - 2x - 5 = 0$$"},{"title":"Apply the quadratic formula","content":"With $a = 2$, $b = -2$, $c = -5$:<br/>$$x = \\frac{-(-2) \\pm \\sqrt{(-2)^2 - 4(2)(-5)}}{2(2)} = \\frac{2 \\pm \\sqrt{4 + 40}}{4} = \\frac{2 \\pm \\sqrt{44}}{4} = \\frac{2 \\pm 2\\sqrt{11}}{4} = \\frac{1 \\pm \\sqrt{11}}{2}$$"},{"title":"Evaluate each choice","content":"<ul><li><strong>A)</strong> $2$ &mdash; check: $2(2)^2 - 2 = 6$ but $2(2)+3 = 7$, so $6 \\ne 7$. Wrong.</li><li><strong>B)</strong> $-\\sqrt{11}$ &mdash; not of the form $\\frac{1 \\pm \\sqrt{11}}{2}$; substituting gives $2(11) - 2 = 20$ vs $-2\\sqrt{11}+3 \\approx -3.63$. Wrong.</li><li><strong>C)</strong> $\\frac{1}{2} + \\sqrt{11}$ &mdash; differs from $\\frac{1+\\sqrt{11}}{2}$; the $\\sqrt{11}$ is not halved, so it does not satisfy the equation. Wrong.</li><li><strong>D)</strong> $\\frac{1 + \\sqrt{11}}{2}$ &mdash; exactly one of the two roots derived above. Correct.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "6ce95fc8",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rearrange to standard form",
+      "content": "Start with $2x^2 - 2 = 2x + 3$. Move all terms to the left:<br/>$$2x^2 - 2x - 5 = 0$$"
+    },
+    {
+      "title": "Apply the quadratic formula",
+      "content": "With $a = 2$, $b = -2$, $c = -5$:<br/>$$x = \\frac{-(-2) \\pm \\sqrt{(-2)^2 - 4(2)(-5)}}{2(2)} = \\frac{2 \\pm \\sqrt{4 + 40}}{4} = \\frac{2 \\pm \\sqrt{44}}{4} = \\frac{2 \\pm 2\\sqrt{11}}{4} = \\frac{1 \\pm \\sqrt{11}}{2}$$"
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li><strong>A)</strong> $2$ &mdash; check: $2(2)^2 - 2 = 6$ but $2(2)+3 = 7$, so $6 \\ne 7$. Wrong.</li><li><strong>B)</strong> $-\\sqrt{11}$ &mdash; not of the form $\\frac{1 \\pm \\sqrt{11}}{2}$; substituting gives $2(11) - 2 = 20$ vs $-2\\sqrt{11}+3 \\approx -3.63$. Wrong.</li><li><strong>C)</strong> $\\frac{1}{2} + \\sqrt{11}$ &mdash; differs from $\\frac{1+\\sqrt{11}}{2}$; the $\\sqrt{11}$ is not halved, so it does not satisfy the equation. Wrong.</li><li><strong>D)</strong> $\\frac{1 + \\sqrt{11}}{2}$ &mdash; exactly one of the two roots derived above. Correct.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

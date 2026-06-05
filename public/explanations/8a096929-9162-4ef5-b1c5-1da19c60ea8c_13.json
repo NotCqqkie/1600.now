@@ -1,1 +1,19 @@
-{"questionId": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_13", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Identify the triangle configuration", "content": "We have triangle XYZ where angle X measures <strong>52°</strong>, side XY = <strong>24 units</strong>, and side XZ = <strong>17 units</strong>. These are two sides emanating from vertex X with the angle between them known — this is a <strong>Side-Angle-Side (SAS) configuration</strong>."}, {"title": "Apply the SAS area formula", "content": "When two sides and the included angle are known, the area is:<br/>$$\\text{Area} = \\frac{1}{2}ab\\sin C$$<br/>where $a$ and $b$ are the two sides and $C$ is the included angle. Substituting our values:<br/>$$\\text{Area} = \\frac{1}{2} \\cdot 24 \\cdot 17 \\cdot \\sin 52°$$"}, {"title": "Simplify to find the area", "content": "Multiply the constants:<br/>$$\\text{Area} = \\frac{1}{2} \\cdot 408 \\cdot \\sin 52°$$<br/>$$\\text{Area} = 204 \\sin 52°$$<br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_13",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the triangle configuration",
+      "content": "We have triangle XYZ where angle X measures <strong>52°</strong>, side XY = <strong>24 units</strong>, and side XZ = <strong>17 units</strong>. These are two sides emanating from vertex X with the angle between them known — this is a <strong>Side-Angle-Side (SAS) configuration</strong>."
+    },
+    {
+      "title": "Apply the SAS area formula",
+      "content": "When two sides and the included angle are known, the area is:<br/>$$\\text{Area} = \\frac{1}{2}ab\\sin C$$<br/>where $a$ and $b$ are the two sides and $C$ is the included angle. Substituting our values:<br/>$$\\text{Area} = \\frac{1}{2} \\cdot 24 \\cdot 17 \\cdot \\sin 52°$$"
+    },
+    {
+      "title": "Simplify to find the area",
+      "content": "Multiply the constants:<br/>$$\\text{Area} = \\frac{1}{2} \\cdot 408 \\cdot \\sin 52°$$<br/>$$\\text{Area} = 204 \\sin 52°$$<br/>That matches choice C — <strong>C</strong> is correct."
+    }
+  ]
+}

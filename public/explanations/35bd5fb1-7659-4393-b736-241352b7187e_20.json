@@ -1,1 +1,18 @@
-{"qid":"35bd5fb1-7659-4393-b736-241352b7187e_20","correctAnswer":"D","steps":[{"text":"Find the y-intercept of function I: \\(f(x) = a(2.1)^x + b\\). Set \\(x=0\\): \\(f(0) = a(2.1)^0 + b = a(1) + b = a + b\\). The y-intercept is \\(a+b\\)."},{"text":"Find the y-intercept of function II: \\(g(x) = a(2.1)^{x+b}\\) (the exponent includes \\(b\\)). Set \\(x=0\\): \\(g(0) = a(2.1)^{0+b} = a \\cdot (2.1)^b\\). The y-intercept is \\(a \\cdot (2.1)^b\\)."},{"text":"Check whether each equation displays its y-intercept as a standalone constant or coefficient. In I, the y-intercept \\(a+b\\) is a sum of two parameters — neither \\(a\\) alone nor \\(b\\) alone equals the y-intercept. In II, the y-intercept \\(a \\cdot (2.1)^b\\) is not visible as any coefficient or constant term in \\(a(2.1)^{x+b}\\). Neither equation displays its y-intercept directly."},{"text":"Evaluate each choice:<ul><li>A: I only — I does not display \\(a+b\\) as a single constant. Eliminated.</li><li>B: II only — II does not display \\(a(2.1)^b\\) as a constant. Eliminated.</li><li>C: I and II — neither displays its y-intercept directly. Eliminated.</li><li>D: Neither I nor II — confirmed: neither equation has the y-intercept value visible as a standalone constant or coefficient. That matches choice D — <strong>D</strong> is correct.</li></ul>"}]}
+{
+  "qid": "35bd5fb1-7659-4393-b736-241352b7187e_20",
+  "correctAnswer": "D",
+  "steps": [
+    {
+      "text": "Find the y-intercept of function I: $f(x) = a(2.1)^x + b$. Set $x=0$: $f(0) = a(2.1)^0 + b = a(1) + b = a + b$. The y-intercept is $a+b$."
+    },
+    {
+      "text": "Find the y-intercept of function II: $g(x) = a(2.1)^{x+b}$ (the exponent includes $b$). Set $x=0$: $g(0) = a(2.1)^{0+b} = a \\cdot (2.1)^b$. The y-intercept is $a \\cdot (2.1)^b$."
+    },
+    {
+      "text": "Check whether each equation displays its y-intercept as a standalone constant or coefficient. In I, the y-intercept $a+b$ is a sum of two parameters — neither $a$ alone nor $b$ alone equals the y-intercept. In II, the y-intercept $a \\cdot (2.1)^b$ is not visible as any coefficient or constant term in $a(2.1)^{x+b}$. Neither equation displays its y-intercept directly."
+    },
+    {
+      "text": "Evaluate each choice:<ul><li>A: I only — I does not display $a+b$ as a single constant. Eliminated.</li><li>B: II only — II does not display $a(2.1)^b$ as a constant. Eliminated.</li><li>C: I and II — neither displays its y-intercept directly. Eliminated.</li><li>D: Neither I nor II — confirmed: neither equation has the y-intercept value visible as a standalone constant or coefficient. That matches choice D — <strong>D</strong> is correct.</li></ul>"
+    }
+  ]
+}

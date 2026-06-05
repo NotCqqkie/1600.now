@@ -1,1 +1,15 @@
-{"questionId":"91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_1","correctAnswer":"C","section":"Math","steps":[{"title":"Isolate the 13x term","content":"Start with $13x + 50 = 180$. Subtract $50$ from both sides:<br/>$$13x = 180 - 50 = 130$$<br/>Any equation equivalent to $13x = 130$ has the same solution as the original."},{"title":"Evaluate each choice","content":"<ul><li>Choice A: $13x = 50$ &mdash; gives $x = \\frac{50}{13}$, not $\\frac{130}{13} = 10$. Different solution. Incorrect.</li><li>Choice B: $13x = 80$ &mdash; gives $x = \\frac{80}{13}$. Different solution. Incorrect.</li><li>Choice C: $13x = 130$ &mdash; gives $x = 10$, the same solution as the original equation. Correct.</li><li>Choice D: $13x = 180$ &mdash; gives $x = \\frac{180}{13}$. Different solution. Incorrect.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_1",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the 13x term",
+      "content": "Start with $13x + 50 = 180$. Subtract $50$ from both sides:<br/>$$13x = 180 - 50 = 130$$<br/>Any equation equivalent to $13x = 130$ has the same solution as the original."
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li>Choice A: $13x = 50$ &mdash; gives $x = \\frac{50}{13}$, not $\\frac{130}{13} = 10$. Different solution. Incorrect.</li><li>Choice B: $13x = 80$ &mdash; gives $x = \\frac{80}{13}$. Different solution. Incorrect.</li><li>Choice C: $13x = 130$ &mdash; gives $x = 10$, the same solution as the original equation. Correct.</li><li>Choice D: $13x = 180$ &mdash; gives $x = \\frac{180}{13}$. Different solution. Incorrect.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

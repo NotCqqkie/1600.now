@@ -3,11 +3,13 @@
   "correctAnswer": "B",
   "section": "Math",
   "steps": [
-    "At posting (day 0), there are 53 subscribers. Each day the count doubles, so after \\(d\\) days the count is multiplied by 2 exactly \\(d\\) times.",
-    "Day 0: \\(n = 53\\). Day 1: \\(n = 53 \\cdot 2\\). Day 2: \\(n = 53 \\cdot 2^2\\). Day \\(d\\): \\(n = 53 \\cdot 2^d\\).",
+    "At posting (day 0), there are 53 subscribers. Each day the count doubles, so after $d$ days the count is multiplied by 2 exactly $d$ times.",
+    "Day 0: $n = 53$. Day 1: $n = 53 \\cdot 2$. Day 2: $n = 53 \\cdot 2^2$. Day $d$: $n = 53 \\cdot 2^d$.",
     "This is an exponential growth model with initial value 53 and growth factor 2.",
-    "The equation \\(n = 53(2)^d\\) matches this pattern exactly."
+    "The equation $n = 53(2)^d$ matches this pattern exactly."
   ],
-  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; '\\(n=(53)^d\\)'</strong>: This raises 53 to the power \\(d\\), which would mean at day 1 there are 53 subscribers, not double. Wrong structure &mdash; the base should be the growth factor, not the initial value. &#10007;</li><li><strong>Choice B &mdash; '\\(n=53(2)^d\\)'</strong>: Initial value 53, doubled each day (base 2). At \\(d=1\\): \\(53 \\cdot 2 = 106\\) (double of 53). At \\(d=2\\): \\(53 \\cdot 4 = 212\\) (double of 106). Correct. &#10003;</li><li><strong>Choice C &mdash; '\\(n=53\\left(\\frac{1}{2}\\right)^d\\)'</strong>: Base \\(\\frac{1}{2}\\) represents exponential decay (halving each day), not doubling. &#10007;</li><li><strong>Choice D &mdash; '\\(n=(53)^2+d\\)'</strong>: This is a linear function in \\(d\\) added to a constant, not an exponential. It does not model daily doubling. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
-  "desmosExpressions": ["n=53\\cdot2^{d}"]
+  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; '$n=(53)^d$'</strong>: This raises 53 to the power $d$, which would mean at day 1 there are 53 subscribers, not double. Wrong structure &mdash; the base should be the growth factor, not the initial value. &#10007;</li><li><strong>Choice B &mdash; '$n=53(2)^d$'</strong>: Initial value 53, doubled each day (base 2). At $d=1$: $53 \\cdot 2 = 106$ (double of 53). At $d=2$: $53 \\cdot 4 = 212$ (double of 106). Correct. &#10003;</li><li><strong>Choice C &mdash; '$n=53\\left(\\frac{1}{2}\\right)^d$'</strong>: Base $\\frac{1}{2}$ represents exponential decay (halving each day), not doubling. &#10007;</li><li><strong>Choice D &mdash; '$n=(53)^2+d$'</strong>: This is a linear function in $d$ added to a constant, not an exponential. It does not model daily doubling. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
+  "desmosExpressions": [
+    "n=53\\cdot2^{d}"
+  ]
 }

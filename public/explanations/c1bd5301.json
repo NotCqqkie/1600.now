@@ -1,1 +1,16 @@
-{"questionId": "c1bd5301", "correctAnswer": "241", "section": "Math", "steps": [{"title": "Interpret the meaning of a", "content": "The model is $$f(x)=a+bx$$. The weight at birth corresponds to $$x=0$$. Substituting gives $$f(0)=a+b\\cdot0=a$$. Thus the constant $$a$$ represents the predicted weight at birth.", "formula": "$$f(x)=a+bx$$"}, {"title": "Solve for a using the birth weight", "content": "The model predicts the animal weighed $$241$$ pounds at birth, so $$f(0)=241$$. Since $$f(0)=a$$, we have $$a=241$$.<br/>The answer is <strong>241</strong>."}]}
+{
+  "questionId": "c1bd5301",
+  "correctAnswer": "241",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret the meaning of a",
+      "content": "The model is $$f(x)=a+bx$$. The weight at birth corresponds to $$x=0$$. Substituting gives $$f(0)=a+b\\cdot0=a$$. Thus the constant $$a$$ represents the predicted weight at birth.",
+      "formula": "$$f(x)=a+bx$$"
+    },
+    {
+      "title": "Solve for a using the birth weight",
+      "content": "The model predicts the animal weighed $$241$$ pounds at birth, so $$f(0)=241$$. Since $$f(0)=a$$, we have $$a=241$$.<br/>The answer is <strong>241</strong>."
+    }
+  ]
+}

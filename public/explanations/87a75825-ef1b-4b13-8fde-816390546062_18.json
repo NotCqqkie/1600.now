@@ -1,1 +1,19 @@
-{"questionId": "87a75825-ef1b-4b13-8fde-816390546062_18", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Identify the four angle measures", "content": "Two intersecting lines create four angles. Vertical angles are congruent; adjacent angles are supplementary (sum to $180°$).<br/><br/>If one angle is $(7x - 260)°$, its vertical partner is also $(7x - 260)°$, and each of the two adjacent angles is $180° - (7x - 260)° = (440 - 7x)°$.<br/><br/>So the four angles are two copies of $(7x-260)°$ and two copies of $(440-7x)°$, and each angle measure must be positive."}, {"title": "List every possible sum of two angles", "content": "Choosing two of the four angles, the possible sums are:<br/>&bull; two acute (or two obtuse) of the same measure: $2(7x-260) = 14x - 520$, or $2(440-7x) = -14x + 880$.<br/>&bull; one of each measure (an adjacent pair): $(7x-260) + (440-7x) = 180$.<br/><br/>So the only attainable sums are $(14x-520)°$, $(-14x+880)°$, and $180°$."}, {"title": "Compare each choice to the attainable sums", "content": "<ul><li>A. $(-14x+520)°$: not equal to any of the three sums above. Also, since $(7x-260) > 0$ forces $x > 260/7 \\approx 37.1$, we get $-14x+520 < 0$, which can't be a sum of two positive angles. Impossible.</li><li>B. $(-14x+880)°$: equals $2(440-7x)$, the sum of the two obtuse angles. Possible.</li><li>C. $(14x-520)°$: equals $2(7x-260)$, the sum of the two acute angles. Possible.</li><li>D. $180°$: the sum of any adjacent (linear) pair. Possible.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "87a75825-ef1b-4b13-8fde-816390546062_18",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the four angle measures",
+      "content": "Two intersecting lines create four angles. Vertical angles are congruent; adjacent angles are supplementary (sum to $180°$).<br/><br/>If one angle is $(7x - 260)°$, its vertical partner is also $(7x - 260)°$, and each of the two adjacent angles is $180° - (7x - 260)° = (440 - 7x)°$.<br/><br/>So the four angles are two copies of $(7x-260)°$ and two copies of $(440-7x)°$, and each angle measure must be positive."
+    },
+    {
+      "title": "List every possible sum of two angles",
+      "content": "Choosing two of the four angles, the possible sums are:<br/>&bull; two acute (or two obtuse) of the same measure: $2(7x-260) = 14x - 520$, or $2(440-7x) = -14x + 880$.<br/>&bull; one of each measure (an adjacent pair): $(7x-260) + (440-7x) = 180$.<br/><br/>So the only attainable sums are $(14x-520)°$, $(-14x+880)°$, and $180°$."
+    },
+    {
+      "title": "Compare each choice to the attainable sums",
+      "content": "<ul><li>A. $(-14x+520)°$: not equal to any of the three sums above. Also, since $(7x-260) > 0$ forces $x > 260/7 \\approx 37.1$, we get $-14x+520 < 0$, which can't be a sum of two positive angles. Impossible.</li><li>B. $(-14x+880)°$: equals $2(440-7x)$, the sum of the two obtuse angles. Possible.</li><li>C. $(14x-520)°$: equals $2(7x-260)$, the sum of the two acute angles. Possible.</li><li>D. $180°$: the sum of any adjacent (linear) pair. Possible.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

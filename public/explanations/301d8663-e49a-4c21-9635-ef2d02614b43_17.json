@@ -1,1 +1,19 @@
-{"questionId":"301d8663-e49a-4c21-9635-ef2d02614b43_17","correctAnswer":"A","section":"Math","steps":[{"title":"Vieta shortcut: product of roots = c/a","content":"For $x^2 + 8x - 60 = 0$, identify $a = 1$, $c = -60$. No need to factor or use the quadratic formula.","formula":"$$\\text{product of roots} = \\frac{c}{a}$$"},{"title":"Compute","content":"$\\frac{c}{a} = \\frac{-60}{1} = -60$. That matches choice A — <strong>A</strong> is correct.","desmosExpressions":["y = x^{2} + 8x - 60"]}]}
+{
+  "questionId": "301d8663-e49a-4c21-9635-ef2d02614b43_17",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Vieta shortcut: product of roots = c/a",
+      "content": "For $x^2 + 8x - 60 = 0$, identify $a = 1$, $c = -60$. No need to factor or use the quadratic formula.",
+      "formula": "$$\\text{product of roots} = \\frac{c}{a}$$"
+    },
+    {
+      "title": "Compute",
+      "content": "$\\frac{c}{a} = \\frac{-60}{1} = -60$. That matches choice A — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y = x^{2} + 8x - 60"
+      ]
+    }
+  ]
+}

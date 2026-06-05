@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Expand both sides",
-      "content": "Left side: \\(a(7x - 14) + 5a = 7ax - 14a + 5a = 7ax - 9a\\)<br/>Right side: \\(7(ax - 2a) - 35 = 7ax - 14a - 35\\)"
+      "content": "Left side: $a(7x - 14) + 5a = 7ax - 14a + 5a = 7ax - 9a$<br/>Right side: $7(ax - 2a) - 35 = 7ax - 14a - 35$"
     },
     {
       "title": "Set the sides equal and simplify",
-      "content": "\\(7ax - 9a = 7ax - 14a - 35\\)<br/>Subtract \\(7ax\\) from both sides: \\(-9a = -14a - 35\\)<br/>Add \\(14a\\) to both sides: \\(5a = -35\\)<br/>Divide by 5: \\(a = -7\\)"
+      "content": "$7ax - 9a = 7ax - 14a - 35$<br/>Subtract $7ax$ from both sides: $-9a = -14a - 35$<br/>Add $14a$ to both sides: $5a = -35$<br/>Divide by 5: $a = -7$"
     },
     {
       "title": "Verify: does a = -7 give infinitely many solutions?",
-      "content": "Substitute \\(a = -7\\):<br/>Left: \\(7(-7)x - 9(-7) = -49x + 63\\)<br/>Right: \\(7(-7)x - 14(-7) - 35 = -49x + 98 - 35 = -49x + 63\\)<br/>Left = Right for all \\(x\\), confirming infinitely many solutions."
+      "content": "Substitute $a = -7$:<br/>Left: $7(-7)x - 9(-7) = -49x + 63$<br/>Right: $7(-7)x - 14(-7) - 35 = -49x + 98 - 35 = -49x + 63$<br/>Left = Right for all $x$, confirming infinitely many solutions."
     },
     {
       "title": "Evaluate all choices",
-      "content": "<ul><li><strong>Choice A &mdash; '0 only'</strong>: Substituting \\(a = 0\\) gives \\(0 = -35\\), a contradiction. &#10007;</li><li><strong>Choice B &mdash; '-7 only'</strong>: Derived algebraically above; \\(a = -7\\) is the unique value making the equation an identity. &#10003;</li><li><strong>Choice C &mdash; 'Any real number'</strong>: Most values of \\(a\\) yield a false constant equation (no solution) or exactly one solution, not all reals. &#10007;</li><li><strong>Choice D &mdash; 'No real number'</strong>: We found \\(a = -7\\) works, so this is false. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; '0 only'</strong>: Substituting $a = 0$ gives $0 = -35$, a contradiction. &#10007;</li><li><strong>Choice B &mdash; '-7 only'</strong>: Derived algebraically above; $a = -7$ is the unique value making the equation an identity. &#10003;</li><li><strong>Choice C &mdash; 'Any real number'</strong>: Most values of $a$ yield a false constant equation (no solution) or exactly one solution, not all reals. &#10007;</li><li><strong>Choice D &mdash; 'No real number'</strong>: We found $a = -7$ works, so this is false. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
     }
   ]
 }

@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Express buildings as a percentage of the total plot",
-      "content": "The plot is 52.0% farmland and 48.0% pasture (100% \u2212 52.0% = 48.0%). To find buildings as a percentage of the entire plot, multiply the building percentage by the land type percentage:<br/><br/>Buildings on farmland = 28.5% of 52.0% = 0.285 \u00d7 0.52 = 0.1482 = 14.82% of plot<br/>Buildings on pasture = 11.0% of 48.0% = 0.11 \u00d7 0.48 = 0.0528 = 5.28% of plot"
+      "content": "The plot is 52.0% farmland and 48.0% pasture (100% − 52.0% = 48.0%). To find buildings as a percentage of the entire plot, multiply the building percentage by the land type percentage:<br/><br/>Buildings on farmland = 28.5% of 52.0% = 0.285 × 0.52 = 0.1482 = 14.82% of plot<br/>Buildings on pasture = 11.0% of 48.0% = 0.11 × 0.48 = 0.0528 = 5.28% of plot"
     },
     {
       "title": "Sum to find p",

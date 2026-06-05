@@ -10,7 +10,10 @@
     {
       "title": "Solve for c",
       "content": "Subtract 9 from both sides:<br/>$$(c-5)^2 = 0$$<br/>Take the square root:<br/>$$c - 5 = 0$$<br/>$$c = 5$$",
-      "desmosExpressions": ["(x-3)^2 + (y-5)^2 = 9", "(6,5)"]
+      "desmosExpressions": [
+        "(x-3)^2 + (y-5)^2 = 9",
+        "(6,5)"
+      ]
     }
   ]
 }

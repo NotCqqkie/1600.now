@@ -1,1 +1,19 @@
-{"questionId": "343aaff6", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Apply slope-intercept form", "content": "Slope $m=7$, y-intercept $b=5$ (from the point $(0,5)$): $$f(x) = 7x + 5$$"}, {"title": "Evaluate Each Choice", "content": "<ul><li><strong>Choice A &mdash; 'f(x) = 5x'</strong>: Slope is 5, not 7, and y-intercept is 0, not 5. &#10007;</li><li><strong>Choice B &mdash; 'f(x) = 35x'</strong>: Slope is 35 (the product of 7 and 5) and y-intercept is 0. Neither matches. &#10007;</li><li><strong>Choice C &mdash; 'f(x) = 7x + 5'</strong>: Slope is 7 and y-intercept is 5. Both match the given information. &#10003;</li><li><strong>Choice D &mdash; 'f(x) = 12x + 5'</strong>: Slope is 12 (the sum of 7 and 5), not 7. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.", "desmosExpressions": ["y=7x+5", "(0,5)"]}]}
+{
+  "questionId": "343aaff6",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply slope-intercept form",
+      "content": "Slope $m=7$, y-intercept $b=5$ (from the point $(0,5)$): $$f(x) = 7x + 5$$"
+    },
+    {
+      "title": "Evaluate Each Choice",
+      "content": "<ul><li><strong>Choice A &mdash; 'f(x) = 5x'</strong>: Slope is 5, not 7, and y-intercept is 0, not 5. &#10007;</li><li><strong>Choice B &mdash; 'f(x) = 35x'</strong>: Slope is 35 (the product of 7 and 5) and y-intercept is 0. Neither matches. &#10007;</li><li><strong>Choice C &mdash; 'f(x) = 7x + 5'</strong>: Slope is 7 and y-intercept is 5. Both match the given information. &#10003;</li><li><strong>Choice D &mdash; 'f(x) = 12x + 5'</strong>: Slope is 12 (the sum of 7 and 5), not 7. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "y=7x+5",
+        "(0,5)"
+      ]
+    }
+  ]
+}

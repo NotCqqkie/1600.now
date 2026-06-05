@@ -1,1 +1,27 @@
-{"questionId": "b310cd51-4e49-46d2-99c8-70a10c0d83f9_21", "correctAnswer": "1458", "section": "Math", "steps": [{"title": "Find the growth factor for a 3-unit change", "content": "In an exponential function $f(x) = ab^{\\frac{x}{n}}$, ratios eliminate the constant $a$. Divide the two known values:<br/>$$\\frac{f(5)}{f(2)} = \\frac{ab^{\\frac{5}{n}}}{ab^{\\frac{2}{n}}} = b^{\\frac{3}{n}}$$<br/>$$b^{\\frac{3}{n}} = \\frac{162}{6} = 27$$<br/>This is the multiplicative growth when the input increases by 3."}, {"title": "Scale to find the 2-unit growth factor", "content": "To go from $f(5)$ to $f(7)$, the input increases by 2 units. Rewrite the exponent $\\frac{2}{n}$ in terms of what we know:<br/>$$b^{\\frac{2}{n}} = \\left(b^{\\frac{3}{n}}\\right)^{\\frac{2}{3}} = 27^{\\frac{2}{3}}$$<br/>$$27^{\\frac{2}{3}} = (3^3)^{\\frac{2}{3}} = 3^2 = 9$$"}, {"title": "Compute f(7) using the growth factor", "content": "Multiply $f(5)$ by the growth factor for a 2-unit change:<br/>$$f(7) = f(5) \\cdot b^{\\frac{2}{n}} = 162 \\cdot 9 = 1458$$"}]}
+{
+  "questionId": "b310cd51-4e49-46d2-99c8-70a10c0d83f9_21",
+  "correctAnswer": "1458",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the growth factor for a 3-unit change",
+      "content": "Rewrite $f(x)=ab^{x/n}$ as $f(x)=ak^x$, where $k=b^{1/n}$ is the multiplier for each 1-unit increase in $x$. Ratios eliminate $a$:<br/>$$\\frac{f(5)}{f(2)}=\\frac{162}{6}=27$$<br/>The input increased by $3$, so $k^3=27$ and $k=3$."
+    },
+    {
+      "title": "Check it with a Desmos exponential regression",
+      "content": "A fast calculator route is to enter the two known points as lists and regress $y_1\\sim ak^{x_1}$. Desmos finds the same per-unit multiplier, $k=3$, without separately solving for $b$ and $n$.",
+      "desmosExpressions": [
+        "x_1=[2,5]",
+        "y_1=[6,162]",
+        "y_1~a k^{x_1}"
+      ]
+    },
+    {
+      "title": "Compute f(7) using the growth factor",
+      "content": "From $x=5$ to $x=7$ is a 2-unit increase, so multiply by $3^2=9$:<br/>$$f(7)=162\\cdot 9=1458$$<br/>You can also evaluate the Desmos regression model at $x=7$. The answer is <strong>1458</strong>.",
+      "desmosExpressions": [
+        "a k^7"
+      ]
+    }
+  ]
+}

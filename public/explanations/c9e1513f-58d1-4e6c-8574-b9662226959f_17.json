@@ -1,1 +1,19 @@
-{"questionId":"c9e1513f-58d1-4e6c-8574-b9662226959f_17","correctAnswer":"C","section":"Math","steps":[{"title":"Apply the complementary-angle identity from the given condition","content":"In a right triangle the two acute angles are complementary, so $\\sin C = \\cos A$. Given $\\cos A = 0.55$."},{"title":"Compute the target value","content":"Therefore $\\sin C = 0.55$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}
+{
+  "questionId": "c9e1513f-58d1-4e6c-8574-b9662226959f_17",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the complementary-angle identity from the given condition",
+      "content": "In a right triangle the two acute angles are complementary, so $\\sin C = \\cos A$. Given $\\cos A = 0.55$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "Therefore $\\sin C = 0.55$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice C, 0.55, and the other choices fail the same setup or substitution. Therefore <strong>C</strong> is correct."
+    }
+  ]
+}

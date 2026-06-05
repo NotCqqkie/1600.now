@@ -1,1 +1,27 @@
-{"questionId":"fdfc90e4","correctAnswer":"C","section":"Math","steps":[{"title":"Find two points on the line of best fit","content":"From the scatterplot, the line of best fit passes through approximately $(24,10)$ on the left and reaches roughly $(34,0)$ on the right."},{"title":"Compute the slope and equation","content":"Slope $=\\dfrac{0-10}{34-24}=-1$. Using point $(24,10)$: $$y=10-(x-24).$$"},{"title":"Evaluate at x = 32","content":"$$y=10-(32-24)=10-8=2.$$ Among the answer choices, $2$ is closest to $2.4$.<ul><li>$0.4$: corresponds to roughly $x\\approx 33.6$ on the line &mdash; too low.</li><li>$1.5$: corresponds to roughly $x\\approx 32.5$ &mdash; close but farther from $2$ than $2.4$ is.</li><li>$2.4$: closest to the predicted value of $2$ at $x=32$ &mdash; matches.</li><li>$3.3$: would require $x\\approx 30.7$ &mdash; too high.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "fdfc90e4",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Fit the displayed line",
+      "content": "Use two approximate points on the line of best fit, such as $(24,10)$ and $(34,0)$.",
+      "desmosExpressions": [
+        "x_1=[24,34]",
+        "y_1=[10,0]",
+        "y_1~m x_1+b"
+      ]
+    },
+    {
+      "title": "Predict at x = 32",
+      "content": "The fitted line has slope about $-1$, so at $x=32$ the prediction is between $2$ and $3$. Desmos evaluates the fitted model near $2$ to $2.4$ depending on exact graph reading.",
+      "desmosExpressions": [
+        "m 32+b"
+      ]
+    },
+    {
+      "title": "Choose the closest value",
+      "content": "The only choice between $2$ and $3$ is $2.4$, so choice <strong>C</strong> is correct."
+    }
+  ]
+}

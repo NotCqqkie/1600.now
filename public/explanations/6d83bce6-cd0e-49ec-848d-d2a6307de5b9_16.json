@@ -1,1 +1,19 @@
-{"questionId":"6d83bce6-cd0e-49ec-848d-d2a6307de5b9_16","correctAnswer":"C","section":"Math","steps":[{"title":"Distribute","content":"Multiply $95$ through $(x-2)$: $$y=95x-190+228.$$"},{"title":"Combine and match","content":"Add the constants: $-190+228=38$, giving $y=95x+38$. That matches choice <strong>C</strong> &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_16",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute",
+      "content": "Multiply $95$ through $(x-2)$: $$y=95x-190+228.$$"
+    },
+    {
+      "title": "Combine and match",
+      "content": "Add the constants: $-190+228=38$, giving $y=95x+38$. That matches choice <strong>C</strong> &mdash; <strong>C</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice C, $y = 95x + 38$. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
+    }
+  ]
+}

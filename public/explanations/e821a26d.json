@@ -1,1 +1,18 @@
-{"questionId": "e821a26d", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Determine the parabola’s direction of opening", "content": "From the scatterplot the points form an ∩‑shaped curve, indicating a downward‑opening parabola.<br/><br/>For a quadratic $$y = ax^2 + bx + c$$ a downward opening means $$a < 0$$.<br/><br/>Therefore the coefficient of $$x^2$$ must be negative. Choices A and C have $$+1.674x^2$$ (positive $$a$$), so they do not match the shape.<br/>That leaves choices B and D — <strong>B</strong> and <strong>D</strong> remain."}, {"title": "Read the y‑intercept", "content": "The scatterplot crosses the vertical axis (year 0) at a value above zero, roughly 700 million MWh.<br/><br/>This is the y‑intercept, equal to the constant term $$c$$ in $$y = ax^2 + bx + c$$.<br/><br/>Hence $$c > 0$$. Choice B has $$c = -745.73$$, which is negative, so it is eliminated.<br/>Only choice D fits both the downward opening and the positive intercept.<br/>That matches choice D — <strong>D</strong> is correct.", "desmosExpressions": ["y = -1.674x^2 + 19.76x + 745.73"]}]}
+{
+  "questionId": "e821a26d",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Determine the parabola’s direction of opening",
+      "content": "From the scatterplot the points form an ∩‑shaped curve, indicating a downward‑opening parabola.<br/><br/>For a quadratic $$y = ax^2 + bx + c$$ a downward opening means $$a < 0$$.<br/><br/>Therefore the coefficient of $$x^2$$ must be negative. Choices A and C have $$+1.674x^2$$ (positive $$a$$), so they do not match the shape.<br/>That leaves choices B and D — <strong>B</strong> and <strong>D</strong> remain."
+    },
+    {
+      "title": "Read the y‑intercept",
+      "content": "The scatterplot crosses the vertical axis (year 0) at a value above zero, roughly 700 million MWh.<br/><br/>This is the y‑intercept, equal to the constant term $$c$$ in $$y = ax^2 + bx + c$$.<br/><br/>Hence $$c > 0$$. Choice B has $$c = -745.73$$, which is negative, so it is eliminated.<br/>Only choice D fits both the downward opening and the positive intercept.<br/>That matches choice D — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "y = -1.674x^2 + 19.76x + 745.73"
+      ]
+    }
+  ]
+}

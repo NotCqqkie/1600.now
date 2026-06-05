@@ -1,1 +1,15 @@
-{"questionId": "13909d78", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Substitute x = 9 into the function", "content": "We are given $f(x) = 100x + 2$. To find $f(9)$, substitute $x = 9$:<br/>$$f(9) = 100(9) + 2$$"}, {"title": "Evaluate the expression", "content": "Multiply first, then add:<br/>$$100 \\cdot 9 = 900$$<br/>$$900 + 2 = 902$$<br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "13909d78",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x = 9 into the function",
+      "content": "We are given $f(x) = 100x + 2$. To find $f(9)$, substitute $x = 9$:<br/>$$f(9) = 100(9) + 2$$"
+    },
+    {
+      "title": "Evaluate the expression",
+      "content": "Multiply first, then add:<br/>$$100 \\cdot 9 = 900$$<br/>$$900 + 2 = 902$$<br/>That matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

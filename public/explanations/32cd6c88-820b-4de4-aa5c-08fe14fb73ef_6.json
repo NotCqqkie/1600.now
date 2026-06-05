@@ -1,1 +1,32 @@
-{"qid":"32cd6c88-820b-4de4-aa5c-08fe14fb73ef_6","steps":["The graph models a projectile launched upward. Such a path forms a downward-opening parabola: height increases from launch, reaches a maximum (vertex), then decreases back toward the ground.","Reading the graph, the vertex (maximum height) occurs at \\(x = 2\\) seconds. Before \\(x = 2\\) the height is rising; after \\(x = 2\\) the height is falling.","An interval satisfies &ldquo;increasing for the entire interval&rdquo; only if every moment within it lies strictly before (or at) the vertex. The interval from \\(x = 0\\) to \\(x = 2\\) lies entirely in the rising portion, so the height is increasing throughout.","Intervals extending beyond \\(x = 2\\) (choices B and C reaching x = 3 or x = 4) include the descending portion and therefore fail the condition. The interval from \\(x = 3\\) to \\(x = 4\\) is entirely after the vertex, so the height is decreasing throughout."],"choices":[{"id":"A","text":"From \\(x = 0\\) to \\(x = 2\\)","explanation":"<ul><li>The vertex is at \\(x = 2\\). From \\(x = 0\\) to \\(x = 2\\) the parabola is on its ascending branch, so height increases over the entire interval. That matches choice A &mdash; <strong>A</strong> is correct.</li></ul>"},{"id":"B","text":"From \\(x = 0\\) to \\(x = 4\\)","explanation":"<ul><li>This interval crosses the vertex at \\(x = 2\\). Height increases from 0 to 2, then decreases from 2 to 4. The height is not increasing for the entire interval. This is incorrect.</li></ul>"},{"id":"C","text":"From \\(x = 2\\) to \\(x = 3\\)","explanation":"<ul><li>The vertex is at \\(x = 2\\), so by \\(x = 2\\) the object has already reached its peak and begins descending. The height is decreasing over this interval, not increasing. This is incorrect.</li></ul>"},{"id":"D","text":"From \\(x = 3\\) to \\(x = 4\\)","explanation":"<ul><li>Both \\(x = 3\\) and \\(x = 4\\) are past the vertex at \\(x = 2\\), placing this interval entirely on the descending branch. The height is decreasing throughout. This is incorrect.</li></ul>"}],"correctAnswer":"A"}
+{
+  "qid": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_6",
+  "steps": [
+    "The graph models a projectile launched upward. Such a path forms a downward-opening parabola: height increases from launch, reaches a maximum (vertex), then decreases back toward the ground.",
+    "Reading the graph, the vertex (maximum height) occurs at $x = 2$ seconds. Before $x = 2$ the height is rising; after $x = 2$ the height is falling.",
+    "An interval satisfies &ldquo;increasing for the entire interval&rdquo; only if every moment within it lies strictly before (or at) the vertex. The interval from $x = 0$ to $x = 2$ lies entirely in the rising portion, so the height is increasing throughout.",
+    "Intervals extending beyond $x = 2$ (choices B and C reaching x = 3 or x = 4) include the descending portion and therefore fail the condition. The interval from $x = 3$ to $x = 4$ is entirely after the vertex, so the height is decreasing throughout."
+  ],
+  "choices": [
+    {
+      "id": "A",
+      "text": "From $x = 0$ to $x = 2$",
+      "explanation": "<ul><li>The vertex is at $x = 2$. From $x = 0$ to $x = 2$ the parabola is on its ascending branch, so height increases over the entire interval. That matches choice A &mdash; <strong>A</strong> is correct.</li></ul>"
+    },
+    {
+      "id": "B",
+      "text": "From $x = 0$ to $x = 4$",
+      "explanation": "<ul><li>This interval crosses the vertex at $x = 2$. Height increases from 0 to 2, then decreases from 2 to 4. The height is not increasing for the entire interval. This is incorrect.</li></ul>"
+    },
+    {
+      "id": "C",
+      "text": "From $x = 2$ to $x = 3$",
+      "explanation": "<ul><li>The vertex is at $x = 2$, so by $x = 2$ the object has already reached its peak and begins descending. The height is decreasing over this interval, not increasing. This is incorrect.</li></ul>"
+    },
+    {
+      "id": "D",
+      "text": "From $x = 3$ to $x = 4$",
+      "explanation": "<ul><li>Both $x = 3$ and $x = 4$ are past the vertex at $x = 2$, placing this interval entirely on the descending branch. The height is decreasing throughout. This is incorrect.</li></ul>"
+    }
+  ],
+  "correctAnswer": "A"
+}

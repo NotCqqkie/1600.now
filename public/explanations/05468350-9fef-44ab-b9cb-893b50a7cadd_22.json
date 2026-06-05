@@ -1,1 +1,22 @@
-{"questionId": "05468350-9fef-44ab-b9cb-893b50a7cadd_22", "correctAnswer": "33", "section": "Math", "steps": [{"title": "Rearrange to standard form", "content": "Move all terms: $(n-26)x^2 - 16x + 8 = 0$, so $a = n-26$, $b = -16$, $c = 8$."},{"title": "Two distinct real solutions → discriminant > 0", "content": "$(-16)^2 - 4(n-26)(8) > 0$ → $256 - 32(n-26) > 0$ → $n - 26 < 8$ → $n < 34$.", "desmosExpressions": ["256-32*(n-26)>0"]},{"title": "Greatest integer n", "content": "The greatest integer satisfying $n < 34$ is $n = 33$. That matches choice 33 — <strong>33</strong> is correct."}]}
+{
+  "questionId": "05468350-9fef-44ab-b9cb-893b50a7cadd_22",
+  "correctAnswer": "33",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rearrange to standard form",
+      "content": "Move all terms: $(n-26)x^2 - 16x + 8 = 0$, so $a = n-26$, $b = -16$, $c = 8$."
+    },
+    {
+      "title": "Two distinct real solutions → discriminant > 0",
+      "content": "$(-16)^2 - 4(n-26)(8) > 0$ → $256 - 32(n-26) > 0$ → $n - 26 < 8$ → $n < 34$.",
+      "desmosExpressions": [
+        "256-32*(n-26)>0"
+      ]
+    },
+    {
+      "title": "Greatest integer n",
+      "content": "The greatest integer satisfying $n < 34$ is $n = 33$. That matches choice 33 — <strong>33</strong> is correct."
+    }
+  ]
+}

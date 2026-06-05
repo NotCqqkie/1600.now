@@ -1,1 +1,31 @@
-{"questionId":"70774aa4","correctAnswer":"D","section":"Math","steps":[{"title":"Apply the multiplier from the given condition","content":"Note $15x = 3 \\cdot 5x$, and $5x=20$."},{"title":"Compute the target value","content":"So $15x = 3 \\cdot 20 = 60$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "70774aa4",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the multiplier from the given condition",
+      "content": "Note $15x = 3 \\cdot 5x$, and $5x=20$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "So $15x = 3 \\cdot 20 = 60$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice D is correct. It's given that $5x=20$. Multiplying both sides of this equation by $3$ yields $15x=60$. Therefore, the value of $15x$ is $60$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A is incorrect and may result from conceptual errors."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice B is incorrect and may result from conceptual errors."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice C is incorrect and may result from conceptual errors."
+    }
+  ]
+}

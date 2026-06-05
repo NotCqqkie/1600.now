@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the right angle and tangent components",
-      "content": "Since angles A and B are acute, angle C must be 90\u00b0. From angle B in this right triangle: opposite = AC = 23.3, adjacent = BC = unknown."
+      "content": "Since angles A and B are acute, angle C must be 90°. From angle B in this right triangle: opposite = AC = 23.3, adjacent = BC = unknown."
     },
     {
       "title": "Use the tangent ratio to solve for BC",
-      "content": "We know $\\tan B = \\frac{1}{4}$. By the tangent ratio in a right triangle, $\\tan B = \\frac{AC}{BC}$. Therefore: $$\\frac{23.3}{BC} = \\frac{1}{4}$$ Multiply both sides by BC and by 4: $$BC = 23.3 \\times 4 = 93.2$$ That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "We know $\\tan B = \\frac{1}{4}$. By the tangent ratio in a right triangle, $\\tan B = \\frac{AC}{BC}$. Therefore: $$\\frac{23.3}{BC} = \\frac{1}{4}$$ Multiply both sides by BC and by 4: $$BC = 23.3 \\times 4 = 93.2$$ That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

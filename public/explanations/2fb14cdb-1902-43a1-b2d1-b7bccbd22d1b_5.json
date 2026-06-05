@@ -1,1 +1,19 @@
-{"questionId":"2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_5","correctAnswer":"D","section":"Math","steps":[{"title":"Distribute and combine like terms","content":"Drop the parentheses and combine like terms. Only the $nr$ terms match:$$=8nr^2+2nr+4n^2r+3nr$$$$=8nr^2+4n^2r+5nr$$"},{"title":"Match to the answer choices","content":"The simplified expression is $8nr^2+4n^2r+5nr$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_5",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute and combine like terms",
+      "content": "Drop the parentheses and combine like terms. Only the $nr$ terms match:$$=8nr^2+2nr+4n^2r+3nr$$$$=8nr^2+4n^2r+5nr$$"
+    },
+    {
+      "title": "Match to the answer choices",
+      "content": "The simplified expression is $8nr^2+4n^2r+5nr$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice D, $8nr^{2}+4n^{2}r+5nr$. The other choices do not satisfy the same condition from the question, so <strong>D</strong> is correct."
+    }
+  ]
+}

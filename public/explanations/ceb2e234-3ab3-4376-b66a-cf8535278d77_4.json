@@ -1,1 +1,19 @@
-{"questionId": "ceb2e234-3ab3-4376-b66a-cf8535278d77_4", "correctAnswer": "13", "section": "Math", "steps": [{"title": "Substitute the value x = 36", "content": "Replace $x$ with $36$ in $$f(x) = 7 + \\sqrt{x}.$$ This gives $$f(36) = 7 + \\sqrt{36}.$$"}, {"title": "Compute the result", "content": "Simplify: $$f(36) = 7 + 6 = 13.$$ The answer is <strong>13</strong>."}]}
+{
+  "questionId": "ceb2e234-3ab3-4376-b66a-cf8535278d77_4",
+  "correctAnswer": "13",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the value x = 36",
+      "content": "Replace $x$ with $36$ in $$f(x) = 7 + \\sqrt{x}.$$ This gives $$f(36) = 7 + \\sqrt{36}.$$"
+    },
+    {
+      "title": "Compute the result",
+      "content": "Simplify: $$f(36) = 7 + 6 = 13.$$ The answer is <strong>13</strong>."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, make sure the computed value answers exactly what the question asks for. The work above gives $13$; substituting or interpreting it in the original condition satisfies the requirement, so $13$ is the value to enter."
+    }
+  ]
+}

@@ -1,1 +1,31 @@
-{"qid":"91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_19","correctAnswer":"A","steps":[{"explanation":"Identify the relationship type. The scatterplot shows points following a roughly straight path with no curvature, indicating a linear model. This eliminates choices C (\\(y = -582(1.2)^x\\)) and D (\\(y = 582(1.2)^x\\)), which are exponential and would produce curves."},{"explanation":"Determine the sign of the slope. As \\(x\\) increases the plotted \\(y\\) values also increase, so the slope must be positive (+1.2). Choice B has slope &minus;1.2 (a decreasing line), which contradicts the upward trend. Eliminated."},{"explanation":"Only choice A remains: \\(y = -582 + 1.2x\\). Verify with a representative point near \\((3500, 3700)\\): \\(y = -582 + 1.2(3500) = -582 + 4200 = 3618\\), which closely matches the observed value."},{"explanation":"<ul><li>Choice A: \\(y = -582 + 1.2x\\) &mdash; linear with positive slope; fits the upward linear trend. That matches choice A &mdash; <strong>A</strong> is correct.</li><li>Choice B: \\(y = 582 - 1.2x\\) &mdash; linear but with negative slope; predicts \\(y\\) decreasing as \\(x\\) increases. Contradicts the data. Eliminated.</li><li>Choice C: \\(y = -582(1.2)^x\\) &mdash; exponential and always negative for positive bases; produces a curve nowhere near a straight upward scatter. Eliminated.</li><li>Choice D: \\(y = 582(1.2)^x\\) &mdash; exponential growth; produces a steeply curving line, not the linear pattern shown. Eliminated.</li></ul>"}]}
+{
+  "questionId": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_19",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Plot the scatterplot points",
+      "content": "The points form a roughly straight increasing pattern. A fast Desmos check is to enter representative points from the scatterplot, then overlay the answer choices.",
+      "desmosExpressions": [
+        "x_1=[1200,1600,1900,2300,2600,3200,3500,4100]",
+        "y_1=[900,1100,1600,1900,2850,3000,3700,4000]"
+      ]
+    },
+    {
+      "title": "Compare the linear choices first",
+      "content": "Choice A, $y=-582+1.2x$, has positive slope and runs through the middle of the data. For example, at $x=3500$, it predicts $-582+1.2(3500)=3618$, close to the plotted value near $3700$. Choice B has negative slope, so it trends the wrong direction.",
+      "desmosExpressions": [
+        "y=-582+1.2x",
+        "y=582-1.2x"
+      ]
+    },
+    {
+      "title": "Reject the exponential choices",
+      "content": "Choices C and D are exponential models. The scatterplot does not curve upward like exponential growth; it stays close to a straight line. Choice C is also negative for positive $x$, which is nowhere near the positive data values. These exponential choices are better eliminated by shape instead of graphing them on the thousand-scale $x$-axis."
+    },
+    {
+      "title": "Confirm the model",
+      "content": "The only model with the correct linear shape, positive slope, and reasonable predictions is $y=-582+1.2x$. Choice <strong>A</strong> is correct."
+    }
+  ]
+}

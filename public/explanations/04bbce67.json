@@ -1,1 +1,22 @@
-{"questionId": "04bbce67", "correctAnswer": "-7", "section": "Math", "steps": [{"title": "Recognize vertex form", "content": "$f(x) = (x+7)^2 + 4$ is in vertex form $a(x-h)^2 + k$ with $a = 1$, $h = -7$, $k = 4$."}, {"title": "Determine where the minimum occurs", "content": "Since $a > 0$, the parabola opens upward and has its minimum at the vertex $x = h$."}, {"title": "Compute the answer", "content": "The minimum occurs at $x = -7$. The answer is <strong>-7</strong>.", "desmosExpressions": ["f(x)=((x+7))^(2)+4"]}]}
+{
+  "questionId": "04bbce67",
+  "correctAnswer": "-7",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize vertex form",
+      "content": "$f(x) = (x+7)^2 + 4$ is in vertex form $a(x-h)^2 + k$ with $a = 1$, $h = -7$, $k = 4$."
+    },
+    {
+      "title": "Determine where the minimum occurs",
+      "content": "Since $a > 0$, the parabola opens upward and has its minimum at the vertex $x = h$."
+    },
+    {
+      "title": "Compute the answer",
+      "content": "The minimum occurs at $x = -7$. The answer is <strong>-7</strong>.",
+      "desmosExpressions": [
+        "f(x)=((x+7))^(2)+4"
+      ]
+    }
+  ]
+}

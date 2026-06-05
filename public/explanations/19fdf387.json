@@ -9,8 +9,11 @@
     },
     {
       "title": "Solve for x to find a",
-      "content": "Subtract $x$ from both sides:<br/>$$3 = x - 6$$<br/>Add 6 to both sides:<br/>$$9 = x$$<br/>Since the intersection point is $(a, b)$ and $x = a$, we have $a = 9$. That matches choice C \u2014 <strong>C</strong> is correct.",
-      "desmosExpressions": ["y = x + 3", "y = 2x - 6"]
+      "content": "Subtract $x$ from both sides:<br/>$$3 = x - 6$$<br/>Add 6 to both sides:<br/>$$9 = x$$<br/>Since the intersection point is $(a, b)$ and $x = a$, we have $a = 9$. That matches choice C — <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "y = x + 3",
+        "y = 2x - 6"
+      ]
     }
   ]
 }

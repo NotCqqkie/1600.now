@@ -1,1 +1,23 @@
-{"questionId":"39729166-8e92-42cc-8ed6-76acdb673a3c_11","correctAnswer":"565","section":"Math","steps":[{"title":"Set up","content":"Substitute $h=557.33$ into $h=\\frac{9(v-273.15)}{5}+32$ and solve for $v$: $$557.33=\\frac{9(v-273.15)}{5}+32.$$"},{"title":"Solve","content":"Subtract 32: $525.33=\\frac{9(v-273.15)}{5}$. Multiply by 5: $2626.65=9(v-273.15)$. Divide by 9: $v-273.15=291.85$. Add 273.15: $v=565$."},{"title":"Answer","content":"<strong>565</strong> is correct."}]}
+{
+  "questionId": "39729166-8e92-42cc-8ed6-76acdb673a3c_11",
+  "correctAnswer": "565",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "Substitute $h=557.33$ into $h=\\frac{9(v-273.15)}{5}+32$ and solve for $v$: $$557.33=\\frac{9(v-273.15)}{5}+32.$$"
+    },
+    {
+      "title": "Solve",
+      "content": "Subtract 32: $525.33=\\frac{9(v-273.15)}{5}$. Multiply by 5: $2626.65=9(v-273.15)$. Divide by 9: $v-273.15=291.85$. Add 273.15: $v=565$."
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>565</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $565$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $565$."
+    }
+  ]
+}

@@ -1,1 +1,19 @@
-{"questionId": "305aaf32-2803-4909-83d0-d08ba71a35a7_15", "correctAnswer": "10", "section": "Math", "steps": [{"title": "Eliminate y by setting equations equal", "content": "Since both equations equal $y$, we can set them equal to each other:<br/>$$8x = x^2 - 20$$<br/>Move all terms to one side:<br/>$$x^2 - 8x - 20 = 0$$"}, {"title": "Factor the quadratic and apply the constraint", "content": "Factor by finding two numbers that multiply to $-20$ and add to $-8$: those are $-10$ and $2$.<br/>$$(x - 10)(x + 2) = 0$$<br/>This gives $x = 10$ or $x = -2$. Since we need $x > 0$, the answer is $x = 10$.", "desmosExpressions": ["y = 8x", "y = x^2 - 20"]}]}
+{
+  "questionId": "305aaf32-2803-4909-83d0-d08ba71a35a7_15",
+  "correctAnswer": "10",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Eliminate y by setting equations equal",
+      "content": "Since both equations equal $y$, we can set them equal to each other:<br/>$$8x = x^2 - 20$$<br/>Move all terms to one side:<br/>$$x^2 - 8x - 20 = 0$$"
+    },
+    {
+      "title": "Factor the quadratic and apply the constraint",
+      "content": "Factor by finding two numbers that multiply to $-20$ and add to $-8$: those are $-10$ and $2$.<br/>$$(x - 10)(x + 2) = 0$$<br/>This gives $x = 10$ or $x = -2$. Since we need $x > 0$, the answer is $x = 10$.",
+      "desmosExpressions": [
+        "y = 8x",
+        "y = x^2 - 20"
+      ]
+    }
+  ]
+}

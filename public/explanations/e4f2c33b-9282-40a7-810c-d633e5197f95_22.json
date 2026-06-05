@@ -9,7 +9,17 @@
   ],
   "explanation": "<ul><li><strong>Choice A &mdash; '$f(x)=50x+60$'</strong>: f(6) = 50(6) + 60 = 360. Derived from the base fee of $160 minus the 2 hours already included at $50 each, giving y-intercept 60. &#10003;</li><li><strong>Choice B &mdash; '$f(x)=50x+160$'</strong>: f(6) = 50(6) + 160 = 460 &#x2260; 360. Incorrectly counts the $160 base on top of all x hours at $50, double-counting the first 2 hours. &#10007;</li><li><strong>Choice C &mdash; '$f(x)=60x$'</strong>: f(6) = 360 coincidentally matches, but f(2) = 120 &#x2260; 160. This ignores the flat $160 base charge for the first 2 hours. &#10007;</li><li><strong>Choice D &mdash; '$f(x)=60x+160$'</strong>: f(6) = 60(6) + 160 = 520 &#x2260; 360. Both the rate and intercept are wrong. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.",
   "desmosExpressions": [
-    { "id": "g1", "latex": "f\\left(x\\right)=50x+60", "color": "#2d70b3" },
-    { "id": "p1", "latex": "\\left(6,360\\right)", "color": "#388c46", "label": "6 hrs, $360", "showLabel": true }
+    {
+      "id": "g1",
+      "latex": "f\\left(x\\right)=50x+60",
+      "color": "#2d70b3"
+    },
+    {
+      "id": "p1",
+      "latex": "\\left(6,360\\right)",
+      "color": "#388c46",
+      "label": "6 hrs, $360",
+      "showLabel": true
+    }
   ]
 }

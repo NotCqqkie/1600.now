@@ -1,10 +1,10 @@
 {
   "qid": "e7b6f0d1",
   "steps": [
-    "Solve \\(4x + 6 = 18\\). Subtract 6 from both sides: \\(4x = 12\\).",
-    "The question asks which equation has the same solution, i.e., which equation is equivalent to \\(4x = 12\\).",
-    "Check: \\(x = 3\\). Substituting back: \\(4(3)+6 = 18\\). &#10003;",
-    "<ul><li><strong>Choice A &mdash; '\\(4x = 108\\)'</strong>: Gives \\(x = 27\\), not 3. &#10007;</li><li><strong>Choice B &mdash; '\\(4x = 24\\)'</strong>: Gives \\(x = 6\\), not 3. &#10007;</li><li><strong>Choice C &mdash; '\\(4x = 12\\)'</strong>: Gives \\(x = 3\\), same solution as the original equation. &#10003;</li><li><strong>Choice D &mdash; '\\(4x = 3\\)'</strong>: Gives \\(x = 0.75\\), not 3. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    "Solve $4x + 6 = 18$. Subtract 6 from both sides: $4x = 12$.",
+    "The question asks which equation has the same solution, i.e., which equation is equivalent to $4x = 12$.",
+    "Check: $x = 3$. Substituting back: $4(3)+6 = 18$. &#10003;",
+    "<ul><li><strong>Choice A &mdash; '$4x = 108$'</strong>: Gives $x = 27$, not 3. &#10007;</li><li><strong>Choice B &mdash; '$4x = 24$'</strong>: Gives $x = 6$, not 3. &#10007;</li><li><strong>Choice C &mdash; '$4x = 12$'</strong>: Gives $x = 3$, same solution as the original equation. &#10003;</li><li><strong>Choice D &mdash; '$4x = 3$'</strong>: Gives $x = 0.75$, not 3. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
   ],
   "correctAnswer": "C"
 }

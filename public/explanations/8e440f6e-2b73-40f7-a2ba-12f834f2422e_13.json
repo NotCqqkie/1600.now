@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Recognize what p(0) represents",
-      "content": "$p(0)$ is the output of the polynomial when the input is $x = 0$. Graphically, this is the $y$-intercept\u2014the point where the curve crosses the $y$-axis."
+      "content": "$p(0)$ is the output of the polynomial when the input is $x = 0$. Graphically, this is the $y$-intercept—the point where the curve crosses the $y$-axis."
     },
     {
       "title": "Read the y-intercept from the given points",

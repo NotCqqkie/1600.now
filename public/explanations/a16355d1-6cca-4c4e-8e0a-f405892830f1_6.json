@@ -1,1 +1,19 @@
-{"questionId":"a16355d1-6cca-4c4e-8e0a-f405892830f1_6","correctAnswer":"33","section":"Math","steps":[{"title":"Set up","content":"The segment is 113 cm total. One part is 47 cm. The other two parts are equal, so call each one $x$: $$47 + 2x = 113.$$"},{"title":"Solve","content":"$$2x = 113 - 47 = 66 \\\\ x = 33$$"},{"title":"Answer","content":"<strong>33</strong> is correct."}]}
+{
+  "questionId": "a16355d1-6cca-4c4e-8e0a-f405892830f1_6",
+  "correctAnswer": "33",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "The segment is 113 cm total. One part is 47 cm. The other two parts are equal, so call each one $x$: $$47 + 2x = 113.$$"
+    },
+    {
+      "title": "Solve",
+      "content": "$$2x = 113 - 47 = 66 \\\\ x = 33$$"
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>33</strong> is correct."
+    }
+  ]
+}

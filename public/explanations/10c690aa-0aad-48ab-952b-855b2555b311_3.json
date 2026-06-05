@@ -1,1 +1,15 @@
-{"questionId": "10c690aa-0aad-48ab-952b-855b2555b311_3", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Set up the perimeter equation", "content": "The perimeter of a triangle equals the sum of its three side lengths. Two sides measure $5$ cm and $7$ cm, and the perimeter is $16$ cm. Let $x$ represent the length of the third side:$$5 + 7 + x = 16$$"}, {"title": "Solve for x", "content": "$$\\begin{align*}5 + 7 + x &= 16 \\\\ 12 + x &= 16 \\\\ x &= 4\\end{align*}$$<br/>The third side has length $4$ cm. That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "10c690aa-0aad-48ab-952b-855b2555b311_3",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the perimeter equation",
+      "content": "The perimeter of a triangle equals the sum of its three side lengths. Two sides measure $5$ cm and $7$ cm, and the perimeter is $16$ cm. Let $x$ represent the length of the third side:$$5 + 7 + x = 16$$"
+    },
+    {
+      "title": "Solve for x",
+      "content": "$$\\begin{align*}5 + 7 + x &= 16 \\\\ 12 + x &= 16 \\\\ x &= 4\\end{align*}$$<br/>The third side has length $4$ cm. That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

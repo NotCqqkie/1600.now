@@ -1,1 +1,20 @@
-{"questionId": "23a951fb-833f-4b27-9978-4eb054f855e2_22", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Note that angles K and L are complementary", "content": "Triangle JKL has $\\angle J = 90^\\circ$, $\\angle K = 71^\\circ$, $\\angle L = 19^\\circ$. The two acute angles in any right triangle sum to $90^\\circ$, and indeed $71^\\circ + 19^\\circ = 90^\\circ$, so $K$ and $L$ are complementary."}, {"title": "Apply the cofunction identity", "content": "For complementary angles, $\\sin(\\theta) = \\cos(90^\\circ - \\theta)$. Since $L = 90^\\circ - K$, we get $\\cos L = \\cos(90^\\circ - K) = \\sin K$. Numerically, $\\sin 71^\\circ \\approx 0.9455$ and $\\cos 19^\\circ \\approx 0.9455$ &mdash; they are equal.", "formula": "$$\\cos(90^\\circ - K) = \\sin K$$"}, {"title": "Eliminate the other choices", "content": "<ul><li>A) $\\cos L > \\sin K$ &mdash; false; the values are equal, not greater. Eliminate.</li><li>B) $\\cos L = \\sin K$ &mdash; true by the cofunction identity. Keep.</li><li>C) $\\cos L < \\sin K$ &mdash; false; the values are equal, not less. Eliminate.</li><li>D) There is enough information; both angle measures are given. Eliminate.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "23a951fb-833f-4b27-9978-4eb054f855e2_22",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Note that angles K and L are complementary",
+      "content": "Triangle JKL has $\\angle J = 90^\\circ$, $\\angle K = 71^\\circ$, $\\angle L = 19^\\circ$. The two acute angles in any right triangle sum to $90^\\circ$, and indeed $71^\\circ + 19^\\circ = 90^\\circ$, so $K$ and $L$ are complementary."
+    },
+    {
+      "title": "Apply the cofunction identity",
+      "content": "For complementary angles, $\\sin(\\theta) = \\cos(90^\\circ - \\theta)$. Since $L = 90^\\circ - K$, we get $\\cos L = \\cos(90^\\circ - K) = \\sin K$. Numerically, $\\sin 71^\\circ \\approx 0.9455$ and $\\cos 19^\\circ \\approx 0.9455$ &mdash; they are equal.",
+      "formula": "$$\\cos(90^\\circ - K) = \\sin K$$"
+    },
+    {
+      "title": "Eliminate the other choices",
+      "content": "<ul><li>A) $\\cos L > \\sin K$ &mdash; false; the values are equal, not greater. Eliminate.</li><li>B) $\\cos L = \\sin K$ &mdash; true by the cofunction identity. Keep.</li><li>C) $\\cos L < \\sin K$ &mdash; false; the values are equal, not less. Eliminate.</li><li>D) There is enough information; both angle measures are given. Eliminate.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

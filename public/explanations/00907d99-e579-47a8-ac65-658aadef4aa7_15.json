@@ -1,1 +1,23 @@
-{"questionId":"00907d99-e579-47a8-ac65-658aadef4aa7_15","correctAnswer":"B","section":"Math","steps":[{"title":"Apply the cross-multiplication from the given condition","content":"Multiply both sides by $x$: $72 = 6x^{2}$."},{"title":"Compute the target value","content":"So $6x^{2} = 72$. That matches choice <strong>B</strong> — <strong>B</strong> is correct.","desmosExpressions":["y = \\frac{72}{x}","y = 6x"]}]}
+{
+  "questionId": "00907d99-e579-47a8-ac65-658aadef4aa7_15",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the cross-multiplication from the given condition",
+      "content": "Multiply both sides by $x$: $72 = 6x^{2}$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "So $6x^{2} = 72$. That matches choice <strong>B</strong> — <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "y = \\frac{72}{x}",
+        "y = 6x"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice B, 72. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
+    }
+  ]
+}

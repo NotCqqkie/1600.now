@@ -1,1 +1,22 @@
-{"questionId":"2f91d920-5520-4266-8a2d-a29c925c95c0_5","correctAnswer":"C","section":"Math","steps":[{"title":"Analyze the equation","content":"Take the square root of both sides of $$x^2=2{,}601.$$ Since $51^2=2{,}601$, $x=\\pm 51$."},{"title":"Count the solutions","content":"There are two real solutions, $51$ and $-51$. That matches choice <strong>C</strong> — <strong>C</strong> is correct.","desmosExpressions":["y = x^{2} - 2601"]}]}
+{
+  "questionId": "2f91d920-5520-4266-8a2d-a29c925c95c0_5",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Analyze the equation",
+      "content": "Take the square root of both sides of $$x^2=2{,}601.$$ Since $51^2=2{,}601$, $x=\\pm 51$."
+    },
+    {
+      "title": "Count the solutions",
+      "content": "There are two real solutions, $51$ and $-51$. That matches choice <strong>C</strong> — <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "y = x^{2} - 2601"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice C, Exactly two, and the other choices fail the same setup or substitution. Therefore <strong>C</strong> is correct."
+    }
+  ]
+}

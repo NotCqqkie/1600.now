@@ -1,1 +1,28 @@
-{"questionId": "263f9937", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Identify the daily growth rate", "content": "From the table, calculate the ratio of bacteria from each day to the next.<br/><br/>Day 1 to Day 2:<br/>$$\\frac{5.0 \\times 10^5}{2.5 \\times 10^5} = 2$$<br/>Day 2 to Day 3:<br/>$$\\frac{1.0 \\times 10^6}{5.0 \\times 10^5} = 2$$<br/>The bacteria doubles each day."}, {"title": "Set up the exponential equation and isolate the exponent", "content": "With initial amount $2.5 \\times 10^5$ on Day 1 and doubling factor 2 per day, the formula is:<br/>$$2.5 \\times 10^5 \\cdot 2^{d-1} = 5.12 \\times 10^8$$<br/>Divide both sides by $2.5 \\times 10^5$:<br/>$$2^{d-1} = \\frac{5.12 \\times 10^8}{2.5 \\times 10^5} = \\frac{5.12}{2.5} \\times 10^3 = 2.048 \\times 10^3 = 2048$$"}, {"title": "Recognize the power of 2 and solve", "content": "Since $2048 = 2^{11}$:<br/>$$2^{d-1} = 2^{11}$$<br/>Equating exponents: $d - 1 = 11$, so $d = 12$. That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "263f9937",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Scale the table to smaller numbers",
+      "content": "The bacteria counts are large, so measure $y$ in hundred-thousands of bacteria. The table becomes $(1,2.5)$, $(2,5)$, and $(3,10)$."
+    },
+    {
+      "title": "Fit the exponential pattern",
+      "content": "Run the exponential regression $y_1 \\sim a b^{x_1}$. Desmos gives $b=2$, so the culture doubles each day. The scaled model is $y=1.25\\cdot 2^x$.",
+      "desmosExpressions": [
+        "x_1=[1,2,3]",
+        "y_1=[2.5,5,10]",
+        "y_1~a b^{x_1}"
+      ]
+    },
+    {
+      "title": "Solve for the target day",
+      "content": "$5.12\\times10^8$ bacteria equals $5120$ hundred-thousands, so solve $1.25\\cdot2^d=5120$. Dividing by $1.25$ gives $2^d=4096=2^{12}$, so $d=12$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "The count reaches the target on day $12$, which matches choice <strong>D</strong>."
+    }
+  ]
+}

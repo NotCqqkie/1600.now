@@ -1,1 +1,16 @@
-{"questionId": "585de39a", "correctAnswer": "42", "section": "Math", "steps": [{"title": "Apply the probability formula", "content": "The probability that a randomly selected subscriber is an MTN subscriber equals the ratio of MTN subscribers to total subscribers.<br/><br/>We're told this probability is 0.43, there are $p$ million MTN subscribers, and 97 million total subscribers on September 30, 2015.<br/>Setting up the equation:<br/>$$\\frac{p}{97} = 0.43$$", "formula": "$$P(\\text{event}) = \\frac{\\text{favorable outcomes}}{\\text{total outcomes}}$$"}, {"title": "Solve for p and round", "content": "Multiply both sides by 97:<br/>$$p = 0.43 \\times 97$$<br/>Calculating: $p = 41.71$<br/>Rounding to the nearest integer, $p = 42$ million."}]}
+{
+  "questionId": "585de39a",
+  "correctAnswer": "42",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the probability formula",
+      "content": "The probability that a randomly selected subscriber is an MTN subscriber equals the ratio of MTN subscribers to total subscribers.<br/><br/>We're told this probability is 0.43, there are $p$ million MTN subscribers, and 97 million total subscribers on September 30, 2015.<br/>Setting up the equation:<br/>$$\\frac{p}{97} = 0.43$$",
+      "formula": "$$P(\\text{event}) = \\frac{\\text{favorable outcomes}}{\\text{total outcomes}}$$"
+    },
+    {
+      "title": "Solve for p and round",
+      "content": "Multiply both sides by 97:<br/>$$p = 0.43 \\times 97$$<br/>Calculating: $p = 41.71$<br/>Rounding to the nearest integer, $p = 42$ million."
+    }
+  ]
+}

@@ -1,1 +1,23 @@
-{"questionId":"d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_5","correctAnswer":"B","section":"Math","steps":[{"title":"Set up","content":"Distribute $6x$ across $(x + 3)$ using the distributive property."},{"title":"Solve","content":"$$6x(x+3) = 6x \\cdot x + 6x \\cdot 3 = 6x^2 + 18x$$"},{"title":"Answer","content":"<strong>B</strong> is correct."}]}
+{
+  "questionId": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_5",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "Distribute $6x$ across $(x + 3)$ using the distributive property."
+    },
+    {
+      "title": "Solve",
+      "content": "$$6x(x+3) = 6x \\cdot x + 6x \\cdot 3 = 6x^2 + 18x$$"
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>B</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice B, $6x^2 + 18x$. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
+    }
+  ]
+}

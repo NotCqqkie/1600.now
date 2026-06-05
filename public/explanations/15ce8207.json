@@ -1,11 +1,23 @@
 {
-  "qid": "15ce8207",
+  "questionId": "15ce8207",
+  "correctAnswer": "D",
+  "section": "Math",
   "steps": [
-    "The scatterplot shows data in an exponential pattern trending up from left to right — successive points accelerate upward, so the gaps between them grow.",
-    "A linear (straight-line) model cannot bend to follow accelerating data; eliminate any choice whose model is a straight line.",
-    "Choices A and B both use straight lines — A slants up but has 7 of 8 points below it (poor fit), B slants down (wrong direction entirely). Eliminate A and B.",
-    "Between the two exponential curves: Choice C has all 8 points below the curve (systematic overshoot — the curve is too high everywhere). Choice D has 2 points on the curve, 3 above, and 3 below — a balanced residual distribution, which is the hallmark of a good fit."
-  ],
-  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; 'Line slanting up, 7 of 8 points below'</strong>: A straight line cannot match exponential acceleration; 7 points below the line shows a systematic negative bias — the line fits poorly. &#10007;</li><li><strong>Choice B &mdash; 'Line slanting down, 5 of 8 points below'</strong>: The data trends up from left to right, so a downward-slanting line is in the wrong direction entirely. &#10007;</li><li><strong>Choice C &mdash; 'Exponential curve, all 8 points below'</strong>: An exponential curve is the right shape, but if every single point is below the curve the model overshoots everywhere — the curve is consistently too high and is not a best fit. &#10007;</li><li><strong>Choice D &mdash; 'Exponential curve, 2 on, 3 above, 3 below'</strong>: An exponential curve trending up matches the data shape, and having roughly equal points above and below indicates a balanced, unbiased fit. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.",
-  "correctAnswer": "D"
+    {
+      "title": "Choose the right model shape",
+      "content": "The scatterplot has an increasing curved pattern: as $x$ increases, $y$ increases faster and faster. That is not linear behavior, so a straight-line model is not the best choice."
+    },
+    {
+      "title": "Eliminate the straight lines",
+      "content": "Choice A is a line that slopes up, but it cannot follow the accelerating curve and most points are on one side of it. Choice B is even worse because it slopes downward while the data trend upward. Eliminate A and B."
+    },
+    {
+      "title": "Check residual balance",
+      "content": "For a good model, the data points should be split reasonably above and below the curve. Choice C has all $8$ points below the curve, so it is systematically too high and not a good fit."
+    },
+    {
+      "title": "Pick the balanced curve",
+      "content": "Choice D is an increasing curve and has points both above and below it: $2$ on the curve, $3$ above, and $3$ below. That balanced residual pattern makes D the most appropriate model, so choice <strong>D</strong> is correct."
+    }
+  ]
 }

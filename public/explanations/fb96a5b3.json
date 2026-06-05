@@ -1,1 +1,18 @@
-{"qid":"fb96a5b3","correctAnswer":"B","steps":[{"title":"Distribute the 2 into the parentheses","content":"$$2 \\times (ab - 3) + 2 = 2ab - 6 + 2$$"},{"title":"Combine constant terms","content":"$$2ab - 6 + 2 = 2ab - 4$$"},{"title":"Evaluate each choice","content":"<ul><li>Choice A: $2ab - 1$. Combining $-6 + 2$ gives $-4$, not $-1$. Eliminated.</li><li>Choice B: $2ab - 4$. This matches $2ab - 4$ exactly. That matches choice B &mdash; <strong>B</strong> is correct.</li><li>Choice C: $2ab - 5$. The constant would need to be $-5$, but it is $-4$. Eliminated.</li><li>Choice D: $2ab - 8$. This would follow from $2(ab-3) - 2$, not $+2$. Eliminated.</li></ul>"}]}
+{
+  "qid": "fb96a5b3",
+  "correctAnswer": "B",
+  "steps": [
+    {
+      "title": "Distribute the 2 into the parentheses",
+      "content": "$$2 \\times (ab - 3) + 2 = 2ab - 6 + 2$$"
+    },
+    {
+      "title": "Combine constant terms",
+      "content": "$$2ab - 6 + 2 = 2ab - 4$$"
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li>Choice A: $2ab - 1$. Combining $-6 + 2$ gives $-4$, not $-1$. Eliminated.</li><li>Choice B: $2ab - 4$. This matches $2ab - 4$ exactly. That matches choice B &mdash; <strong>B</strong> is correct.</li><li>Choice C: $2ab - 5$. The constant would need to be $-5$, but it is $-4$. Eliminated.</li><li>Choice D: $2ab - 8$. This would follow from $2(ab-3) - 2$, not $+2$. Eliminated.</li></ul>"
+    }
+  ]
+}

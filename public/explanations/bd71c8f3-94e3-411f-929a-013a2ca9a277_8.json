@@ -1,1 +1,19 @@
-{"questionId":"bd71c8f3-94e3-411f-929a-013a2ca9a277_8","correctAnswer":"D","section":"Math","steps":[{"title":"Set up","content":"Every visitor is in exactly one of rooms A, B, or C, so the three probabilities sum to 1. Find $P(C)$ first, then multiply by the total."},{"title":"Solve","content":"$$P(C) = 1 - 0.48 - 0.24 = 0.28$$$$\\text{Visitors in room C} = 0.28 \\times 375 = 105$$"},{"title":"Answer","content":"<strong>D (105)</strong> is correct."}]}
+{
+  "questionId": "bd71c8f3-94e3-411f-929a-013a2ca9a277_8",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "Every visitor is in exactly one of rooms A, B, or C, so the three probabilities sum to 1. Find $P(C)$ first, then multiply by the total."
+    },
+    {
+      "title": "Solve",
+      "content": "$$P(C) = 1 - 0.48 - 0.24 = 0.28$$$$\\text{Visitors in room C} = 0.28 \\times 375 = 105$$"
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>D (105)</strong> is correct."
+    }
+  ]
+}

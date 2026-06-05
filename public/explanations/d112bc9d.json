@@ -1,1 +1,20 @@
-{"questionId": "d112bc9d", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Extract temperature values from the scatterplot", "content": "Reading the data points directly from the graph:<ul><li>At $x=1$: $y \\approx 69°\\text{F}$</li><li>At $x=2$: $y \\approx 60°\\text{F}$</li><li>At $x=3$: $y \\approx 73°\\text{F}$</li><li>At $x=4$: $y \\approx 68°\\text{F}$</li><li>At $x=5$: $y \\approx 64°\\text{F}$</li><li>At $x=6$: $y \\approx 62°\\text{F}$</li><li>At $x=7$: $y \\approx 65°\\text{F}$</li></ul>"}, {"title": "Calculate the temperature change for each interval", "content": "For each time period, compute $\\Delta y = y_{\\text{end}} - y_{\\text{start}}$:<ul><li>Choice D ($x=1$ to $x=2$): $60 - 69 = -9°\\text{F}$ (decrease)</li><li>Choice C ($x=2$ to $x=3$): $73 - 60 = 13°\\text{F}$ (increase)</li><li>Choice B ($x=5$ to $x=6$): $62 - 64 = -2°\\text{F}$ (decrease)</li><li>Choice A ($x=6$ to $x=7$): $65 - 62 = 3°\\text{F}$ (increase)</li></ul>The greatest increase is $13°\\text{F}$ from day 2 to day 3. That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "d112bc9d",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Extract temperature values from the scatterplot",
+      "content": "This is not a regression problem; it asks for the biggest one-step increase. Read the plotted points and put them in a Desmos table if needed: $(1,69)$, $(2,60)$, $(3,73)$, $(4,68)$, $(5,64)$, $(6,62)$, and $(7,65)$.",
+      "desmosExpressions": [
+        "x_1=[1,2,3,4,5,6,7]",
+        "y_1=[69,60,73,68,64,62,65]",
+        "(x_1,y_1)"
+      ]
+    },
+    {
+      "title": "Calculate the temperature change for each interval",
+      "content": "For each time period, compute $\\Delta y = y_{\\text{end}} - y_{\\text{start}}$:<ul><li>Choice D ($x=1$ to $x=2$): $60 - 69 = -9°\\text{F}$ (decrease)</li><li>Choice C ($x=2$ to $x=3$): $73 - 60 = 13°\\text{F}$ (increase)</li><li>Choice B ($x=5$ to $x=6$): $62 - 64 = -2°\\text{F}$ (decrease)</li><li>Choice A ($x=6$ to $x=7$): $65 - 62 = 3°\\text{F}$ (increase)</li></ul>The greatest increase is $13°\\text{F}$ from day 2 to day 3. That matches choice C — <strong>C</strong> is correct."
+    }
+  ]
+}

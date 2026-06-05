@@ -1,1 +1,19 @@
-{"questionId": "a22baf87-f61e-43f7-b868-52cf0e05d234_5", "correctAnswer": "62", "section": "Math", "steps": [{"title": "Substitute the value x = 2", "content": "Replace $x$ with $2$ in $$f(x) = 7x^3 + 6.$$ This gives $$f(2) = 7(2)^3 + 6.$$"}, {"title": "Compute the result", "content": "Simplify: $$f(2) = 7(8) + 6 = 56 + 6 = 62.$$ The answer is <strong>62</strong>."}]}
+{
+  "questionId": "a22baf87-f61e-43f7-b868-52cf0e05d234_5",
+  "correctAnswer": "62",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x = 2",
+      "content": "The function is $f(x)=7x^3+6$. To find $f(2)$, replace every $x$ with $2$: $$f(2)=7(2)^3+6.$$"
+    },
+    {
+      "title": "Evaluate the power first",
+      "content": "Compute $2^3=8$, then multiply: $$f(2)=7(8)+6=56+6=62.$$"
+    },
+    {
+      "title": "Confirm the function value",
+      "content": "The question asks for the output $f(2)$, not for a value of $x$. Substituting $2$ into the original function gives the output $62$, so the value of $f(2)$ is <strong>62</strong>."
+    }
+  ]
+}

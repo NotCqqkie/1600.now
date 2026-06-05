@@ -14,6 +14,10 @@
         "y = \\frac{55}{x + 6}",
         "y = x"
       ]
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $5$. Multiplying both sides of the given equation by $x+6$ results in $55=x\\left(x+6\\right)$. Applying the distributive property of multiplication to the right-hand side of this equation results in $55={x}^{2}+6x$. Subtracting $55$ from both sides of this equation results in $0={x}^{2}+6x-55$. The right-hand side of this equation can be rewritten by factoring. The two values that multiply to $-55$ and add to $6$ are $11$ and $-5$. It follows that the equation $0={x}^{2}+6x-55$ can be rewritten as $0=\\left(x+11\\right)\\left(x-5\\right)$. Setting each factor equal to $0$ yields two equations: $x+11=0$ and $x-5=0$. Subtracting $11$ from both sides of the equation $x+11=0$ results in $x=-11$. Adding $5$ to both sides of the equation $x-5=0$ results in $x=5$. Therefore, the positive solution to the given equation is $5$."
     }
   ]
 }

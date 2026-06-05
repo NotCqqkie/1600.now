@@ -1,1 +1,22 @@
-{"questionId": "b9835972", "correctAnswer": "24", "section": "Math", "steps": [{"title": "Parallel lines share the same slope", "content": "Parallel shortcut: equal slopes. Line $y = 8x + 2$ has slope $8$, so line $l$ also has slope $8$."}, {"title": "Write line l through the origin", "content": "Line $l$ passes through $(0, 0)$ with slope $8$: $y = 8x$."}, {"title": "Substitute x = 3 to find d", "content": "$d = 8 \\times 3 = 24$. That matches choice 24 — <strong>24</strong> is correct.", "desmosExpressions": ["8*3"]}]}
+{
+  "questionId": "b9835972",
+  "correctAnswer": "24",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Parallel lines share the same slope",
+      "content": "Parallel shortcut: equal slopes. Line $y = 8x + 2$ has slope $8$, so line $l$ also has slope $8$."
+    },
+    {
+      "title": "Write line l through the origin",
+      "content": "Line $l$ passes through $(0, 0)$ with slope $8$: $y = 8x$."
+    },
+    {
+      "title": "Substitute x = 3 to find d",
+      "content": "$d = 8 \\times 3 = 24$. That matches choice 24 — <strong>24</strong> is correct.",
+      "desmosExpressions": [
+        "8*3"
+      ]
+    }
+  ]
+}

@@ -61,8 +61,8 @@ export const ExplanationWindow = ({
   windowBoundsElement,
 }: ExplanationWindowProps) => {
   const [isOpen, setIsOpen] = useState(false);
-  const [aiExplanation, setAiExplanation] = useState<ExplanationData | null>(null);
-  const [aiChecked, setAiChecked] = useState(false);
+  const [savedExplanation, setSavedExplanation] = useState<ExplanationData | null>(null);
+  const [explanationChecked, setExplanationChecked] = useState(false);
   // Used by the homepage demo iframe to auto-open the popup on mount.
   const [searchParams] = useSearchParams();
   const autoExplain = searchParams.get("autoExplain") === "1";
@@ -85,28 +85,25 @@ export const ExplanationWindow = ({
   // already rendered (no flash of empty state).
   useEffect(() => {
     if (!autoExplain || autoOpenedRef.current) return;
-    if (!aiChecked) return;
+    if (!explanationChecked) return;
     autoOpenedRef.current = true;
     if (onFocus) onFocus();
     if (onSplitScreenChange) onSplitScreenChange(true, windowId);
     if (onSidebarToggle) onSidebarToggle(windowId, true);
     setIsOpen(true);
-  }, [autoExplain, aiChecked, onFocus, onSplitScreenChange, onSidebarToggle]);
+  }, [autoExplain, explanationChecked, onFocus, onSplitScreenChange, onSidebarToggle, windowId]);
 
-  // Probe for an AI-generated explanation. If one exists, prefer it over the
-  // College Board rationale. App passes ids like `bank-{type}-{subject}-{rawId}`;
-  // generated files are named `{rawId}.json` — strip the 3-token prefix.
   useEffect(() => {
     if (!questionId) {
-      setAiExplanation(null);
-      setAiChecked(true);
+      setSavedExplanation(null);
+      setExplanationChecked(true);
       return;
     }
     const fullId = String(questionId);
     const parts = fullId.split("-");
     const rawId = parts[0] === "bank" && parts.length > 3 ? parts.slice(3).join("-") : fullId;
-    setAiChecked(false);
-    setAiExplanation(null);
+    setExplanationChecked(false);
+    setSavedExplanation(null);
     fetch(`/explanations/${rawId}.json`)
       .then(r => r.ok ? r.text() : null)
       .then(text => {
@@ -115,12 +112,12 @@ export const ExplanationWindow = ({
           try {
             const json = JSON.parse(text);
             const normalized = normalizeExplanationData(json);
-            if (normalized) setAiExplanation(normalized);
+            if (normalized) setSavedExplanation(normalized);
           } catch {/* ignore non-JSON SPA fallback */}
         }
-        setAiChecked(true);
+        setExplanationChecked(true);
       })
-      .catch(() => { if (fullId === String(questionId)) setAiChecked(true); });
+      .catch(() => { if (fullId === String(questionId)) setExplanationChecked(true); });
   }, [questionId]);
 
   const handleToggle = () => {
@@ -180,7 +177,7 @@ export const ExplanationWindow = ({
         boundsElement={windowBoundsElement}
       >
         <div className="w-full h-full flex flex-col overflow-hidden">
-          {aiExplanation && explanationQuestion ? (
+          {savedExplanation && explanationQuestion ? (
             <StepByStepExplanation
               questionId={(() => {
                 const f = String(questionId || "");
@@ -190,7 +187,7 @@ export const ExplanationWindow = ({
               question={explanationQuestion}
               questionImages={questionImages}
             />
-          ) : aiChecked && rationaleHtml ? (
+          ) : explanationChecked && rationaleHtml ? (
             <div className="flex-1 overflow-y-auto px-4 py-3">
               {renderCorrectAnswerBadge()}
               <div
@@ -198,7 +195,7 @@ export const ExplanationWindow = ({
                 dangerouslySetInnerHTML={{ __html: rationaleHtml }}
               />
             </div>
-          ) : aiChecked ? (
+          ) : explanationChecked ? (
             <div className="flex-1 overflow-y-auto px-4 py-3">
               {renderCorrectAnswerBadge()}
               <div className="flex min-h-[180px] items-center justify-center">

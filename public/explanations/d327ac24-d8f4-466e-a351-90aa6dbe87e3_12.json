@@ -1,1 +1,23 @@
-{"questionId": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_12", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Complete the square for x and y", "content": "$x^2 - 16x + y^2 - 10y - 55 = 0$ becomes $(x-8)^2 - 64 + (y-5)^2 - 25 - 55 = 0$, so $(x-8)^2 + (y-5)^2 = 144$."}, {"title": "Identify the center and radius", "content": "Center $(8, 5)$, radius $r = \\sqrt{144} = 12$."}, {"title": "Compute the requested value", "content": "Square side $= 2r = 24$, so perimeter $= 4 \\times 24 = 96$. That matches choice <strong>C</strong> — <strong>C</strong> is correct.", "desmosExpressions": ["x^2 - 16x + y^2 - 10y - 55 = 0", "(x-8)^2 + (y-5)^2 = 144"]}]}
+{
+  "questionId": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_12",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Complete the square for x and y",
+      "content": "$x^2 - 16x + y^2 - 10y - 55 = 0$ becomes $(x-8)^2 - 64 + (y-5)^2 - 25 - 55 = 0$, so $(x-8)^2 + (y-5)^2 = 144$."
+    },
+    {
+      "title": "Identify the center and radius",
+      "content": "Center $(8, 5)$, radius $r = \\sqrt{144} = 12$."
+    },
+    {
+      "title": "Compute the requested value",
+      "content": "Square side $= 2r = 24$, so perimeter $= 4 \\times 24 = 96$. That matches choice <strong>C</strong> — <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "x^2 - 16x + y^2 - 10y - 55 = 0",
+        "(x-8)^2 + (y-5)^2 = 144"
+      ]
+    }
+  ]
+}

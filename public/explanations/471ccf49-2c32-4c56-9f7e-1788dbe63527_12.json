@@ -9,7 +9,7 @@
     },
     {
       "title": "Calculate the area of square M",
-      "content": "Since the area of square N is 25 square centimeters:<br/>$$\\text{Area}_M = 81 \\times 25 = 2,025$$<br/>That matches choice A \u2014 <strong>A</strong> is correct.",
+      "content": "Since the area of square N is 25 square centimeters:<br/>$$\\text{Area}_M = 81 \\times 25 = 2,025$$<br/>That matches choice A — <strong>A</strong> is correct.",
       "formula": "$$\\text{Area}_M = k^2 \\times \\text{Area}_N$$"
     }
   ]

@@ -1,1 +1,19 @@
-{"questionId":"4f7981a0","correctAnswer":"24","section":"Math","steps":[{"title":"Apply the multiplier from the given condition","content":"Note $9x+6 = 3(3x+2)$, and $3x+2=8$."},{"title":"Compute the target value","content":"So $9x+6 = 3 \\cdot 8 = 24$. The answer is <strong>24</strong>."}]}
+{
+  "questionId": "4f7981a0",
+  "correctAnswer": "24",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the multiplier from the given condition",
+      "content": "Note $9x+6 = 3(3x+2)$, and $3x+2=8$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "So $9x+6 = 3 \\cdot 8 = 24$. The answer is <strong>24</strong>."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is 24. Multiplying both sides of the given equation by 3 yields $3 \\times (3x + 2) = 24$. Using the distributive property to rewrite the left-hand side of this equation yields $9x + 6 = 24$."
+    }
+  ]
+}

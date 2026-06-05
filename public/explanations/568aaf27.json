@@ -9,8 +9,11 @@
     },
     {
       "title": "Factor and identify the answer",
-      "content": "Factoring: $(x + 4)(x - 3) = 0$ gives $x = -4$ or $x = 3$. Only $x = 3$ appears among the choices. That matches choice D \u2014 <strong>D</strong> is correct.",
-      "desmosExpressions": ["x + y = 12", "y = x^2"]
+      "content": "Factoring: $(x + 4)(x - 3) = 0$ gives $x = -4$ or $x = 3$. Only $x = 3$ appears among the choices. That matches choice D — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "x + y = 12",
+        "y = x^2"
+      ]
     }
   ]
 }

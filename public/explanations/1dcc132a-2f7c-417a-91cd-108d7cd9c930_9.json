@@ -1,1 +1,23 @@
-{"questionId": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_9", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Expand to create an identity", "content": "For infinitely many solutions, the equation must be an identity (both sides identical for all $x$). Expand both sides:<br/><br/>Left: $18(x+5) = 18x + 90$<br/><br/>Right: $2(x+c) + 16x = 2x + 2c + 16x = 18x + 2c$"}, {"title": "Set constant terms equal", "content": "For the equation to be an identity:<br/>$$18x + 90 = 18x + 2c$$<br/>The coefficients of $x$ are already identical, so the constant terms must match: $90 = 2c$, giving $c = 45$. That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_9",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use a custom regression row",
+      "content": "For infinitely many solutions, both sides must match for every $x$. In Desmos, use two quick test inputs: enter $x_1=[0,1]$, then type $18(x_1+5)\\sim2(x_1+c)+16x_1$. Desmos solves the unknown constant and returns $c=45$.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "18(x_1+5)~2(x_1+c)+16x_1"
+      ]
+    },
+    {
+      "title": "Confirm with coefficients",
+      "content": "Expanding gives $$18(x+5)=18x+90$$ and $$2(x+c)+16x=18x+2c.$$ The $x$-coefficients are already both $18$, so only the constants need to match: $$90=2c$$ $$c=45$$"
+    },
+    {
+      "title": "Check the choices",
+      "content": "The value $c=45$ matches choice <strong>B</strong>. Substituting $c=45$ gives $18x+90=18x+90$, an identity, so the equation has infinitely many solutions."
+    }
+  ]
+}

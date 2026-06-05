@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the conversion factors",
-      "content": "We need to convert 5.70 m/s\u00b2 to miles/min\u00b2. Given: 1 mile = 1,609 meters. Additionally, since 1 minute = 60 seconds, we have 1 minute\u00b2 = 3,600 second\u00b2."
+      "content": "We need to convert 5.70 m/s² to miles/min². Given: 1 mile = 1,609 meters. Additionally, since 1 minute = 60 seconds, we have 1 minute² = 3,600 second²."
     },
     {
       "title": "Multiply by conversion factors",
-      "content": "Multiply the acceleration by the distance and time conversion factors:\n\n$$5.70 \\text{ m/s}^2 \\times \\frac{1 \\text{ mile}}{1,609 \\text{ m}} \\times \\frac{3,600 \\text{ s}^2}{1 \\text{ min}^2}$$\n\nThe first fraction converts meters to miles, and the second converts second\u00b2 to minute\u00b2."
+      "content": "Multiply the acceleration by the distance and time conversion factors:\n\n$$5.70 \\text{ m/s}^2 \\times \\frac{1 \\text{ mile}}{1,609 \\text{ m}} \\times \\frac{3,600 \\text{ s}^2}{1 \\text{ min}^2}$$\n\nThe first fraction converts meters to miles, and the second converts second² to minute²."
     },
     {
       "title": "Calculate the result",

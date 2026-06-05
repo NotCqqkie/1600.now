@@ -1,1 +1,28 @@
-{"questionId": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_15", "correctAnswer": "5", "section": "Math", "steps": [{"title": "Use the zero point to simplify", "content": "The data shows $f(-9) = 0$. In the fraction $\\frac{kx+45}{x+2}$, when $f(x) = 0$, the numerator must equal zero (the denominator is $-9 + 2 = -7 \\neq 0$). Substitute $x = -9$:<br/>$$-9k + 45 = 0$$"}, {"title": "Solve for k", "content": "$$-9k = -45$$<br/>$$k = 5$$<br/>Verify with another data point: $f(33) = \\frac{5(33) + 45}{33 + 2} = \\frac{210}{35} = 6$ ✓"}]}
+{
+  "questionId": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_15",
+  "correctAnswer": "5",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the zero row first",
+      "content": "The fastest hand method is to use the row where $f(-9)=0$. For $f(x)=\\frac{kx+45}{x+2}$ to equal $0$, the numerator must be $0$ while the denominator is not $0$."
+    },
+    {
+      "title": "Solve for k",
+      "content": "Substitute $x=-9$ into the numerator: $$-9k+45=0$$ $$-9k=-45$$ $$k=5$$"
+    },
+    {
+      "title": "Desmos table regression check",
+      "content": "You can also enter the table rows and regress directly against the given form. Desmos returns $k=5$.",
+      "desmosExpressions": [
+        "x_1=[-37,-9,33]",
+        "y_1=[4,0,6]",
+        "y_1~(k x_1+45)/(x_1+2)"
+      ]
+    },
+    {
+      "title": "Confirm with another row",
+      "content": "Using $k=5$, $f(33)=\\frac{5(33)+45}{33+2}=\\frac{210}{35}=6$, matching the table. The value of $k$ is $5$."
+    }
+  ]
+}

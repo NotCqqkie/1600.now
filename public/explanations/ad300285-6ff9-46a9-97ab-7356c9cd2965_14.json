@@ -1,10 +1,23 @@
 {
   "qid": "ad300285-6ff9-46a9-97ab-7356c9cd2965_14",
   "steps": [
-    "\\(r\\) identical objects have total mass \\(t\\) kg, so each object has mass \\(\\frac{t}{r}\\) kg.",
-    "Total mass of \\(146r\\) such objects: \\(146r \\times \\frac{t}{r} = 146t\\) kg. The \\(r\\) cancels.",
-    "The answer is \\(146t\\)."
+    {
+      "title": "Step 1",
+      "content": "$r$ identical objects have total mass $t$ kg, so each object has mass $\\frac{t}{r}$ kg."
+    },
+    {
+      "title": "Step 2",
+      "content": "Total mass of $146r$ such objects: $146r \\times \\frac{t}{r} = 146t$ kg. The $r$ cancels."
+    },
+    {
+      "title": "Step 3",
+      "content": "The answer is $146t$."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice D, $146t$, and the other choices fail the same setup or substitution. Therefore <strong>D</strong> is correct."
+    }
   ],
-  "choiceEliminations": "<ul><li><strong>Choice A &mdash; '\\(146 - t\\)'</strong>: Subtracting \\(t\\) from 146 has no physical meaning for scaling mass. &#10007;</li><li><strong>Choice B &mdash; '\\(146 + t\\)'</strong>: Adding \\(t\\) to 146 does not reflect proportional scaling. &#10007;</li><li><strong>Choice C &mdash; '\\(\\frac{t}{146}\\)'</strong>: This would give the mass of \\(\\frac{r}{146}\\) objects, the opposite of what is needed. &#10007;</li><li><strong>Choice D &mdash; '\\(146t\\)'</strong>: Multiplying \\(146r\\) objects by \\(\\frac{t}{r}\\) each correctly gives \\(146t\\). &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.",
+  "choiceEliminations": "<ul><li><strong>Choice A &mdash; '$146 - t$'</strong>: Subtracting $t$ from 146 has no physical meaning for scaling mass. &#10007;</li><li><strong>Choice B &mdash; '$146 + t$'</strong>: Adding $t$ to 146 does not reflect proportional scaling. &#10007;</li><li><strong>Choice C &mdash; '$\\frac{t}{146}$'</strong>: This would give the mass of $\\frac{r}{146}$ objects, the opposite of what is needed. &#10007;</li><li><strong>Choice D &mdash; '$146t$'</strong>: Multiplying $146r$ objects by $\\frac{t}{r}$ each correctly gives $146t$. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.",
   "correctAnswer": "D"
 }

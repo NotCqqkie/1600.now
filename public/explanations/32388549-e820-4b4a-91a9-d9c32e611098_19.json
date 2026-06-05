@@ -1,1 +1,19 @@
-{"questionId": "32388549-e820-4b4a-91a9-d9c32e611098_19", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Convert cubic meters to cubic centimeters", "content": "Since $1\\text{ m} = 100\\text{ cm}$, one cubic meter equals $(100)^3 = 1{,}000{,}000\\text{ cm}^3$.$$0.84\\text{ m}^3 = 0.84 \\times 1{,}000{,}000 = 840{,}000\\text{ cm}^3$$"}, {"title": "Convert cubic centimeters to quarts", "content": "Using $946.35\\text{ cm}^3 = 1\\text{ quart}$:$$\\text{quarts} = \\frac{840{,}000}{946.35} \\approx 887.6$$"}, {"title": "Evaluate all choices", "content": "<ul><li>A: 0.09 — far too small; this would require no unit conversion at all. Eliminate A.</li><li>B: 7.95 — off by a factor of about 100; likely from converting m to cm without cubing. Eliminate B.</li><li>C: 794.93 — close but arises from an error in the meter-to-cm cube factor. Eliminate C.</li><li>D: 887.62 — matches $840{,}000 \\div 946.35 \\approx 887.6$. That matches choice D — <strong>D</strong> is correct.</li></ul>"}]}
+{
+  "questionId": "32388549-e820-4b4a-91a9-d9c32e611098_19",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert cubic meters to cubic centimeters",
+      "content": "Since $1\\text{ m} = 100\\text{ cm}$, one cubic meter equals $(100)^3 = 1{,}000{,}000\\text{ cm}^3$.$$0.84\\text{ m}^3 = 0.84 \\times 1{,}000{,}000 = 840{,}000\\text{ cm}^3$$"
+    },
+    {
+      "title": "Convert cubic centimeters to quarts",
+      "content": "Using $946.35\\text{ cm}^3 = 1\\text{ quart}$:$$\\text{quarts} = \\frac{840{,}000}{946.35} \\approx 887.6$$"
+    },
+    {
+      "title": "Evaluate all choices",
+      "content": "<ul><li>A: 0.09 — far too small; this would require no unit conversion at all. Eliminate A.</li><li>B: 7.95 — off by a factor of about 100; likely from converting m to cm without cubing. Eliminate B.</li><li>C: 794.93 — close but arises from an error in the meter-to-cm cube factor. Eliminate C.</li><li>D: 887.62 — matches $840{,}000 \\div 946.35 \\approx 887.6$. That matches choice D — <strong>D</strong> is correct.</li></ul>"
+    }
+  ]
+}

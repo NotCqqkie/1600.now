@@ -1,1 +1,16 @@
-{"questionId": "873d2838", "correctAnswer": "370", "section": "Math", "steps": [{"title": "Identify the relationship between population, density, and area", "content": "Population density is defined as population divided by area. Rearranging to solve for area:", "formula": "$$\\text{Area} = \\frac{\\text{Population}}{\\text{Population density}}$$"}, {"title": "Substitute the given values and divide", "content": "With population = 85,100 and population density = 230 people per square mile:<br/>$$\\text{Area} = \\frac{85,100}{230}$$<br/>Performing the division: $85,100 \\div 230 = 370$<br/><br/>The area of Cedar County is <strong>370 square miles</strong>."}]}
+{
+  "questionId": "873d2838",
+  "correctAnswer": "370",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the relationship between population, density, and area",
+      "content": "Population density is defined as population divided by area. Rearranging to solve for area:",
+      "formula": "$$\\text{Area} = \\frac{\\text{Population}}{\\text{Population density}}$$"
+    },
+    {
+      "title": "Substitute the given values and divide",
+      "content": "With population = 85,100 and population density = 230 people per square mile:<br/>$$\\text{Area} = \\frac{85,100}{230}$$<br/>Performing the division: $85,100 \\div 230 = 370$<br/><br/>The area of Cedar County is <strong>370 square miles</strong>."
+    }
+  ]
+}

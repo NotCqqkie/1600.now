@@ -9,7 +9,7 @@
     },
     {
       "title": "Compare each type's female count to the target",
-      "content": "Check which penguin type's female population is closest to 60: <ul><li>Chinstrap: 59 females (difference = 1)</li><li>Emperor: 27 females (difference = 33)</li><li>Gentoo: 54 females (difference = 6)</li><li>Macaroni: 40 females (difference = 20)</li></ul> Chinstrap's female population of 59 is closest to the target of 60, with the smallest distance of just 1. That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "Check which penguin type's female population is closest to 60: <ul><li>Chinstrap: 59 females (difference = 1)</li><li>Emperor: 27 females (difference = 33)</li><li>Gentoo: 54 females (difference = 6)</li><li>Macaroni: 40 females (difference = 20)</li></ul> Chinstrap's female population of 59 is closest to the target of 60, with the smallest distance of just 1. That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

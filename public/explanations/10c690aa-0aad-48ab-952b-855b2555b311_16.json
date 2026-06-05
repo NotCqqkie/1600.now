@@ -1,1 +1,25 @@
-{"questionId":"10c690aa-0aad-48ab-952b-855b2555b311_16","correctAnswer":"B","section":"Math","steps":[{"title":"Set up","content":"Read the y-intercept directly from the table: $f(0)=38$, so $b=38$. This eliminates A ($b=43$) and C ($b=48$)."},{"title":"Solve","content":"Find the slope using $(0,38)$ and $(1,43)$: $m=\frac{43-38}{1-0}=5$. Choice B has slope 5; choice D has slope 48."},{"title":"Answer","content":"<strong>B</strong> is correct."}]}
+{
+  "questionId": "10c690aa-0aad-48ab-952b-855b2555b311_16",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use Desmos to fit the table",
+      "content": "Enter the table rows as $x_1=[0,1]$ and $y_1=[38,43]$. Then type the linear regression row $y_1 \\sim m x_1+b$. Desmos returns $m=5$ and $b=38$, so the function is $f(x)=5x+38$.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[38,43]",
+        "y_1~m x_1+b",
+        "y=5x+38"
+      ]
+    },
+    {
+      "title": "Match the choices",
+      "content": "Choice B is $f(x)=5x+38$, exactly the model Desmos found. Choice D has the same y-intercept but slope 48, so it is much too steep. Choices A and C have different intercepts. Therefore choice B is correct."
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>B</strong> is correct."
+    }
+  ]
+}

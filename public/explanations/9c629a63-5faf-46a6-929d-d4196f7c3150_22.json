@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the constraint on a",
-      "content": "$\\sqrt{6a+7} = -9a$ requires $-9a \\geq 0$ (since the square root is non-negative), so $a \\leq 0$. This eliminates the positive choices C and D."
+      "title": "Turn the condition into an intersection",
+      "content": "The condition $f(a)=-9a$ means<br/>$$\\sqrt{6a+7}=-9a$$<br/>So graph $y=\\sqrt{6x+7}$ and $y=-9x$ in Desmos. The $x$-coordinate of their intersection is the value of $a$.",
+      "desmosExpressions": [
+        "y=\\sqrt{6x+7}",
+        "y=-9x"
+      ]
     },
     {
-      "title": "Backsolve the remaining choices",
-      "content": "Backsolving \u2014 testing choice B ($-\\frac{7}{27}$):<br/>If $a = -\\frac{7}{27}$, then $-9a = \\frac{7}{3}$.<br/>Check: $\\sqrt{6(-\\frac{7}{27})+7} = \\sqrt{-\\frac{14}{9} + 7} = \\sqrt{\\frac{49}{9}} = \\frac{7}{3}$ \u2713<br/><br/>Both sides equal $\\frac{7}{3}$. That matches choice B \u2014 <strong>B</strong> is correct."
+      "title": "Read and confirm the valid intersection",
+      "content": "Desmos shows the intersection at $x=-\\frac{7}{27}$. This also fits the sign rule: the square root is nonnegative, so $-9a$ must be nonnegative and $a\\le0$. Check choice B:<br/>$$\\sqrt{6\\left(-\\frac{7}{27}\\right)+7}=\\sqrt{\\frac{49}{9}}=\\frac{7}{3}$$<br/>and<br/>$$-9\\left(-\\frac{7}{27}\\right)=\\frac{7}{3}$$<br/>Both sides match, so <strong>B</strong> is correct."
     }
   ]
 }

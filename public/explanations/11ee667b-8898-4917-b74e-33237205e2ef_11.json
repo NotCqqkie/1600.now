@@ -1,1 +1,15 @@
-{"questionId": "11ee667b-8898-4917-b74e-33237205e2ef_11", "correctAnswer": "4.65", "section": "Math", "steps": [{"title": "Calculate the retail price from the wholesale price", "content": "The retail price is 310% of the wholesale price. Since 310% equals 3.1, multiply:<br/>$$\\text{Retail price} = 3.1 \\times 6.00 = 18.60$$<br/>The retail price is \\$18.60."}, {"title": "Apply the 75% discount to get the final price", "content": "A discount of 75% off means the customer pays the remaining 25% of the retail price (since 100% - 75% = 25%):<br/>$$\\text{Discounted price} = 0.25 \\times 18.60 = 4.65$$<br/>The discounted price of each remaining shirt is \\$4.65."}]}
+{
+  "questionId": "11ee667b-8898-4917-b74e-33237205e2ef_11",
+  "correctAnswer": "4.65",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate the retail price from the wholesale price",
+      "content": "The retail price is 310% of the wholesale price. Since 310% equals 3.1, multiply:<br/>$$\\text{Retail price} = 3.1 \\times 6.00 = 18.60$$<br/>The retail price is \\$18.60."
+    },
+    {
+      "title": "Apply the 75% discount to get the final price",
+      "content": "A discount of 75% off means the customer pays the remaining 25% of the retail price (since 100% - 75% = 25%):<br/>$$\\text{Discounted price} = 0.25 \\times 18.60 = 4.65$$<br/>The discounted price of each remaining shirt is \\$4.65."
+    }
+  ]
+}

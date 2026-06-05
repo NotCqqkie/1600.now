@@ -1,1 +1,16 @@
-{"questionId": "7270d642", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Identify the distance formula", "content": "To find how far the bird travels, we use the relationship:<br/>$$\\text{distance} = \\text{speed} \\times \\text{time}$$<br/>We're given a speed of $16$ m/s and a time of $4$ s.", "formula": "$$d = vt$$"}, {"title": "Calculate the distance", "content": "Substitute the given values into the formula:<br/>$$\\text{distance} = 16 \\text{ m/s} \\times 4 \\text{ s} = 64 \\text{ m}$$<br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "7270d642",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the distance formula",
+      "content": "To find how far the bird travels, we use the relationship:<br/>$$\\text{distance} = \\text{speed} \\times \\text{time}$$<br/>We're given a speed of $16$ m/s and a time of $4$ s.",
+      "formula": "$$d = vt$$"
+    },
+    {
+      "title": "Calculate the distance",
+      "content": "Substitute the given values into the formula:<br/>$$\\text{distance} = 16 \\text{ m/s} \\times 4 \\text{ s} = 64 \\text{ m}$$<br/>That matches choice A — <strong>A</strong> is correct."
+    }
+  ]
+}

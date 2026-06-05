@@ -1,1 +1,23 @@
-{"questionId": "e3fe84c7-8083-48b8-863b-841355113ba0_14", "correctAnswer": "-45", "section": "Math", "steps": [{"title": "One real solution → discriminant = 0", "content": "Rearrange to standard form: $4x^2 - 32x + (19 - r) = 0$. So $a = 4$, $b = -32$, $c = 19 - r$. Exactly one solution means $b^2 - 4ac = 0$."}, {"title": "Plug in and solve for r", "content": "$(-32)^2 - 4(4)(19 - r) = 0$ → $1024 - 16(19 - r) = 0$ → $64 = 19 - r$ → $r = -45$.", "desmosExpressions": ["1024-16*(19-r)=0"]}, {"title": "Answer", "content": "That matches choice $r = -45$ — <strong>-45</strong> is correct."}]}
+{
+  "questionId": "e3fe84c7-8083-48b8-863b-841355113ba0_14",
+  "correctAnswer": "-45",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "One real solution → discriminant = 0",
+      "content": "Rearrange to standard form: $4x^2 - 32x + (19 - r) = 0$. So $a = 4$, $b = -32$, $c = 19 - r$. Exactly one solution means $b^2 - 4ac = 0$."
+    },
+    {
+      "title": "Plug in and solve for r",
+      "content": "$(-32)^2 - 4(4)(19 - r) = 0$ → $1024 - 16(19 - r) = 0$ → $64 = 19 - r$ → $r = -45$.",
+      "desmosExpressions": [
+        "y_1=[0]",
+        "y_1~(-32)^2-4*4*(19-r)"
+      ]
+    },
+    {
+      "title": "Answer",
+      "content": "That matches choice $r = -45$ — <strong>-45</strong> is correct."
+    }
+  ]
+}

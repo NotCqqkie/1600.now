@@ -1,1 +1,31 @@
-{"questionId":"2e8cc1c0","correctAnswer":"C","section":"Math","steps":[{"title":"Apply the multiplier from the given condition","content":"Note $24x = 6 \\cdot 4x$, and $4x=3$."},{"title":"Compute the target value","content":"So $24x = 6 \\cdot 3 = 18$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}
+{
+  "questionId": "2e8cc1c0",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the multiplier from the given condition",
+      "content": "Note $24x = 6 \\cdot 4x$, and $4x=3$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "So $24x = 6 \\cdot 3 = 18$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice C is correct. It's given that $4x=3$. Multiplying each side of this equation by $6$ yields $24x=18$. Therefore, the value of $24x$ is $18$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A is incorrect. This is the value of $6x$, not $24x$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice B is incorrect. This is the value of $8x$, not $24x$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice D is incorrect. This is the value of $96x$, not $24x$."
+    }
+  ]
+}

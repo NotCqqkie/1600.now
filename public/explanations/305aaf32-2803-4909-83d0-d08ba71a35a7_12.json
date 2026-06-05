@@ -1,1 +1,19 @@
-{"questionId":"305aaf32-2803-4909-83d0-d08ba71a35a7_12","correctAnswer":"12","section":"Math","steps":[{"title":"Apply the equation from the given condition","content":"From $2x+5=9$ we get $2x=4$, so $x=2$."},{"title":"Compute the target value","content":"Then $8x-4 = 16-4 = 12$. The answer is <strong>12</strong>."}]}
+{
+  "questionId": "305aaf32-2803-4909-83d0-d08ba71a35a7_12",
+  "correctAnswer": "12",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the equation from the given condition",
+      "content": "From $2x+5=9$ we get $2x=4$, so $x=2$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "Then $8x-4 = 16-4 = 12$. The answer is <strong>12</strong>."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $12$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $12$."
+    }
+  ]
+}

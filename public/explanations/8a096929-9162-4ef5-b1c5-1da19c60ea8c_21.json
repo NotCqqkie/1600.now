@@ -1,1 +1,19 @@
-{"questionId": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_21", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Simplify and identify the condition for no solution", "content": "Start with the given equation: $13(x - n) = 13y + 13n$<br/>Expand both sides:<br/>$$13x - 13n = 13y + 13n$$<br/>Combine like terms:<br/>$$13x - 13y = 26n$$<br/>Divide by 13:<br/>$$x - y = 2n$$<br/>Rewrite in slope-intercept form:<br/>$$y = x - 2n$$<br/>This equation has slope 1 and y-intercept $-2n$.<br/><br/><div class=\"callout\">For the system to have no solution, the two equations must represent <strong>parallel lines</strong> — same slope but different y-intercepts. So the second equation must have slope 1 and y-intercept ≠ $-2n$.</div>"}, {"title": "Identify the parallel equation among the choices", "content": "<ul><li><strong>Choice A:</strong> $2x - 2y = 4n$ simplifies to $x - y = 2n$, or $y = x - 2n$. This is identical to the first equation, so the system has infinitely many solutions. ✗</li><li><strong>Choice B:</strong> $2x + 2y = 2n$ simplifies to $x + y = n$, or $y = -x + n$. The slope is -1, not 1, so these lines are not parallel. ✗</li><li><strong>Choice C:</strong> $2x + 2y = 4n$ simplifies to $x + y = 2n$, or $y = -x + 2n$. The slope is -1, not 1, so these lines are not parallel. ✗</li><li><strong>Choice D:</strong> $2x - 2y = 2n$ simplifies to $x - y = n$, or $y = x - n$. The slope is 1 (matching the first equation) and the y-intercept is $-n$, which is different from $-2n$. These are parallel lines with no intersection. That matches choice D — <strong>D</strong> is correct.</li></ul>","desmosExpressions":["y = x - 2","y = x - 1"]}]}
+{
+  "questionId": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_21",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify and identify the condition for no solution",
+      "content": "Start with the given equation: $13(x - n) = 13y + 13n$<br/>Expand both sides:<br/>$$13x - 13n = 13y + 13n$$<br/>Combine like terms:<br/>$$13x - 13y = 26n$$<br/>Divide by 13:<br/>$$x - y = 2n$$<br/>Rewrite in slope-intercept form:<br/>$$y = x - 2n$$<br/>This equation has slope 1 and y-intercept $-2n$.<br/><br/><div class=\"callout\">For the system to have no solution, the two equations must represent <strong>parallel lines</strong> — same slope but different y-intercepts. So the second equation must have slope 1 and y-intercept ≠ $-2n$.</div>"
+    },
+    {
+      "title": "Identify the parallel equation among the choices",
+      "content": "<ul><li><strong>Choice A:</strong> $2x - 2y = 4n$ simplifies to $x - y = 2n$, or $y = x - 2n$. This is identical to the first equation, so the system has infinitely many solutions. ✗</li><li><strong>Choice B:</strong> $2x + 2y = 2n$ simplifies to $x + y = n$, or $y = -x + n$. The slope is -1, not 1, so these lines are not parallel. ✗</li><li><strong>Choice C:</strong> $2x + 2y = 4n$ simplifies to $x + y = 2n$, or $y = -x + 2n$. The slope is -1, not 1, so these lines are not parallel. ✗</li><li><strong>Choice D:</strong> $2x - 2y = 2n$ simplifies to $x - y = n$, or $y = x - n$. The slope is 1 (matching the first equation) and the y-intercept is $-n$, which is different from $-2n$. These are parallel lines with no intersection. That matches choice D — <strong>D</strong> is correct.</li></ul>",
+      "desmosExpressions": [
+        "y = x - 2",
+        "y = x - 1"
+      ]
+    }
+  ]
+}

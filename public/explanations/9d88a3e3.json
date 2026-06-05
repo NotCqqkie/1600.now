@@ -1,1 +1,19 @@
-{"questionId": "9d88a3e3", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Read the phases of the run from the graph", "content": "The speed-vs-time graph splits Theresa&apos;s 30-minute run into segments:<ul><li>0&ndash;5 min: speed increases from 0 to 7 mph</li><li>5&ndash;10 min: speed stays constant at 7 mph</li><li>10&ndash;20 min: speed decreases from 7 to 5 mph</li><li>20&ndash;25 min: speed increases from 5 to 8 mph (peak)</li><li>25&ndash;30 min: speed decreases from 8 to 0 mph</li></ul>"}, {"title": "Total time increasing vs. decreasing", "content": "Increasing: 5 + 5 = <strong>10 minutes</strong>. Decreasing: 10 + 5 = <strong>15 minutes</strong>. So the speed was decreasing for a <em>longer</em> period than it was increasing, not the other way around."}, {"title": "Check each statement", "content": "<ul><li>A) Constant speed for 5 minutes (from 5&ndash;10 min) &mdash; <em>TRUE</em>, eliminate.</li><li>B) Increasing for longer than decreasing &mdash; <em>FALSE</em> (10 min increasing vs. 15 min decreasing).</li><li>C) Speed decreased at a constant rate the last 5 minutes (25&ndash;30, a straight line from 8 to 0) &mdash; <em>TRUE</em>, eliminate.</li><li>D) Max speed (8 mph) reached during the last 10 minutes (at 20&ndash;25 min) &mdash; <em>TRUE</em>, eliminate.</li></ul>The only statement that is NOT true is B. That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "9d88a3e3",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the phases of the run from the graph",
+      "content": "The speed-vs-time graph splits Theresa&apos;s 30-minute run into segments:<ul><li>0&ndash;5 min: speed increases from 0 to 7 mph</li><li>5&ndash;10 min: speed stays constant at 7 mph</li><li>10&ndash;20 min: speed decreases from 7 to 5 mph</li><li>20&ndash;25 min: speed increases from 5 to 8 mph (peak)</li><li>25&ndash;30 min: speed decreases from 8 to 0 mph</li></ul>"
+    },
+    {
+      "title": "Total time increasing vs. decreasing",
+      "content": "Increasing: 5 + 5 = <strong>10 minutes</strong>. Decreasing: 10 + 5 = <strong>15 minutes</strong>. So the speed was decreasing for a <em>longer</em> period than it was increasing, not the other way around."
+    },
+    {
+      "title": "Check each statement",
+      "content": "<ul><li>A) Constant speed for 5 minutes (from 5&ndash;10 min) &mdash; <em>TRUE</em>, eliminate.</li><li>B) Increasing for longer than decreasing &mdash; <em>FALSE</em> (10 min increasing vs. 15 min decreasing).</li><li>C) Speed decreased at a constant rate the last 5 minutes (25&ndash;30, a straight line from 8 to 0) &mdash; <em>TRUE</em>, eliminate.</li><li>D) Max speed (8 mph) reached during the last 10 minutes (at 20&ndash;25 min) &mdash; <em>TRUE</em>, eliminate.</li></ul>The only statement that is NOT true is B. That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

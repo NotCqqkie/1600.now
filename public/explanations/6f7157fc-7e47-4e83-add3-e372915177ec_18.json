@@ -1,1 +1,15 @@
-{"questionId":"6f7157fc-7e47-4e83-add3-e372915177ec_18","correctAnswer":"A","section":"Math","steps":[{"title":"Identify what the question needs","content":"The system consists of a downward-opening parabola and a horizontal line at $y = 6$. The solutions are the $x$-values at the intersection points of the two curves."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; '$x = 4$'</strong>: The parabola crosses $y = 6$ at $x = 4$ (left intersection, readable from the grid). &#10003;</li><li><strong>Choice B</strong>: Not an $x$-coordinate where the curves intersect. &#10007;</li><li><strong>Choice C</strong>: Not an $x$-coordinate where the curves intersect. &#10007;</li><li><strong>Choice D</strong>: Not an $x$-coordinate where the curves intersect. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "6f7157fc-7e47-4e83-add3-e372915177ec_18",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The system consists of a downward-opening parabola and a horizontal line at $y = 6$. The solutions are the $x$-values at the intersection points of the two curves."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; '$x = 4$'</strong>: The parabola crosses $y = 6$ at $x = 4$ (left intersection, readable from the grid). &#10003;</li><li><strong>Choice B</strong>: Not an $x$-coordinate where the curves intersect. &#10007;</li><li><strong>Choice C</strong>: Not an $x$-coordinate where the curves intersect. &#10007;</li><li><strong>Choice D</strong>: Not an $x$-coordinate where the curves intersect. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

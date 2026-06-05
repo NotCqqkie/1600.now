@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Recognize AA similarity criterion",
-      "content": "We have \u2220A = \u2220P = 52\u00b0. For AA similarity, two pairs of equal angles are sufficient. We need to find one more matching angle pair."
+      "content": "We have ∠A = ∠P = 52°. For AA similarity, two pairs of equal angles are sufficient. We need to find one more matching angle pair."
     },
     {
       "title": "Test choice C",
-      "content": "Backsolving \u2014 testing choice C (\u2220B = 40\u00b0, \u2220R = 88\u00b0):<br/><br/>In triangle ABC with \u2220A = 52\u00b0, \u2220B = 40\u00b0:<br/>\u2220C = 180\u00b0 - 52\u00b0 - 40\u00b0 = 88\u00b0<br/>Angles: 52\u00b0, 40\u00b0, 88\u00b0<br/><br/>In triangle PQR with \u2220P = 52\u00b0, \u2220R = 88\u00b0:<br/>\u2220Q = 180\u00b0 - 52\u00b0 - 88\u00b0 = 40\u00b0<br/>Angles: 52\u00b0, 40\u00b0, 88\u00b0<br/><br/>All angles match \u2713"
+      "content": "Backsolving — testing choice C (∠B = 40°, ∠R = 88°):<br/><br/>In triangle ABC with ∠A = 52°, ∠B = 40°:<br/>∠C = 180° - 52° - 40° = 88°<br/>Angles: 52°, 40°, 88°<br/><br/>In triangle PQR with ∠P = 52°, ∠R = 88°:<br/>∠Q = 180° - 52° - 88° = 40°<br/>Angles: 52°, 40°, 88°<br/><br/>All angles match ✓"
     },
     {
       "title": "Confirm similarity",
-      "content": "Both triangles have angles 52\u00b0, 40\u00b0, 88\u00b0. With \u2220A = \u2220P and \u2220B = \u2220Q, the AA criterion is satisfied, so \u25b3ABC \u223c \u25b3PQR. That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "Both triangles have angles 52°, 40°, 88°. With ∠A = ∠P and ∠B = ∠Q, the AA criterion is satisfied, so △ABC ∼ △PQR. That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

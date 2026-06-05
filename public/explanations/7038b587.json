@@ -1,1 +1,15 @@
-{"questionId": "7038b587", "correctAnswer": "41", "section": "Math", "steps": [{"title": "Calculate party hat expenses", "content": "Vivian bought 10 packages at \\$3 each: $$10 \\times 3 = 30$$ dollars spent on party hats."}, {"title": "Find cupcake count from remaining budget", "content": "Budget remaining for cupcakes: $$71 - 30 = 41$$ dollars. Since each cupcake costs \\$1, she bought 41 cupcakes."}]}
+{
+  "questionId": "7038b587",
+  "correctAnswer": "41",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate party hat expenses",
+      "content": "Vivian bought 10 packages at \\$3 each: $$10 \\times 3 = 30$$ dollars spent on party hats."
+    },
+    {
+      "title": "Find cupcake count from remaining budget",
+      "content": "Budget remaining for cupcakes: $$71 - 30 = 41$$ dollars. Since each cupcake costs \\$1, she bought 41 cupcakes."
+    }
+  ]
+}

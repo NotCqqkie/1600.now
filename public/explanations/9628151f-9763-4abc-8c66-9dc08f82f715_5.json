@@ -1,1 +1,23 @@
-{"questionId":"9628151f-9763-4abc-8c66-9dc08f82f715_5","correctAnswer":"17","section":"Math","steps":[{"title":"Set up","content":"Substitute x = 2 into f(x) = x&sup3; + 9:$$f(2) = (2)^3 + 9$$"},{"title":"Solve","content":"$$f(2) = 8 + 9 = 17$$"},{"title":"Answer","content":"<strong>17</strong> is correct."}]}
+{
+  "questionId": "9628151f-9763-4abc-8c66-9dc08f82f715_5",
+  "correctAnswer": "17",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "Substitute x = 2 into f(x) = x&sup3; + 9:$$f(2) = (2)^3 + 9$$"
+    },
+    {
+      "title": "Solve",
+      "content": "$$f(2) = 8 + 9 = 17$$"
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>17</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $17$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $17$."
+    }
+  ]
+}

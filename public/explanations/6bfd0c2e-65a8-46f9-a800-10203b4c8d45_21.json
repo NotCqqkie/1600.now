@@ -1,1 +1,19 @@
-{"questionId":"6bfd0c2e-65a8-46f9-a800-10203b4c8d45_21","correctAnswer":"117","section":"Math","steps":[{"title":"Set up","content":"The angles of triangle $RST$ sum to $180°$:$$39 + x + (5x - 3) = 180$$"},{"title":"Solve","content":"Combine like terms: $36 + 6x = 180$, so $x = 24$. Angle $T = 5(24) - 3 = 117°$. Since $\\overline{LK} \\parallel \\overline{RT}$ and $ST$ is a transversal, angle $SKL$ and angle $T$ are corresponding angles, so angle $SKL = 117°$."},{"title":"Answer","content":"<strong>117</strong> is correct."}]}
+{
+  "questionId": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_21",
+  "correctAnswer": "117",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "The angles of triangle $RST$ sum to $180°$:$$39 + x + (5x - 3) = 180$$"
+    },
+    {
+      "title": "Solve",
+      "content": "Combine like terms: $36 + 6x = 180$, so $x = 24$. Angle $T = 5(24) - 3 = 117°$. Since $\\overline{LK} \\parallel \\overline{RT}$ and $ST$ is a transversal, angle $SKL$ and angle $T$ are corresponding angles, so angle $SKL = 117°$."
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>117</strong> is correct."
+    }
+  ]
+}

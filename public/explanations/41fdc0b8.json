@@ -4,13 +4,21 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Extract data points and calculate slope",
-      "content": "From the table: at $t = 0$ (year 2000), population is 862; at $t = 10$ (year 2010), population is 846. The slope is $$\\frac{846 - 862}{10 - 0} = \\frac{-16}{10} = -1.6 \\text{ people per year}$$"
+      "title": "Translate years into t-values",
+      "content": "The variable $t$ means years after 2000. So year 2000 is $t=0$ with population $862$, and year 2010 is $t=10$ with population $846$."
     },
     {
-      "title": "Write the linear equation using point-slope form",
-      "content": "Since $t$ is measured in years after 2000, we start at the point $(0, 862)$. With slope $-1.6$, the equation is $$P(t) = 862 - 1.6t$$ Verify with the 2010 data: $P(10) = 862 - 1.6(10) = 862 - 16 = 846$ \u2713 That matches choice A \u2014 <strong>A</strong> is correct.",
-      "desmosExpressions": ["y=862-1.6x"]
+      "title": "Fit the model in Desmos",
+      "content": "Enter the points $(0,862)$ and $(10,846)$ and run $y_1 \\sim m x_1+b$. Desmos gives $m=-1.6$ and $b=862$, so the model is $y=862-1.6x$. In the problem's variables, that is $P(t)=862-1.6t$.",
+      "desmosExpressions": [
+        "x_1=[0,10]",
+        "y_1=[862,846]",
+        "y_1~m x_1+b"
+      ]
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice <strong>A</strong> matches $P(t)=862-1.6t$. Choice D uses $(t-2000)$ even though $t$ already means years after 2000, so it uses the wrong input variable."
     }
   ]
 }

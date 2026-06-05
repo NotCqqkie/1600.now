@@ -1,1 +1,24 @@
-{"questionId": "ee439cff", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Translate rates and times into distances", "content": "Distance = rate &times; time.<br/>Rhett drives at 35 mph for r hours &rarr; distance = 35r miles.<br/>Jessica drives at 40 mph for j hours &rarr; distance = 40j miles.<br/>Total distance = 35r + 40j miles."}, {"title": "Apply the total distance condition", "content": "The problem states the total distance was <em>under</em> 220 miles, so the total must be strictly less than 220:<br/>$$35r + 40j < 220$$"}, {"title": "Evaluate each choice", "content": "<ul><li><strong>Choice A &mdash; '35r + 40j &gt; 220'</strong>: Uses the correct coefficients but the wrong inequality direction &mdash; this would mean the total exceeds 220 miles. &#10007;</li><li><strong>Choice B &mdash; '35r + 40j &lt; 220'</strong>: Rhett&rsquo;s distance (35r) plus Jessica&rsquo;s distance (40j) is less than 220 miles &mdash; exactly the given constraint. &#10003;</li><li><strong>Choice C &mdash; '40r + 35j &gt; 220'</strong>: Swaps the speeds (assigns 40 to Rhett and 35 to Jessica) and uses the wrong inequality direction. &#10007;</li><li><strong>Choice D &mdash; '40r + 35j &lt; 220'</strong>: Has the correct inequality direction but swaps Rhett&rsquo;s and Jessica&rsquo;s speeds. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.", "desmosExpressions": ["35x+40y<220", "x\\ge 0", "y\\ge 0"]}]}
+{
+  "questionId": "ee439cff",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate rates and times into distances",
+      "content": "Distance = rate &times; time.<br/>Rhett drives at 35 mph for r hours &rarr; distance = 35r miles.<br/>Jessica drives at 40 mph for j hours &rarr; distance = 40j miles.<br/>Total distance = 35r + 40j miles."
+    },
+    {
+      "title": "Apply the total distance condition",
+      "content": "The problem states the total distance was <em>under</em> 220 miles, so the total must be strictly less than 220:<br/>$$35r + 40j < 220$$"
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; '35r + 40j &gt; 220'</strong>: Uses the correct coefficients but the wrong inequality direction &mdash; this would mean the total exceeds 220 miles. &#10007;</li><li><strong>Choice B &mdash; '35r + 40j &lt; 220'</strong>: Rhett&rsquo;s distance (35r) plus Jessica&rsquo;s distance (40j) is less than 220 miles &mdash; exactly the given constraint. &#10003;</li><li><strong>Choice C &mdash; '40r + 35j &gt; 220'</strong>: Swaps the speeds (assigns 40 to Rhett and 35 to Jessica) and uses the wrong inequality direction. &#10007;</li><li><strong>Choice D &mdash; '40r + 35j &lt; 220'</strong>: Has the correct inequality direction but swaps Rhett&rsquo;s and Jessica&rsquo;s speeds. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "35x+40y<220",
+        "x\\ge 0",
+        "y\\ge 0"
+      ]
+    }
+  ]
+}

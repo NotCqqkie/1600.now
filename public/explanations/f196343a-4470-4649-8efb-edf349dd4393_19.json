@@ -14,7 +14,7 @@
     },
     {
       "title": "Calculate the slant height using the Pythagorean theorem",
-      "content": "The slant height, radius, and height of the cone form a right triangle. With $r = 56$ and $h = 33$:<br/>$$l^2 = 56^2 + 33^2 = 3,136 + 1,089 = 4,225$$<br/>$$l = 65$$<br/>That matches choice D \u2014 <strong>D</strong> is correct.",
+      "content": "The slant height, radius, and height of the cone form a right triangle. With $r = 56$ and $h = 33$:<br/>$$l^2 = 56^2 + 33^2 = 3,136 + 1,089 = 4,225$$<br/>$$l = 65$$<br/>That matches choice D — <strong>D</strong> is correct.",
       "formula": "$$l^2 = r^2 + h^2$$"
     }
   ]

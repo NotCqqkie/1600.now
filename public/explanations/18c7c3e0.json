@@ -1,1 +1,15 @@
-{"questionId":"18c7c3e0","correctAnswer":"B","section":"Math","steps":[{"title":"Combine like terms","content":"Both terms share the factor \\(x^2\\). Subtract the coefficients: \\(13x^2 - 7x^2 = (13 - 7)x^2 = 6x^2\\)."},{"title":"Eliminate choices","content":"<ul><li><strong>Choice A &mdash; '\\(-91x^2\\)'</strong>: \\(-91\\) would come from multiplying \\(13 \\times (-7)\\), not subtracting. &#10007;</li><li><strong>Choice B &mdash; '\\(6x^2\\)'</strong>: \\(13 - 7 = 6\\), so this is correct. &#10003;</li><li><strong>Choice C &mdash; '\\(20x^2\\)'</strong>: \\(20\\) would come from adding \\(13 + 7\\), not subtracting. &#10007;</li><li><strong>Choice D &mdash; '\\(40x^2\\)'</strong>: No arithmetic operation on 13 and 7 yields 40. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "18c7c3e0",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Combine like terms",
+      "content": "Both terms share the factor $x^2$. Subtract the coefficients: $13x^2 - 7x^2 = (13 - 7)x^2 = 6x^2$."
+    },
+    {
+      "title": "Eliminate choices",
+      "content": "<ul><li><strong>Choice A &mdash; '$-91x^2$'</strong>: $-91$ would come from multiplying $13 \\times (-7)$, not subtracting. &#10007;</li><li><strong>Choice B &mdash; '$6x^2$'</strong>: $13 - 7 = 6$, so this is correct. &#10003;</li><li><strong>Choice C &mdash; '$20x^2$'</strong>: $20$ would come from adding $13 + 7$, not subtracting. &#10007;</li><li><strong>Choice D &mdash; '$40x^2$'</strong>: No arithmetic operation on 13 and 7 yields 40. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

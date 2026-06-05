@@ -4,12 +4,21 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the slope r using two table points",
-      "content": "Pick two points: $(-8, 48)$ and $(8, -96)$. Apply the slope formula:<br/>$$r = \\frac{f(x_2) - f(x_1)}{x_2 - x_1} = \\frac{-96 - 48}{8 - (-8)} = \\frac{-144}{16} = -9$$"
+      "title": "Use a custom regression with r and s",
+      "content": "The function is already in the form $f(x)=rx+s$. Enter two table points, $(-8,48)$ and $(8,-96)$, and run the matching regression $y_1 \\sim r x_1+s$.",
+      "desmosExpressions": [
+        "x_1=[-8,8]",
+        "y_1=[48,-96]",
+        "y_1~r x_1+s"
+      ]
     },
     {
-      "title": "Find s using a point, then compute rs",
-      "content": "Substitute point $(-8, 48)$ into $f(x) = rx + s$:<br/>$$48 = (-9)(-8) + s$$$$48 = 72 + s$$$$s = -24$$Multiply to find $rs$:<br/>$$rs = (-9) \\times (-24) = 216$$"
+      "title": "Read r and s",
+      "content": "Desmos gives $r=-9$ and $s=-24$, so $f(x)=-9x-24$. The table checks because $f(-8)=72-24=48$ and $f(8)=-72-24=-96$."
+    },
+    {
+      "title": "Answer rs",
+      "content": "Now multiply: $$rs=(-9)(-24)=216$$ The correct free-response answer is <strong>216</strong>."
     }
   ]
 }

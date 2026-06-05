@@ -1,1 +1,23 @@
-{"questionId": "aacc834b", "correctAnswer": "6", "section": "Math", "steps": [{"title": "Solve the system by substitution", "content": "Substitute $x=8$ into $x+3y=26$: $$8+3y=26\\Rightarrow 3y=18.$$"}, {"title": "Find $y$", "content": "Divide: $y=6$. The answer is <strong>6</strong>.","desmosExpressions":["x = 8","y = (26 - x)/3"]}]}
+{
+  "questionId": "aacc834b",
+  "correctAnswer": "6",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve the system by substitution",
+      "content": "Substitute $x=8$ into $x+3y=26$: $$8+3y=26\\Rightarrow 3y=18.$$"
+    },
+    {
+      "title": "Find $y$",
+      "content": "Divide: $y=6$. The answer is <strong>6</strong>.",
+      "desmosExpressions": [
+        "x = 8",
+        "y = (26 - x)/3"
+      ]
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $6$. The first equation in the given system is $x=8$. Substituting $8$ for $x$ in the second equation in the given system yields $8+3y=26$. Subtracting $8$ from both sides of this equation yields $3y=18$. Dividing both sides of this equation by $3$ yields $y=6$. Therefore, the value of $y$ is $6$."
+    }
+  ]
+}

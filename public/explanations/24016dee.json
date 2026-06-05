@@ -1,1 +1,31 @@
-{"questionId":"24016dee","correctAnswer":"B","section":"Math","steps":[{"title":"Distribute and combine like terms","content":"Distribute the negative sign and combine like terms:$$=8x^3+8-x^3+2$$$$=7x^3+10$$"},{"title":"Match to the answer choices","content":"The simplified expression is $7x^3+10$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}
+{
+  "questionId": "24016dee",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute and combine like terms",
+      "content": "Distribute the negative sign and combine like terms:$$=8x^3+8-x^3+2$$$$=7x^3+10$$"
+    },
+    {
+      "title": "Match to the answer choices",
+      "content": "The simplified expression is $7x^3+10$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice B is correct. The given expression is equivalent to $8{x}^{3}+8-{x}^{3}-\\left(-2\\right)$, or $8{x}^{3}+8-{x}^{3}+2$. Combining like terms in this expression yields $7{x}^{3}+10$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A is incorrect. This expression is equivalent to $\\left(8{x}^{3}+8\\right)-2$, not $\\left(8{x}^{3}+8\\right)-\\left({x}^{3}-2\\right)$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice C is incorrect. This expression is equivalent to $\\left(8{x}^{3}+8\\right)-\\left(-2\\right)$, not $\\left(8{x}^{3}+8\\right)-\\left({x}^{3}-2\\right)$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice D is incorrect. This expression is equivalent to $\\left(8{x}^{3}+8\\right)-\\left({x}^{3}+2\\right)$, not $\\left(8{x}^{3}+8\\right)-\\left({x}^{3}-2\\right)$."
+    }
+  ]
+}

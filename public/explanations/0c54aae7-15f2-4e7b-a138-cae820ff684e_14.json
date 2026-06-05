@@ -1,1 +1,23 @@
-{"questionId":"0c54aae7-15f2-4e7b-a138-cae820ff684e_14","correctAnswer":"B","section":"Math","steps":[{"title":"The minimum of a parabola appears in vertex form","content":"For $f(x) = a(x-h)^2 + k$ with $a > 0$, the minimum value is $k$ (a constant). We need the form that shows this $k$ explicitly."},{"title":"Convert $f(x) = x^2 - 4x - 320$ to vertex form","content":"Complete the square: $x^2 - 4x = (x-2)^2 - 4$, so $$f(x) = (x-2)^2 - 4 - 320 = (x-2)^2 - 324$$ Minimum value is $-324$."},{"title":"Eliminate the other choices","content":"<ul><li><strong>A) $x^2 - 4(x+80)$</strong> &mdash; expands to $x^2 - 4x - 320$, but the minimum is not shown as a standalone constant.</li><li><strong>B) $(x-2)^2 + (-324)$</strong> &mdash; vertex form; the constant $-324$ is exactly the minimum value.</li><li><strong>C) $x(x-4) + (-320)$</strong> &mdash; the $-320$ is the y-intercept, not the minimum.</li><li><strong>D) $(x+16)(x-20)$</strong> &mdash; factored form shows the zeros ($-16$ and $20$), not the minimum.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.","desmosExpressions":["y=x^{2}-4x-320","y=(x-2)^{2}-324"]}]}
+{
+  "questionId": "0c54aae7-15f2-4e7b-a138-cae820ff684e_14",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "The minimum of a parabola appears in vertex form",
+      "content": "For $f(x) = a(x-h)^2 + k$ with $a > 0$, the minimum value is $k$ (a constant). We need the form that shows this $k$ explicitly."
+    },
+    {
+      "title": "Convert $f(x) = x^2 - 4x - 320$ to vertex form",
+      "content": "Complete the square: $x^2 - 4x = (x-2)^2 - 4$, so $$f(x) = (x-2)^2 - 4 - 320 = (x-2)^2 - 324$$ Minimum value is $-324$."
+    },
+    {
+      "title": "Eliminate the other choices",
+      "content": "<ul><li><strong>A) $x^2 - 4(x+80)$</strong> &mdash; expands to $x^2 - 4x - 320$, but the minimum is not shown as a standalone constant.</li><li><strong>B) $(x-2)^2 + (-324)$</strong> &mdash; vertex form; the constant $-324$ is exactly the minimum value.</li><li><strong>C) $x(x-4) + (-320)$</strong> &mdash; the $-320$ is the y-intercept, not the minimum.</li><li><strong>D) $(x+16)(x-20)$</strong> &mdash; factored form shows the zeros ($-16$ and $20$), not the minimum.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "y=x^{2}-4x-320",
+        "y=(x-2)^{2}-324"
+      ]
+    }
+  ]
+}

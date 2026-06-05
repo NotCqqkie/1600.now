@@ -1,1 +1,15 @@
-{"questionId":"70b33953-aa61-407d-a25a-a438792bed03_10","correctAnswer":"A","section":"Math","steps":[{"title":"Identify what the question needs","content":"The first three terms $x^4 + 14ax^2 + 49a^2$ form a perfect square: $(x^2 + 7a)^2$. So the full expression is:<br/>$$(x^2 + 7a)^2 - 64 = (x^2 + 7a)^2 - 8^2$$<br/>Apply difference of squares $A^2 - B^2 = (A-B)(A+B)$:<br/>$$(x^2 + 7a - 8)(x^2 + 7a + 8)$$<br/>The two factors are $x^2 + 7a - 8$ and $x^2 + 7a + 8$."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; '$x^2 + 7a + 8$'</strong>: matches $x^2 + 7a + 8$ exactly. &#10003;</li><li><strong>Choice B &mdash; '$x^2 - 7a - 8$'</strong>: has $-7a$ instead of $+7a$ &mdash; wrong sign. &#10007;</li><li><strong>Choice C &mdash; '$x^2 + 14a$'</strong>: not produced by this factorization. &#10007;</li><li><strong>Choice D &mdash; '$x^2 - 8a$'</strong>: mixes the constants in a way that doesn&apos;t divide the expression. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "70b33953-aa61-407d-a25a-a438792bed03_10",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The first three terms $x^4 + 14ax^2 + 49a^2$ form a perfect square: $(x^2 + 7a)^2$. So the full expression is:<br/>$$(x^2 + 7a)^2 - 64 = (x^2 + 7a)^2 - 8^2$$<br/>Apply difference of squares $A^2 - B^2 = (A-B)(A+B)$:<br/>$$(x^2 + 7a - 8)(x^2 + 7a + 8)$$<br/>The two factors are $x^2 + 7a - 8$ and $x^2 + 7a + 8$."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; '$x^2 + 7a + 8$'</strong>: matches $x^2 + 7a + 8$ exactly. &#10003;</li><li><strong>Choice B &mdash; '$x^2 - 7a - 8$'</strong>: has $-7a$ instead of $+7a$ &mdash; wrong sign. &#10007;</li><li><strong>Choice C &mdash; '$x^2 + 14a$'</strong>: not produced by this factorization. &#10007;</li><li><strong>Choice D &mdash; '$x^2 - 8a$'</strong>: mixes the constants in a way that doesn&apos;t divide the expression. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

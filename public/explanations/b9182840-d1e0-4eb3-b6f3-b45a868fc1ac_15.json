@@ -1,1 +1,19 @@
-{"questionId": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_15", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Read the slope of line t", "content": "$y = -\\dfrac{1}{2}x + 14$ gives $m_t = -\\dfrac{1}{2}$."}, {"title": "Perpendicular slope = negative reciprocal", "content": "$$m_s = -\\frac{1}{m_t} = -\\frac{1}{-1/2} = 2$$<br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_15",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the slope of line t",
+      "content": "$y = -\\dfrac{1}{2}x + 14$ gives $m_t = -\\dfrac{1}{2}$."
+    },
+    {
+      "title": "Perpendicular slope = negative reciprocal",
+      "content": "$$m_s = -\\frac{1}{m_t} = -\\frac{1}{-1/2} = 2$$<br/>That matches choice B — <strong>B</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice B, $2$. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
+    }
+  ]
+}

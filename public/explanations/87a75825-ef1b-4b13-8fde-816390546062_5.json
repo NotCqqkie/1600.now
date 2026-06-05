@@ -1,1 +1,19 @@
-{"questionId": "87a75825-ef1b-4b13-8fde-816390546062_5", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Identify what the notation K(0) = 0 represents", "content": "In \\(K(v) = \\frac{1}{2}(41)(v^2)\\), the input is \\(v\\) (speed in meters per second) and the output is \\(K\\) (kinetic energy in joules). Writing \\(K(0)\\) means substituting \\(v = 0\\) — a speed of 0 m/s."}, {"title": "Compute K(0) to confirm the result", "content": "\\[K(0) = \\frac{1}{2}(41)(0^2) = \\frac{1}{2}(41)(0) = 0 \\text{ joules}\\]The equation \\(K(0) = 0\\) literally says: when speed is 0 m/s, kinetic energy is 0 joules."}, {"title": "Evaluate each choice", "content": "<ul><li>A) &quot;Kinetic energy is 0 joules when mass is 0 kg&quot; — mass is fixed at 41 kg and is not the function&apos;s input. Incorrect.</li><li>B) &quot;Speed is 0 m/s when mass is 0 kg&quot; — confuses input and output and misidentifies mass as a variable. Incorrect.</li><li>C) &quot;Kinetic energy is 0 joules when the object travels at 0 m/s&quot; — correctly identifies \\(v=0\\) as the input and \\(K=0\\) as the output. That matches choice C — <strong>C</strong> is correct.</li><li>D) &quot;Height is 0 meters when speed is 0 m/s&quot; — height appears nowhere in this function. Incorrect.</li></ul>"}]}
+{
+  "questionId": "87a75825-ef1b-4b13-8fde-816390546062_5",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what the notation K(0) = 0 represents",
+      "content": "In $K(v) = \\frac{1}{2}(41)(v^2)$, the input is $v$ (speed in meters per second) and the output is $K$ (kinetic energy in joules). Writing $K(0)$ means substituting $v = 0$ — a speed of 0 m/s."
+    },
+    {
+      "title": "Compute K(0) to confirm the result",
+      "content": "$$K(0) = \\frac{1}{2}(41)(0^2) = \\frac{1}{2}(41)(0) = 0 \\text{ joules}$$The equation $K(0) = 0$ literally says: when speed is 0 m/s, kinetic energy is 0 joules."
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li>A) &quot;Kinetic energy is 0 joules when mass is 0 kg&quot; — mass is fixed at 41 kg and is not the function&apos;s input. Incorrect.</li><li>B) &quot;Speed is 0 m/s when mass is 0 kg&quot; — confuses input and output and misidentifies mass as a variable. Incorrect.</li><li>C) &quot;Kinetic energy is 0 joules when the object travels at 0 m/s&quot; — correctly identifies $v=0$ as the input and $K=0$ as the output. That matches choice C — <strong>C</strong> is correct.</li><li>D) &quot;Height is 0 meters when speed is 0 m/s&quot; — height appears nowhere in this function. Incorrect.</li></ul>"
+    }
+  ]
+}

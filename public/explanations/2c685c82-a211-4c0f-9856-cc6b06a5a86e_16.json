@@ -1,1 +1,15 @@
-{"questionId": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_16", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Understand what enables causal conclusions", "content": "To conclude that treatment <strong>caused</strong> an outcome, alternative explanations must be ruled out.<br/><br/>The treatment group and control group must be comparable on baseline characteristics (age, initial sleep quality, health status, etc.).<br/><br/>If the groups differed in these ways before treatment, outcome differences might result from those pre-existing differences, not the treatment."}, {"title": "Identify the feature ensuring comparable groups", "content": "Random assignment to supplement or placebo creates two groups that should be balanced on all baseline characteristics.<br/><br/>When each participant has an equal chance of receiving the supplement or placebo, confounding variables (factors other than the treatment that could affect outcomes) are distributed equally between groups on average.<br/><br/>This eliminates the possibility that pre-existing group differences explain the improved sleep efficiency.<br/><br/>Any measured difference between groups can then be attributed to the magnesium supplement.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_16",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Understand what enables causal conclusions",
+      "content": "To conclude that treatment <strong>caused</strong> an outcome, alternative explanations must be ruled out.<br/><br/>The treatment group and control group must be comparable on baseline characteristics (age, initial sleep quality, health status, etc.).<br/><br/>If the groups differed in these ways before treatment, outcome differences might result from those pre-existing differences, not the treatment."
+    },
+    {
+      "title": "Identify the feature ensuring comparable groups",
+      "content": "Random assignment to supplement or placebo creates two groups that should be balanced on all baseline characteristics.<br/><br/>When each participant has an equal chance of receiving the supplement or placebo, confounding variables (factors other than the treatment that could affect outcomes) are distributed equally between groups on average.<br/><br/>This eliminates the possibility that pre-existing group differences explain the improved sleep efficiency.<br/><br/>Any measured difference between groups can then be attributed to the magnesium supplement.<br/><br/>That matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

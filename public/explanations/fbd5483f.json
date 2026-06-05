@@ -1,1 +1,15 @@
-{"questionId": "fbd5483f", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Express the four consecutive odd integers", "content": "Since the first is $x$, and consecutive odd integers differ by 2:<ul><li>1st: $x$</li><li>2nd: $x+2$</li><li>3rd: $x+4$</li><li>4th: $x+6$</li></ul>"}, {"title": "Translate the constraint to an inequality", "content": "Breaking down: <em>The product of 12 and the fourth is at most 26 less than the sum of the first and third.</em><ul><li>Product of 12 and the fourth: $12(x+6)$</li><li>Sum of first and third: $x+(x+4)$</li><li>26 less than that sum: $x+(x+4)-26$</li><li>Is at most means: $\\le$</li></ul>Write the inequality:<br/>$$12(x+6) \\le x+(x+4)-26$$<br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "fbd5483f",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Express the four consecutive odd integers",
+      "content": "Since the first is $x$, and consecutive odd integers differ by 2:<ul><li>1st: $x$</li><li>2nd: $x+2$</li><li>3rd: $x+4$</li><li>4th: $x+6$</li></ul>"
+    },
+    {
+      "title": "Translate the constraint to an inequality",
+      "content": "Breaking down: <em>The product of 12 and the fourth is at most 26 less than the sum of the first and third.</em><ul><li>Product of 12 and the fourth: $12(x+6)$</li><li>Sum of first and third: $x+(x+4)$</li><li>26 less than that sum: $x+(x+4)-26$</li><li>Is at most means: $\\le$</li></ul>Write the inequality:<br/>$$12(x+6) \\le x+(x+4)-26$$<br/>That matches choice A — <strong>A</strong> is correct."
+    }
+  ]
+}

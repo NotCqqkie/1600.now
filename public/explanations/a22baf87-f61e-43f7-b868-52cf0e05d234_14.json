@@ -1,1 +1,19 @@
-{"questionId":"a22baf87-f61e-43f7-b868-52cf0e05d234_14","correctAnswer":"D","section":"Math","steps":[{"title":"Apply the equality from the given condition","content":"Two equal fractions with different denominators force the numerator to be $0$: $x-17=0$, so $x=17$."},{"title":"Compute the target value","content":"Then $x+17 = 17+17 = 34$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "a22baf87-f61e-43f7-b868-52cf0e05d234_14",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the equality from the given condition",
+      "content": "Two equal fractions with different denominators force the numerator to be $0$: $x-17=0$, so $x=17$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "Then $x+17 = 17+17 = 34$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice D, $34$, and the other choices fail the same setup or substitution. Therefore <strong>D</strong> is correct."
+    }
+  ]
+}

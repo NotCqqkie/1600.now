@@ -9,9 +9,12 @@
     },
     {
       "title": "Write the equation using slope-intercept form",
-      "content": "Substituting $m = \\frac{1}{4}$ and $b = 5$ into the general form:<br/>$$f(x) = \\frac{1}{4}x + 5$$<br/>That matches choice A \u2014 <strong>A</strong> is correct.",
+      "content": "Substituting $m = \\frac{1}{4}$ and $b = 5$ into the general form:<br/>$$f(x) = \\frac{1}{4}x + 5$$<br/>That matches choice A — <strong>A</strong> is correct.",
       "formula": "$$f(x) = mx + b$$",
-      "desmosExpressions": ["y = \\frac{1}{4}x + 5", "(0, 5)"]
+      "desmosExpressions": [
+        "y = \\frac{1}{4}x + 5",
+        "(0, 5)"
+      ]
     }
   ]
 }

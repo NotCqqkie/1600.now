@@ -1,1 +1,21 @@
-{"questionId":"32cd6c88-820b-4de4-aa5c-08fe14fb73ef_16","correctAnswer":"249","section":"Math","steps":[{"title":"Find the linear rate","content":"From 1995 to 2015 (20 years), the population goes from 55 to 217 thousand. The slope is $$m=\\frac{217-55}{2015-1995}=\\frac{162}{20}=8.1 \\text{ thousand/year}.$$"},{"title":"Predict the requested value","content":"From 2015 to 2019 is 4 years, so add $8.1\\cdot 4=32.4$ thousand to the 2015 value: $$x=217+32.4=249.4 \\approx 249.$$ The answer is <strong>249</strong>.","desmosExpressions":["y = 8.1x - 16104.5","(1995, 55)","(2015, 217)","(2019, 249)"]}]}
+{
+  "questionId": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_16",
+  "correctAnswer": "249",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the linear rate",
+      "content": "From 1995 to 2015 (20 years), the population goes from 55 to 217 thousand. The slope is $$m=\\frac{217-55}{2015-1995}=\\frac{162}{20}=8.1 \\text{ thousand/year}.$$"
+    },
+    {
+      "title": "Predict the requested value",
+      "content": "From 2015 to 2019 is 4 years, so add $8.1\\cdot 4=32.4$ thousand to the 2015 value: $$x=217+32.4=249.4 \\approx 249.$$ The answer is <strong>249</strong>.",
+      "desmosExpressions": [
+        "y = 8.1x - 16104.5",
+        "(1995, 55)",
+        "(2015, 217)",
+        "(2019, 249)"
+      ]
+    }
+  ]
+}

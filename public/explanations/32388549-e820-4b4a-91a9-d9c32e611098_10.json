@@ -1,1 +1,15 @@
-{"questionId":"32388549-e820-4b4a-91a9-d9c32e611098_10","correctAnswer":"C","section":"Math","steps":[{"title":"Identify what the question needs","content":"Views increase by 60% every 2 days, starting at 233. A 60% increase means multiplying by 1.60 (not 0.60). The exponent must count how many 2-day periods fit in x days, which is x/2 (not 2x)."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;$f(x)=233(0.60)^{x/2}$&apos;</strong>: Base 0.60 means a 40% decrease each period &mdash; the opposite of growth. &#10007;</li><li><strong>Choice B &mdash; &apos;$f(x)=233(0.60)^{2x}$&apos;</strong>: Wrong base (decay) and wrong exponent (2x doubles the periods). &#10007;</li><li><strong>Choice C &mdash; &apos;$f(x)=233(1.60)^{x/2}$&apos;</strong>: Base 1.60 gives a 60% increase per period; exponent x/2 counts 2-day intervals correctly. &#10003;</li><li><strong>Choice D &mdash; &apos;$f(x)=233(1.60)^{2x}$&apos;</strong>: Correct base but exponent 2x makes the period &frac12; a day instead of 2 days &mdash; grows far too fast. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "32388549-e820-4b4a-91a9-d9c32e611098_10",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "Views increase by 60% every 2 days, starting at 233. A 60% increase means multiplying by 1.60 (not 0.60). The exponent must count how many 2-day periods fit in x days, which is x/2 (not 2x)."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &apos;$f(x)=233(0.60)^{x/2}$&apos;</strong>: Base 0.60 means a 40% decrease each period &mdash; the opposite of growth. &#10007;</li><li><strong>Choice B &mdash; &apos;$f(x)=233(0.60)^{2x}$&apos;</strong>: Wrong base (decay) and wrong exponent (2x doubles the periods). &#10007;</li><li><strong>Choice C &mdash; &apos;$f(x)=233(1.60)^{x/2}$&apos;</strong>: Base 1.60 gives a 60% increase per period; exponent x/2 counts 2-day intervals correctly. &#10003;</li><li><strong>Choice D &mdash; &apos;$f(x)=233(1.60)^{2x}$&apos;</strong>: Correct base but exponent 2x makes the period &frac12; a day instead of 2 days &mdash; grows far too fast. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

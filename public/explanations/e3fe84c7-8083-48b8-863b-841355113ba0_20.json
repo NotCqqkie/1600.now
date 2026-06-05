@@ -1,1 +1,20 @@
-{"questionId":"e3fe84c7-8083-48b8-863b-841355113ba0_20","correctAnswer":"C","section":"Math","steps":[{"title":"Identify what the question needs","content":"A system of two linear equations has at least one solution when the lines are not parallel — they either intersect (one solution) or are identical (infinitely many solutions). Test each equation to see whether it creates a parallel line, intersecting line, or the same line as $7x + 5y = 2$."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Ⅰ only'</strong>: ignores whether Ⅱ also works. &#10007;</li><li><strong>Choice B &mdash; 'Ⅱ only'</strong>: ignores whether Ⅰ also works. &#10007;</li><li><strong>Choice C &mdash; 'Ⅰ and Ⅱ'</strong>: Equation Ⅰ: divide $10.5x + 7.5y = 3$ by $1.5$ to get $7x + 5y = 2$ — the same line, so infinitely many solutions. &#10003; Equation Ⅱ: rewrite $10.5x - 7.5y = 3$ as $y = \\frac{7}{5}x - \\frac{2}{5}$ (slope $\\frac{7}{5}$). The original has slope $-\\frac{7}{5}$. Different slopes mean they intersect — one solution. &#10003; Both allow at least one solution. &#10003;</li><li><strong>Choice D &mdash; 'Neither Ⅰ nor Ⅱ'</strong>: both equations produce systems with solutions, so this is wrong. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.", "desmosExpressions": ["y = \\frac{2 - 7x}{5}", "y = \\frac{3 - 10.5x}{7.5}", "y = \\frac{3 + 10.5x}{7.5}"]}]}
+{
+  "questionId": "e3fe84c7-8083-48b8-863b-841355113ba0_20",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "A system of two linear equations has at least one solution when the lines are not parallel — they either intersect (one solution) or are identical (infinitely many solutions). Test each equation to see whether it creates a parallel line, intersecting line, or the same line as $7x + 5y = 2$."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'Ⅰ only'</strong>: ignores whether Ⅱ also works. &#10007;</li><li><strong>Choice B &mdash; 'Ⅱ only'</strong>: ignores whether Ⅰ also works. &#10007;</li><li><strong>Choice C &mdash; 'Ⅰ and Ⅱ'</strong>: Equation Ⅰ: divide $10.5x + 7.5y = 3$ by $1.5$ to get $7x + 5y = 2$ — the same line, so infinitely many solutions. &#10003; Equation Ⅱ: rewrite $10.5x - 7.5y = 3$ as $y = \\frac{7}{5}x - \\frac{2}{5}$ (slope $\\frac{7}{5}$). The original has slope $-\\frac{7}{5}$. Different slopes mean they intersect — one solution. &#10003; Both allow at least one solution. &#10003;</li><li><strong>Choice D &mdash; 'Neither Ⅰ nor Ⅱ'</strong>: both equations produce systems with solutions, so this is wrong. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "y = \\frac{2 - 7x}{5}",
+        "y = \\frac{3 - 10.5x}{7.5}",
+        "y = \\frac{3 + 10.5x}{7.5}"
+      ]
+    }
+  ]
+}

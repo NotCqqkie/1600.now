@@ -1,1 +1,19 @@
-{"questionId":"3726e079","correctAnswer":"24","section":"Math","steps":[{"title":"Factor the second equation","content":"Rewrite: $\\dfrac{24x}{ny}=\\dfrac{24}{n}\\cdot\\dfrac{x}{y}=4$."},{"title":"Combine and compute","content":"Substitute $\\dfrac{x}{y}=4$: $\\dfrac{24}{n}\\cdot 4=4$, so $\\dfrac{24}{n}=1$ and $n=24$.<br/><br/>The answer is <strong>24</strong>."}]}
+{
+  "questionId": "3726e079",
+  "correctAnswer": "24",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor the second equation",
+      "content": "Rewrite: $\\dfrac{24x}{ny}=\\dfrac{24}{n}\\cdot\\dfrac{x}{y}=4$."
+    },
+    {
+      "title": "Combine and compute",
+      "content": "Substitute $\\dfrac{x}{y}=4$: $\\dfrac{24}{n}\\cdot 4=4$, so $\\dfrac{24}{n}=1$ and $n=24$.<br/><br/>The answer is <strong>24</strong>."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $24$. The equation $\\frac{24x}{ny}=4$ can be rewritten as $\\left(\\frac{24}{n}\\right)\\left(\\frac{x}{y}\\right)=4$. It's given that $\\frac{x}{y}=4$. Substituting $4$ for $\\frac{x}{y}$ in the equation $\\left(\\frac{24}{n}\\right)\\left(\\frac{x}{y}\\right)=4$ yields $\\left(\\frac{24}{n}\\right)\\left(4\\right)=4$. Multiplying both sides of this equation by $n$ yields $\\left(24\\right)\\left(4\\right)=4n$. Dividing both sides of this equation by $4$ yields $24=n$. Therefore, the value of $n$ is $24$."
+    }
+  ]
+}

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find cos(A) and determine angle A",
-      "content": "In right triangle ABC with right angle at C, use the cosine ratio with AC = 19 (adjacent to angle A) and AB = 38 (hypotenuse): $$\\cos(A) = \\frac{19}{38} = \\frac{1}{2}$$ This is the cosine of a special angle: $\\cos(60\u00b0) = \\frac{1}{2}$, so $A = 60\u00b0$."
+      "content": "In right triangle ABC with right angle at C, use the cosine ratio with AC = 19 (adjacent to angle A) and AB = 38 (hypotenuse): $$\\cos(A) = \\frac{19}{38} = \\frac{1}{2}$$ This is the cosine of a special angle: $\\cos(60°) = \\frac{1}{2}$, so $A = 60°$."
     },
     {
-      "title": "Find sin(60\u00b0)",
-      "content": "For angle $A = 60\u00b0$: $$\\sin(60\u00b0) = \\frac{\\sqrt{3}}{2}$$ In decimal form: $\\frac{\\sqrt{3}}{2} \\approx 0.866$"
+      "title": "Find sin(60°)",
+      "content": "For angle $A = 60°$: $$\\sin(60°) = \\frac{\\sqrt{3}}{2}$$ In decimal form: $\\frac{\\sqrt{3}}{2} \\approx 0.866$"
     }
   ]
 }

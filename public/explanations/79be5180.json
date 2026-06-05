@@ -1,1 +1,23 @@
-{"questionId":"79be5180","correctAnswer":"3","section":"Math","steps":[{"title":"Solve the system by substitution","content":"Substitute $y=9x+12$ into $x+7y=20$: $$x + 7(9x+12) = 20 \\Rightarrow 64x = -64 \\Rightarrow x = -1.$$"},{"title":"Find $y$","content":"Then $y = 9(-1)+12 = 3$. The answer is <strong>3</strong>.","desmosExpressions":["y = 9x + 12","y = (20 - x)/7"]}]}
+{
+  "questionId": "79be5180",
+  "correctAnswer": "3",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve the system by substitution",
+      "content": "Substitute $y=9x+12$ into $x+7y=20$: $$x + 7(9x+12) = 20 \\Rightarrow 64x = -64 \\Rightarrow x = -1.$$"
+    },
+    {
+      "title": "Find $y$",
+      "content": "Then $y = 9(-1)+12 = 3$. The answer is <strong>3</strong>.",
+      "desmosExpressions": [
+        "y = 9x + 12",
+        "y = (20 - x)/7"
+      ]
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $3$. It's given that $y=9x+12$. Substituting $9x+12$ for $y$ in the second equation in the system, $x+7y=20$, yields $x+7\\left(9x+12\\right)=20$, which gives $x+63x+84=20$, or $64x+84=20$. Subtracting $84$ from each side of this equation yields $64x=-64$. Dividing each side of this equation by $64$ yields $x=-1$. Substituting $-1$ for $x$ in the first equation in the system, $y=9x+12$, yields $y=9\\left(-1\\right)+12$, or $y=3$. Therefore, the value of $y$ is $3$."
+    }
+  ]
+}

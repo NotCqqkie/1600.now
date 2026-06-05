@@ -1,1 +1,15 @@
-{"questionId":"8176ff95-6cd3-4604-aebc-7f16b9b86e1a_2","correctAnswer":"A","section":"Math","steps":[{"title":"Count the number of doublings","content":"From 1660 to 1760 is $1760-1660=100$ years. With doubling every 25 years, the count is $\\tfrac{100}{25}=4$ doublings."},{"title":"Solve for the initial population","content":"Let $P_0$ be the 1660 population. Then $P_0\\cdot 2^4=208{,}000$. $$P_0=\\frac{208{,}000}{16}=13{,}000.$$ That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}
+{
+  "questionId": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_2",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Count the number of doublings",
+      "content": "From 1660 to 1760 is $1760-1660=100$ years. With doubling every 25 years, the count is $\\tfrac{100}{25}=4$ doublings."
+    },
+    {
+      "title": "Solve for the initial population",
+      "content": "Let $P_0$ be the 1660 population. Then $P_0\\cdot 2^4=208{,}000$. $$P_0=\\frac{208{,}000}{16}=13{,}000.$$ That matches choice <strong>A</strong> — <strong>A</strong> is correct."
+    }
+  ]
+}

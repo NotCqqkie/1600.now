@@ -1,1 +1,27 @@
-{"questionId": "71014fb1", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Analyze the equation", "content": "A squared real number is $\\ge 0$, yet $$(x-1)^2=-4.$$ No real $x$ works."}, {"title": "Count the solutions", "content": "There are zero real solutions. That matches choice <strong>D</strong> — <strong>D</strong> is correct.", "desmosExpressions": ["y = (x - 1)^2", "y = -4"]}]}
+{
+  "questionId": "71014fb1",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Analyze the equation",
+      "content": "A squared real number is $\\ge 0$, yet $$(x-1)^2=-4.$$ No real $x$ works."
+    },
+    {
+      "title": "Count the solutions",
+      "content": "There are zero real solutions. That matches choice <strong>D</strong> — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "y = (x - 1)^2",
+        "y = -4"
+      ]
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice D is correct. Any quantity that is positive or negative in value has a positive value when squared. Therefore, the left-hand side of the given equation is either positive or zero for any value of $x$. Since the right-hand side of the given equation is negative, there is no value of $x$ for which the given equation is true. Thus, the number of distinct real solutions for the given equation is zero."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choices A, B, and C are incorrect and may result from conceptual errors."
+    }
+  ]
+}

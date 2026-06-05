@@ -2,13 +2,13 @@
   "qid": "00907d99-e579-47a8-ac65-658aadef4aa7_1",
   "steps": [
     {
-      "text": "The triangle has three sides: one with length \\(x\\) and two with length \\(y\\) each."
+      "text": "The triangle has three sides: one with length $x$ and two with length $y$ each."
     },
     {
-      "text": "Perimeter = sum of all sides: \\(x + y + y = x + 2y\\). Setting equal to 47: \\(x + 2y = 47\\)."
+      "text": "Perimeter = sum of all sides: $x + y + y = x + 2y$. Setting equal to 47: $x + 2y = 47$."
     },
     {
-      "text": "<ul><li>A: \\(x + y = 47\\) — accounts for only two sides, not three. Eliminated.</li><li>B: \\(x + 2y = 47\\) — correctly counts one \\(x\\)-side and two \\(y\\)-sides. That matches choice B — <strong>B</strong> is correct.</li><li>C: \\(2x + y = 47\\) — would require two sides of length \\(x\\) and one of length \\(y\\), opposite of the given. Eliminated.</li><li>D: \\(2x + 2y = 47\\) — four sides total; a triangle has only three. Eliminated.</li></ul>"
+      "text": "<ul><li>A: $x + y = 47$ — accounts for only two sides, not three. Eliminated.</li><li>B: $x + 2y = 47$ — correctly counts one $x$-side and two $y$-sides. That matches choice B — <strong>B</strong> is correct.</li><li>C: $2x + y = 47$ — would require two sides of length $x$ and one of length $y$, opposite of the given. Eliminated.</li><li>D: $2x + 2y = 47$ — four sides total; a triangle has only three. Eliminated.</li></ul>"
     }
   ],
   "correctAnswer": "B"

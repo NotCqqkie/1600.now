@@ -14,7 +14,10 @@
     {
       "title": "Find the constant p in circle G's equation",
       "content": "Circle G's equation is $(x + 7)^2 + (y + 7)^2 = p$, where the right side equals $r_G^2$. Therefore, $p = 8^2 = 64$.",
-      "desmosExpressions": ["(x+7)^2 + (y+7)^2 = 36", "(x+7)^2 + (y+7)^2 = 64"]
+      "desmosExpressions": [
+        "(x+7)^2 + (y+7)^2 = 36",
+        "(x+7)^2 + (y+7)^2 = 64"
+      ]
     }
   ]
 }

@@ -9,8 +9,10 @@
     },
     {
       "title": "Write the remaining gas function",
-      "content": "The gas remaining equals the initial amount minus what was consumed: $$f(d) = 10 - \\frac{d}{35}$$ That matches choice C \u2014 <strong>C</strong> is correct.",
-      "desmosExpressions": ["y = 10 - \\frac{x}{35}"]
+      "content": "The gas remaining equals the initial amount minus what was consumed: $$f(d) = 10 - \\frac{d}{35}$$ That matches choice C — <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "y = 10 - \\frac{x}{35}"
+      ]
     }
   ]
 }

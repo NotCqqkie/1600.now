@@ -1,1 +1,19 @@
-{"questionId": "10c690aa-0aad-48ab-952b-855b2555b311_22", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Compare the coefficients", "content": "Form ratios of the matching $x$, $y$, and constant terms in $$2.5x + 4.2y = 7$$ and $$7.5x + 12.6y = 21$$. This gives $\\frac{7.5}{2.5}=\\frac{12.6}{4.2}=\\frac{21}{7}=3$."}, {"title": "Identify the answer", "content": "All three ratios are equal, so the equations are equivalent — infinitely many solutions. That matches choice <strong>C</strong> — <strong>C</strong> is correct.", "desmosExpressions": ["y = \\frac{7 - 2.5x}{4.2}", "y = \\frac{21 - 7.5x}{12.6}"]}]}
+{
+  "questionId": "10c690aa-0aad-48ab-952b-855b2555b311_22",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compare the coefficients",
+      "content": "Form ratios of the matching $x$, $y$, and constant terms in $$2.5x + 4.2y = 7$$ and $$7.5x + 12.6y = 21$$. This gives $\\frac{7.5}{2.5}=\\frac{12.6}{4.2}=\\frac{21}{7}=3$."
+    },
+    {
+      "title": "Identify the answer",
+      "content": "All three ratios are equal, so the equations are equivalent — infinitely many solutions. That matches choice <strong>C</strong> — <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "y = \\frac{7 - 2.5x}{4.2}",
+        "y = \\frac{21 - 7.5x}{12.6}"
+      ]
+    }
+  ]
+}

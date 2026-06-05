@@ -4,16 +4,29 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read two points from the line",
-      "content": "The line clearly passes through the y-intercept at $(0, 7)$ and the x-intercept at $(8, 0)$. Both are marked or easily identifiable from the grid."
+      "title": "Use a two-point line fit",
+      "content": "Read two clean points from the graph: the line passes through $(0,7)$ and $(8,0)$. Enter $x_1=[0,8]$, $y_1=[7,0]$, and $y_1\\sim mx_1+b$ in Desmos. It gives the line $y=-\\frac{7}{8}x+7$.",
+      "desmosExpressions": [
+        "x_1=[0,8]",
+        "y_1=[7,0]",
+        "y_1~m x_1+b",
+        "y=m x+b"
+      ]
     },
     {
-      "title": "Find the slope and equation",
-      "content": "Slope: $$m = \\frac{0 - 7}{8 - 0} = -\\frac{7}{8}$$<br/>Using point-slope form with the y-intercept $(0, 7)$:<br/>$$y = -\\frac{7}{8}x + 7$$"
+      "title": "Solve for the x-value when y equals 4",
+      "content": "In Desmos, add the row $m x+b=4$, or calculate $(4-b)/m$. It returns $x=\\frac{24}{7}$. That is the value of $d$.",
+      "desmosExpressions": [
+        "x_1=[0,8]",
+        "y_1=[7,0]",
+        "y_1~m x_1+b",
+        "m x+b=4",
+        "(4-b)/m"
+      ]
     },
     {
       "title": "Substitute $y = 4$ and solve for $d$",
-      "content": "Substitute $y = 4$ into the equation:<br/>$$4 = -\\frac{7}{8}d + 7$$<br/>$$4 - 7 = -\\frac{7}{8}d$$<br/>$$-3 = -\\frac{7}{8}d$$<br/>$$d = 3 \\cdot \\frac{8}{7} = \\frac{24}{7}$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "Substitute $y = 4$ into the equation:<br/>$$4 = -\\frac{7}{8}d + 7$$<br/>$$4 - 7 = -\\frac{7}{8}d$$<br/>$$-3 = -\\frac{7}{8}d$$<br/>$$d = 3 \\cdot \\frac{8}{7} = \\frac{24}{7}$$<br/>That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

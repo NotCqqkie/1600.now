@@ -1,1 +1,23 @@
-{"questionId": "3de7a7d7", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Isolate x squared", "content": "Start with $2x^2 - 4 = x^2$. Subtract $x^2$ from both sides:<br/>$$x^2 - 4 = 0 \\Rightarrow x^2 = 4$$"}, {"title": "Solve for x", "content": "Take the square root of both sides:<br/>$$x = \\pm 2$$<br/>So the solutions are $x = 2$ and $x = -2$."}, {"title": "Evaluate each choice", "content": "<ul><li>Choice A: $x = 1$ &mdash; $2(1)^2 - 4 = -2$, but $1^2 = 1$. Not equal. Eliminate.</li><li>Choice B: $x = 2$ &mdash; $2(2)^2 - 4 = 4$, and $2^2 = 4$. Equal, so $x = 2$ works.</li><li>Choice C: $x = 3$ &mdash; $2(3)^2 - 4 = 14$, but $3^2 = 9$. Not equal. Eliminate.</li><li>Choice D: $x = 4$ &mdash; $2(4)^2 - 4 = 28$, but $4^2 = 16$. Not equal. Eliminate.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.", "desmosExpressions": ["y = 2x^2 - 4", "y = x^2"]}]}
+{
+  "questionId": "3de7a7d7",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate x squared",
+      "content": "Start with $2x^2 - 4 = x^2$. Subtract $x^2$ from both sides:<br/>$$x^2 - 4 = 0 \\Rightarrow x^2 = 4$$"
+    },
+    {
+      "title": "Solve for x",
+      "content": "Take the square root of both sides:<br/>$$x = \\pm 2$$<br/>So the solutions are $x = 2$ and $x = -2$."
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li>Choice A: $x = 1$ &mdash; $2(1)^2 - 4 = -2$, but $1^2 = 1$. Not equal. Eliminate.</li><li>Choice B: $x = 2$ &mdash; $2(2)^2 - 4 = 4$, and $2^2 = 4$. Equal, so $x = 2$ works.</li><li>Choice C: $x = 3$ &mdash; $2(3)^2 - 4 = 14$, but $3^2 = 9$. Not equal. Eliminate.</li><li>Choice D: $x = 4$ &mdash; $2(4)^2 - 4 = 28$, but $4^2 = 16$. Not equal. Eliminate.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "y = 2x^2 - 4",
+        "y = x^2"
+      ]
+    }
+  ]
+}

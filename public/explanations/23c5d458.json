@@ -4,12 +4,17 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the slope from the table pattern",
-      "content": "Reading the table, each time $x$ increases by 1, $g(x)$ decreases by a constant amount: <br/> $32 \\to 28 \\to 24 \\to 20$ <br/> The difference between consecutive values is $28 - 32 = -4$, $24 - 28 = -4$, $20 - 24 = -4$. <br/> Therefore, the slope is $m = -4$."
+      "title": "Fit the whole table",
+      "content": "Enter the four table points into Desmos and run the linear regression $y_1 \\sim m x_1+b$. The values fall exactly on one line, and Desmos gives $m=-4$ and $b=36$.",
+      "desmosExpressions": [
+        "x_1=[1,2,3,4]",
+        "y_1=[32,28,24,20]",
+        "y_1~m x_1+b"
+      ]
     },
     {
-      "title": "Extrapolate backwards to x = 0",
-      "content": "Since the function decreases by 4 for each unit increase in $x$, we can work backwards from $x = 1$ to $x = 0$. <br/> At $x = 1$: $g(1) = 32$ <br/> Moving from $x = 1$ to $x = 0$ means going back one unit, so $g(x)$ increases by 4: <br/> $$g(0) = 32 + 4 = 36$$ <br/> Since $g(0) = b$ in the form $g(x) = mx + b$, we have $b = 36$. That matches choice D \u2014 <strong>D</strong> is correct."
+      "title": "Use the intercept",
+      "content": "In $g(x)=mx+b$, $b$ is $g(0)$, the $y$-intercept. The fitted line is $g(x)=-4x+36$, so $b=36$. That matches choice <strong>D</strong>."
     }
   ]
 }

@@ -3,13 +3,13 @@
   "correctAnswer": "A",
   "steps": [
     {
-      "explanation": "In similar triangles, corresponding angles are always equal. Since \\(A\\) corresponds to \\(D\\), we have \\(\\angle D = \\angle A = 26°\\). Statement I is true."
+      "explanation": "In similar triangles, corresponding angles are always equal. Since $A$ corresponds to $D$, we have $\\angle D = \\angle A = 26°$. Statement I is true."
     },
     {
-      "explanation": "Similar triangles have proportional sides, not necessarily equal sides. \\(AB\\) corresponds to \\(DE\\), but the scale factor is unknown. \\(DE\\) could equal 4, 8, 2, or any other positive value. Statement II is not necessarily true."
+      "explanation": "Similar triangles have proportional sides, not necessarily equal sides. $AB$ corresponds to $DE$, but the scale factor is unknown. $DE$ could equal 4, 8, 2, or any other positive value. Statement II is not necessarily true."
     },
     {
-      "explanation": "<ul><li>Choice A: I only &mdash; Statement I (\\(\\angle D = 26°\\)) must be true; Statement II (\\(DE = 4\\)) need not be true. That matches choice A &mdash; <strong>A</strong> is correct.</li><li>Choice B: II only &mdash; Statement I is definitely true and Statement II is not guaranteed. Eliminated.</li><li>Choice C: I and II &mdash; Statement II is not necessarily true. Eliminated.</li><li>Choice D: Neither &mdash; Statement I must be true. Eliminated.</li></ul>"
+      "explanation": "<ul><li>Choice A: I only &mdash; Statement I ($\\angle D = 26°$) must be true; Statement II ($DE = 4$) need not be true. That matches choice A &mdash; <strong>A</strong> is correct.</li><li>Choice B: II only &mdash; Statement I is definitely true and Statement II is not guaranteed. Eliminated.</li><li>Choice C: I and II &mdash; Statement II is not necessarily true. Eliminated.</li><li>Choice D: Neither &mdash; Statement I must be true. Eliminated.</li></ul>"
     }
   ]
 }

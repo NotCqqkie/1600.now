@@ -1,1 +1,15 @@
-{"questionId": "9377a50a-f782-492e-a3bf-a2b90698cacc_10", "correctAnswer": "13", "section": "Math", "steps": [{"title": "Identify the y-intercept", "content": "The point $(0, b)$ lies on the graph of $y = f(x)$. When a point is on a curve, its coordinates satisfy the equation. Since $x = 0$, we have $y = b$, which means $b = f(0)$. We need to find the function value at $x = 0$."}, {"title": "Evaluate f(0)", "content": "Substitute $x = 0$ into $f(x) = x^4 + 8x + 13$:<br/>$$f(0) = (0)^4 + 8(0) + 13 = 0 + 0 + 13 = 13$$<br/>Therefore, $b = 13$."}]}
+{
+  "questionId": "9377a50a-f782-492e-a3bf-a2b90698cacc_10",
+  "correctAnswer": "13",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the y-intercept",
+      "content": "The point $(0, b)$ lies on the graph of $y = f(x)$. When a point is on a curve, its coordinates satisfy the equation. Since $x = 0$, we have $y = b$, which means $b = f(0)$. We need to find the function value at $x = 0$."
+    },
+    {
+      "title": "Evaluate f(0)",
+      "content": "Substitute $x = 0$ into $f(x) = x^4 + 8x + 13$:<br/>$$f(0) = (0)^4 + 8(0) + 13 = 0 + 0 + 13 = 13$$<br/>Therefore, $b = 13$."
+    }
+  ]
+}

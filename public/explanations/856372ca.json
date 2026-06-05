@@ -1,1 +1,23 @@
-{"questionId":"856372ca","correctAnswer":"B","section":"Math","steps":[{"title":"Use the standard circle equation","content":"A circle with center \\((h,k)\\) and radius \\(r\\) has equation$$(x-h)^{2}+(y-k)^{2}=r^{2}.$$Here \\((h,k)=(-8,6)\\) and \\(r=5\\), so \\(r^{2}=25\\)."},{"title":"Substitute and simplify","content":"$$\\big(x-(-8)\\big)^{2}+(y-6)^{2}=25\\;\\Rightarrow\\;(x+8)^{2}+(y-6)^{2}=25.$$"},{"title":"Evaluate each choice","content":"<ul><li>A) \\((x-8)^{2}+(y+6)^{2}=25\\): center \\((8,-6)\\), radius 5 &mdash; wrong center.</li><li>B) \\((x+8)^{2}+(y-6)^{2}=25\\): center \\((-8,6)\\), radius 5 &mdash; matches.</li><li>C) \\((x-8)^{2}+(y+6)^{2}=5\\): wrong center and radius \\(\\sqrt{5}\\).</li><li>D) \\((x+8)^{2}+(y-6)^{2}=5\\): correct center but radius \\(\\sqrt{5}\\), not 5.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.","desmosExpressions":["(-8,6)","(x+8)^2+(y-6)^2=25"]}]}
+{
+  "questionId": "856372ca",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the standard circle equation",
+      "content": "A circle with center $(h,k)$ and radius $r$ has equation$$(x-h)^{2}+(y-k)^{2}=r^{2}.$$Here $(h,k)=(-8,6)$ and $r=5$, so $r^{2}=25$."
+    },
+    {
+      "title": "Substitute and simplify",
+      "content": "$$\\big(x-(-8)\\big)^{2}+(y-6)^{2}=25\\;\\Rightarrow\\;(x+8)^{2}+(y-6)^{2}=25.$$"
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li>A) $(x-8)^{2}+(y+6)^{2}=25$: center $(8,-6)$, radius 5 &mdash; wrong center.</li><li>B) $(x+8)^{2}+(y-6)^{2}=25$: center $(-8,6)$, radius 5 &mdash; matches.</li><li>C) $(x-8)^{2}+(y+6)^{2}=5$: wrong center and radius $\\sqrt{5}$.</li><li>D) $(x+8)^{2}+(y-6)^{2}=5$: correct center but radius $\\sqrt{5}$, not 5.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "(-8,6)",
+        "(x+8)^2+(y-6)^2=25"
+      ]
+    }
+  ]
+}

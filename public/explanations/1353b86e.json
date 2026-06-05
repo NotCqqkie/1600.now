@@ -5,8 +5,16 @@
   "steps": [
     {
       "title": "Find the probability of selecting a blue marble",
-      "content": "From the table, there are 10 blue marbles out of a total of 40 marbles. Using the probability formula: $$P(\\text{blue}) = \\frac{10}{40}$$ That matches choice D \u2014 <strong>D</strong> is correct.",
+      "content": "From the table, there are 10 blue marbles out of a total of 40 marbles. Using the probability formula: $$P(\\text{blue}) = \\frac{10}{40}$$ That matches choice D — <strong>D</strong> is correct.",
       "formula": "$$P(\\text{event}) = \\frac{\\text{favorable outcomes}}{\\text{total outcomes}}$$"
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice D is correct. If a marble is chosen at random from the bag, the probability of choosing a marble of a certain color is the number of marbles of that color divided by the total number of marbles in the bag. Since there are 10 blue marbles in the bag, and there are 40 total marbles in the bag, the probability that the marble chosen will be blue is $10 / 40$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choices A, B, and C are incorrect. These represent the probability that the marble chosen won't be blue (choice A), will be green (choice B), and won't be green (choice C)."
     }
   ]
 }

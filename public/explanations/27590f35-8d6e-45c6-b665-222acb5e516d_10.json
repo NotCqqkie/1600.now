@@ -1,1 +1,23 @@
-{"questionId":"27590f35-8d6e-45c6-b665-222acb5e516d_10","correctAnswer":"B","section":"Math","steps":[{"title":"Test the choices in each equation","content":"Substitute each candidate into $y=5(x-3)$ and $y=(x-3)^2$. For $(8,25)$: $5(8-3)=25$ and $(8-3)^2=25$, so both equations hold."},{"title":"Identify the matching pair","content":"Only $(8,25)$ satisfies both equations simultaneously. That matches choice <strong>B</strong> — <strong>B</strong> is correct.","desmosExpressions":["y = 5(x - 3)","y = (x - 3)^2"]}]}
+{
+  "questionId": "27590f35-8d6e-45c6-b665-222acb5e516d_10",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Test the choices in each equation",
+      "content": "Substitute each candidate into $y=5(x-3)$ and $y=(x-3)^2$. For $(8,25)$: $5(8-3)=25$ and $(8-3)^2=25$, so both equations hold."
+    },
+    {
+      "title": "Identify the matching pair",
+      "content": "Only $(8,25)$ satisfies both equations simultaneously. That matches choice <strong>B</strong> — <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "y = 5(x - 3)",
+        "y = (x - 3)^2"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice B, $(8, 25)$, and the other choices fail the same setup or substitution. Therefore <strong>B</strong> is correct."
+    }
+  ]
+}

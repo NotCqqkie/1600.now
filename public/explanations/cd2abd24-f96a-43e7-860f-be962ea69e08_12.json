@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Recall the volume formula for a cube",
-      "content": "For a cube with edge length $s$, the volume equals the product of its three equal dimensions: length \u00d7 width \u00d7 height, all equal to $s$.",
+      "content": "For a cube with edge length $s$, the volume equals the product of its three equal dimensions: length × width × height, all equal to $s$.",
       "formula": "$$V = s^3$$"
     },
     {

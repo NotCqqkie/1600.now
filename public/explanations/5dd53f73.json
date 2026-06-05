@@ -1,1 +1,31 @@
-{"questionId":"5dd53f73","correctAnswer":"B","section":"Math","steps":[{"title":"Factor the expression","content":"Both terms share $34$. Factor it out:$$34x+34y=34(x+y)$$"},{"title":"Match to the answer choices","content":"The factored form is $34(x+y)$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}
+{
+  "questionId": "5dd53f73",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor the expression",
+      "content": "Both terms share $34$. Factor it out:$$34x+34y=34(x+y)$$"
+    },
+    {
+      "title": "Match to the answer choices",
+      "content": "The factored form is $34(x+y)$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice B is correct. Since $34$ is a common factor of each term in the given expression, the expression can be rewritten as $34\\left(x+y\\right)$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A is incorrect and may result from conceptual or calculation errors."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice C is incorrect. This expression is equivalent to $34y+34y$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice D is incorrect. This expression is equivalent to $34x+34x$."
+    }
+  ]
+}

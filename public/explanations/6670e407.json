@@ -17,7 +17,13 @@
     },
     {
       "title": "Choose the answer",
-      "content": "<ul><li>A (I only): Statement I is true, but Statement II is also true. Eliminated.</li><li>B (II only): Statement II is true, but Statement I is also true. Eliminated.</li><li>C (I and II): Both statements are true. That matches choice C &mdash; <strong>C</strong> is correct.</li><li>D (Neither I nor II): Both are true. Eliminated.</li></ul>"
+      "content": "<ul><li>A (I only): Statement I is true, but Statement II is also true. Eliminated.</li><li>B (II only): Statement II is true, but Statement I is also true. Eliminated.</li><li>C (I and II): Both statements are true. That matches choice C &mdash; <strong>C</strong> is correct.</li><li>D (Neither I nor II): Both are true. Eliminated.</li></ul>As a fast Desmos check, store each row as a list and compare the means and medians directly.",
+      "desmosExpressions": [
+        "F=[87,80,75,76,70]",
+        "V=[44,54,65,76,82]",
+        "mean(F)>mean(V)",
+        "median(F)>median(V)"
+      ]
     }
   ]
 }

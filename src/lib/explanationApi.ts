@@ -43,6 +43,14 @@ const asStringArray = (value: unknown): string[] | undefined =>
         .filter((item): item is string => Boolean(item))
     : undefined;
 
+const normalizeComparableHtml = (value: string): string =>
+  value
+    .replace(/<[^>]*>/g, " ")
+    .replace(/&(?:#[0-9]+|#x[0-9a-f]+|[a-z]+);/gi, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+    .toLowerCase();
+
 function normalizeStep(rawStep: unknown, index: number): ExplanationStep | null {
   if (typeof rawStep === "string") {
     return { title: `Step ${index + 1}`, content: rawStep };
@@ -110,10 +118,18 @@ export function normalizeExplanationData(raw: unknown): ExplanationData | null {
     steps.push({ title: "Explanation", content: explanationHtml });
   }
 
-  const choiceElimination = asString(data.choiceElimination);
-  if (choiceElimination) {
+  const choiceElimination =
+    asString(data.choiceElimination) ??
+    asString(data.choiceAnalysis) ??
+    asString(data.eliminationHtml);
+  const existingStepContent = normalizeComparableHtml(steps.map((step) => step.content).join(" "));
+  const shouldAppendChoiceElimination =
+    choiceElimination &&
+    !existingStepContent.includes(normalizeComparableHtml(choiceElimination).slice(0, 120));
+
+  if (shouldAppendChoiceElimination) {
     steps.push({
-      title: "Eliminate the choices",
+      title: "Check the choices",
       content: choiceElimination,
       desmosExpressions: asStringArray(data.desmosExpressions),
     });

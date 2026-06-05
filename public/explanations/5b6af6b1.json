@@ -1,1 +1,32 @@
-{"qid":"5b6af6b1","steps":["Distribute \\(d\\) across \\((8d^2 - 3)\\): \\(d \\cdot 8d^2 - d \\cdot 3 = 8d^3 - 3d\\).","Distribute \\(-6\\) across \\((8d^2 - 3)\\): \\(-6 \\cdot 8d^2 - (-6) \\cdot 3 = -48d^2 + 18\\).","Combine all terms: \\(8d^3 - 3d - 48d^2 + 18\\). Reorder in descending degree: \\(8d^3 - 48d^2 - 3d + 18\\).","Match to the answer choices: choice C is \\(8d^3 - 48d^2 - 3d + 18\\), which matches exactly."],"choices":[{"id":"A","text":"\\(8d^3 - 14d^2 - 3d + 18\\)","explanation":"<ul><li>The \\(d^2\\) coefficient should be \\(-48\\) (from \\(-6 \\times 8d^2\\)), not \\(-14\\). This is incorrect.</li></ul>"},{"id":"B","text":"\\(8d^3 - 17d^2 + 48\\)","explanation":"<ul><li>The \\(-3d\\) term is missing and the constant is wrong sign. This does not match the expansion. This is incorrect.</li></ul>"},{"id":"C","text":"\\(8d^3 - 48d^2 - 3d + 18\\)","explanation":"<ul><li>Expanding: \\(d(8d^2 - 3) - 6(8d^2 - 3) = 8d^3 - 3d - 48d^2 + 18 = 8d^3 - 48d^2 - 3d + 18\\). That matches choice C &mdash; <strong>C</strong> is correct.</li></ul>"},{"id":"D","text":"\\(8d^3 - 51d^2 + 48\\)","explanation":"<ul><li>The \\(-3d\\) linear term is missing entirely, and the coefficients are wrong. This does not match the expansion. This is incorrect.</li></ul>"}],"correctAnswer":"C"}
+{
+  "qid": "5b6af6b1",
+  "steps": [
+    "Distribute $d$ across $(8d^2 - 3)$: $d \\cdot 8d^2 - d \\cdot 3 = 8d^3 - 3d$.",
+    "Distribute $-6$ across $(8d^2 - 3)$: $-6 \\cdot 8d^2 - (-6) \\cdot 3 = -48d^2 + 18$.",
+    "Combine all terms: $8d^3 - 3d - 48d^2 + 18$. Reorder in descending degree: $8d^3 - 48d^2 - 3d + 18$.",
+    "Match to the answer choices: choice C is $8d^3 - 48d^2 - 3d + 18$, which matches exactly."
+  ],
+  "choices": [
+    {
+      "id": "A",
+      "text": "$8d^3 - 14d^2 - 3d + 18$",
+      "explanation": "<ul><li>The $d^2$ coefficient should be $-48$ (from $-6 \\times 8d^2$), not $-14$. This is incorrect.</li></ul>"
+    },
+    {
+      "id": "B",
+      "text": "$8d^3 - 17d^2 + 48$",
+      "explanation": "<ul><li>The $-3d$ term is missing and the constant is wrong sign. This does not match the expansion. This is incorrect.</li></ul>"
+    },
+    {
+      "id": "C",
+      "text": "$8d^3 - 48d^2 - 3d + 18$",
+      "explanation": "<ul><li>Expanding: $d(8d^2 - 3) - 6(8d^2 - 3) = 8d^3 - 3d - 48d^2 + 18 = 8d^3 - 48d^2 - 3d + 18$. That matches choice C &mdash; <strong>C</strong> is correct.</li></ul>"
+    },
+    {
+      "id": "D",
+      "text": "$8d^3 - 51d^2 + 48$",
+      "explanation": "<ul><li>The $-3d$ linear term is missing entirely, and the coefficients are wrong. This does not match the expansion. This is incorrect.</li></ul>"
+    }
+  ],
+  "correctAnswer": "C"
+}

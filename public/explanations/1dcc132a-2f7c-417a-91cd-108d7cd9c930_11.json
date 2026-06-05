@@ -2,16 +2,16 @@
   "qid": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_11",
   "steps": [
     {
-      "text": "Hannah saves \\(\\frac{1}{5}\\) of her salary \\(h\\) each month, contributing \\(\\frac{1}{5}h\\) dollars. Wyatt saves \\(\\frac{2}{7}\\) of his salary \\(w\\) each month, contributing \\(\\frac{2}{7}w\\) dollars. Together they save \\$3,270, so: \\(\\frac{1}{5}h + \\frac{2}{7}w = 3{,}270\\)."
+      "text": "Hannah saves $\\frac{1}{5}$ of her salary $h$ each month, contributing $\\frac{1}{5}h$ dollars. Wyatt saves $\\frac{2}{7}$ of his salary $w$ each month, contributing $\\frac{2}{7}w$ dollars. Together they save \\$3,270, so: $\\frac{1}{5}h + \\frac{2}{7}w = 3{,}270$."
     },
     {
-      "text": "Eliminate fractions by multiplying both sides by the LCD of 5 and 7, which is 35: \\(35 \\cdot \\frac{1}{5}h + 35 \\cdot \\frac{2}{7}w = 35 \\cdot 3{,}270\\)."
+      "text": "Eliminate fractions by multiplying both sides by the LCD of 5 and 7, which is 35: $35 \\cdot \\frac{1}{5}h + 35 \\cdot \\frac{2}{7}w = 35 \\cdot 3{,}270$."
     },
     {
-      "text": "Simplify: \\(7h + 10w = 114{,}450\\)."
+      "text": "Simplify: $7h + 10w = 114{,}450$."
     },
     {
-      "text": "<ul><li>Choice A: \\(h + w = 3{,}270\\) would mean they save their entire salaries combined, ignoring the fractions. Eliminated.</li><li>Choice B: \\(h + 2w = 3{,}270\\) uses incorrect coefficients that don't reflect the given fractions. Eliminated.</li><li>Choice C: \\(10h + 7w = 114{,}450\\) reverses the coefficients (Hannah's coefficient should be 7, Wyatt's should be 10). Eliminated.</li><li>Choice D: \\(7h + 10w = 114{,}450\\) matches the equation derived by multiplying through by 35. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
+      "text": "<ul><li>Choice A: $h + w = 3{,}270$ would mean they save their entire salaries combined, ignoring the fractions. Eliminated.</li><li>Choice B: $h + 2w = 3{,}270$ uses incorrect coefficients that don't reflect the given fractions. Eliminated.</li><li>Choice C: $10h + 7w = 114{,}450$ reverses the coefficients (Hannah's coefficient should be 7, Wyatt's should be 10). Eliminated.</li><li>Choice D: $7h + 10w = 114{,}450$ matches the equation derived by multiplying through by 35. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
     }
   ],
   "correctAnswer": "D"

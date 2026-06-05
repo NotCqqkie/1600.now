@@ -1,1 +1,24 @@
-{"questionId": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_17", "correctAnswer": "37", "section": "Math", "steps": [{"title": "Find the slope from the table", "content": "For a linear function, the slope $m$ is the constant rate of change between any two table rows: $m = \\frac{\\Delta g(x)}{\\Delta x}$. Compute it from any two rows in the table."}, {"title": "Solve for $b$", "content": "Once $m$ is known, plug any $(x, g(x))$ pair into $g(x) = mx + b$ and solve: $b = g(x) - mx$. With the values from the table, this gives $b = 37$.<br/><br/>The answer is <strong>37</strong>."}]}
+{
+  "questionId": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_17",
+  "correctAnswer": "37",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the table as points",
+      "content": "The table gives the points $(1,34)$, $(2,31)$, $(3,28)$, and $(4,25)$. Since $g$ is linear and the question asks for $b$ in $g(x)=mx+b$, this is a direct table-regression problem."
+    },
+    {
+      "title": "Run the Desmos regression",
+      "content": "Enter the table values as $x_1=[1,2,3,4]$ and $y_1=[34,31,28,25]$, then type $y_1\\sim m x_1+b$. Desmos returns $m=-3$ and $b=37$.",
+      "desmosExpressions": [
+        "x_1=[1,2,3,4]",
+        "y_1=[34,31,28,25]",
+        "y_1~m x_1+b"
+      ]
+    },
+    {
+      "title": "Confirm by hand",
+      "content": "The outputs decrease by $3$ each time $x$ increases by $1$, so $m=-3$. Using $(1,34)$ in $g(x)=mx+b$ gives $$34=-3(1)+b$$ so $b=37$. The answer is <strong>37</strong>."
+    }
+  ]
+}

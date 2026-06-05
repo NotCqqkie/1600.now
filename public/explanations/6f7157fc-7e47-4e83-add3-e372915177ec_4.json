@@ -1,1 +1,29 @@
-{"qid":"6f7157fc-7e47-4e83-add3-e372915177ec_4","steps":["With 11 values, the median is the 6th value when sorted. Position = \\frac{11+1}{2} = 6.","Data set A sorted: 2, 2, 2, 5, 5, 8, 11, 11, 14, 14, 14. The 6th value is 8, so the median of A is 8.","Data set B sorted: 2, 5, 5, 8, 8, 8, 8, 8, 11, 11, 14. The 6th value is 8, so the median of B is 8.","Both medians equal 8, so they are equal. That matches choice C — <strong>C</strong> is correct."],"choices":[{"id":"A","text":"The median of data set A is greater than the median of data set B.","explanation":"<ul><li>Median of A = 8 and median of B = 8. Equal, not greater. Eliminate A.</li></ul>"},{"id":"B","text":"The median of data set A is less than the median of data set B.","explanation":"<ul><li>Median of A = 8 and median of B = 8. Equal, not less. Eliminate B.</li></ul>"},{"id":"C","text":"The medians of data sets A and B are equal.","explanation":"<ul><li>The 6th value in each sorted set is 8. Both medians equal 8. That matches choice C — <strong>C</strong> is correct.</li></ul>"},{"id":"D","text":"There is not enough information to compare the medians.","explanation":"<ul><li>All values are given explicitly, so there is sufficient information. Eliminate D.</li></ul>"}],"correctAnswer":"C"}
+{
+  "questionId": "6f7157fc-7e47-4e83-add3-e372915177ec_4",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the median position",
+      "content": "Each data set has $11$ values. For $11$ values, the median is the middle value:<br/>$$\\frac{11+1}{2}=6$$<br/>So compare the 6th value in each sorted list."
+    },
+    {
+      "title": "Check data set A",
+      "content": "Data set A in order is:<br/>$$2,2,2,5,5,8,11,11,14,14,14$$<br/>The 6th value is $8$, so the median of data set A is $8$.",
+      "desmosExpressions": [
+        "a_1=[2,2,2,5,5,8,11,11,14,14,14]"
+      ]
+    },
+    {
+      "title": "Check data set B",
+      "content": "Data set B in order is:<br/>$$2,5,5,8,8,8,8,8,11,11,14$$<br/>The 6th value is also $8$, so the median of data set B is $8$.",
+      "desmosExpressions": [
+        "b_1=[2,5,5,8,8,8,8,8,11,11,14]"
+      ]
+    },
+    {
+      "title": "Compare the medians",
+      "content": "Both medians are $8$, so the medians are equal. That matches choice C, so <strong>C</strong> is correct."
+    }
+  ]
+}

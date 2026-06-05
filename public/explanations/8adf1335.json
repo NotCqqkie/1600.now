@@ -1,1 +1,19 @@
-{"questionId": "8adf1335", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Translate the budget into an equation", "content": "The total expense budget $x$ equals the sum of departmental expenses ($y$) and all other expenses ($201$):<br/>$$x = y + 201$$"}, {"title": "Rearrange to isolate the constant", "content": "Subtract $y$ from both sides:<br/>$$x - y = 201$$"}, {"title": "Check each choice", "content": "<ul><li>A: $x + y = 201$ would mean the two parts sum to 201 with no total, incorrect.</li><li>B: $x - y = 201$ matches our derived equation.</li><li>C: $2x - y = 201$ introduces an extra $x$ that has no basis in the context.</li><li>D: $y - x = 201$ implies departmental expenses exceed the total by 201, which is impossible.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "8adf1335",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the budget into an equation",
+      "content": "The total expense budget $x$ equals the sum of departmental expenses ($y$) and all other expenses ($201$):<br/>$$x = y + 201$$"
+    },
+    {
+      "title": "Rearrange to isolate the constant",
+      "content": "Subtract $y$ from both sides:<br/>$$x - y = 201$$"
+    },
+    {
+      "title": "Check each choice",
+      "content": "<ul><li>A: $x + y = 201$ would mean the two parts sum to 201 with no total, incorrect.</li><li>B: $x - y = 201$ matches our derived equation.</li><li>C: $2x - y = 201$ introduces an extra $x$ that has no basis in the context.</li><li>D: $y - x = 201$ implies departmental expenses exceed the total by 201, which is impossible.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

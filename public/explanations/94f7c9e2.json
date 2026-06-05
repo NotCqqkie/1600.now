@@ -1,1 +1,10 @@
-{"qid": "94f7c9e2", "correctAnswer": "D", "steps": ["Triangle \\(QRS\\) has a right angle at \\(R\\). The labeled side \\(SR = 18\\) is opposite angle \\(Q\\). Since the right angle is at \\(R\\), the hypotenuse is \\(QS\\). The condition \\(QR &lt; RS\\) confirms \\(RS\\) is the longer leg.", "Apply the sine ratio from angle \\(Q\\): \\(\\sin Q = \\dfrac{\\text{opposite}}{\\text{hypotenuse}} = \\dfrac{SR}{QS} = \\dfrac{18}{QS}\\).", "Solve for \\(QS\\): \\(QS = \\dfrac{18}{\\sin Q}\\).", "<ul><li>Choice A: \\(18\\cos Q\\) &mdash; multiplying by cosine yields a value smaller than 18, but \\(QS\\) is the hypotenuse and must be the longest side; incorrect.</li><li>Choice B: \\(18\\sin Q\\) &mdash; multiplying by sine also shrinks the value; incorrect.</li><li>Choice C: \\(\\dfrac{18}{\\cos Q}\\) &mdash; this would hold if 18 were the adjacent side, but 18 = SR is the side opposite \\(Q\\), not adjacent; incorrect.</li><li>Choice D: \\(\\dfrac{18}{\\sin Q}\\) &mdash; since \\(\\sin Q = 18/QS\\), solving gives \\(QS = 18/\\sin Q\\). That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"]}
+{
+  "qid": "94f7c9e2",
+  "correctAnswer": "D",
+  "steps": [
+    "Triangle $QRS$ has a right angle at $R$. The labeled side $SR = 18$ is opposite angle $Q$. Since the right angle is at $R$, the hypotenuse is $QS$. The condition $QR &lt; RS$ confirms $RS$ is the longer leg.",
+    "Apply the sine ratio from angle $Q$: $\\sin Q = \\dfrac{\\text{opposite}}{\\text{hypotenuse}} = \\dfrac{SR}{QS} = \\dfrac{18}{QS}$.",
+    "Solve for $QS$: $QS = \\dfrac{18}{\\sin Q}$.",
+    "<ul><li>Choice A: $18\\cos Q$ &mdash; multiplying by cosine yields a value smaller than 18, but $QS$ is the hypotenuse and must be the longest side; incorrect.</li><li>Choice B: $18\\sin Q$ &mdash; multiplying by sine also shrinks the value; incorrect.</li><li>Choice C: $\\dfrac{18}{\\cos Q}$ &mdash; this would hold if 18 were the adjacent side, but 18 = SR is the side opposite $Q$, not adjacent; incorrect.</li><li>Choice D: $\\dfrac{18}{\\sin Q}$ &mdash; since $\\sin Q = 18/QS$, solving gives $QS = 18/\\sin Q$. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
+  ]
+}

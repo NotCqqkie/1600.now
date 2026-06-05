@@ -1,1 +1,15 @@
-{"questionId":"64d1f49f","correctAnswer":"D","section":"Math","steps":[{"title":"Identify vertical angles","content":"Two intersecting lines form four angles. From the figure, $w$ and $z$ sit opposite each other at the vertex, so they are <strong>vertical angles</strong>."},{"title":"Apply the vertical angles theorem","content":"Vertical angles are equal, so $z=w=136$.<br/>That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "64d1f49f",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify vertical angles",
+      "content": "Two intersecting lines form four angles. From the figure, $w$ and $z$ sit opposite each other at the vertex, so they are <strong>vertical angles</strong>."
+    },
+    {
+      "title": "Apply the vertical angles theorem",
+      "content": "Vertical angles are equal, so $z=w=136$.<br/>That matches choice <strong>D</strong> — <strong>D</strong> is correct."
+    }
+  ]
+}

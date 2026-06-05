@@ -1,1 +1,27 @@
-{"questionId": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_8", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Identify the slope of line k", "content": "Line k: \\(y = 7x + 2\\). This is in slope-intercept form, so slope \\(m = 7\\)."}, {"title": "Apply the parallel-lines condition", "content": "Parallel lines have equal slopes. So line j must also have slope \\(m = 7\\)."}, {"title": "Use the given point to find the y-intercept", "content": "Line j passes through \\((0, 3)\\). A point of the form \\((0, b)\\) is the y-intercept, so \\(b = 3\\).<br/>Equation of line j: \\(y = 7x + 3\\)."}, {"title": "Evaluate all choices", "content": "<ul><li><strong>Choice A &mdash; '\\(y = 7x + 3\\)'</strong>: Slope = 7 (parallel to k), passes through (0, 3). &#10003;</li><li><strong>Choice B &mdash; '\\(y = -3x + 3\\)'</strong>: Slope = &minus;3, not parallel to k (slope 7). &#10007;</li><li><strong>Choice C &mdash; '\\(y = -7x + 3\\)'</strong>: Slope = &minus;7, not parallel to k. &#10007;</li><li><strong>Choice D &mdash; '\\(y = 3x + 3\\)'</strong>: Slope = 3, not parallel to k. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.", "desmosExpressions": ["y = 7x + 2", "y = 7x + 3"]}]}
+{
+  "questionId": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_8",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the slope of line k",
+      "content": "Line k: $y = 7x + 2$. This is in slope-intercept form, so slope $m = 7$."
+    },
+    {
+      "title": "Apply the parallel-lines condition",
+      "content": "Parallel lines have equal slopes. So line j must also have slope $m = 7$."
+    },
+    {
+      "title": "Use the given point to find the y-intercept",
+      "content": "Line j passes through $(0, 3)$. A point of the form $(0, b)$ is the y-intercept, so $b = 3$.<br/>Equation of line j: $y = 7x + 3$."
+    },
+    {
+      "title": "Evaluate all choices",
+      "content": "<ul><li><strong>Choice A &mdash; '$y = 7x + 3$'</strong>: Slope = 7 (parallel to k), passes through (0, 3). &#10003;</li><li><strong>Choice B &mdash; '$y = -3x + 3$'</strong>: Slope = &minus;3, not parallel to k (slope 7). &#10007;</li><li><strong>Choice C &mdash; '$y = -7x + 3$'</strong>: Slope = &minus;7, not parallel to k. &#10007;</li><li><strong>Choice D &mdash; '$y = 3x + 3$'</strong>: Slope = 3, not parallel to k. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y = 7x + 2",
+        "y = 7x + 3"
+      ]
+    }
+  ]
+}

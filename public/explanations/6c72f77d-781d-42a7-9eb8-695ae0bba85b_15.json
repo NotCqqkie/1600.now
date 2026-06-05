@@ -1,1 +1,19 @@
-{"questionId":"6c72f77d-781d-42a7-9eb8-695ae0bba85b_15","correctAnswer":"A","section":"Math","steps":[{"title":"Set up","content":"Translate the percentages: $a = 23.52(b + c)$ and $b = 0.84c$, so $c = \\frac{b}{0.84}$. Substitute into the first equation: $$a = 23.52\\!\\left(b + \\frac{b}{0.84}\\right) = 23.52b\\!\\left(\\frac{1.84}{0.84}\\right)$$"},{"title":"Solve","content":"Simplify the fraction: $\\frac{1.84}{0.84} = \\frac{184}{84} = \\frac{46}{21}$. Then: $$a = 23.52 \\times \\frac{46}{21} \\times b = 51.52b$$ So $a$ is $51.52 \\times 100\\% = 5{,}152\\%$ of $b$."},{"title":"Answer","content":"<strong>A</strong> is correct."}]}
+{
+  "questionId": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_15",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "Translate the percentages: $a = 23.52(b + c)$ and $b = 0.84c$, so $c = \\frac{b}{0.84}$. Substitute into the first equation: $$a = 23.52\\!\\left(b + \\frac{b}{0.84}\\right) = 23.52b\\!\\left(\\frac{1.84}{0.84}\\right)$$"
+    },
+    {
+      "title": "Solve",
+      "content": "Simplify the fraction: $\\frac{1.84}{0.84} = \\frac{184}{84} = \\frac{46}{21}$. Then: $$a = 23.52 \\times \\frac{46}{21} \\times b = 51.52b$$ So $a$ is $51.52 \\times 100\\% = 5{,}152\\%$ of $b$."
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>A</strong> is correct."
+    }
+  ]
+}

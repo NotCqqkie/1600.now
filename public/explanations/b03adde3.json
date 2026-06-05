@@ -1,1 +1,15 @@
-{"questionId": "b03adde3", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Multiply both sides to clear the fraction", "content": "Starting from $u - 3 = \\frac{6}{t-2}$, multiply both sides by $(t-2)$:<br/>$$(u-3)(t-2) = 6$$"}, {"title": "Solve for t", "content": "Divide both sides by $(u-3)$:<br/>$$t - 2 = \\frac{6}{u-3}$$<br/>Add 2 to both sides:<br/>$$t = 2 + \\frac{6}{u-3} = \\frac{2(u-3) + 6}{u-3} = \\frac{2u - 6 + 6}{u-3} = \\frac{2u}{u-3}$$<br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "b03adde3",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Multiply both sides to clear the fraction",
+      "content": "Starting from $u - 3 = \\frac{6}{t-2}$, multiply both sides by $(t-2)$:<br/>$$(u-3)(t-2) = 6$$"
+    },
+    {
+      "title": "Solve for t",
+      "content": "Divide both sides by $(u-3)$:<br/>$$t - 2 = \\frac{6}{u-3}$$<br/>Add 2 to both sides:<br/>$$t = 2 + \\frac{6}{u-3} = \\frac{2(u-3) + 6}{u-3} = \\frac{2u - 6 + 6}{u-3} = \\frac{2u}{u-3}$$<br/>That matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,19 @@
-{"questionId": "46b2e169", "correctAnswer": ".26", "section": "Math", "steps": [{"title": "Identify the probability formula", "content": "Probability of an event = favorable outcomes / total outcomes"}, {"title": "Count total pens and apply the formula", "content": "Total pens: $13 + 37 = 50$<br/>$$P(\\text{red}) = \\frac{13}{50}$$<br/>Converting to decimal: $13 \\div 50 = 0.26$"}]}
+{
+  "questionId": "46b2e169",
+  "correctAnswer": ".26",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the probability formula",
+      "content": "Probability of an event = favorable outcomes / total outcomes"
+    },
+    {
+      "title": "Count total pens and apply the formula",
+      "content": "Total pens: $13 + 37 = 50$<br/>$$P(\\text{red}) = \\frac{13}{50}$$<br/>Converting to decimal: $13 \\div 50 = 0.26$"
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $\\frac{13}{50}$. It's given that a box contains $13$ red pens and $37$ blue pens. If one of these pens is selected at random, the probability of selecting a red pen is the number of red pens in the box divided by the number of red and blue pens in the box. The number of red and blue pens in the box is $13+37$, or $50$. Since there are $13$ red pens in the box, it follows that the probability of selecting a red pen is $\\frac{13}{50}$. Note that 13/50 and.26 are examples of ways to enter a correct answer."
+    }
+  ]
+}

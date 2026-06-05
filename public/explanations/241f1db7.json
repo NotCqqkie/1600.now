@@ -1,1 +1,24 @@
-{"questionId": "241f1db7", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Compare the means", "content": "Sum from the frequency table: $$13(12) + 14(8) + 15(5) + 16(7) + 17(9) + 18(10) + 19(13) + 20(7) = 1175$$Original mean: $\\frac{1175}{71}$. New mean: $\\frac{1175+39}{72} = \\frac{1214}{72}$.<br/><br/>Cross-multiply: $1175 \\times 72 = 84{,}600$ and $1214 \\times 71 = 86{,}194$. Since $84{,}600 < 86{,}194$, $\\frac{1175}{71} < \\frac{1214}{72}$, so the <strong>new mean is greater</strong>."}, {"title": "Compare the medians", "content": "<strong>Original (71 values):</strong> Median is at position $\\frac{71+1}{2} = 36$. Cumulative frequencies 12, 20, 25, 32, 41 put the 36th value in the weight-17 group, so the original median is 17.<br/><br/><strong>New (72 values):</strong> The added value 39 is the largest, so it occupies position 72. Positions 36 and 37 still hold weight 17, giving a new median of $\\frac{17+17}{2} = 17$.<br/><br/>The <strong>medians are equal</strong>."}, {"title": "Evaluate each choice", "content": "<ul><li><strong>A</strong> &mdash; wrong. Claims the median increased; the medians are equal.</li><li><strong>B</strong> &mdash; correct. New mean is greater; medians are equal.</li><li><strong>C</strong> &mdash; wrong. Claims the mean decreased; the new mean is greater.</li><li><strong>D</strong> &mdash; wrong. Claims the mean decreased; the new mean is greater.</li></ul>That matches choice B."}]}
+{
+  "questionId": "241f1db7",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compare the means",
+      "content": "Sum from the frequency table:<br/>$$13(12)+14(8)+15(5)+16(7)+17(9)+18(10)+19(13)+20(7)=1175$$<br/>Original mean: $\\frac{1175}{71}$. New mean after adding $39$: $\\frac{1175+39}{72}=\\frac{1214}{72}$. Desmos can compute both means directly; the new mean is greater.",
+      "desmosExpressions": [
+        "S=13*12+14*8+15*5+16*7+17*9+18*10+19*13+20*7",
+        "S/71",
+        "(S+39)/72"
+      ]
+    },
+    {
+      "title": "Compare the medians",
+      "content": "<strong>Original (71 values):</strong> Median is at position $\\frac{71+1}{2} = 36$. Cumulative frequencies 12, 20, 25, 32, 41 put the 36th value in the weight-17 group, so the original median is 17.<br/><br/><strong>New (72 values):</strong> The added value 39 is the largest, so it occupies position 72. Positions 36 and 37 still hold weight 17, giving a new median of $\\frac{17+17}{2} = 17$.<br/><br/>The <strong>medians are equal</strong>."
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li><strong>A</strong> &mdash; wrong. Claims the median increased; the medians are equal.</li><li><strong>B</strong> &mdash; correct. New mean is greater; medians are equal.</li><li><strong>C</strong> &mdash; wrong. Claims the mean decreased; the new mean is greater.</li><li><strong>D</strong> &mdash; wrong. Claims the mean decreased; the new mean is greater.</li></ul>That matches choice B."
+    }
+  ]
+}

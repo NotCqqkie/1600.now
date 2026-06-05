@@ -4,20 +4,26 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Isolate the fraction term",
-      "content": "From $D = T - \\frac{9}{25}(100 - H)$, subtract $T$ from both sides:<br/>$$D - T = -\\frac{9}{25}(100 - H)$$"
+      "title": "Isolate the H term",
+      "content": "Start with:<br/>$$D=T-\\frac{9}{25}(100-H)$$<br/>Subtract $T$ from both sides:<br/>$$D-T=-\\frac{9}{25}(100-H)$$"
     },
     {
-      "title": "Multiply both sides by $-\\frac{25}{9}$",
-      "content": "$$\\frac{25}{9}(T - D) = 100 - H$$"
+      "title": "Undo the coefficient",
+      "content": "Multiply both sides by $-\\frac{25}{9}$:<br/>$$-\\frac{25}{9}(D-T)=100-H$$<br/>The left side can also be written as $\\frac{25}{9}(T-D)$."
     },
     {
       "title": "Solve for H",
-      "content": "$$H = 100 - \\frac{25}{9}(T - D) = \\frac{25}{9}(D - T) + 100$$"
+      "content": "Subtract $100$ from both sides and then multiply by $-1$:<br/>$$H=100+\\frac{25}{9}(D-T)$$<br/>So the equivalent expression is:<br/>$$H=\\frac{25}{9}(D-T)+100$$"
     },
     {
-      "title": "Eliminate wrong choices",
-      "content": "<ul><li>A: $H = \\frac{25}{9}(D - T) + 100$ — matches exactly. That matches choice A — <strong>A</strong> is correct.</li><li>B: subtracts 100 instead of adding — sign error.</li><li>C and D: use $(D + T)$ instead of $(D - T)$ — algebra error.</li></ul>"
+      "title": "Check the answer choice with sample values",
+      "content": "Use quick sample values to catch sign errors. If $T=80$ and $H=75$, then the original formula gives $D=80-\\frac{9}{25}(25)=71$. Plugging $D=71$ and $T=80$ into choice A gives:<br/>$$\\frac{25}{9}(71-80)+100=75$$<br/>It returns the original $H$, so choice A is correct.",
+      "desmosExpressions": [
+        "T=80",
+        "H=75",
+        "D=T-\\frac{9}{25}(100-H)",
+        "\\frac{25}{9}(D-T)+100"
+      ]
     }
   ]
 }

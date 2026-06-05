@@ -9,7 +9,7 @@
     },
     {
       "title": "Factor and solve for C",
-      "content": "Factor $C$ from the left side: $$C(P + N) = 18N$$ <br/>Divide both sides by $(P + N)$: $$C = \\frac{18N}{P + N}$$ <br/>Since $P + N = N + P$, this matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "Factor $C$ from the left side: $$C(P + N) = 18N$$ <br/>Divide both sides by $(P + N)$: $$C = \\frac{18N}{P + N}$$ <br/>Since $P + N = N + P$, this matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

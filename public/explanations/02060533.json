@@ -4,20 +4,21 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Interpret g(-9) = 0 to constrain the form of f(x)",
-      "content": "Since $g(-9) = \\frac{f(-9)}{-9+3} = \\frac{f(-9)}{-6} = 0$, the numerator must be zero (denominator is nonzero). Thus $f(-9) = 0$.<br/><br/>For linear $f(x) = mx + b$:\n\n$$-9m + b = 0$$\n\n$$b = 9m$$"
+      "title": "Convert g-values into f-values",
+      "content": "Do not regress $g(x)$ directly, because the question asks for the $y$-intercept of $f$. Since $g(x)=\\frac{f(x)}{x+3}$, multiply each $g(x)$ value by $x+3$: <ul><li>$f(-27)=3(-24)=-72$</li><li>$f(-9)=0(-6)=0$</li><li>$f(21)=5(24)=120$</li></ul>"
     },
     {
-      "title": "Use g(-27) = 3 to find the slope m",
-      "content": "$$g(-27) = \\frac{f(-27)}{-27+3} = 3$$\n\n$$\\frac{-27m + b}{-24} = 3$$\n\n$$-27m + b = -72$$\n\nSubstitute $b = 9m$:\n\n$$-27m + 9m = -72$$\n\n$$-18m = -72$$\n\n$$m = 4$$"
-    },
-    {
-      "title": "Calculate the y-intercept",
-      "content": "From $b = 9m = 9(4) = 36$, we have $f(x) = 4x + 36$, so $f(0) = 36$. That matches choice A — <strong>A</strong> is correct.",
+      "title": "Fit f in Desmos",
+      "content": "Now enter the converted points $(-27,-72)$, $(-9,0)$, and $(21,120)$ and run $y_1 \\sim m x_1+b$. Desmos gives $m=4$ and $b=36$, so $f(x)=4x+36$.",
       "desmosExpressions": [
-        "f(x) = a \\cdot b^{x}",
-        "(0, 36)"
+        "x_1=[-27,-9,21]",
+        "y_1=[-72,0,120]",
+        "y_1~m x_1+b"
       ]
+    },
+    {
+      "title": "Answer the intercept question",
+      "content": "The $y$-intercept of $y=f(x)$ is $(0,b)$, so it is $(0,36)$. That matches choice <strong>A</strong>."
     }
   ]
 }

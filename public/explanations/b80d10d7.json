@@ -9,8 +9,11 @@
     },
     {
       "title": "Equate numerators and solve",
-      "content": "Since the denominators are equal, the numerators must be equal:<br/>$$2(x+1) = x+4$$<br/>$$2x + 2 = x + 4$$<br/>$$x + 2 = 4$$<br/>$$x = 2$$<br/>That matches choice B \u2014 <strong>B</strong> is correct.",
-      "desmosExpressions": ["y = \\frac{2(x + 1)}{x + 5}", "y = 1 - \\frac{1}{x + 5}"]
+      "content": "Since the denominators are equal, the numerators must be equal:<br/>$$2(x+1) = x+4$$<br/>$$2x + 2 = x + 4$$<br/>$$x + 2 = 4$$<br/>$$x = 2$$<br/>That matches choice B — <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "y = \\frac{2(x + 1)}{x + 5}",
+        "y = 1 - \\frac{1}{x + 5}"
+      ]
     }
   ]
 }

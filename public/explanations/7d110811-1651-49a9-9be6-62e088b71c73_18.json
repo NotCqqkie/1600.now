@@ -1,1 +1,10 @@
-{"qid":"7d110811-1651-49a9-9be6-62e088b71c73_18","steps":["Let the width be \\(w\\) cm. The problem states the length is 41 cm greater than the width, so length \\(= w + 41\\).","Area of a rectangle \\(= \\text{length} \\times \\text{width} = (w)(w + 41)\\).","Check each choice against \\(A = w(w+41)\\)."],"explanation":"<ul><li><strong>Choice A &mdash; '\\(A=(w)\\left(\\frac{w}{41}\\right)\\)'</strong>: This makes length \\(= w/41\\), a fraction of the width &mdash; the opposite relationship from what is stated. &#10007;</li><li><strong>Choice B &mdash; '\\(A=(w)(41w)\\)'</strong>: This makes length \\(= 41w\\), meaning 41 times the width, not 41 more than the width. &#10007;</li><li><strong>Choice C &mdash; '\\(A=(w)(w+41)\\)'</strong>: Length \\(= w + 41\\) (41 greater than the width); area \\(= w(w+41)\\). This matches exactly. &#10003;</li><li><strong>Choice D &mdash; '\\(A=w^2\\)'</strong>: This requires length \\(= w\\), i.e., a square. But the paving stone is not a square &mdash; the length exceeds the width by 41 cm. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.","correctAnswer":"C"}
+{
+  "qid": "7d110811-1651-49a9-9be6-62e088b71c73_18",
+  "steps": [
+    "Let the width be $w$ cm. The problem states the length is 41 cm greater than the width, so length $= w + 41$.",
+    "Area of a rectangle $= \\text{length} \\times \\text{width} = (w)(w + 41)$.",
+    "Check each choice against $A = w(w+41)$."
+  ],
+  "explanation": "<ul><li><strong>Choice A &mdash; '$A=(w)\\left(\\frac{w}{41}\\right)$'</strong>: This makes length $= w/41$, a fraction of the width &mdash; the opposite relationship from what is stated. &#10007;</li><li><strong>Choice B &mdash; '$A=(w)(41w)$'</strong>: This makes length $= 41w$, meaning 41 times the width, not 41 more than the width. &#10007;</li><li><strong>Choice C &mdash; '$A=(w)(w+41)$'</strong>: Length $= w + 41$ (41 greater than the width); area $= w(w+41)$. This matches exactly. &#10003;</li><li><strong>Choice D &mdash; '$A=w^2$'</strong>: This requires length $= w$, i.e., a square. But the paving stone is not a square &mdash; the length exceeds the width by 41 cm. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.",
+  "correctAnswer": "C"
+}

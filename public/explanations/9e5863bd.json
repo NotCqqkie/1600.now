@@ -1,1 +1,19 @@
-{"questionId":"9e5863bd","correctAnswer":"D","section":"Math","steps":[{"title":"Turn the min and max into bounds on $s$","content":"The minimum recorded rate was $0.6$ in/hr, so every recorded $s$ satisfies $s\\ge 0.6$. The maximum recorded rate was $1.8$ in/hr, so every recorded $s$ also satisfies $s\\le 1.8$."},{"title":"Combine into one inequality","content":"Both conditions must hold simultaneously, giving the compound inequality$$0.6\\le s\\le 1.8.$$"},{"title":"Check each choice","content":"<ul><li><strong>A) $s\\ge 2.4$:</strong> the maximum recorded was $1.8$, so values $\\ge 2.4$ were never reached. &cross;</li><li><strong>B) $s\\ge 1.8$:</strong> this allows $s$ above $1.8$ and excludes $s$ between $0.6$ and $1.8$, which is wrong on both ends. &cross;</li><li><strong>C) $0\\le s\\le 0.6$:</strong> this caps $s$ at $0.6$, but rates up to $1.8$ were recorded. &cross;</li><li><strong>D) $0.6\\le s\\le 1.8$:</strong> matches the recorded minimum and maximum exactly. &check;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "9e5863bd",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Turn the min and max into bounds on $s$",
+      "content": "The minimum recorded rate was $0.6$ in/hr, so every recorded $s$ satisfies $s\\ge 0.6$. The maximum recorded rate was $1.8$ in/hr, so every recorded $s$ also satisfies $s\\le 1.8$."
+    },
+    {
+      "title": "Combine into one inequality",
+      "content": "Both conditions must hold simultaneously, giving the compound inequality$$0.6\\le s\\le 1.8.$$"
+    },
+    {
+      "title": "Check each choice",
+      "content": "<ul><li><strong>A) $s\\ge 2.4$:</strong> the maximum recorded was $1.8$, so values $\\ge 2.4$ were never reached. &cross;</li><li><strong>B) $s\\ge 1.8$:</strong> this allows $s$ above $1.8$ and excludes $s$ between $0.6$ and $1.8$, which is wrong on both ends. &cross;</li><li><strong>C) $0\\le s\\le 0.6$:</strong> this caps $s$ at $0.6$, but rates up to $1.8$ were recorded. &cross;</li><li><strong>D) $0.6\\le s\\le 1.8$:</strong> matches the recorded minimum and maximum exactly. &check;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

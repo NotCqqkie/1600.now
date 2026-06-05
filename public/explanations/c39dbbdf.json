@@ -1,1 +1,18 @@
-{"questionId": "c39dbbdf", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Isolate y to read off the slope of line r", "content": "$4x - 9y = 3 \\Rightarrow y = \\tfrac{4}{9}x - \\tfrac{1}{3}$. Slope of $r = \\tfrac{4}{9}$."}, {"title": "Parallel lines share the same slope", "content": "Parallel shortcut: equal slopes. Line $s \\parallel r$, so slope of $s = \\tfrac{4}{9}$. That matches choice B — <strong>B</strong> is correct.", "desmosExpressions": ["4x-9y=3"]}]}
+{
+  "questionId": "c39dbbdf",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate y to read off the slope of line r",
+      "content": "$4x - 9y = 3 \\Rightarrow y = \\tfrac{4}{9}x - \\tfrac{1}{3}$. Slope of $r = \\tfrac{4}{9}$."
+    },
+    {
+      "title": "Parallel lines share the same slope",
+      "content": "Parallel shortcut: equal slopes. Line $s \\parallel r$, so slope of $s = \\tfrac{4}{9}$. That matches choice B — <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "4x-9y=3"
+      ]
+    }
+  ]
+}

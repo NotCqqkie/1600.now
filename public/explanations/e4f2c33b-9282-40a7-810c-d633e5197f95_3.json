@@ -1,1 +1,25 @@
-{"questionId": "e4f2c33b-9282-40a7-810c-d633e5197f95_3", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Read the y-intercept and slope sign", "content": "The graph crosses the y-axis at $(0, -5)$, so the constant term is $-5$ (consistent with every choice). Because the line falls from left to right, the slope is negative, eliminating choices A and B."}, {"title": "Use a second labeled point", "content": "The line also passes through $(7, -8)$. Test the two negative-slope candidates:<br/>Choice C: $f(7) = -\\frac{3}{7}(7) - 5 = -3 - 5 = -8.$ &#x2713;<br/>Choice D: $f(7) = -\\frac{7}{3}(7) - 5 = -\\frac{49}{3} - 5 \\approx -21.3.$ &#x2717;"}, {"title": "Check each choice", "content": "<ul><li>A ($\\frac{3}{7}x - 5$): positive slope, but the graph falls.</li><li>B ($\\frac{7}{3}x - 5$): positive slope, also incorrect.</li><li>C ($-\\frac{3}{7}x - 5$): matches both the y-intercept and the point $(7, -8)$.</li><li>D ($-\\frac{7}{3}x - 5$): correct sign but slope too steep; misses $(7, -8)$ badly.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "e4f2c33b-9282-40a7-810c-d633e5197f95_3",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the y-intercept and slope sign",
+      "content": "For a line graph with equation choices, graph all four choices in Desmos and compare them to the displayed line. The correct line must cross the y-axis at $(0,-5)$ and pass through $(7,-8)$.",
+      "desmosExpressions": [
+        "y=(3/7)x-5",
+        "y=(7/3)x-5",
+        "y=-(3/7)x-5",
+        "y=-(7/3)x-5"
+      ]
+    },
+    {
+      "title": "Use a second labeled point",
+      "content": "The line also passes through $(7, -8)$. Test the two negative-slope candidates:<br/>Choice C: $f(7) = -\\frac{3}{7}(7) - 5 = -3 - 5 = -8.$ &#x2713;<br/>Choice D: $f(7) = -\\frac{7}{3}(7) - 5 = -\\frac{49}{3} - 5 \\approx -21.3.$ &#x2717;"
+    },
+    {
+      "title": "Check each choice",
+      "content": "<ul><li>A ($\\frac{3}{7}x - 5$): positive slope, but the graph falls.</li><li>B ($\\frac{7}{3}x - 5$): positive slope, also incorrect.</li><li>C ($-\\frac{3}{7}x - 5$): matches both the y-intercept and the point $(7, -8)$.</li><li>D ($-\\frac{7}{3}x - 5$): correct sign but slope too steep; misses $(7, -8)$ badly.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -4,16 +4,18 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Extract data points from the table",
-      "content": "From the table: when $c = 3$, $p = 9$; when $c = 5$, $p = 11$; when $c = 10$, $p = 16$."
+      "title": "Use Desmos to fit the table",
+      "content": "Treat the number of cars $c$ as $x$ and the maximum number of people $p$ as $y$. Enter the table as $x_1=[3,5,10]$ and $y_1=[9,11,16]$, then type $y_1 \\sim m x_1+b$. Desmos returns $m=1$ and $b=6$, so the relationship is $p=c+6$.",
+      "desmosExpressions": [
+        "x_1=[3,5,10]",
+        "y_1=[9,11,16]",
+        "y_1~m x_1+b",
+        "y=x+6"
+      ]
     },
     {
-      "title": "Calculate the slope",
-      "content": "Using any two points, say $(3, 9)$ and $(5, 11)$:<br/>$$m = \\frac{11 - 9}{5 - 3} = \\frac{2}{2} = 1$$<br/>Verify with the third point: from $(5, 11)$ to $(10, 16)$ gives slope $\\frac{16 - 11}{10 - 5} = \\frac{5}{5} = 1$ \u2713"
-    },
-    {
-      "title": "Write the equation using point-slope form",
-      "content": "Using point $(3, 9)$ and slope $m = 1$:<br/>$$p - 9 = 1(c - 3)$$<br/>$$p - 9 = c - 3$$<br/>$$p = c + 6$$<br/>Rearranging:<br/>$$c - p = -6$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Match the answer form",
+      "content": "The choices are written with $c$ and $p$. From $p=c+6$, subtract $p$ and 6 from both sides to get $c-p=-6$. That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

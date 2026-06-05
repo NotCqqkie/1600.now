@@ -1,1 +1,19 @@
-{"questionId":"4e1b3643-30b1-41c4-9027-1f149baf52c7_21","correctAnswer":"-4","section":"Math","steps":[{"title":"Apply the rearrangement from the given condition","content":"Move the $(4-7x)$ terms to one side: $9-5=8(4-7x)-9(4-7x)$, giving $4=-(4-7x)$."},{"title":"Compute the target value","content":"So $4-7x = -4$. The answer is <strong>-4</strong>."}]}
+{
+  "questionId": "4e1b3643-30b1-41c4-9027-1f149baf52c7_21",
+  "correctAnswer": "-4",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the rearrangement from the given condition",
+      "content": "Move the $(4-7x)$ terms to one side: $9-5=8(4-7x)-9(4-7x)$, giving $4=-(4-7x)$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "So $4-7x = -4$. The answer is <strong>-4</strong>."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $-4$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $-4$."
+    }
+  ]
+}

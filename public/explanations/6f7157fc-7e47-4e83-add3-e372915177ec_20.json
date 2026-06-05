@@ -1,1 +1,19 @@
-{"questionId": "6f7157fc-7e47-4e83-add3-e372915177ec_20", "correctAnswer": "263", "section": "Math", "steps": [{"title": "Use elimination to isolate x", "content": "The $y$ coefficients are $-21$ and $14$; their LCM is 42. Multiply equation 1 by 2 and equation 2 by 3 to make the $y$ coefficients opposites:<br/>$$2(22x - 21y) = 2(43) \\quad \\Rightarrow \\quad 44x - 42y = 86$$<br/>$$3(5x + 14y) = 3(59) \\quad \\Rightarrow \\quad 15x + 42y = 177$$<br/>Add the equations to eliminate $y$:<br/>$$59x = 263$$"}, {"title": "Solve for x and identify p", "content": "Divide both sides by 59:<br/>$$x = \\frac{263}{59}$$<br/>Since the solution is $\\left(\\frac{p}{59}, \\frac{w}{826}\\right)$, we have $p = 263$.", "desmosExpressions": ["y = \\frac{22x - 43}{21}", "y = \\frac{59 - 5x}{14}"]}]}
+{
+  "questionId": "6f7157fc-7e47-4e83-add3-e372915177ec_20",
+  "correctAnswer": "263",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use elimination to isolate x",
+      "content": "The $y$ coefficients are $-21$ and $14$; their LCM is 42. Multiply equation 1 by 2 and equation 2 by 3 to make the $y$ coefficients opposites:<br/>$$2(22x - 21y) = 2(43) \\quad \\Rightarrow \\quad 44x - 42y = 86$$<br/>$$3(5x + 14y) = 3(59) \\quad \\Rightarrow \\quad 15x + 42y = 177$$<br/>Add the equations to eliminate $y$:<br/>$$59x = 263$$"
+    },
+    {
+      "title": "Solve for x and identify p",
+      "content": "Divide both sides by 59:<br/>$$x = \\frac{263}{59}$$<br/>Since the solution is $\\left(\\frac{p}{59}, \\frac{w}{826}\\right)$, we have $p = 263$.",
+      "desmosExpressions": [
+        "y = \\frac{22x - 43}{21}",
+        "y = \\frac{59 - 5x}{14}"
+      ]
+    }
+  ]
+}

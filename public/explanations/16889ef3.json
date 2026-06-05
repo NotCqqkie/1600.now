@@ -4,17 +4,21 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the y-intercept from the year 2000 data",
-      "content": "In year 2000 ($t = 0$), the production was 4 million barrels. For a linear function $f(t) = mt + b$, we have $f(0) = 4$, so $b = 4$. All four choices have this same y-intercept, so we need to determine the slope."
+      "title": "Turn the years into points",
+      "content": "The input $t$ is years after 2000. So 2000 gives the point $(0,4)$, and 2013 gives the point $(13,1.9)$, where the output is measured in millions of barrels."
     },
     {
-      "title": "Calculate the slope from the production change",
-      "content": "The production fell from 4 million barrels at $t = 0$ to 1.9 million barrels at $t = 13$ (year 2013). Using the slope formula:<br/>$$m = \\frac{1.9 - 4}{13 - 0} = \\frac{-2.1}{13}$$<br/>To express in the form shown in the answer choices, multiply both numerator and denominator by 10:<br/>$$\\frac{-2.1}{13} = \\frac{-21}{130}$$<br/>Therefore, $f(t) = -\\frac{21}{130}t + 4$. That matches choice C — <strong>C</strong> is correct.",
+      "title": "Fit the line in Desmos",
+      "content": "Enter the two points and run $y_1 \\sim m x_1+b$. Desmos gives $b=4$ and $m=-0.161538\\ldots$, which is $-\\frac{21}{130}$.",
       "desmosExpressions": [
-        "y=-\\frac{21}{130}x+4",
-        "(0,4)",
-        "(13,1.9)"
+        "x_1=[0,13]",
+        "y_1=[4,1.9]",
+        "y_1~m x_1+b"
       ]
+    },
+    {
+      "title": "Check the choices",
+      "content": "The model is $f(t)=-\\frac{21}{130}t+4$. Choice <strong>C</strong> has the correct negative rate and the correct initial value."
     }
   ]
 }

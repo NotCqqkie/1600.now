@@ -4,17 +4,21 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use g(0) to eliminate negative-base choices",
-      "content": "For any exponential $a^x$, we have $a^0 = 1$. The table shows $g(0) = 1$ (positive). Choices A and B have a leading negative sign, giving $-1$ at $x = 0$. Both are eliminated."
+      "title": "Use an exponential regression",
+      "content": "The function is exponential, and the table shows $g(0)=1$ and $g(1)=\\frac{1}{25}$. Enter those points and run the exponential regression $y_1 \\sim a b^{x_1}$.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[1,1/25]",
+        "y_1~a b^{x_1}"
+      ]
     },
     {
-      "title": "Test g(1) to distinguish C from D",
-      "content": "The table shows $g(1) = \\frac{1}{25}$.<br/>Choice C: $25^1 = 25 \\neq \\frac{1}{25}$. Eliminated.<br/>Choice D: $\\left(\\frac{1}{25}\\right)^1 = \\frac{1}{25}$. Matches."
+      "title": "Read the base",
+      "content": "Desmos gives $a=1$ and $b=\\frac{1}{25}$, so $g(x)=\\left(\\frac{1}{25}\\right)^x$. The positive value at $x=0$ also eliminates the choices with a leading negative sign."
     },
     {
-      "title": "Match to the answer choices",
-      "content": "<ul><li><strong>Choice A &mdash; '$g(x) = -25^x$'</strong>: Gives $g(0) = -1$, but the table shows $g(0) = 1$. &#10007;</li><li><strong>Choice B &mdash; '$g(x) = -(\\frac{1}{25})^x$'</strong>: Gives $g(0) = -1$, but the table shows $g(0) = 1$. &#10007;</li><li><strong>Choice C &mdash; '$g(x) = 25^x$'</strong>: Gives $g(1) = 25$, but the table shows $g(1) = \\frac{1}{25}$. &#10007;</li><li><strong>Choice D &mdash; '$g(x) = (\\frac{1}{25})^x$'</strong>: Gives $g(0) = 1$ and $g(1) = \\frac{1}{25}$, matching the table. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.",
-      "desmosExpressions": ["g(x)=(1/25)^x"]
+      "title": "Check the choices",
+      "content": "Choice <strong>D</strong> is $g(x)=\\left(\\frac{1}{25}\\right)^x$, so D is correct."
     }
   ]
 }

@@ -1,5 +1,4 @@
 // Long-form pillar pages targeting high-intent head-term SAT queries.
-// AI-drafted; the user fact-checks before each change ships.
 // NOT linked from the app shell — reachable only via search or cross-links
 // from sibling SEO pages (sitemap-indexed, not surfaced in nav).
 

@@ -5,7 +5,13 @@
   "steps": [
     {
       "title": "Read the context",
-      "content": "Antonia starts with $130 and earns 2.5% more each year than she had the previous year. The key question is: does the amount grow by a fixed dollar value (linear) or by a fixed percentage of the current amount (exponential), and does it grow or shrink?"
+      "content": "Antonia starts with $130$ and earns $2.5\\%$ more each year. One year later the amount is $130(1.025)=133.25$. Enter $x_1=[0,1]$, $y_1=[130,133.25]$, and $y_1\\sim a b^{x_1}$ in Desmos.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[130,133.25]",
+        "y_1~a b^{x_1}",
+        "y=a b^x"
+      ]
     },
     {
       "title": "Eliminate the choices",

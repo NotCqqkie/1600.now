@@ -1,1 +1,23 @@
-{"questionId":"e5001da0-8895-4b72-8d22-da29586dc907_1","correctAnswer":"D","section":"Math","steps":[{"title":"Set up slope-intercept form","content":"With slope $5$, the line has the form $g(x) = 5x + b$."},{"title":"Solve for the intercept using (2, 47)","content":"Substitute $x = 2, g(x) = 47$: $47 = 5(2) + b = 10 + b$, so $b = 37$. Thus $g(x) = 5x + 37$."},{"title":"Compare against the choices","content":"<ul><li>Choice A ($37x$): wrong slope ($37$, not $5$) and no constant term.</li><li>Choice B ($37x + 5$): swaps slope and intercept.</li><li>Choice C ($5a$): not even a function of $x$ &mdash; missing the constant.</li><li>Choice D ($5x + 37$): slope $5$ and $g(2) = 10 + 37 = 47$ checks out.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.","desmosExpressions":["y = 5x + 37","(2, 47)"]}]}
+{
+  "questionId": "e5001da0-8895-4b72-8d22-da29586dc907_1",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up slope-intercept form",
+      "content": "With slope $5$, the line has the form $g(x) = 5x + b$."
+    },
+    {
+      "title": "Solve for the intercept using (2, 47)",
+      "content": "Substitute $x = 2, g(x) = 47$: $47 = 5(2) + b = 10 + b$, so $b = 37$. Thus $g(x) = 5x + 37$."
+    },
+    {
+      "title": "Compare against the choices",
+      "content": "<ul><li>Choice A ($37x$): wrong slope ($37$, not $5$) and no constant term.</li><li>Choice B ($37x + 5$): swaps slope and intercept.</li><li>Choice C ($5a$): not even a function of $x$ &mdash; missing the constant.</li><li>Choice D ($5x + 37$): slope $5$ and $g(2) = 10 + 37 = 47$ checks out.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "y = 5x + 37",
+        "(2, 47)"
+      ]
+    }
+  ]
+}

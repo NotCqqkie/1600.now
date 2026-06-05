@@ -1,1 +1,19 @@
-{"questionId": "f8a322d9", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Read the frequencies and bin ranges from both histograms", "content": "Both data sets have the same bar heights (3, 4, 7, 9) for a total of 23 values each, but the bin labels are shifted:<ul><li>Data Set A bins: [20, 30), [30, 40), [40, 50), [50, 60)</li><li>Data Set B bins: [10, 20), [20, 30), [30, 40), [40, 50)</li></ul>Every Set A bin sits exactly 10 units higher than the corresponding Set B bin."}, {"title": "Make the two sums as close as possible", "content": "Values are integers, and within each bin we may pick any integer from the lower bound up to (upper bound − 1). To minimize $|\\text{sum}_A - \\text{sum}_B|$, choose the <em>smallest</em> integer in every Set A bin and the <em>largest</em> integer in every Set B bin:<br/>$$\\text{sum}_A^{\\min} = 3(20)+4(30)+7(40)+9(50) = 910$$<br/>$$\\text{sum}_B^{\\max} = 3(19)+4(29)+7(39)+9(49) = 887$$<br/>Their difference is $910 - 887 = 23$, and the sums cannot be made equal because every Set A value is at least 10 more than its matching Set B value."}, {"title": "Convert to a mean difference", "content": "Each data set has 23 values, so the smallest possible difference of means is $$\\frac{|\\text{sum}_A - \\text{sum}_B|}{23} = \\frac{23}{23} = 1.$$ That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "f8a322d9",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the frequencies and bin ranges from both histograms",
+      "content": "Both data sets have the same bar heights (3, 4, 7, 9) for a total of 23 values each, but the bin labels are shifted:<ul><li>Data Set A bins: [20, 30), [30, 40), [40, 50), [50, 60)</li><li>Data Set B bins: [10, 20), [20, 30), [30, 40), [40, 50)</li></ul>Every Set A bin sits exactly 10 units higher than the corresponding Set B bin."
+    },
+    {
+      "title": "Make the two sums as close as possible",
+      "content": "Values are integers, and within each bin we may pick any integer from the lower bound up to (upper bound − 1). To minimize $|\\text{sum}_A - \\text{sum}_B|$, choose the <em>smallest</em> integer in every Set A bin and the <em>largest</em> integer in every Set B bin:<br/>$$\\text{sum}_A^{\\min} = 3(20)+4(30)+7(40)+9(50) = 910$$<br/>$$\\text{sum}_B^{\\max} = 3(19)+4(29)+7(39)+9(49) = 887$$<br/>Their difference is $910 - 887 = 23$, and the sums cannot be made equal because every Set A value is at least 10 more than its matching Set B value."
+    },
+    {
+      "title": "Convert to a mean difference",
+      "content": "Each data set has 23 values, so the smallest possible difference of means is $$\\frac{|\\text{sum}_A - \\text{sum}_B|}{23} = \\frac{23}{23} = 1.$$ That matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

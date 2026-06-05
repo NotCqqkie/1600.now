@@ -1,1 +1,23 @@
-{"questionId": "ad300285-6ff9-46a9-97ab-7356c9cd2965_17", "correctAnswer": "9", "section": "Math", "steps": [{"title": "Set up the intercept", "content": "The $y$-intercept of $y=f(x)$ occurs where $x=0$, so evaluate $f(0)$."}, {"title": "Solve for the value", "content": "Substituting gives $$f(0)=-9(0)+9=9.$$ The answer is <strong>9</strong>.", "desmosExpressions": ["y = -9x + 9", "(0, 9)"]}]}
+{
+  "questionId": "ad300285-6ff9-46a9-97ab-7356c9cd2965_17",
+  "correctAnswer": "9",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the intercept",
+      "content": "The $y$-intercept of $y=f(x)$ occurs where $x=0$, so evaluate $f(0)$."
+    },
+    {
+      "title": "Solve for the value",
+      "content": "Substituting gives $$f(0)=-9(0)+9=9.$$ The answer is <strong>9</strong>.",
+      "desmosExpressions": [
+        "y = -9x + 9",
+        "(0, 9)"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $9$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $9$."
+    }
+  ]
+}

@@ -1,1 +1,11 @@
-{"questionId": "50774285", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Use the volume formula to find height", "content": "The volume of a rectangular prism is $V = \\text{length} \\times \\text{width} \\times \\text{height}$. <br/><br/>Substitute the given values: $$2,736 = 19 \\times 8 \\times h = 152h$$ <br/>Divide both sides by 152: $$h = \\frac{2,736}{152} = 18$$ <br/>This matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "50774285",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the volume formula to find height",
+      "content": "The volume of a rectangular prism is $V = \\text{length} \\times \\text{width} \\times \\text{height}$. <br/><br/>Substitute the given values: $$2,736 = 19 \\times 8 \\times h = 152h$$ <br/>Divide both sides by 152: $$h = \\frac{2,736}{152} = 18$$ <br/>This matches choice A — <strong>A</strong> is correct."
+    }
+  ]
+}

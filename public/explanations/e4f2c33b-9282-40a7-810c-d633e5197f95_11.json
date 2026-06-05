@@ -1,1 +1,19 @@
-{"questionId":"e4f2c33b-9282-40a7-810c-d633e5197f95_11","correctAnswer":"A","section":"Math","steps":[{"title":"Read the vertex from vertex form","content":"$f(x) = \\frac{1}{7}(x-6)^2 + 4$ is in form $a(x-h)^2 + k$, so the vertex is at $(h, k) = (6, 4)$."},{"title":"Decide minimum or maximum","content":"Since $a = \\frac{1}{7} > 0$, the parabola opens upward, so the vertex gives a minimum. The minimum height is $k = 4$ inches, occurring at $x = 6$ seconds (not at $x = 0$)."},{"title":"Check each choice","content":"<ul><li>A) Minimum height was 4 inches: matches $k = 4$ with $a > 0$.</li><li>B) Minimum height was 6 inches: 6 is the $x$-coordinate (time), not the height.</li><li>C) Height was 4 inches when it started: at $x = 0$, $f(0) = \\frac{36}{7} + 4 \\approx 9.14$, not 4.</li><li>D) Height was 6 inches when it started: same issue, and 6 is the time of the minimum.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "e4f2c33b-9282-40a7-810c-d633e5197f95_11",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the vertex from vertex form",
+      "content": "$f(x) = \\frac{1}{7}(x-6)^2 + 4$ is in form $a(x-h)^2 + k$, so the vertex is at $(h, k) = (6, 4)$."
+    },
+    {
+      "title": "Decide minimum or maximum",
+      "content": "Since $a = \\frac{1}{7} > 0$, the parabola opens upward, so the vertex gives a minimum. The minimum height is $k = 4$ inches, occurring at $x = 6$ seconds (not at $x = 0$)."
+    },
+    {
+      "title": "Check each choice",
+      "content": "<ul><li>A) Minimum height was 4 inches: matches $k = 4$ with $a > 0$.</li><li>B) Minimum height was 6 inches: 6 is the $x$-coordinate (time), not the height.</li><li>C) Height was 4 inches when it started: at $x = 0$, $f(0) = \\frac{36}{7} + 4 \\approx 9.14$, not 4.</li><li>D) Height was 6 inches when it started: same issue, and 6 is the time of the minimum.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

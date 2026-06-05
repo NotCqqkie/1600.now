@@ -1,1 +1,23 @@
-{"questionId": "e10d8313", "correctAnswer": "123", "section": "Math", "steps": [{"title": "Find the third angle in triangle QXS", "content": "In triangle QXS, we have two angles: ∠SQX = 48° and ∠SXQ = 86°. Using the angle sum property:<br/>$$∠QSX = 180° - 48° - 86° = 46°$$<br/>This is the angle at vertex S between ray SQ (along line PV) and ray SX (toward point X). Since W lies on segment SX, this same angle applies to ray SW."}, {"title": "Use vertical angles at W to find ∠RWS", "content": "At point W, lines RU and SX intersect. We're given ∠SWU = 85°.<br/><br/>Since R, W, and U are collinear on line RU, rays WR and WU point in opposite directions. Therefore:<br/>$$∠RWS + ∠SWU = 180°$$<br/>$$∠RWS = 180° - 85° = 95°$$"}, {"title": "Find ∠TRU using triangle RWS", "content": "In triangle RWS, we now have:<br/>• ∠RWS = 95°<br/>• ∠WSR = 46° (same as ∠QSX, since both measure from ray along PV to ray SX)<br/><br/>Therefore:<br/>$$∠WRS = 180° - 95° - 46° = 39°$$<br/>Since W lies between R and U on line RU, ray RW and ray RU point in the same direction, so ∠URS = ∠WRS = 39°. Since both S and T lie to the right of R on line PV, rays RS and RT are the same ray, giving us ∠TRU = 39°."}, {"title": "Find ∠RTU and solve for ∠TUR", "content": "At point T on line PV, we're given ∠VTU = 162°. Since P and V lie on opposite sides of T along line PV:<br/>$$∠PTU = 180° - 162° = 18°$$<br/>Since R lies between P and T on line PV, ray TR points in the same direction as ray TP, so ∠RTU = 18°.<br/><br/>Now in triangle RTU:<br/>$$∠RTU + ∠TRU + ∠TUR = 180°$$<br/>$$18° + 39° + ∠TUR = 180°$$<br/>$$∠TUR = 123°$$<br/>The answer is <strong>123</strong> degrees."}]}
+{
+  "questionId": "e10d8313",
+  "correctAnswer": "123",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the third angle in triangle QXS",
+      "content": "In triangle QXS, we have two angles: ∠SQX = 48° and ∠SXQ = 86°. Using the angle sum property:<br/>$$∠QSX = 180° - 48° - 86° = 46°$$<br/>This is the angle at vertex S between ray SQ (along line PV) and ray SX (toward point X). Since W lies on segment SX, this same angle applies to ray SW."
+    },
+    {
+      "title": "Use vertical angles at W to find ∠RWS",
+      "content": "At point W, lines RU and SX intersect. We're given ∠SWU = 85°.<br/><br/>Since R, W, and U are collinear on line RU, rays WR and WU point in opposite directions. Therefore:<br/>$$∠RWS + ∠SWU = 180°$$<br/>$$∠RWS = 180° - 85° = 95°$$"
+    },
+    {
+      "title": "Find ∠TRU using triangle RWS",
+      "content": "In triangle RWS, we now have:<br/>• ∠RWS = 95°<br/>• ∠WSR = 46° (same as ∠QSX, since both measure from ray along PV to ray SX)<br/><br/>Therefore:<br/>$$∠WRS = 180° - 95° - 46° = 39°$$<br/>Since W lies between R and U on line RU, ray RW and ray RU point in the same direction, so ∠URS = ∠WRS = 39°. Since both S and T lie to the right of R on line PV, rays RS and RT are the same ray, giving us ∠TRU = 39°."
+    },
+    {
+      "title": "Find ∠RTU and solve for ∠TUR",
+      "content": "At point T on line PV, we're given ∠VTU = 162°. Since P and V lie on opposite sides of T along line PV:<br/>$$∠PTU = 180° - 162° = 18°$$<br/>Since R lies between P and T on line PV, ray TR points in the same direction as ray TP, so ∠RTU = 18°.<br/><br/>Now in triangle RTU:<br/>$$∠RTU + ∠TRU + ∠TUR = 180°$$<br/>$$18° + 39° + ∠TUR = 180°$$<br/>$$∠TUR = 123°$$<br/>The answer is <strong>123</strong> degrees."
+    }
+  ]
+}

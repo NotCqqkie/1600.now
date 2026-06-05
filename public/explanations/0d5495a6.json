@@ -1,1 +1,19 @@
-{"questionId":"0d5495a6","correctAnswer":"45","section":"Math","steps":[{"title":"Substitute the given value","content":"With $h(x)=x+b$ and $h(0)=45$, plug $x=0$ into the function:<br/>$$h(0)=0+b=b$$"},{"title":"Solve for the unknown","content":"Since $h(0)=b$ and $h(0)=45$, we get $b=45$.<br/>The answer is <strong>45</strong>."}]}
+{
+  "questionId": "0d5495a6",
+  "correctAnswer": "45",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the given value",
+      "content": "With $h(x)=x+b$ and $h(0)=45$, plug $x=0$ into the function:<br/>$$h(0)=0+b=b$$"
+    },
+    {
+      "title": "Solve for the unknown",
+      "content": "Since $h(0)=b$ and $h(0)=45$, we get $b=45$.<br/>The answer is <strong>45</strong>."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $45$. It's given that $h\\left(0\\right)=45$. Therefore, for the given function $h$, when $x=0$, $h\\left(x\\right)=45$. Substituting $0$ for $x$ and $45$ for $h\\left(x\\right)$ in the given function, $h\\left(x\\right)=x+b$, yields $45=0+b$, or $45=b$. Therefore, the value of $b$ is $45$."
+    }
+  ]
+}

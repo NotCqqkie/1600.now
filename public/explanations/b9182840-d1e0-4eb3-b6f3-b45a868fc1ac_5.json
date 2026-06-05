@@ -14,6 +14,10 @@
         "y = 2x - \\frac{1}{4}",
         "\\left(0, -\\frac{1}{4}\\right)"
       ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice A, $(0,-\\frac{1}{4})$. The other choices do not satisfy the same condition from the question, so <strong>A</strong> is correct."
     }
   ]
 }

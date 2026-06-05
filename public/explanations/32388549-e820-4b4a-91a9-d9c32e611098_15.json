@@ -1,1 +1,25 @@
-{"questionId": "32388549-e820-4b4a-91a9-d9c32e611098_15", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Read intercepts", "content": "From the graph, the line crosses the x‑axis at <strong>(3,0)</strong> and the y‑axis at <strong>(0,−5)</strong>."}, {"title": "Derive equation from intercepts", "content": "Using intercept form $$\\frac{x}{3} + \\frac{y}{-5} = 1$$ multiply both sides by 15: $$5x - 3y = 15.$$ That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "32388549-e820-4b4a-91a9-d9c32e611098_15",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the graph-choice shortcut",
+      "content": "This is a perfect Desmos answer-choice check. Graph the four answer choices and compare them with the line in the question. The correct line must have the same intercepts as the shown graph.",
+      "desmosExpressions": [
+        "5x-3y=15",
+        "5x-3y=-15",
+        "3x-5y=15",
+        "3x-5y=-15"
+      ]
+    },
+    {
+      "title": "Read the intercepts",
+      "content": "The shown line crosses the $x$-axis at $(3,0)$ and the $y$-axis at $(0,-5)$. Choice A, $5x-3y=15$, has those same intercepts: setting $y=0$ gives $x=3$, and setting $x=0$ gives $y=-5$."
+    },
+    {
+      "title": "Eliminate the other equations",
+      "content": "Choice B has the signs reversed, so its intercepts are $(-3,0)$ and $(0,5)$. Choices C and D swap the intercept sizes because the coefficients of $x$ and $y$ are reversed. Only choice <strong>A</strong> matches the graph."
+    }
+  ]
+}

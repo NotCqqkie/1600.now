@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Apply the triangle angle sum property",
-      "content": "The sum of all angles in any triangle is 180\u00b0. Given angle X = 108\u00b0 and angle Y = 36\u00b0, we write: $$X + Y + Z = 180\u00b0$$ Substituting the known values: $$108\u00b0 + 36\u00b0 + Z = 180\u00b0$$"
+      "content": "The sum of all angles in any triangle is 180°. Given angle X = 108° and angle Y = 36°, we write: $$X + Y + Z = 180°$$ Substituting the known values: $$108° + 36° + Z = 180°$$"
     },
     {
       "title": "Solve for angle Z",
-      "content": "Subtract the known angles from both sides: $$Z = 180\u00b0 - 108\u00b0 - 36\u00b0 = 36\u00b0$$ Angles Y and Z are both 36\u00b0, confirming the problem's condition that two angles are equal. That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "Subtract the known angles from both sides: $$Z = 180° - 108° - 36° = 36°$$ Angles Y and Z are both 36°, confirming the problem's condition that two angles are equal. That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Determine angle correspondence",
-      "content": "Since triangle ABC \u223c triangle DEF with angle A \u2194 angle D and angle C \u2194 angle F, we have angle B \u2194 angle E. Thus angle B = angle E."
+      "content": "Since triangle ABC ∼ triangle DEF with angle A ↔ angle D and angle C ↔ angle F, we have angle B ↔ angle E. Thus angle B = angle E."
     },
     {
       "title": "Use complementary angles to find tan(E)",

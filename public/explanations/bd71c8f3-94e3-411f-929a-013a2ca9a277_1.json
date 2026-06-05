@@ -1,1 +1,16 @@
-{"questionId": "bd71c8f3-94e3-411f-929a-013a2ca9a277_1", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Apply the angle sum property of triangles", "content": "In any triangle, the sum of the three interior angles equals 180°. With angle A = 34° and angle B = 90°, we write:<br/>$$34^\\circ + 90^\\circ + C = 180^\\circ$$", "formula": "$$A + B + C = 180^\\circ$$"}, {"title": "Solve for angle C", "content": "Simplify the left side:<br/>$$124^\\circ + C = 180^\\circ$$<br/>Subtract $124^\\circ$ from both sides:<br/>$$C = 56^\\circ$$<br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "bd71c8f3-94e3-411f-929a-013a2ca9a277_1",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the angle sum property of triangles",
+      "content": "In any triangle, the sum of the three interior angles equals 180°. With angle A = 34° and angle B = 90°, we write:<br/>$$34^\\circ + 90^\\circ + C = 180^\\circ$$",
+      "formula": "$$A + B + C = 180^\\circ$$"
+    },
+    {
+      "title": "Solve for angle C",
+      "content": "Simplify the left side:<br/>$$124^\\circ + C = 180^\\circ$$<br/>Subtract $124^\\circ$ from both sides:<br/>$$C = 56^\\circ$$<br/>That matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

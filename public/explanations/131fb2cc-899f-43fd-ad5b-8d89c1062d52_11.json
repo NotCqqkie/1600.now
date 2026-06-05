@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Locate x = 2 on the line of best fit",
-      "content": "Find $x = 2$ on the horizontal axis (the second vertical grid line from the origin). Trace vertically upward to where the line of best fit crosses that vertical line."
+      "title": "Use the line of best fit, not the points",
+      "content": "The question asks for the y-value predicted by the line of best fit. On the graph, move to $x=2$ and read where the line of best fit crosses that vertical position."
     },
     {
-      "title": "Read the predicted y-value",
-      "content": "At $x = 2$, the line of best fit is positioned at $y = 15$. That matches choice D \u2014 <strong>D</strong> is correct."
+      "title": "Estimate the y-value",
+      "content": "At $x=2$, the line of best fit is closest to $y=15$. The other choices, $4$, $7$, and $10$, are visibly too low for the line at that x-value."
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "The closest listed value is $15$, which is choice D. Therefore <strong>D</strong> is correct."
     }
   ]
 }

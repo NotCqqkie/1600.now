@@ -1,1 +1,25 @@
-{"questionId":"555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_15","correctAnswer":"B","section":"Math","steps":[{"title":"Find the slope from two table points","content":"Using \\((-2s,\\,28)\\) and \\((s,\\,13)\\):$$m=\\frac{13-28}{s-(-2s)}=\\frac{-15}{3s}=-\\frac{5}{s}.$$"},{"title":"Build the equation and clear the denominator","content":"Point&ndash;slope through \\((s,13)\\):$$y-13=-\\frac{5}{s}(x-s)\\Rightarrow y=-\\frac{5}{s}x+18.$$Multiply both sides by \\(s\\) and rearrange:$$sy=-5x+18s\\;\\Rightarrow\\;5x+sy=18s.$$Check with the third point \\((-s,23)\\): \\(5(-s)+s(23)=-5s+23s=18s.\\) \\(\\checkmark\\)"},{"title":"Evaluate each choice","content":"<ul><li>A) \\(sx+5y=18s\\): plug in \\((s,13)\\) &rarr; \\(s^2+65\\), not \\(18s\\) for general \\(s\\) &mdash; fails.</li><li>B) \\(5x+sy=18s\\): all three table points satisfy it (verified above).</li><li>C) \\(5x+sy=18\\): plug \\((s,13)\\) &rarr; \\(5s+13s=18s\\ne 18\\) unless \\(s=1\\) &mdash; fails.</li><li>D) \\(sx+5y=18\\): plug \\((s,13)\\) &rarr; \\(s^2+65\\ne 18\\) &mdash; fails.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_15",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use a Desmos shortcut with a convenient value of s",
+      "content": "Because $s$ is a constant and the answer choices all use $s$, choose an easy value such as $s=2$ to make the table numeric. Then the table points become $(-4,28)$, $(2,13)$, and $(-2,23)$. Enter $x_1=[-4,2,-2]$ and $y_1=[28,13,23]$, then type $y_1 \\sim m x_1+b$. Desmos returns $m=-\\frac{5}{2}$ and $b=18$, so $y=-\\frac{5}{2}x+18$.",
+      "desmosExpressions": [
+        "x_1=[-4,2,-2]",
+        "y_1=[28,13,23]",
+        "y_1~m x_1+b",
+        "y=-\\frac{5}{2}x+18"
+      ]
+    },
+    {
+      "title": "Translate the numeric result back to s",
+      "content": "With $s=2$, the Desmos line $y=-\\frac{5}{2}x+18$ becomes $2y=-5x+36$, or $5x+2y=36$. Replacing the chosen value $2$ with the general constant $s$ gives $5x+sy=18s$."
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li>A) $sx+5y=18s$: plug in $(s,13)$ &rarr; $s^2+65$, not $18s$ for general $s$ &mdash; fails.</li><li>B) $5x+sy=18s$: all three table points satisfy it (verified above).</li><li>C) $5x+sy=18$: plug $(s,13)$ &rarr; $5s+13s=18s\\ne 18$ unless $s=1$ &mdash; fails.</li><li>D) $sx+5y=18$: plug $(s,13)$ &rarr; $s^2+65\\ne 18$ &mdash; fails.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

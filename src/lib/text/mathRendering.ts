@@ -17,6 +17,99 @@ const collapseTableBlockNewlines = (content: string): string =>
     tableHtml.replace(/[ \t]*\n[ \t]*/g, " "),
   );
 
+const normalizeInlineWhitespace = (content: string): string =>
+  content
+    .replace(/\u00a0/g, " ")
+    .replace(/\t/g, " ")
+    .replace(/\s*<(em|strong|u)\b[^>]*>\s*<\/\1>\s*/gi, " ")
+    .replace(/\s+<(em|strong|u)\b([^>]*)>\s*([,.;:!?])\s*<\/\1>/gi, "<$1$2>$3</$1>")
+    .replace(/([A-Za-z0-9])<(em|strong|u)\b([^>]*)>\s+/gi, "$1 <$2$3>")
+    .replace(/([([{])<(em|strong|u)\b([^>]*)>\s+/gi, "$1<$2$3>")
+    .replace(/(\s)<(em|strong|u)\b([^>]*)>\s+/gi, "$1<$2$3>")
+    .replace(/<\/(em|strong|u)>(?=[A-Za-z0-9])/gi, "</$1> ")
+    .replace(/\s+<\/(em|strong|u)>(?=\s|[,.!?;:])/gi, "</$1>")
+    .replace(/[ \t]+(?:&deg;|°)/gi, "°")
+    .replace(/[ \t]+([,.;:!?])/g, "$1")
+    .replace(/[ \t]{2,}/g, " ");
+
+const normalizeTexDelimiters = (content: string): string => {
+  type Delimiter = "\\(" | "\\)" | "\\[" | "\\]" | "$" | "$$";
+
+  const segments: { type: "text" | "math"; value: string; displayMode?: boolean }[] = [];
+  let cursor = 0;
+  let textStart = 0;
+
+  const findNextDelimiter = (from: number): { index: number; delimiter: Delimiter } | null => {
+    let scan = from;
+    while (scan < content.length) {
+      if (!isEscapedAt(content, scan)) {
+        if (content.startsWith("$$", scan)) return { index: scan, delimiter: "$$" };
+        if (content[scan] === "$") return { index: scan, delimiter: "$" };
+      }
+      if (content[scan] === "\\" && !isEscapedAt(content, scan)) {
+        const candidate = content.slice(scan, scan + 2);
+        if (candidate === "\\(" || candidate === "\\)" || candidate === "\\[" || candidate === "\\]") {
+          return { index: scan, delimiter: candidate };
+        }
+      }
+      scan += 1;
+    }
+    return null;
+  };
+
+  while (cursor < content.length) {
+    const next = findNextDelimiter(cursor);
+    if (!next) break;
+
+    if (next.delimiter === "\\)" || next.delimiter === "\\]") {
+      cursor = next.index + 2;
+      continue;
+    }
+
+    const displayMode = next.delimiter === "$$" || next.delimiter === "\\[";
+    const closeDelimiter = next.delimiter === "\\(" ? "\\)" : next.delimiter === "\\[" ? "\\]" : next.delimiter;
+    const openLength = next.delimiter.length;
+    const closeLength = closeDelimiter.length;
+    let closing = next.index + openLength;
+
+    while (closing < content.length) {
+      if (content.startsWith(closeDelimiter, closing) && !isEscapedAt(content, closing)) break;
+      closing += 1;
+    }
+
+    if (closing >= content.length) {
+      cursor = next.index + openLength;
+      continue;
+    }
+
+    if (textStart < next.index) {
+      segments.push({ type: "text", value: content.slice(textStart, next.index) });
+    }
+    segments.push({
+      type: "math",
+      value: content.slice(next.index + openLength, closing),
+      displayMode,
+    });
+
+    cursor = closing + closeLength;
+    textStart = cursor;
+  }
+
+  if (textStart < content.length) {
+    segments.push({ type: "text", value: content.slice(textStart) });
+  }
+
+  if (!segments.length) return content;
+
+  return segments
+    .map((segment) => {
+      if (segment.type === "text") return segment.value;
+      const delimiter = segment.displayMode ? "$$" : "$";
+      return `${delimiter}${segment.value}${delimiter}`;
+    })
+    .join("");
+};
+
 export function renderMixedContent(text: string, options: RenderMixedContentOptions = {}): string {
   if (!text) return "";
   const { normalizeMath = true, convertTexLineBreaks = true } = options;
@@ -66,6 +159,8 @@ export function renderMixedContent(text: string, options: RenderMixedContentOpti
   if (normalizeMath) {
     processedText = normalizeTextForMathRendering(processedText);
   }
+  processedText = normalizeInlineWhitespace(processedText);
+  processedText = normalizeTexDelimiters(processedText);
 
   type ContentSegment =
     | { type: "text"; value: string }
@@ -136,14 +231,18 @@ export function renderMixedContent(text: string, options: RenderMixedContentOpti
 
     html = html.replace(/<strong>([\s\S]*?)<\/strong>/gi, (_, inner: string) => {
       const trimmed = inner.trim();
-      if (trimmed) return `<strong>${trimmed}</strong>`;
-      return inner.length > 0 ? " " : "";
+      if (!trimmed) return inner.length > 0 ? inner : "";
+      const leading = inner.match(/^\s*/)?.[0] ?? "";
+      const trailing = inner.match(/\s*$/)?.[0] ?? "";
+      return `${leading}<strong>${trimmed}</strong>${trailing}`;
     });
 
     html = html.replace(/<em>([\s\S]*?)<\/em>/gi, (_, inner: string) => {
       const trimmed = inner.trim();
-      if (trimmed) return `<em>${trimmed}</em>`;
-      return inner.length > 0 ? " " : "";
+      if (!trimmed) return inner.length > 0 ? inner : "";
+      const leading = inner.match(/^\s*/)?.[0] ?? "";
+      const trailing = inner.match(/\s*$/)?.[0] ?? "";
+      return `${leading}<em>${trimmed}</em>${trailing}`;
     });
 
     html = html.replace(/\*\*([^*]+?)\*\*/g, (_, inner: string) => {
@@ -159,17 +258,13 @@ export function renderMixedContent(text: string, options: RenderMixedContentOpti
     html = html.replace(/(^|[^*])\*([^*]+?)\*(?!\*)/g, (_, prefix: string, inner: string) => {
       const trimmed = inner.trim();
       if (!trimmed) return _;
-      const leading = inner.match(/^\s*/)?.[0] ?? "";
-      const trailing = inner.match(/\s*$/)?.[0] ?? "";
-      return `${prefix}${leading}<em>${trimmed}</em>${trailing}`;
+      return `${prefix}<em>${trimmed}</em>`;
     });
 
     html = html.replace(/(^|[^_])_([^_]+?)_(?!_)/g, (_, prefix: string, inner: string) => {
       const trimmed = inner.trim();
       if (!trimmed) return _;
-      const leading = inner.match(/^\s*/)?.[0] ?? "";
-      const trailing = inner.match(/\s*$/)?.[0] ?? "";
-      return `${prefix}${leading}<em>${trimmed}</em>${trailing}`;
+      return `${prefix}<em>${trimmed}</em>`;
     });
 
     html = html.replace(

@@ -1,1 +1,26 @@
-{"questionId": "a240b08f-646d-4227-8b1f-fadf4c312b08_21", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Express g in terms of linear f", "content": "Since $f$ is linear, write $f(x) = ax + b$. Then by definition, $$g(x) = \\frac{f(x)}{x+3} = \\frac{ax + b}{x + 3}$$ We have three data points; we'll use the ones where $x = -9$ and $x = -21$."}, {"title": "Use g(-9) = 0 to relate a and b", "content": "At $x = -9$, we have $g(-9) = 0$. Since the denominator $-9 + 3 = -6$ is nonzero, the numerator must be zero: $$f(-9) = -9a + b = 0$$ Therefore, $b = 9a$."}, {"title": "Use g(-21) = 2 to solve for a", "content": "At $x = -21$, we have $g(-21) = 2$. Substituting $b = 9a$: $$2 = \\frac{-21a + 9a}{-21 + 3} = \\frac{-12a}{-18} = \\frac{2a}{3}$$ Multiplying both sides by 3: $6 = 2a$, so $a = 3$.<br/><br/>Then $b = 9(3) = 27$. The $y$-intercept of the graph of $y = f(x)$ is the point $(0, f(0)) = (0, b) = (0, 27)$.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "a240b08f-646d-4227-8b1f-fadf4c312b08_21",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Turn the g table into an f table",
+      "content": "The table gives $g(x)$, but the question asks for the y-intercept of $y=f(x)$. Since $g(x)=\\dfrac{f(x)}{x+3}$, multiply each table output by $x+3$ to get $f(x)$:<ul><li>$f(-21)=2(-21+3)=-36$</li><li>$f(-9)=0(-9+3)=0$</li><li>$f(15)=4(15+3)=72$</li></ul>"
+    },
+    {
+      "title": "Use Desmos regression on the derived points",
+      "content": "Enter the derived $f$ points as $x_1=[-21,-9,15]$ and $y_1=[-36,0,72]$. Then type $y_1 \\sim m x_1+b$. Desmos returns $m=3$ and $b=27$, so $f(x)=3x+27$.",
+      "desmosExpressions": [
+        "x_1=[-21,-9,15]",
+        "y_1=[-36,0,72]",
+        "y_1~m x_1+b",
+        "y=3x+27",
+        "(0,27)"
+      ]
+    },
+    {
+      "title": "Identify the intercept",
+      "content": "The y-intercept of $y=f(x)$ is where $x=0$. From $f(x)=3x+27$, the intercept is $(0,27)$. That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

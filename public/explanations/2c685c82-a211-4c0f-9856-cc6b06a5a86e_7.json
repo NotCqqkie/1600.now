@@ -1,1 +1,26 @@
-{"questionId": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_7", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Expand f(x) using FOIL", "content": "$$f(x) = (2x-3)(x+8)$$First: $(2x)(x) = 2x^2$. Outer: $(2x)(8) = 16x$. Inner: $(-3)(x) = -3x$. Last: $(-3)(8) = -24$.$$f(x) = 2x^2 + 13x - 24$$"}, {"title": "Simplify g(x)", "content": "$$g(x) = 3(6x - 9) = 18x - 27$$"}, {"title": "Compute f(x) - g(x) and evaluate all choices", "content": "$$f(x) - g(x) = (2x^2 + 13x - 24) - (18x - 27) = 2x^2 - 5x + 3$$Check each choice:<ul><li>A: $2x^2 + 7x - 15$ — the x coefficient is $+7$, not $-5$. Eliminate A.</li><li>B: $2x^2 - 5x + 3$ — matches our result exactly. That matches choice B — <strong>B</strong> is correct.</li><li>C: $2x^2 - x - 3$ — incorrect x and constant terms. Eliminate C.</li><li>D: $2x^2 + 31x - 51$ — would result from adding instead of subtracting g(x). Eliminate D.</li></ul>"}]}
+{
+  "questionId": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_7",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use Desmos regression to avoid FOIL mistakes",
+      "content": "For a multiple-choice equivalent-expression question, test the expression at a few x-values and fit the resulting quadratic. Enter these in Desmos:<br/>$$x_1=[-1,0,1]$$<br/>$$y_1=(2x_1-3)(x_1+8)-3(6x_1-9)$$",
+      "desmosExpressions": [
+        "x_1=[-1,0,1]",
+        "y_1=(2x_1-3)(x_1+8)-3(6x_1-9)"
+      ]
+    },
+    {
+      "title": "Fit the quadratic form",
+      "content": "Now regress those points against $ax^2+bx+c$:<br/>$$y_1\\sim ax_1^2+bx_1+c$$<br/>Desmos returns $a=2$, $b=-5$, and $c=3$.",
+      "desmosExpressions": [
+        "y_1\\sim ax_1^2+bx_1+c"
+      ]
+    },
+    {
+      "title": "Match the result",
+      "content": "So:<br/>$$f(x)-g(x)=2x^2-5x+3$$<br/>That matches choice B, so <strong>B</strong> is correct. Expanding manually gives the same result: $(2x-3)(x+8)=2x^2+13x-24$ and $3(6x-9)=18x-27$."
+    }
+  ]
+}

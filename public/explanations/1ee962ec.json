@@ -4,13 +4,22 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Rule out impossible tables",
-      "content": "Choices A and B each list two different $y$-values for $x=0$, which is impossible for a function. One input cannot produce two outputs. This eliminates A and B, leaving C and D to test."
+      "title": "Read the key points from the graph",
+      "content": "The graph gives the model points directly. It starts at sea level, so it passes through $(0,0)$. Its lowest point is at $(3,-12)$. It returns to sea level at $(6,0)$. The correct table must list those three ordered pairs."
     },
     {
-      "title": "Match the vertex to the correct table",
-      "content": "The parabola's minimum point is located at $x=3$, $y=-12$. <ul><li>Choice C includes the point $(3, -12)$</li><li>Choice D has no point at $x=3$</li></ul>The three points in choice C—$(0, 0)$, $(3, -12)$, $(6, 0)$—represent the start, vertex, and end of the parabola. That matches choice C — <strong>C</strong> is correct.",
-      "desmosExpressions": ["y=(4/3)(x-3)^2-12\\{0<=x<=6\\}"]
+      "title": "Use Desmos to verify the table points",
+      "content": "Enter choice C's points as lists: $x_1=[0,3,6]$ and $y_1=[0,-12,0]$. A quadratic regression with the known symmetry point, $y_1\\sim a(x_1-3)^2+k$, gives $a=\\frac{4}{3}$ and $k=-12$, so the graph is $$y=\\frac{4}{3}(x-3)^2-12$$ It matches the visible model points.",
+      "desmosExpressions": [
+        "x_1=[0,3,6]",
+        "y_1=[0,-12,0]",
+        "y_1~a(x_1-3)^2+k",
+        "y=(4/3)(x-3)^2-12"
+      ]
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "Choices A and B repeat $x=0$ with two different $y$-values, so they cannot be tables for a function. Choice D does not include the key point $(3,-12)$. Choice C lists $(0,0)$, $(3,-12)$, and $(6,0)$, so <strong>C</strong> is correct."
     }
   ]
 }

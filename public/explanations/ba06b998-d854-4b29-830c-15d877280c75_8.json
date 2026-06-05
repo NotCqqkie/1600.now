@@ -1,1 +1,19 @@
-{"questionId": "ba06b998-d854-4b29-830c-15d877280c75_8", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Solve the linear equation for x", "content": "The first equation is linear.<br/>$$x + 7 = 13$$<br/>Subtracting 7 from both sides:<br/>$$x = 6$$"}, {"title": "Substitute x = 6 into the quadratic equation", "content": "Now substitute $x = 6$ into the second equation to find $y$:<br/>$$y = 5x^2 + 5$$<br/>$$y = 5(6)^2 + 5$$<br/>$$y = 5(36) + 5$$<br/>$$y = 180 + 5 = 185$$<br/>The intersection point is $(6, 185)$. That matches choice B — <strong>B</strong> is correct.", "desmosExpressions": ["x = 6", "y = 5x^2 + 5"]}]}
+{
+  "questionId": "ba06b998-d854-4b29-830c-15d877280c75_8",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve the linear equation for x",
+      "content": "The first equation is linear.<br/>$$x + 7 = 13$$<br/>Subtracting 7 from both sides:<br/>$$x = 6$$"
+    },
+    {
+      "title": "Substitute x = 6 into the quadratic equation",
+      "content": "Now substitute $x = 6$ into the second equation to find $y$:<br/>$$y = 5x^2 + 5$$<br/>$$y = 5(6)^2 + 5$$<br/>$$y = 5(36) + 5$$<br/>$$y = 180 + 5 = 185$$<br/>The intersection point is $(6, 185)$. That matches choice B — <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "x = 6",
+        "y = 5x^2 + 5"
+      ]
+    }
+  ]
+}

@@ -13,7 +13,7 @@
     },
     {
       "title": "Counting x-intercepts of g",
-      "content": "At $x = 17$: We have $f(17) = 0$ and $(x-17) = 0$, creating $\\frac{0}{0}$ \u2014 a removable discontinuity (hole), not an $x$-intercept.<br/>At the other 7 zeros of $f$: The numerator $f(x) = 0$ while the denominator $(x-17) \\neq 0$, so $g(x) = 0$ \u2014 these ARE $x$-intercepts.<br/>Therefore, $g(x)$ has <strong>7</strong> $x$-intercepts."
+      "content": "At $x = 17$: We have $f(17) = 0$ and $(x-17) = 0$, creating $\\frac{0}{0}$ — a removable discontinuity (hole), not an $x$-intercept.<br/>At the other 7 zeros of $f$: The numerator $f(x) = 0$ while the denominator $(x-17) \\neq 0$, so $g(x) = 0$ — these ARE $x$-intercepts.<br/>Therefore, $g(x)$ has <strong>7</strong> $x$-intercepts."
     }
   ]
 }

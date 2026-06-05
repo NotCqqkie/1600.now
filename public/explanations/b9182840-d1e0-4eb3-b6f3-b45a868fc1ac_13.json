@@ -1,1 +1,25 @@
-{"questionId": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_13", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Identify the type of growth", "content": "Harper earns 2.7% more each year than the previous year. This means each year&rsquo;s balance is multiplied by a constant factor \\(1.027\\), not increased by a fixed dollar amount."}, {"title": "Write the model", "content": "After \\(t\\) years: \\(A(t) = 110 \\times (1.027)^t\\). Because \\(t\\) appears in the exponent and the base is fixed, this is exponential &mdash; not linear."}, {"title": "Determine increasing or decreasing", "content": "The base \\(1.027 > 1\\), so \\(A(t)\\) grows as \\(t\\) increases. The model is <em>increasing</em> exponential.<ul><li><strong>A (Decreasing exponential):</strong> The base exceeds 1, so the function increases, not decreases.</li><li><strong>B (Decreasing linear):</strong> Growth is proportional (multiplicative), not additive, so it is not linear and it is not decreasing.</li><li><strong>C (Increasing exponential):</strong> Multiplying by \\(1.027\\) each year produces exponential growth. That matches choice C &mdash; <strong>C</strong> is correct.</li><li><strong>D (Increasing linear):</strong> A fixed percentage applied to a changing balance produces exponential, not linear, growth.</li></ul>"}]}
+{
+  "questionId": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_13",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the type of growth",
+      "content": "Harper starts with $110$ and earns $2.7\\%$ more each year. One year later the amount is $110(1.027)=112.97$. Enter $x_1=[0,1]$, $y_1=[110,112.97]$, and $y_1\\sim a b^{x_1}$ in Desmos.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[110,112.97]",
+        "y_1~a b^{x_1}",
+        "y=a b^x"
+      ]
+    },
+    {
+      "title": "Write the model",
+      "content": "Desmos gives $a=110$ and $b=1.027$, so $A(t)=110(1.027)^t$. Because $t$ is in the exponent, the model is exponential, not linear."
+    },
+    {
+      "title": "Determine increasing or decreasing",
+      "content": "The base $1.027 > 1$, so $A(t)$ grows as $t$ increases. The model is <em>increasing</em> exponential.<ul><li><strong>A (Decreasing exponential):</strong> The base exceeds 1, so the function increases, not decreases.</li><li><strong>B (Decreasing linear):</strong> Growth is proportional (multiplicative), not additive, so it is not linear and it is not decreasing.</li><li><strong>C (Increasing exponential):</strong> Multiplying by $1.027$ each year produces exponential growth. That matches choice C &mdash; <strong>C</strong> is correct.</li><li><strong>D (Increasing linear):</strong> A fixed percentage applied to a changing balance produces exponential, not linear, growth.</li></ul>"
+    }
+  ]
+}

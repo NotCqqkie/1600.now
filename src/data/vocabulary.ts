@@ -1,4 +1,4 @@
-// Auto-generated. Do not edit manually.
+// SAT vocabulary data.
 
 export type VocabPos = "verb" | "noun" | "adj";
 

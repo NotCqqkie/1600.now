@@ -1,1 +1,15 @@
-{"questionId": "445dd032", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Identify the proportional relationship", "content": "When Tanya works <em>z</em> hours, she earns 13.50<em>z</em> dollars. This establishes a direct proportion: earnings scale proportionally with hours. If the number of hours multiplies by a factor, earnings multiply by that same factor."}, {"title": "Apply the scaling factor", "content": "Tanya now works 3<em>z</em> hours, which is 3 times as many hours as <em>z</em>. Therefore, her earnings also multiply by 3:<br/>$$3 \\times (13.50z)$$<br/>This matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "445dd032",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the proportional relationship",
+      "content": "When Tanya works <em>z</em> hours, she earns 13.50<em>z</em> dollars. This establishes a direct proportion: earnings scale proportionally with hours. If the number of hours multiplies by a factor, earnings multiply by that same factor."
+    },
+    {
+      "title": "Apply the scaling factor",
+      "content": "Tanya now works 3<em>z</em> hours, which is 3 times as many hours as <em>z</em>. Therefore, her earnings also multiply by 3:<br/>$$3 \\times (13.50z)$$<br/>This matches choice A — <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -14,6 +14,10 @@
         "y = x + 23",
         "y = 12x"
       ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice B, 1, and the other choices fail the same setup or substitution. Therefore <strong>B</strong> is correct."
     }
   ]
 }

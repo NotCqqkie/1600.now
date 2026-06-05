@@ -1,1 +1,18 @@
-{"questionId":"ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_9","correctAnswer":"D","section":"Math","steps":[{"title":"Identify what the question needs","content":"f(x) = ab&sup2; + c contains no x &mdash; a, b, and c are constants, so ab&sup2; + c is a fixed number. The graph is a horizontal line. The question asks how many x-values satisfy f(x) = 0, i.e., how many times the horizontal line crosses the x-axis."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;Three&apos;</strong>: A horizontal line can cross the x-axis at most once (if it lies on it). &#10007;</li><li><strong>Choice B &mdash; &apos;Two&apos;</strong>: Same reason &mdash; a horizontal line can&apos;t cross the x-axis twice. &#10007;</li><li><strong>Choice C &mdash; &apos;One&apos;</strong>: Only if the line lies exactly on the x-axis (ab&sup2; + c = 0). The graph shows the line does not lie on the x-axis. &#10007;</li><li><strong>Choice D &mdash; &apos;Zero&apos;</strong>: The horizontal line is above or below the x-axis but never touches it, so f(x) = 0 has no solution. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_9",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The function is $f(x)=ab^x+c$, so it is an exponential graph, not a constant horizontal line. The equation $f(x)=0$ asks for the $x$-values where the graph crosses the $x$-axis. On the shown graph, the curve stays entirely above or below the $x$-axis and never touches $y=0$."
+    },
+    {
+      "title": "Use the graph shortcut",
+      "content": "In Desmos or on the printed graph, draw the line $y=0$ to mark the $x$-axis. Count intersections between the exponential curve and that line. There are no intersections, so there are zero values of $x$ for which $f(x)=0$. That matches choice D, so <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "y=0"
+      ]
+    }
+  ]
+}

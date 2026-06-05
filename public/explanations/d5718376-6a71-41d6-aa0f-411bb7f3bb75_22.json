@@ -1,1 +1,16 @@
-{"questionId": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_22", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Identify the linear scale factor", "content": "Square A has side lengths that are 88 times those of square B. The linear scale factor is 88."}, {"title": "Apply the area scaling rule", "content": "Using the relationship between linear and area scale factors:<br/>$$k = 88^2 = 7744$$<br/>That matches choice A — <strong>A</strong> is correct.", "formula": "$$\\text{Area scale factor} = (\\text{linear scale factor})^2$$"}]}
+{
+  "questionId": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_22",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the linear scale factor",
+      "content": "Square A has side lengths that are 88 times those of square B. The linear scale factor is 88."
+    },
+    {
+      "title": "Apply the area scaling rule",
+      "content": "Using the relationship between linear and area scale factors:<br/>$$k = 88^2 = 7744$$<br/>That matches choice A — <strong>A</strong> is correct.",
+      "formula": "$$\\text{Area scale factor} = (\\text{linear scale factor})^2$$"
+    }
+  ]
+}

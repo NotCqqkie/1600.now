@@ -13,7 +13,7 @@
     },
     {
       "title": "Invert both sides and simplify",
-      "content": "When $\\frac{12}{n} = \\frac{2(w-t)}{tw}$, take reciprocals of both sides:<br/>$$\\frac{n}{12} = \\frac{tw}{2(w-t)}$$<br/>Multiply both sides by 12:<br/>$$n = \\frac{12tw}{2(w-t)} = \\frac{6tw}{w-t}$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "When $\\frac{12}{n} = \\frac{2(w-t)}{tw}$, take reciprocals of both sides:<br/>$$\\frac{n}{12} = \\frac{tw}{2(w-t)}$$<br/>Multiply both sides by 12:<br/>$$n = \\frac{12tw}{2(w-t)} = \\frac{6tw}{w-t}$$<br/>That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

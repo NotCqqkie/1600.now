@@ -1,1 +1,18 @@
-{"questionId": "9628151f-9763-4abc-8c66-9dc08f82f715_21", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Spot the vertex form", "content": "$f(x) = (x-1)^2 + 7$ is vertex form $a(x-h)^2 + k$ with $a = 1 > 0$, so the parabola opens upward and the vertex is a minimum."}, {"title": "Read $k$ directly — that is the minimum value", "content": "The minimum equals $k = 7$. No solving needed. That matches choice C — <strong>C</strong> is correct.", "desmosExpressions": ["f(x) = (x-1)^2 + 7"]}]}
+{
+  "questionId": "9628151f-9763-4abc-8c66-9dc08f82f715_21",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Spot the vertex form",
+      "content": "$f(x) = (x-1)^2 + 7$ is vertex form $a(x-h)^2 + k$ with $a = 1 > 0$, so the parabola opens upward and the vertex is a minimum."
+    },
+    {
+      "title": "Read $k$ directly — that is the minimum value",
+      "content": "The minimum equals $k = 7$. No solving needed. That matches choice C — <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "f(x) = (x-1)^2 + 7"
+      ]
+    }
+  ]
+}

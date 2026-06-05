@@ -1,1 +1,19 @@
-{"questionId":"6197d48e-7c76-4333-af39-0b9aa39e924c_3","correctAnswer":"D","section":"Math","steps":[{"title":"Apply the multiplier from the given condition","content":"Note $24x = 6 \\cdot 4x$, and $4x=7$."},{"title":"Compute the target value","content":"So $24x = 6 \\cdot 7 = 42$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "6197d48e-7c76-4333-af39-0b9aa39e924c_3",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the multiplier from the given condition",
+      "content": "Note $24x = 6 \\cdot 4x$, and $4x=7$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "So $24x = 6 \\cdot 7 = 42$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice D, 42. The other choices do not satisfy the same condition from the question, so <strong>D</strong> is correct."
+    }
+  ]
+}

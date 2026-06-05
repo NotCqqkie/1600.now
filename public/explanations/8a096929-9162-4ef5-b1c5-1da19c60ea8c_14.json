@@ -1,5 +1,19 @@
-{"questionId": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_14", "correctAnswer": "A", "section": "Math", "steps": [
-  {"title": "Identify what the equation must represent", "content": "The container starts with 24 mL. Water drips in at a constant rate (one 0.03 mL drop every 3 seconds), so $v$ is a linear function of $t$ with initial value 24 and a positive slope equal to the drip rate."},
-  {"title": "Calculate the drip rate", "content": "Rate = $\\frac{0.03 \\text{ mL}}{3 \\text{ s}} = 0.01$ mL per second. After $t$ seconds the added volume is $0.01t$ mL, giving $v = 0.01t + 24$."},
-  {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; $v = 0.01t + 24$</strong>: Rate 0.01 mL/s, starting at 24 mL. Matches the setup exactly. &#10003;</li><li><strong>Choice B &mdash; $v = 0.03t + 24$</strong>: Rate 0.03 mL/s would mean a full 0.03 mL drop every second, not every 3 seconds. &#10007;</li><li><strong>Choice C &mdash; $v = 0.09t + 24$</strong>: Rate 0.09 mL/s is 9 times the actual rate. &#10007;</li><li><strong>Choice D &mdash; $v = 3t$</strong>: No initial 24 mL, and the rate is wrong. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}
-]}
+{
+  "questionId": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_14",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what the equation must represent",
+      "content": "The container starts with 24 mL. Water drips in at a constant rate (one 0.03 mL drop every 3 seconds), so $v$ is a linear function of $t$ with initial value 24 and a positive slope equal to the drip rate."
+    },
+    {
+      "title": "Calculate the drip rate",
+      "content": "Rate = $\\frac{0.03 \\text{ mL}}{3 \\text{ s}} = 0.01$ mL per second. After $t$ seconds the added volume is $0.01t$ mL, giving $v = 0.01t + 24$."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; $v = 0.01t + 24$</strong>: Rate 0.01 mL/s, starting at 24 mL. Matches the setup exactly. &#10003;</li><li><strong>Choice B &mdash; $v = 0.03t + 24$</strong>: Rate 0.03 mL/s would mean a full 0.03 mL drop every second, not every 3 seconds. &#10007;</li><li><strong>Choice C &mdash; $v = 0.09t + 24$</strong>: Rate 0.09 mL/s is 9 times the actual rate. &#10007;</li><li><strong>Choice D &mdash; $v = 3t$</strong>: No initial 24 mL, and the rate is wrong. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

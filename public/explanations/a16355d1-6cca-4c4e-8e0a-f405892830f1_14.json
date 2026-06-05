@@ -1,1 +1,23 @@
-{"questionId":"a16355d1-6cca-4c4e-8e0a-f405892830f1_14","correctAnswer":"C","section":"Math","steps":[{"title":"Set up","content":"Complete the square to find the circle&apos;s radius:<br/>$$x^2 - 4x + y^2 - 8y - 80 = 0$$<br/>$$(x-2)^2 - 4 + (y-4)^2 - 16 - 80 = 0$$<br/>$$(x-2)^2 + (y-4)^2 = 100$$<br/>Radius $r = \\sqrt{100} = 10$."},{"title":"Solve","content":"A circle inscribed in a square touches all four sides, so the side length equals the diameter:<br/>$$\\text{side} = 2r = 20$$<br/>$$\\text{perimeter} = 4 \\times 20 = 80$$"},{"title":"Answer","content":"<strong>C</strong> is correct.","desmosExpressions":["x^2 - 4x + y^2 - 8y - 80 = 0","(x-2)^2 + (y-4)^2 = 100"]}]}
+{
+  "questionId": "a16355d1-6cca-4c4e-8e0a-f405892830f1_14",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "Complete the square to find the circle&apos;s radius:<br/>$$x^2 - 4x + y^2 - 8y - 80 = 0$$<br/>$$(x-2)^2 - 4 + (y-4)^2 - 16 - 80 = 0$$<br/>$$(x-2)^2 + (y-4)^2 = 100$$<br/>Radius $r = \\sqrt{100} = 10$."
+    },
+    {
+      "title": "Solve",
+      "content": "A circle inscribed in a square touches all four sides, so the side length equals the diameter:<br/>$$\\text{side} = 2r = 20$$<br/>$$\\text{perimeter} = 4 \\times 20 = 80$$"
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "x^2 - 4x + y^2 - 8y - 80 = 0",
+        "(x-2)^2 + (y-4)^2 = 100"
+      ]
+    }
+  ]
+}

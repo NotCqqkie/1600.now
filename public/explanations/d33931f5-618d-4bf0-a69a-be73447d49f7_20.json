@@ -1,1 +1,23 @@
-{"questionId": "d33931f5-618d-4bf0-a69a-be73447d49f7_20", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Solve the system by substitution", "content": "Multiply the first equation by 20: $4(x-7)+5(y+8)=0$, so $4x+5y=-12$. Combined with $3x+4y=0$: solve to get $x=-48,\\ y=36$."}, {"title": "Find the value of $x + y$", "content": "Then $x+y=-48+36=-12$. That matches choice <strong>A</strong> — <strong>A</strong> is correct.", "desmosExpressions": ["y = -\\frac{4(x - 7)}{5} - 8", "y = -\\frac{3x}{4}"]}]}
+{
+  "questionId": "d33931f5-618d-4bf0-a69a-be73447d49f7_20",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve the system by substitution",
+      "content": "Multiply the first equation by 20: $4(x-7)+5(y+8)=0$, so $4x+5y=-12$. Combined with $3x+4y=0$: solve to get $x=-48,\\ y=36$."
+    },
+    {
+      "title": "Find the value of $x + y$",
+      "content": "Then $x+y=-48+36=-12$. That matches choice <strong>A</strong> — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y = -\\frac{4(x - 7)}{5} - 8",
+        "y = -\\frac{3x}{4}"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice A, -12, and the other choices fail the same setup or substitution. Therefore <strong>A</strong> is correct."
+    }
+  ]
+}

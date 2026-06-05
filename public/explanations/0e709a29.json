@@ -1,1 +1,15 @@
-{"questionId":"0e709a29","correctAnswer":"D","section":"Math","steps":[{"title":"Locate the right angle and the angle equal to $W$","content":"Check the Pythagorean theorem: $440^2+384^2=341056=584^2$, so the right angle is at $S$ and $TR$ is the hypotenuse. Since $T$ corresponds to $W$, $\\tan W=\\tan T$."},{"title":"Compute the tangent ratio","content":"For angle $T$, the opposite leg is $RS=440$ and the adjacent leg is $ST=384$. $$\\tan W=\\tan T=\\frac{440}{384}=\\frac{55}{48}.$$ That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "0e709a29",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Locate the right angle and the angle equal to $W$",
+      "content": "Check the Pythagorean theorem: $440^2+384^2=341056=584^2$, so the right angle is at $S$ and $TR$ is the hypotenuse. Since $T$ corresponds to $W$, $\\tan W=\\tan T$."
+    },
+    {
+      "title": "Compute the tangent ratio",
+      "content": "For angle $T$, the opposite leg is $RS=440$ and the adjacent leg is $ST=384$. $$\\tan W=\\tan T=\\frac{440}{384}=\\frac{55}{48}.$$ That matches choice <strong>D</strong> — <strong>D</strong> is correct."
+    }
+  ]
+}

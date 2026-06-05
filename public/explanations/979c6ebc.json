@@ -9,8 +9,19 @@
     },
     {
       "title": "Parametrize the line by solving for x in terms of y",
-      "content": "Since every point on the line is a solution, solve $7x + 6y = 5$ for $x$:<br/>$$7x = 5 - 6y$$<br/>$$x = -\\frac{6y}{7} + \\frac{5}{7}$$<br/>Setting the parameter $y = r$ gives the point $\\left(-\\frac{6r}{7} + \\frac{5}{7}, r\\right)$ for any real number $r$. That matches choice D \u2014 <strong>D</strong> is correct.",
-      "desmosExpressions": ["y = (5 - 7x)/6", "y = (20 - 28x)/24"]
+      "content": "Define $L(x,y)=7x+6y$. A correct parametrization must make $L(x,y)=5$ for every value of $r$. Set $r=[0,1]$ and evaluate each choice. The row for choice D returns $[5,5]$, so it stays on the solution line for both tested values.",
+      "desmosExpressions": [
+        "r=[0,1]",
+        "L(x,y)=7x+6y",
+        "L(r,-6r/7+5/7)",
+        "L(r,7r/6+5/6)",
+        "L(r/4+5,-r/4+20)",
+        "L(-6r/7+5/7,r)"
+      ]
+    },
+    {
+      "title": "Confirm choice D",
+      "content": "For choice D, $x=-\\frac{6r}{7}+\\frac{5}{7}$ and $y=r$. Substituting gives $7\\left(-\\frac{6r}{7}+\\frac{5}{7}\\right)+6r=-6r+5+6r=5$, true for every $r$. Choice <strong>D</strong> is correct."
     }
   ]
 }

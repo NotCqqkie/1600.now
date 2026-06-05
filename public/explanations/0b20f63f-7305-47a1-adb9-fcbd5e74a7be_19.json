@@ -1,1 +1,26 @@
-{"questionId": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_19", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Pick the right model family from the spread of points", "content": "The data climbs in roughly even steps — from near $(1200, 800)$ up through $(3200, 3100)$ and on to $(4100, 4100)$. The increase looks linear (no upward curl), so the right model is one of the linear choices, A or B. Choices C and D are exponential and don't match."}, {"title": "Pick the right sign for the slope", "content": "$y$ clearly <em>increases</em> with $x$, so the slope must be positive. Choice B uses $-1.2x$ (negative slope) and is eliminated. That leaves choice A: $y = -694 + 1.2x$."}, {"title": "Verify choice A against a data point", "content": "Use the point near $(3200, 3100)$. Plugging into $y = -694 + 1.2x$: $$y = -694 + 1.2(3200) = -694 + 3840 = 3146,$$ very close to the observed $\\approx 3100$. The fit is good. That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_19",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Graph the useful candidates",
+      "content": "This is a model-fit question, so use the graph instead of solving symbolically. The points climb in roughly even steps, so a linear model is appropriate; the exponential choices would curve far too sharply for $x$-values in the thousands. In Desmos, plot a few visible data anchors and graph the two linear answer choices.",
+      "desmosExpressions": [
+        "x_1=[1200,3200,4100]",
+        "y_1=[800,3100,4100]",
+        "(x_1,y_1)",
+        "y=-694+1.2x",
+        "y=694-1.2x"
+      ]
+    },
+    {
+      "title": "Pick the right sign and intercept",
+      "content": "$y$ clearly increases as $x$ increases, so the slope must be positive. Choice B has slope $-1.2$, so it slopes the wrong way. Choice A, $y=-694+1.2x$, has positive slope and runs through the middle of the visible data cloud."
+    },
+    {
+      "title": "Verify choice A against a data point",
+      "content": "Use the point near $(3200, 3100)$. Plugging into $y = -694 + 1.2x$: $$y = -694 + 1.2(3200) = -694 + 3840 = 3146,$$ very close to the observed $\\approx 3100$. The fit is good. That matches choice A — <strong>A</strong> is correct."
+    }
+  ]
+}

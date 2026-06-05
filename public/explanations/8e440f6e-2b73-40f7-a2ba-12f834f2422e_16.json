@@ -1,1 +1,24 @@
-{"questionId": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_16", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Identify two points on the line of best fit", "content": "The line of best fit is already drawn on the scatterplot. Select two clear points on this line:<ul><li>At $x = 0$ (the y-axis), the line passes through approximately $y = 25$</li><li>At $x = 80$ (the right edge of the grid), the line passes through approximately $y = 11$</li></ul>"}, {"title": "Calculate slope using the two points", "content": "Apply the slope formula:$$\\text{slope} = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{11 - 25}{80 - 0} = \\frac{-14}{80}$$Simplify the fraction:$$\\frac{-14}{80} = \\frac{-7}{40} = -0.175$$"}, {"title": "Match to the closest choice", "content": "The calculated slope of $-0.175$ rounds to $-0.17$, the only choice within $0.005$ of this value. That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_16",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use endpoint anchors",
+      "content": "The line of best fit is already drawn. Two clear points on it are approximately $(0,25)$ and $(80,11)$.",
+      "desmosExpressions": [
+        "x_1=[0,80]",
+        "y_1=[25,11]",
+        "y_1~m x_1+b"
+      ]
+    },
+    {
+      "title": "Compute the slope",
+      "content": "$$m=\\frac{11-25}{80-0}=\\frac{-14}{80}=-0.175$$"
+    },
+    {
+      "title": "Pick the closest answer",
+      "content": "The closest listed slope is $-0.17$. The other negative choices are much too steep, and no positive choice is possible because the line slopes downward. Choice <strong>D</strong> is correct."
+    }
+  ]
+}

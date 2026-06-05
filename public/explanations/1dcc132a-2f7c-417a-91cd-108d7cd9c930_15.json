@@ -1,1 +1,19 @@
-{"questionId":"1dcc132a-2f7c-417a-91cd-108d7cd9c930_15","correctAnswer":"A","section":"Math","steps":[{"title":"Set up","content":"The pool is $21$ ft by $11$ ft. A path $x$ ft wide surrounds it, making the outer rectangle $(21 + 2x)$ by $(11 + 2x)$. Path area = outer area &minus; pool area:<br/>$$(21 + 2x)(11 + 2x) - 231 = 144$$"},{"title":"Solve","content":"$(21 + 2x)(11 + 2x) = 375$. Expand: $4x^2 + 64x + 231 = 375$, so $4x^2 + 64x - 144 = 0$, or $x^2 + 16x - 36 = 0$. Factor: $(x + 18)(x - 2) = 0$, giving $x = 2$ or $x = -18$. Since width is positive, $x = 2$."},{"title":"Answer","content":"<strong>A</strong> is correct."}]}
+{
+  "questionId": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_15",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "The pool is $21$ ft by $11$ ft. A path $x$ ft wide surrounds it, making the outer rectangle $(21 + 2x)$ by $(11 + 2x)$. Path area = outer area &minus; pool area:<br/>$$(21 + 2x)(11 + 2x) - 231 = 144$$"
+    },
+    {
+      "title": "Solve",
+      "content": "$(21 + 2x)(11 + 2x) = 375$. Expand: $4x^2 + 64x + 231 = 375$, so $4x^2 + 64x - 144 = 0$, or $x^2 + 16x - 36 = 0$. Factor: $(x + 18)(x - 2) = 0$, giving $x = 2$ or $x = -18$. Since width is positive, $x = 2$."
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>A</strong> is correct."
+    }
+  ]
+}

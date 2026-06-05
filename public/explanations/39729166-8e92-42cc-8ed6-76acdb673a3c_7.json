@@ -1,1 +1,19 @@
-{"questionId":"39729166-8e92-42cc-8ed6-76acdb673a3c_7","correctAnswer":"B","section":"Math","steps":[{"title":"Set up","content":"Area of rectangle X = 24 &times; 17.5 = 420 mm&sup2;. The rectangle&apos;s area is 3 times the triangle&apos;s area, so triangle Y&apos;s area = 420 &divide; 3 = 140 mm&sup2;."},{"title":"Solve","content":"Area of a right triangle = &frac12; &times; base &times; height. Plug in: 140 = &frac12; &times; 20 &times; h = 10h, so h = 14."},{"title":"Answer","content":"<strong>B</strong> is correct."}]}
+{
+  "questionId": "39729166-8e92-42cc-8ed6-76acdb673a3c_7",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "Area of rectangle X = 24 &times; 17.5 = 420 mm&sup2;. The rectangle&apos;s area is 3 times the triangle&apos;s area, so triangle Y&apos;s area = 420 &divide; 3 = 140 mm&sup2;."
+    },
+    {
+      "title": "Solve",
+      "content": "Area of a right triangle = &frac12; &times; base &times; height. Plug in: 140 = &frac12; &times; 20 &times; h = 10h, so h = 14."
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>B</strong> is correct."
+    }
+  ]
+}

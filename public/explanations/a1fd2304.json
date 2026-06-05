@@ -1,1 +1,20 @@
-{"questionId": "a1fd2304", "correctAnswer": "1.5", "section": "Math", "steps": [{"title": "Set up the mixture equation", "content": "Pure saline is conserved when mixing solutions. Identify the amount of pure saline in each component:<ul><li>3 liters at 10% contains $3 \\times 0.10 = 0.3$ liters of pure saline</li><li>Let $x$ = liters of 25% solution to add, containing $0.25x$ liters of pure saline</li><li>Final mixture: $(3 + x)$ liters at 15% contains $0.15(3 + x)$ liters of pure saline</li></ul>"}, {"title": "Create the conservation equation", "content": "Pure saline from both initial solutions must equal pure saline in the final mixture:", "formula": "$$0.3 + 0.25x = 0.15(3 + x)$$"}, {"title": "Solve for x", "content": "Expand the right side:<br/>$$0.3 + 0.25x = 0.45 + 0.15x$$<br/>Subtract $0.15x$ from both sides and subtract $0.3$ from both sides:<br/>$$0.10x = 0.15$$<br/>Divide both sides by $0.10$:<br/>$$x = 1.5$$<br/>We must add <strong>1.5 liters</strong> of the 25% saline solution."}]}
+{
+  "questionId": "a1fd2304",
+  "correctAnswer": "1.5",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the mixture equation",
+      "content": "Pure saline is conserved when mixing solutions. Identify the amount of pure saline in each component:<ul><li>3 liters at 10% contains $3 \\times 0.10 = 0.3$ liters of pure saline</li><li>Let $x$ = liters of 25% solution to add, containing $0.25x$ liters of pure saline</li><li>Final mixture: $(3 + x)$ liters at 15% contains $0.15(3 + x)$ liters of pure saline</li></ul>"
+    },
+    {
+      "title": "Create the conservation equation",
+      "content": "Pure saline from both initial solutions must equal pure saline in the final mixture:",
+      "formula": "$$0.3 + 0.25x = 0.15(3 + x)$$"
+    },
+    {
+      "title": "Solve for x",
+      "content": "Expand the right side:<br/>$$0.3 + 0.25x = 0.45 + 0.15x$$<br/>Subtract $0.15x$ from both sides and subtract $0.3$ from both sides:<br/>$$0.10x = 0.15$$<br/>Divide both sides by $0.10$:<br/>$$x = 1.5$$<br/>We must add <strong>1.5 liters</strong> of the 25% saline solution."
+    }
+  ]
+}

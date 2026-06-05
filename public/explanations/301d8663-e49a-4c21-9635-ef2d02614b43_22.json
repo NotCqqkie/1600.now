@@ -1,1 +1,22 @@
-{"questionId": "301d8663-e49a-4c21-9635-ef2d02614b43_22", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Analyze the equation", "content": "Isolate $x^2$: $$x^2=\\tfrac{64}{25}.$$ The right side is positive, so $x=\\pm\\tfrac{8}{5}$."}, {"title": "Count the solutions", "content": "There are two real solutions, $\\tfrac{8}{5}$ and $-\\tfrac{8}{5}$. That matches choice <strong>C</strong> — <strong>C</strong> is correct.", "desmosExpressions": ["y = x^{2} - \\frac{64}{25}"]}]}
+{
+  "questionId": "301d8663-e49a-4c21-9635-ef2d02614b43_22",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Analyze the equation",
+      "content": "Isolate $x^2$: $$x^2=\\tfrac{64}{25}.$$ The right side is positive, so $x=\\pm\\tfrac{8}{5}$."
+    },
+    {
+      "title": "Count the solutions",
+      "content": "There are two real solutions, $\\tfrac{8}{5}$ and $-\\tfrac{8}{5}$. That matches choice <strong>C</strong> — <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "y = x^{2} - \\frac{64}{25}"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice C, Exactly two. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
+    }
+  ]
+}

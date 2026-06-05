@@ -1,1 +1,25 @@
-{"questionId":"4b0c156b","correctAnswer":"D","section":"Math","steps":[{"title":"Find the slope from the two points","content":"Using $h(28)=15$ and $h(26)=22$: $$m=\\frac{22-15}{26-28}=\\frac{7}{-2}=-\\frac{7}{2}.$$"},{"title":"Find the y-intercept","content":"Use $h(28)=15$ with $h(x)=-\\frac{7}{2}x+b$: $$15=-\\frac{7}{2}(28)+b=-98+b,$$ so $b=113$. Therefore $h(x)=-\\frac{7}{2}x+113$."},{"title":"Verify and eliminate the other choices","content":"Check: $h(26)=-\\frac{7}{2}(26)+113=-91+113=22.$ Correct.<ul><li>$h(x)=-\\frac{2}{7}x+23$: slope $-\\frac{2}{7}$ does not match $-\\frac{7}{2}$ &mdash; wrong slope.</li><li>$h(x)=-\\frac{2}{7}x+113$: wrong slope.</li><li>$h(x)=-\\frac{7}{2}x+23$: correct slope but $h(28)=-98+23=-75\\neq 15$ &mdash; wrong intercept.</li><li>$h(x)=-\\frac{7}{2}x+113$: matches both data points.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "4b0c156b",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use a two-point regression",
+      "content": "Treat $h(28)=15$ and $h(26)=22$ as the points $(28,15)$ and $(26,22)$. In Desmos, enter $x_1=[28,26]$, $y_1=[15,22]$, and $y_1\\sim mx_1+b$. The regression gives $m=-\\frac{7}{2}$ and $b=113$, so $h(x)=-\\frac{7}{2}x+113$.",
+      "desmosExpressions": [
+        "x_1=[28,26]",
+        "y_1=[15,22]",
+        "y_1~m x_1+b",
+        "y=m x+b"
+      ]
+    },
+    {
+      "title": "Check the slope and intercept",
+      "content": "By hand, the slope is $\\frac{22-15}{26-28}=\\frac{7}{-2}=-\\frac{7}{2}$. Substitute $(28,15)$ into $h(x)=-\\frac{7}{2}x+b$: $15=-98+b$, so $b=113$."
+    },
+    {
+      "title": "Verify and eliminate the other choices",
+      "content": "Check: $h(26)=-\\frac{7}{2}(26)+113=-91+113=22.$ Correct.<ul><li>$h(x)=-\\frac{2}{7}x+23$: slope $-\\frac{2}{7}$ does not match $-\\frac{7}{2}$ &mdash; wrong slope.</li><li>$h(x)=-\\frac{2}{7}x+113$: wrong slope.</li><li>$h(x)=-\\frac{7}{2}x+23$: correct slope but $h(28)=-98+23=-75\\neq 15$ &mdash; wrong intercept.</li><li>$h(x)=-\\frac{7}{2}x+113$: matches both data points.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

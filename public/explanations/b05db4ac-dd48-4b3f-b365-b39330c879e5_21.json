@@ -1,1 +1,15 @@
-{"questionId":"b05db4ac-dd48-4b3f-b365-b39330c879e5_21","correctAnswer":"D","section":"Math","steps":[{"title":"Identify what the question needs","content":"A function &quot;displays&quot; its $y$-intercept as a constant or coefficient when that value appears explicitly and uncomputed in the written equation. Find $f(0)$ and $g(0)$, then check whether that value is visible as-is in each formula."},{"title":"Eliminate the choices","content":"<ul><li><strong>Function &#8544; &mdash; $f(x)=a(3.3)^{x+b}$</strong>: $f(0)=a(3.3)^{b}$. That value is not a single constant in the equation &mdash; you must compute $(3.3)^{b}$ first. &#10007;</li><li><strong>Function &#8545; &mdash; $g(x)=a(3.3)^{x}+b$</strong>: $g(0)=a(3.3)^{0}+b=a+b$. The value $a+b$ is not written as one term in the equation &mdash; only the individual constants $a$ and $b$ appear, not their sum. &#10007;</li></ul>Neither function displays its $y$-intercept directly. That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "b05db4ac-dd48-4b3f-b365-b39330c879e5_21",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "A function &quot;displays&quot; its $y$-intercept as a constant or coefficient when that value appears explicitly and uncomputed in the written equation. Find $f(0)$ and $g(0)$, then check whether that value is visible as-is in each formula."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Function &#8544; &mdash; $f(x)=a(3.3)^{x+b}$</strong>: $f(0)=a(3.3)^{b}$. That value is not a single constant in the equation &mdash; you must compute $(3.3)^{b}$ first. &#10007;</li><li><strong>Function &#8545; &mdash; $g(x)=a(3.3)^{x}+b$</strong>: $g(0)=a(3.3)^{0}+b=a+b$. The value $a+b$ is not written as one term in the equation &mdash; only the individual constants $a$ and $b$ appear, not their sum. &#10007;</li></ul>Neither function displays its $y$-intercept directly. That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -3,16 +3,16 @@
   "correctAnswer": "D",
   "steps": [
     {
-      "explanation": "Find the slope using the two given points \\((0, 0)\\) and \\((1, 40)\\): $$m = \\frac{40 - 0}{1 - 0} = 40$$"
+      "explanation": "Find the slope using the two given points $(0, 0)$ and $(1, 40)$: $$m = \\frac{40 - 0}{1 - 0} = 40$$"
     },
     {
-      "explanation": "Find the y-intercept. The graph passes through \\((0, 0)\\), so \\(b = 0\\). The equation is \\(h(x) = 40x\\)."
+      "explanation": "Find the y-intercept. The graph passes through $(0, 0)$, so $b = 0$. The equation is $h(x) = 40x$."
     },
     {
-      "explanation": "Verify: \\(h(0) = 40(0) = 0\\) \\checkmark and \\(h(1) = 40(1) = 40\\) \\checkmark."
+      "explanation": "Verify: $h(0) = 40(0) = 0$ \\checkmark and $h(1) = 40(1) = 40$ \\checkmark."
     },
     {
-      "explanation": "<ul><li>Choice A: \\(h(x) = \\frac{1}{40}x + 40\\) &mdash; gives \\(h(0) = 40 \\neq 0\\). Eliminated.</li><li>Choice B: \\(h(x) = x + 40\\) &mdash; gives \\(h(0) = 40 \\neq 0\\). Eliminated.</li><li>Choice C: \\(h(x) = 40x + 40\\) &mdash; gives \\(h(0) = 40 \\neq 0\\). Eliminated.</li><li>Choice D: \\(h(x) = 40x\\) &mdash; gives \\(h(0) = 0\\) and \\(h(1) = 40\\). Both points match. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
+      "explanation": "<ul><li>Choice A: $h(x) = \\frac{1}{40}x + 40$ &mdash; gives $h(0) = 40 \\neq 0$. Eliminated.</li><li>Choice B: $h(x) = x + 40$ &mdash; gives $h(0) = 40 \\neq 0$. Eliminated.</li><li>Choice C: $h(x) = 40x + 40$ &mdash; gives $h(0) = 40 \\neq 0$. Eliminated.</li><li>Choice D: $h(x) = 40x$ &mdash; gives $h(0) = 0$ and $h(1) = 40$. Both points match. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
     }
   ]
 }

@@ -1,1 +1,19 @@
-{"questionId":"d2870056-c182-4523-a3f3-884eafe68114_4","correctAnswer":"B","section":"Math","steps":[{"title":"Apply the substitution from the given condition","content":"Subtract $9$ from both sides of $4c=16$: $4c-9 = 16-9$."},{"title":"Compute the target value","content":"So $4c-9 = 7$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}
+{
+  "questionId": "d2870056-c182-4523-a3f3-884eafe68114_4",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the substitution from the given condition",
+      "content": "Subtract $9$ from both sides of $4c=16$: $4c-9 = 16-9$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "So $4c-9 = 7$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice B, 7. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the area scaling rule",
-      "content": "For similar figures, when linear dimensions scale by factor $k$, areas scale by $k^2$. <br/><br/>The area scale factor is $98^2$. Computing: $98 \\times 98 = 9604$. <br/><br/>Since the area of square A is $k$ times the area of square B, we have $k = 9604$. That matches choice D \u2014 <strong>D</strong> is correct.",
+      "content": "For similar figures, when linear dimensions scale by factor $k$, areas scale by $k^2$. <br/><br/>The area scale factor is $98^2$. Computing: $98 \\times 98 = 9604$. <br/><br/>Since the area of square A is $k$ times the area of square B, we have $k = 9604$. That matches choice D — <strong>D</strong> is correct.",
       "formula": "$$\\text{Area scale factor} = (\\text{linear scale factor})^2$$"
     }
   ]

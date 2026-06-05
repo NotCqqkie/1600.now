@@ -1,1 +1,24 @@
-{"questionId":"08df3b47-9273-4ad6-9301-332804bc6404_14","correctAnswer":"D","section":"Math","steps":[{"title":"Recall the standard form of a circle","content":"A circle with center \\((h,k)\\) and radius \\(r\\) has equation $$(x-h)^2+(y-k)^2=r^2$$ With center \\((-5,1)\\): $h=-5$, $k=1$, so the equation starts as $$(x+5)^2+(y-1)^2=r^2$$"},{"title":"Compute \\(r^2\\) using the point \\((-9,4)\\)","content":"Plug \\((-9,4)\\) into the distance formula from \\((-5,1)\\): $$r^2 = (-9-(-5))^2+(4-1)^2 = (-4)^2+3^2 = 16+9 = 25$$","desmosExpressions":["(x+5)^2+(y-1)^2=25","(-5,1)","(-9,4)"]},{"title":"Evaluate all choices","content":"<ul><li><strong>Choice A &mdash; '\\((x-5)^2+(y+1)^2=5\\)'</strong>: Center would be \\((5,-1)\\), not \\((-5,1)\\), and \\(r^2=5\\neq 25\\). &#10007;</li><li><strong>Choice B &mdash; '\\((x+5)^2+(y-1)^2=5\\)'</strong>: Center \\((-5,1)\\) is correct, but \\(r^2=5\\neq 25\\). &#10007;</li><li><strong>Choice C &mdash; '\\((x-5)^2+(y+1)^2=25\\)'</strong>: \\(r^2=25\\) is correct, but center would be \\((5,-1)\\), not \\((-5,1)\\). &#10007;</li><li><strong>Choice D &mdash; '\\((x+5)^2+(y-1)^2=25\\)'</strong>: Center \\((-5,1)\\) and \\(r^2=25\\) both correct. That matches choice D &mdash; <strong>D</strong> is correct. &#10003;</li></ul>"}]}
+{
+  "questionId": "08df3b47-9273-4ad6-9301-332804bc6404_14",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recall the standard form of a circle",
+      "content": "A circle with center $(h,k)$ and radius $r$ has equation $$(x-h)^2+(y-k)^2=r^2$$ With center $(-5,1)$: $h=-5$, $k=1$, so the equation starts as $$(x+5)^2+(y-1)^2=r^2$$"
+    },
+    {
+      "title": "Compute $r^2$ using the point $(-9,4)$",
+      "content": "Plug $(-9,4)$ into the distance formula from $(-5,1)$: $$r^2 = (-9-(-5))^2+(4-1)^2 = (-4)^2+3^2 = 16+9 = 25$$",
+      "desmosExpressions": [
+        "(x+5)^2+(y-1)^2=25",
+        "(-5,1)",
+        "(-9,4)"
+      ]
+    },
+    {
+      "title": "Evaluate all choices",
+      "content": "<ul><li><strong>Choice A &mdash; '$(x-5)^2+(y+1)^2=5$'</strong>: Center would be $(5,-1)$, not $(-5,1)$, and $r^2=5\\neq 25$. &#10007;</li><li><strong>Choice B &mdash; '$(x+5)^2+(y-1)^2=5$'</strong>: Center $(-5,1)$ is correct, but $r^2=5\\neq 25$. &#10007;</li><li><strong>Choice C &mdash; '$(x-5)^2+(y+1)^2=25$'</strong>: $r^2=25$ is correct, but center would be $(5,-1)$, not $(-5,1)$. &#10007;</li><li><strong>Choice D &mdash; '$(x+5)^2+(y-1)^2=25$'</strong>: Center $(-5,1)$ and $r^2=25$ both correct. That matches choice D &mdash; <strong>D</strong> is correct. &#10003;</li></ul>"
+    }
+  ]
+}

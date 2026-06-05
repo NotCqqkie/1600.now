@@ -1,1 +1,15 @@
-{"questionId": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_2", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Identify the angle pair formed at line q", "content": "At the intersection of transversal $t$ with line $q$, the angles marked $x^\\circ$ and $142^\\circ$ are adjacent angles that together form a straight line. Angles that form a linear pair are supplementary."}, {"title": "Apply the linear pair property and eliminate the distractors", "content": "Two adjacent angles on a straight line must sum to $180^\\circ$. Therefore $x + 142 = 180$.<ul><li><strong>Choice A &mdash; '52'</strong>: this would be the value of $x$ alone ($180 - 142$), not $x + 142$. &#10007;</li><li><strong>Choice B &mdash; '90'</strong>: a linear pair sums to $180^\\circ$, not $90^\\circ$ (that would be a right angle). &#10007;</li><li><strong>Choice C &mdash; '142'</strong>: this would imply $x = 0$, which contradicts the linear-pair sum. &#10007;</li><li><strong>Choice D &mdash; '180'</strong>: matches the linear-pair sum $x + 142 = 180$. &#10003;</li></ul>"}]}
+{
+  "questionId": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_2",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the angle pair formed at line q",
+      "content": "At the intersection of transversal $t$ with line $q$, the angles marked $x^\\circ$ and $142^\\circ$ are adjacent angles that together form a straight line. Angles that form a linear pair are supplementary."
+    },
+    {
+      "title": "Apply the linear pair property and eliminate the distractors",
+      "content": "Two adjacent angles on a straight line must sum to $180^\\circ$. Therefore $x + 142 = 180$.<ul><li><strong>Choice A &mdash; '52'</strong>: this would be the value of $x$ alone ($180 - 142$), not $x + 142$. &#10007;</li><li><strong>Choice B &mdash; '90'</strong>: a linear pair sums to $180^\\circ$, not $90^\\circ$ (that would be a right angle). &#10007;</li><li><strong>Choice C &mdash; '142'</strong>: this would imply $x = 0$, which contradicts the linear-pair sum. &#10007;</li><li><strong>Choice D &mdash; '180'</strong>: matches the linear-pair sum $x + 142 = 180$. &#10003;</li></ul>"
+    }
+  ]
+}

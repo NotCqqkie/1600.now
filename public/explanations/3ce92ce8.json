@@ -1,1 +1,18 @@
-{"questionId": "3ce92ce8", "correctAnswer": "2", "section": "Math", "steps": [{"title": "Read the slope of f(x) directly", "content": "$f(x) = 2x + 3$ is in slope-intercept form. The slope is the coefficient of $x$: slope $= 2$."}, {"title": "Parallel lines share the same slope", "content": "Line $j$ is parallel to $y = f(x)$, so slope of $j$ $= 2$. That matches the answer — <strong>2</strong> is correct.", "desmosExpressions": ["y=2x+3"]}]}
+{
+  "questionId": "3ce92ce8",
+  "correctAnswer": "2",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the slope of f(x) directly",
+      "content": "$f(x) = 2x + 3$ is in slope-intercept form. The slope is the coefficient of $x$: slope $= 2$."
+    },
+    {
+      "title": "Parallel lines share the same slope",
+      "content": "Line $j$ is parallel to $y = f(x)$, so slope of $j$ $= 2$. That matches the answer — <strong>2</strong> is correct.",
+      "desmosExpressions": [
+        "y=2x+3"
+      ]
+    }
+  ]
+}

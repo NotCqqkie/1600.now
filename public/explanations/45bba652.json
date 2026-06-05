@@ -1,1 +1,23 @@
-{"questionId":"45bba652","correctAnswer":"A","section":"Math","steps":[{"title":"Apply the factoring from the given condition","content":"Combine like terms: $5(x-5) = 10$."},{"title":"Compute the target value","content":"Divide by $5$: $x-5 = 2$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}
+{
+  "questionId": "45bba652",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the factoring from the given condition",
+      "content": "Combine like terms: $5(x-5) = 10$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "Divide by $5$: $x-5 = 2$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice A is correct. Adding the like terms on the left-hand side of the given equation yields $5 \\times (x - 5) = 10$. Dividing both sides of this equation by 5 yields $x - 5 = 2$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice B is incorrect and may result from subtracting 5, not dividing by 5, on both sides of the equation $5 \\times (x - 5) = 10$. Choice C is incorrect. This is the value of <em>x</em>, not the value of $x - 5$. Choice D is incorrect. This is the value of $x + 5$, not the value of $x - 5$."
+    }
+  ]
+}

@@ -17,5 +17,7 @@
     }
   ],
   "choiceAnalysis": "<ul><li><strong>Choice A &mdash; '177'</strong>: Far too small; this would correspond to a very thin sliver with incorrect units or formula. &#10007;</li><li><strong>Choice B &mdash; '565'</strong>: Still far too small; does not account for the height of 144 inches. &#10007;</li><li><strong>Choice C &mdash; '2,700'</strong>: This is roughly &pi; &times; 144 &times; 6, which overestimates the wall width or underestimates the pipe circumference. &#10007;</li><li><strong>Choice D &mdash; '16,788'</strong>: Using the annulus formula V = &pi;h(R &minus; r)(R + r) = &pi;(144)(0.625)(59.375) &approx; 16,788 cubic inches. &#10003;</li></ul>That matches choice D &#8212; <strong>D</strong> is correct.",
-  "desmosExpressions": ["\\pi \\cdot 144 \\cdot (30^{2} - 29.375^{2})"]
+  "desmosExpressions": [
+    "\\pi \\cdot 144 \\cdot (30^{2} - 29.375^{2})"
+  ]
 }

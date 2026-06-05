@@ -1,1 +1,27 @@
-{"questionId":"1dcc132a-2f7c-417a-91cd-108d7cd9c930_5","correctAnswer":"D","section":"Math","steps":[{"title":"Set up","content":"Add the two equations. The $y$ terms cancel, leaving $13x = 6$, so $x = 6/13$."},{"title":"Solve","content":"Multiply both sides by 3: $39x = 3 × 6 = 18$."},{"title":"Answer","content":"<strong>D</strong> is correct.", "desmosExpressions": ["y = \\frac{6x + 17}{5}", "y = \\frac{23 - 7x}{5}"]}]}
+{
+  "questionId": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_5",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "Add the two equations. The $y$ terms cancel, leaving $13x = 6$, so $x = 6/13$."
+    },
+    {
+      "title": "Solve",
+      "content": "Multiply both sides by 3: $39x = 3 × 6 = 18$."
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "y = \\frac{6x + 17}{5}",
+        "y = \\frac{23 - 7x}{5}"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice D, $18$, and the other choices fail the same setup or substitution. Therefore <strong>D</strong> is correct."
+    }
+  ]
+}

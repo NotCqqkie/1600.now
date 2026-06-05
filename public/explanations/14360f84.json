@@ -1,1 +1,19 @@
-{"questionId": "14360f84", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Apply the no-solution condition", "content": "Rewrite as $4x-18y=5$ and $-4x+hy=2$. For no solution, coefficients of $x$ and $y$ must be proportional: $$\\frac{-4}{4}=\\frac{h}{-18}.$$"}, {"title": "Solve for the parameter", "content": "This gives $-1=\\tfrac{h}{-18}$, so $h=18$. The constants differ, confirming no solution. That matches choice <strong>D</strong> — <strong>D</strong> is correct.","desmosExpressions":["y = (4x - 5)/18","y = (4x + 2)/18"]}]}
+{
+  "questionId": "14360f84",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the no-solution condition",
+      "content": "Rewrite as $4x-18y=5$ and $-4x+hy=2$. For no solution, coefficients of $x$ and $y$ must be proportional: $$\\frac{-4}{4}=\\frac{h}{-18}.$$"
+    },
+    {
+      "title": "Solve for the parameter",
+      "content": "This gives $-1=\\tfrac{h}{-18}$, so $h=18$. The constants differ, confirming no solution. That matches choice <strong>D</strong> — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "y = (4x - 5)/18",
+        "y = (4x + 2)/18"
+      ]
+    }
+  ]
+}

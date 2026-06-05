@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up the division",
-      "content": "With at least 8 square feet required per person and a total room size of 5,400 square feet, the maximum number of people is found by dividing: maximum people = total area \u00f7 area per person."
+      "content": "With at least 8 square feet required per person and a total room size of 5,400 square feet, the maximum number of people is found by dividing: maximum people = total area ÷ area per person."
     },
     {
       "title": "Calculate the maximum number",
-      "content": "$$\\frac{5,400}{8} = 675$$ That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "$$\\frac{5,400}{8} = 675$$ That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

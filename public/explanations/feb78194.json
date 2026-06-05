@@ -1,1 +1,15 @@
-{"questionId": "feb78194", "correctAnswer": "37", "section": "Math", "steps": [{"title": "Set up the equation for profit", "content": "Given that the profit is $\\$406$, which comes from total revenue minus daily expenses, we can write: <br/> $$\\text{Profit} = \\text{Total Revenue} - \\text{Daily Expenses}$$<br/> Knowing that the daily expense is $\\$112$, and the revenue per tablet rented is $\\$14$, let's denote the number of tablets rented as $x$. Thus, total revenue is $14x$. Therefore: <br/> $$406 = 14x - 112$$"}, {"title": "Solve for x", "content": "<div class=\"callout\">Add $\\$112$ to both sides of the equation to isolate terms involving $x$: <br/> $$406 + 112 = 14x$$<br/> Simplify and solve: <br/> $$518 = 14x$$</div><br/> To find $x$, divide both sides by $14$: <br/> $$\\frac{518}{14} = x$$<br/> Thus, we can solve this easily: $37 = x$. The answer is <strong>37</strong>."}]}
+{
+  "questionId": "feb78194",
+  "correctAnswer": "37",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the equation for profit",
+      "content": "Given that the profit is $\\$406$, which comes from total revenue minus daily expenses, we can write: <br/> $$\\text{Profit} = \\text{Total Revenue} - \\text{Daily Expenses}$$<br/> Knowing that the daily expense is $\\$112$, and the revenue per tablet rented is $\\$14$, let's denote the number of tablets rented as $x$. Thus, total revenue is $14x$. Therefore: <br/> $$406 = 14x - 112$$"
+    },
+    {
+      "title": "Solve for x",
+      "content": "<div class=\"callout\">Add $\\$112$ to both sides of the equation to isolate terms involving $x$: <br/> $$406 + 112 = 14x$$<br/> Simplify and solve: <br/> $$518 = 14x$$</div><br/> To find $x$, divide both sides by $14$: <br/> $$\\frac{518}{14} = x$$<br/> Thus, we can solve this easily: $37 = x$. The answer is <strong>37</strong>."
+    }
+  ]
+}

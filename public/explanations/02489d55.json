@@ -1,1 +1,31 @@
-{"questionId":"02489d55","correctAnswer":"A","section":"Math","steps":[{"title":"Distribute and combine like terms","content":"Distribute $19$:$$19(x^2-7)=19x^2-133$$"},{"title":"Match to the answer choices","content":"The simplified expression is $19x^2-133$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}
+{
+  "questionId": "02489d55",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute and combine like terms",
+      "content": "Distribute $19$:$$19(x^2-7)=19x^2-133$$"
+    },
+    {
+      "title": "Match to the answer choices",
+      "content": "The simplified expression is $19x^2-133$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice A is correct. The expression $19\\left({x}^{2}-7\\right)$ can be rewritten as $19\\left({x}^{2}\\right)-19\\left(7\\right)$, which is equivalent to $19{x}^{2}-133$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice B is incorrect and may result from conceptual or calculation errors."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice C is incorrect and may result from conceptual or calculation errors."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice D is incorrect and may result from conceptual or calculation errors."
+    }
+  ]
+}

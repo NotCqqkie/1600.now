@@ -4,8 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the wind chill at 27\u00b0F and 20 mph",
-      "content": "Locate the row for air temperature 27\u00b0F and the column for wind chill temperature at wind speed 20 mph in the table. Their intersection gives <strong>13</strong>\u00b0F."
+      "title": "Find the wind chill at 27°F and 20 mph",
+      "content": "Locate the row for air temperature 27°F and the column for wind chill temperature at wind speed 20 mph in the table. Their intersection gives <strong>13</strong>°F."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $13$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $13$."
     }
   ]
 }

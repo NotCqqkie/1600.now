@@ -1,1 +1,19 @@
-{"questionId": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_20", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Express f(x+1) in terms of f(x)", "content": "For \\(f(x)=15b^{x}\\):<br/>$$f(x+1)=15b^{x+1}=b \\cdot 15b^{x}=b \\cdot f(x)$$<br/>So increasing \\(x\\) by 1 multiplies \\(f(x)\\) by \\(b\\)."}, {"title": "Convert the multiplicative factor to a percent increase", "content": "Percent increase formula:<br/>$$e = \\frac{f(x+1)-f(x)}{f(x)} \\times 100 = \\frac{b \\cdot f(x) - f(x)}{f(x)} \\times 100 = (b-1) \\times 100 = 100(b-1)$$"}, {"title": "Match to choices", "content": "<ul><li>A: \\(1+\\frac{b}{100}\\) — does not equal \\(100(b-1)\\). Eliminated.</li><li>B: \\(b+100\\) — does not equal \\(100(b-1)\\). Eliminated.</li><li>C: \\(100(b+1)\\) — would equal \\(100b+100\\), not \\(100b-100\\). Eliminated.</li><li>D: \\(100(b-1)\\) — matches exactly. That matches choice D — <strong>D</strong> is correct.</li></ul>"}]}
+{
+  "questionId": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_20",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Express f(x+1) in terms of f(x)",
+      "content": "For $f(x)=15b^{x}$:<br/>$$f(x+1)=15b^{x+1}=b \\cdot 15b^{x}=b \\cdot f(x)$$<br/>So increasing $x$ by 1 multiplies $f(x)$ by $b$."
+    },
+    {
+      "title": "Convert the multiplicative factor to a percent increase",
+      "content": "Percent increase formula:<br/>$$e = \\frac{f(x+1)-f(x)}{f(x)} \\times 100 = \\frac{b \\cdot f(x) - f(x)}{f(x)} \\times 100 = (b-1) \\times 100 = 100(b-1)$$"
+    },
+    {
+      "title": "Match to choices",
+      "content": "<ul><li>A: $1+\\frac{b}{100}$ — does not equal $100(b-1)$. Eliminated.</li><li>B: $b+100$ — does not equal $100(b-1)$. Eliminated.</li><li>C: $100(b+1)$ — would equal $100b+100$, not $100b-100$. Eliminated.</li><li>D: $100(b-1)$ — matches exactly. That matches choice D — <strong>D</strong> is correct.</li></ul>"
+    }
+  ]
+}

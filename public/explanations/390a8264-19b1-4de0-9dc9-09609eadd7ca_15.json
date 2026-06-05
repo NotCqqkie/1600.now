@@ -1,1 +1,19 @@
-{"questionId":"390a8264-19b1-4de0-9dc9-09609eadd7ca_15","correctAnswer":"A","section":"Math","steps":[{"title":"Statement I: The Mean","content":"Adding 10 to F gives G with 56 values. Since every value in F is between 150 and 260, and 10 is far below that range, the new mean is pulled down. The mean of G must be less than the mean of F. Statement I is always true."},{"title":"Statement II: The Median","content":"F has 55 values; its median is the 28th value. G has 56 values; 10 is the smallest, so sorted G = [10, then all 55 of F sorted]. The median of G = average of G's 28th and 29th values = average of F's 27th and 28th values. If the 27th and 28th values of F are equal (e.g., both 8), the median of G equals the median of F. Statement II is not guaranteed to decrease."},{"title":"Evaluate all choices","content":"<ul><li>Choice A: I only — the mean must decrease; the median need not. That matches choice A — <strong>A</strong> is correct.</li><li>Choice B: II only — the median is not guaranteed to decrease. Eliminated.</li><li>Choice C: I and II — Statement II is not always true. Eliminated.</li><li>Choice D: Neither — Statement I is always true. Eliminated.</li></ul>"}]}
+{
+  "questionId": "390a8264-19b1-4de0-9dc9-09609eadd7ca_15",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Statement I: The Mean",
+      "content": "Adding 10 to F gives G with 56 values. Since every value in F is between 150 and 260, and 10 is far below that range, the new mean is pulled down. The mean of G must be less than the mean of F. Statement I is always true."
+    },
+    {
+      "title": "Statement II: The Median",
+      "content": "F has 55 values; its median is the 28th value. G has 56 values; 10 is the smallest, so sorted G = [10, then all 55 of F sorted]. The median of G = average of G's 28th and 29th values = average of F's 27th and 28th values. If the 27th and 28th values of F are equal (e.g., both 8), the median of G equals the median of F. Statement II is not guaranteed to decrease."
+    },
+    {
+      "title": "Evaluate all choices",
+      "content": "<ul><li>Choice A: I only — the mean must decrease; the median need not. That matches choice A — <strong>A</strong> is correct.</li><li>Choice B: II only — the median is not guaranteed to decrease. Eliminated.</li><li>Choice C: I and II — Statement II is not always true. Eliminated.</li><li>Choice D: Neither — Statement I is always true. Eliminated.</li></ul>"
+    }
+  ]
+}

@@ -1,1 +1,19 @@
-{"questionId": "bd7f6e30", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Use the isosceles condition", "content": "Since $RT = TU$, triangle $RTU$ is isosceles, so its base angles are equal: $\\angle TRU = \\angle TUR$. The exterior angle at $T$ (marked $114°$) is supplementary to the interior angle $\\angle RTU$, so $\\angle RTU = 180° - 114° = 66°$. Therefore each base angle is $\\frac{180° - 66°}{2} = 57°$."}, {"title": "Find the angles at R from triangle STR", "content": "The exterior angle of triangle $STR$ at vertex $T$ equals the sum of the two non-adjacent interior angles: $114° = \\angle SRT + \\angle RST$. From the figure, $\\angle RST = 50°$, so $\\angle SRT = 114° - 50° = 64°$."}, {"title": "Identify x", "content": "From the figure, $x = \\angle SRT = 64°$. The answer is <strong>64</strong> — that matches choice <strong>C</strong>."}]}
+{
+  "questionId": "bd7f6e30",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the isosceles condition",
+      "content": "Since $RT = TU$, triangle $RTU$ is isosceles, so its base angles are equal: $\\angle TRU = \\angle TUR$. The exterior angle at $T$ (marked $114°$) is supplementary to the interior angle $\\angle RTU$, so $\\angle RTU = 180° - 114° = 66°$. Therefore each base angle is $\\frac{180° - 66°}{2} = 57°$."
+    },
+    {
+      "title": "Find the angles at R from triangle STR",
+      "content": "The exterior angle of triangle $STR$ at vertex $T$ equals the sum of the two non-adjacent interior angles: $114° = \\angle SRT + \\angle RST$. From the figure, $\\angle RST = 50°$, so $\\angle SRT = 114° - 50° = 64°$."
+    },
+    {
+      "title": "Identify x",
+      "content": "From the figure, $x = \\angle SRT = 64°$. The answer is <strong>64</strong> — that matches choice <strong>C</strong>."
+    }
+  ]
+}

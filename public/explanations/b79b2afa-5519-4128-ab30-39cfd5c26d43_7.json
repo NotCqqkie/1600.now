@@ -1,1 +1,19 @@
-{"questionId": "b79b2afa-5519-4128-ab30-39cfd5c26d43_7", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Simplify the expression", "content": "A $\\tfrac{1}{n}$ exponent is the $n$th root: $$x^{1/17}=\\sqrt[17]{x}.$$"}, {"title": "Match to the answer choices", "content": "That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}
+{
+  "questionId": "b79b2afa-5519-4128-ab30-39cfd5c26d43_7",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify the expression",
+      "content": "A $\\tfrac{1}{n}$ exponent is the $n$th root: $$x^{1/17}=\\sqrt[17]{x}.$$"
+    },
+    {
+      "title": "Match to the answer choices",
+      "content": "That matches choice <strong>A</strong> — <strong>A</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice A, $\\sqrt[17]{x}$. The other choices do not satisfy the same condition from the question, so <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -9,7 +9,7 @@
     },
     {
       "title": "Solve for the substitution variable",
-      "content": "With $u = 3x+6$, the equation becomes:<br/>$$5u = 3u + 78$$<br/>Subtracting $3u$ from both sides gives:<br/>$$2u = 78$$<br/>Dividing both sides by 2:<br/>$$u = 39$$<br/>Since $u = 3x+6$, the value of $3x+6$ is 39. That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "With $u = 3x+6$, the equation becomes:<br/>$$5u = 3u + 78$$<br/>Subtracting $3u$ from both sides gives:<br/>$$2u = 78$$<br/>Dividing both sides by 2:<br/>$$u = 39$$<br/>Since $u = 3x+6$, the value of $3x+6$ is 39. That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,23 @@
-{"questionId": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_7", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Substitute the value x=0", "content": "The $y$-intercept occurs at $x=0$: $f(0)=(-7)(4)^{0}+31$."}, {"title": "Compute the y-intercept", "content": "$f(0)=(-7)(1)+31=24$, so the intercept is $(0,24)$. That matches choice <strong>A</strong> — <strong>A</strong> is correct.", "desmosExpressions": ["f(x) = -7(4)^{x} + 31", "(0, 24)"]}]}
+{
+  "questionId": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_7",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the value x=0",
+      "content": "The $y$-intercept occurs at $x=0$: $f(0)=(-7)(4)^{0}+31$."
+    },
+    {
+      "title": "Compute the y-intercept",
+      "content": "$f(0)=(-7)(1)+31=24$, so the intercept is $(0,24)$. That matches choice <strong>A</strong> — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "f(x) = -7(4)^{x} + 31",
+        "(0, 24)"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice A, $(0, 24)$. The other choices do not satisfy the same condition from the question, so <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,19 @@
-{"questionId":"9c629a63-5faf-46a6-929d-d4196f7c3150_10","correctAnswer":"C","section":"Math","steps":[{"title":"Use the two given values","content":"We are told $f(0)=7$ and $f(2)=7$. Since $f$ is linear, the slope is $m=\\frac{f(2)-f(0)}{2-0}=\\frac{7-7}{2}=0$, so $f$ is constant."},{"title":"Write the function","content":"A constant linear function that outputs $7$ for every input is $f(x)=7$."},{"title":"Evaluate each choice","content":"<ul><li>A) $f(x)=0$ &mdash; gives $f(0)=0$, not $7$. Eliminated.</li><li>B) $f(x)=2$ &mdash; gives $f(0)=2$, not $7$. Eliminated.</li><li>C) $f(x)=7$ &mdash; gives $f(0)=7$ and $f(2)=7$. Matches.</li><li>D) $f(x)=x+7$ &mdash; gives $f(2)=9$, not $7$. Eliminated.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "9c629a63-5faf-46a6-929d-d4196f7c3150_10",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the two given values",
+      "content": "We are told $f(0)=7$ and $f(2)=7$. Since $f$ is linear, the slope is $m=\\frac{f(2)-f(0)}{2-0}=\\frac{7-7}{2}=0$, so $f$ is constant."
+    },
+    {
+      "title": "Write the function",
+      "content": "A constant linear function that outputs $7$ for every input is $f(x)=7$."
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li>A) $f(x)=0$ &mdash; gives $f(0)=0$, not $7$. Eliminated.</li><li>B) $f(x)=2$ &mdash; gives $f(0)=2$, not $7$. Eliminated.</li><li>C) $f(x)=7$ &mdash; gives $f(0)=7$ and $f(2)=7$. Matches.</li><li>D) $f(x)=x+7$ &mdash; gives $f(2)=9$, not $7$. Eliminated.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

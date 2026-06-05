@@ -1,1 +1,19 @@
-{"questionId": "74dee52b", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Identify what to look for", "content": "The question asks which of the four listed classes ($2002$, $2004$, $2005$, $2007$) had the fewest graduates enrolled in college within 24 months. Compare the heights of just those four points on the line graph and pick the lowest one."}, {"title": "Compare the four candidate years from the figure", "content": "Reading the heights of the four candidate points on the line graph, the point above $2002$ sits lower than the points above $2004$, $2005$, and $2007$. That makes $2002$ the smallest of the four listed years."}, {"title": "Eliminate the other choices", "content": "<ul><li><strong>A. 2002</strong> &mdash; lowest of the four candidate points on the graph. Correct.</li><li><strong>B. 2004</strong> &mdash; the point above $2004$ is higher than the point above $2002$, so not the fewest.</li><li><strong>C. 2005</strong> &mdash; the point above $2005$ is higher than the point above $2002$, so not the fewest.</li><li><strong>D. 2007</strong> &mdash; the point above $2007$ is higher than the point above $2002$, so not the fewest.</li></ul>"}]}
+{
+  "questionId": "74dee52b",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what to look for",
+      "content": "The question asks which of the four listed classes ($2002$, $2004$, $2005$, $2007$) had the fewest graduates enrolled in college within 24 months. Compare the heights of just those four points on the line graph and pick the lowest one."
+    },
+    {
+      "title": "Compare the four candidate years from the figure",
+      "content": "Reading the heights of the four candidate points on the line graph, the point above $2002$ sits lower than the points above $2004$, $2005$, and $2007$. That makes $2002$ the smallest of the four listed years."
+    },
+    {
+      "title": "Eliminate the other choices",
+      "content": "<ul><li><strong>A. 2002</strong> &mdash; lowest of the four candidate points on the graph. Correct.</li><li><strong>B. 2004</strong> &mdash; the point above $2004$ is higher than the point above $2002$, so not the fewest.</li><li><strong>C. 2005</strong> &mdash; the point above $2005$ is higher than the point above $2002$, so not the fewest.</li><li><strong>D. 2007</strong> &mdash; the point above $2007$ is higher than the point above $2002$, so not the fewest.</li></ul>"
+    }
+  ]
+}

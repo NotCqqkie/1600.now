@@ -1,1 +1,22 @@
-{"questionId": "cc7ffe02", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Set up the units", "content": "Keenan made 32 cups of broth total and split it into $x$ small jars and $y$ large jars. The equation $3x + 5y = 32$ totals cups (the right-hand side is in cups), so each term on the left must also be in cups. That forces 3 and 5 to be cup-capacities: 3 cups per small jar and 5 cups per large jar."}, {"title": "Interpret $5y$", "content": "Since $y$ counts large jars and 5 is the cups per large jar, the product $5y$ equals (cups per large jar) $\\times$ (number of large jars) $=$ total cups of broth in all the large jars."}, {"title": "Eliminate the other choices", "content": "<ul><li>A) Number of large jars is just $y$, not $5y$. Eliminate.</li><li>B) Number of small jars is $x$, not $5y$. Eliminate.</li><li>C) Total cups in large jars $= 5y$. Keep.</li><li>D) Total cups in small jars is $3x$, not $5y$. Eliminate.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.", "desmosExpressions": ["3x + 5y = 32"]}]}
+{
+  "questionId": "cc7ffe02",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the units",
+      "content": "Keenan made 32 cups of broth total and split it into $x$ small jars and $y$ large jars. The equation $3x + 5y = 32$ totals cups (the right-hand side is in cups), so each term on the left must also be in cups. That forces 3 and 5 to be cup-capacities: 3 cups per small jar and 5 cups per large jar."
+    },
+    {
+      "title": "Interpret $5y$",
+      "content": "Since $y$ counts large jars and 5 is the cups per large jar, the product $5y$ equals (cups per large jar) $\\times$ (number of large jars) $=$ total cups of broth in all the large jars."
+    },
+    {
+      "title": "Eliminate the other choices",
+      "content": "<ul><li>A) Number of large jars is just $y$, not $5y$. Eliminate.</li><li>B) Number of small jars is $x$, not $5y$. Eliminate.</li><li>C) Total cups in large jars $= 5y$. Keep.</li><li>D) Total cups in small jars is $3x$, not $5y$. Eliminate.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "3x + 5y = 32"
+      ]
+    }
+  ]
+}

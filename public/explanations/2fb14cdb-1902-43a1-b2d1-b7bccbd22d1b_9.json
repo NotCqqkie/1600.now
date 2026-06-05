@@ -1,1 +1,22 @@
-{"questionId":"2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_9","correctAnswer":"A","section":"Math","steps":[{"title":"Set up","content":"Isolate the squared term:<br/>$$\\left(\\frac{1}{2}x - \\frac{21}{2}\\right)^2 = 81$$<br/>Factor $\\tfrac{1}{2}$ from the left side:<br/>$$\\left(\\frac{1}{2}\\right)^2(x - 21)^2 = 81$$<br/>$$\\frac{(x-21)^2}{4} = 81$$"},{"title":"Solve","content":"Multiply both sides by 4:<br/>$$(x - 21)^2 = 324$$"},{"title":"Answer","content":"<strong>A</strong> is correct.","desmosExpressions":["y = \\left(\\frac{1}{2}x - \\frac{21}{2}\\right)^{2} - 81"]}]}
+{
+  "questionId": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_9",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "Isolate the squared term:<br/>$$\\left(\\frac{1}{2}x - \\frac{21}{2}\\right)^2 = 81$$<br/>Factor $\\tfrac{1}{2}$ from the left side:<br/>$$\\left(\\frac{1}{2}\\right)^2(x - 21)^2 = 81$$<br/>$$\\frac{(x-21)^2}{4} = 81$$"
+    },
+    {
+      "title": "Solve",
+      "content": "Multiply both sides by 4:<br/>$$(x - 21)^2 = 324$$"
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y = \\left(\\frac{1}{2}x - \\frac{21}{2}\\right)^{2} - 81"
+      ]
+    }
+  ]
+}

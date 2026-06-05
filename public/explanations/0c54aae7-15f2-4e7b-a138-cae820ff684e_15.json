@@ -1,1 +1,19 @@
-{"questionId":"0c54aae7-15f2-4e7b-a138-cae820ff684e_15","correctAnswer":"11","section":"Math","steps":[{"title":"Find slope of line s","content":"$6x+2y=0 \\Rightarrow y=-3x$. Slope of $s = -3$."},{"title":"Perpendicular slope = negative reciprocal","content":"Slope of line $t = -\\frac{1}{-3} = \\frac{1}{3}$."},{"title":"Solve for k using the slope formula","content":"Line $t$ passes through $(7,0)$ and $(k, \\frac{4}{3})$: $\\frac{4/3 - 0}{k-7} = \\frac{1}{3} \\Rightarrow k-7=4 \\Rightarrow k=11$. That matches choice 11 &mdash; <strong>11</strong> is correct."}]}
+{
+  "questionId": "0c54aae7-15f2-4e7b-a138-cae820ff684e_15",
+  "correctAnswer": "11",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find slope of line s",
+      "content": "$6x+2y=0 \\Rightarrow y=-3x$. Slope of $s = -3$."
+    },
+    {
+      "title": "Perpendicular slope = negative reciprocal",
+      "content": "Slope of line $t = -\\frac{1}{-3} = \\frac{1}{3}$."
+    },
+    {
+      "title": "Solve for k using the slope formula",
+      "content": "Line $t$ passes through $(7,0)$ and $(k, \\frac{4}{3})$: $\\frac{4/3 - 0}{k-7} = \\frac{1}{3} \\Rightarrow k-7=4 \\Rightarrow k=11$. That matches choice 11 &mdash; <strong>11</strong> is correct."
+    }
+  ]
+}

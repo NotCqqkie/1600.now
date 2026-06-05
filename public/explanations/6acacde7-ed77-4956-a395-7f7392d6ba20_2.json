@@ -1,1 +1,19 @@
-{"questionId":"6acacde7-ed77-4956-a395-7f7392d6ba20_2","correctAnswer":"B","section":"Math","steps":[{"title":"Find the slope","content":"Using the two given points $(0, 2)$ and $(1, -3)$:<br/>$$m = \\frac{-3 - 2}{1 - 0} = \\frac{-5}{1} = -5$$"},{"title":"Identify the y-intercept","content":"The point $(0, 2)$ has $x = 0$, so the y-intercept is $b = 2$. The line in slope-intercept form is:<br/>$$y = -5x + 2$$"},{"title":"Evaluate each choice","content":"<ul><li>$y = 5x + 2$: slope $+5$, wrong sign — eliminate.</li><li>$y = -5x + 2$: slope $-5$, intercept $2$ — matches.</li><li>$y = x + 2$: slope $1$, wrong — eliminate.</li><li>$y = -x + 2$: slope $-1$, wrong — eliminate.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "6acacde7-ed77-4956-a395-7f7392d6ba20_2",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope",
+      "content": "Using the two given points $(0, 2)$ and $(1, -3)$:<br/>$$m = \\frac{-3 - 2}{1 - 0} = \\frac{-5}{1} = -5$$"
+    },
+    {
+      "title": "Identify the y-intercept",
+      "content": "The point $(0, 2)$ has $x = 0$, so the y-intercept is $b = 2$. The line in slope-intercept form is:<br/>$$y = -5x + 2$$"
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li>$y = 5x + 2$: slope $+5$, wrong sign — eliminate.</li><li>$y = -5x + 2$: slope $-5$, intercept $2$ — matches.</li><li>$y = x + 2$: slope $1$, wrong — eliminate.</li><li>$y = -x + 2$: slope $-1$, wrong — eliminate.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

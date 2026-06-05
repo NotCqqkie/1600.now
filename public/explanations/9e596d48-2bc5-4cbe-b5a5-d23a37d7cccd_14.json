@@ -1,1 +1,29 @@
-{"questionId": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_14", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Find the linear relationship from the table", "content": "Using the table points such as $(0,46)$ and $(3,34)$, the slope is $\\frac{34-46}{3-0} = -4$ and the $y$-intercept is $46$, giving $y = -4x + 46$, or equivalently $4x + y = 46$."}, {"title": "Scale to match the answer forms", "content": "The choices use coefficients of $24$ and $6$ (or $6$ and $24$). Multiply $4x + y = 46$ by $6$: $24x + 6y = 276$."}, {"title": "Verify with another table point", "content": "Check $(6, 22)$: $24(6) + 6(22) = 144 + 132 = 276.$ It satisfies the equation."}, {"title": "Eliminate the choices", "content": "<ul><li>Choice A ($24x+6y=46$): $24(0)+6(46)=276\\neq 46$, fails at $(0,46)$.</li><li>Choice B ($24x+6y=276$): all table points satisfy it, as shown above.</li><li>Choice C ($6x+24y=46$): $6(0)+24(46)=1104\\neq 46$, fails immediately.</li><li>Choice D ($6x+24y=276$): $6(0)+24(46)=1104\\neq 276$, fails at $(0,46)$.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_14",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use Desmos to fit the table",
+      "content": "Enter three table points as $x_1=[0,3,6]$ and $y_1=[46,34,22]$. Then type the linear regression row $y_1 \\sim m x_1+b$. Desmos returns $m=-4$ and $b=46$, so the line is $y=-4x+46$.",
+      "desmosExpressions": [
+        "x_1=[0,3,6]",
+        "y_1=[46,34,22]",
+        "y_1~m x_1+b",
+        "y=-4x+46"
+      ]
+    },
+    {
+      "title": "Scale to match the answer forms",
+      "content": "The choices use coefficients of $24$ and $6$ (or $6$ and $24$). Multiply $4x + y = 46$ by $6$: $24x + 6y = 276$."
+    },
+    {
+      "title": "Verify with another table point",
+      "content": "Check $(6, 22)$: $24(6) + 6(22) = 144 + 132 = 276.$ It satisfies the equation."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li>Choice A ($24x+6y=46$): $24(0)+6(46)=276\\neq 46$, fails at $(0,46)$.</li><li>Choice B ($24x+6y=276$): all table points satisfy it, as shown above.</li><li>Choice C ($6x+24y=46$): $6(0)+24(46)=1104\\neq 46$, fails immediately.</li><li>Choice D ($6x+24y=276$): $6(0)+24(46)=1104\\neq 276$, fails at $(0,46)$.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -5,6 +5,15 @@ import {
   getPersonalizationPreferences,
   type PersonalizationPreferences,
 } from '@/lib/personalization';
+import {
+  getQuestionUiStateMap,
+  mergeQuestionUiStateMaps,
+  migrateLegacyQuestionUiState,
+  questionUiStateStorageKey,
+  saveQuestionUiStateMap,
+  type QuestionUiStateMap,
+} from '@/lib/practice/questionUiState';
+import type { CustomPracticeSet } from '@/lib/practice/customPracticeSets';
 
 const PROGRESS_KEY_PREFIX = 'userProgress:';
 const VOCAB_KEY_PREFIX = 'vocabProgress:';
@@ -77,6 +86,7 @@ const migrateLegacyKeysOnce = () => {
       }
       localStorage.removeItem(LEGACY_VOCAB_KEY);
     }
+    migrateLegacyQuestionUiState(null);
   } catch {
     // ignore
   }
@@ -233,6 +243,8 @@ export const useUserProgress = () => {
       try {
         const { db, doc, getDoc, setDoc } = await loadFirestoreDependencies();
         if (cancelled || !db) return;
+        const customSets = await import('@/lib/practice/customPracticeSets');
+        if (cancelled) return;
         const progressRef = doc(db, 'user_progress', user.id);
         const progressSnap = await getDoc(progressRef);
         if (cancelled) return;
@@ -241,11 +253,15 @@ export const useUserProgress = () => {
               data?: Record<string, QuestionProgress>;
               vocab?: Record<string, unknown>;
               personalization?: PersonalizationPreferences;
+              questionState?: QuestionUiStateMap;
+              customPracticeSets?: CustomPracticeSet[];
             }
           | undefined;
 
         const userLocalProgress = readProgressFor(user.id);
         const userLocalVocab = readVocabFor(user.id);
+        const userLocalQuestionState = getQuestionUiStateMap(user.id);
+        const userLocalCustomSets = customSets.getCustomPracticeSets(user.id);
 
         // First login on this device for this user: pull in anonymous-slot data,
         // then clear it so a different user signing in next won't inherit it.
@@ -256,19 +272,31 @@ export const useUserProgress = () => {
 
         let migratedProgress = userLocalProgress;
         let migratedVocab = userLocalVocab;
+        let migratedQuestionState = userLocalQuestionState;
+        let migratedCustomSets = userLocalCustomSets;
 
         if (!alreadyMigrated) {
           const anonProgress = readProgressFor(null);
           const anonVocab = readVocabFor(null);
+          const anonQuestionState = getQuestionUiStateMap(null);
+          const anonCustomSets = customSets.getCustomPracticeSets(null);
           if (Object.keys(anonProgress).length > 0) {
             migratedProgress = mergeProgress(userLocalProgress, anonProgress);
           }
           if (Object.keys(anonVocab).length > 0) {
             migratedVocab = { ...userLocalVocab, ...anonVocab };
           }
+          if (Object.keys(anonQuestionState).length > 0) {
+            migratedQuestionState = mergeQuestionUiStateMaps(userLocalQuestionState, anonQuestionState);
+          }
+          if (anonCustomSets.length > 0) {
+            migratedCustomSets = customSets.mergeCustomPracticeSets(userLocalCustomSets, anonCustomSets);
+          }
           try {
             localStorage.removeItem(progressStorageKey(null));
             localStorage.removeItem(vocabStorageKey(null));
+            localStorage.removeItem(questionUiStateStorageKey(null));
+            localStorage.removeItem(customSets.customPracticeSetsStorageKey(null));
           } catch {
             // ignore
           }
@@ -281,6 +309,10 @@ export const useUserProgress = () => {
 
         const remoteVocab = remote?.vocab ?? {};
         const mergedVocab = { ...remoteVocab, ...migratedVocab };
+        const remoteQuestionState = remote?.questionState ?? {};
+        const mergedQuestionState = mergeQuestionUiStateMaps(migratedQuestionState, remoteQuestionState);
+        const remoteCustomSets = remote?.customPracticeSets ?? [];
+        const mergedCustomSets = customSets.mergeCustomPracticeSets(migratedCustomSets, remoteCustomSets);
 
         const localPers = getPersonalizationPreferences();
         const remotePers = remote?.personalization;
@@ -290,6 +322,8 @@ export const useUserProgress = () => {
         setProgress(mergedProgress);
         localStorage.setItem(progressStorageKey(user.id), JSON.stringify(mergedProgress));
         localStorage.setItem(vocabStorageKey(user.id), JSON.stringify(mergedVocab));
+        saveQuestionUiStateMap(user.id, mergedQuestionState, { notify: false });
+        customSets.saveCustomPracticeSets(mergedCustomSets, user.id, { notify: false });
         if (remotePers) applyPersonalizationPreferences(remotePers);
 
         await setDoc(
@@ -299,6 +333,8 @@ export const useUserProgress = () => {
             data: mergedProgress,
             vocab: mergedVocab,
             personalization: mergedPers,
+            questionState: mergedQuestionState,
+            customPracticeSets: mergedCustomSets,
           },
           { merge: true },
         );
@@ -333,11 +369,12 @@ export const useUserProgress = () => {
     const empty = {};
     setProgress(empty);
     localStorage.setItem(progressStorageKey(uid), JSON.stringify(empty));
+    saveQuestionUiStateMap(uid, {}, { notify: true });
     if (user) {
         const { db, doc, setDoc } = await loadFirestoreDependencies();
         if (!db) return;
         const progressRef = doc(db, 'user_progress', user.id);
-        await setDoc(progressRef, { user_id: user.id, data: empty }, { merge: true });
+        await setDoc(progressRef, { user_id: user.id, data: empty, questionState: {} }, { merge: true });
     }
   }, [user, uid]);
 

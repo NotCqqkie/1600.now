@@ -1,1 +1,23 @@
-{"questionId":"659cbbc1-2d38-4d45-8ecb-79f43367862e_4","correctAnswer":"D","section":"Math","steps":[{"title":"Solve the system by elimination","content":"Add $5y=6x+17$ and $-5y=7x-23$: $$0 = 13x - 6 \\Rightarrow x = \\tfrac{6}{13}.$$"},{"title":"Find $39x$","content":"Then $$39x = 39 \\cdot \\tfrac{6}{13} = 18.$$ That matches choice <strong>D</strong> — <strong>D</strong> is correct.", "desmosExpressions": ["y = \\frac{6x + 17}{5}", "y = \\frac{23 - 7x}{5}"]}]}
+{
+  "questionId": "659cbbc1-2d38-4d45-8ecb-79f43367862e_4",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve the system by elimination",
+      "content": "Add $5y=6x+17$ and $-5y=7x-23$: $$0 = 13x - 6 \\Rightarrow x = \\tfrac{6}{13}.$$"
+    },
+    {
+      "title": "Find $39x$",
+      "content": "Then $$39x = 39 \\cdot \\tfrac{6}{13} = 18.$$ That matches choice <strong>D</strong> — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "y = \\frac{6x + 17}{5}",
+        "y = \\frac{23 - 7x}{5}"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice D, 18, and the other choices fail the same setup or substitution. Therefore <strong>D</strong> is correct."
+    }
+  ]
+}

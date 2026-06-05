@@ -1,1 +1,15 @@
-{"questionId": "e8f9e117", "correctAnswer": "20", "section": "Math", "steps": [{"title": "Set up the inequality from Ohm's law", "content": "We have Ohm's law: <strong>i = V/R</strong>. The circuit has:<br/>• Resistance R = 500 ohms<br/>• Potential difference V = 6n volts<br/>• Current constraint: i ≤ 0.25 amperes<br/><br/>Substitute these into Ohm's law:<br/>$$\\frac{6n}{500} \\leq 0.25$$"}, {"title": "Solve for n by isolating the variable", "content": "Multiply both sides by 500:<br/>$$6n \\leq 0.25 \\times 500$$<br/>$$6n \\leq 125$$<br/>Divide both sides by 6:<br/>$$n \\leq \\frac{125}{6} = 20.8\\overline{3}$$<br/>Since n must be a whole number of batteries, the greatest number of six-volt batteries that can be used is <strong>20</strong>."}]}
+{
+  "questionId": "e8f9e117",
+  "correctAnswer": "20",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the inequality from Ohm's law",
+      "content": "We have Ohm's law: <strong>i = V/R</strong>. The circuit has:<br/>• Resistance R = 500 ohms<br/>• Potential difference V = 6n volts<br/>• Current constraint: i ≤ 0.25 amperes<br/><br/>Substitute these into Ohm's law:<br/>$$\\frac{6n}{500} \\leq 0.25$$"
+    },
+    {
+      "title": "Solve for n by isolating the variable",
+      "content": "Multiply both sides by 500:<br/>$$6n \\leq 0.25 \\times 500$$<br/>$$6n \\leq 125$$<br/>Divide both sides by 6:<br/>$$n \\leq \\frac{125}{6} = 20.8\\overline{3}$$<br/>Since n must be a whole number of batteries, the greatest number of six-volt batteries that can be used is <strong>20</strong>."
+    }
+  ]
+}

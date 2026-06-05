@@ -1,1 +1,15 @@
-{"questionId": "a6dbad6b", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Apply the triangle angle sum theorem", "content": "The figure shows a triangle with interior angles labeled $x°$, $y°$, and $z°$. The sum of the interior angles of any triangle equals $180°$:<br/>$$x + y + z = 180$$"}, {"title": "Substitute the given values and solve", "content": "Using the given values $y = 20$ and $z = 60$:<br/>$$x + 20 + 60 = 180$$<br/>$$x = 100$$<br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "a6dbad6b",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the triangle angle sum theorem",
+      "content": "The figure shows a triangle with interior angles labeled $x°$, $y°$, and $z°$. The sum of the interior angles of any triangle equals $180°$:<br/>$$x + y + z = 180$$"
+    },
+    {
+      "title": "Substitute the given values and solve",
+      "content": "Using the given values $y = 20$ and $z = 60$:<br/>$$x + 20 + 60 = 180$$<br/>$$x = 100$$<br/>That matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,19 @@
-{"questionId":"32cd6c88-820b-4de4-aa5c-08fe14fb73ef_14","correctAnswer":"16,12","section":"Math","steps":[{"title":"Find the roots","content":"Set each factor of $(x-16)(x-12)(x+7)(x+13)=0$ to zero: $x=16$, $x=12$, $x=-7$, and $x=-13$."},{"title":"Identify the positive solution","content":"The positive solutions are $16$ and $12$. The answer is <strong>16</strong> or <strong>12</strong>."}]}
+{
+  "questionId": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_14",
+  "correctAnswer": "16,12",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the zero product property",
+      "content": "The equation is already factored: $$(x-16)(x-12)(x+7)(x+13)=0.$$ A product is $0$ when at least one factor is $0$."
+    },
+    {
+      "title": "Find all solutions",
+      "content": "Set each factor equal to $0$: $$x=16, \\quad x=12, \\quad x=-7, \\quad x=-13.$$"
+    },
+    {
+      "title": "Choose a positive solution",
+      "content": "The question asks for a positive solution, not all solutions. The positive solutions are $16$ and $12$, so either <strong>16</strong> or <strong>12</strong> is valid."
+    }
+  ]
+}

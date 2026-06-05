@@ -1,1 +1,19 @@
-{"questionId": "b5883220-eb88-4f6b-8d82-979efee65d2d_21", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Set up the unit conversions needed", "content": "We're converting from square feet per hour to square meters per minute. This requires two separate conversions:<ul><li>Area units: square feet to square meters</li><li>Time rate: per hour to per minute</li></ul>Since area is 2-dimensional, the linear scale factor (1 m = 3.28 ft) must be squared:<br/>$$1 \\text{ m}^2 = (3.28)^2 \\text{ ft}^2 = 10.7584 \\text{ ft}^2$$"}, {"title": "Apply both conversions to the rate", "content": "Multiply by the area conversion and divide by the time conversion:<br/>$$270 \\text{ ft}^2/\\text{hour} \\times \\frac{1 \\text{ m}^2}{10.7584 \\text{ ft}^2} \\times \\frac{1 \\text{ hour}}{60 \\text{ min}} = \\frac{270}{10.7584 \\times 60} = \\frac{270}{645.504} = 0.4182 \\text{ m}^2/\\text{min}$$"}, {"title": "Match to the answer choice", "content": "The calculated rate of 0.4182 square meters per minute is closest to 0.42. That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "b5883220-eb88-4f6b-8d82-979efee65d2d_21",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the unit conversions needed",
+      "content": "We're converting from square feet per hour to square meters per minute. This requires two separate conversions:<ul><li>Area units: square feet to square meters</li><li>Time rate: per hour to per minute</li></ul>Since area is 2-dimensional, the linear scale factor (1 m = 3.28 ft) must be squared:<br/>$$1 \\text{ m}^2 = (3.28)^2 \\text{ ft}^2 = 10.7584 \\text{ ft}^2$$"
+    },
+    {
+      "title": "Apply both conversions to the rate",
+      "content": "Multiply by the area conversion and divide by the time conversion:<br/>$$270 \\text{ ft}^2/\\text{hour} \\times \\frac{1 \\text{ m}^2}{10.7584 \\text{ ft}^2} \\times \\frac{1 \\text{ hour}}{60 \\text{ min}} = \\frac{270}{10.7584 \\times 60} = \\frac{270}{645.504} = 0.4182 \\text{ m}^2/\\text{min}$$"
+    },
+    {
+      "title": "Match to the answer choice",
+      "content": "The calculated rate of 0.4182 square meters per minute is closest to 0.42. That matches choice A — <strong>A</strong> is correct."
+    }
+  ]
+}

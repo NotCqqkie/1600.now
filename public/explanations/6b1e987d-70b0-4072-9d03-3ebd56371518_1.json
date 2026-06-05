@@ -1,1 +1,19 @@
-{"questionId":"6b1e987d-70b0-4072-9d03-3ebd56371518_1","correctAnswer":"D","section":"Math","steps":[{"title":"Distribute $6xy$ across the parentheses","content":"Multiply each term inside by $6xy$: $$6xy \\cdot 2x^2 = 12x^3 y \\qquad \\text{and} \\qquad 6xy \\cdot 5y = 30xy^2.$$"},{"title":"Combine the products","content":"The expanded expression is $$12x^3 y + 30xy^2.$$"},{"title":"Evaluate each choice","content":"<ul><li>Choice A: $x^3y + 11xy^2$ &mdash; missing the coefficient $12$ and incorrectly adds $12+30$ into $11xy^2$. Incorrect.</li><li>Choice B: $x^2y + 5y$ &mdash; ignores the $6xy$ factor entirely. Incorrect.</li><li>Choice C: $12x^2y + 30xy$ &mdash; wrong power of $x$ in the first term and wrong power of $y$ in the second. Incorrect.</li><li>Choice D: $12x^3y + 30xy^2$ &mdash; matches the distribution exactly. Correct.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "6b1e987d-70b0-4072-9d03-3ebd56371518_1",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute $6xy$ across the parentheses",
+      "content": "Multiply each term inside by $6xy$: $$6xy \\cdot 2x^2 = 12x^3 y \\qquad \\text{and} \\qquad 6xy \\cdot 5y = 30xy^2.$$"
+    },
+    {
+      "title": "Combine the products",
+      "content": "The expanded expression is $$12x^3 y + 30xy^2.$$"
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li>Choice A: $x^3y + 11xy^2$ &mdash; missing the coefficient $12$ and incorrectly adds $12+30$ into $11xy^2$. Incorrect.</li><li>Choice B: $x^2y + 5y$ &mdash; ignores the $6xy$ factor entirely. Incorrect.</li><li>Choice C: $12x^2y + 30xy$ &mdash; wrong power of $x$ in the first term and wrong power of $y$ in the second. Incorrect.</li><li>Choice D: $12x^3y + 30xy^2$ &mdash; matches the distribution exactly. Correct.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

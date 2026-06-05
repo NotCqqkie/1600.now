@@ -1,1 +1,15 @@
-{"questionId": "af2ba762", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Identify what the constant 2.74 means", "content": "The function is $F(x) = 2.74 - 0.19(x - 3)$, where $x$ is the number of months after September 1, 2014. Find the value of $x$ that makes $F(x) = 2.74$:<br/>$$2.74 = 2.74 - 0.19(x - 3)$$<br/>$$0 = -0.19(x - 3)$$<br/>$$x = 3$$"}, {"title": "Translate $x = 3$ to a date", "content": "Since $x$ counts months after September 1, $x = 3$ corresponds to <strong>December 1, 2014</strong>. So 2.74 is the average price per gallon on December 1, 2014. The answer is <strong>D</strong>."}]}
+{
+  "questionId": "af2ba762",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what the constant 2.74 means",
+      "content": "The function is $F(x) = 2.74 - 0.19(x - 3)$, where $x$ is the number of months after September 1, 2014. Find the value of $x$ that makes $F(x) = 2.74$:<br/>$$2.74 = 2.74 - 0.19(x - 3)$$<br/>$$0 = -0.19(x - 3)$$<br/>$$x = 3$$"
+    },
+    {
+      "title": "Translate $x = 3$ to a date",
+      "content": "Since $x$ counts months after September 1, $x = 3$ corresponds to <strong>December 1, 2014</strong>. So 2.74 is the average price per gallon on December 1, 2014. The answer is <strong>D</strong>."
+    }
+  ]
+}

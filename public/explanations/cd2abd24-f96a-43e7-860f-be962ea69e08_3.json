@@ -1,1 +1,10 @@
-{"qid":"cd2abd24-f96a-43e7-860f-be962ea69e08_3","steps":["At birth (\\(x=0\\)), the whale's length is 157 cm &mdash; this is the y-intercept (initial value).","The whale grows at 4.6 cm per month &mdash; this is the slope (rate of change).","A linear model with slope 4.6 and y-intercept 157 is \\(y = 4.6x + 157\\)."],"explanation":"<ul><li><strong>Choice A &mdash; '\\(y = 157x\\)'</strong>: This makes 157 the slope (growth per month) and sets the birth length to 0, both wrong. &#10007;</li><li><strong>Choice B &mdash; '\\(y = 157x + 157\\)'</strong>: The slope is 157 cm/month &mdash; far too fast &mdash; and the y-intercept coincidentally equals 157, but the slope is wrong. &#10007;</li><li><strong>Choice C &mdash; '\\(y = 4.6x + 4.6\\)'</strong>: The slope (4.6 cm/month) is correct, but the y-intercept is 4.6 instead of 157 &mdash; this says the whale was only 4.6 cm at birth. &#10007;</li><li><strong>Choice D &mdash; '\\(y = 4.6x + 157\\)'</strong>: Slope = 4.6 cm/month and initial length = 157 cm. Both match the problem. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.","correctAnswer":"D"}
+{
+  "qid": "cd2abd24-f96a-43e7-860f-be962ea69e08_3",
+  "steps": [
+    "At birth ($x=0$), the whale's length is 157 cm &mdash; this is the y-intercept (initial value).",
+    "The whale grows at 4.6 cm per month &mdash; this is the slope (rate of change).",
+    "A linear model with slope 4.6 and y-intercept 157 is $y = 4.6x + 157$."
+  ],
+  "explanation": "<ul><li><strong>Choice A &mdash; '$y = 157x$'</strong>: This makes 157 the slope (growth per month) and sets the birth length to 0, both wrong. &#10007;</li><li><strong>Choice B &mdash; '$y = 157x + 157$'</strong>: The slope is 157 cm/month &mdash; far too fast &mdash; and the y-intercept coincidentally equals 157, but the slope is wrong. &#10007;</li><li><strong>Choice C &mdash; '$y = 4.6x + 4.6$'</strong>: The slope (4.6 cm/month) is correct, but the y-intercept is 4.6 instead of 157 &mdash; this says the whale was only 4.6 cm at birth. &#10007;</li><li><strong>Choice D &mdash; '$y = 4.6x + 157$'</strong>: Slope = 4.6 cm/month and initial length = 157 cm. Both match the problem. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.",
+  "correctAnswer": "D"
+}

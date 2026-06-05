@@ -1,1 +1,38 @@
-{"questionId": "13e57f0a", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Solve the equation", "content": "Rewrite as $4x^2+7x-36=0$ and factor: $$(4x-9)(x+4)=0.$$ The roots are $x=\\tfrac{9}{4}$ and $x=-4$."}, {"title": "Identify the positive solution", "content": "Take the positive root. The answer is <strong>(B) $\\tfrac{9}{4}$</strong>.", "desmosExpressions": ["y = -4x^2 - 7x + 36"]}]}
+{
+  "questionId": "13e57f0a",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve the equation",
+      "content": "Rewrite as $4x^2+7x-36=0$ and factor: $$(4x-9)(x+4)=0.$$ The roots are $x=\\tfrac{9}{4}$ and $x=-4$."
+    },
+    {
+      "title": "Identify the positive solution",
+      "content": "Take the positive root. The answer is <strong>(B) $\\tfrac{9}{4}$</strong>.",
+      "desmosExpressions": [
+        "y = -4x^2 - 7x + 36"
+      ]
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice B is correct. Multiplying each side of the given equation by $-16$ yields $64{x}^{2}+112x=576$. To complete the square, adding $49$ to each side of this equation yields $64{x}^{2}+112x+49=576+49$, or ${\\left(8x+7\\right)}^{2}=625$. Taking the square root of each side of this equation yields two equations: $8x+7=25$ and $8x+7=-25$. Subtracting $7$ from each side of the equation $8x+7=25$ yields $8x=18$. Dividing each side of this equation by $8$ yields $x=\\frac{18}{8}$, or $x=\\frac{9}{4}$. Therefore, $\\frac{9}{4}$ is a solution to the given equation. Subtracting $7$ from each side of the equation $8x+7=-25$ yields $8x=-32$. Dividing each side of this equation by $8$ yields $x=-4$. Therefore, the given equation has two solutions, $\\frac{9}{4}$ and $-4$. Since $\\frac{9}{4}$ is positive, it follows that $\\frac{9}{4}$ is the positive solution to the given equation."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Alternate approach: Adding $4{x}^{2}$ and $7x$ to each side of the given equation yields $0=4{x}^{2}+7x-36$. The right-hand side of this equation can be rewritten as $4{x}^{2}+16x-9x-36$. Factoring out the common factor of $4x$ from the first two terms of this expression and the common factor of $-9$ from the second two terms yields $4x\\left(x+4\\right)-9\\left(x+4\\right)$. Factoring out the common factor of $\\left(x+4\\right)$ from these two terms yields the expression $\\left(4x-9\\right)\\left(x+4\\right)$. Since this expression is equal to $0$, it follows that either $4x-9=0$ or $x+4=0$. Adding $9$ to each side of the equation $4x-9=0$ yields $4x=9$. Dividing each side of this equation by $4$ yields $x=\\frac{9}{4}$. Therefore, $\\frac{9}{4}$ is a positive solution to the given equation. Subtracting $4$ from each side of the equation $x+4=0$ yields $x=-4$. Therefore, the given equation has two solutions, $\\frac{9}{4}$ and $-4$. Since $\\frac{9}{4}$ is positive, it follows that $\\frac{9}{4}$ is the positive solution to the given equation."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A is incorrect. Substituting $\\frac{7}{4}$ for $x$ in the given equation yields $-\\frac{49}{2}=-36$, which is false."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice C is incorrect. Substituting $4$ for $x$ in the given equation yields $-92=-36$, which is false."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice D is incorrect. Substituting $7$ for $x$ in the given equation yields $-245=-36$, which is false."
+    }
+  ]
+}

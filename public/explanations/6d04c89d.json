@@ -9,7 +9,7 @@
     },
     {
       "title": "Simplify and find b",
-      "content": "Substitute the factored form and simplify: $$\\frac{24}{6(x+7)} = \\frac{4}{x+7}$$ by dividing numerator and denominator by 6. Comparing to $\\frac{4}{x+b}$, we have $x + 7 = x + b$, so $b = 7$. That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "Substitute the factored form and simplify: $$\\frac{24}{6(x+7)} = \\frac{4}{x+7}$$ by dividing numerator and denominator by 6. Comparing to $\\frac{4}{x+b}$, we have $x + 7 = x + b$, so $b = 7$. That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

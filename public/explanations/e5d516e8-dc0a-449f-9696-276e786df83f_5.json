@@ -1,1 +1,23 @@
-{"questionId":"e5d516e8-dc0a-449f-9696-276e786df83f_5","correctAnswer":"C","section":"Math","steps":[{"title":"Set up","content":"Evaluate $g(18)$ using the given function $g(x) = \frac{8}{9}x - \frac{4}{9}$."},{"title":"Solve","content":"$$g(18) = \frac{8}{9}(18) - \frac{4}{9} = \frac{144}{9} - \frac{4}{9} = \frac{140}{9}$$"},{"title":"Answer","content":"<strong>C</strong> is correct."}]}
+{
+  "questionId": "e5d516e8-dc0a-449f-9696-276e786df83f_5",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "Evaluate $g(18)$ using the given function $g(x) = \frac{8}{9}x - \frac{4}{9}$."
+    },
+    {
+      "title": "Solve",
+      "content": "$$g(18) = \frac{8}{9}(18) - \frac{4}{9} = \frac{144}{9} - \frac{4}{9} = \frac{140}{9}$$"
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>C</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice C, $\\frac{140}{9}$. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
+    }
+  ]
+}

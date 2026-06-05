@@ -1,1 +1,19 @@
-{"questionId": "5733ce30", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Find the interior angle at C using the exterior angle", "content": "The angle marked 110° is an exterior angle at point C. Since angles on a straight line sum to 180°, the interior angle ∠BCA is supplementary to the exterior angle:<br/>$$\\angle BCA = 180° - 110° = 70°$$"}, {"title": "Use the isosceles triangle property", "content": "We're told that ∠BAC = ∠BCA. Since ∠BCA = 70°, we have:<br/>$$\\angle BAC = 70°$$<br/>This means triangle ABC is isosceles with the two base angles equal."}, {"title": "Apply the triangle angle sum", "content": "The three angles of triangle ABC must sum to 180°:<br/>$$\\angle BAC + \\angle BCA + \\angle ABC = 180°$$<br/>$$70° + 70° + x = 180°$$<br/>$$x = 40°$$<br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "5733ce30",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the interior angle at C using the exterior angle",
+      "content": "The angle marked 110° is an exterior angle at point C. Since angles on a straight line sum to 180°, the interior angle ∠BCA is supplementary to the exterior angle:<br/>$$\\angle BCA = 180° - 110° = 70°$$"
+    },
+    {
+      "title": "Use the isosceles triangle property",
+      "content": "We're told that ∠BAC = ∠BCA. Since ∠BCA = 70°, we have:<br/>$$\\angle BAC = 70°$$<br/>This means triangle ABC is isosceles with the two base angles equal."
+    },
+    {
+      "title": "Apply the triangle angle sum",
+      "content": "The three angles of triangle ABC must sum to 180°:<br/>$$\\angle BAC + \\angle BCA + \\angle ABC = 180°$$<br/>$$70° + 70° + x = 180°$$<br/>$$x = 40°$$<br/>That matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

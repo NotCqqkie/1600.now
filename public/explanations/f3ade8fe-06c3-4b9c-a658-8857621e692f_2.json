@@ -1,1 +1,32 @@
-{"qid":"f3ade8fe-06c3-4b9c-a658-8857621e692f_2","steps":["Expand (x^{2}+11)^{2} using the perfect square formula: (a+b)^{2} = a^{2}+2ab+b^{2}. Here a=x^{2}, b=11, giving x^{4}+22x^{2}+121.","Expand (x-8)(x+8) using difference of squares: x^{2}-64.","Add the two results: x^{4}+22x^{2}+121+x^{2}-64 = x^{4}+23x^{2}+57.","That matches choice D — <strong>D</strong> is correct."],"choices":[{"id":"A","text":"$x^{4}+x^{2}+185$","explanation":"<ul><li>The x&sup2; coefficient should be 22+1=23, not 1, and the constant 121-64=57, not 185. Eliminate A.</li></ul>"},{"id":"B","text":"$x^{4}+12x^{2}+121$","explanation":"<ul><li>This ignores the (x-8)(x+8) term entirely. Eliminate B.</li></ul>"},{"id":"C","text":"$x^{4}+23x^{2}-53$","explanation":"<ul><li>The x&sup2; coefficient 23 is correct, but the constant is 121-64=57, not -53. Eliminate C.</li></ul>"},{"id":"D","text":"$x^{4}+23x^{2}+57$","explanation":"<ul><li>x&sup2; coefficient: 22+1=23 ✓. Constant: 121-64=57 ✓. That matches choice D — <strong>D</strong> is correct.</li></ul>"}],"correctAnswer":"D"}
+{
+  "qid": "f3ade8fe-06c3-4b9c-a658-8857621e692f_2",
+  "steps": [
+    "Expand (x^{2}+11)^{2} using the perfect square formula: (a+b)^{2} = a^{2}+2ab+b^{2}. Here a=x^{2}, b=11, giving x^{4}+22x^{2}+121.",
+    "Expand (x-8)(x+8) using difference of squares: x^{2}-64.",
+    "Add the two results: x^{4}+22x^{2}+121+x^{2}-64 = x^{4}+23x^{2}+57.",
+    "That matches choice D — <strong>D</strong> is correct."
+  ],
+  "choices": [
+    {
+      "id": "A",
+      "text": "$x^{4}+x^{2}+185$",
+      "explanation": "<ul><li>The x&sup2; coefficient should be 22+1=23, not 1, and the constant 121-64=57, not 185. Eliminate A.</li></ul>"
+    },
+    {
+      "id": "B",
+      "text": "$x^{4}+12x^{2}+121$",
+      "explanation": "<ul><li>This ignores the (x-8)(x+8) term entirely. Eliminate B.</li></ul>"
+    },
+    {
+      "id": "C",
+      "text": "$x^{4}+23x^{2}-53$",
+      "explanation": "<ul><li>The x&sup2; coefficient 23 is correct, but the constant is 121-64=57, not -53. Eliminate C.</li></ul>"
+    },
+    {
+      "id": "D",
+      "text": "$x^{4}+23x^{2}+57$",
+      "explanation": "<ul><li>x&sup2; coefficient: 22+1=23 ✓. Constant: 121-64=57 ✓. That matches choice D — <strong>D</strong> is correct.</li></ul>"
+    }
+  ],
+  "correctAnswer": "D"
+}

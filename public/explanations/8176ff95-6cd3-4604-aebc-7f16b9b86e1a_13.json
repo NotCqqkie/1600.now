@@ -1,1 +1,23 @@
-{"questionId":"8176ff95-6cd3-4604-aebc-7f16b9b86e1a_13","correctAnswer":"D","section":"Math","steps":[{"title":"Set up","content":"Solve the system by substituting the linear equation into the quadratic. From $y - x = 32$, we get $y = x + 32$."},{"title":"Solve","content":"Substitute into $y = x^2 - 30x$:$$x + 32 = x^2 - 30x$$$$0 = x^2 - 31x - 32$$$$0 = (x - 32)(x + 1)$$So $x = 32$ or $x = -1$. Back-substituting with $y = x + 32$:<br/>When $x = 32$: $y = 64$.<br/>When $x = -1$: $y = 31$."},{"title":"Answer","content":"The possible values of $y$ are 31 and 64. Only 64 appears among the choices, so <strong>D (64)</strong> is correct.","desmosExpressions":["y = x + 32","y = x^2 - 30x"]}]}
+{
+  "questionId": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_13",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "Solve the system by substituting the linear equation into the quadratic. From $y - x = 32$, we get $y = x + 32$."
+    },
+    {
+      "title": "Solve",
+      "content": "Substitute into $y = x^2 - 30x$:$$x + 32 = x^2 - 30x$$$$0 = x^2 - 31x - 32$$$$0 = (x - 32)(x + 1)$$So $x = 32$ or $x = -1$. Back-substituting with $y = x + 32$:<br/>When $x = 32$: $y = 64$.<br/>When $x = -1$: $y = 31$."
+    },
+    {
+      "title": "Answer",
+      "content": "The possible values of $y$ are 31 and 64. Only 64 appears among the choices, so <strong>D (64)</strong> is correct.",
+      "desmosExpressions": [
+        "y = x + 32",
+        "y = x^2 - 30x"
+      ]
+    }
+  ]
+}

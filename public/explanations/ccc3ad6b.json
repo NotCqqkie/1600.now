@@ -1,1 +1,31 @@
-{"questionId":"ccc3ad6b","correctAnswer":"A","section":"Math","steps":[{"title":"Read the intersection from the graph","content":"The solution to a graphed system is the point where the two lines cross. Here that point is at $x=4,\\ y=-5$."},{"title":"State the ordered pair","content":"The solution is $(4,-5)$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}
+{
+  "questionId": "ccc3ad6b",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the intersection from the graph",
+      "content": "The solution to a graphed system is the point where the two lines cross. Here that point is at $x=4,\\ y=-5$."
+    },
+    {
+      "title": "State the ordered pair",
+      "content": "The solution is $(4,-5)$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice A is correct. The solution to this system of linear equations is represented by the point that lies on both lines shown, or the point of intersection of the two lines. According to the graph, the point of intersection occurs when $x=4$ and $y=-5$, or at the point $\\left(4,-5\\right)$. Therefore, the solution $\\left(x,y\\right)$ to the system is $\\left(4,-5\\right)$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice B is incorrect and may result from conceptual or calculation errors."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice C is incorrect and may result from conceptual or calculation errors."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice D is incorrect and may result from conceptual or calculation errors."
+    }
+  ]
+}

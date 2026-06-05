@@ -1,1 +1,19 @@
-{"questionId": "ffdaaea2-8ec1-44b7-903d-084c644b881a_20", "correctAnswer": "292/3,97.33", "section": "Math", "steps": [{"title": "Find the side length of the equilateral triangle", "content": "Perimeter = 876 cm. For an equilateral triangle, all three sides are equal:<br/>$$s = \\frac{876}{3} = 292 \\text{ cm}$$"}, {"title": "Apply the Law of Sines to find the circumradius", "content": "For any triangle inscribed in a circle: $\\frac{a}{\\sin A} = 2R$. For an equilateral triangle with angle $60°$ and side 292 cm:<br/>$$\\frac{292}{\\sin 60°} = 2R$$<br/>Since $\\sin 60° = \\frac{\\sqrt{3}}{2}$:<br/>$$\\frac{292}{\\sqrt{3}/2} = 2R \\implies \\frac{292}{\\sqrt{3}} = R$$<br/>Rationalize by multiplying by $\\frac{\\sqrt{3}}{\\sqrt{3}}$:<br/>$$R = \\frac{292\\sqrt{3}}{3}$$"}, {"title": "Solve for w using the given form", "content": "We are given that the radius is $w\\sqrt{3}$ cm. Setting this equal to our result:<br/>$$w\\sqrt{3} = \\frac{292\\sqrt{3}}{3}$$<br/>Divide both sides by $\\sqrt{3}$:<br/>$$w = \\frac{292}{3}$$<br/>Equivalent forms accepted: <strong>292/3</strong>, <strong>97.33</strong>.", "desmosExpressions": ["x^2 + y^2 = (292\\sqrt{3}/3)^2"]}]}
+{
+  "questionId": "ffdaaea2-8ec1-44b7-903d-084c644b881a_20",
+  "correctAnswer": "292/3,97.33",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the side length of the equilateral triangle",
+      "content": "Perimeter = 876 cm. For an equilateral triangle, all three sides are equal:<br/>$$s = \\frac{876}{3} = 292 \\text{ cm}$$"
+    },
+    {
+      "title": "Use the equilateral circumradius shortcut",
+      "content": "For an equilateral triangle with side length $s$, the radius of the circle through its vertices is<br/>$$R=\\frac{s}{\\sqrt{3}}=\\frac{s\\sqrt{3}}{3}$$<br/>With $s=292$,<br/>$$R=\\frac{292\\sqrt{3}}{3}$$"
+    },
+    {
+      "title": "Solve for w using the given form",
+      "content": "The problem says the radius is $w\\sqrt{3}$ centimeters, so set<br/>$$w\\sqrt{3}=\\frac{292\\sqrt{3}}{3}$$<br/>Divide by $\\sqrt{3}$:<br/>$$w=\\frac{292}{3}$$<br/>Accepted entries include <strong>292/3</strong> or <strong>97.33</strong>."
+    }
+  ]
+}

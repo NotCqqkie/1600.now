@@ -1,1 +1,15 @@
-{"questionId": "9377a50a-f782-492e-a3bf-a2b90698cacc_2", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Read the speed constraint from the problem", "content": "The problem directly states that $25 \\leq x \\leq 65$ represents the speed constraint. This is a compound inequality: the speed $x$ must be at least 25 mph <strong>and</strong> at most 65 mph."}, {"title": "Find the matching choice", "content": "Compare each choice to the constraint $25 \\leq x \\leq 65$:<ul><li><strong>Choice A:</strong> $x \\geq 25$ — only the lower bound; omits the upper limit</li><li><strong>Choice B:</strong> $x \\geq 65$ — wrong; this says speed is at least 65, contradicting the problem</li><li><strong>Choice C:</strong> $25 \\leq x \\leq 65$ — exact match</li><li><strong>Choice D:</strong> $x \\leq 90$ — an upper bound not given in the problem</li></ul>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "9377a50a-f782-492e-a3bf-a2b90698cacc_2",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the speed constraint from the problem",
+      "content": "The problem directly states that $25 \\leq x \\leq 65$ represents the speed constraint. This is a compound inequality: the speed $x$ must be at least 25 mph <strong>and</strong> at most 65 mph."
+    },
+    {
+      "title": "Find the matching choice",
+      "content": "Compare each choice to the constraint $25 \\leq x \\leq 65$:<ul><li><strong>Choice A:</strong> $x \\geq 25$ — only the lower bound; omits the upper limit</li><li><strong>Choice B:</strong> $x \\geq 65$ — wrong; this says speed is at least 65, contradicting the problem</li><li><strong>Choice C:</strong> $25 \\leq x \\leq 65$ — exact match</li><li><strong>Choice D:</strong> $x \\leq 90$ — an upper bound not given in the problem</li></ul>That matches choice C — <strong>C</strong> is correct."
+    }
+  ]
+}

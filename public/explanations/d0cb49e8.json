@@ -9,7 +9,7 @@
     },
     {
       "title": "Evaluate at x = 600 kelvins",
-      "content": "Substitute $x = 600$ into the equation:<br/>$$y = 0.02(600) = 12$$<br/>The pressure at 600 kelvins is 12 psi. That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "Substitute $x = 600$ into the equation:<br/>$$y = 0.02(600) = 12$$<br/>The pressure at 600 kelvins is 12 psi. That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

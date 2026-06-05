@@ -1,1 +1,19 @@
-{"questionId": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_20", "correctAnswer": "2", "section": "Math", "steps": [{"title": "Isolate the absolute value", "content": "Divide both sides by 2:<br/>$$|5x - 5| = \\frac{11}{2}$$"}, {"title": "Find the center of symmetry", "content": "Absolute value equations $|f(x)| = k$ have solutions symmetric around where $f(x) = 0$. Solving $5x - 5 = 0$:<br/>$$5x = 5$$<br/>$$x = 1$$<br/>The two solutions are equidistant from $x = 1$."}, {"title": "Calculate the sum using symmetry", "content": "When two values are equidistant from a center point, their average equals that center. Since the center is $x = 1$, the average of the two solutions is 1, so their sum is $2 \\times 1 = 2$."}]}
+{
+  "questionId": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_20",
+  "correctAnswer": "2",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the absolute value",
+      "content": "Divide both sides by 2:<br/>$$|5x - 5| = \\frac{11}{2}$$"
+    },
+    {
+      "title": "Find the center of symmetry",
+      "content": "Absolute value equations $|f(x)| = k$ have solutions symmetric around where $f(x) = 0$. Solving $5x - 5 = 0$:<br/>$$5x = 5$$<br/>$$x = 1$$<br/>The two solutions are equidistant from $x = 1$."
+    },
+    {
+      "title": "Calculate the sum using symmetry",
+      "content": "When two values are equidistant from a center point, their average equals that center. Since the center is $x = 1$, the average of the two solutions is 1, so their sum is $2 \\times 1 = 2$."
+    }
+  ]
+}

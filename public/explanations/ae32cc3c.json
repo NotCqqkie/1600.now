@@ -1,1 +1,27 @@
-{"questionId": "ae32cc3c", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Identify two points on the line of best fit", "content": "Reading the scatterplot, the line of best fit passes approximately through $(0, 1)$ and $(1{,}800, 16)$."}, {"title": "Compute the slope and equation", "content": "The slope is $$m = \\frac{16 - 1}{1{,}800 - 0} = \\frac{15}{1{,}800} = \\frac{1}{120}.$$ With y-intercept $1$, the line is $y = \\dfrac{1}{120}x + 1$."}, {"title": "Evaluate at $x = 1{,}200$", "content": "$$y = \\frac{1}{120}(1{,}200) + 1 = 10 + 1 = 11.$$"}, {"title": "Check each choice", "content": "<ul><li>A ($16$): too high &mdash; that is the value near $x = 1{,}800$, not $1{,}200$.</li><li>B ($14$): overshoots the predicted value at $x = 1{,}200$.</li><li>C ($11$): matches the computed prediction.</li><li>D ($6$): far below the line at $x = 1{,}200$.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "ae32cc3c",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Fit the line of best fit",
+      "content": "Use two points on the line of best fit, approximately $(0,1)$ and $(1800,16)$. These are model points on the fitted line, so they are appropriate for predicting the value at another $x$-coordinate.",
+      "desmosExpressions": [
+        "x_1=[0,1800]",
+        "y_1=[1,16]",
+        "y_1~m x_1+b"
+      ]
+    },
+    {
+      "title": "Evaluate at x = 1200",
+      "content": "The slope is $\\frac{16-1}{1800}=\\frac{1}{120}$, so $y=\\frac{x}{120}+1$. At $x=1200$, $y=10+1=11$.",
+      "desmosExpressions": [
+        "m 1200+b"
+      ]
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "The predicted value is $11$, which matches choice <strong>C</strong>. Choice A corresponds to a larger $x$-value, choice B is too high for $x=1200$, and choice D is too low."
+    }
+  ]
+}

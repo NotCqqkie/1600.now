@@ -1,1 +1,19 @@
-{"questionId":"27590f35-8d6e-45c6-b665-222acb5e516d_1","correctAnswer":"3","section":"Math","steps":[{"title":"Combine x terms","content":"Add $x$ to both sides to gather all $x$-terms on the left: $$13x+x=42 \\implies 14x=42.$$"},{"title":"Solve for x","content":"Divide both sides by $14$: $$x=\\tfrac{42}{14}=3.$$ The answer is <strong>3</strong>."}]}
+{
+  "questionId": "27590f35-8d6e-45c6-b665-222acb5e516d_1",
+  "correctAnswer": "3",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Combine x terms",
+      "content": "Add $x$ to both sides to gather all $x$-terms on the left: $$13x+x=42 \\implies 14x=42.$$"
+    },
+    {
+      "title": "Solve for x",
+      "content": "Divide both sides by $14$: $$x=\\tfrac{42}{14}=3.$$ The answer is <strong>3</strong>."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $3$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $3$."
+    }
+  ]
+}

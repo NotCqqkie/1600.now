@@ -1,1 +1,19 @@
-{"questionId": "429fb7c0", "correctAnswer": "-.3266", "section": "Math", "steps": [{"title": "Expand the right‑hand side", "content": "$$8(t-0.001)+1.9 = 8t - 0.008 + 1.9 = 8t + 1.892$$"}, {"title": "Collect like terms", "content": "$$0.8t - 0.46 = 8t + 1.892$$<br/>Subtract $0.8t$ and $1.892$ from both sides:<br/>$$-0.46 - 1.892 = 8t - 0.8t$$<br/>$$-2.352 = 7.2t$$"}, {"title": "Solve for t", "content": "$$t = \\frac{-2.352}{7.2} = -0.326\\overline{6} \\approx -0.3266$$<br/>The answer is <strong>-.3266</strong>."}]}
+{
+  "questionId": "429fb7c0",
+  "correctAnswer": "-.3266",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Expand the right‑hand side",
+      "content": "$$8(t-0.001)+1.9 = 8t - 0.008 + 1.9 = 8t + 1.892$$"
+    },
+    {
+      "title": "Collect like terms",
+      "content": "$$0.8t - 0.46 = 8t + 1.892$$<br/>Subtract $0.8t$ and $1.892$ from both sides:<br/>$$-0.46 - 1.892 = 8t - 0.8t$$<br/>$$-2.352 = 7.2t$$"
+    },
+    {
+      "title": "Solve for t",
+      "content": "$$t = \\frac{-2.352}{7.2} = -0.326\\overline{6} \\approx -0.3266$$<br/>The answer is <strong>-.3266</strong>."
+    }
+  ]
+}

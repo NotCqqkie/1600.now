@@ -1,1 +1,31 @@
-{"questionId":"508344ac","correctAnswer":"B","section":"Math","steps":[{"title":"Distribute and combine like terms","content":"Distribute $16$:$$16(x+15)=16x+240$$"},{"title":"Match to the answer choices","content":"The simplified expression is $16x+240$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}
+{
+  "questionId": "508344ac",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute and combine like terms",
+      "content": "Distribute $16$:$$16(x+15)=16x+240$$"
+    },
+    {
+      "title": "Match to the answer choices",
+      "content": "The simplified expression is $16x+240$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice B is correct. The expression $16\\left(x+15\\right)$ can be rewritten as $16\\left(x\\right)+16\\left(15\\right)$, which is equivalent to $16x+240$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A is incorrect and may result from conceptual or calculation errors."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice C is incorrect and may result from conceptual or calculation errors."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice D is incorrect and may result from conceptual or calculation errors."
+    }
+  ]
+}

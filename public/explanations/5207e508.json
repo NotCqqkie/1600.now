@@ -1,1 +1,15 @@
-{"questionId": "5207e508", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Identify the angle pair as corresponding angles", "content": "Lines $m$ and $n$ are parallel, crossed by transversal $t$. The angle of $170°$ is formed at the intersection of $t$ and $m$, while angle $w$ is formed at the intersection of $t$ and $n$.<br/><br/>Both angles are positioned identically relative to their intersection points — in the same location with respect to the parallel lines and transversal.<br/><br/>These are <strong>corresponding angles</strong>."}, {"title": "Apply the Corresponding Angles Postulate", "content": "When a transversal intersects two parallel lines, corresponding angles are congruent. Since $170°$ and $w$ are corresponding angles formed by transversal $t$ crossing parallel lines $m$ and $n$: $$w = 170°$$ That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "5207e508",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the angle pair as corresponding angles",
+      "content": "Lines $m$ and $n$ are parallel, crossed by transversal $t$. The angle of $170°$ is formed at the intersection of $t$ and $m$, while angle $w$ is formed at the intersection of $t$ and $n$.<br/><br/>Both angles are positioned identically relative to their intersection points — in the same location with respect to the parallel lines and transversal.<br/><br/>These are <strong>corresponding angles</strong>."
+    },
+    {
+      "title": "Apply the Corresponding Angles Postulate",
+      "content": "When a transversal intersects two parallel lines, corresponding angles are congruent. Since $170°$ and $w$ are corresponding angles formed by transversal $t$ crossing parallel lines $m$ and $n$: $$w = 170°$$ That matches choice <strong>D</strong> — <strong>D</strong> is correct."
+    }
+  ]
+}

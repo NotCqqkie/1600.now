@@ -18,8 +18,6 @@ dist-ssr
 !.vscode/settings.json
 .idea
 **/.DS_Store
-.claude/
-.cursor/
 *.suo
 *.ntvs*
 *.njsproj
@@ -27,7 +25,6 @@ dist-ssr
 *.sw?
 
 .env
-.aider*
 .wakatime-project
 __pycache__/
 *.pyc
@@ -38,12 +35,8 @@ scripts/**/*_log.json
 *.bak
 rescraped_images_*/
 
-# Auto-generated worker state and debug artifacts
-.playwright-mcp/
+# Worker state and debug artifacts
 .playwright/
-.shannon/
-shannon-config.yaml
-CODEX_*.md
 category_audit_findings.md
 scripts/images/unreferenced_images.txt
 scripts/extract/_runs/

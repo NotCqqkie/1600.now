@@ -1,1 +1,19 @@
-{"questionId": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_22", "correctAnswer": "17.9", "section": "Math", "steps": [{"title": "Calculate buildings on farmland as a percentage of the total plot", "content": "Farmland comprises 52% of the total plot. Buildings exist on 21.5% of the farmland. Therefore, the area with buildings on farmland is:<br/>$$21.5\\% \\times 52\\% = 0.215 \\times 0.52 = 0.1118 = 11.18\\%$$<br/>So 11.18% of the total plot has buildings on the farmland."}, {"title": "Calculate buildings on pasture as a percentage of the total plot", "content": "Pasture comprises the remaining portion: $100\\% - 52\\% = 48\\%$ of the plot. Buildings exist on 14% of the pasture. Therefore:<br/>$$14\\% \\times 48\\% = 0.14 \\times 0.48 = 0.0672 = 6.72\\%$$<br/>So 6.72% of the total plot has buildings on the pasture."}, {"title": "Sum the percentages to find p", "content": "The total percentage of the plot with buildings is the sum of buildings on farmland and buildings on pasture:<br/>$$p = 11.18\\% + 6.72\\% = 17.9\\%$$<br/>Therefore, $p = 17.9$."}]}
+{
+  "questionId": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_22",
+  "correctAnswer": "17.9",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate buildings on farmland as a percentage of the total plot",
+      "content": "Farmland comprises 52% of the total plot. Buildings exist on 21.5% of the farmland. Therefore, the area with buildings on farmland is:<br/>$$21.5\\% \\times 52\\% = 0.215 \\times 0.52 = 0.1118 = 11.18\\%$$<br/>So 11.18% of the total plot has buildings on the farmland."
+    },
+    {
+      "title": "Calculate buildings on pasture as a percentage of the total plot",
+      "content": "Pasture comprises the remaining portion: $100\\% - 52\\% = 48\\%$ of the plot. Buildings exist on 14% of the pasture. Therefore:<br/>$$14\\% \\times 48\\% = 0.14 \\times 0.48 = 0.0672 = 6.72\\%$$<br/>So 6.72% of the total plot has buildings on the pasture."
+    },
+    {
+      "title": "Sum the percentages to find p",
+      "content": "The total percentage of the plot with buildings is the sum of buildings on farmland and buildings on pasture:<br/>$$p = 11.18\\% + 6.72\\% = 17.9\\%$$<br/>Therefore, $p = 17.9$."
+    }
+  ]
+}

@@ -1,1 +1,18 @@
-{"questionId": "fe287f7e", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Identify each cost component", "content": "The technician's charge has two parts:<ul><li>Labor: \\$60 per hour &times; $x$ hours = $60x$ dollars (variable, depends on time)</li><li>Parts: a flat \\$120 fee (constant, regardless of time)</li></ul>"}, {"title": "Write the total-cost function and evaluate each choice", "content": "Total = labor + parts = $60x + 120$. Compare to each option:<ul><li><strong>Choice A &mdash; 'f(x) = x + 120'</strong>: Charges only \\$1 per hour for labor instead of \\$60. Incorrect rate. &#10007;</li><li><strong>Choice B &mdash; 'f(x) = 60x'</strong>: Captures the hourly labor cost but omits the \\$120 parts charge entirely. &#10007;</li><li><strong>Choice C &mdash; 'f(x) = 60x + 120'</strong>: \\$60 per hour for labor plus the \\$120 parts fee. Matches both components exactly. &#10003;</li><li><strong>Choice D &mdash; 'f(x) = 60x - 120'</strong>: Subtracts \\$120 instead of adding it &mdash; that would give a discount for parts, not a charge. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.", "desmosExpressions": ["y=60x+120"]}]}
+{
+  "questionId": "fe287f7e",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify each cost component",
+      "content": "The technician's charge has two parts:<ul><li>Labor: \\$60 per hour &times; $x$ hours = $60x$ dollars (variable, depends on time)</li><li>Parts: a flat \\$120 fee (constant, regardless of time)</li></ul>"
+    },
+    {
+      "title": "Write the total-cost function and evaluate each choice",
+      "content": "Total = labor + parts = $60x + 120$. Compare to each option:<ul><li><strong>Choice A &mdash; 'f(x) = x + 120'</strong>: Charges only \\$1 per hour for labor instead of \\$60. Incorrect rate. &#10007;</li><li><strong>Choice B &mdash; 'f(x) = 60x'</strong>: Captures the hourly labor cost but omits the \\$120 parts charge entirely. &#10007;</li><li><strong>Choice C &mdash; 'f(x) = 60x + 120'</strong>: \\$60 per hour for labor plus the \\$120 parts fee. Matches both components exactly. &#10003;</li><li><strong>Choice D &mdash; 'f(x) = 60x - 120'</strong>: Subtracts \\$120 instead of adding it &mdash; that would give a discount for parts, not a charge. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "y=60x+120"
+      ]
+    }
+  ]
+}

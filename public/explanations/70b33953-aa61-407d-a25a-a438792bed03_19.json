@@ -1,1 +1,19 @@
-{"questionId": "70b33953-aa61-407d-a25a-a438792bed03_19", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Substitute", "content": "Plug $x=2$ into $k(x)=x^{3}+50$.<br/>$$k(2)=2^{3}+50$$"}, {"title": "Compute the result", "content": "Cube then add.<br/>$$k(2)=8+50=58$$<br/>That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "70b33953-aa61-407d-a25a-a438792bed03_19",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute",
+      "content": "Plug $x=2$ into $k(x)=x^{3}+50$.<br/>$$k(2)=2^{3}+50$$"
+    },
+    {
+      "title": "Compute the result",
+      "content": "Cube then add.<br/>$$k(2)=8+50=58$$<br/>That matches choice <strong>D</strong> — <strong>D</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice D, 58. The other choices do not satisfy the same condition from the question, so <strong>D</strong> is correct."
+    }
+  ]
+}

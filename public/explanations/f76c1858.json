@@ -13,6 +13,10 @@
       "desmosExpressions": [
         "y = 7x^2 - 20x - 32"
       ]
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $4$. The left-hand side of the given equation can be factored as $\\left(7x+8\\right)\\left(x-4\\right)$. Therefore, the given equation, $7{x}^{2}-20x-32=0$, can be written as $\\left(7x+8\\right)\\left(x-4\\right)=0$. Applying the zero product property to this equation yields $7x+8=0$ and $x-4=0$. Subtracting $8$ from both sides of the equation $7x+8=0$ yields $7x=-8$. Dividing both sides of this equation by $7$ yields $x=-\\frac{8}{7}$. Adding $4$ to both sides of the equation $x-4=0$ yields $x=4$. Therefore, the two solutions to the given equation, $7{x}^{2}-20x-32=0$, are $-\\frac{8}{7}$ and $4$. It follows that $4$ is the positive solution to the given equation."
     }
   ]
 }

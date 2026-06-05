@@ -33,7 +33,10 @@ const PracticeTestStart = () => {
   const practiceSet = useMemo(() => (setId ? getPracticeSet(setId) : null), [setId]);
   const [sessionRefreshKey, setSessionRefreshKey] = useState(0);
   const savedSession = useMemo(
-    () => (practiceSet ? getPracticeTestSession(practiceSet.id) : null),
+    () => {
+      void sessionRefreshKey;
+      return practiceSet ? getPracticeTestSession(practiceSet.id) : null;
+    },
     [practiceSet, sessionRefreshKey],
   );
 

@@ -1,1 +1,22 @@
-{"questionId":"9628151f-9763-4abc-8c66-9dc08f82f715_16","correctAnswer":"A","section":"Math","steps":[{"title":"Isolate $x^2 - 2x$ by dividing both sides","content":"Divide both sides by $3$: $x^{2}-2x-10=0$."},{"title":"Compute the target value","content":"So $x^{2}-2x = 10$. That matches choice <strong>A</strong> — <strong>A</strong> is correct.","desmosExpressions":["y = 3x^{2} - 6x - 30"]}]}
+{
+  "questionId": "9628151f-9763-4abc-8c66-9dc08f82f715_16",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate $x^2 - 2x$ by dividing both sides",
+      "content": "Divide both sides by $3$: $x^{2}-2x-10=0$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "So $x^{2}-2x = 10$. That matches choice <strong>A</strong> — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y = 3x^{2} - 6x - 30"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice A, 10. The other choices do not satisfy the same condition from the question, so <strong>A</strong> is correct."
+    }
+  ]
+}

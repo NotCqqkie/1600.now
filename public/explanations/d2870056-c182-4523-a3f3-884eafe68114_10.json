@@ -1,1 +1,15 @@
-{"questionId":"d2870056-c182-4523-a3f3-884eafe68114_10","correctAnswer":"C","section":"Math","steps":[{"title":"Identify what the question needs","content":"Find an expression equivalent to $7x^3+56x^2$ by factoring out the greatest common factor."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; $x^3(7+56x)$</strong>: distributes to $7x^3+56x^4$, not the original. &#10007;</li><li><strong>Choice B &mdash; $7x^2(x+49)$</strong>: distributes to $7x^3+343x^2$; the constant $49$ is wrong because $56\\div7=8$, not $49$. &#10007;</li><li><strong>Choice C &mdash; $7x^2(x+8)$</strong>: distributes to $7x^3+56x^2$. &#10003;</li><li><strong>Choice D &mdash; $x^2(7+56x)$</strong>: distributes to $7x^2+56x^3$, which swaps the exponents. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "d2870056-c182-4523-a3f3-884eafe68114_10",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "Find an expression equivalent to $7x^3+56x^2$ by factoring out the greatest common factor."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; $x^3(7+56x)$</strong>: distributes to $7x^3+56x^4$, not the original. &#10007;</li><li><strong>Choice B &mdash; $7x^2(x+49)$</strong>: distributes to $7x^3+343x^2$; the constant $49$ is wrong because $56\\div7=8$, not $49$. &#10007;</li><li><strong>Choice C &mdash; $7x^2(x+8)$</strong>: distributes to $7x^3+56x^2$. &#10003;</li><li><strong>Choice D &mdash; $x^2(7+56x)$</strong>: distributes to $7x^2+56x^3$, which swaps the exponents. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

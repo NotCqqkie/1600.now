@@ -1,1 +1,22 @@
-{"questionId":"e4f2c33b-9282-40a7-810c-d633e5197f95_9","correctAnswer":"A","section":"Math","steps":[{"title":"Identify coefficients in standard form","content":"$x^2 - 15x + 12 = 0$ gives $a=1$, $b=-15$."},{"title":"Apply Vieta&apos;s shortcut: sum = &minus;b/a","content":"Sum of solutions $= -b/a = -(-15)/1 = 15$. No solving needed. That matches choice A &mdash; <strong>A</strong> is correct.","desmosExpressions":["y=x^{2}-15x+12"]}]}
+{
+  "questionId": "e4f2c33b-9282-40a7-810c-d633e5197f95_9",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify coefficients in standard form",
+      "content": "$x^2 - 15x + 12 = 0$ gives $a=1$, $b=-15$."
+    },
+    {
+      "title": "Apply Vieta&apos;s shortcut: sum = &minus;b/a",
+      "content": "Sum of solutions $= -b/a = -(-15)/1 = 15$. No solving needed. That matches choice A &mdash; <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y=x^{2}-15x+12"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice A, $15$, and the other choices fail the same setup or substitution. Therefore <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,19 @@
-{"questionId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_21", "correctAnswer": "15100", "section": "Math", "steps": [{"title": "Set up the relationships and work backwards from the known graduate count", "content": "Let $U$ = undergraduates, $G$ = graduates, $P$ = postdoctoral. The given relationships are:<br/>$$G = 0.24U$$<br/>$$U = 74.5P$$<br/>We know $G = 3{,}576$. Working backwards from this known value, we can find both $U$ and $P$."}, {"title": "Find the number of undergraduate students", "content": "From $G = 0.24U$ with $G = 3{,}576$:<br/>$$3{,}576 = 0.24U$$<br/>$$U = \\frac{3{,}576}{0.24} = 14{,}900$$"}, {"title": "Find the number of postdoctoral students and calculate the sum", "content": "From $U = 74.5P$ with $U = 14{,}900$:<br/>$$14{,}900 = 74.5P$$<br/>$$P = \\frac{14{,}900}{74.5} = 200$$<br/>Therefore, the sum is:<br/>$$U + P = 14{,}900 + 200 = 15{,}100$$"}]}
+{
+  "questionId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_21",
+  "correctAnswer": "15100",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the relationships and work backwards from the known graduate count",
+      "content": "Let $U$ = undergraduates, $G$ = graduates, $P$ = postdoctoral. The given relationships are:<br/>$$G = 0.24U$$<br/>$$U = 74.5P$$<br/>We know $G = 3{,}576$. Working backwards from this known value, we can find both $U$ and $P$."
+    },
+    {
+      "title": "Find the number of undergraduate students",
+      "content": "From $G = 0.24U$ with $G = 3{,}576$:<br/>$$3{,}576 = 0.24U$$<br/>$$U = \\frac{3{,}576}{0.24} = 14{,}900$$"
+    },
+    {
+      "title": "Find the number of postdoctoral students and calculate the sum",
+      "content": "From $U = 74.5P$ with $U = 14{,}900$:<br/>$$14{,}900 = 74.5P$$<br/>$$P = \\frac{14{,}900}{74.5} = 200$$<br/>Therefore, the sum is:<br/>$$U + P = 14{,}900 + 200 = 15{,}100$$"
+    }
+  ]
+}

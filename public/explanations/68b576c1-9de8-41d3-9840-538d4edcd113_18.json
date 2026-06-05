@@ -2,10 +2,10 @@
   "qid": "68b576c1-9de8-41d3-9840-538d4edcd113_18",
   "steps": [
     "A 2.4% annual increase means each year the house is worth 100% + 2.4% = 102.4% of the prior year's value.",
-    "Convert 102.4% to a decimal growth factor: \\(1.024\\).",
-    "Starting value is \\$174,000 and the factor compounds for \\(x\\) years: \\(f(x) = 174{,}000(1.024)^x\\)."
+    "Convert 102.4% to a decimal growth factor: $1.024$.",
+    "Starting value is \\$174,000 and the factor compounds for $x$ years: $f(x) = 174{,}000(1.024)^x$."
   ],
-  "eliminationHtml": "<ul><li><strong>Choice A &mdash; '\\(f(x)=174{,}000(0.024)^{x}\\)'</strong>: Growth factor 0.024 would reduce the value to nearly zero each year &mdash; models a 97.6% annual loss. &#10007;</li><li><strong>Choice B &mdash; '\\(f(x)=174{,}000(0.24)^{x}\\)'</strong>: Growth factor 0.24 models a 76% annual loss, not a gain. &#10007;</li><li><strong>Choice C &mdash; '\\(f(x)=174{,}000(1.024)^{x}\\)'</strong>: Factor \\(1 + 0.024 = 1.024\\) correctly represents a 2.4% annual increase. &#10003;</li><li><strong>Choice D &mdash; '\\(f(x)=174{,}000(1.24)^{x}\\)'</strong>: Factor 1.24 represents a 24% annual increase, ten times the stated rate. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.",
+  "eliminationHtml": "<ul><li><strong>Choice A &mdash; '$f(x)=174{,}000(0.024)^{x}$'</strong>: Growth factor 0.024 would reduce the value to nearly zero each year &mdash; models a 97.6% annual loss. &#10007;</li><li><strong>Choice B &mdash; '$f(x)=174{,}000(0.24)^{x}$'</strong>: Growth factor 0.24 models a 76% annual loss, not a gain. &#10007;</li><li><strong>Choice C &mdash; '$f(x)=174{,}000(1.024)^{x}$'</strong>: Factor $1 + 0.024 = 1.024$ correctly represents a 2.4% annual increase. &#10003;</li><li><strong>Choice D &mdash; '$f(x)=174{,}000(1.24)^{x}$'</strong>: Factor 1.24 represents a 24% annual increase, ten times the stated rate. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.",
   "correctAnswer": "C",
   "desmosExpressions": [
     "f\\left(x\\right)=174000\\cdot1.024^{x}"

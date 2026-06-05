@@ -1,1 +1,23 @@
-{"questionId":"ad300285-6ff9-46a9-97ab-7356c9cd2965_9","correctAnswer":"C","section":"Math","steps":[{"title":"Set up","content":"The three angles of the triangle sum to 180&deg;: $$47 + 90 + \frac{k}{2} = 180$$"},{"title":"Solve","content":"$$\frac{k}{2} = 180 - 137 = 43$$$$k = 86$$"},{"title":"Answer","content":"<strong>C</strong> is correct."}]}
+{
+  "questionId": "ad300285-6ff9-46a9-97ab-7356c9cd2965_9",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "The three angles of the triangle sum to 180&deg;: $$47 + 90 + \frac{k}{2} = 180$$"
+    },
+    {
+      "title": "Solve",
+      "content": "$$\frac{k}{2} = 180 - 137 = 43$$$$k = 86$$"
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>C</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice C, 86, and the other choices fail the same setup or substitution. Therefore <strong>C</strong> is correct."
+    }
+  ]
+}

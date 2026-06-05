@@ -13,7 +13,15 @@
     },
     {
       "title": "Calculate the final weight w",
-      "content": "The final weight equals initial weight plus total gain. Since $730 < \\text{total gain} < 1,095$, add 200 to all parts:<br/>$$200 + 730 < w < 200 + 1,095$$<br/>$$930 < w < 1,295$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "The final weight equals initial weight plus total gain. Since $730 < \\text{total gain} < 1,095$, add 200 to all parts:<br/>$$200 + 730 < w < 200 + 1,095$$<br/>$$930 < w < 1,295$$<br/>That matches choice D — <strong>D</strong> is correct."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice D is correct. It's given that the elephant weighs 200 pounds at birth and gains more than 2 pounds but less than 3 pounds per day during its first year. The inequality $200 + 2d < w < 200 + 3d$ represents this situation, where <em>d</em> is the number of days after birth. Substituting 365 for <em>d</em> in the inequality gives $200 + 2(365) < w < 200 + 3(365)$, or $930 < w < 1295$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A is incorrect and may result from solving the inequality $200(2) < w < 200(3)$. Choice B is incorrect and may result from solving the inequality for a weight range of more than 1 pound but less than 2 pounds: $200 + 1(365) < w < 200 + 2(365)$. Choice C is incorrect and may result from calculating the possible weight gained by the elephant during the first year without adding the 200 pounds the elephant weighed at birth."
     }
   ]
 }

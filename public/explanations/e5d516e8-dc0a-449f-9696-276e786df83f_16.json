@@ -1,1 +1,19 @@
-{"questionId": "e5d516e8-dc0a-449f-9696-276e786df83f_16", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Set up", "content": "In right triangle ABC with the right angle at B, the angle at C is 57°. Side AB is opposite the 57° angle, and AC is the hypotenuse. Use the sine ratio from angle C."}, {"title": "Solve", "content": "$$\\sin(57°) = \\frac{\\text{opposite}}{\\text{hypotenuse}} = \\frac{AB}{AC}$$<br/>Solving for AB:<br/>$$AB = AC \\cdot \\sin(57°)$$<br/>With AC as the reference unit, $AB = \\sin(57°)$."}, {"title": "Answer", "content": "<strong>A</strong> is correct."}]}
+{
+  "questionId": "e5d516e8-dc0a-449f-9696-276e786df83f_16",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "In right triangle ABC with the right angle at B, the angle at C is 57°. Side AB is opposite the 57° angle, and AC is the hypotenuse. Use the sine ratio from angle C."
+    },
+    {
+      "title": "Solve",
+      "content": "$$\\sin(57°) = \\frac{\\text{opposite}}{\\text{hypotenuse}} = \\frac{AB}{AC}$$<br/>Solving for AB:<br/>$$AB = AC \\cdot \\sin(57°)$$<br/>With AC as the reference unit, $AB = \\sin(57°)$."
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>A</strong> is correct."
+    }
+  ]
+}

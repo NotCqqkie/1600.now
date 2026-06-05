@@ -1,1 +1,31 @@
-{"questionId": "a73a5c22", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Substitute", "content": "Plug $x=8$ into $g(x)=10x+8$.<br/>$$g(8)=10(8)+8$$"}, {"title": "Compute the result", "content": "Multiply then add.<br/>$$g(8)=80+8=88$$<br/>That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "a73a5c22",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute",
+      "content": "Plug $x=8$ into $g(x)=10x+8$.<br/>$$g(8)=10(8)+8$$"
+    },
+    {
+      "title": "Compute the result",
+      "content": "Multiply then add.<br/>$$g(8)=80+8=88$$<br/>That matches choice <strong>D</strong> — <strong>D</strong> is correct."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice D is correct. The value of $g\\left(x\\right)$ when $x=8$ can be found by substituting $8$ for $x$ in the given equation $g\\left(x\\right)=10x+8$. This yields $g\\left(8\\right)=10\\left(8\\right)+8$, or $g\\left(8\\right)=88$. Therefore, when $x=8$, the value of $g\\left(x\\right)$ is $88$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A is incorrect. This is the value of $x$ when $g\\left(x\\right)=8$, rather than the value of $g\\left(x\\right)$ when $x=8$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice B is incorrect and may result from conceptual or calculation errors."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice C is incorrect and may result from conceptual or calculation errors."
+    }
+  ]
+}

@@ -9,7 +9,7 @@
     },
     {
       "title": "Substitute back and simplify",
-      "content": "Substitute into the original equation:<br/>$$y = 7\\left[\\left(x - \\frac{b}{14}\\right)^2 - \\frac{b^2}{196}\\right] - 6$$<br/>Distribute the 7:<br/>$$y = 7\\left(x - \\frac{b}{14}\\right)^2 - 7 \\cdot \\frac{b^2}{196} - 6$$<br/>Simplify $7 \\cdot \\frac{b^2}{196} = \\frac{b^2}{28}$:<br/>$$y = 7\\left(x - \\frac{b}{14}\\right)^2 - \\frac{b^2}{28} - 6$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "Substitute into the original equation:<br/>$$y = 7\\left[\\left(x - \\frac{b}{14}\\right)^2 - \\frac{b^2}{196}\\right] - 6$$<br/>Distribute the 7:<br/>$$y = 7\\left(x - \\frac{b}{14}\\right)^2 - 7 \\cdot \\frac{b^2}{196} - 6$$<br/>Simplify $7 \\cdot \\frac{b^2}{196} = \\frac{b^2}{28}$:<br/>$$y = 7\\left(x - \\frac{b}{14}\\right)^2 - \\frac{b^2}{28} - 6$$<br/>That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

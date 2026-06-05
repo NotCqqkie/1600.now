@@ -1,1 +1,15 @@
-{"questionId": "c8d60e48", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Identify base angles in isosceles triangle", "content": "Since $AB = AC$, triangle $ABC$ is isosceles. In an isosceles triangle, the angles opposite the equal sides are equal. The sides $AB$ and $AC$ are equal, so the angles at $B$ and $C$ (the base angles) must be equal.<br/><br/>Therefore: $\\angle ABC = \\angle ACB = 67°$"}, {"title": "Use triangle angle sum to find x", "content": "The sum of all angles in any triangle equals $180°$:<br/>$$\\angle BAC + \\angle ABC + \\angle ACB = 180°$$<br/>$$x + 67° + 67° = 180°$$<br/>$$x + 134° = 180°$$<br/>$$x = 46°$$<br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "c8d60e48",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify base angles in isosceles triangle",
+      "content": "Since $AB = AC$, triangle $ABC$ is isosceles. In an isosceles triangle, the angles opposite the equal sides are equal. The sides $AB$ and $AC$ are equal, so the angles at $B$ and $C$ (the base angles) must be equal.<br/><br/>Therefore: $\\angle ABC = \\angle ACB = 67°$"
+    },
+    {
+      "title": "Use triangle angle sum to find x",
+      "content": "The sum of all angles in any triangle equals $180°$:<br/>$$\\angle BAC + \\angle ABC + \\angle ACB = 180°$$<br/>$$x + 67° + 67° = 180°$$<br/>$$x + 134° = 180°$$<br/>$$x = 46°$$<br/>That matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

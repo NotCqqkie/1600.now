@@ -1,1 +1,22 @@
-{"questionId":"39714777","correctAnswer":"B","section":"Math","steps":[{"title":"Isolate $p(x)$","content":"$p(x)+57=x^2 \\Rightarrow p(x)=x^2-57$"},{"title":"Read the vertex directly","content":"Written as $p(x)=(x-0)^2+(-57)$, this is vertex form $(h,k)=(0,-57)$. Since $a=1>0$, the parabola opens upward — the vertex is the minimum."},{"title":"State the minimum value","content":"The minimum value is $p(0)=-57$. That matches choice B — <strong>B</strong> is correct.","desmosExpressions":["p(x)=x^2-57"]}]}
+{
+  "questionId": "39714777",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate $p(x)$",
+      "content": "$p(x)+57=x^2 \\Rightarrow p(x)=x^2-57$"
+    },
+    {
+      "title": "Read the vertex directly",
+      "content": "Written as $p(x)=(x-0)^2+(-57)$, this is vertex form $(h,k)=(0,-57)$. Since $a=1>0$, the parabola opens upward — the vertex is the minimum."
+    },
+    {
+      "title": "State the minimum value",
+      "content": "The minimum value is $p(0)=-57$. That matches choice B — <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "p(x)=x^2-57"
+      ]
+    }
+  ]
+}

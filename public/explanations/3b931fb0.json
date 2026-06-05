@@ -1,1 +1,16 @@
-{"questionId": "3b931fb0", "correctAnswer": "29", "section": "Math", "steps": [{"title": "Identify the volume formula for a cylinder", "content": "The volume of a right circular cylinder equals the base area times the height. We are given that the volume is $377$ cubic centimeters and the base area is $13$ square centimeters.", "formula": "$$V = \\text{(base area)} \\times h$$"}, {"title": "Substitute and solve for height", "content": "Substitute the known values into the formula: $$377 = 13h$$. Divide both sides by 13: $$h = \\frac{377}{13} = 29$$. The height of the cylinder is <strong>29 centimeters</strong>."}]}
+{
+  "questionId": "3b931fb0",
+  "correctAnswer": "29",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the volume formula for a cylinder",
+      "content": "The volume of a right circular cylinder equals the base area times the height. We are given that the volume is $377$ cubic centimeters and the base area is $13$ square centimeters.",
+      "formula": "$$V = \\text{(base area)} \\times h$$"
+    },
+    {
+      "title": "Substitute and solve for height",
+      "content": "Substitute the known values into the formula: $$377 = 13h$$. Divide both sides by 13: $$h = \\frac{377}{13} = 29$$. The height of the cylinder is <strong>29 centimeters</strong>."
+    }
+  ]
+}

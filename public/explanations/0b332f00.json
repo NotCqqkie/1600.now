@@ -10,6 +10,10 @@
     {
       "title": "Solve for x",
       "content": "Divide both sides by 6:<br/>$$x = \\frac{54}{6} = 9$$"
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $9$. It's given that $g\\left(x\\right)=6x$. Substituting $54$ for $g\\left(x\\right)$ in the given function yields $54=6x$. Dividing both sides of this equation by $6$ yields $x=9$. Therefore, the value of $x$ when $g\\left(x\\right)=54$ is $9$."
     }
   ]
 }

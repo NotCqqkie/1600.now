@@ -1,4 +1,4 @@
-// Auto-generated from unofficial SAT-style image assets. Do not edit manually.
+// SAT-style image assets. Regenerate from the image library when assets change.
 export interface UnofficialQuestionImageEntry {
   questionImages?: { src: string; alt: string }[];
   choiceImages?: Record<string, string>;

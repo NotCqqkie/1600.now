@@ -11,6 +11,10 @@
       "title": "Calculate the range",
       "content": "Subtract the minimum from the maximum: $$20 - 4 = 16$$",
       "formula": "$$\\text{Range} = \\text{Maximum} - \\text{Minimum}$$"
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $16$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $16$."
     }
   ]
 }

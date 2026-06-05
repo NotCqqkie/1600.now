@@ -1,1 +1,19 @@
-{"questionId":"9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_7","correctAnswer":"21","section":"Math","steps":[{"title":"Substitute the given value","content":"With $h(x)=x+b$ and $h(0)=21$, plug $x=0$ into the function:<br/>$$h(0)=0+b=b$$"},{"title":"Solve for the unknown","content":"Since $h(0)=b$ and $h(0)=21$, we get $b=21$.<br/>The answer is <strong>21</strong>."}]}
+{
+  "questionId": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_7",
+  "correctAnswer": "21",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the input x = 0",
+      "content": "The function is $h(x)=x+b$, and the given value is $h(0)=21$. Substitute $x=0$: $$h(0)=0+b=b.$$"
+    },
+    {
+      "title": "Read off b",
+      "content": "Because $h(0)=b$ and the problem says $h(0)=21$, the constant must be $b=21$."
+    },
+    {
+      "title": "Check by substitution",
+      "content": "With $b=21$, the function is $h(x)=x+21$. Then $h(0)=0+21=21$, exactly matching the given condition. The answer is <strong>21</strong>."
+    }
+  ]
+}

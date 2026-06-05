@@ -1,1 +1,24 @@
-{"questionId":"2c288148","correctAnswer":"231","section":"Math","steps":[{"title":"Square both sides","content":"Square $\\sqrt{k-x}=58-x$ to clear the radical: $$k-x=(58-x)^2=3364-116x+x^2.$$ Note that any solution must also satisfy $58-x\\ge 0$ so the right side is non-negative."},{"title":"Solve the resulting quadratic","content":"Rearranging gives $$x^2-115x+(3364-k)=0.$$ The discriminant is $$\\Delta=115^2-4(3364-k)=4k-231.$$"},{"title":"Apply the unique-solution condition","content":"The smallest $k$ giving a valid solution is the tangency case $\\Delta=0$: $$4k-231=0 \\Rightarrow 4k=231.$$ The repeated root $x=\\tfrac{115}{2}=57.5$ satisfies $x\\le 58$, so it is valid. The answer is <strong>231</strong>.","desmosExpressions":["y = \\sqrt{k - x}","y = 58 - x","k = 58"]}]}
+{
+  "questionId": "2c288148",
+  "correctAnswer": "231",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Square both sides",
+      "content": "Square $\\sqrt{k-x}=58-x$ to clear the radical: $$k-x=(58-x)^2=3364-116x+x^2.$$ Note that any solution must also satisfy $58-x\\ge 0$ so the right side is non-negative."
+    },
+    {
+      "title": "Solve the resulting quadratic",
+      "content": "Rearranging gives $$x^2-115x+(3364-k)=0.$$ The discriminant is $$\\Delta=115^2-4(3364-k)=4k-231.$$"
+    },
+    {
+      "title": "Apply the unique-solution condition",
+      "content": "The smallest $k$ giving a valid solution is the tangency case $\\Delta=0$: $$4k-231=0 \\Rightarrow 4k=231.$$ The repeated root $x=\\tfrac{115}{2}=57.5$ satisfies $x\\le 58$, so it is valid. The answer is <strong>231</strong>.",
+      "desmosExpressions": [
+        "y = \\sqrt{k - x}",
+        "y = 58 - x",
+        "k = 58"
+      ]
+    }
+  ]
+}

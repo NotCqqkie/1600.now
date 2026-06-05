@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Convert the area unit",
-      "content": "We need to express 1 cm\u00b2 in mm\u00b2. Since 1 cm = 10 mm, squaring both sides gives: $$1 \\text{ cm}^2 = (10 \\text{ mm})^2 = 100 \\text{ mm}^2$$"
+      "content": "We need to express 1 cm² in mm². Since 1 cm = 10 mm, squaring both sides gives: $$1 \\text{ cm}^2 = (10 \\text{ mm})^2 = 100 \\text{ mm}^2$$"
     },
     {
-      "title": "Calculate density in g/mm\u00b2",
-      "content": "The given density is 0.812 g/cm\u00b2, meaning 0.812 grams per 1 cm\u00b2. Since 1 cm\u00b2 = 100 mm\u00b2, this is equivalent to 0.812 g per 100 mm\u00b2, or: $$\\frac{0.812}{100} = 0.00812 \\text{ g/mm}^2$$ This matches choice D \u2014 <strong>D</strong> is correct."
+      "title": "Calculate density in g/mm²",
+      "content": "The given density is 0.812 g/cm², meaning 0.812 grams per 1 cm². Since 1 cm² = 100 mm², this is equivalent to 0.812 g per 100 mm², or: $$\\frac{0.812}{100} = 0.00812 \\text{ g/mm}^2$$ This matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

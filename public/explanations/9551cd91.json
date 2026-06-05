@@ -4,16 +4,21 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read two points from the table",
-      "content": "From the table: when $$c=0$$ cars, the max passengers and crew is $$p=9$$. When $$c=1$$, $$p=64$$."
+      "title": "Fit p as a function of c",
+      "content": "Treat the number of cars $c$ as $x$ and the capacity $p$ as $y$. The table gives $(0,9)$ and $(1,64)$, so run a linear regression.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[9,64]",
+        "y_1~m x_1+b"
+      ]
     },
     {
-      "title": "Find the linear equation",
-      "content": "Slope: $$m=\\frac{64-9}{1-0}=55$$. With point $$(0,9)$$: $$p=55c+9$$. Rearranging: $$55c-p=-9$$."
+      "title": "Convert to the answer form",
+      "content": "Desmos gives $m=55$ and $b=9$, so $p=55c+9$. Move $p$ to the left: $$55c-p=-9$$"
     },
     {
-      "title": "Eliminate wrong choices and confirm",
-      "content": "<ul><li><strong>Choice A &mdash; '$55c-p=-9$'</strong>: Equivalent to $$p=55c+9$$. Gives $$p=9$$ when $$c=0$$ and $$p=64$$ when $$c=1$$. &#10003;</li><li><strong>Choice B &mdash; '$55c-p=9$'</strong>: Equivalent to $$p=55c-9$$. Gives $$p=-9$$ when $$c=0$$ — negative passengers is impossible. &#10007;</li><li><strong>Choice C &mdash; '$55p-c=-9$'</strong>: Has the wrong variable as the coefficient of 55. When $$c=0$$: $$p=-9/55$$, not an integer. &#10007;</li><li><strong>Choice D &mdash; '$55p-c=9$'</strong>: Same issue — 55 multiplies $$p$$ instead of $$c$$. Gives non-integer $$p$$ values. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "title": "Check the choices",
+      "content": "Choice <strong>A</strong> is $55c-p=-9$, so A is correct."
     }
   ]
 }

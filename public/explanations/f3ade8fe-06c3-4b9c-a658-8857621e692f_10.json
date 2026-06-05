@@ -1,1 +1,32 @@
-{"qid":"f3ade8fe-06c3-4b9c-a658-8857621e692f_10","correctAnswer":"C","steps":["Data set X: 13, 13, 14, 14, 15, 16, 16, 17, 17. Mean = 135 &divide; 9 = 15. Data set Y: 2, 2, 3, 3, 4, 5, 5, 6, 6. Mean = 36 &divide; 9 = 4.","Deviations from mean for X: &minus;2, &minus;2, &minus;1, &minus;1, 0, 1, 1, 2, 2. Deviations from mean for Y: &minus;2, &minus;2, &minus;1, &minus;1, 0, 1, 1, 2, 2.","Standard deviation depends only on how far each value strays from the mean, not on the values themselves. Both sets have identical deviation patterns, so their standard deviations are equal: \\(q = s\\).","That matches choice C &mdash; <strong>C</strong> is correct."],"choices":[{"id":"A","text":"$q &lt; s$","elimination":"<ul><li>This requires X to be less spread out than Y.</li><li>Both sets have identical deviations from their respective means (&minus;2, &minus;2, &minus;1, &minus;1, 0, 1, 1, 2, 2), so their standard deviations are equal, not unequal.</li><li>Eliminated because q is not less than s.</li></ul>"},{"id":"B","text":"$q &gt; s$","elimination":"<ul><li>This requires X to be more spread out than Y.</li><li>The deviation patterns are identical for both sets, making q = s, not q &gt; s.</li><li>Eliminated for the same reason as A.</li></ul>"},{"id":"C","text":"$q = s$","elimination":"<ul><li>Standard deviation measures spread around the mean using squared deviations.</li><li>X has deviations &minus;2, &minus;2, &minus;1, &minus;1, 0, 1, 1, 2, 2 from mean 15; Y has the exact same deviations from mean 4.</li><li>Because the deviation patterns are identical, \\(q = s\\). That matches choice C &mdash; <strong>C</strong> is correct.</li></ul>"},{"id":"D","text":"The relationship between $q$ and $s$ cannot be determined.","elimination":"<ul><li>The relationship can actually be determined by computing the deviations from the mean for each set.</li><li>Both sets yield identical deviation patterns, so q = s is determinable.</li><li>Eliminated because a definite relationship exists.</li></ul>"}]}
+{
+  "qid": "f3ade8fe-06c3-4b9c-a658-8857621e692f_10",
+  "correctAnswer": "C",
+  "steps": [
+    "Data set X: 13, 13, 14, 14, 15, 16, 16, 17, 17. Mean = 135 &divide; 9 = 15. Data set Y: 2, 2, 3, 3, 4, 5, 5, 6, 6. Mean = 36 &divide; 9 = 4.",
+    "Deviations from mean for X: &minus;2, &minus;2, &minus;1, &minus;1, 0, 1, 1, 2, 2. Deviations from mean for Y: &minus;2, &minus;2, &minus;1, &minus;1, 0, 1, 1, 2, 2.",
+    "Standard deviation depends only on how far each value strays from the mean, not on the values themselves. Both sets have identical deviation patterns, so their standard deviations are equal: $q = s$.",
+    "That matches choice C &mdash; <strong>C</strong> is correct."
+  ],
+  "choices": [
+    {
+      "id": "A",
+      "text": "$q &lt; s$",
+      "elimination": "<ul><li>This requires X to be less spread out than Y.</li><li>Both sets have identical deviations from their respective means (&minus;2, &minus;2, &minus;1, &minus;1, 0, 1, 1, 2, 2), so their standard deviations are equal, not unequal.</li><li>Eliminated because q is not less than s.</li></ul>"
+    },
+    {
+      "id": "B",
+      "text": "$q &gt; s$",
+      "elimination": "<ul><li>This requires X to be more spread out than Y.</li><li>The deviation patterns are identical for both sets, making q = s, not q &gt; s.</li><li>Eliminated for the same reason as A.</li></ul>"
+    },
+    {
+      "id": "C",
+      "text": "$q = s$",
+      "elimination": "<ul><li>Standard deviation measures spread around the mean using squared deviations.</li><li>X has deviations &minus;2, &minus;2, &minus;1, &minus;1, 0, 1, 1, 2, 2 from mean 15; Y has the exact same deviations from mean 4.</li><li>Because the deviation patterns are identical, $q = s$. That matches choice C &mdash; <strong>C</strong> is correct.</li></ul>"
+    },
+    {
+      "id": "D",
+      "text": "The relationship between $q$ and $s$ cannot be determined.",
+      "elimination": "<ul><li>The relationship can actually be determined by computing the deviations from the mean for each set.</li><li>Both sets yield identical deviation patterns, so q = s is determinable.</li><li>Eliminated because a definite relationship exists.</li></ul>"
+    }
+  ]
+}

@@ -28,6 +28,7 @@ interface DraggableWindowProps {
   persistenceStorage?: Storage;
   portalContainer?: HTMLElement | null;
   boundsElement?: HTMLElement | null;
+  centerOnExitSidebar?: boolean;
   // When true, keep the window mounted in the DOM after close so child state
   // (e.g. a Desmos calculator instance) survives. The window is hidden via
   // display:none instead of unmounted.
@@ -64,6 +65,7 @@ export const DraggableWindow = ({
   persistenceStorage = localStorage,
   portalContainer,
   boundsElement,
+  centerOnExitSidebar = false,
   keepMountedWhenClosed = false,
 }: DraggableWindowProps) => {
   const [position, setPosition] = useState({ x: 100, y: 100 });
@@ -299,20 +301,30 @@ export const DraggableWindow = ({
         if (savedState) {
           const bottomBarHeight = 80;
           const bounds = getBounds();
-          const maxX = bounds.width - savedState.size.width;
-          const maxY = bounds.height - savedState.size.height - bottomBarHeight;
+          const clampedWidth = Math.min(savedState.size.width, bounds.width);
+          const clampedHeight = Math.min(savedState.size.height, Math.max(56, bounds.height - bottomBarHeight));
+          const maxX = Math.max(0, bounds.width - clampedWidth);
+          const maxY = Math.max(0, bounds.height - clampedHeight - bottomBarHeight);
+          const centeredPosition = {
+            x: Math.max(0, Math.min((bounds.width - clampedWidth) / 2, maxX)),
+            y: Math.max(0, Math.min((bounds.height - clampedHeight) / 2, maxY)),
+          };
 
-          setSize(savedState.size);
-          setPosition({
-            x: Math.max(0, Math.min(savedState.position.x, maxX)),
-            y: Math.max(0, Math.min(savedState.position.y, maxY)),
-          });
+          setSize({ width: clampedWidth, height: clampedHeight });
+          setPosition(
+            centerOnExitSidebar
+              ? centeredPosition
+              : {
+                  x: Math.max(0, Math.min(savedState.position.x, maxX)),
+                  y: Math.max(0, Math.min(savedState.position.y, maxY)),
+                },
+          );
         }
       }
       wasSidebarredRef.current = false;
       openedAsSidebarRef.current = false;
     }
-  }, [splitPosition, isSidebarred, isOpen, getBounds, persistCurrentFloatingState]);
+  }, [splitPosition, isSidebarred, isOpen, getBounds, persistCurrentFloatingState, centerOnExitSidebar]);
 
   // Immediately check and correct position when un-minimizing
   useEffect(() => {

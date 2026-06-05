@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Total customers",
-      "content": "The table\u2019s bottom\u2011right corner shows the total number of customers as <strong>135</strong>."
+      "content": "The table’s bottom‑right corner shows the total number of customers as <strong>135</strong>."
     },
     {
       "title": "Customers at least 40 years old",
-      "content": "The row for customers aged 40 or older shows a total of <strong>105</strong> customers (sum across all visit columns).<br/>The probability is therefore $$ \\frac{105}{135} $$.<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "The row for customers aged 40 or older shows a total of <strong>105</strong> customers (sum across all visit columns).<br/>The probability is therefore $$ \\frac{105}{135} $$.<br/>That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

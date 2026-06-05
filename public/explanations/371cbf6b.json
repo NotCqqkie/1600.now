@@ -1,1 +1,20 @@
-{"questionId": "371cbf6b", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Finding $a$ by matching the $x^3$ coefficient", "content": "When we expand $(ax + 3)(5x^2 - bx + 4)$, the $x^3$ term comes from $ax \\cdot 5x^2 = 5ax^3$.<br/><br/>The right side has $20x^3$.<br/><br/>Therefore: $$5a = 20 \\quad \\Rightarrow \\quad a = 4$$"}, {"title": "Finding $ab$ by matching the $x^2$ coefficient", "content": "When we expand, the $x^2$ terms come from:<ul><li>$ax \\cdot (-bx) = -abx^2$</li><li>$3 \\cdot 5x^2 = 15x^2$</li></ul>Combined: $(-ab + 15)x^2$<br/><br/>The right side has $-9x^2$, so:<br/>$$-ab + 15 = -9$$<br/>$$ab = 24$$<br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "371cbf6b",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Finding $a$ by matching the $x^3$ coefficient",
+      "content": "When we expand $(ax + 3)(5x^2 - bx + 4)$, the $x^3$ term comes from $ax \\cdot 5x^2 = 5ax^3$.<br/><br/>The right side has $20x^3$.<br/><br/>Therefore: $$5a = 20 \\quad \\Rightarrow \\quad a = 4$$"
+    },
+    {
+      "title": "Finding $ab$ by matching the $x^2$ coefficient",
+      "content": "When we expand, the $x^2$ terms come from:<ul><li>$ax \\cdot (-bx) = -abx^2$</li><li>$3 \\cdot 5x^2 = 15x^2$</li></ul>Combined: $(-ab+15)x^2$. The right side has $-9x^2$, so:<br/>$$-ab+15=-9$$<br/>$$ab=24$$<br/>A Desmos identity regression checks this quickly by testing several $x$-values and solving for $a$ and $b$. That matches choice C, so <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "x_1=[-2,-1,0,1,2]",
+        "(a x_1+3)(5x_1^2-b x_1+4)~20x_1^3-9x_1^2-2x_1+12",
+        "a b"
+      ]
+    }
+  ]
+}

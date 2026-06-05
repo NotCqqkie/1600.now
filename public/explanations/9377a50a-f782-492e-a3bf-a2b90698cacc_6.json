@@ -1,1 +1,23 @@
-{"questionId":"9377a50a-f782-492e-a3bf-a2b90698cacc_6","correctAnswer":"B","section":"Math","steps":[{"title":"Set up","content":"Given $\\frac{x}{9}=5$, solve for $x$ first: $x = 45$."},{"title":"Solve","content":"$$\\frac{9}{x}=\\frac{9}{45}=\\frac{1}{5}$$"},{"title":"Answer","content":"<strong>B</strong> is correct."}]}
+{
+  "questionId": "9377a50a-f782-492e-a3bf-a2b90698cacc_6",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "Given $\\frac{x}{9}=5$, solve for $x$ first: $x = 45$."
+    },
+    {
+      "title": "Solve",
+      "content": "$$\\frac{9}{x}=\\frac{9}{45}=\\frac{1}{5}$$"
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>B</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice B, $\\frac{1}{5}$. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
+    }
+  ]
+}

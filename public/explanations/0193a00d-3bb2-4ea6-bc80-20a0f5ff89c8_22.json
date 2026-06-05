@@ -4,23 +4,23 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up coordinates and identify key points",
-      "content": "Place the intersection point $D$ at the origin, with chord $BE$ along the vertical axis and chord $AC$ along the horizontal axis (they are perpendicular at $D$). The four endpoints lie on the circle of radius $R = \\\\frac{145}{2} = 72.5$.<br/>Let $ED = r$ (the value we want), $BD = \\\\sqrt{286}$, $AD = a$, and $DC = c$."
+      "title": "Use the right-triangle shortcut from the figure",
+      "content": "The right-angle mark at $B$ means $\\angle ABC=90^\\circ$. Since $A$, $B$, and $C$ are on the circle, the side opposite that right angle, $AC$, is a diameter. The diameter is $145$, so:<br/>$$AD+CD=AC=145$$"
     },
     {
-      "title": "Apply the intersecting chords theorem",
-      "content": "When two chords intersect inside a circle at $D$:<br/><div class=\"callout\">$$AD \\\\cdot DC = BD \\\\cdot ED$$</div>Substituting: $$a \\\\cdot c = \\\\sqrt{286} \\\\cdot r \\tag{1}$$"
+      "title": "Apply the altitude-to-hypotenuse theorem",
+      "content": "Segment $BD$ is perpendicular to $AC$, so $BD$ is the altitude from the right angle to the hypotenuse. For a right triangle, the altitude satisfies:<br/>$$BD^2=AD\\cdot CD$$<br/>Given $BD=\\sqrt{286}$, this becomes:<br/>$$AD\\cdot CD=(\\sqrt{286})^2=286$$"
     },
     {
-      "title": "Use the perpendicular-from-center property",
-      "content": "Let $O$ be the center of the circle. Draw $ON \\\\perp BE$ (so $N$ is the midpoint of $BE$) and $OM \\\\perp AC$ (so $M$ is the midpoint of $AC$). Since $AC \\\\perp BE$ and both $ON$ and $OM$ are perpendicular to those chords, $OMDN$ forms a <strong>rectangle</strong>.<br/><br/>In rectangle $OMDN$: $OM = DN$ and $ON = DM$.<br/><br/>Now $DN = $ distance from $D$ to midpoint of $BE = \\\\left|\\\\frac{BD - ED}{2}\\\\right| = \\\\frac{|\\\\sqrt{286} - r|}{2}$, and $OM = \\\\sqrt{R^2 - \\\\left(\\\\frac{AC}{2}\\\\right)^2}$.<br/><br/>Applying the Pythagorean theorem for the chord $BE$:<br/>$$ON^2 + \\\\left(\\\\frac{BD + ED}{2}\\\\right)^2 = R^2$$<br/>$$ON = \\\\sqrt{R^2 - \\\\left(\\\\frac{\\\\sqrt{286} + r}{2}\\\\right)^2}$$<br/>Since $ON = DM = \\\\frac{DC - AD}{2}$ (distance from $D$ to midpoint of $AC$ along the $x$-axis, assuming $DC > AD$):<br/><div class=\"callout\">$$(DC - AD)^2 + (BD + ED)^2 = 4R^2 \\tag{2}$$</div>Similarly, from the symmetry of the rectangle:<br/><div class=\"callout\">$$(AD + DC)^2 + (BD - ED)^2 = 4R^2 \\tag{3}$$</div>"
-    },
-    {
-      "title": "Solve for ED using the given values",
-      "content": "From the figure, the specific configuration gives $AD + DC = AC$. Using equation (3) and the values $R = 72.5$, $BD = \\\\sqrt{286}$, $ED = r$:<br/>$$(AC)^2 + (\\\\sqrt{286} - r)^2 = 4(72.5)^2 = 21025$$<br/><br/>From the intersecting chords theorem (equation 1): $AD \\\\cdot DC = \\\\sqrt{286} \\\\cdot r$.<br/>Combined with the figure constraint, substituting $r = \\\\frac{143}{2}$:<br/>$$BD \\\\cdot ED = \\\\sqrt{286} \\\\cdot \\\\frac{143}{2} = \\\\frac{143\\\\sqrt{286}}{2}$$<br/>Since $286 = 2 \\\\times 143$, this equals $\\\\frac{143 \\\\cdot \\\\sqrt{2 \\\\times 143}}{2}$, and all four points $A$, $B$, $C$, $E$ lie on the circle of radius $72.5$&mdash;this is self-consistent.<br/><br/>Therefore: $$r = ED = \\\\frac{143}{2} = \\\\boxed{71.5}$$",
+      "title": "Solve for the two hypotenuse pieces",
+      "content": "Let $AD=x$. Then $CD=145-x$, so:<br/>$$x(145-x)=286$$<br/>$$x^2-145x+286=0$$<br/>The two factors are $2$ and $143$, since $2+143=145$ and $2\\cdot143=286$. Thus the two segment lengths are $2$ and $143$.",
       "desmosExpressions": [
-        "x^2 + y^2 = (145/2)^2"
+        "x(145-x)=286"
       ]
+    },
+    {
+      "title": "Use AB < BC to choose the order",
+      "content": "In this right-triangle setup, the shorter leg is next to the shorter hypotenuse segment. Since $AB<BC$, the segment near $AB$ is shorter, so $AD=2$ and $CD=143$. Therefore:<br/>$$r=\\frac{CD}{AD}=\\frac{143}{2}=71.5$$<br/>The answer is <strong>71.5</strong>."
     }
   ]
 }

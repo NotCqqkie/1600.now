@@ -1,1 +1,15 @@
-{"questionId": "13d9a1c3", "correctAnswer": "4", "section": "Math", "steps": [{"title": "Identify the right triangle setup", "content": "The right angle is at P (shown by the square). The 30° angle is at R, making the angle at Q equal to 60°. The hypotenuse QR = 8. We need PQ, which is the side opposite the 30° angle at R."}, {"title": "Apply the sine ratio", "content": "In a right triangle, $\\sin(30°) = \\frac{\\text{opposite}}{\\text{hypotenuse}} = \\frac{PQ}{QR}$. Since $\\sin(30°) = \\frac{1}{2}$ and $QR = 8$:<br/>$$\\frac{PQ}{8} = \\frac{1}{2}$$<br/>$$PQ = 8 \\cdot \\frac{1}{2} = 4$$<br/>The length of $\\overline{PQ}$ is <strong>4</strong>."}]}
+{
+  "questionId": "13d9a1c3",
+  "correctAnswer": "4",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the right triangle setup",
+      "content": "The right angle is at P (shown by the square). The 30° angle is at R, making the angle at Q equal to 60°. The hypotenuse QR = 8. We need PQ, which is the side opposite the 30° angle at R."
+    },
+    {
+      "title": "Apply the sine ratio",
+      "content": "In a right triangle, $\\sin(30°) = \\frac{\\text{opposite}}{\\text{hypotenuse}} = \\frac{PQ}{QR}$. Since $\\sin(30°) = \\frac{1}{2}$ and $QR = 8$:<br/>$$\\frac{PQ}{8} = \\frac{1}{2}$$<br/>$$PQ = 8 \\cdot \\frac{1}{2} = 4$$<br/>The length of $\\overline{PQ}$ is <strong>4</strong>."
+    }
+  ]
+}

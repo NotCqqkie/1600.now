@@ -1,1 +1,19 @@
-{"questionId":"3c4ce699","correctAnswer":"27","section":"Math","steps":[{"title":"Apply the factoring from the given condition","content":"Note $18+3x = 3(6+x)$, and $6+x=9$."},{"title":"Compute the target value","content":"So $18+3x = 3 \\cdot 9 = 27$. The answer is <strong>27</strong>."}]}
+{
+  "questionId": "3c4ce699",
+  "correctAnswer": "27",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the factoring from the given condition",
+      "content": "Note $18+3x = 3(6+x)$, and $6+x=9$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "So $18+3x = 3 \\cdot 9 = 27$. The answer is <strong>27</strong>."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $27$. Multiplying both sides of the given equation by $3$ yields $3\\left(6+x\\right)=3\\left(9\\right)$, or $18+3x=27$. Therefore, the value of $18+3x$ is $27$."
+    }
+  ]
+}

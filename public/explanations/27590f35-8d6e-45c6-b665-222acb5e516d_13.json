@@ -1,1 +1,23 @@
-{"questionId":"27590f35-8d6e-45c6-b665-222acb5e516d_13","correctAnswer":"26","section":"Math","steps":[{"title":"Set up","content":"Add the two equations to eliminate $x$: $(9x - 9x) + (5y - 3y) = 19 + 7$, giving $2y = 26$."},{"title":"Solve","content":"$2y = 26$. The question asks for $2y$ directly, so no further steps are needed."},{"title":"Answer","content":"<strong>26</strong> is correct.","desmosExpressions":["y = \\frac{19 - 9x}{5}","y = \\frac{7 + 9x}{-3}"]}]}
+{
+  "questionId": "27590f35-8d6e-45c6-b665-222acb5e516d_13",
+  "correctAnswer": "26",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "Add the two equations to eliminate $x$: $(9x - 9x) + (5y - 3y) = 19 + 7$, giving $2y = 26$."
+    },
+    {
+      "title": "Solve",
+      "content": "$2y = 26$. The question asks for $2y$ directly, so no further steps are needed."
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>26</strong> is correct.",
+      "desmosExpressions": [
+        "y = \\frac{19 - 9x}{5}",
+        "y = \\frac{7 + 9x}{-3}"
+      ]
+    }
+  ]
+}

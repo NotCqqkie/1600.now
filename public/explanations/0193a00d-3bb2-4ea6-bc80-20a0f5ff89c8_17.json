@@ -1,1 +1,15 @@
-{"questionId":"0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_17","correctAnswer":"1/46","section":"Math","steps":[{"title":"Apply Vieta's product formula","content":"For $ax^2 + bx + c = 0$, the product of the solutions equals $\\frac{c}{a}$. In $46x^2 + (46s + r)x + rs = 0$, the constant term is $rs$ and $a = 46$, so: $$\\text{product of solutions} = \\frac{rs}{46}.$$"},{"title":"Solve for k","content":"The problem states the product equals $krs$. Set equal and divide both sides by $rs$: $$\\frac{rs}{46} = krs \\implies k = \\frac{1}{46}.$$ That matches choice 1/46 — <strong>1/46</strong> is correct."}]}
+{
+  "questionId": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_17",
+  "correctAnswer": "1/46",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply Vieta's product formula",
+      "content": "For $ax^2 + bx + c = 0$, the product of the solutions equals $\\frac{c}{a}$. In $46x^2 + (46s + r)x + rs = 0$, the constant term is $rs$ and $a = 46$, so: $$\\text{product of solutions} = \\frac{rs}{46}.$$"
+    },
+    {
+      "title": "Solve for k",
+      "content": "The problem states the product equals $krs$. Set equal and divide both sides by $rs$: $$\\frac{rs}{46} = krs \\implies k = \\frac{1}{46}.$$ That matches choice 1/46 — <strong>1/46</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId":"2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_1","correctAnswer":"B","section":"Math","steps":[{"title":"Identify the triangle angle-sum relationship","content":"The triangle has a right angle ($90°$), an angle of $24°$, and the unknown angle $a$. The three interior angles of any triangle sum to $180°$:<br/>$$90° + 24° + a = 180°$$"},{"title":"Solve for the missing angle","content":"Solve for $a$:<br/>$$a = 180° - 90° - 24° = 66°$$That matches choice <strong>B</strong> &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_1",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the triangle angle-sum relationship",
+      "content": "The triangle has a right angle ($90°$), an angle of $24°$, and the unknown angle $a$. The three interior angles of any triangle sum to $180°$:<br/>$$90° + 24° + a = 180°$$"
+    },
+    {
+      "title": "Solve for the missing angle",
+      "content": "Solve for $a$:<br/>$$a = 180° - 90° - 24° = 66°$$That matches choice <strong>B</strong> &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

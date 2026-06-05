@@ -1,1 +1,21 @@
-{"questionId":"9f6c3595-ed0e-41a0-8889-7d3730d37b4c_11","correctAnswer":"A","section":"Math","steps":[{"title":"Identify what the question needs","content":"The table gives $h(0) = 17$, $h(1) = 18$, $h(2) = 20$. Every choice has the form $h(x) = 2^x + c$. At $x = 0$, $2^0 = 1$, so $h(0) = 1 + c$. Matching $h(0) = 17$ requires $c = 16$."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; '$h(x) = 2^x + 16$'</strong>: $h(0) = 1 + 16 = 17$ &#10003;</li><li><strong>Choice B &mdash; '$h(x) = 2^x + 15$'</strong>: $h(0) = 1 + 15 = 16 \\neq 17$ &#10007;</li><li><strong>Choice C &mdash; '$h(x) = 2^x + 2$'</strong>: $h(0) = 1 + 2 = 3 \\neq 17$ &#10007;</li><li><strong>Choice D &mdash; '$h(x) = 2^x$'</strong>: $h(0) = 1 \\neq 17$ &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_11",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use custom Desmos regression",
+      "content": "Every answer choice has the form $h(x)=2^x+c$, so this is a one-parameter regression problem. Enter the table as $x_1=[0,1,2]$ and $y_1=[17,18,20]$, then type $y_1 \\sim 2^{x_1}+c$. Desmos returns $c=16$, so the model is $h(x)=2^x+16$.",
+      "desmosExpressions": [
+        "x_1=[0,1,2]",
+        "y_1=[17,18,20]",
+        "y_1~2^{x_1}+c",
+        "y=2^x+16"
+      ]
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; '$h(x) = 2^x + 16$'</strong>: $h(0) = 1 + 16 = 17$ &#10003;</li><li><strong>Choice B &mdash; '$h(x) = 2^x + 15$'</strong>: $h(0) = 1 + 15 = 16 \\neq 17$ &#10007;</li><li><strong>Choice C &mdash; '$h(x) = 2^x + 2$'</strong>: $h(0) = 1 + 2 = 3 \\neq 17$ &#10007;</li><li><strong>Choice D &mdash; '$h(x) = 2^x$'</strong>: $h(0) = 1 \\neq 17$ &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

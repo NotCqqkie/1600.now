@@ -18,6 +18,7 @@ export const normalizeReadingDisplayText = (text: string | null | undefined): st
 
   // Ensure prose starts on a new line after the header.
   normalized = normalized.replace(/(^|\n)(Text\s+[1-4])\s+(?=[A-Z“"(<])/g, "$1$2\n");
+  normalized = normalized.replace(/\[\s+/g, "[").replace(/\s+\]/g, "]");
 
   return normalized;
 };

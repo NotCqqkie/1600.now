@@ -9,7 +9,11 @@
     },
     {
       "title": "Compute and solve",
-      "content": "Plug in: $$49^2 - 4(7)(c) = 0 \\implies 2401 - 28c = 0 \\implies c = \\frac{2401}{28}.$$ Simplify using $2401 = 7^4$ and $28 = 4 \\cdot 7$: $$c = \\frac{7^3}{4} = \\frac{343}{4}.$$ That matches choice D — <strong>D</strong> is correct."
+      "content": "Plug in: $$49^2-4(7)(c)=0$$<br/>$$2401-28c=0$$<br/>$$c=\\frac{2401}{28}=\\frac{343}{4}$$ Desmos can solve the discriminant condition directly. That matches choice D, so <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "y_1=[0]",
+        "y_1~49^2-4*7*c"
+      ]
     }
   ]
 }

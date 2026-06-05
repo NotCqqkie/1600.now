@@ -1,1 +1,15 @@
-{"questionId":"6197d48e-7c76-4333-af39-0b9aa39e924c_18","correctAnswer":"A","section":"Math","steps":[{"title":"Perpendicular lines have negative reciprocal slopes","content":"Line $k$ has slope $-\\dfrac{4}{3}$. Flip and negate to get line $j$&apos;s slope: $m_j = \\dfrac{3}{4}$."},{"title":"Use point-slope form with $(-20, -23)$","content":"$$y + 23 = \\frac{3}{4}(x + 20) \\implies y = \\frac{3}{4}x + 15 - 23 = \\frac{3}{4}x - 8$$<br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "6197d48e-7c76-4333-af39-0b9aa39e924c_18",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Perpendicular lines have negative reciprocal slopes",
+      "content": "Line $k$ has slope $-\\dfrac{4}{3}$. Flip and negate to get line $j$&apos;s slope: $m_j = \\dfrac{3}{4}$."
+    },
+    {
+      "title": "Use point-slope form with $(-20, -23)$",
+      "content": "$$y + 23 = \\frac{3}{4}(x + 20) \\implies y = \\frac{3}{4}x + 15 - 23 = \\frac{3}{4}x - 8$$<br/>That matches choice A — <strong>A</strong> is correct."
+    }
+  ]
+}

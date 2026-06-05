@@ -21,6 +21,7 @@ export interface BankQuestionMeta {
   };
   difficulty: "Easy" | "Medium" | "Hard" | null;
   active: boolean;
+  bankVisible: boolean;
 }
 
 export interface BankQuestionProgressSnapshot {
@@ -62,6 +63,7 @@ const toMeta = (row: BankQuestionMetaRow): BankQuestionMeta => ({
   },
   difficulty: row[6],
   active: row[7],
+  bankVisible: row[8],
 });
 
 const metaRows = BANK_QUESTION_META_ROWS.map(toMeta);
@@ -181,7 +183,9 @@ const hasQuestionFilters = (filters: QuestionBankFilters) =>
 export const getBankQuestionMetaRows = (
   subject: BankSubject,
   bankSource: BankSourceFilter,
-) => metaRows.filter((question) => question.subject === subject && matchesBankSource(question, bankSource));
+) => metaRows.filter(
+  (question) => question.bankVisible && question.subject === subject && matchesBankSource(question, bankSource),
+);
 
 export const getQuestionCountTree = (
   bankSource: BankSourceFilter,
@@ -206,6 +210,7 @@ export const getQuestionCountTree = (
   }
 
   for (const question of metaRows) {
+    if (!question.bankVisible) continue;
     if (!matchesBankSource(question, bankSource)) continue;
     if (!questionMetaPassesFilters(question, filters, getProgress)) continue;
     addQuestion(tree[question.subject], question, getProgress(question));
@@ -226,6 +231,7 @@ export const getFilteredQuestionMetaCount = (
 ) => {
   let total = 0;
   for (const question of metaRows) {
+    if (!question.bankVisible) continue;
     if (question.subject !== subject) continue;
     if (!matchesBankSource(question, bankSource)) continue;
     if (options.domain && question.category.domain !== options.domain) continue;

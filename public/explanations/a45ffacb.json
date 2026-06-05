@@ -10,7 +10,9 @@
     {
       "title": "Solve for a using the product condition",
       "content": "We have $ab = \\frac{65}{7}$ and $b = \\frac{13}{7}$. Substitute:\n$$a \\cdot \\frac{13}{7} = \\frac{65}{7}$$\n$$a = \\frac{65}{7} \\cdot \\frac{7}{13} = \\frac{65}{13} = 5$$",
-      "desmosExpressions": ["f(x)=-(a)^(x)+b"]
+      "desmosExpressions": [
+        "f(x)=-(a)^(x)+b"
+      ]
     }
   ]
 }

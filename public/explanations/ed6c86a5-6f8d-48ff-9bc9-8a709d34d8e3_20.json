@@ -8,8 +8,8 @@
       "content": "The surface area ratio is $\\frac{880}{55} = 16$.<br/>For similar figures, surface area scales by $k^2$ where $k$ is the linear scale factor.<br/>Therefore: $k^2 = 16$, which means $k = 4$."
     },
     {
-      "title": "Use the volume scale factor k\u00b3 to find volume of X",
-      "content": "For similar solids, volume scales by $k^3$.<br/>The volume scale factor is: $k^3 = 4^3 = 64$<br/>Since volume of $Y$ is 1600 cm\u00b3:<br/>$$\\text{Volume}_X = \\frac{1600}{64} = 25 \\text{ cm}^3$$"
+      "title": "Use the volume scale factor k³ to find volume of X",
+      "content": "For similar solids, volume scales by $k^3$.<br/>The volume scale factor is: $k^3 = 4^3 = 64$<br/>Since volume of $Y$ is 1600 cm³:<br/>$$\\text{Volume}_X = \\frac{1600}{64} = 25 \\text{ cm}^3$$"
     },
     {
       "title": "Sum of the two volumes",

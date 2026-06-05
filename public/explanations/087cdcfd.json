@@ -1,1 +1,15 @@
-{"questionId": "087cdcfd", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Identify the angle configuration from the figure", "content": "Three lines intersect at point P. From the figure, the three labeled angles $x°$, $y°$, and $z°$ lie on the same side of one of the lines, so together they span a straight angle along that line."}, {"title": "Apply the straight angle property", "content": "Angles forming a straight line sum to $180°$:<br/>$$x° + y° + z° = 180°$$<br/>Substituting $x = 65$ and $y = 75$:<br/>$$65 + 75 + z = 180$$<br/>$$140 + z = 180$$<br/>$$z = 40$$<br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "087cdcfd",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the angle configuration from the figure",
+      "content": "Three lines intersect at point P. From the figure, the three labeled angles $x°$, $y°$, and $z°$ lie on the same side of one of the lines, so together they span a straight angle along that line."
+    },
+    {
+      "title": "Apply the straight angle property",
+      "content": "Angles forming a straight line sum to $180°$:<br/>$$x° + y° + z° = 180°$$<br/>Substituting $x = 65$ and $y = 75$:<br/>$$65 + 75 + z = 180$$<br/>$$140 + z = 180$$<br/>$$z = 40$$<br/>That matches choice C — <strong>C</strong> is correct."
+    }
+  ]
+}

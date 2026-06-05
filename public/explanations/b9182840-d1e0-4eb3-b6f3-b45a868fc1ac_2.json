@@ -1,1 +1,12 @@
-{"qid": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_2", "correctAnswer": "D", "steps": [{"explanation": "Distribute $9$ across both terms inside the parentheses: $$9(x^2 + 6) = 9 \\cdot x^2 + 9 \\cdot 6 = 9x^2 + 54$$"}, {"explanation": "Evaluate all choices against the result $9x^2 + 54$:<ul><li><strong>A: $9x^2 + 3$</strong> &mdash; This would require $9 \\times 6 = 3$, which is false. Incorrect.</li><li><strong>B: $9x^2 + 6$</strong> &mdash; This leaves the constant term undistributed ($6$ instead of $54$). Incorrect.</li><li><strong>C: $9x^2 + 15$</strong> &mdash; This would require $9 \\times 6 = 15$, which is false. Incorrect.</li><li><strong>D: $9x^2 + 54$</strong> &mdash; $9 \\times 6 = 54$, so this matches the distributed form exactly. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"}]}
+{
+  "qid": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_2",
+  "correctAnswer": "D",
+  "steps": [
+    {
+      "explanation": "Distribute $9$ across both terms inside the parentheses: $$9(x^2 + 6) = 9 \\cdot x^2 + 9 \\cdot 6 = 9x^2 + 54$$"
+    },
+    {
+      "explanation": "Evaluate all choices against the result $9x^2 + 54$:<ul><li><strong>A: $9x^2 + 3$</strong> &mdash; This would require $9 \\times 6 = 3$, which is false. Incorrect.</li><li><strong>B: $9x^2 + 6$</strong> &mdash; This leaves the constant term undistributed ($6$ instead of $54$). Incorrect.</li><li><strong>C: $9x^2 + 15$</strong> &mdash; This would require $9 \\times 6 = 15$, which is false. Incorrect.</li><li><strong>D: $9x^2 + 54$</strong> &mdash; $9 \\times 6 = 54$, so this matches the distributed form exactly. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
+    }
+  ]
+}

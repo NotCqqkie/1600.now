@@ -1,1 +1,21 @@
-{"questionId": "6acacde7-ed77-4956-a395-7f7392d6ba20_14", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Find the allowed $y$-range at each $x$", "content": "A point is a solution only if BOTH $y < -5x - 19$ and $y > -3x - 12$ hold.<br/>At $x = -5$: need $-3(-5)-12 = 3 < y < -5(-5)-19 = 6$, so $3 < y < 6$.<br/>At $x = -6$: need $-3(-6)-12 = 6 < y < -5(-6)-19 = 11$, so $6 < y < 11$.<br/>At $x = -8$: need $-3(-8)-12 = 12 < y < -5(-8)-19 = 21$, so $12 < y < 21$."}, {"title": "Check each table against the ranges", "content": "<ul><li>A) $(-5,6)$: need $3 < 6 < 6$, but $6 < 6$ fails. Eliminate.</li><li>B) $(-5,4)$: $3 < 4 < 6$ ✓; $(-6,10)$: $6 < 10 < 11$ ✓; $(-8,19)$: $12 < 19 < 21$ ✓. All match.</li><li>C) $(-5,2)$: need $3 < 2$, fails. Eliminate.</li><li>D) $(-5,1)$: need $3 < 1$, fails. Eliminate.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "6acacde7-ed77-4956-a395-7f7392d6ba20_14",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the allowed $y$-range at each $x$",
+      "content": "A point is a solution only if BOTH $y < -5x - 19$ and $y > -3x - 12$ hold.<br/>At $x = -5$: need $-3(-5)-12 = 3 < y < -5(-5)-19 = 6$, so $3 < y < 6$.<br/>At $x = -6$: need $-3(-6)-12 = 6 < y < -5(-6)-19 = 11$, so $6 < y < 11$.<br/>At $x = -8$: need $-3(-8)-12 = 12 < y < -5(-8)-19 = 21$, so $12 < y < 21$."
+    },
+    {
+      "title": "Check each table against the ranges",
+      "content": "<ul><li>A) $(-5,6)$: need $3 \\lt 6 \\lt 6$, but $6 \\lt 6$ fails. Eliminate.</li><li>B) $(-5,4)$: $3 \\lt 4 \\lt 6$; $(-6,10)$: $6 \\lt 10 \\lt 11$; $(-8,19)$: $12 \\lt 19 \\lt 21$. All match.</li><li>C) $(-5,2)$: need $3 \\lt 2$, fails. Eliminate.</li><li>D) $(-5,1)$: need $3 \\lt 1$, fails. Eliminate.</li></ul>A quick Desmos check is to enter choice B's $x$-values and $y$-values as lists, then test both inequalities at once. That matches choice B &mdash; <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "X=[-5,-6,-8]",
+        "Y=[4,10,19]",
+        "Y<-5X-19",
+        "Y>-3X-12"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,19 @@
-{"questionId":"83fb222d","correctAnswer":"6","section":"Math","steps":[{"title":"Apply the equation from the given condition","content":"Divide by $6$: $n=2$."},{"title":"Compute the target value","content":"So $n+4 = 6$. The answer is <strong>6</strong>."}]}
+{
+  "questionId": "83fb222d",
+  "correctAnswer": "6",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the equation from the given condition",
+      "content": "Divide by $6$: $n=2$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "So $n+4 = 6$. The answer is <strong>6</strong>."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $6$. Dividing both sides of the equation $6n=12$ by $6$ yields $n=2$. Substituting $2$ for $n$ in the expression $n+4$ yields $2+4$, or $6$."
+    }
+  ]
+}

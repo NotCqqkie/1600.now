@@ -1,1 +1,22 @@
-{"questionId": "94ff3e2d", "correctAnswer": ".5", "section": "Math", "steps": [{"title": "Substitute the value x = 2", "content": "Replace $x$ with $2$ in $$h(x) = \\frac{8}{5x + 6}.$$ This gives $$h(2) = \\frac{8}{5(2) + 6}.$$"}, {"title": "Compute the result", "content": "Simplify: $$h(2) = \\frac{8}{16} = 0.5.$$ The answer is <strong>.5</strong>.", "desmosExpressions": ["h(x)=(8)/(5x+6)"]}]}
+{
+  "questionId": "94ff3e2d",
+  "correctAnswer": ".5",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the value x = 2",
+      "content": "Replace $x$ with $2$ in $$h(x) = \\frac{8}{5x + 6}.$$ This gives $$h(2) = \\frac{8}{5(2) + 6}.$$"
+    },
+    {
+      "title": "Compute the result",
+      "content": "Simplify: $$h(2) = \\frac{8}{16} = 0.5.$$ The answer is <strong>.5</strong>.",
+      "desmosExpressions": [
+        "h(x)=(8)/(5x+6)"
+      ]
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $\\frac{1}{2}$. The value of $h\\left(2\\right)$ is the value of $h\\left(x\\right)$ when $x=2$. Substituting $2$ for $x$ in the given equation yields $h\\left(2\\right)=\\frac{8}{5\\left(2\\right)+6}$, which is equivalent to $h\\left(2\\right)=\\frac{8}{16}$, or $h\\left(2\\right)=\\frac{1}{2}$. Therefore, the value of $h\\left(2\\right)$ is $\\frac{1}{2}$. Note that 1/2 and.5 are examples of ways to enter a correct answer."
+    }
+  ]
+}

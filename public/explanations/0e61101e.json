@@ -1,1 +1,19 @@
-{"questionId":"0e61101e","correctAnswer":"B","section":"Math","steps":[{"explanation":"Substitute \\((x+2)\\) for \\(x\\) in \\(f\\). Since \\(g(x) = f(x+2)\\) and \\(f(x) = 9(4)^x\\): \\(g(x) = 9(4)^{x+2}\\)."},{"explanation":"Apply the exponent product rule: \\((4)^{x+2} = (4)^x \\cdot (4)^2 = 16 \\cdot (4)^x\\)."},{"explanation":"Multiply the constants: \\(g(x) = 9 \\cdot 16 \\cdot (4)^x = 144(4)^x\\)."},{"explanation":"Evaluate all choices:<ul><li>Choice A: \\(18(4)^x\\). This would come from \\(9 \\cdot 2 = 18\\), not \\(9 \\cdot 16\\). Incorrect.</li><li>Choice B: \\(144(4)^x\\). This equals \\(9 \\cdot 16 \\cdot (4)^x\\), exactly what we derived. That matches choice B &mdash; <strong>B</strong> is correct.</li><li>Choice C: \\(18(8)^x\\). The base 8 would require adding the bases, not multiplying exponents. Incorrect.</li><li>Choice D: \\(81(16)^x\\). This misapplies the shift by squaring the coefficient (\\(9^2 = 81\\)) and using 16 as the new base. Incorrect.</li></ul>"}]}
+{
+  "questionId": "0e61101e",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "explanation": "Substitute $(x+2)$ for $x$ in $f$. Since $g(x) = f(x+2)$ and $f(x) = 9(4)^x$: $g(x) = 9(4)^{x+2}$."
+    },
+    {
+      "explanation": "Apply the exponent product rule: $(4)^{x+2} = (4)^x \\cdot (4)^2 = 16 \\cdot (4)^x$."
+    },
+    {
+      "explanation": "Multiply the constants: $g(x) = 9 \\cdot 16 \\cdot (4)^x = 144(4)^x$."
+    },
+    {
+      "explanation": "Evaluate all choices:<ul><li>Choice A: $18(4)^x$. This would come from $9 \\cdot 2 = 18$, not $9 \\cdot 16$. Incorrect.</li><li>Choice B: $144(4)^x$. This equals $9 \\cdot 16 \\cdot (4)^x$, exactly what we derived. That matches choice B &mdash; <strong>B</strong> is correct.</li><li>Choice C: $18(8)^x$. The base 8 would require adding the bases, not multiplying exponents. Incorrect.</li><li>Choice D: $81(16)^x$. This misapplies the shift by squaring the coefficient ($9^2 = 81$) and using 16 as the new base. Incorrect.</li></ul>"
+    }
+  ]
+}

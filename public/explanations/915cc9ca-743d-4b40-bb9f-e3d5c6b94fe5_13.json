@@ -14,7 +14,10 @@
     {
       "title": "Conclusion",
       "content": "Only Choice B produces parallel lines (same slope, different $y$-intercept), which means no solution. That matches choice B &mdash; <strong>B</strong> is correct.",
-      "desmosExpressions": ["y = \\frac{x}{15} + \\frac{3}{5}", "y = \\frac{x}{15}"]
+      "desmosExpressions": [
+        "y = \\frac{x}{15} + \\frac{3}{5}",
+        "y = \\frac{x}{15}"
+      ]
     }
   ]
 }

@@ -1,1 +1,19 @@
-{"questionId": "471ccf49-2c32-4c56-9f7e-1788dbe63527_10", "correctAnswer": "99", "section": "Math", "steps": [{"title": "Identify the initial time", "content": "The variable $x$ represents seconds <em>after</em> the acorn fell from the tree. The phrase <em>before it fell</em> refers to the initial moment, when falling just began. This corresponds to $x = 0$ seconds."}, {"title": "Evaluate the function at x = 0", "content": "Substitute $x = 0$ into $f(x) = -16x^2 + 99$:<br/>$$f(0) = -16(0)^2 + 99 = 0 + 99 = 99$$<br/>The estimated height of the acorn before it fell from the tree is <strong>99 feet</strong>.", "desmosExpressions": ["f(x) = -16x^2 + 99", "(0, 99)"]}]}
+{
+  "questionId": "471ccf49-2c32-4c56-9f7e-1788dbe63527_10",
+  "correctAnswer": "99",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the initial time",
+      "content": "The variable $x$ represents seconds <em>after</em> the acorn fell from the tree. The phrase <em>before it fell</em> refers to the initial moment, when falling just began. This corresponds to $x = 0$ seconds."
+    },
+    {
+      "title": "Evaluate the function at x = 0",
+      "content": "Substitute $x = 0$ into $f(x) = -16x^2 + 99$:<br/>$$f(0) = -16(0)^2 + 99 = 0 + 99 = 99$$<br/>The estimated height of the acorn before it fell from the tree is <strong>99 feet</strong>.",
+      "desmosExpressions": [
+        "f(x) = -16x^2 + 99",
+        "(0, 99)"
+      ]
+    }
+  ]
+}

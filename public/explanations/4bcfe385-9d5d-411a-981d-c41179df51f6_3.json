@@ -1,1 +1,15 @@
-{"questionId":"4bcfe385-9d5d-411a-981d-c41179df51f6_3","correctAnswer":"B","section":"Math","steps":[{"title":"Find the roots","content":"By the zero-product property, $4x(x-3)(x+9)=0$ requires one factor to be zero. That gives $x=0$, $x=3$, or $x=-9$."},{"title":"Identify a valid solution","content":"Among the choices, $0$ is a root of the equation. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}
+{
+  "questionId": "4bcfe385-9d5d-411a-981d-c41179df51f6_3",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the roots",
+      "content": "By the zero-product property, $4x(x-3)(x+9)=0$ requires one factor to be zero. That gives $x=0$, $x=3$, or $x=-9$."
+    },
+    {
+      "title": "Identify a valid solution",
+      "content": "Among the choices, $0$ is a root of the equation. That matches choice <strong>B</strong> — <strong>B</strong> is correct."
+    }
+  ]
+}

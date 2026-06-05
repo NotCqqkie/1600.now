@@ -1,1 +1,34 @@
-{"questionId": "01682aa5", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Isolate y to read off the slope", "content": "$2y + 18x = 9 \\Rightarrow y = -9x + \\tfrac{9}{2}$. Slope = $-9$."}, {"title": "Flip and negate for the perpendicular slope", "content": "Perpendicular shortcut: negative reciprocal of $-9$ is $-\\tfrac{1}{-9} = \\tfrac{1}{9}$. That matches choice C — <strong>C</strong> is correct.", "desmosExpressions": ["1/9"]}]}
+{
+  "questionId": "01682aa5",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate y to read off the slope",
+      "content": "$2y + 18x = 9 \\Rightarrow y = -9x + \\tfrac{9}{2}$. Slope = $-9$."
+    },
+    {
+      "title": "Flip and negate for the perpendicular slope",
+      "content": "Perpendicular shortcut: negative reciprocal of $-9$ is $-\\tfrac{1}{-9} = \\tfrac{1}{9}$. That matches choice C — <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "1/9"
+      ]
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice C is correct. It's given that line $r$ is perpendicular to line $p$ in the <em>xy</em>-plane. This means that the slope of line $r$ is the negative reciprocal of the slope of line $p$. If the equation for line $p$ is rewritten in slope-intercept form $y=mx+b$, where $m$ and $b$ are constants, then $m$ is the slope of the line and $\\left(0,b\\right)$ is its <em>y</em>-intercept. Subtracting $18x$ from both sides of the equation $2y+18x=9$ yields $2y=-18x+9$. Dividing both sides of this equation by $2$ yields $y=-9x+\\frac{9}{2}$. It follows that the slope of line $p$ is $-9$. The negative reciprocal of a number is $-1$ divided by the number. Therefore, the negative reciprocal of $-9$ is $\\frac{-1}{-9}$, or $\\frac{1}{9}$. Thus, the slope of line $r$ is $\\frac{1}{9}$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A is incorrect. This is the slope of line $p$, not line $r$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice B is incorrect. This is the reciprocal, not the negative reciprocal, of the slope of line $p$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice D is incorrect. This is the negative, not the negative reciprocal, of the slope of line $p$."
+    }
+  ]
+}

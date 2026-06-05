@@ -1,1 +1,19 @@
-{"questionId":"b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_6","correctAnswer":"3710","section":"Math","steps":[{"title":"Add the five values","content":"Sum the masses: $3810,3810,3530,3850,3550$, giving a total of $18550$."},{"title":"Divide by the count","content":"The mean is $$\\tfrac{18550}{5}=3710.$$ The answer is <strong>3710</strong>."}]}
+{
+  "questionId": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_6",
+  "correctAnswer": "3710",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the five values",
+      "content": "Sum the masses: $3810,3810,3530,3850,3550$, giving a total of $18550$."
+    },
+    {
+      "title": "Divide by the count",
+      "content": "The mean is $$\\tfrac{18550}{5}=3710.$$ The answer is <strong>3710</strong>."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $3710$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $3710$."
+    }
+  ]
+}

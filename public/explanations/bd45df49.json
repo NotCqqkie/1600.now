@@ -1,1 +1,35 @@
-{"questionId":"bd45df49","correctAnswer":"D","section":"Math","steps":[{"title":"Solve the system by substitution","content":"Substitute $y=3x+9$ into $3y=8x-6$: $$3(3x+9)=8x-6 \\Rightarrow 9x+27=8x-6 \\Rightarrow x=-33.$$ Then $y=3(-33)+9=-90$."},{"title":"Find $x - y$","content":"So $x-y=-33-(-90)=57$. That matches choice <strong>D</strong> — <strong>D</strong> is correct.","desmosExpressions":["y = 3x + 9","y = (8x - 6)/3"]}]}
+{
+  "questionId": "bd45df49",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve the system by substitution",
+      "content": "Substitute $y=3x+9$ into $3y=8x-6$: $$3(3x+9)=8x-6 \\Rightarrow 9x+27=8x-6 \\Rightarrow x=-33.$$ Then $y=3(-33)+9=-90$."
+    },
+    {
+      "title": "Find $x - y$",
+      "content": "So $x-y=-33-(-90)=57$. That matches choice <strong>D</strong> — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "y = 3x + 9",
+        "y = (8x - 6)/3"
+      ]
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice D is correct. The first equation in the given system of equations defines $y$ as $3x+9$. Substituting $3x+9$ for $y$ in the second equation in the given system of equations yields $3(3x+9)=8x-6$. Applying the distributive property on the left-hand side of this equation yields $9x+27=8x-6$. Subtracting $8x$ from both sides of this equation yields $x+27=-6$. Subtracting $27$ from both sides of this equation yields $x=-33$. Substituting $-33$ for $x$ in the first equation of the given system of equations yields $y=3(-33)+9$, or $y=-90$. Substituting $-33$ for $x$ and $-90$ for $y$ into the expression $x-y$ yields $-33-(-90)$, or $57$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A is incorrect. This is the value of $x+y$, not $x-y$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice B is incorrect. This is the value of $x$, not $x-y$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice C is incorrect and may result from conceptual or calculation errors."
+    }
+  ]
+}

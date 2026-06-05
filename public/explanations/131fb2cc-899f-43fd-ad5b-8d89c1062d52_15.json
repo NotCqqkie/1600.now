@@ -1,1 +1,10 @@
-{"qid": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_15", "correctAnswer": "B", "steps": ["Parse the description: payment \\(p\\) equals the original retail price minus $135 for each year since release. The original retail price is $670 and \\(t\\) is the number of years.", "Translate directly: \\(p = 670 - 135t\\).", "Spot-check with \\(t = 1\\): \\(p = 670 - 135 = 535\\). With \\(t = 4\\): \\(p = 670 - 540 = 130\\). Both are positive and sensible within the stated domain \\(1 \\leq t \\leq 4\\).", "Evaluate every choice:<ul><li>A: \\(p = 135 - 670t\\) — subtracts 670t, which would make \\(p\\) negative for any \\(t \\geq 1\\). Wrong structure. Eliminated.</li><li>B: \\(p = 670 - 135t\\) — matches the derived equation exactly. That matches choice B — <strong>B</strong> is correct.</li><li>C: \\(t = 135 - 670p\\) — solves for \\(t\\), not \\(p\\), and uses impossible coefficients. Eliminated.</li><li>D: \\(t = 670 - 135p\\) — solves for \\(t\\) with swapped roles of the constants. Eliminated.</li></ul>"]}
+{
+  "qid": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_15",
+  "correctAnswer": "B",
+  "steps": [
+    "Parse the description: payment $p$ equals the original retail price minus $135 for each year since release. The original retail price is $670$ and $t$ is the number of years.",
+    "Translate directly: $p = 670 - 135t$.",
+    "Spot-check with $t = 1$: $p = 670 - 135 = 535$. With $t = 4$: $p = 670 - 540 = 130$. Both are positive and sensible within the stated domain $1 \\leq t \\leq 4$.",
+    "Evaluate every choice:<ul><li>A: $p = 135 - 670t$ — subtracts 670t, which would make $p$ negative for any $t \\geq 1$. Wrong structure. Eliminated.</li><li>B: $p = 670 - 135t$ — matches the derived equation exactly. That matches choice B — <strong>B</strong> is correct.</li><li>C: $t = 135 - 670p$ — solves for $t$, not $p$, and uses impossible coefficients. Eliminated.</li><li>D: $t = 670 - 135p$ — solves for $t$ with swapped roles of the constants. Eliminated.</li></ul>"
+  ]
+}

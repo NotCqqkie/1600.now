@@ -10,12 +10,52 @@
 //   - prefer shorter `text` length so the SEO card stays compact
 //   - sort by id to make the pick deterministic across builds
 
-import { readdirSync, readFileSync, writeFileSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
+
+const readGeneratedArray = (filePath, marker) => {
+  const fullPath = path.join(root, filePath);
+  if (!existsSync(fullPath)) return [];
+  const text = readFileSync(fullPath, "utf8");
+  const start = text.indexOf(marker);
+  if (start === -1) return [];
+  const arrayStart = start + marker.length;
+  const arrayEnd = text.indexOf(" as const", arrayStart);
+  if (arrayEnd === -1) return [];
+  return JSON.parse(text.slice(arrayStart, arrayEnd));
+};
+
+const readGeneratedMap = (filePath, marker) => {
+  const text = readFileSync(path.join(root, filePath), "utf8");
+  const start = text.indexOf(marker);
+  if (start === -1) return {};
+  const objectStart = start + marker.length;
+  let objectEnd = text.indexOf("\n};", objectStart);
+  if (objectEnd === -1) objectEnd = text.lastIndexOf("};");
+  if (objectEnd === -1) return {};
+  return JSON.parse(text.slice(objectStart, objectEnd + 2));
+};
+
+const hiddenBankQuestionIds = new Set(
+  readGeneratedArray(
+    "src/lib/generated/hiddenBankQuestions.generated.ts",
+    "export const HIDDEN_BANK_QUESTION_IDS = ",
+  ),
+);
+
+const officialImageMap = readGeneratedMap(
+  "src/data/questionImageMap.ts",
+  "export const questionImageMap: Record<string, QuestionImageMapEntry> = ",
+);
+
+const unofficialImageMap = readGeneratedMap(
+  "src/data/unofficialQuestionImageMap.ts",
+  "export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = ",
+);
 
 const SAMPLES_PER_SKILL = 3;
 const MAX_TEXT_LEN_READING = 900; // reading passages skew long; keep cards readable
@@ -38,11 +78,11 @@ if (skillEntries.length === 0) {
 
 const mathBank = JSON.parse(readFileSync(path.join(root, "src/data/questions/math_past.json"), "utf8"));
 const readingBank = JSON.parse(readFileSync(path.join(root, "src/data/questions/reading_past.json"), "utf8"));
+const pastQuestionDifficultyMap = JSON.parse(
+  readFileSync(path.join(root, "src/data/pastQuestionDifficultyMap.json"), "utf8"),
+);
 
 // Parse unofficial bank (TS file with `export const questions: SourceQuestion[] = [...];`).
-// We only need to count, so extract the JSON array and split by section.
-let unofficialMathCount = 0;
-let unofficialReadingCount = 0;
 let unofficialQuestions = [];
 try {
   const unofficialSrc = readFileSync(path.join(root, "src/data/unofficialQuestions.ts"), "utf8");
@@ -51,17 +91,76 @@ try {
   const arrEnd = unofficialSrc.lastIndexOf("]");
   if (arrStart >= 0 && arrEnd > arrStart) {
     unofficialQuestions = JSON.parse(unofficialSrc.slice(arrStart, arrEnd + 1));
-    for (const q of unofficialQuestions) {
-      const section = (q?.section || "").toLowerCase();
-      if (section === "math") unofficialMathCount++;
-      else if (section.startsWith("reading")) unofficialReadingCount++;
-    }
   }
 } catch (err) {
   console.warn("generate-skill-samples: could not count unofficial bank —", err.message);
 }
 
+const imageMapEntry = (questionId) => officialImageMap[questionId] ?? unofficialImageMap[questionId] ?? null;
+
+const choiceHasMappedImage = (questionId, choiceId) =>
+  Boolean(imageMapEntry(String(questionId))?.choiceImages?.[choiceId]);
+
+const hasRenderableStem = (question) => Boolean(question.text?.trim() || question.image?.trim());
+
+const looksLikeImageDescription = (text) => {
+  if (!text) return false;
+  const trimmed = String(text).trim();
+  if (!trimmed) return false;
+  if (/\$[^$]+\$/.test(trimmed)) return false;
+  if (/^\s*•/.test(trimmed)) return true;
+  return /(comma\s+(negative\s+)?\d|open parenthesis|close parenthesis|y\s*-\s*intercept|x\s*-\s*intercept|parabola opens|the curve|the graph|the line passes through|left to right|quadrant\s+\d)/i.test(trimmed);
+};
+
+const hasUnsalvageableChoices = (question) => {
+  if (question.type !== "multiple-choice" || !question.choices?.length) return false;
+  const anyChoiceImage = question.choices.some((choice) =>
+    Boolean(choice.image) || choiceHasMappedImage(question.id, choice.id),
+  );
+  if (anyChoiceImage) return false;
+  return question.choices.every((choice) => !choice.text?.trim() || looksLikeImageDescription(choice.text));
+};
+
+const normalizeSubject = (q) => {
+  const categorySubject = q?.category?.subject;
+  if (categorySubject === "Math") return "math";
+  if (categorySubject === "English") return "reading";
+  const section = (q?.section || "").toLowerCase();
+  return section === "math" ? "math" : "reading";
+};
+
+const stableQuestionId = (bankType, q) =>
+  `bank-${bankType}-${normalizeSubject(q)}-${String(q.id)}`;
+
+const isBankVisibleQuestion = (bankType, q) =>
+  hasRenderableStem(q) &&
+  !hasUnsalvageableChoices(q) &&
+  !hiddenBankQuestionIds.has(stableQuestionId(bankType, q));
+
+const visibleMathBank = mathBank.filter((q) => isBankVisibleQuestion("past", q));
+const visibleReadingBank = readingBank.filter((q) => isBankVisibleQuestion("past", q));
+const visibleUnofficialQuestions = unofficialQuestions.filter((q) => isBankVisibleQuestion("unofficial", q));
+const unofficialMathCount = visibleUnofficialQuestions.filter((q) => normalizeSubject(q) === "math").length;
+const unofficialReadingCount = visibleUnofficialQuestions.filter((q) => normalizeSubject(q) === "reading").length;
+
 const difficultyRank = { Easy: 0, Medium: 1, Hard: 2 };
+
+const normalizeDifficultyKey = (difficulty) => {
+  const normalized = String(difficulty ?? "").trim().toLowerCase();
+  if (normalized === "easy" || normalized === "medium" || normalized === "hard") return normalized;
+  return null;
+};
+
+const normalizeDifficultyLabel = (difficulty) => {
+  const normalized = normalizeDifficultyKey(difficulty);
+  if (normalized === "easy") return "Easy";
+  if (normalized === "medium") return "Medium";
+  if (normalized === "hard") return "Hard";
+  return null;
+};
+
+const getPastQuestionDifficulty = (q) =>
+  normalizeDifficultyLabel(pastQuestionDifficultyMap[String(q.id)]) ?? normalizeDifficultyLabel(q.difficulty);
 
 // Skip questions that reference images/graphs/tables — the SEO page has no way
 // to render those, and the question reads as broken without the visual.
@@ -90,8 +189,8 @@ function pickSamples(bank, officialSkill, maxLen) {
   );
 
   matches.sort((a, b) => {
-    const da = difficultyRank[a.difficulty] ?? 3;
-    const db = difficultyRank[b.difficulty] ?? 3;
+    const da = difficultyRank[getPastQuestionDifficulty(a)] ?? 3;
+    const db = difficultyRank[getPastQuestionDifficulty(b)] ?? 3;
     if (da !== db) return da - db;
     if (a.text.length !== b.text.length) return a.text.length - b.text.length;
     return a.id.localeCompare(b.id);
@@ -111,7 +210,7 @@ function pickSamples(bank, officialSkill, maxLen) {
 
   return picked.map((q) => ({
     id: q.id,
-    difficulty: q.difficulty,
+    difficulty: getPastQuestionDifficulty(q),
     testName: q.testName,
     text: q.text,
     choices: q.choices.map((c) => ({ id: c.id, text: c.text })),
@@ -124,8 +223,8 @@ let totalPicked = 0;
 let skillsWithoutSamples = 0;
 
 for (const { slug, officialSkill } of skillEntries) {
-  const isMath = mathBank.some((q) => q.skill === officialSkill);
-  const bank = isMath ? mathBank : readingBank;
+  const isMath = visibleMathBank.some((q) => q.skill === officialSkill);
+  const bank = isMath ? visibleMathBank : visibleReadingBank;
   const maxLen = isMath ? MAX_TEXT_LEN_MATH : MAX_TEXT_LEN_READING;
   const picked = pickSamples(bank, officialSkill, maxLen);
   samplesBySlug[slug] = picked;
@@ -162,7 +261,7 @@ writeFileSync(
 // Also emit a tiny static totals file the home page can import synchronously
 // so the rendered question counts don't drift from the bank as it grows.
 const skillTotals = {};
-for (const q of [...mathBank, ...readingBank]) {
+for (const q of [...visibleMathBank, ...visibleReadingBank]) {
   if (!q.skill) continue;
   skillTotals[q.skill] = (skillTotals[q.skill] || 0) + 1;
 }
@@ -171,15 +270,15 @@ const totalsHeader = `// AUTO-GENERATED by scripts/generate-skill-samples.mjs �
 // Counts the past-bank questions; Home.tsx uses these so the displayed totals
 // track the real bank without needing to load the full bank chunk.
 
-export const BANK_TOTAL_PAST_MATH = ${mathBank.length};
-export const BANK_TOTAL_PAST_READING = ${readingBank.length};
-export const BANK_TOTAL_PAST = ${mathBank.length + readingBank.length};
+export const BANK_TOTAL_PAST_MATH = ${visibleMathBank.length};
+export const BANK_TOTAL_PAST_READING = ${visibleReadingBank.length};
+export const BANK_TOTAL_PAST = ${visibleMathBank.length + visibleReadingBank.length};
 
 export const BANK_TOTAL_UNOFFICIAL_MATH = ${unofficialMathCount};
 export const BANK_TOTAL_UNOFFICIAL_READING = ${unofficialReadingCount};
 export const BANK_TOTAL_UNOFFICIAL = ${unofficialMathCount + unofficialReadingCount};
 
-export const BANK_TOTAL_ALL = ${mathBank.length + readingBank.length + unofficialMathCount + unofficialReadingCount};
+export const BANK_TOTAL_ALL = ${visibleMathBank.length + visibleReadingBank.length + unofficialMathCount + unofficialReadingCount};
 
 export const BANK_COUNT_BY_OFFICIAL_SKILL: Record<string, number> = `;
 
@@ -203,35 +302,13 @@ try {
   console.warn("generate-skill-samples: could not collect active module ids —", err.message);
 }
 
-const normalizeSubject = (q) => {
-  const categorySubject = q?.category?.subject;
-  if (categorySubject === "Math") return "math";
-  if (categorySubject === "English") return "reading";
-  const section = (q?.section || "").toLowerCase();
-  if (section === "math") return "math";
-  return "reading";
-};
-
-const normalizeDifficultyKey = (difficulty) => {
-  const normalized = String(difficulty ?? "").trim().toLowerCase();
-  if (normalized === "easy" || normalized === "medium" || normalized === "hard") return normalized;
-  return null;
-};
-
-const normalizeDifficultyLabel = (difficulty) => {
-  const normalized = normalizeDifficultyKey(difficulty);
-  if (normalized === "easy") return "Easy";
-  if (normalized === "medium") return "Medium";
-  if (normalized === "hard") return "Hard";
-  return null;
-};
-
 const makeBankQuestionMetaRow = (bankType, q) => {
   const subject = normalizeSubject(q);
   const sourceId = String(q.id);
   const domain = q?.category?.domain ?? q.domain ?? "Unassigned";
   const skill = q?.category?.skill ?? q.skill ?? "Unassigned";
   const active = q.inPracticeTests === true || (bankType === "past" && activePastQuestionSourceIds.has(sourceId));
+  const bankVisible = isBankVisibleQuestion(bankType, q);
   return [
     `bank-${bankType}-${subject}-${sourceId}`,
     sourceId,
@@ -239,8 +316,9 @@ const makeBankQuestionMetaRow = (bankType, q) => {
     subject,
     domain,
     skill,
-    normalizeDifficultyLabel(q.difficulty),
+    bankType === "past" ? getPastQuestionDifficulty(q) : normalizeDifficultyLabel(q.difficulty),
     active,
+    bankVisible,
   ];
 };
 
@@ -279,6 +357,8 @@ const addCountRow = (summary, row) => {
 
 for (const row of bankQuestionMetaRows) {
   const [, , bankType, subject] = row;
+  const bankVisible = row[8];
+  if (!bankVisible) continue;
   addCountRow(bankCountIndex[bankType][subject], row);
   addCountRow(bankCountIndex.all[subject], row);
 }
@@ -297,6 +377,7 @@ export type BankQuestionMetaRow = readonly [
   skill: string,
   difficulty: "Easy" | "Medium" | "Hard" | null,
   active: boolean,
+  bankVisible: boolean,
 ];
 
 export interface BankCountSummary {
@@ -318,5 +399,7 @@ writeFileSync(
 
 console.log(
   `generate-skill-samples: wrote ${totalPicked} samples across ${skillEntries.length} skills ` +
-    `(${skillsWithoutSamples} with zero matches); bank total = ${mathBank.length + readingBank.length}`,
+    `(${skillsWithoutSamples} with zero matches); visible bank total = ${
+      visibleMathBank.length + visibleReadingBank.length + unofficialMathCount + unofficialReadingCount
+    }`,
 );

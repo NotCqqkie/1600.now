@@ -14,6 +14,10 @@
         "y = |x - 9| + 45",
         "y = 63"
       ]
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $18$. Subtracting $45$ from each side of the given equation yields $\\left|x-9\\right|=18$. By the definition of absolute value, if $\\left|x-9\\right|=18$, then $x-9=18$ or $x-9=-18$. Adding $9$ to each side of the equation $x-9=18$ yields $x=27$. Adding $9$ to each side of the equation $x-9=-18$ yields $x=-9$. Therefore, the solutions to the given equation are $27$ and $-9$, and it follows that the sum of the solutions to the given equation is $27+\\left(-9\\right)$, or $18$."
     }
   ]
 }

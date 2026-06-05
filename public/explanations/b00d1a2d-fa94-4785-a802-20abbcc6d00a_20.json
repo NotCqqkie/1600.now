@@ -1,1 +1,19 @@
-{"questionId": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_20", "correctAnswer": "13.6", "section": "Math", "steps": [{"title": "Identify the unit conversions needed", "content": "To convert from m/s² to miles/min², I must convert both the numerator and denominator separately.<br/><br/>For the numerator: 1 mile = 1,609 meters, so I divide by 1,609.<br/><br/>For the denominator: 1 minute = 60 seconds, which means 1 minute² = 60² = 3,600 seconds².<br/><br/>This is the key step—when converting squared units, the conversion factor itself must be squared."}, {"title": "Apply the conversion factors", "content": "$$6.10 \\text{ m/s}^2 \\times \\frac{1 \\text{ mile}}{1,609 \\text{ m}} \\times \\frac{3,600 \\text{ s}^2}{1 \\text{ min}^2}$$ The units cancel, leaving: $$6.10 \\times \\frac{3,600}{1,609}$$"}, {"title": "Calculate and round", "content": "$$6.10 \\times \\frac{3,600}{1,609} = \\frac{21,960}{1,609} \\approx 13.648$$ Rounding to the nearest tenth: <strong>13.6</strong> miles per minute squared."}]}
+{
+  "questionId": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_20",
+  "correctAnswer": "13.6",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the unit conversions needed",
+      "content": "To convert from m/s² to miles/min², I must convert both the numerator and denominator separately.<br/><br/>For the numerator: 1 mile = 1,609 meters, so I divide by 1,609.<br/><br/>For the denominator: 1 minute = 60 seconds, which means 1 minute² = 60² = 3,600 seconds².<br/><br/>This is the key step—when converting squared units, the conversion factor itself must be squared."
+    },
+    {
+      "title": "Apply the conversion factors",
+      "content": "$$6.10 \\text{ m/s}^2 \\times \\frac{1 \\text{ mile}}{1,609 \\text{ m}} \\times \\frac{3,600 \\text{ s}^2}{1 \\text{ min}^2}$$ The units cancel, leaving: $$6.10 \\times \\frac{3,600}{1,609}$$"
+    },
+    {
+      "title": "Calculate and round",
+      "content": "$$6.10 \\times \\frac{3,600}{1,609} = \\frac{21,960}{1,609} \\approx 13.648$$ Rounding to the nearest tenth: <strong>13.6</strong> miles per minute squared."
+    }
+  ]
+}

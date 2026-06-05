@@ -1,1 +1,19 @@
-{"questionId": "b5883220-eb88-4f6b-8d82-979efee65d2d_6", "correctAnswer": "3", "section": "Math", "steps": [{"title": "Set up the equation", "content": "We want $f(x)=150$. Since $f(x)=50x$, substitute: $$50x = 150$$"}, {"title": "Solve for x", "content": "Divide both sides by 50: $$x = \\frac{150}{50} = 3$$ The answer is <strong>3</strong>."}]}
+{
+  "questionId": "b5883220-eb88-4f6b-8d82-979efee65d2d_6",
+  "correctAnswer": "3",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the equation",
+      "content": "We want $f(x)=150$. Since $f(x)=50x$, substitute: $$50x = 150$$"
+    },
+    {
+      "title": "Solve for x",
+      "content": "Divide both sides by 50: $$x = \\frac{150}{50} = 3$$ The answer is <strong>3</strong>."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $3$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $3$."
+    }
+  ]
+}

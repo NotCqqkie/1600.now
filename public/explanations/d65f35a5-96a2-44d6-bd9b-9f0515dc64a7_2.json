@@ -1,1 +1,15 @@
-{"questionId":"d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_2","correctAnswer":"61","section":"Math","steps":[{"title":"Identify vertical angles","content":"Two intersecting lines form four angles. From the figure, $r$ and $s$ sit opposite each other at the vertex, so they are <strong>vertical angles</strong>."},{"title":"Apply the vertical angles theorem","content":"Vertical angles are equal, so $s=r=61$.<br/>The answer is <strong>61</strong>."}]}
+{
+  "questionId": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_2",
+  "correctAnswer": "61",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify vertical angles",
+      "content": "Two intersecting lines form four angles. From the figure, $r$ and $s$ sit opposite each other at the vertex, so they are <strong>vertical angles</strong>."
+    },
+    {
+      "title": "Apply the vertical angles theorem",
+      "content": "Vertical angles are equal, so $s=r=61$.<br/>The answer is <strong>61</strong>."
+    }
+  ]
+}

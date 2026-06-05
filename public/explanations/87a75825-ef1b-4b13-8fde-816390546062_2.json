@@ -1,1 +1,19 @@
-{"questionId":"87a75825-ef1b-4b13-8fde-816390546062_2","correctAnswer":"D","section":"Math","steps":[{"title":"Find the slope of line r","content":"Rewrite $6x - 5y = 9$ in slope-intercept form:<br/>$$-5y = -6x + 9 \\implies y = \\frac{6}{5}x - \\frac{9}{5}$$<br/>Slope of line $r = \\dfrac{6}{5}$."},{"title":"Apply the parallel-lines slope rule","content":"Parallel lines have equal slopes, so the slope of line $s$ equals the slope of line $r = \\dfrac{6}{5}$."},{"title":"Test all four choices","content":"<ul><li><strong>Choice A &mdash; $-6$</strong>: Slope $-6 \\ne \\frac{6}{5}$. A line with slope $-6$ is not parallel to $r$. &#10007;</li><li><strong>Choice B &mdash; $-5$</strong>: Slope $-5 \\ne \\frac{6}{5}$. Not parallel. &#10007;</li><li><strong>Choice C &mdash; $\\frac{5}{6}$</strong>: Slope $\\frac{5}{6} \\ne \\frac{6}{5}$. This is the reciprocal, not the slope. &#10007;</li><li><strong>Choice D &mdash; $\\frac{6}{5}$</strong>: Slope $\\frac{6}{5}$ matches the slope of line $r$ exactly. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "87a75825-ef1b-4b13-8fde-816390546062_2",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope of line r",
+      "content": "Rewrite $6x - 5y = 9$ in slope-intercept form:<br/>$$-5y = -6x + 9 \\implies y = \\frac{6}{5}x - \\frac{9}{5}$$<br/>Slope of line $r = \\dfrac{6}{5}$."
+    },
+    {
+      "title": "Apply the parallel-lines slope rule",
+      "content": "Parallel lines have equal slopes, so the slope of line $s$ equals the slope of line $r = \\dfrac{6}{5}$."
+    },
+    {
+      "title": "Test all four choices",
+      "content": "<ul><li><strong>Choice A &mdash; $-6$</strong>: Slope $-6 \\ne \\frac{6}{5}$. A line with slope $-6$ is not parallel to $r$. &#10007;</li><li><strong>Choice B &mdash; $-5$</strong>: Slope $-5 \\ne \\frac{6}{5}$. Not parallel. &#10007;</li><li><strong>Choice C &mdash; $\\frac{5}{6}$</strong>: Slope $\\frac{5}{6} \\ne \\frac{6}{5}$. This is the reciprocal, not the slope. &#10007;</li><li><strong>Choice D &mdash; $\\frac{6}{5}$</strong>: Slope $\\frac{6}{5}$ matches the slope of line $r$ exactly. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

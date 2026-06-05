@@ -1,1 +1,27 @@
-{"questionId":"2f91d920-5520-4266-8a2d-a29c925c95c0_20","correctAnswer":"D","section":"Math","steps":[{"title":"Simplify the first equation","content":"Starting with $$31(x - n) = 31y + 31n$$, expand:<br/>$$31x - 31n = 31y + 31n$$<br/>$$31x - 31y = 62n$$<br/>$$x - y = 2n$$<br/><br/>The first equation simplifies to $$x - y = 2n$$, which has slope 1.<br/><br/>Note: if the problem's first equation is instead $$3(x - n) = 3y + 3n$$ or the first equation reads $$x - 3y = 2n$$ by a different path, the slope would be \\(\\frac{1}{3}\\) &mdash; that alternate reading pairs naturally with the answer choices. Either way, the no-solution condition below identifies choice D."},{"title":"Condition for no solution: parallel but distinct lines","content":"A system of two linear equations has no solution when the lines are parallel (same slope) but not the same line (different constants).<br/><br/>For equations written as $$Ax + By = C$$, two equations are parallel when the ratio of coefficients of $$x$$ and $$y$$ match but the constants differ."},{"title":"Test choice D","content":"Choice D: $$x - 3y = 3n$$<br/><br/>If the first equation is taken as $$x - 3y = 2n$$ (the form consistent with the answer choices), then both lines have the form $$x - 3y = \\text{constant}$$, giving them identical slope $$\\frac{1}{3}$$.<br/><br/>The constants differ: $$3n \\neq 2n$$ for $$n &gt; 0$$. Subtracting:<br/>$$(x - 3y) - (x - 3y) = 3n - 2n$$<br/>$$0 = n$$<br/>This is a contradiction for positive $$n$$, confirming no solution exists.<br/><br/>That matches choice D &mdash; <strong>D</strong> is correct.","desmosExpressions":["y=(x-2)/3","y=(x-3)/3"]}]}
+{
+  "questionId": "2f91d920-5520-4266-8a2d-a29c925c95c0_20",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify the given equation",
+      "content": "Start with $$3(x-n)=9y+15n.$$ Expand and collect terms: $$3x-3n=9y+15n$$ $$3x-9y=18n.$$ Divide by $3$: $$x-3y=6n.$$"
+    },
+    {
+      "title": "Use the no-solution condition",
+      "content": "A two-line system has no solution when the lines are parallel but distinct. That means the second equation should have the same $x$ and $y$ coefficients as $x-3y=6n$, but a different constant."
+    },
+    {
+      "title": "Graph a representative case",
+      "content": "Since $n$ is any positive constant, choose the easiest positive value, $n=1$. The given equation becomes $x-3y=6$. Choice D becomes $x-3y=3$. Graphing those two lines in Desmos shows parallel, distinct lines, which means no intersection and no solution.",
+      "desmosExpressions": [
+        "x-3y=6",
+        "x-3y=3"
+      ]
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A, $x-3y=6n$, is the exact same line, so it would give infinitely many solutions. Choices B and C use $x+3y$, so they do not have the same slope as the given line. Choice D, $x-3y=3n$, has the same left side but a different constant. Combining it with $x-3y=6n$ would imply $6n=3n$, so $n=0$, contradicting $n>0$. Choice <strong>D</strong> is correct."
+    }
+  ]
+}

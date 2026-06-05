@@ -1,1 +1,19 @@
-{"questionId":"816fedc1-1434-4eb8-aa3b-6715a1e738ae_3","correctAnswer":"A","section":"Math","steps":[{"title":"Apply the multiplier from the given condition","content":"Note $80x+70 = 10(8x+7)$, and $8x+7=79$."},{"title":"Compute the target value","content":"So $80x+70 = 10 \\cdot 79 = 790$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}
+{
+  "questionId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_3",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the multiplier from the given condition",
+      "content": "Note $80x+70 = 10(8x+7)$, and $8x+7=79$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "So $80x+70 = 10 \\cdot 79 = 790$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice A, 790. The other choices do not satisfy the same condition from the question, so <strong>A</strong> is correct."
+    }
+  ]
+}

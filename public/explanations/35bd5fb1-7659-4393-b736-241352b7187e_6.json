@@ -4,12 +4,21 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the slope",
-      "content": "From the table, when x = -3, f(x) = 0; when x = 0, f(x) = -15.<br/>Compute the slope: $$m = \\frac{-15 - 0}{0 - (-3)} = \\frac{-15}{3} = -5$$"
+      "title": "Fit f from the table",
+      "content": "Use the table points $(-3,0)$ and $(0,-15)$. Enter them in Desmos and run $y_1 \\sim m x_1+b$.",
+      "desmosExpressions": [
+        "x_1=[-3,0]",
+        "y_1=[0,-15]",
+        "y_1~m x_1+b"
+      ]
     },
     {
-      "title": "Write the equation using point-slope",
-      "content": "Using point-slope form with point (\u22123,0): $$y - 0 = -5(x - (-3))$$<br/>Simplify: $$y = -5(x + 3)$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+      "title": "Match the fitted equation",
+      "content": "The regression gives $m=-5$ and $b=-15$, so $f(x)=-5x-15$. Factor the right side: $$-5x-15=-5(x+3)$$"
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice <strong>C</strong> is $f(x)=-5(x+3)$, so C is correct."
     }
   ]
 }

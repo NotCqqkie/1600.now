@@ -1,1 +1,25 @@
-{"questionId": "d8539e09", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Find the required $y$ bound for each $x$", "content": "The inequality $y<6x+2$ gives:<br/>$x=3$: need $y<20$.<br/>$x=5$: need $y<32$.<br/>$x=7$: need $y<44$."}, {"title": "Test each table against all three bounds", "content": "Check every row of each option:<ul><li>Table A: $(3,20)$ &mdash; $20<20$ is false, so this table fails.</li><li>Table B: $(5,36)$ &mdash; $36<32$ is false, so this table fails.</li><li>Table C: $(3,16)$ gives $16<20$ &check;, $(5,28)$ gives $28<32$ &check;, $(7,40)$ gives $40<44$ &check;. All three rows satisfy the inequality.</li><li>Table D: $(3,24)$ &mdash; $24<20$ is false, so this table fails.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "d8539e09",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Turn the inequality into three cutoffs",
+      "content": "All four answer choices use the same $x$-values, so the fastest method is to compute the maximum allowed $y$ for each one. From $y\\lt 6x+2$: when $x=3$, $y\\lt 20$; when $x=5$, $y\\lt 32$; when $x=7$, $y\\lt 44$."
+    },
+    {
+      "title": "Use the Desmos check",
+      "content": "Graph $y<6x+2$ and plot a table's three points. A table is correct only if all three points land in the shaded region, not on the boundary line. For choice C, the points $(3,16)$, $(5,28)$, and $(7,40)$ are all below the boundary.",
+      "desmosExpressions": [
+        "y<6x+2",
+        "(3,16)",
+        "(5,28)",
+        "(7,40)"
+      ]
+    },
+    {
+      "title": "Eliminate the others",
+      "content": "Choice A fails because $(3,20)$ is on the boundary, not less than it. Choice B fails because $(5,36)$ is above the allowed cutoff $32$. Choice D fails immediately at $(3,24)$. Only choice C has all three $y$-values below their cutoffs, so <strong>C</strong> is correct."
+    }
+  ]
+}

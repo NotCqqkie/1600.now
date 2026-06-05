@@ -10,6 +10,22 @@
     {
       "title": "Compute probability and match choice",
       "content": "Probability = $\\frac{11}{45}$.<br/>That matches choice B — <strong>B</strong> is correct."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice B is correct. The probability of an event occurring is the ratio of the number of favorable outcomes to the total number of possible outcomes. It's given that there are $45$ band members, which is the total number of possible outcomes. It's also given that there are $11$ band members who play saxophone. Therefore, the number of favorable outcomes is $11$. Thus, the probability of selecting a band member who plays saxophone is $\\frac{11}{45}$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A is incorrect and may result from conceptual or calculation errors."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice C is incorrect. This is the probability of selecting a band member who does not play saxophone."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice D is incorrect and may result from conceptual or calculation errors."
     }
   ]
 }

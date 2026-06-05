@@ -1,1 +1,20 @@
-{"questionId": "69f609b2", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Analyze the equation", "content": "Distribute on both sides of $12(x-3)=-3(x+12)$: $$12x-36=-3x-36 \\Rightarrow 15x=0.$$ The coefficient on $x$ is nonzero."}, {"title": "Count the solutions", "content": "There is exactly one solution, $x=0$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}
+{
+  "questionId": "69f609b2",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify the equation",
+      "content": "Distribute on both sides:<br/>$$12(x-3)=-3(x+12)$$<br/>$$12x-36=-3x-36$$<br/>Add $3x$ and $36$ to both sides: $$15x=0$$"
+    },
+    {
+      "title": "Count the solutions",
+      "content": "Because the coefficient of $x$ is nonzero, the equation has exactly one solution: $x=0$. In Desmos, graph each side or solve the simplified equation; the two lines meet once. That matches choice A, so <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y=12(x-3)",
+        "y=-3(x+12)",
+        "x=0"
+      ]
+    }
+  ]
+}

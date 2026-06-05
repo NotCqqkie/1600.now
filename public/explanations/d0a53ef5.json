@@ -1,1 +1,23 @@
-{"questionId": "d0a53ef5", "correctAnswer": "-3", "section": "Math", "steps": [{"title": "Simplify using the radical property", "content": "Recognize that $\\sqrt{(x-2)^2} = |x-2|$ by the property $\\sqrt{u^2} = |u|$. This gives:<br/>$$|x-2| = \\sqrt{3x+34}$$<br/>Square both sides (valid since both are non-negative):<br/>$$|x-2|^2 = 3x+34$$<br/>Since $|x-2|^2 = (x-2)^2$, we have:<br/>$$(x-2)^2 = 3x+34$$"}, {"title": "Expand and solve the quadratic", "content": "Expand the left side:<br/>$$x^2 - 4x + 4 = 3x + 34$$<br/>Simplify:<br/>$$x^2 - 7x - 30 = 0$$<br/>Factor:<br/>$$(x-10)(x+3) = 0$$<br/>This yields $x = 10$ or $x = -3$."}, {"title": "Verify solutions and find the smallest", "content": "Check both candidates in the original equation.<br/><br/>For $x = 10$:<br/>$$\\sqrt{(10-2)^2} = \\sqrt{64} = 8$$<br/>$$\\sqrt{3(10)+34} = \\sqrt{64} = 8$$<br/>Both sides equal 8. ✓<br/><br/>For $x = -3$:<br/>$$\\sqrt{(-3-2)^2} = \\sqrt{25} = 5$$<br/>$$\\sqrt{3(-3)+34} = \\sqrt{25} = 5$$<br/>Both sides equal 5. ✓<br/><br/>Both solutions are valid. The smallest solution is -3.", "desmosExpressions": ["y = \\sqrt{(x - 2)^2}", "y = \\sqrt{3x + 34}"]}]}
+{
+  "questionId": "d0a53ef5",
+  "correctAnswer": "-3",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify using the radical property",
+      "content": "Recognize that $\\sqrt{(x-2)^2} = |x-2|$ by the property $\\sqrt{u^2} = |u|$. This gives:<br/>$$|x-2| = \\sqrt{3x+34}$$<br/>Square both sides (valid since both are non-negative):<br/>$$|x-2|^2 = 3x+34$$<br/>Since $|x-2|^2 = (x-2)^2$, we have:<br/>$$(x-2)^2 = 3x+34$$"
+    },
+    {
+      "title": "Expand and solve the quadratic",
+      "content": "Expand the left side:<br/>$$x^2 - 4x + 4 = 3x + 34$$<br/>Simplify:<br/>$$x^2 - 7x - 30 = 0$$<br/>Factor:<br/>$$(x-10)(x+3) = 0$$<br/>This yields $x = 10$ or $x = -3$."
+    },
+    {
+      "title": "Verify solutions and find the smallest",
+      "content": "Check both candidates in the original equation.<br/><br/>For $x = 10$:<br/>$$\\sqrt{(10-2)^2} = \\sqrt{64} = 8$$<br/>$$\\sqrt{3(10)+34} = \\sqrt{64} = 8$$<br/>Both sides equal 8. ✓<br/><br/>For $x = -3$:<br/>$$\\sqrt{(-3-2)^2} = \\sqrt{25} = 5$$<br/>$$\\sqrt{3(-3)+34} = \\sqrt{25} = 5$$<br/>Both sides equal 5. ✓<br/><br/>Both solutions are valid. The smallest solution is -3.",
+      "desmosExpressions": [
+        "y = \\sqrt{(x - 2)^2}",
+        "y = \\sqrt{3x + 34}"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,19 @@
-{"questionId": "ba06b998-d854-4b29-830c-15d877280c75_17", "correctAnswer": "20", "section": "Math", "steps": [{"title": "Write the volume formula for a prism", "content": "$$V = B h$$"}, {"title": "Solve for base area", "content": "$$B = \\frac{V}{h} = \\frac{60}{3} = 20\\text{ cm}^2$$ The answer is <strong>20</strong>."}]}
+{
+  "questionId": "ba06b998-d854-4b29-830c-15d877280c75_17",
+  "correctAnswer": "20",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the volume formula for a prism",
+      "content": "$$V = B h$$"
+    },
+    {
+      "title": "Solve for base area",
+      "content": "$$B = \\frac{V}{h} = \\frac{60}{3} = 20\\text{ cm}^2$$ The answer is <strong>20</strong>."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $20$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $20$."
+    }
+  ]
+}

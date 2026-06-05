@@ -1,1 +1,16 @@
-{"questionId": "92eb236a", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Complementary angle identity for right triangles", "content": "In a right triangle, the two acute angles are complementary—they sum to 90°. If one acute angle is θ, the other is 90° − θ. For complementary angles, the tangent of one equals the reciprocal of the tangent of the other.", "formula": "$$\\tan(90° - \\theta) = \\cot(\\theta) = \\frac{1}{\\tan(\\theta)}$$"}, {"title": "Calculate the tangent of the other angle", "content": "We are given that $\\tan(\\theta) = \\frac{\\sqrt{3}}{3}$. Using this complementary angle relationship:<br/>$$\\tan(90° - \\theta) = \\frac{1}{\\tan(\\theta)} = \\frac{1}{\\frac{\\sqrt{3}}{3}} = \\frac{3}{\\sqrt{3}}$$<br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "92eb236a",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Complementary angle identity for right triangles",
+      "content": "In a right triangle, the two acute angles are complementary—they sum to 90°. If one acute angle is θ, the other is 90° − θ. For complementary angles, the tangent of one equals the reciprocal of the tangent of the other.",
+      "formula": "$$\\tan(90° - \\theta) = \\cot(\\theta) = \\frac{1}{\\tan(\\theta)}$$"
+    },
+    {
+      "title": "Calculate the tangent of the other angle",
+      "content": "We are given that $\\tan(\\theta) = \\frac{\\sqrt{3}}{3}$. Using this complementary angle relationship:<br/>$$\\tan(90° - \\theta) = \\frac{1}{\\tan(\\theta)} = \\frac{1}{\\frac{\\sqrt{3}}{3}} = \\frac{3}{\\sqrt{3}}$$<br/>That matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

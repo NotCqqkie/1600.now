@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Recognize that we need x + 3, not x",
-      "content": "The question asks for the value of <em>x</em> + 3, and in the equation 8(<em>x</em> + 3) = 64, the expression <em>x</em> + 3 is already grouped as a single unit. This is the key shortcut \u2014 we can find the value of this expression directly without solving for <em>x</em> separately."
+      "content": "The question asks for the value of <em>x</em> + 3, and in the equation 8(<em>x</em> + 3) = 64, the expression <em>x</em> + 3 is already grouped as a single unit. This is the key shortcut — we can find the value of this expression directly without solving for <em>x</em> separately."
     },
     {
       "title": "Divide both sides by 8",
-      "content": "Divide both sides of the equation by 8:<br/>$$x + 3 = \\frac{64}{8} = 8$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "Divide both sides of the equation by 8:<br/>$$x + 3 = \\frac{64}{8} = 8$$<br/>That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

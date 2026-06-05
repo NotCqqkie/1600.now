@@ -1,1 +1,23 @@
-{"questionId": "a05bd3a4", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Recognize the difference of squares", "content": "Recognize $x^2-5$ as a difference of squares with $5=(\\sqrt 5)^2$: $$x^2-5=x^2-(\\sqrt 5)^2.$$"}, {"title": "Apply the difference-of-squares formula", "content": "Factor: $(x+\\sqrt 5)(x-\\sqrt 5)$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}
+{
+  "questionId": "a05bd3a4",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the difference of squares",
+      "content": "Recognize $x^2-5$ as a difference of squares with $5=(\\sqrt 5)^2$: $$x^2-5=x^2-(\\sqrt 5)^2.$$"
+    },
+    {
+      "title": "Apply the difference-of-squares formula",
+      "content": "Factor: $(x+\\sqrt 5)(x-\\sqrt 5)$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice C is correct. The expression can be written as a difference of squares $x^2 - y^2$, which can be factored as $(x + y)(x - y)$. Here, $y^2 = 5$, so $y = \\sqrt{5}$, and the expression therefore factors as $(x + \\sqrt{5})(x - \\sqrt{5})$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choices A and B are incorrect and may result from misunderstanding how to factor a difference of squares. Choice D is incorrect; $(x + 5)(x - 1)$ can be rewritten as $x^2 + 4x - 5$, which is not equivalent to the original expression."
+    }
+  ]
+}

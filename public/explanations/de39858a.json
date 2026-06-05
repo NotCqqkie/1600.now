@@ -13,8 +13,10 @@
     },
     {
       "title": "Compute ab",
-      "content": "Multiply the values we found:<br/>$$ab = 6 \\cdot 9 = 54$$<br/>That matches choice C \u2014 <strong>C</strong> is correct.",
-      "desmosExpressions": ["h(x)=(a)^(x)+b"]
+      "content": "Multiply the values we found:<br/>$$ab = 6 \\cdot 9 = 54$$<br/>That matches choice C — <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "h(x)=(a)^(x)+b"
+      ]
     }
   ]
 }

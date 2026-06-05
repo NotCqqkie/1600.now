@@ -9,7 +9,7 @@
     },
     {
       "title": "Extract the slope and apply units",
-      "content": "In $d = 15t$, the coefficient of $t$ is 15. Since $d$ is in inches and $t$ is in seconds, the rate of change is 15 inches per second. That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "In $d = 15t$, the coefficient of $t$ is 15. Since $d$ is in inches and $t$ is in seconds, the rate of change is 15 inches per second. That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

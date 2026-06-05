@@ -4,16 +4,21 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Extract points from the table",
-      "content": "The table gives three points on the line: $(-6,\\, n+184)$, $(-3,\\, n+92)$, and $(0,\\, n)$. Since the relationship is linear, any two points yield the same slope."
+      "title": "Use the vertical-shift shortcut",
+      "content": "The unknown $n$ is added to every $y$-value, so it only shifts the line up or down. A vertical shift does not change slope. Set $n=0$ to make the table numeric: $(-6,184)$, $(-3,92)$, and $(0,0)$.",
+      "desmosExpressions": [
+        "x_1=[-6,-3,0]",
+        "y_1=[184,92,0]",
+        "y_1~m x_1+b"
+      ]
     },
     {
-      "title": "Compute the slope",
-      "content": "Using points $(-6,\\, n+184)$ and $(-3,\\, n+92)$:<br/>$$m = \\frac{(n+92)-(n+184)}{-3-(-6)} = \\frac{-92}{3} = -\\frac{92}{3}$$<br/>The $n$ cancels, leaving a purely numerical result."
+      "title": "Read the slope",
+      "content": "Run $y_1 \\sim m x_1+b$ in Desmos. The regression gives $m=-\\frac{92}{3}$, which is the same result as $\\frac{(n+92)-(n+184)}{-3-(-6)}=\\frac{-92}{3}$."
     },
     {
-      "title": "Verify with the third point",
-      "content": "Using points $(-3,\\, n+92)$ and $(0,\\, n)$:<br/>$$m = \\frac{n-(n+92)}{0-(-3)} = \\frac{-92}{3}$$<br/>Consistent. Now test every choice against $m = -\\dfrac{92}{3}$:<br/><ul><li><strong>Choice A &mdash; $-\\frac{92}{3}$</strong>: Equals our computed slope exactly. &#10003;</li><li><strong>Choice B &mdash; $-\\frac{3}{92}$</strong>: This is the reciprocal of A (not the slope). &#10007;</li><li><strong>Choice C &mdash; $\\frac{n+92}{-3}$</strong>: Still contains $n$, but the slope is a fixed number; this is not the slope formula applied correctly. &#10007;</li><li><strong>Choice D &mdash; $\\frac{2n-92}{3}$</strong>: Contains $n$; would only equal $-\\frac{92}{3}$ if $n=0$, which is not guaranteed. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "title": "Check the choices",
+      "content": "The slope is fixed; it should not still contain $n$. Choice <strong>A</strong>, $-\\frac{92}{3}$, is the only matching choice."
     }
   ]
 }

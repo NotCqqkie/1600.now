@@ -11,6 +11,16 @@
       "explanation": "Range = maximum &minus; minimum. Adding the same constant to every value increases both max and min by 14, so their difference stays the same: range of B = 12 \\mu\\text{F}."
     },
     {
+      "title": "Check the shifted dot plot in Desmos",
+      "content": "If you want to avoid reasoning abstractly, enter the values from set A as a list and define set B by adding $14$ to every entry. Desmos shows that $\\text{mean}(B)=24$ and $\\max(B)-\\min(B)=12$, so the mean shifts up but the range stays the same.",
+      "desmosExpressions": [
+        "A=[4,4,4,4,4,7,7,7,7,7,7,10,10,13,13,13,13,13,13,16,16,16,16,16]",
+        "B=A+14",
+        "mean(B)",
+        "max(B)-min(B)"
+      ]
+    },
+    {
       "explanation": "<ul><li>A: Mean 10 \\mu\\text{F}, range 12 \\mu\\text{F} &mdash; The mean is unchanged from set A, but adding 14 to every value must shift the mean up by 14. Eliminated.</li><li>B: Mean 10 \\mu\\text{F}, range 26 \\mu\\text{F} &mdash; Both values are wrong; the mean is unshifted and the range is inflated. Eliminated.</li><li>C: Mean 24 \\mu\\text{F}, range 12 \\mu\\text{F} &mdash; Mean shifts by 14 (10 + 14 = 24) and range is unchanged. That matches choice C &mdash; <strong>C</strong> is correct.</li><li>D: Mean 24 \\mu\\text{F}, range 26 \\mu\\text{F} &mdash; Mean is correct but range incorrectly doubles the shift (12 + 14 = 26). Eliminated.</li></ul>"
     }
   ],

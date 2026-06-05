@@ -1,1 +1,19 @@
-{"questionId":"772de699","correctAnswer":"C","section":"Math","steps":[{"title":"Find the greatest common factor","content":"Look at $23x^3+2x^2+9x$. The coefficients $23$, $2$, and $9$ share no common factor other than $1$. Every term has at least one factor of $x$, so the GCF is just $x$."},{"title":"Factor out $x$","content":"$$23x^3+2x^2+9x=x\\bigl(23x^2+2x+9\\bigr)$$You can verify by distributing: $x\\cdot 23x^2=23x^3$, $x\\cdot 2x=2x^2$, $x\\cdot 9=9x$. &check;"},{"title":"Compare with each choice","content":"<ul><li><strong>A) $23x(x^2+2x+9)$:</strong> distributes to $23x^3+46x^2+207x$, not the original. &cross;</li><li><strong>B) $9x(23x^3+2x^2+1)$:</strong> distributes to $207x^4+18x^3+9x$, which has an $x^4$ term. &cross;</li><li><strong>C) $x(23x^2+2x+9)$:</strong> distributes to $23x^3+2x^2+9x$. &check;</li><li><strong>D) $34(x^3+x^2+x)$:</strong> distributes to $34x^3+34x^2+34x$, wrong coefficients. &cross;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "772de699",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the greatest common factor",
+      "content": "Look at $23x^3+2x^2+9x$. The coefficients $23$, $2$, and $9$ share no common factor other than $1$. Every term has at least one factor of $x$, so the GCF is just $x$."
+    },
+    {
+      "title": "Factor out $x$",
+      "content": "$$23x^3+2x^2+9x=x\\bigl(23x^2+2x+9\\bigr)$$You can verify by distributing: $x\\cdot 23x^2=23x^3$, $x\\cdot 2x=2x^2$, $x\\cdot 9=9x$. &check;"
+    },
+    {
+      "title": "Compare with each choice",
+      "content": "<ul><li><strong>A) $23x(x^2+2x+9)$:</strong> distributes to $23x^3+46x^2+207x$, not the original. &cross;</li><li><strong>B) $9x(23x^3+2x^2+1)$:</strong> distributes to $207x^4+18x^3+9x$, which has an $x^4$ term. &cross;</li><li><strong>C) $x(23x^2+2x+9)$:</strong> distributes to $23x^3+2x^2+9x$. &check;</li><li><strong>D) $34(x^3+x^2+x)$:</strong> distributes to $34x^3+34x^2+34x$, wrong coefficients. &cross;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

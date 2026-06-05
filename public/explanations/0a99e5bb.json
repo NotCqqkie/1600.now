@@ -1,1 +1,15 @@
-{"questionId": "0a99e5bb", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Count total numbers and identify negative values", "content": "The data set contains three numbers: $-13$, $4$, and $23$. Among these, only $-13$ is negative. The other two values are positive. So we have 1 negative number out of 3 total numbers."}, {"title": "Apply the probability formula", "content": "Probability of selecting a negative number is:\n\n$$P(\\text{negative}) = \\frac{\\text{Number of negative values}}{\\text{Total number of values}} = \\frac{1}{3}$$\n\nThat matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "0a99e5bb",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Count total numbers and identify negative values",
+      "content": "The data set contains three numbers: $-13$, $4$, and $23$. Among these, only $-13$ is negative. The other two values are positive. So we have 1 negative number out of 3 total numbers."
+    },
+    {
+      "title": "Apply the probability formula",
+      "content": "Probability of selecting a negative number is:\n\n$$P(\\text{negative}) = \\frac{\\text{Number of negative values}}{\\text{Total number of values}} = \\frac{1}{3}$$\n\nThat matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

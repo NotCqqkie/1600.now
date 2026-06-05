@@ -1,1 +1,19 @@
-{"questionId":"70b33953-aa61-407d-a25a-a438792bed03_4","correctAnswer":"D","section":"Math","steps":[{"title":"Treat $8 - 4x$ as a single variable","content":"Let $u = 8 - 4x$. The equation becomes $5u + 2 = 4u + 18$."},{"title":"Isolate $u$","content":"Subtract $4u$ from both sides: $u + 2 = 18$. Subtract $2$ from both sides: $u = 16$."},{"title":"Compute the target value","content":"Since $u = 8 - 4x$, we have $8 - 4x = 16$. That matches choice <strong>D</strong> &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "70b33953-aa61-407d-a25a-a438792bed03_4",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Treat $8 - 4x$ as a single variable",
+      "content": "Let $u = 8 - 4x$. The equation becomes $5u + 2 = 4u + 18$."
+    },
+    {
+      "title": "Isolate $u$",
+      "content": "Subtract $4u$ from both sides: $u + 2 = 18$. Subtract $2$ from both sides: $u = 16$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "Since $u = 8 - 4x$, we have $8 - 4x = 16$. That matches choice <strong>D</strong> &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

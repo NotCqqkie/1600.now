@@ -1,1 +1,35 @@
-{"questionId": "6e3ab4bf", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Use given total", "content": "The problem states there are 43 volunteers total."}, {"title": "Read value for gift C", "content": "In the bar graph, the bar labeled C reaches a height of 18 volunteers."}, {"title": "Select answer", "content": "That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "6e3ab4bf",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use given total",
+      "content": "The problem states there are 43 volunteers total."
+    },
+    {
+      "title": "Read value for gift C",
+      "content": "In the bar graph, the bar labeled C reaches a height of 18 volunteers."
+    },
+    {
+      "title": "Select answer",
+      "content": "That matches choice D — <strong>D</strong> is correct."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice D is correct. The height of each bar in the graph shown represents the number of volunteers who chose the gift labeled with the letter specified at the bottom of the bar. The bar for gift C has a height of $18$. Therefore, $18$ volunteers chose gift C."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A is incorrect. This is the number of volunteers who chose gift D, not gift C."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice B is incorrect. This is the number of volunteers who chose gift B, not gift C."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice C is incorrect. This is the number of volunteers who chose gift A, not gift C."
+    }
+  ]
+}

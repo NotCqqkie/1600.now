@@ -1,1 +1,15 @@
-{"questionId": "d28c29e1", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Determine the conversion factor for seconds to hours", "content": "To convert miles per second to miles per hour, multiply by the number of seconds in one hour.<br/>$$1 \\text{ hour} = 60 \\text{ minutes} \\times 60 \\text{ seconds/minute} = 3,600 \\text{ seconds}$$"}, {"title": "Apply the conversion factor to find the speed in miles per hour", "content": "$$4.76 \\text{ miles/second} \\times 3,600 \\text{ seconds/hour} = 17,136 \\text{ miles/hour}$$<br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "d28c29e1",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Determine the conversion factor for seconds to hours",
+      "content": "To convert miles per second to miles per hour, multiply by the number of seconds in one hour.<br/>$$1 \\text{ hour} = 60 \\text{ minutes} \\times 60 \\text{ seconds/minute} = 3,600 \\text{ seconds}$$"
+    },
+    {
+      "title": "Apply the conversion factor to find the speed in miles per hour",
+      "content": "$$4.76 \\text{ miles/second} \\times 3,600 \\text{ seconds/hour} = 17,136 \\text{ miles/hour}$$<br/>That matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

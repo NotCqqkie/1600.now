@@ -1,1 +1,15 @@
-{"questionId": "471ccf49-2c32-4c56-9f7e-1788dbe63527_3", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Factor the coefficient and the variable part", "content": "$63 = 7 \\times 9$ and $x^2 = x \\cdot x$, so:<br/>$$63x^2 = (7x)(9x)$$<br/>Verify: $7 \\cdot 9 = 63$ and $x \\cdot x = x^2$. &#10003;"}, {"title": "Eliminate wrong choices", "content": "<ul><li><strong>Choice A &mdash; '$63(1+x^2)$'</strong>: Expanding gives $63 + 63x^2 \\ne 63x^2$. The extra $63$ is not present in the original. &#10007;</li><li><strong>Choice B &mdash; '$(7x)(9x)$'</strong>: $7 \\times 9 = 63$ and $x \\times x = x^2$, so $(7x)(9x) = 63x^2$. &#10003;</li><li><strong>Choice C &mdash; '$(7x^2)(9x^2)$'</strong>: $7 \\times 9 = 63$ but $x^2 \\times x^2 = x^4 \\ne x^2$. Wrong degree. &#10007;</li><li><strong>Choice D &mdash; '$(63x^2)(x)$'</strong>: $63x^2 \\times x = 63x^3 \\ne 63x^2$. Wrong degree. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "471ccf49-2c32-4c56-9f7e-1788dbe63527_3",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor the coefficient and the variable part",
+      "content": "$63 = 7 \\times 9$ and $x^2 = x \\cdot x$, so:<br/>$$63x^2 = (7x)(9x)$$<br/>Verify: $7 \\cdot 9 = 63$ and $x \\cdot x = x^2$. &#10003;"
+    },
+    {
+      "title": "Eliminate wrong choices",
+      "content": "<ul><li><strong>Choice A &mdash; '$63(1+x^2)$'</strong>: Expanding gives $63 + 63x^2 \\ne 63x^2$. The extra $63$ is not present in the original. &#10007;</li><li><strong>Choice B &mdash; '$(7x)(9x)$'</strong>: $7 \\times 9 = 63$ and $x \\times x = x^2$, so $(7x)(9x) = 63x^2$. &#10003;</li><li><strong>Choice C &mdash; '$(7x^2)(9x^2)$'</strong>: $7 \\times 9 = 63$ but $x^2 \\times x^2 = x^4 \\ne x^2$. Wrong degree. &#10007;</li><li><strong>Choice D &mdash; '$(63x^2)(x)$'</strong>: $63x^2 \\times x = 63x^3 \\ne 63x^2$. Wrong degree. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

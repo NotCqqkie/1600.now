@@ -14,6 +14,10 @@
         "x^2 + y + 7 = 7",
         "20x + 100 - y = 0"
       ]
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $-10$. Adding $y$ to both sides of the second equation in the given system yields $20x+100=y$. Substituting $20x+100$ for $y$ in the first equation in the given system yields ${x}^{2}+20x+100+7=7$. Subtracting $7$ from both sides of this equation yields ${x}^{2}+20x+100=0$. Factoring the left-hand side of this equation yields $\\left(x+10\\right)\\left(x+10\\right)=0$, or ${\\left(x+10\\right)}^{2}=0$. Taking the square root of both sides of this equation yields $x+10=0$. Subtracting $10$ from both sides of this equation yields $x=-10$. Therefore, the value of $x$ is $-10$."
     }
   ]
 }

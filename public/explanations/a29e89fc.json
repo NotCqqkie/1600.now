@@ -1,1 +1,15 @@
-{"questionId": "a29e89fc", "correctAnswer": "3630", "section": "Math", "steps": [{"title": "Calculate the total mass", "content": "To find the mean mass, sum all the individual masses. Adding 4,010 + 4,010 + 3,030 + 4,050 + 3,050 step-by-step: <ul><li>4,010 + 4,010 = 8,020</li><li>8,020 + 3,030 = 11,050</li><li>11,050 + 4,050 = 15,100</li><li>15,100 + 3,050 = 18,150</li></ul> Total mass = 18,150 grams."}, {"title": "Compute the mean", "content": "Divide the total mass by the number of marmots (5): $$\\text{Mean} = \\frac{18,150}{5} = 3,630$$ The answer is <strong>3630</strong>."}]}
+{
+  "questionId": "a29e89fc",
+  "correctAnswer": "3630",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate the total mass",
+      "content": "To find the mean mass, sum all the individual masses. Adding 4,010 + 4,010 + 3,030 + 4,050 + 3,050 step-by-step: <ul><li>4,010 + 4,010 = 8,020</li><li>8,020 + 3,030 = 11,050</li><li>11,050 + 4,050 = 15,100</li><li>15,100 + 3,050 = 18,150</li></ul> Total mass = 18,150 grams."
+    },
+    {
+      "title": "Compute the mean",
+      "content": "Divide the total mass by the number of marmots (5): $$\\text{Mean} = \\frac{18,150}{5} = 3,630$$ The answer is <strong>3630</strong>."
+    }
+  ]
+}

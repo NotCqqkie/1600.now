@@ -1,1 +1,15 @@
-{"questionId": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_9", "correctAnswer": "552", "section": "Math", "steps": [{"title": "Calculate Charles's weekly savings", "content": "Charles saves $\\frac{4}{5}$ of \\$230 each week. Calculate this amount:<br/>$$\\text{Weekly savings} = \\frac{4}{5} \\times 230 = \\frac{4 \\times 230}{5} = \\frac{920}{5} = 184$$<br/>Charles saves \\$184 each week."}, {"title": "Calculate total savings over 3 weeks", "content": "Multiply the weekly savings by 3:<br/>$$\\text{Total savings} = 184 \\times 3 = 552$$<br/>Charles will save \\$552 in 3 weeks."}]}
+{
+  "questionId": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_9",
+  "correctAnswer": "552",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate Charles's weekly savings",
+      "content": "Charles saves $\\frac{4}{5}$ of \\$230 each week. Calculate this amount:<br/>$$\\text{Weekly savings} = \\frac{4}{5} \\times 230 = \\frac{4 \\times 230}{5} = \\frac{920}{5} = 184$$<br/>Charles saves \\$184 each week."
+    },
+    {
+      "title": "Calculate total savings over 3 weeks",
+      "content": "Multiply the weekly savings by 3:<br/>$$\\text{Total savings} = 184 \\times 3 = 552$$<br/>Charles will save \\$552 in 3 weeks."
+    }
+  ]
+}

@@ -9,8 +9,11 @@
     },
     {
       "title": "Translate the height value and identify the system",
-      "content": "The problem states <em>the height of a certain vehicle is 76 inches</em>. Since $y$ represents height, this gives us $y = 76$. The system of equations must contain both $x = 4y$ and $y = 76$. That matches choice B \u2014 <strong>B</strong> is correct.",
-      "desmosExpressions": ["y = \\frac{x}{4}", "y = 76"]
+      "content": "The problem states <em>the height of a certain vehicle is 76 inches</em>. Since $y$ represents height, this gives us $y = 76$. The system of equations must contain both $x = 4y$ and $y = 76$. That matches choice B — <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "y = \\frac{x}{4}",
+        "y = 76"
+      ]
     }
   ]
 }

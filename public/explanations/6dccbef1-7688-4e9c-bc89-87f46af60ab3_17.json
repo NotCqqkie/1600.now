@@ -1,1 +1,19 @@
-{"questionId":"6dccbef1-7688-4e9c-bc89-87f46af60ab3_17","correctAnswer":".9966,0.996,0.997","section":"Math","steps":[{"title":"Set up","content":"Decreasing $x$ by $0.34\\%$ means keeping $100\\% - 0.34\\% = 99.66\\%$ of $x$, so the result is $0.9966x$."},{"title":"Solve","content":"The problem says the result equals $kx$: $$kx = 0.9966x \\implies k = 0.9966$$"},{"title":"Answer","content":"<strong>0.9966</strong> is correct. (Also accepted: <strong>.9966</strong>, <strong>0.996</strong>, <strong>0.997</strong>.)"}]}
+{
+  "questionId": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_17",
+  "correctAnswer": ".9966,0.996,0.997",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "Decreasing $x$ by $0.34\\%$ means keeping $100\\% - 0.34\\% = 99.66\\%$ of $x$, so the result is $0.9966x$."
+    },
+    {
+      "title": "Solve",
+      "content": "The problem says the result equals $kx$: $$kx = 0.9966x \\implies k = 0.9966$$"
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>0.9966</strong> is correct. (Also accepted: <strong>.9966</strong>, <strong>0.996</strong>, <strong>0.997</strong>.)"
+    }
+  ]
+}

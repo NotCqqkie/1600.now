@@ -4,16 +4,25 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the slope using the two points",
-      "content": "From the table, we have the points $(-18, -48)$ and $(7, 52)$.<br/>Slope: $m = \\frac{52 - (-48)}{7 - (-18)} = \\frac{100}{25} = 4$"
+      "title": "Fit the line from the table",
+      "content": "Enter the two table points, $(-18,-48)$ and $(7,52)$, into Desmos and run $y_1 \\sim m x_1+b$. Desmos gives $m=4$ and $b=24$, so the line is $y=4x+24$.",
+      "desmosExpressions": [
+        "x_1=[-18,7]",
+        "y_1=[-48,52]",
+        "y_1~m x_1+b",
+        "y=m x+b"
+      ]
     },
     {
-      "title": "Write the linear equation using point-slope form",
-      "content": "Using the point $(7, 52)$:<br/>$$y - 52 = 4(x - 7)$$<br/>$$y = 4x - 28 + 52$$<br/>$$y = 4x + 24$$<br/><div class=\"callout\">We can verify with the other point: $y = 4(-18) + 24 = -72 + 24 = -48$ \u2713</div>"
+      "title": "Evaluate at the requested x-value",
+      "content": "The graph passes through $\\left(\\frac{1}{7},a\\right)$, so plug in $x=\\frac{1}{7}$: $$a=4\\left(\\frac{1}{7}\\right)+24=\\frac{4}{7}+\\frac{168}{7}=\\frac{172}{7}$$",
+      "desmosExpressions": [
+        "(1/7,172/7)"
+      ]
     },
     {
-      "title": "Substitute $x = \\frac{1}{7}$ to find $a$",
-      "content": "$$a = 4 \\cdot \\frac{1}{7} + 24$$<br/>$$a = \\frac{4}{7} + \\frac{168}{7}$$<br/>$$a = \\frac{172}{7}$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+      "title": "Check the choices",
+      "content": "The value of $a$ is $\\frac{172}{7}$, which matches choice <strong>D</strong>."
     }
   ]
 }

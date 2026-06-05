@@ -1,1 +1,19 @@
-{"questionId":"35bd5fb1-7659-4393-b736-241352b7187e_9","correctAnswer":"392","section":"Math","steps":[{"title":"Set up","content":"The diameter is 28 inches, so the radius is r = 28 &divide; 2 = 14. The height is h = 6. The cone volume formula is V = (1/3)&pi;r&sup2;h, and we&apos;re told V = k&pi;."},{"title":"Solve","content":"V = (1/3)&pi;(14)&sup2;(6) = (1/3)&pi;(196)(6) = (1/3)&pi;(1176) = 392&pi;. So k&pi; = 392&pi;, giving k = 392."},{"title":"Answer","content":"<strong>392</strong> is correct."}]}
+{
+  "questionId": "35bd5fb1-7659-4393-b736-241352b7187e_9",
+  "correctAnswer": "392",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "The diameter is 28 inches, so the radius is r = 28 &divide; 2 = 14. The height is h = 6. The cone volume formula is V = (1/3)&pi;r&sup2;h, and we&apos;re told V = k&pi;."
+    },
+    {
+      "title": "Solve",
+      "content": "V = (1/3)&pi;(14)&sup2;(6) = (1/3)&pi;(196)(6) = (1/3)&pi;(1176) = 392&pi;. So k&pi; = 392&pi;, giving k = 392."
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>392</strong> is correct."
+    }
+  ]
+}

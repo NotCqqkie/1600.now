@@ -5,21 +5,21 @@
   "steps": [
     {
       "title": "Set up the inequality test",
-      "content": "Need every $(x,y)$ in the table to satisfy $y<5x+6$."
+      "content": "Every row in the correct table must satisfy $y\\lt5x+6$. Since all choices use $x=3,5,7$, compute the upper bounds once:<br/>$$5(3)+6=21,\\quad 5(5)+6=31,\\quad 5(7)+6=41$$"
     },
     {
-      "title": "Test each table",
-      "content": "Compute $5x+6$ at each $x$: at $x=3$ bound is $21$, at $x=5$ bound is $31$, at $x=7$ bound is $41$. Choice A has $y=17,27,37$, all strictly less than the bounds. Other choices fail at least one row."
-    },
-    {
-      "title": "Identify the table",
-      "content": "Only choice A satisfies $y<5x+6$ throughout. That matches choice <strong>A</strong> — <strong>A</strong> is correct.",
+      "title": "Check choice A against the bounds",
+      "content": "Choice A has $y$-values $17,27,37$. Compare them row by row:<br/>$$17\\lt21,\\quad 27\\lt31,\\quad 37\\lt41$$<br/>All three rows work. In Desmos, the list inequality checks all three rows at once.",
       "desmosExpressions": [
-        "y<5x+6",
-        "(3,17)",
-        "(5,27)",
-        "(7,37)"
+        "x_1=[3,5,7]",
+        "y_1=[17,27,37]",
+        "5x_1+6",
+        "y_1<5x_1+6"
       ]
+    },
+    {
+      "title": "Eliminate the other tables",
+      "content": "The other choices each have a row that is not strictly below its bound: choice B has $35\\not\\lt31$, choice C has $25\\not\\lt21$, and choice D has $21\\not\\lt21$. Only choice A satisfies every row, so <strong>A</strong> is correct."
     }
   ]
 }

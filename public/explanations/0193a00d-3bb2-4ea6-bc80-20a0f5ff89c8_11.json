@@ -4,16 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Expand both sides",
-      "content": "For infinitely many solutions the equation must be an identity (true for every \\(x\\)). Expand:<br/>Left: \\(a(4x-8)+5a = 4ax - 8a + 5a = 4ax - 3a\\)<br/>Right: \\(4(ax-2a)-20 = 4ax - 8a - 20\\)<br/>The \\(4ax\\) terms are identical on both sides regardless of \\(a\\), so the \\(x\\)-coefficient condition is already met. Equate the constant terms:<br/>$$-3a = -8a - 20 \\implies 5a = -20 \\implies a = -4$$"
+      "title": "Use custom regression",
+      "content": "For infinitely many solutions, the two sides must be identical for every $x$. A fast Desmos way to enforce that is to test two different $x$-values at once. Enter $x_1=[0,1]$, then regress the left side against the right side with $a(4x_1-8)+5a\\sim4(a x_1-2a)-20$. Desmos returns $a=-4$.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "a(4x_1-8)+5a~4(a x_1-2a)-20"
+      ]
     },
     {
-      "title": "Test all four choices",
-      "content": "<ul><li><strong>Choice A &mdash; &minus;4 only</strong>: When \\(a = -4\\): left \\(= -16x + 12\\), right \\(= -16x + 32 - 20 = -16x + 12\\). Identity for all \\(x\\). &#10003; And \\(a = -4\\) is the unique solution to \\(5a = -20\\), so no other value works. &#10003;</li><li><strong>Choice B &mdash; 0 only</strong>: When \\(a = 0\\): left \\(= 0\\), right \\(= -20\\). This gives \\(0 = -20\\), which is never true (no solutions, not infinitely many). &#10007;</li><li><strong>Choice C &mdash; Any real number</strong>: Any \\(a \\neq -4\\) gives \\(-3a \\neq -8a - 20\\), producing a contradiction with no solutions. Not every real number works. &#10007;</li><li><strong>Choice D &mdash; No real number</strong>: \\(a = -4\\) does produce an identity, so at least one value works. &#10007;</li></ul>"
+      "title": "Verify algebraically",
+      "content": "Expanding confirms why the regression works. The left side is $a(4x-8)+5a=4ax-3a$. The right side is $4(ax-2a)-20=4ax-8a-20$. The $4ax$ terms already match, so the constants must match: $$-3a=-8a-20$$ $$5a=-20$$ $$a=-4$$"
     },
     {
-      "title": "Conclusion",
-      "content": "Exactly one value, \\(a = -4\\), makes the equation an identity with infinitely many solutions. That matches choice A &mdash; <strong>A</strong> is correct."
+      "title": "Check the choices",
+      "content": "Choice A says $-4$ only. That is exactly what the regression and coefficient check found. Choice B gives $a=0$, which makes $0=-20$ after the $x$-terms cancel. Choice C is too broad because only one value works, and choice D is false because $a=-4$ does work. Choice <strong>A</strong> is correct."
     }
   ]
 }

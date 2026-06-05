@@ -1,1 +1,25 @@
-{"questionId": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_14", "correctAnswer": "105", "section": "Math", "steps": [{"title": "Set up the weighted sum equation", "content": "The total sum of all 175 boiling points equals the sum from the semivolatile group plus the sum from the volatile group. <br/><br/>If we let $m$ be the mean boiling point of the 125 volatile compounds, then:<br/>$$175 \\times 167 = 50 \\times 322 + 125 \\times m$$", "formula": "$$\\text{Total Sum} = n_1 \\bar{x}_1 + n_2 \\bar{x}_2$$"}, {"title": "Calculate the totals and solve", "content": "Evaluate the left side and the first term on the right:<br/>$$29,225 = 16,100 + 125m$$<br/>Subtract 16,100 from both sides:<br/>$$13,125 = 125m$$<br/>Divide by 125:<br/>$$m = 105$$<br/>The mean boiling point of the 125 volatile compounds is <strong>105 degrees Celsius</strong>."}]}
+{
+  "questionId": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_14",
+  "correctAnswer": "105",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use total sums, not averages alone",
+      "content": "The total of all $175$ boiling points is:<br/>$$175\\cdot167$$<br/>The total for the $50$ semivolatile compounds is:<br/>$$50\\cdot322$$"
+    },
+    {
+      "title": "Subtract to get the volatile total",
+      "content": "The remaining $125$ compounds are volatile, so their total boiling point is:<br/>$$175\\cdot167-50\\cdot322=13,125$$",
+      "desmosExpressions": [
+        "175*167-50*322"
+      ]
+    },
+    {
+      "title": "Divide by the 125 volatile compounds",
+      "content": "Mean equals total divided by count:<br/>$$\\frac{13,125}{125}=105$$<br/>The mean boiling point of the volatile compounds is <strong>105</strong> degrees Celsius.",
+      "desmosExpressions": [
+        "(175*167-50*322)/125"
+      ]
+    }
+  ]
+}

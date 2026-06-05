@@ -1,1 +1,17 @@
-{"steps":[{"explanation":"Find the width of the base. Base area = length &times; width, so width = 56t &divide; (14/3) = 56t &times; 3/14 = 12t cm."},{"explanation":"Compute the three distinct face areas: base lw = 56t (given), front face lh = (14/3)(3) = 14, side face wh = 12t &times; 3 = 36t."},{"explanation":"Surface area of a rectangular prism = 2(lw + lh + wh) = 2(56t + 14 + 36t) = 2(92t + 14) = 184t + 28."},{"explanation":"<ul><li>A: 112t + 56 &mdash; incorrect face calculations.</li><li>B: 184t + 28 &mdash; matches exactly.</li><li>C: 1,680t + 28 &mdash; far too large.</li><li>D: 168t &mdash; missing the constant term, wrong coefficient.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}],"correctAnswer":"B"}
+{
+  "steps": [
+    {
+      "explanation": "Find the width of the base. Base area = length &times; width, so width = 56t &divide; (14/3) = 56t &times; 3/14 = 12t cm."
+    },
+    {
+      "explanation": "Compute the three distinct face areas: base lw = 56t (given), front face lh = (14/3)(3) = 14, side face wh = 12t &times; 3 = 36t."
+    },
+    {
+      "explanation": "Surface area of a rectangular prism = 2(lw + lh + wh) = 2(56t + 14 + 36t) = 2(92t + 14) = 184t + 28."
+    },
+    {
+      "explanation": "<ul><li>A: 112t + 56 &mdash; incorrect face calculations.</li><li>B: 184t + 28 &mdash; matches exactly.</li><li>C: 1,680t + 28 &mdash; far too large.</li><li>D: 168t &mdash; missing the constant term, wrong coefficient.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ],
+  "correctAnswer": "B"
+}

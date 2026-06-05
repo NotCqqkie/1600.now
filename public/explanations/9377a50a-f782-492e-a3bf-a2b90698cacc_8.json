@@ -1,1 +1,15 @@
-{"questionId": "9377a50a-f782-492e-a3bf-a2b90698cacc_8", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Dilation preserves angles", "content": "When a triangle is dilated (stretched or shrunk), all angles remain unchanged.<br/><br/>This is a fundamental property of similarity and dilation. Since triangle $ABC$ is dilated by a scale factor of 3 to create triangle $XYZ$, each angle in $XYZ$ equals the corresponding angle in $ABC$.<br/><br/>Therefore, $\\angle X = \\angle A$."}, {"title": "Find angle A from the original triangle", "content": "From the figure of triangle $ABC$, $\\angle A = 60°$. Since dilation preserves angles, $\\angle X = \\angle A = 60°$. That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "9377a50a-f782-492e-a3bf-a2b90698cacc_8",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Dilation preserves angles",
+      "content": "When a triangle is dilated (stretched or shrunk), all angles remain unchanged.<br/><br/>This is a fundamental property of similarity and dilation. Since triangle $ABC$ is dilated by a scale factor of 3 to create triangle $XYZ$, each angle in $XYZ$ equals the corresponding angle in $ABC$.<br/><br/>Therefore, $\\angle X = \\angle A$."
+    },
+    {
+      "title": "Find angle A from the original triangle",
+      "content": "From the figure of triangle $ABC$, $\\angle A = 60°$. Since dilation preserves angles, $\\angle X = \\angle A = 60°$. That matches choice C — <strong>C</strong> is correct."
+    }
+  ]
+}

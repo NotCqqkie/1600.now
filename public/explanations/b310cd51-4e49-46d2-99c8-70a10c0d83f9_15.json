@@ -1,1 +1,23 @@
-{"questionId": "b310cd51-4e49-46d2-99c8-70a10c0d83f9_15", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Write vertex form using vertex $(1, 6)$", "content": "$$f(x) = a(x-1)^2 + 6$$"}, {"title": "Solve for $a$ using point $(2, 40)$", "content": "$$40 = a(2-1)^2 + 6 \\implies a = 34$$<br/>So $f(x) = 34(x-1)^2 + 6$."}, {"title": "Compute $f(-2) - f(0)$", "content": "$$f(-2) = 34(-3)^2 + 6 = 306 + 6 = 312$$<br/>$$f(0) = 34(-1)^2 + 6 = 34 + 6 = 40$$<br/>$$f(-2) - f(0) = 312 - 40 = 272$$<br/>That matches choice C — <strong>C</strong> is correct.", "desmosExpressions": ["f(x) = 34(x-1)^2 + 6", "f(-2) - f(0)"]}]}
+{
+  "questionId": "b310cd51-4e49-46d2-99c8-70a10c0d83f9_15",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write vertex form using vertex $(1, 6)$",
+      "content": "$$f(x) = a(x-1)^2 + 6$$"
+    },
+    {
+      "title": "Solve for $a$ using point $(2, 40)$",
+      "content": "$$40 = a(2-1)^2 + 6 \\implies a = 34$$<br/>So $f(x) = 34(x-1)^2 + 6$."
+    },
+    {
+      "title": "Compute $f(-2) - f(0)$",
+      "content": "$$f(-2) = 34(-3)^2 + 6 = 306 + 6 = 312$$<br/>$$f(0) = 34(-1)^2 + 6 = 34 + 6 = 40$$<br/>$$f(-2) - f(0) = 312 - 40 = 272$$<br/>That matches choice C — <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "f(x) = 34(x-1)^2 + 6",
+        "f(-2) - f(0)"
+      ]
+    }
+  ]
+}

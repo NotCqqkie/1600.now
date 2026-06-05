@@ -5,7 +5,23 @@
   "steps": [
     {
       "title": "Read the bar height for Activity 3",
-      "content": "Locate Activity 3 on the x-axis and trace up to the top of its bar. The bar aligns with 39 on the y-axis (Number of students). That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "Locate Activity 3 on the x-axis and trace up to the top of its bar. The bar aligns with 39 on the y-axis (Number of students). That matches choice B — <strong>B</strong> is correct."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice B is correct. The height of each bar in the bar graph given represents the number of students that voted for the activity specified at the bottom of the bar. The bar for activity $3$ has a height that is between $35$ and $40$. In other words, the number of students that chose activity $3$ is between $35$ students and $40$ students. Of the given choices, $39$ is the only value between $35$ and $40$. Therefore, $39$ students chose activity $3$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A is incorrect and may result from conceptual errors."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice C is incorrect. This is the number of students that chose activity $5$, not activity $3$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice D is incorrect and may result from conceptual errors."
     }
   ]
 }

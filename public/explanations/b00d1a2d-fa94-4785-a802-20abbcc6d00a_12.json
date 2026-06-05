@@ -2,16 +2,16 @@
   "qid": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_12",
   "steps": [
     {
-      "explanation": "Start with \\(10yz - 9xz = 10xy - z\\). Move \\(z\\) to the left by adding \\(z\\) to both sides: \\(10yz - 9xz + z = 10xy\\)."
+      "explanation": "Start with $10yz - 9xz = 10xy - z$. Move $z$ to the left by adding $z$ to both sides: $10yz - 9xz + z = 10xy$."
     },
     {
-      "explanation": "Factor \\(z\\) from the left side: \\(z(10y - 9x + 1) = 10xy\\)."
+      "explanation": "Factor $z$ from the left side: $z(10y - 9x + 1) = 10xy$."
     },
     {
-      "explanation": "Divide both sides by \\((10y - 9x + 1)\\): \\(z = \\dfrac{10xy}{10y - 9x + 1}\\)."
+      "explanation": "Divide both sides by $(10y - 9x + 1)$: $z = \\dfrac{10xy}{10y - 9x + 1}$."
     },
     {
-      "explanation": "<ul><li>A: \\(z = \\dfrac{10xy}{10y - 9x + 1}\\) — matches our result. That matches choice A — <strong>A</strong> is correct.</li><li>B: Missing the \\(+1\\) in the denominator from the \\(z\\) term that was moved over.</li><li>C: \\(-29xy\\) — does not follow from algebra.</li><li>D: \\(z = 9x\\) — does not follow from the equation.</li></ul>"
+      "explanation": "<ul><li>A: $z = \\dfrac{10xy}{10y - 9x + 1}$ — matches our result. That matches choice A — <strong>A</strong> is correct.</li><li>B: Missing the $+1$ in the denominator from the $z$ term that was moved over.</li><li>C: $-29xy$ — does not follow from algebra.</li><li>D: $z = 9x$ — does not follow from the equation.</li></ul>"
     }
   ],
   "correctAnswer": "A"

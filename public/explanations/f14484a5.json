@@ -1,1 +1,19 @@
-{"questionId": "f14484a5", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Assign quantities to each pan size", "content": "From the problem:<ul><li>9-inch pans: $n$ (the defined variable)</li><li>10-inch pans: $4n$ (four times the number of 9-inch pans)</li><li>7-inch pans: $10$ (given directly)</li></ul>"}, {"title": "Write the total equation", "content": "All three quantities must sum to 100:<br/>$$4n + n + 10 = 100$$<br/>Combine like terms:<br/>$$5n + 10 = 100$$"}, {"title": "Evaluate all choices", "content": "<ul><li><strong>A: $10(4n)+9n+7(10)=100$</strong> &mdash; This equation multiplies the pan quantities by the pan sizes (10, 9, 7 inches), which gives total inches rather than total count. The problem asks for a count equation. Eliminated.</li><li><strong>B: $10n+9n+7n=100$</strong> &mdash; This treats every pan size as $n$ pans, ignoring that 7-inch pans $= 10$ and 10-inch pans $= 4n$. Eliminated.</li><li><strong>C: $4n+10=100$</strong> &mdash; This omits the 9-inch pans ($n$). Eliminated.</li><li><strong>D: $5n+10=100$</strong> &mdash; This correctly combines $4n + n = 5n$ (10-inch plus 9-inch pans) and adds the 10 fixed 7-inch pans. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"}]}
+{
+  "questionId": "f14484a5",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Assign quantities to each pan size",
+      "content": "From the problem:<ul><li>9-inch pans: $n$ (the defined variable)</li><li>10-inch pans: $4n$ (four times the number of 9-inch pans)</li><li>7-inch pans: $10$ (given directly)</li></ul>"
+    },
+    {
+      "title": "Write the total equation",
+      "content": "All three quantities must sum to 100:<br/>$$4n + n + 10 = 100$$<br/>Combine like terms:<br/>$$5n + 10 = 100$$"
+    },
+    {
+      "title": "Evaluate all choices",
+      "content": "<ul><li><strong>A: $10(4n)+9n+7(10)=100$</strong> &mdash; This equation multiplies the pan quantities by the pan sizes (10, 9, 7 inches), which gives total inches rather than total count. The problem asks for a count equation. Eliminated.</li><li><strong>B: $10n+9n+7n=100$</strong> &mdash; This treats every pan size as $n$ pans, ignoring that 7-inch pans $= 10$ and 10-inch pans $= 4n$. Eliminated.</li><li><strong>C: $4n+10=100$</strong> &mdash; This omits the 9-inch pans ($n$). Eliminated.</li><li><strong>D: $5n+10=100$</strong> &mdash; This correctly combines $4n + n = 5n$ (10-inch plus 9-inch pans) and adds the 10 fixed 7-inch pans. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
+    }
+  ]
+}

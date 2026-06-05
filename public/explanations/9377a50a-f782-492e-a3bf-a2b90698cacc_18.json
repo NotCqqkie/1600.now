@@ -1,1 +1,22 @@
-{"questionId":"9377a50a-f782-492e-a3bf-a2b90698cacc_18","correctAnswer":"C","section":"Math","steps":[{"title":"Identify the boundary line","content":"From the graph, the boundary line passes through $(0,6)$ and $(1.5,0)$. Slope:$$m=\\frac{0-6}{1.5-0}=-4$$With y-intercept $6$, the boundary is $y=-4x+6$."},{"title":"Determine the inequality direction","content":"The shaded region lies above the line. Test a point clearly above, say $(0,8)$: is $8>-4(0)+6=6$? Yes. So the inequality is $y>-4x+6$."},{"title":"Eliminate the answer choices","content":"<ul><li>A) $y<-4x+6$: correct line but the shading is above, not below.</li><li>B) $y<6x-4$: slope $6$ and y-intercept $-4$ do not match the boundary.</li><li>C) $y>-4x+6$: correct line and correct direction (above).</li><li>D) $y>6x-4$: wrong slope and wrong y-intercept.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.","desmosExpressions":["y > -4x + 6"]}]}
+{
+  "questionId": "9377a50a-f782-492e-a3bf-a2b90698cacc_18",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the boundary line",
+      "content": "From the graph, the boundary line passes through $(0,6)$ and $(1.5,0)$. Slope:$$m=\\frac{0-6}{1.5-0}=-4$$With y-intercept $6$, the boundary is $y=-4x+6$."
+    },
+    {
+      "title": "Determine the inequality direction",
+      "content": "The shaded region lies above the line. Test a point clearly above, say $(0,8)$: is $8>-4(0)+6=6$? Yes. So the inequality is $y>-4x+6$."
+    },
+    {
+      "title": "Eliminate the answer choices",
+      "content": "<ul><li>A) $y<-4x+6$: correct line but the shading is above, not below.</li><li>B) $y<6x-4$: slope $6$ and y-intercept $-4$ do not match the boundary.</li><li>C) $y>-4x+6$: correct line and correct direction (above).</li><li>D) $y>6x-4$: wrong slope and wrong y-intercept.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "y > -4x + 6"
+      ]
+    }
+  ]
+}

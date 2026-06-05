@@ -1,1 +1,28 @@
-{"questionId": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_21", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Use the left side of the plot to find the horizontal asymptote", "content": "For $x \\le -2$ the points cluster around $y \\approx 19$–$20$, nearly flat — a horizontal asymptote near $y \\approx 20$. A model of the form $y = a(b)^x$ has asymptote $y=0$, so <strong>choice A is out</strong>. The remaining forms $y = a(b)^x + c$ have asymptote $y=c$."}, {"title": "Use the $y$-intercept to narrow down further", "content": "At $x=0$ the scatterplot shows a point near $y \\approx 25$. Each remaining choice's $y$-intercept is $a \\cdot 1 + c = a+c$:<ul><li>Choice B: $24+18 = 42$ — far too high.</li><li>Choice C: $1+23 = 24$ — close to 25.</li><li>Choice D: $6+18 = 24$ — close to 25.</li></ul><strong>Choice B is out.</strong>"}, {"title": "Compare growth at $x=3$ to break the tie", "content": "The plot shows points near $y \\approx 42$–$46$ at $x=3$.<br/>Choice C: $y = (1.55)^3 + 23 \\approx 3.72 + 23 \\approx 26.7$ — much too low.<br/>Choice D: $y = 6(1.55)^3 + 18 \\approx 6(3.72) + 18 \\approx 40.3$ — matches the data.<br/><br/>That matches choice D — <strong>D</strong> is correct.", "desmosExpressions": ["y = 6(1.55)^{x} + 18"]}]}
+{
+  "questionId": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_21",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the left side of the plot to find the horizontal asymptote",
+      "content": "Graph all four exponential answer choices on top of the scatterplot. The correct curve should flatten near the left-side data, pass near the point around $(0,25)$, and then rise to the right.",
+      "desmosExpressions": [
+        "y=24(1.55)^x",
+        "y=24(1.55)^x+18",
+        "y=(1.55)^x+23",
+        "y=6(1.55)^x+18"
+      ]
+    },
+    {
+      "title": "Use the $y$-intercept to narrow down further",
+      "content": "At $x=0$ the scatterplot shows a point near $y \\approx 25$. Each remaining choice's $y$-intercept is $a \\cdot 1 + c = a+c$:<ul><li>Choice B: $24+18 = 42$ — far too high.</li><li>Choice C: $1+23 = 24$ — close to 25.</li><li>Choice D: $6+18 = 24$ — close to 25.</li></ul><strong>Choice B is out.</strong>"
+    },
+    {
+      "title": "Compare growth at $x=3$ to break the tie",
+      "content": "The plot shows points near $y \\approx 42$–$46$ at $x=3$.<br/>Choice C: $y = (1.55)^3 + 23 \\approx 3.72 + 23 \\approx 26.7$ — much too low.<br/>Choice D: $y = 6(1.55)^3 + 18 \\approx 6(3.72) + 18 \\approx 40.3$ — matches the data.<br/><br/>That matches choice D — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "y=6(1.55)^x+18"
+      ]
+    }
+  ]
+}

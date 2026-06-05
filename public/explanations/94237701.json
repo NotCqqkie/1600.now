@@ -1,1 +1,20 @@
-{"questionId": "94237701", "correctAnswer": "1", "section": "Math", "steps": [{"title": "Determine medians for both groups", "content": "Group A has 9 players (odd count) → median is the 5th score. Group B has 11 players (odd count) → median is the 6th score. List scores in order for each group based on their frequency distributions.<br/><br/><strong>Group A scores (9 players):</strong> 2, 3, 4, 4, 5, 6, 6, 6, 9. The 5th score is 5.<br/><strong>Group B scores (11 players):</strong> 5, 5, 5, 5, 6, 6, 8, 8, 9, 10, 10. The 6th score is 6."}, {"title": "Calculate the difference", "content": "Subtract the median of Group A (5) from the median of Group B (6): $6 - 5 = 1$."}]}
+{
+  "questionId": "94237701",
+  "correctAnswer": "1",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Determine medians for both groups",
+      "content": "Group A has 9 players (odd count) → median is the 5th score. Group B has 11 players (odd count) → median is the 6th score. List scores in order for each group based on their frequency distributions.<br/><br/><strong>Group A scores (9 players):</strong> 2, 3, 4, 4, 5, 6, 6, 6, 9. The 5th score is 5.<br/><strong>Group B scores (11 players):</strong> 5, 5, 5, 5, 6, 6, 8, 8, 9, 10, 10. The 6th score is 6."
+    },
+    {
+      "title": "Calculate the difference",
+      "content": "Subtract the median of Group A from the median of Group B: $6-5=1$. If you do not want to sort by hand, expand each frequency table into a Desmos list and subtract the medians. The answer is <strong>1</strong>.",
+      "desmosExpressions": [
+        "A=[2,3,4,4,5,6,6,6,9]",
+        "B=[5,5,5,5,6,6,8,8,9,10,10]",
+        "median(B)-median(A)"
+      ]
+    }
+  ]
+}

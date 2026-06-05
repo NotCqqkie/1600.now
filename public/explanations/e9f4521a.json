@@ -10,6 +10,10 @@
     {
       "title": "Isolate p",
       "content": "Multiply both sides by 100:<br/>$$1300 = 25p$$<br/>Divide both sides by 25:<br/>$$p = \\frac{1300}{25} = 52$$"
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $52$. It's given that $13$ is $p\\%$ of $25$. It follows that $\\frac{13}{25}=\\frac{p}{100}$. Multiplying both sides of this equation by $100$ gives $52=p$. Therefore, the value of $p$ is $52$."
     }
   ]
 }

@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Read the point values from the equation coefficients",
-      "content": "The equation $80S + 90C = 1120$ tells us that each square token is worth 80 points (the coefficient of $S$) and each circle token is worth 90 points (the coefficient of $C$). The difference between them is $$90 - 80 = 10$$ points. That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "The equation $80S + 90C = 1120$ tells us that each square token is worth 80 points (the coefficient of $S$) and each circle token is worth 90 points (the coefficient of $C$). The difference between them is $$90 - 80 = 10$$ points. That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,16 @@
-{"questionId": "e4f2c33b-9282-40a7-810c-d633e5197f95_18", "correctAnswer": "31/5,6.2", "section": "Math", "steps": [{"title": "Identify the quadratic and its product of roots", "content": "The equation given in the problem is a quadratic in $x$ of the form $ax^2 + bx + c = 0$ where $a = \\frac{5}{9}$ and $c = 5k + 9$.<br/><br/>The problem states that the product of the two solutions equals 72.<br/><br/>By Vieta's formulas, the product of the roots of $ax^2 + bx + c = 0$ equals $\\frac{c}{a}$:", "formula": "$$\\text{Product of roots} = \\frac{c}{a} = \\frac{5k+9}{\\frac{5}{9}}$$"}, {"title": "Set up and solve for k", "content": "Set the product equal to 72:<br/>$$\\frac{5k+9}{\\frac{5}{9}} = 72$$<br/><br/>Multiply both sides by $\\frac{5}{9}$:<br/>$$5k + 9 = 72 \\cdot \\frac{5}{9} = 40$$<br/><br/>Subtract 9:<br/>$$5k = 31$$<br/><br/>Divide by 5:<br/>$$k = \\frac{31}{5} = 6.2$$<br/><br/>The answer is <strong>31/5</strong> (or equivalently <strong>6.2</strong>)."}]}
+{
+  "questionId": "e4f2c33b-9282-40a7-810c-d633e5197f95_18",
+  "correctAnswer": "31/5,6.2",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the quadratic and its product of roots",
+      "content": "The equation given in the problem is a quadratic in $x$ of the form $ax^2 + bx + c = 0$ where $a = \\frac{5}{9}$ and $c = 5k + 9$.<br/><br/>The problem states that the product of the two solutions equals 72.<br/><br/>By Vieta's formulas, the product of the roots of $ax^2 + bx + c = 0$ equals $\\frac{c}{a}$:",
+      "formula": "$$\\text{Product of roots} = \\frac{c}{a} = \\frac{5k+9}{\\frac{5}{9}}$$"
+    },
+    {
+      "title": "Set up and solve for k",
+      "content": "Set the product equal to 72:<br/>$$\\frac{5k+9}{\\frac{5}{9}} = 72$$<br/><br/>Multiply both sides by $\\frac{5}{9}$:<br/>$$5k + 9 = 72 \\cdot \\frac{5}{9} = 40$$<br/><br/>Subtract 9:<br/>$$5k = 31$$<br/><br/>Divide by 5:<br/>$$k = \\frac{31}{5} = 6.2$$<br/><br/>The answer is <strong>31/5</strong> (or equivalently <strong>6.2</strong>)."
+    }
+  ]
+}

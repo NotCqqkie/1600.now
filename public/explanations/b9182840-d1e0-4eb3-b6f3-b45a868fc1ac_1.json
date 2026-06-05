@@ -9,11 +9,11 @@
     },
     {
       "title": "Find the slope and write the equation",
-      "content": "Compute the slope:<br/>$$m = \\frac{350-0}{100-0} = \\frac{350}{100} = 3.5$$<br/>Since the line goes through the origin, the y\u2011intercept b = 0, so the equation is $$y = 3.5x$$."
+      "content": "Compute the slope:<br/>$$m = \\frac{350-0}{100-0} = \\frac{350}{100} = 3.5$$<br/>Since the line goes through the origin, the y‑intercept b = 0, so the equation is $$y = 3.5x$$."
     },
     {
       "title": "Evaluate at x = 50 rings",
-      "content": "Substitute x = 50 into the equation:<br/>$$y = 3.5 \\times 50 = 175$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "Substitute x = 50 into the equation:<br/>$$y = 3.5 \\times 50 = 175$$<br/>That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

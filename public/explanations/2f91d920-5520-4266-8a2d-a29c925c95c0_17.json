@@ -5,16 +5,16 @@
   "steps": [
     {
       "title": "Recognize complementary angles in the right triangle",
-      "content": "In right triangle RST, we're told that the sum of angles R and S equals 90\u00b0. This means R and S are <strong>complementary angles</strong> \u2014 together they make a right angle."
+      "content": "In right triangle RST, we're told that the sum of angles R and S equals 90°. This means R and S are <strong>complementary angles</strong> — together they make a right angle."
     },
     {
       "title": "Apply the cofunction identity",
-      "content": "Since $R + S = 90\u00b0$, we can write $S = 90\u00b0 - R$. Therefore:\n$$\\cos(S) = \\cos(90\u00b0 - R) = \\sin(R)$$",
-      "formula": "$$\\sin(\\theta) = \\cos(90\u00b0 - \\theta)$$"
+      "content": "Since $R + S = 90°$, we can write $S = 90° - R$. Therefore:\n$$\\cos(S) = \\cos(90° - R) = \\sin(R)$$",
+      "formula": "$$\\sin(\\theta) = \\cos(90° - \\theta)$$"
     },
     {
       "title": "Substitute the given value and identify the answer",
-      "content": "We're given that $\\sin(R) = \\frac{\\sqrt{17}}{13}$.\n<br/>By the cofunction identity from Step 2:\n$$\\cos(S) = \\sin(R) = \\frac{\\sqrt{17}}{13}$$\nThat matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "We're given that $\\sin(R) = \\frac{\\sqrt{17}}{13}$.\n<br/>By the cofunction identity from Step 2:\n$$\\cos(S) = \\sin(R) = \\frac{\\sqrt{17}}{13}$$\nThat matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

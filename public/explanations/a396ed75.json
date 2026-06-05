@@ -1,1 +1,18 @@
-{"qid":"a396ed75","correctAnswer":"D","steps":[{"explanation":"Identify the rate. Juan rides at 5.7 minutes per mile, meaning each mile takes 5.7 minutes. Total time = rate &times; number of miles."},{"explanation":"Write the function: \\(m(x) = 5.7 \\cdot x = 5.7x\\). This is a direct proportionality with slope 5.7."},{"explanation":"Check with \\(x = 1\\): \\(m(1) = 5.7(1) = 5.7\\) minutes for 1 mile &mdash; matches the given rate. Check \\(x = 2\\): \\(m(2) = 11.4\\) minutes for 2 miles, which is exactly double. Correct."},{"explanation":"<ul><li>Choice A: \\(m(x) = \\frac{x}{5.7}\\) &mdash; divides miles by minutes/mile, giving miles&sup2;/minute &mdash; wrong units and wrong operation. Eliminated.</li><li>Choice B: \\(m(x) = x + 5.7\\) &mdash; adds the rate as a constant; for \\(x = 2\\) gives 7.7, not 11.4. Incorrect. Eliminated.</li><li>Choice C: \\(m(x) = x - 5.7\\) &mdash; subtracts the rate; gives negative time for \\(x &lt; 5.7\\). Nonsensical. Eliminated.</li><li>Choice D: \\(m(x) = 5.7x\\) &mdash; multiplies rate by miles to get total minutes. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"}]}
+{
+  "qid": "a396ed75",
+  "correctAnswer": "D",
+  "steps": [
+    {
+      "explanation": "Identify the rate. Juan rides at 5.7 minutes per mile, meaning each mile takes 5.7 minutes. Total time = rate &times; number of miles."
+    },
+    {
+      "explanation": "Write the function: $m(x) = 5.7 \\cdot x = 5.7x$. This is a direct proportionality with slope 5.7."
+    },
+    {
+      "explanation": "Check with $x = 1$: $m(1) = 5.7(1) = 5.7$ minutes for 1 mile &mdash; matches the given rate. Check $x = 2$: $m(2) = 11.4$ minutes for 2 miles, which is exactly double. Correct."
+    },
+    {
+      "explanation": "<ul><li>Choice A: $m(x) = \\frac{x}{5.7}$ &mdash; divides miles by minutes/mile, giving miles&sup2;/minute &mdash; wrong units and wrong operation. Eliminated.</li><li>Choice B: $m(x) = x + 5.7$ &mdash; adds the rate as a constant; for $x = 2$ gives 7.7, not 11.4. Incorrect. Eliminated.</li><li>Choice C: $m(x) = x - 5.7$ &mdash; subtracts the rate; gives negative time for $x &lt; 5.7$. Nonsensical. Eliminated.</li><li>Choice D: $m(x) = 5.7x$ &mdash; multiplies rate by miles to get total minutes. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
+    }
+  ]
+}

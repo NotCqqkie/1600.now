@@ -1,1 +1,15 @@
-{"questionId":"555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_4","correctAnswer":"A","section":"Math","steps":[{"title":"Set up the dimensions","content":"Width is $w$ feet. The length is $31$ times the width, so length $=31w$ feet. Area $=$ length $\\times$ width gives $$y=(31w)(w).$$"},{"title":"Interpret the factor","content":"In $(31w)(w)$, the factor $w$ is the width, so $(31w)$ must be the length. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}
+{
+  "questionId": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_4",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the dimensions",
+      "content": "Width is $w$ feet. The length is $31$ times the width, so length $=31w$ feet. Area $=$ length $\\times$ width gives $$y=(31w)(w).$$"
+    },
+    {
+      "title": "Interpret the factor",
+      "content": "In $(31w)(w)$, the factor $w$ is the width, so $(31w)$ must be the length. That matches choice <strong>A</strong> — <strong>A</strong> is correct."
+    }
+  ]
+}

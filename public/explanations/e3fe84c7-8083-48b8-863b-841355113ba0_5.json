@@ -3,8 +3,23 @@
   "correctAnswer": "D",
   "section": "Math",
   "steps": [
-    "A 4% annual increase means each year's population is $100\\% + 4\\% = 104\\%$ of the prior year, so the multiplier is $1.04$.",
-    "Starting from 5,000 in 2008, after $x$ years the population is $p = 5{,}000 \\cdot (1.04)^x$.",
-    "<ul><li><strong>Choice A &mdash; '$p=0.96(5{,}000)^x$'</strong>: $0.96$ is a decay factor and $(5{,}000)^x$ is not a valid exponential growth form. &#10007;</li><li><strong>Choice B &mdash; '$p=1.04(5{,}000)^x$'</strong>: Has $5{,}000$ as the base raised to $x$, which grows absurdly fast; the initial value is wrong. &#10007;</li><li><strong>Choice C &mdash; '$p=5{,}000(0.96)^x$'</strong>: Uses $0.96$, a decay multiplier (4% decrease, not increase). &#10007;</li><li><strong>Choice D &mdash; '$p=5{,}000(1.04)^x$'</strong>: Initial population 5,000 multiplied by growth factor $1.04$ each year for $x$ years. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    {
+      "title": "Use a two-point exponential setup",
+      "content": "A $4\\%$ annual increase means one year after the starting point the population is $5000(1.04)=5200$. Enter $x_1=[0,1]$, $y_1=[5000,5200]$, and $y_1\\sim a b^{x_1}$ in Desmos.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[5000,5200]",
+        "y_1~a b^{x_1}",
+        "y=a b^x"
+      ]
+    },
+    {
+      "title": "Read the model",
+      "content": "Desmos gives $a=5000$ and $b=1.04$, so the model is $p=5000(1.04)^x$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "<ul><li><strong>Choice A</strong>: $0.96$ is a decay factor and $(5000)^x$ is not the right growth form. Eliminated.</li><li><strong>Choice B</strong>: uses $5000$ as the base raised to $x$, so the initial value is wrong. Eliminated.</li><li><strong>Choice C</strong>: uses $0.96$, a $4\\%$ decrease. Eliminated.</li><li><strong>Choice D</strong>: initial population $5000$ multiplied by growth factor $1.04$ each year. Correct.</li></ul>Choice <strong>D</strong> is correct."
+    }
   ]
 }

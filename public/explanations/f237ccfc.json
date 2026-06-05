@@ -1,1 +1,19 @@
-{"questionId": "f237ccfc", "correctAnswer": "32", "section": "Math", "steps": [{"title": "Use x = 1 substitution to find a + b + c directly", "content": "For any polynomial of the form $ax^2 + bx + c$, evaluating at $x = 1$ gives:<br/>$$a(1)^2 + b(1) + c = a + b + c$$<br/>Since we need $a + b + c$ for the sum of the two polynomials, evaluate each polynomial at $x = 1$ and add the results."}, {"title": "Evaluate both polynomials at x = 1", "content": "First polynomial: $-2x^2 + x + 31$ at $x = 1$<br/>$$-2(1)^2 + (1) + 31 = -2 + 1 + 31 = 30$$<br/>Second polynomial: $3x^2 + 7x - 8$ at $x = 1$<br/>$$3(1)^2 + 7(1) - 8 = 3 + 7 - 8 = 2$$"}, {"title": "Add the results", "content": "The sum of the polynomial values at $x = 1$ is:<br/>$$30 + 2 = 32$$<br/>Therefore, $a + b + c = 32$."}]}
+{
+  "questionId": "f237ccfc",
+  "correctAnswer": "32",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use x = 1 substitution to find a + b + c directly",
+      "content": "For any polynomial of the form $ax^2 + bx + c$, evaluating at $x = 1$ gives:<br/>$$a(1)^2 + b(1) + c = a + b + c$$<br/>Since we need $a + b + c$ for the sum of the two polynomials, evaluate each polynomial at $x = 1$ and add the results."
+    },
+    {
+      "title": "Evaluate both polynomials at x = 1",
+      "content": "First polynomial: $-2x^2 + x + 31$ at $x = 1$<br/>$$-2(1)^2 + (1) + 31 = -2 + 1 + 31 = 30$$<br/>Second polynomial: $3x^2 + 7x - 8$ at $x = 1$<br/>$$3(1)^2 + 7(1) - 8 = 3 + 7 - 8 = 2$$"
+    },
+    {
+      "title": "Add the results",
+      "content": "The sum of the polynomial values at $x = 1$ is:<br/>$$30 + 2 = 32$$<br/>Therefore, $a + b + c = 32$."
+    }
+  ]
+}

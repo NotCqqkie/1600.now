@@ -1,1 +1,28 @@
-{"questionId": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_4", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Find the slope from two graph points", "content": "From the graph, at x = 100 K, the volume is approximately 4.5 L. At x = 300 K, the volume is approximately 13.5 L.<br/><br/>Using the slope formula:<br/>$$m = \\frac{13.5 - 4.5}{300 - 100} = \\frac{9}{200}$$"}, {"title": "Write the equation and evaluate at x = 200 K", "content": "The relationship is linear and passes through the origin, so the equation is $y = \\frac{9}{200}x$.<br/><br/>At x = 200:<br/>$$y = \\frac{9}{200} \\cdot 200 = 9 \\text{ liters}$$<br/>This matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_4",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use two clear graph points",
+      "content": "The graph is linear. Two easy points to read are approximately $(100,4.5)$ and $(300,13.5)$. Enter those as a Desmos table and run a linear regression to get the model instead of doing all the slope algebra by hand.",
+      "desmosExpressions": [
+        "x_1=[100,300]",
+        "y_1=[4.5,13.5]",
+        "y_1~mx_1+b"
+      ]
+    },
+    {
+      "title": "Use the model at 200 kelvins",
+      "content": "The regression gives $m=\\frac{9}{200}$ and $b=0$, so the line is $y=\\frac{9}{200}x$. At $x=200$, $y=\\frac{9}{200}\\cdot 200=9$ liters.",
+      "desmosExpressions": [
+        "y=(9/200)x",
+        "(200,9)"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The estimated volume at $200$ kelvins is $9$ liters, which matches choice <strong>B</strong>."
+    }
+  ]
+}

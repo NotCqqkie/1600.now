@@ -148,7 +148,7 @@ export const resolveSatQuestionImages = (
       if (!src) return null;
       return {
         src,
-        alt: buildQuestionImageAlt(id, index, images.length),
+        alt: img.alt?.trim() || buildQuestionImageAlt(id, index, images.length),
       };
     })
     .filter((img): img is ResolvedSatImage => Boolean(img));

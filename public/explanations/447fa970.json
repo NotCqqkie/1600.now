@@ -10,6 +10,10 @@
     {
       "title": "Evaluate the expression",
       "content": "$$f(4) = 7(4) + 2 = 28 + 2 = 30$$"
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $30$. The value of $f\\left(x\\right)$ when $x=4$ can be found by substituting $4$ for $x$ in the given equation $f\\left(x\\right)=7x+2$. This yields $f\\left(4\\right)=7\\left(4\\right)+2$, or $f\\left(4\\right)=30$. Therefore, when $x=4$, the value of $f\\left(x\\right)$ is $30$."
     }
   ]
 }

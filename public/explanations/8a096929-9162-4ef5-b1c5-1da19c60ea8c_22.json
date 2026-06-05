@@ -1,1 +1,15 @@
-{"questionId":"8a096929-9162-4ef5-b1c5-1da19c60ea8c_22","correctAnswer":"-35/4,-8.75","section":"Math","steps":[{"title":"Factor to read off the roots","content":"<strong>Shortcut (Vieta's):</strong> Factor out $(x - k)$:<br/>$(x-k)^2 - (k-4a)(x-k) = (x-k)\\bigl[(x-k)-(k-4a)\\bigr] = (x-k)(x-2k+4a) = 0$<br/>The two roots are $x = k$ and $x = 2k - 4a$."},{"title":"Use sum of roots = 3k + 35","content":"Sum of roots: $k + (2k - 4a) = 3k - 4a$. Set equal to the given sum $3k + 35$:<br/>$3k - 4a = 3k + 35 \\Rightarrow -4a = 35 \\Rightarrow a = -\\dfrac{35}{4}$<br/>Equivalent decimal: $-8.75$. The answer is <strong>-35/4</strong>."}]}
+{
+  "questionId": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_22",
+  "correctAnswer": "-35/4,-8.75",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor to read off the roots",
+      "content": "<strong>Shortcut (Vieta's):</strong> Factor out $(x - k)$:<br/>$(x-k)^2 - (k-4a)(x-k) = (x-k)\\bigl[(x-k)-(k-4a)\\bigr] = (x-k)(x-2k+4a) = 0$<br/>The two roots are $x = k$ and $x = 2k - 4a$."
+    },
+    {
+      "title": "Use sum of roots = 3k + 35",
+      "content": "Sum of roots: $k + (2k - 4a) = 3k - 4a$. Set equal to the given sum $3k + 35$:<br/>$3k - 4a = 3k + 35 \\Rightarrow -4a = 35 \\Rightarrow a = -\\dfrac{35}{4}$<br/>Equivalent decimal: $-8.75$. The answer is <strong>-35/4</strong>."
+    }
+  ]
+}

@@ -1,1 +1,23 @@
-{"questionId": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_18", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Convert the first percentage", "content": "Particle A's speed is $6{,}000\\%$ of particle C's speed: $$a = \\frac{6000}{100} \\cdot c = 60c.$$"}, {"title": "Convert the second percentage", "content": "Particle C's speed is $0.008\\%$ of particle B's speed: $$c = \\frac{0.008}{100} \\cdot b = 0.00008\\,b.$$ Solving for $b$ gives $$b = \\frac{c}{0.00008} = 12{,}500\\,c.$$"}, {"title": "Add a and b", "content": "$$a + b = 60c + 12{,}500c = 12{,}560c.$$"}, {"title": "Evaluate each choice", "content": "<ul><li>A: $12{,}560c$ matches the derived sum. Keep.</li><li>B: $6{,}125c$ would require $b \\approx 6{,}065c$, far from $12{,}500c$. Eliminate.</li><li>C: $6{,}008c$ is roughly $a$ plus $\\frac{1}{2}b$ only; too small. Eliminate.</li><li>D: $1{,}850c$ is far below the actual sum. Eliminate.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_18",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert the first percentage",
+      "content": "Particle A's speed is $6{,}000\\%$ of particle C's speed: $$a = \\frac{6000}{100} \\cdot c = 60c.$$"
+    },
+    {
+      "title": "Convert the second percentage",
+      "content": "Particle C's speed is $0.008\\%$ of particle B's speed: $$c = \\frac{0.008}{100} \\cdot b = 0.00008\\,b.$$ Solving for $b$ gives $$b = \\frac{c}{0.00008} = 12{,}500\\,c.$$"
+    },
+    {
+      "title": "Add a and b",
+      "content": "$$a + b = 60c + 12{,}500c = 12{,}560c.$$"
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li>A: $12{,}560c$ matches the derived sum. Keep.</li><li>B: $6{,}125c$ would require $b \\approx 6{,}065c$, far from $12{,}500c$. Eliminate.</li><li>C: $6{,}008c$ is roughly $a$ plus $\\frac{1}{2}b$ only; too small. Eliminate.</li><li>D: $1{,}850c$ is far below the actual sum. Eliminate.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

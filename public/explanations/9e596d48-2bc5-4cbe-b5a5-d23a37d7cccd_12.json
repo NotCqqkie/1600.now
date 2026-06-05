@@ -4,17 +4,18 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the initial value from the table",
-      "content": "At $t = 0$, the amount is $n = 867.00$. This is the initial coefficient in exponential growth.<br/><strong>Initial value: $a = 867$</strong>",
-      "formula": "$$n = a(1 + r)^t$$"
+      "title": "Use Desmos to fit the exponential table",
+      "content": "Enter the table values as $x_1=[0,1,2]$ and $y_1=[867,870.47,873.95]$. Then type the exponential regression row $y_1 \\sim a b^{x_1}$. Desmos returns $a=867$ and $b\\approx 1.004$, so the graphable model is $y=867(1.004)^x$.",
+      "desmosExpressions": [
+        "x_1=[0,1,2]",
+        "y_1=[867,870.47,873.95]",
+        "y_1~a b^{x_1}",
+        "y=867(1.004)^x"
+      ]
     },
     {
-      "title": "Calculate the growth rate using consecutive data points",
-      "content": "The growth factor is the ratio between consecutive years. From $t = 0$ to $t = 1$:<br/>$$\\frac{870.47}{867} \\approx 1.004$$<br/>Since the growth factor equals $(1 + r)$, we have $1 + r = 1.004$, so $r = 0.004$."
-    },
-    {
-      "title": "Write the exponential equation",
-      "content": "With initial value $a = 867$ and rate $r = 0.004$, the equation is:<br/>$$n = 867(1 + 0.004)^t$$<br/>Verify at $t = 2$: $n = 867(1.004)^2 = 867 \\times 1.00800160 \\approx 873.95$ \u2713<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+      "title": "Match the model to the choices",
+      "content": "The question uses $t$ and $n$ instead of $x$ and $y$, so $y=867(1.004)^x$ becomes $n=867(1.004)^t$. Since $1.004=1+0.004$, this is $n=867(1+0.004)^t$. That matches choice B &mdash; <strong>B</strong> is correct."
     }
   ]
 }

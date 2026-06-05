@@ -1,10 +1,24 @@
 {
-  "qid": "5b7599a6",
+  "questionId": "5b7599a6",
   "correctAnswer": "C",
+  "section": "Math",
   "steps": [
-    "From the graph, read the intercepts: the line crosses the x-axis at (2, 0) and the y-axis at (0, 2).",
-    "Test choice C: 18x + Ry = 36. Substitute (0, 2): 18(0) + R(2) = 36 gives R = 18, which is positive as required.",
-    "Verify with (2, 0): 18(2) + 18(0) = 36. Both intercepts satisfy the equation with R = 18 > 0."
-  ],
-  "explanation": "<ul><li><strong>Choice A &mdash; '$Rx + 18y = 36$'</strong>: At (2, 0): 2R = 36 gives R = 18. At (0, 2): 18(2) = 36. This also works numerically, but the graph has coefficient 18 on the y-term, not the x-term, making C the better structural match for the given layout. &#10007;</li><li><strong>Choice B &mdash; '$Rx - 18y = -36$'</strong>: At (0, 2): -18(2) = -36 gives 0 = 0, so any R works at that point. At (2, 0): 2R = -36 gives R = -18, which is not positive. &#10007;</li><li><strong>Choice C &mdash; '$18x + Ry = 36$'</strong>: At (0, 2): R(2) = 36, so R = 18 (positive). At (2, 0): 18(2) = 36. Both points confirmed. &#10003;</li><li><strong>Choice D &mdash; '$18x - Ry = -36$'</strong>: At (2, 0): 18(2) = 36 &ne; -36. This fails at the x-intercept. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    {
+      "title": "Read the intercepts",
+      "content": "From the graph, the line crosses the $y$-axis at $(0,6)$ and the $x$-axis at $(2,0)$. These two intercepts are enough to avoid a long slope-intercept setup: the correct answer must pass through both points with a positive value of $R$."
+    },
+    {
+      "title": "Check choice C directly",
+      "content": "Use the $y$-intercept in choice C: $18x+Ry=36$. Substituting $(0,6)$ gives $6R=36$, so $R=6$, which is positive. With that value, choice C becomes $$18x+6y=36$$ This line also passes through $(2,0)$ because $18(2)+6(0)=36$.",
+      "desmosExpressions": [
+        "18x+6y=36",
+        "(0,6)",
+        "(2,0)"
+      ]
+    },
+    {
+      "title": "Rule out the other forms",
+      "content": "Choices A and B put the fixed coefficient $18$ on the $y$-term, so at $(0,6)$ they force $18(6)=36$, which is false. Choice D has the wrong sign: at the x-intercept it gives $18(2)-R(0)=-36$, or $36=-36$. Only choice <strong>C</strong> matches both intercepts."
+    }
+  ]
 }

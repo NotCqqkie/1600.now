@@ -13,7 +13,7 @@
     },
     {
       "title": "Calculate what percent of b is a",
-      "content": "With $a = 38.1186c$ and $b = 0.81c$:\n$$\\frac{a}{b} = \\frac{38.1186c}{0.81c} = \\frac{38.1186}{0.81} = 47.06$$\n\nAs a percentage: $47.06 \\times 100\\% = 4,706\\%$.\n\nThat matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "With $a = 38.1186c$ and $b = 0.81c$:\n$$\\frac{a}{b} = \\frac{38.1186c}{0.81c} = \\frac{38.1186}{0.81} = 47.06$$\n\nAs a percentage: $47.06 \\times 100\\% = 4,706\\%$.\n\nThat matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

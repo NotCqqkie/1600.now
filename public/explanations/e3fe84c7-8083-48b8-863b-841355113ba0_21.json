@@ -1,1 +1,20 @@
-{"questionId":"e3fe84c7-8083-48b8-863b-841355113ba0_21","correctAnswer":"A","section":"Math","steps":[{"title":"Identify what the question needs","content":"The roots are $x = 8$ and $x = -2$, so $f(x) = a(x-8)(x+2)$ for some integer $a > 1$. Expanding: $f(x) = ax^2 + a(2-8)x - 16a = ax^2 - 6ax - 16a$. This means $b = -6a$, so:<br/>$$a + b = a + (-6a) = -5a$$<br/>We need a value of $-5a$ where $a$ is an integer greater than 1."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;-10&apos;</strong>: $-5a = -10 \\implies a = 2$. Integer greater than 1. &#10003;</li><li><strong>Choice B &mdash; &apos;-5&apos;</strong>: $-5a = -5 \\implies a = 1$. Not greater than 1. &#10007;</li><li><strong>Choice C &mdash; &apos;6&apos;</strong>: $-5a = 6 \\implies a = -\\frac{6}{5}$. Not a positive integer. &#10007;</li><li><strong>Choice D &mdash; &apos;7&apos;</strong>: $-5a = 7 \\implies a = -\\frac{7}{5}$. Not a positive integer. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.", "desmosExpressions": ["y = a(x-8)(x+2)", "(8, 0)", "(-2, 0)"]}]}
+{
+  "questionId": "e3fe84c7-8083-48b8-863b-841355113ba0_21",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The roots are $x = 8$ and $x = -2$, so $f(x) = a(x-8)(x+2)$ for some integer $a > 1$. Expanding: $f(x) = ax^2 + a(2-8)x - 16a = ax^2 - 6ax - 16a$. This means $b = -6a$, so:<br/>$$a + b = a + (-6a) = -5a$$<br/>We need a value of $-5a$ where $a$ is an integer greater than 1."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &apos;-10&apos;</strong>: $-5a = -10 \\implies a = 2$. Integer greater than 1. &#10003;</li><li><strong>Choice B &mdash; &apos;-5&apos;</strong>: $-5a = -5 \\implies a = 1$. Not greater than 1. &#10007;</li><li><strong>Choice C &mdash; &apos;6&apos;</strong>: $-5a = 6 \\implies a = -\\frac{6}{5}$. Not a positive integer. &#10007;</li><li><strong>Choice D &mdash; &apos;7&apos;</strong>: $-5a = 7 \\implies a = -\\frac{7}{5}$. Not a positive integer. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y = a(x-8)(x+2)",
+        "(8, 0)",
+        "(-2, 0)"
+      ]
+    }
+  ]
+}

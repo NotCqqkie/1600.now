@@ -1,1 +1,19 @@
-{"questionId":"555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_5","correctAnswer":"D","section":"Math","steps":[{"title":"Find the greatest common factor","content":"The coefficients $11$, $-11$, and $77$ all share a factor of $11$. Every term contains at least one $x$. So the GCF is $11x$."},{"title":"Factor it out","content":"$11x^{10}=11x\\cdot x^{9}$, $\\ 11x^{9}=11x\\cdot x^{8}$, $\\ 77x=11x\\cdot 7$. Therefore $11x^{10}-11x^{9}+77x=11x(x^{9}-x^{8}+7)$."},{"title":"Eliminate each choice","content":"<ul><li>A) $x(10x^{10}-10x^{9}+76x)$ &mdash; expands to $10x^{11}-10x^{10}+76x^{2}$, wrong degrees. Eliminate.</li><li>B) $x(11^{10}-11^{9}+77)$ &mdash; constants only inside, gives a single $x$ term, not a polynomial of degree 10. Eliminate.</li><li>C) $11x(x^{10}-x^{9}+7x)$ &mdash; expands to $11x^{11}-11x^{10}+77x^{2}$, wrong degrees. Eliminate.</li><li>D) $11x(x^{9}-x^{8}+7)$ &mdash; expands to $11x^{10}-11x^{9}+77x$. Matches.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_5",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the greatest common factor",
+      "content": "The coefficients $11$, $-11$, and $77$ all share a factor of $11$. Every term contains at least one $x$. So the GCF is $11x$."
+    },
+    {
+      "title": "Factor it out",
+      "content": "$11x^{10}=11x\\cdot x^{9}$, $\\ 11x^{9}=11x\\cdot x^{8}$, $\\ 77x=11x\\cdot 7$. Therefore $11x^{10}-11x^{9}+77x=11x(x^{9}-x^{8}+7)$."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li>A) $x(10x^{10}-10x^{9}+76x)$ &mdash; expands to $10x^{11}-10x^{10}+76x^{2}$, wrong degrees. Eliminate.</li><li>B) $x(11^{10}-11^{9}+77)$ &mdash; constants only inside, gives a single $x$ term, not a polynomial of degree 10. Eliminate.</li><li>C) $11x(x^{10}-x^{9}+7x)$ &mdash; expands to $11x^{11}-11x^{10}+77x^{2}$, wrong degrees. Eliminate.</li><li>D) $11x(x^{9}-x^{8}+7)$ &mdash; expands to $11x^{10}-11x^{9}+77x$. Matches.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

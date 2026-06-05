@@ -1,1 +1,19 @@
-{"questionId":"39729166-8e92-42cc-8ed6-76acdb673a3c_9","correctAnswer":"A","section":"Math","steps":[{"title":"Set up the subtraction","content":"Substitute the expressions for $a$ and $b$ into $a - b$ and distribute the negative sign carefully:<br/>$$a - b = (3k + 5r) - (9k - 12r + 6)$$<br/>$$= 3k + 5r - 9k + 12r - 6$$"},{"title":"Combine like terms","content":"Group and combine:<br/>$k$ terms: $3k - 9k = -6k$<br/>$r$ terms: $5r + 12r = 17r$<br/>constant: $-6$<br/>So $a - b = -6k + 17r - 6$."},{"title":"Evaluate each choice","content":"<ul><li><strong>A) $-6k + 17r - 6$:</strong> Matches our simplified expression exactly.</li><li><strong>B) $-6k + 17r + 6$:</strong> Wrong sign on the constant; subtracting $+6$ gives $-6$, not $+6$.</li><li><strong>C) $-6k - 7r + 6$:</strong> Wrong $r$ coefficient ($5r - (-12r) = 17r$, not $-7r$) and wrong constant.</li><li><strong>D) $-6k - 7r - 6$:</strong> Wrong $r$ coefficient; sign of $-12r$ must flip to $+12r$.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "39729166-8e92-42cc-8ed6-76acdb673a3c_9",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the subtraction",
+      "content": "Substitute the expressions for $a$ and $b$ into $a - b$ and distribute the negative sign carefully:<br/>$$a - b = (3k + 5r) - (9k - 12r + 6)$$<br/>$$= 3k + 5r - 9k + 12r - 6$$"
+    },
+    {
+      "title": "Combine like terms",
+      "content": "Group and combine:<br/>$k$ terms: $3k - 9k = -6k$<br/>$r$ terms: $5r + 12r = 17r$<br/>constant: $-6$<br/>So $a - b = -6k + 17r - 6$."
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li><strong>A) $-6k + 17r - 6$:</strong> Matches our simplified expression exactly.</li><li><strong>B) $-6k + 17r + 6$:</strong> Wrong sign on the constant; subtracting $+6$ gives $-6$, not $+6$.</li><li><strong>C) $-6k - 7r + 6$:</strong> Wrong $r$ coefficient ($5r - (-12r) = 17r$, not $-7r$) and wrong constant.</li><li><strong>D) $-6k - 7r - 6$:</strong> Wrong $r$ coefficient; sign of $-12r$ must flip to $+12r$.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

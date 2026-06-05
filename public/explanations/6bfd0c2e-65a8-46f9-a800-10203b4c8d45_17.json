@@ -1,1 +1,19 @@
-{"questionId":"6bfd0c2e-65a8-46f9-a800-10203b4c8d45_17","correctAnswer":"18","section":"Math","steps":[{"title":"Set up","content":"Each tablet costs $170 with 7% tax: $170 \\times 1.07 = \\$181.90$ per tablet. The total for $n$ tablets must not exceed $3,400:<br/>$$181.90n \\leq 3400$$"},{"title":"Solve","content":"$$n \\leq \\frac{3400}{181.90} \\approx 18.69$$<br/>Round down to the nearest whole number: $n = 18$."},{"title":"Answer","content":"<strong>18</strong> is correct."}]}
+{
+  "questionId": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_17",
+  "correctAnswer": "18",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "Each tablet costs $170 with 7% tax: $170 \\times 1.07 = \\$181.90$ per tablet. The total for $n$ tablets must not exceed $3,400:<br/>$$181.90n \\leq 3400$$"
+    },
+    {
+      "title": "Solve",
+      "content": "$$n \\leq \\frac{3400}{181.90} \\approx 18.69$$<br/>Round down to the nearest whole number: $n = 18$."
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>18</strong> is correct."
+    }
+  ]
+}

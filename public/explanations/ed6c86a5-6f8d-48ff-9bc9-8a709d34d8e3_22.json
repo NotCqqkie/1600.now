@@ -1,1 +1,19 @@
-{"questionId":"ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_22","correctAnswer":"1/25,0.04","section":"Math","steps":[{"title":"Factor the quadratic to find its roots","content":"$125x^2 - (25a+5b)x + ab = 0$ factors as $(25x - b)(5x - a) = 0$, giving roots $x = b/25$ and $x = a/5$."},{"title":"Apply Vieta's sum shortcut","content":"Sum of roots $= -B/A = (25a+5b)/125 = (5a+b)/25$. Equivalently, $b/25 + a/5 = b/25 + 5a/25 = (b+5a)/25$."},{"title":"Read off k","content":"The sum equals $(1/25)(5a+b) = k(5a+b)$, so $k = 1/25 = 0.04$. That matches the answer $1/25$ — <strong>1/25</strong> is correct."}]}
+{
+  "questionId": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_22",
+  "correctAnswer": "1/25,0.04",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor the quadratic to find its roots",
+      "content": "$125x^2 - (25a+5b)x + ab = 0$ factors as $(25x - b)(5x - a) = 0$, giving roots $x = b/25$ and $x = a/5$."
+    },
+    {
+      "title": "Apply Vieta's sum shortcut",
+      "content": "Sum of roots $= -B/A = (25a+5b)/125 = (5a+b)/25$. Equivalently, $b/25 + a/5 = b/25 + 5a/25 = (b+5a)/25$."
+    },
+    {
+      "title": "Read off k",
+      "content": "The sum equals $(1/25)(5a+b) = k(5a+b)$, so $k = 1/25 = 0.04$. That matches the answer $1/25$ — <strong>1/25</strong> is correct."
+    }
+  ]
+}

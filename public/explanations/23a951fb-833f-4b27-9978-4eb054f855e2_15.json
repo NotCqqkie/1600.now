@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the sine ratio from angle Q",
-      "content": "From angle Q, side SR is opposite and QS is the hypotenuse. Using the sine ratio:<br/>$$\\sin Q = \\frac{\\text{opposite}}{\\text{hypotenuse}} = \\frac{22}{QS}$$<br/>Rearranging to solve for QS:<br/>$$QS = \\frac{22}{\\sin Q}$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "From angle Q, side SR is opposite and QS is the hypotenuse. Using the sine ratio:<br/>$$\\sin Q = \\frac{\\text{opposite}}{\\text{hypotenuse}} = \\frac{22}{QS}$$<br/>Rearranging to solve for QS:<br/>$$QS = \\frac{22}{\\sin Q}$$<br/>That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

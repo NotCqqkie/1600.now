@@ -227,7 +227,7 @@
     "section": "Math",
     "domain": "Algebra",
     "skill": "Systems of two linear equations in two variables",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "question_number": 10,
     "test_name": "May 2024 US Form B SAT Math Module 1",
     "passage": "At how many points do the graphs of the equations $y = x + 23$ and $y = 12x$ intersect in the $xy$-plane?",

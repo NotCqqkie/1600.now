@@ -1,10 +1,10 @@
 {
   "qid": "90bd9ef8",
   "steps": [
-    "Calculate the annual energy cost savings: \\(\\$4{,}334 - \\$2{,}712 = \\$1{,}622\\) per year.",
-    "After \\(t\\) years the total cumulative savings equals \\((4{,}334 - 2{,}712) \\times t\\).",
-    "The question asks when savings EXCEED (are strictly greater than) the \\$25,000 installation cost, so the inequality is \\((4{,}334 - 2{,}712) \\times t &gt; 25{,}000\\), equivalently \\(25{,}000 &lt; (4{,}334 - 2{,}712) \\times t\\).",
-    "Evaluate each answer choice:<ul><li>Choice A: \\(25{,}000 &gt; (4{,}334 - 2{,}712) \\times t\\) — this says the installation cost exceeds savings, the opposite of what is needed. Eliminated.</li><li>Choice B: \\(25{,}000 &lt; (4{,}334 - 2{,}712) \\times t\\) — states that cumulative savings exceed \\$25,000, which is exactly the condition required. That matches choice B — <strong>B</strong> is correct.</li><li>Choice C: \\(25{,}000 - 4{,}334 &gt; 2{,}712t\\) — incorrectly subtracts the old energy cost from the installation cost and uses only the new cost; this does not represent savings. Eliminated.</li><li>Choice D — the expression is malformed and does not represent a valid savings inequality. Eliminated.</li></ul>"
+    "Calculate the annual energy cost savings: $\\$4{,}334 - \\$2{,}712 = \\$1{,}622$ per year.",
+    "After $t$ years the total cumulative savings equals $(4{,}334 - 2{,}712) \\times t$.",
+    "The question asks when savings EXCEED (are strictly greater than) the \\$25,000 installation cost, so the inequality is $(4{,}334 - 2{,}712) \\times t &gt; 25{,}000$, equivalently $25{,}000 &lt; (4{,}334 - 2{,}712) \\times t$.",
+    "Evaluate each answer choice:<ul><li>Choice A: $25{,}000 &gt; (4{,}334 - 2{,}712) \\times t$ — this says the installation cost exceeds savings, the opposite of what is needed. Eliminated.</li><li>Choice B: $25{,}000 &lt; (4{,}334 - 2{,}712) \\times t$ — states that cumulative savings exceed \\$25,000, which is exactly the condition required. That matches choice B — <strong>B</strong> is correct.</li><li>Choice C: $25{,}000 - 4{,}334 &gt; 2{,}712t$ — incorrectly subtracts the old energy cost from the installation cost and uses only the new cost; this does not represent savings. Eliminated.</li><li>Choice D — the expression is malformed and does not represent a valid savings inequality. Eliminated.</li></ul>"
   ],
   "correctAnswer": "B"
 }

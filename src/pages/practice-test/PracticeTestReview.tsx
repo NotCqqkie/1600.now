@@ -28,7 +28,9 @@ import {
   savePracticeTestResult,
   tickPracticeTestActiveModule,
 } from "@/lib/practice/practiceTestSession";
+import { clearDesmosUiState } from "@/lib/practice/desmosSessionState";
 import { cn } from "@/lib/utils";
+import { useAuth } from "@/contexts/AuthContext";
 
 const formatClock = (seconds: number) => {
   const minutes = Math.floor(seconds / 60);
@@ -40,6 +42,8 @@ const PracticeTestReview = () => {
   const { setId } = useParams<{ setId: string }>();
   const [searchParams] = useSearchParams();
   const navigate = useNavigate();
+  const { user } = useAuth();
+  const uid = user?.id ?? null;
   const practiceSet = useMemo(() => (setId ? getPracticeSet(setId) : null), [setId]);
   const sessionId = searchParams.get("session");
   const [session, setSession] = useState(
@@ -71,7 +75,8 @@ const PracticeTestReview = () => {
         ...sessionToSubmit,
         status: "submitted",
       });
-      savePracticeTestResult(result);
+      clearDesmosUiState(sessionStorage, `practice-test:${sessionToSubmit.sessionId}`);
+      savePracticeTestResult(result, uid);
       clearPracticeTestSession(practiceSet.id);
       sessionStorage.removeItem("practiceSet");
       sessionStorage.removeItem("practiceExitTo");
@@ -82,12 +87,13 @@ const PracticeTestReview = () => {
     const nextSession = buildPracticeTestSessionAfterCurrentModuleSubmit(sessionToSubmit);
     if (!nextSession) return;
 
+    clearDesmosUiState(sessionStorage, `practice-test:${sessionToSubmit.sessionId}`);
     setSession(nextSession);
     savePracticeTestSession(nextSession);
     navigate(
       `/practice-tests/${practiceSet.id}/transition?session=${sessionToSubmit.sessionId}&kind=${sessionToSubmit.activeModuleIndex === 1 ? "break" : "module"}`,
     );
-  }, [navigate, practiceSet]);
+  }, [navigate, practiceSet, uid]);
 
   const handleSubmit = useCallback(() => {
     submitCurrentModule(session);

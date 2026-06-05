@@ -1,5 +1,5 @@
 import { useNavigate, useParams, useSearchParams } from "react-router-dom";
-import { useState, useMemo, useEffect } from "react";
+import { useCallback, useState, useMemo, useEffect } from "react";
 import {
   getQuestionsByDomain,
   getQuestionsBySkill,
@@ -28,6 +28,11 @@ import {
   CheckCircle2,
 } from "lucide-react";
 import { BankSourceToggle } from "@/components/question/BankSourceToggle";
+import { useAuth } from "@/contexts/AuthContext";
+import {
+  getQuestionAnswered,
+  isQuestionFlagged,
+} from "@/lib/practice/questionUiState";
 
 const BankFiltered = () => {
   const navigate = useNavigate();
@@ -40,6 +45,8 @@ const BankFiltered = () => {
 
   const [search, setSearch] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
+  const { user } = useAuth();
+  const uid = user?.id ?? null;
   const questionsPerPage = 50;
 
   const validSubject = subject === "math" || subject === "reading" ? subject : "math";
@@ -62,16 +69,16 @@ const BankFiltered = () => {
     }
   }, [validSubject, filterType, decodedFilter, bankSource]);
 
-  const getQuestionState = (q: BankQuestion) => {
+  const getQuestionState = useCallback((q: BankQuestion) => {
     const stableId = q.stableId;
-    const answered = localStorage.getItem(`${stableId}-answer`);
-    const flagged = localStorage.getItem(`${stableId}-flagged`) === "true";
-    return { answered: !!answered, flagged };
-  };
+    const answered = getQuestionAnswered(stableId, uid);
+    const flagged = isQuestionFlagged(stableId, uid);
+    return { answered, flagged };
+  }, [uid]);
 
   const answeredCount = useMemo(
     () => questions.filter((q) => getQuestionState(q).answered).length,
-    [questions]
+    [getQuestionState, questions]
   );
 
   const handleBankSourceChange = (nextSource: BankSourceFilter) => {
@@ -86,8 +93,10 @@ const BankFiltered = () => {
     return questions.filter(
       (q) =>
         q.prompt.toLowerCase().includes(lower) ||
-        q.testName.toLowerCase().includes(lower) ||
-        q.sourceId.toLowerCase().includes(lower)
+        q.passage?.toLowerCase().includes(lower) ||
+        q.questionText?.toLowerCase().includes(lower) ||
+        q.choices?.some((choice) => choice.text?.toLowerCase().includes(lower)) ||
+        q.correctAnswer?.toLowerCase().includes(lower)
     );
   }, [questions, search]);
 
@@ -110,6 +119,7 @@ const BankFiltered = () => {
             <Button
               variant="ghost"
               size="icon"
+              className="h-10 w-10 shrink-0"
               onClick={() => navigate(`${basePath}/${validSubject}/browse${bankQuerySuffix}`)}
             >
               <ArrowLeft className="h-5 w-5" />
@@ -218,8 +228,7 @@ const BankFiltered = () => {
                         <div className="flex-1 min-w-0">
                           <div className="flex items-center gap-2 mb-1">
                             <span className="text-xs font-medium text-muted-foreground line-clamp-1">
-                              {q.testName}
-                              {` \u2022 ${q.bankLabel} \u2022 ID ${q.sourceId}`}
+                              {q.category.skill}
                             </span>
                             {state.flagged && <Flag className="h-3 w-3 text-red-500 fill-red-500" />}
                           </div>

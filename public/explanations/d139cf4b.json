@@ -1,11 +1,14 @@
 {
   "qid": "d139cf4b",
   "steps": [
-    "\\(f(t) = 55t - 2t^2\\) is a downward-opening parabola with \\(a = -2\\), \\(b = 55\\). Its maximum occurs at \\(t^* = -\\frac{b}{2a} = \\frac{55}{4}\\).",
-    "Compute \\(f(t^*) = 55 \\cdot \\frac{55}{4} - 2 \\cdot \\left(\\frac{55}{4}\\right)^2 = \\frac{55^2}{4} - \\frac{2 \\cdot 55^2}{16} = \\frac{55^2}{4} - \\frac{55^2}{8} = \\frac{55^2}{8} = 2\\left(\\frac{55}{4}\\right)^2\\).",
-    "Since \\(g(t) = f(t) + 3\\), the maximum of \\(g\\) is \\(f(t^*) + 3 = 3 + 2\\left(\\frac{55}{4}\\right)^2\\)."
+    "$f(t) = 55t - 2t^2$ is a downward-opening parabola with $a = -2$, $b = 55$. Its maximum occurs at $t^* = -\\frac{b}{2a} = \\frac{55}{4}$.",
+    "Compute $f(t^*) = 55 \\cdot \\frac{55}{4} - 2 \\cdot \\left(\\frac{55}{4}\\right)^2 = \\frac{55^2}{4} - \\frac{2 \\cdot 55^2}{16} = \\frac{55^2}{4} - \\frac{55^2}{8} = \\frac{55^2}{8} = 2\\left(\\frac{55}{4}\\right)^2$.",
+    "Since $g(t) = f(t) + 3$, the maximum of $g$ is $f(t^*) + 3 = 3 + 2\\left(\\frac{55}{4}\\right)^2$."
   ],
-  "choiceEliminations": "<ul><li><strong>Choice A &mdash; '\\(3 + \\left(\\frac{55}{2}\\right)^2\\)'</strong>: This equals \\(3 + \\frac{55^2}{4}\\), which is twice the correct vertex value of \\(\\frac{55^2}{8}\\). &#10007;</li><li><strong>Choice B &mdash; '\\(3 + 2\\left(\\frac{55}{4}\\right)^2\\)'</strong>: Equals \\(3 + \\frac{55^2}{8}\\), which matches the computed maximum exactly. &#10003;</li><li><strong>Choice C &mdash; '\\(3 - 2\\left(\\frac{55}{4}\\right)^2\\)'</strong>: Subtracts the vertex value instead of adding it; gives a result well below zero. &#10007;</li><li><strong>Choice D &mdash; '\\(3 - \\left(\\frac{55}{2}\\right)^2\\)'</strong>: Subtracts the wrong (larger) quantity; gives a large negative number. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
+  "choiceEliminations": "<ul><li><strong>Choice A &mdash; '$3 + \\left(\\frac{55}{2}\\right)^2$'</strong>: This equals $3 + \\frac{55^2}{4}$, which is twice the correct vertex value of $\\frac{55^2}{8}$. &#10007;</li><li><strong>Choice B &mdash; '$3 + 2\\left(\\frac{55}{4}\\right)^2$'</strong>: Equals $3 + \\frac{55^2}{8}$, which matches the computed maximum exactly. &#10003;</li><li><strong>Choice C &mdash; '$3 - 2\\left(\\frac{55}{4}\\right)^2$'</strong>: Subtracts the vertex value instead of adding it; gives a result well below zero. &#10007;</li><li><strong>Choice D &mdash; '$3 - \\left(\\frac{55}{2}\\right)^2$'</strong>: Subtracts the wrong (larger) quantity; gives a large negative number. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
   "correctAnswer": "B",
-  "desmosExpressions": ["f(t)=55t-2t^{2}", "g(t)=f(t)+3"]
+  "desmosExpressions": [
+    "f(t)=55t-2t^{2}",
+    "g(t)=f(t)+3"
+  ]
 }

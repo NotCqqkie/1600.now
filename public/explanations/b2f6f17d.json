@@ -1,1 +1,16 @@
-{"questionId": "b2f6f17d", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Find the absolute increase in the bill", "content": "Subtract the original bill from the new bill:<br/>\\$79.86 - \\$75.74 = \\$4.12"}, {"title": "Calculate the percent increase and round", "formula": "$$\\text{Percent Increase} = \\frac{\\text{New Value} - \\text{Old Value}}{\\text{Old Value}} \\times 100\\%$$", "content": "$$\\frac{4.12}{75.74} \\times 100\\% \\approx 5.44\\%$$<br/>Rounding to the nearest tenth of a percent gives 5.4%. That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "b2f6f17d",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the absolute increase in the bill",
+      "content": "Subtract the original bill from the new bill:<br/>\\$79.86 - \\$75.74 = \\$4.12"
+    },
+    {
+      "title": "Calculate the percent increase and round",
+      "formula": "$$\\text{Percent Increase} = \\frac{\\text{New Value} - \\text{Old Value}}{\\text{Old Value}} \\times 100\\%$$",
+      "content": "$$\\frac{4.12}{75.74} \\times 100\\% \\approx 5.44\\%$$<br/>Rounding to the nearest tenth of a percent gives 5.4%. That matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

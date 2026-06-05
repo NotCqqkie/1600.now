@@ -1,1 +1,19 @@
-{"questionId": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_18", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Find the perimeter of square Q", "content": "Square P has side length $x$, so its perimeter is $4x$.<br/><br/>Square Q's perimeter is 32 inches greater than square P's perimeter:<br/>$$\\text{Perimeter of Q} = 4x + 32$$"}, {"title": "Determine the side length of square Q", "content": "The side length of square Q equals its perimeter divided by 4:<br/>$$\\text{Side of Q} = \\frac{4x + 32}{4} = \\frac{4(x + 8)}{4} = x + 8$$"}, {"title": "Express the area function", "content": "The area of square Q is the square of its side length:<br/>$$f(x) = (x + 8)^2$$<br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_18",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the perimeter of square Q",
+      "content": "Square P has side length $x$, so its perimeter is $4x$.<br/><br/>Square Q's perimeter is 32 inches greater than square P's perimeter:<br/>$$\\text{Perimeter of Q} = 4x + 32$$"
+    },
+    {
+      "title": "Determine the side length of square Q",
+      "content": "The side length of square Q equals its perimeter divided by 4:<br/>$$\\text{Side of Q} = \\frac{4x + 32}{4} = \\frac{4(x + 8)}{4} = x + 8$$"
+    },
+    {
+      "title": "Express the area function",
+      "content": "The area of square Q is the square of its side length:<br/>$$f(x) = (x + 8)^2$$<br/>That matches choice A — <strong>A</strong> is correct."
+    }
+  ]
+}

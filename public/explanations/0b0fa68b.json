@@ -1,1 +1,15 @@
-{"questionId": "0b0fa68b", "correctAnswer": ".0465", "section": "Math", "steps": [{"title": "Find f(2) using the functional equation", "content": "We are given that $f(cx) = x - 8$ for all values of $x$. To find $f(2)$, we need to determine what value of $x$ makes $cx = 2$. Solving for $x$: $x = \\frac{2}{c}$. Now substitute this into the functional equation:<br/>$$f(2) = f(cx) = x - 8 = \\frac{2}{c} - 8$$"}, {"title": "Solve for c using f(2) = 35", "content": "We are told that $f(2) = 35$. From the previous step, we have $f(2) = \\frac{2}{c} - 8$. Setting these equal:<br/>$$\\frac{2}{c} - 8 = 35$$<br/>Add 8 to both sides:<br/>$$\\frac{2}{c} = 43$$<br/>Multiply both sides by $c$ and divide by 43:<br/>$$c = \\frac{2}{43} \\approx 0.0465$$"}]}
+{
+  "questionId": "0b0fa68b",
+  "correctAnswer": ".0465",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find f(2) using the functional equation",
+      "content": "We are given that $f(cx) = x - 8$ for all values of $x$. To find $f(2)$, we need to determine what value of $x$ makes $cx = 2$. Solving for $x$: $x = \\frac{2}{c}$. Now substitute this into the functional equation:<br/>$$f(2) = f(cx) = x - 8 = \\frac{2}{c} - 8$$"
+    },
+    {
+      "title": "Solve for c using f(2) = 35",
+      "content": "We are told that $f(2) = 35$. From the previous step, we have $f(2) = \\frac{2}{c} - 8$. Setting these equal:<br/>$$\\frac{2}{c} - 8 = 35$$<br/>Add 8 to both sides:<br/>$$\\frac{2}{c} = 43$$<br/>Multiply both sides by $c$ and divide by 43:<br/>$$c = \\frac{2}{43} \\approx 0.0465$$"
+    }
+  ]
+}

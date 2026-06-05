@@ -1,1 +1,23 @@
-{"questionId": "e6cb2402", "correctAnswer": ".9411", "section": "Math", "steps": [{"title": "Expand and rearrange", "content": "Expand the left side: $$3(kx + 13) = 3kx + 39$$ <br/>The equation becomes: $$3kx + 39 = \\frac{48}{17}x + 36$$ <br/>Move all x-terms to one side: $$3kx - \\frac{48}{17}x = -3$$ $$\\left(3k - \\frac{48}{17}\\right)x = -3$$"}, {"title": "Apply the no-solution condition", "content": "A linear equation has no solution when the coefficient of $x$ is zero but the right side is non-zero—creating the impossible statement $0 = -3$. <br/><br/>Set the x-coefficient to zero: $$3k - \\frac{48}{17} = 0$$ $$3k = \\frac{48}{17}$$ $$k = \\frac{48}{51} = \\frac{16}{17}$$<br/>The answer is <strong>.9411</strong>."}]}
+{
+  "questionId": "e6cb2402",
+  "correctAnswer": ".9411",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use Desmos for the coefficient condition",
+      "content": "A no-solution linear equation needs matching $x$-coefficients and different constants. Enter $x_1=[1]$ in Desmos, then type $3kx_1\\sim\\frac{48}{17}x_1$. Desmos returns $k=\\frac{16}{17}$, which is about $0.9411$.",
+      "desmosExpressions": [
+        "x_1=[1]",
+        "3k x_1~(48/17)x_1"
+      ]
+    },
+    {
+      "title": "Confirm by expanding",
+      "content": "Expand the left side: $$3(kx+13)=3kx+39.$$ The equation is $$3kx+39=\\frac{48}{17}x+36.$$ For no solution, match the $x$-coefficients: $$3k=\\frac{48}{17}$$ $$k=\\frac{48}{51}=\\frac{16}{17}\\approx0.9411.$$"
+    },
+    {
+      "title": "Check the contradiction",
+      "content": "With $k=\\frac{16}{17}$, the $x$-terms match, but the constants are $39$ and $36$. After subtracting the matching $x$-terms, the equation becomes $39=36$, which is impossible. Therefore the equation has no solution, and the answer is <strong>.9411</strong>."
+    }
+  ]
+}

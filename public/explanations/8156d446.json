@@ -1,1 +1,25 @@
-{"questionId": "8156d446", "correctAnswer": "480", "section": "Math", "steps": [{"title": "Identify two clear points on the line of best fit", "content": "Looking at the line of best fit, I can identify two points it passes through: at temperature 28°C, the line is at 240 people, and at temperature 32°C, the line is at 480 people. These give us the points (28, 240) and (32, 480)."}, {"title": "Calculate the slope and line equation", "content": "The slope is:<br/>$$m = \\frac{480 - 240}{32 - 28} = \\frac{240}{4} = 60$$<br/>Using the point-slope form with (28, 240):<br/>$$y - 240 = 60(x - 28)$$<br/>$$y = 60x - 1680 + 240$$<br/>$$y = 60x - 1440$$"}, {"title": "Evaluate at x = 32 and round", "content": "Substituting $x = 32$ into the line equation:<br/>$$y = 60(32) - 1440 = 1920 - 1440 = 480$$<br/>Rounding 480 to the nearest 10 gives 480 people.<br/>The answer is <strong>480</strong>."}]}
+{
+  "questionId": "8156d446",
+  "correctAnswer": "480",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the model at 32 degrees",
+      "content": "The question asks for the prediction from the line of best fit at $x=32^\\circ\\text{C}$. The graph shows that point on the line at about $480$ visitors."
+    },
+    {
+      "title": "Use table regression as a check",
+      "content": "Two points on the line are approximately $(28,240)$ and $(32,480)$. Entering them in Desmos gives the same prediction at $x=32$.",
+      "desmosExpressions": [
+        "x_1=[28,32]",
+        "y_1=[240,480]",
+        "y_1~m x_1+b",
+        "m 32+b"
+      ]
+    },
+    {
+      "title": "Round as requested",
+      "content": "$480$ is already rounded to the nearest $10$, so the answer is $480$."
+    }
+  ]
+}

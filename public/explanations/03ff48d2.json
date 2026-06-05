@@ -1,1 +1,24 @@
-{"questionId": "03ff48d2", "correctAnswer": "50", "section": "Math", "steps": [{"title": "Set up the quadratic", "content": "Expand $x(kx - 56) = -16$: $kx^2 - 56x + 16 = 0$, so $a = k$, $b = -56$, $c = 16$."}, {"title": "Discriminant shortcut: no real solutions means $b^2 - 4ac &lt; 0$", "content": "$$(-56)^2 - 4(k)(16) &lt; 0$$$$3136 - 64k &lt; 0 \\implies k &gt; 49$$"}, {"title": "Pick the least integer", "content": "$k$ must be an integer greater than 49, so the least value is $k = 50$. That matches choice 50 — <strong>50</strong> is correct.", "desmosExpressions": ["y = k x^2 - 56x + 16", "k = 49"]}]}
+{
+  "questionId": "03ff48d2",
+  "correctAnswer": "50",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the quadratic",
+      "content": "Expand $x(kx - 56) = -16$: $kx^2 - 56x + 16 = 0$, so $a = k$, $b = -56$, $c = 16$."
+    },
+    {
+      "title": "Discriminant shortcut: no real solutions means $b^2 - 4ac &lt; 0$",
+      "content": "$$(-56)^2-4(k)(16)<0$$<br/>$$3136-64k<0$$<br/>$$k>49$$ Desmos can find the boundary value by setting the discriminant equal to $0$."
+    },
+    {
+      "title": "Pick the least integer",
+      "content": "$k$ must be an integer greater than $49$, so the least value is $k=50$. That matches choice 50, so <strong>50</strong> is correct.",
+      "desmosExpressions": [
+        "y_1=[0]",
+        "y_1~3136-64k",
+        "y = 50x^2 - 56x + 16"
+      ]
+    }
+  ]
+}

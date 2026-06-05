@@ -13,7 +13,7 @@
     },
     {
       "title": "Simplify to find the surface area",
-      "content": "Substitute into the formula:<br/>$$SA = 2\\left(28p + 48 + \\frac{28p}{3}\\right)$$<br/>$$SA = 56p + 96 + \\frac{56p}{3}$$<br/>Combine the $p$ terms: $56p = \\frac{168p}{3}$, so:<br/>$$SA = \\frac{168p}{3} + \\frac{56p}{3} + 96 = \\frac{224p}{3} + 96$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "Substitute into the formula:<br/>$$SA = 2\\left(28p + 48 + \\frac{28p}{3}\\right)$$<br/>$$SA = 56p + 96 + \\frac{56p}{3}$$<br/>Combine the $p$ terms: $56p = \\frac{168p}{3}$, so:<br/>$$SA = \\frac{168p}{3} + \\frac{56p}{3} + 96 = \\frac{224p}{3} + 96$$<br/>That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

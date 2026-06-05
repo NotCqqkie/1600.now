@@ -2,16 +2,16 @@
   "qid": "5e63b9cf",
   "steps": [
     {
-      "text": "The y-intercept of a graph is the point where \\(x = 0\\). Here, \\(x\\) is seconds after the marble started moving and \\(y\\) is the marble's height in inches. So the y-intercept is the height at the moment the marble started moving (\\(x = 0\\))."
+      "text": "The y-intercept of a graph is the point where $x = 0$. Here, $x$ is seconds after the marble started moving and $y$ is the marble's height in inches. So the y-intercept is the height at the moment the marble started moving ($x = 0$)."
     },
     {
-      "text": "Reading the graph at \\(x = 0\\): the height is \\(y = 8\\) inches. So the y-intercept is the point \\((0, 8)\\)."
+      "text": "Reading the graph at $x = 0$: the height is $y = 8$ inches. So the y-intercept is the point $(0, 8)$."
     },
     {
-      "text": "The correct interpretation must convey that the height was 8 inches at the start (when \\(x = 0\\)), not a minimum, and not at a later time."
+      "text": "The correct interpretation must convey that the height was 8 inches at the start (when $x = 0$), not a minimum, and not at a later time."
     },
     {
-      "text": "<ul><li>Choice A: &quot;The marble's height was 0 inches above the ground 8 seconds after it started moving.&quot; This describes an x-intercept, not the y-intercept, and swaps the values. Eliminated.</li><li>Choice B: &quot;The marble's height was 8 inches above the ground when it started moving.&quot; This correctly identifies the y-intercept: at \\(x = 0\\), \\(y = 8\\). That matches choice B &mdash; <strong>B</strong> is correct.</li><li>Choice C: &quot;The marble's minimum height was 0 inches above the ground.&quot; The y-intercept is not about minimum height. Eliminated.</li><li>Choice D: &quot;The marble's minimum height was 8 inches above the ground.&quot; The y-intercept describes the starting height, not the minimum. Eliminated.</li></ul>"
+      "text": "<ul><li>Choice A: &quot;The marble's height was 0 inches above the ground 8 seconds after it started moving.&quot; This describes an x-intercept, not the y-intercept, and swaps the values. Eliminated.</li><li>Choice B: &quot;The marble's height was 8 inches above the ground when it started moving.&quot; This correctly identifies the y-intercept: at $x = 0$, $y = 8$. That matches choice B &mdash; <strong>B</strong> is correct.</li><li>Choice C: &quot;The marble's minimum height was 0 inches above the ground.&quot; The y-intercept is not about minimum height. Eliminated.</li><li>Choice D: &quot;The marble's minimum height was 8 inches above the ground.&quot; The y-intercept describes the starting height, not the minimum. Eliminated.</li></ul>"
     }
   ],
   "correctAnswer": "B"

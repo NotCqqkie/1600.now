@@ -3,6 +3,11 @@ import {
   QuestionNavigatorSheet,
   type QuestionNavigatorItem,
 } from "@/components/question/QuestionNavigatorSheet";
+import { useAuth } from "@/contexts/AuthContext";
+import {
+  getQuestionStatus,
+  isQuestionFlagged,
+} from "@/lib/practice/questionUiState";
 
 interface BankNavigationSheetProps {
   currentQuestion: number;
@@ -15,15 +20,6 @@ interface BankNavigationSheetProps {
   headerActions?: ReactNode;
 }
 
-const getQuestionStatus = (storageId: string): string => {
-  const status = localStorage.getItem(`${storageId}-status`);
-  return status || "unanswered";
-};
-
-const isQuestionFlagged = (storageId: string): boolean => {
-  return localStorage.getItem(`${storageId}-flagged`) === "true";
-};
-
 export const BankNavigationSheet = ({
   currentQuestion,
   totalQuestions,
@@ -34,6 +30,8 @@ export const BankNavigationSheet = ({
   storagePrefix,
   headerActions,
 }: BankNavigationSheetProps) => {
+  const { user } = useAuth();
+  const uid = user?.id ?? null;
   const navigatorItems = useMemo<QuestionNavigatorItem[]>(
     () => {
       const sourceItems =
@@ -51,15 +49,15 @@ export const BankNavigationSheet = ({
         return {
           key: item.id,
           label: item.id,
-          status: storageId ? getQuestionStatus(storageId) : "unanswered",
-          isFlagged: storageId ? isQuestionFlagged(storageId) : false,
+          status: storageId ? getQuestionStatus(storageId, uid) : "unanswered",
+          isFlagged: storageId ? isQuestionFlagged(storageId, uid) : false,
           isCurrent: item.id === currentQuestion,
           onSelect: () => onJump(item.id),
           title: `Question ${index + 1}`,
         };
       });
     },
-    [currentQuestion, items, onJump, storagePrefix, totalQuestions]
+    [currentQuestion, items, onJump, storagePrefix, totalQuestions, uid]
   );
 
   return (

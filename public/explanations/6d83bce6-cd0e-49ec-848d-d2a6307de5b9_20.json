@@ -1,1 +1,26 @@
-{"questionId": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_20", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Use the zero at x = -9 to find a relationship", "content": "Since $f(x) = ax + b$ (linear), we have $g(x) = \\frac{ax + b}{x + 4}$. The table shows $g(-9) = 0$, which means the numerator equals zero: $f(-9) = 0$.<br/>$$a(-9) + b = 0$$<br/>$$b = 9a$$"}, {"title": "Use the value at x = -24 to solve for a and b", "content": "From the table, $g(-24) = 3$:<br/>$$g(-24) = \\frac{f(-24)}{-24 + 4} = \\frac{-24a + b}{-20} = 3$$<br/>This gives $-24a + b = -60$. Substitute $b = 9a$:<br/>$$-24a + 9a = -60$$<br/>$$-15a = -60$$<br/>$$a = 4$$<br/>Therefore $b = 9(4) = 36$."}, {"title": "Find the y-intercept", "content": "The function is $f(x) = 4x + 36$. At $x = 0$:<br/>$$f(0) = 4(0) + 36 = 36$$<br/>The y-intercept is $(0, 36)$. That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_20",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Turn the g table into an f table",
+      "content": "The table gives $g(x)$, but the question asks for the y-intercept of $y=f(x)$. Since $g(x)=\\dfrac{f(x)}{x+4}$, multiply each table output by $x+4$ to get $f(x)$:<ul><li>$f(-24)=3(-24+4)=-60$</li><li>$f(-9)=0(-9+4)=0$</li><li>$f(16)=5(16+4)=100$</li></ul>"
+    },
+    {
+      "title": "Use Desmos regression on the derived points",
+      "content": "Enter the derived $f$ points as $x_1=[-24,-9,16]$ and $y_1=[-60,0,100]$. Then type $y_1 \\sim m x_1+b$. Desmos returns $m=4$ and $b=36$, so $f(x)=4x+36$.",
+      "desmosExpressions": [
+        "x_1=[-24,-9,16]",
+        "y_1=[-60,0,100]",
+        "y_1~m x_1+b",
+        "y=4x+36",
+        "(0,36)"
+      ]
+    },
+    {
+      "title": "Find the y-intercept",
+      "content": "The y-intercept of $y=f(x)$ is where $x=0$. From $f(x)=4x+36$, the intercept is $(0,36)$. That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

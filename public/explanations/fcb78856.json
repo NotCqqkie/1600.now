@@ -1,1 +1,10 @@
-{"questionId": "fcb78856", "correctAnswer": "A", "section": "Math", "steps": ["Start with \\(b = 42cf\\). To solve for \\(c\\), divide both sides by \\(42f\\): \\(c = \\frac{b}{42f}\\).", "Both \\(42\\) and \\(f\\) are multiplied by \\(c\\) in the original equation, so both belong in the denominator when isolating \\(c\\).", "<ul><li><strong>A</strong> \\(c = \\frac{b}{42f}\\): divides \\(b\\) by \\(42f\\) ✓. That matches choice A — <strong>A</strong> is correct.</li><li><strong>B</strong> \\(c = \\frac{b - 42}{f}\\): subtracts 42 instead of dividing by it. Eliminated.</li><li><strong>C</strong> \\(c = 42bf\\): multiplies instead of divides. Eliminated.</li><li><strong>D</strong> \\(c = 42 - b - f\\): treats the equation as subtraction rather than multiplication. Eliminated.</li></ul>"]}
+{
+  "questionId": "fcb78856",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    "Start with $b = 42cf$. To solve for $c$, divide both sides by $42f$: $c = \\frac{b}{42f}$.",
+    "Both $42$ and $f$ are multiplied by $c$ in the original equation, so both belong in the denominator when isolating $c$.",
+    "<ul><li><strong>A</strong> $c = \\frac{b}{42f}$: divides $b$ by $42f$ ✓. That matches choice A — <strong>A</strong> is correct.</li><li><strong>B</strong> $c = \\frac{b - 42}{f}$: subtracts 42 instead of dividing by it. Eliminated.</li><li><strong>C</strong> $c = 42bf$: multiplies instead of divides. Eliminated.</li><li><strong>D</strong> $c = 42 - b - f$: treats the equation as subtraction rather than multiplication. Eliminated.</li></ul>"
+  ]
+}

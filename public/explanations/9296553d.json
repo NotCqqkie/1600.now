@@ -1,1 +1,24 @@
-{"questionId": "9296553d", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Identify the slope from the downward trend", "content": "The scatterplot shows a clear downward pattern: $y$ starts at $6$ when $x = 0$ and decreases to $1$ when $x = 5$.<br/><br/>Across $5$ units of $x$, $y$ drops by $5$, giving slope $-1$. Choices C and D have slope $6$ (positive), so they are eliminated."}, {"title": "Determine the y-intercept to distinguish A and B", "content": "Both A and B have slope $-1$, so check the $y$-intercept. The leftmost point in the scatterplot is $(0, 6)$, so the $y$-intercept is $6$.<br/><br/>Choice A: $y = -x + 6$ has $y$-intercept $6$. Choice B: $y = -x - 6$ has $y$-intercept $-6$ (wrong).<br/><br/>That matches choice A — <strong>A</strong> is correct.", "desmosExpressions": ["y = -x + 6", "(0, 6)", "(1, 5)", "(2, 4)", "(3, 3)", "(4, 2)", "(5, 1)"]}]}
+{
+  "questionId": "9296553d",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the slope from the downward trend",
+      "content": "The scatterplot shows a clear downward pattern: $y$ starts at $6$ when $x = 0$ and decreases to $1$ when $x = 5$.<br/><br/>Across $5$ units of $x$, $y$ drops by $5$, giving slope $-1$. Choices C and D have slope $6$ (positive), so they are eliminated."
+    },
+    {
+      "title": "Determine the y-intercept to distinguish A and B",
+      "content": "Both A and B have slope $-1$, so check the $y$-intercept. The leftmost point in the scatterplot is $(0, 6)$, so the $y$-intercept is $6$.<br/><br/>Choice A: $y = -x + 6$ has $y$-intercept $6$. Choice B: $y = -x - 6$ has $y$-intercept $-6$ (wrong).<br/><br/>That matches choice A — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y = -x + 6",
+        "(0, 6)",
+        "(1, 5)",
+        "(2, 4)",
+        "(3, 3)",
+        "(4, 2)",
+        "(5, 1)"
+      ]
+    }
+  ]
+}

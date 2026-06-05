@@ -1,1 +1,25 @@
-{"questionId": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_14", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Identify the rate from the table", "content": "The table gives time \\(t\\) (minutes) and distance \\(d\\) (miles). To find the constant of proportionality \\(k\\) in \\(t = kd\\), divide a time value by its corresponding distance value. Using \\(d = 0.18\\) miles and \\(t = 9\\) minutes: \\(k = \\frac{t}{d} = \\frac{9}{0.18} = 50\\)."}, {"title": "Write the linear equation", "content": "With \\(k = 50\\), the equation is \\(t = 50d\\). This means Adriana takes 50 minutes to travel each mile."}, {"title": "Evaluate all choices", "content": "<ul><li>A: \\(t = 50d\\) &mdash; Matches the computed rate of 50 min/mile. That matches choice A &mdash; <strong>A</strong> is correct.</li><li>B: \\(t = \\frac{1}{2}d\\) &mdash; At \\(d = 0.18\\): \\(t = 0.09\\) min, not 9 min. Eliminated.</li><li>C: \\(t = 2d\\) &mdash; At \\(d = 0.18\\): \\(t = 0.36\\) min, not 9 min. Eliminated.</li><li>D: \\(t = \\frac{1}{50}d\\) &mdash; At \\(d = 0.18\\): \\(t = 0.0036\\) min, not 9 min. Eliminated.</li></ul>"}]}
+{
+  "questionId": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_14",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use proportional regression in Desmos",
+      "content": "The choices all have the form $t=kd$, so this is a one-parameter proportional model. Enter distance as $x$ and time as $y$: $x_1=[0.18]$ and $y_1=[9]$. Then type $y_1 \\sim kx_1$. Desmos returns $k=50$, so the model is $t=50d$.",
+      "desmosExpressions": [
+        "x_1=[0.18]",
+        "y_1=[9]",
+        "y_1~k x_1",
+        "y=50x"
+      ]
+    },
+    {
+      "title": "Write the linear equation",
+      "content": "With $k = 50$, the equation is $t = 50d$. This means Adriana takes 50 minutes to travel each mile."
+    },
+    {
+      "title": "Evaluate all choices",
+      "content": "<ul><li>A: $t = 50d$ &mdash; Matches the computed rate of 50 min/mile. That matches choice A &mdash; <strong>A</strong> is correct.</li><li>B: $t = \\frac{1}{2}d$ &mdash; At $d = 0.18$: $t = 0.09$ min, not 9 min. Eliminated.</li><li>C: $t = 2d$ &mdash; At $d = 0.18$: $t = 0.36$ min, not 9 min. Eliminated.</li><li>D: $t = \\frac{1}{50}d$ &mdash; At $d = 0.18$: $t = 0.0036$ min, not 9 min. Eliminated.</li></ul>"
+    }
+  ]
+}

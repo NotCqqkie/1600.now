@@ -1,1 +1,24 @@
-{"questionId": "e103300e", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Translate Function Definition to Equation", "content": "The function is defined as $ f(x) = 4x + 19 $. The $ x $-intercept occurs when $ f(x) = 0 $, which corresponds to solving $ 0 = 4x + 19 $. This is a linear equation where $ x $ must be isolated directly.", "formula": "$$0 = 4x + 19$$"}, {"title": "Solve for the x-Intercept", "content": "Subtract 19 from both sides: $ -19 = 4x $. Divide by 4: $ x = -\\frac{19}{4} $. This value represents the point where the graph crosses the $ x $-axis (when $ y = 0 $).", "formula": "$$x = -\\frac{19}{4}$$"}, {"title": "Match to the Correct Interpreation", "content": "Choice A explicitly states $ x = -\\frac{19}{4} $ when $ f(x) = 0 $.<br/><br/>This matches the derived solution and directly describes the x-intercept.<br/><br/>Other choices refer to $ f(0) $ (y-intercept) or slope behavior, which are irrelevant to the x-intercept definition.<br/><br/>That matches choice A — <strong>A</strong> is correct.", "desmosExpressions": ["y=4x+19"]}]}
+{
+  "questionId": "e103300e",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate Function Definition to Equation",
+      "content": "The function is defined as $ f(x) = 4x + 19 $. The $ x $-intercept occurs when $ f(x) = 0 $, which corresponds to solving $ 0 = 4x + 19 $. This is a linear equation where $ x $ must be isolated directly.",
+      "formula": "$$0 = 4x + 19$$"
+    },
+    {
+      "title": "Solve for the x-Intercept",
+      "content": "Subtract 19 from both sides: $ -19 = 4x $. Divide by 4: $ x = -\\frac{19}{4} $. This value represents the point where the graph crosses the $ x $-axis (when $ y = 0 $).",
+      "formula": "$$x = -\\frac{19}{4}$$"
+    },
+    {
+      "title": "Match to the Correct Interpreation",
+      "content": "Choice A explicitly states $ x = -\\frac{19}{4} $ when $ f(x) = 0 $.<br/><br/>This matches the derived solution and directly describes the x-intercept.<br/><br/>Other choices refer to $ f(0) $ (y-intercept) or slope behavior, which are irrelevant to the x-intercept definition.<br/><br/>That matches choice A — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y=4x+19"
+      ]
+    }
+  ]
+}

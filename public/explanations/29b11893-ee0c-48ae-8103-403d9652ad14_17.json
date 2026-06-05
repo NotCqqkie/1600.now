@@ -9,7 +9,7 @@
     },
     {
       "title": "Calculate and convert to square meters",
-      "content": "Each square face has area $94^2$ cm\u00b2. The total is:<br/>$$5 \\times 94^2 = 5 \\times 8836 = 44,180 \\text{ cm}^2$$<br/>To convert to m\u00b2, divide by the conversion factor 1 m\u00b2 = 10,000 cm\u00b2:<br/>$$\\frac{44,180}{10,000} = 4.418 \\text{ m}^2$$"
+      "content": "Each square face has area $94^2$ cm². The total is:<br/>$$5 \\times 94^2 = 5 \\times 8836 = 44,180 \\text{ cm}^2$$<br/>To convert to m², divide by the conversion factor 1 m² = 10,000 cm²:<br/>$$\\frac{44,180}{10,000} = 4.418 \\text{ m}^2$$"
     }
   ]
 }

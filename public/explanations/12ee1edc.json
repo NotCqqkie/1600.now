@@ -9,7 +9,7 @@
     },
     {
       "title": "Solve for b",
-      "content": "<ul><li>Set coefficient to zero: $$b-2 = 0$$ \u2192 $$b = 2$$.</li><li>Check constant: $$8 \\neq 0$$ (true), so the equation has no solution when $$b = 2$$.</li><li>That matches choice A \u2014 <strong>A</strong> is correct.</li></ul>"
+      "content": "<ul><li>Set coefficient to zero: $$b-2 = 0$$ → $$b = 2$$.</li><li>Check constant: $$8 \\neq 0$$ (true), so the equation has no solution when $$b = 2$$.</li><li>That matches choice A — <strong>A</strong> is correct.</li></ul>"
     }
   ]
 }

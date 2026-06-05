@@ -1,1 +1,15 @@
-{"questionId": "d7afa874-519b-4f1b-b45f-1c75ea45613b_2", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Parse the equation structure", "content": "The equation $14,000 = 2,800 + 200t$ represents:<br/>Total price = Down payment + (Per-month amount × Number of months)<br/><br/>The problem states: \\$2,800 is the down payment, and $t$ is the number of fixed monthly payments. This means $200t$ is the total of all monthly payments."}, {"title": "Determine what 200 represents", "content": "If $200t$ equals the total monthly payments across $t$ months, then:<br/>$$\\text{Per-month payment} = \\frac{200t}{t} = 200$$<br/>So 200 is the fixed monthly payment. Comparing to the choices:<ul><li>Choice A: the down payment (\\$2,800)</li><li>Choice B: each fixed monthly payment (\\$200)</li><li>Choice C: total of all monthly payments ($200t$)</li><li>Choice D: the number of payments ($t$)</li></ul>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "d7afa874-519b-4f1b-b45f-1c75ea45613b_2",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Parse the equation structure",
+      "content": "The equation $14,000 = 2,800 + 200t$ represents:<br/>Total price = Down payment + (Per-month amount × Number of months)<br/><br/>The problem states: \\$2,800 is the down payment, and $t$ is the number of fixed monthly payments. This means $200t$ is the total of all monthly payments."
+    },
+    {
+      "title": "Determine what 200 represents",
+      "content": "If $200t$ equals the total monthly payments across $t$ months, then:<br/>$$\\text{Per-month payment} = \\frac{200t}{t} = 200$$<br/>So 200 is the fixed monthly payment. Comparing to the choices:<ul><li>Choice A: the down payment (\\$2,800)</li><li>Choice B: each fixed monthly payment (\\$200)</li><li>Choice C: total of all monthly payments ($200t$)</li><li>Choice D: the number of payments ($t$)</li></ul>That matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -4,12 +4,17 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Extract two points from the table",
-      "content": "From the table, we have the points $(0, n)$ and $(3, n + 14)$."
+      "title": "Remove the irrelevant vertical shift",
+      "content": "The table gives points such as $(0,n)$ and $(3,n+14)$. The unknown $n$ adds the same vertical shift to the line, but slope only depends on how much $y$ changes when $x$ changes. Set $n=0$ to make the table numeric: $(0,0)$ and $(3,14)$.",
+      "desmosExpressions": [
+        "x_1=[0,3]",
+        "y_1=[0,14]",
+        "y_1~m x_1+b"
+      ]
     },
     {
-      "title": "Calculate slope using the slope formula",
-      "content": "Slope is $$\\frac{\\Delta y}{\\Delta x} = \\frac{(n + 14) - n}{3 - 0} = \\frac{14}{3}$$. The constant $n$ cancels, leaving a clean ratio. That matches choice C \u2014 <strong>C</strong> is correct."
+      "title": "Read the slope",
+      "content": "Run $y_1 \\sim m x_1+b$ in Desmos. The regression gives $m=\\frac{14}{3}$, or about $4.667$. Algebraically this is $\\frac{(n+14)-n}{3-0}=\\frac{14}{3}$, so choice <strong>C</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,19 @@
-{"questionId":"555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_7","correctAnswer":"B","section":"Math","steps":[{"title":"Set up","content":"Room A, B, and C account for all visitors, so the probabilities sum to 1. Find $P(C)$: $$P(C) = 1 - 0.72 - 0.24 = 0.04$$"},{"title":"Solve","content":"Multiply by the total number of visitors to get the count in room C: $$0.04 × 225 = 9$$"},{"title":"Answer","content":"<strong>B</strong> is correct."}]}
+{
+  "questionId": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_7",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "Room A, B, and C account for all visitors, so the probabilities sum to 1. Find $P(C)$: $$P(C) = 1 - 0.72 - 0.24 = 0.04$$"
+    },
+    {
+      "title": "Solve",
+      "content": "Multiply by the total number of visitors to get the count in room C: $$0.04 × 225 = 9$$"
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>B</strong> is correct."
+    }
+  ]
+}

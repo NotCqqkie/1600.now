@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Calculate distance traveled at constant speed",
-      "content": "Bill first drove 22.0 miles, then drove at a constant speed of 70.0 miles per hour for 2 hours. Use the relationship distance = rate \u00d7 time to find the distance traveled during the second segment:<br/>$$\\text{Distance} = 70.0 \\text{ mph} \\times 2 \\text{ hours} = 140 \\text{ miles}$$"
+      "content": "Bill first drove 22.0 miles, then drove at a constant speed of 70.0 miles per hour for 2 hours. Use the relationship distance = rate × time to find the distance traveled during the second segment:<br/>$$\\text{Distance} = 70.0 \\text{ mph} \\times 2 \\text{ hours} = 140 \\text{ miles}$$"
     },
     {
       "title": "Add both segments to find total distance",

@@ -1,5 +1,22 @@
-{"questionId": "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_6", "correctAnswer": "B", "section": "Math", "steps": [
-  {"title": "Read the table", "content": "The five task times (in minutes) are: Task 1 = 8, Task 2 = 5, Task 3 = 12, Task 4 = 10, Task 5 = 10."},
-  {"title": "Compute the mean", "content": "$$\\frac{8 + 5 + 12 + 10 + 10}{5} = \\frac{45}{5} = 9 \\text{ minutes}$$"},
-  {"title": "Answer", "content": "<strong>B</strong> is correct."}
-]}
+{
+  "questionId": "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_6",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the table",
+      "content": "The five task times (in minutes) are: Task 1 = 8, Task 2 = 5, Task 3 = 12, Task 4 = 10, Task 5 = 10."
+    },
+    {
+      "title": "Compute the mean",
+      "content": "$$\\frac{8+5+12+10+10}{5}=\\frac{45}{5}=9$$ Desmos can compute the mean directly from the five table entries.",
+      "desmosExpressions": [
+        "mean([8,5,12,10,10])"
+      ]
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>B</strong> is correct."
+    }
+  ]
+}

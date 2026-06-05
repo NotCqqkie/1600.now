@@ -1,1 +1,19 @@
-{"questionId":"915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_3","correctAnswer":"A","section":"Math","steps":[{"title":"Translate the relationship","content":"Let $w$ be the width of the rectangle in feet. The length is $92$ times the width, so length $=92w$ feet."},{"title":"Confirm using the area formula","content":"Area of a rectangle is length times width: $y=(\\text{length})(\\text{width})=(92w)(w)$. Comparing this to the given $y=(92w)(w)$ confirms that the factor $w$ is the width and $92w$ is the length."},{"title":"Eliminate the choices","content":"<ul><li><strong>A)</strong> The length of the rectangle, in feet. This equals $92w$ by the relationship stated in the problem.</li><li><strong>B)</strong> The area of the rectangle, in square feet. The area is $y=(92w)(w)$, not $92w$ alone.</li><li><strong>C)</strong> The difference between the length and the width. That would be $92w-w=91w$, not $92w$.</li><li><strong>D)</strong> The width of the rectangle, in feet. The width is $w$, not $92w$. That matches choice A &mdash; <strong>A</strong> is correct.</li></ul>"}]}
+{
+  "questionId": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_3",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the relationship",
+      "content": "Let $w$ be the width of the rectangle in feet. The length is $92$ times the width, so length $=92w$ feet."
+    },
+    {
+      "title": "Confirm using the area formula",
+      "content": "Area of a rectangle is length times width: $y=(\\text{length})(\\text{width})=(92w)(w)$. Comparing this to the given $y=(92w)(w)$ confirms that the factor $w$ is the width and $92w$ is the length."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>A)</strong> The length of the rectangle, in feet. This equals $92w$ by the relationship stated in the problem.</li><li><strong>B)</strong> The area of the rectangle, in square feet. The area is $y=(92w)(w)$, not $92w$ alone.</li><li><strong>C)</strong> The difference between the length and the width. That would be $92w-w=91w$, not $92w$.</li><li><strong>D)</strong> The width of the rectangle, in feet. The width is $w$, not $92w$. That matches choice A &mdash; <strong>A</strong> is correct.</li></ul>"
+    }
+  ]
+}

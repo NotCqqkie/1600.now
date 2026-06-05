@@ -4,16 +4,21 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the slope from two points",
-      "content": "The graph passes through the points $(-2, 0)$ and $(0, -4)$. Using the slope formula:<br/>$$m = \\frac{-4 - 0}{0 - (-2)} = \\frac{-4}{2} = -2$$"
+      "title": "Read two points from the shown line",
+      "content": "The graph shown is $y=f(x)-11$. Two clean points on that line are $(-1,-2)$ and $(0,-4)$. The slope is:<br/>$$m=\\frac{-4-(-2)}{0-(-1)}=-2$$"
     },
     {
-      "title": "Write the equation for the line shown",
-      "content": "The line has slope $-2$ and y-intercept $-4$ (since it passes through $(0, -4)$). The equation of the line is:<br/>$$y = f(x) - 11 = -2x - 4$$"
+      "title": "Write the equation of the shown line",
+      "content": "The y-intercept is $-4$, so the graphed line is:<br/>$$y=-2x-4$$<br/>Because the graphed line is $y=f(x)-11$, that means:<br/>$$f(x)-11=-2x-4$$"
     },
     {
-      "title": "Add 11 to both sides to find f(x)",
-      "content": "$$f(x) = -2x - 4 + 11 = -2x + 7$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+      "title": "Solve for f(x)",
+      "content": "Add $11$ to both sides:<br/>$$f(x)=-2x+7$$<br/>That matches choice B, so <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "(-1,-2)",
+        "(0,-4)",
+        "y=-2x-4"
+      ]
     }
   ]
 }

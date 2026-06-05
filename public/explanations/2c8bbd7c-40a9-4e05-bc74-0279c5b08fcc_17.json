@@ -1,1 +1,19 @@
-{"questionId": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_17", "correctAnswer": "39", "section": "Math", "steps": [{"title": "Apply the Exterior Angle Theorem", "content": "When side QR is extended through R to point S, angle PRS becomes an exterior angle of triangle PQR. By the Exterior Angle Theorem, an exterior angle equals the sum of the two remote interior angles (the two angles not at the exterior angle's vertex).<br/><br/>The remote angles are P and Q:<br/>$$(x + y) = (3x + 5) + (2x + 9)$$<br/>$$x + y = 5x + 14$$<br/>$$y = 4x + 14$$"}, {"title": "Apply the Triangle Angle Sum", "content": "The three interior angles of triangle PQR must sum to 180°:<br/>$$(3x + 5) + (2x + 9) + (4y + 5) = 180$$<br/>$$5x + 4y + 19 = 180$$<br/>$$5x + 4y = 161$$"}, {"title": "Solve for x and y", "content": "Substitute $y = 4x + 14$ from step 1 into the equation from step 2:<br/>$$5x + 4(4x + 14) = 161$$<br/>$$5x + 16x + 56 = 161$$<br/>$$21x = 105$$<br/>$$x = 5$$<br/>Then $y = 4(5) + 14 = 34$, so $x + y = 5 + 34 = 39$."}]}
+{
+  "questionId": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_17",
+  "correctAnswer": "39",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the Exterior Angle Theorem",
+      "content": "When side QR is extended through R to point S, angle PRS becomes an exterior angle of triangle PQR. By the Exterior Angle Theorem, an exterior angle equals the sum of the two remote interior angles (the two angles not at the exterior angle's vertex).<br/><br/>The remote angles are P and Q:<br/>$$(x + y) = (3x + 5) + (2x + 9)$$<br/>$$x + y = 5x + 14$$<br/>$$y = 4x + 14$$"
+    },
+    {
+      "title": "Apply the Triangle Angle Sum",
+      "content": "The three interior angles of triangle PQR must sum to 180°:<br/>$$(3x + 5) + (2x + 9) + (4y + 5) = 180$$<br/>$$5x + 4y + 19 = 180$$<br/>$$5x + 4y = 161$$"
+    },
+    {
+      "title": "Solve for x and y",
+      "content": "Substitute $y = 4x + 14$ from step 1 into the equation from step 2:<br/>$$5x + 4(4x + 14) = 161$$<br/>$$5x + 16x + 56 = 161$$<br/>$$21x = 105$$<br/>$$x = 5$$<br/>Then $y = 4(5) + 14 = 34$, so $x + y = 5 + 34 = 39$."
+    }
+  ]
+}

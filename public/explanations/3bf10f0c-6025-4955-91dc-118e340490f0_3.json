@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the perpendicular lines rule to find the slope of line w",
-      "content": "When two lines are perpendicular, their slopes are negative reciprocals of each other. Since the slope of line $v$ is 7, the slope of line $w$ must be $-\\frac{1}{7}$. That matches choice D \u2014 <strong>D</strong> is correct.",
+      "content": "When two lines are perpendicular, their slopes are negative reciprocals of each other. Since the slope of line $v$ is 7, the slope of line $w$ must be $-\\frac{1}{7}$. That matches choice D — <strong>D</strong> is correct.",
       "formula": "$$m_{\\perp} = -\\frac{1}{m}$$"
     }
   ]

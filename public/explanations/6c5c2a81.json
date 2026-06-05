@@ -1,1 +1,25 @@
-{"questionId": "6c5c2a81", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Find the slope from the two points", "content": "For points $(7, 21)$ and $(9, 25)$:<br/>$$m = \\frac{25 - 21}{9 - 7} = \\frac{4}{2} = 2$$"}, {"title": "Solve for the y-intercept", "content": "Plug $m = 2$ and $(7, 21)$ into $h(x) = mx + b$:<br/>$$21 = 2(7) + b \\;\\Rightarrow\\; b = 7$$<br/>So $h(x) = 2x + 7$. Check $(9, 25)$: $2(9) + 7 = 25$ &check;."}, {"title": "Evaluate each answer choice", "content": "<ul><li><strong>A.</strong> $h(x) = \\frac{1}{2}x - \\frac{7}{2}$: slope is $\\tfrac{1}{2}$, not 2; eliminated.</li><li><strong>B.</strong> $h(x) = 2x + 7$: slope 2 and $h(7) = 21$, $h(9) = 25$; matches.</li><li><strong>C.</strong> $h(x) = 7x + 21$: $h(7) = 70$, not 21; eliminated.</li><li><strong>D.</strong> $h(x) = 9x + 25$: $h(7) = 88$, not 21; eliminated.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "6c5c2a81",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Run a two-point linear regression",
+      "content": "The values $h(7)=21$ and $h(9)=25$ are the points $(7,21)$ and $(9,25)$. Enter $x_1=[7,9]$, $y_1=[21,25]$, and $y_1\\sim mx_1+b$ in Desmos. It returns $m=2$ and $b=7$, so $h(x)=2x+7$.",
+      "desmosExpressions": [
+        "x_1=[7,9]",
+        "y_1=[21,25]",
+        "y_1~m x_1+b",
+        "y=m x+b"
+      ]
+    },
+    {
+      "title": "Verify with the original values",
+      "content": "By hand, the slope is $\\frac{25-21}{9-7}=2$. Then $21=2(7)+b$, so $b=7$. Check the second value: $2(9)+7=25$, so the model fits both given points."
+    },
+    {
+      "title": "Evaluate each answer choice",
+      "content": "<ul><li><strong>A.</strong> $h(x) = \\frac{1}{2}x - \\frac{7}{2}$: slope is $\\tfrac{1}{2}$, not 2; eliminated.</li><li><strong>B.</strong> $h(x) = 2x + 7$: slope 2 and $h(7) = 21$, $h(9) = 25$; matches.</li><li><strong>C.</strong> $h(x) = 7x + 21$: $h(7) = 70$, not 21; eliminated.</li><li><strong>D.</strong> $h(x) = 9x + 25$: $h(7) = 88$, not 21; eliminated.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

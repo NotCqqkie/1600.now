@@ -1,1 +1,15 @@
-{"questionId": "d7afa874-519b-4f1b-b45f-1c75ea45613b_14", "correctAnswer": "6", "section": "Math", "steps": [{"title": "Substitute the condition into the function definition", "content": "We're given $f(x) = 30x$ and need to find $x$ such that $f(x) = 180$. Substitute this condition into the function:<br/>$$30x = 180$$"}, {"title": "Solve for x", "content": "Divide both sides by 30 to isolate $x$:<br/>$$x = \\frac{180}{30} = 6$$"}]}
+{
+  "questionId": "d7afa874-519b-4f1b-b45f-1c75ea45613b_14",
+  "correctAnswer": "6",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the condition into the function definition",
+      "content": "We're given $f(x) = 30x$ and need to find $x$ such that $f(x) = 180$. Substitute this condition into the function:<br/>$$30x = 180$$"
+    },
+    {
+      "title": "Solve for x",
+      "content": "Divide both sides by 30 to isolate $x$:<br/>$$x = \\frac{180}{30} = 6$$"
+    }
+  ]
+}

@@ -1,1 +1,19 @@
-{"questionId":"29b11893-ee0c-48ae-8103-403d9652ad14_15","correctAnswer":"A","section":"Math","steps":[{"title":"Find the vertex x-coordinate","content":"For any quadratic $ax^2 + bx + c$, the vertex (minimum when $a > 0$) is at $x = -\\frac{b}{2a}$. For $p(x) = 2x^2 + 20x + 15$: $$x = -\\frac{20}{2(2)} = -\\frac{20}{4} = -5.$$"},{"title":"Evaluate p(−5) to get the minimum","content":"$$p(-5) = 2(25) + 20(-5) + 15 = 50 - 100 + 15 = -35.$$ Since $a = 2 > 0$ the parabola opens upward, confirming this is a minimum. That matches choice A — <strong>A</strong> is correct.","desmosExpressions":["y=2x^{2}+20x+15","(-5,-35)"]}]}
+{
+  "questionId": "29b11893-ee0c-48ae-8103-403d9652ad14_15",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the vertex x-coordinate",
+      "content": "For any quadratic $ax^2 + bx + c$, the vertex (minimum when $a > 0$) is at $x = -\\frac{b}{2a}$. For $p(x) = 2x^2 + 20x + 15$: $$x = -\\frac{20}{2(2)} = -\\frac{20}{4} = -5.$$"
+    },
+    {
+      "title": "Evaluate p(−5) to get the minimum",
+      "content": "$$p(-5) = 2(25) + 20(-5) + 15 = 50 - 100 + 15 = -35.$$ Since $a = 2 > 0$ the parabola opens upward, confirming this is a minimum. That matches choice A — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y=2x^{2}+20x+15",
+        "(-5,-35)"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,23 @@
-{"questionId": "7d68096f", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Identify the sampling method and its significance", "content": "The organizer selected 55 teams <strong>at random</strong> from all trivia teams in the tournament. Random selection from a population is the key principle that determines generalizability: a random sample is representative of the population it was drawn from."}, {"title": "Recognize what the table represents", "content": "The table displays results for only 40 of the 55 teams—specifically those that practiced at least 3 hours per week. This is a subset of the original random sample, but it remains part of that random sample."}, {"title": "Apply the generalization principle", "content": "Because the original 55 teams were randomly selected from the tournament, results based on any subset of those 55 teams can be generalized to the tournament population.<br/><br/>The random selection ensures the sample (and its subsets) are representative of the tournament, regardless of the restriction shown in the table."}, {"title": "Evaluate each choice", "content": "<div class=\"callout\"><strong>Choice A</strong>: Restricts to teams scoring 14+ points — the study's sampling method (random selection) wasn't designed to target only high-scoring teams.<br/><br/><strong>Choice B</strong>: Only includes the 55 teams, not the tournament — the sample of 55 came FROM the tournament, not the other way around.<br/><br/><strong>Choice C</strong>: Only the 40 teams in the table — this is too narrow; the table is a filtered view of the larger random sample.<br/><br/><strong>Choice D</strong>: All tournament teams — the original random selection of 55 teams from the tournament ensures results can be generalized to the entire tournament population. That matches choice D — <strong>D</strong> is correct.</div>"}]}
+{
+  "questionId": "7d68096f",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the sampling method and its significance",
+      "content": "The organizer selected 55 teams <strong>at random</strong> from all trivia teams in the tournament. Random selection from a population is the key principle that determines generalizability: a random sample is representative of the population it was drawn from."
+    },
+    {
+      "title": "Recognize what the table represents",
+      "content": "The table displays results for only 40 of the 55 teams—specifically those that practiced at least 3 hours per week. This is a subset of the original random sample, but it remains part of that random sample."
+    },
+    {
+      "title": "Apply the generalization principle",
+      "content": "Because the original 55 teams were randomly selected from the tournament, results based on any subset of those 55 teams can be generalized to the tournament population.<br/><br/>The random selection ensures the sample (and its subsets) are representative of the tournament, regardless of the restriction shown in the table."
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<div class=\"callout\"><strong>Choice A</strong>: Restricts to teams scoring 14+ points — the study's sampling method (random selection) wasn't designed to target only high-scoring teams.<br/><br/><strong>Choice B</strong>: Only includes the 55 teams, not the tournament — the sample of 55 came FROM the tournament, not the other way around.<br/><br/><strong>Choice C</strong>: Only the 40 teams in the table — this is too narrow; the table is a filtered view of the larger random sample.<br/><br/><strong>Choice D</strong>: All tournament teams — the original random selection of 55 teams from the tournament ensures results can be generalized to the entire tournament population. That matches choice D — <strong>D</strong> is correct.</div>"
+    }
+  ]
+}

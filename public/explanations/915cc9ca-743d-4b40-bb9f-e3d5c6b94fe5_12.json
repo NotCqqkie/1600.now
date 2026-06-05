@@ -1,1 +1,24 @@
-{"questionId":"915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_12","correctAnswer":"A","section":"Math","steps":[{"title":"Set up","content":"The boundary line passes through two readable points: $(0, -11)$ and $(-7, -10)$. Find the slope: $$m = \\frac{-10-(-11)}{-7-0} = \\frac{1}{-7} = -\\frac{1}{7}$$ With y-intercept $-11$, the line is $y = -\\frac{1}{7}x - 11$. Multiply through by 7: $7y = -x - 77$, so $x + 7y = -77$."},{"title":"Solve","content":"The shaded region is above the line, so the inequality is $x + 7y \\geq -77$. Matching to $rx + ty \\geq -77$: $r = 1$ and $t = 7$, giving $r + t = 1 + 7 = 8$."},{"title":"Answer","content":"<strong>A</strong> is correct."}]}
+{
+  "questionId": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_12",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "The boundary line passes through two readable points: $(0,-11)$ and $(-7,-10)$. Since the boundary has form $rx+ty=-77$, use a custom regression in Desmos: $x_1=[0,-7]$, $y_1=[-11,-10]$, and $r x_1+t y_1\\sim -77$.",
+      "desmosExpressions": [
+        "x_1=[0,-7]",
+        "y_1=[-11,-10]",
+        "r x_1+t y_1~-77"
+      ]
+    },
+    {
+      "title": "Solve",
+      "content": "Desmos gives $r=1$ and $t=7$, so the boundary is $x+7y=-77$. The shading is above the line, so the inequality is $x+7y\\ge -77$. Therefore $r+t=1+7=8$."
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>A</strong> is correct."
+    }
+  ]
+}

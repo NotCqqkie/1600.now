@@ -1,1 +1,22 @@
-{"questionId": "aa95fb33", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Recognize the vertical shift transformation", "content": "The equation $y = f(x) + 5$ represents a vertical translation of the original function. Adding 5 to $f(x)$ shifts every point on the graph upward by exactly 5 units. If a point $(x, y)$ lies on the original graph, then $(x, y+5)$ lies on the transformed graph."}, {"title": "Identify the horizontal asymptote transformation", "content": "From the given graph, the original function $f(x)$ approaches $y = 0$ as $x$ increases (the horizontal asymptote is at $y = 0$). When we add 5 to the function, this asymptote shifts upward by 5 units. The new horizontal asymptote is therefore $y = 0 + 5 = 5$."}, {"title": "Eliminate choices and verify", "content": "<strong>Check asymptote location:</strong><ul><li>Choice A: asymptote at $y = -5$ ✗</li><li>Choice B: asymptote at $y = 0$ ✗</li><li>Choice C: asymptote at $y = 0$ ✗</li><li>Choice D: asymptote at $y = 5$ ✓</li></ul><strong>Verify with a point:</strong> At $x = 3$, the original graph shows $f(3) \\approx 3$. After the transformation, $(3, 3+5) = (3, 8)$. Choice D lists the point $(3, 8)$, confirming our answer. That matches choice D — <strong>D</strong> is correct.", "desmosExpressions": ["y=5"]}]}
+{
+  "questionId": "aa95fb33",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the vertical shift transformation",
+      "content": "The equation $y = f(x) + 5$ represents a vertical translation of the original function. Adding 5 to $f(x)$ shifts every point on the graph upward by exactly 5 units. If a point $(x, y)$ lies on the original graph, then $(x, y+5)$ lies on the transformed graph."
+    },
+    {
+      "title": "Identify the horizontal asymptote transformation",
+      "content": "From the given graph, the original function $f(x)$ approaches $y = 0$ as $x$ increases (the horizontal asymptote is at $y = 0$). When we add 5 to the function, this asymptote shifts upward by 5 units. The new horizontal asymptote is therefore $y = 0 + 5 = 5$."
+    },
+    {
+      "title": "Eliminate choices and verify",
+      "content": "<strong>Check asymptote location:</strong><ul><li>Choice A: asymptote at $y = -5$ ✗</li><li>Choice B: asymptote at $y = 0$ ✗</li><li>Choice C: asymptote at $y = 0$ ✗</li><li>Choice D: asymptote at $y = 5$ ✓</li></ul><strong>Verify with a point:</strong> At $x = 3$, the original graph shows $f(3) \\approx 3$. After the transformation, $(3, 3+5) = (3, 8)$. Choice D lists the point $(3, 8)$, confirming our answer. That matches choice D — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "y=5"
+      ]
+    }
+  ]
+}

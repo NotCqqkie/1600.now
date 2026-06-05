@@ -1,1 +1,19 @@
-{"questionId":"ece00725","correctAnswer":"A","section":"Math","steps":[{"title":"Translate the first condition","content":"&quot;Connor has 4 times as many dollars as Maria&quot; means Connor's amount equals 4 times Maria's: \\(c = 4m\\)."},{"title":"Translate the second condition","content":"&quot;Together they have a total of $25.00&quot; means \\(c + m = 25\\)."},{"title":"Eliminate choices","content":"<ul><li><strong>Choice A &mdash; '\\(c=4m\\) and \\(c+m=25\\)'</strong>: Matches both translations exactly. &#10003;</li><li><strong>Choice B &mdash; '\\(m=4c\\) and \\(c+m=25\\)'</strong>: \\(m=4c\\) would mean Maria has 4 times Connor's amount, reversing the relationship. &#10007;</li><li><strong>Choice C &mdash; '\\(c=25m\\) and \\(c+m=4\\)'</strong>: Swaps the roles of 4 and 25; total would be $4, not $25. &#10007;</li><li><strong>Choice D &mdash; '\\(m=25c\\) and \\(c+m=4\\)'</strong>: Both equations are wrong — wrong multiplier and wrong total. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "ece00725",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the first condition",
+      "content": "&quot;Connor has 4 times as many dollars as Maria&quot; means Connor's amount equals 4 times Maria's: $c = 4m$."
+    },
+    {
+      "title": "Translate the second condition",
+      "content": "&quot;Together they have a total of $25.00&quot; means $c + m = 25$."
+    },
+    {
+      "title": "Eliminate choices",
+      "content": "<ul><li><strong>Choice A &mdash; '$c=4m$ and $c+m=25$'</strong>: Matches both translations exactly. &#10003;</li><li><strong>Choice B &mdash; '$m=4c$ and $c+m=25$'</strong>: $m=4c$ would mean Maria has 4 times Connor's amount, reversing the relationship. &#10007;</li><li><strong>Choice C &mdash; '$c=25m$ and $c+m=4$'</strong>: Swaps the roles of 4 and 25; total would be $4, not $25. &#10007;</li><li><strong>Choice D &mdash; '$m=25c$ and $c+m=4$'</strong>: Both equations are wrong — wrong multiplier and wrong total. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

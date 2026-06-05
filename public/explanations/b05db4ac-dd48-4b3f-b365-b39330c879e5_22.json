@@ -1,1 +1,22 @@
-{"questionId": "b05db4ac-dd48-4b3f-b365-b39330c879e5_22", "correctAnswer": "-19", "section": "Math", "steps": [{"title": "Clear fractions, get standard form", "content": "Multiply $\\dfrac{1}{cx} = \\dfrac{x}{76} + \\dfrac{1}{c}$ through by $76cx$: $76 = cx^2 + 76x$ → $cx^2 + 76x - 76 = 0$."}, {"title": "One solution → discriminant = 0", "content": "$b^2 - 4ac = 0$: $76^2 - 4(c)(-76) = 0$ → $5776 + 304c = 0$ → $c = -19$.", "desmosExpressions": ["5776+304c=0"]}, {"title": "Answer", "content": "That matches choice $c = -19$ — <strong>-19</strong> is correct."}]}
+{
+  "questionId": "b05db4ac-dd48-4b3f-b365-b39330c879e5_22",
+  "correctAnswer": "-19",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Clear fractions, get standard form",
+      "content": "Multiply $\\dfrac{1}{cx} = \\dfrac{x}{76} + \\dfrac{1}{c}$ through by $76cx$: $76 = cx^2 + 76x$ → $cx^2 + 76x - 76 = 0$."
+    },
+    {
+      "title": "One solution → discriminant = 0",
+      "content": "$b^2 - 4ac = 0$: $76^2 - 4(c)(-76) = 0$ → $5776 + 304c = 0$ → $c = -19$.",
+      "desmosExpressions": [
+        "5776+304c=0"
+      ]
+    },
+    {
+      "title": "Answer",
+      "content": "That matches choice $c = -19$ — <strong>-19</strong> is correct."
+    }
+  ]
+}

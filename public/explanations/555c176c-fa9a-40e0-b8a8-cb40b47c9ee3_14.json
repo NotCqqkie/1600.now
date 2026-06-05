@@ -1,1 +1,23 @@
-{"questionId": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_14", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Write vertex form using the given vertex $(1, 4)$", "content": "$$f(x) = a(x-1)^2 + 4$$"}, {"title": "Solve for $a$ using point $(2, 27)$", "content": "$$27 = a(2-1)^2 + 4 \\implies 27 = a + 4 \\implies a = 23$$<br/>So $f(x) = 23(x-1)^2 + 4$."}, {"title": "Compute $f(-2) - f(0)$", "content": "$$f(-2) = 23(-3)^2 + 4 = 207 + 4 = 211$$<br/>$$f(0) = 23(-1)^2 + 4 = 23 + 4 = 27$$<br/>$$f(-2) - f(0) = 211 - 27 = 184$$<br/>That matches choice C — <strong>C</strong> is correct.", "desmosExpressions": ["f(x) = 23(x-1)^2 + 4", "f(-2) - f(0)"]}]}
+{
+  "questionId": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_14",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write vertex form using the given vertex $(1, 4)$",
+      "content": "$$f(x) = a(x-1)^2 + 4$$"
+    },
+    {
+      "title": "Solve for $a$ using point $(2, 27)$",
+      "content": "$$27 = a(2-1)^2 + 4 \\implies 27 = a + 4 \\implies a = 23$$<br/>So $f(x) = 23(x-1)^2 + 4$."
+    },
+    {
+      "title": "Compute $f(-2) - f(0)$",
+      "content": "$$f(-2) = 23(-3)^2 + 4 = 207 + 4 = 211$$<br/>$$f(0) = 23(-1)^2 + 4 = 23 + 4 = 27$$<br/>$$f(-2) - f(0) = 211 - 27 = 184$$<br/>That matches choice C — <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "f(x) = 23(x-1)^2 + 4",
+        "f(-2) - f(0)"
+      ]
+    }
+  ]
+}

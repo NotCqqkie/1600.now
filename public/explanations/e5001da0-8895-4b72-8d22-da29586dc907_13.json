@@ -13,7 +13,7 @@
     },
     {
       "title": "Find the y-intercept using point-slope form",
-      "content": "Line $j$ has slope $\\frac{4}{5}$ and passes through $(19, 23)$:<br/>$$y - 23 = \\frac{4}{5}(x - 19)$$<br/>Set $x = 0$ to find the $y$-intercept:<br/>$$y - 23 = \\frac{4}{5}(0 - 19) = -\\frac{76}{5}$$<br/>$$y = 23 - \\frac{76}{5} = \\frac{115}{5} - \\frac{76}{5} = \\frac{39}{5}$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "Line $j$ has slope $\\frac{4}{5}$ and passes through $(19, 23)$:<br/>$$y - 23 = \\frac{4}{5}(x - 19)$$<br/>Set $x = 0$ to find the $y$-intercept:<br/>$$y - 23 = \\frac{4}{5}(0 - 19) = -\\frac{76}{5}$$<br/>$$y = 23 - \\frac{76}{5} = \\frac{115}{5} - \\frac{76}{5} = \\frac{39}{5}$$<br/>That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

@@ -15,13 +15,14 @@ Usage:
 from __future__ import annotations
 import argparse
 import json
+import os
 from pathlib import Path
 
 from .stages.questions import (
     QUESTION_EXTRACTION_PROMPT,
     QUESTION_EXTRACTION_SYSTEM,
 )
-from .utils.cli_client import ClaudeCLIClient, parse_json_response
+from .utils.cli_client import RateLimitedClient, parse_json_response
 
 
 def main():
@@ -30,7 +31,7 @@ def main():
     parser.add_argument("--section-id", required=True, help="e.g. rw_module2")
     parser.add_argument("--question-numbers", nargs="+", type=int, required=True,
                         help="Space-separated list of question numbers to recover")
-    parser.add_argument("--model", default="sonnet")
+    parser.add_argument("--model", default=os.environ.get("EXTRACTION_MODEL", "default"))
     args = parser.parse_args()
 
     work = Path(args.work_dir)
@@ -69,9 +70,8 @@ def main():
     page_metas = [p for p in metadata["pages"] if p["page_num"] in target_pages]
     image_paths = [p["image_path"] for p in page_metas]
 
-    # Call extractor on those pages only
-    client = ClaudeCLIClient(model=args.model, rpm=30)
-    print(f"Calling Claude on {len(image_paths)} pages...")
+    client = RateLimitedClient(model=args.model, rpm=30)
+    print(f"Processing {len(image_paths)} pages...")
     response = client.call_with_images(
         system=QUESTION_EXTRACTION_SYSTEM,
         text=QUESTION_EXTRACTION_PROMPT,

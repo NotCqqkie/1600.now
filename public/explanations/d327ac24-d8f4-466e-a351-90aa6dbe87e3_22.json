@@ -1,1 +1,15 @@
-{"questionId": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_22", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Identify the count for each part type", "content": "From the problem statement:<ul><li>9-inch parts: $n$ (the reference quantity)</li><li>8-inch parts: $4n$ (4 times the 9-inch count)</li><li>3-inch parts: $30$ (fixed)</li></ul>"}, {"title": "Build and simplify the total equation", "content": "The machine makes 100 parts total, so:<br/>$$4n + n + 30 = 100$$<br/>Combine like terms: $4n + n = 5n$:<br/>$$5n + 30 = 100$$<br/>This matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_22",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the count for each part type",
+      "content": "From the problem statement:<ul><li>9-inch parts: $n$ (the reference quantity)</li><li>8-inch parts: $4n$ (4 times the 9-inch count)</li><li>3-inch parts: $30$ (fixed)</li></ul>"
+    },
+    {
+      "title": "Build and simplify the total equation",
+      "content": "The machine makes 100 parts total, so:<br/>$$4n + n + 30 = 100$$<br/>Combine like terms: $4n + n = 5n$:<br/>$$5n + 30 = 100$$<br/>This matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

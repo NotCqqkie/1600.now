@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the ratio to the change in width",
-      "content": "The width increases by 7 units. Call the length increase $\\Delta L$. For the ratio to remain 7:2, the changes must satisfy:<br/>$$\\frac{\\Delta L}{\\Delta W} = \\frac{7}{2}$$<br/>Substitute $\\Delta W = 7$:<br/>$$\\frac{\\Delta L}{7} = \\frac{7}{2}$$<br/>$$\\Delta L = 7 \\cdot \\frac{7}{2} = \\frac{49}{2} = 24.5$$<br/>Since $\\Delta L = 24.5 > 0$, the length must increase by 24.5 units. That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "The width increases by 7 units. Call the length increase $\\Delta L$. For the ratio to remain 7:2, the changes must satisfy:<br/>$$\\frac{\\Delta L}{\\Delta W} = \\frac{7}{2}$$<br/>Substitute $\\Delta W = 7$:<br/>$$\\frac{\\Delta L}{7} = \\frac{7}{2}$$<br/>$$\\Delta L = 7 \\cdot \\frac{7}{2} = \\frac{49}{2} = 24.5$$<br/>Since $\\Delta L = 24.5 > 0$, the length must increase by 24.5 units. That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

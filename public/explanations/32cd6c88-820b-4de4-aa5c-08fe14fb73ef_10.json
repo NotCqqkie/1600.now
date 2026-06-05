@@ -1,1 +1,24 @@
-{"questionId": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_10", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Read two clear points off the line of best fit", "content": "Identify two grid-aligned points the line passes through. The y-intercept is at approximately (0, 10). Tracing rightward, the line reaches approximately (12, 0). These two points will give the slope."}, {"title": "Apply the slope formula", "content": "$$m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{0 - 10}{12 - 0} = \\frac{-10}{12} \\approx -0.83$$<br/>The slope is negative (the line descends from left to right) and its magnitude is approximately 0.83&ndash;0.84."}, {"title": "Match the computed slope to the choices", "content": "Evaluate each answer against the computed value of &minus;0.75:<ul><li><strong>Choice A &mdash; '-11.19'</strong>: A slope of &minus;11.19 would be extremely steep &mdash; the line would drop 11 units for every 1-unit increase in x. The plotted line is nowhere near that steep. &#10007;</li><li><strong>Choice B &mdash; '-0.84'</strong>: Closest to our computed &minus;0.75. The small discrepancy is due to reading exact pixel coordinates; &minus;0.84 is the nearest listed value. &#10003;</li><li><strong>Choice C &mdash; '0.84'</strong>: Positive, but the line clearly falls from left to right, so the slope must be negative. &#10007;</li><li><strong>Choice D &mdash; '11.19'</strong>: Positive and far too large in magnitude. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_10",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use two points on the fit line",
+      "content": "The line of best fit falls from left to right, so the slope must be negative. Two readable points on the line are approximately $(0,10)$ and $(12,0)$.",
+      "desmosExpressions": [
+        "x_1=[0,12]",
+        "y_1=[10,0]",
+        "y_1~m x_1+b"
+      ]
+    },
+    {
+      "title": "Calculate the slope",
+      "content": "$$m=\\frac{0-10}{12-0}=\\frac{-10}{12}\\approx -0.83$$"
+    },
+    {
+      "title": "Match the choices",
+      "content": "The closest listed value is $-0.84$. The positive $0.84$ has the wrong sign, and $\\pm 11.19$ are far too steep for the drawn line. Choice <strong>B</strong> is correct."
+    }
+  ]
+}

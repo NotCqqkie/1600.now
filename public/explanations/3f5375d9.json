@@ -1,1 +1,31 @@
-{"questionId": "3f5375d9", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Read two points from the graph", "content": "The line passes through $$(0,5)$$ and $$(5,15)$$."}, {"title": "Backsolving — testing choice B (\\$2.60)", "content": "Assume the cost per additional mile is \\$2.60. Using the base fare of \\$5 from the y‑intercept, the predicted cost after 5 miles is $$5 + 2.60 \\times 5 = 5 + 13 = 18$$ dollars. The actual cost from the graph at 5 miles is \\$15, so this assumption fails."}, {"title": "Backsolving — testing choice A (\\$2.00)", "content": "Assume the cost per additional mile is \\$2.00. Predicted cost after 5 miles: $$5 + 2.00 \\times 5 = 5 + 10 = 15$$ dollars, which exactly matches the graph’s value of \\$15 at 5 miles. That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "3f5375d9",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use slope for additional cost",
+      "content": "The cost for each additional mile is the slope of the line: how much the total cost increases when $x$ increases by $1$ mile. Do not use the total cost of one ride as the per-mile cost."
+    },
+    {
+      "title": "Read two clear points",
+      "content": "The graph shows the line passing through $(1,5)$ and $(2,7)$. Entering those two points in Desmos and running a linear regression gives the slope directly.",
+      "desmosExpressions": [
+        "x_1=[1,2]",
+        "y_1=[5,7]",
+        "y_1~m x_1+b"
+      ]
+    },
+    {
+      "title": "Compute the slope",
+      "content": "$$m=\\frac{7-5}{2-1}=2$$ So the cab ride cost increases by $2.00$ for each additional mile.",
+      "desmosExpressions": [
+        "y=2x+3"
+      ]
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "The additional-mile cost is $2.00$, which matches choice <strong>A</strong>. Choice C is the flat fee, and choice D is the total cost for a $1$-mile ride, not the per-mile increase."
+    }
+  ]
+}

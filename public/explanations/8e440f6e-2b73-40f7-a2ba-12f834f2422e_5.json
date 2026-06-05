@@ -1,1 +1,31 @@
-{"qid":"8e440f6e-2b73-40f7-a2ba-12f834f2422e_5","correctAnswer":"D","steps":["Each kilogram of soil contains 600 mg of phosphorus, so a sample of \\(x\\) kilograms contains \\(600x\\) milligrams total.","The problem states the total is 1,200 mg, giving the equation \\(600x = 1{,}200\\).","Solving: \\(x = 2\\) kg, which is a sensible positive mass."],"choices":[{"id":"A","text":"\\(x + 600 = 1{,}200\\)","explanation":"<ul><li>This adds \\(x\\) (kg) to 600 (mg/kg), mixing incompatible quantities without multiplication.</li><li>It would give \\(x = 600\\), ignoring the per-kilogram rate entirely.</li><li>Eliminated because the rate relationship requires multiplication, not addition.</li></ul>"},{"id":"B","text":"\\(1{,}200x = 600\\)","explanation":"<ul><li>This treats 1,200 as the rate and 600 as the total, reversing the given information.</li><li>It yields \\(x = 0.5\\) kg, but substituting back: \\(600 \\times 0.5 = 300\\) mg, not 1,200 mg.</li><li>Eliminated because the rate and total are swapped.</li></ul>"},{"id":"C","text":"\\(x + 1{,}200 = 600\\)","explanation":"<ul><li>This requires \\(x = -600\\), a negative mass, which is physically impossible.</li><li>It also adds incompatible units (kg and mg) without a rate conversion.</li><li>Eliminated because no real soil sample has negative mass.</li></ul>"},{"id":"D","text":"\\(600x = 1{,}200\\)","explanation":"<ul><li>Rate \\(\\times\\) mass = total: \\(600 \\text{ mg/kg} \\times x \\text{ kg} = 1{,}200 \\text{ mg}\\).</li><li>This directly models the situation and solves to \\(x = 2\\) kg.</li><li>That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"}]}
+{
+  "qid": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_5",
+  "correctAnswer": "D",
+  "steps": [
+    "Each kilogram of soil contains 600 mg of phosphorus, so a sample of $x$ kilograms contains $600x$ milligrams total.",
+    "The problem states the total is 1,200 mg, giving the equation $600x = 1{,}200$.",
+    "Solving: $x = 2$ kg, which is a sensible positive mass."
+  ],
+  "choices": [
+    {
+      "id": "A",
+      "text": "$x + 600 = 1{,}200$",
+      "explanation": "<ul><li>This adds $x$ (kg) to 600 (mg/kg), mixing incompatible quantities without multiplication.</li><li>It would give $x = 600$, ignoring the per-kilogram rate entirely.</li><li>Eliminated because the rate relationship requires multiplication, not addition.</li></ul>"
+    },
+    {
+      "id": "B",
+      "text": "$1{,}200x = 600$",
+      "explanation": "<ul><li>This treats 1,200 as the rate and 600 as the total, reversing the given information.</li><li>It yields $x = 0.5$ kg, but substituting back: $600 \\times 0.5 = 300$ mg, not 1,200 mg.</li><li>Eliminated because the rate and total are swapped.</li></ul>"
+    },
+    {
+      "id": "C",
+      "text": "$x + 1{,}200 = 600$",
+      "explanation": "<ul><li>This requires $x = -600$, a negative mass, which is physically impossible.</li><li>It also adds incompatible units (kg and mg) without a rate conversion.</li><li>Eliminated because no real soil sample has negative mass.</li></ul>"
+    },
+    {
+      "id": "D",
+      "text": "$600x = 1{,}200$",
+      "explanation": "<ul><li>Rate $\\times$ mass = total: $600 \\text{ mg/kg} \\times x \\text{ kg} = 1{,}200 \\text{ mg}$.</li><li>This directly models the situation and solves to $x = 2$ kg.</li><li>That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
+    }
+  ]
+}

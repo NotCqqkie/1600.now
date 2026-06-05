@@ -11,7 +11,10 @@
     {
       "title": "Sum the areas of circles K and L",
       "content": "Circle $L$ has area $121\\pi$ mm² (given in the problem). The total area is:<br/>$$4\\pi + 121\\pi = 125\\pi \\text{ mm}^2$$<br/>That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": ["x^2 + y^2 = 4", "x^2 + y^2 = 121"]
+      "desmosExpressions": [
+        "x^2 + y^2 = 4",
+        "x^2 + y^2 = 121"
+      ]
     }
   ]
 }

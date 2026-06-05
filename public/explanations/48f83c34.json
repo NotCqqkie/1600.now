@@ -1,1 +1,23 @@
-{"questionId": "48f83c34", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Parse the dimensions and relationships", "content": "A right rectangular prism's volume depends on three dimensions. From the problem:<ul><li>Height = 9 inches</li><li>Length of base = $x$ inches</li><li>Width of base = unknown</li></ul>The key relationship: <em>length is 7 inches more than width</em>. This translates to $x = \\text{width} + 7$. Solving for width: $\\text{width} = x - 7$."}, {"title": "Apply the volume formula", "content": "Substitute all three dimensions into the volume formula:<br/>$$V = x \\times (x - 7) \\times 9 = 9x(x - 7)$$<br/>This matches choice D — <strong>D</strong> is correct.", "formula": "$$V = \\text{length} \\times \\text{width} \\times \\text{height}$$", "desmosExpressions": ["V(x)=9x(x-7)"]}], "choiceAnalysis": "<ul><li><strong>Choice A &mdash; 'V(x) = x(x + 9)(x + 7)'</strong>: This uses three factors but incorrectly treats 9 as a dimension alongside the base dimensions and adds 7 instead of subtracting. Width would be x + 7, not x &minus; 7. &#10007;</li><li><strong>Choice B &mdash; 'V(x) = x(x + 9)(x &minus; 7)'</strong>: Distributing would give a cubic expression; this mixes the height (9) as if it were a base dimension rather than multiplying separately. &#10007;</li><li><strong>Choice C &mdash; 'V(x) = 9x(x + 7)'</strong>: Width = x + 7 would mean width is 7 more than length, but the problem says length is 7 more than width, so width = x &minus; 7, not x + 7. &#10007;</li><li><strong>Choice D &mdash; 'V(x) = 9x(x &minus; 7)'</strong>: Height = 9, length = x, width = x &minus; 7. Volume = 9 &middot; x &middot; (x &minus; 7) = 9x(x &minus; 7). &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.", "desmosExpressions": ["V\\left(x\\right)=9x\\left(x-7\\right)"]}
+{
+  "questionId": "48f83c34",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Parse the dimensions and relationships",
+      "content": "A right rectangular prism's volume depends on three dimensions. From the problem:<ul><li>Height = 9 inches</li><li>Length of base = $x$ inches</li><li>Width of base = unknown</li></ul>The key relationship: <em>length is 7 inches more than width</em>. This translates to $x = \\text{width} + 7$. Solving for width: $\\text{width} = x - 7$."
+    },
+    {
+      "title": "Apply the volume formula",
+      "content": "Substitute all three dimensions into the volume formula:<br/>$$V = x \\times (x - 7) \\times 9 = 9x(x - 7)$$<br/>This matches choice D — <strong>D</strong> is correct.",
+      "formula": "$$V = \\text{length} \\times \\text{width} \\times \\text{height}$$",
+      "desmosExpressions": [
+        "V(x)=9x(x-7)"
+      ]
+    }
+  ],
+  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; 'V(x) = x(x + 9)(x + 7)'</strong>: This uses three factors but incorrectly treats 9 as a dimension alongside the base dimensions and adds 7 instead of subtracting. Width would be x + 7, not x &minus; 7. &#10007;</li><li><strong>Choice B &mdash; 'V(x) = x(x + 9)(x &minus; 7)'</strong>: Distributing would give a cubic expression; this mixes the height (9) as if it were a base dimension rather than multiplying separately. &#10007;</li><li><strong>Choice C &mdash; 'V(x) = 9x(x + 7)'</strong>: Width = x + 7 would mean width is 7 more than length, but the problem says length is 7 more than width, so width = x &minus; 7, not x + 7. &#10007;</li><li><strong>Choice D &mdash; 'V(x) = 9x(x &minus; 7)'</strong>: Height = 9, length = x, width = x &minus; 7. Volume = 9 &middot; x &middot; (x &minus; 7) = 9x(x &minus; 7). &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.",
+  "desmosExpressions": [
+    "V\\left(x\\right)=9x\\left(x-7\\right)"
+  ]
+}

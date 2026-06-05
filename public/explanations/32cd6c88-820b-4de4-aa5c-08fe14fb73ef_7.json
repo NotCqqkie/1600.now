@@ -1,1 +1,22 @@
-{"questionId": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_7", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Identify the exponential structure from given information", "content": "For an exponential equation, we need two pieces: the initial value (when $x = 0$) and the growth factor (what we multiply by for each unit increase in $x$). We're told that when $x = 0$, $y = 90$. This is our coefficient in the exponential form $y = a(b)^x$, so $a = 90$."}, {"title": "Convert the percentage increase to a growth factor", "content": "The phrase <em>increases by 20% of its previous value</em> means we keep the old value and add 20% of it. Mathematically, the new value is: old value + 20% of old value = 100% + 20% = 120% of the old value. As a decimal multiplier, this is $1.20$. This is our base $b$ in the exponential form."}, {"title": "Write the exponential equation", "content": "With initial value $a = 90$ and growth factor $b = 1.20$, the exponential equation is:<br/>$$y = 90(1.20)^x$$<br/>That matches choice A — <strong>A</strong> is correct.", "desmosExpressions": ["y = 90(1.20)^{x}"]}]}
+{
+  "questionId": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_7",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the exponential structure from given information",
+      "content": "For an exponential equation, we need two pieces: the initial value (when $x = 0$) and the growth factor (what we multiply by for each unit increase in $x$). We're told that when $x = 0$, $y = 90$. This is our coefficient in the exponential form $y = a(b)^x$, so $a = 90$."
+    },
+    {
+      "title": "Convert the percentage increase to a growth factor",
+      "content": "The phrase <em>increases by 20% of its previous value</em> means we keep the old value and add 20% of it. Mathematically, the new value is: old value + 20% of old value = 100% + 20% = 120% of the old value. As a decimal multiplier, this is $1.20$. This is our base $b$ in the exponential form."
+    },
+    {
+      "title": "Write the exponential equation",
+      "content": "With initial value $a = 90$ and growth factor $b = 1.20$, the exponential equation is:<br/>$$y = 90(1.20)^x$$<br/>That matches choice A — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y = 90(1.20)^{x}"
+      ]
+    }
+  ]
+}

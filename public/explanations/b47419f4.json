@@ -1,1 +1,23 @@
-{"questionId": "b47419f4", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Distribute the negative sign", "content": "Distribute the minus: $$\\tfrac{1}{2}x+3-\\tfrac{2}{3}x+5.$$"}, {"title": "Combine and simplify", "content": "Combine: $(\\tfrac{1}{2}-\\tfrac{2}{3})x+8=-\\tfrac{1}{6}x+8$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}
+{
+  "questionId": "b47419f4",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute the negative sign",
+      "content": "Distribute the minus: $$\\tfrac{1}{2}x+3-\\tfrac{2}{3}x+5.$$"
+    },
+    {
+      "title": "Combine and simplify",
+      "content": "Combine: $(\\tfrac{1}{2}-\\tfrac{2}{3})x+8=-\\tfrac{1}{6}x+8$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice A is correct. By distributing the minus sign through the expression $\\frac{2}{3} x - 5$, the given expression can be rewritten as $(\\frac{1}{2} x + 3) - \\frac{2}{3} x + 5$, which is equivalent to $\\frac{1}{2} x - \\frac{2}{3} x + 3 + 5$. Combining like terms gives $(\\frac{1}{2} - \\frac{2}{3}) \\times x + (3 + 5)$, or $- \\frac{1}{6} x + 8$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice B is incorrect and may be the result of failing to distribute the minus sign appropriately through the second term and simplifying the expression $\\frac{1}{2} x + 3 - \\frac{2}{3} x - 5$. Choice C is incorrect and may be the result of multiplying the expressions $\\frac{1}{2} x + 3$ and $- \\frac{2}{3} x + 5$. Choice D is incorrect and may be the result of multiplying the expressions $\\frac{1}{2} x + 3$ and $- \\frac{2}{3} x - 5$."
+    }
+  ]
+}

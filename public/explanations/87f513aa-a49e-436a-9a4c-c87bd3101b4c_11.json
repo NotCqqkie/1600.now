@@ -1,1 +1,19 @@
-{"questionId": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_11", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Find the slope of line k from the graph", "content": "Tracing line k on the graph, it passes through approximately <strong>(0, −4)</strong> and <strong>(5, 0)</strong>. Using the slope formula:<br/>$$\\text{slope of } k = \\frac{0 - (-4)}{5 - 0} = \\frac{4}{5}$$"}, {"title": "Apply the perpendicularity rule", "content": "When two lines are perpendicular, their slopes are <strong>negative reciprocals</strong> of each other. If line k has slope $\\frac{4}{5}$, then line n has slope:<br/>$$\\text{slope of } n = -\\frac{1}{\\frac{4}{5}} = -\\frac{5}{4}$$<br/>This eliminates choices C and D (which have positive slopes)."}, {"title": "Use the point (4, 7) to find the y-intercept", "content": "Line n passes through <strong>(4, 7)</strong> with slope $-\\frac{5}{4}$. Using point-slope form:<br/>$$y - 7 = -\\frac{5}{4}(x - 4)$$<br/>$$y - 7 = -\\frac{5}{4}x + 5$$<br/>$$y = -\\frac{5}{4}x + 12$$<br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_11",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope of line k from the graph",
+      "content": "Tracing line k on the graph, it passes through approximately <strong>(0, −4)</strong> and <strong>(5, 0)</strong>. Using the slope formula:<br/>$$\\text{slope of } k = \\frac{0 - (-4)}{5 - 0} = \\frac{4}{5}$$"
+    },
+    {
+      "title": "Apply the perpendicularity rule",
+      "content": "When two lines are perpendicular, their slopes are <strong>negative reciprocals</strong> of each other. If line k has slope $\\frac{4}{5}$, then line n has slope:<br/>$$\\text{slope of } n = -\\frac{1}{\\frac{4}{5}} = -\\frac{5}{4}$$<br/>This eliminates choices C and D (which have positive slopes)."
+    },
+    {
+      "title": "Use the point (4, 7) to find the y-intercept",
+      "content": "Line n passes through <strong>(4, 7)</strong> with slope $-\\frac{5}{4}$. Using point-slope form:<br/>$$y - 7 = -\\frac{5}{4}(x - 4)$$<br/>$$y - 7 = -\\frac{5}{4}x + 5$$<br/>$$y = -\\frac{5}{4}x + 12$$<br/>That matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

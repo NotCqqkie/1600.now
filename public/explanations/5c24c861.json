@@ -1,1 +1,25 @@
-{"steps":[{"text":"The quadratic model is graphed with speed (mph) on the x-axis and stopping distance (feet) on the y-axis. Locate \\(x = 55\\) mph on the horizontal axis — it falls halfway between the 50 and 60 mph marks."},{"text":"Trace vertically from \\(x = 55\\) up to the curve, then read the y-value. The curve at that point sits near the 210-foot mark, between the 200 and 220 grid lines."},{"text":"Evaluate every choice:<ul><li>A: 25 ft — Far too low; even at very low speeds the stopping distance would be near or above this. Eliminated.</li><li>B: 30 ft — Still far too low for 55 mph on this scale. Eliminated.</li><li>C: 210 ft — Consistent with reading the quadratic curve at \\(x = 55\\). That matches choice C — <strong>C</strong> is correct.</li><li>D: 250 ft — This is closer to the value at 60+ mph on the curve, not at 55 mph. Eliminated.</li></ul>"}],"correctAnswer":"C"}
+{
+  "questionId": "5c24c861",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the model at x = 55",
+      "content": "The graph uses speed on the $x$-axis and stopping distance on the $y$-axis. At $x=55$ miles per hour, the quadratic model is near $200$ feet and closest to the answer choice $210$."
+    },
+    {
+      "title": "Optional Desmos regression check",
+      "content": "If you want a calculator check, enter representative points from the quadratic model and run a quadratic regression, then evaluate the model at $x=55$.",
+      "desmosExpressions": [
+        "x_1=[20,30,40,50,60,70]",
+        "y_1=[40,75,120,180,240,315]",
+        "y_1~a x_1^2+b x_1+c",
+        "a 55^2+b 55+c"
+      ]
+    },
+    {
+      "title": "Eliminate the bad choices",
+      "content": "Choices $25$ and $30$ are far too low for $55$ mph, and $250$ is closer to the curve near $60$ mph. The best estimate at $55$ mph is $210$, so choice <strong>C</strong> is correct."
+    }
+  ]
+}

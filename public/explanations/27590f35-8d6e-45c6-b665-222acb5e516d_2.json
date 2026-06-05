@@ -3,13 +3,13 @@
   "correctAnswer": "D",
   "steps": [
     {
-      "explanation": "The minimum recorded height is 42 feet, so no tree can be shorter than 42 feet: \\(t \\geq 42\\). The maximum is 57 feet, so no tree can be taller than 57 feet: \\(t \\leq 57\\)."
+      "explanation": "The minimum recorded height is 42 feet, so no tree can be shorter than 42 feet: $t \\geq 42$. The maximum is 57 feet, so no tree can be taller than 57 feet: $t \\leq 57$."
     },
     {
-      "explanation": "Both constraints must hold simultaneously for every recorded value, giving the compound inequality \\(42 \\leq t \\leq 57\\)."
+      "explanation": "Both constraints must hold simultaneously for every recorded value, giving the compound inequality $42 \\leq t \\leq 57$."
     },
     {
-      "explanation": "Evaluate each choice:<ul><li>\\(t \\leq 42\\): Fails for any tree taller than 42 feet (e.g., \\(t = 50\\)). Eliminated.</li><li>\\(t \\geq 57\\): Fails for any tree shorter than 57 feet (e.g., \\(t = 42\\)). Eliminated.</li><li>\\(t \\geq 99\\): No recorded height reaches 99 feet. Fails for all values. Eliminated.</li><li>\\(42 \\leq t \\leq 57\\): True for every value in the recorded range. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
+      "explanation": "Evaluate each choice:<ul><li>$t \\leq 42$: Fails for any tree taller than 42 feet (e.g., $t = 50$). Eliminated.</li><li>$t \\geq 57$: Fails for any tree shorter than 57 feet (e.g., $t = 42$). Eliminated.</li><li>$t \\geq 99$: No recorded height reaches 99 feet. Fails for all values. Eliminated.</li><li>$42 \\leq t \\leq 57$: True for every value in the recorded range. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
     }
   ]
 }

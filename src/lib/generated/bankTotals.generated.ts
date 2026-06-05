@@ -2,44 +2,44 @@
 // Counts the past-bank questions; Home.tsx uses these so the displayed totals
 // track the real bank without needing to load the full bank chunk.
 
-export const BANK_TOTAL_PAST_MATH = 1982;
-export const BANK_TOTAL_PAST_READING = 3626;
-export const BANK_TOTAL_PAST = 5608;
+export const BANK_TOTAL_PAST_MATH = 1538;
+export const BANK_TOTAL_PAST_READING = 3589;
+export const BANK_TOTAL_PAST = 5127;
 
-export const BANK_TOTAL_UNOFFICIAL_MATH = 1755;
-export const BANK_TOTAL_UNOFFICIAL_READING = 1688;
-export const BANK_TOTAL_UNOFFICIAL = 3443;
+export const BANK_TOTAL_UNOFFICIAL_MATH = 1542;
+export const BANK_TOTAL_UNOFFICIAL_READING = 1680;
+export const BANK_TOTAL_UNOFFICIAL = 3222;
 
-export const BANK_TOTAL_ALL = 9051;
+export const BANK_TOTAL_ALL = 8349;
 
 export const BANK_COUNT_BY_OFFICIAL_SKILL: Record<string, number> = {
-  "Ratios, rates, proportional relationships, and units": 72,
-  "Nonlinear functions": 142,
-  "Linear equations in one variable": 140,
-  "Equivalent expressions": 303,
-  "Linear inequalities in one or two variables": 74,
-  "Linear functions": 285,
-  "Lines, angles, and triangles": 89,
-  "Systems of two linear equations in two variables": 152,
-  "Linear equations in two variables": 152,
-  "Area and volume": 86,
-  "Right triangles and trigonometry": 53,
-  "Probability and conditional probability": 21,
-  "Percentages": 125,
-  "Circles": 76,
-  "One-variable data: Distributions and measures of center and spread": 52,
-  "Nonlinear equations in one variable and systems of equations in two variables": 104,
-  "Inference from sample statistics and margin of error": 13,
-  "Two-variable data: Models and scatterplots": 34,
-  "Evaluating statistical claims: Observational studies and experiments": 9,
-  "Words in Context": 549,
-  "Text Structure and Purpose": 318,
-  "Central Ideas and Details": 196,
-  "Command of Evidence": 520,
-  "Rhetorical Synthesis": 493,
-  "Inferences": 276,
-  "Form, Structure, and Sense": 321,
-  "Boundaries": 488,
-  "Transitions": 384,
+  "Ratios, rates, proportional relationships, and units": 57,
+  "Nonlinear functions": 112,
+  "Equivalent expressions": 241,
+  "Linear inequalities in one or two variables": 58,
+  "Linear functions": 215,
+  "Lines, angles, and triangles": 74,
+  "Systems of two linear equations in two variables": 114,
+  "Linear equations in two variables": 124,
+  "Area and volume": 63,
+  "Right triangles and trigonometry": 46,
+  "Probability and conditional probability": 16,
+  "Linear equations in one variable": 100,
+  "Percentages": 90,
+  "Circles": 56,
+  "One-variable data: Distributions and measures of center and spread": 44,
+  "Inference from sample statistics and margin of error": 9,
+  "Two-variable data: Models and scatterplots": 31,
+  "Nonlinear equations in one variable and systems of equations in two variables": 83,
+  "Evaluating statistical claims: Observational studies and experiments": 5,
+  "Words in Context": 542,
+  "Text Structure and Purpose": 315,
+  "Central Ideas and Details": 194,
+  "Command of Evidence": 515,
+  "Rhetorical Synthesis": 490,
+  "Inferences": 273,
+  "Form, Structure, and Sense": 318,
+  "Boundaries": 479,
+  "Transitions": 382,
   "Cross-Text Connections": 81
 };

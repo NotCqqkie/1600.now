@@ -1,4 +1,4 @@
-// Auto-generated from public/images/SAT-Style Questions/.
+// SAT-style image manifest.
 // Only paths listed here are guaranteed to exist in this repo.
 
 export const satImageManifest = new Set<string>([

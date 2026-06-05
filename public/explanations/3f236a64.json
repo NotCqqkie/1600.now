@@ -4,12 +4,24 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the constant ratio of y to x",
-      "content": "Since the ratio of $y$ to $x$ is constant, we can find it from any row. Using the first row: $$\\frac{y}{x} = \\frac{4}{1} = 4$$ Verify with another row: $\\frac{12}{3} = 4$ and $\\frac{20}{5} = 4$. The constant ratio is 4."
+      "title": "Run the proportional table check",
+      "content": "Because the ratio $\\frac{y}{x}$ is constant, the relationship has the form $y=kx$. Enter the known rows $(1,4)$, $(3,12)$, and $(5,20)$ in Desmos and run $y_1\\sim k x_1$.",
+      "desmosExpressions": [
+        "x_1=[1,3,5]",
+        "y_1=[4,12,20]",
+        "y_1~k x_1"
+      ]
     },
     {
-      "title": "Calculate k using the proportional relationship",
-      "content": "With the constant ratio of 4, we have $y = 4x$. When $x = 40$: $$k = 4 \\times 40 = 160$$ That matches choice D \u2014 <strong>D</strong> is correct."
+      "title": "Use the constant of proportionality",
+      "content": "Desmos returns $k=4$, so the rule is $y=4x$. The same result is visible mentally from the first row: $4/1=4$.",
+      "desmosExpressions": [
+        "y=4x"
+      ]
+    },
+    {
+      "title": "Find the missing table value",
+      "content": "When $x=40$, $y=4(40)=160$. Therefore the missing value is $160$, which matches choice <strong>D</strong>."
     }
   ]
 }

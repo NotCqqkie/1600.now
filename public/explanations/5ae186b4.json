@@ -14,6 +14,10 @@
         "y = \\frac{-54}{x}",
         "y = 6"
       ]
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $-9$. Since $w$ is in the denominator of a fraction in the given equation, $w$ can't be equal to $0$. Since $w$ isn't equal to $0$, multiplying both sides of the given equation by $w$ yields an equivalent equation, $-54=6w$. Dividing both sides of this equation by $6$ yields $-9=w$. Therefore, $-9$ is the solution to the given equation."
     }
   ]
 }

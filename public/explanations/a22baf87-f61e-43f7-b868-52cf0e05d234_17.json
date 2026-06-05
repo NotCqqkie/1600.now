@@ -1,1 +1,28 @@
-{"questionId":"a22baf87-f61e-43f7-b868-52cf0e05d234_17","correctAnswer":"C","section":"Math","steps":[{"title":"Find where circle A meets the x-axis","content":"Circle A: $(x+8)^2+(y-8)^2=64$ has center $(-8,8)$ and radius $8$. Set $y=0$:$$(x+8)^2+(0-8)^2=64\\Rightarrow (x+8)^2=0\\Rightarrow x=-8$$So $(r,s)=(-8,0)$."},{"title":"Write the equation for circle B","content":"Circle B is centered at $(-8,0)$ with radius $8$. Standard form $(x-h)^2+(y-k)^2=r^2$ gives:$$(x+8)^2+y^2=64$$"},{"title":"Eliminate the answer choices","content":"<ul><li>A) $x^2+(y+8)^2=64$: center $(0,-8)$, not $(-8,0)$.</li><li>B) $x^2+(y-8)^2=64$: center $(0,8)$, not $(-8,0)$.</li><li>C) $(x+8)^2+y^2=64$: center $(-8,0)$, radius $8$. Matches.</li><li>D) $(x-8)^2+y^2=64$: center $(8,0)$, not $(-8,0)$.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "a22baf87-f61e-43f7-b868-52cf0e05d234_17",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Graph circle A and read the intercept",
+      "content": "A fast Desmos check is to graph circle A, $(x+8)^2+(y-8)^2=64$. The circle has center $(-8,8)$ and radius $8$, so it is tangent to the x-axis at $(-8,0)$. Therefore $(r,s)=(-8,0)$.",
+      "desmosExpressions": [
+        "(x+8)^2+(y-8)^2=64"
+      ]
+    },
+    {
+      "title": "Graph the answer choices around that center",
+      "content": "Circle B has the same radius as circle A, so its radius is $8$, but its center is the x-intercept $(-8,0)$. In standard form, that is $(x+8)^2+y^2=64$. Graphing the choices shows only choice C has center $(-8,0)$.",
+      "desmosExpressions": [
+        "x^2+(y+8)^2=64",
+        "x^2+(y-8)^2=64",
+        "(x+8)^2+y^2=64",
+        "(x-8)^2+y^2=64"
+      ]
+    },
+    {
+      "title": "Eliminate the answer choices",
+      "content": "<ul><li>A) $x^2+(y+8)^2=64$: center $(0,-8)$, not $(-8,0)$.</li><li>B) $x^2+(y-8)^2=64$: center $(0,8)$, not $(-8,0)$.</li><li>C) $(x+8)^2+y^2=64$: center $(-8,0)$, radius $8$. Matches.</li><li>D) $(x-8)^2+y^2=64$: center $(8,0)$, not $(-8,0)$.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

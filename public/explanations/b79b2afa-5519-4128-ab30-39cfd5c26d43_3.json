@@ -1,1 +1,19 @@
-{"questionId": "b79b2afa-5519-4128-ab30-39cfd5c26d43_3", "correctAnswer": "43", "section": "Math", "steps": [{"title": "Substitute the value x = 2", "content": "Replace $x$ with $2$ in $$f(x) = 5x^3 + 3.$$ This gives $$f(2) = 5(2)^3 + 3.$$"}, {"title": "Compute the result", "content": "Simplify: $$f(2) = 5(8) + 3 = 40 + 3 = 43.$$ The answer is <strong>43</strong>."}]}
+{
+  "questionId": "b79b2afa-5519-4128-ab30-39cfd5c26d43_3",
+  "correctAnswer": "43",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the value x = 2",
+      "content": "Replace $x$ with $2$ in $$f(x) = 5x^3 + 3.$$ This gives $$f(2) = 5(2)^3 + 3.$$"
+    },
+    {
+      "title": "Compute the result",
+      "content": "Simplify: $$f(2) = 5(8) + 3 = 40 + 3 = 43.$$ The answer is <strong>43</strong>."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, make sure the computed value answers exactly what the question asks for. The work above gives $43$; substituting or interpreting it in the original condition satisfies the requirement, so $43$ is the value to enter."
+    }
+  ]
+}

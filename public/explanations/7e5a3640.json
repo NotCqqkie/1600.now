@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply exponential growth",
-      "content": "When a population doubles $n$ times, it is multiplied by $2^n$. After 5 doublings, the initial population of 300,000 is multiplied by $2^5 = 32$:<br/>$$300,000 \\times 2^5 = 300,000 \\times 32 = 9,600,000$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "When a population doubles $n$ times, it is multiplied by $2^n$. After 5 doublings, the initial population of 300,000 is multiplied by $2^5 = 32$:<br/>$$300,000 \\times 2^5 = 300,000 \\times 32 = 9,600,000$$<br/>That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

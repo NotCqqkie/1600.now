@@ -50,6 +50,7 @@ import {
   getBankPool,
   getBankQuestion,
   getBankQuestionBySourceId,
+  getSourceBankQuestionBySourceId,
   normalizeBankSource,
   type BankQuestion,
   type BankSourceFilter,
@@ -92,7 +93,15 @@ import {
   savePracticeTestSession,
   type PracticeTestSessionMeta,
 } from "@/lib/practice/practiceTestSession";
+import { clearDesmosUiState } from "@/lib/practice/desmosSessionState";
 import { useUserProgress } from "@/hooks/useUserProgress";
+import { useAuth } from "@/contexts/AuthContext";
+import { useIsMobile } from "@/hooks/use-mobile";
+import {
+  getQuestionStatus as getStoredQuestionUiStatus,
+  getQuestionUiState,
+  saveQuestionUiState,
+} from "@/lib/practice/questionUiState";
 import { useThemeMode } from "@/hooks/useThemeMode";
 import "katex/dist/katex.min.css";
 
@@ -195,8 +204,22 @@ type OrderedNavigationItem = {
   storageId: string;
 };
 
-const getStoredQuestionStatus = (storageId: string): string =>
-  localStorage.getItem(`${storageId}-status`) || "unanswered";
+const getStoredQuestionStatus = (
+  storageId: string,
+  uid: string | null | undefined,
+): string => getStoredQuestionUiStatus(storageId, uid);
+
+const checkedQuestionStatuses = new Set(["incorrect", "correct-first", "correct-later"]);
+
+const isCheckedQuestionStatus = (status: string | undefined) =>
+  checkedQuestionStatuses.has(status || "");
+
+const getNavigationOnlyQuestionUiPatch = (status: string) => ({
+  answer: undefined,
+  checkedAnswers: undefined,
+  attemptCount: undefined,
+  status,
+});
 
 const getGroupedQuestionOrderStorageKey = ({
   is100Hard,
@@ -537,9 +560,10 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
         ? false
         : sharedIsDark,
   );
+  const previewEmbedIsDarkMode = previewEmbed?.isDarkMode;
   useEffect(() => {
-    if (previewEmbed) setEmbedIsDark(previewEmbed.isDarkMode);
-  }, [previewEmbed?.isDarkMode]);
+    if (previewEmbedIsDarkMode !== undefined) setEmbedIsDark(previewEmbedIsDarkMode);
+  }, [previewEmbedIsDarkMode]);
   // In iframe embed mode: apply theme to that document only (no localStorage,
   // no event dispatch, so toggling inside the preview won't flip the parent).
   useEffect(() => {
@@ -642,10 +666,10 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     }
   }, [isPracticeMode]);
   const practiceRunId = isPracticeMode ? sessionStorage.getItem(PRACTICE_RUN_STORAGE_KEY) : null;
-  const practiceExitTo = useMemo(
-    () => sessionStorage.getItem("practiceExitTo"),
-    [location.key],
-  );
+  const [practiceExitTo, setPracticeExitTo] = useState(() => sessionStorage.getItem("practiceExitTo"));
+  useEffect(() => {
+    setPracticeExitTo(sessionStorage.getItem("practiceExitTo"));
+  }, [location.key]);
   const needsModulePracticeBank = Boolean(modulePracticeSlug || practiceTestSetId);
   const [modulePracticeBank, setModulePracticeBank] = useState<ModulePracticeBankApi | null>(() =>
     needsModulePracticeBank ? loadedModulePracticeBank : null,
@@ -685,6 +709,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   const idParam = previewEmbed?.id ?? (id || "1");
   const questionNumber = parseInt(idParam, 10);
   const subject = previewEmbed?.subject ?? ((rawSubject === "math" || rawSubject === "reading" ? rawSubject : "math") as "math" | "reading");
+  const isMobile = useIsMobile();
 
   const questionData = useMemo(() => {
     if (is100Hard) {
@@ -696,9 +721,12 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       modulePracticeBank && (modulePracticeSlug || practiceTestSetId)
         ? modulePracticeBank.getSynthesizedPracticeQuestion(subject, idParam)
         : null;
+    const sourceQuestionById = isPracticeMode
+      ? getSourceBankQuestionBySourceId(subject, idParam, bankSource)
+      : getBankQuestionBySourceId(subject, idParam, bankSource);
     const q =
       moduleQuestion ??
-      getBankQuestionBySourceId(subject, idParam, bankSource) ??
+      sourceQuestionById ??
       (/^\d+$/.test(idParam) ? getBankQuestion(subject, questionNumber, bankSource) : null);
 
     if (!q) return null;
@@ -707,8 +735,9 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       uuid: q.stableId,
     };
 
-  }, [is100Hard, idParam, questionNumber, subject, bankSource, modulePracticeBank, modulePracticeSlug, needsModulePracticeBank, practiceTestSetId]);
+  }, [is100Hard, idParam, questionNumber, subject, bankSource, modulePracticeBank, modulePracticeSlug, needsModulePracticeBank, practiceTestSetId, isPracticeMode]);
   const currentQuestion = questionData;
+  const currentQuestionId = currentQuestion?.uuid;
   useEffect(() => {
     if (previewEmbed && currentQuestion) previewEmbed.onReady?.();
   }, [currentQuestion, previewEmbed]);
@@ -743,23 +772,29 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       practiceTestStateSessionId,
   );
   const isAssessmentMode = isModulePracticeMode || isPracticeTestMode;
-  const desmosStorageArea = isAssessmentMode || effectivePracticeMode
+  const shouldUseSessionDesmosStorage = Boolean(
+    !is100Hard &&
+      isPracticeMode &&
+      (practiceTestSetId || modulePracticeSlug || practiceSet.length > 0 || practiceRunId),
+  );
+  const desmosStorageArea = shouldUseSessionDesmosStorage
     ? sessionStorage
     : QUESTION_BANK_VIEWER_STORAGE;
   const desmosStorageScope = useMemo(() => {
-    if (isPracticeTestMode && practiceTestStateSessionId) return `practice-test:${practiceTestStateSessionId}`;
-    if (isModulePracticeMode && modulePracticeStateSessionId) return `module-practice:${modulePracticeStateSessionId}`;
-    if (effectivePracticeMode) return `practice-set:${practiceRunId ?? "active"}`;
+    if (practiceTestSetId) return `practice-test:${practiceTestStateSessionId ?? practiceTestSetId}`;
+    if (modulePracticeSlug) return `module-practice:${modulePracticeStateSessionId ?? modulePracticeSlug}`;
+    if (!is100Hard && isPracticeMode) return `practice-set:${practiceRunId ?? "active"}`;
     if (isBank) return `question-bank:${bankSource}`;
     return "hard-questions";
   }, [
     bankSource,
-    effectivePracticeMode,
     isBank,
-    isModulePracticeMode,
-    isPracticeTestMode,
+    is100Hard,
+    isPracticeMode,
     modulePracticeStateSessionId,
+    modulePracticeSlug,
     practiceRunId,
+    practiceTestSetId,
     practiceTestStateSessionId,
   ]);
   const desmosCalculatorStateKey = `${desmosStorageScope}:desmos:calculator`;
@@ -767,6 +802,9 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   const desmosLayoutStateKey = `${desmosStorageScope}:desmos:layout`;
   const desmosOpenStateKey = `${desmosStorageScope}:desmos:open`;
   const desmosSplitPositionKey = `${desmosStorageScope}:desmos:split-position`;
+  const clearCurrentDesmosUiState = useCallback(() => {
+    clearDesmosUiState(desmosStorageArea, desmosStorageScope);
+  }, [desmosStorageArea, desmosStorageScope]);
   const restoreDesmosSplitPosition = useCallback(() => {
     const raw = desmosStorageArea.getItem(desmosSplitPositionKey);
     const stored = raw === null ? NaN : Number(raw);
@@ -801,6 +839,8 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       ? currentPracticeIndex - practiceTestActiveModule.startIndex + 1
       : 0;
 
+  const { user } = useAuth();
+  const uid = user?.id ?? null;
   const { progress, addAttempt, toggleReview } = useUserProgress();
   
   const [selectedAnswer, setSelectedAnswer] = useState<string>("");
@@ -829,6 +869,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   const [questionViewMode, setQuestionViewMode] = useState<QuestionViewMode>(() =>
     getStoredQuestionViewMode(subject, isBank),
   );
+  const effectiveQuestionViewMode = isMobile ? "vertical" : questionViewMode;
   const [questionSplitPosition, setQuestionSplitPosition] = useState(() =>
     getDefaultQuestionSplitPosition(subject),
   );
@@ -951,35 +992,41 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     return null;
   }, [isModulePracticeMode, isPracticeTestMode]);
 
-  const currentProgress = currentQuestion ? (progress[currentQuestion.uuid] || { isMarkedForReview: false, attempts: [] }) : { isMarkedForReview: false, attempts: [] };
+  const currentProgress = currentQuestionId ? (progress[currentQuestionId] || { isMarkedForReview: false, attempts: [] }) : { isMarkedForReview: false, attempts: [] };
   const localStateKey = currentQuestion
     ? (is100Hard ? `question-${questionNumber}` : currentQuestion.uuid)
     : `question-${questionNumber}`;
-  const readModulePracticeQuestionState = (): ModulePracticeQuestionState | null => {
-    if (!currentQuestion) return null;
+  const readModulePracticeQuestionState = useCallback((): ModulePracticeQuestionState | null => {
+    if (!currentQuestionId) return null;
     if (isPracticeTestMode && practiceTestStateSessionId) {
-      return getPracticeTestQuestionState(practiceTestStateSessionId, currentQuestion.uuid);
+      return getPracticeTestQuestionState(practiceTestStateSessionId, currentQuestionId);
     }
     if (isModulePracticeMode && modulePracticeStateSessionId) {
-      return getModulePracticeQuestionState(modulePracticeStateSessionId, currentQuestion.uuid);
+      return getModulePracticeQuestionState(modulePracticeStateSessionId, currentQuestionId);
     }
     return null;
-  };
-  const persistModulePracticeQuestionState = (
+  }, [
+    currentQuestionId,
+    isModulePracticeMode,
+    isPracticeTestMode,
+    modulePracticeStateSessionId,
+    practiceTestStateSessionId,
+  ]);
+  const persistModulePracticeQuestionState = useCallback((
     updater: (
       previous: ModulePracticeQuestionState,
     ) => ModulePracticeQuestionState,
   ) => {
-    if (!currentQuestion) return null;
+    if (!currentQuestionId) return null;
     if (isPracticeTestMode && practiceTestStateSessionId) {
       const previous = getPracticeTestQuestionState(
         practiceTestStateSessionId,
-        currentQuestion.uuid,
+        currentQuestionId,
       );
       const next = updater(previous);
       savePracticeTestQuestionState(
         practiceTestStateSessionId,
-        currentQuestion.uuid,
+        currentQuestionId,
         next,
       );
       return next;
@@ -987,16 +1034,22 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     if (!isModulePracticeMode || !modulePracticeStateSessionId) return null;
     const previous = getModulePracticeQuestionState(
       modulePracticeStateSessionId,
-      currentQuestion.uuid,
+      currentQuestionId,
     );
     const next = updater(previous);
     saveModulePracticeQuestionState(
       modulePracticeStateSessionId,
-      currentQuestion.uuid,
+      currentQuestionId,
       next,
     );
     return next;
-  };
+  }, [
+    currentQuestionId,
+    isModulePracticeMode,
+    isPracticeTestMode,
+    modulePracticeStateSessionId,
+    practiceTestStateSessionId,
+  ]);
   const markedForReview = isAssessmentMode
     ? modulePracticeMarkedForReview
     : currentProgress.isMarkedForReview;
@@ -1062,20 +1115,28 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     [bankSource, is100Hard, subject],
   );
 
+  const groupedQuestionOrder = useMemo(
+    () => {
+      void groupedOrderVersion;
+      return readStoredQuestionOrder(groupedOrderStorageKey);
+    },
+    [groupedOrderStorageKey, groupedOrderVersion],
+  );
+
   const orderedNavigationItems = useMemo<OrderedNavigationItem[]>(() => {
     if (baseNavigationItems.length === 0) return [];
 
     const defaultOrder = baseNavigationItems.map((item) => item.id);
     const resolvedOrder = reconcileQuestionOrder(
       defaultOrder,
-      readStoredQuestionOrder(groupedOrderStorageKey),
+      groupedQuestionOrder,
     );
     const itemMap = new Map(baseNavigationItems.map((item) => [item.id, item]));
 
     return resolvedOrder
       .map((id) => itemMap.get(id))
       .filter((item): item is OrderedNavigationItem => Boolean(item));
-  }, [baseNavigationItems, groupedOrderStorageKey, groupedOrderVersion]);
+  }, [baseNavigationItems, groupedQuestionOrder]);
 
   // Items for the 100 Hard Questions navigator — storageId matches the
   // localStateKey format "question-N" so BankNavigationSheet reads the
@@ -1090,9 +1151,9 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   }, [isBank, subject]);
 
   useEffect(() => {
-    if (questionViewMode !== "horizontal") return;
+    if (effectiveQuestionViewMode !== "horizontal") return;
     setQuestionSplitPosition(getDefaultQuestionSplitPosition(subject));
-  }, [questionNumber, questionViewMode, subject, isBank]);
+  }, [effectiveQuestionViewMode, questionNumber, subject, isBank]);
 
   useEffect(() => {
     localStorage.setItem(
@@ -1102,6 +1163,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   }, [isAnnotationModeEnabled]);
 
   const handleQuestionViewModeChange = (mode: QuestionViewMode) => {
+    if (isMobile && mode === "horizontal") return;
     const storageKey = getQuestionViewModeStorageKey(subject, isBank);
     sessionStorage.setItem(storageKey, mode);
     setQuestionViewMode(mode);
@@ -1143,11 +1205,11 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     setIsTimerPaused(false);
     setIsTimerVisible(true);
   }, [
-    isPracticeTestMode,
-    practiceTestActiveModule?.moduleSlug,
+    currentQuestionId,
     isModulePracticeMode,
-    modulePracticeSessionMeta?.sessionId,
-    currentQuestion?.uuid,
+    isPracticeTestMode,
+    modulePracticeSessionMeta,
+    practiceTestActiveModule,
   ]);
 
   useEffect(() => {
@@ -1187,11 +1249,12 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
 
     return () => window.clearInterval(timerId);
   }, [
-    isPracticeTestMode,
-    practiceTestSessionMeta?.sessionId,
-    practiceTestSessionMeta?.status,
-    isModulePracticeMode,
     isTimerPaused,
+    isModulePracticeMode,
+    isPracticeTestMode,
+    modulePracticeSessionMeta,
+    practiceTestActiveModule,
+    practiceTestSessionMeta,
     modulePracticeSessionMeta?.sessionId,
     syncAssessmentTimer,
   ]);
@@ -1379,31 +1442,31 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     return () => document.removeEventListener('fullscreenchange', handleFullscreenChange);
   }, []);
 
-  const handleSplitScreenChange = (isSplit: boolean, windowId: string) => {
+  const handleSplitScreenChange = useCallback((isSplit: boolean, windowId: string) => {
     setSplitScreenWindows(prev => {
       const newSet = new Set(prev);
       if (isSplit) newSet.add(windowId);
       else newSet.delete(windowId);
       return newSet;
     });
-  };
+  }, []);
 
-  const handleSidebarToggle = (windowId: string, shouldBeSidebarred: boolean) => {
+  const handleSidebarToggle = useCallback((windowId: string, shouldBeSidebarred: boolean) => {
     setSidebarredWindows(prev => {
       const newSet = new Set(prev);
       if (shouldBeSidebarred) newSet.add(windowId);
       else newSet.delete(windowId);
       return newSet;
     });
-  };
+  }, []);
 
-  const handleSplitPositionChange = (newPosition: number) => {
+  const handleSplitPositionChange = useCallback((newPosition: number) => {
     const roundedPosition = Math.round(newPosition * 4) / 4;
     setSplitPosition(prev => (Math.abs(prev - roundedPosition) < 0.25 ? prev : roundedPosition));
     if (sidebarredWindows.has("desmos")) {
       desmosStorageArea.setItem(desmosSplitPositionKey, String(roundedPosition));
     }
-  };
+  }, [desmosSplitPositionKey, desmosStorageArea, sidebarredWindows]);
 
   const toggleFullscreen = () => {
     if (!document.fullscreenElement) {
@@ -1468,13 +1531,32 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       return;
     }
 
-    setSelectedAnswer("");
-    setFreeResponseAnswer("");
-    setCheckedAnswers({});
-    setCheckButtonState("idle");
-    setAttemptCount(0);
+    const state = getQuestionUiState(localStateKey, uid);
+    if (isBankQuestionView) {
+      setSelectedAnswer("");
+      setFreeResponseAnswer("");
+      setCheckedAnswers({});
+      setCheckButtonState("idle");
+      setAttemptCount(0);
+      setStruckOutChoiceIds([]);
+      return;
+    }
+
+    setSelectedAnswer(currentQuestion.type === "multiple-choice" ? state.answer || "" : "");
+    setFreeResponseAnswer(currentQuestion.type === "free-response" ? state.answer || "" : "");
+    setCheckedAnswers(state.checkedAnswers || {});
+    if (
+      state.status === "incorrect" ||
+      state.status === "correct-first" ||
+      state.status === "correct-later"
+    ) {
+      setCheckButtonState(state.status);
+    } else {
+      setCheckButtonState("idle");
+    }
+    setAttemptCount(state.attemptCount || Object.keys(state.checkedAnswers || {}).length);
     setStruckOutChoiceIds([]);
-  }, [isAssessmentMode, questionNumber, currentQuestion?.uuid]);
+  }, [currentQuestion, isAssessmentMode, isBankQuestionView, localStateKey, questionNumber, readModulePracticeQuestionState, uid]);
 
   useEffect(() => {
     if (checkButtonState === "idle") {
@@ -1482,9 +1564,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       return;
     }
     setCheckColorVisible(true);
-    const fadeTimer = window.setTimeout(() => setCheckColorVisible(false), 3500);
-    return () => window.clearTimeout(fadeTimer);
-  }, [checkButtonState, checkFlashKey]);
+  }, [checkButtonState]);
 
   const emphasizeReadingHeaders = (content: string): string => {
     const fullLineHeaderPatterns = [
@@ -1644,9 +1724,9 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       ? currentPracticeIndex < totalQuestions - 1
       : currentOrderedQuestionIndex >= 0 && currentOrderedQuestionIndex < totalQuestions - 1;
 
-  const flushModulePracticeQuestionTime = (updateState = true) => {
+  const flushModulePracticeQuestionTime = useCallback((updateState = true) => {
     syncAssessmentTimer(Date.now(), updateState);
-    if (!isAssessmentMode || !currentQuestion) return;
+    if (!isAssessmentMode || !currentQuestionId) return;
     const delta = Math.max(
       0,
       Math.round((Date.now() - questionVisitStartedAtRef.current) / 1000),
@@ -1657,7 +1737,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       timeSpentSeconds: previous.timeSpentSeconds + delta,
     }));
     questionVisitStartedAtRef.current = Date.now();
-  };
+  }, [currentQuestionId, isAssessmentMode, persistModulePracticeQuestionState, syncAssessmentTimer]);
 
   useEffect(() => {
     if (isPracticeTestMode && practiceTestSessionMeta) {
@@ -1689,17 +1769,18 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     isPracticeTestMode,
     practiceTestSessionMeta,
     isModulePracticeMode,
+    modulePracticeSessionMeta,
   ]);
 
   useEffect(() => {
-    if (!isAssessmentMode || !currentQuestion) return;
+    if (!isAssessmentMode || !currentQuestionId) return;
     questionVisitStartedAtRef.current = Date.now();
     return () => {
       flushModulePracticeQuestionTime(false);
     };
-  }, [currentQuestion?.uuid, isAssessmentMode]);
+  }, [currentQuestionId, flushModulePracticeQuestionTime, isAssessmentMode]);
 
-  const navigateToPracticeIndex = (idx: number) => {
+  const navigateToPracticeIndex = useCallback((idx: number) => {
     if (!effectivePracticeMode || idx < 0 || idx >= practiceSet.length) return;
     flushModulePracticeQuestionTime();
     const target = practiceSet[idx];
@@ -1731,7 +1812,16 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
 
     const targetIdSegment = target.sourceId ?? target.id;
     navigate(`${base}/${target.subject}/${targetIdSegment}?${params.toString()}`);
-  };
+  }, [
+    effectivePracticeMode,
+    flushModulePracticeQuestionTime,
+    modulePracticeSlug,
+    modulePracticeStateSessionId,
+    navigate,
+    practiceSet,
+    practiceTestSetId,
+    practiceTestStateSessionId,
+  ]);
 
   const submitPracticeTestCurrentModule = useCallback((sessionToSubmit: PracticeTestSessionMeta) => {
     if (!isPracticeTestMode || !practiceTestSet) return;
@@ -1744,7 +1834,8 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
         ...sessionToSubmit,
         status: "submitted",
       });
-      savePracticeTestResult(result);
+      clearCurrentDesmosUiState();
+      savePracticeTestResult(result, uid);
       clearPracticeTestSession(practiceTestSet.id);
       sessionStorage.removeItem("practiceSet");
       sessionStorage.removeItem("practiceExitTo");
@@ -1752,12 +1843,13 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       return;
     }
 
+    clearCurrentDesmosUiState();
     setPracticeTestSessionMeta(nextSession);
     savePracticeTestSession(nextSession);
     navigate(
       `/practice-tests/${practiceTestSet.id}/transition?session=${sessionToSubmit.sessionId}&kind=${sessionToSubmit.activeModuleIndex === 1 ? "break" : "module"}`,
     );
-  }, [flushModulePracticeQuestionTime, isPracticeTestMode, navigate, practiceTestSet]);
+  }, [clearCurrentDesmosUiState, flushModulePracticeQuestionTime, isPracticeTestMode, navigate, practiceTestSet, uid]);
 
   const handlePracticeTestPhaseAdvance = useCallback(() => {
     if (!isPracticeTestMode || !practiceTestSessionMeta || !practiceTestSet || !practiceTestActiveModule) return;
@@ -1811,7 +1903,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     submitPracticeTestCurrentModule,
   ]);
 
-  const handlePrevious = () => {
+  const handlePrevious = useCallback(() => {
     if (!canGoPrevious) return;
     flushModulePracticeQuestionTime();
     if (is100Hard) {
@@ -1832,9 +1924,23 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     if (previousQuestionId) {
       navigate(`${base}/${subject}/${previousQuestionId}${isBank ? bankQuerySuffix : ""}`);
     }
-  };
+  }, [
+    bankQuerySuffix,
+    canGoPrevious,
+    currentOrderedQuestionIndex,
+    currentPracticeIndex,
+    effectivePracticeMode,
+    flushModulePracticeQuestionTime,
+    is100Hard,
+    isBank,
+    isPracticeTestMode,
+    navigate,
+    navigateToPracticeIndex,
+    orderedQuestionIds,
+    subject,
+  ]);
 
-  const handleNext = () => {
+  const handleNext = useCallback(() => {
     if (!canGoNext) return;
     flushModulePracticeQuestionTime();
     if (is100Hard) {
@@ -1855,7 +1961,21 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     if (nextQuestionId) {
       navigate(`${base}/${subject}/${nextQuestionId}${isBank ? bankQuerySuffix : ""}`);
     }
-  };
+  }, [
+    bankQuerySuffix,
+    canGoNext,
+    currentOrderedQuestionIndex,
+    currentPracticeIndex,
+    effectivePracticeMode,
+    flushModulePracticeQuestionTime,
+    is100Hard,
+    isBank,
+    isPracticeTestMode,
+    navigate,
+    navigateToPracticeIndex,
+    orderedQuestionIds,
+    subject,
+  ]);
 
   const handleModulePracticeReview = () => {
     if (!isModulePracticeMode || !modulePracticeSessionMeta || !modulePracticeModule) return;
@@ -1865,7 +1985,8 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
         ...modulePracticeSessionMeta,
         status: "submitted",
       });
-      saveModulePracticeResult(result);
+      clearCurrentDesmosUiState();
+      saveModulePracticeResult(result, uid);
       sessionStorage.removeItem("practiceSet");
       sessionStorage.removeItem("practiceExitTo");
       clearModulePracticeSession(modulePracticeModule.slug);
@@ -1880,10 +2001,10 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     if (effectivePracticeMode || orderedNavigationItems.length === 0) return;
 
     const answeredItems = orderedNavigationItems.filter(
-      (item) => getStoredQuestionStatus(item.storageId) !== "unanswered",
+      (item) => getStoredQuestionStatus(item.storageId, uid) !== "unanswered",
     );
     const unansweredItems = orderedNavigationItems.filter(
-      (item) => getStoredQuestionStatus(item.storageId) === "unanswered",
+      (item) => getStoredQuestionStatus(item.storageId, uid) === "unanswered",
     );
     const nextOrder = [...answeredItems, ...unansweredItems].map((item) => item.id);
 
@@ -1915,10 +2036,10 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     }
     const nextMarkedState = !markedForReview;
     toggleReview(currentQuestion.uuid);
-    localStorage.setItem(`${currentQuestion.uuid}-flagged`, String(nextMarkedState));
+    saveQuestionUiState(localStateKey, { flagged: nextMarkedState }, uid);
   };
 
-  const handleCheck = (overrideAnswer?: string) => {
+  const handleCheck = useCallback((overrideAnswer?: string) => {
     if (!currentQuestion) return;
     if (isAssessmentMode && !assessmentAllowsChecking) return;
     const userAnswer = overrideAnswer || (currentQuestion.type === 'multiple-choice' ? selectedAnswer : freeResponseAnswer);
@@ -1976,9 +2097,18 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
         if (!alreadyCorrect) {
           addAttempt(currentQuestion.uuid, "correct", duration, formattedAnswer);
         }
-        localStorage.setItem(`${localStateKey}-answer`, userAnswer);
-        localStorage.setItem(`${localStateKey}-checkedAnswers`, JSON.stringify(newCheckedAnswers));
-        localStorage.setItem(`${localStateKey}-status`, status);
+        saveQuestionUiState(
+          localStateKey,
+          isBankQuestionView
+            ? getNavigationOnlyQuestionUiPatch(status)
+            : {
+                answer: userAnswer,
+                checkedAnswers: newCheckedAnswers,
+                attemptCount: newAttemptCount,
+                status,
+              },
+          uid,
+        );
       }
     } else {
       const status = alreadyCorrectStatus ?? "incorrect";
@@ -1998,12 +2128,36 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
         if (!alreadyCorrect) {
           addAttempt(currentQuestion.uuid, "incorrect", duration, formattedAnswer);
         }
-        localStorage.setItem(`${localStateKey}-answer`, userAnswer);
-        localStorage.setItem(`${localStateKey}-checkedAnswers`, JSON.stringify(newCheckedAnswers));
-        localStorage.setItem(`${localStateKey}-status`, status);
+        saveQuestionUiState(
+          localStateKey,
+          isBankQuestionView
+            ? getNavigationOnlyQuestionUiPatch(status)
+            : {
+                answer: userAnswer,
+                checkedAnswers: newCheckedAnswers,
+                attemptCount: newAttemptCount,
+                status,
+              },
+          uid,
+        );
       }
     }
-  };
+  }, [
+    addAttempt,
+    assessmentAllowsChecking,
+    attemptCount,
+    checkButtonState,
+    checkedAnswers,
+    currentQuestion,
+    freeResponseAnswer,
+    isAssessmentMode,
+    isBankQuestionView,
+    isEmbed,
+    localStateKey,
+    persistModulePracticeQuestionState,
+    selectedAnswer,
+    uid,
+  ]);
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
@@ -2075,7 +2229,20 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                       : "unanswered",
               }));
             } else {
-              localStorage.setItem(`${localStateKey}-answer`, nextId);
+              const storedStatus = getStoredQuestionUiStatus(localStateKey, uid);
+              saveQuestionUiState(
+                localStateKey,
+                isBankQuestionView
+                  ? getNavigationOnlyQuestionUiPatch(
+                      isCheckedQuestionStatus(storedStatus)
+                        ? storedStatus
+                        : nextId
+                          ? "answered"
+                          : "unanswered",
+                    )
+                  : { answer: nextId },
+                uid,
+              );
             }
           }
           break;
@@ -2096,6 +2263,10 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     isModulePracticeMode,
     isAssessmentMode,
     assessmentAllowsChecking,
+    isBankQuestionView,
+    localStateKey,
+    persistModulePracticeQuestionState,
+    uid,
   ]);
 
   const hasSelection = currentQuestion
@@ -2104,6 +2275,17 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       : Boolean(freeResponseAnswer)
     : false;
   const isCheckDisabled = !hasSelection;
+  const freeResponseCheckedResult =
+    currentQuestion?.type === "free-response" && freeResponseAnswer
+      ? checkedAnswers[freeResponseAnswer]
+      : undefined;
+  const freeResponseInputClassName = cn(
+    "max-w-md transition-colors",
+    freeResponseCheckedResult === true &&
+      "border-2 border-[#1B5E20] bg-[#C8E6C9]/20 dark:border-[#2E7D32] dark:bg-[#1B5E20]/20",
+    freeResponseCheckedResult === false &&
+      "border-2 border-[#B71C1C] bg-[#FFCDD2]/20 dark:border-[#8B0000] dark:bg-[#5C1010]/20",
+  );
 
   const getCheckButtonClasses = () => {
     if (!hasSelection && checkButtonState === "idle") {
@@ -2296,6 +2478,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
         <Button
           onClick={() => {
             clearQuestionBankViewerNotes();
+            clearCurrentDesmosUiState();
             navigate(fallbackDestination);
           }}
         >
@@ -2347,7 +2530,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   };
   const handleCreateSimilarPracticeSet = (startNow: boolean) => {
     if (!currentBankQuestion) return;
-    const practiceSet = createCustomPracticeSetForQuestion(currentBankQuestion);
+    const practiceSet = createCustomPracticeSetForQuestion(currentBankQuestion, uid);
     if (startNow) {
       launchCustomPracticeSet(practiceSet, navigate);
       return;
@@ -2358,6 +2541,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   const handleSaveAndExit = () => {
     if (isPracticeTestMode && practiceTestSessionMeta && practiceTestSet) {
       flushModulePracticeQuestionTime();
+      clearCurrentDesmosUiState();
       const pausedSession = {
         ...practiceTestSessionMeta,
         status: "paused" as const,
@@ -2371,11 +2555,13 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
 
     if (!isModulePracticeMode || !modulePracticeSessionMeta || !modulePracticeModule) {
       clearQuestionBankViewerNotes();
+      clearCurrentDesmosUiState();
       navigate(backDestination);
       return;
     }
 
     flushModulePracticeQuestionTime();
+    clearCurrentDesmosUiState();
     const pausedSession = {
       ...modulePracticeSessionMeta,
       status: "paused" as const,
@@ -2492,7 +2678,20 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       }));
       return;
     }
-    localStorage.setItem(`${localStateKey}-answer`, answer);
+    const storedStatus = getStoredQuestionUiStatus(localStateKey, uid);
+    saveQuestionUiState(
+      localStateKey,
+      isBankQuestionView
+        ? getNavigationOnlyQuestionUiPatch(
+            isCheckedQuestionStatus(storedStatus)
+              ? storedStatus
+              : answer
+                ? "answered"
+                : "unanswered",
+          )
+        : { answer },
+      uid,
+    );
   };
   const handleFreeResponseChange = (answer: string) => {
     setFreeResponseAnswer(answer);
@@ -2511,7 +2710,20 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
               : "unanswered",
       }));
     } else {
-      localStorage.setItem(`${localStateKey}-answer`, answer);
+      const storedStatus = getStoredQuestionUiStatus(localStateKey, uid);
+      saveQuestionUiState(
+        localStateKey,
+        isBankQuestionView
+          ? getNavigationOnlyQuestionUiPatch(
+              isCheckedQuestionStatus(storedStatus)
+                ? storedStatus
+                : answer
+                  ? "answered"
+                  : "unanswered",
+            )
+          : { answer },
+        uid,
+      );
     }
   };
   const handleStrikeoutChange = (choiceIds: string[]) => {
@@ -2707,6 +2919,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                   size="sm"
                   onClick={() => {
                     clearQuestionBankViewerNotes();
+                    clearCurrentDesmosUiState();
                     navigate(backDestination);
                   }}
                 >
@@ -2823,7 +3036,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                     <DropdownMenuSeparator />
                     <DropdownMenuLabel>View Mode</DropdownMenuLabel>
                     <DropdownMenuRadioGroup
-                      value={questionViewMode}
+                      value={effectiveQuestionViewMode}
                       onValueChange={(value) =>
                         handleQuestionViewModeChange(value as QuestionViewMode)
                       }
@@ -2832,10 +3045,12 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                         <Rows3 className="mr-2 h-4 w-4" />
                         Vertical
                       </DropdownMenuRadioItem>
-                      <DropdownMenuRadioItem value="horizontal">
-                        <Columns3 className="mr-2 h-4 w-4" />
-                        Horizontal
-                      </DropdownMenuRadioItem>
+                      {!isMobile && (
+                        <DropdownMenuRadioItem value="horizontal">
+                          <Columns3 className="mr-2 h-4 w-4" />
+                          Horizontal
+                        </DropdownMenuRadioItem>
+                      )}
                     </DropdownMenuRadioGroup>
                     <DropdownMenuSeparator />
                     <DropdownMenuItem onClick={toggleTheme}>
@@ -2912,14 +3127,14 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       </header>
 
       <main
-        className={`flex-1 pb-28 ${questionViewMode === 'horizontal' ? 'px-8 py-6' : 'px-4 py-8'}`}
-        style={isSplitScreenActive ? { maxWidth: "var(--sat-split-pct, 70%)", marginLeft: 0 } : questionViewMode === 'horizontal' ? { width: "100%" } : { maxWidth: "1280px", margin: "0 auto", width: "100%" }}
+        className={`flex-1 pb-28 ${effectiveQuestionViewMode === 'horizontal' ? 'px-8 py-6' : 'px-4 py-8'}`}
+        style={isSplitScreenActive ? { maxWidth: "var(--sat-split-pct, 70%)", marginLeft: 0 } : effectiveQuestionViewMode === 'horizontal' ? { width: "100%" } : { maxWidth: "1280px", margin: "0 auto", width: "100%" }}
       >
         <div 
-          className={`relative ${questionViewMode === 'horizontal' ? 'p-6' : 'p-4 sm:p-6 md:p-8'}`}
-          style={{ maxWidth: isSplitScreenActive || questionViewMode === 'horizontal' ? "100%" : "56rem", margin: isSplitScreenActive || questionViewMode === 'horizontal' ? "0" : "0 auto" }}
+          className={`relative ${effectiveQuestionViewMode === 'horizontal' ? 'p-6' : 'p-4 sm:p-6 md:p-8'}`}
+          style={{ maxWidth: isSplitScreenActive || effectiveQuestionViewMode === 'horizontal' ? "100%" : "56rem", margin: isSplitScreenActive || effectiveQuestionViewMode === 'horizontal' ? "0" : "0 auto" }}
         >
-          {questionViewMode === 'horizontal' ? (
+          {effectiveQuestionViewMode === 'horizontal' ? (
             <div className="flex relative" style={{ minHeight: '400px' }}>
               <div
                 className={cn("pr-4 space-y-4", isEmbed && "overflow-y-auto")}
@@ -3013,7 +3228,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                       value={freeResponseAnswer}
                       onChange={(e) => handleFreeResponseChange(e.target.value)}
                       placeholder="Enter your answer"
-                      className="max-w-md"
+                      className={freeResponseInputClassName}
                     />
                   </div>
                 )}
@@ -3044,7 +3259,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                         size="icon"
                         onClick={handleStrikeoutModeToggle}
                         className={cn(
-                          "h-8 w-8 rounded text-muted-foreground hover:bg-white/50 hover:text-foreground dark:hover:bg-white/10",
+                          "h-9 w-9 rounded text-muted-foreground hover:bg-white/50 hover:text-foreground dark:hover:bg-white/10",
                           strikeoutMode && "bg-primary text-primary-foreground shadow-sm ring-1 ring-primary/40 hover:!bg-cobalt hover:!text-white hover:ring-cobalt/45 dark:bg-primary dark:text-primary-foreground dark:hover:!bg-cobalt dark:hover:!text-white",
                         )}
                         title={strikeoutMode ? "Turn strikethrough mode off" : "Turn strikethrough mode on"}
@@ -3111,7 +3326,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                     value={freeResponseAnswer}
                     onChange={(e) => handleFreeResponseChange(e.target.value)}
                     placeholder="Enter your answer"
-                    className="max-w-md"
+                    className={freeResponseInputClassName}
                   />
                 </div>
               )}
@@ -3132,7 +3347,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                 variant="outline"
                 onClick={handlePrevious}
                 disabled={!canGoPrevious}
-                className="h-10"
+                className={cn("h-10", shouldCompress && "w-11 px-0")}
               >
                 <ChevronLeft className={shouldCompress ? "h-4 w-4" : "mr-1 h-4 w-4"} />
                 {!shouldCompress && <span>Previous</span>}
@@ -3144,9 +3359,9 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
               data-nav-sheet
               className={cn(
                 "min-w-0 flex items-center justify-center gap-1 overflow-hidden px-1",
-                shouldPinBottomNavCenter
+                shouldPinBottomNavCenter && !shouldCompress
                   ? "absolute left-1/2 -translate-x-1/2"
-                  : "justify-self-end"
+                  : "justify-self-center"
               )}
             >
               {!isEmbed && !isAssessmentMode && <PreviousAttemptsDialog attempts={currentProgress.attempts} />}
@@ -3228,7 +3443,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
 
             <div
               ref={bottomNavRightRef}
-              className="ml-auto flex gap-2 shrink-0 justify-end"
+              className={cn("ml-auto flex shrink-0 justify-end", shouldCompress ? "gap-1" : "gap-2")}
               style={{ minWidth: shouldCompress ? undefined : '280px' }}
             >
               {!isAssessmentMode && (
@@ -3262,7 +3477,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                   onClick={() => handleCheck()}
                   disabled={isCheckDisabled}
                   variant="outline"
-                  className={cn("h-10 border-2 transition-colors duration-700", getCheckButtonClasses())}
+                  className={cn("h-10 border-2 transition-colors duration-700", shouldCompress && "w-11 px-0", getCheckButtonClasses())}
                 >
                   <Check className={shouldCompress ? "h-4 w-4" : "mr-1 h-4 w-4"} />
                   {!shouldCompress && <span>Check</span>}
@@ -3272,7 +3487,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                 onClick={handleEmbedAwareAdvance}
                 disabled={isAssessmentMode ? false : !canGoNext}
                 variant="outline"
-                className="h-10 transition-colors duration-200 ease-out"
+                className={cn("h-10 transition-colors duration-200 ease-out", shouldCompress && "w-11 px-0")}
               >
                 {!shouldCompress && (
                   <span>

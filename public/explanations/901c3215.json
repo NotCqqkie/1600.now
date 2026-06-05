@@ -1,1 +1,19 @@
-{"questionId": "901c3215", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Calculate the unknown angles in both triangles", "content": "In triangle ABC: $A = 180° - 27° - 41° = 112°$<br/><br/>In triangle DEF: $D = 180° - 27° - 41° = 112°$<br/><br/>Both triangles have identical angles: $112°$, $27°$, and $41°$."}, {"title": "Understand that equal angles alone establish similarity, not congruence", "content": "Since all corresponding angles are equal, the triangles are similar by AAA.<br/><br/>However, similar triangles have the same shape but can be different sizes—like a photograph and an enlargement.<br/><br/>To prove congruence (identical in every way), we need to show that at least one pair of corresponding sides are equal."}, {"title": "Evaluate which choice provides a corresponding side pair", "content": "The angle correspondence given in the problem tells us that angle $A$ corresponds to angle $D$ (both $112°$). By the properties of triangles:<ul><li>Side $BC$ is opposite angle $A$ in triangle ABC</li><li>Side $EF$ is opposite angle $D$ in triangle DEF</li></ul>Therefore, $BC$ and $EF$ are corresponding sides. Knowing the lengths of both $BC$ and $EF$ lets you determine whether they are equal. If they are equal, the triangles must be congruent (since they are already similar with scale factor 1). That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "901c3215",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate the unknown angles in both triangles",
+      "content": "In triangle ABC: $A = 180° - 27° - 41° = 112°$<br/><br/>In triangle DEF: $D = 180° - 27° - 41° = 112°$<br/><br/>Both triangles have identical angles: $112°$, $27°$, and $41°$."
+    },
+    {
+      "title": "Understand that equal angles alone establish similarity, not congruence",
+      "content": "Since all corresponding angles are equal, the triangles are similar by AAA.<br/><br/>However, similar triangles have the same shape but can be different sizes—like a photograph and an enlargement.<br/><br/>To prove congruence (identical in every way), we need to show that at least one pair of corresponding sides are equal."
+    },
+    {
+      "title": "Evaluate which choice provides a corresponding side pair",
+      "content": "The angle correspondence given in the problem tells us that angle $A$ corresponds to angle $D$ (both $112°$). By the properties of triangles:<ul><li>Side $BC$ is opposite angle $A$ in triangle ABC</li><li>Side $EF$ is opposite angle $D$ in triangle DEF</li></ul>Therefore, $BC$ and $EF$ are corresponding sides. Knowing the lengths of both $BC$ and $EF$ lets you determine whether they are equal. If they are equal, the triangles must be congruent (since they are already similar with scale factor 1). That matches choice C — <strong>C</strong> is correct."
+    }
+  ]
+}

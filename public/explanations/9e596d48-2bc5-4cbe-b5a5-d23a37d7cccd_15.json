@@ -1,1 +1,31 @@
-{"questionId": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_15", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Set equations equal and form the tangency condition", "content": "Since both expressions equal $y$, set them equal:<br/>$$2x^2 - 19x + 40 = x + a$$<br/>$$2x^2 - 20x + (40-a) = 0$$<br/>For the parabola and line to intersect at exactly one point, this quadratic must have exactly one solution."}, {"title": "Apply the discriminant equals zero condition", "content": "For exactly one solution to this quadratic, the discriminant must equal zero. With coefficients from $2x^2 - 20x + (40-a) = 0$:<br/>$$(-20)^2 - 4(2)(40-a) = 0$$<br/>$$400 - 8(40-a) = 0$$<br/>$$400 - 320 + 8a = 0$$<br/>$$a = -10$$", "formula": "$$b^2 - 4ac = 0$$"}, {"title": "Solve for x", "content": "Substitute $a = -10$ into the quadratic:<br/>$$2x^2 - 20x + 50 = 0$$<br/>$$x^2 - 10x + 25 = 0$$<br/>$$(x-5)^2 = 0$$<br/>$$x = 5$$<br/>That matches choice C — <strong>C</strong> is correct.","desmosExpressions":["y = 2x^2 - 19x + 40","y = x + 5"]}]}
+{
+  "questionId": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_15",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the exactly-one-intersection shortcut",
+      "content": "The line and parabola intersect where their $y$-values are equal:<br/>$$2x^2-19x+40=x+a$$<br/>$$2x^2-20x+(40-a)=0$$<br/>Exactly one intersection means this quadratic has one repeated solution, so its discriminant is $0$.",
+      "desmosExpressions": [
+        "y_1=[0]",
+        "y_1~(-20)^2-4*2*(40-a)"
+      ]
+    },
+    {
+      "title": "Find the line and graph it",
+      "content": "Desmos gives $a=-10$. The actual line is therefore $y=x-10$, not $y=x+5$. Graphing $y=2x^2-19x+40$ and $y=x-10$ shows that the line just touches the parabola at one point.",
+      "desmosExpressions": [
+        "y = 2x^2 - 19x + 40",
+        "y = x - 10"
+      ],
+      "formula": "$$b^2 - 4ac = 0$$"
+    },
+    {
+      "title": "Confirm the x-value",
+      "content": "Substitute $a=-10$ into the intersection equation:<br/>$$2x^2-20x+50=0$$<br/>Divide by $2$: $$x^2-10x+25=0$$<br/>$$(x-5)^2=0$$<br/>So the single intersection has $x=5$. That matches choice C, so <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "(5,-5)"
+      ]
+    }
+  ]
+}

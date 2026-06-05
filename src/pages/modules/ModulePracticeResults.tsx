@@ -16,6 +16,7 @@ import {
 import { cn, normalizePublicAssetPath } from "@/lib/utils";
 import { renderMixedContent } from "@/lib/text/mathRendering";
 import { normalizeReadingDisplayText } from "@/lib/text/readingTextNormalization";
+import { useAuth } from "@/contexts/AuthContext";
 
 const formatTime = (seconds: number) => {
   if (!seconds) return "0s";
@@ -69,6 +70,8 @@ const ModulePracticeResults = () => {
   const [isExplanationSidebarred, setIsExplanationSidebarred] = useState(true);
   const [questionSortMode, setQuestionSortMode] = useState<"seen" | "correct">("seen");
   const [questionSortDirection, setQuestionSortDirection] = useState<"asc" | "desc">("asc");
+  const { user } = useAuth();
+  const uid = user?.id ?? null;
   const sessionId = searchParams.get("session");
   const module = useMemo(
     () => (moduleId ? getPracticeModule(moduleId) : null),
@@ -77,10 +80,10 @@ const ModulePracticeResults = () => {
   const result = useMemo(() => {
     if (!module) return null;
     if (sessionId) {
-      return getModulePracticeResult(sessionId) ?? getLatestModulePracticeResult(module.slug);
+      return getModulePracticeResult(sessionId, uid) ?? getLatestModulePracticeResult(module.slug, uid);
     }
-    return getLatestModulePracticeResult(module.slug);
-  }, [module, sessionId]);
+    return getLatestModulePracticeResult(module.slug, uid);
+  }, [module, sessionId, uid]);
   const orderedQuestions = useMemo(() => {
     if (!result) return [];
     const directionMultiplier = questionSortDirection === "asc" ? 1 : -1;

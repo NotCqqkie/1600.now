@@ -4,17 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Locate the intersection point on the graph",
-      "content": "To solve a system of equations graphically, we find the point where the two graphs intersect. On the provided graph, the V-shaped absolute value function (with vertex at $(3, 2)$) and the straight-line linear function cross at a single point on the left side of the V.",
-      "desmosExpressions": [
-        "y = 1.5*abs(x - 3) + 2",
-        "y = x + 4"
-      ]
+      "title": "Use the graphical meaning of a solution",
+      "content": "A solution to a system of two equations is the point where the two graphs intersect. Here, the line and the absolute value graph cross at one point."
     },
     {
-      "title": "Read the coordinates and select the choice",
-      "content": "Reading the coordinates of the intersection point directly from the grid: the intersection occurs at $x = 1$ and $y = 5$. Therefore, the solution to the system is $(1, 5)$. This matches choice C \u2014 <strong>C</strong> is correct.",
-      "desmosExpressions": ["y = |x|", "y = 2"]
+      "title": "Read the intersection",
+      "content": "From the grid, the intersection point is $(1,5)$. The point $(4,2)$ is the vertex of the absolute value graph, not the solution to the system."
+    },
+    {
+      "title": "Match the choice",
+      "content": "The solution is $(1,5)$, which matches choice <strong>C</strong>."
     }
   ]
 }

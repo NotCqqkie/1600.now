@@ -1,1 +1,19 @@
-{"questionId": "f196343a-4470-4649-8efb-edf349dd4393_3", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Apply distance = speed times time", "content": "Walking distance: $2 \\text{ mph} \\times w \\text{ hours} = 2w$ miles. Running distance: $6 \\text{ mph} \\times r \\text{ hours} = 6r$ miles."}, {"title": "Sum to the total distance", "content": "Total distance is $10$ miles, so:<br/>$$2w + 6r = 10$$"}, {"title": "Evaluate each choice", "content": "<ul><li><strong>A) $2w + 6r = 10$:</strong> Matches the speed $\\times$ time sum equal to total miles. Correct.</li><li><strong>B) $\\frac{1}{2}w + \\frac{1}{6}r = 10$:</strong> Uses reciprocals of speeds (units of hours per mile), giving hours, not miles. Eliminated.</li><li><strong>C) $2w + 6r = 80$:</strong> Right left side, but total miles is $10$, not $80$. Eliminated.</li><li><strong>D) $\\frac{1}{2}w + \\frac{1}{6}r = 80$:</strong> Wrong coefficients and wrong total. Eliminated.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "f196343a-4470-4649-8efb-edf349dd4393_3",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply distance = speed times time",
+      "content": "Walking distance: $2 \\text{ mph} \\times w \\text{ hours} = 2w$ miles. Running distance: $6 \\text{ mph} \\times r \\text{ hours} = 6r$ miles."
+    },
+    {
+      "title": "Sum to the total distance",
+      "content": "Total distance is $10$ miles, so:<br/>$$2w + 6r = 10$$"
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li><strong>A) $2w + 6r = 10$:</strong> Matches the speed $\\times$ time sum equal to total miles. Correct.</li><li><strong>B) $\\frac{1}{2}w + \\frac{1}{6}r = 10$:</strong> Uses reciprocals of speeds (units of hours per mile), giving hours, not miles. Eliminated.</li><li><strong>C) $2w + 6r = 80$:</strong> Right left side, but total miles is $10$, not $80$. Eliminated.</li><li><strong>D) $\\frac{1}{2}w + \\frac{1}{6}r = 80$:</strong> Wrong coefficients and wrong total. Eliminated.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,27 @@
-{"questionId":"29b11893-ee0c-48ae-8103-403d9652ad14_16","correctAnswer":"A","section":"Math","steps":[{"title":"Recognize that both equations describe the same line","content":"Multiply the first equation by 6:$$6(5x+7y)=6(8)\\Rightarrow 30x+42y=48$$This is exactly the second equation. So the &quot;system&quot; is really one line: $5x+7y=8$. Any point on that line satisfies both equations."},{"title":"Parametrize the line by letting $x=r$","content":"Set $x=r$ for any real number $r$, then solve for $y$:$$5r+7y=8\\Rightarrow y=\\frac{8-5r}{7}=-\\frac{5r}{7}+\\frac{8}{7}$$So $\\left(r,\\ -\\frac{5r}{7}+\\frac{8}{7}\\right)$ lies on the line for every real $r$."},{"title":"Check each choice against $5x+7y=8$","content":"<ul><li><strong>A) $\\left(r,\\ -\\frac{5r}{7}+\\frac{8}{7}\\right)$:</strong> $5r+7\\left(-\\frac{5r}{7}+\\frac{8}{7}\\right)=5r-5r+8=8$. Works for all $r$. &check;</li><li><strong>B) $\\left(-\\frac{5r}{7}+\\frac{8}{7},\\ r\\right)$:</strong> $5\\left(-\\frac{5r}{7}+\\frac{8}{7}\\right)+7r=-\\frac{25r}{7}+\\frac{40}{7}+7r=\\frac{24r+40}{7}$, which only equals 8 when $r=\\frac{2}{3}$. &cross;</li><li><strong>C) $\\left(-\\frac{5r}{7}+8,\\ \\frac{5r}{7}+48\\right)$:</strong> $5\\left(-\\frac{5r}{7}+8\\right)+7\\left(\\frac{5r}{7}+48\\right)=-\\frac{25r}{7}+40+5r+336=\\frac{10r}{7}+376\\ne 8$. &cross;</li><li><strong>D) $\\left(\\frac{r}{6}+8,\\ -\\frac{r}{6}+48\\right)$:</strong> $5\\left(\\frac{r}{6}+8\\right)+7\\left(-\\frac{r}{6}+48\\right)=\\frac{5r}{6}+40-\\frac{7r}{6}+336=-\\frac{r}{3}+376\\ne 8$. &cross;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "29b11893-ee0c-48ae-8103-403d9652ad14_16",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize that both equations describe the same line",
+      "content": "Multiply the first equation by 6:$$6(5x+7y)=6(8)\\Rightarrow 30x+42y=48$$This is exactly the second equation. So the &quot;system&quot; is really one line: $5x+7y=8$. Any point on that line satisfies both equations."
+    },
+    {
+      "title": "Test the parametrized choices in Desmos",
+      "content": "Define $L(x,y)=5x+7y$. A point is on the solution line when $L(x,y)=8$. Set $r=[0,1]$ and evaluate each choice; the correct parametrization returns $[8,8]$, so it works for more than one value of $r$ and represents the whole line.",
+      "desmosExpressions": [
+        "r=[0,1]",
+        "L(x,y)=5x+7y",
+        "L(r,-5r/7+8/7)",
+        "L(-5r/7+8/7,r)",
+        "L(-5r/7+8,5r/7+48)",
+        "L(r/6+8,-r/6+48)"
+      ]
+    },
+    {
+      "title": "Check each choice against $5x+7y=8$",
+      "content": "<ul><li><strong>A) $\\left(r,\\ -\\frac{5r}{7}+\\frac{8}{7}\\right)$:</strong> $5r+7\\left(-\\frac{5r}{7}+\\frac{8}{7}\\right)=5r-5r+8=8$. Works for all $r$. &check;</li><li><strong>B) $\\left(-\\frac{5r}{7}+\\frac{8}{7},\\ r\\right)$:</strong> $5\\left(-\\frac{5r}{7}+\\frac{8}{7}\\right)+7r=-\\frac{25r}{7}+\\frac{40}{7}+7r=\\frac{24r+40}{7}$, which only equals 8 when $r=\\frac{2}{3}$. &cross;</li><li><strong>C) $\\left(-\\frac{5r}{7}+8,\\ \\frac{5r}{7}+48\\right)$:</strong> $5\\left(-\\frac{5r}{7}+8\\right)+7\\left(\\frac{5r}{7}+48\\right)=-\\frac{25r}{7}+40+5r+336=\\frac{10r}{7}+376\\ne 8$. &cross;</li><li><strong>D) $\\left(\\frac{r}{6}+8,\\ -\\frac{r}{6}+48\\right)$:</strong> $5\\left(\\frac{r}{6}+8\\right)+7\\left(-\\frac{r}{6}+48\\right)=\\frac{5r}{6}+40-\\frac{7r}{6}+336=-\\frac{r}{3}+376\\ne 8$. &cross;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

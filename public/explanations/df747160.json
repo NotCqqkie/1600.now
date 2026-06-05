@@ -1,1 +1,31 @@
-{"questionId":"df747160","correctAnswer":"D","section":"Math","steps":[{"title":"Factor the expression","content":"Inside the parentheses, $x^2-100y^2$ is a difference of squares: $(x-10y)(x+10y)$. Therefore:$$17(x^2-100y^2)=17(x-10y)(x+10y)$$"},{"title":"Match to the answer choices","content":"The factored form is $17(x-10y)(x+10y)$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "df747160",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor the expression",
+      "content": "Inside the parentheses, $x^2-100y^2$ is a difference of squares: $(x-10y)(x+10y)$. Therefore:$$17(x^2-100y^2)=17(x-10y)(x+10y)$$"
+    },
+    {
+      "title": "Match to the answer choices",
+      "content": "The factored form is $17(x-10y)(x+10y)$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice D is correct. Expressions in the form ${a}^{2}-{b}^{2}$ follow the difference of two squares pattern and can be factored as $(a-b)(a+b)$. In the given expression, $17({x}^{2}-100{y}^{2})$, the expression ${x}^{2}-100{y}^{2}$ follows the difference of two squares pattern. It follows that the expression ${x}^{2}-100{y}^{2}$ can be rewritten as $(x-10y)(x+10y)$. Therefore, the expression $17(x-10y)(x+10y)$ is equivalent to $17({x}^{2}-100{y}^{2})$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A is incorrect. This expression is equivalent to $17({x}^{2}-52xy+100{y}^{2})$, not $17({x}^{2}-100{y}^{2})$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice B is incorrect. This expression is equivalent to $17({x}^{2}+48xy-100{y}^{2})$, not $17({x}^{2}-100{y}^{2})$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice C is incorrect. This expression is equivalent to $17({x}^{2}-20xy+100{y}^{2})$, not $17({x}^{2}-100{y}^{2})$."
+    }
+  ]
+}

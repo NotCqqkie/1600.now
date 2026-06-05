@@ -9,8 +9,15 @@
     },
     {
       "title": "Compare the line to the parabola's maximum",
-      "content": "The horizontal line is $y = 9$. Since 9 exceeds the parabola's maximum of 8, the line lies entirely above the parabola and cannot intersect it. The number of intersection points is zero. That matches choice D \u2014 <strong>D</strong> is correct.",
-      "desmosExpressions": ["y = 9", "y = -(x - 9)^{2} + 8"]
+      "content": "The horizontal line is $y = 9$. Since 9 exceeds the parabola's maximum of 8, the line lies entirely above the parabola and cannot intersect it. The number of intersection points is zero. That matches choice D — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "y = 9",
+        "y = -(x - 9)^{2} + 8"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice D, Zero. The other choices do not satisfy the same condition from the question, so <strong>D</strong> is correct."
     }
   ]
 }

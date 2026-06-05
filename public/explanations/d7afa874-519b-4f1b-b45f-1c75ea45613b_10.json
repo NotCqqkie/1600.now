@@ -1,1 +1,23 @@
-{"questionId":"d7afa874-519b-4f1b-b45f-1c75ea45613b_10","correctAnswer":"D","section":"Math","steps":[{"title":"Identify roots from the factored form","content":"$h(x)=(x+p)(x-2)(2x-12)$ has zeros at $x=-p,\\ x=2,\\ x=6$."},{"title":"Use the given point to set up an equation in p","content":"Since $(-3,0)$ is a zero and $-3\\ne 2,6$, we need $-3+p=0$, so $p=3$."},{"title":"Compute h(0) and conclude","content":"$h(0)=(3)(-2)(-12)=72$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "d7afa874-519b-4f1b-b45f-1c75ea45613b_10",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify roots from the factored form",
+      "content": "$h(x)=(x+p)(x-2)(2x-12)$ has zeros at $x=-p,\\ x=2,\\ x=6$."
+    },
+    {
+      "title": "Use the given point to set up an equation in p",
+      "content": "Since $(-3,0)$ is a zero and $-3\\ne 2,6$, we need $-3+p=0$, so $p=3$."
+    },
+    {
+      "title": "Compute h(0) and conclude",
+      "content": "$h(0)=(3)(-2)(-12)=72$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice D, 72, and the other choices fail the same setup or substitution. Therefore <strong>D</strong> is correct."
+    }
+  ]
+}

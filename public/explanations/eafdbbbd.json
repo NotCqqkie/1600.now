@@ -1,1 +1,31 @@
-{"questionId":"eafdbbbd","correctAnswer":"C","section":"Math","steps":[{"title":"Combine like terms","content":"Factor $(x+5)$ from the left: $$\\left(\\tfrac{1}{4}-\\tfrac{1}{3}\\right)(x+5)=-7.$$ Since $\\tfrac{1}{4}-\\tfrac{1}{3}=-\\tfrac{1}{12}$, this becomes $-\\tfrac{1}{12}(x+5)=-7$."},{"title":"Solve for x","content":"Multiply both sides by $-12$: $x+5=84$, so $x=79$. That matches choice <strong>C</strong> &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "eafdbbbd",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Combine like terms",
+      "content": "Factor $(x+5)$ from the left: $$\\left(\\tfrac{1}{4}-\\tfrac{1}{3}\\right)(x+5)=-7.$$ Since $\\tfrac{1}{4}-\\tfrac{1}{3}=-\\tfrac{1}{12}$, this becomes $-\\tfrac{1}{12}(x+5)=-7$."
+    },
+    {
+      "title": "Solve for x",
+      "content": "Multiply both sides by $-12$: $x+5=84$, so $x=79$. That matches choice <strong>C</strong> &mdash; <strong>C</strong> is correct."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice C is correct. For the given equation, $\\left(x+5\\right)$ is a factor of both terms on the left-hand side. Therefore, the given equation can be rewritten as $\\left(\\frac{1}{4}-\\frac{1}{3}\\right)\\left(x+5\\right)=-7$, or $\\left(\\frac{3}{12}-\\frac{4}{12}\\right)\\left(x+5\\right)=-7$, which is equivalent to $-\\frac{1}{12}\\left(x+5\\right)=-7$. Multiplying both sides of this equation by $-12$ yields $x+5=84$. Subtracting $5$ from both sides of this equation yields $x=79$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A is incorrect. This is the value of $x$ for which the left-hand side of the given equation equals $\\frac{7}{12}$, not $-7$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice B is incorrect. This is the value of $x$ for which the left-hand side of the given equation equals $0$, not $-7$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice D is incorrect. This is the value of $x$ for which the left-hand side of the given equation equals $-\\frac{209}{12}$, not $-7$."
+    }
+  ]
+}

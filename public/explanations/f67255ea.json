@@ -1,1 +1,19 @@
-{"questionId":"f67255ea","correctAnswer":"1660","section":"Math","steps":[{"title":"Set up the angle relationship","content":"An acute and an obtuse angle from this configuration are supplementary, so $\\text{obtuse}=180-(9x-560)=740-9x$. The sum is $$(9x-560)+3(740-9x)=9x-560+2220-27x=-18x+1660.$$"},{"title":"Solve for the requested measure","content":"Matching $-18x+w$ gives $w=1660$. The answer is <strong>1660</strong>."}]}
+{
+  "questionId": "f67255ea",
+  "correctAnswer": "1660",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the angle relationship",
+      "content": "An acute and an obtuse angle from this configuration are supplementary, so $\\text{obtuse}=180-(9x-560)=740-9x$. The sum is $$(9x-560)+3(740-9x)=9x-560+2220-27x=-18x+1660.$$"
+    },
+    {
+      "title": "Solve for the requested measure",
+      "content": "Matching $-18x+w$ gives $w=1660$. The answer is <strong>1660</strong>."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $1,660$. It's given that a line intersects two parallel lines, forming four acute angles and four obtuse angles. When two parallel lines are intersected by a transversal line, the angles formed have the following properties: two adjacent angles are supplementary, and alternate interior angles are congruent. Therefore, each of the four acute angles have the same measure, and each of the four obtuse angles have the same measure. It's also given that the measure of one of the acute angles is $\\left(9x-560\\right)^\\circ$. If two angles are supplementary, then the sum of their measures is $180^\\circ$. Therefore, the measure of the obtuse angle adjacent to any of the acute angles is $\\left(180-(9x-560)\\right)^\\circ$, or $\\left(180-9x+560\\right)^\\circ$, which is equivalent to $\\left(-9x+740\\right)^\\circ$. It's given that the sum of the measures of one of the acute angles and three of the obtuse angles is $\\left(-18x+w\\right)^\\circ$. It follows that $(9x-560)+3(-9x+740)=\\left(-18x+w\\right)$, which is equivalent to $9x-560-27x+2,220=-18x+w$, or $-18x+1,660=-18x+w$. Adding $18x$ to both sides of this equation yields $1,660=w$."
+    }
+  ]
+}

@@ -37,7 +37,7 @@ from .stages.questions import extract_all_questions
 from .stages.figures import extract_figures
 from .stages.classify import classify_and_enrich
 from .stages.validate import validate_and_output
-from .utils.claude_client import RateLimitedClient
+from .utils.cli_client import RateLimitedClient
 from .utils.checkpoint import Checkpoint
 
 
@@ -204,8 +204,8 @@ def main():
     parser.add_argument("--test-map", type=str, help="JSON mapping filenames to test numbers (batch mode)")
     parser.add_argument("--output-dir", type=str, default="./output", help="Output directory")
     parser.add_argument("--work-dir", type=str, default="./work", help="Working directory for intermediate files")
-    parser.add_argument("--api-key", type=str, default=None, help="(unused — pipeline uses local `claude` CLI)")
-    parser.add_argument("--model", type=str, default="sonnet", help="Claude model alias for `claude --model`")
+    parser.add_argument("--api-key", type=str, default=None, help="Reserved for compatibility")
+    parser.add_argument("--model", type=str, default=os.environ.get("EXTRACTION_MODEL", "default"), help="Model alias for the extraction CLI")
     parser.add_argument("--dpi", type=int, default=200, help="DPI for page rendering")
     parser.add_argument("--batch-size", type=int, default=2, help="Pages per API call")
     parser.add_argument("--rpm", type=int, default=20, help="API requests per minute limit")
@@ -214,7 +214,6 @@ def main():
 
     args = parser.parse_args()
 
-    # Using the local `claude` CLI (subscription-based) — no API key required.
     project_root = get_project_root()
     client = RateLimitedClient(model=args.model, rpm=args.rpm)
 

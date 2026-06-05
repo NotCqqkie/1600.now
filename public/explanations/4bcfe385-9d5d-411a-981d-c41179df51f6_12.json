@@ -1,1 +1,19 @@
-{"questionId":"4bcfe385-9d5d-411a-981d-c41179df51f6_12","correctAnswer":"B","section":"Math","steps":[{"title":"Identify what the question needs","content":"The histogram shows 14 salmon weights. A 15th salmon weighing 85 pounds is added. The question asks which of two statements &mdash; (I) the median increases, (II) the mean increases &mdash; must be true."},{"title":"Eliminate the choices","content":"<ul><li><strong>Statement I &mdash; median must increase:</strong> With 14 values the original median is the average of the 7th and 8th values. Counting from the histogram: positions 1&ndash;3 are in [10,&nbsp;15), positions 4&ndash;9 are in [15,&nbsp;20). Both the 7th and 8th values lie in [15,&nbsp;20). With 15 values, the new median is just the 8th value &mdash; still in [15,&nbsp;20). If the 7th and 8th values happen to be equal, the new median equals the old one. Statement I is <strong>not guaranteed</strong>. &#10007;</li><li><strong>Statement II &mdash; mean must increase:</strong> Let $S$ be the original sum of 14 weights. The new mean exceeds the old mean when $\\dfrac{S+85}{15} > \\dfrac{S}{14}$. Cross-multiplying: $14(S+85) > 15S \\Rightarrow S < 1{,}190$. The maximum possible $S$ from the histogram is $3(15)+6(20)+2(25)+1(30)+2(35)=315$. Since $315 &lt; 1{,}190$ always holds, the mean always increases. Statement II is <strong>guaranteed</strong>. &#10003;</li></ul>Only Statement II must be true &mdash; that matches choice B."},{"title":"Answer","content":"<strong>B</strong> is correct."}]}
+{
+  "questionId": "4bcfe385-9d5d-411a-981d-c41179df51f6_12",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The histogram shows 14 salmon weights. A 15th salmon weighing 85 pounds is added. The question asks which of two statements &mdash; (I) the median increases, (II) the mean increases &mdash; must be true."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Statement I &mdash; median must increase:</strong> With 14 values the original median is the average of the 7th and 8th values. Counting from the histogram: positions 1&ndash;3 are in [10,&nbsp;15), positions 4&ndash;9 are in [15,&nbsp;20). Both the 7th and 8th values lie in [15,&nbsp;20). With 15 values, the new median is just the 8th value &mdash; still in [15,&nbsp;20). If the 7th and 8th values happen to be equal, the new median equals the old one. Statement I is <strong>not guaranteed</strong>. &#10007;</li><li><strong>Statement II &mdash; mean must increase:</strong> Let $S$ be the original sum of 14 weights. The new mean exceeds the old mean when $\\dfrac{S+85}{15} > \\dfrac{S}{14}$. Cross-multiplying: $14(S+85) > 15S \\Rightarrow S < 1{,}190$. The maximum possible $S$ from the histogram is $3(15)+6(20)+2(25)+1(30)+2(35)=315$. Since $315 &lt; 1{,}190$ always holds, the mean always increases. Statement II is <strong>guaranteed</strong>. &#10003;</li></ul>Only Statement II must be true &mdash; that matches choice B."
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>B</strong> is correct."
+    }
+  ]
+}

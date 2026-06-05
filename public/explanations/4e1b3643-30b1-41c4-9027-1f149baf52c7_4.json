@@ -4,12 +4,18 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Calculate the slope from table points",
-      "content": "Using any two points from the table, apply the slope formula. If the points are $(0, 20)$ and $(1, 21)$:<br/>$$m = \\frac{21 - 20}{1 - 0} = 1$$The slope is 1. Checking the answer choices: A has slope 20, B and C have slope 22, and D has slope 1. Only choice D matches."
+      "title": "Use Desmos to fit the table",
+      "content": "Because the relationship is linear, put two table rows into Desmos as lists: $x_1=[0,1]$ and $y_1=[20,21]$. Then type $y_1 \\sim m x_1+b$. Desmos returns $m=1$ and $b=20$, so the equation is $y=x+20$.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[20,21]",
+        "y_1~m x_1+b",
+        "y=x+20"
+      ]
     },
     {
       "title": "Find the y-intercept and identify the answer",
-      "content": "Using any table point with the slope $m = 1$. If the point $(0, 20)$ is in the table:<br/>$$20 = 1(0) + b$$$$b = 20$$The equation is $y = x + 20$. That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "The Desmos model $y=x+20$ has slope 1 and y-intercept 20. This eliminates A, B, and C because their slopes are 20 or 22. Choice D is exactly $y=x+20$, so <strong>D</strong> is correct."
     }
   ]
 }

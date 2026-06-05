@@ -1,1 +1,31 @@
-{"questionId":"5f46fc76","correctAnswer":"C","section":"Math","steps":[{"title":"Read the intersection from the graph","content":"The solution to a graphed system is the point where the two lines cross. Here that point is at $x=-4,\\ y=-3$."},{"title":"State the ordered pair","content":"The solution is $(-4,-3)$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}
+{
+  "questionId": "5f46fc76",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the intersection from the graph",
+      "content": "The solution to a graphed system is the point where the two lines cross. Here that point is at $x=-4,\\ y=-3$."
+    },
+    {
+      "title": "State the ordered pair",
+      "content": "The solution is $(-4,-3)$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "Choice C is correct. The solution to a system of linear equations is represented by the point that lies on the graph of each equation in the system, or the point where the lines intersect on a graph. On the graph shown, the two lines intersect at the point $\\left(-4,-3\\right)$. Therefore, the solution to the system is $\\left(-4,-3\\right)$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A is incorrect. This is the <em>y</em>-intercept of the graph of one of the lines shown, not the intersection point of the two lines."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice B is incorrect and may result from conceptual or calculation errors."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice D is incorrect and may result from conceptual or calculation errors."
+    }
+  ]
+}

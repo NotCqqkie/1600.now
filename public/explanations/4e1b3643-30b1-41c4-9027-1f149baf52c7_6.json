@@ -1,1 +1,18 @@
-{"questionId": "4e1b3643-30b1-41c4-9027-1f149baf52c7_6", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Identify what the question needs", "content": "An exponential model has the form $y = a \\cdot b^x$. Two facts are given: (1) when $x = 0$, $y = 70$; (2) each increase of 1 in $x$ raises $y$ by 50% of its current value. We need $a$ (the initial value) and $b$ (the growth factor)."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; '$y = 70(1.50)^x$'</strong>: $a = 70$ matches the starting value; $b = 1.50$ matches a 50% increase each step. &#10003;</li><li><strong>Choice B &mdash; '$y = 70(0.50)^x$'</strong>: base 0.50 means the value halves each step &mdash; that is decay, not growth. &#10007;</li><li><strong>Choice C &mdash; '$y = 50(1.70)^x$'</strong>: initial value is 50, not 70. &#10007;</li><li><strong>Choice D &mdash; '$y = 50(1.50)^x$'</strong>: initial value is 50, not 70. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.", "desmosExpressions": ["y = 70(1.50)^{x}"]}]}
+{
+  "questionId": "4e1b3643-30b1-41c4-9027-1f149baf52c7_6",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "An exponential model has the form $y = a \\cdot b^x$. Two facts are given: (1) when $x = 0$, $y = 70$; (2) each increase of 1 in $x$ raises $y$ by 50% of its current value. We need $a$ (the initial value) and $b$ (the growth factor)."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; '$y = 70(1.50)^x$'</strong>: $a = 70$ matches the starting value; $b = 1.50$ matches a 50% increase each step. &#10003;</li><li><strong>Choice B &mdash; '$y = 70(0.50)^x$'</strong>: base 0.50 means the value halves each step &mdash; that is decay, not growth. &#10007;</li><li><strong>Choice C &mdash; '$y = 50(1.70)^x$'</strong>: initial value is 50, not 70. &#10007;</li><li><strong>Choice D &mdash; '$y = 50(1.50)^x$'</strong>: initial value is 50, not 70. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y = 70(1.50)^{x}"
+      ]
+    }
+  ]
+}

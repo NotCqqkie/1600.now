@@ -1,1 +1,19 @@
-{"questionId": "ba06b998-d854-4b29-830c-15d877280c75_12", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Identify what each choice is testing", "content": "When a transversal crosses two lines, the lines are parallel if and only if one of these holds:<ul><li>Corresponding angles are equal</li><li>Alternate interior angles are equal</li><li>Co-interior angles (same-side interior) sum to 180°</li></ul>Let me evaluate what each choice establishes:<br/><strong>Choice A:</strong> $x = 34°$ means $w + x = 146 + 34 = 180°$. These are angles at the <em>same</em> intersection forming a linear pair. This says nothing about the relationship between the two intersections. <strong>Not sufficient.</strong><br/><strong>Choice D:</strong> $y + z = 180°$ means angles $y$ and $z$ are at the <em>same</em> right intersection forming a linear pair. Like choice A, this does not relate the two intersections. <strong>Not sufficient.</strong>"}, {"title": "Test whether B establishes equal corresponding angles", "content": "In the diagram, $w$ is at the left intersection and $y$ is at the right intersection.<br/><br/>Looking at their positions: $w$ is in the upper region where the transversal meets line $r$, and $y$ is in the upper region where the transversal meets line $s$.<br/><br/>These are corresponding angles—they occupy the same relative position at each intersection. <br/>If $y = 146°$, then $w = y = 146°$, so the corresponding angles are equal.<br/><br/>By the converse of the Corresponding Angles Postulate, this proves $r \\parallel s$. <strong>Choice B is sufficient.</strong>"}, {"title": "Verify that choice B is the answer", "content": "To double-check, if $y = 146°$ and $w = 146°$, these equal corresponding angles guarantee that the two lines cut by the transversal are parallel. That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "ba06b998-d854-4b29-830c-15d877280c75_12",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what each choice is testing",
+      "content": "When a transversal crosses two lines, the lines are parallel if and only if one of these holds:<ul><li>Corresponding angles are equal</li><li>Alternate interior angles are equal</li><li>Co-interior angles (same-side interior) sum to 180°</li></ul>Let me evaluate what each choice establishes:<br/><strong>Choice A:</strong> $x = 34°$ means $w + x = 146 + 34 = 180°$. These are angles at the <em>same</em> intersection forming a linear pair. This says nothing about the relationship between the two intersections. <strong>Not sufficient.</strong><br/><strong>Choice D:</strong> $y + z = 180°$ means angles $y$ and $z$ are at the <em>same</em> right intersection forming a linear pair. Like choice A, this does not relate the two intersections. <strong>Not sufficient.</strong>"
+    },
+    {
+      "title": "Test whether B establishes equal corresponding angles",
+      "content": "In the diagram, $w$ is at the left intersection and $y$ is at the right intersection.<br/><br/>Looking at their positions: $w$ is in the upper region where the transversal meets line $r$, and $y$ is in the upper region where the transversal meets line $s$.<br/><br/>These are corresponding angles—they occupy the same relative position at each intersection. <br/>If $y = 146°$, then $w = y = 146°$, so the corresponding angles are equal.<br/><br/>By the converse of the Corresponding Angles Postulate, this proves $r \\parallel s$. <strong>Choice B is sufficient.</strong>"
+    },
+    {
+      "title": "Verify that choice B is the answer",
+      "content": "To double-check, if $y = 146°$ and $w = 146°$, these equal corresponding angles guarantee that the two lines cut by the transversal are parallel. That matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

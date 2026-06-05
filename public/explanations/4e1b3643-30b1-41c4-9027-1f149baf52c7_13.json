@@ -1,1 +1,19 @@
-{"questionId":"4e1b3643-30b1-41c4-9027-1f149baf52c7_13","correctAnswer":"18,10","section":"Math","steps":[{"title":"Find the roots","content":"Set each factor of $(x-18)(x-10)(x+3)(x+19)=0$ to zero: $x=18$, $x=10$, $x=-3$, and $x=-19$."},{"title":"Identify the positive solution","content":"The positive solutions are $18$ and $10$. The answer is <strong>18</strong> or <strong>10</strong>."}]}
+{
+  "questionId": "4e1b3643-30b1-41c4-9027-1f149baf52c7_13",
+  "correctAnswer": "18,10",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the roots",
+      "content": "Set each factor of $(x-18)(x-10)(x+3)(x+19)=0$ to zero: $x=18$, $x=10$, $x=-3$, and $x=-19$."
+    },
+    {
+      "title": "Identify the positive solution",
+      "content": "The positive solutions are $18$ and $10$. The answer is <strong>18</strong> or <strong>10</strong>."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $18,10$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $18,10$."
+    }
+  ]
+}

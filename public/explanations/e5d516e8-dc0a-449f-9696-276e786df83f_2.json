@@ -1,1 +1,19 @@
-{"questionId":"e5d516e8-dc0a-449f-9696-276e786df83f_2","correctAnswer":"B","section":"Math","steps":[{"title":"Factor the expression","content":"The GCF is $x^3$. Factor it out:$$7x^5-5x^4+9x^3=x^3(7x^2-5x+9)$$"},{"title":"Match to the answer choices","content":"The factored form is $x^3(7x^2-5x+9)$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}
+{
+  "questionId": "e5d516e8-dc0a-449f-9696-276e786df83f_2",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor the expression",
+      "content": "The GCF is $x^3$. Factor it out:$$7x^5-5x^4+9x^3=x^3(7x^2-5x+9)$$"
+    },
+    {
+      "title": "Match to the answer choices",
+      "content": "The factored form is $x^3(7x^2-5x+9)$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice B, $x^3(7x^2 - 5x + 9)$. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
+    }
+  ]
+}

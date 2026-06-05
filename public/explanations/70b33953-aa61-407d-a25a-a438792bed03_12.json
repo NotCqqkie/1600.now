@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "text": "Find the outer and inner radii. Outside diameter = 60 in \\(\\Rightarrow\\) outer radius \\(R = 30\\) in. Wall thickness = \\(\\frac{5}{8}\\) in \\(\\Rightarrow\\) inner radius \\(r = 30 - \\frac{5}{8} = \\frac{235}{8}\\) in."
+      "text": "Find the outer and inner radii. Outside diameter = 60 in $\\Rightarrow$ outer radius $R = 30$ in. Wall thickness = $\\frac{5}{8}$ in $\\Rightarrow$ inner radius $r = 30 - \\frac{5}{8} = \\frac{235}{8}$ in."
     },
     {
-      "text": "Compute \\(R^2 - r^2\\) using the difference-of-squares identity: \\((R-r)(R+r) = \\frac{5}{8} \\times \\left(30 + \\frac{235}{8}\\right) = \\frac{5}{8} \\times \\frac{475}{8} = \\frac{2375}{64}\\)."
+      "text": "Compute $R^2 - r^2$ using the difference-of-squares identity: $(R-r)(R+r) = \\frac{5}{8} \\times \\left(30 + \\frac{235}{8}\\right) = \\frac{5}{8} \\times \\frac{475}{8} = \\frac{2375}{64}$."
     },
     {
-      "text": "Apply the hollow cylinder volume formula: \\(V = \\pi h(R^2 - r^2) = \\pi \\times 132 \\times \\frac{2375}{64} = \\frac{313500\\pi}{64} \\approx 15{,}391\\) cubic inches."
+      "text": "Apply the hollow cylinder volume formula: $V = \\pi h(R^2 - r^2) = \\pi \\times 132 \\times \\frac{2375}{64} = \\frac{313500\\pi}{64} \\approx 15{,}391$ cubic inches."
     },
     {
-      "text": "Evaluate all choices:<ul><li><strong>A: 162</strong> — far too small; this is roughly \\(\\pi \\times 5/8 \\times 1\\), not accounting for the full height or circumference. Eliminated.</li><li><strong>B: 518</strong> — still far too small for a 132-inch-tall pipe with a 60-inch diameter. Eliminated.</li><li><strong>C: 2,475</strong> — about 6 times too small; possibly from omitting \\(\\pi\\) or using wrong dimensions. Eliminated.</li><li><strong>D: 15,389</strong> — matches \\(\\frac{313500\\pi}{64} \\approx 15{,}391\\). That matches choice D — <strong>D</strong> is correct.</li></ul>"
+      "text": "Evaluate all choices:<ul><li><strong>A: 162</strong> — far too small; this is roughly $\\pi \\times 5/8 \\times 1$, not accounting for the full height or circumference. Eliminated.</li><li><strong>B: 518</strong> — still far too small for a 132-inch-tall pipe with a 60-inch diameter. Eliminated.</li><li><strong>C: 2,475</strong> — about 6 times too small; possibly from omitting $\\pi$ or using wrong dimensions. Eliminated.</li><li><strong>D: 15,389</strong> — matches $\\frac{313500\\pi}{64} \\approx 15{,}391$. That matches choice D — <strong>D</strong> is correct.</li></ul>"
     }
   ]
 }

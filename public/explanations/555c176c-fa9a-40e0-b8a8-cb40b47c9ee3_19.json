@@ -1,1 +1,23 @@
-{"questionId": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_19", "correctAnswer": "4", "section": "Math", "steps": [{"title": "Set up", "content": "g(x) = 3x and g(x) = 12, so: $$3x = 12$$"}, {"title": "Solve", "content": "Divide both sides by 3: $$x = 4$$"}, {"title": "Answer", "content": "<strong>4</strong> is correct."}]}
+{
+  "questionId": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_19",
+  "correctAnswer": "4",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "g(x) = 3x and g(x) = 12, so: $$3x = 12$$"
+    },
+    {
+      "title": "Solve",
+      "content": "Divide both sides by 3: $$x = 4$$"
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>4</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $4$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $4$."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "ba06b998-d854-4b29-830c-15d877280c75_1", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Substitute t = 3 into the equation", "content": "The equation $s = 40 + 2t$ gives the speed $s$, in miles per hour, of the car $t$ seconds after it began to accelerate. To find the speed at $t = 3$, substitute:<br/>$$s = 40 + 2(3) = 40 + 6 = 46$$"}, {"title": "Identify the answer", "content": "The speed of the car 3 seconds after it began to accelerate is 46 miles per hour. That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "ba06b998-d854-4b29-830c-15d877280c75_1",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute t = 3 into the equation",
+      "content": "The equation $s = 40 + 2t$ gives the speed $s$, in miles per hour, of the car $t$ seconds after it began to accelerate. To find the speed at $t = 3$, substitute:<br/>$$s = 40 + 2(3) = 40 + 6 = 46$$"
+    },
+    {
+      "title": "Identify the answer",
+      "content": "The speed of the car 3 seconds after it began to accelerate is 46 miles per hour. That matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

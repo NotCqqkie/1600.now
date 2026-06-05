@@ -1,1 +1,15 @@
-{"questionId": "623dbebb", "correctAnswer": "4.05", "section": "Math", "steps": [{"title": "Find the consumer price", "content": "The consumer price is <strong>270% of the purchase price</strong>: <br/> $$5.00 \\times 2.70 = 13.50$$ <br/> The consumer price is \\$13.50."}, {"title": "Apply the 70% discount", "content": "<strong>70% off</strong> means the customer pays 30% of the consumer price (100% − 70% = 30%): <br/> $$13.50 \\times 0.30 = 4.05$$ <br/> The discounted price of each remaining book is <strong>\\$4.05</strong>."}]}
+{
+  "questionId": "623dbebb",
+  "correctAnswer": "4.05",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the consumer price",
+      "content": "The consumer price is <strong>270% of the purchase price</strong>: <br/> $$5.00 \\times 2.70 = 13.50$$ <br/> The consumer price is \\$13.50."
+    },
+    {
+      "title": "Apply the 70% discount",
+      "content": "<strong>70% off</strong> means the customer pays 30% of the consumer price (100% − 70% = 30%): <br/> $$13.50 \\times 0.30 = 4.05$$ <br/> The discounted price of each remaining book is <strong>\\$4.05</strong>."
+    }
+  ]
+}

@@ -1,1 +1,23 @@
-{"questionId": "d7bf55e1", "correctAnswer": "180", "section": "Math", "steps": [{"title": "Set up the system of equations", "content": "Let $a$ = number of adult tickets and $c$ = number of child tickets. The problem gives us two constraints: the total number of tickets is 30, and the total revenue is \\$300.<br/>$$a + c = 30$$<br/>$$12a + 8c = 300$$"}, {"title": "Solve for the number of adult tickets using substitution", "content": "From the first equation, express $c$ in terms of $a$: $c = 30 - a$. Substitute this into the second equation:<br/>$$12a + 8(30 - a) = 300$$<br/>$$12a + 240 - 8a = 300$$<br/>$$4a + 240 = 300$$<br/>$$4a = 60$$<br/>$$a = 15$$<br/>So 15 adult tickets were sold."}, {"title": "Calculate the amount spent on adult tickets", "content": "Multiply the number of adult tickets by the price per ticket: $15 \\times 12 = 180$. Therefore, the amount spent on adult tickets is <strong>180</strong> dollars.", "desmosExpressions": ["y = 30 - x", "y = (300 - 12x)/8"]}]}
+{
+  "questionId": "d7bf55e1",
+  "correctAnswer": "180",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the system of equations",
+      "content": "Let $a$ = number of adult tickets and $c$ = number of child tickets. The problem gives us two constraints: the total number of tickets is 30, and the total revenue is \\$300.<br/>$$a + c = 30$$<br/>$$12a + 8c = 300$$"
+    },
+    {
+      "title": "Solve for the number of adult tickets using substitution",
+      "content": "From the first equation, express $c$ in terms of $a$: $c = 30 - a$. Substitute this into the second equation:<br/>$$12a + 8(30 - a) = 300$$<br/>$$12a + 240 - 8a = 300$$<br/>$$4a + 240 = 300$$<br/>$$4a = 60$$<br/>$$a = 15$$<br/>So 15 adult tickets were sold."
+    },
+    {
+      "title": "Calculate the amount spent on adult tickets",
+      "content": "Multiply the number of adult tickets by the price per ticket: $15 \\times 12 = 180$. Therefore, the amount spent on adult tickets is <strong>180</strong> dollars.",
+      "desmosExpressions": [
+        "y = 30 - x",
+        "y = (300 - 12x)/8"
+      ]
+    }
+  ]
+}

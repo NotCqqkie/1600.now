@@ -1,1 +1,15 @@
-{"questionId":"979898ba-60c7-4531-ac45-29c4db2b3361_20","correctAnswer":"B","section":"Math","steps":[{"title":"Restrict to the conditional sample","content":"The condition <em>at least 10 years</em> keeps only the 10–19 and 20+ columns. From the table, those columns total $40+40=80$ participants. Group A within those columns contributes $18+7=25$."},{"title":"Apply the conditional probability formula","content":"$$P(A\\mid \\text{age}\\ge 10)=\\frac{25}{80}=\\frac{5}{16}.$$ That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}
+{
+  "questionId": "979898ba-60c7-4531-ac45-29c4db2b3361_20",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Restrict to the conditional sample",
+      "content": "The condition <em>at least 10 years</em> keeps only the 10–19 and 20+ columns. From the table, those columns total $40+40=80$ participants. Group A within those columns contributes $18+7=25$."
+    },
+    {
+      "title": "Apply the conditional probability formula",
+      "content": "$$P(A\\mid \\text{age}\\ge 10)=\\frac{25}{80}=\\frac{5}{16}.$$ That matches choice <strong>B</strong> — <strong>B</strong> is correct."
+    }
+  ]
+}

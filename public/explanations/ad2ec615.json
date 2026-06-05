@@ -1,1 +1,36 @@
-{"qid":"ad2ec615","steps":[{"text":"Let $u = x^2$ to turn the quartic into a quadratic: $x^4 - x^2 - 6$ becomes $u^2 - u - 6$."},{"text":"Factor the quadratic $u^2 - u - 6$. Find two numbers that multiply to $-6$ and add to $-1$: those numbers are $+2$ and $-3$. So $u^2 - u - 6 = (u + 2)(u - 3)$."},{"text":"Substitute $u = x^2$ back: $(u + 2)(u - 3) = (x^2 + 2)(x^2 - 3)$."},{"text":"Verify: $(x^2 + 2)(x^2 - 3) = x^4 - 3x^2 + 2x^2 - 6 = x^4 - x^2 - 6$ &#10003;. That matches choice B &mdash; <strong>B</strong> is correct.","choices":[{"id":"A","text":"<ul><li>$(x^2+1)(x^2-6) = x^4 - 6x^2 + x^2 - 6 = x^4 - 5x^2 - 6$. The middle term is $-5x^2$, not $-x^2$. Eliminated.</li></ul>"},{"id":"B","text":"<ul><li>$(x^2+2)(x^2-3) = x^4 - 3x^2 + 2x^2 - 6 = x^4 - x^2 - 6$ &#10003;. That matches choice B &mdash; <strong>B</strong> is correct.</li></ul>"},{"id":"C","text":"<ul><li>$(x^2+3)(x^2-2) = x^4 - 2x^2 + 3x^2 - 6 = x^4 + x^2 - 6$. The middle term is $+x^2$, not $-x^2$. Eliminated.</li></ul>"},{"id":"D","text":"<ul><li>$(x^2+6)(x^2-1) = x^4 - x^2 + 6x^2 - 6 = x^4 + 5x^2 - 6$. The middle term is $+5x^2$, not $-x^2$. Eliminated.</li></ul>"}]}],"correctAnswer":"B"}
+{
+  "qid": "ad2ec615",
+  "steps": [
+    {
+      "text": "Let $u = x^2$ to turn the quartic into a quadratic: $x^4 - x^2 - 6$ becomes $u^2 - u - 6$."
+    },
+    {
+      "text": "Factor the quadratic $u^2 - u - 6$. Find two numbers that multiply to $-6$ and add to $-1$: those numbers are $+2$ and $-3$. So $u^2 - u - 6 = (u + 2)(u - 3)$."
+    },
+    {
+      "text": "Substitute $u = x^2$ back: $(u + 2)(u - 3) = (x^2 + 2)(x^2 - 3)$."
+    },
+    {
+      "text": "Verify: $(x^2 + 2)(x^2 - 3) = x^4 - 3x^2 + 2x^2 - 6 = x^4 - x^2 - 6$ &#10003;. That matches choice B &mdash; <strong>B</strong> is correct.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "<ul><li>$(x^2+1)(x^2-6) = x^4 - 6x^2 + x^2 - 6 = x^4 - 5x^2 - 6$. The middle term is $-5x^2$, not $-x^2$. Eliminated.</li></ul>"
+        },
+        {
+          "id": "B",
+          "text": "<ul><li>$(x^2+2)(x^2-3) = x^4 - 3x^2 + 2x^2 - 6 = x^4 - x^2 - 6$ &#10003;. That matches choice B &mdash; <strong>B</strong> is correct.</li></ul>"
+        },
+        {
+          "id": "C",
+          "text": "<ul><li>$(x^2+3)(x^2-2) = x^4 - 2x^2 + 3x^2 - 6 = x^4 + x^2 - 6$. The middle term is $+x^2$, not $-x^2$. Eliminated.</li></ul>"
+        },
+        {
+          "id": "D",
+          "text": "<ul><li>$(x^2+6)(x^2-1) = x^4 - x^2 + 6x^2 - 6 = x^4 + 5x^2 - 6$. The middle term is $+5x^2$, not $-x^2$. Eliminated.</li></ul>"
+        }
+      ]
+    }
+  ],
+  "correctAnswer": "B"
+}

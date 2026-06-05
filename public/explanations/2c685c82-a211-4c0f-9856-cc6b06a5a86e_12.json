@@ -5,15 +5,20 @@
   "steps": [
     {
       "title": "Read two points from the boundary line",
-      "content": "The boundary line (solid black) separates the shaded region from the unshaded region. Reading directly from the graph, the line passes through <strong>(0, \u221213)</strong> on the y-axis and <strong>(\u221210, \u221211)</strong> on the left side."
+      "content": "The boundary line (solid black) separates the shaded region from the unshaded region. Reading directly from the graph, the line passes through <strong>(0, −13)</strong> on the y-axis and <strong>(−10, −11)</strong> on the left side."
     },
     {
       "title": "Find the equation of the boundary line using point-slope form",
-      "content": "First, find the slope: $$m = \\frac{-11 - (-13)}{-10 - 0} = \\frac{2}{-10} = -\\frac{1}{5}$$<br/>Using point (0, \u221213), the equation is: $$y = -\\frac{1}{5}x - 13$$<br/>Multiply both sides by 5 to clear the fraction: $$5y = -x - 65$$<br/>Rearrange to standard form: $$x + 5y = -65$$"
+      "content": "Instead of solving the slope by hand, fit the standard-form boundary directly. Since the boundary has form $rx+ty=-65$, enter $x_1=[0,-10]$, $y_1=[-13,-11]$, and $r x_1+t y_1\\sim -65$ in Desmos.",
+      "desmosExpressions": [
+        "x_1=[0,-10]",
+        "y_1=[-13,-11]",
+        "r x_1+t y_1~-65"
+      ]
     },
     {
       "title": "Identify r and t, then compute r + t",
-      "content": "The boundary line has equation $x + 5y = -65$, which matches the form $rx + ty = -65$.<br/>Therefore, $r = 1$ and $t = 5$, giving us: $$r + t = 1 + 5 = 6$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "Desmos gives $r=1$ and $t=5$, so the boundary is $x+5y=-65$. Therefore $r+t=1+5=6$. That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

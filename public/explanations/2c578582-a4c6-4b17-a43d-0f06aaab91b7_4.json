@@ -1,1 +1,23 @@
-{"questionId":"2c578582-a4c6-4b17-a43d-0f06aaab91b7_4","correctAnswer":"A","section":"Math","steps":[{"title":"Set up","content":"Density = mass &divide; volume. Substitute the given values: $$\\text{density} = \\frac{308}{28}$$"},{"title":"Solve","content":"$308 \\div 28 = 11$ g/cm&sup3;."},{"title":"Answer","content":"<strong>A</strong> is correct."}]}
+{
+  "questionId": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_4",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "Density = mass &divide; volume. Substitute the given values: $$\\text{density} = \\frac{308}{28}$$"
+    },
+    {
+      "title": "Solve",
+      "content": "$308 \\div 28 = 11$ g/cm&sup3;."
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>A</strong> is correct."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice A, 11. The other choices do not satisfy the same condition from the question, so <strong>A</strong> is correct."
+    }
+  ]
+}

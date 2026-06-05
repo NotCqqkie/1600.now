@@ -1,1 +1,19 @@
-{"questionId":"2c685c82-a211-4c0f-9856-cc6b06a5a86e_19","correctAnswer":"13","section":"Math","steps":[{"title":"Apply the equation from the given condition","content":"From $4x+7=15$ we get $4x=8$, so $x=2$."},{"title":"Compute the target value","content":"Then $8x-3 = 16-3 = 13$. The answer is <strong>13</strong>."}]}
+{
+  "questionId": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_19",
+  "correctAnswer": "13",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the equation from the given condition",
+      "content": "From $4x+7=15$ we get $4x=8$, so $x=2$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "Then $8x-3 = 16-3 = 13$. The answer is <strong>13</strong>."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $13$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $13$."
+    }
+  ]
+}

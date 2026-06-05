@@ -45,11 +45,14 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { ArrowRight, PlayCircle, Trash2 } from "lucide-react";
+import { useAuth } from "@/contexts/AuthContext";
 
 const practiceSets = getPracticeSets();
 
 const Modules = () => {
   const navigate = useNavigate();
+  const { user } = useAuth();
+  const uid = user?.id ?? null;
   const [subjectFilter, setSubjectFilter] = useState<"all" | "reading" | "math">("all");
   const [moduleFilter, setModuleFilter] = useState<"all" | "1" | "2">("all");
   const [completionFilter, setCompletionFilter] = useState<"all" | "not-started" | "in-progress" | "completed">("all");
@@ -85,12 +88,13 @@ const Modules = () => {
   };
 
   const moduleProgressBySlug = useMemo(() => {
+    void progressRefreshKey;
     return new Map(
       practiceSets.flatMap((practiceSet) =>
-        practiceSet.modules.map((module) => [module.slug, getModuleProgressCounts(module)] as const),
+        practiceSet.modules.map((module) => [module.slug, getModuleProgressCounts(module, uid)] as const),
       ),
     );
-  }, [progressRefreshKey]);
+  }, [progressRefreshKey, uid]);
 
   type ResumeEntry =
     | {
@@ -107,6 +111,7 @@ const Modules = () => {
       };
 
   const mostRecentSession = useMemo<ResumeEntry | null>(() => {
+    void progressRefreshKey;
     const moduleEntries: ResumeEntry[] = practiceSets
       .flatMap((practiceSet) => practiceSet.modules)
       .map((module) => ({ module, session: getModulePracticeSession(module.slug) }))

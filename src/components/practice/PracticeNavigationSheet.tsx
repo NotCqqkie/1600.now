@@ -3,6 +3,11 @@ import {
   QuestionNavigatorSheet,
   type QuestionNavigatorItem,
 } from "@/components/question/QuestionNavigatorSheet";
+import { useAuth } from "@/contexts/AuthContext";
+import {
+  getQuestionStatus,
+  isQuestionFlagged,
+} from "@/lib/practice/questionUiState";
 
 interface PracticeSetItem {
   subject: string;
@@ -22,15 +27,6 @@ interface PracticeNavigationSheetProps {
   exitTo?: string;
 }
 
-const getQuestionStatus = (storageId: string): string => {
-  const status = localStorage.getItem(`${storageId}-status`);
-  return status || "unanswered";
-};
-
-const isQuestionFlagged = (storageId: string): boolean => {
-  return localStorage.getItem(`${storageId}-flagged`) === "true";
-};
-
 export const PracticeNavigationSheet = ({
   currentIndex,
   practiceSet,
@@ -38,6 +34,8 @@ export const PracticeNavigationSheet = ({
   isSplitScreenActive = false,
   splitPosition = 50,
 }: PracticeNavigationSheetProps) => {
+  const { user } = useAuth();
+  const uid = user?.id ?? null;
   const navigatorItems = useMemo<QuestionNavigatorItem[]>(
     () =>
       practiceSet.map((item, idx) => {
@@ -46,14 +44,14 @@ export const PracticeNavigationSheet = ({
         return {
           key: `${item.subject}-${item.id}`,
           label: idx + 1,
-          status: getQuestionStatus(storageId),
-          isFlagged: isQuestionFlagged(storageId),
+          status: getQuestionStatus(storageId, uid),
+          isFlagged: isQuestionFlagged(storageId, uid),
           isCurrent: idx === currentIndex,
           onSelect: () => onJump(idx),
           title: `${item.subject === "math" ? "Math" : "Reading"} Q${item.id}`,
         };
       }),
-    [currentIndex, onJump, practiceSet]
+    [currentIndex, onJump, practiceSet, uid]
   );
 
   return (

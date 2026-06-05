@@ -1,1 +1,16 @@
-{"questionId": "3bf10f0c-6025-4955-91dc-118e340490f0_10", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Calculate the value of z", "content": "$z = 1.27 \\times 100 = 127$"}, {"title": "Calculate the percent increase from 100 to z", "content": "Apply the percent increase formula with old value 100 and new value 127:<br/>$$\\text{Percent greater} = \\frac{127 - 100}{100} \\times 100\\%$$<br/>$$= \\frac{27}{100} \\times 100\\%$$<br/>$$= 27\\%$$<br/>That matches choice B — <strong>B</strong> is correct.", "formula": "$$\\text{Percent greater} = \\frac{\\text{new} - \\text{old}}{\\text{old}} \\times 100\\%$$"}]}
+{
+  "questionId": "3bf10f0c-6025-4955-91dc-118e340490f0_10",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate the value of z",
+      "content": "$z = 1.27 \\times 100 = 127$"
+    },
+    {
+      "title": "Calculate the percent increase from 100 to z",
+      "content": "Apply the percent increase formula with old value 100 and new value 127:<br/>$$\\text{Percent greater} = \\frac{127 - 100}{100} \\times 100\\%$$<br/>$$= \\frac{27}{100} \\times 100\\%$$<br/>$$= 27\\%$$<br/>That matches choice B — <strong>B</strong> is correct.",
+      "formula": "$$\\text{Percent greater} = \\frac{\\text{new} - \\text{old}}{\\text{old}} \\times 100\\%$$"
+    }
+  ]
+}

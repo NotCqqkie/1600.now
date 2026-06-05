@@ -1,1 +1,22 @@
-{"questionId": "7625073d", "correctAnswer": "49", "section": "Math", "steps": [{"title": "Simplify the equation", "content": "Divide both sides of $$7g+7b=840$$ by 7: $$g+b=120$$."}, {"title": "Solve for green tiles", "content": "Substitute $b=71$ into $$g+b=120$$: $$g+71=120$$.<br/>Subtract 71 from both sides: $$g=49$$.<br/>The answer is <strong>49</strong>.", "desmosExpressions": ["7x+7y=840"]}]}
+{
+  "questionId": "7625073d",
+  "correctAnswer": "49",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify the equation",
+      "content": "Divide both sides of $$7g+7b=840$$ by 7: $$g+b=120$$."
+    },
+    {
+      "title": "Solve for green tiles",
+      "content": "Substitute $b=71$ into $$g+b=120$$: $$g+71=120$$.<br/>Subtract 71 from both sides: $$g=49$$.<br/>The answer is <strong>49</strong>.",
+      "desmosExpressions": [
+        "7x+7y=840"
+      ]
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $49$. It's given that the equation $7g+7b=840$ represents the number of blue tiles, $b$, and the number of green tiles, $g$, an artist needs for an $840$-square-inch tile project. It's also given that the artist needs $71$ blue tiles for the project. Substituting $71$ for $b$ in the equation $7g+7b=840$ yields $7g+7(71)=840$, or $7g+497=840$. Subtracting $497$ from both sides of this equation yields $7g=343$. Dividing both sides of this equation by $7$ yields $g=49$. Therefore, the artist needs $49$ green tiles for the project."
+    }
+  ]
+}

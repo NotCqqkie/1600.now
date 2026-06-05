@@ -1,5 +1,6 @@
 import type { PracticeModule } from "@/data/modulePracticeBank";
 import type { BankQuestion } from "@/data/questionBank";
+import { getDesmosStoragePrefix } from "@/lib/practice/desmosSessionState";
 import { answersEquivalent } from "@/lib/text/answerEquivalence";
 
 export type ModulePracticeQuestionStatus =
@@ -102,6 +103,9 @@ const SESSION_NOTE_PREFIX = "module-practice:note:";
 const SESSION_ANNOTATION_PREFIX = "module-practice:annotation:";
 const RESULT_PREFIX = "module-practice:result:";
 const LATEST_RESULT_PREFIX = "module-practice:latest-result:";
+const SCOPED_RESULT_PREFIX = "module-practice:result:v1:";
+const SCOPED_LATEST_RESULT_PREFIX = "module-practice:latest-result:v1:";
+const ANON_SUFFIX = "anon";
 
 const readJson = <T>(storage: Storage, key: string): T | null => {
   try {
@@ -118,6 +122,10 @@ const writeJson = (storage: Storage, key: string, value: unknown) => {
 };
 
 const getSessionKey = (moduleSlug: string) => `${ACTIVE_SESSION_PREFIX}${moduleSlug}`;
+const scopedResultKey = (sessionId: string, uid?: string | null) =>
+  `${SCOPED_RESULT_PREFIX}${uid ?? ANON_SUFFIX}:${sessionId}`;
+const scopedLatestResultKey = (moduleSlug: string, uid?: string | null) =>
+  `${SCOPED_LATEST_RESULT_PREFIX}${uid ?? ANON_SUFFIX}:${moduleSlug}`;
 
 const getTimerRemainderMs = (value: number | undefined) =>
   Number.isFinite(value) ? Math.max(0, Math.min(999, Math.floor(value ?? 0))) : 0;
@@ -210,6 +218,7 @@ export const advanceModulePracticeSessionTimer = (
 
 export const clearModulePracticeSessionArtifacts = (sessionId: string) => {
   const keysToRemove: string[] = [];
+  const desmosPrefix = getDesmosStoragePrefix(`module-practice:${sessionId}`);
 
   for (let index = 0; index < sessionStorage.length; index += 1) {
     const key = sessionStorage.key(index);
@@ -217,7 +226,8 @@ export const clearModulePracticeSessionArtifacts = (sessionId: string) => {
     if (
       key.startsWith(`${SESSION_STATE_PREFIX}${sessionId}:`) ||
       key.startsWith(`${SESSION_NOTE_PREFIX}${sessionId}:`) ||
-      key.startsWith(`${SESSION_ANNOTATION_PREFIX}${sessionId}:`)
+      key.startsWith(`${SESSION_ANNOTATION_PREFIX}${sessionId}:`) ||
+      key.startsWith(desmosPrefix)
     ) {
       keysToRemove.push(key);
     }
@@ -421,27 +431,48 @@ export const buildModulePracticeResult = (
   };
 };
 
-export const saveModulePracticeResult = (result: ModulePracticeResult) => {
-  writeJson(localStorage, `${RESULT_PREFIX}${result.sessionId}`, result);
-  localStorage.setItem(`${LATEST_RESULT_PREFIX}${result.moduleSlug}`, result.sessionId);
+export const saveModulePracticeResult = (
+  result: ModulePracticeResult,
+  uid?: string | null,
+) => {
+  writeJson(localStorage, scopedResultKey(result.sessionId, uid), result);
+  localStorage.setItem(scopedLatestResultKey(result.moduleSlug, uid), result.sessionId);
 };
 
-export const getModulePracticeResult = (sessionId: string): ModulePracticeResult | null =>
-  readJson<ModulePracticeResult>(localStorage, `${RESULT_PREFIX}${sessionId}`);
+export const getModulePracticeResult = (
+  sessionId: string,
+  uid?: string | null,
+): ModulePracticeResult | null =>
+  readJson<ModulePracticeResult>(localStorage, scopedResultKey(sessionId, uid)) ??
+  (uid == null
+    ? readJson<ModulePracticeResult>(localStorage, `${RESULT_PREFIX}${sessionId}`)
+    : null);
 
 export const getLatestModulePracticeResult = (
   moduleSlug: string,
+  uid?: string | null,
 ): ModulePracticeResult | null => {
-  const sessionId = localStorage.getItem(`${LATEST_RESULT_PREFIX}${moduleSlug}`);
+  const sessionId =
+    localStorage.getItem(scopedLatestResultKey(moduleSlug, uid)) ??
+    (uid == null ? localStorage.getItem(`${LATEST_RESULT_PREFIX}${moduleSlug}`) : null);
   if (!sessionId) return null;
-  return getModulePracticeResult(sessionId);
+  return getModulePracticeResult(sessionId, uid);
 };
 
-export const getAllModulePracticeResults = (): ModulePracticeResult[] => {
+export const getAllModulePracticeResults = (
+  uid?: string | null,
+): ModulePracticeResult[] => {
   const results: ModulePracticeResult[] = [];
+  const scopedPrefix = `${SCOPED_RESULT_PREFIX}${uid ?? ANON_SUFFIX}:`;
   for (let index = 0; index < localStorage.length; index += 1) {
     const key = localStorage.key(index);
-    if (!key || !key.startsWith(RESULT_PREFIX)) continue;
+    if (!key) continue;
+    if (key.startsWith(scopedPrefix)) {
+      const result = readJson<ModulePracticeResult>(localStorage, key);
+      if (result) results.push(result);
+      continue;
+    }
+    if (uid != null || !key.startsWith(RESULT_PREFIX)) continue;
     const result = readJson<ModulePracticeResult>(localStorage, key);
     if (result) results.push(result);
   }

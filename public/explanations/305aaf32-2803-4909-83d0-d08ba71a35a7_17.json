@@ -1,1 +1,19 @@
-{"questionId":"305aaf32-2803-4909-83d0-d08ba71a35a7_17","correctAnswer":"25515","section":"Math","steps":[{"title":"Substitute the given values","content":"Use $x=1.25$, $y=1968.75$ in $y=900ax^2$: $$1968.75 = 900a(1.25)^2 = 1406.25a \\Rightarrow a=1.4.$$"},{"title":"Solve for the unknown","content":"Now use $x=4.5$: $$y = 900(1.4)(4.5)^2 = 1260 \\cdot 20.25 = 25515.$$ The answer is <strong>25515</strong>."}]}
+{
+  "questionId": "305aaf32-2803-4909-83d0-d08ba71a35a7_17",
+  "correctAnswer": "25515",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the given values",
+      "content": "Use $x=1.25$, $y=1968.75$ in $y=900ax^2$: $$1968.75 = 900a(1.25)^2 = 1406.25a \\Rightarrow a=1.4.$$"
+    },
+    {
+      "title": "Solve for the unknown",
+      "content": "Now use $x=4.5$: $$y = 900(1.4)(4.5)^2 = 1260 \\cdot 20.25 = 25515.$$ The answer is <strong>25515</strong>."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, make sure the computed value answers exactly what the question asks for. The work above gives $25515$; substituting or interpreting it in the original condition satisfies the requirement, so $25515$ is the value to enter."
+    }
+  ]
+}

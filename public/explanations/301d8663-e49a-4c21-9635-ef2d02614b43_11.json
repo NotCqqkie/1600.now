@@ -1,1 +1,18 @@
-{"questionId": "301d8663-e49a-4c21-9635-ef2d02614b43_11", "correctAnswer": "59", "section": "Math", "steps": [{"title": "Identify the y-intercept condition", "content": "The y-intercept is the point where the graph crosses the y-axis. On the y-axis, the x-coordinate is always 0. Therefore, to find the y-intercept, we substitute $x = 0$ into the equation."}, {"title": "Substitute x = 0 and simplify", "content": "Substitute $x = 0$ into $y = 8x^2 + 59$:<br/>$$y = 8(0)^2 + 59$$<br/>$$y = 0 + 59$$<br/>$$y = 59$$<br/>Therefore, the value of $y$ at the y-intercept is <strong>59</strong>.", "desmosExpressions": ["y = 8x^{2} + 59"]}]}
+{
+  "questionId": "301d8663-e49a-4c21-9635-ef2d02614b43_11",
+  "correctAnswer": "59",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the y-intercept condition",
+      "content": "The y-intercept is the point where the graph crosses the y-axis. On the y-axis, the x-coordinate is always 0. Therefore, to find the y-intercept, we substitute $x = 0$ into the equation."
+    },
+    {
+      "title": "Substitute x = 0 and simplify",
+      "content": "Substitute $x = 0$ into $y = 8x^2 + 59$:<br/>$$y = 8(0)^2 + 59$$<br/>$$y = 0 + 59$$<br/>$$y = 59$$<br/>Therefore, the value of $y$ at the y-intercept is <strong>59</strong>.",
+      "desmosExpressions": [
+        "y = 8x^{2} + 59"
+      ]
+    }
+  ]
+}

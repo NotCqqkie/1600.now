@@ -1,1 +1,19 @@
-{"questionId": "f196343a-4470-4649-8efb-edf349dd4393_17", "correctAnswer": "31", "section": "Math", "steps": [{"title": "Apply the Exterior Angle Theorem", "content": "When a side of a triangle is extended, the exterior angle equals the sum of the two remote interior angles. Side QR is extended through R to S, making angle PRS an exterior angle.<br/>$$\\angle PRS = \\angle P + \\angle Q$$<br/>$$(x+y) = (4x+9) + (5x+4)$$<br/>$$x + y = 9x + 13$$<br/>$$y = 8x + 13$$"}, {"title": "Set Up the Triangle Angle Sum", "content": "The three interior angles of triangle PQR must sum to 180°.<br/>$$(4x+9) + (5x+4) + (5y+4) = 180$$<br/>$$9x + 17 + 5y = 180$$<br/>$$9x + 5y = 163$$"}, {"title": "Solve the System of Equations", "content": "Substitute $y = 8x + 13$ from the first equation into $9x + 5y = 163$:<br/>$$9x + 5(8x + 13) = 163$$<br/>$$9x + 40x + 65 = 163$$<br/>$$49x = 98$$<br/>$$x = 2$$<br/>Then $y = 8(2) + 13 = 29$.<br/><br/>Therefore $x + y = 2 + 29 = 31$."}]}
+{
+  "questionId": "f196343a-4470-4649-8efb-edf349dd4393_17",
+  "correctAnswer": "31",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the Exterior Angle Theorem",
+      "content": "When a side of a triangle is extended, the exterior angle equals the sum of the two remote interior angles. Side QR is extended through R to S, making angle PRS an exterior angle.<br/>$$\\angle PRS = \\angle P + \\angle Q$$<br/>$$(x+y) = (4x+9) + (5x+4)$$<br/>$$x + y = 9x + 13$$<br/>$$y = 8x + 13$$"
+    },
+    {
+      "title": "Set Up the Triangle Angle Sum",
+      "content": "The three interior angles of triangle PQR must sum to 180°.<br/>$$(4x+9) + (5x+4) + (5y+4) = 180$$<br/>$$9x + 17 + 5y = 180$$<br/>$$9x + 5y = 163$$"
+    },
+    {
+      "title": "Solve the System of Equations",
+      "content": "Substitute $y = 8x + 13$ from the first equation into $9x + 5y = 163$:<br/>$$9x + 5(8x + 13) = 163$$<br/>$$9x + 40x + 65 = 163$$<br/>$$49x = 98$$<br/>$$x = 2$$<br/>Then $y = 8(2) + 13 = 29$.<br/><br/>Therefore $x + y = 2 + 29 = 31$."
+    }
+  ]
+}

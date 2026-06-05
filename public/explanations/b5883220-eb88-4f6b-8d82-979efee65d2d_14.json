@@ -1,1 +1,15 @@
-{"questionId": "b5883220-eb88-4f6b-8d82-979efee65d2d_14", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Simplify the given expression", "content": "Since $y > 0$, $\\sqrt{y^8} = y^4$. Substitute and simplify: $\\frac{3x^{17}y^5}{5x^2 y^4} = \\frac{3x^{15}y}{5}$."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; I only</strong>: Form&nbsp;I is $\\frac{x^{14/3}y^{5/3}}{3}$. This has exponent $\\frac{14}{3}$ on $x$ and $\\frac{5}{3}$ on $y$, and a denominator of 3 &mdash; none of these match $\\frac{3x^{15}y}{5}$. Form&nbsp;I is not equivalent. &#10007;</li><li><strong>Choice B &mdash; II only</strong>: Form&nbsp;II is $\\frac{3x^{11}y^2}{5}$. The exponents $x^{11}$ and $y^2$ do not match $x^{15}$ and $y^1$ in the simplified expression. Form&nbsp;II is not equivalent. &#10007;</li><li><strong>Choice C &mdash; I and II</strong>: Since neither Form&nbsp;I nor Form&nbsp;II equals $\\frac{3x^{15}y}{5}$, both cannot be correct. &#10007;</li><li><strong>Choice D &mdash; Neither I nor II</strong>: Neither form is equivalent to the simplified expression $\\frac{3x^{15}y}{5}$. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "b5883220-eb88-4f6b-8d82-979efee65d2d_14",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify the given expression",
+      "content": "Since $y > 0$, $\\sqrt{y^8} = y^4$. Substitute and simplify: $\\frac{3x^{17}y^5}{5x^2 y^4} = \\frac{3x^{15}y}{5}$."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; I only</strong>: Form&nbsp;I is $\\frac{x^{14/3}y^{5/3}}{3}$. This has exponent $\\frac{14}{3}$ on $x$ and $\\frac{5}{3}$ on $y$, and a denominator of 3 &mdash; none of these match $\\frac{3x^{15}y}{5}$. Form&nbsp;I is not equivalent. &#10007;</li><li><strong>Choice B &mdash; II only</strong>: Form&nbsp;II is $\\frac{3x^{11}y^2}{5}$. The exponents $x^{11}$ and $y^2$ do not match $x^{15}$ and $y^1$ in the simplified expression. Form&nbsp;II is not equivalent. &#10007;</li><li><strong>Choice C &mdash; I and II</strong>: Since neither Form&nbsp;I nor Form&nbsp;II equals $\\frac{3x^{15}y}{5}$, both cannot be correct. &#10007;</li><li><strong>Choice D &mdash; Neither I nor II</strong>: Neither form is equivalent to the simplified expression $\\frac{3x^{15}y}{5}$. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

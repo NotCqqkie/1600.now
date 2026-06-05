@@ -10,7 +10,7 @@
     },
     {
       "title": "Use volume scaling to find Volume of X",
-      "content": "Volumes of similar solids scale by $k^3 = 4^3 = 64$. Since the volume of prism $Y$ is 1,536 cm\u00b3 and volumes scale by a factor of 64, the volume of prism $X$ is: $$\\frac{1536}{64} = 24 \\text{ cm}^3$$",
+      "content": "Volumes of similar solids scale by $k^3 = 4^3 = 64$. Since the volume of prism $Y$ is 1,536 cm³ and volumes scale by a factor of 64, the volume of prism $X$ is: $$\\frac{1536}{64} = 24 \\text{ cm}^3$$",
       "formula": "$$\\text{Volume}_X = \\frac{\\text{Volume}_Y}{k^3}$$"
     },
     {

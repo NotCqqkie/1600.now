@@ -1,1 +1,15 @@
-{"questionId": "cd2abd24-f96a-43e7-860f-be962ea69e08_13", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Use the given form of the linear function", "content": "The linear function is $f(x) = 8x + b$, and we are told that $f(9) = 72$. Substitute $x = 9$:<br/>$$8(9) + b = 72$$"}, {"title": "Solve for $b$", "content": "Simplify and isolate $b$:<br/>$$72 + b = 72$$<br/>$$b = 0$$<br/>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "cd2abd24-f96a-43e7-860f-be962ea69e08_13",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the given form of the linear function",
+      "content": "The linear function is $f(x) = 8x + b$, and we are told that $f(9) = 72$. Substitute $x = 9$:<br/>$$8(9) + b = 72$$"
+    },
+    {
+      "title": "Solve for $b$",
+      "content": "Simplify and isolate $b$:<br/>$$72 + b = 72$$<br/>$$b = 0$$<br/>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

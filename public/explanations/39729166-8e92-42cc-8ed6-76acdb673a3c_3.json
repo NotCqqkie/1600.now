@@ -1,1 +1,20 @@
-{"questionId": "39729166-8e92-42cc-8ed6-76acdb673a3c_3", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Use isosceles geometry to set up a right triangle", "content": "Triangle RST is isosceles with RS = ST and base RT = 48. When we drop a perpendicular from apex S to the base RT, it bisects the base at point M. Therefore, RM = 24."}, {"title": "Apply the tangent ratio to find the height", "content": "In right triangle RSM, the angle at R has a tangent ratio of opposite over adjacent:<br/>$$\\tan R = \\frac{SM}{RM}$$<br/>Substituting $\\tan R = \\frac{7}{24}$ and $RM = 24$:<br/>$$\\frac{SM}{24} = \\frac{7}{24}$$<br/>Therefore, SM = 7 units.", "formula": "$$\\tan \\theta = \\frac{\\text{opposite}}{\\text{adjacent}}$$"}, {"title": "Calculate the area using base and height", "content": "The area of the triangle is:<br/>$$\\text{Area} = \\frac{1}{2} \\times 48 \\times 7 = 168$$<br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "39729166-8e92-42cc-8ed6-76acdb673a3c_3",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use isosceles geometry to set up a right triangle",
+      "content": "Triangle RST is isosceles with RS = ST and base RT = 48. When we drop a perpendicular from apex S to the base RT, it bisects the base at point M. Therefore, RM = 24."
+    },
+    {
+      "title": "Apply the tangent ratio to find the height",
+      "content": "In right triangle RSM, the angle at R has a tangent ratio of opposite over adjacent:<br/>$$\\tan R = \\frac{SM}{RM}$$<br/>Substituting $\\tan R = \\frac{7}{24}$ and $RM = 24$:<br/>$$\\frac{SM}{24} = \\frac{7}{24}$$<br/>Therefore, SM = 7 units.",
+      "formula": "$$\\tan \\theta = \\frac{\\text{opposite}}{\\text{adjacent}}$$"
+    },
+    {
+      "title": "Calculate the area using base and height",
+      "content": "The area of the triangle is:<br/>$$\\text{Area} = \\frac{1}{2} \\times 48 \\times 7 = 168$$<br/>That matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

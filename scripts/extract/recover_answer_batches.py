@@ -13,6 +13,7 @@ Usage:
 from __future__ import annotations
 import argparse
 import json
+import os
 from pathlib import Path
 
 from .stages.answers_pdf import (
@@ -21,13 +22,13 @@ from .stages.answers_pdf import (
     _group_pages_by_section,
     parse_delimited_response,
 )
-from .utils.cli_client import ClaudeCLIClient, ContentFilterBlocked
+from .utils.cli_client import ContentFilterBlocked, RateLimitedClient
 
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--work-dir", required=True)
-    parser.add_argument("--model", default="sonnet")
+    parser.add_argument("--model", default=os.environ.get("EXTRACTION_MODEL", "default"))
     parser.add_argument("--batch-size", type=int, default=2)
     args = parser.parse_args()
 
@@ -63,9 +64,7 @@ def main():
     for s, m, q in missing:
         by_section_module.setdefault((s, m), set()).add(q)
 
-    # Slow down to ~12 RPM and allow longer per-call timeout for math rationales.
-    # Process-group cleanup ensures hung claude runs don't accumulate.
-    client = ClaudeCLIClient(model=args.model, rpm=12, timeout_seconds=420)
+    client = RateLimitedClient(model=args.model, rpm=12, timeout_seconds=420)
     raw_dir = work / "answers_raw_recovery"
     raw_dir.mkdir(exist_ok=True)
 

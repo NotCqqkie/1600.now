@@ -1,1 +1,15 @@
-{"questionId": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_15", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Find the exponent change when x increases by 6", "content": "The exponent in $f(x) = 25(1.40)^{\\frac{x}{3}}$ is $\\frac{x}{3}$. When $x$ increases by 6, the exponent increases by $\\frac{6}{3} = 2$. Using the exponent rule $a^{m+n} = a^m \\cdot a^n$:<br/>$$f(x+6) = 25(1.40)^{\\frac{x}{3}+2} = 25(1.40)^{\\frac{x}{3}} \\cdot (1.40)^2 = f(x) \\cdot (1.40)^2$$<br/>The growth factor for a 6-unit increase in $x$ is $(1.40)^2$."}, {"title": "Convert the growth factor to a percentage increase", "content": "Calculate $(1.40)^2 = 1.96$. When $f(x)$ is multiplied by 1.96, the increase from the original value is $1.96 - 1 = 0.96$, or $0.96 \\times 100\\% = 96\\%$. That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_15",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the exponent change when x increases by 6",
+      "content": "The exponent in $f(x) = 25(1.40)^{\\frac{x}{3}}$ is $\\frac{x}{3}$. When $x$ increases by 6, the exponent increases by $\\frac{6}{3} = 2$. Using the exponent rule $a^{m+n} = a^m \\cdot a^n$:<br/>$$f(x+6) = 25(1.40)^{\\frac{x}{3}+2} = 25(1.40)^{\\frac{x}{3}} \\cdot (1.40)^2 = f(x) \\cdot (1.40)^2$$<br/>The growth factor for a 6-unit increase in $x$ is $(1.40)^2$."
+    },
+    {
+      "title": "Convert the growth factor to a percentage increase",
+      "content": "Calculate $(1.40)^2 = 1.96$. When $f(x)$ is multiplied by 1.96, the increase from the original value is $1.96 - 1 = 0.96$, or $0.96 \\times 100\\% = 96\\%$. That matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

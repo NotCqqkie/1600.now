@@ -1,1 +1,15 @@
-{"questionId": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_13", "correctAnswer": "C", "section": "Math", "steps": [{"title": "What x-intercepts mean", "content": "An $x$-intercept is a point on the graph where it crosses the $x$-axis, which means the $y$-coordinate is 0. If $(-5, 0)$ is an $x$-intercept, then the point $(-5, 0)$ is on the graph of $f$. Using function notation, this translates directly to $f(-5) = 0$."}, {"title": "Test each answer choice", "content": "Now check which statement must be true based on what we know:<ul><li><strong>Choice A:</strong> $f(0) = -5$ — the value at $x = 0$ is not specified by the given intercepts</li><li><strong>Choice B:</strong> $f(6) = -5$ — this contradicts the fact that $(6, 0)$ is an $x$-intercept, so $f(6) = 0$</li><li><strong>Choice C:</strong> $f(-5) = 0$ — this matches exactly what the $x$-intercept at $(-5, 0)$ tells us</li><li><strong>Choice D:</strong> $f(-5) = 6$ — this contradicts our finding that $f(-5) = 0$</li></ul>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_13",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "What x-intercepts mean",
+      "content": "An $x$-intercept is a point on the graph where it crosses the $x$-axis, which means the $y$-coordinate is 0. If $(-5, 0)$ is an $x$-intercept, then the point $(-5, 0)$ is on the graph of $f$. Using function notation, this translates directly to $f(-5) = 0$."
+    },
+    {
+      "title": "Test each answer choice",
+      "content": "Now check which statement must be true based on what we know:<ul><li><strong>Choice A:</strong> $f(0) = -5$ — the value at $x = 0$ is not specified by the given intercepts</li><li><strong>Choice B:</strong> $f(6) = -5$ — this contradicts the fact that $(6, 0)$ is an $x$-intercept, so $f(6) = 0$</li><li><strong>Choice C:</strong> $f(-5) = 0$ — this matches exactly what the $x$-intercept at $(-5, 0)$ tells us</li><li><strong>Choice D:</strong> $f(-5) = 6$ — this contradicts our finding that $f(-5) = 0$</li></ul>That matches choice C — <strong>C</strong> is correct."
+    }
+  ]
+}

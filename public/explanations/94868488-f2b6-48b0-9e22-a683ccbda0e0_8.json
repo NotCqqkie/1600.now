@@ -1,1 +1,23 @@
-{"questionId": "94868488-f2b6-48b0-9e22-a683ccbda0e0_8", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Read slope of k directly from coefficients", "content": "$6x + 19y - 7 = 0$ → slope of $k = -\\frac{6}{19}$."},{"title": "Perpendicular slope = negative reciprocal", "content": "Slope of $j = -\\frac{1}{-6/19} = \\frac{19}{6}$. That matches choice A — <strong>A</strong> is correct.", "desmosExpressions": ["6x+19y-7=0", "y=(19/6)x"]}]}
+{
+  "questionId": "94868488-f2b6-48b0-9e22-a683ccbda0e0_8",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read slope of k directly from coefficients",
+      "content": "$6x + 19y - 7 = 0$ → slope of $k = -\\frac{6}{19}$."
+    },
+    {
+      "title": "Perpendicular slope = negative reciprocal",
+      "content": "Slope of $j = -\\frac{1}{-6/19} = \\frac{19}{6}$. That matches choice A — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "6x+19y-7=0",
+        "y=(19/6)x"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice A, $\\frac{19}{6}$, and the other choices fail the same setup or substitution. Therefore <strong>A</strong> is correct."
+    }
+  ]
+}

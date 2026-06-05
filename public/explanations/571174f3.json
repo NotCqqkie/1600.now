@@ -1,1 +1,20 @@
-{"questionId": "571174f3", "correctAnswer": ".2857", "section": "Math", "steps": [{"title": "Infinitely Many Solutions Means the Equations Are Proportional", "content": "When a system has infinitely many solutions, the two equations represent the same line. This means the second equation is a scalar multiple of the first:<br/>$$gx + ky = c\\left(\\frac{2}{5}x + \\frac{7}{5}y\\right)$$<br/>for some nonzero constant $c$."}, {"title": "Set Up and Solve for the Coefficient Ratio", "content": "Expanding the right side gives:<br/>$$gx + ky = \\frac{2c}{5}x + \\frac{7c}{5}y$$<br/>Matching coefficients: $g = \\frac{2c}{5}$ and $k = \\frac{7c}{5}$.<br/><br/>Therefore:<br/>$$\\frac{g}{k} = \\frac{\\frac{2c}{5}}{\\frac{7c}{5}} = \\frac{2c}{5} \\cdot \\frac{5}{7c} = \\frac{2}{7}$$<br/>The answer is <strong>.2857</strong>."}]}
+{
+  "questionId": "571174f3",
+  "correctAnswer": ".2857",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Infinitely Many Solutions Means the Equations Are Proportional",
+      "content": "When a system has infinitely many solutions, the two equations represent the same line. The constants show the scale factor from the first equation to the second: $$\\frac{5/2}{2/7}=\\frac{35}{4}$$ So every coefficient in the second equation must be $\\frac{35}{4}$ times the matching coefficient in the first equation."
+    },
+    {
+      "title": "Match the coefficients",
+      "content": "Multiplying the first equation's coefficients by $\\frac{35}{4}$ gives $$g=\\frac{35}{4}\\cdot\\frac{2}{5}=\\frac{7}{2}$$ and $$k=\\frac{35}{4}\\cdot\\frac{7}{5}=\\frac{49}{4}$$ Therefore $$\\frac{g}{k}=\\frac{7/2}{49/4}=\\frac{2}{7}$$ The exact answer is <strong>2/7</strong>.",
+      "desmosExpressions": [
+        "(35/4)(2/5)",
+        "(35/4)(7/5)",
+        "(7/2)/(49/4)"
+      ]
+    }
+  ]
+}

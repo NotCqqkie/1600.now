@@ -1,1 +1,19 @@
-{"questionId": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_21", "correctAnswer": "28/17", "section": "Math", "steps": [{"title": "Extract given information from diagram and problem", "content": "From the diagram: <strong>AC = 28</strong> (the hypotenuse labeled on the figure) and there is a right angle at <strong>B</strong>.<br/>From the problem: $AB = AC - 11 = 28 - 11 = 17$. Point $D$ lies on $\\overline{AC}$ with $\\overline{BD} \\perp \\overline{AC}$ (neither $D$ nor $\\overline{BD}$ is drawn)."}, {"title": "Identify the similar triangles", "content": "In right triangle $ABC$, drawing the altitude $\\overline{BD}$ from the right angle to the hypotenuse creates triangle $BDC$. Triangle $BDC$ shares angle $C$ with $ABC$ and has a right angle at $D$, so $\\triangle ABC \\sim \\triangle BDC$."}, {"title": "Apply the proportionality from similar triangles", "content": "Matching corresponding sides (across-from-equal-angles), the ratio of the hypotenuses equals the ratio of the legs opposite angle $C$:<br/>$$\\frac{BC}{BD} = \\frac{AC}{AB} = \\frac{28}{17}$$<br/>The answer is <strong>28/17</strong>."}]}
+{
+  "questionId": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_21",
+  "correctAnswer": "28/17",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Extract given information from diagram and problem",
+      "content": "From the diagram: <strong>AC = 28</strong> (the hypotenuse labeled on the figure) and there is a right angle at <strong>B</strong>.<br/>From the problem: $AB = AC - 11 = 28 - 11 = 17$. Point $D$ lies on $\\overline{AC}$ with $\\overline{BD} \\perp \\overline{AC}$ (neither $D$ nor $\\overline{BD}$ is drawn)."
+    },
+    {
+      "title": "Identify the similar triangles",
+      "content": "In right triangle $ABC$, drawing the altitude $\\overline{BD}$ from the right angle to the hypotenuse creates triangle $BDC$. Triangle $BDC$ shares angle $C$ with $ABC$ and has a right angle at $D$, so $\\triangle ABC \\sim \\triangle BDC$."
+    },
+    {
+      "title": "Apply the proportionality from similar triangles",
+      "content": "Matching corresponding sides (across-from-equal-angles), the ratio of the hypotenuses equals the ratio of the legs opposite angle $C$:<br/>$$\\frac{BC}{BD} = \\frac{AC}{AB} = \\frac{28}{17}$$<br/>The answer is <strong>28/17</strong>."
+    }
+  ]
+}

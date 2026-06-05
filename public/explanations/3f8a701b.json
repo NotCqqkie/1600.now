@@ -1,1 +1,31 @@
-{"questionId": "3f8a701b", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Expand the right side", "content": "Distribute \\(a\\) on the right: \\(9x + 5 = ax + ab\\). Rearranging gives \\((9 - a)x = ab - 5\\)."}, {"title": "Apply the no-solutions condition", "content": "A linear equation \\(cx = d\\) has no solutions when \\(c = 0\\) and \\(d \\neq 0\\) (the equation becomes \\(0 = d\\), a contradiction). So we need \\(9 - a = 0\\) and \\(ab - 5 \\neq 0\\), which gives \\(a = 9\\) and \\(9b \\neq 5\\), i.e. \\(b \\neq \\dfrac{5}{9}\\)."}, {"title": "Evaluate each statement", "content": "Statement I (\\(a = 9\\)): required &mdash; TRUE. Statement II (\\(b = 5\\)): not required; any \\(b \\neq \\dfrac{5}{9}\\) works &mdash; FALSE. Statement III (\\(b \\neq \\dfrac{5}{9}\\)): required &mdash; TRUE."}, {"title": "Select the answer", "content": "Only Statements I and III must be true.<ul><li><strong>A (None):</strong> Wrong; both I and III are necessary.</li><li><strong>B (I only):</strong> Incomplete; III is also required.</li><li><strong>C (I and II only):</strong> II is not necessary; \\(b\\) can be any value other than \\(\\dfrac{5}{9}\\).</li><li><strong>D (I and III only):</strong> \\(a = 9\\) and \\(b \\neq \\dfrac{5}{9}\\) are both required for no solutions to exist. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"}]}
+{
+  "questionId": "3f8a701b",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use Desmos to find the needed coefficient",
+      "content": "For an equation in $x$ to have no solutions, the $x$-coefficients must match but the constants must not match. In Desmos, enter $x_1=[1]$ and regress the $x$-terms: $9x_1\\sim ax_1$. Desmos gives $a=9$, so statement I must be true.",
+      "desmosExpressions": [
+        "x_1=[1]",
+        "9x_1~a x_1"
+      ]
+    },
+    {
+      "title": "Find the excluded value of b",
+      "content": "With $a=9$, the equation becomes $9x+5=9x+9b$. If $5=9b$, the equation would have infinitely many solutions instead of no solutions. To find that excluded value in Desmos, enter $y_1=[5]$ and $y_1\\sim9b$, which gives $b=\\frac{5}{9}$. Therefore no solutions require $b\\neq\\frac{5}{9}$.",
+      "desmosExpressions": [
+        "y_1=[5]",
+        "y_1~9b"
+      ]
+    },
+    {
+      "title": "Confirm algebraically",
+      "content": "Expanding the right side gives $$9x+5=ax+ab.$$ Rearranging gives $$(9-a)x=ab-5.$$ No solution happens when the coefficient of $x$ is $0$ but the constant side is not $0$: $$9-a=0\\Rightarrow a=9$$ and $$ab-5\\neq0\\Rightarrow9b\\neq5\\Rightarrow b\\neq\\frac{5}{9}.$$"
+    },
+    {
+      "title": "Select the answer",
+      "content": "Statement I is required. Statement II is not required because $b$ can be any value except $\\frac{5}{9}$. Statement III is required. Therefore only I and III must be true, which matches choice <strong>D</strong>."
+    }
+  ]
+}

@@ -175,7 +175,7 @@ export function StepByStepExplanation({ questionId, question }: StepByStepExplan
   );
 }
 
-// ── Strip reasoning artifacts from LLM output ──────────────────────
+// Strip internal reasoning artifacts.
 function cleanStepContent(raw: unknown): string {
   let s = typeof raw === "string" ? raw : "";
   s = s.replace(/<think>[\s\S]*?<\/think>/gi, "");
@@ -191,7 +191,6 @@ function cleanStepContent(raw: unknown): string {
   return s.trim();
 }
 
-// ── Single step renderer ─────────────────────────────────────────────
 // Content is from our own API response (renderMixedContent sanitizes via KaTeX rendering)
 function StepContent({ step, stepIndex, totalSteps }: { step: ExplanationStep; stepIndex: number; totalSteps: number }) {
   const cleaned = cleanStepContent(step.content);

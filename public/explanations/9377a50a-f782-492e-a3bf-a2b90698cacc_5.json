@@ -1,1 +1,21 @@
-{"questionId": "9377a50a-f782-492e-a3bf-a2b90698cacc_5", "correctAnswer": "C", "section": "Math", "steps": ["The given list has 7 values already sorted: 12, 22, 24, 33, 39, 42, 44. With an odd count of 7, the median is the 4th value: \\(\\text{median} = 33\\).", "Each answer choice also has 7 values. After sorting each, the median is its 4th element.", "Check the 4th element of each choice: A gives 38, B gives 39, C gives 33, D gives 28. Only C matches the target median of 33.", "<ul><li><strong>A</strong> 22, 25, 35, 38, 49, 50, 54 — 4th element is 38 ≠ 33. Eliminated.</li><li><strong>B</strong> 22, 28, 33, 39, 41, 43, 46 — 4th element is 39 ≠ 33. Eliminated.</li><li><strong>C</strong> 12, 15, 28, 33, 35, 39, 39 — 4th element is 33 ✓. That matches choice C — <strong>C</strong> is correct.</li><li><strong>D</strong> 22, 25, 26, 28, 33, 33, 39 — 4th element is 28 ≠ 33. Eliminated.</li></ul>"]}
+{
+  "questionId": "9377a50a-f782-492e-a3bf-a2b90698cacc_5",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    "The given list has 7 values already sorted: 12, 22, 24, 33, 39, 42, 44. With an odd count of 7, the median is the 4th value: $\\text{median} = 33$.",
+    "Each answer choice also has 7 values. After sorting each, the median is its 4th element.",
+    {
+      "title": "Use Desmos to check the medians",
+      "content": "Enter the original list and each answer-choice list with the $\\text{median}$ function. The original list and choice C both have median $33$; the other choices have different medians.",
+      "desmosExpressions": [
+        "median([12,22,24,33,39,42,44])",
+        "median([22,25,35,38,49,50,54])",
+        "median([22,28,33,39,41,43,46])",
+        "median([12,15,28,33,35,39,39])",
+        "median([22,25,26,28,33,33,39])"
+      ]
+    },
+    "<ul><li><strong>A</strong> 22, 25, 35, 38, 49, 50, 54 — 4th element is 38 ≠ 33. Eliminated.</li><li><strong>B</strong> 22, 28, 33, 39, 41, 43, 46 — 4th element is 39 ≠ 33. Eliminated.</li><li><strong>C</strong> 12, 15, 28, 33, 35, 39, 39 — 4th element is 33 ✓. That matches choice C — <strong>C</strong> is correct.</li><li><strong>D</strong> 22, 25, 26, 28, 33, 33, 39 — 4th element is 28 ≠ 33. Eliminated.</li></ul>"
+  ]
+}

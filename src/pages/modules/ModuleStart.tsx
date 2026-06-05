@@ -24,7 +24,10 @@ const ModuleStart = () => {
   );
   const [sessionRefreshKey, setSessionRefreshKey] = useState(0);
   const savedSession = useMemo(
-    () => (module ? getModulePracticeSession(module.slug) : null),
+    () => {
+      void sessionRefreshKey;
+      return module ? getModulePracticeSession(module.slug) : null;
+    },
     [module, sessionRefreshKey],
   );
   const defaultMinutes = module

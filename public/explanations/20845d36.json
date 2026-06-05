@@ -1,1 +1,23 @@
-{"questionId": "20845d36", "correctAnswer": ".48", "section": "Math", "steps": [{"title": "Express a as a percentage of b", "content": "$$a = b - 0.70b = 0.30b$$"}, {"title": "Express c as a percentage of a", "content": "$$c = a + 0.60a = 1.60a$$"}, {"title": "Combine to find c in terms of b", "content": "$$c = 1.60 \\times 0.30b = 0.48b$$<br/>Thus $c$ is $0.48$ times $b$."}]}
+{
+  "questionId": "20845d36",
+  "correctAnswer": ".48",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Express a as a percentage of b",
+      "content": "$$a = b - 0.70b = 0.30b$$"
+    },
+    {
+      "title": "Express c as a percentage of a",
+      "content": "$$c = a + 0.60a = 1.60a$$"
+    },
+    {
+      "title": "Combine to find c in terms of b",
+      "content": "$$c = 1.60 \\times 0.30b = 0.48b$$<br/>Thus $c$ is $0.48$ times $b$."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $.48$. It's given that the number $a$ is $70%$ less than the positive number $b$. Therefore, $a=\\left(1-\\frac{70}{100}\\right)b$, which is equivalent to $a=\\left(1-0.70\\right)b$, or $a=0.30b$. It's also given that the number $c$ is $60%$ greater than $a$. Therefore, $c=\\left(1+\\frac{60}{100}\\right)a$, which is equivalent to $c=\\left(1+0.60\\right)a$, or $c=1.60a$. Since $a=0.30b$, substituting $0.30b$ for $a$ in the equation $c=1.60a$ yields $c=1.60\\left(0.30b\\right)$, or $c=0.48b$. Thus, $c$ is $0.48$ times $b$. Note that.48 and 12/25 are examples of ways to enter a correct answer."
+    }
+  ]
+}

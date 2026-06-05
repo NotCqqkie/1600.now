@@ -1,1 +1,15 @@
-{"questionId": "b6569d0e", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Extract the necessary counts from the table", "content": "Presidents aged at least 50: 50–54 (13) + 55–59 (11) + 60–64 (7) + 65–69 (3) = 34.<br/>Presidents aged at least 60: 60–64 (7) + 65–69 (3) = 10."}, {"title": "Calculate the conditional probability", "content": "The fraction of presidents at least 60 (among those at least 50) is:<br/>$$\\frac{10}{34}$$<br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "b6569d0e",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Extract the necessary counts from the table",
+      "content": "Presidents aged at least 50: 50–54 (13) + 55–59 (11) + 60–64 (7) + 65–69 (3) = 34.<br/>Presidents aged at least 60: 60–64 (7) + 65–69 (3) = 10."
+    },
+    {
+      "title": "Calculate the conditional probability",
+      "content": "The fraction of presidents at least 60 (among those at least 50) is:<br/>$$\\frac{10}{34}$$<br/>That matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId":"26eb61c1","correctAnswer":"C","section":"Math","steps":[{"title":"Factor the expression","content":"Factor $6x^8y^2 + 12x^2y^2$ by pulling out the greatest common factor. Both terms share $6x^2y^2$: $6x^8y^2 + 12x^2y^2 = 6x^2y^2(x^6 + 2)$."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; $6x^2y^2(2x^6)$</strong>: Expanding gives $12x^8y^2$, which is missing the $12x^2y^2$ term entirely. &#10007;</li><li><strong>Choice B &mdash; $6x^2y^2(x^4)$</strong>: Expanding gives $6x^6y^2$, which matches neither term of the original expression. &#10007;</li><li><strong>Choice C &mdash; $6x^2y^2(x^6+2)$</strong>: Expanding gives $6x^8y^2 + 12x^2y^2$ &mdash; exactly the original expression. &#10003;</li><li><strong>Choice D &mdash; $6x^2y^2(x^4+2)$</strong>: Expanding gives $6x^6y^2 + 12x^2y^2$, but the original has $x^8$, not $x^6$. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "26eb61c1",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor the expression",
+      "content": "Factor $6x^8y^2 + 12x^2y^2$ by pulling out the greatest common factor. Both terms share $6x^2y^2$: $6x^8y^2 + 12x^2y^2 = 6x^2y^2(x^6 + 2)$."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; $6x^2y^2(2x^6)$</strong>: Expanding gives $12x^8y^2$, which is missing the $12x^2y^2$ term entirely. &#10007;</li><li><strong>Choice B &mdash; $6x^2y^2(x^4)$</strong>: Expanding gives $6x^6y^2$, which matches neither term of the original expression. &#10007;</li><li><strong>Choice C &mdash; $6x^2y^2(x^6+2)$</strong>: Expanding gives $6x^8y^2 + 12x^2y^2$ &mdash; exactly the original expression. &#10003;</li><li><strong>Choice D &mdash; $6x^2y^2(x^4+2)$</strong>: Expanding gives $6x^6y^2 + 12x^2y^2$, but the original has $x^8$, not $x^6$. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -9,7 +9,7 @@
     },
     {
       "title": "Calculate the tip amount",
-      "content": "Convert 20% to a decimal: $20\\% = 0.20$.<br/>Multiply by the total bill:<br/>$$0.20 \\times 25 = 5$$<br/>The tip is $\\$5.00$. That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "Convert 20% to a decimal: $20\\% = 0.20$.<br/>Multiply by the total bill:<br/>$$0.20 \\times 25 = 5$$<br/>The tip is $\\$5.00$. That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

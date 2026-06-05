@@ -1,1 +1,15 @@
-{"questionId":"a22baf87-f61e-43f7-b868-52cf0e05d234_10","correctAnswer":"A","section":"Math","steps":[{"title":"Set up the dimensions","content":"Width is $w$ feet. The length is $73$ times the width, so length $=73w$ feet. Area $=$ length $\\times$ width gives $$y=(73w)(w).$$"},{"title":"Interpret the factor","content":"In $(73w)(w)$, the factor $w$ is the width, so $(73w)$ must be the length. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}
+{
+  "questionId": "a22baf87-f61e-43f7-b868-52cf0e05d234_10",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the dimensions",
+      "content": "Width is $w$ feet. The length is $73$ times the width, so length $=73w$ feet. Area $=$ length $\\times$ width gives $$y=(73w)(w).$$"
+    },
+    {
+      "title": "Interpret the factor",
+      "content": "In $(73w)(w)$, the factor $w$ is the width, so $(73w)$ must be the length. That matches choice <strong>A</strong> — <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,19 @@
-{"questionId":"c303ad23","correctAnswer":"5","section":"Math","steps":[{"title":"Apply the simplification from the given condition","content":"Divide both sides by $3$: $x^{2}-6x-5=0$."},{"title":"Compute the target value","content":"So $x^{2}-6x = 5$. The answer is <strong>5</strong>."}]}
+{
+  "questionId": "c303ad23",
+  "correctAnswer": "5",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the simplification from the given condition",
+      "content": "Divide both sides by $3$: $x^{2}-6x-5=0$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "So $x^{2}-6x = 5$. The answer is <strong>5</strong>."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $5$. Dividing each side of the given equation by $3$ yields ${x}^{2}-6x-5=0$. Adding $5$ to each side of this equation yields ${x}^{2}-6x=5$. Therefore, if $3{x}^{2}-18x-15=0$, the value of ${x}^{2}-6x$ is $5$."
+    }
+  ]
+}

@@ -1,1 +1,19 @@
-{"questionId":"38517165","correctAnswer":"31","section":"Math","steps":[{"title":"Apply the circumference formula","content":"The circumference of a circle is $C=\\pi d$, where $d$ is the diameter. Substitute the given $C=31\\pi$: $$31\\pi=\\pi d.$$"},{"title":"Solve for diameter/radius","content":"Divide both sides by $\\pi$: $$d=31.$$ The answer is <strong>31</strong>."}]}
+{
+  "questionId": "38517165",
+  "correctAnswer": "31",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the circumference formula",
+      "content": "The circumference of a circle is $C=\\pi d$, where $d$ is the diameter. Substitute the given $C=31\\pi$: $$31\\pi=\\pi d.$$"
+    },
+    {
+      "title": "Solve for diameter/radius",
+      "content": "Divide both sides by $\\pi$: $$d=31.$$ The answer is <strong>31</strong>."
+    },
+    {
+      "title": "Use the source rationale",
+      "content": "The correct answer is $31$. The circumference of a circle is equal to $2πr$ centimeters, where $r$ represents the radius, in centimeters, of the circle, and the diameter of the circle is equal to $2r$ centimeters. It's given that a circle has a circumference of $31π$ centimeters. Therefore, $31π=2πr$. Dividing both sides of this equation by $π$ yields $31=2r$. Since the diameter of the circle is equal to $2r$ centimeters, it follows that the diameter, in centimeters, of the circle is $31$."
+    }
+  ]
+}

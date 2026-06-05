@@ -1,1 +1,15 @@
-{"questionId": "be1b8c74", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Isolate a", "content": "Starting from $x = 8a(b+9)$, divide both sides by $8(b+9)$ (nonzero since $b$ is positive): $$a = \\frac{x}{8(b+9)}.$$"}, {"title": "Eliminate the answer choices", "content": "<ul><li><strong>A</strong> gives $a = \\frac{x}{8} - (b+9)$, which would only follow if the original equation were $x = 8(a + b + 9)$ &mdash; not the given product form.</li><li><strong>B</strong> gives $a = \\frac{x}{8(b+9)}$, exactly what we derived.</li><li><strong>C</strong> gives $a = \\frac{8(b+9)}{x}$, the reciprocal of B and not equivalent.</li><li><strong>D</strong> gives $a = 8x(b+9)$, which would multiply rather than divide by $8(b+9)$.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "be1b8c74",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate a",
+      "content": "Starting from $x = 8a(b+9)$, divide both sides by $8(b+9)$ (nonzero since $b$ is positive): $$a = \\frac{x}{8(b+9)}.$$"
+    },
+    {
+      "title": "Eliminate the answer choices",
+      "content": "<ul><li><strong>A</strong> gives $a = \\frac{x}{8} - (b+9)$, which would only follow if the original equation were $x = 8(a + b + 9)$ &mdash; not the given product form.</li><li><strong>B</strong> gives $a = \\frac{x}{8(b+9)}$, exactly what we derived.</li><li><strong>C</strong> gives $a = \\frac{8(b+9)}{x}$, the reciprocal of B and not equivalent.</li><li><strong>D</strong> gives $a = 8x(b+9)$, which would multiply rather than divide by $8(b+9)$.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}
