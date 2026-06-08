@@ -92,7 +92,7 @@ const SettingsSignInPrompt = ({ mutedColor }: { mutedColor: string }) => {
   const navigate = useNavigate();
 
   return (
-    <div style={{ textAlign: "center", padding: "72px 0" }}>
+    <div className="stats-fade" style={{ textAlign: "center", padding: "72px 0" }}>
       <User
         size={48}
         style={{

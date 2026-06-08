@@ -60,6 +60,55 @@ const TAG_DARK: Record<Pos, { bg: string; textColor: string }> = {
   verb: { bg: "hsl(32 60% 18%)", textColor: "hsl(32 100% 70%)" },
   noun: { bg: "hsl(122 35% 16%)", textColor: "hsl(122 55% 65%)" },
 };
+const STATUS_META: Record<StudyStatus, {
+  label: string;
+  short: string;
+  bgLight: string;
+  textLight: string;
+  borderLight: string;
+  bgDark: string;
+  textDark: string;
+  borderDark: string;
+  accentLight: string;
+  accentDark: string;
+}> = {
+  new: {
+    label: "New",
+    short: "N",
+    bgLight: "hsl(215 18% 95%)",
+    textLight: "hsl(215 18% 35%)",
+    borderLight: "hsl(215 18% 82%)",
+    bgDark: "hsl(215 18% 18%)",
+    textDark: "hsl(215 20% 76%)",
+    borderDark: "hsl(215 18% 30%)",
+    accentLight: "hsl(215 18% 48%)",
+    accentDark: "hsl(215 20% 70%)",
+  },
+  learning: {
+    label: "Learning",
+    short: "L",
+    bgLight: "hsl(39 100% 93%)",
+    textLight: "hsl(32 90% 29%)",
+    borderLight: "hsl(39 92% 72%)",
+    bgDark: "hsl(36 76% 16%)",
+    textDark: "hsl(39 100% 72%)",
+    borderDark: "hsl(39 100% 32%)",
+    accentLight: "hsl(38 92% 46%)",
+    accentDark: "hsl(39 100% 62%)",
+  },
+  mastered: {
+    label: "Mastered",
+    short: "M",
+    bgLight: "hsl(145 70% 92%)",
+    textLight: "hsl(145 64% 27%)",
+    borderLight: "hsl(145 55% 72%)",
+    bgDark: "hsl(145 46% 16%)",
+    textDark: "hsl(145 70% 70%)",
+    borderDark: "hsl(145 62% 32%)",
+    accentLight: "hsl(145 63% 36%)",
+    accentDark: "hsl(145 70% 62%)",
+  },
+};
 
 function hashStr(input: string): number {
   let hash = 0;
@@ -202,6 +251,59 @@ function Tag({ pos, isDark }: { pos: Pos; isDark: boolean }) {
       }}
     >
       {pos}
+    </span>
+  );
+}
+
+function statusFromMastery(mastery: number): StudyStatus {
+  if (mastery >= 0.8) return "mastered";
+  if (mastery > 0) return "learning";
+  return "new";
+}
+
+function StatusChip({ status, isDark }: { status: StudyStatus; isDark: boolean }) {
+  const meta = STATUS_META[status];
+  const bg = isDark ? meta.bgDark : meta.bgLight;
+  const color = isDark ? meta.textDark : meta.textLight;
+  const border = isDark ? meta.borderDark : meta.borderLight;
+  const accent = isDark ? meta.accentDark : meta.accentLight;
+
+  return (
+    <span
+      title={meta.label}
+      style={{
+        display: "inline-flex",
+        alignItems: "center",
+        gap: 6,
+        width: "fit-content",
+        padding: "3px 8px 3px 4px",
+        borderRadius: 999,
+        border: `1px solid ${border}`,
+        background: bg,
+        color,
+        fontSize: 11,
+        fontWeight: 650,
+        lineHeight: 1,
+        whiteSpace: "nowrap",
+      }}
+    >
+      <span
+        style={{
+          width: 18,
+          height: 18,
+          borderRadius: 999,
+          background: accent,
+          color: status === "new" && isDark ? "hsl(217 33% 12%)" : "#fff",
+          display: "inline-flex",
+          alignItems: "center",
+          justifyContent: "center",
+          fontSize: 10,
+          fontWeight: 800,
+        }}
+      >
+        {meta.short}
+      </span>
+      {meta.label}
     </span>
   );
 }
@@ -722,13 +824,11 @@ function Flashcards({
   deck,
   isDark,
   onMark,
-  onResetSet,
   setName,
 }: {
   deck: Word[];
   isDark: boolean;
   onMark: (id: string, status: StudyStatus, mode: PracticeMode) => void;
-  onResetSet: () => void;
   setName: string;
 }) {
   const [queue, setQueue] = useState<string[]>([]);
@@ -737,7 +837,7 @@ function Flashcards({
   const [knownThisRound, setKnownThisRound] = useState<Set<string>>(new Set());
   const [learningThisRound, setLearningThisRound] = useState<Set<string>>(new Set());
   const [flipped, setFlipped] = useState(false);
-  const [confirmReset, setConfirmReset] = useState(false);
+  const [reviewingMasteredSet, setReviewingMasteredSet] = useState(false);
 
   const wordsById = useMemo(() => {
     const wordMap = new Map<string, Word>();
@@ -748,16 +848,22 @@ function Flashcards({
   deckRef.current = deck;
   const deckIds = deck.map(word => word.id).join("|");
 
-  const startGroup = (requestedStart: number) => {
+  const startGroup = (requestedStart: number, reviewMasteredSet = false) => {
     const currentDeck = deckRef.current;
-    const round = getFlashcardRoundIds(currentDeck, requestedStart);
+    const start = requestedStart >= 0 && requestedStart < currentDeck.length ? requestedStart : 0;
+    const round = reviewMasteredSet
+      ? {
+          ids: currentDeck.slice(start, start + FLASHCARD_GROUP_SIZE).map(word => word.id),
+          start,
+        }
+      : getFlashcardRoundIds(currentDeck, requestedStart);
     setRoundStart(round.start);
     setQueue(round.ids);
     setRoundTotal(round.ids.length);
     setKnownThisRound(new Set());
     setLearningThisRound(new Set());
     setFlipped(false);
-    setConfirmReset(false);
+    setReviewingMasteredSet(reviewMasteredSet);
   };
 
   useEffect(() => {
@@ -823,7 +929,7 @@ function Flashcards({
   );
 
   const restartFull = () => {
-    startGroup(roundStart);
+    startGroup(roundStart, reviewingMasteredSet);
   };
 
   const restartLearning = () => {
@@ -836,17 +942,6 @@ function Flashcards({
     setFlipped(false);
   };
 
-  const resetAndStart = () => {
-    onResetSet();
-    const nextQueue = deckRef.current.map(word => word.id).slice(0, FLASHCARD_GROUP_SIZE);
-    setRoundStart(0);
-    setQueue(nextQueue);
-    setRoundTotal(nextQueue.length);
-    setKnownThisRound(new Set());
-    setLearningThisRound(new Set());
-    setFlipped(false);
-    setConfirmReset(false);
-  };
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
       const targetTag = (event.target as HTMLElement)?.tagName;
@@ -872,88 +967,191 @@ function Flashcards({
     const knownCount = knownThisRound.size;
     const stillLearningCount = Array.from(learningThisRound).filter(id => !knownThisRound.has(id)).length;
     const allMastered = isFlashcardSetComplete(deck);
+    const reviewGroupSize = Math.min(FLASHCARD_GROUP_SIZE, deck.length);
+    const displayRoundTotal = roundTotal || (allMastered ? deck.length : reviewGroupSize);
+    const displayKnownCount = allMastered && roundTotal === 0 && !reviewingMasteredSet ? deck.length : knownCount;
+    const skippedCount = Math.max(0, displayRoundTotal - displayKnownCount - stillLearningCount);
     const nextStart = roundStart + FLASHCARD_GROUP_SIZE;
     const hasNextGroup = nextStart < deck.length;
     const nextGroupSize = Math.min(
       FLASHCARD_GROUP_SIZE,
       hasNextGroup ? deck.length - nextStart : deck.length,
     );
+    const reviewStart = reviewingMasteredSet && hasNextGroup ? nextStart : 0;
+    const title = allMastered
+      ? reviewingMasteredSet
+        ? "Review round complete"
+        : "Set mastered"
+      : "Round complete";
+    const completionCopy = allMastered
+      ? `Every word${setName ? ` in ${setName}` : ""} is mastered.`
+      : stillLearningCount > 0
+        ? "Review the misses now or move into the next batch."
+        : "Clean round. Move into the next batch.";
+    const ctaBackground = isDark ? "hsl(201 100% 72%)" : "#0E2138";
+    const ctaColor = isDark ? "hsl(217 33% 12%)" : "#fff";
+    const ctaShadow = isDark
+      ? "0 16px 34px -18px hsl(201 100% 72% / .8)"
+      : "0 16px 34px -18px rgba(14,33,56,.75)";
+    const ctaStyle: CSSProperties = {
+      ...btnPrimary,
+      height: 52,
+      padding: "0 24px",
+      background: ctaBackground,
+      borderColor: ctaBackground,
+      color: ctaColor,
+      boxShadow: ctaShadow,
+    };
+    const nextRoundStyle: CSSProperties = stillLearningCount > 0
+      ? {
+          ...btnSecondary,
+          height: 52,
+          padding: "0 24px",
+          border: `1.5px solid ${ctaBackground}`,
+          color: ctaBackground,
+          boxShadow: "0 10px 24px -18px rgba(14,33,56,.6)",
+        }
+      : ctaStyle;
     const startNextGroup = () => startGroup(hasNextGroup ? nextStart : 0);
+    const startReviewGroup = () => startGroup(reviewStart, true);
 
     return (
-      <div style={{ maxWidth: 520, margin: "0 auto", textAlign: "center" }}>
+      <div style={{ maxWidth: 620, margin: "0 auto", textAlign: "center" }}>
         <div
           style={{
-            padding: "32px 28px",
-            borderRadius: 16,
+            overflow: "hidden",
+            borderRadius: 20,
             background: cardBackground,
             border: `1px solid ${borderColor}`,
-            boxShadow: "0 12px 32px -18px rgba(15,23,42,.12)",
+            boxShadow: isDark
+              ? "0 24px 70px -34px rgba(0,0,0,.65)"
+              : "0 24px 70px -34px rgba(15,23,42,.28)",
           }}
         >
-          <h2 style={{ margin: 0, fontSize: 24, fontWeight: 600, color: textColor }}>
-            {allMastered ? "Set mastered" : "Round complete"}
-          </h2>
-          <p style={{ margin: "10px 0 6px", color: mutedTextColor, fontSize: 15 }}>
-            {knownCount > 0 && <>{knownCount} marked known</>}
-            {knownCount > 0 && stillLearningCount > 0 && " · "}
-            {stillLearningCount > 0 && <>{stillLearningCount} still learning</>}
-            {knownCount === 0 && stillLearningCount === 0 && (
-              allMastered ? "Reset this set to study it from scratch." : "No cards reviewed."
-            )}
-          </p>
-          {allMastered && (
-            <p style={{ color: successColor, margin: "10px 0 22px", fontSize: 13, fontWeight: 500 }}>
-              You've mastered every word in {setName}.
+          <div
+            style={{
+              height: 7,
+              background: isDark
+                ? "linear-gradient(90deg, hsl(201 100% 72%), hsl(145 70% 62%), hsl(39 100% 62%))"
+                : "linear-gradient(90deg, hsl(201 96% 44%), hsl(145 63% 39%), hsl(38 92% 50%))",
+            }}
+          />
+          <div style={{ padding: "30px 30px 28px" }}>
+            <div
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                gap: 8,
+                padding: "6px 10px",
+                borderRadius: 999,
+                background: isDark ? "hsl(201 100% 72% / .14)" : "hsl(201 100% 44% / .1)",
+                color: isDark ? "hsl(201 100% 78%)" : "hsl(201 96% 31%)",
+                border: `1px solid ${isDark ? "hsl(201 100% 72% / .28)" : "hsl(201 96% 44% / .18)"}`,
+                fontSize: 12,
+                fontWeight: 700,
+                lineHeight: 1,
+                marginBottom: 16,
+              }}
+            >
+              {allMastered && roundTotal === 0 && !reviewingMasteredSet
+                ? `${deck.length}-word set`
+                : `${roundTotal || reviewGroupSize}-word round`}
+            </div>
+            <h2
+              style={{
+                margin: 0,
+                fontFamily: "'Inter Tight', sans-serif",
+                fontSize: "clamp(30px, 5vw, 42px)",
+                fontWeight: 650,
+                letterSpacing: "-0.035em",
+                lineHeight: 1,
+                color: textColor,
+              }}
+            >
+              {title}
+            </h2>
+            <p style={{ maxWidth: 420, margin: "12px auto 24px", color: mutedTextColor, fontSize: 15, lineHeight: 1.5 }}>
+              {completionCopy}
             </p>
-          )}
-          {!allMastered && <div style={{ height: 16 }} />}
-          <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+
+            <div
+              style={{
+                display: "grid",
+                gridTemplateColumns: skippedCount > 0 ? "repeat(3, 1fr)" : "repeat(2, 1fr)",
+                gap: 10,
+                marginBottom: 22,
+              }}
+            >
+              <div
+                style={{
+                  padding: "16px 14px",
+                  borderRadius: 14,
+                  background: isDark ? "hsl(145 46% 16%)" : "hsl(145 70% 94%)",
+                  border: `1px solid ${isDark ? "hsl(145 62% 32%)" : "hsl(145 55% 76%)"}`,
+                }}
+              >
+                <div style={{ fontSize: 28, fontWeight: 750, lineHeight: 1, color: isDark ? "hsl(145 70% 70%)" : "hsl(145 64% 27%)" }}>
+                  {displayKnownCount}
+                </div>
+                <div style={{ marginTop: 7, fontSize: 12, fontWeight: 650, color: isDark ? "hsl(145 70% 70%)" : "hsl(145 64% 27%)" }}>
+                  Known
+                </div>
+              </div>
+              <div
+                style={{
+                  padding: "16px 14px",
+                  borderRadius: 14,
+                  background: isDark ? "hsl(36 76% 16%)" : "hsl(39 100% 94%)",
+                  border: `1px solid ${isDark ? "hsl(39 100% 32%)" : "hsl(39 92% 74%)"}`,
+                }}
+              >
+                <div style={{ fontSize: 28, fontWeight: 750, lineHeight: 1, color: isDark ? "hsl(39 100% 72%)" : "hsl(32 90% 29%)" }}>
+                  {stillLearningCount}
+                </div>
+                <div style={{ marginTop: 7, fontSize: 12, fontWeight: 650, color: isDark ? "hsl(39 100% 72%)" : "hsl(32 90% 29%)" }}>
+                  Learning
+                </div>
+              </div>
+              {skippedCount > 0 && (
+                <div
+                  style={{
+                    padding: "16px 14px",
+                    borderRadius: 14,
+                    background: isDark ? "hsl(215 18% 18%)" : "hsl(215 18% 95%)",
+                    border: `1px solid ${isDark ? "hsl(215 18% 30%)" : "hsl(215 18% 82%)"}`,
+                  }}
+                >
+                  <div style={{ fontSize: 28, fontWeight: 750, lineHeight: 1, color: isDark ? "hsl(215 20% 76%)" : "hsl(215 18% 35%)" }}>
+                    {skippedCount}
+                  </div>
+                  <div style={{ marginTop: 7, fontSize: 12, fontWeight: 650, color: isDark ? "hsl(215 20% 76%)" : "hsl(215 18% 35%)" }}>
+                    Skipped
+                  </div>
+                </div>
+              )}
+            </div>
+
+            <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
             {stillLearningCount > 0 && (
-              <button onClick={restartLearning} style={{ ...btnPrimary, padding: "0 24px" }}>
+              <button onClick={restartLearning} style={ctaStyle}>
                 Continue with still-learning ({stillLearningCount})
               </button>
             )}
             {!allMastered && (
-              <button onClick={startNextGroup} style={{ ...btnSecondary, padding: "0 24px" }}>
+              <button onClick={startNextGroup} style={nextRoundStyle}>
                 {hasNextGroup ? "Next round" : "Start next pass"} ({nextGroupSize})
               </button>
             )}
             {allMastered && (
-              !confirmReset ? (
-                <button
-                  onClick={() => setConfirmReset(true)}
-                  style={{
-                    ...btnSecondary,
-                    padding: "0 24px",
-                    color: mutedTextColor,
-                  }}
-                >
-                  Reset progress for this set
-                </button>
-              ) : (
-                <div style={{ display: "flex", gap: 8 }}>
-                  <button
-                    onClick={() => setConfirmReset(false)}
-                    style={{ ...btnSecondary, padding: "0 18px", flex: 1 }}
-                  >
-                    Cancel
-                  </button>
-                  <button
-                    onClick={resetAndStart}
-                    style={{
-                      ...btnPrimary,
-                      padding: "0 18px",
-                      flex: 1,
-                      background: errorColor,
-                      borderColor: errorColor,
-                    }}
-                  >
-                    Confirm reset
-                  </button>
-                </div>
-              )
+              <button onClick={startReviewGroup} style={ctaStyle}>
+                {reviewingMasteredSet
+                  ? hasNextGroup
+                    ? "Next review round"
+                    : "Review from start"
+                  : "Review set again"} ({reviewingMasteredSet && hasNextGroup ? nextGroupSize : reviewGroupSize})
+              </button>
             )}
+            </div>
           </div>
         </div>
       </div>
@@ -1369,7 +1567,6 @@ function Learn({
   const [picked, setPicked] = useState<number | null>(null);
   const [correctIds, setCorrectIds] = useState<Set<string>>(new Set());
   const [wrongIds, setWrongIds] = useState<Set<string>>(new Set());
-  const [confirmReset, setConfirmReset] = useState(false);
 
   const deckRef = useRef(deck);
   deckRef.current = deck;
@@ -1386,7 +1583,6 @@ function Learn({
     setPicked(null);
     setCorrectIds(new Set());
     setWrongIds(new Set());
-    setConfirmReset(false);
   }, [deckIds]);
 
   const currentWord = round[pos] ? wordsById.get(round[pos]) : undefined;
@@ -1469,7 +1665,6 @@ function Learn({
     setPicked(null);
     setCorrectIds(new Set());
     setWrongIds(new Set());
-    setConfirmReset(false);
   };
 
   if (deck.length === 0) {
@@ -1506,29 +1701,6 @@ function Learn({
             <button onClick={restart} style={{ ...btnSecondary, padding: "0 24px" }}>
               New round
             </button>
-            {!confirmReset ? (
-              <button
-                onClick={() => setConfirmReset(true)}
-                style={{ ...btnSecondary, padding: "0 24px", color: mutedTextColor }}
-              >
-                Reset progress for this set
-              </button>
-            ) : (
-              <div style={{ display: "flex", gap: 8 }}>
-                <button
-                  onClick={() => setConfirmReset(false)}
-                  style={{ ...btnSecondary, padding: "0 18px", flex: 1 }}
-                >
-                  Cancel
-                </button>
-                <button
-                  onClick={resetAndStart}
-                  style={{ ...btnPrimary, padding: "0 18px", flex: 1, background: errorColor, borderColor: errorColor }}
-                >
-                  Confirm reset
-                </button>
-              </div>
-            )}
           </div>
         </div>
       </div>
@@ -2083,11 +2255,13 @@ type TestResult = {
 
 function Test({
   deck,
+  isDark,
   onMark,
   onResetSet,
   setName,
 }: {
   deck: Word[];
+  isDark: boolean;
   onMark: (id: string, s: StudyStatus, mode: PracticeMode) => void;
   onResetSet: () => void;
   setName: string;
@@ -2101,7 +2275,6 @@ function Test({
   const [results, setResults] = useState<TestResult[]>([]);
   const [timeLeft, setTimeLeft] = useState(TEST_PER_Q_SECONDS);
   const [done, setDone] = useState(false);
-  const [confirmReset, setConfirmReset] = useState(false);
 
   const deckIds = deck.map(word => word.id).join("|");
   useEffect(() => {
@@ -2111,7 +2284,6 @@ function Test({
     setResults([]);
     setTimeLeft(TEST_PER_Q_SECONDS);
     setDone(false);
-    setConfirmReset(false);
   }, [deckIds]);
 
   const currentQuestion = questions[questionIndex];
@@ -2175,7 +2347,6 @@ function Test({
       setResults([]);
       setTimeLeft(TEST_PER_Q_SECONDS);
       setDone(false);
-      setConfirmReset(false);
     }, 0);
   };
 
@@ -2186,6 +2357,22 @@ function Test({
 
   if (done) {
     const correctCount = results.filter(result => result.correct).length;
+    const successFill = isDark ? "hsl(145 46% 13%)" : successBackground;
+    const successBorder = isDark ? "hsl(145 62% 34%)" : "hsl(122 50% 35% / 0.22)";
+    const successAccent = isDark ? "hsl(145 70% 70%)" : successColor;
+    const errorFill = isDark ? "hsl(0 48% 15%)" : errorBackground;
+    const errorBorder = isDark ? "hsl(0 70% 42%)" : "hsl(0 70% 50% / 0.24)";
+    const errorAccent = isDark ? "hsl(0 84% 74%)" : errorColor;
+    const rowPrimaryText = isDark ? "hsl(210 40% 98%)" : textColor;
+    const rowSecondaryText = isDark ? "hsl(210 28% 82%)" : mutedTextColor;
+    const resultButtonStyle: CSSProperties = isDark
+      ? {
+          ...btnPrimary,
+          background: "hsl(201 100% 72%)",
+          borderColor: "hsl(201 100% 72%)",
+          color: "hsl(217 33% 12%)",
+        }
+      : btnPrimary;
     return (
       <div style={{ maxWidth: 640, margin: "0 auto" }}>
         <div
@@ -2213,8 +2400,8 @@ function Test({
                   gap: 12,
                   padding: "12px 14px",
                   borderRadius: 10,
-                  background: result.correct ? successBackground : errorBackground,
-                  border: `1px solid ${result.correct ? successColor : errorColor}33`,
+                  background: result.correct ? successFill : errorFill,
+                  border: `1px solid ${result.correct ? successBorder : errorBorder}`,
                 }}
               >
                 <div
@@ -2222,8 +2409,8 @@ function Test({
                     width: 22,
                     height: 22,
                     borderRadius: 999,
-                    background: result.correct ? successColor : errorColor,
-                    color: "#fff",
+                    background: result.correct ? successAccent : errorAccent,
+                    color: isDark ? "hsl(217 33% 12%)" : "#fff",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
@@ -2236,12 +2423,12 @@ function Test({
                   {result.correct ? "✓" : "✕"}
                 </div>
                 <div style={{ flex: 1, minWidth: 0 }}>
-                  <div style={{ fontSize: 15, fontWeight: 600, color: textColor }}>{result.question.word.w}</div>
-                  <div style={{ fontSize: 13, color: mutedTextColor, marginTop: 2, lineHeight: 1.45 }}>
+                  <div style={{ fontSize: 15, fontWeight: 600, color: rowPrimaryText }}>{result.question.word.w}</div>
+                  <div style={{ fontSize: 13, color: rowSecondaryText, marginTop: 2, lineHeight: 1.45 }}>
                     Correct: {result.correctAnswer}
                   </div>
                   {!result.correct && (
-                    <div style={{ fontSize: 12, color: errorColor, marginTop: 3, lineHeight: 1.45 }}>
+                    <div style={{ fontSize: 12, color: errorAccent, marginTop: 3, lineHeight: 1.45 }}>
                       You picked: {result.pickedAnswer ?? "—"}
                     </div>
                   )}
@@ -2251,96 +2438,11 @@ function Test({
           </div>
 
           <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
-            <button onClick={restart} style={{ ...btnPrimary, padding: "0 24px" }}>
+            <button onClick={restart} style={{ ...resultButtonStyle, padding: "0 24px" }}>
               New test
-            </button>
-            <button
-              onClick={() => setConfirmReset(true)}
-              style={{ ...btnSecondary, padding: "0 24px", color: mutedTextColor }}
-            >
-              Reset progress for this set
             </button>
           </div>
         </div>
-
-        {confirmReset && (
-          <div
-            style={{
-              position: "fixed",
-              inset: 0,
-              background: "rgba(15,23,42,0.55)",
-              backdropFilter: "blur(4px)",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              padding: 20,
-              zIndex: 1000,
-            }}
-            onClick={() => setConfirmReset(false)}
-          >
-            <div
-              onClick={e => e.stopPropagation()}
-              style={{
-                maxWidth: 460,
-                width: "100%",
-                background: cardBackground,
-                border: `1px solid ${borderColor}`,
-                borderRadius: 16,
-                padding: "28px 28px 24px",
-                boxShadow: "0 24px 64px -24px rgba(15,23,42,.4)",
-              }}
-            >
-              <div
-                style={{
-                  width: 44,
-                  height: 44,
-                  borderRadius: 999,
-                  background: `${errorColor}1a`,
-                  color: errorColor,
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  fontSize: 22,
-                  fontWeight: 700,
-                  margin: "0 auto 14px",
-                }}
-              >
-                !
-              </div>
-              <h2 style={{ margin: 0, fontSize: 20, fontWeight: 600, color: textColor, textAlign: "center" }}>
-                Reset progress for this set?
-              </h2>
-              <p style={{ margin: "12px 0 8px", color: textColor, fontSize: 14, textAlign: "center", lineHeight: 1.55 }}>
-                Mastery and learning history for{" "}
-                <span style={{ fontWeight: 600 }}>{setName || "this set"}</span> will be cleared.
-              </p>
-              <p style={{ margin: "0 0 22px", color: mutedTextColor, fontSize: 13, textAlign: "center", lineHeight: 1.5 }}>
-                Only this set is affected. Your progress on other sets stays intact.
-              </p>
-              <div style={{ display: "flex", gap: 10 }}>
-                <button
-                  onClick={() => setConfirmReset(false)}
-                  style={{ ...btnSecondary, padding: "0 18px", flex: 1, height: 44 }}
-                >
-                  Cancel
-                </button>
-                <button
-                  onClick={resetAndStart}
-                  style={{
-                    ...btnPrimary,
-                    padding: "0 18px",
-                    flex: 1,
-                    height: 44,
-                    background: errorColor,
-                    borderColor: errorColor,
-                  }}
-                >
-                  Reset this set
-                </button>
-              </div>
-            </div>
-          </div>
-        )}
       </div>
     );
   }
@@ -2673,26 +2775,34 @@ function Browse({
       </div>
 
       <div style={{ borderRadius: 12, border: `1px solid ${borderColor}`, background: cardBackground, overflow: "hidden" }}>
-        {filtered.map((word, rowIndex) => (
-          <div
-            key={word.id}
-            className="vocab-row"
-            style={{
-              display: "grid",
-              gridTemplateColumns: "200px auto 1fr",
-              gap: 20,
-              padding: "16px 20px",
-              alignItems: "center",
-              borderBottom: rowIndex < filtered.length - 1 ? `1px solid ${borderColor}` : "none",
-              transition: "background .15s",
-              cursor: "pointer",
-            }}
-          >
-            <div style={{ fontSize: 17, fontWeight: 500, color: textColor, letterSpacing: "-.01em" }}>{word.w}</div>
-            <Tag pos={word.pos} isDark={isDark} />
-            <div style={{ fontSize: 14, color: textColor, opacity: 0.8, lineHeight: 1.4 }}>{word.def}</div>
-          </div>
-        ))}
+        {filtered.map((word, rowIndex) => {
+          const status = statusFromMastery(word.mastery);
+          return (
+            <div
+              key={word.id}
+              className="vocab-row"
+              style={{
+                display: "grid",
+                gridTemplateColumns: "minmax(240px, 280px) auto minmax(0, 1fr)",
+                gap: 20,
+                padding: "16px 20px",
+                alignItems: "center",
+                borderBottom: rowIndex < filtered.length - 1 ? `1px solid ${borderColor}` : "none",
+                transition: "background .15s",
+                cursor: "pointer",
+              }}
+            >
+              <div style={{ display: "flex", alignItems: "center", gap: 10, minWidth: 0, flexWrap: "wrap" }}>
+                <span style={{ fontSize: 17, fontWeight: 500, color: textColor, letterSpacing: "-.01em", overflowWrap: "anywhere" }}>
+                  {word.w}
+                </span>
+                <StatusChip status={status} isDark={isDark} />
+              </div>
+              <Tag pos={word.pos} isDark={isDark} />
+              <div style={{ fontSize: 14, color: textColor, opacity: 0.8, lineHeight: 1.4 }}>{word.def}</div>
+            </div>
+          );
+        })}
         {filtered.length === 0 && (
           <div style={{ padding: 40, textAlign: "center", color: mutedTextColor, fontSize: 14 }}>No words match.</div>
         )}
@@ -2841,7 +2951,6 @@ const Vocab = () => {
         deck={deck}
         isDark={isDark}
         onMark={markWord}
-        onResetSet={resetActive}
         setName={activeSet?.name ?? ""}
       />
     );
@@ -2851,7 +2960,7 @@ const Vocab = () => {
     content = <Match deck={deck} isDark={isDark} onMark={markWord} onResetSet={resetActive} />;
   else if (mode === "test")
     content = (
-      <Test deck={deck} onMark={markWord} onResetSet={resetActive} setName={activeSet?.name ?? ""} />
+      <Test deck={deck} isDark={isDark} onMark={markWord} onResetSet={resetActive} setName={activeSet?.name ?? ""} />
     );
   else if (mode === "browse") content = <Browse deck={deck} isDark={isDark} onResetSet={resetActive} />;
 

@@ -72,7 +72,6 @@ const OnboardingTour = lazy(() => import("./components/OnboardingTour").then((mo
 const queryClient = new QueryClient();
 const ONBOARDING_REPLAY_REQUEST_KEY = "onboarding-replay-requested";
 const PRACTICE_SET_HELP_REQUEST_KEY = "practice-set-help-requested";
-const SKELETON_DELAY_MS = 180;
 
 const hasPendingTourRequest = () =>
   typeof window !== "undefined" &&
@@ -1948,7 +1947,7 @@ const classifySkeleton = (pathname: string) => {
 
 const PageSkeleton = ({ pathname }: { pathname: string }) => {
   const kind = classifySkeleton(pathname);
-  if (kind === "home") return <div className="min-h-screen bg-background" />;
+  if (kind === "home") return <AccurateHomeSkeleton />;
   if (kind === "login") return <AccurateLoginSkeleton />;
   if (kind === "signup") return <AccurateSignupSkeleton />;
   if (kind === "verify-email") return <AccurateVerifyEmailSkeleton />;
@@ -2017,17 +2016,6 @@ const Loading = () => {
   return <PageSkeleton pathname={location.pathname} />;
 };
 
-const DelayedLoading = () => {
-  const [show, setShow] = useState(false);
-
-  useEffect(() => {
-    const timeoutId = setTimeout(() => setShow(true), SKELETON_DELAY_MS);
-    return () => clearTimeout(timeoutId);
-  }, []);
-
-  return show ? <Loading /> : null;
-};
-
 const RouteErrorBoundary = ({ children }: { children: ReactNode }) => {
   const location = useLocation();
   return <ErrorBoundary key={location.pathname}>{children}</ErrorBoundary>;
@@ -2035,13 +2023,13 @@ const RouteErrorBoundary = ({ children }: { children: ReactNode }) => {
 
 const withSuspense = (page: ReactNode) => (
   <RouteErrorBoundary>
-    <Suspense fallback={<DelayedLoading />}>{page}</Suspense>
+    <Suspense fallback={<Loading />}>{page}</Suspense>
   </RouteErrorBoundary>
 );
 
 const withShellSuspense = (page: ReactNode) => (
   <RouteErrorBoundary>
-    <Suspense fallback={<DelayedLoading />}>
+    <Suspense fallback={<Loading />}>
       <AppShell>
         <RouteErrorBoundary>
           {page}

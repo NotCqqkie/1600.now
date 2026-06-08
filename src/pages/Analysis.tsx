@@ -743,19 +743,8 @@ const Analysis = () => {
     link.href =
       "https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap";
     document.head.appendChild(link);
-    const style = document.createElement("style");
-    style.id = "analysis-keyframes";
-    style.textContent = `
-      @keyframes statsFadeUp {
-        from { opacity: 0; transform: translateY(16px); }
-        to   { opacity: 1; transform: translateY(0); }
-      }
-      .stats-fade { animation: statsFadeUp 0.6s ease both; }
-    `;
-    document.head.appendChild(style);
     return () => {
       document.head.removeChild(link);
-      document.getElementById("analysis-keyframes")?.remove();
     };
   }, []);
 
@@ -1185,6 +1174,23 @@ const Analysis = () => {
       <main
         style={{ maxWidth: 1080, margin: "0 auto", padding: "0 24px 88px" }}
       >
+        {!user && (
+          <div className="stats-fade" style={{ paddingTop: 24, marginBottom: 6 }}>
+            <h1
+              style={{
+                fontFamily: "'Geist', Georgia, serif",
+                fontSize: "clamp(24px, 3vw, 32px)",
+                fontWeight: 400,
+                letterSpacing: "-0.02em",
+                color: "hsl(var(--foreground))",
+                margin: 0,
+              }}
+            >
+              Statistics
+            </h1>
+          </div>
+        )}
+
         {user && pastTests.length > 0 && (
           <div style={{ paddingTop: 4, marginBottom: 40 }}>
             <PastTestsStrip results={pastTests} />
