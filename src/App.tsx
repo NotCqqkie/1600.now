@@ -2,8 +2,8 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
-import { Suspense, lazy, useEffect, useState, type CSSProperties, type ReactNode } from "react";
+import { BrowserRouter, Routes, Route, matchPath, useLocation, type Location } from "react-router-dom";
+import { Suspense, createElement, useEffect, useRef, useState, type ComponentProps, type ComponentType, type CSSProperties, type ReactNode } from "react";
 import { AuthProvider, useAuth } from "@/contexts/AuthContext";
 import { AuthReturnTracker } from "@/components/auth/AuthReturnTracker";
 import { EmailVerificationGuard } from "@/components/auth/EmailVerificationGuard";
@@ -15,59 +15,97 @@ import { Seo } from "@/components/seo/Seo";
 import { ErrorBoundary } from "@/components/ErrorBoundary";
 import "@/lib/personalization";
 
-const Home = lazy(() => import("./pages/Home"));
-const Login = lazy(() => import("./pages/auth/Login"));
-const Signup = lazy(() => import("./pages/auth/Signup"));
-const VerifyEmail = lazy(() => import("./pages/auth/VerifyEmail"));
-const Index = lazy(() => import("./pages/Index"));
-const HardQuestionsIntro = lazy(() => import("./pages/bank/HardQuestionsIntro"));
-const Question = lazy(() => import("./pages/bank/Question"));
-const BankIndex = lazy(() => import("./pages/bank/BankIndex"));
-const BankBrowse = lazy(() => import("./pages/bank/BankBrowse"));
-const BankFiltered = lazy(() => import("./pages/bank/BankFiltered"));
-const Analysis = lazy(() => import("./pages/Analysis"));
-const TestResults = lazy(() => import("./pages/TestResults"));
-const MyPracticeSets = lazy(() => import("./pages/MyPracticeSets"));
-const Modules = lazy(() => import("./pages/modules/Modules"));
-const PracticeTestStart = lazy(() => import("./pages/practice-test/PracticeTestStart"));
-const PracticeTestTransition = lazy(() => import("./pages/practice-test/PracticeTestTransition"));
-const PracticeTestReview = lazy(() => import("./pages/practice-test/PracticeTestReview"));
-const PracticeTestResults = lazy(() => import("./pages/practice-test/PracticeTestResults"));
-const ModuleStart = lazy(() => import("./pages/modules/ModuleStart"));
-const ModulePracticeReview = lazy(() => import("./pages/modules/ModulePracticeReview"));
-const ModulePracticeResults = lazy(() => import("./pages/modules/ModulePracticeResults"));
-const Vocab = lazy(() => import("./pages/Vocab"));
-const ScoreCalculator = lazy(() => import("./pages/ScoreCalculator"));
-const NotFound = lazy(() => import("./pages/NotFound"));
-const Profile = lazy(() => import("./pages/auth/Profile"));
-const Personalization = lazy(() => import("./pages/auth/Personalization"));
-const SatVocabularyIndex = lazy(() => import("./pages/sat-info/SatVocabularyIndex"));
-const SatScoreIndex = lazy(() => import("./pages/sat-info/SatScoreIndex"));
-const SatScoreDetail = lazy(() => import("./pages/sat-info/SatScoreDetail"));
-const SatSkillIndex = lazy(() => import("./pages/sat-info/SatSkillIndex"));
-const SatSkillDetail = lazy(() => import("./pages/sat-info/SatSkillDetail"));
-const BlogIndex = lazy(() => import("./pages/blog/BlogIndex"));
-const BlogPost = lazy(() => import("./pages/blog/BlogPost"));
-const IsScoreGood = lazy(() => import("./pages/sat-info/IsScoreGood"));
-const SatFaqIndex = lazy(() => import("./pages/sat-info/SatFaqIndex"));
-const SatFaqPage = lazy(() => import("./pages/sat-info/SatFaqPage"));
-const PrivacyPolicy = lazy(() => import("./pages/legal/PrivacyPolicy"));
-const TermsOfService = lazy(() => import("./pages/legal/TermsOfService"));
-const TopLevelSeoPage = lazy(() => import("./pages/sat-info/TopLevelSeoPage"));
-const SatToActConverter = lazy(() => import("./pages/tools/SatToActConverter"));
-const SatPercentileCalculator = lazy(() => import("./pages/tools/SatPercentileCalculator"));
-const PsatToSatPredictor = lazy(() => import("./pages/tools/PsatToSatPredictor"));
-const SatStudyPlanGenerator = lazy(() => import("./pages/tools/SatStudyPlanGenerator"));
-const WhatSatScoreDoINeed = lazy(() => import("./pages/tools/WhatSatScoreDoINeed"));
-const SatTestCountdown = lazy(() => import("./pages/tools/SatTestCountdown"));
-const CountryHubPage = lazy(() => import("./pages/country/CountryHubPage"));
-const CountryTopicPage = lazy(() => import("./pages/country/CountryTopicPage"));
-const CollegeIndex = lazy(() => import("./pages/college/CollegeIndex"));
-const CollegePage = lazy(() => import("./pages/college/CollegePage"));
-const AdminReports = lazy(() => import("./pages/admin/AdminReports"));
-const AppShell = lazy(() => import("./components/AppShell").then((mod) => ({ default: mod.AppShell })));
-const AccountSync = lazy(() => import("./components/auth/AccountSync").then((mod) => ({ default: mod.AccountSync })));
-const OnboardingTour = lazy(() => import("./components/OnboardingTour").then((mod) => ({ default: mod.OnboardingTour })));
+type LoadableModule<T extends ComponentType<unknown>> = { default: T };
+type PreloadableComponent<T extends ComponentType<unknown> = ComponentType<unknown>> =
+  ComponentType<ComponentProps<T>> & {
+    preload: () => Promise<LoadableModule<T>>;
+  };
+
+const preloadableLazy = <T extends ComponentType<unknown>>(
+  load: () => Promise<LoadableModule<T>>,
+) => {
+  let loadedModule: LoadableModule<T> | null = null;
+  let loadPromise: Promise<LoadableModule<T>> | null = null;
+  let loadError: unknown = null;
+
+  const preload = () => {
+    if (loadedModule) return Promise.resolve(loadedModule);
+    if (loadError) return Promise.reject(loadError);
+    loadPromise ??= load().then(
+      (module) => {
+        loadedModule = module;
+        return module;
+      },
+      (error: unknown) => {
+        loadError = error;
+        throw error;
+      },
+    );
+    return loadPromise;
+  };
+
+  const Component = ((props: ComponentProps<T>) => {
+    if (loadedModule) return createElement(loadedModule.default, props);
+    if (loadError) throw loadError;
+    throw preload();
+  }) as PreloadableComponent<T>;
+  Component.preload = preload;
+  return Component;
+};
+
+const Home = preloadableLazy(() => import("./pages/Home"));
+const Login = preloadableLazy(() => import("./pages/auth/Login"));
+const Signup = preloadableLazy(() => import("./pages/auth/Signup"));
+const VerifyEmail = preloadableLazy(() => import("./pages/auth/VerifyEmail"));
+const Index = preloadableLazy(() => import("./pages/Index"));
+const HardQuestionsIntro = preloadableLazy(() => import("./pages/bank/HardQuestionsIntro"));
+const Question = preloadableLazy(() => import("./pages/bank/Question"));
+const BankIndex = preloadableLazy(() => import("./pages/bank/BankIndex"));
+const BankBrowse = preloadableLazy(() => import("./pages/bank/BankBrowse"));
+const BankFiltered = preloadableLazy(() => import("./pages/bank/BankFiltered"));
+const Analysis = preloadableLazy(() => import("./pages/Analysis"));
+const TestResults = preloadableLazy(() => import("./pages/TestResults"));
+const MyPracticeSets = preloadableLazy(() => import("./pages/MyPracticeSets"));
+const Modules = preloadableLazy(() => import("./pages/modules/Modules"));
+const PracticeTestStart = preloadableLazy(() => import("./pages/practice-test/PracticeTestStart"));
+const PracticeTestTransition = preloadableLazy(() => import("./pages/practice-test/PracticeTestTransition"));
+const PracticeTestReview = preloadableLazy(() => import("./pages/practice-test/PracticeTestReview"));
+const PracticeTestResults = preloadableLazy(() => import("./pages/practice-test/PracticeTestResults"));
+const ModuleStart = preloadableLazy(() => import("./pages/modules/ModuleStart"));
+const ModulePracticeReview = preloadableLazy(() => import("./pages/modules/ModulePracticeReview"));
+const ModulePracticeResults = preloadableLazy(() => import("./pages/modules/ModulePracticeResults"));
+const Vocab = preloadableLazy(() => import("./pages/Vocab"));
+const ScoreCalculator = preloadableLazy(() => import("./pages/ScoreCalculator"));
+const NotFound = preloadableLazy(() => import("./pages/NotFound"));
+const Profile = preloadableLazy(() => import("./pages/auth/Profile"));
+const Personalization = preloadableLazy(() => import("./pages/auth/Personalization"));
+const SatVocabularyIndex = preloadableLazy(() => import("./pages/sat-info/SatVocabularyIndex"));
+const SatScoreIndex = preloadableLazy(() => import("./pages/sat-info/SatScoreIndex"));
+const SatScoreDetail = preloadableLazy(() => import("./pages/sat-info/SatScoreDetail"));
+const SatSkillIndex = preloadableLazy(() => import("./pages/sat-info/SatSkillIndex"));
+const SatSkillDetail = preloadableLazy(() => import("./pages/sat-info/SatSkillDetail"));
+const BlogIndex = preloadableLazy(() => import("./pages/blog/BlogIndex"));
+const BlogPost = preloadableLazy(() => import("./pages/blog/BlogPost"));
+const IsScoreGood = preloadableLazy(() => import("./pages/sat-info/IsScoreGood"));
+const SatFaqIndex = preloadableLazy(() => import("./pages/sat-info/SatFaqIndex"));
+const SatFaqPage = preloadableLazy(() => import("./pages/sat-info/SatFaqPage"));
+const PrivacyPolicy = preloadableLazy(() => import("./pages/legal/PrivacyPolicy"));
+const TermsOfService = preloadableLazy(() => import("./pages/legal/TermsOfService"));
+const TopLevelSeoPage = preloadableLazy(() => import("./pages/sat-info/TopLevelSeoPage"));
+const SatToActConverter = preloadableLazy(() => import("./pages/tools/SatToActConverter"));
+const SatPercentileCalculator = preloadableLazy(() => import("./pages/tools/SatPercentileCalculator"));
+const PsatToSatPredictor = preloadableLazy(() => import("./pages/tools/PsatToSatPredictor"));
+const SatStudyPlanGenerator = preloadableLazy(() => import("./pages/tools/SatStudyPlanGenerator"));
+const WhatSatScoreDoINeed = preloadableLazy(() => import("./pages/tools/WhatSatScoreDoINeed"));
+const SatTestCountdown = preloadableLazy(() => import("./pages/tools/SatTestCountdown"));
+const CountryHubPage = preloadableLazy(() => import("./pages/country/CountryHubPage"));
+const CountryTopicPage = preloadableLazy(() => import("./pages/country/CountryTopicPage"));
+const CollegeIndex = preloadableLazy(() => import("./pages/college/CollegeIndex"));
+const CollegePage = preloadableLazy(() => import("./pages/college/CollegePage"));
+const AdminReports = preloadableLazy(() => import("./pages/admin/AdminReports"));
+const AppShell = preloadableLazy(() => import("./components/AppShell").then((mod) => ({ default: mod.AppShell })));
+const AccountSync = preloadableLazy(() => import("./components/auth/AccountSync").then((mod) => ({ default: mod.AccountSync })));
+const OnboardingTour = preloadableLazy(() => import("./components/OnboardingTour").then((mod) => ({ default: mod.OnboardingTour })));
 
 const queryClient = new QueryClient();
 const ONBOARDING_REPLAY_REQUEST_KEY = "onboarding-replay-requested";
@@ -1981,6 +2019,99 @@ const PageSkeleton = ({ pathname }: { pathname: string }) => {
   return <AccurateArticleSkeleton />;
 };
 
+const shouldShowRouteSkeleton = (pathname: string) => {
+  const kind = classifySkeleton(pathname);
+  return (
+    kind === "bank-index" ||
+    kind === "bank-browse" ||
+    kind === "bank-filtered" ||
+    kind === "question-horizontal" ||
+    kind === "question-vertical" ||
+    kind === "analysis"
+  );
+};
+
+const SLOW_ROUTE_SKELETON_DELAY_MS = 500;
+
+const QuietLoading = () => (
+  <div className="min-h-screen bg-background" />
+);
+
+type RoutePreloader = {
+  match: (pathname: string) => boolean;
+  preload: () => Promise<unknown>;
+};
+
+const exactRoute = (path: string) => (pathname: string) =>
+  Boolean(matchPath({ path, end: true }, pathname));
+
+const shellPreload = (page: PreloadableComponent) => () =>
+  Promise.all([AppShell.preload(), page.preload()]);
+
+const routePreloaders: RoutePreloader[] = [
+  { match: exactRoute("/"), preload: Home.preload },
+  { match: exactRoute("/login"), preload: Login.preload },
+  { match: exactRoute("/modules"), preload: shellPreload(Modules) },
+  { match: exactRoute("/practice-tests/:setId"), preload: PracticeTestStart.preload },
+  { match: exactRoute("/practice-tests/:setId/start"), preload: PracticeTestStart.preload },
+  { match: exactRoute("/practice-tests/:setId/transition"), preload: PracticeTestTransition.preload },
+  { match: exactRoute("/practice-tests/:setId/review"), preload: PracticeTestReview.preload },
+  { match: exactRoute("/practice-tests/:setId/results"), preload: PracticeTestResults.preload },
+  { match: exactRoute("/modules/:moduleId"), preload: ModuleStart.preload },
+  { match: exactRoute("/modules/:moduleId/start"), preload: ModuleStart.preload },
+  { match: exactRoute("/modules/:moduleId/review"), preload: ModulePracticeReview.preload },
+  { match: exactRoute("/modules/:moduleId/results"), preload: ModulePracticeResults.preload },
+  { match: exactRoute("/signup"), preload: Signup.preload },
+  { match: exactRoute("/verify-email"), preload: VerifyEmail.preload },
+  { match: exactRoute("/profile"), preload: shellPreload(Profile) },
+  { match: exactRoute("/profile/personalization"), preload: shellPreload(Personalization) },
+  { match: exactRoute("/score-calculator"), preload: shellPreload(ScoreCalculator) },
+  { match: exactRoute("/browse"), preload: shellPreload(Index) },
+  { match: exactRoute("/hard"), preload: shellPreload(HardQuestionsIntro) },
+  { match: exactRoute("/hard/:id"), preload: Question.preload },
+  { match: exactRoute("/bank"), preload: shellPreload(BankIndex) },
+  { match: exactRoute("/bank/:subject/browse"), preload: shellPreload(BankBrowse) },
+  { match: exactRoute("/bank/:subject/:filterType/:filterValue"), preload: shellPreload(BankFiltered) },
+  { match: exactRoute("/bank/:subject/:id"), preload: Question.preload },
+  { match: exactRoute("/vocab"), preload: shellPreload(Vocab) },
+  { match: exactRoute("/analysis"), preload: shellPreload(Analysis) },
+  { match: exactRoute("/test-results"), preload: shellPreload(TestResults) },
+  { match: exactRoute("/my-practice-sets"), preload: shellPreload(MyPracticeSets) },
+  { match: exactRoute("/sat-vocabulary"), preload: shellPreload(SatVocabularyIndex) },
+  { match: exactRoute("/sat-score"), preload: shellPreload(SatScoreIndex) },
+  { match: exactRoute("/sat-score/:score"), preload: shellPreload(SatScoreDetail) },
+  { match: exactRoute("/sat-skill"), preload: shellPreload(SatSkillIndex) },
+  { match: exactRoute("/sat-skill/:slug"), preload: shellPreload(SatSkillDetail) },
+  { match: exactRoute("/blog"), preload: shellPreload(BlogIndex) },
+  { match: exactRoute("/blog/:slug"), preload: shellPreload(BlogPost) },
+  { match: exactRoute("/sat-faq"), preload: shellPreload(SatFaqIndex) },
+  { match: exactRoute("/sat-faq/:slug"), preload: shellPreload(SatFaqPage) },
+  { match: (pathname) => /^\/is-a-\d+-a-good-sat-score$/.test(pathname), preload: shellPreload(IsScoreGood) },
+  { match: exactRoute("/privacy"), preload: shellPreload(PrivacyPolicy) },
+  { match: exactRoute("/terms"), preload: shellPreload(TermsOfService) },
+  { match: exactRoute("/sat-to-act-converter"), preload: shellPreload(SatToActConverter) },
+  { match: exactRoute("/sat-percentile-calculator"), preload: shellPreload(SatPercentileCalculator) },
+  { match: exactRoute("/psat-to-sat-predictor"), preload: shellPreload(PsatToSatPredictor) },
+  { match: exactRoute("/sat-study-plan-generator"), preload: shellPreload(SatStudyPlanGenerator) },
+  { match: exactRoute("/what-sat-score-do-i-need"), preload: shellPreload(WhatSatScoreDoINeed) },
+  { match: exactRoute("/sat-test-countdown"), preload: shellPreload(SatTestCountdown) },
+  { match: exactRoute("/in"), preload: shellPreload(CountryHubPage) },
+  { match: exactRoute("/ae"), preload: shellPreload(CountryHubPage) },
+  { match: exactRoute("/in/:topic"), preload: shellPreload(CountryTopicPage) },
+  { match: exactRoute("/ae/:topic"), preload: shellPreload(CountryTopicPage) },
+  { match: exactRoute("/college"), preload: shellPreload(CollegeIndex) },
+  { match: exactRoute("/college/:slug"), preload: shellPreload(CollegePage) },
+  { match: exactRoute("/admin/reports"), preload: shellPreload(AdminReports) },
+  { match: exactRoute("/:slug"), preload: shellPreload(TopLevelSeoPage) },
+  { match: () => true, preload: shellPreload(NotFound) },
+];
+
+const preloadRouteForLocation = (location: Location) =>
+  routePreloaders.find((route) => route.match(location.pathname))?.preload() ?? Promise.resolve();
+
+const getLocationIdentity = (location: Location) =>
+  `${location.pathname}${location.search}${location.hash}:${location.key}`;
+
 const Loading = () => {
   const location = useLocation();
   const searchParams = new URLSearchParams(location.search);
@@ -2013,6 +2144,7 @@ const Loading = () => {
   }, [isEmbed]);
 
   if (isEmbed) return isBankEmbed ? <EmbeddedBankSkeleton /> : <EmbeddedQuestionSkeleton />;
+  if (!shouldShowRouteSkeleton(location.pathname)) return <QuietLoading />;
   return <PageSkeleton pathname={location.pathname} />;
 };
 
@@ -2109,6 +2241,137 @@ const DeferredOnboardingTour = () => {
   );
 };
 
+const AppRoutes = ({ location }: { location: Location }) => (
+  <Routes location={location}>
+    <Route path="/" element={withSuspense(<Home />)} />
+    <Route path="/login" element={withSuspense(<Login />)} />
+    <Route path="/modules" element={withShellSuspense(<Modules />)} />
+    <Route path="/practice-tests/:setId" element={withSuspense(<PracticeTestStart />)} />
+    <Route path="/practice-tests/:setId/start" element={withSuspense(<PracticeTestStart />)} />
+    <Route path="/practice-tests/:setId/transition" element={withSuspense(<PracticeTestTransition />)} />
+    <Route path="/practice-tests/:setId/review" element={withSuspense(<PracticeTestReview />)} />
+    <Route path="/practice-tests/:setId/results" element={withSuspense(<PracticeTestResults />)} />
+    <Route path="/modules/:moduleId" element={withSuspense(<ModuleStart />)} />
+    <Route path="/modules/:moduleId/start" element={withSuspense(<ModuleStart />)} />
+    <Route path="/modules/:moduleId/review" element={withSuspense(<ModulePracticeReview />)} />
+    <Route path="/modules/:moduleId/results" element={withSuspense(<ModulePracticeResults />)} />
+    <Route path="/signup" element={withSuspense(<Signup />)} />
+    <Route path="/verify-email" element={withSuspense(<VerifyEmail />)} />
+    <Route path="/profile" element={withShellSuspense(<Profile />)} />
+    <Route path="/profile/personalization" element={withShellSuspense(<Personalization />)} />
+    <Route path="/score-calculator" element={withShellSuspense(<ScoreCalculator />)} />
+    <Route path="/browse" element={withShellSuspense(<Index />)} />
+    <Route path="/hard" element={withShellSuspense(<HardQuestionsIntro />)} />
+    <Route path="/hard/:id" element={withSuspense(<Question />)} />
+    <Route path="/bank" element={withShellSuspense(<BankIndex />)} />
+    <Route path="/bank/:subject/browse" element={withShellSuspense(<BankBrowse />)} />
+    <Route path="/bank/:subject/:filterType/:filterValue" element={withShellSuspense(<BankFiltered />)} />
+    <Route path="/bank/:subject/:id" element={withSuspense(<Question />)} />
+    <Route path="/vocab" element={withShellSuspense(<Vocab />)} />
+    <Route path="/analysis" element={withShellSuspense(<Analysis />)} />
+    <Route path="/test-results" element={withShellSuspense(<TestResults />)} />
+    <Route path="/my-practice-sets" element={withShellSuspense(<MyPracticeSets />)} />
+    <Route path="/sat-vocabulary" element={withShellSuspense(<SatVocabularyIndex />)} />
+    <Route path="/sat-score" element={withShellSuspense(<SatScoreIndex />)} />
+    <Route path="/sat-score/:score" element={withShellSuspense(<SatScoreDetail />)} />
+    <Route path="/sat-skill" element={withShellSuspense(<SatSkillIndex />)} />
+    <Route path="/sat-skill/:slug" element={withShellSuspense(<SatSkillDetail />)} />
+    <Route path="/blog" element={withShellSuspense(<BlogIndex />)} />
+    <Route path="/blog/:slug" element={withShellSuspense(<BlogPost />)} />
+    <Route path="/sat-faq" element={withShellSuspense(<SatFaqIndex />)} />
+    <Route path="/sat-faq/:slug" element={withShellSuspense(<SatFaqPage />)} />
+    {Array.from({ length: 121 }, (_, i) => 400 + i * 10).map((s) => (
+      <Route
+        key={`isgood-${s}`}
+        path={`/is-a-${s}-a-good-sat-score`}
+        element={withShellSuspense(<IsScoreGood />)}
+      />
+    ))}
+    <Route path="/privacy" element={withShellSuspense(<PrivacyPolicy />)} />
+    <Route path="/terms" element={withShellSuspense(<TermsOfService />)} />
+    <Route path="/sat-to-act-converter" element={withShellSuspense(<SatToActConverter />)} />
+    <Route path="/sat-percentile-calculator" element={withShellSuspense(<SatPercentileCalculator />)} />
+    <Route path="/psat-to-sat-predictor" element={withShellSuspense(<PsatToSatPredictor />)} />
+    <Route path="/sat-study-plan-generator" element={withShellSuspense(<SatStudyPlanGenerator />)} />
+    <Route path="/what-sat-score-do-i-need" element={withShellSuspense(<WhatSatScoreDoINeed />)} />
+    <Route path="/sat-test-countdown" element={withShellSuspense(<SatTestCountdown />)} />
+    <Route path="/in" element={withShellSuspense(<CountryHubPage />)} />
+    <Route path="/ae" element={withShellSuspense(<CountryHubPage />)} />
+    <Route path="/in/:topic" element={withShellSuspense(<CountryTopicPage />)} />
+    <Route path="/ae/:topic" element={withShellSuspense(<CountryTopicPage />)} />
+    <Route path="/college" element={withShellSuspense(<CollegeIndex />)} />
+    <Route path="/college/:slug" element={withShellSuspense(<CollegePage />)} />
+    <Route path="/admin/reports" element={withShellSuspense(<AdminReports />)} />
+    <Route path="/:slug" element={withShellSuspense(<TopLevelSeoPage />)} />
+    <Route path="*" element={withShellSuspense(<NotFound />)} />
+  </Routes>
+);
+
+const StableRoutes = () => {
+  const actualLocation = useLocation();
+  const [displayLocation, setDisplayLocation] = useState(actualLocation);
+  const [pendingLocation, setPendingLocation] = useState<Location | null>(null);
+  const [showPendingSkeleton, setShowPendingSkeleton] = useState(false);
+  const transitionIdRef = useRef(0);
+  const actualLocationIdentity = getLocationIdentity(actualLocation);
+  const displayLocationIdentity = getLocationIdentity(displayLocation);
+
+  useEffect(() => {
+    if (actualLocationIdentity === displayLocationIdentity) {
+      setPendingLocation(null);
+      setShowPendingSkeleton(false);
+      return;
+    }
+
+    const transitionId = transitionIdRef.current + 1;
+    transitionIdRef.current = transitionId;
+    setPendingLocation(actualLocation);
+    setShowPendingSkeleton(false);
+
+    let skeletonTimer: ReturnType<typeof setTimeout> | undefined;
+    if (shouldShowRouteSkeleton(actualLocation.pathname)) {
+      skeletonTimer = setTimeout(() => {
+        if (transitionIdRef.current === transitionId) {
+          setShowPendingSkeleton(true);
+        }
+      }, SLOW_ROUTE_SKELETON_DELAY_MS);
+    }
+
+    preloadRouteForLocation(actualLocation)
+      .catch(() => undefined)
+      .then(() => {
+        if (transitionIdRef.current !== transitionId) return;
+        if (skeletonTimer) clearTimeout(skeletonTimer);
+        setShowPendingSkeleton(false);
+        setPendingLocation(null);
+        setDisplayLocation(actualLocation);
+      });
+
+    return () => {
+      if (skeletonTimer) clearTimeout(skeletonTimer);
+    };
+  }, [actualLocation, actualLocationIdentity, displayLocationIdentity]);
+
+  const renderedRoutes =
+    showPendingSkeleton && pendingLocation
+      ? <PageSkeleton pathname={pendingLocation.pathname} />
+      : <AppRoutes location={displayLocation} />;
+
+  return (
+    <>
+      <Seo />
+      <ScrollToTop location={displayLocation} />
+      <AuthReturnTracker />
+      <EmailVerificationGuard />
+      <AnalyticsPageTracker />
+      <DeferredOnboardingTour />
+      {renderedRoutes}
+      <LegalDisclaimer />
+      <DeferredRootEffects />
+    </>
+  );
+};
+
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
@@ -2116,77 +2379,7 @@ const App = () => (
         <Toaster />
         <Sonner position="top-center" duration={2000} />
         <BrowserRouter future={{ v7_startTransition: true }}>
-          <Seo />
-          <ScrollToTop />
-          <AuthReturnTracker />
-          <EmailVerificationGuard />
-          <AnalyticsPageTracker />
-          <DeferredOnboardingTour />
-          <Routes>
-            <Route path="/" element={withSuspense(<Home />)} />
-            <Route path="/login" element={withSuspense(<Login />)} />
-            <Route path="/modules" element={withShellSuspense(<Modules />)} />
-            <Route path="/practice-tests/:setId" element={withSuspense(<PracticeTestStart />)} />
-            <Route path="/practice-tests/:setId/start" element={withSuspense(<PracticeTestStart />)} />
-            <Route path="/practice-tests/:setId/transition" element={withSuspense(<PracticeTestTransition />)} />
-            <Route path="/practice-tests/:setId/review" element={withSuspense(<PracticeTestReview />)} />
-            <Route path="/practice-tests/:setId/results" element={withSuspense(<PracticeTestResults />)} />
-            <Route path="/modules/:moduleId" element={withSuspense(<ModuleStart />)} />
-            <Route path="/modules/:moduleId/start" element={withSuspense(<ModuleStart />)} />
-            <Route path="/modules/:moduleId/review" element={withSuspense(<ModulePracticeReview />)} />
-            <Route path="/modules/:moduleId/results" element={withSuspense(<ModulePracticeResults />)} />
-            <Route path="/signup" element={withSuspense(<Signup />)} />
-            <Route path="/verify-email" element={withSuspense(<VerifyEmail />)} />
-            <Route path="/profile" element={withShellSuspense(<Profile />)} />
-            <Route path="/profile/personalization" element={withShellSuspense(<Personalization />)} />
-            <Route path="/score-calculator" element={withShellSuspense(<ScoreCalculator />)} />
-            <Route path="/browse" element={withShellSuspense(<Index />)} />
-            <Route path="/hard" element={withShellSuspense(<HardQuestionsIntro />)} />
-            <Route path="/hard/:id" element={withSuspense(<Question />)} />
-            <Route path="/bank" element={withShellSuspense(<BankIndex />)} />
-            <Route path="/bank/:subject/browse" element={withShellSuspense(<BankBrowse />)} />
-            <Route path="/bank/:subject/:filterType/:filterValue" element={withShellSuspense(<BankFiltered />)} />
-            <Route path="/bank/:subject/:id" element={withSuspense(<Question />)} />
-            <Route path="/vocab" element={withShellSuspense(<Vocab />)} />
-            <Route path="/analysis" element={withShellSuspense(<Analysis />)} />
-            <Route path="/test-results" element={withShellSuspense(<TestResults />)} />
-            <Route path="/my-practice-sets" element={withShellSuspense(<MyPracticeSets />)} />
-            <Route path="/sat-vocabulary" element={withShellSuspense(<SatVocabularyIndex />)} />
-            <Route path="/sat-score" element={withShellSuspense(<SatScoreIndex />)} />
-            <Route path="/sat-score/:score" element={withShellSuspense(<SatScoreDetail />)} />
-            <Route path="/sat-skill" element={withShellSuspense(<SatSkillIndex />)} />
-            <Route path="/sat-skill/:slug" element={withShellSuspense(<SatSkillDetail />)} />
-            <Route path="/blog" element={withShellSuspense(<BlogIndex />)} />
-            <Route path="/blog/:slug" element={withShellSuspense(<BlogPost />)} />
-            <Route path="/sat-faq" element={withShellSuspense(<SatFaqIndex />)} />
-            <Route path="/sat-faq/:slug" element={withShellSuspense(<SatFaqPage />)} />
-            {Array.from({ length: 121 }, (_, i) => 400 + i * 10).map((s) => (
-              <Route
-                key={`isgood-${s}`}
-                path={`/is-a-${s}-a-good-sat-score`}
-                element={withShellSuspense(<IsScoreGood />)}
-              />
-            ))}
-            <Route path="/privacy" element={withShellSuspense(<PrivacyPolicy />)} />
-            <Route path="/terms" element={withShellSuspense(<TermsOfService />)} />
-            <Route path="/sat-to-act-converter" element={withShellSuspense(<SatToActConverter />)} />
-            <Route path="/sat-percentile-calculator" element={withShellSuspense(<SatPercentileCalculator />)} />
-            <Route path="/psat-to-sat-predictor" element={withShellSuspense(<PsatToSatPredictor />)} />
-            <Route path="/sat-study-plan-generator" element={withShellSuspense(<SatStudyPlanGenerator />)} />
-            <Route path="/what-sat-score-do-i-need" element={withShellSuspense(<WhatSatScoreDoINeed />)} />
-            <Route path="/sat-test-countdown" element={withShellSuspense(<SatTestCountdown />)} />
-            <Route path="/in" element={withShellSuspense(<CountryHubPage />)} />
-            <Route path="/ae" element={withShellSuspense(<CountryHubPage />)} />
-            <Route path="/in/:topic" element={withShellSuspense(<CountryTopicPage />)} />
-            <Route path="/ae/:topic" element={withShellSuspense(<CountryTopicPage />)} />
-            <Route path="/college" element={withShellSuspense(<CollegeIndex />)} />
-            <Route path="/college/:slug" element={withShellSuspense(<CollegePage />)} />
-            <Route path="/admin/reports" element={withShellSuspense(<AdminReports />)} />
-            <Route path="/:slug" element={withShellSuspense(<TopLevelSeoPage />)} />
-            <Route path="*" element={withShellSuspense(<NotFound />)} />
-          </Routes>
-          <LegalDisclaimer />
-          <DeferredRootEffects />
+          <StableRoutes />
         </BrowserRouter>
       </AuthProvider>
     </TooltipProvider>

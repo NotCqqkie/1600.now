@@ -742,14 +742,16 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   const currentPracticeIndex = useMemo(() => {
     if (!isPracticeMode || practiceSet.length === 0) return -1;
     return practiceSet.findIndex(
-      (q) =>
-        q.subject === subject &&
-        (q.storageId
-          ? q.storageId === currentQuestion?.uuid
-          : q.id === questionNumber &&
-            (!q.bankType || q.bankType === bankSource)),
+      (q) => {
+        if (q.subject !== subject) return false;
+
+        const matchesBankType = !q.bankType || q.bankType === bankSource;
+        if (matchesBankType && q.sourceId === idParam) return true;
+        if (q.storageId && q.storageId === currentQuestionId) return true;
+        return matchesBankType && q.id === questionNumber;
+      },
     );
-  }, [isPracticeMode, practiceSet, questionNumber, subject, bankSource, currentQuestion]);
+  }, [bankSource, currentQuestionId, idParam, isPracticeMode, practiceSet, questionNumber, subject]);
   const effectivePracticeMode = !is100Hard && isPracticeMode && practiceSet.length > 0 && currentPracticeIndex >= 0;
   const modulePracticeStateSessionId = modulePracticeSessionId || modulePracticeSessionMeta?.sessionId || null;
   const practiceTestStateSessionId = practiceTestSessionId || practiceTestSessionMeta?.sessionId || null;
@@ -1729,15 +1731,15 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
 
   useEffect(() => {
     if (isPracticeTestMode && practiceTestSessionMeta) {
-      const nextCurrentIndex = currentPracticeIndex >= 0 ? currentPracticeIndex : 0;
+      if (currentPracticeIndex < 0) return;
 
-      if (practiceTestSessionMeta.currentIndex === nextCurrentIndex) {
+      if (practiceTestSessionMeta.currentIndex === currentPracticeIndex) {
         return;
       }
 
       const nextSession = {
         ...practiceTestSessionMeta,
-        currentIndex: nextCurrentIndex,
+        currentIndex: currentPracticeIndex,
       };
       setPracticeTestSessionMeta(nextSession);
       savePracticeTestSession(nextSession);
@@ -1745,10 +1747,15 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     }
 
     if (!isModulePracticeMode || !modulePracticeSessionMeta) return;
+    if (currentPracticeIndex < 0) return;
+
+    if (modulePracticeSessionMeta.currentIndex === currentPracticeIndex) {
+      return;
+    }
 
     const nextSession = {
       ...modulePracticeSessionMeta,
-      currentIndex: currentPracticeIndex >= 0 ? currentPracticeIndex : 0,
+      currentIndex: currentPracticeIndex,
     };
     setModulePracticeSessionMeta(nextSession);
     saveModulePracticeSession(nextSession);

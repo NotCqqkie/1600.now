@@ -997,11 +997,15 @@ const Analysis = () => {
       : 0;
 
   const isEmpty = stats.totalAttempted === 0;
+  const signedOutHeadingColor = isDarkMode ? "#f8fafc" : "#0f172a";
 
   return (
     <div
       className="min-h-screen"
-      style={{ fontFamily: "'Geist', sans-serif" }}
+      style={{
+        fontFamily: "'Geist', sans-serif",
+        backgroundColor: !user ? (isDarkMode ? "hsl(var(--background))" : "#ffffff") : undefined,
+      }}
     >
       {user && (
       <section
@@ -1172,17 +1176,23 @@ const Analysis = () => {
       )}
 
       <main
-        style={{ maxWidth: 1080, margin: "0 auto", padding: "0 24px 88px" }}
+        className={!user ? "space-y-6" : undefined}
+        style={{
+          maxWidth: user ? 1080 : "56rem",
+          width: user ? undefined : "calc(100% - 48px)",
+          margin: "0 auto",
+          padding: user ? "0 24px 88px" : "24px 0 88px",
+        }}
       >
         {!user && (
-          <div className="stats-fade" style={{ paddingTop: 24, marginBottom: 6 }}>
+          <div className="flex items-center justify-between gap-4">
             <h1
               style={{
                 fontFamily: "'Geist', Georgia, serif",
                 fontSize: "clamp(24px, 3vw, 32px)",
                 fontWeight: 400,
                 letterSpacing: "-0.02em",
-                color: "hsl(var(--foreground))",
+                color: signedOutHeadingColor,
                 margin: 0,
               }}
             >
