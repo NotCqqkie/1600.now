@@ -65,7 +65,6 @@ function upsertCanonical(href: string) {
 }
 
 function upsertAlternates(scriptId: string, alternates: HreflangAlternate[]) {
-  // Remove any previously-set alternates owned by this PageSeo instance.
   document.head
     .querySelectorAll(`link[rel="alternate"][data-seo-id="${scriptId}"]`)
     .forEach((el) => el.remove());

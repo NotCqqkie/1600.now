@@ -4,8 +4,19 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the y-value at x = 0",
-      "content": "Since $x$ represents <em>years after 2010</em>, the year 2010 corresponds to $x = 0$. Reading directly from the graph at this point, the y-value is 20,000 residents. This matches choice C — <strong>C</strong> is correct."
+      "title": "Translate the year into x",
+      "content": "The graph uses $x$ for years after $2010$. The year $2010$ is $0$ years after $2010$, so use $x=0$."
+    },
+    {
+      "title": "Read the model value",
+      "content": "At $x=0$, the graph has a marked point on the $y$-axis at $20,000$. This means the model estimates $20,000$ residents in $2010$.",
+      "desmosExpressions": [
+        "(0,20000)"
+      ]
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A, $0$, is the input year offset, not the number of residents. The output at $x=0$ is $20,000$, so choice <strong>C</strong> is correct."
     }
   ]
 }

@@ -16,6 +16,9 @@
       "title": "Predict at x = 32",
       "content": "The fitted line has slope about $-1$, so at $x=32$ the prediction is between $2$ and $3$. Desmos evaluates the fitted model near $2$ to $2.4$ depending on exact graph reading.",
       "desmosExpressions": [
+        "x_1=[24,34]",
+        "y_1=[10,0]",
+        "y_1~m x_1+b",
         "m 32+b"
       ]
     },

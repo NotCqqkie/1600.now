@@ -4,19 +4,19 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the roots",
-      "content": "Factor $z^2+10z-24=0$ as $(z-2)(z+12)=0$, since $-2\\cdot 12=-24$ and $-2+12=10$. The roots are $z=2$ and $z=-12$."
+      "title": "Factor the quadratic",
+      "content": "Look for two numbers that multiply to $-24$ and add to $10$. Those numbers are $12$ and $-2$, so $$z^2+10z-24=(z+12)(z-2).$$"
     },
     {
-      "title": "Identify a valid solution",
-      "content": "Either root is a valid response; report $z=2$. The answer is <strong>2</strong>.",
+      "title": "Use the zero product property",
+      "content": "Set each factor equal to zero: $$z+12=0 \\quad \\text{or} \\quad z-2=0.$$ This gives $z=-12$ or $z=2$."
+    },
+    {
+      "title": "Enter one valid solution",
+      "content": "The problem asks for one solution, so either root is acceptable. Entering <strong>2</strong> is valid. In Desmos, the $x$-intercepts of the graph are $-12$ and $2$.",
       "desmosExpressions": [
-        "y = x^2 + 10x - 24"
+        "y=x^2+10x-24"
       ]
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "The correct answer is either $2$ or $-12$. The left-hand side of the given equation can be rewritten by factoring. The two values that multiply to $-24$ and add to $10$ are $12$ and $-2$. It follows that the given equation can be rewritten as $\\left(z+12\\right)\\left(z-2\\right)=0$. Setting each factor equal to $0$ yields two equations: $z+12=0$ and $z-2=0$. Subtracting $12$ from both sides of the equation $z+12=0$ results in $z=-12$. Adding $2$ to both sides of the equation $z-2=0$ results in $z=2$. Note that 2 and -12 are examples of ways to enter a correct answer."
     }
   ]
 }

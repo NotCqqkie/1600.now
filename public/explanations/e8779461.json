@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve the system by substitution",
-      "content": "From $x + 8 = 11$, $x = 3$. Substitute into $y = x^2 + 14x + 48$."
+      "title": "Solve the linear equation first",
+      "content": "The second equation is $x+8=11$, so $$x=3.$$"
     },
     {
-      "title": "Find $y$",
-      "content": "$y = 9 + 42 + 48 = 99$. The answer is <strong>99</strong>.",
+      "title": "Substitute into the quadratic",
+      "content": "$$y=3^2+14(3)+48=9+42+48=99.$$"
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The solution has $y=99$, so the answer is <strong>99</strong>. The linear equation fixes $x=3$, then the quadratic equation determines the matching $y$-value. The ordered pair would be $(3,99)$.",
       "desmosExpressions": [
-        "y = x^2 + 14x + 48",
-        "x + 8 = 11"
+        "y=x^2+14x+48",
+        "x+8=11"
       ]
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "The correct answer is $99$. In the given system of equations, the second equation is $x+8=11$. Subtracting $8$ from both sides of this equation yields $x=3$. In the given system of equations, the first equation is $y={x}^{2}+14x+48$. Substituting $3$ for $x$ in this equation yields $y={\\left(3\\right)}^{2}+14\\left(3\\right)+48$, or $y=99$. Therefore, the solution to the given system of equations is $\\left(x,y\\right)=\\left(3,99\\right)$. Thus, the value of $y$ is $99$."
     }
   ]
 }

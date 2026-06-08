@@ -1,12 +1,3 @@
-// Shared free-response answer comparison.
-//
-// Accepts:
-//   • exact text match (case/whitespace insensitive)
-//   • equivalent fractions (1/4 ≡ 2/8 ≡ 15/60)
-//   • decimal answers rounded to fewer places, down to 1 decimal place
-//     (correct = 1.287 ⇒ 1.29, 1.3 also accepted; 1 is not)
-//   • multiple comma-separated acceptable forms in the correct answer
-//     (e.g. "-0.333,-1/3,-.3333")
 
 const FRACTION_RE = /^(-?)(\d+)\s*\/\s*(-?)(\d+)$/;
 const DECIMAL_RE = /^-?(?:\d+\.?\d*|\.\d+)$/;
@@ -66,10 +57,6 @@ const matchesSingleAccepted = (userRaw: string, acceptedRaw: string): boolean =>
   if (!userRational || !acceptedRational) return false;
 
   if (rationalsEqual(userRational, acceptedRational)) return true;
-
-  // Decimal rounding tolerance — only when the user's answer is a decimal with
-  // at least one decimal place. Round the accepted value to the user's
-  // precision and compare.
   const userDecimals = decimalPlaceCount(user);
   if (userDecimals < 1) return false;
 

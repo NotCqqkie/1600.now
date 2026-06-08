@@ -5,15 +5,19 @@
   "steps": [
     {
       "title": "Identify the horizontal asymptote",
-      "content": "Observe that as $x$ becomes increasingly negative (moving left), the curve approaches the $x$-axis. The function approaches $y = 0$. For $f(x) = ab^x + c$, the horizontal asymptote is $y = c$, so <strong>$c = 0$</strong> and the function simplifies to $f(x) = ab^x$."
+      "content": "For an exponential function of the form $f(x)=ab^x+c$, the graph has horizontal asymptote $y=c$. In the picture, the curve levels off near $y=-7$ as it goes left. So $c\\approx-7$, not $0$."
     },
     {
-      "title": "Determine the sign of the leading coefficient",
-      "content": "The entire curve in the graph lies below the $x$-axis—all function values are negative. This tells us $a < 0$."
+      "title": "Compare the graph to the x-axis",
+      "content": "The question asks how many times $f(x)=0$, which means how many times the graph reaches the $x$-axis. The visible curve is already below $y=-7$, and an exponential graph of this form stays entirely on one side of its horizontal asymptote. Since the asymptote is below the $x$-axis, the whole graph stays below the $x$-axis."
     },
     {
-      "title": "Analyze when an exponential function equals zero",
-      "content": "For $f(x) = ab^x$ to equal zero, we need $ab^x = 0$. However, for any positive base $b$ and any real exponent $x$, we have $b^x > 0$ always.<br/><br/>Since $a < 0$ (a negative constant), the product $ab^x$ is negative × positive, which is always negative.<br/><br/>An exponential function with a non-zero leading coefficient can never equal zero—it can only approach its asymptote.<br/><br/>The curve never touches or crosses the $x$-axis. That matches choice D — <strong>D</strong> is correct."
+      "title": "Confirm with a representative graph",
+      "content": "A representative graph with the same key behavior is $y=-7-2^x$: it approaches $y=-7$ and never touches $y=0$. The given graph behaves the same way, so there are zero values of $x$ for which $f(x)=0$. Choice <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "y=-7-2^x",
+        "y=0"
+      ]
     }
   ]
 }

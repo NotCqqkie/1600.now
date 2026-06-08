@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify relevant totals",
-      "content": "The table shows 415 teens talk on a cell phone daily and 799 teens total."
+      "title": "Identify the event",
+      "content": "The event is selecting a teen who talks on a cell phone daily. Use the column total for that event, because the question does not restrict the teen by texting behavior."
     },
     {
-      "title": "Compute probability and select choice",
-      "content": "Probability = 415/799 = $$\\frac{415}{799}$$.<br/>That matches choice B — <strong>B</strong> is correct."
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "Choice B is correct. If one of the teens surveyed is selected at random, the probability that the teen talks on a cell phone daily is equal to the quotient of the total number of teens who reported that they talk on a cell phone daily, 415, and the total number of teens surveyed, 799. Therefore, this probability is equal to $415 / 799$."
+      "title": "Use favorable over total",
+      "content": "The table shows $415$ teens talk on a cell phone daily out of $799$ teens total. Therefore, $$P(\\text{talks daily})=\\frac{415}{799}$$"
     },
     {
       "title": "Check the choices",
-      "content": "Choice A is incorrect. This fraction represents the probability of selecting at random any one of the 799 teens surveyed. Choice C is incorrect and may result from conceptual errors. Choice D is incorrect. This fraction represents the probability of selecting at random one of the 799 teens surveyed who doesn't talk on a cell phone daily."
+      "content": "<ul><li>Choice A, $\\frac{1}{799}$, is the probability of one particular teen, not this event.</li><li>Choice B, $\\frac{415}{799}$, uses the daily-talk column total over the survey total. Correct.</li><li>Choice C, $\\frac{384}{415}$, mixes the non-daily total with the daily total.</li><li>Choice D, $\\frac{384}{799}$, is the probability of not talking daily.</li></ul>That matches choice B."
     }
   ]
 }

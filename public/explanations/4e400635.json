@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve the system by elimination",
-      "content": "Subtract the second equation from the first: $$(3x+6)-(3x+4)=4y-2y,$$ giving $2=2y$."
+      "title": "Subtract the equations",
+      "content": "The $3x$ terms match, so subtract the second equation from the first: $$(3x+6)-(3x+4)=4y-2y.$$"
     },
     {
-      "title": "Find $y$",
-      "content": "So $y=1$. The answer is <strong>1</strong>.",
-      "desmosExpressions": [
-        "y = (3x + 6)/4",
-        "y = (3x + 4)/2"
-      ]
+      "title": "Solve for $y$",
+      "content": "The left side simplifies to $2$, and the right side simplifies to $2y$, so $$2=2y.$$ Divide by $2$ to get $$y=1.$$"
     },
     {
-      "title": "Use the source rationale",
-      "content": "The correct answer is $1$. Subtracting the second equation from the first equation in the given system of equations yields $\\left(3x-3x\\right)+\\left(6-4\\right)=4y-2y$, which is equivalent to$0+2=2y$, or $2=2y$. Dividing each side of this equation by $2$ yields $1=y$."
+      "title": "Confirm the answer",
+      "content": "The question only asks for $y$, so there is no need to find $x$. The value of $y$ is <strong>1</strong>."
     }
   ]
 }

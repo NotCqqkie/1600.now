@@ -1,6 +1,3 @@
-// Keyword-variant landing pages. Each is a near-home page targeting a distinct
-// high-intent SAT search phrase. The structure is identical; the wording rotates
-// around the target keyword so Google can disambiguate each page cleanly.
 
 export interface LandingVariant {
   slug: string;

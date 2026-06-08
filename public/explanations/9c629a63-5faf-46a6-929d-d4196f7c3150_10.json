@@ -4,12 +4,17 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the two given values",
-      "content": "We are told $f(0)=7$ and $f(2)=7$. Since $f$ is linear, the slope is $m=\\frac{f(2)-f(0)}{2-0}=\\frac{7-7}{2}=0$, so $f$ is constant."
+      "title": "Fit the two values in Desmos",
+      "content": "Treat the two function values as points: $f(0)=7$ gives $(0,7)$, and $f(2)=7$ gives $(2,7)$. Since the question says $f$ is linear, enter those points in Desmos and run a linear regression: $x_1=[0,2]$, $y_1=[7,7]$, then $y_1 \\sim m x_1+b$. Desmos returns $m=0$ and $b=7$.",
+      "desmosExpressions": [
+        "x_1=[0,2]",
+        "y_1=[7,7]",
+        "y_1~m x_1+b"
+      ]
     },
     {
       "title": "Write the function",
-      "content": "A constant linear function that outputs $7$ for every input is $f(x)=7$."
+      "content": "The regression result $m=0$ means the line is horizontal. With $b=7$, the function is $f(x)=7$. This also matches the quick mental check: both given inputs output the same value, so a linear function through both points must be constant."
     },
     {
       "title": "Evaluate each choice",

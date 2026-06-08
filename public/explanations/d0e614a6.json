@@ -4,15 +4,24 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve for y in terms of x",
-      "content": "Starting with $\\frac{3}{5}x + \\frac{3}{4}y = 7$, isolate $y$:<br/>$$\\frac{3}{4}y = 7 - \\frac{3}{5}x$$<br/>$$y = \\frac{4}{3}\\left(7 - \\frac{3}{5}x\\right)$$<br/>$$y = \\frac{28}{3} - \\frac{4}{5}x$$"
+      "title": "Turn the equation into a function",
+      "content": "Use Desmos to make the table instead of checking one row at a time. First solve the equation for $y$: $\\frac35x+\\frac34y=7$ becomes $y=\\frac{28}{3}-\\frac45x$. Define that as a function.",
+      "desmosExpressions": [
+        "f(x)=\\frac{28}{3}-\\frac{4}{5}x"
+      ]
     },
     {
-      "title": "Test x = 1 to find the matching table",
-      "content": "Substitute $x = 1$ into the equation:<br/>$$y = \\frac{28}{3} - \\frac{4}{5}$$<br/>Find a common denominator of 15:<br/>$$y = \\frac{140}{15} - \\frac{12}{15} = \\frac{128}{15}$$<br/>Only choice D shows $y = \\frac{128}{15}$ when $x = 1$. That matches choice D — <strong>D</strong> is correct.",
+      "title": "Evaluate every table row at once",
+      "content": "The choices use $x=1$, $2$, and $4$. Enter those as $x_1=[1,2,4]$, then type $f(x_1)$. Desmos returns $\\left[\\frac{128}{15},\\frac{116}{15},\\frac{92}{15}\\right]$.",
       "desmosExpressions": [
-        "\\frac{3}{5}x+\\frac{3}{4}y=7"
+        "f(x)=\\frac{28}{3}-\\frac{4}{5}x",
+        "x_1=[1,2,4]",
+        "f(x_1)"
       ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "Choice D is the table with $y$-values $\\frac{128}{15}$, $\\frac{116}{15}$, and $\\frac{92}{15}$ for $x=1$, $2$, and $4$. Therefore choice <strong>D</strong> is correct."
     }
   ]
 }

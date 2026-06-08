@@ -4,24 +4,22 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the two demand points",
-      "content": "Treat price as $x$ and demand as $y$. The two given points are $(40,20000)$ and $(60,15000)$."
+      "title": "Turn the facts into points",
+      "content": "Use selling price as $x$ and demand as $y$. The two given points are $(40,20000)$ and $(60,15000)$."
     },
     {
-      "title": "Find the linear rate of change",
-      "content": "The slope is $$\\frac{15000-20000}{60-40}=\\frac{-5000}{20}=-250.$$ Demand decreases by $250$ units for every $1$ dollar increase in price."
-    },
-    {
-      "title": "Evaluate at the target price",
-      "content": "From $P=40$ to $P=55$ is a $15$ dollar increase, so demand changes by $$15(-250)=-3750.$$ Starting from $20000$ units gives $$20000-3750=16250.$$",
+      "title": "Use linear regression",
+      "content": "In Desmos, enter $x_1=[40,60]$ and $y_1=[20000,15000]$, then type $y_1\\sim m x_1+b$. Desmos returns $m=-250$ and $b=30000$, so the linear model is $$y=-250x+30000.$$",
       "desmosExpressions": [
-        "y=-250x+30000",
-        "x=55"
+        "x_1=[40,60]",
+        "y_1=[20000,15000]",
+        "y_1~m x_1+b",
+        "y=-250x+30000"
       ]
     },
     {
-      "title": "Check the choice",
-      "content": "The model $y=-250x+30000$ gives $y=16250$ when $x=55$. That matches choice <strong>A</strong>."
+      "title": "Evaluate the target price",
+      "content": "At a selling price of $55$ dollars, $$y=-250(55)+30000=16250.$$ The predicted demand is $16,250$ units, which matches choice <strong>A</strong>."
     }
   ]
 }

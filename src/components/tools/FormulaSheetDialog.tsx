@@ -38,7 +38,7 @@ export const FormulaSheetDialog = ({ onSplitScreenChange, splitPosition, onFocus
 
   const handleToggle = () => {
     if (!isOpen && onFocus) {
-      onFocus(); // Bring to front when opening
+      onFocus();
     }
     setIsOpen(!isOpen);
   };

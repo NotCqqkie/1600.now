@@ -1,6 +1,3 @@
-// Maps Firebase auth error codes to user-friendly messages.
-// Returns { title, description, field? } so forms can surface errors inline
-// or as a toast.
 
 export interface FriendlyAuthError {
   title: string;

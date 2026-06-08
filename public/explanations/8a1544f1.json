@@ -9,8 +9,12 @@
     },
     {
       "title": "Calculate slope and write the equation",
-      "content": "Using the slope formula:<br/>$$m = \\frac{0 - 3}{1 - 0} = -3$$<br/>With $m = -3$ and $b = 3$, the equation is:<br/>$$y = -3x + 3$$<br/>That matches choice B — <strong>B</strong> is correct.",
+      "content": "Using the slope formula:<br/>$$m = \\frac{0 - 3}{1 - 0} = -3$$<br/>With $m = -3$ and $b = 3$, the equation is:<br/>$$y = -3x + 3$$<br/>In Desmos, the two-point regression row confirms the same line. That matches choice B &mdash; <strong>B</strong> is correct.",
       "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[3,0]",
+        "y_1~m x_1+b",
+        "y=m x+b",
         "y = -3x + 3"
       ]
     }

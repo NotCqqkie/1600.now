@@ -4,19 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify coefficients",
-      "content": "$x^2-5x-24=0$ has $a=1$, $b=-5$."
+      "title": "Use the sum shortcut",
+      "content": "For a quadratic $ax^2+bx+c=0$, the sum of the two solutions is $-\\dfrac{b}{a}$. Here $a=1$ and $b=-5$."
     },
     {
-      "title": "Apply Vieta&apos;s sum formula",
-      "content": "$$\\text{sum of solutions}=\\frac{-b}{a}=\\frac{-(-5)}{1}=5$$<br/>The answer is <strong>5</strong>.",
-      "desmosExpressions": [
-        "y=x^2-5x-24"
-      ]
+      "title": "Compute the sum",
+      "content": "$$-\\dfrac{b}{a}=-\\dfrac{-5}{1}=5.$$ So the sum of the solutions is <strong>5</strong>."
     },
     {
-      "title": "Use the source rationale",
-      "content": "The correct answer is $5$. The given quadratic equation can be rewritten in factored form as $(x-8)(x+3)=0$. Based on the zero product property, it follows that $x-8=0$ or $x+3=0$. Adding $8$ to both sides of the equation $x-8=0$ yields $x=8$. Subtracting $3$ from both sides of the equation $x+3=0$ yields $x=-3$. Therefore, the solutions to the given equation are $8$ and $-3$. It follows that the sum of the solutions to the given equation is $8+(-3)$, or $5$."
+      "title": "Check by factoring",
+      "content": "As a check, $x^2-5x-24=(x-8)(x+3)$, so the solutions are $8$ and $-3$. Their sum is $8+(-3)=5$."
     }
   ]
 }

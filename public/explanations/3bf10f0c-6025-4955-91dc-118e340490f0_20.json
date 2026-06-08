@@ -4,16 +4,26 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the form of the relationship",
-      "content": "Each increase of 1 in $x$ multiplies $y$ by 4 (a constant factor, not a constant addition), so the relationship is exponential with base 4. The general form is $y = a \\cdot 4^x$. Since $y = 150$ when $x = 0$, the coefficient $a = 150$, giving $y = 150(4)^x$."
+      "title": "Make two data rows",
+      "content": "The value is $150$ when $x=0$. Each increase of $1$ in $x$ multiplies $y$ by $4$, so the next point is $(1,600)$. These two points are enough to fit the exponential model.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[150,600]"
+      ]
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A — $y = 150(4)^{x-1}$</strong>: At $x = 0$, this gives $y = 150(4)^{-1} = 37.5$, not 150. The initial condition fails. &#10007;</li><li><strong>Choice B — $y = 150(4)^x$</strong>: At $x = 0$, $y = 150(4)^0 = 150$. &#10003; At $x = 1$, $y = 150 \\times 4 = 600$, a factor of 4 increase. &#10003; Both conditions satisfied. &#10003;</li><li><strong>Choice C — $y = 4(150)^x$</strong>: The base is 150, not 4. At $x = 1$, $y = 4 \\times 150 = 600$, but at $x = 2$, $y = 4 \\times 150^2 = 90{,}000$ — a factor of 150 increase, not 4. The growth factor is wrong. &#10007;</li><li><strong>Choice D — $y = 4(150)^{x-1}$</strong>: Same base problem as C, and at $x = 0$, $y = 4(150)^{-1} \\approx 0.027$, far from 150. Both conditions fail. &#10007;</li></ul>That matches choice B — <strong>B</strong> is correct.",
+      "title": "Use exponential regression",
+      "content": "In Desmos, enter $y_1 \\sim a b^{x_1}$. The regression gives $a=150$ and $b=4$, so the model is $y=150(4)^x$.",
       "desmosExpressions": [
-        "y = 150 \\cdot 4^{x}",
-        "(0, 150)"
+        "x_1=[0,1]",
+        "y_1=[150,600]",
+        "y_1~a b^{x_1}",
+        "y=150(4)^x"
       ]
+    },
+    {
+      "title": "Confirm the answer choice",
+      "content": "Choice A shifts the exponent and gives $37.5$ when $x=0$, not $150$. Choice C and choice D use $150$ as the base, so the multiplier is wrong. Choice B, $y=150(4)^x$, has initial value $150$ and multiplier $4$. Choice <strong>B</strong> is correct."
     }
   ]
 }

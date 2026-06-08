@@ -4,28 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute the value x = 10",
-      "content": "Replace $x$ with $10$ in $$f(x) = 4x - 3.$$ This gives $$f(10) = 4(10) - 3.$$"
+      "title": "Substitute x equals 10",
+      "content": "Replace $x$ with $10$ in $f(x)=4x-3$: $$f(10)=4(10)-3$$"
     },
     {
-      "title": "Compute the result",
-      "content": "Simplify: $$f(10) = 40 - 3 = 37.$$ That matches choice <strong>B</strong> — <strong>B</strong> is correct."
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "Choice B is correct. It's given that the function $f$ is defined by $f\\left(x\\right)=4x-3$. Substituting $10$ for $x$ in the given function yields $f\\left(10\\right)=4\\left(10\\right)-3$, which is equivalent to $f\\left(10\\right)=40-3$, or $f\\left(10\\right)=37$. Therefore, the value of $f\\left(10\\right)$ is $37$."
+      "title": "Simplify",
+      "content": "$$4(10)=40$$ $$40-3=37$$ Therefore, $f(10)=37$."
     },
     {
       "title": "Check the choices",
-      "content": "Choice A is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice C is incorrect. This is the value of $f\\left(10\\right)$ for the function $f\\left(x\\right)=4x$, not $f\\left(x\\right)=4x-3$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice D is incorrect. This is the value of $f\\left(10\\right)$ for the function $f\\left(x\\right)=4x+3$, not $f\\left(x\\right)=4x-3$."
+      "content": "Choice B is $37$, so it is correct. Choice A has the wrong sign, choice C forgets to subtract $3$, and choice D adds $3$ instead of subtracting it."
     }
   ]
 }

@@ -1,10 +1,27 @@
 {
-  "qid": "05468350-9fef-44ab-b9cb-893b50a7cadd_19",
+  "questionId": "05468350-9fef-44ab-b9cb-893b50a7cadd_19",
+  "correctAnswer": "B",
+  "section": "Math",
   "steps": [
-    "Set $y = f(x) + 6 = 0$ to find the x-intercept: $f(x) = -6$.",
-    "Substitute: $3d(26x+27)+18 = -6 \\Rightarrow 3d(26x+27) = -24 \\Rightarrow 26x+27 = \\dfrac{-8}{d}$.",
-    "Solve for $x$: $26x = \\dfrac{-8}{d} - 27 = \\dfrac{-8-27d}{d} \\Rightarrow x = \\dfrac{-8-27d}{26d}$. Multiply numerator and denominator by 3: $x = \\dfrac{-24-81d}{78d} = \\dfrac{-81d-24}{78d}$."
-  ],
-  "explanation": "<ul><li><strong>Choice A &mdash; '$\\left(\\frac{-81d+24}{78d},0\\right)$'</strong>: The numerator has $+24$ but our derivation gives $-24$. Sign error. &#10007;</li><li><strong>Choice B &mdash; '$\\left(\\frac{-81d-24}{78d},0\\right)$'</strong>: Numerator $-81d-24$ and denominator $78d$ match exactly what was derived. &#10003;</li><li><strong>Choice C &mdash; '$\\left(6-\\frac{81d+18}{78d},0\\right)$'</strong>: This incorrectly adds 6 to the x-coordinate; the $+6$ shifts the graph vertically, not horizontally. &#10007;</li><li><strong>Choice D &mdash; '$\\left(-\\frac{45}{78d+6},0\\right)$'</strong>: The denominator $78d+6$ does not arise from correct algebra; the 6 should have been absorbed in the numerator, not the denominator. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
-  "correctAnswer": "B"
+    {
+      "title": "Set the shifted function equal to zero",
+      "content": "The $x$-intercept of the graph of $y=f(x)+6$ occurs when $y=0$. So solve $$f(x)+6=0.$$ Since $f(x)=3d(26x+27)+18$, this becomes $$3d(26x+27)+24=0.$$"
+    },
+    {
+      "title": "Solve for the x-coordinate",
+      "content": "Expand and isolate $x$: $$78dx+81d+24=0$$ $$78dx=-81d-24$$ $$x=\\frac{-81d-24}{78d}.$$ Therefore the intercept is $$\\left(\\frac{-81d-24}{78d},0\\right).$$"
+    },
+    {
+      "title": "Check with a sample value in Desmos",
+      "content": "Because $d$ is positive, you can test with an easy value such as $d=1$. Then graph $$y=3(26x+27)+24.$$ Its $x$-intercept is $x=\\frac{-105}{78}$, which is exactly what choice B gives when $d=1$: $$\\frac{-81(1)-24}{78(1)}=\\frac{-105}{78}.$$",
+      "desmosExpressions": [
+        "y=3(26x+27)+24",
+        "x=\\frac{-105}{78}"
+      ]
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "Choice A has the wrong sign on $24$. Choice C treats the vertical shift like a horizontal change. Choice D incorrectly puts the added $6$ in the denominator. Only choice <strong>B</strong> matches the intercept."
+    }
+  ]
 }

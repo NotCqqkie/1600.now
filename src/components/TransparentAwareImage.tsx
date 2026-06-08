@@ -99,9 +99,6 @@ const cropWhitespace = (img: HTMLImageElement): string | null => {
     b: data[offset + 2],
     a: data[offset + 3],
   }));
-
-  // Cluster corners by color similarity, then pick the largest cluster.
-  // Ties are broken by luminosity — background is nearly always lighter than content.
   const clusterTolerance = 30;
   const clusters: (typeof backgroundSamples)[] = [];
   for (const sample of backgroundSamples) {
@@ -279,7 +276,6 @@ export const TransparentAwareImage = ({
           setResolvedSrc(trimmed);
         }
       } catch {
-        // Keep the original image if client-side trimming fails.
       }
       setIsReady(true);
     };

@@ -4,15 +4,21 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "A line in slope-intercept form is $y = mx + b$, where $m$ is the slope and $b$ is the y-intercept. We need slope $= -\\frac{1}{4}$ and the line passes through $(0, 19)$, so $b = 19$."
+      "title": "Use a two-point table",
+      "content": "The line has slope $-\\frac{1}{4}$ and passes through $(0,19)$. Move 4 units right and 1 unit down to get another point, $(4,18)$. In Desmos, fit those two points with a linear regression.",
+      "desmosExpressions": [
+        "x_1=[0,4]",
+        "y_1=[19,18]",
+        "y_1~m x_1+b"
+      ]
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; '$y = -\\frac{1}{4}x - 19$'</strong>: Slope is correct but y-intercept is $-19$, not $19$. &#10007;</li><li><strong>Choice B &mdash; '$y = -\\frac{1}{4}x + 19$'</strong>: Slope $-\\frac{1}{4}$ and y-intercept $19$ &mdash; both correct. &#10003;</li><li><strong>Choice C &mdash; '$y = \\frac{1}{4}x - 19$'</strong>: Slope is positive and y-intercept is wrong. &#10007;</li><li><strong>Choice D &mdash; '$y = \\frac{1}{4}x + 19$'</strong>: Slope is positive (wrong sign). &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
+      "content": "The regression returns $m=-\\frac{1}{4}$ and $b=19$, so the equation is $y=-\\frac{1}{4}x+19$. Choice A has the right slope but the wrong intercept. Choice B matches both. Choices C and D have the wrong slope sign. Choice <strong>B</strong> is correct.",
       "desmosExpressions": [
-        "y = -\\frac{1}{4}x + 19",
-        "(0, 19)"
+        "y=-(1/4)x+19",
+        "(0,19)",
+        "(4,18)"
       ]
     }
   ]

@@ -1,14 +1,29 @@
 {
+  "questionId": "6acacde7-ed77-4956-a395-7f7392d6ba20_6",
+  "correctAnswer": "A",
+  "section": "Math",
   "steps": [
     {
-      "text": "Distribute the subtraction sign to every term in the second polynomial: $(6t^{4}-6t^{2}+4t-2)-(5t^{4}-3t^{3}+7t^{2}-2) = 6t^{4}-6t^{2}+4t-2-5t^{4}+3t^{3}-7t^{2}+2$."
+      "title": "Evaluate the original expression",
+      "content": "Use a table/regression shortcut instead of distributing every sign by hand. Enter several $t$-values and define the output list from the original expression.",
+      "desmosExpressions": [
+        "t_1=[0,1,2,3,4]",
+        "y_1=(6t_1^4-6t_1^2+4t_1-2)-(5t_1^4-3t_1^3+7t_1^2-2)"
+      ]
     },
     {
-      "text": "Group and combine like terms by degree: $t^4$: $6-5=1$; $t^3$: $+3$; $t^2$: $-6-7=-13$; $t$: $+4$; constant: $-2+2=0$. Result: $t^{4}+3t^{3}-13t^{2}+4t$."
+      "title": "Fit a quartic",
+      "content": "Type $y_1\\sim a t_1^4+b t_1^3+c t_1^2+d t_1+e$. Desmos returns $a=1$, $b=3$, $c=-13$, $d=4$, and $e=0$, so the expression is $t^4+3t^3-13t^2+4t$.",
+      "desmosExpressions": [
+        "t_1=[0,1,2,3,4]",
+        "y_1=(6t_1^4-6t_1^2+4t_1-2)-(5t_1^4-3t_1^3+7t_1^2-2)",
+        "y_1~a t_1^4+b t_1^3+c t_1^2+d t_1+e",
+        "y=x^4+3x^3-13x^2+4x"
+      ]
     },
     {
-      "text": "Evaluate every choice:<ul><li>A: $t^{4}+3t^{3}-13t^{2}+4t$ — Matches exactly. That matches choice A — <strong>A</strong> is correct.</li><li>B: $t^{4}-3t^{2}+3t$ — Missing the $3t^3$ term and has wrong $t^2$ and $t$ coefficients. Eliminated.</li><li>C: $t^{4}-3t^{3}+11t-4$ — Wrong sign on $t^3$, no $t^2$ term, wrong constant. Eliminated.</li><li>D: $t^{4}+3t^{3}-13t^{2}+4t-4$ — Includes a $-4$ constant, but the constants cancel to 0. Eliminated.</li></ul>"
+      "title": "Confirm the choice",
+      "content": "The fitted coefficients match choice A exactly. Choice D is close but has an extra $-4$ constant; the regression shows the constant is $0$. Choice <strong>A</strong> is correct."
     }
-  ],
-  "correctAnswer": "A"
+  ]
 }

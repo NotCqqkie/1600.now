@@ -4,31 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute the value x = 2",
-      "content": "Replace $x$ with $2$ in $$f(x) = x^3 + 15.$$ This gives $$f(2) = (2)^3 + 15.$$"
+      "title": "Substitute the input",
+      "content": "The function is $f(x)=x^3+15$. To find $f(2)$, replace every $x$ with $2$: $$f(2)=2^3+15.$$"
     },
     {
-      "title": "Compute the result",
-      "content": "Simplify: $$f(2) = 8 + 15 = 23.$$ That matches choice <strong>C</strong> — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "f(x)=(x)^(3)+15"
-      ]
+      "title": "Apply the exponent first",
+      "content": "$2^3=8$, so $$f(2)=8+15=23.$$ Do not read $x^3$ as $3x$; that mistake would give $21$ instead."
     },
     {
-      "title": "Use the source rationale",
-      "content": "Choice C is correct. The value of $f\\left(2\\right)$ is the value of $f\\left(x\\right)$ when $x=2$. Substituting $2$ for $x$ in the given function yields $f\\left(2\\right)={\\left(2\\right)}^{3}+15$, or $f\\left(2\\right)=8+15$, which is equivalent to $f\\left(2\\right)=23$. Therefore, the value of $f\\left(2\\right)$ is $23$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice A is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice B is incorrect. This is the value of $f\\left(2\\right)$ when $f\\left(x\\right)=x\\left(3\\right)+15$, rather than $f\\left(x\\right)={x}^{3}+15$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice D is incorrect and may result from conceptual or calculation errors."
+      "title": "Confirm the choice",
+      "content": "The computed value is $23$, which matches choice <strong>C</strong>. The nearby answers are traps from arithmetic or exponent mistakes, not alternate valid function values."
     }
   ]
 }

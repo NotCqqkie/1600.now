@@ -1,18 +1,28 @@
 {
-  "section": "Math",
+  "questionId": "29b11893-ee0c-48ae-8103-403d9652ad14_6",
   "correctAnswer": "B",
+  "section": "Math",
   "steps": [
     {
-      "title": "Distribute the negative sign",
-      "content": "(6t^4 - 3t^2 + 3t - 6) - (2t^4 - 4t^3 + 6t^2 - 6) becomes 6t^4 - 3t^2 + 3t - 6 - 2t^4 + 4t^3 - 6t^2 + 6."
+      "title": "Use quartic regression",
+      "content": "The expression has powers up to $t^4$, so Desmos can fit the result to a quartic. This avoids sign mistakes from subtracting the second polynomial."
     },
     {
-      "title": "Combine like terms",
-      "content": "t^4: 6 - 2 = 4, so 4t^4.<br/>t^3: 0 + 4 = 4, so 4t^3.<br/>t^2: -3 - 6 = -9, so -9t^2.<br/>t: 3.<br/>constant: -6 + 6 = 0.<br/>The result is 4t^4 + 4t^3 - 9t^2 + 3t."
+      "title": "Enter values and fit the polynomial",
+      "content": "Use five input values because a quartic can have five coefficients:<br/>$$x_1=[-2,-1,0,1,2]$$<br/>$$y_1=(6x_1^4-3x_1^2+3x_1-6)-(2x_1^4-4x_1^3+6x_1^2-6)$$<br/>$$y_1\\sim ax_1^4+bx_1^3+cx_1^2+dx_1+e$$",
+      "desmosExpressions": [
+        "x_1=[-2,-1,0,1,2]",
+        "y_1=(6x_1^4-3x_1^2+3x_1-6)-(2x_1^4-4x_1^3+6x_1^2-6)",
+        "y_1\\sim ax_1^4+bx_1^3+cx_1^2+dx_1+e"
+      ]
     },
     {
-      "title": "Match against the choices",
-      "content": "<ul><li>Choice A: 4t^4 + 4t^3 - 9t^2 + 3t - 12 has an extra -12 constant. Eliminated.</li><li>Choice B: 4t^4 + 4t^3 - 9t^2 + 3t matches exactly. Works.</li><li>Choice C: 4t^4 + t^3 + 9t - 12 has wrong t^3, t^2, and constant terms. Eliminated.</li><li>Choice D: 4t^4 + t^3 + 3t has wrong t^3 coefficient and is missing -9t^2. Eliminated.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "title": "Read the result",
+      "content": "The regression gives $a=4$, $b=4$, $c=-9$, $d=3$, and $e=0$. So the equivalent expression is:<br/>$$4t^4+4t^3-9t^2+3t$$<br/>That matches choice B."
+    },
+    {
+      "title": "Confirm the subtraction",
+      "content": "Distributing the minus gives $6t^4-3t^2+3t-6-2t^4+4t^3-6t^2+6$. Combining like terms gives $4t^4+4t^3-9t^2+3t$, so <strong>B</strong> is correct."
     }
   ]
 }

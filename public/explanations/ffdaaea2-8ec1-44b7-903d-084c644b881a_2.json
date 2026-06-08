@@ -3,7 +3,17 @@
   "correctAnswer": "D",
   "steps": [
     {
-      "explanation": "Find the mean of each dataset. All five sets sum to 235 (e.g., A: 44+45+47+49+50=235), so every dataset has mean $\\bar{x} = 235 \\div 5 = 47$. Standard deviation depends only on the deviations from the mean."
+      "explanation": "The fastest check is to enter each answer choice as a Desmos list and compare `stdevp`. All four sets have mean $47$, so the set with the smallest standard deviation is the one most tightly clustered around $47$.",
+      "desmosExpressions": [
+        "a_1=[44,45,47,49,50]",
+        "b_1=[45,45,47,49,49]",
+        "c_1=[45,46,47,48,49]",
+        "d_1=[46,47,47,47,48]",
+        "\\operatorname{stdevp}\\left(a_1\\right)",
+        "\\operatorname{stdevp}\\left(b_1\\right)",
+        "\\operatorname{stdevp}\\left(c_1\\right)",
+        "\\operatorname{stdevp}\\left(d_1\\right)"
+      ]
     },
     {
       "explanation": "Compute squared deviations for each set from mean 47. Set A: $(-3)^2+(-2)^2+0^2+2^2+3^2 = 9+4+0+4+9=26$. Set B: $(-2)^2+(-2)^2+0^2+2^2+2^2=4+4+0+4+4=16$. Set C: $(-2)^2+(-1)^2+0^2+1^2+2^2=4+1+0+1+4=10$. Set D: $(-1)^2+0^2+0^2+0^2+1^2=1+0+0+0+1=2$."

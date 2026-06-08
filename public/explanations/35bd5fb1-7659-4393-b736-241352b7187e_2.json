@@ -6,7 +6,11 @@
     {
       "title": "Sum all the data values",
       "content": "The mean equals the sum of all values divided by how many values there are. Let me add the seven data values:<br/>$28 + 28 + 29 + 30 + 32 + 33 + 37 = 217$",
-      "formula": "$$\\text{mean} = \\frac{\\sum \\text{values}}{n}$$"
+      "formula": "$$\\text{mean} = \\frac{\\sum \\text{values}}{n}$$",
+      "desmosExpressions": [
+        "l_1=[28,28,29,30,32,33,37]",
+        "\\operatorname{mean}\\left(l_1\\right)"
+      ]
     },
     {
       "title": "Divide by the number of values",

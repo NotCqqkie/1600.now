@@ -16,6 +16,9 @@
       "title": "Evaluate at x = 1200",
       "content": "The slope is $\\frac{16-1}{1800}=\\frac{1}{120}$, so $y=\\frac{x}{120}+1$. At $x=1200$, $y=10+1=11$.",
       "desmosExpressions": [
+        "x_1=[0,1800]",
+        "y_1=[1,16]",
+        "y_1~m x_1+b",
         "m 1200+b"
       ]
     },

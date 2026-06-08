@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Isolate x",
-      "content": "Subtract $2.6$ from both sides of $2.6+x=2.8$: $$x=2.8-2.6.$$"
+      "title": "Subtract the constant",
+      "content": "Start with $2.6+x=2.8$. Subtract $2.6$ from both sides to isolate $x$: $$x=2.8-2.6.$$"
     },
     {
-      "title": "Solve",
-      "content": "Compute: $x=0.2$. The answer is <strong>0.2</strong>."
+      "title": "Compute the decimal difference",
+      "content": "$2.8-2.6=0.2$, so the solution is <strong>0.2</strong>. The equivalent fraction $\\dfrac{1}{5}$ also represents the same value."
     },
     {
-      "title": "Use the source rationale",
-      "content": "The correct answer is $.2$. Subtracting $2.6$ from each side of the given equation yields $x=0.2$. Therefore, the value of $x$ that's the solution to the given equation is $0.2$. Note that.2 and 1/5 are examples of ways to enter a correct answer."
+      "title": "Check",
+      "content": "Substituting back gives $2.6+0.2=2.8$, which matches the original equation."
     }
   ]
 }

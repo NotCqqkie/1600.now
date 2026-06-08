@@ -155,7 +155,6 @@ const SatSkillDetail = () => {
                 </div>
                 <div
                   className="mt-2 text-base leading-relaxed"
-                  // renderMixedContent returns DOMPurify-sanitized HTML.
                   dangerouslySetInnerHTML={{
                     __html: renderMixedContent(q.text),
                   }}
@@ -174,7 +173,6 @@ const SatSkillDetail = () => {
                       >
                         <span className="font-semibold">{c.id}.</span>{" "}
                         <span
-                          // renderMixedContent returns DOMPurify-sanitized HTML.
                           dangerouslySetInnerHTML={{
                             __html: renderMixedContent(c.text),
                           }}

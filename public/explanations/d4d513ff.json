@@ -4,28 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Factor the expression",
-      "content": "The GCF of $12$ and $27$ is $3$. Factor it out:$$12x+27=3(4x+9)$$"
+      "title": "Factor out the greatest common factor",
+      "content": "Both terms in $12x+27$ are divisible by $3$: $$12x+27=3(4x)+3(9).$$"
     },
     {
-      "title": "Match to the answer choices",
-      "content": "The factored form is $3(4x+9)$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "Choice C is correct. Each term in the given expression, $12x+27$, has a common factor of $3$. Therefore, the expression can be rewritten as $3\\left(4x\\right)+3\\left(9\\right)$, or $3\\left(4x+9\\right)$. Thus, the expression $3\\left(4x+9\\right)$ is equivalent to the given expression."
+      "title": "Write the factored form",
+      "content": "$$12x+27=3(4x+9).$$"
     },
     {
       "title": "Check the choices",
-      "content": "Choice A is incorrect. This expression is equivalent to $108x+12$, not $12x+27$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice B is incorrect. This expression is equivalent to $324x+27$, not $12x+27$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice D is incorrect. This expression is equivalent to $27x+72$, not $12x+27$."
+      "content": "Choice C is correct. Expanding A gives $108x+12$, B gives $324x+27$, and D gives $27x+72$. Only choice C expands back to the original expression, so it is the equivalent form."
     }
   ]
 }

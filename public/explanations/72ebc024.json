@@ -4,28 +4,26 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Factor the expression",
-      "content": "The GCF of $16x^3y^2$ and $14xy$ is $2xy$. Factor it out:$$16x^3y^2+14xy=2xy(8x^2y+7)$$"
+      "title": "Factor the common term",
+      "content": "Both terms, $16x^3y^2$ and $14xy$, share a greatest common factor of $2xy$. Factor that out first."
     },
     {
-      "title": "Match to the answer choices",
-      "content": "The factored form is $2xy(8x^2y+7)$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."
+      "title": "Divide each term by 2xy",
+      "content": "$$\\frac{16x^3y^2}{2xy}=8x^2y$$<br/>$$\\frac{14xy}{2xy}=7$$<br/>So:<br/>$$16x^3y^2+14xy=2xy(8x^2y+7)$$"
     },
     {
-      "title": "Use the source rationale",
-      "content": "Choice B is correct. Since $2xy$ is a common factor of each term in the given expression, the expression can be rewritten as $2xy\\left(8{x}^{2}y+7\\right)$."
+      "title": "Use a quick Desmos check",
+      "content": "To check the factored form, test two ordered pairs at once:<br/>$$x_1=[2,3]$$<br/>$$y_1=[3,4]$$<br/>$$o_1=16x_1^3y_1^2+14x_1y_1$$<br/>$$b_1=2x_1y_1(8x_1^2y_1+7)$$<br/>The two output lists match.",
+      "desmosExpressions": [
+        "x_1=[2,3]",
+        "y_1=[3,4]",
+        "o_1=16x_1^3y_1^2+14x_1y_1",
+        "b_1=2x_1y_1(8x_1^2y_1+7)"
+      ]
     },
     {
-      "title": "Check the choices",
-      "content": "Choice A is incorrect. This expression is equivalent to $16{x}^{2}{y}^{2}+14xy$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice C is incorrect. This expression is equivalent to $28{x}^{3}{y}^{2}+14xy$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice D is incorrect. This expression is equivalent to $112{x}^{3}{y}^{2}+14xy$."
+      "title": "Match the choice",
+      "content": "$2xy(8x^2y+7)$ is choice B, so <strong>B</strong> is correct."
     }
   ]
 }

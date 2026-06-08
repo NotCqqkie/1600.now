@@ -9,7 +9,21 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; '44, 45, 47, 49, 50'</strong>: range = 6, widest spread. &#10007;</li><li><strong>Choice B &mdash; '45, 45, 47, 49, 49'</strong>: range = 4, moderate clustering. &#10007;</li><li><strong>Choice C &mdash; '45, 46, 47, 48, 49'</strong>: range = 4, evenly spaced &mdash; no tight cluster. &#10007;</li><li><strong>Choice D &mdash; '46, 47, 47, 47, 48'</strong>: range = 2, three values identical at 47 &mdash; tightest cluster. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "content": "Enter each answer choice as a list in Desmos and compare `stdevp`. The smallest value belongs to choice D, because $46,47,47,47,48$ is clustered closest to $47$.",
+      "desmosExpressions": [
+        "a_1=[44,45,47,49,50]",
+        "b_1=[45,45,47,49,49]",
+        "c_1=[45,46,47,48,49]",
+        "d_1=[46,47,47,47,48]",
+        "\\operatorname{stdevp}\\left(a_1\\right)",
+        "\\operatorname{stdevp}\\left(b_1\\right)",
+        "\\operatorname{stdevp}\\left(c_1\\right)",
+        "\\operatorname{stdevp}\\left(d_1\\right)"
+      ]
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "<ul><li>A has standard deviation about $2.28$.</li><li>B has standard deviation about $1.79$.</li><li>C has standard deviation about $1.41$.</li><li>D has standard deviation about $0.63$, the smallest.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
     }
   ]
 }

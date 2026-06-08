@@ -4,16 +4,25 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Expand each piece",
-      "content": "$(x^2+11)^2=(x^2)^2+2\\cdot x^2\\cdot 11+11^2=x^4+22x^2+121.$<br/>$(x-5)(x+5)=x^2-25$ (difference of squares)."
+      "title": "Use a sparse quartic model",
+      "content": "The expression contains $x^4$, $x^2$, and a constant, but no $x^3$ or $x$ term. Desmos can fit it directly to $ax^4+bx^2+c$."
     },
     {
-      "title": "Add and combine like terms",
-      "content": "$$x^4+22x^2+121+x^2-25=x^4+23x^2+96.$$"
+      "title": "Create the regression rows",
+      "content": "Enter:<br/>$$x_1=[0,1,2]$$<br/>$$y_1=(x_1^2+11)^2+(x_1-5)(x_1+5)$$<br/>$$y_1\\sim ax_1^4+bx_1^2+c$$",
+      "desmosExpressions": [
+        "x_1=[0,1,2]",
+        "y_1=(x_1^2+11)^2+(x_1-5)(x_1+5)",
+        "y_1\\sim ax_1^4+bx_1^2+c"
+      ]
     },
     {
-      "title": "Eliminate the other choices",
-      "content": "<ul><li>A: $x^4+23{x}^{2}-14$ &mdash; constant term is wrong (should be $121-25=96$, not $-14$).</li><li>B: $x^4+23{x}^{2}+96$ &mdash; matches the expansion exactly.</li><li>C: $x^4+12{x}^{2}+121$ &mdash; $x^2$ coefficient wrong (forgot the $+x^2$ from the difference of squares) and constant wrong (forgot the $-25$).</li><li>D: $x^4+{x}^{2}+146$ &mdash; coefficients are inconsistent with $(x^2+11)^2+(x^2-25)$.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "title": "Read the expression",
+      "content": "The regression gives $a=1$, $b=23$, and $c=96$. Therefore the expression is:<br/>$$x^4+23x^2+96$$<br/>That matches choice B."
+    },
+    {
+      "title": "Confirm by expansion",
+      "content": "$(x^2+11)^2=x^4+22x^2+121$, and $(x-5)(x+5)=x^2-25$. Adding gives $x^4+23x^2+96$, so <strong>B</strong> is correct."
     }
   ]
 }

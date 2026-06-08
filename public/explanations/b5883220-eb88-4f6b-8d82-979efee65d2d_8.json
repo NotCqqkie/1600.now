@@ -4,22 +4,26 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Estimate intercept and slope",
-      "content": "The scatterplot starts near $y=90$ when $x=0$ and falls to near $y=0$ when $x$ is about $9$. That is a drop of about $90$ over a run of about $9$, so the slope is about $-10$ and the intercept is about $90$."
+      "title": "Enter the scatterplot as a table",
+      "content": "Use Desmos for the model fit. Reading from the grid, the data are approximately $(0,80)$, $(1,90)$, $(2,61)$, $(3,66)$, $(4,51)$, $(5,44)$, $(6,25)$, $(7,25)$, and $(8,0)$.",
+      "desmosExpressions": [
+        "x_1=[0,1,2,3,4,5,6,7,8]",
+        "y_1=[80,90,61,66,51,44,25,25,0]"
+      ]
     },
     {
-      "title": "Graph the choices",
-      "content": "Use Desmos as an answer-choice overlay: graph all four equations and compare them with the plotted trend. Choices B and C are too flat because their slope is only $-0.1$. Choice A has the right slope but starts at $80$, too low for the graph.",
+      "title": "Fit a line",
+      "content": "Run $y_1 \\sim mx_1+b$. The regression gives a slope close to $-10$ and a $y$-intercept close to $90$. That points to $y=90-10x$.",
       "desmosExpressions": [
-        "y=80-10x",
-        "y=80-0.1x",
-        "y=90-0.1x",
+        "x_1=[0,1,2,3,4,5,6,7,8]",
+        "y_1=[80,90,61,66,51,44,25,25,0]",
+        "y_1~m x_1+b",
         "y=90-10x"
       ]
     },
     {
-      "title": "Check a midpoint",
-      "content": "At $x=4$, the plotted trend is near $y=50$. Choice D gives $90-10(4)=50$, while choice A gives $80-10(4)=40$. The correct model is $y=90-10x$, so choice <strong>D</strong> is correct."
+      "title": "Check against the choices",
+      "content": "Choices B and C have slope $-0.1$, which is much too flat for the data. Choice A has slope $-10$ but starts at $80$, too low for the overall trend. Choice D, $y=90-10x$, matches the regression and gives $y=50$ at $x=4$, right near the middle of the scatterplot. Choice <strong>D</strong> is correct."
     }
   ]
 }

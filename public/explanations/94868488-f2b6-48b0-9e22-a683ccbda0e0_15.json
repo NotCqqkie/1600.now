@@ -4,12 +4,33 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Calculate temperature after the first 4 minutes",
-      "content": "During the first 4.0 minutes, the temperature increases at 6.5°C per minute.<br/><br/>Temperature increase: $6.5 \\times 4.0 = 26°C$<br/>Temperature at $t = 4.0$ minutes: $23 + 26 = 49°C$"
+      "title": "Find the handoff temperature",
+      "content": "This is a two-phase linear model. First find the temperature at the moment the rate changes. The liquid starts at $23^\\circ\\text{C}$ and warms at $6.5^\\circ\\text{C}$ per minute for $4.0$ minutes, so the increase is $6.5(4.0)=26$. The handoff temperature is $23+26=49^\\circ\\text{C}$.",
+      "desmosExpressions": [
+        "23+6.5(4)"
+      ]
     },
     {
-      "title": "Set up equation for the second phase",
-      "content": "After $t = 4.0$, the temperature increases at 2.4°C per minute for $(x - 4.0)$ minutes. The final temperature equals the temperature at $t = 4.0$ plus the increase during the second phase:<br/>$$49 + 2.4(x - 4.0) = 63$$<br/>Rearranging to match the answer choices:<br/>$$63 = 2.4(x - 4.0) + 49$$<br/>That matches choice C — <strong>C</strong> is correct."
+      "title": "Build the second-phase line in Desmos",
+      "content": "After $4.0$ minutes, the new rate is $2.4^\\circ\\text{C}$ per minute. Use a tiny table starting at the handoff point: at $x=4$, $y=49$; one minute later, at $x=5$, $y=51.4$. A linear fit confirms the second phase is the line with slope $2.4$ through $(4,49)$.",
+      "desmosExpressions": [
+        "x_1=[4,5]",
+        "y_1=[49,51.4]",
+        "y_1~m x_1+b"
+      ]
+    },
+    {
+      "title": "Match the point-slope form",
+      "content": "A line with rate $2.4$ starting from $49$ at time $4.0$ is $$y=2.4(x-4.0)+49.$$ The problem says the final temperature is $63^\\circ\\text{C}$, so set $y=63$: $$63=2.4(x-4.0)+49.$$ That matches choice C.",
+      "desmosExpressions": [
+        "y=2.4(x-4)+49",
+        "y=63",
+        "(4,49)"
+      ]
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A uses $26$, which is only the first-phase increase, not the temperature at $4.0$ minutes. Choice B ignores the rate change. Choice D starts the second-phase line at $x=0$ instead of $x=4.0$. Choice <strong>C</strong> is correct."
     }
   ]
 }

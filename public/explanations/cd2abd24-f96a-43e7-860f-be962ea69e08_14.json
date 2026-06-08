@@ -1,10 +1,33 @@
 {
-  "qid": "cd2abd24-f96a-43e7-860f-be962ea69e08_14",
+  "questionId": "cd2abd24-f96a-43e7-860f-be962ea69e08_14",
+  "correctAnswer": "B",
+  "section": "Math",
   "steps": [
-    "Group the four terms into two pairs: $(12x^3 + 60x^2y) + (xy^2 + 5y^3)$.",
-    "Factor each pair separately: $12x^2(x + 5y) + y^2(x + 5y)$.",
-    "Both groups share the binomial factor $(x + 5y)$; factor it out to get $(12x^2 + y^2)(x + 5y)$."
-  ],
-  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; '$(12x^2 + 5y)(x + y^2)$'</strong>: Expanding gives $12x^3 + 12x^2y^2 + 5xy + 5y^3$, which differs from the original. &#10007;</li><li><strong>Choice B &mdash; '$(12x^2 + y^2)(x + 5y)$'</strong>: Expanding gives $12x^3 + 60x^2y + xy^2 + 5y^3$, which matches exactly. &#10003;</li><li><strong>Choice C &mdash; '$(12x^3 + y^2)(x^2 + 5y^3)$'</strong>: Expanding gives $12x^5 + 60x^3y^3 + x^2y^2 + 5y^5$, wrong degrees throughout. &#10007;</li><li><strong>Choice D &mdash; '$(12x^3 + y^3)(x + 5y)$'</strong>: Expanding gives $12x^4 + 60x^3y + xy^3 + 5y^4$, wrong degrees. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
-  "correctAnswer": "B"
+    {
+      "title": "Use list values for x and y",
+      "content": "For multivariable equivalent-expression questions, a fast Desmos check is to plug in several ordered pairs. Use $x_1=[1,2,3]$ and $y_1=[1,2,4]$, then evaluate the original expression as a list.",
+      "desmosExpressions": [
+        "x_1=[1,2,3]",
+        "y_1=[1,2,4]",
+        "o_1=12x_1^3+60x_1^2y_1+x_1y_1^2+5y_1^3"
+      ]
+    },
+    {
+      "title": "Compare the answer choices",
+      "content": "Now evaluate each answer choice on the same lists. The list for choice B matches the original list exactly; the others produce different values.",
+      "desmosExpressions": [
+        "x_1=[1,2,3]",
+        "y_1=[1,2,4]",
+        "o_1=12x_1^3+60x_1^2y_1+x_1y_1^2+5y_1^3",
+        "a_1=(12x_1^2+5y_1)(x_1+y_1^2)",
+        "b_1=(12x_1^2+y_1^2)(x_1+5y_1)",
+        "c_1=(12x_1^3+y_1^2)(x_1^2+5y_1^3)",
+        "d_1=(12x_1^3+y_1^3)(x_1+5y_1)"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "Choice B is $(12x^2+y^2)(x+5y)$, and it matches the original expression for every tested pair. Choice <strong>B</strong> is correct."
+    }
+  ]
 }

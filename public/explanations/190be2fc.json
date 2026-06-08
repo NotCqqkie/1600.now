@@ -5,7 +5,11 @@
   "steps": [
     {
       "title": "Find the sum of the 9 given integers",
-      "content": "The nine given integers sum to: 43 + 45 + 44 + 43 + 38 + 39 + 40 + 46 + 40 = <strong>378</strong>."
+      "content": "Enter the nine known integers as a Desmos list and use `total`. Desmos gives $378$, which is the current total before the missing 10th value is added.",
+      "desmosExpressions": [
+        "l_1=[43,45,44,43,38,39,40,46,40]",
+        "\\operatorname{total}\\left(l_1\\right)"
+      ]
     },
     {
       "title": "Set up the equation for the 10th integer",
@@ -17,7 +21,12 @@
     },
     {
       "title": "Solve for x and identify the maximum value",
-      "content": "Substituting $M = 43$: $$x = 10(43) - 378 = 52$$<br/>The nine given integers have a maximum of 46. Since 52 > 46, the largest integer in data set A is <strong>52</strong>."
+      "content": "Substituting $M = 43$: $$x = 10(43) - 378 = 52$$ In Desmos, the row `10*43-total(l_1)` confirms the missing value is $52$. The nine given integers have a maximum of 46, and $52>46$, so the largest integer in data set A is <strong>52</strong>.",
+      "desmosExpressions": [
+        "l_1=[43,45,44,43,38,39,40,46,40]",
+        "10*43-\\operatorname{total}\\left(l_1\\right)",
+        "\\operatorname{max}\\left([43,45,44,43,38,39,40,46,40,52]\\right)"
+      ]
     }
   ]
 }

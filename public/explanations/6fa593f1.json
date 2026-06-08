@@ -4,28 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply the substitution from the given condition",
-      "content": "Substitute $x=40$ into $x+6$."
+      "title": "Substitute directly",
+      "content": "The question gives $x=40$ and asks for $x+6$. Replace $x$ with $40$: $$x+6=40+6.$$"
     },
     {
-      "title": "Compute the target value",
-      "content": "So $x+6 = 46$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "Choice C is correct. It's given that $x=40$. Adding $6$ to both sides of this equation yields $x+6=40+6$, or $x+6=46$. Therefore, the value of $x+6$ is $46$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice A is incorrect. This is the value of $x-6$, not $x+6$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice B is incorrect. This is the value of $x$, not $x+6$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice D is incorrect. This is the value of $x+24$, not $x+6$."
+      "title": "Compute and compare",
+      "content": "$40+6=46$, so the target value is $46$. Choice A subtracts $6$, choice B stops at $x$, and choice D adds the wrong amount. Choice <strong>C</strong> is correct."
     }
   ]
 }

@@ -4,20 +4,28 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Understand the bracket structure",
-      "content": "In single-elimination play, each match removes exactly one player. With 240 starters paired into 120 matches, 120 players are eliminated in round 1, leaving 120 to advance. Each subsequent round halves the field again."
+      "title": "List the eliminated players",
+      "content": "This is faster as a table fit than as a long exponential setup. In round 1, half of 240 players are eliminated, so $p=120$. Then the eliminated counts keep halving: round 2 has 60, round 3 has 30, and round 4 has 15. Put those four points into Desmos.",
+      "desmosExpressions": [
+        "x_1=[1,2,3,4]",
+        "y_1=[120,60,30,15]",
+        "y_1~a b^{x_1}"
+      ]
     },
     {
-      "title": "Count the eliminations per round",
-      "content": "Track the eliminated count $p$ for each round $r$:<ul><li>Round 1: $240/2 = 120$ eliminated.</li><li>Round 2: $120/2 = 60$ eliminated.</li><li>Round 3: $60/2 = 30$ eliminated.</li><li>Round 4: $30/2 = 15$ eliminated.</li></ul>"
+      "title": "Read the exponential model",
+      "content": "The custom regression gives $a=240$ and $b=0.5$. Since Desmos is fitting $y=a b^x$, this means $$p=240(0.5)^r,$$ which is the same as $$p=240\\left(\\frac{1}{2}\\right)^r.$$"
     },
     {
-      "title": "Find the formula",
-      "content": "Each round-$r$ value equals $240 \\cdot \\left(\\frac{1}{2}\\right)^r$. Verify: $r=1$ gives 120, $r=2$ gives 60, $r=3$ gives 30, $r=4$ gives 15 &mdash; all match. So $$p = 240\\left(\\frac{1}{2}\\right)^r.$$"
-    },
-    {
-      "title": "Evaluate the choices",
-      "content": "<ul><li><strong>A.</strong> $p=15\\left(\\frac{1}{2}\\right)^r$ &mdash; at $r=1$ gives 7.5, wrong.</li><li><strong>B.</strong> $p=15(2)^r$ &mdash; at $r=1$ gives 30, wrong.</li><li><strong>C.</strong> $p=240\\left(\\frac{1}{2}\\right)^r$ &mdash; matches every round.</li><li><strong>D.</strong> $p=240(2)^r$ &mdash; grows instead of shrinking.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+      "title": "Check the choices",
+      "content": "Choice C has the fitted coefficient $240$ and the halving factor $\\frac{1}{2}$. Choice A starts with 15 instead of 240. Choices B and D use a factor of $2$, which grows each round instead of shrinking. Choice <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "y=240(0.5)^x",
+        "(1,120)",
+        "(2,60)",
+        "(3,30)",
+        "(4,15)"
+      ]
     }
   ]
 }

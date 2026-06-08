@@ -10,7 +10,6 @@ const NotFound = () => {
       </div>
 
       <div className="text-center max-w-sm">
-        {/* Big 404 — Inter Tight 700, tabular nums (consistent with display numbers). */}
         <div
           style={{
             fontFamily: "'Inter Tight', sans-serif",
@@ -26,11 +25,9 @@ const NotFound = () => {
           404
         </div>
 
-        {/* Empty headline — Inter Tight 600, ink. 3-4 words, direct. */}
         <h1 className="font-display text-[22px] font-semibold leading-[1.15] tracking-[-0.015em] text-ink mb-3">
           Page not found
         </h1>
-        {/* Empty helper — Inter 400, 13px, ink-mid. */}
         <p className="font-sans text-[13px] leading-[1.55] text-ink-mid mb-8">
           This page doesn't exist — maybe the URL changed or you followed an old link.
         </p>

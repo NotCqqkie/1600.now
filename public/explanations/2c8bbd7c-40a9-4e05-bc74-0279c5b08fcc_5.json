@@ -5,15 +5,19 @@
   "steps": [
     {
       "title": "At the x-intercept, y equals zero",
-      "content": "The x-intercept occurs where the graph crosses the x-axis. At this point, $y = 0$, so we solve $g(x) = 0$."
+      "content": "The $x$-intercept is where the graph crosses the $x$-axis. Every point on the $x$-axis has $y=0$, so set the function value equal to $0$."
     },
     {
       "title": "Solve the equation for x",
-      "content": "Set $g(x) = 0$ and substitute:<br/>$$x - 18 = 0$$<br/>$$x = 18$$",
+      "content": "Because $g(x)=x-18$, solve $$x-18=0.$$ Add $18$ to both sides to get $$x=18.$$ In Desmos, the line $y=x-18$ crosses the $x$-axis at $(18,0)$.",
       "desmosExpressions": [
         "y = x - 18",
         "(18, 0)"
       ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The $x$-coordinate of the $x$-intercept is therefore <strong>18</strong>."
     }
   ]
 }

@@ -4,20 +4,25 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the product",
-      "content": "With $g(x)=\\frac{2}{7}x+\\frac{8}{5}$ and $h(x)=5x-7$, the product is $$g(x)\\cdot h(x) = \\left(\\frac{2}{7}x+\\frac{8}{5}\\right)(5x-7).$$ Use FOIL to expand."
+      "title": "Fit the product as a quadratic",
+      "content": "The product of two linear functions is quadratic. In Desmos, evaluate $g(x)h(x)$ at three inputs and regress the result to $ax^2+bx+c$."
     },
     {
-      "title": "Multiply each pair of terms",
-      "content": "<ul><li>$\\frac{2}{7}x \\cdot 5x = \\frac{10}{7}x^2$</li><li>$\\frac{2}{7}x \\cdot (-7) = -2x$</li><li>$\\frac{8}{5} \\cdot 5x = 8x$</li><li>$\\frac{8}{5} \\cdot (-7) = -\\frac{56}{5}$</li></ul>"
+      "title": "Enter the product table",
+      "content": "Use:<br/>$$x_1=[0,1,2]$$<br/>$$y_1=\\left(\\frac27x_1+\\frac85\\right)(5x_1-7)$$<br/>Then enter:<br/>$$y_1\\sim ax_1^2+bx_1+c$$",
+      "desmosExpressions": [
+        "x_1=[0,1,2]",
+        "y_1=(\\frac{2}{7}x_1+\\frac{8}{5})(5x_1-7)",
+        "y_1\\sim ax_1^2+bx_1+c"
+      ]
     },
     {
-      "title": "Combine like terms",
-      "content": "The two linear terms add: $-2x + 8x = 6x$. The full expression becomes $$\\frac{10x^2}{7} + 6x - \\frac{56}{5}.$$"
+      "title": "Read the coefficients",
+      "content": "Desmos returns $a=\\frac{10}{7}$, $b=6$, and $c=-\\frac{56}{5}$. Therefore:<br/>$$g(x)h(x)=\\frac{10}{7}x^2+6x-\\frac{56}{5}$$"
     },
     {
-      "title": "Evaluate the choices",
-      "content": "<ul><li><strong>A.</strong> $\\frac{10x^2}{7}-\\frac{56}{5}$ &mdash; omits the linear term entirely.</li><li><strong>B.</strong> $\\frac{10x^2}{7}+\\frac{13x}{6}-\\frac{56}{5}$ &mdash; wrong linear coefficient.</li><li><strong>C.</strong> $\\frac{10x^2}{7}-6x-\\frac{56}{5}$ &mdash; correct magnitude but wrong sign.</li><li><strong>D.</strong> $\\frac{10x^2}{7}+6x-\\frac{56}{5}$ &mdash; matches the expansion.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "title": "Match the choice",
+      "content": "Choice D is $\\frac{10x^2}{7}+6x-\\frac{56}{5}$, so <strong>D</strong> is correct. The FOIL check gives the same middle term: $-2x+8x=6x$."
     }
   ]
 }

@@ -23,12 +23,10 @@ const ToastViewport = React.forwardRef<
 ToastViewport.displayName = ToastPrimitives.Viewport.displayName;
 
 const toastVariants = cva(
-  // White on ink fill per spec. Radius 10px, padding 12×16.
   "group pointer-events-auto relative flex w-full items-center justify-between gap-3 overflow-hidden rounded-[10px] py-[12px] pl-[16px] pr-[28px] shadow-lg transition-all data-[swipe=cancel]:translate-x-0 data-[swipe=end]:translate-x-[var(--radix-toast-swipe-end-x)] data-[swipe=move]:translate-x-[var(--radix-toast-swipe-move-x)] data-[swipe=move]:transition-none data-[state=open]:animate-in data-[state=closed]:animate-out data-[swipe=end]:animate-out data-[state=closed]:fade-out-80 data-[state=closed]:slide-out-to-right-full data-[state=open]:slide-in-from-top-full data-[state=open]:sm:slide-in-from-bottom-full",
   {
     variants: {
       variant: {
-        // Always-dark toast fill. ink-fixed doesn't flip in dark mode.
         default: "bg-ink-fixed text-white",
         destructive: "destructive group bg-ds-bad text-white",
       },
@@ -51,7 +49,6 @@ const ToastAction = React.forwardRef<
   React.ElementRef<typeof ToastPrimitives.Action>,
   React.ComponentPropsWithoutRef<typeof ToastPrimitives.Action>
 >(({ className, ...props }, ref) => (
-  // Toast action — Inter 600, 13px, accent colour.
   <ToastPrimitives.Action
     ref={ref}
     className={cn(
@@ -85,7 +82,6 @@ const ToastTitle = React.forwardRef<
   React.ElementRef<typeof ToastPrimitives.Title>,
   React.ComponentPropsWithoutRef<typeof ToastPrimitives.Title>
 >(({ className, ...props }, ref) => (
-  // Toast title — Inter 500/600, 13px.
   <ToastPrimitives.Title ref={ref} className={cn("font-sans text-[13px] font-medium", className)} {...props} />
 ));
 ToastTitle.displayName = ToastPrimitives.Title.displayName;

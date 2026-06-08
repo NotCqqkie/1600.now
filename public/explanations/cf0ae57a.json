@@ -4,16 +4,25 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Locate x = 1.2 AU on the horizontal axis",
-      "content": "The line of best fit predicts density as a function of distance from the Sun. Find 1.2 on the horizontal axis labeled <em>Distance from the Sun (AU)</em>, which sits just past the 1 AU tick."
+      "title": "Model the line of best fit",
+      "content": "The question asks for the predicted density at $x=1.2$, so use the line of best fit. Two readable points on the line are about $(0,5.8)$ and $(2,3.9)$. A quick Desmos table regression gives a line near $y=-0.95x+5.8$.",
+      "desmosExpressions": [
+        "x_1=[0,2]",
+        "y_1=[5.8,3.9]",
+        "y_1~m x_1+b"
+      ]
     },
     {
-      "title": "Trace up to the line of best fit",
-      "content": "From x = 1.2, move vertically until the path meets the line of best fit. Read across to the vertical axis labeled <em>Density (g/cm&sup3;)</em>. The intersection sits near 4.6 g/cm&sup3;."
+      "title": "Evaluate at x = 1.2",
+      "content": "Substitute $x=1.2$ into the model: $y=-0.95(1.2)+5.8=4.66$. So the predicted density is about $4.6$ grams per cubic centimeter.",
+      "desmosExpressions": [
+        "y=-0.95x+5.8",
+        "(1.2,4.66)"
+      ]
     },
     {
-      "title": "Compare the prediction with each choice",
-      "content": "Evaluate each option against the read-off value &asymp; 4.6:<ul><li>3.6 &mdash; too low; the line is above this value at x = 1.2.</li><li>4.1 &mdash; still below where the line crosses x = 1.2.</li><li>4.6 &mdash; matches the line&apos;s height at x = 1.2.</li><li>5.5 &mdash; too high; the line does not reach this value until a much smaller distance.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+      "title": "Confirm the choice",
+      "content": "The closest listed value is $4.6$, so choice <strong>C</strong> is correct."
     }
   ]
 }

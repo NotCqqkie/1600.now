@@ -4,12 +4,25 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Distribute the negative signs",
-      "content": "First rewrite the expression by removing parentheses, applying the minus signs: $$(9x^{4}+8x^{3})-(7x^{3}+5x^{2})-(3x^{2}+x)=9x^{4}+8x^{3}-7x^{3}-5x^{2}-3x^{2}-x.$$"
+      "title": "Use a one-parameter regression shortcut",
+      "content": "The target form is $9x^4+x^3+ax^2-x$, so only $a$ is unknown. In Desmos, make a table for the original expression and fit it to that exact form:<br/>$$x_1=[-2,-1,0,1,2]$$<br/>$$y_1=(9x_1^4+8x_1^3)-(7x_1^3+5x_1^2)-(3x_1^2+x_1)$$<br/>$$y_1\\sim 9x_1^4+x_1^3+ax_1^2-x_1$$",
+      "desmosExpressions": [
+        "x_1=[-2,-1,0,1,2]",
+        "y_1=(9x_1^4+8x_1^3)-(7x_1^3+5x_1^2)-(3x_1^2+x_1)",
+        "y_1\\sim 9x_1^4+x_1^3+ax_1^2-x_1"
+      ]
     },
     {
-      "title": "Combine like terms",
-      "content": "Now combine the coefficients of each power of $$x$$: <ul><li>$$x^{4}$$: $$9$$ (only term).</li><li>$$x^{3}$$: $$8-7=1$$.</li><li>$$x^{2}$$: $$-5-3=-8$$.</li><li>$$x$$: $$-1$$.</li></ul> This gives $$9x^{4}+x^{3}-8x^{2}-x$$, which matches the form $$9x^{4}+x^{3}+ax^{2}-x$$ with $$a=-8$$.</br/>That matches choice A — <strong>A</strong> is correct."
+      "title": "Read the value of a",
+      "content": "Desmos returns $a=-8$. That means the expression is:<br/>$$9x^4+x^3-8x^2-x$$"
+    },
+    {
+      "title": "Confirm with algebra",
+      "content": "Distribute the negative signs:<br/>$$(9x^4+8x^3)-(7x^3+5x^2)-(3x^2+x)=9x^4+8x^3-7x^3-5x^2-3x^2-x$$<br/>Combine like terms: $8x^3-7x^3=x^3$ and $-5x^2-3x^2=-8x^2$."
+    },
+    {
+      "title": "Answer",
+      "content": "The coefficient of $x^2$ is $a=-8$, which matches choice A. Therefore <strong>A</strong> is correct."
     }
   ]
 }

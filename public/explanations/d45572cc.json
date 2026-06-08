@@ -4,8 +4,22 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the y-intercept from the graph",
-      "content": "The value $f(0)$ represents the $y$-coordinate of the graph at $x = 0$ (the $y$-intercept). Looking at where the curve crosses the $y$-axis, we read directly from the grid: the curve passes through the point $(0, 3)$. Therefore, $f(0) = 3$."
+      "title": "Translate the notation",
+      "content": "$f(0)$ means the output value of the function when the input is $x=0$. On a graph of $y=f(x)$, that is the $y$-coordinate of the point on the curve directly above or below $x=0$.",
+      "desmosExpressions": [
+        "x=0"
+      ]
+    },
+    {
+      "title": "Read the graph at x = 0",
+      "content": "The line $x=0$ is the $y$-axis. The curve crosses the $y$-axis at the point $(0,3)$, so the output when $x=0$ is $3$.",
+      "desmosExpressions": [
+        "(0,3)"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "Therefore $f(0)=3$. The problem says the value is an integer, and the graph read gives <strong>3</strong>."
     }
   ]
 }

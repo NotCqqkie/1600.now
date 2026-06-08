@@ -4,21 +4,22 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up",
-      "content": "A linear function $f$ passes through $(4, 190)$ and $(10, 670)$. Find the slope, then the equation, and match to a choice."
+      "title": "Use the two given points",
+      "content": "The linear function passes through $(4,190)$ and $(10,670)$. Since two points determine a line, those two facts are enough to identify the equation."
     },
     {
-      "title": "Solve",
-      "content": "Slope: $m = \\frac{670 - 190}{10 - 4} = \\frac{480}{6} = 80$. Using point $(4, 190)$: $190 = 80(4) + b \\Rightarrow b = 190 - 320 = -130$. So $f(x) = 80x - 130$."
-    },
-    {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; $f(x) = 180x - 670$</strong>: $f(4) = 720 - 670 = 50 \\neq 190$. &#10007;</li><li><strong>Choice B &mdash; $f(x) = 67x$</strong>: $f(4) = 268 \\neq 190$. &#10007;</li><li><strong>Choice C &mdash; $f(x) = 80x - 10x$</strong>: This simplifies to $70x$. $f(4) = 280 \\neq 190$. &#10007;</li><li><strong>Choice D &mdash; $f(x) = 80x - 130$</strong>: $f(4) = 320 - 130 = 190$ &#10003; and $f(10) = 800 - 130 = 670$ &#10003;. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.",
+      "title": "Run a Desmos regression",
+      "content": "Enter $x_1=[4,10]$ and $y_1=[190,670]$, then type $y_1\\sim m x_1+b$. Desmos gives $m=80$ and $b=-130$, so $$f(x)=80x-130.$$",
       "desmosExpressions": [
-        "y = 80x - 130",
-        "(4, 190)",
-        "(10, 670)"
+        "x_1=[4,10]",
+        "y_1=[190,670]",
+        "y_1~m x_1+b",
+        "y=80x-130"
       ]
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "Choice <strong>D</strong> is correct because $80(4)-130=190$ and $80(10)-130=670$. Choice C simplifies to $70x$, so it misses the given points."
     }
   ]
 }

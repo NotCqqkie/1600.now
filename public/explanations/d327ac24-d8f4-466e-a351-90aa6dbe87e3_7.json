@@ -4,16 +4,26 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use slope-intercept form",
-      "content": "A linear function with slope $m$ and y-intercept $b$ is $f(x)=mx+b$. Here $m=69$, and $f(0)=3$ gives $b=3$."
+      "title": "Use the given intercept and slope as points",
+      "content": "The statement $f(0)=3$ gives the point $(0,3)$. Since the slope is $69$, increasing $x$ by $1$ increases $f(x)$ by $69$, so a second point is $(1,72)$.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[3,72]"
+      ]
     },
     {
-      "title": "Write the equation",
-      "content": "Substituting: $$f(x)=69x+3.$$"
+      "title": "Fit the line in Desmos",
+      "content": "Type $y_1\\sim m x_1+b$. Desmos returns $m=69$ and $b=3$, so $f(x)=69x+3$.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[3,72]",
+        "y_1~m x_1+b",
+        "y=69x+3"
+      ]
     },
     {
-      "title": "Eliminate the other choices",
-      "content": "<ul><li>$f(x)=3x$: slope $3$, not $69$ &mdash; wrong slope and wrong intercept.</li><li>$f(x)=3x+3$: slope $3$, not $69$ &mdash; wrong slope.</li><li>$f(x)=69x$: gives $f(0)=0$, not $3$ &mdash; wrong intercept.</li><li>$f(x)=69x+3$: slope $69$ and $f(0)=3$ &mdash; matches.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "title": "Confirm the choice",
+      "content": "Choice D is the only equation with slope $69$ and $f(0)=3$. Therefore choice <strong>D</strong> is correct."
     }
   ]
 }

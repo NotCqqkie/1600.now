@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the y-intercept and slope sign",
-      "content": "For a line graph with equation choices, graph all four choices in Desmos and compare them to the displayed line. The correct line must cross the y-axis at $(0,-5)$ and pass through $(7,-8)$.",
+      "title": "Eliminate by direction",
+      "content": "The graph falls from left to right, so the slope is negative. Choices A and B have positive slopes, so eliminate them. Now only C and D are possible.",
       "desmosExpressions": [
         "y=(3/7)x-5",
         "y=(7/3)x-5",
@@ -14,12 +14,17 @@
       ]
     },
     {
-      "title": "Use a second labeled point",
-      "content": "The line also passes through $(7, -8)$. Test the two negative-slope candidates:<br/>Choice C: $f(7) = -\\frac{3}{7}(7) - 5 = -3 - 5 = -8.$ &#x2713;<br/>Choice D: $f(7) = -\\frac{7}{3}(7) - 5 = -\\frac{49}{3} - 5 \\approx -21.3.$ &#x2717;"
+      "title": "Use the marked points",
+      "content": "The graph passes through $(0,-5)$ and $(7,-8)$. Put those points into a Desmos table and run $y_1\\sim m x_1+b$. Desmos returns $m=-\\frac{3}{7}$ and $b=-5$, so the equation is $f(x)=-\\frac{3}{7}x-5$.",
+      "desmosExpressions": [
+        "x_1=[0,7]",
+        "y_1=[-5,-8]",
+        "y_1~m x_1+b"
+      ]
     },
     {
-      "title": "Check each choice",
-      "content": "<ul><li>A ($\\frac{3}{7}x - 5$): positive slope, but the graph falls.</li><li>B ($\\frac{7}{3}x - 5$): positive slope, also incorrect.</li><li>C ($-\\frac{3}{7}x - 5$): matches both the y-intercept and the point $(7, -8)$.</li><li>D ($-\\frac{7}{3}x - 5$): correct sign but slope too steep; misses $(7, -8)$ badly.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+      "title": "Confirm the choice",
+      "content": "If using Desmos, graph the four choices and compare them to the image; only choice C overlaps the graphed line. Algebraically, choice D is too steep because its slope is $-\\frac{7}{3}$ instead of $-\\frac{3}{7}$. Therefore choice C, $f(x)=-\\frac{3}{7}x-5$, is correct."
     }
   ]
 }

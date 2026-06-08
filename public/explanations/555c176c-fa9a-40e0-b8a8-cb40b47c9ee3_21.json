@@ -20,6 +20,9 @@
       "title": "Move one step from x = 5 to x = 6",
       "content": "From $x=5$ to $x=6$ is one 1-unit increase, so multiply by $k=5$:<br/>$$f(6)=150\\cdot 5=750$$<br/>The Desmos regression also lets you evaluate the model at $x=6$. The answer is <strong>750</strong>.",
       "desmosExpressions": [
+        "x_1=[3,5]",
+        "y_1=[6,150]",
+        "y_1~a k^{x_1}",
         "a k^6"
       ]
     }

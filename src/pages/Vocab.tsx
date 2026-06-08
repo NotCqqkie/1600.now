@@ -1,14 +1,10 @@
-import { useState, useMemo, useEffect, useLayoutEffect, useRef, type CSSProperties } from "react";
+import { useState, useMemo, useEffect, useLayoutEffect, useRef, useCallback, type CSSProperties } from "react";
 import { vocabularySets } from "@/data/vocabulary";
 import { useThemeMode } from "@/hooks/useThemeMode";
 import { useAuth } from "@/contexts/AuthContext";
 import { vocabStorageKey } from "@/hooks/useUserProgress";
 import { db } from "@/lib/firebase/firebaseDb";
 import { doc, setDoc } from "firebase/firestore";
-
-/* ═══════════════════════════════════════════════
-   Types
-   ═══════════════════════════════════════════════ */
 
 type Pos = "adj" | "verb" | "noun";
 type Mode = "flashcards" | "learn" | "match" | "test" | "browse";
@@ -24,8 +20,8 @@ interface Word {
   syn: string[];
   ant: string[];
   freq: number;
-  mastery: number; // 0-1
-  etym: string; // used as fallback label (set name)
+  mastery: number;
+  etym: string;
   setName: string;
 }
 
@@ -39,52 +35,43 @@ interface StoredWordProgress {
   modes: Partial<Record<PracticeMode, number>>;
 }
 
-/* ═══════════════════════════════════════════════
-   Constants / tokens
-   ═══════════════════════════════════════════════ */
-
-const fg = "hsl(var(--foreground))";
-const muted = "hsl(var(--muted-foreground))";
-const cardBg = "hsl(var(--card))";
-const borderC = "hsl(var(--border))";
-const surface = "hsl(var(--muted))";
+const textColor = "hsl(var(--foreground))";
+const mutedTextColor = "hsl(var(--mutedTextColor-foreground))";
+const cardBackground = "hsl(var(--card))";
+const borderColor = "hsl(var(--border))";
+const mutedSurface = "hsl(var(--mutedTextColor))";
 const primary = "hsl(var(--primary))";
-const primary2 = "hsl(var(--primary) / 0.1)";
-const okFg = "hsl(122 50% 35%)";
-const okBg = "hsl(122 50% 96%)";
-const errFg = "hsl(0 70% 50%)";
-const errBg = "hsl(0 70% 97%)";
+const primaryTint = "hsl(var(--primary) / 0.1)";
+const successColor = "hsl(122 50% 35%)";
+const successBackground = "hsl(122 50% 96%)";
+const errorColor = "hsl(0 70% 50%)";
+const errorBackground = "hsl(0 70% 97%)";
 const MASTERY_CONFIRMATIONS = 3;
 const MASTERY_MODE_COUNT = 2;
 const PRACTICE_MODES: PracticeMode[] = ["flashcards", "learn", "match", "test"];
 
-
-const TAG_LIGHT: Record<Pos, { bg: string; fg: string }> = {
-  adj: { bg: "hsl(201 100% 94%)", fg: "hsl(201 100% 32%)" },
-  verb: { bg: "hsl(32 100% 92%)", fg: "hsl(24 70% 30%)" },
-  noun: { bg: "hsl(122 40% 92%)", fg: "hsl(122 40% 24%)" },
+const TAG_LIGHT: Record<Pos, { bg: string; textColor: string }> = {
+  adj: { bg: "hsl(201 100% 94%)", textColor: "hsl(201 100% 32%)" },
+  verb: { bg: "hsl(32 100% 92%)", textColor: "hsl(24 70% 30%)" },
+  noun: { bg: "hsl(122 40% 92%)", textColor: "hsl(122 40% 24%)" },
 };
-const TAG_DARK: Record<Pos, { bg: string; fg: string }> = {
-  adj: { bg: "hsl(201 70% 18%)", fg: "hsl(201 100% 72%)" },
-  verb: { bg: "hsl(32 60% 18%)", fg: "hsl(32 100% 70%)" },
-  noun: { bg: "hsl(122 35% 16%)", fg: "hsl(122 55% 65%)" },
+const TAG_DARK: Record<Pos, { bg: string; textColor: string }> = {
+  adj: { bg: "hsl(201 70% 18%)", textColor: "hsl(201 100% 72%)" },
+  verb: { bg: "hsl(32 60% 18%)", textColor: "hsl(32 100% 70%)" },
+  noun: { bg: "hsl(122 35% 16%)", textColor: "hsl(122 55% 65%)" },
 };
 
-/* ═══════════════════════════════════════════════
-   Data synthesis
-   ═══════════════════════════════════════════════ */
-
-function hashStr(s: string): number {
-  let h = 0;
-  for (let i = 0; i < s.length; i++) {
-    h = (h << 5) - h + s.charCodeAt(i);
-    h |= 0;
+function hashStr(input: string): number {
+  let hash = 0;
+  for (let index = 0; index < input.length; index++) {
+    hash = (hash << 5) - hash + input.charCodeAt(index);
+    hash |= 0;
   }
-  return Math.abs(h);
+  return Math.abs(hash);
 }
 
-function isStudyStatus(v: unknown): v is StudyStatus {
-  return v === "new" || v === "learning" || v === "mastered";
+function isStudyStatus(value: unknown): value is StudyStatus {
+  return value === "new" || value === "learning" || value === "mastered";
 }
 
 function countModes(modes: Partial<Record<PracticeMode, number>>): number {
@@ -195,14 +182,9 @@ function synthesizeWord(
   };
 }
 
-/* ═══════════════════════════════════════════════
-   Shared UI bits
-   ═══════════════════════════════════════════════ */
-
 function Tag({ pos, isDark }: { pos: Pos; isDark: boolean }) {
-  const c = (isDark ? TAG_DARK : TAG_LIGHT)[pos];
+  const tagColors = (isDark ? TAG_DARK : TAG_LIGHT)[pos];
   return (
-    // Part-of-speech pill — Inter 600, 11px, padding 4×12, radius 999, ALWAYS lowercase.
     <span
       style={{
         display: "inline-block",
@@ -211,8 +193,8 @@ function Tag({ pos, isDark }: { pos: Pos; isDark: boolean }) {
         fontSize: 11,
         padding: "4px 12px",
         borderRadius: 999,
-        background: c.bg,
-        color: c.fg,
+        background: tagColors.bg,
+        color: tagColors.textColor,
         fontWeight: 600,
         lineHeight: 1,
         whiteSpace: "nowrap",
@@ -225,7 +207,7 @@ function Tag({ pos, isDark }: { pos: Pos; isDark: boolean }) {
 }
 
 function MasteryDots({ v }: { v: number }) {
-  const f = Math.round(v * 5);
+  const filledDots = Math.round(v * 5);
   return (
     <span style={{ display: "inline-flex", gap: 3 }}>
       {Array.from({ length: 5 }).map((_, i) => (
@@ -235,15 +217,13 @@ function MasteryDots({ v }: { v: number }) {
             width: 6,
             height: 6,
             borderRadius: 999,
-            background: i < f ? primary : "hsl(var(--border))",
+            background: i < filledDots ? primary : "hsl(var(--border))",
           }}
         />
       ))}
     </span>
   );
 }
-
-// Flashcard footer buttons — Inter 600, 15px, padding 14×24.
 const btnBase: CSSProperties = {
   height: 48,
   borderRadius: 10,
@@ -255,23 +235,19 @@ const btnBase: CSSProperties = {
   border: `1px solid rgba(14,33,56,0.10)`,
   transition: "all .15s",
 };
-// Prev/next icon buttons — 44×44, ink-mid glyph on white.
 const btnIcon: CSSProperties = {
   ...btnBase,
-  background: cardBg,
+  background: cardBackground,
   color: "rgb(var(--ink-mid))",
   fontSize: 16,
   height: 44,
   width: 44,
 };
-// "Study again" — secondary, ink on white.
 const btnSecondary: CSSProperties = {
   ...btnBase,
-  background: cardBg,
+  background: cardBackground,
   color: "rgb(var(--ink))",
 };
-// "Got it" — dark solid, white on ink. The only place in the app with this combo.
-// Hardcoded so it stays dark in both light and dark mode (signals commitment).
 const btnPrimary: CSSProperties = {
   ...btnBase,
   background: "#0E2138",
@@ -294,19 +270,19 @@ function MasteredSetPrompt({
         style={{
           padding: "32px 28px",
           borderRadius: 16,
-          background: cardBg,
-          border: `1px solid ${borderC}`,
+          background: cardBackground,
+          border: `1px solid ${borderColor}`,
           boxShadow: "0 12px 32px -18px rgba(15,23,42,.12)",
         }}
       >
-        <h2 style={{ margin: 0, fontSize: 24, fontWeight: 600, color: fg }}>Set mastered</h2>
-        <p style={{ color: okFg, margin: "10px 0 22px", fontSize: 13, fontWeight: 500 }}>
+        <h2 style={{ margin: 0, fontSize: 24, fontWeight: 600, color: textColor }}>Set mastered</h2>
+        <p style={{ color: successColor, margin: "10px 0 22px", fontSize: 13, fontWeight: 500 }}>
           You've mastered every word{setName ? ` in ${setName}` : ""}.
         </p>
         {!confirmReset ? (
           <button
             onClick={() => setConfirmReset(true)}
-            style={{ ...btnSecondary, padding: "0 24px", color: muted, width: "100%" }}
+            style={{ ...btnSecondary, padding: "0 24px", color: mutedTextColor, width: "100%" }}
           >
             Reset progress for this set
           </button>
@@ -327,8 +303,8 @@ function MasteredSetPrompt({
                 ...btnPrimary,
                 padding: "0 18px",
                 flex: 1,
-                background: errFg,
-                borderColor: errFg,
+                background: errorColor,
+                borderColor: errorColor,
               }}
             >
               Confirm reset
@@ -339,10 +315,6 @@ function MasteredSetPrompt({
     </div>
   );
 }
-
-/* ═══════════════════════════════════════════════
-   Set picker (tier × number grid)
-   ═══════════════════════════════════════════════ */
 
 const TIER_ORDER = ["Foundational", "Intermediate", "Advanced", "Expert"] as const;
 type SetPickerStatus = "nothing" | "in-progress" | "done";
@@ -365,14 +337,14 @@ function SetPicker({
 }) {
   const groups = new Map<string, { id: string; num: string; raw: string }[]>();
   const ungrouped: { id: string; name: string }[] = [];
-  for (const s of setOptions) {
-    const m = s.name.match(/^(.+?)\s+(\S+)$/);
-    if (m && (TIER_ORDER as readonly string[]).includes(m[1])) {
-      const arr = groups.get(m[1]) ?? [];
-      arr.push({ id: s.id, num: m[2], raw: s.name });
-      groups.set(m[1], arr);
+  for (const setOption of setOptions) {
+    const nameParts = setOption.name.match(/^(.+?)\s+(\S+)$/);
+    if (nameParts && (TIER_ORDER as readonly string[]).includes(nameParts[1])) {
+      const tierGroup = groups.get(nameParts[1]) ?? [];
+      tierGroup.push({ id: setOption.id, num: nameParts[2], raw: setOption.name });
+      groups.set(nameParts[1], tierGroup);
     } else {
-      ungrouped.push(s);
+      ungrouped.push(setOption);
     }
   }
 
@@ -382,8 +354,8 @@ function SetPicker({
         position: "absolute",
         top: "calc(100% + 6px)",
         right: 0,
-        background: cardBg,
-        border: `1px solid ${borderC}`,
+        background: cardBackground,
+        border: `1px solid ${borderColor}`,
         borderRadius: 12,
         boxShadow: "0 12px 32px -16px rgba(15,23,42,.25)",
         padding: 12,
@@ -394,16 +366,16 @@ function SetPicker({
         width: "max-content",
       }}
     >
-      <div style={{ display: "flex", gap: 10, padding: "0 2px 2px", borderBottom: `1px solid ${borderC}`, paddingBottom: 10 }}>
+      <div style={{ display: "flex", gap: 10, padding: "0 2px 2px", borderBottom: `1px solid ${borderColor}`, paddingBottom: 10 }}>
         {(Object.keys(SET_STATUS_META) as SetPickerStatus[]).map(status => (
-          <div key={status} style={{ display: "flex", alignItems: "center", gap: 5, fontSize: 11, color: muted, whiteSpace: "nowrap" }}>
+          <div key={status} style={{ display: "flex", alignItems: "center", gap: 5, fontSize: 11, color: mutedTextColor, whiteSpace: "nowrap" }}>
             <span
               style={{
                 width: 8,
                 height: 8,
                 borderRadius: 999,
                 background: SET_STATUS_META[status].color,
-                boxShadow: `0 0 0 1px ${borderC}`,
+                boxShadow: `0 0 0 1px ${borderColor}`,
                 flexShrink: 0,
               }}
             />
@@ -421,7 +393,7 @@ function SetPicker({
                 fontWeight: 600,
                 letterSpacing: ".04em",
                 textTransform: "uppercase",
-                color: muted,
+                color: mutedTextColor,
                 width: 92,
                 flexShrink: 0,
               }}
@@ -443,9 +415,9 @@ function SetPicker({
                       width: 30,
                       height: 30,
                       borderRadius: 7,
-                      border: `1px solid ${on ? fg : borderC}`,
-                      background: on ? fg : "transparent",
-                      color: on ? "hsl(var(--background))" : fg,
+                      border: `1px solid ${on ? textColor : borderColor}`,
+                      background: on ? textColor : "transparent",
+                      color: on ? "hsl(var(--background))" : textColor,
                       cursor: "pointer",
                       fontFamily: "inherit",
                       fontSize: 13,
@@ -463,7 +435,7 @@ function SetPicker({
                         height: 7,
                         borderRadius: 999,
                         background: statusColor,
-                        boxShadow: `0 0 0 1px ${on ? "hsl(var(--background))" : cardBg}`,
+                        boxShadow: `0 0 0 1px ${on ? "hsl(var(--background))" : cardBackground}`,
                       }}
                     />
                     {it.num}
@@ -475,14 +447,14 @@ function SetPicker({
         );
       })}
       {ungrouped.length > 0 && (
-        <div style={{ display: "flex", flexDirection: "column", gap: 2, paddingTop: 6, borderTop: `1px solid ${borderC}` }}>
-          {ungrouped.map(s => {
-            const on = s.id === activeSetId;
-            const status = setStatuses[s.id] ?? "nothing";
+        <div style={{ display: "flex", flexDirection: "column", gap: 2, paddingTop: 6, borderTop: `1px solid ${borderColor}` }}>
+          {ungrouped.map(setOption => {
+            const on = setOption.id === activeSetId;
+            const status = setStatuses[setOption.id] ?? "nothing";
             return (
               <button
-                key={s.id}
-                onClick={() => onPick(s.id)}
+                key={setOption.id}
+                onClick={() => onPick(setOption.id)}
                 style={{
                   display: "flex",
                   alignItems: "center",
@@ -492,8 +464,8 @@ function SetPicker({
                   padding: "8px 10px",
                   borderRadius: 6,
                   border: "none",
-                  background: on ? surface : "transparent",
-                  color: fg,
+                  background: on ? mutedSurface : "transparent",
+                  color: textColor,
                   cursor: "pointer",
                   fontFamily: "inherit",
                   fontSize: 13,
@@ -506,11 +478,11 @@ function SetPicker({
                     height: 8,
                     borderRadius: 999,
                     background: SET_STATUS_META[status].color,
-                    boxShadow: `0 0 0 1px ${borderC}`,
+                    boxShadow: `0 0 0 1px ${borderColor}`,
                     flexShrink: 0,
                   }}
                 />
-                {s.name}
+                {setOption.name}
               </button>
             );
           })}
@@ -520,22 +492,18 @@ function SetPicker({
   );
 }
 
-/* ═══════════════════════════════════════════════
-   Header
-   ═══════════════════════════════════════════════ */
-
 function ModeTabs({
   modes,
   mode,
   setMode,
-  surface,
-  borderC,
+  mutedSurface,
+  borderColor,
 }: {
   modes: [Mode, string][];
   mode: Mode;
   setMode: (m: Mode) => void;
-  surface: string;
-  borderC: string;
+  mutedSurface: string;
+  borderColor: string;
 }) {
   const containerRef = useRef<HTMLDivElement>(null);
   const btnRefs = useRef<Map<Mode, HTMLButtonElement>>(new Map());
@@ -544,12 +512,12 @@ function ModeTabs({
   const [animate, setAnimate] = useState(false);
 
   useLayoutEffect(() => {
-    const c = containerRef.current;
-    const b = btnRefs.current.get(mode);
-    if (!c || !b) return;
-    const cr = c.getBoundingClientRect();
-    const br = b.getBoundingClientRect();
-    setSlider({ left: br.left - cr.left, width: br.width });
+    const container = containerRef.current;
+    const activeButton = btnRefs.current.get(mode);
+    if (!container || !activeButton) return;
+    const containerRect = container.getBoundingClientRect();
+    const buttonRect = activeButton.getBoundingClientRect();
+    setSlider({ left: buttonRect.left - containerRect.left, width: buttonRect.width });
     setReady(true);
   }, [mode]);
 
@@ -568,8 +536,8 @@ function ModeTabs({
         gap: 4,
         padding: 4,
         borderRadius: 12,
-        background: surface,
-        border: `1px solid ${borderC}`,
+        background: mutedSurface,
+        border: `1px solid ${borderColor}`,
         width: "fit-content",
         maxWidth: "100%",
         overflowX: "auto",
@@ -583,7 +551,7 @@ function ModeTabs({
           left: slider.left,
           width: slider.width,
           borderRadius: 8,
-          background: cardBg,
+          background: cardBackground,
           border: `1px solid rgba(14,33,56,0.08)`,
           boxShadow: "0 1px 2px rgba(14,33,56,0.06)",
           transition: animate ? "left .25s ease-out, width .25s ease-out" : "none",
@@ -653,11 +621,11 @@ function Header({
 
   useEffect(() => {
     if (!open) return;
-    const onDoc = (e: MouseEvent) => {
-      if (ref.current && !ref.current.contains(e.target as Node)) setOpen(false);
+    const handleDocumentMouseDown = (event: MouseEvent) => {
+      if (ref.current && !ref.current.contains(event.target as Node)) setOpen(false);
     };
-    document.addEventListener("mousedown", onDoc);
-    return () => document.removeEventListener("mousedown", onDoc);
+    document.addEventListener("mousedown", handleDocumentMouseDown);
+    return () => document.removeEventListener("mousedown", handleDocumentMouseDown);
   }, [open]);
 
   return (
@@ -673,7 +641,6 @@ function Header({
         }}
       >
         <div>
-          {/* Page title — Inter Tight 600, 42px, tracking -3%. */}
           <h1 style={{
             margin: 0,
             fontFamily: "'Inter Tight', sans-serif",
@@ -685,7 +652,6 @@ function Header({
           }}>
             Vocabulary
           </h1>
-          {/* Subtitle — Inter 400, 14px, leading 1.5, ink-mid. Number uses tabular nums + weight 500. */}
           <p style={{
             margin: "8px 0 0",
             fontFamily: "'Inter', sans-serif",
@@ -701,13 +667,12 @@ function Header({
           </p>
         </div>
         <div ref={ref} style={{ position: "relative" }}>
-          {/* Change set — secondary button: Inter 600, 14px, ink on white. */}
           <button
             onClick={() => setOpen(o => !o)}
             style={{
               padding: "10px 16px",
               borderRadius: 10,
-              background: cardBg,
+              background: cardBackground,
               border: `1px solid rgba(14,33,56,0.10)`,
               cursor: "pointer",
               fontFamily: "'Inter', sans-serif",
@@ -733,19 +698,24 @@ function Header({
           )}
         </div>
       </div>
-      <ModeTabs modes={modes} mode={mode} setMode={setMode} surface={surface} borderC={borderC} />
+      <ModeTabs modes={modes} mode={mode} setMode={setMode} mutedSurface={mutedSurface} borderColor={borderColor} />
     </div>
   );
 }
 
-/* ═══════════════════════════════════════════════
-   Flashcards
-   ═══════════════════════════════════════════════ */
-
 const FLASHCARD_GROUP_SIZE = 10;
 
-function getUnmasteredFlashcardIds(deck: Word[]): string[] {
-  return deck.filter(w => w.mastery < 0.8).map(w => w.id);
+function isFlashcardSetComplete(deck: Word[]): boolean {
+  return deck.length > 0 && deck.every(word => word.mastery >= 0.8);
+}
+
+function getFlashcardRoundIds(deck: Word[], requestedStart: number): { ids: string[]; start: number } {
+  if (deck.length === 0 || isFlashcardSetComplete(deck)) return { ids: [], start: 0 };
+  const start = requestedStart >= 0 && requestedStart < deck.length ? requestedStart : 0;
+  return {
+    ids: deck.slice(start, start + FLASHCARD_GROUP_SIZE).map(word => word.id),
+    start,
+  };
 }
 
 function Flashcards({
@@ -761,41 +731,30 @@ function Flashcards({
   onResetSet: () => void;
   setName: string;
 }) {
-  // Session-only state. Queue holds IDs of cards still to be answered this round.
-  // confirmed/learning are sets tracking what the user did this round, used for the summary
-  // and for "continue with still-learning" restart.
   const [queue, setQueue] = useState<string[]>([]);
   const [roundTotal, setRoundTotal] = useState(0);
   const [roundStart, setRoundStart] = useState(0);
-  const [confirmedThisRound, setConfirmedThisRound] = useState<Set<string>>(new Set());
+  const [knownThisRound, setKnownThisRound] = useState<Set<string>>(new Set());
   const [learningThisRound, setLearningThisRound] = useState<Set<string>>(new Set());
   const [flipped, setFlipped] = useState(false);
   const [confirmReset, setConfirmReset] = useState(false);
 
-  const byId = useMemo(() => {
-    const m = new Map<string, Word>();
-    for (const w of deck) m.set(w.id, w);
-    return m;
+  const wordsById = useMemo(() => {
+    const wordMap = new Map<string, Word>();
+    for (const word of deck) wordMap.set(word.id, word);
+    return wordMap;
   }, [deck]);
-
-  // Hold the latest deck in a ref so we can read mastery during init without
-  // adding `deck` to the effect deps (which would reset the round on every mark).
   const deckRef = useRef(deck);
   deckRef.current = deck;
-
-  // Reset round only when the active SET changes. Word IDs are stable while
-  // mastery values update, so a join of IDs gives us a deck-identity dep.
-  const deckIds = deck.map(w => w.id).join("|");
+  const deckIds = deck.map(word => word.id).join("|");
 
   const startGroup = (requestedStart: number) => {
-    const d = deckRef.current;
-    const unmastered = getUnmasteredFlashcardIds(d);
-    const nextStart = unmastered.length > 0 && requestedStart < unmastered.length ? Math.max(0, requestedStart) : 0;
-    const nextQueue = unmastered.slice(nextStart, nextStart + FLASHCARD_GROUP_SIZE);
-    setRoundStart(nextStart);
-    setQueue(nextQueue);
-    setRoundTotal(nextQueue.length);
-    setConfirmedThisRound(new Set());
+    const currentDeck = deckRef.current;
+    const round = getFlashcardRoundIds(currentDeck, requestedStart);
+    setRoundStart(round.start);
+    setQueue(round.ids);
+    setRoundTotal(round.ids.length);
+    setKnownThisRound(new Set());
     setLearningThisRound(new Set());
     setFlipped(false);
     setConfirmReset(false);
@@ -806,7 +765,7 @@ function Flashcards({
   }, [deckIds]);
 
   const cardId = queue[0];
-  const card = cardId ? byId.get(cardId) : undefined;
+  const card = cardId ? wordsById.get(cardId) : undefined;
   const done = !card && deck.length > 0;
 
   const animate = (after: () => void) => {
@@ -822,44 +781,44 @@ function Flashcards({
     if (!card) return;
     const id = card.id;
     onMark(id, "mastered", "flashcards");
-    setConfirmedThisRound(s => {
-      const n = new Set(s);
-      n.add(id);
-      return n;
+    setKnownThisRound(currentKnown => {
+      const nextKnown = new Set(currentKnown);
+      nextKnown.add(id);
+      return nextKnown;
     });
-    animate(() => setQueue(q => q.slice(1)));
+    animate(() => setQueue(currentQueue => currentQueue.slice(1)));
   };
 
   const markStudyAgain = () => {
     if (!card) return;
     const id = card.id;
     onMark(id, "learning", "flashcards");
-    setLearningThisRound(s => {
-      const n = new Set(s);
-      n.add(id);
-      return n;
+    setLearningThisRound(currentLearning => {
+      const nextLearning = new Set(currentLearning);
+      nextLearning.add(id);
+      return nextLearning;
     });
     animate(() =>
-      setQueue(q => {
-        if (q.length <= 1) return q;
-        const [first, ...rest] = q;
+      setQueue(currentQueue => {
+        if (currentQueue.length <= 1) return currentQueue;
+        const [first, ...rest] = currentQueue;
         return [...rest, first];
       }),
     );
   };
 
   const skipNext = () => animate(() =>
-    setQueue(q => {
-      if (q.length <= 1) return q;
-      const [first, ...rest] = q;
+    setQueue(currentQueue => {
+      if (currentQueue.length <= 1) return currentQueue;
+      const [first, ...rest] = currentQueue;
       return [...rest, first];
     }),
   );
   const skipPrev = () => animate(() =>
-    setQueue(q => {
-      if (q.length <= 1) return q;
-      const last = q[q.length - 1];
-      return [last, ...q.slice(0, -1)];
+    setQueue(currentQueue => {
+      if (currentQueue.length <= 1) return currentQueue;
+      const last = currentQueue[currentQueue.length - 1];
+      return [last, ...currentQueue.slice(0, -1)];
     }),
   );
 
@@ -868,60 +827,56 @@ function Flashcards({
   };
 
   const restartLearning = () => {
-    const ids = Array.from(learningThisRound).filter(id => !confirmedThisRound.has(id));
+    const ids = Array.from(learningThisRound).filter(id => !knownThisRound.has(id));
     if (ids.length === 0) return;
     setQueue(ids);
     setRoundTotal(ids.length);
-    setConfirmedThisRound(new Set());
+    setKnownThisRound(new Set());
     setLearningThisRound(new Set());
     setFlipped(false);
   };
 
   const resetAndStart = () => {
     onResetSet();
-    const nextQueue = deckRef.current.map(w => w.id).slice(0, FLASHCARD_GROUP_SIZE);
+    const nextQueue = deckRef.current.map(word => word.id).slice(0, FLASHCARD_GROUP_SIZE);
     setRoundStart(0);
     setQueue(nextQueue);
     setRoundTotal(nextQueue.length);
-    setConfirmedThisRound(new Set());
+    setKnownThisRound(new Set());
     setLearningThisRound(new Set());
     setFlipped(false);
     setConfirmReset(false);
   };
-
-  // Keyboard shortcuts: Space flips, ←/→ navigate, 1 = study again, 2 = got it.
   useEffect(() => {
-    const onKey = (e: KeyboardEvent) => {
-      const tag = (e.target as HTMLElement)?.tagName;
-      if (tag === "INPUT" || tag === "TEXTAREA") return;
+    const handleKeyDown = (event: KeyboardEvent) => {
+      const targetTag = (event.target as HTMLElement)?.tagName;
+      if (targetTag === "INPUT" || targetTag === "TEXTAREA") return;
       if (!card) return;
-      if (e.key === " ") {
-        e.preventDefault();
-        setFlipped(f => !f);
-      } else if (e.key === "ArrowRight") skipNext();
-      else if (e.key === "ArrowLeft") skipPrev();
-      else if (e.key === "1") markStudyAgain();
-      else if (e.key === "2") markGotIt();
+      if (event.key === " ") {
+        event.preventDefault();
+        setFlipped(currentFlipped => !currentFlipped);
+      } else if (event.key === "ArrowRight") skipNext();
+      else if (event.key === "ArrowLeft") skipPrev();
+      else if (event.key === "1") markStudyAgain();
+      else if (event.key === "2") markGotIt();
     };
-    window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [card?.id, queue.length, flipped]);
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [card, markGotIt, markStudyAgain, skipNext, skipPrev]);
 
   if (deck.length === 0) {
-    return <div style={{ color: muted, textAlign: "center", padding: 40 }}>No words in this set.</div>;
+    return <div style={{ color: mutedTextColor, textAlign: "center", padding: 40 }}>No words in this set.</div>;
   }
 
   if (done) {
-    const confirmedCount = confirmedThisRound.size;
-    const stillLearningCount = Array.from(learningThisRound).filter(id => !confirmedThisRound.has(id)).length;
-    const allMastered = deck.every(w => w.mastery >= 0.8);
-    const unmasteredIds = getUnmasteredFlashcardIds(deck);
+    const knownCount = knownThisRound.size;
+    const stillLearningCount = Array.from(learningThisRound).filter(id => !knownThisRound.has(id)).length;
+    const allMastered = isFlashcardSetComplete(deck);
     const nextStart = roundStart + FLASHCARD_GROUP_SIZE;
-    const hasNextGroup = nextStart < unmasteredIds.length;
+    const hasNextGroup = nextStart < deck.length;
     const nextGroupSize = Math.min(
       FLASHCARD_GROUP_SIZE,
-      hasNextGroup ? unmasteredIds.length - nextStart : unmasteredIds.length,
+      hasNextGroup ? deck.length - nextStart : deck.length,
     );
     const startNextGroup = () => startGroup(hasNextGroup ? nextStart : 0);
 
@@ -931,24 +886,24 @@ function Flashcards({
           style={{
             padding: "32px 28px",
             borderRadius: 16,
-            background: cardBg,
-            border: `1px solid ${borderC}`,
+            background: cardBackground,
+            border: `1px solid ${borderColor}`,
             boxShadow: "0 12px 32px -18px rgba(15,23,42,.12)",
           }}
         >
-          <h2 style={{ margin: 0, fontSize: 24, fontWeight: 600, color: fg }}>
-            {allMastered && confirmedCount === 0 && stillLearningCount === 0 ? "Set mastered" : "Round complete"}
+          <h2 style={{ margin: 0, fontSize: 24, fontWeight: 600, color: textColor }}>
+            {allMastered ? "Set mastered" : "Round complete"}
           </h2>
-          <p style={{ margin: "10px 0 6px", color: muted, fontSize: 15 }}>
-            {confirmedCount > 0 && <>{confirmedCount} confirmed</>}
-            {confirmedCount > 0 && stillLearningCount > 0 && " · "}
+          <p style={{ margin: "10px 0 6px", color: mutedTextColor, fontSize: 15 }}>
+            {knownCount > 0 && <>{knownCount} marked known</>}
+            {knownCount > 0 && stillLearningCount > 0 && " · "}
             {stillLearningCount > 0 && <>{stillLearningCount} still learning</>}
-            {confirmedCount === 0 && stillLearningCount === 0 && (
+            {knownCount === 0 && stillLearningCount === 0 && (
               allMastered ? "Reset this set to study it from scratch." : "No cards reviewed."
             )}
           </p>
           {allMastered && (
-            <p style={{ color: okFg, margin: "10px 0 22px", fontSize: 13, fontWeight: 500 }}>
+            <p style={{ color: successColor, margin: "10px 0 22px", fontSize: 13, fontWeight: 500 }}>
               You've mastered every word in {setName}.
             </p>
           )}
@@ -961,41 +916,43 @@ function Flashcards({
             )}
             {!allMastered && (
               <button onClick={startNextGroup} style={{ ...btnSecondary, padding: "0 24px" }}>
-                {hasNextGroup ? "Next group" : "Start next pass"} ({nextGroupSize})
+                {hasNextGroup ? "Next round" : "Start next pass"} ({nextGroupSize})
               </button>
             )}
-            {!confirmReset ? (
-              <button
-                onClick={() => setConfirmReset(true)}
-                style={{
-                  ...btnSecondary,
-                  padding: "0 24px",
-                  color: muted,
-                }}
-              >
-                Reset progress for this set
-              </button>
-            ) : (
-              <div style={{ display: "flex", gap: 8 }}>
+            {allMastered && (
+              !confirmReset ? (
                 <button
-                  onClick={() => setConfirmReset(false)}
-                  style={{ ...btnSecondary, padding: "0 18px", flex: 1 }}
-                >
-                  Cancel
-                </button>
-                <button
-                  onClick={resetAndStart}
+                  onClick={() => setConfirmReset(true)}
                   style={{
-                    ...btnPrimary,
-                    padding: "0 18px",
-                    flex: 1,
-                    background: errFg,
-                    borderColor: errFg,
+                    ...btnSecondary,
+                    padding: "0 24px",
+                    color: mutedTextColor,
                   }}
                 >
-                  Confirm reset
+                  Reset progress for this set
                 </button>
-              </div>
+              ) : (
+                <div style={{ display: "flex", gap: 8 }}>
+                  <button
+                    onClick={() => setConfirmReset(false)}
+                    style={{ ...btnSecondary, padding: "0 18px", flex: 1 }}
+                  >
+                    Cancel
+                  </button>
+                  <button
+                    onClick={resetAndStart}
+                    style={{
+                      ...btnPrimary,
+                      padding: "0 18px",
+                      flex: 1,
+                      background: errorColor,
+                      borderColor: errorColor,
+                    }}
+                  >
+                    Confirm reset
+                  </button>
+                </div>
+              )
             )}
           </div>
         </div>
@@ -1009,13 +966,9 @@ function Flashcards({
   const remaining = queue.length;
   const reviewedThisRound = Math.max(0, totalForBar - remaining);
   const progressPct = (reviewedThisRound / Math.max(totalForBar, 1)) * 100;
-  const unmasteredCount = getUnmasteredFlashcardIds(deck).length;
-  const groupCount = Math.max(1, Math.ceil(unmasteredCount / FLASHCARD_GROUP_SIZE));
-  const groupNumber = Math.min(groupCount, Math.floor(roundStart / FLASHCARD_GROUP_SIZE) + 1);
 
   return (
     <div style={{ maxWidth: 720, margin: "0 auto" }}>
-      {/* Progress strip — numbers in Inter Tight 600 + tabular nums, labels in Inter 400. */}
       <div
         style={{
           display: "flex",
@@ -1030,12 +983,8 @@ function Flashcards({
       >
         <span style={{ whiteSpace: "nowrap" }}>
           <span style={{ fontFamily: "'Inter Tight', sans-serif", fontWeight: 600, fontVariantNumeric: "tabular-nums", color: "rgb(var(--ink))" }}>{remaining}</span> left
-          {" in group "}
-          <span style={{ fontFamily: "'Inter Tight', sans-serif", fontWeight: 600, fontVariantNumeric: "tabular-nums", color: "rgb(var(--ink))" }}>{groupNumber}</span>
-          /
-          <span style={{ fontFamily: "'Inter Tight', sans-serif", fontWeight: 600, fontVariantNumeric: "tabular-nums", color: "rgb(var(--ink))" }}>{groupCount}</span>
-          {" · "}
-          <span style={{ fontFamily: "'Inter Tight', sans-serif", fontWeight: 600, fontVariantNumeric: "tabular-nums", color: "rgb(var(--ink))" }}>{confirmedThisRound.size}</span> confirmed
+          {" this round · "}
+          <span style={{ fontFamily: "'Inter Tight', sans-serif", fontWeight: 600, fontVariantNumeric: "tabular-nums", color: "rgb(var(--ink))" }}>{knownThisRound.size}</span> marked known
         </span>
         <div
           style={{ flex: 1, height: 3, borderRadius: 2, background: "hsl(var(--border))", overflow: "hidden" }}
@@ -1050,10 +999,9 @@ function Flashcards({
             }}
           />
         </div>
-        {/* Restart link — Inter 500, 13px, ink-mid. Hover flips to ink. No underline. */}
         <button
           onClick={restartFull}
-          title="Restart this group"
+          title="Restart this round"
           style={{
             background: "transparent",
             border: "none",
@@ -1069,7 +1017,7 @@ function Flashcards({
           onMouseEnter={e => (e.currentTarget.style.color = "rgb(var(--ink))")}
           onMouseLeave={e => (e.currentTarget.style.color = "rgb(var(--ink-mid))")}
         >
-          ↺ Restart group
+          ↺ Restart round
         </button>
       </div>
 
@@ -1092,9 +1040,9 @@ function Flashcards({
               position: "absolute",
               inset: 0,
               backfaceVisibility: "hidden",
-              background: cardBg,
+              background: cardBackground,
               borderRadius: 20,
-              border: `1px solid ${borderC}`,
+              border: `1px solid ${borderColor}`,
               boxShadow: "0 12px 32px -16px rgba(15,23,42,.15)",
               display: "flex",
               flexDirection: "column",
@@ -1104,10 +1052,6 @@ function Flashcards({
             }}
           >
             <Tag pos={card.pos} isDark={isDark} />
-            {/* The word — Inter Tight 500, lowercase, tracking -3.5%. Cap kept
-                low enough that the longest SAT vocab words (17 chars, e.g.
-                "counterproductive") still fit the flashcard inner width;
-                overflowWrap is the safety net for anything longer. */}
             <h2
               style={{
                 margin: "18px 0 0",
@@ -1125,7 +1069,6 @@ function Flashcards({
             >
               {card.w}
             </h2>
-            {/* Helper — Inter 500, 14px, accent-deep (only place in the flashcard where accent-deep is text). */}
             <div style={{
               marginTop: 32,
               fontFamily: "'Inter', sans-serif",
@@ -1160,26 +1103,25 @@ function Flashcards({
 }
 
 function FlashcardBack({ card, isDark }: { card: Word; isDark: boolean }) {
-  // Dark variant — mockup exact. Light variant — mirror using theme tokens.
-  const bg = isDark ? "hsl(217 33% 14%)" : cardBg;
-  const textMain = isDark ? "#fff" : fg;
+  const bg = isDark ? "hsl(217 33% 14%)" : cardBackground;
+  const textMain = isDark ? "#fff" : textColor;
   const headAccent = isDark ? "hsl(201 100% 75%)" : primary;
   const labelAccent = isDark ? "hsl(201 100% 70%)" : primary;
-  const divider = isDark ? "#ffffff18" : borderC;
-  const softPanel = isDark ? "#ffffff0c" : surface;
+  const divider = isDark ? "#ffffff18" : borderColor;
+  const softPanel = isDark ? "#ffffff0c" : mutedSurface;
   const softPanelBorderAccent = isDark ? "hsl(39 100% 57%)" : "hsl(39 90% 45%)";
-  const exTextColor = isDark ? "#ffffffdd" : fg;
+  const exTextColor = isDark ? "#ffffffdd" : textColor;
   const synColor = isDark ? "hsl(201 100% 70%)" : primary;
   const antColor = isDark ? "hsl(0 80% 72%)" : "hsl(0 70% 45%)";
-  const pillBg = isDark ? "#ffffff10" : surface;
-  const pillBorder = isDark ? "#ffffff18" : borderC;
-  const pillText = isDark ? "#fff" : fg;
-  const footBg = isDark ? "#00000025" : "hsl(var(--muted))";
-  const footLabel = isDark ? "#ffffff80" : muted;
-  const footText = isDark ? "#ffffffcc" : fg;
-  const subDivider = isDark ? "#ffffff18" : borderC;
+  const pillBg = isDark ? "#ffffff10" : mutedSurface;
+  const pillBorder = isDark ? "#ffffff18" : borderColor;
+  const pillText = isDark ? "#fff" : textColor;
+  const footBg = isDark ? "#00000025" : "hsl(var(--mutedTextColor))";
+  const footLabel = isDark ? "#ffffff80" : mutedTextColor;
+  const footText = isDark ? "#ffffffcc" : textColor;
+  const subDivider = isDark ? "#ffffff18" : borderColor;
   const gridBg = isDark ? "#ffffff05" : "transparent";
-  const posColor = isDark ? "#ffffff88" : muted;
+  const posColor = isDark ? "#ffffff88" : mutedTextColor;
 
   const exText = card.ex || card.def;
   const etymText = card.etym || card.setName;
@@ -1216,7 +1158,7 @@ function FlashcardBack({ card, isDark }: { card: Word; isDark: boolean }) {
         background: bg,
         color: textMain,
         borderRadius: 20,
-        border: isDark ? "none" : `1px solid ${borderC}`,
+        border: isDark ? "none" : `1px solid ${borderColor}`,
         boxShadow: isDark
           ? "0 1px 0 hsl(217 33% 14% / .05), 0 40px 80px -30px hsl(201 100% 30% / .35)"
           : "0 12px 32px -16px rgba(15,23,42,.15)",
@@ -1394,15 +1336,11 @@ function FlashcardBack({ card, isDark }: { card: Word; isDark: boolean }) {
   );
 }
 
-/* ═══════════════════════════════════════════════
-   Learn
-   ═══════════════════════════════════════════════ */
-
 const LEARN_ROUND_SIZE = 10;
 
 function buildLearnRound(deck: Word[]): string[] {
-  const unmastered = deck.filter(w => w.mastery < 0.8);
-  const ids = unmastered.map(w => w.id);
+  const unmastered = deck.filter(word => word.mastery < 0.8);
+  const ids = unmastered.map(word => word.id);
   for (let i = ids.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [ids[i], ids[j]] = [ids[j], ids[i]];
@@ -1421,10 +1359,10 @@ function Learn({
   onMark: (id: string, s: StudyStatus, mode: PracticeMode) => void;
   onResetSet: () => void;
 }) {
-  const okFgL = isDark ? "hsl(122 60% 65%)" : okFg;
-  const okBgL = isDark ? "hsl(122 40% 15%)" : okBg;
-  const errFgL = isDark ? "hsl(0 70% 68%)" : errFg;
-  const errBgL = isDark ? "hsl(0 50% 17%)" : errBg;
+  const successText = isDark ? "hsl(122 60% 65%)" : successColor;
+  const successFill = isDark ? "hsl(122 40% 15%)" : successBackground;
+  const errorText = isDark ? "hsl(0 70% 68%)" : errorColor;
+  const errorFill = isDark ? "hsl(0 50% 17%)" : errorBackground;
 
   const [round, setRound] = useState<string[]>([]);
   const [pos, setPos] = useState(0);
@@ -1435,13 +1373,13 @@ function Learn({
 
   const deckRef = useRef(deck);
   deckRef.current = deck;
-  const byId = useMemo(() => {
-    const m = new Map<string, Word>();
-    for (const w of deck) m.set(w.id, w);
-    return m;
+  const wordsById = useMemo(() => {
+    const wordMap = new Map<string, Word>();
+    for (const word of deck) wordMap.set(word.id, word);
+    return wordMap;
   }, [deck]);
 
-  const deckIds = deck.map(w => w.id).join("|");
+  const deckIds = deck.map(word => word.id).join("|");
   useEffect(() => {
     setRound(buildLearnRound(deckRef.current));
     setPos(0);
@@ -1451,54 +1389,52 @@ function Learn({
     setConfirmReset(false);
   }, [deckIds]);
 
-  const w = round[pos] ? byId.get(round[pos]) : undefined;
+  const currentWord = round[pos] ? wordsById.get(round[pos]) : undefined;
   const total = round.length;
   const done = total > 0 && pos >= total;
-
-  // Generate options with stable seed so re-renders don't reshuffle.
   const { options, correct } = useMemo(() => {
-    if (!w) return { options: [] as string[], correct: 0 };
-    const others = deckRef.current.filter(d => d.id !== w.id);
-    const h = hashStr(w.w + "::learn");
+    if (!currentWord) return { options: [] as string[], correct: 0 };
+    const otherWords = deckRef.current.filter(word => word.id !== currentWord.id);
+    const seed = hashStr(currentWord.w + "::learn");
     const distractors: string[] = [];
     const seen = new Set<string>();
-    let k = 0;
-    while (distractors.length < 3 && others.length) {
-      const pick = others[(h + k * 7) % others.length];
-      k++;
-      if (k > 1000) break;
+    let attempt = 0;
+    while (distractors.length < 3 && otherWords.length) {
+      const pick = otherWords[(seed + attempt * 7) % otherWords.length];
+      attempt++;
+      if (attempt > 1000) break;
       if (!pick || seen.has(pick.id)) continue;
       seen.add(pick.id);
       distractors.push(pick.def);
     }
-    const correctIdx = h % 4;
-    const opts: string[] = [];
-    let di = 0;
-    for (let i = 0; i < 4; i++) {
-      if (i === correctIdx) opts.push(w.def);
-      else opts.push(distractors[di++] ?? "—");
+    const correctIndex = seed % 4;
+    const choices: string[] = [];
+    let distractorIndex = 0;
+    for (let optionIndex = 0; optionIndex < 4; optionIndex++) {
+      if (optionIndex === correctIndex) choices.push(currentWord.def);
+      else choices.push(distractors[distractorIndex++] ?? "—");
     }
-    return { options: opts, correct: correctIdx };
-  }, [w?.id]); // eslint-disable-line react-hooks/exhaustive-deps
+    return { options: choices, correct: correctIndex };
+  }, [currentWord?.id, currentWord?.w, currentWord?.def]);
 
   const revealed = picked !== null;
 
-  const choose = (i: number) => {
-    if (!w || revealed) return;
-    setPicked(i);
-    if (i === correct) {
-      onMark(w.id, "mastered", "learn");
-      setCorrectIds(s => {
-        const n = new Set(s);
-        n.add(w.id);
-        return n;
+  const choose = (optionIndex: number) => {
+    if (!currentWord || revealed) return;
+    setPicked(optionIndex);
+    if (optionIndex === correct) {
+      onMark(currentWord.id, "mastered", "learn");
+      setCorrectIds(currentCorrectIds => {
+        const nextCorrectIds = new Set(currentCorrectIds);
+        nextCorrectIds.add(currentWord.id);
+        return nextCorrectIds;
       });
     } else {
-      onMark(w.id, "learning", "learn");
-      setWrongIds(s => {
-        const n = new Set(s);
-        n.add(w.id);
-        return n;
+      onMark(currentWord.id, "learning", "learn");
+      setWrongIds(currentWrongIds => {
+        const nextWrongIds = new Set(currentWrongIds);
+        nextWrongIds.add(currentWord.id);
+        return nextWrongIds;
       });
     }
   };
@@ -1528,7 +1464,7 @@ function Learn({
 
   const resetAndStart = () => {
     onResetSet();
-    setRound(deckRef.current.map(w => w.id).slice(0, LEARN_ROUND_SIZE));
+    setRound(deckRef.current.map(word => word.id).slice(0, LEARN_ROUND_SIZE));
     setPos(0);
     setPicked(null);
     setCorrectIds(new Set());
@@ -1537,9 +1473,9 @@ function Learn({
   };
 
   if (deck.length === 0) {
-    return <div style={{ color: muted, textAlign: "center", padding: 40 }}>No words.</div>;
+    return <div style={{ color: mutedTextColor, textAlign: "center", padding: 40 }}>No words.</div>;
   }
-  if (deck.every(w => w.mastery >= 0.8) && !done) {
+  if (deck.every(word => word.mastery >= 0.8) && !done) {
     return <MasteredSetPrompt setName={deck[0]?.setName} onReset={resetAndStart} />;
   }
 
@@ -1552,13 +1488,13 @@ function Learn({
           style={{
             padding: "32px 28px",
             borderRadius: 16,
-            background: cardBg,
-            border: `1px solid ${borderC}`,
+            background: cardBackground,
+            border: `1px solid ${borderColor}`,
             boxShadow: "0 12px 32px -18px rgba(15,23,42,.12)",
           }}
         >
-          <h2 style={{ margin: 0, fontSize: 24, fontWeight: 600, color: fg }}>Round complete</h2>
-          <p style={{ margin: "10px 0 22px", color: muted, fontSize: 15 }}>
+          <h2 style={{ margin: 0, fontSize: 24, fontWeight: 600, color: textColor }}>Round complete</h2>
+          <p style={{ margin: "10px 0 22px", color: mutedTextColor, fontSize: 15 }}>
             {correctCount} correct · {missedCount} missed
           </p>
           <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
@@ -1573,7 +1509,7 @@ function Learn({
             {!confirmReset ? (
               <button
                 onClick={() => setConfirmReset(true)}
-                style={{ ...btnSecondary, padding: "0 24px", color: muted }}
+                style={{ ...btnSecondary, padding: "0 24px", color: mutedTextColor }}
               >
                 Reset progress for this set
               </button>
@@ -1587,7 +1523,7 @@ function Learn({
                 </button>
                 <button
                   onClick={resetAndStart}
-                  style={{ ...btnPrimary, padding: "0 18px", flex: 1, background: errFg, borderColor: errFg }}
+                  style={{ ...btnPrimary, padding: "0 18px", flex: 1, background: errorColor, borderColor: errorColor }}
                 >
                   Confirm reset
                 </button>
@@ -1599,7 +1535,7 @@ function Learn({
     );
   }
 
-  if (!w) return null;
+  if (!currentWord) return null;
 
   return (
     <div style={{ maxWidth: 640, margin: "0 auto" }}>
@@ -1610,7 +1546,7 @@ function Learn({
           justifyContent: "space-between",
           marginBottom: 16,
           fontSize: 13,
-          color: muted,
+          color: mutedTextColor,
         }}
       >
         <span>
@@ -1622,46 +1558,46 @@ function Learn({
       </div>
 
       <div style={{ marginBottom: 24 }}>
-        <Tag pos={w.pos} isDark={isDark} />
-        <h2 style={{ margin: "10px 0 4px", fontSize: 40, fontWeight: 500, letterSpacing: "-.02em", color: fg }}>
-          {w.w}
+        <Tag pos={currentWord.pos} isDark={isDark} />
+        <h2 style={{ margin: "10px 0 4px", fontSize: 40, fontWeight: 500, letterSpacing: "-.02em", color: textColor }}>
+          {currentWord.w}
         </h2>
-        <p style={{ margin: 0, fontSize: 15, color: muted }}>Which meaning fits?</p>
+        <p style={{ margin: 0, fontSize: 15, color: mutedTextColor }}>Which meaning fits?</p>
       </div>
 
       <div style={{ display: "grid", gap: 10, marginBottom: 20 }}>
-        {options.map((opt, i) => {
-          const isPicked = picked === i;
-          const isCorrect = revealed && i === correct;
-          const isWrong = revealed && isPicked && i !== correct;
-          let b = borderC;
-          let bg = cardBg;
+        {options.map((option, optionIndex) => {
+          const isPicked = picked === optionIndex;
+          const isCorrect = revealed && optionIndex === correct;
+          const isWrong = revealed && isPicked && optionIndex !== correct;
+          let optionBorder = borderColor;
+          let optionBackground = cardBackground;
           if (isPicked && !revealed) {
-            b = primary;
-            bg = primary2;
+            optionBorder = primary;
+            optionBackground = primaryTint;
           }
           if (isCorrect) {
-            b = okFgL;
-            bg = okBgL;
+            optionBorder = successText;
+            optionBackground = successFill;
           }
           if (isWrong) {
-            b = errFgL;
-            bg = errBgL;
+            optionBorder = errorText;
+            optionBackground = errorFill;
           }
           return (
             <button
-              key={i}
-              onClick={() => choose(i)}
+              key={optionIndex}
+              onClick={() => choose(optionIndex)}
               style={{
                 textAlign: "left",
                 padding: "16px 18px",
                 borderRadius: 12,
-                border: `1.5px solid ${b}`,
-                background: bg,
+                border: `1.5px solid ${optionBorder}`,
+                background: optionBackground,
                 cursor: revealed ? "default" : "pointer",
                 fontFamily: "inherit",
                 fontSize: 15,
-                color: fg,
+                color: textColor,
                 display: "flex",
                 alignItems: "center",
                 gap: 14,
@@ -1673,9 +1609,9 @@ function Learn({
                   width: 28,
                   height: 28,
                   borderRadius: 999,
-                  border: `1.5px solid ${b}`,
-                  background: isCorrect ? okFgL : isWrong ? errFgL : isPicked ? primary : "transparent",
-                  color: isCorrect || isWrong || isPicked ? "#fff" : fg,
+                  border: `1.5px solid ${optionBorder}`,
+                  background: isCorrect ? successText : isWrong ? errorText : isPicked ? primary : "transparent",
+                  color: isCorrect || isWrong || isPicked ? "#fff" : textColor,
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
@@ -1684,9 +1620,9 @@ function Learn({
                   flexShrink: 0,
                 }}
               >
-                {String.fromCharCode(65 + i)}
+                {String.fromCharCode(65 + optionIndex)}
               </span>
-              <span style={{ flex: 1 }}>{opt}</span>
+              <span style={{ flex: 1 }}>{option}</span>
             </button>
           );
         })}
@@ -1715,16 +1651,12 @@ function Learn({
   );
 }
 
-/* ═══════════════════════════════════════════════
-   Match — pick-then-drop
-   ═══════════════════════════════════════════════ */
-
 const MATCH_POOL_SIZE = 6;
 
 function buildMatchPool(deck: Word[]): Word[] {
-  const unmastered = deck.filter(w => w.mastery < 0.8);
+  const unmastered = deck.filter(word => word.mastery < 0.8);
   if (!unmastered.length) return [];
-  const mastered = deck.filter(w => w.mastery >= 0.8);
+  const mastered = deck.filter(word => word.mastery >= 0.8);
   const shuffled = [...unmastered];
   for (let i = shuffled.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -1753,10 +1685,10 @@ function Match({
   onMark: (id: string, s: StudyStatus, mode: PracticeMode) => void;
   onResetSet: () => void;
 }) {
-  const okFgL = isDark ? "hsl(122 60% 65%)" : okFg;
-  const okBgL = isDark ? "hsl(122 40% 15%)" : okBg;
-  const errFgL = isDark ? "hsl(0 70% 68%)" : errFg;
-  const errBgL = isDark ? "hsl(0 50% 17%)" : errBg;
+  const successText = isDark ? "hsl(122 60% 65%)" : successColor;
+  const successFill = isDark ? "hsl(122 40% 15%)" : successBackground;
+  const errorText = isDark ? "hsl(0 70% 68%)" : errorColor;
+  const errorFill = isDark ? "hsl(0 50% 17%)" : errorBackground;
 
   const deckRef = useRef(deck);
   deckRef.current = deck;
@@ -1765,7 +1697,7 @@ function Match({
   const [defOrder, setDefOrder] = useState<number[]>([]);
   const [links, setLinks] = useState<Record<number, number>>({});
   const [missCounts, setMissCounts] = useState<Record<number, number>>({});
-  const [missedPair, setMissedPair] = useState<{ wi: number; slot: number } | null>(null);
+  const [missedPair, setMissedPair] = useState<{ wordIndex: number; slot: number } | null>(null);
   const [selected, setSelected] = useState<number | null>(null);
 
   const startRound = () => {
@@ -1788,37 +1720,37 @@ function Match({
     window.setTimeout(startRound, 0);
   };
 
-  const deckIds = deck.map(w => w.id).join("|");
+  const deckIds = deck.map(word => word.id).join("|");
   useEffect(() => {
     startRound();
   }, [deckIds]);
 
-  const pick = (wi: number) => {
-    if (links[wi] !== undefined) return;
-    setSelected(wi);
+  const pick = (wordIndex: number) => {
+    if (links[wordIndex] !== undefined) return;
+    setSelected(wordIndex);
   };
 
   const drop = (slot: number) => {
     if (selected === null) return;
     if (Object.values(links).includes(slot)) return;
-    const wi = selected;
-    const correct = wi === defOrder[slot];
+    const wordIndex = selected;
+    const correct = wordIndex === defOrder[slot];
     if (!correct) {
-      setMissCounts(prev => ({ ...prev, [wi]: (prev[wi] ?? 0) + 1 }));
-      setMissedPair({ wi, slot });
+      setMissCounts(prev => ({ ...prev, [wordIndex]: (prev[wordIndex] ?? 0) + 1 }));
+      setMissedPair({ wordIndex, slot });
       window.setTimeout(() => {
-        setMissedPair(current => (current?.wi === wi && current.slot === slot ? null : current));
+        setMissedPair(current => (current?.wordIndex === wordIndex && current.slot === slot ? null : current));
       }, 500);
       return;
     }
-    setLinks(prev => ({ ...prev, [wi]: slot }));
+    setLinks(prev => ({ ...prev, [wordIndex]: slot }));
     setSelected(null);
     setMissedPair(null);
-    const target = pool[wi];
-    if (target) onMark(target.id, (missCounts[wi] ?? 0) > 0 ? "learning" : "mastered", "match");
+    const target = pool[wordIndex];
+    if (target) onMark(target.id, (missCounts[wordIndex] ?? 0) > 0 ? "learning" : "mastered", "match");
   };
 
-  const matched = (wi: number, slot: number) => wi === defOrder[slot];
+  const matched = (wordIndex: number, slot: number) => wordIndex === defOrder[slot];
   const resolved = Object.keys(links).length;
   const total = pool.length;
   const correctCount = resolved;
@@ -1827,9 +1759,9 @@ function Match({
   const done = total > 0 && resolved >= total;
 
   if (deck.length === 0) {
-    return <div style={{ color: muted, textAlign: "center", padding: 40 }}>No words.</div>;
+    return <div style={{ color: mutedTextColor, textAlign: "center", padding: 40 }}>No words.</div>;
   }
-  if (deck.every(w => w.mastery >= 0.8) && pool.length === 0) {
+  if (deck.every(word => word.mastery >= 0.8) && pool.length === 0) {
     return <MasteredSetPrompt setName={deck[0]?.setName} onReset={resetAndStart} />;
   }
 
@@ -1842,7 +1774,7 @@ function Match({
           justifyContent: "space-between",
           marginBottom: 20,
           fontSize: 14,
-          color: muted,
+          color: mutedTextColor,
           gap: 16,
           flexWrap: "wrap",
         }}
@@ -1858,7 +1790,7 @@ function Match({
             style={{
               background: "transparent",
               border: "none",
-              color: muted,
+              color: mutedTextColor,
               cursor: "pointer",
               fontSize: 13,
               minHeight: 36,
@@ -1874,51 +1806,51 @@ function Match({
 
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 20 }}>
         <div style={{ display: "grid", gap: 10 }}>
-          {pool.map((w, i) => {
-            const linked = links[i] !== undefined;
-            const isSel = selected === i;
-            const correct = linked && matched(i, links[i]);
-            const isMissed = missedPair?.wi === i;
-            const b = correct ? okFgL : isMissed ? errFgL : isSel ? primary : borderC;
-            const bg = correct ? okBgL : isMissed ? errBgL : isSel ? primary2 : cardBg;
+          {pool.map((word, wordIndex) => {
+            const linked = links[wordIndex] !== undefined;
+            const isSelected = selected === wordIndex;
+            const correct = linked && matched(wordIndex, links[wordIndex]);
+            const isMissed = missedPair?.wordIndex === wordIndex;
+            const wordBorder = correct ? successText : isMissed ? errorText : isSelected ? primary : borderColor;
+            const wordBackground = correct ? successFill : isMissed ? errorFill : isSelected ? primaryTint : cardBackground;
             return (
               <button
-                key={i}
-                onClick={() => pick(i)}
+                key={wordIndex}
+                onClick={() => pick(wordIndex)}
                 disabled={linked}
                 style={{
                   padding: "16px 18px",
                   borderRadius: 12,
                   cursor: linked ? "default" : "pointer",
                   textAlign: "left",
-                  border: `1.5px solid ${b}`,
-                  background: bg,
+                  border: `1.5px solid ${wordBorder}`,
+                  background: wordBackground,
                   opacity: linked ? 0.9 : 1,
                   transition: "all .15s",
                   fontFamily: "inherit",
                   display: "flex",
                   justifyContent: "space-between",
                   alignItems: "center",
-                  color: fg,
+                  color: textColor,
                 }}
               >
-                <span style={{ fontSize: 18, fontWeight: 500 }}>{w.w}</span>
+                <span style={{ fontSize: 18, fontWeight: 500 }}>{word.w}</span>
                 {linked && (
-                  <span style={{ fontSize: 16, color: okFgL }}>✓</span>
+                  <span style={{ fontSize: 16, color: successText }}>✓</span>
                 )}
               </button>
             );
           })}
         </div>
         <div style={{ display: "grid", gap: 10 }}>
-          {defOrder.map((realIdx, slot) => {
-            const defText = pool[realIdx]?.def ?? "";
-            const linkedFrom = Object.entries(links).find(([, v]) => v === slot);
-            const filled = linkedFrom !== undefined;
-            const correct = filled && matched(Number(linkedFrom![0]), slot);
+          {defOrder.map((wordIndex, slot) => {
+            const definitionText = pool[wordIndex]?.def ?? "";
+            const linkedWord = Object.entries(links).find(([, linkedSlot]) => linkedSlot === slot);
+            const filled = linkedWord !== undefined;
+            const correct = filled && matched(Number(linkedWord![0]), slot);
             const isMissed = missedPair?.slot === slot;
-            const b = correct ? okFgL : isMissed ? errFgL : selected !== null ? primary : borderC;
-            const bg = correct ? okBgL : isMissed ? errBgL : cardBg;
+            const definitionBorder = correct ? successText : isMissed ? errorText : selected !== null ? primary : borderColor;
+            const definitionBackground = correct ? successFill : isMissed ? errorFill : cardBackground;
             return (
               <button
                 key={slot}
@@ -1929,16 +1861,16 @@ function Match({
                   borderRadius: 12,
                   cursor: filled ? "default" : "pointer",
                   textAlign: "left",
-                  border: `1.5px solid ${b}`,
-                  background: bg,
+                  border: `1.5px solid ${definitionBorder}`,
+                  background: definitionBackground,
                   transition: "all .15s",
                   fontSize: 14,
                   lineHeight: 1.5,
-                  color: fg,
+                  color: textColor,
                   fontFamily: "inherit",
                 }}
               >
-                {defText}
+                {definitionText}
               </button>
             );
           })}
@@ -1951,8 +1883,8 @@ function Match({
             marginTop: 22,
             padding: "20px 22px",
             borderRadius: 14,
-            background: cardBg,
-            border: `1px solid ${borderC}`,
+            background: cardBackground,
+            border: `1px solid ${borderColor}`,
             display: "flex",
             justifyContent: "space-between",
             alignItems: "center",
@@ -1961,10 +1893,10 @@ function Match({
           }}
         >
           <div>
-            <div style={{ fontSize: 16, fontWeight: 600, color: fg }}>
+            <div style={{ fontSize: 16, fontWeight: 600, color: textColor }}>
               {correctCount} of {total} correct
             </div>
-            <div style={{ fontSize: 13, color: muted, marginTop: 4 }}>
+            <div style={{ fontSize: 13, color: mutedTextColor, marginTop: 4 }}>
               {wrongCount === 0
                 ? "No retry attempts."
                 : `${wrongCount} retry attempt${wrongCount === 1 ? "" : "s"} across ${practicedAgainCount} word${practicedAgainCount === 1 ? "" : "s"}.`}
@@ -1980,10 +1912,6 @@ function Match({
     </div>
   );
 }
-
-/* ═══════════════════════════════════════════════
-   Test
-   ═══════════════════════════════════════════════ */
 
 const TEST_QUESTION_COUNT = 12;
 const TEST_PER_Q_SECONDS = 45;
@@ -2012,138 +1940,138 @@ function escapeRegExp(s: string): string {
   return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
-function blankExample(w: Word): string | null {
-  const re = new RegExp(`\\b${escapeRegExp(w.w)}\\b`, "i");
-  if (!re.test(w.ex)) return null;
-  return w.ex.replace(re, "_____");
+function blankExample(word: Word): string | null {
+  const wordPattern = new RegExp(`\\b${escapeRegExp(word.w)}\\b`, "i");
+  if (!wordPattern.test(word.ex)) return null;
+  return word.ex.replace(wordPattern, "_____");
 }
 
 function buildChoices(correct: string, distractors: string[], seed: number): { choices: string[]; correct: number } {
   const unique = distractors.filter((value, index, arr) => value && value !== correct && arr.indexOf(value) === index);
   const picked: string[] = [];
-  let k = 0;
+  let attempt = 0;
   while (picked.length < 3 && unique.length) {
-    const candidate = unique[(seed + k * 7) % unique.length];
-    k++;
+    const candidate = unique[(seed + attempt * 7) % unique.length];
+    attempt++;
     if (!picked.includes(candidate)) picked.push(candidate);
-    if (k > 1000) break;
+    if (attempt > 1000) break;
   }
-  const correctIdx = seed % 4;
+  const correctIndex = seed % 4;
   const choices: string[] = [];
-  let di = 0;
-  for (let i = 0; i < 4; i++) {
-    choices.push(i === correctIdx ? correct : picked[di++] ?? "—");
+  let distractorIndex = 0;
+  for (let optionIndex = 0; optionIndex < 4; optionIndex++) {
+    choices.push(optionIndex === correctIndex ? correct : picked[distractorIndex++] ?? "—");
   }
-  return { choices, correct: correctIdx };
+  return { choices, correct: correctIndex };
 }
 
-function availableTestTypes(w: Word): TestQuestionType[] {
+function availableTestTypes(word: Word): TestQuestionType[] {
   return TEST_TYPE_ORDER.filter(type => {
-    if (type === "sentence-completion") return blankExample(w) !== null;
-    if (type === "synonym") return w.syn.length > 0;
-    if (type === "antonym") return w.ant.length > 0;
+    if (type === "sentence-completion") return blankExample(word) !== null;
+    if (type === "synonym") return word.syn.length > 0;
+    if (type === "antonym") return word.ant.length > 0;
     return true;
   });
 }
 
-function pickTestType(w: Word, index: number): TestQuestionType {
-  const available = availableTestTypes(w);
+function pickTestType(word: Word, index: number): TestQuestionType {
+  const available = availableTestTypes(word);
   const preferred = TEST_TYPE_ORDER[index % TEST_TYPE_ORDER.length];
   if (available.includes(preferred)) return preferred;
-  return available[hashStr(`${w.id}:${index}`) % available.length] ?? "definition-to-word";
+  return available[hashStr(`${word.id}:${index}`) % available.length] ?? "definition-to-word";
 }
 
-function buildTestQuestion(w: Word, deck: Word[], index: number): TestQuestion {
-  const type = pickTestType(w, index);
-  const seed = hashStr(`${w.id}:${type}:${index}`);
-  const otherWords = deck.filter(d => d.id !== w.id);
-  const wordChoices = () => buildChoices(w.w, otherWords.map(d => d.w), seed);
-  const definitionChoices = () => buildChoices(w.def, otherWords.map(d => d.def), seed);
+function buildTestQuestion(word: Word, deck: Word[], index: number): TestQuestion {
+  const type = pickTestType(word, index);
+  const seed = hashStr(`${word.id}:${type}:${index}`);
+  const otherWords = deck.filter(otherWord => otherWord.id !== word.id);
+  const wordChoices = () => buildChoices(word.w, otherWords.map(otherWord => otherWord.w), seed);
+  const definitionChoices = () => buildChoices(word.def, otherWords.map(otherWord => otherWord.def), seed);
 
   if (type === "word-to-definition") {
     const { choices, correct } = definitionChoices();
     return {
-      id: `${w.id}:definition:${index}`,
-      word: w,
+      id: `${word.id}:definition:${index}`,
+      word,
       type,
-      prompt: `Which definition best matches "${w.w}"?`,
+      prompt: `Which definition best matches "${word.w}"?`,
       choices,
       correct,
-      answer: w.def,
+      answer: word.def,
     };
   }
 
   if (type === "sentence-completion") {
     const { choices, correct } = wordChoices();
     return {
-      id: `${w.id}:sentence:${index}`,
-      word: w,
+      id: `${word.id}:sentence:${index}`,
+      word,
       type,
       prompt: "Which word best completes the sentence?",
-      context: blankExample(w) ?? w.ex,
+      context: blankExample(word) ?? word.ex,
       choices,
       correct,
-      answer: w.w,
+      answer: word.w,
     };
   }
 
   if (type === "synonym") {
-    const clue = w.syn[seed % w.syn.length];
+    const clue = word.syn[seed % word.syn.length];
     const { choices, correct } = wordChoices();
     return {
-      id: `${w.id}:synonym:${index}`,
-      word: w,
+      id: `${word.id}:synonym:${index}`,
+      word,
       type,
       prompt: `Which word is closest in meaning to "${clue}"?`,
       choices,
       correct,
-      answer: w.w,
+      answer: word.w,
     };
   }
 
   if (type === "antonym") {
-    const clue = w.ant[seed % w.ant.length];
+    const clue = word.ant[seed % word.ant.length];
     const { choices, correct } = wordChoices();
     return {
-      id: `${w.id}:antonym:${index}`,
-      word: w,
+      id: `${word.id}:antonym:${index}`,
+      word,
       type,
       prompt: `Which word is most nearly opposite in meaning to "${clue}"?`,
       choices,
       correct,
-      answer: w.w,
+      answer: word.w,
     };
   }
 
   const { choices, correct } = wordChoices();
   return {
-    id: `${w.id}:word:${index}`,
-    word: w,
+    id: `${word.id}:word:${index}`,
+    word,
     type,
-    prompt: `Which word means "${w.def}"?`,
+    prompt: `Which word means "${word.def}"?`,
     choices,
     correct,
-    answer: w.w,
+    answer: word.w,
   };
 }
 
 function buildTestQuestions(deck: Word[]): TestQuestion[] {
-  const unmastered = deck.filter(w => w.mastery < 0.8);
+  const unmastered = deck.filter(word => word.mastery < 0.8);
   if (!unmastered.length) return [];
-  const mastered = deck.filter(w => w.mastery >= 0.8);
-  const shuffle = (arr: Word[]) => {
-    const a = [...arr];
-    for (let i = a.length - 1; i > 0; i--) {
+  const mastered = deck.filter(word => word.mastery >= 0.8);
+  const shuffle = (words: Word[]) => {
+    const shuffled = [...words];
+    for (let i = shuffled.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
-      [a[i], a[j]] = [a[j], a[i]];
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
     }
-    return a;
+    return shuffled;
   };
   const pool = shuffle(unmastered);
   if (pool.length < TEST_QUESTION_COUNT) pool.push(...shuffle(mastered));
   return pool
     .slice(0, Math.min(TEST_QUESTION_COUNT, pool.length))
-    .map((w, index) => buildTestQuestion(w, deck, index));
+    .map((word, index) => buildTestQuestion(word, deck, index));
 }
 
 type TestResult = {
@@ -2168,35 +2096,55 @@ function Test({
   deckRef.current = deck;
 
   const [questions, setQuestions] = useState<TestQuestion[]>([]);
-  const [qIdx, setQIdx] = useState(0);
-  const [sel, setSel] = useState<number | null>(null);
+  const [questionIndex, setQuestionIndex] = useState(0);
+  const [selectedChoice, setSelectedChoice] = useState<number | null>(null);
   const [results, setResults] = useState<TestResult[]>([]);
   const [timeLeft, setTimeLeft] = useState(TEST_PER_Q_SECONDS);
   const [done, setDone] = useState(false);
   const [confirmReset, setConfirmReset] = useState(false);
 
-  const deckIds = deck.map(w => w.id).join("|");
+  const deckIds = deck.map(word => word.id).join("|");
   useEffect(() => {
     setQuestions(buildTestQuestions(deckRef.current));
-    setQIdx(0);
-    setSel(null);
+    setQuestionIndex(0);
+    setSelectedChoice(null);
     setResults([]);
     setTimeLeft(TEST_PER_Q_SECONDS);
     setDone(false);
     setConfirmReset(false);
   }, [deckIds]);
 
-  const q = questions[qIdx];
+  const currentQuestion = questions[questionIndex];
 
-  const options = useMemo(() => {
-    if (!q) return { choices: [] as string[], correct: 0 };
-    return { choices: q.choices, correct: q.correct };
-  }, [q?.id, q?.correct, q?.choices]);
+  const optionState = useMemo(() => {
+    if (!currentQuestion) return { choices: [] as string[], correct: 0 };
+    return { choices: currentQuestion.choices, correct: currentQuestion.correct };
+  }, [currentQuestion?.id, currentQuestion?.correct, currentQuestion?.choices]);
+
+  const goNext = useCallback((wasCorrect: boolean) => {
+    if (currentQuestion) {
+      onMark(currentQuestion.word.id, wasCorrect ? "mastered" : "learning", "test");
+      setResults(previousResults => [
+        ...previousResults,
+        {
+          question: currentQuestion,
+          correctAnswer: currentQuestion.answer,
+          pickedAnswer: selectedChoice !== null ? optionState.choices[selectedChoice] : null,
+          correct: wasCorrect,
+        },
+      ]);
+    }
+    if (questionIndex + 1 >= questions.length) {
+      setDone(true);
+    } else {
+      setQuestionIndex(currentIndex => currentIndex + 1);
+    }
+  }, [currentQuestion, onMark, optionState.choices, questionIndex, questions.length, selectedChoice]);
 
   useEffect(() => {
     setTimeLeft(TEST_PER_Q_SECONDS);
-    setSel(null);
-  }, [qIdx]);
+    setSelectedChoice(null);
+  }, [questionIndex]);
 
   useEffect(() => {
     if (done) return;
@@ -2205,35 +2153,14 @@ function Test({
       goNext(false);
       return;
     }
-    const t = window.setTimeout(() => setTimeLeft(s => s - 1), 1000);
-    return () => window.clearTimeout(t);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [timeLeft, done, questions.length]);
-
-  const goNext = (wasCorrect: boolean) => {
-    if (q) {
-      onMark(q.word.id, wasCorrect ? "mastered" : "learning", "test");
-      setResults(prev => [
-        ...prev,
-        {
-          question: q,
-          correctAnswer: q.answer,
-          pickedAnswer: sel !== null ? options.choices[sel] : null,
-          correct: wasCorrect,
-        },
-      ]);
-    }
-    if (qIdx + 1 >= questions.length) {
-      setDone(true);
-    } else {
-      setQIdx(i => i + 1);
-    }
-  };
+    const timerId = window.setTimeout(() => setTimeLeft(secondsLeft => secondsLeft - 1), 1000);
+    return () => window.clearTimeout(timerId);
+  }, [timeLeft, done, questions.length, goNext]);
 
   const restart = () => {
     setQuestions(buildTestQuestions(deckRef.current));
-    setQIdx(0);
-    setSel(null);
+    setQuestionIndex(0);
+    setSelectedChoice(null);
     setResults([]);
     setTimeLeft(TEST_PER_Q_SECONDS);
     setDone(false);
@@ -2243,8 +2170,8 @@ function Test({
     onResetSet();
     setTimeout(() => {
       setQuestions(buildTestQuestions(deckRef.current));
-      setQIdx(0);
-      setSel(null);
+      setQuestionIndex(0);
+      setSelectedChoice(null);
       setResults([]);
       setTimeLeft(TEST_PER_Q_SECONDS);
       setDone(false);
@@ -2252,42 +2179,42 @@ function Test({
     }, 0);
   };
 
-  if (!deck.length) return <div style={{ color: muted, textAlign: "center", padding: 40 }}>No words.</div>;
-  if (deck.every(w => w.mastery >= 0.8) && !done && questions.length === 0) {
+  if (!deck.length) return <div style={{ color: mutedTextColor, textAlign: "center", padding: 40 }}>No words.</div>;
+  if (deck.every(word => word.mastery >= 0.8) && !done && questions.length === 0) {
     return <MasteredSetPrompt setName={setName} onReset={resetAndStart} />;
   }
 
   if (done) {
-    const correctCount = results.filter(r => r.correct).length;
+    const correctCount = results.filter(result => result.correct).length;
     return (
       <div style={{ maxWidth: 640, margin: "0 auto" }}>
         <div
           style={{
             padding: "32px 28px",
             borderRadius: 16,
-            background: cardBg,
-            border: `1px solid ${borderC}`,
+            background: cardBackground,
+            border: `1px solid ${borderColor}`,
             boxShadow: "0 12px 32px -18px rgba(15,23,42,.12)",
           }}
         >
           <div style={{ textAlign: "center" }}>
-            <h2 style={{ margin: 0, fontSize: 24, fontWeight: 600, color: fg }}>Session complete</h2>
-            <p style={{ margin: "10px 0 24px", color: muted, fontSize: 15 }}>
+            <h2 style={{ margin: 0, fontSize: 24, fontWeight: 600, color: textColor }}>Session complete</h2>
+            <p style={{ margin: "10px 0 24px", color: mutedTextColor, fontSize: 15 }}>
               {correctCount} / {results.length} correct
             </p>
           </div>
 
           <div style={{ display: "flex", flexDirection: "column", gap: 8, marginBottom: 24 }}>
-            {results.map((r, i) => (
+            {results.map((result, resultIndex) => (
               <div
-                key={`${r.question.id}-${i}`}
+                key={`${result.question.id}-${resultIndex}`}
                 style={{
                   display: "flex",
                   gap: 12,
                   padding: "12px 14px",
                   borderRadius: 10,
-                  background: r.correct ? okBg : errBg,
-                  border: `1px solid ${r.correct ? okFg : errFg}33`,
+                  background: result.correct ? successBackground : errorBackground,
+                  border: `1px solid ${result.correct ? successColor : errorColor}33`,
                 }}
               >
                 <div
@@ -2295,7 +2222,7 @@ function Test({
                     width: 22,
                     height: 22,
                     borderRadius: 999,
-                    background: r.correct ? okFg : errFg,
+                    background: result.correct ? successColor : errorColor,
                     color: "#fff",
                     display: "flex",
                     alignItems: "center",
@@ -2306,16 +2233,16 @@ function Test({
                     marginTop: 2,
                   }}
                 >
-                  {r.correct ? "✓" : "✕"}
+                  {result.correct ? "✓" : "✕"}
                 </div>
                 <div style={{ flex: 1, minWidth: 0 }}>
-                  <div style={{ fontSize: 15, fontWeight: 600, color: fg }}>{r.question.word.w}</div>
-                  <div style={{ fontSize: 13, color: muted, marginTop: 2, lineHeight: 1.45 }}>
-                    Correct: {r.correctAnswer}
+                  <div style={{ fontSize: 15, fontWeight: 600, color: textColor }}>{result.question.word.w}</div>
+                  <div style={{ fontSize: 13, color: mutedTextColor, marginTop: 2, lineHeight: 1.45 }}>
+                    Correct: {result.correctAnswer}
                   </div>
-                  {!r.correct && (
-                    <div style={{ fontSize: 12, color: errFg, marginTop: 3, lineHeight: 1.45 }}>
-                      You picked: {r.pickedAnswer ?? "—"}
+                  {!result.correct && (
+                    <div style={{ fontSize: 12, color: errorColor, marginTop: 3, lineHeight: 1.45 }}>
+                      You picked: {result.pickedAnswer ?? "—"}
                     </div>
                   )}
                 </div>
@@ -2329,7 +2256,7 @@ function Test({
             </button>
             <button
               onClick={() => setConfirmReset(true)}
-              style={{ ...btnSecondary, padding: "0 24px", color: muted }}
+              style={{ ...btnSecondary, padding: "0 24px", color: mutedTextColor }}
             >
               Reset progress for this set
             </button>
@@ -2356,8 +2283,8 @@ function Test({
               style={{
                 maxWidth: 460,
                 width: "100%",
-                background: cardBg,
-                border: `1px solid ${borderC}`,
+                background: cardBackground,
+                border: `1px solid ${borderColor}`,
                 borderRadius: 16,
                 padding: "28px 28px 24px",
                 boxShadow: "0 24px 64px -24px rgba(15,23,42,.4)",
@@ -2368,8 +2295,8 @@ function Test({
                   width: 44,
                   height: 44,
                   borderRadius: 999,
-                  background: `${errFg}1a`,
-                  color: errFg,
+                  background: `${errorColor}1a`,
+                  color: errorColor,
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
@@ -2380,14 +2307,14 @@ function Test({
               >
                 !
               </div>
-              <h2 style={{ margin: 0, fontSize: 20, fontWeight: 600, color: fg, textAlign: "center" }}>
+              <h2 style={{ margin: 0, fontSize: 20, fontWeight: 600, color: textColor, textAlign: "center" }}>
                 Reset progress for this set?
               </h2>
-              <p style={{ margin: "12px 0 8px", color: fg, fontSize: 14, textAlign: "center", lineHeight: 1.55 }}>
+              <p style={{ margin: "12px 0 8px", color: textColor, fontSize: 14, textAlign: "center", lineHeight: 1.55 }}>
                 Mastery and learning history for{" "}
                 <span style={{ fontWeight: 600 }}>{setName || "this set"}</span> will be cleared.
               </p>
-              <p style={{ margin: "0 0 22px", color: muted, fontSize: 13, textAlign: "center", lineHeight: 1.5 }}>
+              <p style={{ margin: "0 0 22px", color: mutedTextColor, fontSize: 13, textAlign: "center", lineHeight: 1.5 }}>
                 Only this set is affected. Your progress on other sets stays intact.
               </p>
               <div style={{ display: "flex", gap: 10 }}>
@@ -2404,8 +2331,8 @@ function Test({
                     padding: "0 18px",
                     flex: 1,
                     height: 44,
-                    background: errFg,
-                    borderColor: errFg,
+                    background: errorColor,
+                    borderColor: errorColor,
                   }}
                 >
                   Reset this set
@@ -2418,12 +2345,12 @@ function Test({
     );
   }
 
-  if (!q) return null;
+  if (!currentQuestion) return null;
 
-  const timeLow = timeLeft < 10;
-  const mm = Math.floor(timeLeft / 60);
-  const ss = timeLeft % 60;
-  const timeStr = `${mm}:${ss.toString().padStart(2, "0")}`;
+  const isTimeLow = timeLeft < 10;
+  const minutes = Math.floor(timeLeft / 60);
+  const seconds = timeLeft % 60;
+  const timeLabel = `${minutes}:${seconds.toString().padStart(2, "0")}`;
 
   return (
     <div style={{ maxWidth: 640, margin: "0 auto" }}>
@@ -2434,21 +2361,21 @@ function Test({
           justifyContent: "space-between",
           marginBottom: 20,
           fontSize: 14,
-          color: muted,
+          color: mutedTextColor,
         }}
       >
         <span>
-          Question {qIdx + 1} of {questions.length}
+          Question {questionIndex + 1} of {questions.length}
         </span>
-        <span style={{ color: timeLow ? errFg : muted, fontWeight: 500 }}>{timeStr} left</span>
+        <span style={{ color: isTimeLow ? errorColor : mutedTextColor, fontWeight: 500 }}>{timeLabel} left</span>
       </div>
 
       <div
         style={{
           padding: "28px 32px",
           borderRadius: 16,
-          background: cardBg,
-          border: `1px solid ${borderC}`,
+          background: cardBackground,
+          border: `1px solid ${borderColor}`,
           boxShadow: "0 12px 32px -18px rgba(15,23,42,.12)",
         }}
       >
@@ -2459,44 +2386,44 @@ function Test({
               fontSize: 20,
               lineHeight: 1.55,
               margin: 0,
-              color: fg,
+              color: textColor,
             }}
           >
-            {q.prompt}
+            {currentQuestion.prompt}
           </p>
-          {q.context && (
+          {currentQuestion.context && (
             <div
               style={{
                 marginTop: 14,
                 padding: "14px 16px",
                 borderRadius: 10,
-                background: surface,
-                border: `1px solid ${borderC}`,
-                color: fg,
+                background: mutedSurface,
+                border: `1px solid ${borderColor}`,
+                color: textColor,
                 fontSize: 15,
                 lineHeight: 1.55,
               }}
             >
-              {q.context}
+              {currentQuestion.context}
             </div>
           )}
         </div>
 
         <div style={{ display: "grid", gap: 10 }}>
-          {options.choices.map((choice, i) => {
-            const on = sel === i;
+          {optionState.choices.map((choice, choiceIndex) => {
+            const isSelected = selectedChoice === choiceIndex;
             return (
               <button
-                key={i}
-                onClick={() => setSel(i)}
+                key={choiceIndex}
+                onClick={() => setSelectedChoice(choiceIndex)}
                 style={{
                   padding: "14px 16px",
                   borderRadius: 10,
                   cursor: "pointer",
                   textAlign: "left",
-                  border: `1.5px solid ${on ? primary : borderC}`,
-                  background: on ? primary2 : cardBg,
-                  color: fg,
+                  border: `1.5px solid ${isSelected ? primary : borderColor}`,
+                  background: isSelected ? primaryTint : cardBackground,
+                  color: textColor,
                   fontFamily: "inherit",
                   display: "flex",
                   alignItems: "center",
@@ -2509,9 +2436,9 @@ function Test({
                     width: 26,
                     height: 26,
                     borderRadius: 999,
-                    background: on ? primary : "transparent",
-                    border: `1.5px solid ${on ? primary : muted}`,
-                    color: on ? "#fff" : fg,
+                    background: isSelected ? primary : "transparent",
+                    border: `1.5px solid ${isSelected ? primary : mutedTextColor}`,
+                    color: isSelected ? "#fff" : textColor,
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
@@ -2520,7 +2447,7 @@ function Test({
                     flexShrink: 0,
                   }}
                 >
-                  {String.fromCharCode(65 + i)}
+                  {String.fromCharCode(65 + choiceIndex)}
                 </span>
                 <span style={{ fontSize: 15, lineHeight: 1.45 }}>{choice}</span>
               </button>
@@ -2539,17 +2466,17 @@ function Test({
           }}
         >
           <div style={{ display: "flex", gap: 3 }}>
-            {Array.from({ length: questions.length }).map((_, i) => (
+            {Array.from({ length: questions.length }).map((_, stepIndex) => (
               <div
-                key={i}
+                key={stepIndex}
                 style={{
                   width: 18,
                   height: 4,
                   borderRadius: 2,
                   background:
-                    i < qIdx
+                    stepIndex < questionIndex
                       ? primary
-                      : i === qIdx
+                      : stepIndex === questionIndex
                       ? "hsl(var(--primary) / 0.5)"
                       : "hsl(var(--border))",
                 }}
@@ -2561,14 +2488,14 @@ function Test({
               Skip
             </button>
             <button
-              disabled={sel === null}
-              onClick={() => goNext(sel === options.correct)}
+              disabled={selectedChoice === null}
+              onClick={() => goNext(selectedChoice === optionState.correct)}
               style={{
                 ...btnPrimary,
                 padding: "0 22px",
                 height: 42,
-                opacity: sel === null ? 0.5 : 1,
-                cursor: sel === null ? "not-allowed" : "pointer",
+                opacity: selectedChoice === null ? 0.5 : 1,
+                cursor: selectedChoice === null ? "not-allowed" : "pointer",
               }}
             >
               Submit
@@ -2580,10 +2507,6 @@ function Test({
   );
 }
 
-/* ═══════════════════════════════════════════════
-   Browse
-   ═══════════════════════════════════════════════ */
-
 function Browse({
   deck,
   isDark,
@@ -2593,47 +2516,48 @@ function Browse({
   isDark: boolean;
   onResetSet: () => void;
 }) {
-  const [q, setQ] = useState("");
+  const [searchQuery, setSearchQuery] = useState("");
   const [filter, setFilter] = useState<"all" | "new" | "learning" | "mastered">("all");
   const [confirmReset, setConfirmReset] = useState(false);
 
   const filtered = useMemo(() => {
-    return deck.filter(w => {
-      if (q && !w.w.toLowerCase().includes(q.toLowerCase()) && !w.def.toLowerCase().includes(q.toLowerCase()))
+    return deck.filter(word => {
+      const normalizedSearch = searchQuery.toLowerCase();
+      if (searchQuery && !word.w.toLowerCase().includes(normalizedSearch) && !word.def.toLowerCase().includes(normalizedSearch))
         return false;
-      if (filter === "mastered") return w.mastery >= 0.8;
-      if (filter === "learning") return w.mastery > 0 && w.mastery < 0.8;
-      if (filter === "new") return w.mastery === 0;
+      if (filter === "mastered") return word.mastery >= 0.8;
+      if (filter === "learning") return word.mastery > 0 && word.mastery < 0.8;
+      if (filter === "new") return word.mastery === 0;
       return true;
     });
-  }, [q, filter, deck]);
+  }, [searchQuery, filter, deck]);
 
   const filters: [typeof filter, string, number][] = [
     ["all", "All", deck.length],
-    ["new", "New", deck.filter(w => w.mastery === 0).length],
-    ["learning", "Learning", deck.filter(w => w.mastery > 0 && w.mastery < 0.8).length],
-    ["mastered", "Mastered", deck.filter(w => w.mastery >= 0.8).length],
+    ["new", "New", deck.filter(word => word.mastery === 0).length],
+    ["learning", "Learning", deck.filter(word => word.mastery > 0 && word.mastery < 0.8).length],
+    ["mastered", "Mastered", deck.filter(word => word.mastery >= 0.8).length],
   ];
 
-  const hasProgress = deck.some(w => w.mastery > 0);
+  const hasProgress = deck.some(word => word.mastery > 0);
 
   return (
     <div>
       <div style={{ display: "flex", gap: 12, marginBottom: 16, alignItems: "center", flexWrap: "wrap" }}>
         <input
-          value={q}
-          onChange={e => setQ(e.target.value)}
+          value={searchQuery}
+          onChange={event => setSearchQuery(event.target.value)}
           placeholder="Search words or definitions"
           style={{
             flex: "1 1 280px",
             height: 44,
             borderRadius: 10,
-            border: `1px solid ${borderC}`,
+            border: `1px solid ${borderColor}`,
             padding: "0 16px",
             fontSize: 14,
             fontFamily: "inherit",
-            background: cardBg,
-            color: fg,
+            background: cardBackground,
+            color: textColor,
           }}
         />
         <div
@@ -2642,13 +2566,13 @@ function Browse({
             gap: 2,
             padding: 3,
             borderRadius: 10,
-            background: surface,
-            border: `1px solid ${borderC}`,
+            background: mutedSurface,
+            border: `1px solid ${borderColor}`,
             flexWrap: "wrap",
           }}
         >
           {filters.map(([id, label, count]) => {
-            const on = filter === id;
+            const isActive = filter === id;
             return (
               <button
                 key={id}
@@ -2656,14 +2580,14 @@ function Browse({
                 style={{
                   padding: "6px 12px",
                   borderRadius: 7,
-                  border: on ? `1px solid ${borderC}` : "1px solid transparent",
+                  border: isActive ? `1px solid ${borderColor}` : "1px solid transparent",
                   cursor: "pointer",
                   fontFamily: "inherit",
                   fontSize: 13,
-                  fontWeight: on ? 600 : 500,
-                  background: on ? "hsl(var(--background))" : "transparent",
-                  color: on ? fg : muted,
-                  boxShadow: on ? "0 1px 2px rgba(0,0,0,.1)" : "none",
+                  fontWeight: isActive ? 600 : 500,
+                  background: isActive ? "hsl(var(--background))" : "transparent",
+                  color: isActive ? textColor : mutedTextColor,
+                  boxShadow: isActive ? "0 1px 2px rgba(0,0,0,.1)" : "none",
                   display: "inline-flex",
                   gap: 6,
                   alignItems: "center",
@@ -2676,8 +2600,8 @@ function Browse({
                     fontSize: 11,
                     padding: "1px 6px",
                     borderRadius: 999,
-                    background: on ? "hsl(var(--primary) / 0.15)" : "hsl(var(--border))",
-                    color: on ? "hsl(var(--primary))" : muted,
+                    background: isActive ? "hsl(var(--primary) / 0.15)" : "hsl(var(--border))",
+                    color: isActive ? "hsl(var(--primary))" : mutedTextColor,
                     fontWeight: 600,
                   }}
                 >
@@ -2695,9 +2619,9 @@ function Browse({
                 padding: "0 14px",
                 height: 36,
                 borderRadius: 8,
-                border: `1px solid ${borderC}`,
-                background: cardBg,
-                color: muted,
+                border: `1px solid ${borderColor}`,
+                background: cardBackground,
+                color: mutedTextColor,
                 fontSize: 13,
                 fontFamily: "inherit",
                 cursor: "pointer",
@@ -2713,9 +2637,9 @@ function Browse({
                   padding: "0 12px",
                   height: 36,
                   borderRadius: 8,
-                  border: `1px solid ${borderC}`,
-                  background: cardBg,
-                  color: fg,
+                  border: `1px solid ${borderColor}`,
+                  background: cardBackground,
+                  color: textColor,
                   fontSize: 13,
                   fontFamily: "inherit",
                   cursor: "pointer",
@@ -2732,8 +2656,8 @@ function Browse({
                   padding: "0 14px",
                   height: 36,
                   borderRadius: 8,
-                  border: `1px solid ${errFg}`,
-                  background: errFg,
+                  border: `1px solid ${errorColor}`,
+                  background: errorColor,
                   color: "#fff",
                   fontSize: 13,
                   fontFamily: "inherit",
@@ -2748,10 +2672,10 @@ function Browse({
         )}
       </div>
 
-      <div style={{ borderRadius: 12, border: `1px solid ${borderC}`, background: cardBg, overflow: "hidden" }}>
-        {filtered.map((w, i) => (
+      <div style={{ borderRadius: 12, border: `1px solid ${borderColor}`, background: cardBackground, overflow: "hidden" }}>
+        {filtered.map((word, rowIndex) => (
           <div
-            key={w.id}
+            key={word.id}
             className="vocab-row"
             style={{
               display: "grid",
@@ -2759,27 +2683,23 @@ function Browse({
               gap: 20,
               padding: "16px 20px",
               alignItems: "center",
-              borderBottom: i < filtered.length - 1 ? `1px solid ${borderC}` : "none",
+              borderBottom: rowIndex < filtered.length - 1 ? `1px solid ${borderColor}` : "none",
               transition: "background .15s",
               cursor: "pointer",
             }}
           >
-            <div style={{ fontSize: 17, fontWeight: 500, color: fg, letterSpacing: "-.01em" }}>{w.w}</div>
-            <Tag pos={w.pos} isDark={isDark} />
-            <div style={{ fontSize: 14, color: fg, opacity: 0.8, lineHeight: 1.4 }}>{w.def}</div>
+            <div style={{ fontSize: 17, fontWeight: 500, color: textColor, letterSpacing: "-.01em" }}>{word.w}</div>
+            <Tag pos={word.pos} isDark={isDark} />
+            <div style={{ fontSize: 14, color: textColor, opacity: 0.8, lineHeight: 1.4 }}>{word.def}</div>
           </div>
         ))}
         {filtered.length === 0 && (
-          <div style={{ padding: 40, textAlign: "center", color: muted, fontSize: 14 }}>No words match.</div>
+          <div style={{ padding: 40, textAlign: "center", color: mutedTextColor, fontSize: 14 }}>No words match.</div>
         )}
       </div>
     </div>
   );
 }
-
-/* ═══════════════════════════════════════════════
-   Main
-   ═══════════════════════════════════════════════ */
 
 const Vocab = () => {
   const isDark = useThemeMode();
@@ -2789,11 +2709,6 @@ const Vocab = () => {
   const [mode, setMode] = useState<Mode>("flashcards");
   const [activeSetId, setActiveSetId] = useState<string>(vocabularySets[0]?.id ?? "");
   const [progress, setProgress] = useState<StoredProgress>({});
-
-  // Single load+persist effect. The loadedUidRef guards against the
-  // load/persist race when uid changes: the persist branch only runs
-  // when `progress` corresponds to the currently-active uid, so we
-  // never write the previous user's data into the new user's slot.
   const loadedUidRef = useRef<string | null | undefined>(undefined);
   useEffect(() => {
     if (loadedUidRef.current !== uid) {
@@ -2824,7 +2739,6 @@ const Vocab = () => {
     try {
       window.localStorage.setItem(vocabStorageKey(uid), JSON.stringify(progress));
     } catch {
-      // ignore quota errors
     }
 
     if (user && db) {
@@ -2878,7 +2792,7 @@ const Vocab = () => {
     });
   };
 
-  const activeSet = vocabularySets.find(s => s.id === activeSetId) ?? vocabularySets[0];
+  const activeSet = vocabularySets.find(set => set.id === activeSetId) ?? vocabularySets[0];
 
   const deck: Word[] = useMemo(() => {
     if (!activeSet) return [];
@@ -2943,7 +2857,7 @@ const Vocab = () => {
 
   return (
     <div style={{ maxWidth: 1100, margin: "0 auto", padding: "32px 40px 80px" }}>
-      <style>{`.vocab-row:hover { background: hsl(var(--muted)); }`}</style>
+      <style>{`.vocab-row:hover { background: hsl(var(--mutedTextColor)); }`}</style>
       <Header
         mode={mode}
         setMode={setMode}

@@ -4,30 +4,26 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Enter the table",
-      "content": "The table gives $(0,5)$, $(1,\\frac{5}{2})$, $(2,\\frac{5}{4})$, and $(3,\\frac{5}{8})$. The output is multiplied by $\\frac{1}{2}$ every time $x$ increases by $1$, so the function is exponential decay.",
+      "title": "Enter the table in Desmos",
+      "content": "The table gives $(0,5)$, $(1,\\frac{5}{2})$, $(2,\\frac{5}{4})$, and $(3,\\frac{5}{8})$. Enter the x-values and y-values as lists.",
       "desmosExpressions": [
         "x_1=[0,1,2,3]",
         "y_1=[5,\\frac{5}{2},\\frac{5}{4},\\frac{5}{8}]"
       ]
     },
     {
-      "title": "Write the model from the pattern",
-      "content": "The starting value is $5$ when $x=0$, and the multiplier is $\\frac{1}{2}=2^{-1}$. Therefore $$f(x)=5\\left(\\frac{1}{2}\\right)^x=5\\cdot2^{-x}.$$"
-    },
-    {
-      "title": "Graph-check the choices",
-      "content": "In Desmos, overlay the choices on the table. Only $y=5\\cdot2^{-x}$ passes through all four table points.",
+      "title": "Run an exponential regression",
+      "content": "Because each y-value is half the previous y-value, this is exponential decay. In Desmos, use the regression row $y_1\\sim a b^{x_1}$. Desmos returns $a=5$ and $b=\\frac{1}{2}$.",
       "desmosExpressions": [
-        "y=5\\cdot2^{x+1}",
-        "y=5\\cdot2^x",
-        "y=5\\cdot2^{-(x+1)}",
-        "y=5\\cdot2^{-x}"
+        "y_1\\sim a b^{x_1}"
       ]
     },
     {
-      "title": "Confirm the answer",
-      "content": "Choice D matches the starting value and the halving pattern: $f(0)=5$, $f(1)=\\frac{5}{2}$, $f(2)=\\frac{5}{4}$, and $f(3)=\\frac{5}{8}$. Choice <strong>D</strong> is correct."
+      "title": "Write and match the model",
+      "content": "The model is:<br/>$$f(x)=5\\left(\\frac{1}{2}\\right)^x$$<br/>Since $\\frac{1}{2}=2^{-1}$, this is also:<br/>$$f(x)=5\\cdot2^{-x}$$<br/>That matches choice D, so <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "y=5\\cdot2^{-x}"
+      ]
     }
   ]
 }

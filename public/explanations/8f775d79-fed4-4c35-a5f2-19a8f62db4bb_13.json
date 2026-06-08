@@ -9,8 +9,8 @@
       "desmosExpressions": [
         "W=[13,14,15,16,17,18,19,20]",
         "F=[12,10,3,5,7,12,13,9]",
-        "total(W*F)/total(F)",
-        "(total(W*F)+32)/(total(F)+1)"
+        "\\operatorname{total}\\left(W*F\\right)/\\operatorname{total}\\left(F\\right)",
+        "(\\operatorname{total}\\left(W*F\\right)+32)/(\\operatorname{total}\\left(F\\right)+1)"
       ]
     },
     {

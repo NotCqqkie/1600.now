@@ -25,8 +25,8 @@ interface MultipleChoiceQuestionProps {
   onStruckOutChange?: (choiceIds: string[]) => void;
 }
 
-export const MultipleChoiceQuestion = ({ 
-  choices, 
+export const MultipleChoiceQuestion = ({
+  choices,
   selectedAnswer,
   onAnswerChange,
   onCheck,
@@ -50,8 +50,6 @@ export const MultipleChoiceQuestion = ({
     }
     setInternalStruckOut(next);
   };
-
-  // Reset strikeouts immediately when the question changes to avoid flash of old state
   useLayoutEffect(() => {
     if (!onStruckOutChange) {
       setInternalStruckOut(new Set());
@@ -59,7 +57,6 @@ export const MultipleChoiceQuestion = ({
   }, [onStruckOutChange, questionId]);
 
   useEffect(() => {
-    // Render mixed content (HTML text + KaTeX math) for each choice
     choices.forEach((choice) => {
       if (!choice.text) return;
       const element = choiceRefs.current[choice.id];
@@ -79,7 +76,7 @@ export const MultipleChoiceQuestion = ({
     return (
       <div className={hasImage && !hasText ? "" : "flex flex-col gap-2"}>
         {hasText && (
-          <span 
+          <span
             ref={(el) => choiceRefs.current[choice.id] = el}
             className={cn("choice-content break-words", dimmed && "text-muted-foreground/50")}
           />
@@ -107,7 +104,7 @@ export const MultipleChoiceQuestion = ({
   const toggleStrikeout = (choiceId: string, e: React.MouseEvent) => {
     e.stopPropagation();
     const isCurrentlySelected = selectedAnswer === choiceId;
-    
+
     const newSet = new Set(struckOut);
     if (newSet.has(choiceId)) {
       newSet.delete(choiceId);
@@ -131,7 +128,7 @@ export const MultipleChoiceQuestion = ({
         const hasImage = Boolean(choice.image);
         const shouldReserveInlineCheck = Boolean(onCheck);
         const canInlineCheck = shouldReserveInlineCheck && !wasChecked;
-        
+
         if (isStruckOut) {
           return (
             <div key={choice.id} className={cn("relative flex min-w-0 items-center gap-2", strikeoutMode && "pr-14")}>
@@ -154,7 +151,7 @@ export const MultipleChoiceQuestion = ({
                 <div className="flex-shrink-0 w-8 h-8 rounded-full border-2 border-muted-foreground/30 flex items-center justify-center font-semibold text-sm text-muted-foreground/50">
                   {choice.id}
                 </div>
-                
+
                 <div className="relative min-w-0 flex-1 overflow-wrap-anywhere">
                   {renderChoiceContent(choice, true)}
                 </div>
@@ -163,7 +160,7 @@ export const MultipleChoiceQuestion = ({
                 "absolute top-1/2 h-[2px] bg-muted-foreground/40 -translate-y-1/2 pointer-events-none",
                 strikeoutMode ? "left-[-8px] right-[48px]" : "left-[-8px] right-[-8px]"
               )} />
-              
+
               {strikeoutMode && (
                 <button
                   className="absolute right-0 top-1/2 -translate-y-1/2 text-foreground underline font-medium text-sm hover:text-primary transition-colors shrink-0"
@@ -175,9 +172,9 @@ export const MultipleChoiceQuestion = ({
             </div>
           );
         }
-        
+
         const isLocked = wasChecked;
-        
+
         return (
           <div key={choice.id} className={cn("relative flex min-w-0 items-center gap-2", strikeoutMode && "pr-14")}>
             <div
@@ -203,18 +200,18 @@ export const MultipleChoiceQuestion = ({
               <div
                 className={cn(
                   "flex-shrink-0 w-8 h-8 rounded-full border-2 flex items-center justify-center font-semibold text-sm transition-colors",
-                  showCorrect 
+                  showCorrect
                     ? "bg-[#1B5E20] border-[#1B5E20] text-white dark:bg-[#2E7D32] dark:border-[#2E7D32]"
                     : showIncorrect
                     ? "bg-[#B71C1C] border-[#B71C1C] text-white dark:bg-[#8B0000] dark:border-[#8B0000]"
-                    : isSelected 
-                    ? "bg-primary border-primary text-primary-foreground" 
+                    : isSelected
+                    ? "bg-primary border-primary text-primary-foreground"
                     : "border-muted-foreground/50 text-foreground"
                 )}
               >
                 {choice.id}
               </div>
-              
+
               <div className="min-w-0 flex-1 break-words overflow-wrap-anywhere">
                 {renderChoiceContent(choice)}
               </div>
@@ -242,7 +239,7 @@ export const MultipleChoiceQuestion = ({
                 </div>
               )}
             </div>
-            
+
             {strikeoutMode && (
               <button
                 className="absolute right-0 top-1/2 -translate-y-1/2 flex-shrink-0 w-8 h-8 flex items-center justify-center transition-colors hover:opacity-70"

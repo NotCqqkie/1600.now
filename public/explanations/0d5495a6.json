@@ -4,16 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute the given value",
-      "content": "With $h(x)=x+b$ and $h(0)=45$, plug $x=0$ into the function:<br/>$$h(0)=0+b=b$$"
+      "title": "Use x = 0",
+      "content": "The function is $h(x)=x+b$, and the problem gives $h(0)=45$. Substitute $x=0$:<br/>$$h(0)=0+b=b$$"
     },
     {
-      "title": "Solve for the unknown",
-      "content": "Since $h(0)=b$ and $h(0)=45$, we get $b=45$.<br/>The answer is <strong>45</strong>."
+      "title": "Match the given output",
+      "content": "Since $h(0)=45$ and $h(0)=b$, it follows that:<br/>$$b=45$$"
     },
     {
-      "title": "Use the source rationale",
-      "content": "The correct answer is $45$. It's given that $h\\left(0\\right)=45$. Therefore, for the given function $h$, when $x=0$, $h\\left(x\\right)=45$. Substituting $0$ for $x$ and $45$ for $h\\left(x\\right)$ in the given function, $h\\left(x\\right)=x+b$, yields $45=0+b$, or $45=b$. Therefore, the value of $b$ is $45$."
+      "title": "Interpret the shortcut",
+      "content": "In $h(x)=x+b$, $b$ is also the value of the function when $x=0$, so the given y-intercept value directly gives $b$."
+    },
+    {
+      "title": "Answer",
+      "content": "The value of $b$ is <strong>45</strong>."
     }
   ]
 }

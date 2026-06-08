@@ -32,12 +32,6 @@ import {
 type LucideIcon = React.ComponentType<{ className?: string }>;
 
 type AccentName = "sky" | "violet" | "emerald" | "amber" | "rose" | "cyan" | "fuchsia" | "indigo" | "teal" | "orange";
-
-// Tailwind 500-level for solid accents (text/border) — visible on both light & dark.
-// /25 backgrounds and /30 chip backgrounds chosen so the tinted surfaces actually
-// show against `bg-card` in dark mode without being garish in light mode.
-// `chip` text uses 600 in light mode and 300 in dark via the `dark:` prefix,
-// since the same tint reads differently on each canvas.
 const ACCENT_CLASSES: Record<AccentName, { text: string; ring: string; bg: string; chip: string; grad: string }> = {
   sky:      { text: "text-sky-500",     ring: "ring-sky-400/40",     bg: "bg-sky-500/25",     chip: "bg-sky-500/30 text-sky-700 dark:text-sky-200",         grad: "from-sky-500/30 via-sky-500/10 to-transparent" },
   violet:   { text: "text-violet-500",  ring: "ring-violet-400/40",  bg: "bg-violet-500/25",  chip: "bg-violet-500/30 text-violet-700 dark:text-violet-200", grad: "from-violet-500/30 via-violet-500/10 to-transparent" },
@@ -61,19 +55,12 @@ interface BaseStep {
 interface SplashStep extends BaseStep { kind: "splash" }
 interface SpotlightStep extends BaseStep {
   kind: "spotlight";
-  target: string; // data-tour value
+  target: string;
   route?: string;
   pad?: number;
-  /** data-tour key to click via JS after navigation but before resolving target.
-   *  Used to programmatically open dialogs. */
   clickFirst?: string;
-  /** data-tour key to click when leaving the step (toggles dialogs closed). */
   clickOnExit?: string;
-  /** Position the coach card on the opposite side rather than auto-best */
   preferSide?: "right" | "left" | "bottom" | "top";
-  /** When set, drop the dim opacity so the destination page content shows
-   *  through, and pin the coach card to the bottom-right corner so it doesn't
-   *  block what the user just landed on. Used for sidebar-nav steps. */
   revealContent?: boolean;
 }
 interface FinaleStep extends BaseStep { kind: "finale" }
@@ -81,7 +68,6 @@ type Step = SplashStep | SpotlightStep | FinaleStep;
 type ActiveTour = "main" | "practice-set";
 
 const MAIN_STEPS: Step[] = [
-  // 0 — splash
   {
     kind: "splash",
     key: "welcome",
@@ -90,11 +76,6 @@ const MAIN_STEPS: Step[] = [
     body: "A quick walkthrough of the pages you'll use most, so you can start practicing without hunting around.",
     accent: "sky",
   },
-  // 1 — sidebar overview
-  // We pin a route here so the tour always lands on a known page with the
-  // sidebar mounted before highlighting it. Without this, replaying the tour
-  // from a page that doesn't render AppShell (or has the sidebar hidden
-  // off-canvas) would point the spotlight at nothing.
   {
     kind: "spotlight",
     key: "sidebar",
@@ -106,7 +87,6 @@ const MAIN_STEPS: Step[] = [
     route: "/bank",
     pad: 6,
   },
-  // 2 — Question Bank nav
   {
     kind: "spotlight",
     key: "bank",
@@ -118,7 +98,6 @@ const MAIN_STEPS: Step[] = [
     route: "/bank",
     revealContent: true,
   },
-  // 3 — bank filters showcase
   {
     kind: "spotlight",
     key: "filters",
@@ -131,7 +110,6 @@ const MAIN_STEPS: Step[] = [
     pad: 8,
     preferSide: "bottom",
   },
-  // 4 — Practice Tests nav
   {
     kind: "spotlight",
     key: "modules",
@@ -143,7 +121,6 @@ const MAIN_STEPS: Step[] = [
     route: "/modules",
     revealContent: true,
   },
-  // 5 — 100 Hard Math
   {
     kind: "spotlight",
     key: "hard",
@@ -155,7 +132,6 @@ const MAIN_STEPS: Step[] = [
     route: "/hard",
     revealContent: true,
   },
-  // 6 — Vocab
   {
     kind: "spotlight",
     key: "vocab",
@@ -167,7 +143,6 @@ const MAIN_STEPS: Step[] = [
     route: "/vocab",
     revealContent: true,
   },
-  // 7 — Statistics
   {
     kind: "spotlight",
     key: "stats",
@@ -179,7 +154,6 @@ const MAIN_STEPS: Step[] = [
     route: "/analysis",
     revealContent: true,
   },
-  // 8 — Inside the question viewer (live page) — highlight reference button
   {
     kind: "spotlight",
     key: "question-toolbar",
@@ -192,7 +166,6 @@ const MAIN_STEPS: Step[] = [
     pad: 6,
     preferSide: "bottom",
   },
-  // 9 — Live reference sheet
   {
     kind: "spotlight",
     key: "reference-window",
@@ -205,7 +178,6 @@ const MAIN_STEPS: Step[] = [
     clickOnExit: "reference-button",
     pad: 4,
   },
-  // 10 — Desmos button
   {
     kind: "spotlight",
     key: "desmos-button",
@@ -217,7 +189,6 @@ const MAIN_STEPS: Step[] = [
     pad: 6,
     preferSide: "bottom",
   },
-  // 11 — Live Desmos (floating). Window stays open for the next two steps.
   {
     kind: "spotlight",
     key: "desmos-window",
@@ -229,7 +200,6 @@ const MAIN_STEPS: Step[] = [
     clickFirst: "desmos-button",
     pad: 4,
   },
-  // 12 — Highlight the sidebar-toggle button on the open Desmos window
   {
     kind: "spotlight",
     key: "desmos-sidebar-toggle",
@@ -241,7 +211,6 @@ const MAIN_STEPS: Step[] = [
     pad: 4,
     preferSide: "right",
   },
-  // 13 — Click the toggle, show Desmos in sidebar mode
   {
     kind: "spotlight",
     key: "desmos-sidebarred",
@@ -255,7 +224,6 @@ const MAIN_STEPS: Step[] = [
     pad: 4,
     preferSide: "right",
   },
-  // 14 — Replay tour
   {
     kind: "spotlight",
     key: "replay",
@@ -266,7 +234,6 @@ const MAIN_STEPS: Step[] = [
     target: "tour-replay",
     route: "/bank",
   },
-  // 13 — Finale
   {
     kind: "finale",
     key: "ready",
@@ -308,20 +275,6 @@ const tourKey = (uid: string | undefined) => `onboarding-seen:${uid ?? "anon"}`;
 const ONBOARDING_REPLAY_REQUEST_KEY = "onboarding-replay-requested";
 const PRACTICE_SET_HELP_REQUEST_KEY = "practice-set-help-requested";
 
-/**
- * Warm the lazy-loaded route chunks the tour will visit. The pages in
- * App.tsx are wrapped in `React.lazy()`, which means `navigate("/bank")`
- * triggers a chunk fetch the first time. If we wait until the tour clicks
- * Next, the user stares at the navigation mask for as long as the network
- * round-trip takes (sometimes 1–2s on a cold cache).
- *
- * Calling these dynamic imports at tour open kicks off the fetches in
- * parallel and Vite caches the modules. By the time the user clicks
- * through, `navigate()` resolves the lazy boundary instantly.
- *
- * We deliberately ignore the promises — we don't need to *await* the
- * fetch, just start it. The browser does the rest.
- */
 const preloadTourRoutes = () => {
   void import("@/pages/bank/BankIndex");
   void import("@/pages/modules/Modules");
@@ -336,13 +289,13 @@ type Rect = { x: number; y: number; w: number; h: number };
 const findTargetRect = (target: string, pad = 4): Rect | null => {
   const el = document.querySelector<HTMLElement>(`[data-tour="${target}"]`);
   if (!el) return null;
-  const r = el.getBoundingClientRect();
-  if (r.width === 0 || r.height === 0) return null;
+  const bounds = el.getBoundingClientRect();
+  if (bounds.width === 0 || bounds.height === 0) return null;
   return {
-    x: r.left - pad,
-    y: r.top - pad,
-    w: r.width + pad * 2,
-    h: r.height + pad * 2,
+    x: bounds.left - pad,
+    y: bounds.top - pad,
+    w: bounds.width + pad * 2,
+    h: bounds.height + pad * 2,
   };
 };
 
@@ -359,8 +312,8 @@ const waitForTarget = (target: string, pad: number, timeoutMs = 3500): Promise<R
       resolve(value);
     };
     const observer = new MutationObserver(() => {
-      const r = findTargetRect(target, pad);
-      if (r) finish(r);
+      const targetRect = findTargetRect(target, pad);
+      if (targetRect) finish(targetRect);
     });
     observer.observe(document.body, { childList: true, subtree: true, attributes: true });
     const timeoutId = window.setTimeout(() => {
@@ -376,8 +329,6 @@ const clickByTour = (target: string) => {
     el.dispatchEvent(new PointerEvent("pointerdown", { bubbles: true, cancelable: true, button: 0, pointerType: "mouse" }));
     el.dispatchEvent(new PointerEvent("pointerup", { bubbles: true, cancelable: true, button: 0, pointerType: "mouse" }));
   }
-  // Synthesize a full MouseEvent — some component libraries listen on
-  // `mousedown` only, and `el.click()` alone doesn't fire mousedown handlers.
   el.dispatchEvent(new MouseEvent("mousedown", { bubbles: true, cancelable: true, button: 0 }));
   el.dispatchEvent(new MouseEvent("mouseup", { bubbles: true, cancelable: true, button: 0 }));
   el.dispatchEvent(new MouseEvent("click", { bubbles: true, cancelable: true, button: 0 }));
@@ -418,15 +369,13 @@ const computeCoachPos = (rect: Rect, cardW = 380, cardH = 240, gap = 18, prefer?
   return { left, top, side };
 };
 
-// ─── Sub-components ───────────────────────────────────────────────────
-
 const FloatingBlobs = ({ accent }: { accent: AccentName }) => {
-  const c = ACCENT_CLASSES[accent];
+  const accentClass = ACCENT_CLASSES[accent];
   return (
     <div aria-hidden className="pointer-events-none absolute inset-0 overflow-hidden">
-      <div className={`absolute -top-32 -left-24 h-[26rem] w-[26rem] rounded-full ${c.bg} blur-3xl animate-onboarding-blob`} style={{ animationDuration: "9s" }} />
-      <div className={`absolute -bottom-32 -right-32 h-[28rem] w-[28rem] rounded-full ${c.bg} blur-3xl animate-onboarding-blob`} style={{ animationDuration: "11s", animationDelay: "1.2s" }} />
-      <div className={`absolute top-1/3 right-1/4 h-72 w-72 rounded-full ${c.bg} blur-3xl animate-onboarding-blob opacity-60`} style={{ animationDuration: "13s", animationDelay: "0.4s" }} />
+      <div className={`absolute -top-32 -left-24 h-[26rem] w-[26rem] rounded-full ${accentClass.bg} blur-3xl animate-onboarding-blob`} style={{ animationDuration: "9s" }} />
+      <div className={`absolute -bottom-32 -right-32 h-[28rem] w-[28rem] rounded-full ${accentClass.bg} blur-3xl animate-onboarding-blob`} style={{ animationDuration: "11s", animationDelay: "1.2s" }} />
+      <div className={`absolute top-1/3 right-1/4 h-72 w-72 rounded-full ${accentClass.bg} blur-3xl animate-onboarding-blob opacity-60`} style={{ animationDuration: "13s", animationDelay: "0.4s" }} />
     </div>
   );
 };
@@ -434,7 +383,6 @@ const FloatingBlobs = ({ accent }: { accent: AccentName }) => {
 const SplashCard = ({ step, onNext, onSkip, index, total, isDark }: {
   step: Step; onNext: () => void; onSkip: () => void; index: number; total: number; isDark: boolean;
 }) => {
-  const c = ACCENT_CLASSES[step.accent];
   const titleColor = isDark ? "text-white" : "text-slate-900";
   const bodyColor = isDark ? "text-white/75" : "text-slate-700";
   const captionColor = isDark ? "text-white/60" : "text-slate-500";
@@ -444,30 +392,6 @@ const SplashCard = ({ step, onNext, onSkip, index, total, isDark }: {
   return (
     <div className="relative flex h-full w-full items-center justify-center px-6">
       <FloatingBlobs accent={step.accent} />
-
-      {/* Orbiting micro-icons — z-[1] keeps them behind the z-10 center content */}
-      <div aria-hidden className="pointer-events-none absolute inset-0 z-[1]">
-        {[0, 1, 2, 3, 4, 5].map((i) => {
-          const r = 180 + (i % 3) * 60;
-          const dur = 18 + (i % 4) * 6;
-          const delay = i * -3;
-          const Glyph = [Sparkles, BookOpen, Target, GraduationCap, Calculator, BookA][i];
-          return (
-            <div
-              key={i}
-              className="absolute left-1/2 top-1/2 h-7 w-7"
-              style={{
-                ["--orbit-r" as never]: `${r}px`,
-                animation: `tour-orbit ${dur}s linear infinite`,
-                animationDelay: `${delay}s`,
-                opacity: 0.32,
-              }}
-            >
-              <Glyph className={`h-7 w-7 ${c.text}`} />
-            </div>
-          );
-        })}
-      </div>
 
       <div className="relative z-10 max-w-xl text-center">
         <h2
@@ -495,7 +419,7 @@ const SplashCard = ({ step, onNext, onSkip, index, total, isDark }: {
 const FinaleCard = ({ step, onClose, onJump, index, total, isDark }: {
   step: Step; onClose: () => void; onJump: (path: string) => void; index: number; total: number; isDark: boolean;
 }) => {
-  const c = ACCENT_CLASSES[step.accent];
+  const accentClass = ACCENT_CLASSES[step.accent];
   const titleColor = isDark ? "text-white" : "text-slate-900";
   const bodyColor = isDark ? "text-white/75" : "text-slate-700";
   const captionColor = isDark ? "text-white/60" : "text-slate-500";
@@ -506,25 +430,24 @@ const FinaleCard = ({ step, onClose, onJump, index, total, isDark }: {
     <div className="relative flex h-full w-full items-center justify-center px-6">
       <FloatingBlobs accent={step.accent} />
 
-      {/* Orbiting celebration glyphs — z-[1] keeps them behind the z-10 center content */}
       <div aria-hidden className="pointer-events-none absolute inset-0 z-[1]">
-        {[0, 1, 2, 3, 4, 5].map((i) => {
-          const r = 200 + (i % 3) * 60;
-          const dur = 22 + (i % 4) * 6;
-          const delay = i * -4;
-          const Glyph = [Sparkles, PartyPopper, Wand2, Sparkles, Sparkles, PartyPopper][i];
+        {[0, 1, 2, 3, 4, 5].map((orbitIndex) => {
+          const orbitRadius = 200 + (orbitIndex % 3) * 60;
+          const duration = 22 + (orbitIndex % 4) * 6;
+          const delay = orbitIndex * -4;
+          const Glyph = [Sparkles, PartyPopper, Wand2, Sparkles, Sparkles, PartyPopper][orbitIndex];
           return (
             <div
-              key={i}
+              key={orbitIndex}
               className="absolute left-1/2 top-1/2 h-7 w-7"
               style={{
-                ["--orbit-r" as never]: `${r}px`,
-                animation: `tour-orbit ${dur}s linear infinite`,
+                ["--orbit-r" as never]: `${orbitRadius}px`,
+                animation: `tour-orbit ${duration}s linear infinite`,
                 animationDelay: `${delay}s`,
                 opacity: 0.32,
               }}
             >
-              <Glyph className={`h-7 w-7 ${c.text}`} />
+              <Glyph className={`h-7 w-7 ${accentClass.text}`} />
             </div>
           );
         })}
@@ -555,8 +478,6 @@ const FinaleCard = ({ step, onClose, onJump, index, total, isDark }: {
   );
 };
 
-// ─── Main component ───────────────────────────────────────────────────
-
 export const OnboardingTour = () => {
   const { user, loading } = useAuth();
   const navigate = useNavigate();
@@ -584,8 +505,6 @@ export const OnboardingTour = () => {
       sessionStorage.removeItem("onboarding-pending");
     }
   }, [user, loading]);
-
-  // External replay
   useEffect(() => {
     const replay = () => {
       sessionStorage.removeItem(ONBOARDING_REPLAY_REQUEST_KEY);
@@ -617,10 +536,6 @@ export const OnboardingTour = () => {
     window.addEventListener("onboarding:practice-set-help", showPracticeSetHelp);
     return () => window.removeEventListener("onboarding:practice-set-help", showPracticeSetHelp);
   }, []);
-
-  // Lock scroll AND tag the body so we can target tour-only CSS adjustments
-  // (e.g. crossfading the sidebar's active tab so it eases between items
-  // along with the spotlight, instead of snapping).
   useEffect(() => {
     if (!open) return;
     const prevOverflow = document.body.style.overflow;
@@ -651,10 +566,6 @@ export const OnboardingTour = () => {
     if (shouldReturnToBank && location.pathname !== "/bank") navigate("/bank");
     if (shouldReturnToPracticeSets && location.pathname !== "/my-practice-sets") navigate("/my-practice-sets");
   }, [activeTour, user, location.pathname, navigate]);
-
-  // Run leave-cleanup for the previous spotlight step (close any dialog it
-  // opened) when the index actually changes. We use a ref-tracked previous
-  // index so HMR / Fast-Refresh effect re-runs don't spuriously re-fire it.
   const prevIndexRef = useRef<number | null>(null);
   useEffect(() => {
     if (!open) {
@@ -670,25 +581,8 @@ export const OnboardingTour = () => {
     }
     prevIndexRef.current = index;
   }, [index, open, steps]);
-
-  // Resolve target rect on each spotlight step. Gated by a ref so HMR /
-  // Fast-Refresh re-runs of this effect don't re-click dialog buttons or
-  // re-navigate.
-  //
-  // We deliberately do NOT clear `rect` to null between steps. Keeping the
-  // previous rect lets the spotlight smoothly slide from the old element to
-  // the new one (CSS transitions on left/top/width/height handle the rest).
-  // Calling setRect(null) here would yank the spotlight to the corner and
-  // back — that's the "snap" the user reported.
-  //
-  // `isNavigating` masks the brief moment when React Router is unmounting the
-  // old route and mounting the new one. We darken the dim during that window
-  // so the page swap doesn't flash through.
   const lastResolvedKeyRef = useRef<string>("");
   const [isNavigating, setIsNavigating] = useState(false);
-  // The content-area mask spans from the sidebar's right edge to the viewport
-  // right edge. We resolve this lazily right before each navigation so it
-  // tracks sidebar collapse state and viewport changes.
   const [contentLeft, setContentLeft] = useState(0);
   useEffect(() => {
     if (!open) {
@@ -708,35 +602,21 @@ export const OnboardingTour = () => {
     let cancelled = false;
 
     const run = async () => {
-      // Navigate if needed. We snapshot location.pathname here because
-      // including it in the effect deps would cancel this run() the moment
-      // navigation completes and the path updates — leaving isNavigating
-      // stuck at true and the content-area mask fully opaque (which is
-      // exactly the "page doesn't render" bug).
       const startingPath = location.pathname;
       const willNavigate = step.route && step.route !== startingPath;
       if (willNavigate) {
         const aside = document.querySelector<HTMLElement>('aside[data-tour="sidebar"]');
         if (aside) setContentLeft(Math.round(aside.getBoundingClientRect().right));
         setIsNavigating(true);
-        // Just slightly longer than the mask's CSS opacity transition (160ms)
-        // so the mask is essentially opaque when navigate() fires. Going much
-        // beyond this is what created the "weird waiting period" — the user
-        // saw a fully-blank dark area for hundreds of extra ms while we
-        // padded the mount + settle waits.
-        await new Promise((r) => setTimeout(r, 170));
+        await new Promise((resolve) => setTimeout(resolve, 170));
         if (cancelled) return;
         navigate(step.route!);
-        // Pages mount fast in this app — 90ms is enough.
-        await new Promise((r) => setTimeout(r, 90));
+        await new Promise((resolve) => setTimeout(resolve, 90));
       } else {
-        await new Promise((r) => requestAnimationFrame(() => r(null)));
+        await new Promise((resolve) => requestAnimationFrame(() => resolve(null)));
       }
       if (cancelled) return;
-
-      // Programmatically click any "before" target (open a dialog)
       if (step.clickFirst) {
-        // Wait for the click target to exist first
         await waitForTarget(step.clickFirst, 0, 2500);
         if (cancelled) return;
         clickByTour(step.clickFirst);
@@ -744,14 +624,10 @@ export const OnboardingTour = () => {
       }
       if (cancelled) return;
 
-      const r = await waitForTarget(step.target, step.pad ?? 4);
+      const targetRect = await waitForTarget(step.target, step.pad ?? 4);
       if (cancelled) return;
-      // Only update rect if we found something — otherwise keep the previous
-      // rect so the spotlight stays "anchored" on whatever it was last on.
-      if (r) setRect(r);
+      if (targetRect) setRect(targetRect);
       if (willNavigate) {
-        // Brief settle so the spotlight rect has had time to start sliding
-        // before we expose it again. Cut from 180 → 60ms.
         await new Promise((res) => setTimeout(res, 60));
         if (!cancelled) setIsNavigating(false);
       }
@@ -759,15 +635,12 @@ export const OnboardingTour = () => {
     run();
 
     return () => { cancelled = true; };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [open, index]);
-
-  // Reposition on resize / scroll
+  }, [open, index, step, location.pathname, navigate]);
   useEffect(() => {
     if (!open || step.kind !== "spotlight") return;
     const reposition = () => {
-      const r = findTargetRect(step.target, step.pad ?? 4);
-      if (r) setRect(r);
+      const targetRect = findTargetRect(step.target, step.pad ?? 4);
+      if (targetRect) setRect(targetRect);
     };
     window.addEventListener("resize", reposition);
     window.addEventListener("scroll", reposition, true);
@@ -782,17 +655,15 @@ export const OnboardingTour = () => {
     setIndex((i) => Math.min(i + 1, total - 1));
   }, [index, preloadRoutesOnce, total]);
   const prev = useCallback(() => setIndex((i) => Math.max(i - 1, 0)), []);
-
-  // Keyboard nav
   useEffect(() => {
     if (!open) return;
-    const onKey = (e: KeyboardEvent) => {
-      if (e.key === "Escape") close();
-      else if (e.key === "ArrowRight" || e.key === "Enter") next();
-      else if (e.key === "ArrowLeft") prev();
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") close();
+      else if (event.key === "ArrowRight" || event.key === "Enter") next();
+      else if (event.key === "ArrowLeft") prev();
     };
-    window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
   }, [open, next, prev, close]);
 
   const coachPos = useMemo(() => {
@@ -805,7 +676,7 @@ export const OnboardingTour = () => {
   const isFirst = index === 0;
   const isLast = index === total - 1;
   const accent = step.accent;
-  const c = ACCENT_CLASSES[accent];
+  const accentClass = ACCENT_CLASSES[accent];
   const Icon = step.icon;
 
   return (
@@ -815,11 +686,6 @@ export const OnboardingTour = () => {
       aria-modal="true"
       aria-labelledby="onboarding-title"
     >
-      {/* Backdrop. We tweak two things per step:
-       *   - revealContent: drop dim opacity so the destination page shows.
-       *   - isNavigating: temporarily darken to mask the route swap flash.
-       * The transition is intentionally long (700ms) so changes feel like a
-       * smooth gradient shift rather than a hard cut. */}
       {(() => {
         const reveal = step.kind === "spotlight" && (step as SpotlightStep).revealContent;
         const dimVar = isDark
@@ -834,9 +700,6 @@ export const OnboardingTour = () => {
                 ? "rgba(15, 23, 42, 0.22)"
                 : "rgba(241, 245, 249, 0.82)");
         const blur = isNavigating ? "blur(14px)" : reveal ? "blur(2px)" : "blur(8px)";
-        // Non-spotlight steps OR spotlight steps without a rect still need a
-        // full-screen backdrop. Spotlight WITH a rect gets dimming via the
-        // box-shadow trick on the rect itself.
         const showFlatDim = step.kind !== "spotlight" || !rect;
         if (!showFlatDim) return null;
         return (
@@ -851,13 +714,6 @@ export const OnboardingTour = () => {
         );
       })()}
 
-      {/* Content-area fade mask. During tour navigation we don't want the
-       * destination page to flash in — instead, we fade the *content area*
-       * (everything to the right of the persistent sidebar) to the app's
-       * background color, let the new route mount behind it, then fade back.
-       * The sidebar stays visible the whole time because it doesn't change
-       * between routes. The mask renders unconditionally with opacity tied
-       * to isNavigating, so the fade-in/out is just a CSS opacity transition. */}
       {step.kind === "spotlight" && (
         <div
           aria-hidden
@@ -874,10 +730,6 @@ export const OnboardingTour = () => {
         />
       )}
 
-      {/* Spotlight cutout. The rect itself paints a 9999px box-shadow in the
-       * dim color — that's what darkens everything outside. The dim is
-       * overall 25% lighter than before. Revealed content steps drop further
-       * so the destination page is fully readable. */}
       {step.kind === "spotlight" && rect && (() => {
         const reveal = (step as SpotlightStep).revealContent;
         const dimColor = isDark
@@ -896,7 +748,6 @@ export const OnboardingTour = () => {
         const transitionDim = `box-shadow 400ms cubic-bezier(0.22, 1, 0.36, 1)`;
         return (
           <>
-            {/* Dim cutout */}
             <div
               className="pointer-events-none absolute rounded-xl"
               style={{
@@ -905,11 +756,8 @@ export const OnboardingTour = () => {
                 transition: `${transitionGeom}, ${transitionDim}`,
               }}
             />
-            {/* Bright accent border + outward glow. The glow is created via
-             * box-shadow so it lives entirely OUTSIDE the rect — the element
-             * inside stays free of any tint or fill. */}
             <div
-              className={`pointer-events-none absolute rounded-xl ${c.text}`}
+              className={`pointer-events-none absolute rounded-xl ${accentClass.text}`}
               style={{
                 left: rect.x - 4, top: rect.y - 4, width: rect.w + 8, height: rect.h + 8,
                 border: "2px solid currentColor",
@@ -922,7 +770,6 @@ export const OnboardingTour = () => {
         );
       })()}
 
-      {/* Splash / finale stages */}
       <div className="absolute inset-0">
         {step.kind === "splash" && (
           <SplashCard step={step} onNext={next} onSkip={close} index={index} total={total} isDark={isDark} />
@@ -932,10 +779,6 @@ export const OnboardingTour = () => {
         )}
       </div>
 
-      {/* Coach card for spotlight steps. For revealContent steps we pin the
-       * card to the bottom-right corner so it never blocks the destination
-       * page — the user just landed on the page they're being told about and
-       * we want them to actually see it. */}
       {step.kind === "spotlight" && (() => {
         const reveal = (step as SpotlightStep).revealContent;
         const TR = "350ms cubic-bezier(0.22, 1, 0.36, 1)";
@@ -950,11 +793,7 @@ export const OnboardingTour = () => {
         }
         return (
         <div
-          // Apply the step's accent class to the card itself so a 3px top
-          // border can pick it up via currentColor. This makes the colored
-          // accent FOLLOW the card's `rounded-2xl` curve at the corners
-          // instead of sitting as a flat line that looks tacked-on.
-          className={`tour-coach-card absolute z-10 w-[380px] max-w-[92vw] rounded-2xl border border-border bg-card shadow-[0_24px_60px_-15px_rgba(0,0,0,0.55)] ${c.text}`}
+          className={`tour-coach-card absolute z-10 w-[380px] max-w-[92vw] rounded-2xl border border-border bg-card shadow-[0_24px_60px_-15px_rgba(0,0,0,0.55)] ${accentClass.text}`}
           style={{
             ...positionStyle,
             borderTop: "3px solid currentColor",
@@ -964,10 +803,10 @@ export const OnboardingTour = () => {
 
           <div className="relative p-5">
             <div className="mb-3 flex items-center gap-2.5">
-              <div className={`flex h-9 w-9 items-center justify-center rounded-xl ${c.bg} ${c.text}`} style={{ transition: `background ${TR}, color ${TR}` }}>
+              <div className={`flex h-9 w-9 items-center justify-center rounded-xl ${accentClass.bg} ${accentClass.text}`} style={{ transition: `background ${TR}, color ${TR}` }}>
                 <Icon className="h-5 w-5" />
               </div>
-              <span className={`rounded-full px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider ${c.chip}`} style={{ transition: `background ${TR}, color ${TR}` }}>
+              <span className={`rounded-full px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider ${accentClass.chip}`} style={{ transition: `background ${TR}, color ${TR}` }}>
                 Step {index + 1} of {total}
               </span>
             </div>
@@ -990,7 +829,7 @@ export const OnboardingTour = () => {
 
             <div className="relative mt-4 h-1.5 w-full overflow-hidden rounded-full bg-muted/40">
               <div
-                className={`h-full rounded-full ${c.bg} brightness-150`}
+                className={`h-full rounded-full ${accentClass.bg} brightness-150`}
                 style={{
                   width: `${((index + 1) / total) * 100}%`,
                   transition: `width 280ms cubic-bezier(0.22, 1, 0.36, 1), background ${TR}`,

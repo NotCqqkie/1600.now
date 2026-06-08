@@ -7,11 +7,6 @@ import {
   buildFaqJsonLd,
 } from "@/components/seo/PageSeo";
 import { satToolBySlug } from "@/lib/seo-data/satTools";
-
-// Admitted-student SAT middle-50% ranges (25th–75th percentile) for a curated
-// list of US colleges. Values are approximations of the most recent Common
-// Data Set / College Scorecard figures and are meant as a planning tool, not
-// an admissions guarantee.
 interface CollegeProfile {
   name: string;
   p25: number;

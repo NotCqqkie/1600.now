@@ -4,19 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute the value x = 2",
-      "content": "Replace $x$ with $2$ in $$f(x) = 8x^3 + 4.$$ This gives $$f(2) = 8(2)^3 + 4.$$"
+      "title": "Substitute $x=2$",
+      "content": "The function is $f(x)=8x^3+4$. Substitute $2$ for $x$: $$f(2)=8(2)^3+4.$$"
     },
     {
-      "title": "Compute the result",
-      "content": "Simplify: $$f(2) = 8(8) + 4 = 64 + 4 = 68.$$ The answer is <strong>68</strong>.",
+      "title": "Evaluate the power first",
+      "content": "$2^3=8$, so $$f(2)=8(8)+4=64+4=68.$$"
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The value of $f(2)$ is <strong>68</strong>. The exponent is evaluated before multiplying by $8$, so the cubic term contributes $64$. Then the final constant adds $4$.",
       "desmosExpressions": [
-        "f(x)=8(x)^(3)+4"
+        "f(x)=8x^3+4",
+        "x=2"
       ]
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "The correct answer is $68$. It's given that the function $f$ is defined by $f\\left(x\\right)=8{x}^{3}+4$. Substituting $2$ for $x$ in this equation yields $f\\left(2\\right)=8{\\left(2\\right)}^{3}+4$, or $f\\left(2\\right)=8\\left(8\\right)+4$, which is equivalent to $f\\left(2\\right)=68$. Therefore, the value of $f\\left(2\\right)$ is $68$."
     }
   ]
 }

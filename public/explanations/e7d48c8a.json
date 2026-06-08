@@ -20,10 +20,10 @@
       "content": "Original mean: $\\frac{4(1)+5(2)+2(3)+1(4)+1(5)}{13}=\\frac{29}{13}\\approx2.23$. New mean: $\\frac{29+11}{14}=\\frac{40}{14}\\approx2.86$. Since the mean increases while the median stays $2$, only Statement II is true. Desmos can verify both median and mean before and after adding $11$ from the expanded list. That matches choice C, so <strong>C</strong> is correct.",
       "desmosExpressions": [
         "L=[1,1,1,1,2,2,2,2,2,3,3,4,5]",
-        "median(L)",
-        "mean(L)",
-        "median([1,1,1,1,2,2,2,2,2,3,3,4,5,11])",
-        "mean([1,1,1,1,2,2,2,2,2,3,3,4,5,11])"
+        "\\operatorname{median}\\left(L\\right)",
+        "\\operatorname{mean}\\left(L\\right)",
+        "\\operatorname{median}\\left([1,1,1,1,2,2,2,2,2,3,3,4,5,11]\\right)",
+        "\\operatorname{mean}\\left([1,1,1,1,2,2,2,2,2,3,3,4,5,11]\\right)"
       ]
     }
   ]

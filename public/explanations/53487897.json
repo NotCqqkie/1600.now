@@ -4,16 +4,26 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the slope from the rate of change",
-      "content": "The problem states: <em>for every increase in $x$ by 1, the value of $y$ increases by 8</em>. This rate of change is the slope, so $m = 8$, and the equation has the form $y = 8x + b$.<br/><br/>Checking the choices:<ul><li>A: $y = 2x + 18$ (slope = 2)</li><li>B: $y = 2x + 8$ (slope = 2)</li><li>C: $y = 8x + 2$ (slope = 8) ✓</li><li>D: $y = 3x + 26$ (slope = 3)</li></ul>Only choice C has slope 8."
+      "title": "Make a two-row table",
+      "content": "The problem gives one point and one rate. Since $y=18$ when $x=2$, enter $(2,18)$. Because every increase of $1$ in $x$ increases $y$ by $8$, the next point is $(3,26)$.",
+      "desmosExpressions": [
+        "x_1=[2,3]",
+        "y_1=[18,26]"
+      ]
     },
     {
-      "title": "Find the y-intercept using the given point",
-      "content": "Use the point $(2, 18)$ to find $b$:<br/>$$18 = 8(2) + b$$<br/>$$18 = 16 + b$$<br/>$$b = 2$$<br/>The equation is $y = 8x + 2$. That matches choice C — <strong>C</strong> is correct.",
+      "title": "Use linear regression",
+      "content": "Type $y_1\\sim m x_1+b$. Desmos returns $m=8$ and $b=2$, so the equation is $y=8x+2$.",
       "desmosExpressions": [
-        "y=8x+2",
-        "(2,18)"
+        "x_1=[2,3]",
+        "y_1=[18,26]",
+        "y_1~m x_1+b",
+        "y=8x+2"
       ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "Choice C is the only equation with slope $8$ and intercept $2$. A quick check gives $8(2)+2=18$, so choice <strong>C</strong> is correct."
     }
   ]
 }

@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve the equation",
-      "content": "Multiply both sides by $x+6$ to get $55=x(x+6)$, then rearrange and factor: $$x^2+6x-55=(x+11)(x-5)=0.$$ So $x=-11$ or $x=5$."
+      "title": "Clear the denominator",
+      "content": "Start with $$\\frac{55}{x+6}=x.$$ Since the positive solution will not make $x+6=0$, multiply both sides by $x+6$: $$55=x(x+6).$$"
     },
     {
-      "title": "Identify the positive solution",
-      "content": "Take the positive root. The answer is <strong>5</strong>.",
+      "title": "Factor the quadratic",
+      "content": "Rewrite as $$x^2+6x-55=0.$$ The numbers $11$ and $-5$ multiply to $-55$ and add to $6$, so $$(x+11)(x-5)=0.$$"
+    },
+    {
+      "title": "Choose the positive solution",
+      "content": "The solutions are $x=-11$ and $x=5$. The positive solution is <strong>5</strong>. Graphing $y=55/(x+6)$ and $y=x$ shows the positive intersection at $x=5$.",
       "desmosExpressions": [
-        "y = \\frac{55}{x + 6}",
-        "y = x"
+        "y=55/(x+6)",
+        "y=x"
       ]
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "The correct answer is $5$. Multiplying both sides of the given equation by $x+6$ results in $55=x\\left(x+6\\right)$. Applying the distributive property of multiplication to the right-hand side of this equation results in $55={x}^{2}+6x$. Subtracting $55$ from both sides of this equation results in $0={x}^{2}+6x-55$. The right-hand side of this equation can be rewritten by factoring. The two values that multiply to $-55$ and add to $6$ are $11$ and $-5$. It follows that the equation $0={x}^{2}+6x-55$ can be rewritten as $0=\\left(x+11\\right)\\left(x-5\\right)$. Setting each factor equal to $0$ yields two equations: $x+11=0$ and $x-5=0$. Subtracting $11$ from both sides of the equation $x+11=0$ results in $x=-11$. Adding $5$ to both sides of the equation $x-5=0$ results in $x=5$. Therefore, the positive solution to the given equation is $5$."
     }
   ]
 }

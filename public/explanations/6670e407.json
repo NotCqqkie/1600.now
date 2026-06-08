@@ -21,8 +21,8 @@
       "desmosExpressions": [
         "F=[87,80,75,76,70]",
         "V=[44,54,65,76,82]",
-        "mean(F)>mean(V)",
-        "median(F)>median(V)"
+        "\\operatorname{mean}\\left(F\\right)>\\operatorname{mean}\\left(V\\right)",
+        "\\operatorname{median}\\left(F\\right)>\\operatorname{median}\\left(V\\right)"
       ]
     }
   ]

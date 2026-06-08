@@ -4,31 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute the value x = 3",
-      "content": "Replace $x$ with $3$ in $$g(x) = \\sqrt{8x + 1}.$$ This gives $$g(3) = \\sqrt{8(3) + 1}.$$"
+      "title": "Substitute x equals 3",
+      "content": "The function is $g(x)=\\sqrt{8x+1}$. Substitute $x=3$: $$g(3)=\\sqrt{8(3)+1}$$"
     },
     {
-      "title": "Compute the result",
-      "content": "Simplify: $$g(3) = \\sqrt{25} = 5.$$ That matches choice <strong>C</strong> — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "g(x)=\\sqrt{8x+1}"
-      ]
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "Choice C is correct. It's given that the function $g$ is defined by $g\\left(x\\right)=\\sqrt{8x+1}$. Substituting $3$ for $x$ in the given function yields $g\\left(3\\right)=\\sqrt{8\\left(3\\right)+1}$, which is equivalent to $g\\left(3\\right)=\\sqrt{25}$, or $g\\left(3\\right)=5$. Therefore, the value of $g\\left(3\\right)$ is $5$."
+      "title": "Simplify inside the radical first",
+      "content": "$$8(3)+1=25$$ so $$g(3)=\\sqrt{25}=5$$"
     },
     {
       "title": "Check the choices",
-      "content": "Choice A is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice B is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice D is incorrect. This is the value of $8\\left(3\\right)+1$, not $\\sqrt{8\\left(3\\right)+1}$."
+      "content": "Choice C is $5$, so it is correct. Choices A and B come from dividing by $8$, which is not the operation here. Choice D, $25$, is the value inside the square root before taking the square root."
     }
   ]
 }

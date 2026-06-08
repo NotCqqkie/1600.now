@@ -5,15 +5,22 @@
   "steps": [
     {
       "title": "Identify the boundary line",
-      "content": "The boundary line of the shaded region passes through $(0,1)$ with a negative slope of $-4$, giving the equation $$y = 1 - 4x.$$ This eliminates the two choices that use $1+4x$."
+      "content": "The boundary line passes through $(0,1)$ and has slope $-4$, so its equation is:<br/>$$y=1-4x$$<br/>That eliminates the choices with $1+4x$."
     },
     {
-      "title": "Determine the inequality direction from the shading",
-      "content": "Test a point in the shaded region, such as $(2,0)$, in $y > 1-4x$: $$0 > 1 - 4(2) = -7 \\checkmark$$ The point satisfies $y > 1-4x$, so the shading is above the line."
+      "title": "Use the shading direction",
+      "content": "The shaded region is above the boundary line. A point in the shaded region, such as $(2,0)$, satisfies:<br/>$$0\\gt1-4(2)=-7$$<br/>So the inequality is $y\\gt1-4x$."
     },
     {
-      "title": "Evaluate each choice",
-      "content": "<ul><li>A) $y < 1+4x$ — wrong slope sign (positive instead of negative). Eliminated.</li><li>B) $y < 1-4x$ — correct boundary, but the shaded region is above the line, not below. Eliminated.</li><li>C) $y > 1+4x$ — wrong slope sign. Eliminated.</li><li>D) $y > 1-4x$ — correct boundary $y=1-4x$ with shading above it.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "title": "Graph-check the answer",
+      "content": "In Desmos, graph the candidate inequality $y>1-4x$. It has the same negative-slope boundary and shades above the line.",
+      "desmosExpressions": [
+        "y>1-4x"
+      ]
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "The inequality is $y>1-4x$, which is choice D. So <strong>D</strong> is correct."
     }
   ]
 }

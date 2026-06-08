@@ -4,31 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify coefficients",
-      "content": "Rewrite the equation in standard form $$Ax+By=C$$: here $$10x - 5y = -12$$ gives $A=10$, $B=-5$, and $C=-12$."
+      "title": "Put the line in slope form",
+      "content": "To find slope, rewrite the equation in $y=mx+b$ form, where $m$ is the slope."
     },
     {
-      "title": "Compute slope",
-      "content": "The slope is $$-\\frac{A}{B}$$ = $$-\\frac{10}{-5}$$ = 2. That matches choice D — <strong>D</strong> is correct.",
+      "title": "Solve for y",
+      "content": "$$10x-5y=-12$$ $$-5y=-10x-12$$ $$y=2x+\\frac{12}{5}$$",
       "desmosExpressions": [
-        "10x-5y=-12"
+        "10x-5y=-12",
+        "y=2x+12/5"
       ]
     },
     {
-      "title": "Use the source rationale",
-      "content": "Choice D is correct. A linear equation can be written in the form $y=mx+b$, where $m$ is the slope of the graph of the equation in the <em>xy</em>-plane and $\\left(0,b\\right)$ is the <em>y</em>-intercept. Subtracting $10x$ from each side of the given equation, $10x-5y=-12$, yields $-5y=-10x-12$. Dividing each side of this equation by $-5$ yields $y=2x+\\frac{12}{5}$. This equation is in the form $y=mx+b$, where $m=2$. Therefore, the slope of the graph of the given equation in the <em>xy</em>-plane is $2$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice A is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice B is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice C is incorrect and may result from conceptual or calculation errors."
+      "title": "Read the slope",
+      "content": "The coefficient of $x$ in slope-intercept form is $2$, so the slope is $2$. The constant $\\frac{12}{5}$ is only the $y$-intercept and does not affect the slope. That matches choice D."
     }
   ]
 }

@@ -4,25 +4,26 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the left side of the plot to find the horizontal asymptote",
-      "content": "Graph all four exponential answer choices on top of the scatterplot. The correct curve should flatten near the left-side data, pass near the point around $(0,25)$, and then rise to the right.",
+      "title": "Enter approximate scatterplot points",
+      "content": "This is an exponential model with a vertical shift, so use a custom Desmos regression. Reading from the graph, use approximate points such as $(-4,19)$, $(-3,19)$, $(-2,20)$, $(-1,22)$, $(0,24)$, $(1.7,30)$, $(3,42)$, $(4,50)$, and $(4.3,57)$.",
       "desmosExpressions": [
-        "y=24(1.55)^x",
-        "y=24(1.55)^x+18",
-        "y=(1.55)^x+23",
+        "x_1=[-4,-3,-2,-1,0,1.7,3,4,4.3]",
+        "y_1=[19,19,20,22,24,30,42,50,57]"
+      ]
+    },
+    {
+      "title": "Run shifted exponential regression",
+      "content": "Use the custom regression $y_1 \\sim a b^{x_1}+c$. The fitted curve has a horizontal level near $18$, growth base near $1.55$, and coefficient near $6$, matching $y=6(1.55)^x+18$.",
+      "desmosExpressions": [
+        "x_1=[-4,-3,-2,-1,0,1.7,3,4,4.3]",
+        "y_1=[19,19,20,22,24,30,42,50,57]",
+        "y_1~a b^{x_1}+c",
         "y=6(1.55)^x+18"
       ]
     },
     {
-      "title": "Use the $y$-intercept to narrow down further",
-      "content": "At $x=0$ the scatterplot shows a point near $y \\approx 25$. Each remaining choice's $y$-intercept is $a \\cdot 1 + c = a+c$:<ul><li>Choice B: $24+18 = 42$ — far too high.</li><li>Choice C: $1+23 = 24$ — close to 25.</li><li>Choice D: $6+18 = 24$ — close to 25.</li></ul><strong>Choice B is out.</strong>"
-    },
-    {
-      "title": "Compare growth at $x=3$ to break the tie",
-      "content": "The plot shows points near $y \\approx 42$–$46$ at $x=3$.<br/>Choice C: $y = (1.55)^3 + 23 \\approx 3.72 + 23 \\approx 26.7$ — much too low.<br/>Choice D: $y = 6(1.55)^3 + 18 \\approx 6(3.72) + 18 \\approx 40.3$ — matches the data.<br/><br/>That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y=6(1.55)^x+18"
-      ]
+      "title": "Confirm against the choices",
+      "content": "Choice A has no vertical shift, so it is too low on the left side. Choice B has intercept $42$, too high at $x=0$. Choice C has the right low-end level but grows far too slowly; at $x=3$ it is only about $26.7$. Choice D is near $40$ at $x=3$ and follows the plotted curve. Choice <strong>D</strong> is correct."
     }
   ]
 }

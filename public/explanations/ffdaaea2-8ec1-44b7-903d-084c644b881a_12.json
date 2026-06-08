@@ -4,20 +4,25 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the intercepts",
-      "content": "The graph has $y$-intercept $(0,3)$ and $x$-intercept $(-1.5,0)$. A line through those intercepts has positive slope."
+      "title": "Use two points from the graph",
+      "content": "Do this as a Desmos table instead of estimating by hand. The graphed line clearly passes through $(-2,-3)$ and $(0,9)$. Enter those two points, then run a linear regression. Desmos gives $m=6$ and $b=9$, so the graphed line is $y=6x+9$.",
+      "desmosExpressions": [
+        "x_1=[-2,0]",
+        "y_1=[-3,9]",
+        "y_1~m x_1+b",
+        "y=6x+9"
+      ]
     },
     {
       "title": "Build the equation",
-      "content": "Using the intercepts, the slope is $\\frac{3-0}{0-(-1.5)}=2$, so the line is $y=2x+3$. Rewrite it: $$y=2x+3 \\Rightarrow -2x+y=3$$ Multiplying by $6$ gives $$-12x+6y=18$$",
+      "content": "Rewrite the regression equation so it matches the answer choices. From $y=6x+9$, multiply by 2 to make the constant 18: $$2y=12x+18$$ Move the $12x$ term to the left: $$-12x+2y=18$$ This has the form $-12x+Ry=18$ with $R=2$.",
       "desmosExpressions": [
-        "y=2x+3",
-        "-12x+6y=18"
+        "-12x+2y=18"
       ]
     },
     {
       "title": "Match the positive constant",
-      "content": "The equation $-12x+6y=18$ has the form $-12x+Ry=18$ with $R=6$, a positive constant. That matches choice <strong>D</strong>."
+      "content": "Since $R=2$ is positive, $-12x+Ry=18$ is allowed. That is choice D, so <strong>D</strong> is correct."
     }
   ]
 }

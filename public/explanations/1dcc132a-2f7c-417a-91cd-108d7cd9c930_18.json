@@ -5,7 +5,11 @@
   "steps": [
     {
       "title": "Calculate the y-intercept",
-      "content": "The y-intercept occurs at $x = 0$. Substitute:<br/>$$f(0) = 4^{-5(0+1)} = 4^{-5}$$<br/>Since $4^5 = 1024$, we have:<br/>$$4^{-5} = \\frac{1}{1024}$$<br/>The y-intercept value (the $y$-coordinate) is $\\frac{1}{1024}$."
+      "content": "The y-intercept occurs at $x=0$. A fast Desmos check is to make a one-row table with $x_1=0$ and evaluate the original function: $4^{-5(x_1+1)}$. Desmos returns $0.0009765625$, which is $\\frac{1}{1024}$. So the y-coordinate of the y-intercept is $\\frac{1}{1024}$.",
+      "desmosExpressions": [
+        "x_1=[0]",
+        "y_1=4^(-5(x_1+1))"
+      ]
     },
     {
       "title": "Rewrite the function using exponent rules",
@@ -13,7 +17,14 @@
     },
     {
       "title": "Identify the choice",
-      "content": "The rewritten form $\\frac{1}{1024} \\cdot \\left(\\frac{1}{4}\\right)^{5x}$ displays $\\frac{1}{1024}$ explicitly as a coefficient.<br/><br/>Since $\\frac{1}{1024}$ is exactly the y-intercept value we calculated in step 1, this form shows the y-coordinate of the y-intercept as a coefficient.<br/><br/>That matches choice A — <strong>A</strong> is correct."
+      "content": "The rewritten form $\\frac{1}{1024} \\cdot \\left(\\frac{1}{4}\\right)^{5x}$ displays $\\frac{1}{1024}$ explicitly as a coefficient. If you want to use Desmos as a choice check, evaluate each form at $x=0$; they all give the same y-intercept, but only choice A visibly writes that y-intercept as a coefficient. Choice B and choice C hide it inside the exponent, and choice D uses $1,024$ instead of $\\frac{1}{1024}$. That matches choice A, so <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "x_1=[0]",
+        "a_1=(1/1024)((1/4)^(5x_1))",
+        "b_1=(1/4)^(5x_1+5)",
+        "c_1=4^(-5x_1-5)",
+        "d_1=1024^(-x_1-1)"
+      ]
     }
   ]
 }

@@ -4,31 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the slope of line k",
-      "content": "$y = 7x + \\tfrac{1}{8}$. Slope = $7$."
+      "title": "Read the slope of line $k$",
+      "content": "Line $k$ is written in slope-intercept form: $$y=7x+\\frac{1}{8}.$$ In $y=mx+b$, the slope is $m$, so line $k$ has slope $7$."
     },
     {
-      "title": "Flip and negate for the perpendicular slope",
-      "content": "Perpendicular shortcut: negative reciprocal of $7$ is $-\\tfrac{1}{7}$. That matches choice B — <strong>B</strong> is correct.",
+      "title": "Use the perpendicular slope shortcut",
+      "content": "Perpendicular lines have slopes that are opposite reciprocals. The opposite reciprocal of $7$ is $$-\\frac{1}{7}.$$"
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice B is correct. Choice A uses the intercept $\\frac{1}{8}$ incorrectly. Choice C is just the intercept. Choice D is the original slope, which would be parallel rather than perpendicular.",
       "desmosExpressions": [
-        "-1/7"
+        "y=7x+1/8",
+        "y=(-1/7)x+1/8"
       ]
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "Choice B is correct. It's given that line $k$ is defined by $y=7x+\\frac{1}{8}$. For an equation in slope-intercept form $y=mx+b$, $m$ represents the slope of the line defined by this equation in the <em>xy</em>-plane and $b$ represents the <em>y</em>-coordinate of the <em>y</em>-intercept of this line. Therefore, the slope of line $k$ is $7$. It's also given that line $j$ is perpendicular to line $k$ in the <em>xy</em>-plane. Therefore, the slope of line $j$ is the opposite reciprocal of the slope of line $k$. The opposite reciprocal of $7$ is $-\\frac{1}{7}$. Therefore, the slope of line $j$ is $-\\frac{1}{7}$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice A is incorrect. This is the opposite reciprocal of the <em>y</em>-coordinate of the <em>y</em>-intercept, not the slope, of line $k$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice C is incorrect. This is the <em>y</em>-coordinate of the <em>y</em>-intercept of line $k$, not the slope of line $j$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice D is incorrect. This is the slope of a line that is parallel, not perpendicular, to line $k$."
     }
   ]
 }

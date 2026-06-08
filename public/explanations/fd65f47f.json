@@ -4,28 +4,25 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Distribute and combine like terms",
-      "content": "Drop the parentheses and combine like terms:$$=2x^2+x-9+x^2+6x+1$$$$=3x^2+7x-8$$"
+      "title": "Use quadratic regression",
+      "content": "The sum is a quadratic expression. In Desmos, evaluate it at three x-values and fit the output to $ax^2+bx+c$."
     },
     {
-      "title": "Match to the answer choices",
-      "content": "The simplified expression is $3x^2+7x-8$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."
+      "title": "Enter the rows",
+      "content": "Use:<br/>$$x_1=[0,1,2]$$<br/>$$y_1=(2x_1^2+x_1-9)+(x_1^2+6x_1+1)$$<br/>$$y_1\\sim ax_1^2+bx_1+c$$",
+      "desmosExpressions": [
+        "x_1=[0,1,2]",
+        "y_1=(2x_1^2+x_1-9)+(x_1^2+6x_1+1)",
+        "y_1\\sim ax_1^2+bx_1+c"
+      ]
     },
     {
-      "title": "Use the source rationale",
-      "content": "Choice D is correct. The given expression is equivalent to $\\left(2{x}^{2}+x+\\left(-9\\right)\\right)+\\left({x}^{2}+6x+1\\right)$, which can be rewritten as $\\left(2{x}^{2}+{x}^{2}\\right)+\\left(x+6x\\right)+\\left(-9+1\\right)$. Adding like terms in this expression yields $3{x}^{2}+7x+\\left(-8\\right)$, or $3{x}^{2}+7x-8$."
+      "title": "Read the simplified expression",
+      "content": "Desmos returns $a=3$, $b=7$, and $c=-8$, so the expression is:<br/>$$3x^2+7x-8$$<br/>That matches choice D."
     },
     {
-      "title": "Check the choices",
-      "content": "Choice A is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice B is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice C is incorrect and may result from conceptual or calculation errors."
+      "title": "Confirm by combining terms",
+      "content": "The $x^2$ terms give $2x^2+x^2=3x^2$, the $x$ terms give $x+6x=7x$, and the constants give $-9+1=-8$. So <strong>D</strong> is correct."
     }
   ]
 }

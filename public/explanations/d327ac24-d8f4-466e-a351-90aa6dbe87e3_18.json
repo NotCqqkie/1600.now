@@ -4,15 +4,26 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Convert percentage increase to growth factor",
-      "content": "A 2.4% annual increase means we keep 100% of the value and add 2.4% more. The growth factor is 100% + 2.4% = 102.4% = 1.024. Each year, the value is multiplied by 1.024."
+      "title": "Enter the first two years",
+      "content": "At $x=0$, the house is worth $174{,}000$. A $2.4\\%$ yearly increase means multiply by $1.024$, so after one year the value is $174{,}000(1.024)=178{,}176$.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[174000,178176]"
+      ]
     },
     {
-      "title": "Build the exponential function",
-      "content": "For exponential growth, the function is (initial value) × (growth factor)<sup>time</sup>. Starting with \\$174,000 and multiplying by 1.024 each year, after x years the value is:<br/>$$f(x) = 174,000(1.024)^x$$<br/>That matches choice C — <strong>C</strong> is correct.",
+      "title": "Run exponential regression",
+      "content": "Use $y_1 \\sim a b^{x_1}$. Desmos returns $a=174000$ and $b=1.024$, so the model is $y=174000(1.024)^x$.",
       "desmosExpressions": [
-        "f(c) = 174000 \\cdot 1.024^{c}"
+        "x_1=[0,1]",
+        "y_1=[174000,178176]",
+        "y_1~a b^{x_1}",
+        "y=174000(1.024)^x"
       ]
+    },
+    {
+      "title": "Match the choice",
+      "content": "Choices A and B use multipliers less than $1$, so they model decreases. Choice D uses $1.24$, which is a $24\\%$ increase. Choice C uses the regression multiplier $1.024$, so choice <strong>C</strong> is correct."
     }
   ]
 }

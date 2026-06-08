@@ -4,19 +4,19 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve the equation",
-      "content": "Factor the quadratic: $$(7x+8)(x-4)=0.$$ The roots are $x=-\\tfrac{8}{7}$ and $x=4$."
+      "title": "Factor the quadratic",
+      "content": "$$7x^2-20x-32=(7x+8)(x-4).$$"
     },
     {
-      "title": "Identify the positive solution",
-      "content": "Take the positive root. The answer is <strong>4</strong>.",
+      "title": "Use the zero product property",
+      "content": "$$(7x+8)(x-4)=0$$ gives $x=-\\frac{8}{7}$ or $x=4$."
+    },
+    {
+      "title": "Choose the positive solution",
+      "content": "The positive solution is <strong>4</strong>. The other root, $-\\frac{8}{7}$, is negative, so it does not answer the question's positive-solution requirement. The graph check shows the positive $x$-intercept at $4$.",
       "desmosExpressions": [
-        "y = 7x^2 - 20x - 32"
+        "y=7x^2-20x-32"
       ]
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "The correct answer is $4$. The left-hand side of the given equation can be factored as $\\left(7x+8\\right)\\left(x-4\\right)$. Therefore, the given equation, $7{x}^{2}-20x-32=0$, can be written as $\\left(7x+8\\right)\\left(x-4\\right)=0$. Applying the zero product property to this equation yields $7x+8=0$ and $x-4=0$. Subtracting $8$ from both sides of the equation $7x+8=0$ yields $7x=-8$. Dividing both sides of this equation by $7$ yields $x=-\\frac{8}{7}$. Adding $4$ to both sides of the equation $x-4=0$ yields $x=4$. Therefore, the two solutions to the given equation, $7{x}^{2}-20x-32=0$, are $-\\frac{8}{7}$ and $4$. It follows that $4$ is the positive solution to the given equation."
     }
   ]
 }

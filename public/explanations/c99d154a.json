@@ -4,8 +4,22 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Locate the y-intercept on the graph",
-      "content": "The y-intercept is where the graph crosses the y-axis, which occurs at x = 0. Reading directly from the graph at x = 0, the curve passes through the point (0, 3). The y-coordinate of the y-intercept is <strong>3</strong>."
+      "title": "Use the intercept shortcut",
+      "content": "A $y$-intercept is where a graph crosses the $y$-axis. Every point on the $y$-axis has $x=0$, so this is a graph-reading question: look only at the point where the curve meets the vertical axis.",
+      "desmosExpressions": [
+        "x=0"
+      ]
+    },
+    {
+      "title": "Read the point from the graph",
+      "content": "The curve crosses the $y$-axis at the marked point $(0,3)$. The question asks for the $y$-coordinate, not the whole point, so the value is $3$.",
+      "desmosExpressions": [
+        "(0,3)"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "Because the $y$-intercept is $(0,3)$, the $y$-coordinate of that intercept is <strong>3</strong>."
     }
   ]
 }

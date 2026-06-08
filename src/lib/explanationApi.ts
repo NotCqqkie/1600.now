@@ -1,6 +1,3 @@
-// Explanations are pre-generated at build time and shipped as static JSON
-// under /public/explanations/{questionId}.json. The runtime path is
-// fetch-only — there is no LLM call in the client.
 
 export interface ExplanationStep {
   title: string;

@@ -4,12 +4,26 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the hourly rate for additional hours",
-      "content": "The specialist charges \\$220 for the first 2 hours, then an hourly rate for each additional hour. For 5 hours, the total is \\$400.<br/><br/>The cost for the 3 additional hours is: \\$400 - \\$220 = \\$180<br/>So the hourly rate is: \\$180 ÷ 3 = \\$60/hour"
+      "title": "Turn the charges into points",
+      "content": "The first two hours cost 220 dollars, so the total-cost line passes through $(2,220)$. Five hours cost 400 dollars, so it also passes through $(5,400)$. Since every answer choice is linear, put those two points into Desmos and fit $y_1\\sim m x_1+b$.",
+      "desmosExpressions": [
+        "x_1=[2,5]",
+        "y_1=[220,400]",
+        "y_1~m x_1+b"
+      ]
     },
     {
-      "title": "Build the function and match to a choice",
-      "content": "For any $x \\geq 2$, the total cost is the base charge plus the hourly fee for additional hours:<br/>$$f(x) = 220 + 60(x - 2)$$<br/>Expand and simplify:<br/>$$f(x) = 220 + 60x - 120 = 60x + 100$$<br/>Verify: $f(5) = 60(5) + 100 = 400$ ✓<br/><br/>That matches choice A — <strong>A</strong> is correct."
+      "title": "Read the fitted line",
+      "content": "The regression gives $m=60$ and $b=100$, so the function is $$f(x)=60x+100.$$ This is faster than expanding the base-fee expression by hand."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A is $f(x)=60x+100$, and it satisfies both $f(2)=220$ and $f(5)=400$. Choice C also has the right value at $x=5$? No: $80(5)=400$, but it gives $f(2)=160$, not 220. Choice <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y=60x+100",
+        "(2,220)",
+        "(5,400)"
+      ]
     }
   ]
 }

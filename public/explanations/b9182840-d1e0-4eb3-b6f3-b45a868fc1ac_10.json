@@ -4,12 +4,28 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Factor out the GCF",
-      "content": "The greatest common factor of $7x^{6}$ and $14x^{2}$ is $7x^{2}$. Pull it out: $$7x^{6}-14x^{2}=7x^{2}(x^{4}-2).$$"
+      "title": "Test values instead of expanding powers",
+      "content": "Because the question asks for an equivalent expression and $x>0$, use a quick table check. Test $x=1$ and $x=2$ in the original expression.",
+      "desmosExpressions": [
+        "x_1=[1,2]",
+        "o_1=7x_1^6-14x_1^2"
+      ]
     },
     {
-      "title": "Check each choice",
-      "content": "<ul><li>A: $7(x^{3}-2x^{2})^{2}$ expands to $7(x^{6}-4x^{5}+4x^{4})=7x^{6}-28x^{5}+28x^{4}$ &mdash; wrong.</li><li>B: $x^{2}(7x-2)^{4}$ uses a 4th power, producing terms like $2401x^{6}$ with extra middle terms &mdash; wrong.</li><li>C: $7x^{2}(x-2)^{4}$ also uses a 4th power and gives $7x^{6}-56x^{5}+\\dots$ &mdash; wrong.</li><li>D: $7x^{2}(x^{4}-2)=7x^{6}-14x^{2}$ &mdash; matches.</li></ul><strong>D</strong> is correct."
+      "title": "Compare each choice list",
+      "content": "Evaluate each answer choice on the same $x$-list. Only choice D gives the same list as the original for both values.",
+      "desmosExpressions": [
+        "x_1=[1,2]",
+        "o_1=7x_1^6-14x_1^2",
+        "a_1=7(x_1^3-2x_1^2)^2",
+        "b_1=x_1^2(7x_1-2)^4",
+        "c_1=7x_1^2(x_1-2)^4",
+        "d_1=7x_1^2(x_1^4-2)"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "Choice D is $7x^2(x^4-2)$, which matches $7x^6-14x^2$. Therefore choice <strong>D</strong> is correct."
     }
   ]
 }

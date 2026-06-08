@@ -5,11 +5,19 @@
   "steps": [
     {
       "title": "Find the scale factor from the perimeters",
-      "content": "For similar triangles, corresponding sides are proportional, and the ratio of perimeters equals the ratio of corresponding sides. From the table, the scale factor is:<br/>$$k = \\frac{\\text{Perimeter of XYZ}}{\\text{Perimeter of TUV}} = \\frac{150}{50} = 3$$"
+      "content": "For similar triangles, corresponding sides and perimeters use the same scale factor. The table gives perimeter $50$ for triangle $TUV$ and $150$ for triangle $XYZ$, so the scale factor from $TUV$ to $XYZ$ is $$\\frac{150}{50}=3.$$"
     },
     {
       "title": "Apply the scale factor to find XY",
-      "content": "Since $TU$ corresponds to $XY$, and the scale factor is 3:<br/>$$XY = TU \\times 3 = 6 \\times 3 = 18$$<br/>That matches choice C — <strong>C</strong> is correct."
+      "content": "$TU$ corresponds to $XY$, and $TU=6$. Multiply by the scale factor: $$XY=6\\cdot3=18.$$",
+      "desmosExpressions": [
+        "150/50",
+        "6*3"
+      ]
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "The corresponding side length is $18$, so choice <strong>C</strong> is correct."
     }
   ]
 }

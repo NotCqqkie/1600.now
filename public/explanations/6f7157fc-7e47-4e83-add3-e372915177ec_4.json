@@ -11,14 +11,16 @@
       "title": "Check data set A",
       "content": "Data set A in order is:<br/>$$2,2,2,5,5,8,11,11,14,14,14$$<br/>The 6th value is $8$, so the median of data set A is $8$.",
       "desmosExpressions": [
-        "a_1=[2,2,2,5,5,8,11,11,14,14,14]"
+        "a_1=[2,2,2,5,5,8,11,11,14,14,14]",
+        "\\operatorname{median}\\left(a_1\\right)"
       ]
     },
     {
       "title": "Check data set B",
       "content": "Data set B in order is:<br/>$$2,5,5,8,8,8,8,8,11,11,14$$<br/>The 6th value is also $8$, so the median of data set B is $8$.",
       "desmosExpressions": [
-        "b_1=[2,5,5,8,8,8,8,8,11,11,14]"
+        "b_1=[2,5,5,8,8,8,8,8,11,11,14]",
+        "\\operatorname{median}\\left(b_1\\right)"
       ]
     },
     {

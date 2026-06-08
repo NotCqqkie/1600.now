@@ -5,11 +5,19 @@
   "steps": [
     {
       "title": "Find the scale factor from perimeters",
-      "content": "For similar triangles, corresponding sides scale by the same factor as the perimeters. Divide the perimeter of $XYZ$ by the perimeter of $TUV$:<br/>$$\\frac{333}{37} = 9$$"
+      "content": "For similar triangles, the ratio of corresponding side lengths is the same as the ratio of the perimeters. The table gives perimeter $37$ for triangle $TUV$ and $333$ for triangle $XYZ$, so the scale factor from $TUV$ to $XYZ$ is $$\\frac{333}{37}=9.$$"
     },
     {
       "title": "Apply scale factor to find XY",
-      "content": "Since $TU$ corresponds to $XY$, multiply $TU$ by the scale factor:<br/>$$XY = 18 \\times 9 = 162$$<br/>That matches choice D — <strong>D</strong> is correct."
+      "content": "$TU$ corresponds to $XY$, and $TU=18$. Multiply by the scale factor: $$XY=18\\cdot9=162.$$",
+      "desmosExpressions": [
+        "333/37",
+        "18*9"
+      ]
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "The corresponding side length is $162$, so choice <strong>D</strong> is correct."
     }
   ]
 }

@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Compute the upper bounds",
-      "content": "The inequality is $y<6x+2$. For the x-values in the tables:<br/>$$x=3 \\Rightarrow 6x+2=20$$<br/>$$x=5 \\Rightarrow 6x+2=32$$<br/>$$x=7 \\Rightarrow 6x+2=44$$"
+      "title": "Compute the boundary list",
+      "content": "All answer choices use $x=3$, $5$, and $7$. Enter $x_1=[3,5,7]$ and compute $6x_1+2$. Desmos returns the cutoff list $[20,32,44]$.",
+      "desmosExpressions": [
+        "x_1=[3,5,7]",
+        "6x_1+2"
+      ]
     },
     {
-      "title": "Check the table that looks promising",
-      "content": "Choice C has y-values $16$, $28$, and $40$. Each is strictly below the matching upper bound:<br/>$$16<20,\\quad 28<32,\\quad 40<44$$",
+      "title": "Compare choice C to the boundary",
+      "content": "Choice C has $y$-values $16$, $28$, and $40$. Enter $c_1=[16,28,40]$ and compare $c_1<6x_1+2$. All three comparisons are true.",
       "desmosExpressions": [
         "x_1=[3,5,7]",
         "c_1=[16,28,40]",

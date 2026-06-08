@@ -5,17 +5,23 @@
   "steps": [
     {
       "title": "Identify constant rate of change",
-      "content": "The airplane descends at a constant rate of 400 feet per minute. When a quantity changes by a <em>constant amount</em> over time, it is modeled by a <strong>linear function</strong>. Exponential functions involve constant percentage change, which is not mentioned here."
+      "content": "The airplane descends at a constant rate of $400$ feet per minute. Constant amount of change per minute means linear. Exponential would mean a constant percent change, which is not what the problem says."
     },
     {
-      "title": "Determine increasing or decreasing",
-      "content": "Since the altitude is <em>decreasing</em> over time, the function must be <strong>decreasing</strong>. Exponential functions require a multiplicative relationship (not applicable here). Linear functions with negative slopes describe constant decreases."
+      "title": "Build a quick Desmos table",
+      "content": "Use a few time-altitude points: at $0$ minutes the altitude is $9500$, at $1$ minute it is $9100$, and at $2$ minutes it is $8700$. A linear regression on those points gives slope $-400$, confirming a decreasing linear model.",
+      "desmosExpressions": [
+        "x_1=[0,1,2]",
+        "y_1=[9500,9100,8700]",
+        "y_1~m x_1+b",
+        "y=m x+b"
+      ]
     },
     {
       "title": "Conclusion",
-      "content": "The scenario involves a constant rate of decrease → linear function with negative slope. That matches choice B — <strong>B</strong> is correct.",
+      "content": "The relationship is linear because the rate is constant, and it is decreasing because altitude goes down as time increases. That matches choice <strong>B</strong>.",
       "desmosExpressions": [
-        "y = 9500 - 400x"
+        "y=9500-400x"
       ]
     }
   ]

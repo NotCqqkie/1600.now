@@ -5,11 +5,19 @@
   "steps": [
     {
       "title": "Identify where the y-intercept occurs",
-      "content": "The y-intercept of a function is the point where its graph crosses the y-axis. This always happens at <strong>x = 0</strong>."
+      "content": "The $y$-intercept of a graph is the point where the graph crosses the $y$-axis. Every point on the $y$-axis has $x=0$, so the intercept has the form $(0,y)$."
     },
     {
       "title": "Read the y-value from the graph",
-      "content": "Find x = 0 on the horizontal axis and trace vertically upward to where the exponential curve intersects the y-axis. The intersection occurs at <strong>y = 3</strong>. The answer is <strong>3</strong>."
+      "content": "On the graph, the exponential curve crosses the $y$-axis at the marked point $(0,3)$. Therefore the missing $y$-coordinate in $(0,y)$ is $$y=3.$$",
+      "desmosExpressions": [
+        "(0,3)",
+        "x=0"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The question asks for the value of $y$, not the full ordered pair. The answer is <strong>3</strong>."
     }
   ]
 }

@@ -4,14 +4,23 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify what the x and y axes represent",
-      "content": "From the scatterplot, the x-axis is labeled <em>Years since 1940</em>, meaning $x$ is measured in individual years (0, 10, 20, ..., 70). The y-axis shows <em>Minimum wage (dollars per hour)</em>. The line of best fit is $y = 0.096x - 0.488$, where the slope is $m = 0.096$."
+      "title": "Use the given line of best fit",
+      "content": "No new regression is needed because the equation of the line of best fit is already given: $y=0.096x-0.488$. The slope is the coefficient of $x$, so the slope is $0.096$.",
+      "desmosExpressions": [
+        "y=0.096x-0.488"
+      ]
     },
     {
-      "title": "Interpret the slope as a rate of change",
-      "content": "The slope represents $$\\frac{\\text{change in wage}}{\\text{change in years}} = 0.096 \\text{ dollars per year}$$<br/>Since $x$ is measured in years, this slope directly tells us the average increase in minimum wage per year.<br/><br/>The line predicts an average increase of 0.096 dollars each year between 1940 and 2010.<br/><br/>That matches choice A — <strong>A</strong> is correct.",
+      "title": "Interpret the slope units",
+      "content": "The $x$-axis is years since 1940, measured in individual years. The $y$-axis is minimum wage in dollars per hour. Therefore a slope of $0.096$ means the model predicts an increase of $0.096$ dollars per hour for each additional year."
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "Choice A says the average increase was $0.096$ dollars each year. Choices C and D incorrectly treat the change as per 10 years, and choice B uses the intercept instead of the slope. Choice <strong>A</strong> is correct.",
       "desmosExpressions": [
-        "y = 0.096x - 0.488"
+        "x_1=[0,1]",
+        "y_1=[-0.488,-0.392]",
+        "y_1~m x_1+b"
       ]
     }
   ]

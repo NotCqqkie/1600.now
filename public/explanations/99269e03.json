@@ -4,10 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute x = 3 into the equation",
-      "content": "To find $a$, evaluate $y = 4(2)^x + 3$ when $x = 3$.<br/>$$y = 4(2)^3 + 3$$<br/>Calculate $2^3 = 8$:<br/>$$y = 4(8) + 3$$<br/>Multiply $4 \\times 8 = 32$:<br/>$$y = 32 + 3$$<br/>$$y = 35$$<br/>Therefore $a = 35$. That matches choice B — <strong>B</strong> is correct.",
+      "title": "Use the formula at the missing x-value",
+      "content": "The missing table value $a$ is the y-value when $x=3$. Evaluate the given equation $y=4(2)^x+3$ at $x=3$."
+    },
+    {
+      "title": "Calculate a",
+      "content": "$$a=4(2)^3+3=4(8)+3=32+3=35$$"
+    },
+    {
+      "title": "Desmos check",
+      "content": "A quick Desmos check is to graph $y=4(2)^x+3$ and evaluate it at $x=3$. The output is $35$, which matches choice B.",
       "desmosExpressions": [
-        "y=4((2))^(x)+3"
+        "y=4\\cdot2^x+3",
+        "x=3",
+        "4\\cdot2^3+3"
       ]
     }
   ]

@@ -5,7 +5,13 @@
   "steps": [
     {
       "title": "Key insight: f must be constant",
-      "content": "Since f(0) = 17 and f(1) = 17, both are equal. A linear function f(x) = mx + b with f(0) = f(1) must have slope m = 0, so f is constant: f(x) = 17. Now verify each choice."
+      "content": "Since $f(0)=17$ and $f(1)=17$, the two known points are $(0,17)$ and $(1,17)$. Put those points in Desmos and run a linear regression. It returns slope $m=0$ and intercept $b=17$, so the function is constant: $f(x)=17$.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[17,17]",
+        "y_1~m x_1+b",
+        "y=m x+b"
+      ]
     },
     {
       "title": "Backsolving — testing choice A (1/17)",

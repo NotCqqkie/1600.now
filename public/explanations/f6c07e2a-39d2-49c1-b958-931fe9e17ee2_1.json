@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Locate the row",
-      "content": "Find the row corresponding to an air temperature of $38\\text{°F}$ in the table."
+      "title": "Use the table intersection",
+      "content": "This question asks for the wind chill already listed in the table. Start by finding the row where the air temperature is $38^\\circ\\text{F}$."
     },
     {
-      "title": "Read the value",
-      "content": "In that row, the column for a wind speed of $60$ mph gives a wind chill of $22\\text{°F}$. The answer is <strong>22</strong>."
+      "title": "Move to the requested wind speed",
+      "content": "In the $38^\\circ\\text{F}$ row, move to the column for wind speed $60$ mph. The entry there is $22^\\circ\\text{F}$."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "Because the answer should be entered without the degree symbol, the answer is <strong>22</strong>."
     }
   ]
 }

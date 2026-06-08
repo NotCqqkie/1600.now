@@ -4,16 +4,24 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Factor the left side",
-      "content": "Factor the left side: $90y^5-54y^4=y^4(90y-54)$. Factor a $6$ from the parenthesis: $$90y^5-54y^4=6y^4(15y-9).$$"
+      "title": "Compare the factored forms",
+      "content": "The target form is $ry^4(15y-9)$. Factor the original expression to make that same structure appear."
     },
     {
-      "title": "Identify r",
-      "content": "Comparing $6y^4(15y-9)=ry^4(15y-9)$ gives $r=6$. The answer is <strong>6</strong>."
+      "title": "Factor the original expression",
+      "content": "$$90y^5-54y^4=y^4(90y-54)$$<br/>Then factor $6$ from the parentheses:<br/>$$y^4(90y-54)=6y^4(15y-9)$$<br/>So $r=6$."
     },
     {
-      "title": "Use the source rationale",
-      "content": "The correct answer is $6$. Applying the distributive property to the expression $r{y}^{4}\\left(15y-9\\right)$ yields $15r{y}^{5}-9r{y}^{4}$. Since $90{y}^{5}-54{y}^{4}$ is equivalent to $r{y}^{4}\\left(15y-9\\right)$, it follows that $90{y}^{5}-54{y}^{4}$ is also equivalent to $15r{y}^{5}-9r{y}^{4}$. Since these expressions are equivalent, it follows that corresponding coefficients are equivalent. Therefore, $90=15r$ and $-54=-9r$. Solving either of these equations for $r$ will yield the value of $r$. Dividing both sides of $90=15r$ by $15$ yields $6=r$. Therefore, the value of $r$ is $6$."
+      "title": "Check with Desmos",
+      "content": "A quick way to verify $r$ is to divide the original expression by $y^4(15y-9)$ at two values of $y$:<br/>$$t_1=[1,2]$$<br/>$$r_1=\\frac{90t_1^5-54t_1^4}{t_1^4(15t_1-9)}$$<br/>Desmos returns $[6,6]$, so the constant value is $6$.",
+      "desmosExpressions": [
+        "t_1=[1,2]",
+        "r_1=\\frac{90t_1^5-54t_1^4}{t_1^4(15t_1-9)}"
+      ]
+    },
+    {
+      "title": "Answer",
+      "content": "The value of $r$ is <strong>6</strong>."
     }
   ]
 }

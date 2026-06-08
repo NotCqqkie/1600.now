@@ -4,12 +4,19 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Locate Group 6 on the horizontal axis",
-      "content": "Identify the sixth bar from the left on the graph, which corresponds to Group 6."
+      "title": "Locate the requested group",
+      "content": "The horizontal axis labels the groups from $1$ through $10$. The question asks about group $6$, so move to the bar directly above the label $6$."
     },
     {
-      "title": "Read the height from the vertical axis",
-      "content": "Trace upward from Group 6 to the top of its bar. The bar aligns with the 40 mark on the vertical \"Number of cans\" axis. Group 6 collected <strong>40</strong> cans."
+      "title": "Read the bar height",
+      "content": "The top of the bar for group $6$ lines up with the $40$ mark on the vertical axis. The vertical axis measures number of cans, so group $6$ collected $40$ cans.",
+      "desmosExpressions": [
+        "(6,40)"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The graph value for group $6$ is $40$, so the answer is <strong>40</strong>."
     }
   ]
 }

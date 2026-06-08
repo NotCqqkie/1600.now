@@ -55,9 +55,6 @@ const fontStackFor = (id: QuestionFontId) =>
 
 const scaleFor = (id: QuestionTextSize) =>
   TEXT_SIZE_OPTIONS.find((s) => s.id === id)?.scale ?? 1;
-
-// Cache the parsed snapshot so useSyncExternalStore sees a stable reference
-// when the underlying stored value hasn't changed (object identity matters).
 let cachedRaw: string | null = null;
 let cachedPrefs: PersonalizationPreferences = DEFAULT_PERSONALIZATION;
 
@@ -103,10 +100,6 @@ export const applyPersonalizationPreferences = (
     window.dispatchEvent(new Event(PERSONALIZATION_EVENT));
   }
 };
-
-// Wipe any stored personalization and revert the document to defaults.
-// Called on sign-out so a signed-out session never inherits the previous
-// user's font/size choices from localStorage.
 export const resetPersonalizationPreferences = () => {
   writePrefsToDocument(DEFAULT_PERSONALIZATION);
 
@@ -128,9 +121,6 @@ export const subscribeToPersonalization = (callback: () => void) => {
     window.removeEventListener("storage", handleStorage);
   };
 };
-
-// Eagerly apply stored preferences to the document so that question styles
-// reflect the user's choice on first paint (no flash of defaults).
 if (typeof document !== "undefined") {
   const prefs = getPersonalizationPreferences();
   const root = document.documentElement;

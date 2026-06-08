@@ -4,14 +4,25 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Interpret 3% annual increase as a growth factor",
-      "content": "A 3% increase means the population becomes 103% of the original, or 1.03 times the original.<br/><br/>So each year, the population is multiplied by the growth factor 1.03."
+      "title": "Use the first two years",
+      "content": "The population starts at 2,000 animals, so use $(0,2000)$. A 3% increase gives $2000(1.03)=2060$ after one year, so use $(1,2060)$. Fit $y_1\\sim a b^{x_1}$ in Desmos.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[2000,2060]",
+        "y_1~a b^{x_1}"
+      ]
     },
     {
-      "title": "Apply the exponential growth formula",
-      "content": "For exponential growth with constant factor $k$ per unit time:<br/>$$p(x) = P_0 \\cdot k^x$$<br/>Here, $P_0 = 2,000$ and $k = 1.03$:<br/>$$p(x) = 2,000(1.03)^x$$<br/>Verify at $x = 1$: $p(1) = 2,000 \\cdot 1.03 = 2,060$, which is indeed 3% more than 2,000. That matches choice C — <strong>C</strong> is correct.",
+      "title": "Read the growth factor",
+      "content": "Desmos gives $a=2000$ and $b=1.03$, so the function is $$p(x)=2000(1.03)^x.$$"
+    },
+    {
+      "title": "Match the choices",
+      "content": "Choice C is the only equation with starting value 2,000 and yearly multiplier 1.03. Choice D would be a 3% decrease, choice A uses 3 as the whole multiplier, and choice B uses 1.97. Choice <strong>C</strong> is correct.",
       "desmosExpressions": [
-        "p(x)=2000((1.03))^(x)"
+        "y=2000(1.03)^x",
+        "(0,2000)",
+        "(1,2060)"
       ]
     }
   ]

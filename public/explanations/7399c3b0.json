@@ -4,32 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve the equation",
-      "content": "Add $53$ to both sides: $$k^2=144.$$ Taking square roots gives $k=\\pm 12$."
+      "title": "Isolate the square",
+      "content": "Start with $k^2-53=91$. Add $53$ to both sides so the square term is alone: $$k^2=144.$$"
     },
     {
-      "title": "Identify the positive solution",
-      "content": "Choose the positive root, $k=12$. The answer is <strong>(D) $12$</strong>.",
-      "desmosExpressions": [
-        "y = x^2 - 53",
-        "y = 91"
-      ]
+      "title": "Take both roots",
+      "content": "If $k^2=144$, then $k=12$ or $k=-12$. The question asks for the positive solution, so keep $12$ and reject $-12$."
     },
     {
-      "title": "Use the source rationale",
-      "content": "Choice D is correct. Adding $53$ to each side of the given equation yields ${k}^{2}=144$. Taking the square root of each side of this equation yields $k=\\pm12$. Therefore, the positive solution to the given equation is $12$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice A is incorrect. This is the positive solution to the equation ${k}^{2}-53=20,683$, not ${k}^{2}-53=91$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice B is incorrect. This is the positive solution to the equation ${k}^{2}-53=5,131$, not ${k}^{2}-53=91$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice C is incorrect. This is the positive solution to the equation ${k}^{2}-53=1,391$, not ${k}^{2}-53=91$."
+      "title": "Confirm the choice",
+      "content": "Choice <strong>D</strong> is correct because $12^2-53=144-53=91$. The larger answer choices would make $k^2$ far too large."
     }
   ]
 }

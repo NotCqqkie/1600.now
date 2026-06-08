@@ -13,10 +13,22 @@
     },
     {
       "title": "Apply the downward shift of 3 units",
-      "content": "Subtract 3 from the result:<br/>$$g(x) = \\frac{a-19}{x-4} + 5 - 3 = \\frac{a-19}{x-4} + 2$$<br/>That matches choice B — <strong>B</strong> is correct.",
+      "content": "Subtract 3 from the result:<br/>$$g(x) = \\frac{a-19}{x-4} + 5 - 3 = \\frac{a-19}{x-4} + 2$$"
+    },
+    {
+      "title": "Graph a concrete value to check the choices",
+      "content": "Because $a$ is just a constant, use any convenient value to visualize the shift. If $a=23$, then $a-19=4$ and $a-22=1$. Graph the original representative function and the four choice forms. The choice B graph is the one shifted right $4$ and down $3$.",
       "desmosExpressions": [
-        "f(x)=(a-19)/(x)+5"
+        "y=4/x+5",
+        "y=4/(x+4)+2",
+        "y=4/(x-4)+2",
+        "y=1/(x+4)+5",
+        "y=1/(x-4)+5"
       ]
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "The correct transformed function is $g(x)=\\frac{a-19}{x-4}+2$, which matches choice <strong>B</strong>."
     }
   ]
 }

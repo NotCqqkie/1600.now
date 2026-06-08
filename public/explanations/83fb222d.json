@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply the equation from the given condition",
-      "content": "Divide by $6$: $n=2$."
+      "title": "Solve for $n$",
+      "content": "From $6n=12$, divide both sides by $6$: $$n=2.$$"
     },
     {
-      "title": "Compute the target value",
-      "content": "So $n+4 = 6$. The answer is <strong>6</strong>."
+      "title": "Evaluate the requested expression",
+      "content": "The question asks for $n+4$, so substitute $n=2$: $$n+4=2+4=6.$$"
     },
     {
-      "title": "Use the source rationale",
-      "content": "The correct answer is $6$. Dividing both sides of the equation $6n=12$ by $6$ yields $n=2$. Substituting $2$ for $n$ in the expression $n+4$ yields $2+4$, or $6$."
+      "title": "Confirm the answer",
+      "content": "The value of $n+4$ is <strong>6</strong>. Check the original equation: $6(2)=12$, so $n=2$ is valid before adding $4$."
     }
   ]
 }

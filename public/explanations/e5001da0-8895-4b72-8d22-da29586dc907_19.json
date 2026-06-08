@@ -20,6 +20,9 @@
       "title": "Convert the multiplier to the requested ratio",
       "content": "The same multiplier applies to the constants, so $k=s g$. The question asks for $\\frac{g}{k}$, which is the reciprocal of $s$: $$\\frac{g}{k}=\\frac{1}{10/13}=\\frac{13}{10}=1.3$$ The answer is <strong>1.3,13/10</strong>.",
       "desmosExpressions": [
+        "x_1=[1,0]",
+        "y_1=[0,1]",
+        "(8/13)x_1+h y_1~s((4/5)x_1+(6/5)y_1)",
         "1/s"
       ]
     }

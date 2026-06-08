@@ -4,16 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the equation",
-      "content": "Set $f(x)=8$ and write the equation.<br/>$$4x=8$$"
+      "title": "Set f(x) equal to 8",
+      "content": "The function is $f(x)=4x$. The condition $f(x)=8$ gives:<br/>$$4x=8$$"
     },
     {
-      "title": "Solve for x",
-      "content": "Divide both sides by $4$.<br/>$$x=2$$<br/>The answer is <strong>2</strong>."
+      "title": "Solve",
+      "content": "Divide both sides by $4$:<br/>$$x=2$$"
     },
     {
-      "title": "Use the source rationale",
-      "content": "The correct answer is $2$. Substituting $8$ for $f\\left(x\\right)$ in the given equation yields $8=4x$. Dividing the left- and right-hand sides of this equation by $4$ yields $x=2$. Therefore, the value of $x$ is $2$ when $f\\left(x\\right)=8$."
+      "title": "Check",
+      "content": "Substitute $x=2$ into the function: $f(2)=4(2)=8$. This matches the required output, so no other value is needed for this one-step linear equation."
+    },
+    {
+      "title": "Answer",
+      "content": "The value of $x$ is <strong>2</strong>."
     }
   ]
 }

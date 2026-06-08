@@ -4,27 +4,24 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the roots",
-      "content": "$f(x)=(x-2)(x+15)$ has roots $x=2$ and $x=-15$."
+      "title": "Use the roots shortcut",
+      "content": "$f(x)=(x-2)(x+15)$ is an upward-opening parabola. Its roots are $x=2$ and $x=-15$."
     },
     {
-      "title": "Apply the new function definition",
-      "content": "The vertex of an upward parabola lies midway: $$x = \\tfrac{2 + (-15)}{2} = -\\tfrac{13}{2}.$$"
+      "title": "Find the midpoint of the roots",
+      "content": "The vertex of a parabola in factored form lies halfway between the two x-intercepts:<br/>$$x=\\frac{2+(-15)}{2}=\\frac{-13}{2}$$"
     },
     {
-      "title": "Compute the answer",
-      "content": "So the minimum occurs at $x=-\\tfrac{13}{2}$. The answer is <strong>-13/2</strong>.",
+      "title": "Check with Desmos",
+      "content": "Graph $y=(x-2)(x+15)$. The lowest point of the parabola occurs on the vertical line $x=-\\frac{13}{2}$.",
       "desmosExpressions": [
-        "f(x)=(x-2)(x+15)"
+        "y=(x-2)(x+15)",
+        "x=-\\frac{13}{2}"
       ]
     },
     {
-      "title": "Use the source rationale",
-      "content": "The correct answer is $-\\frac{13}{2}$. The value of $x$ for which $f\\left(x\\right)$ reaches its minimum can be found by rewriting the given equation in the form $f\\left(x\\right)={\\left(x-h\\right)}^{2}+k$, where $f\\left(x\\right)$ reaches its minimum, $k$, when the value of $x$ is $h$. The given equation, $f\\left(x\\right)=\\left(x-2\\right)\\left(x+15\\right)$, can be rewritten as $f\\left(x\\right)={x}^{2}+13x-30$. By completing the square, this equation can be rewritten as $f\\left(x\\right)=\\left({x}^{2}+13x+{\\left(\\frac{13}{2}\\right)}^{2}\\right)-30-{\\left(\\frac{13}{2}\\right)}^{2}$, which is equivalent to $f\\left(x\\right)={\\left(x+\\frac{13}{2}\\right)}^{2}-\\frac{289}{4}$, or $f\\left(x\\right)={\\left(x-\\left(-\\frac{13}{2}\\right)\\right)}^{2}-\\frac{289}{4}$. Therefore, $f\\left(x\\right)$ reaches its minimum when the value of $x$ is $-\\frac{13}{2}$. Note that -13/2 and -6.5 are examples of ways to enter a correct answer."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Alternate approach: The graph of $y=f\\left(x\\right)$ in the <em>xy</em>-plane is a parabola. The value of $x$ for the vertex of a parabola is the <em>x</em>-value of the midpoint between the two <em>x</em>-intercepts of the parabola. Since it's given that $f\\left(x\\right)=\\left(x-2\\right)\\left(x+15\\right)$, it follows that the two <em>x</em>-intercepts of the graph of $y=f\\left(x\\right)$ in the <em>xy</em>-plane occur when $x=2$ and $x=-15$, or at the points $\\left(2,0\\right)$ and $\\left(-15,0\\right)$. The midpoint between two points, $\\left({x}_{1},{y}_{1}\\right)$ and $\\left({x}_{2},{y}_{2}\\right)$, is $\\left(\\frac{{x}_{1}+{x}_{2}}{2},\\frac{{y}_{1}+{y}_{2}}{2}\\right)$. Therefore, the midpoint between $\\left(2,0\\right)$ and $\\left(-15,0\\right)$ is $\\left(\\frac{2-15}{2},\\frac{0+0}{2}\\right)$, or $\\left(-\\frac{13}{2},0\\right)$. It follows that $f\\left(x\\right)$ reaches its minimum when the value of $x$ is $-\\frac{13}{2}$. Note that -13/2 and -6.5 are examples of ways to enter a correct answer."
+      "title": "Answer",
+      "content": "The function reaches its minimum when $x=-\\frac{13}{2}$."
     }
   ]
 }

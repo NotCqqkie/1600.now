@@ -4,18 +4,25 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the linear rate",
-      "content": "From 1996 to 2016 (20 years), the population goes from 61 to 225 thousand. The slope is $$m=\\frac{225-61}{2016-1996}=\\frac{164}{20}=8.2 \\text{ thousand/year}.$$"
+      "title": "Use relative years in the model",
+      "content": "Let $t$ be years after $1996$. Then $1996$ is $t=0$, $2016$ is $t=20$, and $2020$ is $t=24$. The two known model values are $(0,61)$ and $(20,225)$, in thousands.",
+      "desmosExpressions": [
+        "x_1=[0,20]",
+        "y_1=[61,225]",
+        "y_1~m x_1+b"
+      ]
     },
     {
-      "title": "Predict the requested value",
-      "content": "From 2016 to 2020 is 4 years, so add $8.2\\cdot 4=32.8$ thousand to the 2016 value: $$x=225+32.8=257.8 \\approx 258.$$ The answer is <strong>258</strong>.",
-      "desmosExpressions": [
-        "y = 8.2x - 16302.2",
-        "(1996, 61)",
-        "(2016, 225)",
-        "(2020, 258)"
-      ]
+      "title": "Evaluate the line at 2020",
+      "content": "The table regression gives $m=8.2$ and $b=61$, so $y=8.2t+61$. For $2020$, use $t=24$: $$y=8.2(24)+61=257.8.$$ To the nearest whole number, this is $258$ thousand.",
+        "desmosExpressions": [
+          "y=8.2x+61",
+          "(24,257.8)"
+        ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The estimated population in $2020$ is $257.8$ thousand, which rounds to <strong>258</strong>."
     }
   ]
 }

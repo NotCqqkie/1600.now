@@ -4,16 +4,26 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the equation form",
-      "content": "Each increase of 1 in $x$ multiplies $y$ by 3, so this is exponential growth: $y = a \\cdot b^x$, where $a$ is the value when $x = 0$ and $b$ is the growth factor. Here $a = 200$ and $b = 3$."
+      "title": "Make two exponential data rows",
+      "content": "This is a good Desmos exponential-regression shortcut. The value is $200$ when $x=0$. Each time $x$ increases by $1$, $y$ is multiplied by $3$, so the next value is $200\\cdot3=600$ when $x=1$.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[200,600]"
+      ]
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; $y = 200(x)^3$</strong>: This is a power function (polynomial), not exponential &mdash; $x$ is the base, not the exponent, so increasing $x$ by 1 does not multiply $y$ by a constant factor. &#10007;</li><li><strong>Choice B &mdash; $y = 200(3)^x$</strong>: When $x = 0$, $y = 200$ &#10003;; when $x$ increases by 1, $y$ is multiplied by 3 &#10003;. Matches all conditions. &#10003;</li><li><strong>Choice C &mdash; $y = 3(x)^{200}$</strong>: Power function with wrong initial value ($y = 0$ when $x = 0$) and 3 is the coefficient, not the growth base. &#10007;</li><li><strong>Choice D &mdash; $y = 3(200)^x$</strong>: Exponential, but the initial value when $x = 0$ is 3, not 200, and each step multiplies by 200, not 3. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
+      "title": "Run exponential regression",
+      "content": "Use the Desmos row $y_1 \\sim a b^{x_1}$. It returns $a=200$ and $b=3$, so the model is $y=200(3)^x$.",
       "desmosExpressions": [
-        "y = 200 \\cdot 3^{x}",
-        "(0, 200)"
+        "x_1=[0,1]",
+        "y_1=[200,600]",
+        "y_1~a b^{x_1}",
+        "y=200(3)^x"
       ]
+    },
+    {
+      "title": "Match the choices",
+      "content": "Choice A and choice C are power functions because $x$ is the base, so they do not multiply by the same factor each time $x$ increases by $1$. Choice D is exponential, but its initial value is $3$ and its multiplier is $200$. Choice B, $y=200(3)^x$, matches both regression parameters. Choice <strong>B</strong> is correct."
     }
   ]
 }

@@ -11,13 +11,21 @@
       ]
     },
     {
-      "title": "Graph the answer choices around that center",
-      "content": "Circle B has the same radius as circle A, so its radius is $8$, but its center is the x-intercept $(-8,0)$. In standard form, that is $(x+8)^2+y^2=64$. Graphing the choices shows only choice C has center $(-8,0)$.",
+      "title": "Reject the wrong centers",
+      "content": "Circle B has the same radius as circle A, so its radius is $8$, but its center is the x-intercept $(-8,0)$. Graph the choices with the wrong centers first: A has center $(0,-8)$, B has center $(0,8)$, and D has center $(8,0)$.",
       "desmosExpressions": [
         "x^2+(y+8)^2=64",
         "x^2+(y-8)^2=64",
+        "(x-8)^2+y^2=64",
+        "(-8,0)"
+      ]
+    },
+    {
+      "title": "Confirm the matching circle",
+      "content": "Choice C, $(x+8)^2+y^2=64$, has center $(-8,0)$ and radius $8$. That is exactly the circle centered at the x-intercept of circle A.",
+      "desmosExpressions": [
         "(x+8)^2+y^2=64",
-        "(x-8)^2+y^2=64"
+        "(-8,0)"
       ]
     },
     {

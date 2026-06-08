@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply the no-solution condition",
-      "content": "Rewrite as $48x-112y=24$ and $12x+ry=\\tfrac{1}{8}$. For no solution, the coefficients must be proportional: $$\\frac{12}{48}=\\frac{r}{-112}.$$"
+      "title": "Rewrite both equations in standard form",
+      "content": "Move terms so each equation is in $Ax+By=C$ form. The first becomes $$48x-112y=24.$$ The second becomes $$12x+ry=\\frac{1}{8}.$$"
     },
     {
-      "title": "Solve for the parameter",
-      "content": "This gives $\\tfrac{1}{4}=\\tfrac{r}{-112}$, so $r=-28$. The constants differ, confirming no solution. The answer is <strong>-28</strong>.",
+      "title": "Use the no-solution condition",
+      "content": "No solution means the lines are parallel but distinct. The $x$-coefficient in the second equation is $\\frac{1}{4}$ of the first because $12=\\frac{1}{4}(48)$. So the $y$-coefficient must also be $\\frac{1}{4}$ of the first: $$r=\\frac{1}{4}(-112)=-28.$$"
+    },
+    {
+      "title": "Confirm the lines are distinct",
+      "content": "The constants are not in the same ratio: $\\frac{1}{8}$ is not $\\frac{1}{4}$ of $24$. So the lines are parallel and distinct, giving no solution. The answer is <strong>-28</strong>.",
       "desmosExpressions": [
-        "y = (48x - 24)/112",
-        "y = (1/8 - 12x)/(-28)"
+        "48x-112y=24",
+        "12x-28y=1/8"
       ]
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "The correct answer is $-28$. A system of two linear equations in two variables, $x$ and $y$, has no solution if the lines represented by the equations in the <em>xy</em>-plane are distinct and parallel. The graphs of two lines in the <em>xy</em>-plane represented by equations in the form $Ax+By=C$, where $A$, $B$, and $C$ are constants, are parallel if the coefficients for $x$ and $y$ in one equation are proportional to the corresponding coefficients for $x$ and $y$ in the other equation. The first equation in the given system, $48x-64y=48y+24$, can be written in the form $Ax+By=C$ by subtracting $48y$ from both sides of the equation to yield $48x-112y=24$. The second equation in the given system, $ry=\\frac{1}{8}-12x$, can be written in the form $Ax+By=C$ by adding $12x$ to both sides of the equation to yield $12x+ry=\\frac{1}{8}$. The coefficient of $x$ in the second equation is $\\frac{1}{4}$ times the coefficient of $x$ in the first equation. That is, $48\\left(\\frac{1}{4}\\right)=12$. For the lines to be parallel, the coefficient of $y$ in the second equation must also be $\\frac{1}{4}$ times the coefficient of $y$ in the first equation. Therefore, $-112\\left(\\frac{1}{4}\\right)=r$, or $-28=r$. Thus, if the given system has no solution, the value of $r$ is $-28$."
     }
   ]
 }

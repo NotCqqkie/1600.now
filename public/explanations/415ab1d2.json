@@ -4,20 +4,30 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read only what the choices need",
-      "content": "The choices do not require the exact equation of the graphed line. They only ask for the signs of the slope and $y$-intercept of $f(x)$, because $c$ and $d$ are positive constants."
+      "title": "Fit the shown line from two grid points",
+      "content": "The graph shown is $y=f(x)+19$. Use Desmos as a quick table check: the line passes through $(-1,7)$ and $(0,3)$. A linear regression on those two points gives slope $-4$ and intercept $3$, so the shown line is $y=-4x+3$.",
+      "desmosExpressions": [
+        "x_1=[-1,0]",
+        "y_1=[7,3]",
+        "y_1~m x_1+b",
+        "y=-4x+3"
+      ]
     },
     {
-      "title": "Shift the graph down 19",
-      "content": "The graph shown is $y=f(x)+19$. To get the graph of $y=f(x)$, shift every point down $19$ units. The shown line has a positive $y$-intercept, but it is much less than $19$, so after shifting down $19$ units, the $y$-intercept of $f$ is negative."
+      "title": "Undo the vertical shift",
+      "content": "Because the shown graph is $y=f(x)+19$, subtract 19 from the fitted equation: $$f(x)+19=-4x+3$$ $$f(x)=-4x-16$$",
+      "desmosExpressions": [
+        "y=-4x+3",
+        "y=-4x-16"
+      ]
     },
     {
-      "title": "Keep the slope sign",
-      "content": "A vertical shift changes the intercept but does not change the slope. The shown line decreases from left to right, so $f$ also has a negative slope."
+      "title": "Match the signs",
+      "content": "The function $f(x)=-4x-16$ has a negative slope and a negative y-intercept. With $c>0$ and $d>0$, the form $-d-cx$ also has a negative y-intercept and a negative slope."
     },
     {
       "title": "Match the form",
-      "content": "With $c>0$ and $d>0$, the form $-d-cx$ has a negative $y$-intercept and a negative slope. That is exactly what the shifted graph of $f$ needs, so choice <strong>A</strong> is correct."
+      "content": "Choice A, $f(x)=-d-cx$, works with $d=16$ and $c=4$. The other choices have a positive intercept, a positive slope, or both. Choice <strong>A</strong> is correct."
     }
   ]
 }

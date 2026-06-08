@@ -65,8 +65,6 @@ export const QuestionNavigatorSheet = ({
   useEffect(() => {
     if (!isOpen) return;
     gridRef.current?.scrollTo({ top: 0 });
-    // Move focus into the panel so subsequent ESC goes to the panel-scoped
-    // listener rather than competing with global handlers (e.g. OnboardingTour).
     panelRef.current?.focus();
   }, [isOpen]);
 

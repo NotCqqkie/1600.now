@@ -4,18 +4,25 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the linear rate",
-      "content": "From 1995 to 2015 (20 years), the population goes from 55 to 217 thousand. The slope is $$m=\\frac{217-55}{2015-1995}=\\frac{162}{20}=8.1 \\text{ thousand/year}.$$"
+      "title": "Use relative years to make a Desmos table",
+      "content": "Let $t$ be years after $1995$. Then $1995$ is $t=0$, $2015$ is $t=20$, and $2019$ is $t=24$. The known points are $(0,55)$ and $(20,217)$, with population measured in thousands.",
+      "desmosExpressions": [
+        "x_1=[0,20]",
+        "y_1=[55,217]",
+        "y_1~m x_1+b"
+      ]
     },
     {
-      "title": "Predict the requested value",
-      "content": "From 2015 to 2019 is 4 years, so add $8.1\\cdot 4=32.4$ thousand to the 2015 value: $$x=217+32.4=249.4 \\approx 249.$$ The answer is <strong>249</strong>.",
-      "desmosExpressions": [
-        "y = 8.1x - 16104.5",
-        "(1995, 55)",
-        "(2015, 217)",
-        "(2019, 249)"
-      ]
+      "title": "Evaluate the fitted model at 2019",
+      "content": "The regression gives $m=8.1$ and $b=55$, so the model is $y=8.1t+55$. For $2019$, plug in $t=24$: $$y=8.1(24)+55=249.4.$$ Rounded to the nearest whole number, this is $249$ thousand.",
+        "desmosExpressions": [
+          "y=8.1x+55",
+          "(24,249.4)"
+        ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The requested value of $x$ is the rounded population in thousands, so $x=249$."
     }
   ]
 }

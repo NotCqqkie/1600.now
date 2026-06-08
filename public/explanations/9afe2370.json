@@ -13,10 +13,7 @@
     },
     {
       "title": "Combine the constraints on r",
-      "content": "From Step 1, we need $r < 0$ for the population to decrease. From Step 2, we need $r > -1$ for the population to remain positive. Both conditions must hold simultaneously:<br/>$$-1 < r < 0$$<br/>That matches choice B — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "P=P_0*(1+r)^y"
-      ]
+      "content": "From Step 1, we need $r < 0$ for the population to decrease. From Step 2, we need $r > -1$ for the population to remain positive. Both conditions must hold simultaneously:<br/>$$-1 < r < 0$$<br/>That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

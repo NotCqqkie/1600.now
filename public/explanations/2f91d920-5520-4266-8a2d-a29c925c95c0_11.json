@@ -12,8 +12,18 @@
       "content": "If $h=28$, then the last value of B is also $27+1$. That makes data set B exactly data set A shifted up by $1$, so the standard deviations are equal. The problem needs $\\text{SD}(A)>\\text{SD}(B)$, so II does not work."
     },
     {
-      "title": "Test I and III by spread",
-      "content": "If $h=23$, the last value of B moves much closer to the center than $28$ would, so data set B is less spread out than data set A. That makes $\\text{SD}(A)>\\text{SD}(B)$, so I works. If $h=29$, the last value is farther out than the shifted value $28$, so B is more spread out than A and III fails."
+      "title": "Test the candidates in Desmos",
+      "content": "Enter data set A and the three possible versions of data set B as lists, then use `stdevp`. Desmos shows $\\text{SD}(A)\\approx 6.75$, $\\text{SD}(B_{23})\\approx 4.79$, $\\text{SD}(B_{28})\\approx 6.75$, and $\\text{SD}(B_{29})\\approx 7.45$. Only $h=23$ makes $\\text{SD}(A)>\\text{SD}(B)$.",
+      "desmosExpressions": [
+        "a_1=[8,11,12,15,21,27]",
+        "b_1=[9,12,13,16,22,23]",
+        "b_2=[9,12,13,16,22,28]",
+        "b_3=[9,12,13,16,22,29]",
+        "\\operatorname{stdevp}\\left(a_1\\right)",
+        "\\operatorname{stdevp}\\left(b_1\\right)",
+        "\\operatorname{stdevp}\\left(b_2\\right)",
+        "\\operatorname{stdevp}\\left(b_3\\right)"
+      ]
     },
     {
       "title": "Match the choice",

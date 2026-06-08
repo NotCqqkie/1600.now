@@ -5,11 +5,18 @@
   "steps": [
     {
       "title": "Rate of change equals slope",
-      "content": "The rate of change of distance with respect to time is the slope of the equation $d$ versus $t$. For a linear relationship, the slope is simply the coefficient of $t$."
+      "content": "The rate of change of distance with respect to time is the slope of the distance-time graph. In the equation $d=15t$, distance $d$ is the output and time $t$ is the input, so this has the same structure as $y=15x$.",
+      "desmosExpressions": [
+        "y=15x"
+      ]
     },
     {
       "title": "Extract the slope and apply units",
-      "content": "In $d = 15t$, the coefficient of $t$ is 15. Since $d$ is in inches and $t$ is in seconds, the rate of change is 15 inches per second. That matches choice B — <strong>B</strong> is correct."
+      "content": "The coefficient of $t$ is $15$, so the slope is $15$. Since $d$ is measured in inches and $t$ is measured in seconds, the units are inches per second."
+    },
+    {
+      "title": "Check the choices",
+      "content": "The rate is the constant multiplier $15$, not the expression $15t$. Choice <strong>B</strong>, $15$ inches per second, is correct."
     }
   ]
 }

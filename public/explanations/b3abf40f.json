@@ -4,35 +4,19 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the slope",
-      "content": "$F$ is linear in $x$ with slope $\\tfrac{9}{5}$, so each $1$-kelvin increase raises $F$ by $\\tfrac{9}{5}$ degrees."
+      "title": "Use slope for a change question",
+      "content": "The function $$F(x)=\\frac{9}{5}(x-273.15)+32$$ is linear. Its slope is $\\frac{9}{5}$, which means each $1$-kelvin increase changes Fahrenheit by $\\frac{9}{5}$ degrees."
     },
     {
-      "title": "Scale by the change",
-      "content": "For a 9.1-kelvin increase, $$\\Delta F=\\tfrac{9}{5}\\cdot 9.1=16.38.$$"
+      "title": "Scale the increase",
+      "content": "For a $9.10$ kelvin increase, multiply by the slope: $$\\Delta F=\\frac{9}{5}(9.10)=16.38.$$ The constants $-273.15$ and $+32$ do not affect the change."
     },
     {
-      "title": "State the answer",
-      "content": "That matches choice <strong>A</strong> — <strong>A</strong> is correct.",
+      "title": "Check the choices",
+      "content": "Choice A is correct. The larger choices come from evaluating the whole temperature conversion rather than finding the increase.",
       "desmosExpressions": [
-        "y=\\frac{9}{5}(x-273.15)+32"
+        "y=(9/5)*(x-273.15)+32"
       ]
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "Choice A is correct. It's given that the function $F\\left(x\\right)=\\frac{9}{5}\\left(x-273.15\\right)+32$ gives the temperature, in degrees Fahrenheit, that corresponds to a temperature of $x$ kelvins. A temperature that increased by $9.10$ kelvins means that the value of $x$ increased by $9.10$ kelvins. It follows that an increase in $x$ by $9.10$ increases $F(x)$ by $\\frac{9}{5}\\left(9.10\\right)$, or $16.38$. Therefore, if a temperature increased by $9.10$ kelvins, the temperature increased by $16.38$ degrees Fahrenheit."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice B is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice C is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice D is incorrect and may result from conceptual or calculation errors."
     }
   ]
 }

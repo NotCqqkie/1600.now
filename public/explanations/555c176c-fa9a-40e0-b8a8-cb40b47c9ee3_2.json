@@ -4,16 +4,26 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify initial value and rate",
-      "content": "At birth ($x=0$ days), the calf weighs 226 pounds, so the starting value is 226. It gains an average of 3 pounds per day, so the rate of change is $+3$ per day."
+      "title": "Enter two days of data",
+      "content": "At birth, $x=0$ and the calf weighs $226$ pounds. After $1$ day, it has gained $3$ pounds, so the weight is $229$ pounds. Put $(0,226)$ and $(1,229)$ in Desmos.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[226,229]"
+      ]
     },
     {
-      "title": "Write the linear model",
-      "content": "A linear model has the form $y=(\\text{initial})+(\\text{rate})x$. Substituting gives $$y=226+3x.$$"
+      "title": "Run linear regression",
+      "content": "Use $y_1 \\sim mx_1+b$. Desmos returns $m=3$ and $b=226$, so the model is $y=3x+226$, equivalent to $y=226+3x$.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[226,229]",
+        "y_1~m x_1+b",
+        "y=3x+226"
+      ]
     },
     {
       "title": "Eliminate the other choices",
-      "content": "<ul><li>$y=226+3x$: starts at 226 and grows by 3 each day &mdash; matches.</li><li>$y=226-3x$: would mean losing 3 pounds per day &mdash; contradicts gaining weight.</li><li>$y=3+226x$: starts at 3 pounds, not 226 &mdash; wrong starting weight.</li><li>$y=3-226x$: starts at 3 and decreases sharply &mdash; both starting value and direction wrong.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "Choice A matches the regression. Choice B has the wrong sign because the calf gains weight. Choice C swaps the starting value and daily gain. Choice D starts at $3$ and decreases by $226$ per day. Choice <strong>A</strong> is correct."
     }
   ]
 }

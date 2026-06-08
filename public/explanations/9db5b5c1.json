@@ -4,32 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve the system by substitution",
-      "content": "From $4x=20$, $x=5$. Substitute into $-3x+y=-7$: $$-15+y=-7 \\Rightarrow y=8.$$"
+      "title": "Add the equations directly",
+      "content": "The question asks for $x+y$, and adding the two equations creates exactly that: $$4x+(-3x+y)=20+(-7).$$"
     },
     {
-      "title": "Find the value of $x + y$",
-      "content": "Then $x+y = 5+8 = 13$. That matches choice <strong>C</strong> — <strong>C</strong> is correct.",
+      "title": "Read off the requested value",
+      "content": "The left side simplifies to $x+y$, and the right side is $13$. Therefore $$x+y=13.$$"
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice C is correct. Choice B is the negative of the answer, choice D is too large, and choice A is also negative and does not match the sum.",
       "desmosExpressions": [
-        "x = 5",
-        "y = 3x - 7"
+        "x=5",
+        "-3x+y=-7"
       ]
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "Choice C is correct. It's given that $4x=20$ and $-3x+y=-7$ is a system of equations with a solution $\\left(x,y\\right)$. Adding the second equation in the given system to the first equation yields $4x+(-3x+y)=20+\\left(-7\\right)$, which is equivalent to $x+y=13$. Thus, the value of $x+y$ is $13$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice A is incorrect. This represents the value of $-2\\left(x+y\\right)-1$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice B is incorrect. This represents the value of $-\\left(x+y\\right)$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice D is incorrect. This represents the value of $2\\left(x+y\\right)+1$."
     }
   ]
 }

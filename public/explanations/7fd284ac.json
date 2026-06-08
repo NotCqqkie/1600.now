@@ -4,28 +4,25 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the charity with the greatest percent of expenses on programs",
-      "content": "Scan the scatterplot for the highest data point on the y-axis. The topmost point lies at approximately $(3{,}400, 92)$ &mdash; about \\$3.4 billion in total income with roughly 92% of expenses on programs. This is the charity we need to analyze."
+      "title": "Identify the point being compared",
+      "content": "The charity with the greatest percent of expenses spent on programs is the highest point on the scatterplot, about $(3400,92)$. The actual percent is therefore about $92$."
     },
     {
-      "title": "Read the predicted value from the line of best fit",
-      "content": "At $x \\approx 3{,}400$, trace vertically up to the line of best fit and read the corresponding $y$-value. The line passes through this region at approximately $y = 85$. This is the model's predicted percent."
-    },
-    {
-      "title": "Calculate the residual (actual minus predicted)",
-      "content": "The residual is the actual value minus the predicted value:<br/>$$92 - 85 = 7$$<br/>The actual percent lies 7 percentage points above the predicted value. That matches choice B &mdash; <strong>B</strong> is correct.",
+      "title": "Estimate the fit line at that x-value",
+      "content": "Use the drawn line of best fit to predict the percent at $x\\approx3400$. A Desmos check using approximate points on the fit line gives $y\\approx0.00184x+78.8$.",
       "desmosExpressions": [
-        "(1300, 74)",
-        "(1500, 82)",
-        "(1550, 84)",
-        "(1550, 85)",
-        "(3300, 84)",
-        "(3400, 92)",
-        "(4200, 91)",
-        "(4500, 89)",
-        "(4500, 80)",
-        "(6000, 87)",
-        "y = 0.00184x + 78.8"
+        "x_1=[1300,6000]",
+        "y_1=[81.2,89.8]",
+        "y_1~m x_1+b"
+      ]
+    },
+    {
+      "title": "Compute the residual",
+      "content": "At $x=3400$, the model predicts about $0.00184(3400)+78.8\\approx85$. The actual point is about $92$, so the difference is $92-85=7$ percentage points. Choice <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "y=0.00184x+78.8",
+        "(3400,92)",
+        "(3400,85)"
       ]
     }
   ]

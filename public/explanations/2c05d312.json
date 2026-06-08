@@ -4,32 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify coefficients",
-      "content": "$57x^2+(57b+a)x+ab=0$ has leading coefficient $57$ and constant term $ab$."
+      "title": "Use Vieta's product formula",
+      "content": "For a quadratic $Ax^2+Bx+C=0$, the product of the two solutions is $\\frac{C}{A}$. Here the leading coefficient is $57$ and the constant term is $ab$."
     },
     {
-      "title": "Apply Vieta&apos;s product formula",
-      "content": "$$\\text{product of solutions}=\\frac{c}{a_{\\text{coef}}}=\\frac{ab}{57}$$"
+      "title": "Compute the product",
+      "content": "So the product of the two solutions is:<br/>$$\\frac{ab}{57}$$<br/>The problem says this product is $kab$, so:<br/>$$kab=\\frac{ab}{57}$$"
     },
     {
-      "title": "Read off $k$",
-      "content": "Since the product equals $k\\cdot ab$, we get $k=\\dfrac{1}{57}$. That matches choice A — <strong>A</strong> is correct."
+      "title": "Solve for k",
+      "content": "Since $a$ and $b$ are positive, $ab\\ne0$, so divide both sides by $ab$:<br/>$$k=\\frac{1}{57}$$<br/>That matches choice A, so <strong>A</strong> is correct."
     },
     {
-      "title": "Use the source rationale",
-      "content": "Choice A is correct. The left-hand side of the given equation is the expression $57{x}^{2}+\\left(57b+a\\right)x+ab$. Applying the distributive property to this expression yields $57{x}^{2}+57bx+ax+ab$. Since the first two terms of this expression have a common factor of $57x$ and the last two terms of this expression have a common factor of $a$, this expression can be rewritten as $57x\\left(x+b\\right)+a\\left(x+b\\right)$. Since the two terms of this expression have a common factor of $\\left(x+b\\right)$, it can be rewritten as $\\left(x+b\\right)\\left(57x+a\\right)$. Therefore, the given equation can be rewritten as $\\left(x+b\\right)\\left(57x+a\\right)=0$. By the zero product property, it follows that $x+b=0$ or $57x+a=0$. Subtracting $b$ from both sides of the equation $x+b=0$ yields $x=-b$. Subtracting $a$ from both sides of the equation $57x+a=0$ yields $57x=-a$. Dividing both sides of this equation by $57$ yields $x=\\frac{-a}{57}$. Therefore, the solutions to the given equation are $-b$ and $\\frac{-a}{57}$. It follows that the product of the solutions of the given equation is $\\left(-b\\right)\\left(\\frac{-a}{57}\\right)$, or $\\frac{ab}{57}$. It's given that the product of the solutions of the given equation is $kab$. It follows that $\\frac{ab}{57}=kab$, which can also be written as $ab\\left(\\frac{1}{57}\\right)=ab\\left(k\\right)$. It's given that $a$ and $b$ are positive constants. Therefore, dividing both sides of the equation $ab\\left(\\frac{1}{57}\\right)=ab\\left(k\\right)$ by $ab$ yields $\\frac{1}{57}=k$. Thus, the value of $k$ is $\\frac{1}{57}$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice B is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice C is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice D is incorrect and may result from conceptual or calculation errors."
+      "title": "Check by factoring",
+      "content": "The quadratic factors as:<br/>$$57x^2+(57b+a)x+ab=(x+b)(57x+a)$$<br/>The roots are $-b$ and $-\\frac{a}{57}$, and their product is $\\frac{ab}{57}$, confirming $k=\\frac{1}{57}$."
     }
   ]
 }

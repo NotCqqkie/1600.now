@@ -14,8 +14,6 @@ const VerifyEmail = () => {
   const [checking, setChecking] = useState(false);
   const [cooldown, setCooldown] = useState(30);
   const pollRef = useRef<number | null>(null);
-
-  // Redirect away if already verified or signed out.
   useEffect(() => {
     if (loading) return;
     if (!user) navigate("/login", { replace: true });
@@ -24,8 +22,6 @@ const VerifyEmail = () => {
       navigate("/bank", { replace: true });
     }
   }, [user, loading, navigate]);
-
-  // Quietly poll for verification every 4s.
   useEffect(() => {
     pollRef.current = window.setInterval(async () => {
       const verified = await reloadUser();
@@ -39,8 +35,6 @@ const VerifyEmail = () => {
       if (pollRef.current) window.clearInterval(pollRef.current);
     };
   }, [reloadUser, navigate]);
-
-  // Resend cooldown timer
   useEffect(() => {
     if (cooldown <= 0) return;
     const t = window.setTimeout(() => setCooldown((c) => c - 1), 1000);

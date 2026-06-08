@@ -16,6 +16,9 @@
       "title": "Predict at x = 25.5",
       "content": "The fitted line has slope about $-1$ and equation $y\\approx -x+34$. At $x=25.5$, the predicted value is $y\\approx -25.5+34=8.5$.",
       "desmosExpressions": [
+        "x_1=[24,34]",
+        "y_1=[10,0]",
+        "y_1~m x_1+b",
         "m(25.5)+b"
       ]
     },

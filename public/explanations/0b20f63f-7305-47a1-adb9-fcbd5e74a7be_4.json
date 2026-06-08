@@ -13,7 +13,21 @@
     },
     {
       "title": "Evaluate each answer choice",
-      "content": "<ul><li>Choice A: $14(x - 10y)(x - 10y)$ — this is $14(x-10y)^2$, which expands to $14(x^2 - 20xy + 100y^2)$, not the original. Eliminated.</li><li>Choice B: $14(x - 10y)(x + 10y)$ — this is exactly the factored form derived above. Kept.</li><li>Choice C: $14(x - 2y)(x - 50y)$ — expands to $14(x^2 - 52xy + 100y^2)$, wrong middle and sign. Eliminated.</li><li>Choice D: $14(x - 2y)(x + 50y)$ — expands to $14(x^2 + 48xy - 100y^2)$, wrong on all counts. Eliminated.</li></ul>That matches choice B — <strong>B</strong> is correct."
+      "content": "<ul><li>Choice A: $14(x - 10y)(x - 10y)$ has a middle term when expanded, so it is not the original.</li><li>Choice B: $14(x - 10y)(x + 10y)$ is exactly the difference-of-squares form.</li><li>Choice C: $14(x - 2y)(x - 50y)$ creates a middle term and the wrong sign on the $y^2$ term.</li><li>Choice D: $14(x - 2y)(x + 50y)$ also creates a middle term.</li></ul>That leaves choice B.",
+      "desmosExpressions": [
+        "x_1=[11,12]",
+        "y_1=[1,2]",
+        "o_1=14(x_1^2-100y_1^2)",
+        "b_1=14(x_1-10y_1)(x_1+10y_1)"
+      ]
+    },
+    {
+      "title": "Check with Desmos",
+      "content": "A table check confirms the factorization:<br/>$$x_1=[11,12]$$<br/>$$y_1=[1,2]$$<br/>$$o_1=14(x_1^2-100y_1^2)$$<br/>$$b_1=14(x_1-10y_1)(x_1+10y_1)$$<br/>The original expression and choice B give the same output list."
+    },
+    {
+      "title": "Answer",
+      "content": "$14(x-10y)(x+10y)$ matches choice B, so <strong>B</strong> is correct."
     }
   ]
 }

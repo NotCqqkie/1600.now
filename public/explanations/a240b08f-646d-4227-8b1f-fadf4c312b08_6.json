@@ -4,18 +4,19 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the y-intercept from the graph",
-      "content": "The line crosses the $y$-axis at $(0, -1)$, so the constant term is $b = -1$."
-    },
-    {
-      "title": "Compute the slope from two clear points",
-      "content": "The line also passes through $(1, -6)$. Slope is:<br/>$$m = \\frac{-6 - (-1)}{1 - 0} = \\frac{-5}{1} = -5$$"
+      "title": "Use a two-point Desmos table",
+      "content": "The fastest way is to put two clear points from the graph into Desmos. The line crosses the y-axis at $(0,-1)$ and also passes through $(1,-6)$. A linear regression returns slope $-5$ and intercept $-1$.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[-1,-6]",
+        "y_1~m x_1+b"
+      ]
     },
     {
       "title": "Assemble the equation and test each choice",
-      "content": "With $m = -5$ and $b = -1$: $f(x) = -5x - 1$.<ul><li>Choice A ($-14x - 9$): slope and intercept both wrong.</li><li>Choice B ($-5x - 1$): matches both slope and intercept.</li><li>Choice C ($-5x + 8$): correct slope but intercept $+8$ doesn't match $-1$.</li><li>Choice D ($-14x + 8$): wrong slope and intercept.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
+      "content": "With $m=-5$ and $b=-1$, $f(x)=-5x-1$. Choice A has the wrong slope and wrong intercept. Choice B matches both. Choice C has the right slope but the wrong intercept. Choice D has the wrong slope and wrong intercept. Choice <strong>B</strong> is correct.",
       "desmosExpressions": [
-        "y = -5x - 1"
+        "y=-5x-1"
       ]
     }
   ]

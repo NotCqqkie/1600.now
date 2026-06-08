@@ -5,15 +5,20 @@
   "steps": [
     {
       "title": "Translate the question",
-      "content": "The predicted $y$-value is the height of the line of best fit at the same $x$-value as the data point. A point has an actual $y$-value greater than the predicted value exactly when the point is visually above the line."
+      "content": "The predicted $y$-value is the height of the line of best fit at the same $x$-value as the data point. The actual $y$-value is the height of the dot. So a point counts exactly when the dot is above the line."
     },
     {
       "title": "Count by residual sign",
-      "content": "Scan from left to right and mark each point as above, on, or below the line. Only points strictly above the line count; points on the line would have actual and predicted values equal, so they do not count."
+      "content": "The line of best fit is approximately $y=x$. Moving left to right, the dots above the line are near $x\\approx0.3$, $1.0$, $2.0$, $4.2$, $6.1$, and $9.2$. The dots near $x\\approx2.8$, $3.7$, $4.8$, and $7.4$ are below the line.",
+      "desmosExpressions": [
+        "x_1=[0.3,1.0,2.0,2.8,3.7,4.2,4.8,6.1,7.4,9.2]",
+        "y_1=[0.9,1.5,2.6,1.5,3.3,4.7,4.1,6.5,6.8,10]",
+        "y=x"
+      ]
     },
     {
       "title": "Match the count",
-      "content": "The scatterplot has $6$ points above the line of best fit and $4$ points at or below it. The number of data points with actual $y$-values greater than predicted $y$-values is $6$, which matches choice <strong>C</strong>."
+      "content": "There are $6$ points above the line, so there are $6$ data points whose actual $y$-value is greater than the predicted $y$-value. That matches choice <strong>C</strong>."
     }
   ]
 }

@@ -4,32 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve the system by substitution",
-      "content": "From $5x=15$, $x=3$. Substitute into $-4x+y=-2$: $-12+y=-2$, so $y=10$."
+      "title": "Use the fastest combination",
+      "content": "The problem asks for $x+y$, not for $x$ and $y$ separately. Add the two equations directly."
     },
     {
-      "title": "Find the value of $x + y$",
-      "content": "Then $x+y=3+10=13$. That matches choice <strong>C</strong> — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "x = 3",
-        "y = 4x - 2"
-      ]
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "Choice C is correct. Adding the second equation of the given system to the first equation yields $5x+\\left(-4x+y\\right)=15+\\left(-2\\right)$, which is equivalent to $x+y=13$. So the value of $x+y$ is $13$."
+      "title": "Add the equations",
+      "content": "$$5x=15$$ $$-4x+y=-2$$ Adding gives $$x+y=13$$ because $5x+(-4x)=x$ and $15+(-2)=13$."
     },
     {
       "title": "Check the choices",
-      "content": "Choice A is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice B is incorrect. This is the value of $-(x+y)$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice D is incorrect and may result from conceptual or calculation errors."
+      "content": "The requested value is already $x+y=13$, so choice C is correct. Choice B is the negative of the answer."
     }
   ]
 }

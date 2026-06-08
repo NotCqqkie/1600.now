@@ -527,10 +527,6 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   }, [previewEmbed, routerNavigate]);
   const location = useLocation();
   const [searchParams] = useSearchParams();
-  // The embed=1 URL mode is only intended for embedded previews. If a user
-  // navigates here directly (top-level window), strip the embed param and
-  // reload as a normal question page so they don't get the cropped/no-scroll
-  // preview UI.
   const isNativeEmbed = Boolean(previewEmbed);
   const [questionRootElement, setQuestionRootElement] = useState<HTMLDivElement | null>(null);
   const handleQuestionRootRef = useCallback((node: HTMLDivElement | null) => {
@@ -564,8 +560,6 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   useEffect(() => {
     if (previewEmbedIsDarkMode !== undefined) setEmbedIsDark(previewEmbedIsDarkMode);
   }, [previewEmbedIsDarkMode]);
-  // In iframe embed mode: apply theme to that document only (no localStorage,
-  // no event dispatch, so toggling inside the preview won't flip the parent).
   useEffect(() => {
     if (!isEmbed || isNativeEmbed || typeof document === "undefined") return;
     const root = document.documentElement;
@@ -587,9 +581,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
           { type: "homeDemoScroll", deltaX, deltaY },
           window.location.origin,
         );
-      } catch {
-        /* noop */
-      }
+      } catch {}
     };
     const forwardWheel = (e: WheelEvent) => {
       e.preventDefault();
@@ -842,7 +834,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   const { user } = useAuth();
   const uid = user?.id ?? null;
   const { progress, addAttempt, toggleReview } = useUserProgress();
-  
+
   const [selectedAnswer, setSelectedAnswer] = useState<string>("");
   const [freeResponseAnswer, setFreeResponseAnswer] = useState<string>("");
   const [strikeoutMode, setStrikeoutMode] = useState(
@@ -1137,10 +1129,6 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       .map((id) => itemMap.get(id))
       .filter((item): item is OrderedNavigationItem => Boolean(item));
   }, [baseNavigationItems, groupedQuestionOrder]);
-
-  // Items for the 100 Hard Questions navigator — storageId matches the
-  // localStateKey format "question-N" so BankNavigationSheet reads the
-  // same localStorage keys as the rest of the hard question logic.
   const orderedQuestionIds = useMemo(
     () => orderedNavigationItems.map((item) => item.id),
     [orderedNavigationItems],
@@ -1412,8 +1400,8 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     document.body.classList.add("noselect");
 
     const handleMouseMove = (e: MouseEvent) => {
-      const availableWidth = isSplitScreenActive 
-        ? (window.innerWidth * splitPosition) / 100 
+      const availableWidth = isSplitScreenActive
+        ? (window.innerWidth * splitPosition) / 100
         : window.innerWidth;
       const newPosition = (e.clientX / availableWidth) * 100;
       const clampedPosition = Math.max(25, Math.min(75, newPosition));
@@ -1673,13 +1661,13 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     const { center = false } = options;
     const html = getRenderedContentHtml(content, options);
     return (
-      <div 
+      <div
         className={cn("text-foreground break-words prose prose-stone dark:prose-invert max-w-none", center && "text-center")}
         style={{ fontFamily: "var(--question-font-family, 'Noto Serif', serif)", fontSize: "calc(1rem * var(--question-font-scale, 1))", lineHeight: "1.73" }}
       >
-        <span 
+        <span
           style={{ display: "block", width: "100%" }}
-          dangerouslySetInnerHTML={{ __html: html }} 
+          dangerouslySetInnerHTML={{ __html: html }}
         />
       </div>
     );
@@ -2043,7 +2031,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     if (!currentQuestion) return;
     if (isAssessmentMode && !assessmentAllowsChecking) return;
     const userAnswer = overrideAnswer || (currentQuestion.type === 'multiple-choice' ? selectedAnswer : freeResponseAnswer);
-    
+
     if (!userAnswer) {
       toast.error("Please provide an answer");
       return;
@@ -2064,7 +2052,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     }
 
     const isCorrect = answersEquivalent(userAnswer, currentQuestion.correctAnswer);
-    
+
     let formattedAnswer = userAnswer;
     if (currentQuestion.type === "multiple-choice" && currentQuestion.choices) {
       const choice = currentQuestion.choices.find(c => c.id === userAnswer);
@@ -2072,7 +2060,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
         formattedAnswer = `${userAnswer}. ${choice.text || ""}`.trim();
       }
     }
-    
+
     const newCheckedAnswers = { ...checkedAnswers, [userAnswer]: isCorrect };
     setCheckedAnswers(newCheckedAnswers);
     const newAttemptCount = attemptCount + 1;
@@ -2198,10 +2186,10 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
             e.preventDefault();
             const choiceIds = currentQuestion.choices.map(c => c.id);
             if (choiceIds.length === 0) return;
-            
+
             const currentIndex = choiceIds.indexOf(selectedAnswer);
             let nextIndex = 0;
-            
+
             if (currentIndex === -1) {
               nextIndex = e.key === 'ArrowDown' ? 0 : choiceIds.length - 1;
             } else {
@@ -2211,7 +2199,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                 nextIndex = (currentIndex + 1) % choiceIds.length;
               }
             }
-            
+
             const nextId = choiceIds[nextIndex];
             setSelectedAnswer(nextId);
             if (isAssessmentMode) {
@@ -2387,7 +2375,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   const isReadingPassageAnnotatable = subject === "reading" && Boolean(readingPassageContent);
   const shouldReduceQuestionImageSize = isBank;
   const isPracticeQuestionBankLoading = needsModulePracticeBank && !modulePracticeBank;
-      
+
   const renderQuestionImages = () => {
     if (!questionImages?.length) return null;
 
@@ -2417,7 +2405,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       </div>
     );
   };
-  
+
   const backDestination = practiceExitTo || (is100Hard ? "/hard" : isBank ? `/bank?bankType=${bankSource}` : "/bank");
 
   useEffect(() => {
@@ -3087,7 +3075,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                 {isAssessmentMode ? "Save & Exit" : "Home"}
               </Button>
             </div>
-            <div 
+            <div
               ref={topMeasurementRef}
               aria-hidden="true"
               className="absolute -left-[9999px] flex items-center gap-2 whitespace-nowrap"
@@ -3130,7 +3118,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
         className={`flex-1 pb-28 ${effectiveQuestionViewMode === 'horizontal' ? 'px-8 py-6' : 'px-4 py-8'}`}
         style={isSplitScreenActive ? { maxWidth: "var(--sat-split-pct, 70%)", marginLeft: 0 } : effectiveQuestionViewMode === 'horizontal' ? { width: "100%" } : { maxWidth: "1280px", margin: "0 auto", width: "100%" }}
       >
-        <div 
+        <div
           className={`relative ${effectiveQuestionViewMode === 'horizontal' ? 'p-6' : 'p-4 sm:p-6 md:p-8'}`}
           style={{ maxWidth: isSplitScreenActive || effectiveQuestionViewMode === 'horizontal' ? "100%" : "56rem", margin: isSplitScreenActive || effectiveQuestionViewMode === 'horizontal' ? "0" : "0 auto" }}
         >
@@ -3153,7 +3141,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                 )}
               </div>
 
-              <div 
+              <div
                 className="w-4 cursor-col-resize flex items-center justify-center group flex-shrink-0 self-stretch"
                 onMouseDown={() => setIsResizingQuestionSplit(true)}
               >
@@ -3169,7 +3157,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                     <div className="bg-white dark:bg-black text-black dark:text-white h-full min-w-[3.75rem] px-2 flex items-center justify-center font-bold text-lg tabular-nums shrink-0 border-r border-slate-200 dark:border-slate-700 mr-1 -ml-1">
                       {displayQuestionNumber}
                     </div>
-                    
+
                     <Button
                       variant="ghost"
                       onClick={handleToggleReview}
@@ -3241,7 +3229,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                     <div className="bg-white dark:bg-black text-black dark:text-white h-full min-w-[4.25rem] px-2 flex items-center justify-center font-bold text-xl tabular-nums shrink-0 border-r border-slate-200 dark:border-slate-700 mr-1">
                       {displayQuestionNumber}
                     </div>
-                    
+
                     <Button
                       variant="ghost"
                       onClick={handleToggleReview}
@@ -3473,7 +3461,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                 />
               )}
               {(!isAssessmentMode || assessmentAllowsChecking) && (
-                <Button 
+                <Button
                   onClick={() => handleCheck()}
                   disabled={isCheckDisabled}
                   variant="outline"
@@ -3497,8 +3485,8 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                 <ChevronRight className={shouldCompress ? "h-4 w-4" : "ml-1 h-4 w-4"} />
               </Button>
             </div>
-            
-            <div 
+
+            <div
               ref={bottomMeasurementRef}
               aria-hidden="true"
               className="absolute -left-[9999px] flex gap-2 whitespace-nowrap"

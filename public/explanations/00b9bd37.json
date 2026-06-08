@@ -4,26 +4,26 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the intercepts",
-      "content": "The graph is a budget line. The two easiest points to use are the intercepts: $(0,35)$ and $(90,0)$."
-    },
-    {
-      "title": "Graph or test the choices",
-      "content": "In Desmos, graph the candidate equations and compare their intercepts. Choice B, $7x+18y=630$, passes through both intercepts: $7(0)+18(35)=630$ and $7(90)+18(0)=630$.",
+      "title": "Use the graph intercepts",
+      "content": "The graph gives two clean intercepts: $(0,35)$ and $(90,0)$. Because the answer choices include standard-form budget equations, fit the form $a x+b y=630$ in Desmos instead of manually finding slope first.",
       "desmosExpressions": [
-        "7x+18y=630",
-        "18x+7y=630",
-        "y=7x+18",
-        "y=18x+7"
+        "x_1=[0,90]",
+        "y_1=[35,0]",
+        "a x_1+b y_1~630"
       ]
     },
     {
-      "title": "Interpret the equation",
-      "content": "The equation $7x+18y=630$ means each T-shirt costs $7$, each sweatshirt costs $18$, and the total budget is $630$. That matches the graph's maximum of $90$ T-shirts or $35$ sweatshirts."
+      "title": "Read the coefficients",
+      "content": "Desmos returns $a=7$ and $b=18$, so the equation is $$7x+18y=630.$$ This also matches the context: 90 T-shirts at 7 dollars each or 35 sweatshirts at 18 dollars each both use the full 630-dollar budget."
     },
     {
-      "title": "Confirm the answer",
-      "content": "Only choice B matches both graph intercepts and the fixed-budget context, so choice <strong>B</strong> is correct."
+      "title": "Match the answer",
+      "content": "Choice B is $7x+18y=630$. The other standard-form choice swaps the costs, and the slope-intercept choices have positive slope, which does not match a fixed-budget line. Choice <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "7x+18y=630",
+        "(0,35)",
+        "(90,0)"
+      ]
     }
   ]
 }

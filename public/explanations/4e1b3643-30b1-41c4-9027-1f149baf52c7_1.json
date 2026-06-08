@@ -4,20 +4,25 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up",
-      "content": "The solution to the system is the intersection point of the two lines. Read its coordinates from the graph."
+      "title": "Use the intersection shortcut",
+      "content": "For a system of two graphed linear equations, the solution is the point where the two lines cross. The question asks only for the $y$-value of that solution, so you do not need both equations unless you want a check."
     },
     {
-      "title": "Solve",
-      "content": "The lines intersect at $(-2, 3)$, so $y = 3$."
+      "title": "Read the intersection from the grid",
+      "content": "The two lines cross at the grid point $(-2,3)$. The ordered pair is $(x,y)=(-2,3)$, so the requested value is the second coordinate: $$y=3.$$"
     },
     {
-      "title": "Answer",
-      "content": "<strong>D</strong> is correct."
+      "title": "Check in Desmos",
+      "content": "If you recreate the two visible lines in Desmos, the shallow line is $y=-x+1$ and the steeper line is $y=-4x-5$. Their intersection is $(-2,3)$, confirming that the answer is choice <strong>D</strong>.",
+      "desmosExpressions": [
+        "y=-x+1",
+        "y=-4x-5",
+        "(-2,3)"
+      ]
     },
     {
-      "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice D, 3, and the other choices fail the same setup or substitution. Therefore <strong>D</strong> is correct."
+      "title": "Confirm the choice",
+      "content": "The choices are possible $y$-values. Since the intersection's $y$-coordinate is $3$, choice <strong>D</strong> is correct."
     }
   ]
 }

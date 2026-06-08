@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the calculation",
-      "content": "At \\$2 per pound, the cost for $c$ pounds is found by multiplying the rate by the quantity."
-    },
-    {
-      "title": "Multiply to find the total cost",
-      "content": "$$2 \\times c = 2c \\text{ dollars}$$<br/>This matches choice A — <strong>A</strong> is correct."
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "Choice A is correct. If one pound of grapes costs \\$2, two pounds of grapes will cost 2 times \\$2, three pounds of grapes will cost 3 times \\$2, and so on. Therefore, <em>c</em> pounds of grapes will cost <em>c</em> times \\$2, which is 2<em>c</em> dollars."
+      "title": "Use rate times quantity",
+      "content": "The rate is $2$ dollars per pound. For $c$ pounds, multiply the rate by the number of pounds: $$2\\cdot c=2c.$$"
     },
     {
       "title": "Check the choices",
-      "content": "Choice B is incorrect and may result from incorrectly adding instead of multiplying. Choice C is incorrect and may result from assuming that <em>c</em> pounds cost \\$2, and then finding the cost per pound. Choice D is incorrect and could result from incorrectly assuming that 2 pounds cost \\$<em>c</em>, and then finding the cost per pound."
+      "content": "Choice A is correct because it multiplies dollars per pound by pounds. Choice B adds instead of multiplying. Choice C divides $2$ by the number of pounds. Choice D treats $c$ as the total cost for $2$ pounds instead of the number of pounds."
+    },
+    {
+      "title": "Confirm with a quick number",
+      "content": "For example, if $c=3$, the cost should be $3\\cdot \\$2=\\$6$. Choice A gives $2c=6$, so <strong>A</strong> is correct."
     }
   ]
 }

@@ -4,15 +4,28 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Standard form $f(x) = a \\cdot b^x$ shows $c$ directly as the coefficient",
-      "content": "When an exponential function is written as $f(x) = a(b)^x$, we have:<br/>$$f(0) = a(b)^0 = a$$<br/>The coefficient $a$ equals $f(0) = c$ directly, without computation needed. Any exponent shift like $b^{x+1}$ or $b^{x-1}$ requires calculation."
+      "title": "Use a one-row Desmos table",
+      "content": "The question asks which equation shows $c=f(0)$ as the coefficient or base. Make the fastest possible table: set $x_1=[0]$, then evaluate each answer choice at that one input. All four forms are equivalent, so they should all output the same value; the issue is which form displays that value as the coefficient.",
+      "desmosExpressions": [
+        "x_1=[0]",
+        "a_1=22(1.5)^{x_1+1}",
+        "b_1=33(1.5)^{x_1}",
+        "c_1=49.5(1.5)^{x_1-1}",
+        "d_1=74.25(1.5)^{x_1-2}"
+      ]
     },
     {
-      "title": "Identify the standard form choice",
-      "content": "Scanning the choices:<br/>• Choice A: has $b^{x+1}$ (shifted)<br/>• <strong>Choice B: $f(x) = 33(1.5)^x$ has standard form</strong><br/>• Choice C: has $b^{x-1}$ (shifted)<br/>• Choice D: has $b^{x-2}$ (shifted)<br/><br/>Only Choice B has no exponent shift, so $f(0) = 33(1.5)^0 = 33$ and the coefficient 33 is the value of $c$. That matches choice B — <strong>B</strong> is correct.",
+      "title": "Look for exponent zero at x = 0",
+      "content": "At $x=0$, the Desmos table gives $33$ for every equivalent form. The value is shown directly as the coefficient only when the exponent becomes $0$, because $(1.5)^0=1$. In choice B, $f(x)=33(1.5)^x$, so $f(0)=33(1.5)^0=33$. The coefficient $33$ is exactly $c$.",
       "desmosExpressions": [
-        "f(x)=33((1.5))^(x)"
+        "y=33(1.5)^x",
+        "(0,33)",
+        "x=0"
       ]
+    },
+    {
+      "title": "Eliminate the shifted forms",
+      "content": "Choice A shows $f(-1)$ as the coefficient, choice C shows $f(1)$ as the coefficient, and choice D shows $f(2)$ as the coefficient. Only choice B shows $f(0)$ as the coefficient. Choice <strong>B</strong> is correct."
     }
   ]
 }

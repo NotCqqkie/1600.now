@@ -4,19 +4,25 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recognize the exponential growth pattern",
-      "content": "The bacteria <strong>double every day</strong>, which means the population follows exponential growth. Exponential growth has the form: initial amount times a growth factor raised to the time power.",
-      "formula": "$$y = a \\cdot b^t$$"
-    },
-    {
-      "title": "Identify the parameters",
-      "content": "From the problem: <br/> • Initial number of bacteria (a) = 44,000 <br/> • Growth factor when doubling each day (b) = 2"
-    },
-    {
-      "title": "Write the equation and verify",
-      "content": "Substitute $a = 44,000$ and $b = 2$: $$y = 44,000 \\cdot 2^t$$ Verify at $t = 0$: $y = 44,000(2)^0 = 44,000$ ✓ at the start. <br/>Verify at $t = 1$: $y = 44,000(2)^1 = 88,000$, double the initial amount ✓. <br/>This matches choice D — <strong>D</strong> is correct.",
+      "title": "Fit the doubling pattern",
+      "content": "The bacteria count starts at 44,000, so use $(0,44000)$. Doubling every day means after one day there are 88,000 bacteria, so use $(1,88000)$. Fit $y_1\\sim a b^{x_1}$ in Desmos.",
       "desmosExpressions": [
-        "y=44000((2))^(t)"
+        "x_1=[0,1]",
+        "y_1=[44000,88000]",
+        "y_1~a b^{x_1}"
+      ]
+    },
+    {
+      "title": "Read the model",
+      "content": "Desmos gives $a=44000$ and $b=2$, so the model is $$y=44000(2)^t.$$"
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice D has the correct starting value and the doubling factor. Choices A and B use 44,000 as the exponential base, and choice C models halving instead of doubling. Choice <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "y=44000(2)^x",
+        "(0,44000)",
+        "(1,88000)"
       ]
     }
   ]

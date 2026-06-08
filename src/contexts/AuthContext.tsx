@@ -163,9 +163,6 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
           setRedirectError(error);
         }
       }
-
-      // Process any pending redirect result (from signInWithRedirect flow).
-      // onAuthStateChanged will fire afterward with the signed-in user.
       authModule
         .getRedirectResult(auth)
         .then((result) => {
@@ -180,7 +177,6 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
         })
         .catch((error: unknown) => {
           const code = (error as { code?: string } | null)?.code;
-          // No redirect pending — common, ignore.
           if (code === "auth/no-auth-event") return;
           console.error("Redirect sign-in failed:", error);
           setRedirectError(error);
@@ -230,8 +226,6 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
     try {
       await authModule.sendEmailVerification(result.user);
     } catch {
-      // Don't block signup if the verification email fails to send;
-      // the user can resend from the verify-email screen.
     }
     return { requiresVerification: !result.user.emailVerified };
   };
@@ -266,11 +260,6 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
       window.location.assign(localhostAuthUrl);
       return;
     }
-
-    // Use redirect rather than popup. Popup auth fails silently when modern
-    // browsers block third-party cookies / COOP isolates the popup window —
-    // signInWithPopup never resolves and the user is stuck on /login with no
-    // error. Redirect navigates the whole window and is reliable.
     await authModule.signInWithRedirect(auth, createGoogleProvider(authModule));
   };
 

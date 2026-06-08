@@ -9,7 +9,25 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; $x = 6$</strong>: Ordered: 6, 14, 15, 17, 18. Median $= 15$. Mean $= \\frac{70}{5} = 14$. Mean $\\neq$ median, so $x = 6$ is NOT a possible value. &#10003;</li><li><strong>Choice B &mdash; $x = 11$</strong>: Ordered: 11, 14, 15, 17, 18. Median $= 15$. Mean $= \\frac{75}{5} = 15$. Equal &mdash; possible. &#10007;</li><li><strong>Choice C &mdash; $x = 16$</strong>: Ordered: 14, 15, 16, 17, 18. Median $= 16$. Mean $= \\frac{80}{5} = 16$. Equal &mdash; possible. &#10007;</li><li><strong>Choice D &mdash; $x = 21$</strong>: Ordered: 14, 15, 17, 18, 21. Median $= 17$. Mean $= \\frac{85}{5} = 17$. Equal &mdash; possible. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "Use Desmos lists to test the choices quickly. For choice A, `mean(a_1)` is $14$ but `median(a_1)` is $15$, so $x=6$ does <em>not</em> work. The other three choices have equal mean and median, so they are possible values.",
+      "desmosExpressions": [
+        "a_1=[15,14,18,17,6]",
+        "b_1=[15,14,18,17,11]",
+        "c_1=[15,14,18,17,16]",
+        "d_1=[15,14,18,17,21]",
+        "\\operatorname{mean}\\left(a_1\\right)",
+        "\\operatorname{median}\\left(a_1\\right)",
+        "\\operatorname{mean}\\left(b_1\\right)",
+        "\\operatorname{median}\\left(b_1\\right)",
+        "\\operatorname{mean}\\left(c_1\\right)",
+        "\\operatorname{median}\\left(c_1\\right)",
+        "\\operatorname{mean}\\left(d_1\\right)",
+        "\\operatorname{median}\\left(d_1\\right)"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "<ul><li>A: mean $14$, median $15$ &mdash; not equal, so this is the value that is <em>not</em> possible.</li><li>B: mean $15$, median $15$ &mdash; possible.</li><li>C: mean $16$, median $16$ &mdash; possible.</li><li>D: mean $17$, median $17$ &mdash; possible.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

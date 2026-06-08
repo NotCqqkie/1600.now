@@ -9,10 +9,7 @@
     },
     {
       "title": "Two distinct real solutions → discriminant > 0",
-      "content": "$(-16)^2 - 4(n-26)(8) > 0$ → $256 - 32(n-26) > 0$ → $n - 26 < 8$ → $n < 34$.",
-      "desmosExpressions": [
-        "256-32*(n-26)>0"
-      ]
+      "content": "$(-16)^2 - 4(n-26)(8) > 0$ → $256 - 32(n-26) > 0$ → $n - 26 < 8$ → $n < 34$."
     },
     {
       "title": "Greatest integer n",

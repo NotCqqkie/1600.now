@@ -5,14 +5,22 @@
   "steps": [
     {
       "title": "Constant work rate produces a linear relationship",
-      "content": "The inspector works at a constant rate, checking the same number of shirts per unit time. If she starts with $N$ shirts and checks $r$ shirts per unit time, then after time $t$:<br/>$$\\text{Remaining} = N - rt$$"
+      "content": "The phrase <strong>constant rate</strong> is the shortcut. If the inspector checks the same number of shirts each unit of time, the number remaining changes by the same amount each unit of time, so the model is linear."
     },
     {
-      "title": "The negative coefficient indicates the slope direction",
-      "content": "The equation $\\text{Remaining} = N - rt$ is linear with slope $-r$. Since the slope is negative, remaining shirts decrease at a constant rate as time increases. That matches choice B — <strong>B</strong> is correct.",
+      "title": "Use a sample table to see the model type",
+      "content": "Pick any concrete constant-rate example, such as starting with $120$ shirts and checking $15$ shirts per hour. The points $(0,120)$, $(1,105)$, and $(2,90)$ fit a line with negative slope. Desmos regression shows the same structure as the general model $\\text{remaining}=N-rt$.",
       "desmosExpressions": [
-        "y = -mx + b"
+        "x_1=[0,1,2]",
+        "y_1=[120,105,90]",
+        "y_1~m x_1+b",
+        "y=m x+b",
+        "y=120-15x"
       ]
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "The number remaining decreases as time increases, so the slope is negative. A constant rate of decrease is a linear model with a negative slope, which is choice <strong>B</strong>."
     }
   ]
 }

@@ -4,15 +4,25 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find y when x = 0",
-      "content": "Plug $x = 0$ into $y = 70x + 8$:<br/>$$y = 70(0) + 8 = 8$$<br/>Looking at the tables, choices B and C show $y = 70$ when $x = 0$, which doesn't match. Both A and D show $y = 8$ when $x = 0$, matching our calculation."
+      "title": "Evaluate the equation as a list",
+      "content": "All choices use $x=0$, $2$, and $4$. Enter $x_1=[0,2,4]$ and compute $70x_1+8$. Desmos returns $[8,148,288]$.",
+      "desmosExpressions": [
+        "x_1=[0,2,4]",
+        "70x_1+8"
+      ]
     },
     {
-      "title": "Verify with x = 2",
-      "content": "Plug $x = 2$ into $y = 70x + 8$:<br/>$$y = 70(2) + 8 = 140 + 8 = 148$$<br/>Choice A shows $y = 148$ when $x = 2$, matching our result. Choice D shows $y = 132$, which doesn't match.<br/>That matches choice A — <strong>A</strong> is correct.",
+      "title": "Match the output list",
+      "content": "Choice A is the only table with $y$-values $8$, $148$, and $288$ for those $x$-values. You can enter the choice A list as $a_1=[8,148,288]$ and compare it to $70x_1+8$.",
       "desmosExpressions": [
-        "y=70x+8"
+        "x_1=[0,2,4]",
+        "a_1=[8,148,288]",
+        "70x_1+8"
       ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "Because choice A matches the whole output list, choice <strong>A</strong> is correct."
     }
   ]
 }

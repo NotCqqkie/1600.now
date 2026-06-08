@@ -4,18 +4,26 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Calculate the slope from the two known points",
-      "content": "The company earns a profit of \\$220 when selling 8 items and a profit of \\$320 when selling 10 items. Using the slope formula with points $(8, 220)$ and $(10, 320)$:<br/>$$m = \\frac{320 - 220}{10 - 8} = \\frac{100}{2} = 50$$<br/>The slope is 50, meaning profit increases by \\$50 per item sold.",
-      "formula": "$$m = \\frac{y_2 - y_1}{x_2 - x_1}$$"
+      "title": "Enter the two profit points",
+      "content": "The problem gives two points on the linear function: $(8,220)$ and $(10,320)$. Enter those points as two lists in Desmos.",
+      "desmosExpressions": [
+        "x_1=[8,10]",
+        "y_1=[220,320]"
+      ]
     },
     {
-      "title": "Use slope and a point to find the linear equation",
-      "content": "With slope $m = 50$ and the point $(8, 220)$, use the form $f(x) = mx + b$:<br/>$$220 = 50(8) + b$$<br/>$$220 = 400 + b$$<br/>$$b = -180$$<br/>Therefore $f(x) = 50x - 180$. That matches choice D — <strong>D</strong> is correct.",
+      "title": "Run a linear regression",
+      "content": "Type $y_1\\sim m x_1+b$. Desmos returns $m=50$ and $b=-180$, so the profit function is $f(x)=50x-180$.",
       "desmosExpressions": [
-        "y=50x-180",
-        "(8,220)",
-        "(10,320)"
+        "x_1=[8,10]",
+        "y_1=[220,320]",
+        "y_1~m x_1+b",
+        "y=50x-180"
       ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "Choice D matches $f(x)=50x-180$. It also checks with both given values: $f(8)=220$ and $f(10)=320$, so choice <strong>D</strong> is correct."
     }
   ]
 }

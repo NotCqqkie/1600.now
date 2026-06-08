@@ -5,7 +5,14 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "Points drop 20% every 5 seconds, starting at 490. A 20% decrease means each interval multiplies by $0.80$. After $x$ seconds there are $x/5$ intervals, so $f(x) = 490(0.80)^{x/5}$."
+      "content": "Points drop 20% every 5 seconds, starting at 490. A 20% decrease means each interval keeps $80\\%$, so each interval multiplies by $0.80$. In Desmos, make a small table: at $0$ seconds the score is $490$, at $5$ seconds it is $392$, and at $10$ seconds it is $313.6$. Exponential regression gives $a=490$ and $b=0.80$ for $y=a b^{x/5}$.",
+      "desmosExpressions": [
+        "x_1=[0,5,10]",
+        "y_1=[490,392,313.6]",
+        "y_1~a*b^{x_1/5}",
+        "y=a*b^{x/5}",
+        "y=490(0.80)^(x/5)"
+      ]
     },
     {
       "title": "Eliminate the choices",

@@ -4,12 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Determine the direction of the trend",
-      "content": "Graph all four candidate lines in Desmos and compare them to the scatterplot. The data trend upward steeply, so the correct line should have positive slope and should not be nearly flat.",
+      "title": "Fit the plotted points in Desmos",
+      "content": "Read approximate coordinates from the scatterplot and enter them as a table. Then run a linear regression. The fitted model is about $y=1.78x+0.22$, which is closest to $y=1.80x+0.2$.",
       "desmosExpressions": [
-        "y=-1.8x-0.2",
-        "y=-0.2x-1.8",
-        "y=0.2x+1.8",
+        "x_1=[1.4,2.2,4.5,5.3,7.7]",
+        "y_1=[1.7,4.7,9.7,9.0,13.5]",
+        "y_1~m x_1+b",
+        "y=m x+b",
         "y=1.8x+0.2"
       ]
     },

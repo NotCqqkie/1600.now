@@ -4,28 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the equation",
-      "content": "Set $f(x)=58$ and write the equation.<br/>$$5x+8=58$$"
+      "title": "Turn the function value into an equation",
+      "content": "The function is $f(x)=5x+8$, and the question says $f(x)=58$. Set the expression equal to $58$: $$5x+8=58.$$"
     },
     {
-      "title": "Solve for x",
-      "content": "Subtract $8$, then divide by $5$.<br/>$$5x=50\\;\\Rightarrow\\;x=10$$<br/>That matches choice <strong>A</strong> — <strong>A</strong> is correct."
+      "title": "Solve for the input",
+      "content": "Subtract $8$ from both sides to get $5x=50$. Then divide by $5$: $$x=10.$$ The question asks for $x$, not $f(58)$."
     },
     {
-      "title": "Use the source rationale",
-      "content": "Choice A is correct. It's given that the function $f$ is defined by $f\\left(x\\right)=5x+8$. Substituting $58$ for $f\\left(x\\right)$ in this equation yields $58=5x+8$. Subtracting $8$ from both sides of this equation yields $50=5x$. Dividing both sides of this equation by $5$ yields $10=x$. Therefore, the value of $x$ when $f\\left(x\\right)=58$ is $10$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice B is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice C is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice D is incorrect. This is the value of $f\\left(58\\right)$, not the value of $x$ when $f\\left(x\\right)=58$."
+      "title": "Confirm the choice",
+      "content": "Choice <strong>A</strong> is correct because $f(10)=5(10)+8=58$. Choice D is the trap from plugging $58$ into the function instead of finding the input."
     }
   ]
 }

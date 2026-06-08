@@ -4,14 +4,24 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Eliminate choices with incorrect y-intercepts",
-      "content": "The line crosses the y-axis at approximately $n = 16,000$ when $t = 0$. This is the y-intercept. Choices B and D have y-intercepts of approximately 4,690 and 9,060, which don't match the graph. Only choices A and C have y-intercepts close to 16,090."
+      "title": "Use intercepts to shrink the choices",
+      "content": "The line of best fit crosses the vertical axis a little above $16{,}000$ when $t=0$. That eliminates choices B and D immediately, because their intercepts are about $4{,}690$ and $9{,}060$. Only A and C have a reasonable intercept.",
+      "desmosExpressions": [
+        "x_1=[0,5]",
+        "y_1=[16000,40000]",
+        "y_1~m x_1+b"
+      ]
     },
     {
-      "title": "Use slope to select between A and C",
-      "content": "Choice A has slope 4,680; Choice C has slope 9,060. To determine which is correct, calculate the slope using two clear points on the line.<br/><br/>Using $(0, 16,000)$ and $(10, 64,000)$: $$m = \\frac{64,000 - 16,000}{10} = 4,800$$ <br/> Since 4,800 is much closer to 4,680 than to 9,060, the equation with slope 4,680 matches the line shown.<br/><br/>That matches choice A — <strong>A</strong> is correct.",
+      "title": "Use a two-point regression for the slope",
+      "content": "For a calculator check, put two readable points from the line into Desmos, such as $(0,16000)$ and $(5,40000)$, then run $y_1\\sim m x_1+b$. Desmos gives $m\\approx 4800$ and $b\\approx 16000$, so the slope should be near $4{,}800$, not near $9{,}060$."
+    },
+    {
+      "title": "Match the equation",
+      "content": "Choice A, $n=16{,}090+4{,}680t$, has the right intercept and a slope close to the fitted slope. Choice C has the right intercept but a slope almost twice as large. Therefore choice <strong>A</strong> is correct.",
       "desmosExpressions": [
-        "n = 16090 + 4680t"
+        "y=16090+4680x",
+        "y=16090+9060x"
       ]
     }
   ]

@@ -309,8 +309,6 @@ const HeroQuestionPreview = memo(({
 }: {
   isDarkMode: boolean;
   onOpenBank?: () => void;
-  // When false, render a same-size skeleton and defer the native preview until
-  // the hero counter has finished animating.
   ready?: boolean;
 }) => {
   const rootRef = useRef<HTMLDivElement>(null);
@@ -347,10 +345,6 @@ const HeroQuestionPreview = memo(({
     onOpenBank,
     onReady: handlePreviewReady,
   }), [handlePreviewNavigate, handlePreviewReady, isDarkMode, onOpenBank, previewQuestion.id, previewQuestion.subject]);
-
-  // Scale the native preview down: render at logical size then transform. The
-  // outer box clamps visual size; internal coordinates stay aligned.
-  // Mobile gets a smaller scale so the preview doesn't dominate the screen.
   const [isPhone, setIsPhone] = useState<boolean>(() =>
     typeof window !== "undefined" ? window.matchMedia("(max-width: 767px)").matches : false,
   );
@@ -473,7 +467,6 @@ const ExplanationFeatureSection = memo(({ isDarkMode }: { isDarkMode: boolean })
         margin: "0 auto",
       }}
     >
-      {/* Left — heading, body, CTA */}
       <div>
         <h2
           style={{
@@ -525,9 +518,6 @@ const ExplanationFeatureSection = memo(({ isDarkMode }: { isDarkMode: boolean })
         </button>
       </div>
 
-      {/* Right — native question preview with the explanation popup
-          auto-opening and stepping. Cursor overlay animates over its Next
-          button. */}
         <div style={{ position: "relative" }}>
         <div
           style={{
@@ -549,8 +539,6 @@ const ExplanationFeatureSection = memo(({ isDarkMode }: { isDarkMode: boolean })
   );
 });
 ExplanationFeatureSection.displayName = "ExplanationFeatureSection";
-
-// Auto-cycling explanation card mirroring StepByStepExplanation's chrome.
 const EXPLANATION_STEPS: {
   title: string;
   body: string;
@@ -708,15 +696,6 @@ const AnimatedExplanation = memo(({ isDarkMode, active }: { isDarkMode: boolean;
 });
 AnimatedExplanation.displayName = "AnimatedExplanation";
 
-// ─── Question bank feature section ───────────────────────────────────────────
-//
-// Left side: heading + CTA. Right side: a mocked "Question Bank" window with an
-// auto-cursor that visits filter controls and toggles them. The window is NOT a
-// real bank route — we render a stand-alone React mock so a signed-in viewer never
-// sees their own progress here. Counts are computed for a "blank user": any
-// filter that depends on personal progress (Solved/Marked/Incorrect/Time Spent)
-// collapses the result to zero, since a fresh account has no recorded activity.
-
 const FilterFeatureSection = memo(({
   isDarkMode,
   totalQuestions,
@@ -738,8 +717,6 @@ const FilterFeatureSection = memo(({
         margin: "0 auto",
       }}
     >
-      {/* Left — inline filter panel demo (real components, auto-cursor drives
-          real state updates). */}
       <div className="filter-demo-shell" style={{ position: "relative", minWidth: 0, width: "100%" }}>
         <div
           style={{
@@ -758,7 +735,6 @@ const FilterFeatureSection = memo(({
         </div>
       </div>
 
-      {/* Right — heading, body, CTA */}
       <div>
         <h2
           style={{
@@ -820,10 +796,6 @@ const FilterFeatureSection = memo(({
   );
 });
 FilterFeatureSection.displayName = "FilterFeatureSection";
-
-// ─── Practice tests feature section ──────────────────────────────────────────
-//
-// Left: heading + CTA. Right: a static score-card mock.
 
 const PracticeTestScoreShowcase = memo(() => {
   return (
@@ -1908,17 +1880,6 @@ const sectionVisibility = (intrinsicSize: string): React.CSSProperties => ({
   containIntrinsicSize: intrinsicSize,
 });
 
-// ─── Slot-machine digit counter ────────────────────────────────────────────
-// Counts from 0 → value. RAF writes directly to the DOM (no React render per
-// frame). A hidden sibling reserves the target width so the tick never
-// reflows. `contain: layout paint` keeps each repaint local.
-//
-// Critical: starts ONLY after `window.load` (all initial subresources are
-// done). Running during mount means RAF callbacks queue behind parsing / font
-// loading / six staggered CSS fades, which causes a "freeze then jump" lag.
-// With a 2500ms hard cap so we still animate on slow networks. Hidden until
-// launch so there's no stagnant "0".
-
 const SlotMachineCounter = memo(({
   value,
   startValue = 0,
@@ -1932,8 +1893,6 @@ const SlotMachineCounter = memo(({
 }) => {
   const spanRef = useRef<HTMLSpanElement>(null);
   const [revealed, setRevealed] = useState(false);
-  // Keep the latest onComplete in a ref so the empty-deps effect always sees
-  // the current callback without resetting the whole animation lifecycle.
   const onCompleteRef = useRef(onComplete);
   onCompleteRef.current = onComplete;
 
@@ -1941,8 +1900,6 @@ const SlotMachineCounter = memo(({
     if (typeof window === "undefined") return;
     const node = spanRef.current;
     if (!node) return;
-
-    // D: respect reduced-motion and low-end devices — skip the animation entirely.
     const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     const cpu = navigator.hardwareConcurrency ?? 8;
     const mem = (navigator as { deviceMemory?: number }).deviceMemory ?? 8;
@@ -1994,20 +1951,15 @@ const SlotMachineCounter = memo(({
       raf = requestAnimationFrame(tick);
       completeTimer = window.setTimeout(finish, countDuration + 300);
     };
-
-    // Trigger on window.load (initial images/fonts done) so RAF runs on a
-    // clear main thread. Hard cap fires the animation anyway if load is slow.
     const HARD_CAP_MS = 2500;
-    const MIN_DELAY_MS = 700; // floor so we never collide with hero entrance fades
+    const MIN_HERO_COUNTER_DELAY_MS = 700;
     const mountedAt = performance.now();
     let triggered = false;
     const trigger = () => {
       if (triggered || cancelled) return;
       triggered = true;
       const elapsed = performance.now() - mountedAt;
-      const wait = Math.max(0, MIN_DELAY_MS - elapsed);
-      // Small inner setTimeout absorbs the final reflow burst that often
-      // follows `load` (image decode, layout settle).
+      const wait = Math.max(0, MIN_HERO_COUNTER_DELAY_MS - elapsed);
       launchTimer = window.setTimeout(launch, wait + 80);
     };
 
@@ -2027,11 +1979,6 @@ const SlotMachineCounter = memo(({
       window.removeEventListener("load", trigger);
     };
   }, [countDuration, startValue, value]);
-
-  // inline-grid stacks both children in the same cell. The hidden placeholder
-  // reserves the target width so the counting span can change text without
-  // triggering layout. justifyItems: end right-aligns the digits, so the
-  // trailing digit anchors as leading digits grow in from the left.
   return (
     <span
       style={{
@@ -2053,8 +2000,6 @@ const SlotMachineCounter = memo(({
   );
 });
 SlotMachineCounter.displayName = "SlotMachineCounter";
-
-// ─── Floating math symbols (hero ambient) ──────────────────────────────────
 
 const MATH_SYMBOLS = ["∑", "π", "√", "∫", "∞", "θ", "Δ", "λ", "φ", "Ω", "α", "β"];
 
@@ -2143,93 +2088,6 @@ const FloatingMathSymbols = memo(({
   );
 });
 FloatingMathSymbols.displayName = "FloatingMathSymbols";
-
-// ─── Aurora mesh background (animated radial-gradient blobs) ───────────────
-
-const AuroraMesh = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
-  const blobs = isDarkMode
-    ? [
-        { c: "rgba(56,189,248,0.22)",  cls: "aurora-blob-a" },
-        { c: "rgba(99,102,241,0.20)",  cls: "aurora-blob-b" },
-        { c: "rgba(168,85,247,0.14)",  cls: "aurora-blob-c" },
-        { c: "rgba(251,191,36,0.08)",  cls: "aurora-blob-d" },
-      ]
-    : [
-        { c: "rgba(56,189,248,0.36)",  cls: "aurora-blob-a" },
-        { c: "rgba(129,140,248,0.28)", cls: "aurora-blob-b" },
-        { c: "rgba(244,114,182,0.18)", cls: "aurora-blob-c" },
-        { c: "rgba(250,204,21,0.18)",  cls: "aurora-blob-d" },
-      ];
-  return (
-    <div
-      aria-hidden
-      className="hp-fixed-layer"
-      style={{
-        // Fixed to viewport so it stays locked to the grid + curves as a
-        // single backdrop layer. Opacity is driven by the body-level
-        // `.hp-bg-hidden` class set by HomePageBackdrop's scroll handler.
-        position: "fixed",
-        top: 64,
-        left: 0,
-        right: 0,
-        height: "calc(100vh - 64px)",
-        overflow: "hidden",
-        pointerEvents: "none",
-        zIndex: 0,
-        filter: "blur(40px)",
-        WebkitMaskImage:
-          "linear-gradient(to bottom, black 0%, black 22%, rgba(0,0,0,0.55) 55%, transparent 92%)",
-        maskImage:
-          "linear-gradient(to bottom, black 0%, black 22%, rgba(0,0,0,0.55) 55%, transparent 92%)",
-      }}
-    >
-      {blobs.map((b, i) => (
-        <div
-          key={i}
-          className={b.cls}
-          style={{
-            position: "absolute",
-            borderRadius: "50%",
-            background: `radial-gradient(circle, ${b.c} 0%, transparent 70%)`,
-            willChange: "transform",
-          }}
-        />
-      ))}
-    </div>
-  );
-});
-AuroraMesh.displayName = "AuroraMesh";
-
-// ─── Home page graph backdrop (scrolling grid + axes/curve/marker) ─────────
-
-// Each entry has:
-//   typed: the plain-text source typed into the panel char-by-char (cursor animation)
-//   latex: KaTeX-renderable LaTeX that replaces the plain text once typing finishes
-//   path:  SVG path on the 1400×900 viewBox. Every path is centered around (700, 450)
-//          (the visual middle of the hero) so the graph reads as "going through" the
-//          headline/buttons area.
-// Each equation lists:
-//   latex: KaTeX source — rendered once, then "typed" in via a clip-path reveal
-//          so the formatted output is the thing that actually animates.
-//   path:  SVG path. Coordinates use viewBox 1400×900 mapped to math coords by
-//          (x_math = x_viewbox/100, y_math = (900 - y_viewbox)/100). Each path
-//          plots the corresponding equation for x ∈ [1, 13] so the curve fills
-//          the above-the-fold viewport without spilling below.
-// Math → viewBox mapping: x_vb = 100·x, y_vb = 270 + 55·(4.5 − y_math).
-// This places y_math=4.5 at y_vb=270 (≈ the subtitle row in the SVG), so
-// every curve's focal feature (vertex / midpoint / inflection) clusters
-// around that visual line — the curves all feel "centered" on the subtitle.
-//
-// `steps` is the progressive build of the LaTeX, used by the typing animation
-// to swap whole rendered components in order (instead of a left-to-right wipe).
-// Paths are stylized rather than mathematically exact — every curve's visual
-// focal point (parabola vertex / line midpoint / cubic inflection) lands at
-// viewBox y≈270, which corresponds to the subtitle row. Curves still reach
-// the viewBox edges (x=0..1400) so they hit the screen edges.
-// Each equation is rendered once via KaTeX, then revealed character-by-
-// character with a typewriter CSS animation (steps() timing on a clip-path
-// width). `charCount` controls how many discrete reveal steps the typewriter
-// uses — roughly the visual character count of the typeset equation.
 const HP_EQUATIONS = [
   {
     latex: "y=-(x-7)^{2}/8+8",
@@ -2240,8 +2098,6 @@ const HP_EQUATIONS = [
   {
     latex: "y=-x/2+8",
     charCount: 8,
-    // Shifted down ~150 viewBox units so the line's midpoint lands on the
-    // hero text block (buttons/counter row) instead of above the headline.
     path: "M 0 230 L 1400 610",
     html: "<span class=\"hp-equation-text\">y = -x/2 + 8</span>",
   },
@@ -2269,18 +2125,11 @@ type HPPhase =
   | "typing"
   | "typingHold"
   | "pushing"
-  // `clearing` — old curve fades out completely before the new one starts
-  // drawing. Nothing draws during this phase except the static fade-out.
   | "clearing"
   | "graphing"
   | "graphHold";
 
 type SlotState =
-  // `typing` renders the full KaTeX with a single CSS-driven typewriter
-  // animation — clip-path 100%→0% over `durationMs` with steps(charCount)
-  // timing. The caret rides the clip boundary at the same step pace and
-  // blinks. `cycleKey` keys the element so React remounts and the animation
-  // restarts on each new equation.
   | {
       mode: "typing";
       latex: string;
@@ -2293,25 +2142,12 @@ type SlotState =
   | { mode: "empty" };
 
 const HomePageBackdrop = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
-  // Single state machine drives the Desmos panel typing AND the curve draw,
-  // so the curve lands exactly when the new equation sits in slot 1.
-  //   typing       → user-style char-by-char typing into a row
-  //   typingHold   → typed equation pauses (cursor blinks)
-  //   pushing      → row 2 slides up into row 1, row 1 fades out (skipped on cycle 0)
-  //   graphing     → SVG path draws in
-  //   graphHold    → drawn curve rests, then we loop
   const [cycle, setCycle] = useState(0);
   const [phase, setPhase] = useState<HPPhase>("typing");
   const HP_PANEL_FONT_PX = 26;
-  // Per-character pacing of the typewriter reveal.
   const HP_MS_PER_CHAR = 90;
   const FIRST_CURVE_LEAD_MS = 750;
   const [firstCurveEarly, setFirstCurveEarly] = useState(false);
-  // Fade the entire backdrop (aurora + grid + curves) once the "An interface
-  // so easy…" title reaches the vertical middle of the viewport. Toggle a
-  // single body class — every backdrop element with `.hp-fixed-layer` reads
-  // from it via CSS, so AuroraMesh (in a separate component) and the grid
-  // layer here all stay in sync without prop drilling.
   useEffect(() => {
     let raf = 0;
     let currentVisible: boolean | null = null;
@@ -2342,10 +2178,6 @@ const HomePageBackdrop = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
   const currentEq = HP_EQUATIONS[cycle % HP_EQUATIONS.length];
   const prevEq = cycle === 0 ? null : HP_EQUATIONS[(cycle - 1) % HP_EQUATIONS.length];
   const isFirstCycle = cycle === 0;
-
-  // typing: one fixed timeout matching the CSS typewriter animation duration.
-  // The character-by-character reveal is driven entirely by the steps() CSS
-  // timing function on a clip-path animation.
   const currentTypingMs = currentEq.charCount * HP_MS_PER_CHAR;
   useEffect(() => {
     if (phase !== "typing") return;
@@ -2363,8 +2195,6 @@ const HomePageBackdrop = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
     );
     return () => window.clearTimeout(id);
   }, [isFirstCycle, phase, currentTypingMs]);
-
-  // typingHold → pushing (or clearing on first cycle, since there's no push)
   useEffect(() => {
     if (phase !== "typingHold") return;
     const id = window.setTimeout(() => {
@@ -2372,29 +2202,21 @@ const HomePageBackdrop = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
     }, isFirstCycle ? 250 : 750);
     return () => window.clearTimeout(id);
   }, [phase, isFirstCycle]);
-
-  // pushing → clearing (old curve gets the spotlight to fade away)
   useEffect(() => {
     if (phase !== "pushing") return;
     const id = window.setTimeout(() => setPhase("clearing"), 450);
     return () => window.clearTimeout(id);
   }, [phase]);
-
-  // clearing → graphing (only after old curve has fully faded)
   useEffect(() => {
     if (phase !== "clearing") return;
     const id = window.setTimeout(() => setPhase("graphing"), 950);
     return () => window.clearTimeout(id);
   }, [phase]);
-
-  // graphing → graphHold (slow, natural ease — matches hpDraw duration)
   useEffect(() => {
     if (phase !== "graphing") return;
     const id = window.setTimeout(() => setPhase("graphHold"), 3600);
     return () => window.clearTimeout(id);
   }, [phase]);
-
-  // graphHold → next cycle
   useEffect(() => {
     if (phase !== "graphHold") return;
     const id = window.setTimeout(() => {
@@ -2416,7 +2238,6 @@ const HomePageBackdrop = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
   let slot1: SlotState;
   let slot2: SlotState;
   if (isFirstCycle) {
-    // First equation types directly into slot 1; slot 2 stays empty.
     slot1 = phase === "typing"
       ? typingSlot()
       : { mode: "rendered", latex: currentEq.latex, html: currentEq.html };
@@ -2435,13 +2256,6 @@ const HomePageBackdrop = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
       slot2 = { mode: "empty" };
     }
   }
-
-  // Static curve = whichever equation is currently sitting drawn in slot 1.
-  // Sequence:
-  //   typing/typingHold/pushing: show previous cycle's curve (static, full opacity)
-  //   clearing: still show previous, but with `.fading` class → opacity 0
-  //   graphing: previous is gone; new curve animates in
-  //   graphHold: new curve stays as static
   let staticCurveIdx: number | null = null;
   let staticFading = false;
   if (cycle > 0) {
@@ -2466,32 +2280,12 @@ const HomePageBackdrop = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
       : null;
 
   const lineColor = isDarkMode ? "rgba(125,211,252,0.14)" : "rgba(15,23,42,0.11)";
-  // Softer pastel cyan — less saturation so the curves don't compete with
-  // text. Combined with the per-row mask cutouts they read as background.
   const curveColor = isDarkMode ? "rgba(125,211,252,0.55)" : "rgba(125,211,252,0.78)";
-
-  // Grid mask: full visibility everywhere, only fade out before the next section.
-  // Grid fills the whole viewport-pinned layer (no bottom-fade). The whole
-  // backdrop fades out via opacity when the demo title hits mid-viewport,
-  // so a per-layer bottom-fade just adds a visible cutoff with no benefit.
   const gridMask = "linear-gradient(to bottom, black 0%, black 100%)";
-  // Curve mask: stack of narrow radial dimmers, one per text *line* of the
-  // hero (headline lines, subtitle, button row, counter, label). Compositing
-  // them with `intersect` (multiply) means the curve dims only where each
-  // line actually lives — the gaps between lines stay at full opacity. Each
-  // ellipse is wide-but-short so it tracks a row of text, not the whole box.
-  // Dynamic cutout mask: every element tagged `data-curve-cutout` punches an
-  // elliptical hole through the curve at its current viewport position. The
-  // mask rebuilds whenever any tagged element resizes, the window resizes,
-  // fonts finish loading, or the user scrolls — so the cutouts track the
-  // actual on-screen position of the text instead of being hardcoded to
-  // specific percentages.
   const [cutoutMask, setCutoutMask] = useState<string>(
     "linear-gradient(to bottom, black 0%, black 100%)"
   );
   useEffect(() => {
-    // Pixel padding added around each rect before converting to a radial
-    // gradient — gives the text some breathing room from the curve.
     const PAD_X = 24;
     const PAD_Y = 18;
     let raf = 0;
@@ -2500,17 +2294,16 @@ const HomePageBackdrop = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
       raf = 0;
       const els = document.querySelectorAll<HTMLElement>("[data-curve-cutout]");
       const W = window.innerWidth;
-      const H = window.innerHeight - 64; // matches curve layer height
+      const viewportGraphHeight = window.innerHeight - 64;
       const gradients: string[] = [];
       els.forEach((el) => {
         const r = el.getBoundingClientRect();
         if (r.width === 0 || r.height === 0) return;
-        // Skip cutouts that are outside the fixed curve layer.
         if (r.bottom < 64 || r.top > window.innerHeight) return;
         const cx = ((r.left + r.right) / 2 / W) * 100;
-        const cy = ((r.top - 64 + r.height / 2) / H) * 100;
+        const cy = ((r.top - 64 + r.height / 2) / viewportGraphHeight) * 100;
         const rx = ((r.width + PAD_X * 2) / 2 / W) * 100;
-        const ry = ((r.height + PAD_Y * 2) / 2 / H) * 100;
+        const ry = ((r.height + PAD_Y * 2) / 2 / viewportGraphHeight) * 100;
         gradients.push(
           `radial-gradient(ellipse ${rx}% ${ry}% at ${cx}% ${cy}%, rgba(0,0,0,0.02) 0%, rgba(0,0,0,0.55) 70%, black 100%)`
         );
@@ -2533,7 +2326,6 @@ const HomePageBackdrop = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
       .forEach((el) => ro.observe(el));
     window.addEventListener("scroll", schedule, { passive: true });
     window.addEventListener("resize", schedule);
-    // After web fonts load, text sizes can change — recompute then too.
     if (document.fonts?.ready) document.fonts.ready.then(update);
     return () => {
       cancelAnimationFrame(raf);
@@ -2546,9 +2338,6 @@ const HomePageBackdrop = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
 
   return (
     <>
-      {/* Grid layer — fixed to the viewport so it travels with the curves
-          as a single unit, and fades out via the same `.hp-fixed-layer`
-          opacity rule when the demo title reaches mid-viewport. */}
       <div
         aria-hidden
         className="hp-fixed-layer"
@@ -2569,10 +2358,6 @@ const HomePageBackdrop = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
           maskImage: gridMask,
         }}
       />
-      {/* Curve layer — position: fixed so it stays pinned to the viewport as
-          the user scrolls. The hero section has `overflow: hidden` which
-          breaks `position: sticky`, so fixed is the workable option. We hide
-          it once the hero leaves the viewport (see opacity logic below). */}
       <div
         aria-hidden
         className="hp-fixed-layer"
@@ -2596,9 +2381,6 @@ const HomePageBackdrop = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
           style={{ width: "100%", height: "100%", display: "block" }}
         >
           <defs>
-            {/* Soft glow: Gaussian blur of the source merged under the
-                crisp stroke, so each curve reads as a faintly glowing
-                trace instead of a flat line. */}
             <filter id="hp-glow" x="-20%" y="-20%" width="140%" height="140%">
               <feGaussianBlur stdDeviation="6" />
               <feMerge>
@@ -2637,15 +2419,6 @@ const HomePageBackdrop = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
   );
 });
 HomePageBackdrop.displayName = "HomePageBackdrop";
-
-// Renders one equation line. The same KaTeX HTML is used in both `typing`
-// and `rendered` modes — the only difference is that `typing` overlays a
-// clip-path reveal animation and a moving caret so the formatted equation
-// appears character-by-character. KaTeX HTML is pre-rendered from hardcoded
-// HP_EQUATIONS strings, so it's trusted.
-// Desmos-style row: left number cell (numbered "1" or "2" with a colored
-// background that differs per variant) + divider on the primary row +
-// the equation line itself.
 const DesmosRow = memo(
   ({
     number,
@@ -2712,14 +2485,10 @@ DesmosRow.displayName = "DesmosRow";
 const DesmosLine = memo(
   ({ slot, fadeIn = false }: { slot: SlotState; fadeIn?: boolean }) => {
     if (slot.mode === "empty") {
-      // Reserve the row's height so the column doesn't collapse.
       return <div style={{ height: "1.6em" }} />;
     }
     if (slot.mode === "typing") {
       const fullHtml = { __html: slot.html };
-      // Pure CSS typewriter: clip-path runs from inset(0 100% 0 0) to
-      // inset(0 0 0 0) with steps(charCount, end), revealing one character-
-      // width chunk per step. Caret rides at the clip boundary.
       const animStyle = {
         animationDuration: `${slot.durationMs}ms`,
         animationTimingFunction: `steps(${slot.charCount}, end)`,
@@ -2756,8 +2525,6 @@ const DesmosLine = memo(
 );
 DesmosLine.displayName = "DesmosLine";
 
-// ─── Mouse-parallax tilt wrapper ───────────────────────────────────────────
-
 const ParallaxTilt = memo(({
   children,
   max = 4,
@@ -2774,8 +2541,6 @@ const ParallaxTilt = memo(({
 });
 ParallaxTilt.displayName = "ParallaxTilt";
 
-// ─── Home page ─────────────────────────────────────────────────────────────
-
 const Home = () => {
   const navigate = useNavigate();
   const handleHeroOpenBank = useCallback(() => navigate("/bank"), [navigate]);
@@ -2783,9 +2548,6 @@ const Home = () => {
   const [isHeaderScrolled, setIsHeaderScrolled] = useState(false);
   const isDarkMode = useThemeMode();
   const totalQuestions = DEFAULT_QUESTION_BANK_TOTAL;
-  // Hold the question demo card back until the hero counter finishes — the
-  // preview mount (nested React tree + KaTeX) is what makes
-  // the counter freeze/jump during initial load.
   const [questionPreviewReady, setQuestionPreviewReady] = useState(false);
   const handleCounterComplete = useCallback(() => setQuestionPreviewReady(true), []);
   useEffect(() => {
@@ -2808,8 +2570,6 @@ const Home = () => {
     window.addEventListener("message", onMessage);
     return () => window.removeEventListener("message", onMessage);
   }, []);
-
-  // Font + animation injection
   useEffect(() => {
     const link = document.createElement("link");
     link.rel = "stylesheet";
@@ -2852,36 +2612,6 @@ const Home = () => {
         user-select: none;
         will-change: transform, opacity;
       }
-      @keyframes auroraDriftA {
-        0%   { transform: translate(-10%, -20%) scale(1); }
-        50%  { transform: translate(20%, 10%)  scale(1.18); }
-        100% { transform: translate(-10%, -20%) scale(1); }
-      }
-      @keyframes auroraDriftB {
-        0%   { transform: translate(60%, -10%) scale(1.1); }
-        50%  { transform: translate(30%, 30%)  scale(1); }
-        100% { transform: translate(60%, -10%) scale(1.1); }
-      }
-      @keyframes auroraDriftC {
-        0%   { transform: translate(20%, 60%)  scale(1); }
-        50%  { transform: translate(60%, 40%)  scale(1.22); }
-        100% { transform: translate(20%, 60%)  scale(1); }
-      }
-      @keyframes auroraDriftD {
-        0%   { transform: translate(80%, 50%)  scale(1.05); }
-        50%  { transform: translate(50%, 80%)  scale(0.9); }
-        100% { transform: translate(80%, 50%)  scale(1.05); }
-      }
-      .aurora-blob-a, .aurora-blob-b, .aurora-blob-c, .aurora-blob-d {
-        top: 0; left: 0;
-        width: 55%;
-        aspect-ratio: 1 / 1;
-        max-width: 720px;
-      }
-      .aurora-blob-a { animation: auroraDriftA 22s ease-in-out infinite; }
-      .aurora-blob-b { animation: auroraDriftB 28s ease-in-out infinite; }
-      .aurora-blob-c { animation: auroraDriftC 26s ease-in-out infinite; width: 48%; }
-      .aurora-blob-d { animation: auroraDriftD 32s ease-in-out infinite; width: 42%; }
       @keyframes hpDraw {
         0%   { stroke-dashoffset: 3500; opacity: 0; }
         5%   { opacity: 1; }
@@ -2890,7 +2620,6 @@ const Home = () => {
       .hp-curve {
         stroke-dasharray: 3500;
         stroke-dashoffset: 3500;
-        /* Long, gentle S-curve — slow start, slow finish for a natural draw feel. */
         animation: hpDraw 3.6s cubic-bezier(0.65, 0.05, 0.35, 1) forwards;
       }
       .hp-static-curve {
@@ -2904,8 +2633,6 @@ const Home = () => {
         0%, 50%       { opacity: 1; }
         50.01%, 100%  { opacity: 0; }
       }
-      /* When the column resets (push → graphing), the new bottom row fades in
-         so the freshly-revealed slot 2 doesn't pop. */
       @keyframes hpRowFadeIn {
         from { opacity: 0; }
         to   { opacity: 1; }
@@ -2916,11 +2643,6 @@ const Home = () => {
         font-size: 0.96em;
         letter-spacing: 0;
       }
-      /* Typewriter: pre-rendered equation text is revealed by a clip-path animation
-         that steps left-to-right in charCount discrete chunks, one per
-         character-width. The caret runs the same step animation in left
-         so it sits at the reveal boundary, and a separate blink animation
-         pulses it on/off. */
       @keyframes hpTwReveal {
         from { clip-path: inset(0 100% 0 0); }
         to   { clip-path: inset(0 0 0 0); }
@@ -2945,19 +2667,10 @@ const Home = () => {
         animation-fill-mode: forwards, none;
         animation-iteration-count: 1, infinite;
         animation-duration: inherit, 1s;
-        /* Caret blink keeps its own steady cadence. */
       }
       .hp-tw-caret { animation-timing-function: inherit, steps(2); }
-      /* All viewport-pinned backdrop layers (aurora, grid, curves) share
-         a single fade controlled by a body class — so AuroraMesh, which is
-         rendered separately from HomePageBackdrop, stays in sync without
-         needing prop drilling. */
       .hp-fixed-layer { opacity: 1; transition: opacity 350ms ease; }
       body.hp-bg-hidden .hp-fixed-layer { opacity: 0; }
-      /* Overscroll cap: a fixed band sitting just above the viewport, filled
-         with the nav's card color, so when the user rubber-bands above the
-         top of the page they see the nav appearing to continue upward rather
-         than the speckled body background bleeding through. */
       body::before {
         content: '';
         position: fixed;
@@ -3017,8 +2730,6 @@ const Home = () => {
           0 24px 54px -30px rgba(14,33,56,0.38) !important;
       }
 
-      /* Mobile-only overrides for the home page. Desktop keeps its
-         lavish spacing and animations. */
       @media (max-width: 767px) {
         .h-fade-2, .h-fade-3, .h-fade-4, .h-fade-5, .h-fade-6,
         .explanation-step-slide {
@@ -3027,9 +2738,6 @@ const Home = () => {
           transform: none !important;
         }
         .float-sym { display: none !important; }
-        .aurora-blob-a, .aurora-blob-b, .aurora-blob-c, .aurora-blob-d {
-          animation: none !important;
-        }
         .hp-curve { animation: none !important; opacity: 1 !important; stroke-dashoffset: 0 !important; }
         .hp-static-curve { opacity: 1 !important; transition: none !important; }
         .home-hero {
@@ -3131,7 +2839,6 @@ const Home = () => {
         <div className="container mx-auto flex h-16 items-center justify-between gap-3 px-3 sm:px-4">
           <BrandLogo variant="mark" className="h-9 w-9" />
 
-          {/* Top nav — Inter 500, 14px, tracking -0.5%, ink. Hover opacity 0.7, never underline. */}
           <nav className="absolute left-1/2 hidden -translate-x-1/2 items-center gap-1 md:flex">
             <Link
               to="/bank"
@@ -3195,7 +2902,6 @@ const Home = () => {
               </DropdownMenu>
             ) : (
               <div className="inline-flex items-center gap-1.5">
-                {/* Log In — text only, Inter 500. */}
                 <Button
                   variant="ghost"
                   size="sm"
@@ -3204,7 +2910,6 @@ const Home = () => {
                 >
                   Log In
                 </Button>
-                {/* Sign Up — Inter 600, ink on accent, full pill on marketing nav. */}
                 <Button size="sm" className="!rounded-full" onClick={() => navigate("/signup")}>
                   Sign Up
                 </Button>
@@ -3214,27 +2919,17 @@ const Home = () => {
         </div>
       </header>
 
-      {/* ── HERO ───────────────────────────────────────────────────────── */}
       <section
         className="home-hero-section"
         style={{
-          // No section-level gradient. The body's solid `bg-background` shows
-          // through, so the hero's bg matches the next section's bg exactly —
-          // there's no color-change line at the section boundary. The aurora
-          // (fixed) supplies the colored top accent.
           background: "transparent",
           position: "relative",
           overflow: "hidden",
           paddingBottom: "clamp(72px, 7vw, 108px)",
         }}
       >
-        {/* Aurora mesh background — soft colored blobs */}
-        <AuroraMesh isDarkMode={isDarkMode} />
-        {/* Graph paper backdrop — sits over the aurora; only the
-            left/right/top/bottom edges show through the radial mask. */}
         <HomePageBackdrop isDarkMode={isDarkMode} />
 
-        {/* Hero text */}
         <div
           className="home-hero"
           style={{
@@ -3245,8 +2940,6 @@ const Home = () => {
             textAlign: "center",
           }}
         >
-          {/* Headline — Geist 500, clamp 44-84px, leading 0.98, tracking -3.5%
-              (matches design system home spec). */}
           <h1
             className="h-fade-2"
             data-curve-cutout
@@ -3262,8 +2955,6 @@ const Home = () => {
           >
             Reach your
             <br />
-            {/* Cobalt gradient accent — design system swaps the old serif-italic
-                for a Geist 600 word painted with the cobalt → cobalt-deep ramp. */}
             <span
               style={{
                 fontFamily: "'Geist', system-ui, sans-serif",
@@ -3276,7 +2967,6 @@ const Home = () => {
             </span>
           </h1>
 
-          {/* Subtitle — Geist 300, 19px lede, leading 1.55, ink-mid. */}
           <p
             className="h-fade-3 home-subtitle"
             data-curve-cutout
@@ -3293,7 +2983,6 @@ const Home = () => {
             Accurate SAT practice built from real past tests.
           </p>
 
-          {/* CTAs */}
           <div
             className="h-fade-4 home-cta-row"
             data-curve-cutout
@@ -3314,7 +3003,6 @@ const Home = () => {
                 padding: "14px 22px",
                 borderRadius: 10,
                 background: "rgb(var(--ds-accent))",
-                // ink-fixed stays dark on the always-light accent fill in dark mode.
                 color: "rgb(var(--ink-fixed))",
                 fontWeight: 600,
                 fontSize: 15,
@@ -3413,10 +3101,7 @@ const Home = () => {
             </button>
           </div>
 
-          {/* Counter */}
           <div className="h-fade-5 home-counter" data-curve-cutout style={{ marginBottom: 88 }}>
-            {/* Hero stat — Inter Tight 600, design's "stat-xl" scale (72px peak,
-                line-height 0.95, tracking -4%). Tabular nums, comma-grouped. */}
             <div
               className="home-count-num"
               style={{
@@ -3432,7 +3117,6 @@ const Home = () => {
             >
               <SlotMachineCounter value={totalQuestions} onComplete={handleCounterComplete} />
             </div>
-            {/* Caption — Geist 600, 11px, +32% tracking (wide because the number above is giant). */}
             <div
               style={{
                 fontFamily: "'Geist', system-ui, sans-serif",
@@ -3450,7 +3134,6 @@ const Home = () => {
           </div>
         </div>
 
-        {/* Floating demo */}
         <div
           className="h-fade-6 home-demo-wrap"
           style={{
@@ -3460,7 +3143,6 @@ const Home = () => {
             position: "relative",
           }}
         >
-          {/* Section header */}
           <div
             ref={demoTitleRef}
             style={{
@@ -3469,7 +3151,6 @@ const Home = () => {
               maxWidth: 720,
             }}
           >
-            {/* Section heading — Geist 500, 52px responsive, leading 1.05, tracking -3.5%. */}
             <h2
               className="home-demo-title"
               style={{
@@ -3497,12 +3178,10 @@ const Home = () => {
 
       </section>
 
-      {/* ── EXPLANATION POPUP DEMO ─────────────────────────────────────── */}
       <section className="bg-background" style={sectionVisibility("auto 720px")}>
         <ExplanationFeatureSection isDarkMode={isDarkMode} />
       </section>
 
-      {/* ── FEATURE ROW — BANK FILTERS ────────────────────────────────── */}
       <section className="bg-background" style={sectionVisibility("auto 760px")}>
         <FilterFeatureSection
           isDarkMode={isDarkMode}
@@ -3510,12 +3189,10 @@ const Home = () => {
         />
       </section>
 
-      {/* ── PRACTICE TESTS ─────────────────────────────────────────────── */}
       <section className="bg-background" style={sectionVisibility("auto 560px")}>
         <PracticeTestsFeatureSection isDarkMode={isDarkMode} />
       </section>
 
-      {/* ── CTA ────────────────────────────────────────────────────────── */}
       <section
         className="home-cta-final"
         style={{ padding: "0px 24px 96px", position: "relative" }}
@@ -3582,7 +3259,6 @@ const Home = () => {
         </div>
       </section>
 
-{/* ── FOOTER ─────────────────────────────────────────────────────── */}
       <footer className="border-t border-border bg-card mt-auto">
         <div className="container mx-auto px-4 py-5 text-xs text-muted-foreground flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
           <div className="flex items-center gap-2">

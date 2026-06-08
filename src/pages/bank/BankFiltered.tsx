@@ -114,7 +114,6 @@ const BankFiltered = () => {
     <div className="min-h-screen bg-gradient-to-b from-background to-muted">
       <section className="container mx-auto px-4 pt-8 pb-12">
         <div className="max-w-4xl mx-auto space-y-6">
-          {/* Header */}
           <div className="flex items-center gap-4">
             <Button
               variant="ghost"
@@ -151,7 +150,6 @@ const BankFiltered = () => {
 
           <BankSourceToggle value={bankSource} onChange={handleBankSourceChange} />
 
-          {/* Stats Bar */}
           <Card className="p-4 flex items-center gap-6">
             <div className="flex items-center gap-2">
               <CheckCircle2 className="h-4 w-4 text-green-500" />
@@ -183,7 +181,6 @@ const BankFiltered = () => {
             </Button>
           </Card>
 
-          {/* Search */}
           <div className="relative">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
             <Input
@@ -197,7 +194,6 @@ const BankFiltered = () => {
             />
           </div>
 
-          {/* Question List */}
           <Card className="overflow-hidden">
             <ScrollArea className="h-[500px]">
               {paginatedQuestions.length === 0 ? (
@@ -260,7 +256,6 @@ const BankFiltered = () => {
             </ScrollArea>
           </Card>
 
-          {/* Pagination */}
           {totalPages > 1 && (
             <div className="flex items-center justify-center gap-2">
               <Button

@@ -4,24 +4,26 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Estimate the slope from the data range",
-      "content": "The scatterplot spans from roughly $(1, 2)$ at the low end to $(5, 15)$ at the high end.<br/><br/>Approximate slope:<br/>$$\\text{slope} \\approx \\frac{15 - 2}{5 - 1} = \\frac{13}{4} \\approx 3.3$$<br/>The line of best fit needs a slope near <strong>3.3</strong>, not 0.82.",
-      "formula": "$$\\text{slope} = \\frac{\\Delta y}{\\Delta x}$$"
+      "title": "Enter representative scatterplot points",
+      "content": "For a scatterplot model question, use regression rather than only estimating by eye. Approximate several points from the plot and enter them as lists in Desmos.",
+      "desmosExpressions": [
+        "x_1=[1,1,1.5,1.5,2,2.5,2.5,2.5,3,3,3,3.5,3.5,3.5,4,4,4.5,5]",
+        "y_1=[2,6,4,5,7,8,9,11,9,10,12,10,11,13,13,16,17,15]"
+      ]
     },
     {
-      "title": "Eliminate low-slope choices A and B",
-      "content": "Choices A and B both have slope $0.82$. Over the 4-unit horizontal span, that line would only rise $0.82 \\times 4 \\approx 3.3$ units — far too shallow for the ~13-unit vertical rise in the data. <strong>Eliminate A and B.</strong>"
+      "title": "Run linear regression",
+      "content": "Type $y_1\\sim mx_1+b$. Desmos gives a slope around $3.3$ and an intercept close to $0.82$. That immediately eliminates the choices with slope $0.82$.",
+      "desmosExpressions": [
+        "x_1=[1,1,1.5,1.5,2,2.5,2.5,2.5,3,3,3,3.5,3.5,3.5,4,4,4.5,5]",
+        "y_1=[2,6,4,5,7,8,9,11,9,10,12,10,11,13,13,16,17,15]",
+        "y_1~m x_1+b",
+        "y=3.30x+0.82"
+      ]
     },
     {
-      "title": "Choose between C and D using the data center",
-      "content": "The data cluster is centered near $(x, y) \\approx (3, 11)$. Test $x = 3$:<ul><li><strong>Choice C &mdash; $y = 3.30x + 0.82$</strong>: $y = 9.90 + 0.82 = 10.72$. Very close to 11. &#10003;</li><li><strong>Choice D &mdash; $y = 3.30x - 3.30$</strong>: $y = 9.90 - 3.30 = 6.60$. Far below the cluster. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+      "title": "Confirm the choice",
+      "content": "Choice C is $y=3.30x+0.82$, matching the regression. Choice D has the right slope but an intercept of $-3.30$, which puts the line too low through the middle of the data. Therefore choice <strong>C</strong> is correct."
     }
-  ],
-  "explanation": "<ul><li><strong>Choice A &mdash; '$y = 0.82x + 3.30$'</strong>: Slope 0.82 is far too shallow for data that rises ~13 units over 4 units of $x$. &#10007;</li><li><strong>Choice B &mdash; '$y = 0.82x - 0.82$'</strong>: Same incorrectly shallow slope; negative intercept makes predictions even lower. &#10007;</li><li><strong>Choice C &mdash; '$y = 3.30x + 0.82$'</strong>: Slope 3.3 matches the estimated rise/run; at the data center $(3, 11)$ the line predicts $\\approx 10.72$. &#10003;</li><li><strong>Choice D &mdash; '$y = 3.30x - 3.30$'</strong>: Slope is correct, but the intercept $-3.30$ pulls the line too low — predicts $6.60$ at $x = 3$, well below the data center. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.",
-  "desmosExpressions": [
-    "y = 0.82x + 3.30",
-    "y = 0.82x - 0.82",
-    "y = 3.30x + 0.82",
-    "y = 3.30x - 3.30"
   ]
 }

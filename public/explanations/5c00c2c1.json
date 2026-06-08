@@ -4,18 +4,25 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the exponential growth model",
-      "content": "Exponential growth has the form $p(t) = p_0 \\cdot r^t$, where $p_0$ is the initial population and $r$ is the annual growth factor. Here $p_0 = 24$ (the 1788 starting population) and $t$ is years after 1788."
-    },
-    {
-      "title": "Convert 16.2% annual increase into a growth factor",
-      "content": "A 16.2% yearly increase means each year the population is multiplied by $1 + 0.162 = 1.162$. So $r = 1.162$."
-    },
-    {
-      "title": "Write the model and check the choices",
-      "content": "Substituting gives $p(t) = 24 \\cdot 1.162^t$.<ul><li>Choice A: $1.162 \\cdot 24^t$ starts at 1.162 (not 24) and uses 24 as the base, which would explode far too quickly. Eliminated.</li><li>Choice B: $24 \\cdot 2^{1.162t}$ starts at 24 but doubles roughly every year, an annual factor of $2^{1.162} \\approx 2.24$, a 124% increase. Eliminated.</li><li>Choice C: $24 \\cdot 1.162^t$ starts at 24 and grows by 16.2% each year. Matches.</li><li>Choice D: $(24 \\cdot 1.162)^t = 27.888^t$ starts at 1 (when $t=0$), not 24. Eliminated.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.",
+      "title": "Make the first two model points",
+      "content": "The starting population is 24, so use $(0,24)$. A 16.2% yearly increase means one year later the population is $24(1.162)=27.888$, so use $(1,27.888)$. Fit an exponential regression.",
       "desmosExpressions": [
-        "p(t)=24*1.162^t"
+        "x_1=[0,1]",
+        "y_1=[24,27.888]",
+        "y_1~a b^{x_1}"
+      ]
+    },
+    {
+      "title": "Read the fitted model",
+      "content": "Desmos gives $a=24$ and $b=1.162$, so $$p(t)=24(1.162)^t.$$"
+    },
+    {
+      "title": "Compare to the answer choices",
+      "content": "Choice C has the correct starting population as the coefficient and the annual growth factor as the base. Choice A uses 24 as the base, choice B uses a doubling-style model, and choice D raises the product to the $t$ power, which would make the starting value 1. Choice <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "y=24(1.162)^x",
+        "(0,24)",
+        "(1,27.888)"
       ]
     }
   ]

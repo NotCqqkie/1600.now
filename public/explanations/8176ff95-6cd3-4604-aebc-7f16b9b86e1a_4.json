@@ -1,24 +1,29 @@
 {
-  "qid": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_4",
+  "questionId": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_4",
   "correctAnswer": "A",
+  "section": "Math",
   "steps": [
     {
-      "title": "Use h(0) = 0 to find the y-intercept",
-      "content": "For $h(x) = mx + b$, plugging in $x=0$ gives $b = h(0) = 0$. The y-intercept is 0, eliminating choices B and D (both add a nonzero constant)."
+      "title": "Enter the two given points",
+      "content": "This question gives two exact values of a linear function: $h(0)=0$ and $h(11)=5$. Enter those as the points $(0,0)$ and $(11,5)$ in Desmos.",
+      "desmosExpressions": [
+        "x_1=[0,11]",
+        "y_1=[0,5]"
+      ]
     },
     {
-      "title": "Use h(11) = 5 to find the slope",
-      "content": "With $b=0$, $h(x) = mx$. Substituting $x=11$: $$11m = 5 \\implies m = \\frac{5}{11}$$"
+      "title": "Use linear regression",
+      "content": "Type $y_1\\sim m x_1+b$. Desmos returns $m=\\frac{5}{11}$ and $b=0$, so $h(x)=\\frac{5}{11}x$.",
+      "desmosExpressions": [
+        "x_1=[0,11]",
+        "y_1=[0,5]",
+        "y_1~m x_1+b",
+        "y=\\frac{5}{11}x"
+      ]
     },
     {
-      "title": "Write the equation",
-      "content": "$$h(x) = \\frac{5}{11}x$$  This matches choice A."
+      "title": "Confirm the choice",
+      "content": "Choice A matches the regression equation. It also checks directly: $h(0)=0$ and $h(11)=\\frac{5}{11}(11)=5$, so choice <strong>A</strong> is correct."
     }
-  ],
-  "explanation": "<ul><li><strong>Choice A &mdash; 'h(x) = (5/11)x'</strong>: h(0) = 0 &#10003;; h(11) = (5/11)(11) = 5 &#10003;. Both conditions satisfied. &#10003;</li><li><strong>Choice B &mdash; 'h(x) = (5/11)x + 5'</strong>: h(0) = 5, not 0. Fails the first condition. &#10007;</li><li><strong>Choice C &mdash; 'h(x) = (11/5)x'</strong>: h(11) = (11/5)(11) = 121/5 = 24.2, not 5. Fails the second condition. &#10007;</li><li><strong>Choice D &mdash; 'h(x) = (11/5)x + 11'</strong>: h(0) = 11, not 0. Fails the first condition. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.",
-  "desmosExpressions": [
-    "y = \\frac{5}{11}x",
-    "(0, 0)",
-    "(11, 5)"
   ]
 }

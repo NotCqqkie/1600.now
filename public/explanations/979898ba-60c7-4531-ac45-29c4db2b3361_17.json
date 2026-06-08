@@ -4,12 +4,30 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Factor and complete the square",
-      "content": "To convert to vertex form, factor 7 from the $x$ terms:<br/>$$y = 7\\left(x^2 - \\frac{b}{7}x\\right) - 6$$<br/>To complete the square, find half the coefficient of $x$ and square it. Half of $-\\frac{b}{7}$ is $-\\frac{b}{14}$, squared is $\\frac{b^2}{196}$. Therefore:<br/>$$x^2 - \\frac{b}{7}x = \\left(x - \\frac{b}{14}\\right)^2 - \\frac{b^2}{196}$$"
+      "title": "Pick a convenient positive value for b",
+      "content": "The answer must work for any positive constant $b$, so test a simple legal value such as $b=14$. The original becomes $y=7x^2-14x-6$.",
+      "desmosExpressions": [
+        "b=14",
+        "x_1=[-2,0,1,3]",
+        "o_1=7x_1^2-bx_1-6"
+      ]
     },
     {
-      "title": "Substitute back and simplify",
-      "content": "Substitute into the original equation:<br/>$$y = 7\\left[\\left(x - \\frac{b}{14}\\right)^2 - \\frac{b^2}{196}\\right] - 6$$<br/>Distribute the 7:<br/>$$y = 7\\left(x - \\frac{b}{14}\\right)^2 - 7 \\cdot \\frac{b^2}{196} - 6$$<br/>Simplify $7 \\cdot \\frac{b^2}{196} = \\frac{b^2}{28}$:<br/>$$y = 7\\left(x - \\frac{b}{14}\\right)^2 - \\frac{b^2}{28} - 6$$<br/>That matches choice A — <strong>A</strong> is correct."
+      "title": "Use table values to test choices",
+      "content": "Evaluate the original and each choice on the same $x$-list. The list for choice A is identical to the original list; the other choices differ.",
+      "desmosExpressions": [
+        "b=14",
+        "x_1=[-2,0,1,3]",
+        "o_1=7x_1^2-bx_1-6",
+        "a_1=7(x_1-b/14)^2-6-b^2/28",
+        "b_1=7(x_1-b/14)^2-6",
+        "c_1=7(x_1+b/14)^2-6-b^2/28",
+        "d_1=7(x_1+b/14)^2-6"
+      ]
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "Only choice A matches the original expression across the tested values. That identifies the equivalent form without completing the square by hand, so choice <strong>A</strong> is correct."
     }
   ]
 }

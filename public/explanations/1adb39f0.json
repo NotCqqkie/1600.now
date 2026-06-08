@@ -4,16 +4,28 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the actual data point at x = 1",
-      "content": "From the scatterplot, locate the data point at $x = 1$. It sits at approximately $y = 11$ on the vertical axis."
+      "title": "Read the actual point",
+      "content": "At $x=1$, the plotted data point is about $(1,12)$. That is the actual $y$-value.",
+      "desmosExpressions": [
+        "(1,12)"
+      ]
     },
     {
-      "title": "Read the line of best fit at x = 1",
-      "content": "The line of best fit at $x = 1$ passes through approximately $y = 10.5$ (just above the $y = 10$ gridline)."
+      "title": "Model the line of best fit",
+      "content": "For the predicted value, use the line, not the dot. Two readable points on the line are about $(0,12)$ and $(5,6)$, so a quick Desmos regression gives $y\\approx -1.2x+12$.",
+      "desmosExpressions": [
+        "x_1=[0,5]",
+        "y_1=[12,6]",
+        "y_1~m x_1+b"
+      ]
     },
     {
-      "title": "Compute the difference and match to a choice",
-      "content": "The residual (difference) is:<br/>$$|11 - 10.5| = 0.5$$<br/>Among the choices, find the one closest to 0.5:<ul><li><strong>A</strong> &mdash; 1: distance from 0.5 is 0.5. This is the closest value. That matches choice A &mdash; <strong>A</strong> is correct.</li><li><strong>B</strong> &mdash; 2: distance from 0.5 is 1.5. Much farther.</li><li><strong>C</strong> &mdash; 5: distance from 0.5 is 4.5. Far off.</li><li><strong>D</strong> &mdash; 12: distance from 0.5 is 11.5. Not close at all.</li></ul>"
+      "title": "Compare actual and predicted",
+      "content": "At $x=1$, the line predicts $y=-1.2(1)+12=10.8$, about $11$. The vertical difference is about $12-11=1$, so choice <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y=-1.2x+12",
+        "(1,10.8)"
+      ]
     }
   ]
 }

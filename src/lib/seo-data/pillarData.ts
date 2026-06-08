@@ -1,6 +1,3 @@
-// Long-form pillar pages targeting high-intent head-term SAT queries.
-// NOT linked from the app shell — reachable only via search or cross-links
-// from sibling SEO pages (sitemap-indexed, not surfaced in nav).
 
 export interface PillarSection {
   heading: string;

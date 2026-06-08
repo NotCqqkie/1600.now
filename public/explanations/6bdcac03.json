@@ -4,32 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Analyze the equation",
-      "content": "A real square is never negative, yet $$x^2=-841.$$ No real $x$ can satisfy this."
+      "title": "Use the real-square rule",
+      "content": "For any real number $x$, $x^2$ is never negative. The smallest possible value of $x^2$ is $0$."
     },
     {
-      "title": "Count the solutions",
-      "content": "There are zero real solutions. That matches choice <strong>D</strong> — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y = x^2",
-        "y = -841"
-      ]
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "Choice D is correct. Since the square of a real number is never negative, the given equation isn't true for any real value of $x$. Therefore, the given equation has zero distinct real solutions."
+      "title": "Apply it to the equation",
+      "content": "The equation asks for $$x^2=-841$$ but $-841$ is negative. Therefore, no real value of $x$ can satisfy the equation."
     },
     {
       "title": "Check the choices",
-      "content": "Choice A is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice B is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice C is incorrect and may result from conceptual or calculation errors."
+      "content": "There are zero distinct real solutions, so choice D is correct. There would be two real solutions for $x^2=841$, but the negative right side changes the result."
     }
   ]
 }

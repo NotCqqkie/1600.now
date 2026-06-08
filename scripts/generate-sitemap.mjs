@@ -1,9 +1,4 @@
 #!/usr/bin/env node
-// Regenerates sitemap files under public/ with every indexable URL on 1600.now.
-// Emits a sitemap index (public/sitemap.xml) and per-type child sitemaps so
-// Google Search Console can report coverage per content cluster. <lastmod>
-// is truthful: blog posts use their datePublished, other URLs use the mtime
-// of the source file that drives their content.
 
 import { readFileSync, writeFileSync, statSync } from "node:fs";
 import { fileURLToPath } from "node:url";
@@ -18,7 +13,6 @@ const COLLEGE_URL_LIMIT = Number(
   process.env.SITEMAP_COLLEGE_LIMIT ?? Number.POSITIVE_INFINITY,
 );
 
-// ---- Source file mtimes (ISO date) ----------------------------------------
 
 const mtimeIso = (rel) => {
   try {
@@ -51,7 +45,6 @@ const MTIME_PRIVACY = mtimeIso("src/pages/legal/PrivacyPolicy.tsx");
 const MTIME_TERMS = mtimeIso("src/pages/legal/TermsOfService.tsx");
 const MTIME_BROWSE = mtimeIso("src/pages/Index.tsx");
 
-// ---- Slug extraction ------------------------------------------------------
 
 const skillSrc = read("src/lib/seo-data/satSkillsData.ts");
 const skillSlugs = [...skillSrc.matchAll(/slug:\s*"([^"]+)"/g)].map((m) => m[1]);
@@ -59,8 +52,6 @@ const skillWorksheetSlugs = skillSlugs.map((s) => `sat-${s}-worksheet`);
 
 const blogSrc = read("src/lib/seo-data/blogData.ts");
 const blogSlugs = [...blogSrc.matchAll(/slug:\s*"([^"]+)"/g)].map((m) => m[1]);
-
-// Map blog slug → datePublished by pairing consecutive slug/date matches.
 const blogDateBySlug = (() => {
   const pairRegex = /slug:\s*"([^"]+)"[\s\S]*?datePublished:\s*"([0-9]{4}-[0-9]{2}-[0-9]{2})"/g;
   const out = {};
@@ -124,7 +115,6 @@ for (let s = 400; s <= 1600; s += 10) scores.push(s);
 const isGoodScores = [];
 for (let s = 400; s <= 1600; s += 10) isGoodScores.push(s);
 
-// ---- URL buckets (one child sitemap per bucket) ---------------------------
 
 const pagesBucket = [
   { url: "/", lastmod: MTIME_HOME },
@@ -201,7 +191,6 @@ const scoresBucket = [
   })),
 ];
 
-// ---- Priority + changefreq ------------------------------------------------
 
 const priorityFor = (u) => {
   if (u === "/") return "1.0";
@@ -236,7 +225,6 @@ const changefreqFor = (u) => {
   return "monthly";
 };
 
-// ---- Emit child sitemaps + index -----------------------------------------
 
 const renderChildSitemap = (entries) =>
   `<?xml version="1.0" encoding="UTF-8"?>\n` +
@@ -275,8 +263,6 @@ const children = [
 ].filter((c) => c.entries.length > 0);
 
 const childResults = children.map((c) => writeChild(c.filename, c.entries));
-
-// Child sitemap lastmod = most recent entry inside.
 const maxDate = (entries) =>
   entries.reduce((acc, { lastmod }) => (lastmod > acc ? lastmod : acc), "1970-01-01");
 

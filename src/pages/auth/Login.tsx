@@ -18,8 +18,6 @@ import { getAuthReturnTo } from "@/components/auth/AuthReturnTracker";
 import { useToast } from "@/hooks/use-toast";
 import { describeAuthError } from "@/lib/firebase/authErrors";
 import { Loader2, ArrowLeft } from "lucide-react";
-
-// Google SVG icon
 const GoogleIcon = () => (
   <svg className="h-4 w-4" aria-hidden="true" viewBox="0 0 488 512" fill="currentColor">
     <path d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z" />
@@ -51,11 +49,6 @@ const Login = () => {
     toast({ variant: "destructive", title: friendly.title, description: friendly.description });
     clearRedirectError();
   }, [redirectError, toast, clearRedirectError]);
-
-  // Both handlers leave navigation to the user-change useEffect above.
-  // That effect routes verified users to the saved return path and
-  // unverified users to /verify-email — navigating here would consume the
-  // return path before the verified check runs.
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
@@ -116,11 +109,9 @@ const Login = () => {
       <div className="flex-1 flex items-center justify-center px-6 py-12">
         <div className="w-full max-w-sm">
           <div className="mb-8">
-            {/* Auth title — Inter Tight 600, 30px (focused, not display). */}
             <h2 className="font-display text-[30px] font-semibold leading-[1.1] tracking-[-0.025em] text-ink">
               Welcome back
             </h2>
-            {/* Subtitle — Inter 400, 14px, leading 1.5, ink-mid. Ends in a period. */}
             <p className="mt-2 font-sans text-[14px] leading-[1.5] text-ink-mid">
               Pick up where you left off.
             </p>
@@ -172,7 +163,6 @@ const Login = () => {
                   required
                 />
               </div>
-              {/* Submit — Inter 600, 15px, ink on accent, full-width, sentence-case. */}
               <Button type="submit" className="w-full cursor-pointer" disabled={isSubmitting || authLoading || !isValidEmail(email) || !password}>
                 {isSubmitting && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
                 Log in
@@ -180,7 +170,6 @@ const Login = () => {
             </form>
           </div>
 
-          {/* Switch link — prompt in ink-mid 400, action in accent-deep 600, no underline. */}
           <p className="mt-6 text-center font-sans text-[13px] text-ink-mid">
             Don't have an account?{" "}
             <Link to="/signup" className="font-semibold text-accent-deep hover:opacity-80">

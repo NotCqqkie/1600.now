@@ -4,16 +4,26 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Write slope-intercept form with the given slope",
-      "content": "A linear function has the form $y = mx + b$, where $m$ is the slope and $b$ is the y-intercept. We're given that the slope is $39$, so our equation becomes:<br/>$$y = 39x + b$$"
+      "title": "Use the slope to make a second point",
+      "content": "The graph passes through $(0,0)$. A slope of $39$ means one step right raises $y$ by $39$, so the next point is $(1,39)$. Enter those two points in Desmos.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[0,39]"
+      ]
     },
     {
-      "title": "Use the point to find the y-intercept",
-      "content": "The graph passes through $(0, 0)$. Substituting this point into the equation:<br/>$$0 = 39(0) + b$$<br/>$$0 = b$$<br/>Therefore, $f(x) = 39x$. That matches choice D — <strong>D</strong> is correct.",
+      "title": "Fit the equation",
+      "content": "Run $y_1 \\sim mx_1+b$. The regression gives $m=39$ and $b=0$, so $f(x)=39x$.",
       "desmosExpressions": [
-        "y=39x",
-        "(0,0)"
+        "x_1=[0,1]",
+        "y_1=[0,39]",
+        "y_1~m x_1+b",
+        "y=39x"
       ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "Choice A has slope $-39$, choice B has slope $\\frac{1}{39}$, and choice C has slope $1$ with intercept $-39$. Only choice D has slope $39$ and passes through the origin. Choice <strong>D</strong> is correct."
     }
   ]
 }

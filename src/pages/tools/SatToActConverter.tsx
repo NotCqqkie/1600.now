@@ -7,9 +7,6 @@ import {
   buildFaqJsonLd,
 } from "@/components/seo/PageSeo";
 import { satToolBySlug } from "@/lib/seo-data/satTools";
-
-// Official College Board × ACT concordance table, 2018.
-// Table excerpts — covers the 900–1600 SAT range where most conversions happen.
 const SAT_TO_ACT: [number, number][] = [
   [1600, 36], [1590, 36], [1580, 36], [1570, 35], [1560, 35],
   [1550, 35], [1540, 35], [1530, 34], [1520, 34], [1510, 34],

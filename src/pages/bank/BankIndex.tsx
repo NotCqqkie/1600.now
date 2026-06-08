@@ -55,8 +55,6 @@ const loadBankPool = async (
   const { getBankPool } = await import("@/data/questionBank");
   return getBankPool(subject, bankSource);
 };
-
-// Topic selection state
 interface TopicSelectionState {
   math: {
     selected: boolean;
@@ -419,11 +417,7 @@ export const BankIndex = ({
     sessionStorage.removeItem(`question-view-mode:bank:math`);
     sessionStorage.removeItem(`question-view-mode:bank:reading`);
   }, []);
-  
-  // Selection Mode State
   const [isMultiSelect, setIsMultiSelect] = useState(false);
-  
-  // Filter state — may be pre-populated from home page via sessionStorage
   const [internalFilters, setInternalFilters] = useState<QuestionBankFilters>(() => {
     if (isHomeFilterDemo) return homeFilterDemoFilters ?? defaultFilters;
     try {
@@ -433,7 +427,7 @@ export const BankIndex = ({
       if (preset.difficulties?.length) {
         return { ...defaultFilters, difficulty: preset.difficulties as QuestionBankFilters["difficulty"] };
       }
-    } catch { /* ignore */ }
+    } catch {}
     return readStoredBankFilters() ?? defaultFilters;
   });
   const filters = homeFilterDemoFilters ?? internalFilters;
@@ -496,8 +490,6 @@ export const BankIndex = ({
     event.preventDefault();
     event.stopPropagation();
   }, [isHomeFilterDemo]);
-
-  // Topic selection state (inline checkboxes) — may be pre-populated from home page
   const [topicSelection, setTopicSelection] = useState<TopicSelectionState>(() => {
     const base = createEmptySelection();
     try {
@@ -512,13 +504,11 @@ export const BankIndex = ({
         const subj = subject as "math" | "reading";
         if (!base[subj]?.domains[bankDomain]) continue;
         base[subj].domains[bankDomain].skills[bankSkill] = true;
-        // Mark domain selected if any skill is selected
         base[subj].domains[bankDomain].selected = true;
       }
-    } catch { /* ignore */ }
+    } catch {}
     return base;
   });
-  // Initialize with all domains expanded by default
   const createDefaultExpandedDomains = () => {
     const expanded: Record<string, boolean> = {};
     for (const domain of allMathDomains) {
@@ -530,11 +520,7 @@ export const BankIndex = ({
     return expanded;
   };
   const [expandedDomains, setExpandedDomains] = useState<Record<string, boolean>>(createDefaultExpandedDomains);
-  
-  // Get user progress for filtering — scoped to the active user via the hook.
   const { progress: userProgress } = useUserProgress();
-
-  // Helper to get progress for a question
   const getQuestionProgress = useCallback((q: { stableId: string; subject: BankSubject }): QuestionProgress => {
     if (isHomeFilterDemo) return getHomeDemoProgress(q);
     const key = q.stableId;
@@ -591,8 +577,6 @@ export const BankIndex = ({
   const isQuestionActive = useCallback((q: BankQuestion): boolean => {
     return q.inPracticeTests === true || activePastQuestionSourceIds.has(q.sourceId);
   }, []);
-
-  // Check if question passes filters
   const questionPassesFilters = useCallback((q: BankQuestion): boolean => {
     const progress = getQuestionProgress(q);
 
@@ -600,28 +584,20 @@ export const BankIndex = ({
       const normalizedDifficulty = (q.difficulty ?? "").trim().toLowerCase();
       if (!filters.difficulty.includes(normalizedDifficulty as typeof filters.difficulty[number])) return false;
     }
-
-    // Marked for review filter
     if (filters.markedForReview !== "all") {
       if (filters.markedForReview === "yes" && !progress.isMarkedForReview) return false;
       if (filters.markedForReview === "no" && progress.isMarkedForReview) return false;
     }
-
-    // Solved filter
     if (filters.solved !== "all") {
       const solved = isQuestionSolved(progress);
       if (filters.solved === "yes" && !solved) return false;
       if (filters.solved === "no" && solved) return false;
     }
-
-    // Answered incorrectly filter
     if (filters.answeredIncorrectly !== "all") {
       const incorrect = isQuestionAnsweredIncorrectly(progress);
       if (filters.answeredIncorrectly === "yes" && !incorrect) return false;
       if (filters.answeredIncorrectly === "no" && incorrect) return false;
     }
-
-    // Time spent filter
     const [minTimeSpent, maxTimeSpent] = filters.timeSpentRange;
     if (progress.totalTimeSpentSeconds < minTimeSpent) return false;
     if (
@@ -671,22 +647,16 @@ export const BankIndex = ({
       cancelled = true;
     };
   }, [bankSource, isHomeFilterDemo, keywordSearch, questionPassesFilters]);
-
-  // Get filtered questions
   const getFilteredQuestions = useCallback((
     questions: BankQuestion[],
     _subject: BankSubject
   ): BankQuestion[] => {
     return questions.filter(q => questionPassesFilters(q));
   }, [questionPassesFilters]);
-
-  // Calculate counts for each subject/domain/skill
   const questionCounts = useMemo(
     () => getQuestionCountTree(bankSource, filters, getMetadataProgress),
     [bankSource, filters, getMetadataProgress],
   );
-
-  // Topic selection helpers
   const toggleSubject = useCallback((subject: "math" | "reading", checked: boolean) => {
     setTopicSelection(prev => {
       const domains = subject === "math" ? allMathDomains : allEnglishDomains;
@@ -697,7 +667,7 @@ export const BankIndex = ({
           skills: Object.fromEntries(getTopicSkills(subject, domain).map((s) => [s, checked])),
         };
       }
-      
+
       return {
         ...prev,
         [subject]: { selected: checked, domains: newDomains },
@@ -708,7 +678,7 @@ export const BankIndex = ({
   const toggleDomain = useCallback((subject: "math" | "reading", domain: string, checked: boolean) => {
     setTopicSelection(prev => {
       const skills = getTopicSkills(subject, domain);
-      
+
       const newDomains = {
         ...prev[subject].domains,
         [domain]: {
@@ -716,13 +686,11 @@ export const BankIndex = ({
           skills: Object.fromEntries(skills.map(s => [s, checked])),
         },
       };
-      
-      // Check if all domains are now selected
       const allDomains = subject === "math" ? allMathDomains : allEnglishDomains;
-      const allSelected = allDomains.every(d => 
+      const allSelected = allDomains.every(d =>
         d === domain ? checked : newDomains[d].selected
       );
-      
+
       return {
         ...prev,
         [subject]: { selected: allSelected, domains: newDomains },
@@ -733,15 +701,13 @@ export const BankIndex = ({
   const toggleSkill = useCallback((subject: "math" | "reading", domain: string, skill: string, checked: boolean) => {
     setTopicSelection(prev => {
       const skills = getTopicSkills(subject, domain);
-      
+
       const newSkills = {
         ...prev[subject].domains[domain].skills,
         [skill]: checked,
       };
-      
-      // Check if all skills in domain are selected
       const allSkillsSelected = skills.every(s => s === skill ? checked : newSkills[s]);
-      
+
       const newDomains = {
         ...prev[subject].domains,
         [domain]: {
@@ -749,24 +715,18 @@ export const BankIndex = ({
           skills: newSkills,
         },
       };
-      
-      // Check if all domains are now selected
       const allDomains = subject === "math" ? allMathDomains : allEnglishDomains;
       const allDomainsSelected = allDomains.every(d => newDomains[d].selected);
-      
+
       return {
         ...prev,
         [subject]: { selected: allDomainsSelected, domains: newDomains },
       };
     });
   }, []);
-
-  // Count selected topics and get selected questions
   const selectedTopicsInfo = useMemo(() => {
     let count = 0;
     const selectedSkills: { subject: "math" | "reading"; skill: string }[] = [];
-    
-    // Math
     for (const domain of allMathDomains) {
       for (const skill of mathDomainSkills[domain]) {
         if (topicSelection.math.domains[domain]?.skills[skill]) {
@@ -775,8 +735,6 @@ export const BankIndex = ({
         }
       }
     }
-    
-    // Reading
     for (const domain of allEnglishDomains) {
       for (const skill of englishDomainSkills[domain]) {
         if (topicSelection.reading.domains[domain]?.skills[skill]) {
@@ -785,7 +743,7 @@ export const BankIndex = ({
         }
       }
     }
-    
+
     return { count, selectedSkills, totalSelected: count };
   }, [topicSelection]);
 
@@ -799,12 +757,10 @@ export const BankIndex = ({
   );
 
   const getSelectedQuestions = useCallback(async (
-    // Optional overrides for quick start mode
     subjectOverride?: "math" | "reading",
     domainOverride?: string,
     skillOverride?: string
   ): Promise<BankQuestion[]> => {
-    // If overrides are provided, use them to generate selection
     if (subjectOverride) {
       const questions = await loadBankPool(subjectOverride, bankSource);
       let filtered = getFilteredQuestions(questions, subjectOverride);
@@ -860,7 +816,6 @@ export const BankIndex = ({
     let questions = await getSelectedQuestions();
 
     if (shuffle) {
-      // Fisher-Yates shuffle
       const shuffled = [...questions];
       for (let i = shuffled.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -875,7 +830,6 @@ export const BankIndex = ({
     let questions = await getSelectedQuestions(subject, domain, skill);
 
     if (shuffle) {
-      // Fisher-Yates shuffle
       const shuffled = [...questions];
       for (let i = shuffled.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -1098,13 +1052,10 @@ export const BankIndex = ({
       )}
     </div>
   );
-
-  // Render browse view with topics and inline checkboxes
   const renderBrowseView = () => (
     <div
       className={`grid md:grid-cols-2 gap-6${isHomeFilterDemo ? " home-demo-question-list" : ""}`}
     >
-      {/* Math Section */}
       <div className={isHomeFilterDemo ? "min-w-0 p-2 md:order-2" : "min-w-0 p-3 sm:p-6 md:order-2"} data-home-demo-section={isHomeFilterDemo ? "true" : undefined}>
         <div className={isHomeFilterDemo ? "mb-3 flex items-start gap-1.5" : "flex items-center gap-3 mb-4"} data-home-demo-section-header={isHomeFilterDemo ? "true" : undefined}>
           <div
@@ -1124,9 +1075,7 @@ export const BankIndex = ({
               <Calculator className={isHomeFilterDemo ? "h-3.5 w-3.5 text-ink" : "h-6 w-6 text-ink"} />
             </div>
             <div className="min-w-0">
-              {/* Column title — Inter Tight 600, 22px, tracking -1.5%. */}
               <h3 className={isHomeFilterDemo ? "font-display text-[15px] font-semibold leading-[1.05] text-ink" : "font-display text-[22px] font-semibold leading-[1.1] tracking-[-0.015em] text-ink"}>Math</h3>
-              {/* Column count — tabular nums, 12px. Completed weight 600 good; rest weight 500 muted. */}
               <p className={isHomeFilterDemo ? "font-display text-[12px] leading-[1.15] tabular-nums" : "font-display text-[12px] leading-[1.3] tabular-nums"}>
                 <AnimatedCount value={questionCounts.math.correct} className="font-semibold text-good" />
                 <span className="mx-1 font-medium text-ink-muted">/</span>
@@ -1136,16 +1085,16 @@ export const BankIndex = ({
             </div>
           </div>
           <div className={isHomeFilterDemo ? "hidden" : "flex gap-2"}>
-            <Button 
-              size="sm" 
+            <Button
+              size="sm"
               onClick={() => handleQuickStart("math")}
               className={isHomeFilterDemo ? "h-7 gap-1 px-2 text-[11px]" : "gap-1"}
             >
               <Play className={isHomeFilterDemo ? "h-3 w-3" : "h-4 w-4"} />
               Start All
             </Button>
-            <Button 
-              size="sm" 
+            <Button
+              size="sm"
               variant="outline"
               onClick={() => handleQuickStart("math", undefined, undefined, true)}
               title="Shuffle Math Questions"
@@ -1200,7 +1149,6 @@ export const BankIndex = ({
                         setExpandedDomains(prev => ({ ...prev, [domain]: !prev[domain] }));
                       }}
                     >
-                      {/* Domain count — tabular nums, 14px. Completed weight 600 good; total weight 500 muted. */}
                       <span className={isHomeFilterDemo ? "font-display text-[11px] tabular-nums" : "font-display text-[14px] tabular-nums"}>
                         <AnimatedCount value={questionCounts.math.domains[domain]?.correct || 0} className="font-semibold text-good" />
                         <span className="font-medium text-ink-muted">/</span>
@@ -1235,7 +1183,6 @@ export const BankIndex = ({
                             checked={topicSelection.math.domains[domain]?.skills[skill] || false}
                             onCheckedChange={(checked) => toggleSkill("math", domain, skill, checked)}
                           />
-                          {/* Skill name — Inter 400, 13px, ink-mid. Light weight so eye scans counts on the right. */}
                           <span
                             className={isHomeFilterDemo ? "home-demo-skill-name min-w-0 flex-1 break-words pr-1 font-sans text-[11.25px] font-normal leading-[1.2] text-ink-mid" : "font-sans text-[13px] font-normal leading-[1.4] tracking-[-0.005em] text-ink-mid truncate flex-1 mr-2"}
                             title={skillLabel === skill ? undefined : skill}
@@ -1254,7 +1201,6 @@ export const BankIndex = ({
                           >
                             <Shuffle className="h-3 w-3" />
                           </Button>
-                          {/* Skill count — tabular nums, 13px. Right-aligned, numerators align via tnum. */}
                           <span className={isHomeFilterDemo ? "shrink-0 font-display text-[10px] tabular-nums" : "font-display text-[13px] tabular-nums"}>
                             <AnimatedCount value={questionCounts.math.skills[skill]?.correct || 0} className="font-semibold text-good" />
                             <span className="font-medium text-ink-muted">/</span>
@@ -1271,10 +1217,9 @@ export const BankIndex = ({
         </div>
       </div>
 
-      {/* Reading Section */}
       <div className={isHomeFilterDemo ? "min-w-0 p-2 md:order-1" : "min-w-0 p-3 sm:p-6 md:order-1"} data-home-demo-section={isHomeFilterDemo ? "true" : undefined}>
         <div className={isHomeFilterDemo ? "mb-3 flex items-start gap-1.5" : "flex items-center gap-3 mb-4"} data-home-demo-section-header={isHomeFilterDemo ? "true" : undefined}>
-          <div 
+          <div
             className={`${isHomeFilterDemo ? "flex min-w-0 flex-1 items-start gap-1.5" : "flex items-center gap-3 flex-1"} ${isMultiSelect ? 'cursor-pointer' : ''}`}
             onClick={() => {
               if (isMultiSelect) {
@@ -1301,16 +1246,16 @@ export const BankIndex = ({
             </div>
           </div>
           <div className={isHomeFilterDemo ? "hidden" : "flex gap-2"}>
-            <Button 
-              size="sm" 
+            <Button
+              size="sm"
               onClick={() => handleQuickStart("reading")}
               className={isHomeFilterDemo ? "h-7 gap-1 px-2 text-[11px]" : "gap-1"}
             >
               <Play className={isHomeFilterDemo ? "h-3 w-3" : "h-4 w-4"} />
               Start All
             </Button>
-            <Button 
-              size="sm" 
+            <Button
+              size="sm"
               variant="outline"
               onClick={() => handleQuickStart("reading", undefined, undefined, true)}
               title="Shuffle Reading Questions"
@@ -1554,11 +1499,9 @@ export const BankIndex = ({
       )}
       <section className={isHomeFilterDemo ? "mx-auto px-0 pt-0 pb-0" : "container mx-auto px-4 pt-8 pb-12"}>
         <div className={isHomeFilterDemo ? "max-w-6xl mx-auto space-y-2" : "max-w-6xl mx-auto space-y-6"}>
-          {/* Header */}
           {!isHomeFilterDemo && (
             <div className="flex items-center gap-4">
               <div>
-                {/* Page title \u2014 Inter Tight 600, 42px, tracking -3%. */}
                 <h1
                   style={{
                     fontFamily: "'Inter Tight', sans-serif",
@@ -1572,7 +1515,6 @@ export const BankIndex = ({
                 >
                   Question Bank
                 </h1>
-                {/* Subtitle \u2014 Inter 400, 14px, ink-mid. The count wraps in Inter Tight 600 + tnum. */}
                 <p className="font-sans text-[14px] leading-[1.5] text-ink-mid">
                   {`${BANK_SOURCE_LABELS[bankSource]} \u00b7 `}
                   <AnimatedCount
@@ -1587,7 +1529,6 @@ export const BankIndex = ({
 
           {!isHomeFilterDemo && renderKeywordSearch()}
 
-          {/* Filter Panel */}
           <div data-tour="bank-filters">
             <QuestionBankFilterPanel
               filters={filters}
@@ -1630,12 +1571,10 @@ export const BankIndex = ({
             />
           </div>
 
-          {/* Main Content */}
           {renderBrowseView()}
         </div>
       </section>
 
-      {/* Create Practice Set Button - Fixed at bottom right */}
       {selectedTopicsInfo.totalSelected > 0 && (
         <div className="fixed bottom-6 left-4 right-4 z-50 flex justify-end gap-2 sm:left-auto sm:right-6">
           <Button

@@ -4,16 +4,25 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the line of best fit, not the points",
-      "content": "The question asks for the y-value predicted by the line of best fit. On the graph, move to $x=2$ and read where the line of best fit crosses that vertical position."
+      "title": "Model the drawn line, not a nearby dot",
+      "content": "The question asks for the value predicted by the line of best fit at $x=2$. Use the drawn line, not an individual scatterplot point. Two readable points on the line are about $(0,16)$ and $(20,4)$.",
+      "desmosExpressions": [
+        "x_1=[0,20]",
+        "y_1=[16,4]",
+        "y_1~m x_1+b"
+      ]
     },
     {
-      "title": "Estimate the y-value",
-      "content": "At $x=2$, the line of best fit is closest to $y=15$. The other choices, $4$, $7$, and $10$, are visibly too low for the line at that x-value."
+      "title": "Use the regression row",
+      "content": "In Desmos, the row $y_1\\sim m x_1+b$ gives $m=-0.6$ and $b=16$, so a good model for the drawn line is $y=-0.6x+16$."
     },
     {
-      "title": "Confirm the choice",
-      "content": "The closest listed value is $15$, which is choice D. Therefore <strong>D</strong> is correct."
+      "title": "Evaluate at x = 2",
+      "content": "At $x=2$, the fitted line gives $y=-0.6(2)+16=14.8$. The closest answer choice is $15$, so choice <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "y=-0.6x+16",
+        "(2,14.8)"
+      ]
     }
   ]
 }

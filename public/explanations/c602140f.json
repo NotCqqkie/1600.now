@@ -4,12 +4,28 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Expand the square (and other terms)",
-      "content": "$(x - 11y)(2x - 3y) = 2x^2 - 3xy - 22xy + 33y^2 = 2x^2 - 25xy + 33y^2$. Then $-12y(-2x + 3y) = 24xy - 36y^2$."
+      "title": "Use two-variable coefficient regression",
+      "content": "The answer choices are quadratic expressions in $x$ and $y$. Instead of expanding every term by hand, use Desmos to fit the expression to the form $ax^2+bxy+cy^2$."
     },
     {
-      "title": "Combine and simplify",
-      "content": "Sum: $2x^2 - 25xy + 33y^2 + 24xy - 36y^2 = 2x^2 - xy - 3y^2$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."
+      "title": "Evaluate the expression at three points",
+      "content": "Enter three simple $(x,y)$ test points and compute the expression values:<br/>$$x_1=[1,0,1]$$<br/>$$y_1=[0,1,1]$$<br/>$$z_1=(x_1-11y_1)(2x_1-3y_1)-12y_1(-2x_1+3y_1)$$",
+      "desmosExpressions": [
+        "x_1=[1,0,1]",
+        "y_1=[0,1,1]",
+        "z_1=(x_1-11y_1)(2x_1-3y_1)-12y_1(-2x_1+3y_1)"
+      ]
+    },
+    {
+      "title": "Fit the coefficient model",
+      "content": "Now enter:<br/>$$z_1\\sim ax_1^2+bx_1y_1+cy_1^2$$<br/>Desmos returns $a=2$, $b=-1$, and $c=-3$. So the equivalent expression is:<br/>$$2x^2-xy-3y^2$$",
+      "desmosExpressions": [
+        "z_1\\sim ax_1^2+bx_1y_1+cy_1^2"
+      ]
+    },
+    {
+      "title": "Match the choice",
+      "content": "$2x^2-xy-3y^2$ matches choice B. Expanding manually confirms it: $(x-11y)(2x-3y)=2x^2-25xy+33y^2$, and $-12y(-2x+3y)=24xy-36y^2$, giving $2x^2-xy-3y^2$."
     }
   ]
 }

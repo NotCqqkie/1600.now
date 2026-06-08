@@ -5,18 +5,29 @@
   "steps": [
     {
       "title": "Calculate Andrew's mean",
-      "content": "Sum Andrew's six measurements: $2.4 + 2.5 + 3.6 + 3.1 + 2.5 + 2.7 = 16.8$ kilograms.<br/>Mean: $\\frac{16.8}{6} = 2.8$ kilograms"
+      "content": "The fastest Desmos method is to enter Andrew's masses as a list, then take the mean. Andrew's list has sum $16.8$, so the mean is $16.8/6=2.8$ kilograms.",
+      "desmosExpressions": [
+        "l_1=[2.4,2.5,3.6,3.1,2.5,2.7]",
+        "\\operatorname{mean}\\left(l_1\\right)"
+      ]
     },
     {
       "title": "Set up Maria's mean equation",
-      "content": "Sum Maria's five known values: $3.1 + 2.7 + 2.9 + 3.3 + 2.8 = 14.8$ kilograms.<br/>Maria's total with $x$: $x + 14.8$<br/>Maria's mean: $\\frac{x + 14.8}{6}$<br/>Given: Maria's mean is 0.1 kg greater than Andrew's mean, so it equals $2.8 + 0.1 = 2.9$"
+      "content": "Maria's mean must be $0.1$ greater than Andrew's, so Maria's mean is $2.9$. Enter Maria's five known masses as a second list. Since Maria has six rocks total, her required total is $6(2.9)=17.4$ kilograms.",
+      "desmosExpressions": [
+        "l_2=[3.1,2.7,2.9,3.3,2.8]",
+        "l_1=[2.4,2.5,3.6,3.1,2.5,2.7]",
+        "\\operatorname{mean}\\left(l_1\\right)+0.1",
+        "6(\\operatorname{mean}\\left(l_1\\right)+0.1)"
+      ]
     },
     {
       "title": "Solve for x",
-      "content": "Set the equation: $$\\frac{x+14.8}{6}=2.9$$<br/>Multiply by $6$: $$x+14.8=17.4$$<br/>Subtract $14.8$: $$x=2.6$$<br/>In Desmos, the second expression below directly computes Maria's missing mass after raising Andrew's mean by $0.1$. The answer is <strong>2.6</strong>.",
+      "content": "Subtract Maria's known total from the required total: $17.4-14.8=2.6$. In Desmos, the final row computes that directly from the two lists. The answer is <strong>2.6</strong>.",
       "desmosExpressions": [
-        "mean([2.4,2.5,3.6,3.1,2.5,2.7])",
-        "(mean([2.4,2.5,3.6,3.1,2.5,2.7])+0.1)*6-(3.1+2.7+2.9+3.3+2.8)"
+        "l_1=[2.4,2.5,3.6,3.1,2.5,2.7]",
+        "l_2=[3.1,2.7,2.9,3.3,2.8]",
+        "6(\\operatorname{mean}\\left(l_1\\right)+0.1)-\\operatorname{total}\\left(l_2\\right)"
       ]
     }
   ]

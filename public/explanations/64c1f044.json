@@ -4,28 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the sides",
-      "content": "In a right triangle, $\\tan\\theta=\\dfrac{\\text{opposite}}{\\text{adjacent}}$. From the figure, the side opposite $x^\\circ$ is 26 and the adjacent side is 7."
+      "title": "Use the tangent ratio",
+      "content": "For an acute angle in a right triangle, $$\\tan(\\theta)=\\dfrac{\\text{opposite}}{\\text{adjacent}}.$$"
     },
     {
-      "title": "Identify the answer",
-      "content": "So $\\tan x^\\circ = \\frac{26}{7}$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."
+      "title": "Identify the two relevant sides",
+      "content": "From the figure, the side opposite $x^\\circ$ is $26$, and the side adjacent to $x^\\circ$ is $7$. Therefore, $$\\tan(x^\\circ)=\\dfrac{26}{7}.$$"
     },
     {
-      "title": "Use the source rationale",
-      "content": "Choice C is correct. The tangent of an acute angle in a right triangle is defined as the ratio of the length of the side opposite the angle to the length of the shorter side adjacent to the angle. In the triangle shown, the length of the side opposite the angle with measure $x^\\circ$ is $26$ units and the length of the side adjacent to the angle with measure $x^\\circ$ is $7$ units. Therefore, the value of $\\tanx^\\circ$ is $\\frac{26}{7}$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice A is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice B is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice D is incorrect and may result from conceptual or calculation errors."
+      "title": "Confirm the choice",
+      "content": "Choice <strong>C</strong> is correct. Choice B reverses or uses the wrong side relationship, and choice D adds side lengths instead of using opposite over adjacent."
     }
   ]
 }

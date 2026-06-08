@@ -4,16 +4,21 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the y-intercept from the graph",
-      "content": "The line crosses the y-axis at $(0,-1)$, so $b=-1$. All four choices already use $-1$ as the y-intercept, so the slope is what distinguishes them."
+      "title": "Use the graph to eliminate quickly",
+      "content": "All four choices have y-intercept $-1$, so do not spend time on the intercept. The graph falls from left to right, so the slope must be negative. That eliminates A and B immediately."
     },
     {
-      "title": "Determine the slope's sign and magnitude",
-      "content": "The line descends from upper left to lower right, so the slope is negative &mdash; eliminating any positive-slope option. Reading two clean lattice points on the graph, $(0,-1)$ and $(8,-6)$:<br/>$$m = \\frac{-6-(-1)}{8-0} = \\frac{-5}{8} = -\\frac{5}{8}$$<br/>So $f(x) = -\\frac{5}{8}x - 1$."
+      "title": "Use the two marked points",
+      "content": "The marked points are $(0,-1)$ and $(8,-6)$. Put those into a Desmos table and run $y_1\\sim m x_1+b$. Desmos gives $m=-\\frac{5}{8}$ and $b=-1$, so the equation is $f(x)=-\\frac{5}{8}x-1$.",
+      "desmosExpressions": [
+        "x_1=[0,8]",
+        "y_1=[-1,-6]",
+        "y_1~m x_1+b"
+      ]
     },
     {
-      "title": "Compare with the answer choices",
-      "content": "<ul><li>A. $f(x)=\\frac{5}{8}x-1$ &mdash; positive slope, wrong direction; eliminated.</li><li>B. $f(x)=\\frac{8}{5}x-1$ &mdash; positive slope; eliminated.</li><li>C. $f(x)=-\\frac{5}{8}x-1$ &mdash; matches our derived equation.</li><li>D. $f(x)=-\\frac{8}{5}x-1$ &mdash; correct sign but the line is shallower than 45 degrees, ruling out a magnitude greater than 1; eliminated.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.",
+      "title": "Confirm with Desmos or the choices",
+      "content": "In Desmos, graph the four answer-choice lines and compare them with the image; only choice C goes through both marked points. Choice D has the right negative sign, but its slope $-\\frac{8}{5}$ is too steep. Therefore choice C, $f(x)=-\\frac{5}{8}x-1$, is correct.",
       "desmosExpressions": [
         "y = \\frac{5}{8}x - 1",
         "y = \\frac{8}{5}x - 1",

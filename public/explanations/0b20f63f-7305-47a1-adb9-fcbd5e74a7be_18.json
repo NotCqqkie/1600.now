@@ -9,7 +9,12 @@
     },
     {
       "title": "Solve",
-      "content": "Add 4 to both sides:<br/>$$b = -53 + 4 = -49$$"
+      "content": "Add 4 to both sides:<br/>$$b = -53 + 4 = -49$$ In Desmos, the one-row regression $y_1\\sim -10x_1+b$ using $x_1=\\frac25$ and $y_1=-53$ also returns $b=-49$.",
+      "desmosExpressions": [
+        "x_1=[2/5]",
+        "y_1=[-53]",
+        "y_1~-10x_1+b"
+      ]
     },
     {
       "title": "Answer",

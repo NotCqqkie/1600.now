@@ -13,10 +13,10 @@
       "desmosExpressions": [
         "A=[4,5,5,5,6,6,6,6,7,7,7,7,7,8,8,8,8,9,9,9,10]",
         "B=[4,4,5,5,5,6,6,6,6,7,7,7,8,8,8,8,9,9,9,10,10]",
-        "median(A)",
-        "median(B)",
-        "stdevp(A)",
-        "stdevp(B)"
+        "\\operatorname{median}\\left(A\\right)",
+        "\\operatorname{median}\\left(B\\right)",
+        "\\operatorname{stdevp}\\left(A\\right)",
+        "\\operatorname{stdevp}\\left(B\\right)"
       ]
     },
     {

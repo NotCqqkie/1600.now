@@ -9,7 +9,14 @@
     },
     {
       "title": "Find the mass per M-type star using the x-intercept",
-      "content": "At the x-intercept, all 132,778 quettagrams comes from M-type stars only (since $y = 0$):<br/>$$m(160) + k(0) = 132,778$$<br/>$$160m = 132,778$$<br/>$$m = \\frac{132,778}{160} = 829.8625$$<br/>The closest value is 828. That matches choice A — <strong>A</strong> is correct."
+      "content": "At the $x$-intercept, all $132{,}778$ quettagrams come from M-type stars only because $y=0$. If each M-type star has mass $m$, then $$160m=132{,}778.$$ So $$m=\\frac{132{,}778}{160}=829.8625.$$",
+      "desmosExpressions": [
+        "132778/160"
+      ]
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "The answer choices are estimates based on reading the graph, so use the closest option. $829.8625$ is closest to $828$, so choice <strong>A</strong> is correct."
     }
   ]
 }

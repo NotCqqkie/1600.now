@@ -12,8 +12,6 @@ import {
 } from "@/lib/explanationApi";
 import { InlineDesmos } from "@/components/tools/InlineDesmos";
 import "katex/dist/katex.min.css";
-
-// ── Main component ───────────────────────────────────────────────────
 interface StepByStepExplanationProps {
   questionId: string;
   question: {
@@ -57,10 +55,6 @@ export function StepByStepExplanation({ questionId, question }: StepByStepExplan
       })
       .catch(() => {});
   }, [questionId]);
-
-  // Auto-step mode for the homepage iframe demo. When the URL has
-  // `autoStep=1`, advance through all steps automatically, then halt on the
-  // last one. Manual clicks of Next/Back stop the auto-cycle.
   const [searchParams] = useSearchParams();
   const autoStep = searchParams.get("autoStep") === "1";
   const userTookOverRef = useRef(false);
@@ -134,7 +128,6 @@ export function StepByStepExplanation({ questionId, question }: StepByStepExplan
         </div>
       </div>
 
-      {/* Single full-page step view — one step visible at a time, fills entire panel */}
       <div
         className="flex-1 overflow-hidden relative"
       >
@@ -147,7 +140,6 @@ export function StepByStepExplanation({ questionId, question }: StepByStepExplan
         </div>
       </div>
 
-      {/* Navigation footer */}
       <div className="px-3 py-2 border-t border-border/50 shrink-0 flex items-center gap-2">
         <Button
           variant="ghost"
@@ -174,24 +166,18 @@ export function StepByStepExplanation({ questionId, question }: StepByStepExplan
     </div>
   );
 }
-
-// Strip internal reasoning artifacts.
 function cleanStepContent(raw: unknown): string {
   let s = typeof raw === "string" ? raw : "";
   s = s.replace(/<think>[\s\S]*?<\/think>/gi, "");
   s = s.replace(/<\/?think>/gi, "");
   s = s.replace(/(?:^|\n)>\s*(?:Reasoning|Think|Note to self|Internal)[^\n]*/gi, "");
   s = s.replace(/\*\*(?:Reasoning|Internal note)\*\*:?[^\n]*/gi, "");
-  // The bolded choice letter alone confirms the answer; the older "<strong>X</strong> is correct"
-  // tail just repeats the letter. Drop the tail and ensure the choice letter is bolded once.
   s = s.replace(/\s*[—–-]+\s*<strong>[A-Z]<\/strong>\s+is\s+(?:correct|the\s+answer|right)\.?/gi, ".");
   s = s.replace(/\s*[—–-]+\s*[A-Z]\s+is\s+(?:correct|the\s+answer|right)\.?/g, ".");
   s = s.replace(/(<\/strong>)\s*[—–-]+\s*[^<.]{1,30}?\s+is\s+(?:correct|the\s+answer|right)\.?/gi, "$1.");
   s = s.replace(/\b(matches\s+choice\s+)([A-Z])\b(?!<\/strong>)/gi, "$1<strong>$2</strong>");
   return s.trim();
 }
-
-// Content is from our own API response (renderMixedContent sanitizes via KaTeX rendering)
 function StepContent({ step, stepIndex, totalSteps }: { step: ExplanationStep; stepIndex: number; totalSteps: number }) {
   const cleaned = cleanStepContent(step.content);
   const contentHtml = renderMixedContent(cleaned, { convertTexLineBreaks: false });

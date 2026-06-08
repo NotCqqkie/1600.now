@@ -4,28 +4,23 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Distribute and combine like terms",
-      "content": "Distribute the negative sign and combine like terms:$$=8x^3+8-x^3+2$$$$=7x^3+10$$"
+      "title": "Use cubic regression to avoid sign errors",
+      "content": "The main trap is the minus sign before the second parentheses. A fast Desmos method is to evaluate the whole expression at four x-values.",
+      "desmosExpressions": [
+        "x_1=[-1,0,1,2]",
+        "y_1=(8x_1^3+8)-(x_1^3-2)"
+      ]
     },
     {
-      "title": "Match to the answer choices",
-      "content": "The simplified expression is $7x^3+10$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."
+      "title": "Fit the cubic form",
+      "content": "Regress the outputs against $ax^3+bx^2+cx+d$:<br/>$$y_1\\sim ax_1^3+bx_1^2+cx_1+d$$<br/>Desmos returns $a=7$, $b=0$, $c=0$, and $d=10$.",
+      "desmosExpressions": [
+        "y_1\\sim a x_1^3+b x_1^2+c x_1+d"
+      ]
     },
     {
-      "title": "Use the source rationale",
-      "content": "Choice B is correct. The given expression is equivalent to $8{x}^{3}+8-{x}^{3}-\\left(-2\\right)$, or $8{x}^{3}+8-{x}^{3}+2$. Combining like terms in this expression yields $7{x}^{3}+10$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice A is incorrect. This expression is equivalent to $\\left(8{x}^{3}+8\\right)-2$, not $\\left(8{x}^{3}+8\\right)-\\left({x}^{3}-2\\right)$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice C is incorrect. This expression is equivalent to $\\left(8{x}^{3}+8\\right)-\\left(-2\\right)$, not $\\left(8{x}^{3}+8\\right)-\\left({x}^{3}-2\\right)$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice D is incorrect. This expression is equivalent to $\\left(8{x}^{3}+8\\right)-\\left({x}^{3}+2\\right)$, not $\\left(8{x}^{3}+8\\right)-\\left({x}^{3}-2\\right)$."
+      "title": "Confirm with the sign rule",
+      "content": "Distribute the subtraction:<br/>$$(8x^3+8)-(x^3-2)=8x^3+8-x^3+2=7x^3+10$$<br/>That matches choice B, so <strong>B</strong> is correct."
     }
   ]
 }

@@ -4,13 +4,22 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Convert calendar dates to x-values",
-      "content": "January 13 is 2 days after January 11, so $x = 2$. January 15 is 4 days after January 11, so $x = 4$. We need the flight times at these two x-values."
+      "title": "Read the two needed points",
+      "content": "January 13 is 2 days after January 11, so use $x=2$. January 15 is 4 days after January 11, so use $x=4$. From the scatterplot, the corresponding flight times are $(2,6)$ and $(4,15)$."
     },
     {
-      "title": "Read scatterplot points and calculate slope",
-      "content": "From the scatterplot: at $x = 2$, the bird flew for $y = 6$ hours; at $x = 4$, the bird flew for $y = 15$ hours.<br/><br/>Average rate of change is the slope between these two points:\n\n$$\\text{Average rate of change} = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{15 - 6}{4 - 2} = \\frac{9}{2} = 4.5$$\n\nThe answer is <strong>4.5 hours per day</strong>.",
-      "formula": "$$\\text{slope} = \\frac{\\Delta y}{\\Delta x} = \\frac{y_2 - y_1}{x_2 - x_1}$$"
+      "title": "Fit a line through the two points",
+      "content": "For average rate of change, you only need the slope between those two points. Put them in a Desmos table and run $y_1\\sim m x_1+b$. Desmos gives $m=4.5$.",
+      "desmosExpressions": [
+        "x_1=[2,4]",
+        "y_1=[6,15]",
+        "y_1~m x_1+b",
+        "m"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The flight time increased by $15-6=9$ hours over $4-2=2$ days, so the average rate of change is $9/2=4.5$ hours per day. The answer is <strong>4.5</strong>."
     }
   ]
 }

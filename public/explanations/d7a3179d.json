@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the division",
-      "content": "To convert inches to yards, divide by the conversion factor 36 (since 1 yard = 36 inches):<br/>$$\\frac{1,116}{36}$$"
+      "title": "Use the conversion factor",
+      "content": "Since $1$ yard equals $36$ inches, convert inches to yards by dividing by $36$."
     },
     {
-      "title": "Evaluate the division",
-      "content": "Calculating the result:<br/>$$\\frac{1,116}{36} = 31$$<br/>Therefore, <strong>31 yards</strong> is the answer."
+      "title": "Divide",
+      "content": "$$1116\\div 36=31.$$"
     },
     {
-      "title": "Use the source rationale",
-      "content": "The correct answer is $31$. It's given that $1$ yard is equal to $36$ inches. Therefore, $1,116$ inches is equivalent to $\\left(1,116\\text{inches}\\right)\\left(\\frac{1\\text{yard}}{36\\text{inches}}\\right)$, or $31$ yards."
+      "title": "Confirm the units",
+      "content": "$31$ yards is correct because $31\\cdot36=1116$ inches. The answer is <strong>31</strong>. Dividing is the correct direction because yards are larger units than inches."
     }
   ]
 }

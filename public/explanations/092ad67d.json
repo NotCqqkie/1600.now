@@ -4,32 +4,25 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve the system by elimination",
-      "content": "Add the two equations: $2x = 10$, so $x = 5$."
+      "title": "Use elimination",
+      "content": "Add the two equations:<br/>$$(x+2y)+(x-2y)=6+4$$"
     },
     {
-      "title": "Find $x$",
-      "content": "$x = 5$. That matches choice <strong>B</strong> — <strong>B</strong> is correct.",
+      "title": "Cancel y and solve for x",
+      "content": "The $2y$ and $-2y$ cancel:<br/>$$2x=10$$<br/>$$x=5$$"
+    },
+    {
+      "title": "Check with Desmos",
+      "content": "You can also graph the two lines. Rewrite them as $y=\\frac{6-x}{2}$ and $y=\\frac{x-4}{2}$. Their intersection has $x=5$.",
       "desmosExpressions": [
-        "y = (6 - x)/2",
-        "y = (x - 4)/2"
+        "y=\\frac{6-x}{2}",
+        "y=\\frac{x-4}{2}",
+        "x=5"
       ]
     },
     {
-      "title": "Use the source rationale",
-      "content": "Choice B is correct. Adding the first equation to the second equation in the given system yields $\\left(x+2y\\right)+\\left(x-2y\\right)=6+4$, or $\\left(x+x\\right)+\\left(2y-2y\\right)=10$. Combining like terms in this equation yields $2x=10$. Dividing both sides of this equation by $2$ yields $x=5$. Thus, the value of $x$ is $5$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice A is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice C is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice D is incorrect. This is the value of $2x$, not $x$."
+      "title": "Answer",
+      "content": "$x=5$, which matches choice B. Therefore <strong>B</strong> is correct."
     }
   ]
 }

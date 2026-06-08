@@ -5,7 +5,14 @@
   "steps": [
     {
       "title": "Find which form shows the coefficient equal to f(1)",
-      "content": "A coefficient equals $f(1)$ when the exponential part equals 1. Since $2^0 = 1$, we need the exponent to equal zero when $x = 1$. Check the exponent in each form at $x = 1$:<ul><li>Choice A: exponent $(x+1) = 1+1 = 2$</li><li>Choice B: exponent $x = 1$</li><li>Choice C: exponent $(x-1) = 1-1 = 0$</li><li>Choice D: exponent $(x-2) = 1-2 = -1$</li></ul>Only choice C has an exponent equal to 0 when $x = 1$."
+      "content": "A coefficient equals $f(1)$ only when the exponential factor becomes 1 at $x=1$. In Desmos, make a one-row table with $x_1=1$, then evaluate each choice at that input. This quickly shows which coefficient is actually the value of the function at $x=1$: choice A gives $50(2)^2$, choice B gives $80(2)^1$, choice C gives $128(2)^0$, and choice D gives $205(2)^{-1}$. Only choice C has exponent 0 at $x=1$, so only choice C makes the coefficient itself equal to $f(1)$.",
+      "desmosExpressions": [
+        "x_1=[1]",
+        "a_1=50(2)^(x_1+1)",
+        "b_1=80(2)^x_1",
+        "c_1=128(2)^(x_1-1)",
+        "d_1=205(2)^(x_1-2)"
+      ]
     },
     {
       "title": "Evaluate f(1) for choice C",

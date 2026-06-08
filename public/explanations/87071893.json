@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Isolate x",
-      "content": "Subtract $40$ from both sides of $x+40=95$: $$x=95-40.$$"
+      "title": "Undo the addition",
+      "content": "The equation is $x+40=95$. To isolate $x$, subtract $40$ from both sides: $$x=95-40.$$"
     },
     {
-      "title": "Solve",
-      "content": "Compute: $x=55$. The answer is <strong>55</strong>."
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "The correct answer is $55$. Subtracting $40$ from both sides of the given equation yields $x=55$. Therefore, the value of $x$ is $55$."
+      "title": "Compute and check",
+      "content": "$95-40=55$, so $x=55$. Check: $55+40=95$, which matches the original equation. The subtraction undoes the added $40$, so no other operation is needed. The answer is <strong>55</strong>."
     }
   ]
 }

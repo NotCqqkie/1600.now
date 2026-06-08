@@ -4,32 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve the system by substitution",
-      "content": "Substitute $x=8$ into $4x-3y=5$: $$32-3y=5.$$ Solve: $-3y=-27$, so $y=9$."
-    },
-    {
-      "title": "Find the matching ordered pair",
-      "content": "The ordered pair is $(8,9)$. The answer is <strong>(A) $(8,9)$</strong>.",
+      "title": "Use the given x-value",
+      "content": "The second equation is already $x=8$, so every possible solution must have $x=8$. Substitute $8$ into the other equation.",
       "desmosExpressions": [
-        "y = (4x - 5)/3",
-        "x = 8"
+        "4x-3y=5",
+        "x=8"
       ]
     },
     {
-      "title": "Use the source rationale",
-      "content": "Choice A is correct. The second equation in the given system is $x=8$. Substituting $8$ for $x$ in the first equation in the given system yields $4(8)-3y=5$, or $32-3y=5$. Subtracting $32$ from both sides of this equation yields $-3y=-27$. Dividing both sides of this equation by $-3$ yields $y=9$. Therefore, the solution $(x,y)$ to the given system of equations is $(8,9)$."
+      "title": "Solve for y",
+      "content": "$$4(8)-3y=5$$ $$32-3y=5$$ $$-3y=-27$$ $$y=9$$"
     },
     {
       "title": "Check the choices",
-      "content": "Choice B is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice C is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice D is incorrect and may result from conceptual or calculation errors."
+      "content": "The ordered pair is $(8,9)$. Substituting it gives $4(8)-3(9)=32-27=5$, so it satisfies both equations. That matches choice A."
     }
   ]
 }

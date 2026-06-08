@@ -4,28 +4,25 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Distribute and combine like terms",
-      "content": "Distribute the negative and combine like terms:$$=7x^3+7x-6x^3+3x$$$$=x^3+10x$$"
+      "title": "Use a Desmos regression shortcut",
+      "content": "This is an equivalent-expression question, so a fast SAT-safe check is to make a table of values for the original expression and fit the result to a cubic. Use four $x$-values because the highest power is $x^3$:<br/>$$x_1=[-2,-1,0,1]$$<br/>$$y_1=(7x_1^3+7x_1)-(6x_1^3-3x_1)$$<br/>$$y_1\\sim ax_1^3+bx_1^2+cx_1+d$$",
+      "desmosExpressions": [
+        "x_1=[-2,-1,0,1]",
+        "y_1=(7x_1^3+7x_1)-(6x_1^3-3x_1)",
+        "y_1\\sim ax_1^3+bx_1^2+cx_1+d"
+      ]
     },
     {
-      "title": "Match to the answer choices",
-      "content": "The simplified expression is $x^3+10x$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."
+      "title": "Read the regression result",
+      "content": "Desmos returns $a=1$, $b=0$, $c=10$, and $d=0$. That means the original expression behaves like:<br/>$$x^3+10x$$<br/>This already points to choice A."
     },
     {
-      "title": "Use the source rationale",
-      "content": "Choice A is correct. Applying the distributive property, the given expression can be written as $7{x}^{3}+7x-6{x}^{3}+3x$. Grouping like terms in this expression yields $\\left(7{x}^{3}-6{x}^{3}\\right)+\\left(7x+3x\\right)$. Combining like terms in this expression yields ${x}^{3}+10x$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice B is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice C is incorrect and may result from conceptual or calculation errors."
+      "title": "Confirm with algebra",
+      "content": "Distribute the minus sign across the second parentheses:<br/>$$(7x^3+7x)-(6x^3-3x)=7x^3+7x-6x^3+3x$$<br/>Combine like terms:<br/>$$(7x^3-6x^3)+(7x+3x)=x^3+10x$$"
     },
     {
       "title": "Check the choices",
-      "content": "Choice D is incorrect and may result from conceptual or calculation errors."
+      "content": "Choice A is exactly $x^3+10x$. Choices B and C have the wrong cubic coefficient, and choice D has the wrong linear coefficient. Therefore <strong>A</strong> is correct."
     }
   ]
 }

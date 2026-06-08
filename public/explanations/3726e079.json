@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Factor the second equation",
-      "content": "Rewrite: $\\dfrac{24x}{ny}=\\dfrac{24}{n}\\cdot\\dfrac{x}{y}=4$."
+      "title": "Replace the repeated ratio",
+      "content": "The second equation contains $\\frac{x}{y}$. Rewrite it as $$\\frac{24x}{ny}=\\frac{24}{n}\\cdot\\frac{x}{y}=4$$"
     },
     {
-      "title": "Combine and compute",
-      "content": "Substitute $\\dfrac{x}{y}=4$: $\\dfrac{24}{n}\\cdot 4=4$, so $\\dfrac{24}{n}=1$ and $n=24$.<br/><br/>The answer is <strong>24</strong>."
+      "title": "Substitute the known value",
+      "content": "Since $\\frac{x}{y}=4$, substitute $4$: $$\\frac{24}{n}\\cdot 4=4$$ Divide both sides by $4$ to get $$\\frac{24}{n}=1$$"
     },
     {
-      "title": "Use the source rationale",
-      "content": "The correct answer is $24$. The equation $\\frac{24x}{ny}=4$ can be rewritten as $\\left(\\frac{24}{n}\\right)\\left(\\frac{x}{y}\\right)=4$. It's given that $\\frac{x}{y}=4$. Substituting $4$ for $\\frac{x}{y}$ in the equation $\\left(\\frac{24}{n}\\right)\\left(\\frac{x}{y}\\right)=4$ yields $\\left(\\frac{24}{n}\\right)\\left(4\\right)=4$. Multiplying both sides of this equation by $n$ yields $\\left(24\\right)\\left(4\\right)=4n$. Dividing both sides of this equation by $4$ yields $24=n$. Therefore, the value of $n$ is $24$."
+      "title": "Solve for n",
+      "content": "$\\frac{24}{n}=1$ means the numerator and denominator must be equal, so $n=24$. This also makes the original second expression $\\frac{24x}{24y}=\\frac{x}{y}=4$, which checks. Enter <strong>24</strong>."
     }
   ]
 }

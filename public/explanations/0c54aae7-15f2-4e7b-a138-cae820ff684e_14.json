@@ -15,6 +15,9 @@
       "title": "Eliminate the other choices",
       "content": "<ul><li><strong>A) $x^2 - 4(x+80)$</strong> &mdash; expands to $x^2 - 4x - 320$, but the minimum is not shown as a standalone constant.</li><li><strong>B) $(x-2)^2 + (-324)$</strong> &mdash; vertex form; the constant $-324$ is exactly the minimum value.</li><li><strong>C) $x(x-4) + (-320)$</strong> &mdash; the $-320$ is the y-intercept, not the minimum.</li><li><strong>D) $(x+16)(x-20)$</strong> &mdash; factored form shows the zeros ($-16$ and $20$), not the minimum.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
       "desmosExpressions": [
+        "x_1=[0,1,2]",
+        "y_1=[-320,-323,-324]",
+        "y_1~(x_1-h)^2+k",
         "y=x^{2}-4x-320",
         "y=(x-2)^{2}-324"
       ]

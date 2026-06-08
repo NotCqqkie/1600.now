@@ -4,16 +4,24 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Multiply the expressions",
-      "content": "Factor the left side: $72y^5-48y^4=y^4(72y-48)$. Factor a $6$ from the parenthesis: $$72y^5-48y^4=6y^4(12y-8).$$"
+      "title": "Compare to the target form",
+      "content": "The expression must equal $ry^4(12y-8)$. Factor the original expression until the part $y^4(12y-8)$ appears."
     },
     {
-      "title": "Identify b",
-      "content": "Comparing $6y^4(12y-8)=ry^4(12y-8)$ gives $r=6$. The answer is <strong>6</strong>."
+      "title": "Factor the expression",
+      "content": "First factor out $y^4$:<br/>$$72y^5-48y^4=y^4(72y-48)$$<br/>Then factor $6$ from the parentheses:<br/>$$y^4(72y-48)=6y^4(12y-8)$$<br/>So $r=6$."
     },
     {
-      "title": "Confirm the answer",
-      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $6$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $6$."
+      "title": "Check with Desmos",
+      "content": "A quick constant-ratio check is to divide the original expression by $y^4(12y-8)$ at two values of $y$:<br/>$$t_1=[1,2]$$<br/>$$r_1=\\frac{72t_1^5-48t_1^4}{t_1^4(12t_1-8)}$$<br/>Desmos returns $[6,6]$, so the constant multiplier is $6$.",
+      "desmosExpressions": [
+        "t_1=[1,2]",
+        "r_1=\\frac{72t_1^5-48t_1^4}{t_1^4(12t_1-8)}"
+      ]
+    },
+    {
+      "title": "Answer",
+      "content": "The value of $r$ is <strong>6</strong>."
     }
   ]
 }

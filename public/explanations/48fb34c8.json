@@ -4,22 +4,26 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the inequality test",
-      "content": "Test each $(x, y)$ pair against $y > 13x - 18$."
+      "title": "Compute the cutoff list",
+      "content": "All four choices use the same $x$-values, so use a Desmos list. For $x=3$, $5$, and $8$, the boundary values from $13x-18$ are $21$, $47$, and $86$.",
+      "desmosExpressions": [
+        "x_1=[3,5,8]",
+        "13x_1-18"
+      ]
     },
     {
-      "title": "Test each table",
-      "content": "For each table, compute $13x - 18$ and verify $y > 13x - 18$ for every row."
+      "title": "Test the correct table at once",
+      "content": "Choice D has $y$-values $26$, $52$, and $91$. Enter $d_1=[26,52,91]$ and compare it to the cutoff list. Each value is greater than the matching boundary value: $26>21$, $52>47$, and $91>86$.",
+      "desmosExpressions": [
+        "x_1=[3,5,8]",
+        "d_1=[26,52,91]",
+        "13x_1-18",
+        "d_1>13x_1-18"
+      ]
     },
     {
       "title": "Identify the table",
-      "content": "Only choice D's pairs all satisfy the inequality. That matches choice <strong>D</strong> — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y>13x-18",
-        "(3,26)",
-        "(5,52)",
-        "(8,91)"
-      ]
+      "content": "A correct table must satisfy the strict inequality in all three rows. Choice D is the only table whose entire $y$-list is above $13x-18$, so choice <strong>D</strong> is correct."
     }
   ]
 }

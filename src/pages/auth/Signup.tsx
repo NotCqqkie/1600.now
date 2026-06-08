@@ -62,9 +62,6 @@ const Signup = () => {
     if (!user.emailVerified) navigate("/verify-email", { replace: true });
     else {
       sessionStorage.setItem("onboarding-pending", "1");
-      // Fresh signups land on /bank so the onboarding tour's splash sits over
-      // the Question Bank — step 1 already targets /bank, no page swap needed.
-      // Only fall back to a stored return path if it's something other than "/".
       const stored = getAuthReturnTo();
       navigate(stored === "/" ? "/bank" : stored, { replace: true });
     }
@@ -76,11 +73,6 @@ const Signup = () => {
     toast({ variant: "destructive", title: friendly.title, description: friendly.description });
     clearRedirectError();
   }, [redirectError, toast, clearRedirectError]);
-
-  // Both handlers defer navigation to the user-change useEffect above.
-  // The effect handles the verified/unverified split and the onboarding
-  // flag; navigating here would race the auth state and consume the
-  // return path before the verified check runs.
   const handleSignup = async (e: React.FormEvent) => {
     e.preventDefault();
     setHasSubmitted(true);
@@ -115,9 +107,7 @@ const Signup = () => {
 
   return (
     <div className="min-h-screen flex bg-background">
-      {/* ── Left brand panel (theme-aware) ── */}
       <div className="hidden lg:flex lg:flex-col lg:w-[44%] relative overflow-hidden border-r border-border bg-muted/30 dark:bg-[hsl(226,42%,7%)]">
-        {/* Subtle grid */}
         <div
           className="absolute inset-0 pointer-events-none opacity-60 dark:opacity-100"
           style={{
@@ -128,7 +118,6 @@ const Signup = () => {
             WebkitMaskImage: "radial-gradient(ellipse at 30% 30%, black 40%, transparent 75%)",
           }}
         />
-        {/* Accent glow */}
         <div
           className="absolute pointer-events-none"
           style={{
@@ -166,7 +155,6 @@ const Signup = () => {
         </div>
       </div>
 
-      {/* ── Right form panel ── */}
       <div className="flex-1 flex flex-col items-center justify-center px-6 py-10 bg-background">
         <div className="w-full max-w-sm">
           <div className="mb-8">

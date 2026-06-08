@@ -4,15 +4,21 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Plug the slope and point into $y=mx+b$",
-      "content": "With $m=\\tfrac{1}{8}$ and the point $(40,-6)$: $$-6=\\tfrac{1}{8}(40)+b=5+b.$$"
+      "title": "Turn the slope into a second point",
+      "content": "Use Desmos as a two-point line fit. The line passes through $(40,-6)$ and has slope $\\frac{1}{8}$, so moving 8 units right raises $y$ by 1. A second point is $(48,-5)$. Put both points into a table and run a linear regression.",
+      "desmosExpressions": [
+        "x_1=[40,48]",
+        "y_1=[-6,-5]",
+        "y_1~m x_1+b"
+      ]
     },
     {
       "title": "Solve for $b$ and write the equation",
-      "content": "So $b=-11$, giving $$y=\\tfrac{x}{8}-11.$$ That matches choice <strong>B</strong> — <strong>B</strong> is correct.",
+      "content": "The regression gives $m=0.125=\\frac{1}{8}$ and $b=-11$, so the equation is $$y=\\frac{x}{8}-11.$$ That matches choice B.",
       "desmosExpressions": [
-        "y = \\frac{x}{8} - 11",
-        "(40, -6)"
+        "y=x/8-11",
+        "(40,-6)",
+        "(48,-5)"
       ]
     },
     {

@@ -4,32 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use given total",
-      "content": "The problem states there are 43 volunteers total."
+      "title": "Read the requested bar",
+      "content": "The graph labels the gifts A, B, C, and D along the horizontal axis. The question asks for gift C, so use only the bar above C."
     },
     {
-      "title": "Read value for gift C",
-      "content": "In the bar graph, the bar labeled C reaches a height of 18 volunteers."
-    },
-    {
-      "title": "Select answer",
-      "content": "That matches choice D — <strong>D</strong> is correct."
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "Choice D is correct. The height of each bar in the graph shown represents the number of volunteers who chose the gift labeled with the letter specified at the bottom of the bar. The bar for gift C has a height of $18$. Therefore, $18$ volunteers chose gift C."
+      "title": "Match the height",
+      "content": "The bar for gift C reaches $18$ volunteers. The total $43$ volunteers is context, but no subtraction is needed because the graph gives the count directly."
     },
     {
       "title": "Check the choices",
-      "content": "Choice A is incorrect. This is the number of volunteers who chose gift D, not gift C."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice B is incorrect. This is the number of volunteers who chose gift B, not gift C."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice C is incorrect. This is the number of volunteers who chose gift A, not gift C."
+      "content": "<ul><li>Choice A, $3$, is the count for gift D.</li><li>Choice B, $8$, is the count for gift B.</li><li>Choice C, $14$, is the count for gift A.</li><li>Choice D, $18$, is the count for gift C. Correct.</li></ul>That matches choice D."
     }
   ]
 }

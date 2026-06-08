@@ -13,10 +13,13 @@
     },
     {
       "title": "Identify the choice",
-      "content": "Choice B produces parallel lines with no intersection. That matches choice <strong>B</strong> — <strong>B</strong> is correct.",
+      "content": "Graph the original equation with each possible second equation. A no-solution system appears as two distinct parallel lines. Only choice B, $\\frac{1}{3}x=4y$, has the same slope as the original line but a different intercept. That matches choice <strong>B</strong> &mdash; <strong>B</strong> is correct.",
       "desmosExpressions": [
-        "y = (3x + 45)/36",
-        "y = x/4"
+        "3x=36y-45",
+        "x=4y",
+        "(1/3)x=4y",
+        "x=12y-15",
+        "(1/3)x=12y-15"
       ]
     }
   ]

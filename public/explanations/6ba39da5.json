@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve the system by elimination",
-      "content": "Subtract the second equation from the first: $$(2a+8b)-(2a+4b)=198-98,$$ giving $4b=100$."
+      "title": "Use the fastest elimination move",
+      "content": "Both equations start with the same $2a$ term, and the question only asks for $b$. Subtract the second equation from the first so the $a$ terms disappear immediately: $$(2a+8b)-(2a+4b)=198-98.$$"
     },
     {
-      "title": "Find $b$",
-      "content": "So $b=25$. The answer is <strong>25</strong>.",
+      "title": "Solve the remaining equation",
+      "content": "The subtraction gives $4b=100$. Divide both sides by $4$: $$b=25.$$ That is the requested value, so the answer is <strong>25</strong>."
+    },
+    {
+      "title": "Check in Desmos",
+      "content": "Graph the two equations with $a$ as $x$ and $b$ as $y$. The intersection has $y=25$, and that $y$-coordinate represents $b$.",
       "desmosExpressions": [
-        "y = (198 - 2x)/8",
-        "y = (98 - 2x)/4"
+        "2x+8y=198",
+        "2x+4y=98"
       ]
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "The correct answer is $25$. Subtracting the second equation from the first equation in the given system of equations yields $\\left(2a-2a\\right)+\\left(8b-4b\\right)=198-98$, which is equivalent to$0+4b=100$, or $4b=100$. Dividing each side of this equation by $4$ yields $b=25$."
     }
   ]
 }

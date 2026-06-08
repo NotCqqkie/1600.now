@@ -1,25 +1,19 @@
 {
-  "qid": "63c00e2b",
+  "questionId": "63c00e2b",
+  "correctAnswer": "C",
+  "section": "Math",
   "steps": [
-    "The given equation is $\\frac{r}{38} = s + t$.",
-    "Multiply both sides by 38 to isolate $r$: $r = 38(s + t)$.",
     {
-      "title": "Use the source rationale",
-      "content": "Choice C is correct. Multiplying both sides of the given equation by $38$ yields $r=38(s+t)$."
+      "title": "Undo division by 38",
+      "content": "The equation is $$\\frac{r}{38}=s+t$$ To isolate $r$, multiply both sides by $38$."
+    },
+    {
+      "title": "Solve for r",
+      "content": "$$r=38(s+t)$$ Keep $s+t$ in parentheses because the $38$ multiplies the entire right side."
     },
     {
       "title": "Check the choices",
-      "content": "Choice A is incorrect. This equation is equivalent to $r-38=s+t$, not $\\frac{r}{38}=s+t$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice B is incorrect. This equation is equivalent to $r+38=s+t$, not $\\frac{r}{38}=s+t$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice D is incorrect. This equation is equivalent to $38r=s+t$, not $\\frac{r}{38}=s+t$."
+      "content": "Choice C is $r=38(s+t)$, so it is correct. Choices A and B add or subtract $38$, and choice D divides by $38$ again instead of undoing the division."
     }
-  ],
-  "choiceEliminations": "<ul><li><strong>Choice A &mdash; '$r = s + t + 38$'</strong>: Adding 38 does not undo division by 38. &#10007;</li><li><strong>Choice B &mdash; '$r = s + t - 38$'</strong>: Subtracting 38 does not undo division by 38. &#10007;</li><li><strong>Choice C &mdash; '$r = 38(s + t)$'</strong>: Multiplying both sides by 38 correctly isolates $r$. &#10003;</li><li><strong>Choice D &mdash; '$r = \\frac{s+t}{38}$'</strong>: This divides by 38 a second time rather than multiplying; gives the wrong result. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.",
-  "correctAnswer": "C"
+  ]
 }

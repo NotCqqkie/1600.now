@@ -68,8 +68,6 @@ const formatTimeSpentValue = (seconds: number, isUpperBound = false): string => 
   const remainingSeconds = seconds % 60;
   return remainingSeconds === 0 ? `${minutes}m` : `${minutes}m ${remainingSeconds}s`;
 };
-
-// Filter card component for consistent styling
 function FilterCard({
   icon: Icon,
   label,
@@ -143,7 +141,6 @@ export function QuestionBankFilterPanel({
 
   return (
     <div className="space-y-4">
-      {/* Top Bar */}
       <div className="flex flex-wrap gap-3 items-center">
         <Button
           variant="outline"
@@ -162,11 +159,9 @@ export function QuestionBankFilterPanel({
         {rightContent}
       </div>
 
-      {/* Collapsible Filter Panel */}
       <Collapsible open={isOpen} onOpenChange={setOpen}>
         <CollapsibleContent>
           <div className="border rounded-lg p-4 bg-muted/30 space-y-4">
-            {/* Filter Grid - 2 columns on mobile */}
             <div className={cn(
               "grid grid-cols-2 gap-4",
               showActivityFilter

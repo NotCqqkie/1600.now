@@ -4,15 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Plug the slope and point into $y=mx+b$",
-      "content": "With $m=-8$ and the point $(0,60)$: $$60=-8(0)+b=b.$$"
+      "title": "Make two points for the line",
+      "content": "The line passes through $(0,60)$. Its slope is $-8$, so when $x$ increases by $1$, $y$ decreases by $8$. That gives a second point, $(1,52)$."
     },
     {
-      "title": "Solve for $b$ and write the equation",
-      "content": "So $b=60$, giving $$y=-8x+60.$$ That matches choice <strong>A</strong> — <strong>A</strong> is correct.",
+      "title": "Fit the points in Desmos",
+      "content": "Enter $x_1=[0,1]$ and $y_1=[60,52]$, then run $y_1 \\sim m x_1+b$. Desmos gives $m=-8$ and $b=60$, so the equation is $y=-8x+60$.",
       "desmosExpressions": [
-        "y = -8x + 60",
-        "(0, 60)"
+        "x_1=[0,1]",
+        "y_1=[60,52]",
+        "y_1~m x_1+b"
       ]
     },
     {

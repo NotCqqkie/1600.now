@@ -4,12 +4,26 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Calculate labor costs for total hours",
-      "content": "The company charges \\$112 for the first hour and \\$40 for each additional hour. For $x > 1$, total labor cost is:<br/>$$112 + 40(x - 1)$$<br/>Simplify by distributing and combining constants: $$112 + 40x - 40 = 40x + 72$$"
+      "title": "Fit the labor-only cost",
+      "content": "Ignore parts for one moment and fit just the labor charge. One hour costs 112 dollars, so use $(1,112)$. Two hours costs $112+40=152$ dollars, so use $(2,152)$. Put those points into Desmos and fit $y_1\\sim m x_1+b$.",
+      "desmosExpressions": [
+        "x_1=[1,2]",
+        "y_1=[112,152]",
+        "y_1~m x_1+b"
+      ]
     },
     {
-      "title": "Add the cost of parts to the total",
-      "content": "The total cost $y$ includes the labor cost $40x + 72$ plus the parts cost $z$:<br/>$$y = 40x + 72 + z$$<br/>Rearranged, this becomes $$y = 40x + z + 72$$, which matches choice B — <strong>B</strong> is correct."
+      "title": "Add the parts cost",
+      "content": "The fitted labor line is $y=40x+72$. Parts add an independent cost of $z$, so the total is $$y=40x+72+z,$$ or $$y=40x+z+72.$$"
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "Choice B is $y=40x+z+72$. It charges 112 dollars for the first hour because $40(1)+72=112$, adds 40 dollars for each additional hour, and then adds the parts cost $z$. Choice <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "y=40x+72",
+        "(1,112)",
+        "(2,152)"
+      ]
     }
   ]
 }

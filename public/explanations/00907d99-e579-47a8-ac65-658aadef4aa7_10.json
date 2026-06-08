@@ -4,16 +4,26 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up",
-      "content": "Group the like terms in $4yz^3 + 3yz^3 + 5yz$: the $yz^3$ terms can be combined; $5yz$ has no like term."
+      "title": "Identify the like terms",
+      "content": "The terms $4yz^3$ and $3yz^3$ are like terms because they have the exact same variable part, $yz^3$. The term $5yz$ is not like them because it has $z$, not $z^3$."
     },
     {
-      "title": "Solve",
-      "content": "$4yz^3 + 3yz^3 = 7yz^3$, so the expression simplifies to $7yz^3 + 5yz$."
+      "title": "Combine coefficients only",
+      "content": "Add the coefficients of the like terms and keep the variable part unchanged:<br/>$$4yz^3+3yz^3=7yz^3$$<br/>So the full expression becomes:<br/>$$4yz^3+5yz+3yz^3=7yz^3+5yz$$"
     },
     {
-      "title": "Answer",
-      "content": "<strong>A</strong> is correct."
+      "title": "Check with a Desmos table",
+      "content": "To avoid the common exponent trap, test the original and choice A at two $(y,z)$ values:<br/>$$y_1=[1,2]$$<br/>$$z_1=[2,3]$$<br/>$$o_1=4y_1z_1^3+5y_1z_1+3y_1z_1^3$$<br/>$$a_1=7y_1z_1^3+5y_1z_1$$<br/>The lists match, so choice A is equivalent.",
+      "desmosExpressions": [
+        "y_1=[1,2]",
+        "z_1=[2,3]",
+        "o_1=4y_1z_1^3+5y_1z_1+3y_1z_1^3",
+        "a_1=7y_1z_1^3+5y_1z_1"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "Choice A is $7yz^3+5yz$. Choices B, C, and D incorrectly add exponents or combine unlike terms. Therefore <strong>A</strong> is correct."
     }
   ]
 }

@@ -4,15 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the perpendicular shortcut: negative reciprocal slope",
-      "content": "Line $k$ has slope $-\\frac{17}{3}$. A perpendicular line has slope equal to the negative reciprocal:<br/>$$m_{\\perp} = \\frac{3}{17} \\approx 0.1764$$<br/>The answer is <strong>.1764</strong>.",
-      "desmosExpressions": [
-        "3/17"
-      ]
+      "title": "Read the slope of line k",
+      "content": "The equation $y=-\\frac{17}{3}x+5$ is already in slope-intercept form, $y=mx+b$. The slope is the coefficient of $x$, so line $k$ has slope $-\\frac{17}{3}$."
     },
     {
-      "title": "Use the source rationale",
-      "content": "The correct answer is $\\frac{3}{17}$. It's given that line $j$ is perpendicular to line $k$ in the <em>xy</em>-plane. This means that the slope of line $j$ is the negative reciprocal of the slope of line $k$. The equation of line $k$, $y=-\\frac{17}{3}x+5$, is written in slope-intercept form $y=mx+b$, where $m$ is the slope of the line and $b$ is the <em>y</em>-coordinate of the <em>y</em>-intercept of the line. It follows that the slope of line $k$ is $-\\frac{17}{3}$. The negative reciprocal of a number is $-1$ divided by the number. Therefore, the negative reciprocal of $-\\frac{17}{3}$ is $\\frac{-1}{-\\frac{17}{3}}$, or $\\frac{3}{17}$. Thus, the slope of line $j$ is $\\frac{3}{17}$. Note that 3/17,.1764,.1765, and 0.176 are examples of ways to enter a correct answer."
+      "title": "Use the perpendicular shortcut",
+      "content": "Perpendicular slopes are negative reciprocals. Flip $-\\frac{17}{3}$ to $-\\frac{3}{17}$, then change the sign:<br/>$$m_j=\\frac{3}{17}$$"
+    },
+    {
+      "title": "Convert for entry",
+      "content": "$$\\frac{3}{17}=0.1764705\\ldots$$<br/>A valid decimal entry is $.1764$."
+    },
+    {
+      "title": "Answer",
+      "content": "The slope of line $j$ is $\\frac{3}{17}$, so <strong>.1764</strong> is a correct decimal entry."
     }
   ]
 }

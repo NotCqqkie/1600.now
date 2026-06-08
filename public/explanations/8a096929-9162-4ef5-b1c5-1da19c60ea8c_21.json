@@ -4,16 +4,32 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Simplify and identify the condition for no solution",
-      "content": "Start with the given equation: $13(x - n) = 13y + 13n$<br/>Expand both sides:<br/>$$13x - 13n = 13y + 13n$$<br/>Combine like terms:<br/>$$13x - 13y = 26n$$<br/>Divide by 13:<br/>$$x - y = 2n$$<br/>Rewrite in slope-intercept form:<br/>$$y = x - 2n$$<br/>This equation has slope 1 and y-intercept $-2n$.<br/><br/><div class=\"callout\">For the system to have no solution, the two equations must represent <strong>parallel lines</strong> — same slope but different y-intercepts. So the second equation must have slope 1 and y-intercept ≠ $-2n$.</div>"
+      "title": "Simplify the given equation",
+      "content": "Start with $13(x-n)=13y+13n$. Expanding gives $13x-13n=13y+13n$, so $13x-13y=26n$. Divide by $13$ to get $$x-y=2n.$$"
     },
     {
-      "title": "Identify the parallel equation among the choices",
-      "content": "<ul><li><strong>Choice A:</strong> $2x - 2y = 4n$ simplifies to $x - y = 2n$, or $y = x - 2n$. This is identical to the first equation, so the system has infinitely many solutions. ✗</li><li><strong>Choice B:</strong> $2x + 2y = 2n$ simplifies to $x + y = n$, or $y = -x + n$. The slope is -1, not 1, so these lines are not parallel. ✗</li><li><strong>Choice C:</strong> $2x + 2y = 4n$ simplifies to $x + y = 2n$, or $y = -x + 2n$. The slope is -1, not 1, so these lines are not parallel. ✗</li><li><strong>Choice D:</strong> $2x - 2y = 2n$ simplifies to $x - y = n$, or $y = x - n$. The slope is 1 (matching the first equation) and the y-intercept is $-n$, which is different from $-2n$. These are parallel lines with no intersection. That matches choice D — <strong>D</strong> is correct.</li></ul>",
+      "title": "Use n = 1 as a Desmos check",
+      "content": "Since $n$ is positive, use $n=1$ to test the line behavior. The original equation becomes $x-y=2$, or $y=x-2$. Choice D becomes $2x-2y=2$, or $y=x-1$.",
       "desmosExpressions": [
-        "y = x - 2",
-        "y = x - 1"
+        "x-y=2",
+        "2x-2y=2"
       ]
+    },
+    {
+      "title": "Fit both lines and compare",
+      "content": "Make two small tables. The original line uses $(0,-2)$ and $(1,-1)$; choice D uses $(0,-1)$ and $(1,0)$. Regress each table. Desmos shows both slopes are $1$, but the intercepts are $-2$ and $-1$, so the lines are parallel and distinct.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[-2,-1]",
+        "y_1~m x_1+b",
+        "x_2=[0,1]",
+        "y_2=[-1,0]",
+        "y_2~m_2 x_2+b_2"
+      ]
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A is the same line as the original, so it gives infinitely many solutions. Choices B and C have $x+y$ after simplification, so they have slope $-1$ and cross the original. Choice D is parallel but separate, so there is no solution. Choice <strong>D</strong> is correct."
     }
   ]
 }

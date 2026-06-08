@@ -4,15 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Evaluate $q(x) = 32(2^x)$ at $x = -1, 0, 1$",
-      "content": "Substitute each x-value into the function."
+      "title": "Evaluate all table inputs at once",
+      "content": "The answer choices all use $x=-1$, $0$, and $1$. In Desmos, define $q(x)=32(2^x)$ and evaluate $q([-1,0,1])$.",
+      "desmosExpressions": [
+        "q(x)=32\\cdot2^x",
+        "q([-1,0,1])"
+      ]
     },
     {
-      "title": "Calculate and identify the matching table",
-      "content": "$$q(-1) = 32 \\cdot 2^{-1} = 32 \\cdot \\frac{1}{2} = 16$$<br/>$$q(0) = 32 \\cdot 2^0 = 32 \\cdot 1 = 32$$<br/>$$q(1) = 32 \\cdot 2^1 = 32 \\cdot 2 = 64$$<br/>The function values at $x = (-1, 0, 1)$ are $(16, 32, 64)$. That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "q(x)=32((2)^(x))"
-      ]
+      "title": "Read the output row",
+      "content": "The values are:<br/>$$q(-1)=16,\\quad q(0)=32,\\quad q(1)=64$$<br/>So the correct table must have output row $16,32,64$."
+    },
+    {
+      "title": "Match the table",
+      "content": "Only choice D pairs $-1$, $0$, and $1$ with $16$, $32$, and $64$, respectively. Choice <strong>D</strong> is correct."
     }
   ]
 }

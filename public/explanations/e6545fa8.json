@@ -4,28 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the intersection from the graph",
-      "content": "The solution to a graphed system is the point where the two lines cross. Here that point is at $x=3,\\ y=4$."
+      "title": "Read the intersection",
+      "content": "For a graphed system, the solution is the point that lies on both lines: the intersection."
     },
     {
-      "title": "State the ordered pair",
-      "content": "The solution is $(3,4)$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "Choice B is correct. If a point $\\left(x,y\\right)$ lies on both lines in the graph of a system of two linear equations, the ordered pair $\\left(x,y\\right)$ is a solution to the system. The graph shown is the graph of a system of two linear equations, where the two lines in the graph intersect at the point $\\left(3,4\\right)$. Therefore, the point $\\left(3,4\\right)$ lies on both lines, so the ordered pair $\\left(3,4\\right)$ is the solution to the system."
+      "title": "Write the ordered pair",
+      "content": "The graph shows the two lines crossing at $(3,4)$."
     },
     {
       "title": "Check the choices",
-      "content": "Choice A is incorrect. The point $\\left(2,3\\right)$ lies on one, not both, of the lines in the graph shown."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice C is incorrect. The point $\\left(4,5\\right)$ lies on one, not both, of the lines in the graph shown."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice D is incorrect. The point $\\left(5,6\\right)$ lies on one, not both, of the lines in the graph shown."
+      "content": "Choice B is correct. Choices A, C, and D may lie near one line, but they are not the point where both lines intersect."
     }
   ]
 }

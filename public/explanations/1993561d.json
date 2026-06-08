@@ -4,17 +4,26 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the y-intercept",
-      "content": "The point $(0, 5)$ tells us that when $x = 0$, we have $y = 5$. This is the y-intercept: $b = 5$."
+      "title": "Make a two-row table",
+      "content": "The point $(0,5)$ is on the graph. Since the slope is $\\frac{1}{4}$, moving $4$ units right raises $y$ by $1$, so another point is $(4,6)$.",
+      "desmosExpressions": [
+        "x_1=[0,4]",
+        "y_1=[5,6]"
+      ]
     },
     {
-      "title": "Write the equation using slope-intercept form",
-      "content": "With slope $m = \\frac{1}{4}$ and y-intercept $b = 5$, substitute into the form to get:<br/>$$f(x) = \\frac{1}{4}x + 5$$<br/>This matches choice A — <strong>A</strong> is correct.",
-      "formula": "$$y = mx + b$$",
+      "title": "Fit the equation in Desmos",
+      "content": "Run $y_1 \\sim mx_1+b$. Desmos returns $m=0.25$ and $b=5$, so the equation is $f(x)=\\frac{1}{4}x+5$.",
       "desmosExpressions": [
-        "y=\\frac{1}{4}x+5",
-        "(0,5)"
+        "x_1=[0,4]",
+        "y_1=[5,6]",
+        "y_1~m x_1+b",
+        "y=(1/4)x+5"
       ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "Choice A matches both the slope and intercept. Choice B has the wrong intercept, choice C has intercept $-\\frac{5}{4}$, and choice D has intercept $-5$. Choice <strong>A</strong> is correct."
     }
   ]
 }

@@ -3,8 +3,6 @@ import * as LabelPrimitive from "@radix-ui/react-label";
 import { cva, type VariantProps } from "class-variance-authority";
 
 import { cn } from "@/lib/utils";
-
-// Field label — Inter 600, 13px, sentence-case, no colon.
 const labelVariants = cva("font-sans text-[13px] font-semibold leading-[1.4] text-ink peer-disabled:cursor-not-allowed peer-disabled:opacity-70");
 
 const Label = React.forwardRef<

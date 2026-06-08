@@ -4,32 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve the system by substitution",
-      "content": "From $5x=2y$, write $y=\\tfrac{5x}{2}$ and substitute into $y-9x=13$: $$\\tfrac{5x}{2}-9x=13.$$ Multiply by $2$: $-13x=26$, so $x=-2$."
+      "title": "Put both equations in graphable form",
+      "content": "Rewrite the system as $$y=9x+13$$ and $$y=\\frac{5}{2}x.$$ This makes it easy to graph or substitute."
     },
     {
-      "title": "Find the matching ordered pair",
-      "content": "Then $y=\\tfrac{5(-2)}{2}=-5$. The answer is <strong>(C) $(-2,-5)$</strong>.",
+      "title": "Solve the intersection",
+      "content": "Set the right sides equal: $$9x+13=\\frac{5}{2}x.$$ Multiply by $2$: $18x+26=5x$, so $-13x=26$ and $x=-2$. Then $y=\\frac{5}{2}(-2)=-5$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "The solution is $(-2,-5)$, so choice C is correct. Choice D reverses the ordered pair, and choices A and B do not satisfy both equations.",
       "desmosExpressions": [
-        "y = 9x + 13",
-        "y = 5x/2"
+        "y=9x+13",
+        "y=5x/2"
       ]
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "Choice C is correct. Adding $9x$ to both sides of the first equation in the given system yields $y=9x+13$. Substituting the expression $9x+13$ for $y$ in the second equation in the given system yields $5x=2\\left(9x+13\\right)$. Distributing the $2$ on the right-hand side of this equation yields $5x=18x+26$. Subtracting $18x$ from both sides of this equation yields $-13x=26$. Dividing both sides of this equation by $-13$ yields $x=-2$. Substituting $-2$ for $x$ in the equation $y=9x+13$ yields $y=9\\left(-2\\right)+13$, or $y=-5$. Therefore, the solution $\\left(x,y\\right)$ to the given system of equations is $\\left(-2,-5\\right)$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice A is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice B is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice D is incorrect. This is the solution $\\left(y,x\\right)$, not $\\left(x,y\\right)$, to the given system of equations."
     }
   ]
 }

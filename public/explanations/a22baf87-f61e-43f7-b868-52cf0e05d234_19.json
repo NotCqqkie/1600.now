@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Understand what we are comparing",
-      "content": "The question asks: for how many data points is <strong>actual y</strong> greater than <strong>predicted y</strong>? The predicted y-value for any point is where the line of best fit crosses that x-value. So we are looking for data points that sit <strong>above</strong> the line of best fit on the scatterplot."
+      "title": "Use residual signs, not a new regression",
+      "content": "The line of best fit is already drawn. The question is not asking for its equation; it asks how many actual data points have $y$-values greater than the predicted $y$-values. That means count the dots above the line."
     },
     {
-      "title": "Count points above the line visually",
-      "content": "Look at the scatterplot. For each plotted dot, ask: is this dot above the line or below it? Dots that lie above the line are ones where the actual value exceeds the prediction. Work left to right across all data points, tallying each time a dot is above the line."
+      "title": "Count above the line from left to right",
+      "content": "Moving left to right prevents double-counting. The points near $x=3.5$, $x=5.9$, $x=6.5$, $x=8.4$, and $x=9.7$ sit above the line. The other four plotted points sit below the line."
     },
     {
-      "title": "Arrive at the answer",
-      "content": "Counting the dots above the line of best fit on the scatterplot gives <strong>5 points</strong> where actual $y$ exceeds predicted $y$. That matches choice C — <strong>C</strong> is correct."
+      "title": "Confirm the choice",
+      "content": "There are $5$ points above the line, so there are $5$ actual $y$-values greater than their predicted values. Choice <strong>C</strong> is correct."
     }
   ]
 }

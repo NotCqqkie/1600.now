@@ -9,7 +9,13 @@
     },
     {
       "title": "Use cumulative frequencies to locate the 16th value",
-      "content": "Add up frequencies from the lowest interval until reaching the 16th value:<ul><li>$−5$ to $4$: 1 value (cumulative total: 1)</li><li>$5$ to $14$: 4 values (cumulative total: $1 + 4 = 5$)</li><li>$15$ to $24$: 5 values (cumulative total: $5 + 5 = 10$)</li><li>$25$ to $34$: 6 values (cumulative total: $10 + 6 = 16$)</li></ul>The 16th value is in the $25$ to $34$ interval, so the median falls in this range."
+      "content": "In Desmos, make four list rows for the lower endpoints, upper endpoints, frequencies, and cumulative frequencies. The cumulative list reaches $16$ at the interval from $25$ to $34$, so the 16th value must be in that interval.",
+      "desmosExpressions": [
+        "l_1=[-5,5,15,25,35,45,55]",
+        "u_1=[4,14,24,34,44,54,64]",
+        "f_1=[1,4,5,6,10,4,1]",
+        "c_1=[1,5,10,16,26,30,31]"
+      ]
     },
     {
       "title": "Identify all possible median values",

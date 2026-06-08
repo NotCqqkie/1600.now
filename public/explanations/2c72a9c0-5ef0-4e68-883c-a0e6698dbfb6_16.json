@@ -5,21 +5,25 @@
   "steps": [
     {
       "title": "Read the graphed line",
-      "content": "The line shown is $y=f(x)+11$. Reading two points from the grid gives a negative slope and the equation $y=-x+6$."
+      "content": "The line shown is $y=f(x)+11$. Use two clear grid points in Desmos: $(-4,9)$ and $(0,1)$. A linear regression gives slope $-2$ and intercept $1$, so the shown line is $y=-2x+1$.",
+      "desmosExpressions": [
+        "x_1=[-4,0]",
+        "y_1=[9,1]",
+        "y_1~m x_1+b",
+        "y=-2x+1"
+      ]
     },
     {
       "title": "Solve for $f(x)$",
-      "content": "Subtract $11$ from both sides: $$f(x)=-x+6-11=-x-5.$$"
+      "content": "Subtract $11$ from both sides: $$f(x)+11=-2x+1$$ $$f(x)=-2x+1-11=-2x-10$$",
+      "desmosExpressions": [
+        "y=-2x+1",
+        "y=-2x-10"
+      ]
     },
     {
       "title": "Match to the form with positive $c,d$",
-      "content": "Rewrite as $f(x)=-5-1\\cdot x=-d-cx$ with $d=5,\\ c=1$ (both positive). That matches choice <strong>A</strong> — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y = -d - cx",
-        "y = d + cx",
-        "y = d - cx",
-        "y = -d + cx"
-      ]
+      "content": "Rewrite as $f(x)=-10-2x=-d-cx$ with $d=10$ and $c=2$, both positive. That matches choice <strong>A</strong>."
     }
   ]
 }

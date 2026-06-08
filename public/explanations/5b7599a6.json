@@ -5,12 +5,20 @@
   "steps": [
     {
       "title": "Read the intercepts",
-      "content": "From the graph, the line crosses the $y$-axis at $(0,6)$ and the $x$-axis at $(2,0)$. These two intercepts are enough to avoid a long slope-intercept setup: the correct answer must pass through both points with a positive value of $R$."
+      "content": "From the graph, the line crosses the $y$-axis at $(0,6)$ and the $x$-axis at $(2,0)$. Put those two points in Desmos as a table instead of doing a long symbolic setup.",
+      "desmosExpressions": [
+        "x_1=[0,2]",
+        "y_1=[6,0]"
+      ]
     },
     {
-      "title": "Check choice C directly",
-      "content": "Use the $y$-intercept in choice C: $18x+Ry=36$. Substituting $(0,6)$ gives $6R=36$, so $R=6$, which is positive. With that value, choice C becomes $$18x+6y=36$$ This line also passes through $(2,0)$ because $18(2)+6(0)=36$.",
+      "title": "Fit the line and clear decimals",
+      "content": "Run $y_1 \\sim mx_1+b$. The regression gives $m=-3$ and $b=6$, so the graph is $y=-3x+6$. Rewriting gives $3x+y=6$, and multiplying by $6$ gives $18x+6y=36$. That matches the form $18x+Ry=36$ with positive $R=6$.",
       "desmosExpressions": [
+        "x_1=[0,2]",
+        "y_1=[6,0]",
+        "y_1~m x_1+b",
+        "y=-3x+6",
         "18x+6y=36",
         "(0,6)",
         "(2,0)"
@@ -18,7 +26,7 @@
     },
     {
       "title": "Rule out the other forms",
-      "content": "Choices A and B put the fixed coefficient $18$ on the $y$-term, so at $(0,6)$ they force $18(6)=36$, which is false. Choice D has the wrong sign: at the x-intercept it gives $18(2)-R(0)=-36$, or $36=-36$. Only choice <strong>C</strong> matches both intercepts."
+      "content": "Choices A and B put the fixed coefficient $18$ on the $y$-term, so at $(0,6)$ they force $18(6)=36$, which is false. Choice D has the wrong sign: at the $x$-intercept it gives $18(2)-R(0)=-36$, or $36=-36$. Only choice <strong>C</strong> matches both intercepts."
     }
   ]
 }

@@ -4,20 +4,26 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use point-slope form",
-      "content": "With slope $-54$ through $(0,0)$: $y-0=-54(x-0)$, so $f(x)=-54x+b$ with $b$ to determine."
+      "title": "Create two points from the slope",
+      "content": "The graph passes through $(0,0)$. A slope of $-54$ means that when $x$ increases from $0$ to $1$, $y$ decreases to $-54$. Use the points $(0,0)$ and $(1,-54)$.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[0,-54]"
+      ]
     },
     {
-      "title": "Solve for the unknown",
-      "content": "Plugging $(0,0)$: $0=-54(0)+b\\Rightarrow b=0$, so $f(x)=-54x$. That matches choice <strong>A</strong> — <strong>A</strong> is correct.",
+      "title": "Fit the line",
+      "content": "Run $y_1 \\sim mx_1+b$ in Desmos. The regression gives $m=-54$ and $b=0$, so the equation is $y=-54x$.",
       "desmosExpressions": [
-        "y = -54x",
-        "(0, 0)"
+        "x_1=[0,1]",
+        "y_1=[0,-54]",
+        "y_1~m x_1+b",
+        "y=-54x"
       ]
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice A, $f(x)=-54x$. The other choices do not satisfy the same condition from the question, so <strong>A</strong> is correct."
+      "content": "The fitted equation is $f(x)=-54x$, which matches choice A. The other choices have slopes $-36$, $-18$, and $1$, so they cannot match the given slope. Choice <strong>A</strong> is correct."
     }
   ]
 }

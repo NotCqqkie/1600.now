@@ -4,16 +4,31 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute the given value",
-      "content": "With $j(x)=mx+144$ and $j(12)=18$, plug $x=12$:<br/>$$12m+144=18\\;\\Rightarrow\\;12m=-126\\;\\Rightarrow\\;m=-\\tfrac{21}{2}$$"
+      "title": "Turn the information into two points",
+      "content": "The function has the form $j(x)=mx+144$, so its y-intercept is $144$. That gives the point $(0,144)$. The statement $j(12)=18$ gives the point $(12,18)$."
     },
     {
-      "title": "Solve for the unknown",
-      "content": "Now compute $j(10)=-\\tfrac{21}{2}(10)+144=-105+144=39$.<br/>The answer is <strong>39</strong>."
+      "title": "Use linear regression in Desmos",
+      "content": "Enter those two points and regress a line. Desmos returns $m=-10.5$ and $b=144$.",
+      "desmosExpressions": [
+        "x_1=[0,12]",
+        "y_1=[144,18]",
+        "y_1\\sim m x_1+b"
+      ]
     },
     {
-      "title": "Use the source rationale",
-      "content": "The correct answer is $39$. It's given that for the linear function $j$, $m$ is a constant and $j\\left(12\\right)=18$. Substituting $12$ for $x$ and $18$ for $j\\left(x\\right)$ in the given equation yields $18=m\\left(12\\right)+144$. Subtracting $144$ from both sides of this equation yields $-126=m\\left(12\\right)$. Dividing both sides of this equation by $12$ yields $-10.5=m$. Substituting $-10.5$ for $m$ in the given equation, $j\\left(x\\right)=mx+144$, yields $j\\left(x\\right)=-10.5x+144$. Substituting $10$ for $x$ in this equation yields $j\\left(10\\right)=\\left(-10.5\\right)\\left(10\\right)+144$, or $j\\left(10\\right)=39$. Therefore, the value of $j\\left(10\\right)$ is $39$."
+      "title": "Evaluate at x = 10",
+      "content": "Now compute:<br/>$$j(10)=-10.5(10)+144=-105+144=39$$<br/>In Desmos, $10m+b$ gives the same value after the regression.",
+      "desmosExpressions": [
+        "x_1=[0,12]",
+        "y_1=[144,18]",
+        "y_1~m x_1+b",
+        "10m+b"
+      ]
+    },
+    {
+      "title": "Answer",
+      "content": "The value of $j(10)$ is <strong>39</strong>."
     }
   ]
 }

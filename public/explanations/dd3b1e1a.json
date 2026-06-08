@@ -4,19 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find b by evaluating f at x=0",
-      "content": "Since the graph passes through $(0,b)$, substitute $x=0$ into $f(x)$ to find $b$:<br/>$$b = f(0)$$"
+      "title": "Use the meaning of $(0,b)$",
+      "content": "If the graph passes through $(0,b)$, then $b$ is the function value when $x=0$."
     },
     {
-      "title": "Compute f(0) and select matching choice",
-      "content": "Evaluating $f(0)$:<br/>$$f(0) = 0^5 + 9\\cdot0 + 17 = 17$$<br/>The answer is <strong>17</strong>.",
+      "title": "Evaluate $f(0)$",
+      "content": "$$f(0)=0^5+9(0)+17=17.$$"
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "Therefore $b=17$. The answer is <strong>17</strong>. This is the $y$-intercept of the graph because the point has $x=0$. All terms with $x$ disappear at that input.",
       "desmosExpressions": [
-        "f(x)=(x)^(5)+9x+17"
+        "y=x^5+9x+17",
+        "x=0"
       ]
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "The correct answer is $17$. It's given that the graph of $y=f(x)$ in the <em>xy</em>-plane passes through the point $(0,b)$, where $b$ is a constant. It follows that $f(0)$ equals $b$. Substituting $0$ for $x$ in the given function yields $f(0)={0}^{5}+9(0)+17$, or $f(0)=17$. Therefore, the value of $b$ is $17$."
     }
   ]
 }

@@ -12,8 +12,11 @@
       "content": "The shaded region lies above the line and the line itself is solid (included), so the inequality is $y\\ge\\frac{2}{3}x-6$."
     },
     {
-      "title": "Evaluate each choice",
-      "content": "<ul><li>A) $y\\ge\\frac{2}{3}x-6$ &mdash; correct slope and correct $y$-intercept of $-6$. Matches.</li><li>B) $y\\ge\\frac{2}{3}x+6$ &mdash; $y$-intercept of $+6$ does not match the graph. Eliminated.</li><li>C) $y\\ge\\frac{2}{3}x-9$ &mdash; $y$-intercept of $-9$ does not match the graph. Eliminated.</li><li>D) $y\\ge\\frac{2}{3}x+9$ &mdash; $y$-intercept of $+9$ does not match. Eliminated.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "title": "Graph-check the answer",
+      "content": "In Desmos, graph $y\\ge\\frac{2}{3}x-6$. The boundary line passes through $(0,-6)$ and $(9,0)$, and the shaded region is above the line, matching the given graph. The other choices keep the same slope but move the $y$-intercept to $6$, $-9$, or $9$, so they miss the boundary. Choice <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y\\ge\\frac{2}{3}x-6"
+      ]
     }
   ]
 }

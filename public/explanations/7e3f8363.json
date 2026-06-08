@@ -4,23 +4,21 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the y-intercept from the first point",
-      "content": "Plot the two given points and graph all four answer choices in Desmos. The correct line must pass through both $(0,3)$ and $(7,31)$.",
+      "title": "Enter the two points",
+      "content": "The line contains $(0,3)$ and $(7,31)$. In Desmos, enter $x_1=[0,7]$ and $y_1=[3,31]$, then type $y_1\\sim m x_1+b$.",
       "desmosExpressions": [
-        "(0,3)",
-        "(7,31)",
-        "y=28x+34",
-        "y=3x+38",
-        "y=4x+3",
-        "y=7x+3"
+        "x_1=[0,7]",
+        "y_1=[3,31]",
+        "y_1~m x_1+b"
       ]
     },
     {
-      "title": "Backsolve with choice C",
-      "content": "Backsolving — testing choice C ($f(x) = 4x + 3$):<ul><li>Check $(0, 3)$: $f(0) = 4(0) + 3 = 3$ ✓</li><li>Check $(7, 31)$: $f(7) = 4(7) + 3 = 28 + 3 = 31$ ✓</li></ul>Both points satisfy this equation. That matches choice C — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y=4x+3"
-      ]
+      "title": "Read the equation",
+      "content": "Desmos gives $m=4$ and $b=3$, so the function is $$f(x)=4x+3.$$ This also makes sense by hand: the y-intercept is $3$, and the slope is $\\dfrac{31-3}{7-0}=4$."
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "Choice <strong>C</strong> is correct. It passes both point checks: $f(0)=3$ and $f(7)=31$."
     }
   ]
 }

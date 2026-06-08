@@ -72,6 +72,7 @@ const OnboardingTour = lazy(() => import("./components/OnboardingTour").then((mo
 const queryClient = new QueryClient();
 const ONBOARDING_REPLAY_REQUEST_KEY = "onboarding-replay-requested";
 const PRACTICE_SET_HELP_REQUEST_KEY = "practice-set-help-requested";
+const SKELETON_DELAY_MS = 180;
 
 const hasPendingTourRequest = () =>
   typeof window !== "undefined" &&
@@ -577,17 +578,6 @@ const skeletonRange = (length: number) => Array.from({ length }, (_, index) => i
 
 const HomeAmbientSkeleton = () => (
   <>
-    <div
-      aria-hidden
-      className="absolute inset-x-0 top-16 h-[calc(100vh-4rem)] opacity-80"
-      style={{
-        backgroundImage: `
-          radial-gradient(circle at 20% 12%, rgba(56,189,248,0.18), transparent 34%),
-          radial-gradient(circle at 78% 18%, rgba(129,140,248,0.14), transparent 32%),
-          radial-gradient(circle at 45% 72%, rgba(244,114,182,0.08), transparent 34%)
-        `,
-      }}
-    />
     <div
       aria-hidden
       className="absolute inset-x-0 top-16 h-[calc(100vh-4rem)] opacity-60"
@@ -2027,6 +2017,17 @@ const Loading = () => {
   return <PageSkeleton pathname={location.pathname} />;
 };
 
+const DelayedLoading = () => {
+  const [show, setShow] = useState(false);
+
+  useEffect(() => {
+    const timeoutId = setTimeout(() => setShow(true), SKELETON_DELAY_MS);
+    return () => clearTimeout(timeoutId);
+  }, []);
+
+  return show ? <Loading /> : null;
+};
+
 const RouteErrorBoundary = ({ children }: { children: ReactNode }) => {
   const location = useLocation();
   return <ErrorBoundary key={location.pathname}>{children}</ErrorBoundary>;
@@ -2034,13 +2035,13 @@ const RouteErrorBoundary = ({ children }: { children: ReactNode }) => {
 
 const withSuspense = (page: ReactNode) => (
   <RouteErrorBoundary>
-    <Suspense fallback={<Loading />}>{page}</Suspense>
+    <Suspense fallback={<DelayedLoading />}>{page}</Suspense>
   </RouteErrorBoundary>
 );
 
 const withShellSuspense = (page: ReactNode) => (
   <RouteErrorBoundary>
-    <Suspense fallback={<Loading />}>
+    <Suspense fallback={<DelayedLoading />}>
       <AppShell>
         <RouteErrorBoundary>
           {page}
@@ -2126,7 +2127,7 @@ const App = () => (
       <AuthProvider>
         <Toaster />
         <Sonner position="top-center" duration={2000} />
-        <BrowserRouter>
+        <BrowserRouter future={{ v7_startTransition: true }}>
           <Seo />
           <ScrollToTop />
           <AuthReturnTracker />

@@ -4,12 +4,23 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read values from the graph",
-      "content": "From the figure, at $x = 0$, $y = 0$ cm; at $x = 5$, $y = 3$ cm."
+      "title": "Use only the endpoints of the interval",
+      "content": "Average rate of change from $x=0$ to $x=5$ only depends on the graph values at those two endpoints. From the graph, the rainfall starts at $(0,0)$ and is at $(5,3)$ when $x=5$.",
+      "desmosExpressions": [
+        "(0,0)",
+        "(5,3)"
+      ]
     },
     {
       "title": "Compute the average rate of change",
-      "content": "$$\\text{rate} = \\frac{y(5)-y(0)}{5-0} = \\frac{3-0}{5} = \\frac{3}{5} = 0.6 \\text{ cm/h}$$<br/>The answer is <strong>0.6</strong>.<br/><br/>Equivalent forms accepted: <strong>0.6</strong>, <strong>3/5</strong>."
+      "content": "Use change in rainfall divided by change in time: $$\\frac{y(5)-y(0)}{5-0}=\\frac{3-0}{5}=\\frac{3}{5}=0.6.$$ The units are centimeters per hour.",
+      "desmosExpressions": [
+        "\\frac{3-0}{5-0}"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The answer is <strong>0.6</strong>. Equivalent accepted forms include <strong>0.6</strong> and <strong>3/5</strong>."
     }
   ]
 }

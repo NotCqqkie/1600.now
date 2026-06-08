@@ -4,20 +4,23 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Rewrite the given equation in slope form",
-      "content": "Divide $3x = 45y - 27$ by 3: $$x = 15y - 9$$ Solving for $y$: $$y = \\frac{1}{15}x + \\frac{3}{5}$$ Slope $= \\frac{1}{15}$, $y$-intercept $= \\frac{3}{5}$."
-    },
-    {
-      "title": "Test all four choices for parallel (no solution) vs. other outcomes",
-      "content": "<ul><li><strong>Choice A &mdash; '$x = 5y$'</strong>: Rearranging gives $y = \\frac{1}{5}x$. Slope $= \\frac{1}{5} \\neq \\frac{1}{15}$. Different slope &rarr; lines intersect &rarr; one solution. &#10007;</li><li><strong>Choice B &mdash; '$\\frac{1}{3}x = 5y$'</strong>: Multiply both sides by 3: $x = 15y$, so $y = \\frac{1}{15}x$. Slope $= \\frac{1}{15}$ (same), $y$-intercept $= 0 \\neq \\frac{3}{5}$ (different). Parallel lines &rarr; no solution. &#10003;</li><li><strong>Choice C &mdash; '$x = 15y - 9$'</strong>: Gives $y = \\frac{1}{15}x + \\frac{3}{5}$. Same slope AND same intercept as the given equation &rarr; identical lines &rarr; infinitely many solutions, not no solution. &#10007;</li><li><strong>Choice D &mdash; '$\\frac{1}{3}x = 15y - 9$'</strong>: Multiply by 3: $x = 45y - 27$, so $y = \\frac{1}{45}x + \\frac{3}{5}$. Slope $= \\frac{1}{45} \\neq \\frac{1}{15}$ (the original). Different slope &rarr; lines intersect at one point &rarr; exactly one solution. &#10007;</li></ul>"
-    },
-    {
-      "title": "Conclusion",
-      "content": "Only Choice B produces parallel lines (same slope, different $y$-intercept), which means no solution. That matches choice B &mdash; <strong>B</strong> is correct.",
+      "title": "Use the parallel-line shortcut",
+      "content": "No solution means parallel distinct lines: same slope, different $y$-intercept. Put the given equation into Desmos as $$3x=45y-27 \\Rightarrow y=\\frac{x}{15}+\\frac{3}{5}$$ The second line must have slope $\\frac{1}{15}$ but a different intercept.",
       "desmosExpressions": [
-        "y = \\frac{x}{15} + \\frac{3}{5}",
-        "y = \\frac{x}{15}"
+        "y=\\frac{x}{15}+\\frac{3}{5}"
       ]
+    },
+    {
+      "title": "Graph the only matching-slope choice",
+      "content": "Choice B gives $$\\frac{1}{3}x=5y \\Rightarrow y=\\frac{x}{15}$$ This has the same slope, $\\frac{1}{15}$, and a different intercept, $0$. In Desmos, $y=\\frac{x}{15}+\\frac{3}{5}$ and $y=\\frac{x}{15}$ are parallel distinct lines, so they never meet.",
+      "desmosExpressions": [
+        "y=\\frac{x}{15}",
+        "y=\\frac{x}{15}+\\frac{3}{5}"
+      ]
+    },
+    {
+      "title": "Eliminate the rest",
+      "content": "A has slope $\\frac{1}{5}$, so it intersects the given line. C is exactly the same as the given line, so it has infinitely many solutions. D has slope $\\frac{1}{45}$, so it intersects the given line. Therefore, the correct answer is choice <strong>B</strong>."
     }
   ]
 }

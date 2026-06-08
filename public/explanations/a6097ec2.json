@@ -4,28 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the relationship (Pythagoras / SOH-CAH-TOA)",
-      "content": "From angle $x°$, the opposite side is $63$ and the hypotenuse is $73$. Apply SOH:<br/>$$\\sin(x°) = \\frac{\\text{opposite}}{\\text{hypotenuse}}$$"
+      "title": "Use SOH for sine",
+      "content": "Sine is opposite over hypotenuse. From angle $x^\\circ$, the opposite side is $63$ and the hypotenuse is $73$."
     },
     {
-      "title": "Solve for the missing side",
-      "content": "Substitute:<br/>$$\\sin(x°) = \\frac{63}{73}$$<br/>That matches choice <strong>C</strong> — <strong>C</strong> is correct."
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "Choice C is correct. The sine of an acute angle in a right triangle is the ratio of the length of the side opposite that angle to the length of the hypotenuse. In the right triangle shown, it's given that the length of the side opposite the angle with measure $x^\\circ$ is $63$ units and the length of the hypotenuse is $73$ units. Therefore, the value of $\\sinx^\\circ$ is $\\frac{63}{73}$."
+      "title": "Write the ratio",
+      "content": "$$\\sin x^\\circ=\\frac{\\text{opposite}}{\\text{hypotenuse}}=\\frac{63}{73}.$$"
     },
     {
       "title": "Check the choices",
-      "content": "Choice A is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice B is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice D is incorrect and may result from conceptual or calculation errors."
+      "content": "Choice C is correct. Choice B uses the other leg, choice A is far too small for this triangle, and choice D is greater than $1$, which sine cannot be for an acute angle."
     }
   ]
 }

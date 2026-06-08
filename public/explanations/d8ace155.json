@@ -4,18 +4,25 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the initial value",
-      "content": "At $t=0$ the account balance equals the initial deposit $\\$36{,}100.00$. Any equation $A(t)=A_0\\cdot b^t$ must satisfy $A(0)=A_0=36{,}100.00$, so the coefficient in front must be $36{,}100.00$."
-    },
-    {
-      "title": "Identify the growth factor",
-      "content": "The balance grows from $36{,}100$ to $68{,}071.93$ over $13$ years, so:$$b^{13}=\\frac{68{,}071.93}{36{,}100}\\approx 1.88565$$Then $b\\approx 1.88565^{1/13}\\approx 1.05$. The annual multiplier is $1.05$, matching 5% growth."
-    },
-    {
-      "title": "Compare with each choice",
-      "content": "<ul><li><strong>A) $A(t)=36{,}100.00(1.05)^{t}$:</strong> $A(0)=36{,}100$ and $A(13)=36{,}100(1.05)^{13}\\approx 68{,}071.93$. Matches.</li><li><strong>B) $A(t)=31{,}971.93(1.05)^{t}$:</strong> $A(0)=31{,}971.93\\neq 36{,}100$. Eliminated.</li><li><strong>C) $A(t)=31{,}971.93(0.05)^{t}$:</strong> wrong initial value and $0.05$ is decay, not growth. Eliminated.</li><li><strong>D) $A(t)=36{,}100.00(0.05)^{t}$:</strong> $A(13)=36{,}100(0.05)^{13}\\approx 0$, not $68{,}071.93$. Eliminated.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.",
+      "title": "Fit the two balances in Desmos",
+      "content": "Use custom regression to avoid taking a 13th root by hand. The initial balance gives the point $(0,36100)$. The 13-year balance gives the point $(13,68071.93)$. Fit an exponential model with $y_1\\sim a b^{x_1}$.",
       "desmosExpressions": [
-        "A(t)=36100(1.05)^{t}"
+        "x_1=[0,13]",
+        "y_1=[36100,68071.93]",
+        "y_1~a b^{x_1}"
+      ]
+    },
+    {
+      "title": "Read the regression output",
+      "content": "Desmos returns $a\\approx36100$ and $b\\approx1.05$. In $y=a b^x$, $a$ is the starting value and $b$ is the yearly multiplier, so the model is $$A(t)=36100(1.05)^t.$$"
+    },
+    {
+      "title": "Compare with the choices",
+      "content": "Choice A has both the correct starting value and the fitted growth multiplier. Choice B has the right multiplier but wrong starting value. Choice C has the wrong starting value and a decay factor. Choice D starts correctly but uses $0.05$, which would make the balance almost zero after 13 years. Choice <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y=36100(1.05)^x",
+        "(0,36100)",
+        "(13,68071.93)"
       ]
     }
   ]

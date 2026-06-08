@@ -3,9 +3,24 @@
   "correctAnswer": "C",
   "section": "Math",
   "steps": [
-    "The x-axis shows years after the 2000 census; y-axis shows population in thousands. Find the y-value where x = 2.",
-    "Trace x = 2 vertically up to the curve. The curve reads y &asymp; 4.3 (thousands).",
-    "Convert: 4.3 &times; 1,000 = 4,300 people."
+    {
+      "title": "Read the graph at the requested year",
+      "content": "The input $x$ is years after the 2000 census, so $2$ years after the census means $x=2$. The output $y$ is measured in thousands of people, so the graph value must be converted to people at the end.",
+      "desmosExpressions": [
+        "x=2"
+      ]
+    },
+    {
+      "title": "Estimate the y-value",
+      "content": "Trace straight up from $x=2$ until you hit the curve. The curve is a little above $4$ and clearly below $5$, about $4.3$ on the $y$-axis. Since the axis is in thousands, this means about $4.3$ thousand people.",
+      "desmosExpressions": [
+        "(2,4.3)"
+      ]
+    },
+    {
+      "title": "Convert and match the choice",
+      "content": "$4.3$ thousand people is $$4.3\\times 1000=4300$$ people. Choice <strong>C</strong>, $4,300$, is the closest estimate."
+    }
   ],
   "choiceElimination": "<ul><li><strong>Choice A &mdash; '7,400'</strong>: This would be y &asymp; 7.4 on the graph, which is above the curve at x = 2. &#10007;</li><li><strong>Choice B &mdash; '6,200'</strong>: This would be y &asymp; 6.2 on the graph, still above the curve at x = 2. &#10007;</li><li><strong>Choice C &mdash; '4,300'</strong>: The curve at x = 2 reads y &asymp; 4.3, giving 4,300 people. &#10003;</li><li><strong>Choice D &mdash; '3,000'</strong>: This would be y = 3.0, which is below the curve at x = 2. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
 }

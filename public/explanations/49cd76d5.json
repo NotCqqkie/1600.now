@@ -4,28 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply the multiplier from the given condition",
-      "content": "Note $72x = 9 \\cdot 8x$, and $8x=6$."
+      "title": "Scale the given expression",
+      "content": "The target is $72x$, and the problem gives $8x=6$. Since $$72x=9(8x)$$ multiply the given equation by $9$."
     },
     {
       "title": "Compute the target value",
-      "content": "So $72x = 9 \\cdot 6 = 54$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "Choice C is correct. It's given that $8x=6$. Multiplying each side of this equation by $9$ yields $72x=54$. Therefore, the value of $72x$ is $54$."
+      "content": "$$9(8x)=9(6)$$ $$72x=54$$"
     },
     {
       "title": "Check the choices",
-      "content": "Choice A is incorrect. This is the value of $4x$, not $72x$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice B is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice D is incorrect and may result from conceptual or calculation errors."
+      "content": "Choice C is $54$, so it is correct. Choice A is $4x$, not $72x$, and choice B is too small. This shortcut avoids solving $x=\\frac{3}{4}$ first."
     }
   ]
 }

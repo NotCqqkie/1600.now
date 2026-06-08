@@ -16,8 +16,6 @@ const lerp = (start: number, end: number, amount: number) =>
 
 const getScoreAccent = (score: number, maxScore: number) => {
   const normalized = Math.max(0, Math.min(score / maxScore, 1));
-
-  // Low scores skew warm/red, mid scores move amber/green, high scores shift blue/violet.
   const hue = lerp(8, 268, normalized);
   const saturation = lerp(68, 78, normalized);
   const lightness = lerp(48, 58, normalized);
@@ -145,9 +143,7 @@ const ScoreCalculator = () => {
   return (
     <div className="min-h-screen" style={{ fontFamily: "'Inter', sans-serif", backgroundColor: themeColors.pageBg }}>
       <main style={{ maxWidth: 1100, margin: "0 auto", padding: isPhone ? "20px 12px 56px" : "32px 24px 80px" }}>
-        {/* Side-by-side: sliders left, score info right — both stretch to equal height */}
         <div style={{ display: "flex", flexDirection: isPhone ? "column" : "row", gap: isPhone ? 18 : 28, alignItems: "stretch" }}>
-          {/* Left: all 4 sliders */}
           <div style={{ flex: "1 1 0", display: "flex", flexDirection: "column", gap: isPhone ? 16 : 24, minWidth: 0 }}>
             <SubjectPanel
               label="Reading & Writing"
@@ -170,7 +166,6 @@ const ScoreCalculator = () => {
             />
           </div>
 
-          {/* Right: score summary, stretches to match slider column height */}
           <div style={{ flexShrink: 0, width: isPhone ? "100%" : 420, display: "flex", flexDirection: "column" }}>
             <ScoreSummaryCard
               scores={scores}
@@ -259,7 +254,6 @@ const SubjectPanel = ({
             flexShrink: 0,
           }}
         />
-        {/* Input row label — Inter Tight 600, 15px, leading 1.4, ink. */}
         <h2
           style={{
             fontFamily: "'Inter Tight', sans-serif",
@@ -310,7 +304,6 @@ const SubjectPanel = ({
                 >
                   {section.title}
                 </p>
-                {/* Raw score — Inter Tight 600, 36px, tabular nums. Big numeric input feel. */}
                 <span
                   style={{
                     fontFamily: "'Inter Tight', sans-serif",
@@ -407,7 +400,6 @@ const ScoreSummaryCard = ({
         flex: 1,
       }}
     >
-      {/* Ring */}
       <div style={{ display: "grid", placeItems: "center", marginBottom: 20 }}>
         <div
           style={{
@@ -433,8 +425,6 @@ const ScoreSummaryCard = ({
             }}
           >
             <div>
-              {/* Final score — Inter Tight 700, tabular nums. Sized so 4-digit
-                  scores (max 1600) fit inside the 176px inner ring. */}
               <div
                 className="score-number"
                 style={
@@ -458,7 +448,6 @@ const ScoreSummaryCard = ({
         </div>
       </div>
 
-      {/* Section scores */}
       <div style={{ display: "flex", flexDirection: "column", gap: 10, marginBottom: 20 }}>
         {[
           { label: "Reading & Writing", value: scores.readingWriting },
@@ -497,7 +486,6 @@ const ScoreSummaryCard = ({
         ))}
       </div>
 
-      {/* Module progress bars — flex-grows to fill remaining space */}
       <div style={{ display: "flex", flexDirection: "column", gap: 12, flex: 1, marginBottom: 20 }}>
         {modules.map((module) => (
           <div key={module.title}>
@@ -513,7 +501,6 @@ const ScoreSummaryCard = ({
               <span style={{ fontFamily: "'Inter', sans-serif", fontSize: 12, color: "rgb(var(--ink-mid))", fontWeight: 500 }}>
                 {module.title}
               </span>
-              {/* Module raw counts — Inter Tight tabular nums. */}
               <span
                 style={{
                   fontFamily: "'Inter Tight', sans-serif",
@@ -549,7 +536,6 @@ const ScoreSummaryCard = ({
         ))}
       </div>
 
-      {/* Reset button — pinned to bottom */}
       <button
         type="button"
         onClick={onReset}

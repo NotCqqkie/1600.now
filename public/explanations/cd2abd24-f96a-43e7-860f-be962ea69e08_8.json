@@ -4,16 +4,21 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up",
-      "content": "Slope-intercept form is $y = mx + b$. Slope $m = -3$ and the point $(0, 80)$ is the $y$-intercept, so $b = 80$."
+      "title": "Make two points for the line",
+      "content": "The line passes through $(0,80)$. Its slope is $-3$, so when $x$ increases by $1$, $y$ decreases by $3$. That gives a second point, $(1,77)$."
+    },
+    {
+      "title": "Fit the points in Desmos",
+      "content": "Enter $x_1=[0,1]$ and $y_1=[80,77]$, then run $y_1 \\sim m x_1+b$. Desmos gives $m=-3$ and $b=80$, so the line is $y=-3x+80$.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[80,77]",
+        "y_1~m x_1+b"
+      ]
     },
     {
       "title": "Identify the choices",
-      "content": "<ul><li><strong>Choice A &mdash; '$y = -3x + 80$'</strong>: correct slope and $y$-intercept. &#10003;</li><li><strong>Choice B &mdash; '$y = -3x + 77$'</strong>: subtracts 3 from the $y$-intercept instead of using it directly. &#10007;</li><li><strong>Choice C &mdash; '$y = -3x - 77$'</strong>: wrong sign and wrong intercept value. &#10007;</li><li><strong>Choice D &mdash; '$y = -3x - 80$'</strong>: negates the $y$-intercept. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y = -3x + 80",
-        "(0, 80)"
-      ]
+      "content": "<ul><li><strong>Choice A &mdash; '$y = -3x + 80$'</strong>: correct slope and $y$-intercept. &#10003;</li><li><strong>Choice B &mdash; '$y = -3x + 77$'</strong>: subtracts 3 from the $y$-intercept instead of using it directly. &#10007;</li><li><strong>Choice C &mdash; '$y = -3x - 77$'</strong>: wrong sign and wrong intercept value. &#10007;</li><li><strong>Choice D &mdash; '$y = -3x - 80$'</strong>: negates the $y$-intercept. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

@@ -4,24 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the sincos shortcut: complementary angles",
-      "content": "When $A + B = 90°$, then $\\sin(A) = \\cos(B)$. Here $R + S = 90°$, so:<br/>$$\\cos(S) = \\sin(R) = \\frac{\\sqrt{15}}{4}$$<br/>That matches choice B — <strong>B</strong> is correct."
+      "title": "Recognize complementary angles",
+      "content": "In a right triangle, the two acute angles add to $90$ degrees. Since angle $R$ and angle $S$ are complementary, $$\\sin(R)=\\cos(S).$$"
     },
     {
-      "title": "Use the source rationale",
-      "content": "Choice B is correct. The sine of any acute angle is equal to the cosine of its complement. It's given that in right triangle $RST$, the sum of the measures of angle $R$ and angle $S$ is $90$ degrees. Therefore, angle $R$ and angle $S$ are complementary, and the value of $\\sinR$ is equal to the value of $\\cosS$. It's given that the value of $\\sinR$ is $\\frac{\\sqrt{15}}{4}$, so the value of $\\cosS$ is also $\\frac{\\sqrt{15}}{4}$."
+      "title": "Transfer the given value",
+      "content": "The problem gives $$\\sin(R)=\\dfrac{\\sqrt{15}}{4}.$$ Because $\\cos(S)$ equals the sine of its complement, $$\\cos(S)=\\dfrac{\\sqrt{15}}{4}.$$"
     },
     {
-      "title": "Check the choices",
-      "content": "Choice A is incorrect. This is the value of $\\tanS$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice C is incorrect. This is the value of $\\frac{1}{\\cosS}$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice D is incorrect. This is the value of $\\frac{1}{\\tanS}$."
+      "title": "Confirm the choice",
+      "content": "Choice <strong>B</strong> is correct. The other choices use related but different trig ratios, such as a reciprocal or tangent-style expression, instead of the cofunction relationship."
     }
   ]
 }

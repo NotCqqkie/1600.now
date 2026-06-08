@@ -16,7 +16,6 @@ const HardQuestionsIntro = () => {
           />
 
           <div className="relative px-6 pb-10 pt-10 sm:px-10 sm:pt-12">
-            {/* Page title — Inter Tight 600, 42px, tracking -3%, tabular nums (the "100" sits on the same baseline). */}
             <h1
               className="font-display max-w-3xl text-[clamp(32px,3.8vw,42px)] font-semibold leading-none tracking-[-0.03em] tabular-nums text-ink"
             >

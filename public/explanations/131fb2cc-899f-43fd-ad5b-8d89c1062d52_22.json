@@ -4,20 +4,26 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Convert the percentage increase to a growth factor",
-      "content": "An increase of 4.5% per year means the value is multiplied by $(1 + 0.045) = 1.045$ each year. The house keeps 100% of its value and gains 4.5%, so the factor is 1.045, not 0.045 or 0.45."
+      "title": "Build two rows for the house value",
+      "content": "At $x=0$, the house is worth $181{,}000$. A $4.5\\%$ yearly increase means multiply by $1.045$ after one year, so the next value is $181{,}000(1.045)=189{,}145$.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[181000,189145]"
+      ]
     },
     {
-      "title": "Write the exponential function",
-      "content": "Starting value: \\$181,000. After $x$ years of compounding at factor 1.045:<br/>$$f(x) = 181{,}000(1.045)^x$$"
-    },
-    {
-      "title": "Verify with a spot-check",
-      "content": "After 1 year: $181{,}000 \\times 1.045 = 189{,}145$. That is $181{,}000 + 4.5\\% \\times 181{,}000 = 181{,}000 + 8{,}145 = 189{,}145$. Confirmed."
+      "title": "Run exponential regression",
+      "content": "In Desmos, enter $y_1 \\sim a b^{x_1}$. The fitted parameters are $a=181000$ and $b=1.045$, giving $y=181000(1.045)^x$.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[181000,189145]",
+        "y_1~a b^{x_1}",
+        "y=181000(1.045)^x"
+      ]
     },
     {
       "title": "Match to the choices",
-      "content": "<ul><li>A: $f(x)=181,000(0.045)^x$ &mdash; base 0.045 &lt; 1, so the value would collapse to nearly zero. Eliminated.</li><li>B: $f(x)=181,000(0.45)^x$ &mdash; base 0.45 models an annual loss of 55%. Eliminated.</li><li>C: $f(x)=181,000(1.045)^x$ &mdash; base 1.045 matches a 4.5% annual increase. That matches choice C &mdash; <strong>C</strong> is correct.</li><li>D: $f(x)=181,000(1.45)^x$ &mdash; base 1.45 would be a 45% annual increase, not 4.5%. Eliminated.</li></ul>"
+      "content": "Choice A uses $0.045$ as the whole multiplier, and choice B uses $0.45$; both are less than $1$, so they model decreases. Choice D uses $1.45$, which is a $45\\%$ increase. Choice C uses $1.045$, the regression multiplier for a $4.5\\%$ increase. Choice <strong>C</strong> is correct."
     }
   ]
 }

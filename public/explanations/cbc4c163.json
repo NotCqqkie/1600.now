@@ -4,19 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute",
-      "content": "Plug $x=\\tfrac{1}{4}$ into $f(x)=5\\left(\\tfrac{1}{4}-x\\right)^{2}+\\tfrac{11}{4}$.<br/>$$f\\!\\left(\\tfrac{1}{4}\\right)=5\\left(\\tfrac{1}{4}-\\tfrac{1}{4}\\right)^{2}+\\tfrac{11}{4}$$"
+      "title": "Substitute the special input",
+      "content": "The function is $$f(x)=5\\left(\\frac{1}{4}-x\\right)^2+\\frac{11}{4}.$$ Substitute $x=\\frac{1}{4}$."
     },
     {
-      "title": "Compute the result",
-      "content": "The squared term is $0$.<br/>$$f\\!\\left(\\tfrac{1}{4}\\right)=5(0)+\\tfrac{11}{4}=\\tfrac{11}{4}$$<br/>The answer is <strong>11/4</strong>.",
+      "title": "Notice the squared term becomes zero",
+      "content": "$$\\frac{1}{4}-\\frac{1}{4}=0,$$ so $$f\\left(\\frac{1}{4}\\right)=5(0)^2+\\frac{11}{4}=\\frac{11}{4}.$$"
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The value is <strong>11/4</strong>, which is also $2.75$. The chosen input makes the squared expression zero, so only the constant term remains. That is the fastest way to evaluate it.",
       "desmosExpressions": [
-        "f(x)=5(((1)/(4)-x))^(2)+(11)/(4)"
+        "f(x)=5(1/4-x)^2+11/4",
+        "x=1/4"
       ]
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "The correct answer is $\\frac{11}{4}$. It's given that the function $f$ is defined by $f\\left(x\\right)=5{\\left(\\frac{1}{4}-x\\right)}^{2}+\\frac{11}{4}$. Substituting $\\frac{1}{4}$ for $x$ in this equation yields $f\\left(\\frac{1}{4}\\right)=5{\\left(\\frac{1}{4}-\\frac{1}{4}\\right)}^{2}+\\frac{11}{4}$, which is equivalent $f\\left(\\frac{1}{4}\\right)=5{\\left(0\\right)}^{2}+\\frac{11}{4}$, or $f\\left(\\frac{1}{4}\\right)=\\frac{11}{4}$. Therefore, the value of $f\\left(\\frac{1}{4}\\right)$ is $\\frac{11}{4}$. Note that 11/4 or 2.75 are examples of ways to enter a correct answer."
     }
   ]
 }

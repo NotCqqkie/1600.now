@@ -4,12 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the y-intercept location",
-      "content": "The <em>y</em>-intercept is the point where the graph crosses the <em>y</em>-axis. This always occurs at $x = 0$."
+      "title": "Use the intercept shortcut",
+      "content": "The graph asks for the $y$-intercept written as $(0,y)$. Since the first coordinate is $0$, look where the exponential graph crosses the $y$-axis."
     },
     {
-      "title": "Read the y-value directly from the graph",
-      "content": "At $x = 0$ on the exponential curve, trace vertically to find where the graph intersects the <em>y</em>-axis. The curve passes through the point $(0, 3)$, so $y = 3$."
+      "title": "Read the y-axis point",
+      "content": "The curve intersects the $y$-axis at $(0,3)$. The problem asks for the value of $y$ in $(0,y)$, so $y=3$.",
+      "desmosExpressions": [
+        "x=0",
+        "(0,3)"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The $y$-coordinate of the $y$-intercept is <strong>3</strong>."
     }
   ]
 }

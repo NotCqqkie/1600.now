@@ -4,31 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the relationship",
-      "content": "The equation $d=30t$ shows that distance is directly proportional to time, with speed 30 feet per second."
+      "title": "Substitute the time",
+      "content": "The equation $d=30t$ gives the distance $d$ after $t$ seconds. For $2$ seconds, substitute $t=2$: $$d=30(2).$$"
     },
     {
-      "title": "Substitute t=2 and compute",
-      "content": "$$d = 30 \\times 2$$<br/>$$d = 60$$<br/>That matches choice C — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y=30x"
-      ]
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "Choice C is correct. It's given that $t$ represents the number of seconds after the bus passes the marker. Substituting $2$ for $t$ in the given equation $d=30t$ yields $d=30\\left(2\\right)$, or $d=60$. Therefore, the bus will be $60$ feet from the marker $2$ seconds after passing it."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice A is incorrect. This is the distance, in feet, the bus will be from the marker $1$ second, not $2$ seconds, after passing it."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice B is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice D is incorrect. This is the distance, in feet, the bus will be from the marker $3$ seconds, not $2$ seconds, after passing it."
+      "title": "Compute the distance",
+      "content": "$30(2)=60$, so the bus is $60$ feet from the marker after $2$ seconds. Choice A is the $1$-second distance, and choice D is the $3$-second distance. Choice <strong>C</strong> is correct."
     }
   ]
 }

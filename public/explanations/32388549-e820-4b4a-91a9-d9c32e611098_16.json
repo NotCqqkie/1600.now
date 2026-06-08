@@ -4,16 +4,26 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Factor out the common term",
-      "content": "Both terms contain $36(x+12)$: $$36x^{2}(x+12)-36(x+12)^{3} = 36(x+12)\\bigl[x^{2}-(x+12)^{2}\\bigr].$$"
+      "title": "Use roots to test possible factors",
+      "content": "A quick Desmos method is to test each answer choice's zero. If an expression is a factor, its zero should make the original polynomial equal $0$.",
+      "desmosExpressions": [
+        "P(x)=36x^2(x+12)-36(x+12)^3",
+        "r_1=[12,-6,-1,6]",
+        "P(r_1)"
+      ]
     },
     {
-      "title": "Apply difference of squares",
-      "content": "$$x^{2}-(x+12)^{2} = \\bigl(x-(x+12)\\bigr)\\bigl(x+(x+12)\\bigr) = (-12)(2x+12).$$ So the full factorization is $$36(x+12)(-12)(2x+12) = -432(x+12)(2x+12).$$"
+      "title": "Match the zero to the answer choice",
+      "content": "The tested roots come from the choices: A has root $12$, B has root $-6$, C has root $-1$, and D has root $6$. Desmos shows $P(-6)=0$, so the factor with root $-6$ is the one that works.",
+      "desmosExpressions": [
+        "P(x)=36x^2(x+12)-36(x+12)^3",
+        "P(-6)",
+        "2x+12"
+      ]
     },
     {
-      "title": "Match to a choice",
-      "content": "The factors are constants times $(x+12)$ and $(2x+12)$.<ul><li>A) $-12x+144 = -12(x-12)$ &mdash; not a factor.</li><li>B) $2x+12$ &mdash; appears directly in the factorization.</li><li>C) $6x+6 = 6(x+1)$ &mdash; not a factor.</li><li>D) $24x-144 = 24(x-6)$ &mdash; not a factor.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "title": "Confirm the answer",
+      "content": "The expression with root $-6$ is $2x+12$, which is choice B. Therefore choice <strong>B</strong> is correct."
     }
   ]
 }

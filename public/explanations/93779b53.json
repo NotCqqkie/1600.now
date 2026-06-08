@@ -4,24 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the bar height for Activity 3",
-      "content": "Locate Activity 3 on the x-axis and trace up to the top of its bar. The bar aligns with 39 on the y-axis (Number of students). That matches choice B — <strong>B</strong> is correct."
+      "title": "Read activity 3",
+      "content": "The graph's horizontal axis lists the activities. Find activity $3$, then read the height of its bar on the vertical axis."
     },
     {
-      "title": "Use the source rationale",
-      "content": "Choice B is correct. The height of each bar in the bar graph given represents the number of students that voted for the activity specified at the bottom of the bar. The bar for activity $3$ has a height that is between $35$ and $40$. In other words, the number of students that chose activity $3$ is between $35$ students and $40$ students. Of the given choices, $39$ is the only value between $35$ and $40$. Therefore, $39$ students chose activity $3$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice A is incorrect and may result from conceptual errors."
+      "title": "Use the answer choices to estimate",
+      "content": "The activity $3$ bar is between $35$ and $40$ students. Among the choices, only $39$ falls in that interval."
     },
     {
       "title": "Check the choices",
-      "content": "Choice C is incorrect. This is the number of students that chose activity $5$, not activity $3$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice D is incorrect and may result from conceptual errors."
+      "content": "<ul><li>Choice A, $25$, is below the bar for activity $3$.</li><li>Choice B, $39$, matches the bar height. Correct.</li><li>Choice C, $48$, is the count for activity $5$, not activity $3$.</li><li>Choice D, $50$, is above the activity $3$ bar.</li></ul>That matches choice B."
     }
   ]
 }

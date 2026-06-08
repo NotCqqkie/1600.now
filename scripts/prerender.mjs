@@ -1,9 +1,4 @@
 #!/usr/bin/env node
-// Prerenders every URL in public/sitemap.xml into dist/{route}/index.html
-// so Googlebot and social-preview crawlers see content without running JS.
-//
-// Flow: serve dist/ via a local SPA-fallback HTTP server, visit each URL with
-// puppeteer, snapshot the fully-rendered HTML, write it under the matching path.
 
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
 import { createServer } from "node:http";
@@ -97,8 +92,6 @@ async function listenServer() {
 }
 
 function urlsFromSitemap() {
-  // sitemap.xml is a sitemap index whose <loc> entries point at child
-  // sitemaps. Walk one level deep and aggregate every page URL found.
   const indexXml = readFileSync(path.join(root, "public/sitemap.xml"), "utf8");
   const childUrls = [...indexXml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]);
   const pageUrls = [];
@@ -126,9 +119,6 @@ async function main() {
   console.log(`Prerendering ${routes.length} routes...`);
 
   const { server, port } = await listenServer();
-
-  // Sandbox flags are gated behind PRERENDER_NO_SANDBOX so CI containers that
-  // genuinely need them can opt in, while local/dev runs keep the sandbox on.
   const launchArgs = process.env.PRERENDER_NO_SANDBOX === "1"
     ? ["--no-sandbox", "--disable-setuid-sandbox", "--disable-gpu", "--disable-dev-shm-usage", "--single-process"]
     : [];

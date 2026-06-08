@@ -74,7 +74,6 @@ const DialogTitle = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <DialogPrimitive.Title
     ref={ref}
-    // Modal title — Inter Tight 600, 22px, leading 1.15.
     className={cn("font-display text-[22px] font-semibold leading-[1.15] tracking-[-0.015em] text-ink", className)}
     {...props}
   />
@@ -85,7 +84,6 @@ const DialogDescription = React.forwardRef<
   React.ElementRef<typeof DialogPrimitive.Description>,
   React.ComponentPropsWithoutRef<typeof DialogPrimitive.Description>
 >(({ className, ...props }, ref) => (
-  // Modal body — Inter 400, 14px, leading 1.55, ink-mid.
   <DialogPrimitive.Description ref={ref} className={cn("text-[14px] leading-[1.55] text-ink-mid", className)} {...props} />
 ));
 DialogDescription.displayName = DialogPrimitive.Description.displayName;

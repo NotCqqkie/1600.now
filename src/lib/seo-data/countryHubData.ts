@@ -2,14 +2,6 @@ import { hreflangGroup } from "@/lib/seo-data/hreflangData";
 
 export { hreflangGroup };
 
-// Country-specific SAT content hubs.
-// Pages live at /{countryCode}/{slug} (e.g. /in/sat-vs-jee). Canonical URLs
-// for English pages point at the main site; hreflang alternates connect the
-// English + India + UAE variants so Google serves the right locale.
-//
-// Content is localized: test centers, university names, score targets, and
-// fee references reflect the country.
-
 export interface CountrySection {
   heading: string;
   paragraphs: string[];
@@ -22,10 +14,9 @@ export interface CountryFaq {
 }
 
 export interface CountryPage {
-  slug: string; // full slug including country prefix, e.g. "in/sat-vs-jee"
+  slug: string;
   country: "in" | "ae";
-  language: string; // BCP-47 tag, e.g. "en-IN"
-  // The matching English page slug on the main site, used for hreflang x-default.
+  language: string;
   englishCanonicalSlug?: string;
   metaTitle: string;
   metaDescription: string;
@@ -39,7 +30,7 @@ export interface CountryHubConfig {
   code: "in" | "ae";
   name: string;
   language: string;
-  hubSlug: string; // e.g. "in" or "ae"
+  hubSlug: string;
   hubTitle: string;
   hubDescription: string;
   hubIntro: string;
@@ -175,10 +166,7 @@ export const countryHubs: CountryHubConfig[] = [
 ];
 
 export const countryHubByCode = new Map(countryHubs.map((h) => [h.code, h]));
-
-// Individual topic pages within each country hub.
 export const countryPages: CountryPage[] = [
-  // ---- India (in/*) --------------------------------------------------------
   {
     slug: "in/sat-vs-jee",
     country: "in",
@@ -435,7 +423,6 @@ export const countryPages: CountryPage[] = [
       },
     ],
   },
-  // ---- UAE (ae/*) ----------------------------------------------------------
   {
     slug: "ae/sat-test-centers-uae",
     country: "ae",
@@ -626,7 +613,6 @@ export const countryPages: CountryPage[] = [
       },
     ],
   },
-  // ---- Additional India pages ---------------------------------------------
   {
     slug: "in/sat-exam-india",
     country: "in",
@@ -1055,7 +1041,6 @@ export const countryPages: CountryPage[] = [
       },
     ],
   },
-  // ---- Additional UAE pages -----------------------------------------------
   {
     slug: "ae/sat-dubai",
     country: "ae",

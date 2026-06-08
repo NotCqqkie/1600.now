@@ -4,16 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute the value x = 20",
-      "content": "Replace $x$ with $20$ in $$f(x) = \\frac{7}{10}x + 55.$$ This gives $$f(20) = \\frac{7}{10}(20) + 55.$$"
+      "title": "Substitute $x=20$",
+      "content": "Evaluate the function at the input the problem gives: $$f(20)=\\frac{7}{10}(20)+55.$$"
     },
     {
-      "title": "Compute the result",
-      "content": "Simplify: $$f(20) = 14 + 55 = 69.$$ The answer is <strong>69</strong>."
+      "title": "Use the quick arithmetic",
+      "content": "Since $\\frac{7}{10}$ of $20$ is $14$, the value is $$14+55=69.$$"
     },
     {
-      "title": "Use the source rationale",
-      "content": "The correct answer is $69$. The value of $f(20)$ can be found by evaluating the function $f(x)=\\frac{7}{10}x+55$ for $x=20$. Substituting $20$ for $x$ in this function yields $f(20)=\\frac{7}{10}(20)+55$, or $f(20)=69$. Therefore, the value of $f(20)$ is $69$."
+      "title": "Confirm the response",
+      "content": "The function value at $x=20$ is $69$, so the answer is <strong>69</strong>. The Desmos check shows the graph's height at $x=20$, which is the same as evaluating $f(20)$.",
+      "desmosExpressions": [
+        "f(x)=7x/10+55",
+        "x=20"
+      ]
     }
   ]
 }

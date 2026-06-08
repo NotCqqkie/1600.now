@@ -4,28 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Isolate w",
-      "content": "Undo the addition by subtracting $7$ from both sides of $w+7=357$: $$w=357-7.$$"
+      "title": "Undo the addition",
+      "content": "The equation is $w+7=357$. To isolate $w$, subtract $7$ from both sides."
     },
     {
       "title": "Solve",
-      "content": "Compute: $w=350$. That matches choice <strong>B</strong> &mdash; <strong>B</strong> is correct."
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "Choice B is correct. Subtracting $7$ from each side of the given equation yields $w=350$. Therefore, the value of $w$ that is the solution to the given equation is $350$."
+      "content": "$$w=357-7=350$$"
     },
     {
       "title": "Check the choices",
-      "content": "Choice A is incorrect. This is the value of $w$ that is the solution to the equation $7w=357$, not $w+7=357$."
+      "content": "Choice A would come from dividing $357$ by $7$. Choice C would come from adding $7$. The equation asks for $w$ in $w+7=357$, so $w=350$."
     },
     {
-      "title": "Check the choices",
-      "content": "Choice C is incorrect. This is the value of $w$ that is the solution to the equation $w-7=357$, not $w+7=357$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice D is incorrect and may result from conceptual or calculation errors."
+      "title": "Answer",
+      "content": "$350$ matches choice B, so <strong>B</strong> is correct."
     }
   ]
 }

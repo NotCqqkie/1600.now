@@ -1,15 +1,26 @@
 {
-  "qid": "32388549-e820-4b4a-91a9-d9c32e611098_17",
+  "questionId": "32388549-e820-4b4a-91a9-d9c32e611098_17",
   "correctAnswer": "A",
-  "explanationHtml": "<p><strong>Step 1: Simplify the given equation.</strong><br>$30x=1{,}800y-3{,}600$ &rarr; divide by 30 &rarr; $x=60y-120$.<br>Rearranged: $x-60y=-120$. The slope of $y$ as a function of $x$ is $\\frac{1}{60}$.</p><p><strong>Step 2: No-solution condition.</strong><br>For no solution, the second equation must be parallel: same slope ($\\frac{1}{60}$) but different constant.</p><p><strong>Step 3: Test all four choices.</strong><ul><li><strong>Choice A &mdash; &lsquo;$\\frac{1}{30}x=2y$&rsquo;</strong>: Multiply both sides by 30: $x=60y$, i.e. $x-60y=0$. Same slope $\\frac{1}{60}$, different constant ($0\\neq -120$). Parallel &rarr; no solution &#10003;</li><li><strong>Choice B &mdash; &lsquo;$\\frac{1}{30}x=60y-120$&rsquo;</strong>: Multiply by 30: $x=1{,}800y-3{,}600$. Slope $\\frac{1}{1800}\\neq\\frac{1}{60}$ &rarr; lines intersect &rarr; one solution &#10007;</li><li><strong>Choice C &mdash; &lsquo;$x=2y$&rsquo;</strong>: Slope of $y$ w.r.t. $x$ is $\\frac{1}{2}\\neq\\frac{1}{60}$ &rarr; lines intersect &rarr; one solution &#10007;</li><li><strong>Choice D &mdash; &lsquo;$x=60y-120$&rsquo;</strong>: Identical to the given equation &rarr; infinitely many solutions &#10007;</li></ul></p><p>That matches choice A &mdash; <strong>A</strong> is correct.</p>",
-  "desmosExpressions": [
+  "section": "Math",
+  "steps": [
     {
-      "id": "given",
-      "latex": "x=60y-120"
+      "title": "Use the no-solution shortcut",
+      "content": "A linear system has no solution when the two lines are parallel and distinct. Rewrite the given equation: $$30x=1800y-3600 \\Rightarrow y=\\frac{x}{60}+2$$ So the second line needs slope $\\frac{1}{60}$ but a different $y$-intercept."
     },
     {
-      "id": "choiceA",
-      "latex": "x=60y"
+      "title": "Graph all choices in Desmos",
+      "content": "Graph the given line with each possible second line. Choice A, $\\frac{1}{30}x=2y$, becomes $y=\\frac{x}{60}$, which has the same slope as the given line but intercept $0$ instead of $2$. Those two lines are parallel and never intersect.",
+      "desmosExpressions": [
+        "y=x/60+2",
+        "y=x/60",
+        "y=x/1800+2",
+        "y=x/2",
+        "y=x/60+2"
+      ]
+    },
+    {
+      "title": "Eliminate the distractors",
+      "content": "Choice B has slope $\\frac{1}{1800}$, so it intersects the given line. Choice C has slope $\\frac{1}{2}$, so it also intersects. Choice D is the same as the given line, which would give infinitely many solutions. Only choice <strong>A</strong> gives parallel distinct lines."
     }
   ]
 }

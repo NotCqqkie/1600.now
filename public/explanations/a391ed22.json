@@ -4,12 +4,27 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up FOIL to find the coefficient of x",
-      "content": "When multiplying $(\\frac{1}{2}x + \\frac{3}{2}) \\times (\\frac{3}{2}x + \\frac{1}{2})$, we use FOIL to expand. The coefficient of $x$ comes only from the outer and inner products—we can skip the first and last products."
+      "title": "Use quadratic regression to get the coefficient",
+      "content": "The expression is quadratic, and the question only asks for the coefficient $b$ in $ax^2+bx+c$. A fast Desmos method is to evaluate the expression at three x-values and regress the result to a quadratic."
     },
     {
-      "title": "Calculate the outer and inner products",
-      "content": "<strong>Outer product:</strong><br/>$$\\frac{1}{2}x \\cdot \\frac{1}{2} = \\frac{1}{4}x$$<br/><strong>Inner product:</strong><br/>$$\\frac{3}{2} \\cdot \\frac{3}{2}x = \\frac{9}{4}x$$<br/><strong>Combine the $x$ terms:</strong><br/>$$\\frac{1}{4}x + \\frac{9}{4}x = \\frac{10}{4}x = \\frac{5}{2}x$$<br/>Therefore, $b = \\frac{5}{2}$."
+      "title": "Build the input and output lists",
+      "content": "Enter:<br/>$$x_1=[0,1,2]$$<br/>$$y_1=\\left(\\frac12x_1+\\frac32\\right)\\left(\\frac32x_1+\\frac12\\right)$$",
+      "desmosExpressions": [
+        "x_1=[0,1,2]",
+        "y_1=(\\frac{1}{2}x_1+\\frac{3}{2})(\\frac{3}{2}x_1+\\frac{1}{2})"
+      ]
+    },
+    {
+      "title": "Fit the quadratic form",
+      "content": "Now enter the regression row:<br/>$$y_1\\sim ax_1^2+bx_1+c$$<br/>Desmos gives $a=\\frac34$, $b=\\frac52$, and $c=\\frac34$. Therefore the requested value is $b=\\frac52=2.5$.",
+      "desmosExpressions": [
+        "y_1\\sim ax_1^2+bx_1+c"
+      ]
+    },
+    {
+      "title": "Confirm the coefficient directly",
+      "content": "The $x$ term comes from the outer and inner products:<br/>$$\\frac12x\\cdot\\frac12=\\frac14x$$<br/>$$\\frac32\\cdot\\frac32x=\\frac94x$$<br/>Together, $\\frac14x+\\frac94x=\\frac{10}{4}x=\\frac52x$, so the answer is <strong>5/2</strong>."
     }
   ]
 }

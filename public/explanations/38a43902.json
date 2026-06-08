@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Write the system",
-      "content": "$$y = -2x$$<br/>$$3x + y = 40$$"
+      "title": "Substitute from the first equation",
+      "content": "The first equation already gives $y=-2x$. Substitute that into the second equation $3x+y=40$ instead of solving for both variables from scratch."
     },
     {
-      "title": "Substitute and solve",
-      "content": "Substitute $$y = -2x$$ into the second equation:<br/>$$3x + (-2x) = 40$$<br/>Combine like terms:<br/>$$x = 40$$<br/>The answer is <strong>40</strong>.",
+      "title": "Solve for $x$",
+      "content": "$$3x+(-2x)=40$$ $$x=40.$$ The intersection of the two lines also has x-coordinate $40$.",
       "desmosExpressions": [
-        "y = -2x",
-        "y = 40 - 3x"
+        "y=-2x",
+        "y=40-3x"
       ]
     },
     {
-      "title": "Use the source rationale",
-      "content": "The correct answer is $40$. It's given in the first equation of the system that $y=-2x$. Substituting $-2x$ for $y$ in the second equation of the system yields $3x+\\left(-2x\\right)=40$. Combining like terms on the left-hand side of this equation yields $x=40$. Therefore, the value of $x$ is $40$."
+      "title": "Confirm the answer",
+      "content": "The question asks for $x$, so the answer is <strong>40</strong>. If needed, the corresponding $y$ would be $-80$, but that is not required."
     }
   ]
 }

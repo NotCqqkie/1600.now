@@ -1,10 +1,28 @@
 {
-  "qid": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_5",
+  "questionId": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_5",
+  "correctAnswer": "B",
+  "section": "Math",
   "steps": [
-    "Distribute the subtraction sign across the second parentheses: $(3c + 9) - (4c^3 - 5) = 3c + 9 - 4c^3 + 5$.",
-    "Combine like terms — the constant terms: $9 + 5 = 14$.",
-    "Write the result in standard form (highest degree first): $-4c^3 + 3c + 14$.",
-    "Evaluate each answer choice:<ul><li>Choice A: $4c^3 + 3c + 14$ — the cubic coefficient is $+4$, but distributing the negative gives $-4c^3$. Eliminated.</li><li>Choice B: $-4c^3 + 3c + 14$ — matches $-4c^3 + 3c + 14$ exactly. That matches choice B — <strong>B</strong> is correct.</li><li>Choice C: $4c^3 + 3c + 4$ — wrong sign on the cubic term and the constant is 4 instead of 14. Eliminated.</li><li>Choice D: $-4c^3 + 3c + 4$ — the cubic sign is correct but the constant is 4, not 14. Eliminated.</li></ul>"
-  ],
-  "correctAnswer": "B"
+    {
+      "title": "Use cubic regression",
+      "content": "The expression has a $c^3$ term, a $c$ term, and a constant. Desmos can fit it to $ac^3+bc^2+cc+d$ using four input values."
+    },
+    {
+      "title": "Enter the regression rows",
+      "content": "Use a neutral input list name so it does not conflict with the variable $c$ in the problem:<br/>$$t_1=[-1,0,1,2]$$<br/>$$v_1=(3t_1+9)-(4t_1^3-5)$$<br/>$$v_1\\sim at_1^3+bt_1^2+ct_1+d$$",
+      "desmosExpressions": [
+        "t_1=[-1,0,1,2]",
+        "v_1=(3t_1+9)-(4t_1^3-5)",
+        "v_1\\sim at_1^3+bt_1^2+ct_1+d"
+      ]
+    },
+    {
+      "title": "Read the coefficients",
+      "content": "The regression gives $a=-4$, $b=0$, $c=3$, and $d=14$. So the equivalent expression is:<br/>$$-4c^3+3c+14$$"
+    },
+    {
+      "title": "Confirm the subtraction",
+      "content": "Distributing the subtraction gives $3c+9-4c^3+5=-4c^3+3c+14$. That matches choice B, so <strong>B</strong> is correct."
+    }
+  ]
 }

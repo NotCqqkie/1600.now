@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Convert furlongs to feet",
-      "content": "The conversion factor is: $$1\\text{ furlong}=220\\text{ yards}=220\\times3\\text{ feet}=660\\text{ feet}$$"
+      "title": "Combine the conversion factors",
+      "content": "$1$ furlong is $220$ yards, and each yard is $3$ feet. So $$1\\text{ furlong}=220\\cdot3=660\\text{ feet}.$$"
     },
     {
-      "title": "Compute total feet for 61 furlongs",
-      "content": "Multiply the number of furlongs by the feet per furlong: $$61\\text{ furlongs}=61\\times660\\text{ feet}$$<br/>Compute: $$61\\times660=(60\\times660)+(1\\times660)=39600+660=40260\\text{ feet}$$<br/>The answer is <strong>40260</strong>."
+      "title": "Multiply by $61$ furlongs",
+      "content": "$$61\\cdot660=40{,}260.$$"
     },
     {
-      "title": "Use the source rationale",
-      "content": "The correct answer is $40,260$. It's given that $1\\text{furlong}=220\\text{yards}$ and $1\\text{yard}=3\\text{feet}$. It follows that a distance of $61$ furlongs is equivalent to $\\left(61\\text{furlongs}\\right)\\left(\\frac{220\\text{yards}}{1\\text{furlong}}\\right)\\left(\\frac{3\\text{feet}}{1\\text{yard}}\\right)$, or $40,260$ feet."
+      "title": "Confirm the answer",
+      "content": "A distance of $61$ furlongs is <strong>40260</strong> feet. The yards cancel after the first conversion and furlongs cancel after the second, leaving feet as the final unit."
     }
   ]
 }

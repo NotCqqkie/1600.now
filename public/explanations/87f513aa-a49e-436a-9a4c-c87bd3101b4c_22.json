@@ -4,16 +4,26 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Convert '129% greater' to a growth multiplier",
-      "content": "If the mass is 129% greater than the previous period, the new mass equals the old mass plus 129% of the old mass:<br/>$$\\text{New} = \\text{Old} + 1.29 \\times \\text{Old} = \\text{Old} \\times (1 + 1.29) = \\text{Old} \\times 2.29$$<br/>The multiplier per 6-hour period is <strong>2.29</strong>, not 1.29. This immediately eliminates choices A and D, which use base 1.29."
+      "title": "Use 6-hour periods",
+      "content": "A value that is $129\\%$ greater is multiplied by $1+1.29=2.29$. Since the exponent in the choices is $x/6$, let the table input count 6-hour periods. At $x=18$ hours, there have been $3$ periods and the mass is $613.90$ grams.",
+      "desmosExpressions": [
+        "x_1=[0,3]",
+        "y_1=[613.90/(2.29)^3,613.90]"
+      ]
     },
     {
-      "title": "Build the exponential model",
-      "content": "With multiplier 2.29 every 6 hours and initial mass $A_0$:<br/>$$A = A_0 \\cdot (2.29)^{x/6}$$<br/>where $x$ is time in hours. Choices B and C both use this base."
+      "title": "Run exponential regression",
+      "content": "Run $y_1 \\sim a b^{x_1}$. Desmos gives $b=2.29$ and $a\\approx51.12$. Since $x_1$ counts 6-hour periods, the model in hours is $A=51.12(2.29)^{x/6}$.",
+      "desmosExpressions": [
+        "x_1=[0,3]",
+        "y_1=[613.90/(2.29)^3,613.90]",
+        "y_1~a b^{x_1}",
+        "y=51.12(2.29)^{x/6}"
+      ]
     },
     {
-      "title": "Solve for the initial mass using the 18-hour condition",
-      "content": "At $x = 18$: $A = 613.90$ grams.<br/>$$613.90 = A_0 \\cdot (2.29)^{18/6} = A_0 \\cdot (2.29)^3$$<br/>Compute $(2.29)^3$: $2.29^2 = 5.2441$; $5.2441 \\times 2.29 \\approx 12.009$.<br/>$$A_0 = \\frac{613.90}{12.009} \\approx 51.12$$<br/>Now check each remaining choice:<ul><li><strong>Choice A &mdash; 'A = 34.11(1.29)^{x/6}'</strong>: Wrong base &mdash; 1.29 means 129% of the old mass, not 129% greater. At x = 18: $34.11 \\times 1.29^3 = 34.11 \\times 2.147 \\approx 73.2$ grams, far below 613.90. &#10007;</li><li><strong>Choice B &mdash; 'A = 34.11(2.29)^{x/6}'</strong>: Correct base but wrong initial value. At x = 18: $34.11 \\times 12.009 \\approx 409.6$ grams, not 613.90. &#10007;</li><li><strong>Choice C &mdash; 'A = 51.12(2.29)^{x/6}'</strong>: Correct base and correct initial value. At x = 18: $51.12 \\times 12.009 \\approx 614.0 \\approx 613.90$. &#10003;</li><li><strong>Choice D &mdash; 'A = 285.98(1.29)^{x/6}'</strong>: Wrong base (1.29 instead of 2.29). At x = 18: $285.98 \\times 2.147 \\approx 614.0$, but the growth factor is wrong &mdash; 129% greater means multiply by 2.29, not 1.29. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+      "title": "Confirm the choices",
+      "content": "Choices A and D use base $1.29$, which means $129\\%$ of the old mass, not $129\\%$ greater than the old mass. Choice B uses the right base but the wrong starting value. Choice C has both regression values, $51.12$ and $2.29$, so choice <strong>C</strong> is correct."
     }
   ]
 }

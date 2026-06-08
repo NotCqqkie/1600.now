@@ -4,32 +4,24 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Compute each power",
-      "content": "Sine has period $2\\pi$, and $42\\pi = 21(2\\pi)$, so $\\sin(42\\pi) = \\sin(0)$."
+      "title": "Use the unit circle period",
+      "content": "Sine repeats every $2\\pi$. Since $42\\pi=21(2\\pi)$, the angle makes exactly $21$ full rotations around the unit circle."
     },
     {
-      "title": "Add and identify",
-      "content": "Therefore $$\\sin(42\\pi) = 0.$$ That matches choice <strong>A</strong> — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "x^2 + y^2 = 1",
-        "(\\cos(42\\pi), \\sin(42\\pi))"
-      ]
+      "title": "Return to the starting point",
+      "content": "After a whole number of full rotations, the terminal point is back at $(1,0)$. Sine is the y-coordinate of the terminal point."
     },
     {
-      "title": "Use the source rationale",
-      "content": "Choice A is correct. The sine of a number $t$ is the <em>y</em>-coordinate of the point arrived at by traveling a distance of $t$ units counterclockwise around the unit circle from the starting point $\\left(1,0\\right)$. Since the unit circle has a circumference of $2π$ units, it follows that one full rotation around the circle is equal to a distance of $2π$ units. Therefore, a distance of $42π$ units around the circle from the starting point $\\left(1,0\\right)$ would result in exactly $21$ full rotations, arriving back at the point $\\left(1,0\\right)$. So, $\\sin42π$ is equal to the <em>y</em>-coordinate of the point $\\left(1,0\\right)$, which is $0$."
+      "title": "Evaluate",
+      "content": "$$\\sin(42\\pi)=0$$"
     },
     {
       "title": "Check the choices",
-      "content": "Choice B is incorrect and may result from conceptual or calculation errors."
+      "content": "Choice D is the value of cosine at this angle, not sine. The sine value is $0$."
     },
     {
-      "title": "Check the choices",
-      "content": "Choice C is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice D is incorrect. This is the value of $\\cos42π$, not $\\sin42π$."
+      "title": "Answer",
+      "content": "$0$ matches choice A, so <strong>A</strong> is correct."
     }
   ]
 }

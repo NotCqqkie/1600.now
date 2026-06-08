@@ -4,15 +4,26 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "An exponential model has the form $y = a \\cdot b^x$. Two facts are given: (1) when $x = 0$, $y = 70$; (2) each increase of 1 in $x$ raises $y$ by 50% of its current value. We need $a$ (the initial value) and $b$ (the growth factor)."
+      "title": "Turn the wording into two points",
+      "content": "A fast Desmos setup is to enter the initial value and one next value. The problem gives $(0,70)$. A $50\\%$ increase means multiply by $1.50$, so when $x=1$, $y=70(1.50)=105$.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[70,105]"
+      ]
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; '$y = 70(1.50)^x$'</strong>: $a = 70$ matches the starting value; $b = 1.50$ matches a 50% increase each step. &#10003;</li><li><strong>Choice B &mdash; '$y = 70(0.50)^x$'</strong>: base 0.50 means the value halves each step &mdash; that is decay, not growth. &#10007;</li><li><strong>Choice C &mdash; '$y = 50(1.70)^x$'</strong>: initial value is 50, not 70. &#10007;</li><li><strong>Choice D &mdash; '$y = 50(1.50)^x$'</strong>: initial value is 50, not 70. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.",
+      "title": "Fit the exponential model",
+      "content": "Use the custom regression $y_1\\sim a b^{x_1}$. Desmos returns $a=70$ and $b=1.50$, so the equation is $y=70(1.50)^x$.",
       "desmosExpressions": [
-        "y = 70(1.50)^{x}"
+        "x_1=[0,1]",
+        "y_1=[70,105]",
+        "y_1~a b^{x_1}",
+        "y=70(1.50)^x"
       ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "Choice A is the only option with initial value $70$ and multiplier $1.50$. Choice B is decay, and choices C and D start at $50$ instead of $70$, so choice <strong>A</strong> is correct."
     }
   ]
 }

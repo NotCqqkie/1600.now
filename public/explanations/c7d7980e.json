@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Combine x terms",
-      "content": "Add $x$ to both sides of $13x=112-x$ to gather all $x$-terms on the left: $$14x=112.$$"
+      "title": "Gather the $x$ terms",
+      "content": "Start with $$13x=112-x.$$ Add $x$ to both sides so all $x$ terms are on one side: $$14x=112.$$"
     },
     {
-      "title": "Solve for x",
-      "content": "Divide both sides by $14$: $x=\\tfrac{112}{14}=8$. The answer is <strong>8</strong>."
+      "title": "Solve for $x$",
+      "content": "Divide by $14$: $$x=\\frac{112}{14}=8.$$"
     },
     {
-      "title": "Use the source rationale",
-      "content": "The correct answer is $8$. Adding $x$ to both sides of the given equation yields $14x=112$. Dividing both sides of this equation by $14$ yields $x=8$."
+      "title": "Confirm the answer",
+      "content": "Check: $13(8)=104$ and $112-8=104$, so the solution is <strong>8</strong>. Both sides match, which confirms the value solves the original equation, not just the simplified one."
     }
   ]
 }

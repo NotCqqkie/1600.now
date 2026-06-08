@@ -4,8 +4,19 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the data point from the scatterplot at wind speed 8 m/s",
-      "content": "Locate $x = 8$ m/s on the horizontal axis of the scatterplot. The corresponding data point sits closest to $y = 640$ watts on the vertical axis. Among the choices ($640$, $800$, $840$, $900$), $640$ is the closest match. That matches choice A — <strong>A</strong> is correct."
+      "title": "Use the scatterplot directly",
+      "content": "This question asks for the plotted power output when the wind speed is $8$ m/s. Since there is a dot at that wind speed, no regression or line of best fit is needed."
+    },
+    {
+      "title": "Read the point",
+      "content": "Locate $8$ on the horizontal wind-speed axis and move up to the plotted dot. The dot is a little above the $600$ gridline and closest to $640$ watts, so the point is approximately $(8,640)$.",
+      "desmosExpressions": [
+        "(8,640)"
+      ]
+    },
+    {
+      "title": "Check the choices",
+      "content": "The choices are $640$, $800$, $840$, and $900$. The graph read is closest to $640$, so choice <strong>A</strong> is correct."
     }
   ]
 }

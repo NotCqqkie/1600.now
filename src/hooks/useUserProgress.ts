@@ -62,10 +62,6 @@ export interface QuestionProgress {
   attempts: Attempt[];
   totalTimeSpentSeconds: number;
 }
-
-// One-time migration: move pre-update global keys ('userProgress', 'vocab-progress')
-// into the anonymous slot so existing local data isn't lost. Old keys are removed
-// after migration so they can't leak into a different user's account on login.
 let legacyMigrationDone = false;
 const migrateLegacyKeysOnce = () => {
   if (legacyMigrationDone) return;
@@ -88,7 +84,6 @@ const migrateLegacyKeysOnce = () => {
     }
     migrateLegacyQuestionUiState(null);
   } catch {
-    // ignore
   }
 };
 
@@ -114,9 +109,6 @@ const readVocabFor = (uid: string | null | undefined): Record<string, unknown> =
     return {};
   }
 };
-
-// Static read-only accessors used outside hooks. Pass the active uid to scope
-// to a specific user; omit (or pass null) to read the anonymous slot.
 export const getUserProgressStatic = (
   uid?: string | null,
 ): Record<string, QuestionProgress> => readProgressFor(uid);
@@ -133,12 +125,6 @@ export const getQuestionProgressStatic = (
     totalTimeSpentSeconds: 0,
   };
 };
-
-// Merge two progress maps without losing data.
-// - attempts: unioned and deduped by timestamp
-// - totalTimeSpentSeconds: max (avoids losing time tracked without attempts,
-//   avoids double-counting if attempts overlap)
-// - isMarkedForReview: OR
 const mergeProgress = (
   local: Record<string, QuestionProgress>,
   remote: Record<string, QuestionProgress>,
@@ -171,8 +157,6 @@ const mergeProgress = (
   }
   return merged;
 };
-
-// Filter helpers
 export const isQuestionSolved = (progress: QuestionProgress): boolean => {
   return progress.attempts.some(a => a.result === 'correct');
 };
@@ -208,16 +192,11 @@ export const useUserProgress = () => {
   useEffect(() => {
     progressSnapshotRef.current = progress;
   }, [progress]);
-
-  // When the active user changes (login / logout / account switch), swap state
-  // to that user's local cache so progress never bleeds across accounts.
   useEffect(() => {
     if (lastUidRef.current === uid) return;
     lastUidRef.current = uid;
     setProgress(readProgressFor(uid));
   }, [uid]);
-
-  // Cross-tab sync — only react to the active user's storage key.
   useEffect(() => {
     const key = progressStorageKey(uid);
     const handleStorageChange = (e: StorageEvent) => {
@@ -232,9 +211,6 @@ export const useUserProgress = () => {
     window.addEventListener('storage', handleStorageChange);
     return () => window.removeEventListener('storage', handleStorageChange);
   }, [uid]);
-
-  // On login, sync with Firestore and (once per session per user) merge any
-  // anonymous-session data into the account.
   useEffect(() => {
     if (!user) return;
     let cancelled = false;
@@ -262,9 +238,6 @@ export const useUserProgress = () => {
         const userLocalVocab = readVocabFor(user.id);
         const userLocalQuestionState = getQuestionUiStateMap(user.id);
         const userLocalCustomSets = customSets.getCustomPracticeSets(user.id);
-
-        // First login on this device for this user: pull in anonymous-slot data,
-        // then clear it so a different user signing in next won't inherit it.
         const sessionFlagKey = `userProgress:migrated:${user.id}`;
         const alreadyMigrated =
           migratedAnonRef.current.has(user.id) ||
@@ -298,7 +271,6 @@ export const useUserProgress = () => {
             localStorage.removeItem(questionUiStateStorageKey(null));
             localStorage.removeItem(customSets.customPracticeSetsStorageKey(null));
           } catch {
-            // ignore
           }
           sessionStorage.setItem(sessionFlagKey, '1');
           migratedAnonRef.current.add(user.id);
@@ -316,7 +288,6 @@ export const useUserProgress = () => {
 
         const localPers = getPersonalizationPreferences();
         const remotePers = remote?.personalization;
-        // Personalization is small + last-write-wins; prefer remote if present.
         const mergedPers = remotePers ?? localPers;
 
         setProgress(mergedProgress);
@@ -467,8 +438,6 @@ export const useUserProgress = () => {
       totalTimeSpentSeconds: 0
     };
   }, [progress]);
-
-  // Filter methods
   const isSolved = useCallback((questionId: string): boolean => {
     return isQuestionSolved(getProgress(questionId));
   }, [getProgress]);

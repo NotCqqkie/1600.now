@@ -165,7 +165,6 @@ const PracticeTestReview = () => {
 
   return (
     <div className="min-h-screen bg-background text-foreground">
-      {/* Fixed timer header */}
       <div className="sticky top-0 z-40 border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="mx-auto flex w-full max-w-6xl items-center justify-center px-4 py-2 sm:px-6 lg:px-8">
           <div className="flex items-center gap-2">

@@ -4,13 +4,25 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the linear equation components",
-      "content": "This is a linear growth problem with two key pieces of information:<ul><li>Initial length at birth (when $x = 0$): 160 cm — this is the $y$-intercept</li><li>Rate of growth: 4.8 cm per month — this is the slope</li></ul>The general form for a linear relationship is $y = mx + b$, where $m$ is the slope and $b$ is the $y$-intercept."
+      "title": "Make the two-row table",
+      "content": "This is a perfect linear-regression shortcut. At birth, $x=0$ and the whale is $160$ cm long. One month later, the length is $160+4.8=164.8$ cm. Put those two points into Desmos: $(0,160)$ and $(1,164.8)$.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[160,164.8]"
+      ]
     },
     {
-      "title": "Write the equation and identify the answer",
-      "content": "Substitute the slope $m = 4.8$ and $y$-intercept $b = 160$ into the linear equation:<br/>$$y = 4.8x + 160$$<br/>Verify: at birth ($x = 0$), $y = 4.8(0) + 160 = 160$ cm ✓, and after one month ($x = 1$), $y = 4.8(1) + 160 = 164.8$ cm, which is a 4.8 cm increase as stated.<br/><br/>That matches choice D — <strong>D</strong> is correct."
+      "title": "Run the linear regression",
+      "content": "Use the regression row $y_1\\sim m x_1+b$. Desmos gives $m=4.8$ and $b=160$, so the model is $$y=4.8x+160.$$",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[160,164.8]",
+        "y_1~m x_1+b"
+      ]
+    },
+    {
+      "title": "Check the choices",
+      "content": "The slope must be $4.8$ centimeters per month, and the starting value must be $160$ centimeters. Choice D is the only option with both: $y=4.8x+160$. Choice <strong>D</strong> is correct."
     }
-  ],
-  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; 'y = 160x'</strong>: At x = 0 this gives y = 0, not 160. The whale would have zero length at birth, which contradicts the problem. &#10007;</li><li><strong>Choice B &mdash; 'y = 160x + 160'</strong>: The slope is 160, meaning the whale grows 160 cm per month, not 4.8 cm per month. &#10007;</li><li><strong>Choice C &mdash; 'y = 4.8x + 4.8'</strong>: At x = 0 this gives y = 4.8 cm, not 160 cm. The starting length is wrong. &#10007;</li><li><strong>Choice D &mdash; 'y = 4.8x + 160'</strong>: At x = 0, y = 160 cm (correct birth length); slope 4.8 matches the given growth rate. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+  ]
 }

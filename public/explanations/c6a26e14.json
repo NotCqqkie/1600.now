@@ -4,32 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve the equation",
-      "content": "Split the absolute value: $$x+45=\\pm 48.$$ This gives $x=3$ or $x=-93$."
+      "title": "Split the absolute value",
+      "content": "$$|x+45|=48$$ means the expression inside the absolute value is either $48$ or $-48$: $$x+45=48 \\quad \\text{or} \\quad x+45=-48.$$"
     },
     {
-      "title": "Identify the positive solution",
-      "content": "Take the positive value, $x=3$. The answer is <strong>(A) $3$</strong>.",
+      "title": "Find both solutions",
+      "content": "The first equation gives $x=3$. The second gives $x=-93$."
+    },
+    {
+      "title": "Choose the positive solution",
+      "content": "The positive solution is $3$, so choice A is correct. The other positive choices do not satisfy $|x+45|=48$.",
       "desmosExpressions": [
-        "y = |x + 45|",
-        "y = 48"
+        "y=|x+45|",
+        "y=48"
       ]
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "Choice A is correct. The given absolute value equation can be rewritten as two linear equations: $x+45=48$ and $-\\left(x+45\\right)=48$, or $x+45=-48$. Subtracting $45$ from both sides of the equation $x+45=48$ yields $x=3$. Subtracting $45$ from both sides of the equation $x+45=-48$ yields $x=-93$. Thus, the given equation has two possible solutions, $3$ and $-93$. Therefore, the positive solution to the given equation is $3$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice B is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice C is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice D is incorrect and may result from conceptual or calculation errors."
     }
   ]
 }

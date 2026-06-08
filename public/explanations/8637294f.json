@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find a/b from the first equation",
-      "content": "From $\\dfrac{4a}{b}=6.7$: $\\dfrac{a}{b}=\\dfrac{6.7}{4}=1.675$."
+      "title": "Treat a over b as one quantity",
+      "content": "The first equation gives $\\frac{4a}{b}=6.7$, so divide by $4$: $$\\frac{a}{b}=\\frac{6.7}{4}=1.675$$"
     },
     {
-      "title": "Combine and compute",
-      "content": "Rewrite $\\dfrac{a}{bn}=\\dfrac{a}{b}\\cdot\\dfrac{1}{n}=26.8$. Substitute: $1.675\\cdot\\dfrac{1}{n}=26.8$, so $\\dfrac{1}{n}=16$ and $n=\\dfrac{1}{16}=0.0625$.<br/><br/>The answer is <strong>0.0625</strong>."
+      "title": "Substitute into the second equation",
+      "content": "Rewrite the second equation as $$\\frac{a}{bn}=\\frac{a}{b}\\cdot\\frac{1}{n}=26.8$$ Substitute $\\frac{a}{b}=1.675$: $$\\frac{1.675}{n}=26.8$$"
     },
     {
-      "title": "Use the source rationale",
-      "content": "The correct answer is $.0625$. It's given that $\\frac{4a}{b}=6.7$ and $\\frac{a}{bn}=26.8$. The equation $\\frac{4a}{b}=6.7$ can be rewritten as $\\left(4\\right)\\left(\\frac{a}{b}\\right)=6.7$. Dividing both sides of this equation by $4$ yields $\\frac{a}{b}=1.675$. The equation $\\frac{a}{bn}=26.8$ can be rewritten as $\\left(\\frac{a}{b}\\right)\\left(\\frac{1}{n}\\right)=26.8$. Substituting $1.675$ for $\\frac{a}{b}$ in this equation yields $\\left(1.675\\right)\\left(\\frac{1}{n}\\right)=26.8$, or $\\frac{1.675}{n}=26.8$. Multiplying both sides of this equation by $n$ yields $1.675=26.8n$. Dividing both sides of this equation by $26.8$ yields $n=0.0625$. Therefore, the value of $n$ is $0.0625$. Note that.0625, 0.062, 0.063, and 1/16 are examples of ways to enter a correct answer."
+      "title": "Solve for n",
+      "content": "$$1.675=26.8n$$ $$n=\\frac{1.675}{26.8}=0.0625$$ This also means $\\frac{1}{n}=16$, which makes $1.675\\cdot 16=26.8$. The grid-in answer can be <strong>.0625</strong>, <strong>0.0625</strong>, or <strong>1/16</strong>."
     }
   ]
 }

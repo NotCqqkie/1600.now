@@ -4,28 +4,26 @@
   "section": "Math",
   "steps": [
     {
+      "title": "Recognize the difference of squares",
+      "content": "Inside the parentheses, $x^2-100y^2$ is a difference of squares because $100y^2=(10y)^2$. Use the pattern $a^2-b^2=(a-b)(a+b)$."
+    },
+    {
       "title": "Factor the expression",
-      "content": "Inside the parentheses, $x^2-100y^2$ is a difference of squares: $(x-10y)(x+10y)$. Therefore:$$17(x^2-100y^2)=17(x-10y)(x+10y)$$"
+      "content": "$$x^2-100y^2=x^2-(10y)^2=(x-10y)(x+10y)$$<br/>Keeping the outside factor of $17$ gives:<br/>$$17(x^2-100y^2)=17(x-10y)(x+10y)$$"
     },
     {
-      "title": "Match to the answer choices",
-      "content": "The factored form is $17(x-10y)(x+10y)$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."
+      "title": "Check the choice in Desmos",
+      "content": "Use two test points to catch the wrong-factor choices:<br/>$$x_1=[11,12]$$<br/>$$y_1=[1,2]$$<br/>$$o_1=17(x_1^2-100y_1^2)$$<br/>$$d_1=17(x_1-10y_1)(x_1+10y_1)$$<br/>The original and choice D produce the same output list.",
+      "desmosExpressions": [
+        "x_1=[11,12]",
+        "y_1=[1,2]",
+        "o_1=17(x_1^2-100y_1^2)",
+        "d_1=17(x_1-10y_1)(x_1+10y_1)"
+      ]
     },
     {
-      "title": "Use the source rationale",
-      "content": "Choice D is correct. Expressions in the form ${a}^{2}-{b}^{2}$ follow the difference of two squares pattern and can be factored as $(a-b)(a+b)$. In the given expression, $17({x}^{2}-100{y}^{2})$, the expression ${x}^{2}-100{y}^{2}$ follows the difference of two squares pattern. It follows that the expression ${x}^{2}-100{y}^{2}$ can be rewritten as $(x-10y)(x+10y)$. Therefore, the expression $17(x-10y)(x+10y)$ is equivalent to $17({x}^{2}-100{y}^{2})$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice A is incorrect. This expression is equivalent to $17({x}^{2}-52xy+100{y}^{2})$, not $17({x}^{2}-100{y}^{2})$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice B is incorrect. This expression is equivalent to $17({x}^{2}+48xy-100{y}^{2})$, not $17({x}^{2}-100{y}^{2})$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice C is incorrect. This expression is equivalent to $17({x}^{2}-20xy+100{y}^{2})$, not $17({x}^{2}-100{y}^{2})$."
+      "title": "Confirm the answer",
+      "content": "$17(x-10y)(x+10y)$ is choice D, so <strong>D</strong> is correct."
     }
   ]
 }

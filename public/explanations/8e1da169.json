@@ -4,35 +4,19 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the roots",
-      "content": "$f(x)=(x-44)(x-46)$ has roots $x=44$ and $x=46$."
+      "title": "Use the intercept shortcut",
+      "content": "$f(x)=(x-44)(x-46)$ has zeros at $x=44$ and $x=46$. Because the coefficient of $x^2$ is positive, the parabola opens upward, so its minimum occurs at the vertex."
     },
     {
-      "title": "Apply the new function definition",
-      "content": "The vertex of an upward parabola lies midway: $$x = \\tfrac{44+46}{2} = 45.$$"
+      "title": "Find the midpoint of the zeros",
+      "content": "For a factored upward-opening parabola, the vertex lies halfway between the two $x$-intercepts: $$\\frac{44+46}{2}=45.$$"
     },
     {
-      "title": "Compute the answer",
-      "content": "So the minimum occurs at $x=45$. That matches choice <strong>B</strong> — <strong>B</strong> is correct.",
+      "title": "Check the choices",
+      "content": "Choice B is correct because the minimum occurs at $x=45$. Choices A and C are the intercepts, not the minimum point. Choice D is the minimum function value, $f(45)=-1$, not the requested $x$-value.",
       "desmosExpressions": [
         "f(x)=(x-44)(x-46)"
       ]
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "Choice B is correct. It's given that $f\\left(x\\right)=\\left(x-44\\right)\\left(x-46\\right)$, which can be rewritten as $f\\left(x\\right)={x}^{2}-90x+2,024$. Since the coefficient of the ${x}^{2}$-term is positive, the graph of $y=f\\left(x\\right)$ in the <em>xy</em>-plane opens upward and reaches its minimum value at its vertex. For an equation in the form $f\\left(x\\right)=a{x}^{2}+bx+c$, where $a$, $b$, and $c$ are constants, the <em>x</em>-coordinate of the vertex is $-\\frac{b}{2a}$. For the equation $f\\left(x\\right)={x}^{2}-90x+2,024$, $a=1$, $b=-90$, and $c=2,024$. It follows that the <em>x</em>-coordinate of the vertex is $-\\frac{\\left(-90\\right)}{2\\left(1\\right)}$, or $45$. Therefore, $f\\left(x\\right)$ reaches its minimum when the value of $x$ is $45$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice A is incorrect. This is one of the <em>x</em>-coordinates of the <em>x</em>-intercepts of the graph of $y=f\\left(x\\right)$ in the <em>xy</em>-plane."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice C is incorrect. This is one of the <em>x</em>-coordinates of the <em>x</em>-intercepts of the graph of $y=f\\left(x\\right)$ in the <em>xy</em>-plane."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice D is incorrect. This is the <em>y</em>-coordinate of the vertex of the graph of $y=f\\left(x\\right)$ in the <em>xy</em>-plane."
     }
   ]
 }

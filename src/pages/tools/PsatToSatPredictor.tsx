@@ -8,17 +8,9 @@ import {
 } from "@/components/seo/PageSeo";
 import { satToolBySlug } from "@/lib/seo-data/satTools";
 
-// PSAT 10 / PSAT-NMSQT scale is 320–1520 and shares a single vertical
-// scale with the SAT (400–1600). Per College Board guidance, a PSAT of
-// X predicts an SAT of approximately X at the same point in time; typical
-// growth from PSAT 10 (sophomore) to SAT (junior/senior) is 60–120 points
-// with prep.
-
 const predictSat = (psat: number, monthsUntilSat: number) => {
   if (psat < 320 || psat > 1520) return null;
-  // Baseline: PSAT score is the current predicted SAT.
   const baseline = Math.min(1600, psat);
-  // Typical growth ≈ 10 points per month with consistent prep, capped.
   const expected = Math.min(1600, baseline + Math.min(monthsUntilSat, 12) * 10);
   const low = Math.max(400, baseline + Math.floor((expected - baseline) * 0.5));
   const high = Math.min(1600, expected + 30);

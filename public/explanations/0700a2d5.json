@@ -4,16 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the conversion",
-      "content": "Since $1\\text{ rod} = 5.5\\text{ yards}$, converting $77$ rods means multiplying by the conversion factor $5.5$."
+      "title": "Choose the conversion direction",
+      "content": "The problem gives $1$ rod $=5.5$ yards. Since the question starts with rods and asks for yards, multiply by $5.5$ yards per rod."
     },
     {
-      "title": "Calculate the result",
-      "content": "$$77 \\times 5.5 = 423.5\\text{ yards}$$"
+      "title": "Set up the unit cancellation",
+      "content": "$$77\\text{ rods}\\cdot\\frac{5.5\\text{ yards}}{1\\text{ rod}}$$<br/>The rod units cancel, leaving yards."
     },
     {
-      "title": "Use the source rationale",
-      "content": "The correct answer is $423.5$. It's given that $5.5\\text{yards}=1\\text{rod}$. Therefore, $77$ rods is equivalent to $\\left(77\\text{rods}\\right)\\left(\\frac{5.5\\text{yards}}{1\\text{rod}}\\right)$, or $423.5$ yards. Note that 423.5 and 847/2 are examples of ways to enter a correct answer."
+      "title": "Multiply",
+      "content": "$$77(5.5)=423.5$$"
+    },
+    {
+      "title": "Answer",
+      "content": "$77$ rods are equivalent to <strong>423.5</strong> yards."
     }
   ]
 }

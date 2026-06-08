@@ -4,20 +4,26 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up slope-intercept form",
-      "content": "With slope $5$, the line has the form $g(x) = 5x + b$."
-    },
-    {
-      "title": "Solve for the intercept using (2, 47)",
-      "content": "Substitute $x = 2, g(x) = 47$: $47 = 5(2) + b = 10 + b$, so $b = 37$. Thus $g(x) = 5x + 37$."
-    },
-    {
-      "title": "Compare against the choices",
-      "content": "<ul><li>Choice A ($37x$): wrong slope ($37$, not $5$) and no constant term.</li><li>Choice B ($37x + 5$): swaps slope and intercept.</li><li>Choice C ($5a$): not even a function of $x$ &mdash; missing the constant.</li><li>Choice D ($5x + 37$): slope $5$ and $g(2) = 10 + 37 = 47$ checks out.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.",
+      "title": "Convert slope into a second point",
+      "content": "The point $(2,47)$ is on the graph. Since the slope is $5$, increasing $x$ by $1$ increases $g(x)$ by $5$, so another point is $(3,52)$. Put $(2,47)$ and $(3,52)$ into a Desmos table.",
       "desmosExpressions": [
-        "y = 5x + 37",
-        "(2, 47)"
+        "x_1=[2,3]",
+        "y_1=[47,52]"
       ]
+    },
+    {
+      "title": "Fit the equation",
+      "content": "Run $y_1 \\sim mx_1+b$. Desmos gives $m=5$ and $b=37$, which means the equation is $y=5x+37$.",
+      "desmosExpressions": [
+        "x_1=[2,3]",
+        "y_1=[47,52]",
+        "y_1~m x_1+b",
+        "y=5x+37"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "Choice A has slope $37$, and choice B swaps the slope and intercept. Choice C is not the right expression in terms of $x$. Choice D, $g(x)=5x+37$, has slope $5$ and gives $g(2)=47$. Choice <strong>D</strong> is correct."
     }
   ]
 }

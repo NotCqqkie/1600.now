@@ -4,21 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the circumference of the circle",
-      "content": "With radius $r = 1$, the circumference is:<br/>$$C = 2\\pi(1) = 2\\pi$$",
-      "formula": "$$C = 2\\pi r$$"
+      "title": "Find the circumference",
+      "content": "The radius is $1$, so the circumference is $$2\\pi r=2\\pi(1)=2\\pi.$$"
     },
     {
-      "title": "Calculate the fraction of circumference that arc AB represents",
-      "content": "The fraction is the ratio of arc length to circumference:<br/>$$\\frac{\\pi/3}{2\\pi} = \\frac{1}{3} \\cdot \\frac{\\pi}{2\\pi} = \\frac{1}{3} \\cdot \\frac{1}{2} = \\frac{1}{6}$$",
-      "desmosExpressions": [
-        "x^2 + y^2 = 1",
-        "(\\cos(\\pi/3), \\sin(\\pi/3))"
-      ]
+      "title": "Divide arc length by circumference",
+      "content": "The fraction of the circumference is $$\\frac{\\pi/3}{2\\pi}=\\frac{\\pi}{3}\\cdot\\frac{1}{2\\pi}=\\frac{1}{6}.$$"
     },
     {
-      "title": "Use the source rationale",
-      "content": "The correct answer is $\\frac{1}{6}$. The circumference, <em>C</em>, of a circle is $c = 2\\pi r$, where <em>r</em> is the length of the radius of the circle. For the given circle with a radius of 1, the circumference is $c = 2\\pi \\times 1 = 2\\pi$. To find what fraction of the circumference the length of arc $AB$ is, divide the length of the arc by the circumference, which gives $\\frac{\\pi/3}{2\\pi}$. This division can be represented by $\\frac{\\pi}{3} \\times \\frac{1}{2\\pi} = \\frac{1}{6}$. Note that 1/6, .1666, .1667, 0.166, and 0.167 are examples of ways to enter a correct answer."
+      "title": "Confirm accepted forms",
+      "content": "The answer is <strong>1/6</strong>. Decimal entries like $.1666$, $.1667$, $0.166$, or $0.167$ are also accepted. The fraction is less than one full circle because the arc is only a small part of the circumference."
     }
   ]
 }

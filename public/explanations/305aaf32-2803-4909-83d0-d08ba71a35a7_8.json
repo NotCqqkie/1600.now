@@ -4,12 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the model from the data",
-      "content": "The graph shows a straight line, so $f$ is a linear function. The initial deposit is the balance at $x=0$ months, which is the $y$-intercept $f(0)$."
+      "title": "Use what initial deposit means",
+      "content": "The graph gives the account balance $y=f(x)$ after $x$ months. The initial deposit is the balance at the start, so use $x=0$ rather than trying to calculate the slope first."
     },
     {
-      "title": "Write the equation",
-      "content": "Reading the graph, the line crosses the $y$-axis at $y=40$, so $$f(0)=40.$$ The answer is <strong>40</strong>."
+      "title": "Read the y-intercept",
+      "content": "At $x=0$, the line crosses the vertical axis at $y=40$. That point is $(0,40)$, so the estimated initial account balance was $40.",
+      "desmosExpressions": [
+        "(0,40)",
+        "y=3x+40"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The question asks for the initial deposit to the nearest whole dollar. Since $f(0)=40$, the answer is <strong>40</strong>."
     }
   ]
 }

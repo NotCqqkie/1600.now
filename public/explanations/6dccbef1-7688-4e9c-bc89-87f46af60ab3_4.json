@@ -4,21 +4,22 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the slope from the two points",
-      "content": "The profit is \\$170 when $x=4$ and \\$590 when $x=10$, giving points $(4,170)$ and $(10,590)$.<br/><br/>$$m=\\frac{590-170}{10-4}=\\frac{420}{6}=70$$"
+      "title": "Turn the facts into points",
+      "content": "A linear profit function is determined by two points. The profit is $170$ when $x=4$ and $590$ when $x=10$, so use $(4,170)$ and $(10,590)$."
     },
     {
-      "title": "Find the y-intercept",
-      "content": "Use point-slope with $(4,170)$ and $m=70$:<br/>$$170=70(4)+b \\Rightarrow b=170-280=-110$$<br/>So $f(x)=70x-110$."
-    },
-    {
-      "title": "Test each choice",
-      "content": "Check which equation gives $f(4)=170$ and $f(10)=590$:<ul><li><strong>A)</strong> $f(x)=170x-590$: $f(4)=680-590=90 \\ne 170$. Eliminate.</li><li><strong>B)</strong> $f(x)=59x$: $f(4)=236 \\ne 170$. Eliminate.</li><li><strong>C)</strong> $f(x)=70x-10x=60x$: $f(4)=240 \\ne 170$. Eliminate.</li><li><strong>D)</strong> $f(x)=70x-110$: $f(4)=280-110=170$ &check; and $f(10)=700-110=590$ &check;.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.",
+      "title": "Fit the line in Desmos",
+      "content": "Enter $x_1=[4,10]$ and $y_1=[170,590]$, then type $y_1\\sim m x_1+b$. Desmos returns $m=70$ and $b=-110$, so the model is $$f(x)=70x-110.$$",
       "desmosExpressions": [
-        "y=70x-110",
-        "(4,170)",
-        "(10,590)"
+        "x_1=[4,10]",
+        "y_1=[170,590]",
+        "y_1~m x_1+b",
+        "y=70x-110"
       ]
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "Choice <strong>D</strong> is correct. It checks both points: $70(4)-110=170$ and $70(10)-110=590$. The other choices fail at least one of those two point checks."
     }
   ]
 }

@@ -4,19 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Isolate y to read off the slope",
-      "content": "$3y + 12x = 5 \\Rightarrow y = -4x + \\tfrac{5}{3}$. Slope = $-4$."
+      "title": "Rewrite line l",
+      "content": "Start with $3y+12x=5$. Move the $12x$ term to the other side and divide by $3$:<br/>$$3y=-12x+5$$<br/>$$y=-4x+\\frac{5}{3}$$"
     },
     {
-      "title": "Flip and negate for the perpendicular slope",
-      "content": "Perpendicular shortcut: negative reciprocal of $-4$ is $-\\tfrac{1}{-4} = \\tfrac{1}{4} = 0.25$. That matches choice 0.25 — <strong>0.25</strong> is correct.",
-      "desmosExpressions": [
-        "1/4"
-      ]
+      "title": "Read the slope",
+      "content": "In $y=mx+b$, the slope is $m$. Line $l$ has slope $-4$."
     },
     {
-      "title": "Use the source rationale",
-      "content": "The correct answer is $\\frac{1}{4}$. For an equation in slope-intercept form $y=mx+b$, $m$ represents the slope of the line in the <em>xy</em>-plane defined by this equation. It's given that line $l$ is defined by $3y+12x=5$. Subtracting $12x$ from both sides of this equation yields $3y=-12x+5$. Dividing both sides of this equation by $3$ yields $y=-\\frac{12}{3}x+\\frac{5}{3}$, or $y=-4x+\\frac{5}{3}$. Thus, the slope of line $l$ in the <em>xy</em>-plane is $-4$. Since line $n$ is perpendicular to line $l$ in the <em>xy</em>-plane, the slope of line $n$ is the negative reciprocal of the slope of line $l$. The negative reciprocal of $-4$ is $-\\frac{1}{\\left(-4\\right)}=\\frac{1}{4}$. Note that 1/4 and.25 are examples of ways to enter a correct answer."
+      "title": "Use the perpendicular shortcut",
+      "content": "A perpendicular slope is the negative reciprocal:<br/>$$m_n=-\\frac{1}{-4}=\\frac{1}{4}=0.25$$"
+    },
+    {
+      "title": "Answer",
+      "content": "The slope of line $n$ is <strong>0.25</strong>."
     }
   ]
 }

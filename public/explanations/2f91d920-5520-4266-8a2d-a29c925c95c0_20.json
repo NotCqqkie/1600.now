@@ -4,24 +4,32 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Simplify the given equation",
-      "content": "Start with $$3(x-n)=9y+15n.$$ Expand and collect terms: $$3x-3n=9y+15n$$ $$3x-9y=18n.$$ Divide by $3$: $$x-3y=6n.$$"
+      "title": "Simplify the given line",
+      "content": "Start with $3(x-n)=9y+15n$. Expanding gives $3x-3n=9y+15n$, so $3x-9y=18n$. Divide by $3$ to get $$x-3y=6n.$$"
     },
     {
-      "title": "Use the no-solution condition",
-      "content": "A two-line system has no solution when the lines are parallel but distinct. That means the second equation should have the same $x$ and $y$ coefficients as $x-3y=6n$, but a different constant."
-    },
-    {
-      "title": "Graph a representative case",
-      "content": "Since $n$ is any positive constant, choose the easiest positive value, $n=1$. The given equation becomes $x-3y=6$. Choice D becomes $x-3y=3$. Graphing those two lines in Desmos shows parallel, distinct lines, which means no intersection and no solution.",
+      "title": "Use a representative positive n",
+      "content": "Because $n$ is positive but not fixed, choose the easy value $n=1$ for a Desmos check. The original line becomes $x-3y=6$. Choice D becomes $x-3y=3$.",
       "desmosExpressions": [
         "x-3y=6",
         "x-3y=3"
       ]
     },
     {
-      "title": "Check the choices",
-      "content": "Choice A, $x-3y=6n$, is the exact same line, so it would give infinitely many solutions. Choices B and C use $x+3y$, so they do not have the same slope as the given line. Choice D, $x-3y=3n$, has the same left side but a different constant. Combining it with $x-3y=6n$ would imply $6n=3n$, so $n=0$, contradicting $n>0$. Choice <strong>D</strong> is correct."
+      "title": "Fit both lines from two points",
+      "content": "Use two points on each line and run linear regressions. For $x-3y=6$, the points $(0,-2)$ and $(3,-1)$ fit $y=\\frac{1}{3}x-2$. For choice D, the points $(0,-1)$ and $(3,0)$ fit $y=\\frac{1}{3}x-1$. Same slope, different intercepts means parallel distinct lines.",
+      "desmosExpressions": [
+        "x_1=[0,3]",
+        "y_1=[-2,-1]",
+        "y_1~m x_1+b",
+        "x_2=[0,3]",
+        "y_2=[-1,0]",
+        "y_2~m_2 x_2+b_2"
+      ]
+    },
+    {
+      "title": "Eliminate the other choices",
+      "content": "Choice A is exactly $x-3y=6n$, the same line as the original, so it would give infinitely many solutions. Choices B and C have $x+3y$, so their slope is different and they intersect the original. Choice D has the same left side but a different constant, so it is the no-solution choice. Choice <strong>D</strong> is correct."
     }
   ]
 }

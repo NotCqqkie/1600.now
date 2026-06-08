@@ -15,8 +15,11 @@
       "title": "Evaluate each choice",
       "content": "<ul><li><strong>A) Account A always earns more per year:</strong> A starts at \\$30 and grows; B stays at \\$25. True.</li><li><strong>B) Account A always earns less per year:</strong> False &mdash; even in year 1, A earns \\$30 vs. B&#39;s \\$25.</li><li><strong>C) A earns more at first but eventually earns less:</strong> A&#39;s earnings only grow, so it never drops below \\$25. False.</li><li><strong>D) A earns less at first but eventually more:</strong> A is already higher in year 1. False.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.",
       "desmosExpressions": [
-        "y = 500*(1.06)^x",
-        "y = 1000 + 25x"
+        "x_1=[0,1,2]",
+        "y_1=[30,31.8,33.708]",
+        "y_1~a*b^{x_1}",
+        "y=30(1.06)^x",
+        "y=25"
       ]
     }
   ]

@@ -1,5 +1,3 @@
-// Informational SAT FAQ pages targeting high-search, underutilized queries.
-// Each entry backs a single programmatic page at /sat-faq/:slug.
 
 export interface SatFaqPage {
   slug: string;

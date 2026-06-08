@@ -4,24 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the bar height at 0 kWh",
-      "content": "At the 0 kWh charge level on the bar graph, the bar height is 6 days. That matches choice D — <strong>D</strong> is correct."
+      "title": "Use the bar height",
+      "content": "The horizontal axis gives the charge amount in kilowatt-hours, and the vertical axis gives the number of days. The question asks for the bar at $0$ kWh."
     },
     {
-      "title": "Use the source rationale",
-      "content": "Choice D is correct. It's given that the bar graph summarizes the charge, in kilowatt-hours $\\left(\\text{kWh}\\right)$, a battery received each day for $15$ days. The height of each bar in the bar graph shown represents the number of days the battery received the charge, in $\\text{kWh}$, specified at the bottom of the bar. The bar for a charge of $0\\text{kWh}$ reaches a height of $6$. Therefore, the battery received a charge of $0\\text{kWh}$ for $6$ of these days."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice A is incorrect. This is the charge, in $\\text{kWh}$, that the battery received, not the number of days the battery received this charge."
+      "title": "Read the value at 0 kWh",
+      "content": "The bar above $0$ kWh reaches a height of $6$. That means the battery received $0$ kWh on $6$ of the $15$ days."
     },
     {
       "title": "Check the choices",
-      "content": "Choice B is incorrect. This is the number of days the battery received a charge of either $8$, $16$, or $23$ $\\text{kWh}$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice C is incorrect. This is the number of days the battery received a charge of $11$ $\\text{kWh}$."
+      "content": "<ul><li>Choice A, $0$, is the charge amount, not the number of days.</li><li>Choice B, $1$, matches other bars, not the $0$ kWh bar.</li><li>Choice C, $4$, matches the $11$ kWh bar.</li><li>Choice D, $6$, is the height of the $0$ kWh bar. Correct.</li></ul>That matches choice D."
     }
   ]
 }

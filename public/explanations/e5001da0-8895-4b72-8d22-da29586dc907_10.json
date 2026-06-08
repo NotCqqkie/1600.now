@@ -4,17 +4,25 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the total length function",
-      "content": "We start with a chain of length 33 cm. We add $x$ line segments, each with length $(8 - r)$ cm. The total length is: $$f(x) = 33 + x(8 - r)$$"
+      "title": "Build the length model",
+      "content": "The chain already has length $33$. Each added segment has length $8-r$, and $x$ segments are added. So the total length is $$f(x)=33+x(8-r).$$"
     },
     {
-      "title": "Expand by distributing",
-      "content": "Distribute $x$ to each term in the parentheses: $$f(x) = 33 + 8x - rx$$"
+      "title": "Use a quick Desmos table check",
+      "content": "To check the structure quickly, choose an easy value such as $r=3$. Then each new segment is $8-3=5$ cm, so the lengths for $x=0,1,2$ are $33,38,43$. A linear regression gives $f(x)=5x+33$ for this test case.",
+      "desmosExpressions": [
+        "x_1=[0,1,2]",
+        "y_1=[33,38,43]",
+        "y_1~m x_1+b"
+      ]
     },
     {
-      "title": "Match to the answer choices",
-      "content": "Rearranging: $f(x) = 8x - rx + 33$, which is choice B. Choice A writes it as $33 + (8 - r)x$ &#8212; algebraically identical, but SAT choices B uses the distributed form which is the explicit expanded expression. That matches choice B &#8212; <strong>B</strong> is correct."
+      "title": "Match the symbolic form",
+      "content": "Distribute the general expression: $$33+x(8-r)=33+8x-rx=8x-rx+33.$$ That matches the keyed choice B."
+    },
+    {
+      "title": "Note the duplicate choice issue",
+      "content": "Choice A, $33+(8-r)x$, is algebraically equivalent to choice B, $8x-rx+33$. The stored bank key is <strong>B</strong>, and B is the distributed version, but mathematically A and B represent the same function. Choices C and D are not equivalent because C fails to multiply $r$ by $x$, and D incorrectly multiplies the starting length by $x$."
     }
-  ],
-  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; 'f(x) = 33 + (8 &minus; r)x'</strong>: Correct mathematically (equivalent to 33 + 8x &minus; rx), but choice B is the fully distributed form that the SAT identifies as correct. &#10003; (equivalent)</li><li><strong>Choice B &mdash; 'f(x) = 8x &minus; rx + 33'</strong>: Distributing x over (8 &minus; r) gives 8x &minus; rx, then adding the initial 33 gives 8x &minus; rx + 33. &#10003;</li><li><strong>Choice C &mdash; 'f(x) = 8x &minus; r + 33'</strong>: Missing the multiplication of r by x; r should be multiplied by the number of segments added, not subtracted as a constant. &#10007;</li><li><strong>Choice D &mdash; 'f(x) = (41 &minus; r)x'</strong>: Incorrectly folds the initial 33 into the slope as if it were also multiplied by x, losing the additive constant structure. &#10007;</li></ul>That matches choice B &#8212; <strong>B</strong> is correct."
+  ]
 }

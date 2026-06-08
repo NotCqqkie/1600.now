@@ -4,16 +4,25 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the fastest table shortcut",
-      "content": "Every listed $y$-value has the same unknown vertical shift $n$. A vertical shift changes the intercept, but it does not change the slope, so the $n$ cancels when you subtract two $y$-values."
+      "title": "Use the n-cancels shortcut",
+      "content": "Every listed y-value contains the same vertical shift $n$. A vertical shift changes the intercept, but it does not change the slope. That means you can subtract two y-values and the $n$ terms cancel."
     },
     {
-      "title": "Compute the slope from two table rows",
-      "content": "Use the rows with $x=0$ and $x=5$. The change in $y$ is $(n+24)-n=24$, and the change in $x$ is $5-0=5$. Therefore<br/>$$m=\\frac{24}{5}=4.8$$"
+      "title": "Compute the slope from two rows",
+      "content": "Using the rows with $x=0$ and $x=5$, the change in y is $(n+24)-n=24$, and the change in x is $5-0=5$. Therefore:<br/>$$m=\\frac{24}{5}=4.8$$"
+    },
+    {
+      "title": "Desmos shortcut",
+      "content": "Another quick check is to set $n=0$, since that keeps the slope the same. Enter $(0,0)$ and $(5,24)$, then regress a line. Desmos returns $m=\\frac{24}{5}$.",
+      "desmosExpressions": [
+        "x_1=[0,5]",
+        "y_1=[0,24]",
+        "y_1\\sim m x_1+b"
+      ]
     },
     {
       "title": "Answer",
-      "content": "The slope is $\\frac{24}{5}$, or $4.8$. For a free-response answer, enter either <strong>24/5</strong> or <strong>4.8</strong>."
+      "content": "The slope is $\\frac{24}{5}$, or $4.8$. For the free-response box, enter <strong>24/5</strong> or <strong>4.8</strong>."
     }
   ]
 }

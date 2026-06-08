@@ -14,11 +14,11 @@ interface InlineDesmosProps {
 }
 
 const COLORS = [
-  "#2d70b3", // blue
-  "#388c46", // green
-  "#fa7e19", // orange
-  "#c74440", // red
-  "#6042a6", // purple
+  "#2d70b3",
+  "#388c46",
+  "#fa7e19",
+  "#c74440",
+  "#6042a6",
 ];
 
 export function InlineDesmos({ expressions, height = 360, forwardScrollToPage = false }: InlineDesmosProps) {
@@ -132,7 +132,6 @@ export function InlineDesmos({ expressions, height = 360, forwardScrollToPage = 
         );
       })
       .catch(() => {
-        // Desmos failed to load — leave graph area empty
       });
 
     return () => {

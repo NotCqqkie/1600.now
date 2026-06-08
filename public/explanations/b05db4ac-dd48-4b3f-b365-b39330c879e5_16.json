@@ -12,7 +12,7 @@
       "content": "Count cumulatively down the table:<ul><li>14 birds: 3 cumulative (positions 1-3)</li><li>15 birds: 6 cumulative (positions 4-6)</li><li>16 birds: 10 cumulative (positions 7-10)</li><li>17 birds: 11 cumulative (position 11)</li><li>18 birds: 14 cumulative (positions 12-14)</li></ul>The 12th position falls in the row with 18 birds. A Desmos list check gives the same median directly, so the answer is <strong>18</strong>.",
       "desmosExpressions": [
         "D=[14,14,14,15,15,15,16,16,16,16,17,18,18,18,19,19,19,19,19,19,19,19,19]",
-        "median(D)"
+        "\\operatorname{median}\\left(D\\right)"
       ]
     }
   ]

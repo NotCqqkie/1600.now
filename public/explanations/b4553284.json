@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply the equation from the given condition",
-      "content": "Divide by $2$: $x=6$."
+      "title": "Solve for $x$",
+      "content": "From $2x=12$, divide both sides by $2$: $$x=6.$$"
     },
     {
-      "title": "Compute the target value",
-      "content": "Then $9x = 9 \\cdot 6 = 54$. The answer is <strong>54</strong>."
+      "title": "Evaluate $9x$",
+      "content": "Now multiply by $9$: $$9x=9(6)=54.$$"
     },
     {
-      "title": "Use the source rationale",
-      "content": "The correct answer is $54$. Dividing both sides of the given equation by $2$ yields $x=6$. Multiplying both sides of this equation by $9$ yields $9x=54$. Thus, the value of $9x$ is $54$."
+      "title": "Confirm the answer",
+      "content": "The requested value is <strong>54</strong>. The question asks for $9x$, so stopping at $x=6$ would answer only an intermediate step. Always finish with the expression named in the question."
     }
   ]
 }

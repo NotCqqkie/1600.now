@@ -4,31 +4,19 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify coefficients",
-      "content": "$y=-100x^2+1400x+7200$ has $a=-100$, $b=1400$. Since $a&lt;0$, the parabola opens downward — the vertex is a maximum."
-    },
-    {
-      "title": "Apply vertex formula",
-      "content": "$$x=-\\frac{b}{2a}=-\\frac{1400}{2(-100)}=-\\frac{1400}{-200}=7$$<br/>That matches choice B — <strong>B</strong> is correct.",
+      "title": "Graph the revenue parabola",
+      "content": "The model is $$y=-100x^2+1400x+7200$$ Since the coefficient of $x^2$ is negative, the graph opens downward, so its vertex gives the maximum revenue.",
       "desmosExpressions": [
         "y=-100x^2+1400x+7200"
       ]
     },
     {
-      "title": "Use the source rationale",
-      "content": "Choice B is correct. It's given that the situation can be modeled by the equation $y=-100{x}^{2}+1,400x+7,200$, where $x$ represents the increase in ticket price, in dollars, and $y$ represents the revenue, in dollars, from ticket sales. Since the coefficient of the ${x}^{2}$ term is negative, the graph of this equation in the <em>xy</em>-plane opens downward and reaches its maximum value at its vertex. If a quadratic equation in the form $y=a{x}^{2}+bx+c$, where $a$, $b$, and $c$ are constants, is graphed in the <em>xy</em>-plane, the <em>x</em>-coordinate of the vertex is equal to $-\\frac{b}{2a}$. For the equation $y=-100{x}^{2}+1,400x+7,200$, $a=-100$, $b=1,400$, and $c=7,200$. It follows that the <em>x</em>-coordinate of the vertex is $-\\frac{1,400}{2(-100)}$, or $7$. Therefore, if the given equation is graphed in the <em>xy</em>-plane, the maximum of the graph occurs at an <em>x</em>-value of $7$."
+      "title": "Find the vertex x-value",
+      "content": "For $y=ax^2+bx+c$, the vertex occurs at $$x=-\\frac{b}{2a}$$ Here $a=-100$ and $b=1400$, so $$x=-\\frac{1400}{2(-100)}=7$$"
     },
     {
       "title": "Check the choices",
-      "content": "Choice A is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice C is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice D is incorrect and may result from conceptual or calculation errors."
+      "content": "The maximum occurs when the ticket-price increase is $7$ dollars. Choice B is $7$, so choice B is correct. In Desmos, the peak of the graphed parabola is also at $x=7$."
     }
   ]
 }

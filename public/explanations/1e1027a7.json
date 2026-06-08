@@ -4,14 +4,25 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the slope from two points on the line",
-      "content": "From the graph, the line of best fit passes through the points (0,84) and (10,414).<br/>Compute the slope $$m = \\frac{414-84}{10-0} = \\frac{330}{10} = 33$$.<br/>Thus the slope is 33."
+      "title": "Use two readable points on the fit line",
+      "content": "This is faster as a Desmos or graph-check problem than as a full scatterplot analysis. The line of best fit passes near $(12,480)$ and $(24,880)$, where $x$ represents temperature $t$ and $y$ represents sales $d$.",
+      "desmosExpressions": [
+        "x_1=[12,24]",
+        "y_1=[480,880]",
+        "y_1~m x_1+b"
+      ]
     },
     {
-      "title": "Determine the y‑intercept and match to answer choices",
-      "content": "The y‑intercept is the d‑value when t=0, which from the point (0,84) is 84.<br/>Therefore the line of best fit is $$d = 33t + 84$$.<br/>Comparing with the choices, only choice D matches this equation.<br/>That matches choice D — <strong>D</strong> is correct.",
+      "title": "Read the fitted slope and intercept",
+      "content": "In Desmos, enter the two points as lists and type $y_1\\sim m x_1+b$. The regression row gives $m\\approx 33.33$ and $b=80$. Since the graph points are approximate, that means the answer should have slope about $33$ and intercept close to $80$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choices A and B have slopes $0.03$ and $10$, which are much too small. Choices C and D both have slope $33$, so use the intercept. The line crosses the sales axis near $84$, not $300$. Equivalently, using $(12,480)$ with slope $33$ gives $480=33(12)+b$, so $b=84$. Thus the model is $d=33t+84$, choice <strong>D</strong>.",
       "desmosExpressions": [
-        "d = 33t + 84"
+        "y=33x+84",
+        "(12,480)",
+        "(24,880)"
       ]
     }
   ]

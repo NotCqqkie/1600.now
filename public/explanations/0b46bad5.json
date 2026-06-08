@@ -4,20 +4,24 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Rewrite in slope-intercept form",
-      "content": "Solve $ax+by=b$ for $y$:$$by=-ax+b\\Rightarrow y=-\\tfrac{a}{b}x+1$$So the y-intercept is $(0,1)$ and the slope is $-\\tfrac{a}{b}$."
+      "title": "Rewrite the equation",
+      "content": "Start with:<br/>$$ax+by=b$$<br/>Solve for $y$:<br/>$$by=-ax+b$$<br/>$$y=-\\frac{a}{b}x+1$$<br/>This form lets you read the y-intercept and slope directly from the equation."
     },
     {
-      "title": "Use 0 < a < b to bound the slope",
-      "content": "Since $0<a<b$, we have $0<\\tfrac{a}{b}<1$, so $-1<-\\tfrac{a}{b}<0$. The line has a gentle negative slope (steeper than horizontal but flatter than $y=-x$)."
+      "title": "Use 0 < a < b",
+      "content": "Since $0\\lt a\\lt b$, the ratio $\\frac{a}{b}$ is between $0$ and $1$. Therefore the slope $-\\frac{a}{b}$ is negative but between $-1$ and $0$. The y-intercept is exactly $1$."
     },
     {
-      "title": "Find the x-intercept",
-      "content": "Set $y=0$ in $ax+by=b$: $ax=b\\Rightarrow x=\\tfrac{b}{a}$. Since $b>a>0$, $\\tfrac{b}{a}>1$, so the x-intercept is to the right of $x=1$."
+      "title": "Desmos representative check",
+      "content": "Pick simple values that satisfy $0\\lt a\\lt b$, such as $a=1$ and $b=2$. The equation becomes $x+2y=2$, or $y=-\\frac{1}{2}x+1$. That graph has the same required features: y-intercept $1$, gentle negative slope, and x-intercept greater than $1$.",
+      "desmosExpressions": [
+        "x+2y=2",
+        "y=-\\frac{1}{2}x+1"
+      ]
     },
     {
-      "title": "Eliminate the answer choices",
-      "content": "The correct graph must (i) pass through $(0,1)$, (ii) have a negative slope between $-1$ and $0$, and (iii) cross the x-axis to the right of $x=1$.<ul><li>A) Wrong slope sign or wrong intercept &mdash; eliminated.</li><li>B) Slope too steep or wrong direction &mdash; eliminated.</li><li>C) y-intercept at $1$, gentle negative slope, x-intercept past $1$ &mdash; matches.</li><li>D) Wrong intercept or positive slope &mdash; eliminated.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+      "title": "Confirm the graph",
+      "content": "The only graph with y-intercept $1$, a negative slope between $-1$ and $0$, and an x-intercept to the right of $1$ is choice C. So <strong>C</strong> is correct."
     }
   ]
 }

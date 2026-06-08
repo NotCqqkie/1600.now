@@ -1,32 +1,29 @@
 {
-  "qid": "f3ade8fe-06c3-4b9c-a658-8857621e692f_2",
+  "questionId": "f3ade8fe-06c3-4b9c-a658-8857621e692f_2",
+  "correctAnswer": "D",
+  "section": "Math",
   "steps": [
-    "Expand (x^{2}+11)^{2} using the perfect square formula: (a+b)^{2} = a^{2}+2ab+b^{2}. Here a=x^{2}, b=11, giving x^{4}+22x^{2}+121.",
-    "Expand (x-8)(x+8) using difference of squares: x^{2}-64.",
-    "Add the two results: x^{4}+22x^{2}+121+x^{2}-64 = x^{4}+23x^{2}+57.",
-    "That matches choice D — <strong>D</strong> is correct."
-  ],
-  "choices": [
     {
-      "id": "A",
-      "text": "$x^{4}+x^{2}+185$",
-      "explanation": "<ul><li>The x&sup2; coefficient should be 22+1=23, not 1, and the constant 121-64=57, not 185. Eliminate A.</li></ul>"
+      "title": "Evaluate the expression as a table",
+      "content": "Instead of expanding by hand, use Desmos to sample the expression. Enter a few $x$-values and define the output list from the original expression.",
+      "desmosExpressions": [
+        "x_1=[0,1,2]",
+        "y_1=(x_1^2+11)^2+(x_1-8)(x_1+8)"
+      ]
     },
     {
-      "id": "B",
-      "text": "$x^{4}+12x^{2}+121$",
-      "explanation": "<ul><li>This ignores the (x-8)(x+8) term entirely. Eliminate B.</li></ul>"
+      "title": "Fit the coefficients",
+      "content": "Every answer has the form $x^4+qx^2+r$, so fit the sampled values with $y_1\\sim a x_1^4+b x_1^2+c$. Desmos returns $a=1$, $b=23$, and $c=57$.",
+      "desmosExpressions": [
+        "x_1=[0,1,2]",
+        "y_1=(x_1^2+11)^2+(x_1-8)(x_1+8)",
+        "y_1~a x_1^4+b x_1^2+c",
+        "y=x^4+23x^2+57"
+      ]
     },
     {
-      "id": "C",
-      "text": "$x^{4}+23x^{2}-53$",
-      "explanation": "<ul><li>The x&sup2; coefficient 23 is correct, but the constant is 121-64=57, not -53. Eliminate C.</li></ul>"
-    },
-    {
-      "id": "D",
-      "text": "$x^{4}+23x^{2}+57$",
-      "explanation": "<ul><li>x&sup2; coefficient: 22+1=23 ✓. Constant: 121-64=57 ✓. That matches choice D — <strong>D</strong> is correct.</li></ul>"
+      "title": "Confirm the answer",
+      "content": "The fitted expression is $x^4+23x^2+57$, which matches choice D. Choices A and B have the wrong $x^2$ coefficient, and choice C has the wrong constant, so choice <strong>D</strong> is correct."
     }
-  ],
-  "correctAnswer": "D"
+  ]
 }

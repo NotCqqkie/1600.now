@@ -24,7 +24,6 @@ interface ExplanationWindowProps {
   questionType?: "multiple-choice" | "free-response";
   choices?: { id: string; text?: string; image?: string }[];
   questionId?: string | number;
-  // Question data for step-by-step explanation
   questionSection?: string;
   questionText?: string;
   questionDomain?: string;
@@ -63,10 +62,10 @@ export const ExplanationWindow = ({
   const [isOpen, setIsOpen] = useState(false);
   const [savedExplanation, setSavedExplanation] = useState<ExplanationData | null>(null);
   const [explanationChecked, setExplanationChecked] = useState(false);
-  // Used by the homepage demo iframe to auto-open the popup on mount.
   const [searchParams] = useSearchParams();
   const autoExplain = searchParams.get("autoExplain") === "1";
   const autoOpenedRef = useRef(false);
+  const shouldOpenInSidebar = !compressed;
   const correctAnswerText = typeof correctAnswer === "string" ? correctAnswer.trim() : "";
   const renderCorrectAnswerBadge = () =>
     correctAnswerText ? (
@@ -79,19 +78,23 @@ export const ExplanationWindow = ({
     setIsOpen(false);
     autoOpenedRef.current = false;
   }, [questionId]);
-
-  // Auto-open the explanation when the page is iframed with autoExplain=1.
-  // Wait for the explanation data to load so the popup opens with real content
-  // already rendered (no flash of empty state).
   useEffect(() => {
     if (!autoExplain || autoOpenedRef.current) return;
     if (!explanationChecked) return;
     autoOpenedRef.current = true;
     if (onFocus) onFocus();
-    if (onSplitScreenChange) onSplitScreenChange(true, windowId);
-    if (onSidebarToggle) onSidebarToggle(windowId, true);
+    if (shouldOpenInSidebar) {
+      if (onSplitScreenChange) onSplitScreenChange(true, windowId);
+      if (onSidebarToggle) onSidebarToggle(windowId, true);
+    }
     setIsOpen(true);
-  }, [autoExplain, explanationChecked, onFocus, onSplitScreenChange, onSidebarToggle, windowId]);
+  }, [autoExplain, explanationChecked, onFocus, onSplitScreenChange, onSidebarToggle, shouldOpenInSidebar, windowId]);
+
+  useEffect(() => {
+    if (!isOpen || !isSidebarred || shouldOpenInSidebar) return;
+    if (onSplitScreenChange) onSplitScreenChange(false, windowId);
+    if (onSidebarToggle) onSidebarToggle(windowId, false);
+  }, [isOpen, isSidebarred, onSplitScreenChange, onSidebarToggle, shouldOpenInSidebar, windowId]);
 
   useEffect(() => {
     if (!questionId) {
@@ -113,7 +116,7 @@ export const ExplanationWindow = ({
             const json = JSON.parse(text);
             const normalized = normalizeExplanationData(json);
             if (normalized) setSavedExplanation(normalized);
-          } catch {/* ignore non-JSON SPA fallback */}
+          } catch {}
         }
         setExplanationChecked(true);
       })
@@ -122,17 +125,16 @@ export const ExplanationWindow = ({
 
   const handleToggle = () => {
     if (!isOpen) {
-      // Opening — always enter sidebar mode immediately (batches with setIsOpen in React 18)
       if (onFocus) onFocus();
-      if (onSplitScreenChange) onSplitScreenChange(true, windowId);
-      if (onSidebarToggle) onSidebarToggle(windowId, true);
+      if (shouldOpenInSidebar) {
+        if (onSplitScreenChange) onSplitScreenChange(true, windowId);
+        if (onSidebarToggle) onSidebarToggle(windowId, true);
+      }
     } else if (isSidebarred) {
       if (onSplitScreenChange) onSplitScreenChange(false, windowId);
     }
     setIsOpen(prev => !prev);
   };
-
-  // Build the question object for the explanation API
   const explanationQuestion = questionText && correctAnswerText ? {
     section: questionSection || "Math",
     passage: questionText,

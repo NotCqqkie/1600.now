@@ -97,8 +97,6 @@ const SidebarLink = ({
       title={label}
       data-tour={tourId}
       className={cn(
-        // Inter 13px, tracking -0.5%. Default: 500 ink-mid. Active: 600 white
-        // on ink-fixed (so the dark pill stays dark in dark mode too).
         "flex h-10 items-center overflow-hidden rounded-lg font-sans text-[13px] tracking-[-0.005em] transition-[background-color,color,box-shadow,width,padding] duration-200 ease-out",
         showLabel ? "w-full pr-3" : "w-10 pr-0",
         active
@@ -151,7 +149,6 @@ const FooterActionButton = ({
       title={title ?? label}
       data-tour={tourId}
       className={cn(
-        // Footer buttons — Inter 500, 13px, ink.
         "flex h-10 items-center overflow-hidden rounded-lg font-sans text-[13px] font-medium text-ink transition-[background-color,color,box-shadow,width,padding] duration-200 ease-out",
         expanded ? "w-full pr-3" : "w-10 pr-0",
         variant === "outline"
@@ -178,9 +175,6 @@ const FooterActionButton = ({
 export const AppShell = ({ children }: { children: ReactNode }) => {
   const location = useLocation();
   const navigate = useNavigate();
-  // Embed mode (used by the homepage iframe demos): render children only,
-  // skip the sidebar/topbar chrome so the iframed page looks like the real
-  // page without our nav wrapper.
   const isEmbed =
     typeof window !== "undefined" &&
     window.self !== window.top &&
@@ -383,8 +377,6 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
                   icon={UserPlus}
                   expanded={showExpandedContent}
                   onClick={() => navigate("/signup")}
-                  // Sign Up — Inter 600, 13px. Text uses ink-fixed so it
-                  // stays dark on the always-light accent fill in dark mode.
                   className="!bg-ds-accent !font-semibold !text-ink-fixed shadow-sm hover:!bg-ds-accent/85 hover:!text-ink-fixed"
                 />
               </>

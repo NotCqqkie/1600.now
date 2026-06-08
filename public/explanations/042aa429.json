@@ -4,32 +4,24 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Evaluate each function at x = 2",
-      "content": "Substitute $x=2$: $f(2)=2+7=9$ and $g(2)=7(2)=14$."
+      "title": "Evaluate each function",
+      "content": "Substitute $x=2$ into each function:<br/>$$f(2)=2+7=9$$<br/>$$g(2)=7(2)=14$$"
     },
     {
-      "title": "Combine and compute",
-      "content": "$4f(2)-g(2)=4(9)-14=36-14=22$.<br/><br/>The answer is <strong>C</strong>."
+      "title": "Substitute into the expression",
+      "content": "$$4f(2)-g(2)=4(9)-14$$"
     },
     {
-      "title": "Use the source rationale",
-      "content": "Choice C is correct. The value of $f(2)$ can be found by substituting $2$ for $x$ in the given equation $f\\left(x\\right)=x+7$, which yields $f\\left(2\\right)=2+7$, or $f\\left(2\\right)=9$. The value of $g\\left(2\\right)$ can be found by substituting $2$ for $x$ in the given equation $g\\left(x\\right)=7x$, which yields $g\\left(2\\right)=7\\left(2\\right)$, or $g\\left(2\\right)=14$. The value of the expression $4f\\left(2\\right)-g\\left(2\\right)$ can be found by substituting the corresponding values into the expression, which gives $4(9)-14$. This expression is equivalent to $36-14$, or $22$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice A is incorrect. This is the value of $f\\left(2\\right)-g\\left(2\\right)$, not $4f\\left(2\\right)-g\\left(2\\right)$."
+      "title": "Compute",
+      "content": "$$4(9)-14=36-14=22$$"
     },
     {
       "title": "Check the choices",
-      "content": "Choice B is incorrect and may result from calculating $4f\\left(2\\right)$ as $4(2)+7$, rather than"
+      "content": "Choice A comes from using $f(2)-g(2)$. Choice D is $4f(2)$ without subtracting $g(2)$. The coefficient $4$ applies only to $f(2)$, not to the entire expression. The full expression equals $22$, which is choice C."
     },
     {
-      "title": "Check the choices",
-      "content": "$4(2+7)$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice D is incorrect and may result from conceptual or calculation errors."
+      "title": "Answer",
+      "content": "<strong>C</strong> is correct."
     }
   ]
 }

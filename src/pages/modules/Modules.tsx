@@ -75,8 +75,6 @@ const Modules = () => {
     sessionStorage.removeItem("modules:returnScrollY");
     const y = Number.parseInt(stored, 10);
     if (Number.isNaN(y)) return;
-    // Defer past ScrollToTop's navigation-driven scrollTo(0,0) with a microtask
-    // chain that survives tab-backgrounding (rAF stalls when tab is hidden).
     const run = () => window.scrollTo(0, y);
     setTimeout(run, 0);
     setTimeout(run, 50);
@@ -205,7 +203,6 @@ const Modules = () => {
     <div className="mx-auto flex w-full max-w-5xl flex-col gap-4 px-4 py-5 sm:px-6 lg:px-8">
       <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
         <div className="max-w-3xl">
-          {/* Page title — Inter Tight 600, 54px responsive, tracking -3.5%. */}
           <h1
             style={{
               fontFamily: "'Inter Tight', sans-serif",
@@ -218,7 +215,6 @@ const Modules = () => {
           >
             Practice Tests
           </h1>
-          {/* Subtitle — Inter 400, 16px, leading 1.5, ink-mid. */}
           <p className="mt-2 font-sans text-[16px] leading-[1.5] text-ink-mid max-w-[600px]">
             Full SAT practice tests grouped by year, form, subject, and module.
           </p>
@@ -360,14 +356,12 @@ const Modules = () => {
               key={practiceSet.id}
               className="group flex flex-col gap-3 rounded-xl border border-border/60 bg-card/60 p-4 transition-colors hover:border-border hover:bg-card"
             >
-              {/* Card title — Inter Tight 600, 24px, tracking -2%. */}
               <div
                 className="font-display text-[24px] font-semibold leading-[1.1] tracking-[-0.02em] tabular-nums text-ink"
               >
                 Practice Set {practiceSet.setNumber}
               </div>
 
-              {/* Primary CTA — ink on accent, arrow right-aligned (justify-between). */}
               <Button
                 size="default"
                 variant="default"
@@ -381,14 +375,12 @@ const Modules = () => {
               </Button>
 
               <div className="flex flex-col gap-2 border-t border-ds-line pt-[14px]">
-                {/* INDIVIDUAL MODULES caption — Inter 600, 11px, +18% tracking. */}
                 <div className="font-sans text-[11px] uppercase tracking-[0.18em] text-ink-muted font-semibold">
                   Individual Modules
                 </div>
                 <div className="grid grid-cols-[auto_1fr] items-center gap-x-3 gap-y-2">
                   {rwModules.length > 0 && (
                     <>
-                      {/* Module row label — Inter 500, 14px, muted. */}
                       <span className="font-sans text-[14px] font-medium text-ink-muted">
                         Reading
                       </span>
@@ -437,11 +429,9 @@ const Modules = () => {
       {filteredPracticeSets.length === 0 && (
         <Card className="border-dashed border-ds-line">
           <CardContent className="py-12 text-center">
-            {/* Empty headline — Inter Tight 600, ink. */}
             <h3 className="font-display text-[22px] font-semibold leading-[1.15] tracking-[-0.015em] text-ink">
               No practice sets match
             </h3>
-            {/* Helper — Inter 400, 13px, ink-mid. Always followed by a reset action. */}
             <p className="mt-2 font-sans text-[13px] leading-[1.55] text-ink-mid">
               Try clearing the subject, module, or status filters.
             </p>

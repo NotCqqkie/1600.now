@@ -4,18 +4,26 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the first point to find b",
-      "content": "Since $(0, 10)$ lies on the graph, $h(0) = 10$. Substituting into $h(x) = a^x + b$:<br/>$$a^0 + b = 10$$<br/>$$1 + b = 10$$<br/>$$b = 9$$"
-    },
-    {
-      "title": "Use the second point to find a",
-      "content": "Since $(-2, \\frac{325}{36})$ lies on the graph, $h(-2) = \\frac{325}{36}$. Substituting $b = 9$:<br/>$$a^{-2} + 9 = \\frac{325}{36}$$<br/>$$\\frac{1}{a^2} = \\frac{325}{36} - 9$$<br/>$$\\frac{1}{a^2} = \\frac{325 - 324}{36} = \\frac{1}{36}$$<br/>$$a^2 = 36$$<br/>$$a = 6$$ (since $a > 0$)"
-    },
-    {
-      "title": "Compute ab",
-      "content": "Multiply the values we found:<br/>$$ab = 6 \\cdot 9 = 54$$<br/>That matches choice C — <strong>C</strong> is correct.",
+      "title": "Fit the exact function form",
+      "content": "The problem gives the model form $h(x)=a^x+b$ and two points, so use Desmos custom regression directly. Enter the points $(0,10)$ and $\\left(-2,\\frac{325}{36}\\right)$, then fit $y_1\\sim a^{x_1}+b$.",
       "desmosExpressions": [
-        "h(x)=(a)^(x)+b"
+        "x_1=[0,-2]",
+        "y_1=[10,325/36]",
+        "y_1~a^{x_1}+b"
+      ]
+    },
+    {
+      "title": "Read $a$ and $b$",
+      "content": "Desmos returns $a=6$ and $b=9$. That makes sense because $h(0)=a^0+b=1+b=10$, so $b=9$, and the second point forces $a=6$."
+    },
+    {
+      "title": "Compute the requested product",
+      "content": "The question asks for $ab$, not the full equation. Multiply the fitted constants: $$ab=6\\cdot9=54.$$ Choice <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "x_1=[0,-2]",
+        "y_1=[10,325/36]",
+        "y_1~a^{x_1}+b",
+        "a b"
       ]
     }
   ]

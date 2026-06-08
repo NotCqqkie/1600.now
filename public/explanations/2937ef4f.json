@@ -4,12 +4,23 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the constant removal rate",
-      "content": "In the first 5 hours, the auger removed $$24,000 - 19,350 = 4,650\\text{ bushels}$$<br/>The hourly rate is $$\\frac{4,650}{5} = 930\\text{ bushels per hour}$$"
+      "title": "Model the remaining corn",
+      "content": "Use time in hours as $x$ and bushels remaining as $y$. The bin starts with $24,000$ bushels, so one point is $(0,24000)$. After $5$ hours, $19,350$ bushels remain, giving $(5,19350)$."
     },
     {
-      "title": "Set up and solve the linear equation",
-      "content": "The amount of corn remaining after $t$ hours is $$24,000 - 930t$$<br/>When 12,840 bushels remain:<br/>$$24,000 - 930t = 12,840$$<br/>$$930t = 24,000 - 12,840 = 11,160$$<br/>$$t = \\frac{11,160}{930} = 12\\text{ hours}$$<br/>That matches choice D — <strong>D</strong> is correct."
+      "title": "Fit the line in Desmos",
+      "content": "Enter $x_1=[0,5]$ and $y_1=[24000,19350]$, then type $y_1\\sim m x_1+b$. Desmos gives $m=-930$ and $b=24000$, so the model is $$y=-930x+24000.$$",
+      "desmosExpressions": [
+        "x_1=[0,5]",
+        "y_1=[24000,19350]",
+        "y_1~m x_1+b",
+        "y=-930x+24000",
+        "y=12840"
+      ]
+    },
+    {
+      "title": "Find when $12,840$ remains",
+      "content": "Set the model equal to $12,840$: $$-930x+24000=12840.$$ Solving gives $x=12$. The total time is <strong>12</strong> hours, which matches choice <strong>D</strong>."
     }
   ]
 }

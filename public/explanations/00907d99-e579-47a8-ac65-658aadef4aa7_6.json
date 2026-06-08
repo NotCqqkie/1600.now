@@ -4,20 +4,24 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve the system by substitution",
-      "content": "Substitute $x=16$ into $-3x+y=-5$: $$-3(16)+y=-5 \\Rightarrow y=-5+48=43.$$"
+      "title": "Use the given x-value",
+      "content": "The system already gives $x=4$. Substitute $4$ into the second equation:<br/>$$-3x+y=-5$$<br/>$$-3(4)+y=-5$$"
     },
     {
-      "title": "Find the value of $x + y$",
-      "content": "Then $x+y=16+43=59$. That matches choice <strong>C</strong> — <strong>C</strong> is correct.",
+      "title": "Solve for y",
+      "content": "$$-12+y=-5$$<br/>$$y=7$$<br/>So the solution is $(4,7)$."
+    },
+    {
+      "title": "Desmos graph check",
+      "content": "Graph the vertical line $x=4$ and the line $y=3x-5$. Their intersection is $(4,7)$.",
       "desmosExpressions": [
-        "x = 4",
-        "y = 3x - 5"
+        "x=4",
+        "y=3x-5"
       ]
     },
     {
-      "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice C, 11. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
+      "title": "Find x + y",
+      "content": "$$x+y=4+7=11$$<br/>That matches choice C, so <strong>C</strong> is correct."
     }
   ]
 }

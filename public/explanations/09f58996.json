@@ -4,19 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute the value x = 36",
-      "content": "Replace $x$ with $36$ in $$f(x) = 6 + \\sqrt{x}.$$ This gives $$f(36) = 6 + \\sqrt{36}.$$"
+      "title": "Substitute x = 36",
+      "content": "The notation $f(36)$ means use $x=36$ in the function $f(x)=6+\\sqrt{x}$:<br/>$$f(36)=6+\\sqrt{36}$$"
     },
     {
-      "title": "Compute the result",
-      "content": "Simplify: $$f(36) = 6 + 6 = 12.$$ The answer is <strong>12</strong>.",
-      "desmosExpressions": [
-        "f(x)=6+\\sqrt{x}"
-      ]
+      "title": "Use the perfect square",
+      "content": "$36$ is a perfect square, and $\\sqrt{36}=6$. Therefore:<br/>$$f(36)=6+6=12$$<br/>The square root symbol means the nonnegative square root, so use $6$, not $-6$."
     },
     {
-      "title": "Use the source rationale",
-      "content": "The correct answer is $12$. The value of $f\\left(36\\right)$ is the value of $f\\left(x\\right)$ when $x=36$. Substituting $36$ for $x$ in the given equation yields $f\\left(36\\right)=6+\\sqrt{36}$, which is equivalent to $f\\left(36\\right)=6+6$, or $f\\left(36\\right)=12$. Thus, the value of $f\\left(36\\right)$ is $12$."
+      "title": "Answer",
+      "content": "The value of $f(36)$ is <strong>12</strong>."
     }
   ]
 }

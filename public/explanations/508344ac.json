@@ -4,28 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Distribute and combine like terms",
-      "content": "Distribute $16$:$$16(x+15)=16x+240$$"
+      "title": "Distribute $16$",
+      "content": "Apply the distributive property to both terms inside the parentheses: $$16(x+15)=16x+16(15).$$"
     },
     {
-      "title": "Match to the answer choices",
-      "content": "The simplified expression is $16x+240$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."
+      "title": "Multiply the constant",
+      "content": "$16(15)=240$, so the expression becomes $$16x+240.$$"
     },
     {
-      "title": "Use the source rationale",
-      "content": "Choice B is correct. The expression $16\\left(x+15\\right)$ can be rewritten as $16\\left(x\\right)+16\\left(15\\right)$, which is equivalent to $16x+240$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice A is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice C is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice D is incorrect and may result from conceptual or calculation errors."
+      "title": "Confirm the choice",
+      "content": "Choice <strong>B</strong> is correct. Choice D forgets to multiply $15$ by $16$, and choices A and C use incorrect constant terms."
     }
   ]
 }

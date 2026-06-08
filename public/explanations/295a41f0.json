@@ -4,21 +4,34 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read two points from the shown line",
-      "content": "The graph shown is $y=f(x)-11$. Two clean points on that line are $(-1,-2)$ and $(0,-4)$. The slope is:<br/>$$m=\\frac{-4-(-2)}{0-(-1)}=-2$$"
-    },
-    {
-      "title": "Write the equation of the shown line",
-      "content": "The y-intercept is $-4$, so the graphed line is:<br/>$$y=-2x-4$$<br/>Because the graphed line is $y=f(x)-11$, that means:<br/>$$f(x)-11=-2x-4$$"
-    },
-    {
-      "title": "Solve for f(x)",
-      "content": "Add $11$ to both sides:<br/>$$f(x)=-2x+7$$<br/>That matches choice B, so <strong>B</strong> is correct.",
+      "title": "Fit the shown line first",
+      "content": "The graph shown is $y=f(x)-11$. Put two points from the graph into a Desmos table: $(-2,0)$ and $(0,-4)$. The regression line has slope $-2$ and intercept $-4$, so the graphed line is $y=-2x-4$.",
       "desmosExpressions": [
-        "(-1,-2)",
-        "(0,-4)",
+        "x_1=[-2,0]",
+        "y_1=[0,-4]",
+        "y_1~m x_1+b",
         "y=-2x-4"
       ]
+    },
+    {
+      "title": "Undo the vertical shift",
+      "content": "Since the graph is $y=f(x)-11$, add 11 to the fitted equation: $$f(x)=(-2x-4)+11=-2x+7$$",
+      "desmosExpressions": [
+        "y=-2x-4",
+        "y=-2x+7"
+      ]
+    },
+    {
+      "title": "Check choices in Desmos",
+      "content": "Choice B gives $f(x)=-2x+7$. Subtracting 11 gives $y=-2x-4$, exactly the graphed line. Choice C has the same intercept after shifting, but its slope is $-13$, not $-2$. Choices A and D miss the intercept.",
+      "desmosExpressions": [
+        "y=(-2x+7)-11",
+        "y=-2x-4"
+      ]
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "$f(x)=-2x+7$ matches choice B. Choice B is correct."
     }
   ]
 }

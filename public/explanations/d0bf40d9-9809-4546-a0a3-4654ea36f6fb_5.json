@@ -4,21 +4,30 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Check shape first",
-      "content": "The shown line of best fit rises from left to right and passes close to the origin. That means the model should have a positive slope and a $y$-intercept near $0$."
+      "title": "Read the graph behavior first",
+      "content": "The line of best fit rises from left to right and passes close to the origin. So the model needs a positive slope and a $y$-intercept near $0$."
     },
     {
-      "title": "Eliminate by graph behavior",
-      "content": "Choices C and D are horizontal lines, so they do not model an upward trend. Choice B has negative slope, so it would fall from left to right. Only choice A has a positive slope and passes through the origin."
-    },
-    {
-      "title": "Use Desmos to compare choices",
-      "content": "Graph the four choices and compare them with the shown line of best fit. The line $y=1.1x$ has the correct direction and intercept, so it best matches the scatterplot.",
+      "title": "Reject the horizontal choices",
+      "content": "Start with the easiest eliminations. Choices C and D are $y=5.2$ and $y=-5.2$, which are horizontal lines. The line of best fit in the graph rises as $x$ increases, so neither horizontal line can match the scatterplot.",
       "desmosExpressions": [
-        "y=1.1x",
-        "y=-1.1x",
         "y=5.2",
         "y=-5.2"
+      ]
+    },
+    {
+      "title": "Reject the negative-slope choice",
+      "content": "Next test choice B, $y=-1.1x$. This line falls from left to right, which is the opposite of the best-fit line shown in the graph. That eliminates B.",
+      "desmosExpressions": [
+        "y=-1.1x"
+      ]
+    },
+    {
+      "title": "Confirm the matching line",
+      "content": "The only remaining choice is $y=1.1x$. It rises from left to right and passes through the origin, matching the two visual features from the graph. That is choice <strong>A</strong>.",
+      "desmosExpressions": [
+        "y=1.1x",
+        "(0,0)"
       ]
     },
     {

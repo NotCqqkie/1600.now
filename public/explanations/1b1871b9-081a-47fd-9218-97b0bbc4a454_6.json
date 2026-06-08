@@ -4,12 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Understand what the y-intercept is",
-      "content": "The y-intercept is the point where a graph crosses the y-axis, which always occurs when x = 0."
+      "title": "Use the intercept shortcut",
+      "content": "The $y$-intercept is the point where the graph crosses the $y$-axis. Every point on the $y$-axis has $x=0$, so the point has the form $(0,y)$."
     },
     {
-      "title": "Locate the y-intercept on the graph",
-      "content": "Tracing from x = 0 on the horizontal axis to where the graph intersects the y-axis, we see the curve passes through the point (0, 5). Therefore, y = <strong>5</strong>."
+      "title": "Read the graph",
+      "content": "On the graph, the curve meets the $y$-axis at the marked point $(0,5)$. Since the problem writes the intercept as $(0,y)$, the requested value is the second coordinate: $y=5$.",
+      "desmosExpressions": [
+        "x=0",
+        "(0,5)"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The $y$-intercept is $(0,5)$, so the value of $y$ is <strong>5</strong>."
     }
   ]
 }

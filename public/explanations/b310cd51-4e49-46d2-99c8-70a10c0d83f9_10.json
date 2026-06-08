@@ -4,16 +4,21 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up",
-      "content": "$p$ is linear with slope 8, so $p(x) = 8x + b$. Use $p(5) = 42$ to find $b$: $$8(5) + b = 42 → b = 2$$ Then find $c$ from $p(c) = -6$: $$8c + 2 = -6 → c = -1$$"
+      "title": "Find the shared input $c$",
+      "content": "Since $p$ is linear with slope $8$, write $p(x)=8x+b$. Use $p(5)=42$: $$8(5)+b=42,$$ so $b=2$. Then use $p(c)=-6$: $$8c+2=-6,$$ so $c=-1$."
     },
     {
-      "title": "Solve",
-      "content": "$t$ passes through $(-1,\\ -7)$ and $(6,\\ 56)$. Its slope is: $$m = \\frac{56 - (-7)}{6 - (-1)} = \\frac{63}{7} = 9$$"
+      "title": "Fit the line for $t$",
+      "content": "Now $t(c)=-7$ means $t(-1)=-7$, and the other point is $t(6)=56$. Enter $x_1=[-1,6]$ and $y_1=[-7,56]$ in Desmos, then type $y_1\\sim m x_1+b$. Desmos gives $m=9$.",
+      "desmosExpressions": [
+        "x_1=[-1,6]",
+        "y_1=[-7,56]",
+        "y_1~m x_1+b"
+      ]
     },
     {
-      "title": "Answer",
-      "content": "<strong>D</strong> is correct."
+      "title": "Confirm the answer",
+      "content": "The slope of $y=t(x)$ is $9$, which matches choice <strong>D</strong>. By hand, the same slope is $\\dfrac{56-(-7)}{6-(-1)}=\\dfrac{63}{7}=9$."
     }
   ]
 }

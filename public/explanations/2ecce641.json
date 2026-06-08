@@ -4,12 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the model from the data",
-      "content": "The graph shows a straight line, so $f$ is a linear function. The initial deposit is the balance at $x=0$ months, which is the $y$-intercept $f(0)$."
+      "title": "Use the intercept shortcut",
+      "content": "The initial deposit is the amount in the account at the start. Since $x$ measures months since the initial deposit, the starting point is $x=0$."
     },
     {
-      "title": "Write the equation",
-      "content": "Reading the graph, the line crosses the $y$-axis at $y=20$, so $$f(0)=20.$$ The answer is <strong>20</strong>."
+      "title": "Read the starting balance",
+      "content": "At $x=0$, the graph crosses the $y$-axis at $20$. The $y$-axis is in dollars, so the starting account balance was $20.",
+      "desmosExpressions": [
+        "(0,20)",
+        "y=2x+20"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The estimated initial deposit is $f(0)=20$, so the answer is <strong>20</strong>."
     }
   ]
 }

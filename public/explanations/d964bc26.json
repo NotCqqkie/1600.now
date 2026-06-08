@@ -4,28 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Isolate the target variable",
-      "content": "Add $57$ to both sides of $y-57=px$ to get $$y=px+57.$$"
+      "title": "Isolate $y$",
+      "content": "The equation is $$y-57=px.$$ Add $57$ to both sides to undo the subtraction."
     },
     {
-      "title": "Match to the answer choices",
-      "content": "The form $y=px+57$ matches choice B. That matches choice <strong>B</strong> — <strong>B</strong> is correct."
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "Choice B is correct. Adding $57$ to each side of the given equation yields $y=px+57$. Therefore, the equation $y=px+57$ correctly expresses $y$ in terms of $p$ and $x$."
+      "title": "Write the result",
+      "content": "$$y=px+57.$$"
     },
     {
       "title": "Check the choices",
-      "content": "Choice A is incorrect and may result from conceptual errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice C is incorrect and may result from conceptual errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice D is incorrect and may result from conceptual errors."
+      "content": "Choice B is correct. Choice A attaches $57$ to $x$ incorrectly, while choices C and D use multiplication or division by $57$ even though the original equation subtracts $57$."
     }
   ]
 }

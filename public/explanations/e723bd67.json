@@ -4,22 +4,27 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the inequality test",
-      "content": "Need every $(x,y)$ in the table to satisfy $2x-y>883$."
+      "title": "Evaluate the expression as a list",
+      "content": "Use Desmos list evaluation for the table. Choice D has $x$-values $442$, $441$, $440$ and $y$-values $0$, $-2$, $-4$. Enter those as lists and compute $2x_1-y_1$.",
+      "desmosExpressions": [
+        "x_1=[442,441,440]",
+        "y_1=[0,-2,-4]",
+        "2x_1-y_1"
+      ]
     },
     {
-      "title": "Test each table",
-      "content": "Choice D: $2(442)-0=884$, $2(441)-(-2)=884$, $2(440)-(-4)=884$. All exceed $883$. Other choices give values $\\le 883$ in at least one row."
+      "title": "Check the inequality",
+      "content": "Desmos returns $[884,884,884]$ for $2x_1-y_1$. Since every value is greater than $883$, every row in choice D satisfies the inequality.",
+      "desmosExpressions": [
+        "x_1=[442,441,440]",
+        "y_1=[0,-2,-4]",
+        "2x_1-y_1",
+        "2x_1-y_1>883"
+      ]
     },
     {
       "title": "Identify the table",
-      "content": "Only choice D works. That matches choice <strong>D</strong> — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "2x-y>883",
-        "(442,0)",
-        "(441,-2)",
-        "(440,-4)"
-      ]
+      "content": "The other tables fail because at least one row gives a value that is not greater than $883$. Choice <strong>D</strong> is correct."
     }
   ]
 }

@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve the system by elimination",
-      "content": "Add the equations: $5y+(-5y)=(10x+11)+(5x-21)$, so $0=15x-10$, giving $$x=\\tfrac{10}{15}=\\tfrac{2}{3}.$$"
+      "title": "Cancel $y$ immediately",
+      "content": "The equations have $5y$ and $-5y$, so add them. This is faster than solving for $y$: $$5y+(-5y)=(10x+11)+(5x-21).$$"
     },
     {
-      "title": "Find $30x$",
-      "content": "Multiply: $30x=30\\cdot\\tfrac{2}{3}=20$. The answer is <strong>20</strong>.",
+      "title": "Solve only as much as needed",
+      "content": "The sum gives $$0=15x-10,$$ so $15x=10$. The question asks for $30x$, not $x$, so double both sides: $$30x=20.$$"
+    },
+    {
+      "title": "Confirm by graphing",
+      "content": "Graphing the two lines shows their intersection has $x=\\frac{2}{3}$. Then $30x=30\\cdot\\frac{2}{3}=20$, confirming <strong>20</strong>.",
       "desmosExpressions": [
-        "y = (10x + 11)/5",
-        "y = (21 - 5x)/5"
+        "5y=10x+11",
+        "-5y=5x-21"
       ]
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "The correct answer is $20$. Adding the first equation to the second equation in the given system yields $5y-5y=10x+5x+11-21$, or $0=15x-10$. Adding $10$ to both sides of this equation yields $10=15x$. Multiplying both sides of this equation by $2$ yields $20=30x$. Therefore, the value of $30x$ is $20$."
     }
   ]
 }

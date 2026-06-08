@@ -33,8 +33,6 @@ import {
   type PracticeTestResult,
 } from "@/lib/practice/practiceTestSession";
 
-// ─── Category map (same as Profile.tsx) ───────────────────────────────────
-
 type CategoryMapItem = { subject: BankSubject; domain: string; skill: string };
 
 let cachedLiveCategoryMap: Record<string, CategoryMapItem> | null = null;
@@ -58,20 +56,17 @@ const buildLiveCategoryMap = (): Record<string, CategoryMapItem> => {
       };
     }
   } catch {
-    // Bank not loaded yet
   }
   cachedLiveCategoryMap = map;
   return map;
 };
 
-// ─── Helpers ──────────────────────────────────────────────────────────────
-
 const fmtTime = (seconds: number): string => {
   if (!seconds) return "0s";
-  const d = intervalToDuration({ start: 0, end: seconds * 1000 });
-  if (d.hours) return `${d.hours}h ${d.minutes}m`;
-  if (d.minutes) return `${d.minutes}m ${d.seconds || 0}s`;
-  return `${d.seconds}s`;
+  const duration = intervalToDuration({ start: 0, end: seconds * 1000 });
+  if (duration.hours) return `${duration.hours}h ${duration.minutes}m`;
+  if (duration.minutes) return `${duration.minutes}m ${duration.seconds || 0}s`;
+  return `${duration.seconds}s`;
 };
 
 const accuracyColor = (pct: number) =>
@@ -220,8 +215,6 @@ const SubjectInsightCard = ({
   </div>
 );
 
-// ─── Sub-components ────────────────────────────────────────────────────────
-
 const StatTile = ({
   value,
   label,
@@ -310,14 +303,12 @@ const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov
 const DAY_LABELS = ["","Mon","","Wed","","Fri",""];
 const CELL = 13;
 const GAP = 3;
-
-// Relative-intensity color levels using the primary cyan
 const LEVEL_COLORS = [
-  "rgba(148,163,184,0.18)",  // 0: empty
-  "rgba(125,211,252,0.28)",  // 1: light
-  "rgba(125,211,252,0.55)",  // 2: medium
-  "rgba(125,211,252,0.80)",  // 3: strong
-  "rgba(125,211,252,1.00)",  // 4: max
+  "rgba(148,163,184,0.18)",
+  "rgba(125,211,252,0.28)",
+  "rgba(125,211,252,0.55)",
+  "rgba(125,211,252,0.80)",
+  "rgba(125,211,252,1.00)",
 ];
 
 function getActivityLevel(count: number, max: number): number {
@@ -343,17 +334,11 @@ const ActivityHeatmap = ({ dailyCounts }: { dailyCounts: Record<string, number> 
     left: number;
     top: number;
   } | null>(null);
-
-  // Build a grid of 53 weeks × 7 days, ending on today
   const { weeks, monthLabels } = useMemo(() => {
     const today = new Date();
     today.setHours(0, 0, 0, 0);
-
-    // Start of the current week (Sunday)
     const startOfThisWeek = new Date(today);
     startOfThisWeek.setDate(startOfThisWeek.getDate() - today.getDay());
-
-    // Go back 52 full weeks
     const startDate = new Date(startOfThisWeek);
     startDate.setDate(startDate.getDate() - 52 * 7);
 
@@ -362,7 +347,7 @@ const ActivityHeatmap = ({ dailyCounts }: { dailyCounts: Record<string, number> 
 
     while (cur <= today) {
       const week: HeatCell[] = [];
-      for (let d = 0; d < 7; d++) {
+      for (let dayOffset = 0; dayOffset < 7; dayOffset++) {
         const dateStr =
           `${cur.getFullYear()}-` +
           `${String(cur.getMonth() + 1).padStart(2, "0")}-` +
@@ -372,8 +357,6 @@ const ActivityHeatmap = ({ dailyCounts }: { dailyCounts: Record<string, number> 
       }
       weeks.push(week);
     }
-
-    // Month label: show at the first week where the first day crosses into a new month
     const monthLabels: Record<number, string> = {};
     let lastMonth = -1;
     weeks.forEach((week, wi) => {
@@ -396,11 +379,8 @@ const ActivityHeatmap = ({ dailyCounts }: { dailyCounts: Record<string, number> 
   today.setHours(0, 0, 0, 0);
 
   return (
-    // Outer wrapper: non-overflowing, contains both scroll area and portal-free tooltip
     <div ref={containerRef} style={{ position: "relative" }}>
-      {/* Scrollable grid only — tooltip lives outside this div */}
       <div style={{ overflowX: "auto", overflowY: "visible", paddingBottom: 4 }}>
-        {/* Month labels row */}
         <div style={{ display: "flex", marginLeft: 30, marginBottom: 5 }}>
           {weeks.map((_, wi) => (
             <div
@@ -420,9 +400,7 @@ const ActivityHeatmap = ({ dailyCounts }: { dailyCounts: Record<string, number> 
           ))}
         </div>
 
-        {/* Grid: day labels + week columns */}
         <div style={{ display: "flex", gap: 0 }}>
-          {/* Day-of-week labels */}
           <div style={{ display: "flex", flexDirection: "column", gap: GAP, marginRight: 6, flexShrink: 0 }}>
             {DAY_LABELS.map((label, i) => (
               <div
@@ -441,7 +419,6 @@ const ActivityHeatmap = ({ dailyCounts }: { dailyCounts: Record<string, number> 
             ))}
           </div>
 
-          {/* Week columns */}
           <div style={{ display: "flex", gap: GAP }}>
             {weeks.map((week, wi) => (
               <div key={wi} style={{ display: "flex", flexDirection: "column", gap: GAP }}>
@@ -481,7 +458,6 @@ const ActivityHeatmap = ({ dailyCounts }: { dailyCounts: Record<string, number> 
         </div>
       </div>
 
-      {/* Legend — outside the scroll container so it doesn't stretch it */}
       <div
         style={{
           display: "flex",
@@ -501,7 +477,6 @@ const ActivityHeatmap = ({ dailyCounts }: { dailyCounts: Record<string, number> 
         <span style={{ fontSize: 11, color: "hsl(var(--muted-foreground))" }}>More</span>
       </div>
 
-      {/* Tooltip — outside the scroll container, anchored to the heatmap container */}
       {tooltip && (
         <div
           style={{
@@ -536,8 +511,6 @@ const ActivityHeatmap = ({ dailyCounts }: { dailyCounts: Record<string, number> 
     </div>
   );
 };
-
-// ─── Past tests strip ─────────────────────────────────────────────────────
 
 const formatTestDate = (timestamp: number) =>
   new Date(timestamp).toLocaleDateString("en-US", {
@@ -755,8 +728,6 @@ const PastTestsStrip = ({ results }: { results: PracticeTestResult[] }) => {
   );
 };
 
-// ─── Main component ────────────────────────────────────────────────────────
-
 const Analysis = () => {
   const navigate = useNavigate();
   const { user } = useAuth();
@@ -813,10 +784,7 @@ const Analysis = () => {
       string,
       { attempted: number; correct: number; domain: string; subject: BankSubject; totalTime: number }
     > = {};
-
-    // Group attempts by date (YYYY-MM-DD) for progression chart
     const byDate: Record<string, { total: number; correct: number }> = {};
-    // All attempts per day for the activity heatmap
     const dailyCounts: Record<string, number> = {};
 
     allProgress.forEach((qp) => {
@@ -856,18 +824,16 @@ const Analysis = () => {
 
       const firstAttempt = qp.attempts[0];
       if (firstAttempt) {
-        const d = new Date(firstAttempt.timestamp);
-        const key = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
-        if (!byDate[key]) byDate[key] = { total: 0, correct: 0 };
-        byDate[key].total++;
-        if (isSolved) byDate[key].correct++;
+        const firstAttemptDate = new Date(firstAttempt.timestamp);
+        const dayKey = `${firstAttemptDate.getFullYear()}-${String(firstAttemptDate.getMonth() + 1).padStart(2, "0")}-${String(firstAttemptDate.getDate()).padStart(2, "0")}`;
+        if (!byDate[dayKey]) byDate[dayKey] = { total: 0, correct: 0 };
+        byDate[dayKey].total++;
+        if (isSolved) byDate[dayKey].correct++;
       }
-
-      // Count ALL attempts per day for the activity heatmap
       for (const attempt of qp.attempts) {
-        const d = new Date(attempt.timestamp);
-        const key = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
-        dailyCounts[key] = (dailyCounts[key] || 0) + 1;
+        const attemptDate = new Date(attempt.timestamp);
+        const dayKey = `${attemptDate.getFullYear()}-${String(attemptDate.getMonth() + 1).padStart(2, "0")}-${String(attemptDate.getDate()).padStart(2, "0")}`;
+        dailyCounts[dayKey] = (dailyCounts[dayKey] || 0) + 1;
       }
     });
 
@@ -1048,7 +1014,6 @@ const Analysis = () => {
       className="min-h-screen"
       style={{ fontFamily: "'Geist', sans-serif" }}
     >
-      {/* ── DARK HERO BANNER ─────────────────────────────────────────── */}
       {user && (
       <section
         style={{
@@ -1059,7 +1024,6 @@ const Analysis = () => {
           overflow: "hidden",
         }}
       >
-        {/* Subtle grid */}
         <div
           style={{
             position: "absolute",
@@ -1072,7 +1036,6 @@ const Analysis = () => {
             pointerEvents: "none",
           }}
         />
-        {/* Ambient glow */}
         <div
           style={{
             position: "absolute",
@@ -1096,7 +1059,6 @@ const Analysis = () => {
             padding: "48px 24px 52px",
           }}
         >
-          {/* Label */}
           <div style={{ marginBottom: 14 }}>
             <span
               style={{
@@ -1209,7 +1171,6 @@ const Analysis = () => {
           </div>
         </div>
 
-        {/* Fade to background */}
         <div
           style={{
             height: 112,
@@ -1221,7 +1182,6 @@ const Analysis = () => {
       </section>
       )}
 
-      {/* ── MAIN CONTENT ─────────────────────────────────────────────── */}
       <main
         style={{ maxWidth: 1080, margin: "0 auto", padding: "0 24px 88px" }}
       >
@@ -1232,7 +1192,6 @@ const Analysis = () => {
         )}
 
         {!user ? (
-          /* Not signed in */
           <div
             style={{ textAlign: "center", padding: "72px 0" }}
             className="stats-fade"
@@ -1275,7 +1234,6 @@ const Analysis = () => {
             </Button>
           </div>
         ) : isEmpty ? (
-          /* Signed in but no data */
           <div
             style={{ textAlign: "center", padding: "72px 0" }}
             className="stats-fade"
@@ -1318,7 +1276,6 @@ const Analysis = () => {
         ) : (
           <div style={{ display: "flex", flexDirection: "column", gap: 40, paddingTop: 4 }}>
 
-            {/* Activity heatmap */}
             <section className="stats-fade" style={{ animationDelay: "0s" }}>
               <div style={{ marginBottom: 20 }}>
                 <h2
@@ -1348,7 +1305,6 @@ const Analysis = () => {
               </div>
             </section>
 
-            {/* Accuracy over time */}
             {stats.progressionData.length > 1 && (
               <section className="stats-fade" style={{ animationDelay: "0.05s" }}>
                 <div style={{ marginBottom: 20 }}>

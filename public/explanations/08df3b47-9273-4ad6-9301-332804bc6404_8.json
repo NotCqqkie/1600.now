@@ -4,16 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up",
-      "content": "The initial deposit is the account balance at month 0, which is f(0). On the graph, f(0) is the y-intercept &mdash; the point where the line crosses the vertical axis."
+      "title": "Use what initial deposit means",
+      "content": "The initial deposit is the account balance at the start. Since $x$ is months since the initial deposit, the starting time is $x=0$."
     },
     {
-      "title": "Solve",
-      "content": "Reading the graph, the line crosses the y-axis at y = 10, so f(0) = 10."
+      "title": "Read the y-intercept",
+      "content": "At $x=0$, the line crosses the $y$-axis at $10$. The graph is measuring dollars, so the estimated starting balance was $10.",
+      "desmosExpressions": [
+        "(0,10)",
+        "y=3x+10"
+      ]
     },
     {
-      "title": "Answer",
-      "content": "<strong>10</strong> is correct."
+      "title": "Confirm the answer",
+      "content": "The question asks for the amount of the initial deposit to the nearest whole dollar. Since $f(0)=10$, the answer is <strong>10</strong>."
     }
   ]
 }

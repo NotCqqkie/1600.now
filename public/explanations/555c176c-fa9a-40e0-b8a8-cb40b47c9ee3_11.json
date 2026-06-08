@@ -4,16 +4,21 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the constant c",
-      "content": "Since $p$ has slope 7, write $p(x) = 7x + b$. Use $p(3) = 23$: $$7(3) + b = 23 \\Rightarrow b = 2$$ So $p(x) = 7x + 2$. Now solve $p(c) = -5$: $$7c + 2 = -5 \\Rightarrow c = -1$$"
+      "title": "Find the shared input $c$",
+      "content": "Since $p$ has slope $7$, write $p(x)=7x+b$. Use $p(3)=23$: $$7(3)+b=23,$$ so $b=2$. Then solve $p(c)=-5$: $$7c+2=-5,$$ so $c=-1$."
     },
     {
-      "title": "Find the slope of t",
-      "content": "Function $t$ passes through $(-1,\\,-6)$ and $(4,\\,34)$. Apply the slope formula: $$\\frac{34-(-6)}{4-(-1)} = \\frac{40}{5} = 8$$"
+      "title": "Use regression for $t$",
+      "content": "Now $t(c)=-6$ becomes $t(-1)=-6$, and the other point is $t(4)=34$. In Desmos, enter $x_1=[-1,4]$ and $y_1=[-6,34]$, then type $y_1\\sim m x_1+b$. Desmos returns $m=8$.",
+      "desmosExpressions": [
+        "x_1=[-1,4]",
+        "y_1=[-6,34]",
+        "y_1~m x_1+b"
+      ]
     },
     {
-      "title": "Answer",
-      "content": "<strong>D</strong> is correct."
+      "title": "Confirm the answer",
+      "content": "The slope of $y=t(x)$ is $8$, which matches choice <strong>D</strong>. The hand calculation agrees: $\\dfrac{34-(-6)}{4-(-1)}=\\dfrac{40}{5}=8$."
     }
   ]
 }

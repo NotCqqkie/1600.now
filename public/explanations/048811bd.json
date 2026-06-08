@@ -4,28 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Convert 10% to division",
-      "content": "10% of a number means one-tenth of that number. To find 10% of 370, we calculate $$\\frac{370}{10}$$."
+      "title": "Convert the percent",
+      "content": "$10\\%$ means $\\frac{10}{100}=0.10$. So $10\\%$ of $370$ is $0.10(370)$."
     },
     {
-      "title": "Compute the division",
-      "content": "$$\\frac{370}{10} = 37$$. That matches choice B — <strong>B</strong> is correct."
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "Choice B is correct. $10%$ of a quantity means $\\frac{10}{100}$ times the quantity. Therefore, $10%$ of $370$ can be represented as $\\frac{10}{100}\\left(370\\right)$, which is equivalent to $0.10\\left(370\\right)$, or $37$. Therefore, $10%$ of $370$ is $37$."
+      "title": "Use the mental shortcut",
+      "content": "Finding $10\\%$ is the same as moving the decimal one place left:<br/>$$370 \\rightarrow 37.0$$"
     },
     {
       "title": "Check the choices",
-      "content": "Choice A is incorrect. This is $10%$ of $270$, not $10%$ of $370$."
+      "content": "Choice C is $90\\%$ of $370$, and choice D is $370-10$. The value of $10\\%$ of $370$ is $37$."
     },
     {
-      "title": "Check the choices",
-      "content": "Choice C is incorrect. This is $90%$ of $370$, not $10%$ of $370$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice D is incorrect. This is $370-10$, not $10%$ of $370$."
+      "title": "Answer",
+      "content": "$37$ matches choice B, so <strong>B</strong> is correct."
     }
   ]
 }

@@ -4,17 +4,24 @@
   "section": "Math",
   "steps": [
     {
-      "title": "No real solutions requires negative discriminant",
-      "content": "When a quadratic has no real solutions, the discriminant is negative. For $-x^2 + bx - 49 = 0$, identify $a = -1$, the coefficient of $x$ is $b$, and $c = -49$. We need the discriminant to be less than zero:",
-      "formula": "$$\\Delta = b^2 - 4ac < 0$$"
+      "title": "Use the discriminant test",
+      "content": "A quadratic has no real solutions when its discriminant is negative. For<br/>$$-x^2+bx-49=0$$<br/>the coefficients are $a=-1$, $b=b$, and $c=-49$."
     },
     {
-      "title": "Solve the inequality for the least integer b",
-      "content": "Substitute the values:<br/>$$b^2 - 4(-1)(-49) < 0$$<br/>$$b^2 - 196 < 0$$<br/>$$b^2 < 196$$<br/>$$|b| < 14$$<br/>This gives $-14 < b < 14$. Since $b$ is an integer, the possible values are $\\{-13, -12, ..., 12, 13\\}$. The least value of $b$ is <strong>−13</strong>.",
+      "title": "Build the inequality",
+      "content": "$$b^2-4(-1)(-49)\\lt0$$<br/>$$b^2-196\\lt0$$<br/>$$b^2\\lt196$$"
+    },
+    {
+      "title": "Check the boundary integers",
+      "content": "Since $196=14^2$, the condition is $|b|\\lt14$, or $-14\\lt b\\lt14$. The least integer in that interval is $-13$.",
       "desmosExpressions": [
-        "y = -x^{2} + bx - 49",
-        "b = -13"
+        "B=[-14,-13,13,14]",
+        "B^2-196"
       ]
+    },
+    {
+      "title": "Answer",
+      "content": "The least possible integer value of $b$ is <strong>-13</strong>."
     }
   ]
 }

@@ -4,20 +4,33 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve the system by substitution",
-      "content": "Substitute $y=4x+1$ into $4y=15x-8$: $$4(4x+1)=15x-8 \\Rightarrow 16x+4=15x-8 \\Rightarrow x=-12.$$ Then $y=4(-12)+1=-47$."
+      "title": "Substitute for y",
+      "content": "The first equation gives $y=4x+1$. Substitute that into $4y=15x-8$:<br/>$$4(4x+1)=15x-8$$"
     },
     {
-      "title": "Find $x - y$",
-      "content": "So $x-y=-12-(-47)=35$. The answer is <strong>35</strong>.",
+      "title": "Solve for x",
+      "content": "$$16x+4=15x-8$$<br/>$$x+4=-8$$<br/>$$x=-12$$"
+    },
+    {
+      "title": "Find y",
+      "content": "Use $y=4x+1$:<br/>$$y=4(-12)+1=-48+1=-47$$"
+    },
+    {
+      "title": "Compute x minus y",
+      "content": "$$x-y=-12-(-47)=35$$<br/>Subtracting a negative adds, which is why the result is positive."
+    },
+    {
+      "title": "Check with Desmos",
+      "content": "Graph $y=4x+1$ and $4y=15x-8$. The intersection is $(-12,-47)$, so $x-y=35$.",
       "desmosExpressions": [
-        "y = 4x + 1",
-        "y = (15x - 8)/4"
+        "y=4x+1",
+        "4y=15x-8",
+        "(-12,-47)"
       ]
     },
     {
-      "title": "Use the source rationale",
-      "content": "The correct answer is $35$. The first equation in the given system of equations defines $y$ as $4x+1$. Substituting $4x+1$ for $y$ in the second equation in the given system of equations yields $4\\left(4x+1\\right)=15x-8$. Applying the distributive property on the left-hand side of this equation yields $16x+4=15x-8$. Subtracting $15x$ from each side of this equation yields $x+4=-8$. Subtracting $4$ from each side of this equation yields $x=-12$. Substituting $-12$ for $x$ in the first equation of the given system of equations yields $y=4\\left(-12\\right)+1$, or $y=-47$. Substituting $-12$ for $x$ and $-47$ for $y$ into the expression $x-y$ yields $-12-\\left(-47\\right)$, or $35$."
+      "title": "Answer",
+      "content": "The value of $x-y$ is <strong>35</strong>."
     }
   ]
 }

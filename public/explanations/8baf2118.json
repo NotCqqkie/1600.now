@@ -4,18 +4,23 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the y-intercept from the graph",
-      "content": "The line of best fit crosses the y-axis at $x = 0$, where $y = 13.5$. Since the y-intercept is positive, this eliminates choices C and D, which both have $-13.5$ as the constant term."
-    },
-    {
-      "title": "Determine the slope",
-      "content": "The line descends from left to right, so the slope is negative. This immediately eliminates choice A, which has a slope of $+0.8$. To find the exact slope, identify two points on the line: $(0, 13.5)$ and $(10, 5.5)$.<br/>$$\\text{slope} = \\frac{5.5 - 13.5}{10 - 0} = \\frac{-8}{10} = -0.8$$"
-    },
-    {
-      "title": "Write the equation and identify the choice",
-      "content": "With a y-intercept of $13.5$ and a slope of $-0.8$, the equation is $y = 13.5 - 0.8x$. That matches choice B — <strong>B</strong> is correct.",
+      "title": "Fit two points from the line",
+      "content": "Use the drawn line of best fit, not individual scatterplot dots. Two readable points on the line are about $(0,13.5)$ and $(10,5.5)$. Enter those in Desmos and run a linear regression row.",
       "desmosExpressions": [
-        "y = 13.5 - 0.8x"
+        "x_1=[0,10]",
+        "y_1=[13.5,5.5]",
+        "y_1~m x_1+b"
+      ]
+    },
+    {
+      "title": "Read slope and intercept",
+      "content": "The regression gives $m=-0.8$ and $b=13.5$. The negative slope matches the line going down from left to right, and the positive intercept matches the line crossing the $y$-axis above $0$."
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "The equation is $y=13.5-0.8x$. Choice A has the wrong slope sign, C has the wrong intercept sign, and D has both signs wrong. Choice <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "y=13.5-0.8x"
       ]
     }
   ]

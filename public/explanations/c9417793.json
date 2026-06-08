@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve the equation",
-      "content": "Subtract 45: $|x-9|=18$. So $x-9=18$ or $x-9=-18$, giving $x=27$ or $x=-9$."
+      "title": "Isolate the absolute value",
+      "content": "Subtract $45$ from both sides: $$|x-9|=18.$$"
+    },
+    {
+      "title": "Use the symmetry shortcut",
+      "content": "The equation $|x-9|=18$ has solutions $18$ units away from $9$: $$x=9+18=27 \\quad \\text{and} \\quad x=9-18=-9.$$"
     },
     {
       "title": "Sum the solutions",
-      "content": "Add: $27+(-9)=18$. (Shortcut: $|x-a|=b$ gives sum $2a=18$.)<br/><br/>The answer is <strong>18</strong>.",
+      "content": "$$27+(-9)=18.$$ Shortcut: the solutions are centered at $9$, so their sum is $2(9)=18$. The answer is <strong>18</strong>.",
       "desmosExpressions": [
-        "y = |x - 9| + 45",
-        "y = 63"
+        "y=|x-9|+45",
+        "y=63"
       ]
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "The correct answer is $18$. Subtracting $45$ from each side of the given equation yields $\\left|x-9\\right|=18$. By the definition of absolute value, if $\\left|x-9\\right|=18$, then $x-9=18$ or $x-9=-18$. Adding $9$ to each side of the equation $x-9=18$ yields $x=27$. Adding $9$ to each side of the equation $x-9=-18$ yields $x=-9$. Therefore, the solutions to the given equation are $27$ and $-9$, and it follows that the sum of the solutions to the given equation is $27+\\left(-9\\right)$, or $18$."
     }
   ]
 }

@@ -4,28 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the rate of change/intercept",
-      "content": "The slope $3$ is the rate (mph per second) and $40$ is the initial speed."
+      "title": "Substitute the time",
+      "content": "The model is $s=40+3t$, and the question asks for the speed after $5$ seconds. Substitute $t=5$: $$s=40+3(5).$$"
     },
     {
-      "title": "Evaluate at t=5",
-      "content": "At $t=5$: $$s = 40 + 3(5) = 55 \\text{ mph}.$$ That matches choice <strong>D</strong> — <strong>D</strong> is correct."
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "Choice D is correct. In the given equation, $s$ is the speed, in miles per hour, of a certain car $t$ seconds after it began to accelerate. Therefore, the speed of the car, in miles per hour, $5$ seconds after it began to accelerate can be found by substituting $5$ for $t$ in the given equation, which yields $s=40+3\\left(5\\right)$, or $s=55$. Thus, the speed of the car $5$ seconds after it began to accelerate is $55$ miles per hour."
+      "title": "Compute the speed",
+      "content": "$$s=40+15=55.$$"
     },
     {
       "title": "Check the choices",
-      "content": "Choice A is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice B is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice C is incorrect and may result from conceptual or calculation errors."
+      "content": "Choice D is correct. Choice A is only the initial speed, and choices B and C do not add the full $3$ mph per second for $5$ seconds.",
+      "desmosExpressions": [
+        "y=40+3x",
+        "x=5"
+      ]
     }
   ]
 }

@@ -4,12 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the function value from the graph at x = 6",
-      "content": "Locate $x = 6$ on the horizontal axis, then trace vertically to where it intersects the curve. The corresponding $y$-value is $2$.<br/>That matches choice B — <strong>B</strong> is correct."
+      "title": "Translate the notation",
+      "content": "$f(6)$ means the $y$-value of the graph when $x=6$. So the task is not to solve an equation; it is to read the height of the graph above $x=6$."
     },
     {
-      "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice B, 2, and the other choices fail the same setup or substitution. Therefore <strong>B</strong> is correct."
+      "title": "Read the graph",
+      "content": "On the graph, move to $x=6$ on the horizontal axis. The curve reaches its lowest point there, at the grid point $(6,2)$. Therefore $$f(6)=2.$$",
+      "desmosExpressions": [
+        "x=6",
+        "(6,2)"
+      ]
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "The answer choice that gives $2$ is choice <strong>B</strong>."
     }
   ]
 }

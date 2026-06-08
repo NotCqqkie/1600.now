@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Isolate x",
-      "content": "Divide both sides of $10x=86$ by $10$: $$x=\\tfrac{86}{10}.$$"
+      "title": "Undo multiplication by 10",
+      "content": "The equation is $10x=86$. Divide both sides by $10$ to isolate $x$: $$x=\\dfrac{86}{10}.$$"
     },
     {
-      "title": "Simplify",
-      "content": "Compute the quotient: $x=8.6$. The answer is <strong>8.6</strong>."
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "The correct answer is $8.6$. Dividing both sides of the given equation by $10$ yields $x=8.6$. Therefore, $8.6$ is the solution to the given equation. Note that 8.6 and 43/5 are examples of ways to enter a correct answer."
+      "title": "Write the value cleanly",
+      "content": "$\\dfrac{86}{10}=8.6$, so the solution is <strong>8.6</strong>. The equivalent fraction $\\dfrac{43}{5}$ would represent the same value. A quick check is $10(8.6)=86$, which matches the original equation."
     }
   ]
 }

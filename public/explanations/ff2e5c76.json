@@ -4,31 +4,19 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify coefficients",
-      "content": "$x^2-40x-10=0$ has $a=1$, $b=-40$."
+      "title": "Use Vieta's formula",
+      "content": "For a quadratic $ax^2+bx+c=0$, the sum of the solutions is $-\\frac{b}{a}$."
     },
     {
-      "title": "Apply Vieta&apos;s sum formula",
-      "content": "$$\\text{sum of solutions}=\\frac{-b}{a}=\\frac{-(-40)}{1}=40$$<br/>That matches choice D — <strong>D</strong> is correct.",
+      "title": "Apply it to the equation",
+      "content": "In $x^2-40x-10=0$, $a=1$ and $b=-40$. So the sum is $$-\\frac{-40}{1}=40.$$"
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice D is correct. You do not need to solve the two irrational roots; their radical parts cancel in the sum.",
       "desmosExpressions": [
         "y=x^2-40x-10"
       ]
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "Choice D is correct. Adding $10$ to each side of the given equation yields ${x}^{2}-40x=10$. To complete the square, adding ${\\left(\\frac{40}{2}\\right)}^{2}$, or ${20}^{2}$, to each side of this equation yields ${x}^{2}-40x+{20}^{2}=10+{20}^{2}$, or ${\\left(x-20\\right)}^{2}=410$. Taking the square root of each side of this equation yields $x-20=\\pm\\sqrt{410}$. Adding $20$ to each side of this equation yields $x=20\\pm\\sqrt{410}$. Therefore, the solutions to the given equation are $x=20+\\sqrt{410}$ and $x=20-\\sqrt{410}$. The sum of these solutions is $\\left(20+\\sqrt{410}\\right)+\\left(20-\\sqrt{410}\\right)$, or $40$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice A is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice B is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice C is incorrect and may result from conceptual or calculation errors."
     }
   ]
 }

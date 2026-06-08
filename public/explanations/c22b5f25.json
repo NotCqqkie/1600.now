@@ -4,22 +4,26 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Calculate the slope from two points",
-      "content": "With points $(-2, 3)$ and $(4, -5)$, substitute into the slope formula:<br/>$$m = \\frac{-5 - 3}{4 - (-2)} = \\frac{-8}{6} = -\\frac{4}{3}$$",
-      "formula": "$$m = \\frac{y_2 - y_1}{x_2 - x_1}$$"
-    },
-    {
-      "title": "Find the y-intercept",
-      "content": "Substitute slope $-\\frac{4}{3}$ and point $(4, -5)$ into $y = mx + b$:<br/>$$-5 = -\\frac{4}{3}(4) + b \\Rightarrow b = -5 + \\frac{16}{3} = \\frac{1}{3}$$<br/>So $f(x) = -\\frac{4}{3}x + \\frac{1}{3}$.",
+      "title": "Fit the line from the two points",
+      "content": "The graph contains $(-2,3)$ and $(4,-5)$. Put those two points into Desmos and fit $y_1\\sim m x_1+b$ to get the linear function directly.",
       "desmosExpressions": [
-        "y=-\\frac{4}{3}x+\\frac{1}{3}",
-        "(-2,3)",
-        "(4,-5)"
+        "x_1=[-2,4]",
+        "y_1=[3,-5]",
+        "y_1~m x_1+b"
       ]
     },
     {
-      "title": "Check all choices against both points",
-      "content": "<ul><li><strong>Choice A &mdash; '$f(x) = x + 5$'</strong>: At $x=-2$: $-2+5=3$ &#10003;, but at $x=4$: $4+5=9 \\ne -5$ &#10007;</li><li><strong>Choice B &mdash; '$f(x) = \\frac{1}{2}x + 4$'</strong>: At $x=-2$: $-1+4=3$ &#10003;, but at $x=4$: $2+4=6 \\ne -5$ &#10007;</li><li><strong>Choice C &mdash; '$f(x) = -\\frac{4}{3}x + \\frac{1}{3}$'</strong>: At $x=-2$: $\\frac{8}{3}+\\frac{1}{3}=3$ &#10003;; at $x=4$: $-\\frac{16}{3}+\\frac{1}{3}=-5$ &#10003;</li><li><strong>Choice D &mdash; '$f(x) = -\\frac{3}{2}x + 1$'</strong>: At $x=-2$: $3+1=4 \\ne 3$ &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+      "title": "Read the slope and intercept",
+      "content": "Desmos gives $m=-\\frac{4}{3}$ and $b=\\frac{1}{3}$, so $$f(x)=-\\frac{4}{3}x+\\frac{1}{3}.$$"
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "Choice C is the only function with that slope and intercept. It also checks both points: $f(-2)=3$ and $f(4)=-5$. Choice <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "y=-4/3x+1/3",
+        "(-2,3)",
+        "(4,-5)"
+      ]
     }
   ]
 }

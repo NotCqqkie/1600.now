@@ -4,16 +4,26 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply slope-intercept form",
-      "content": "A line with slope $m$ and y-intercept $b$ is $y = mx + b$. Given slope $-2$ and the point $(0, -19)$, the y-intercept is $-19$."
+      "title": "Turn the information into two points",
+      "content": "This is a quick Desmos table/regression problem. The point $(0,-19)$ is already on the line. A slope of $-2$ means that when $x$ increases by $1$, $y$ decreases by $2$, so another point is $(1,-21)$.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[-19,-21]"
+      ]
     },
     {
-      "title": "Write the equation",
-      "content": "$f(x) = -2x + (-19) = -2x - 19$."
+      "title": "Fit the line in Desmos",
+      "content": "In Desmos, run the linear regression $y_1 \\sim mx_1+b$. It returns $m=-2$ and $b=-19$, so the fitted equation is $y=-2x-19$.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[-19,-21]",
+        "y_1~m x_1+b",
+        "y=-2x-19"
+      ]
     },
     {
-      "title": "Evaluate all choices",
-      "content": "<ul><li>Choice A: $f(x) = -19x$ — slope $-19$, wrong slope. Eliminated.</li><li>Choice B: $f(x) = -2x$ — y-intercept 0, not $-19$. Eliminated.</li><li>Choice C: $f(x) = -2x - 19$ — slope $-2$ and y-intercept $-19$. That matches choice C — <strong>C</strong> is correct.</li><li>Choice D: $f(x) = 2x + 19$ — slope $+2$, wrong sign. Eliminated.</li></ul>"
+      "title": "Match the fitted equation",
+      "content": "Choice A has slope $-19$, not $-2$. Choice B has the right slope but goes through $(0,0)$ instead of $(0,-19)$. Choice D has positive slope. Only choice C, $f(x)=-2x-19$, matches the regression result and the original point. Choice <strong>C</strong> is correct."
     }
   ]
 }

@@ -5,21 +5,25 @@
   "steps": [
     {
       "title": "Read the graphed line",
-      "content": "The line shown is $y=f(x)-19$. Using points $(0,-2)$ and $(4,-10)$, the slope is $-2$ and the equation is $y=-2x-2$."
+      "content": "The line shown is $y=f(x)-19$. Use two clear points from the graph in a Desmos table: $(-5,-3)$ and $(0,-8)$. A linear regression gives slope $-1$ and intercept $-8$, so the shown line is $y=-x-8$.",
+      "desmosExpressions": [
+        "x_1=[-5,0]",
+        "y_1=[-3,-8]",
+        "y_1~m x_1+b",
+        "y=-x-8"
+      ]
     },
     {
       "title": "Solve for $f(x)$",
-      "content": "Add $19$ to both sides: $$f(x)=-2x-2+19=-2x+17.$$"
+      "content": "Add 19 to both sides: $$f(x)-19=-x-8$$ $$f(x)=-x-8+19=-x+11$$",
+      "desmosExpressions": [
+        "y=-x-8",
+        "y=-x+11"
+      ]
     },
     {
       "title": "Match to the form with positive $c,d$",
-      "content": "Rewrite as $f(x)=17-2x=d-cx$ with $d=17,\\ c=2$ (both positive). That matches choice <strong>A</strong> — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y = d - cx",
-        "y = -d + cx",
-        "y = d + cx",
-        "y = -d - cx"
-      ]
+      "content": "Rewrite as $f(x)=11-x=d-cx$ with $d=11$ and $c=1$, both positive. That matches choice <strong>A</strong>."
     }
   ]
 }

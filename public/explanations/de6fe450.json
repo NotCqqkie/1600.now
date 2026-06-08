@@ -4,12 +4,26 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Extract the starting wage and rate of change",
-      "content": "The minimum wage on January 1, 2015 is <strong>\\$9.25</strong> (at x=0). The wage increases by <strong>\\$0.50</strong> each subsequent year."
+      "title": "Make a two-point table",
+      "content": "The starting wage is 9.25 dollars at $x=0$. After 5 yearly increases of 0.50 dollars, the wage is $9.25+5(0.50)=11.75$ dollars at $x=5$. Put $(0,9.25)$ and $(5,11.75)$ into Desmos and fit a line.",
+      "desmosExpressions": [
+        "x_1=[0,5]",
+        "y_1=[9.25,11.75]",
+        "y_1~m x_1+b"
+      ]
     },
     {
-      "title": "Write the linear function",
-      "content": "With initial value 9.25 and a yearly increase of 0.50:<br/>$$f(x) = 9.25 + 0.50x$$<br/>This matches choice C — <strong>C</strong> is correct."
+      "title": "Use the fitted slope and intercept",
+      "content": "The regression row gives $m=0.5$ and $b=9.25$. That means the model starts at $9.25$ and adds $0.50$ for each year after January 1, 2015: $$f(x)=9.25+0.50x.$$"
+    },
+    {
+      "title": "Eliminate the traps",
+      "content": "Choice A has the right starting value but a negative slope, so it models a wage decrease. Choices B and D make $9.25$ the yearly increase instead of the starting wage. Choice <strong>C</strong> is the only model with intercept $9.25$ and slope $0.50$.",
+      "desmosExpressions": [
+        "y=9.25+0.50x",
+        "(0,9.25)",
+        "(5,11.75)"
+      ]
     }
   ]
 }

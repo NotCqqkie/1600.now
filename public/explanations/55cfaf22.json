@@ -4,16 +4,22 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Calculate the mean of data set X",
-      "content": "Add the four values: $5 + 9 + 9 + 13 = 36$.<br/>Divide by the count: $\\frac{36}{4} = 9$.<br/>Mean of X is $9$."
+      "title": "Enter both data sets as lists",
+      "content": "This is a direct Desmos list question. Put data set X in one list and data set Y in another, then compare the two means.",
+      "desmosExpressions": [
+        "x_1=[5,9,9,13]",
+        "y_1=[5,9,9,13,27]",
+        "\\operatorname{mean}\\left(x_1\\right)",
+        "\\operatorname{mean}\\left(y_1\\right)"
+      ]
     },
     {
-      "title": "Calculate the mean of data set Y",
-      "content": "Data set Y has the same first four values as X, plus an additional value $27$, so the sum is $36 + 27 = 63$.<br/>Divide by the count: $\\frac{63}{5} = 12.6$.<br/>Mean of Y is $12.6$."
+      "title": "Compare the results",
+      "content": "Desmos gives $\\operatorname{mean}(x_1)=9$ and $\\operatorname{mean}(y_1)=12.6$. The added value $27$ is much larger than the original mean, so it pulls the mean of Y upward."
     },
     {
-      "title": "Compare the means",
-      "content": "Mean of X is $9$ and mean of Y is $12.6$.<br/>Since $9 < 12.6$, the mean of data set X is less than the mean of data set Y. That matches choice B — <strong>B</strong> is correct."
+      "title": "Confirm the choice",
+      "content": "Since $9<12.6$, the mean of data set X is less than the mean of data set Y. That matches choice <strong>B</strong>."
     }
   ]
 }

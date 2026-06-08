@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply the multiplier from the given condition",
-      "content": "Note $9x+6 = 3(3x+2)$, and $3x+2=8$."
+      "title": "Scale the given expression",
+      "content": "The target expression $9x+6$ is exactly $3$ times the given expression $3x+2$: $$9x+6=3(3x+2).$$"
     },
     {
-      "title": "Compute the target value",
-      "content": "So $9x+6 = 3 \\cdot 8 = 24$. The answer is <strong>24</strong>."
+      "title": "Substitute the known value",
+      "content": "Since $3x+2=8$, multiply by $3$: $$9x+6=3(8)=24.$$ The answer is <strong>24</strong>."
     },
     {
-      "title": "Use the source rationale",
-      "content": "The correct answer is 24. Multiplying both sides of the given equation by 3 yields $3 \\times (3x + 2) = 24$. Using the distributive property to rewrite the left-hand side of this equation yields $9x + 6 = 24$."
+      "title": "Avoid extra work",
+      "content": "Solving for $x$ first also works, but this scaling shortcut goes straight from the given expression to the requested expression."
     }
   ]
 }

@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply the exponent rule from the given condition",
-      "content": "Rewrite the right side: $\\sqrt[3]{4^{7}} = 4^{7/3}$. Equate exponents: $8c = \\tfrac{7}{3}$."
+      "title": "Rewrite the radical as an exponent",
+      "content": "Use $\\sqrt[3]{a^m}=a^{m/3}$. Then $$\\sqrt[3]{4^7}=4^{7/3}.$$"
     },
     {
-      "title": "Compute the target value",
-      "content": "Divide by $8$: $c = \\tfrac{7}{24} \\approx 0.2916$. The answer is <strong>.2916</strong>."
+      "title": "Equate exponents",
+      "content": "Since both sides have base $4$, set the exponents equal: $$8c=\\frac{7}{3}.$$"
     },
     {
-      "title": "Use the source rationale",
-      "content": "The correct answer is $\\frac{7}{24}$. An expression of the form $\\sqrt[n]{{a}^{m}}$, where $m$ and $n$ are integers greater than $1$ and $a\\ge0$, is equivalent to ${a}^{\\frac{m}{n}}$. Therefore, the expression on the right-hand side of the given equation, $\\sqrt[3]{{4}^{7}}$, is equivalent to ${4}^{\\frac{7}{3}}$. Thus, ${4}^{8c}={4}^{\\frac{7}{3}}$. It follows that $8c=\\frac{7}{3}$. Dividing both sides of this equation by $8$ yields $c=\\frac{7}{24}$. Note that 7/24,.2916,.2917, 0.219, and 0.292 are examples of ways to enter a correct answer."
+      "title": "Solve for $c$",
+      "content": "Divide by $8$: $$c=\\frac{7}{3}\\cdot\\frac{1}{8}=\\frac{7}{24}\\approx 0.2916.$$ The stored answer is <strong>.2916</strong>. The exact fraction and this decimal represent the same value."
     }
   ]
 }

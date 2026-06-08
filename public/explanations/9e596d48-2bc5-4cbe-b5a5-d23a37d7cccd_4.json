@@ -4,16 +4,26 @@
   "correctAnswer": "A",
   "steps": [
     {
-      "title": "Use slope-intercept form",
-      "content": "A linear function has the form $$f(x) = mx + b,$$ where $m$ is the slope and $b$ is the $y$-intercept. The slope is given as $51$, so $m=51$."
+      "title": "Build a tiny Desmos table",
+      "content": "The line passes through $(0,0)$ and has slope $51$. A slope of $51$ means that when $x$ goes from $0$ to $1$, $y$ goes from $0$ to $51$. Use the two points $(0,0)$ and $(1,51)$.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[0,51]"
+      ]
     },
     {
-      "title": "Find the y-intercept",
-      "content": "The graph passes through $(0,0)$, so the $y$-intercept is $b=0$. Substituting: $$f(x) = 51x + 0 = 51x.$$"
+      "title": "Fit the linear model",
+      "content": "Run $y_1 \\sim mx_1+b$ in Desmos. The regression gives $m=51$ and $b=0$, so the line is $y=51x$.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[0,51]",
+        "y_1~m x_1+b",
+        "y=51x"
+      ]
     },
     {
-      "title": "Evaluate each choice",
-      "content": "<ul><li>A) $f(x)=51x$ — slope 51, passes through origin. Matches both conditions.</li><li>B) $f(x)=34x$ — slope is 34, not 51. Eliminated.</li><li>C) $f(x)=17x$ — slope is 17, not 51. Eliminated.</li><li>D) $f(x)=x$ — slope is 1, not 51. Eliminated.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "title": "Choose the match",
+      "content": "The regression equation $y=51x$ matches choice A. The other choices have slopes $34$, $17$, and $1$, so none of them can have slope $51$. Choice <strong>A</strong> is correct."
     }
   ]
 }

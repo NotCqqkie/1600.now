@@ -4,28 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute the value x = 50",
-      "content": "Replace $x$ with $50$ in $$h(x) = x + 200.$$ This gives $$h(50) = 50 + 200.$$"
+      "title": "Substitute the input",
+      "content": "The function is $h(x)=x+200$. To find $h(50)$, replace $x$ with $50$: $$h(50)=50+200.$$"
     },
     {
-      "title": "Compute the result",
-      "content": "Simplify: $$h(50) = 250.$$ That matches choice <strong>B</strong> — <strong>B</strong> is correct."
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "Choice B is correct. Substituting $50$ for $x$ in the given function yields $h\\left(50\\right)=50+200$, or $h\\left(50\\right)=250$. Therefore, the value of $h\\left(50\\right)$ is $250$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice A is incorrect. This is the value of $h\\left(0\\right)$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice C is incorrect. This is the value of $h\\left(9,800\\right)$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice D is incorrect. This is the value of $h\\left(50,000\\right)$."
+      "title": "Compute and compare",
+      "content": "$50+200=250$, so $h(50)=250$. Choice A is the starting $200$ without adding the input, while choices C and D come from using the wrong operation. Choice <strong>B</strong> is correct."
     }
   ]
 }

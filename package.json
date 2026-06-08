@@ -11,6 +11,7 @@
     "difficulty:validate": "node scripts/validate-past-question-difficulties.mjs",
     "audit:math-explanations": "node scripts/audit-math-explanations.mjs",
     "audit:desmos-expressions": "node scripts/audit-desmos-expressions.mjs",
+    "audit:regression-opportunities": "node scripts/audit-regression-opportunities.mjs",
     "audit:live-bank-formatting": "node scripts/audit-live-bank-formatting.mjs",
     "sitemap": "node scripts/generate-sitemap.mjs",
     "skill-samples": "node scripts/generate-hidden-bank-questions.mjs && node scripts/generate-skill-samples.mjs",

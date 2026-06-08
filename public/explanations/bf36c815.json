@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute into the function",
-      "content": "With $g(x)=-x+8$, replace $x$ with $0$: $$g(0)=-(0)+8.$$"
+      "title": "Substitute $x=0$",
+      "content": "The function is $g(x)=-x+8$. Evaluate it at $0$: $$g(0)=-(0)+8.$$"
     },
     {
       "title": "Simplify",
-      "content": "$$g(0)=8.$$ That matches choice <strong>D</strong> — <strong>D</strong> is correct."
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "Choice D is correct. The value of $g(0)$ is found by substituting 0 for <em>x</em> in the function <em>g</em>. This yields $g(0) = -0 + 8 = 8$."
+      "content": "$-(0)=0$, so $$g(0)=8.$$"
     },
     {
       "title": "Check the choices",
-      "content": "Choice A is incorrect and may result from misinterpreting the equation as $g(x) = x + (-8)$ instead of $g(x) = -x + (-8)$. Choice B is incorrect. This is the value of <em>x</em>, not $g(x)$. Choice C is incorrect and may result from calculation errors."
+      "content": "Choice D is correct. Choice B is the input value, not the output. Choice A uses the wrong sign, and choice C is not produced by substituting $0$."
     }
   ]
 }

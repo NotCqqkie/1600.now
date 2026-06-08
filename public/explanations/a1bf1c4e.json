@@ -4,20 +4,24 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Expand the square (and other terms)",
-      "content": "Complete the square: $x^2+6x=(x+3)^2-9$, so $$x^2+6x+4=(x+3)^2-9+4.$$"
+      "title": "Complete the square",
+      "content": "Start with $x^2+6x+4$. Half of $6$ is $3$, and $3^2=9$, so rewrite the expression by adding and subtracting $9$:<br/>$$x^2+6x+4=x^2+6x+9+4-9$$"
     },
     {
-      "title": "Combine and simplify",
-      "content": "Simplify: $(x+3)^2-5$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."
+      "title": "Convert to vertex form",
+      "content": "The first three terms make a perfect square:<br/>$$x^2+6x+9=(x+3)^2$$<br/>The constants combine to $4-9=-5$, so:<br/>$$x^2+6x+4=(x+3)^2-5$$"
     },
     {
-      "title": "Use the source rationale",
-      "content": "Choice B is correct. The given quadratic expression is in standard form, and each answer choice is in vertex form. Completing the square converts the expression from standard form to vertex form. The first step is to rewrite the expression as follows: $x^2 + 6x + 4 = x^2 + 6x + 9 + 4 - 9$. The first three terms of the revised expression can be rewritten as a perfect square as follows: $x^2 + 6x + 9 + 4 - 9 = (x + 3)^2 + 4 - 9$. Combining the constant terms gives $(x + 3)^2 - 5$."
+      "title": "Desmos overlap check",
+      "content": "Graph the original expression and choice B. The two graphs overlap exactly, confirming the equivalent form.",
+      "desmosExpressions": [
+        "y=x^2+6x+4",
+        "y=(x+3)^2-5"
+      ]
     },
     {
-      "title": "Check the choices",
-      "content": "Choice A is incorrect. Squaring the binomial and simplifying the expression in choice A gives $x^2 + 6x + 9 + 5$. Combining like terms gives $x^2 - 6x + 14$, not $x^2 + 6x + 4$. Choice C is incorrect. Squaring the binomial and simplifying the expression in choice C gives $x^2 - 6x + 9 + 5$. Combining like terms gives $x^2 - 6x + 14$, not $x^2 + 6x + 4$. Choice D is incorrect. Squaring the binomial and simplifying the expression in choice D gives $x^2 - 6x + 9 - 5$. Combining like terms gives $x^2 - 6x + 4$, not $x^2 + 6x + 4$."
+      "title": "Confirm the answer",
+      "content": "The matching expression is $(x+3)^2-5$, which is choice B. So <strong>B</strong> is correct."
     }
   ]
 }

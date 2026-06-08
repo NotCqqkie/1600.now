@@ -5,11 +5,20 @@
   "steps": [
     {
       "title": "Restate the criterion visually",
-      "content": "We need data points where the predicted $y$ (the line) is <em>greater than</em> the actual $y$ (the dot). On the scatter plot, those are the points that sit <strong>below</strong> the line of best fit."
+      "content": "The predicted $y$-value comes from the line of best fit. The actual $y$-value comes from the dot. The line predicts a greater $y$-value than the actual data point exactly when the dot is <strong>below</strong> the line."
     },
     {
       "title": "Count the dots that lie below the line",
-      "content": "Working left to right along the line of best fit, the dots that fall clearly below it are at approximately $x \\approx 2.5$, $3.5$, $4$, $5$, $7.5$, and $9$. That is <strong>6</strong> points whose predicted value is greater than the actual value. The answer is <strong>6</strong>."
+      "content": "Scan left to right and count only dots below the line. The below-line dots occur near $x\\approx2.5$, $3.3$, $4.1$, $4.9$, $7.3$, and $9.0$. That is $6$ data points.",
+      "desmosExpressions": [
+        "x_1=[0.8,1.7,2.5,3.3,4.1,4.9,5.7,6.5,7.3,8.1,9.0]",
+        "y_1=[3.0,2.9,2.6,3.4,3.9,4.7,6.5,6.8,6.5,8.3,7.5]",
+        "y=0.8x+1.25"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "Since $6$ dots have actual values below the prediction line, the line predicts a greater $y$-value than the actual $y$-value for $6$ points. The answer is <strong>6</strong>."
     }
   ]
 }

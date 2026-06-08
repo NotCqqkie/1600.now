@@ -16,8 +16,8 @@
       "desmosExpressions": [
         "A=[4,4,4,4,4,7,7,7,7,7,7,10,10,13,13,13,13,13,13,16,16,16,16,16]",
         "B=A+14",
-        "mean(B)",
-        "max(B)-min(B)"
+        "\\operatorname{mean}\\left(B\\right)",
+        "\\operatorname{max}\\left(B\\right)-\\operatorname{min}\\left(B\\right)"
       ]
     },
     {

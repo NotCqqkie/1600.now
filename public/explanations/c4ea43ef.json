@@ -5,15 +5,21 @@
   "steps": [
     {
       "title": "Set up the earnings equation",
-      "content": "Let $x$ = hours at job A and $y$ = hours at job B. Since Avery earns \\$10 per hour at job A and \\$20 per hour at job B, her total earnings are given by: $$10x + 20y = s$$The graph shows all combinations of hours $(x, y)$ that result in earnings of $s$ dollars."
+      "content": "Let $x$ be hours at job A and $y$ be hours at job B. Avery earns \\$10 per hour at job A and \\$20 per hour at job B, so the graph represents $$10x+20y=s.$$"
     },
     {
-      "title": "Read the y-intercept from the graph",
-      "content": "The line intersects the y-axis at the point $(0, 8)$. This means Avery can earn $s$ dollars by working 0 hours at job A and 8 hours at job B."
+      "title": "Use the intercept instead of doing extra algebra",
+      "content": "The line crosses the $y$-axis at $(0,8)$. That point means Avery works $0$ hours at job A and $8$ hours at job B. Substitute just that point into the earnings equation: $$10(0)+20(8)=s.$$ So $$s=160.$$"
     },
     {
-      "title": "Substitute to find s",
-      "content": "Substitute $(x, y) = (0, 8)$ into the equation: $$10(0) + 20(8) = s$$ $$160 = s$$That matches choice B — <strong>B</strong> is correct."
+      "title": "Graph-check the choices",
+      "content": "A quick Desmos check is to graph the four possible equations. Only $10x+20y=160$ has $y$-intercept $8$, because setting $x=0$ gives $20y=160$ and $y=8$. That matches choice <strong>B</strong>.",
+      "desmosExpressions": [
+        "10x+20y=128",
+        "10x+20y=160",
+        "10x+20y=200",
+        "10x+20y=320"
+      ]
     }
   ]
 }

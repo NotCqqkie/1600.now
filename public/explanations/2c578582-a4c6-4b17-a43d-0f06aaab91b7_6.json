@@ -4,21 +4,26 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the slope from two clear points on the graph",
-      "content": "The line passes through $(0, -1)$ and $(1, -6)$.<br/>$$m = \\frac{-6 - (-1)}{1 - 0} = \\frac{-5}{1} = -5$$"
+      "title": "Match the graph that is actually shown",
+      "content": "The graph is not $y=f(x)$; it is $y=f(x)+8$. For a fast SAT check, add $8$ to each answer choice and compare the resulting line to the graph."
     },
     {
-      "title": "Write the equation of the graphed line",
-      "content": "With slope $-5$ and y-intercept $-1$: $$y = -5x - 1$$"
-    },
-    {
-      "title": "Solve for f(x) from the given relationship",
-      "content": "Since the graph shows $y = f(x) + 8$:<br/>$$f(x) + 8 = -5x - 1$$<br/>$$f(x) = -5x - 9$$<br/>That matches choice B — <strong>B</strong> is correct.",
+      "title": "Read the graph",
+      "content": "The displayed line clearly passes through $(0,-1)$ and $(1,-6)$. Put those two points into a Desmos table and run $y_1\\sim m x_1+b$. The fit gives $m=-5$ and $b=-1$, so the displayed graph is $$y=-5x-1.$$",
       "desmosExpressions": [
-        "y = -14x - 9",
-        "y = -5x - 9",
-        "y = -5x + 8",
-        "y = -14x + 8"
+        "x_1=[0,1]",
+        "y_1=[-1,-6]",
+        "y_1~m x_1+b"
+      ]
+    },
+    {
+      "title": "Use the choices",
+      "content": "Because $y=f(x)+8$, choice B gives<br/>$$y=(-5x-9)+8=-5x-1$$<br/>which matches the graph. The other choices become lines with either slope $-14$ or y-intercept $16$, so they do not match. Therefore choice B, $f(x)=-5x-9$, is correct.",
+      "desmosExpressions": [
+        "y = -14x - 1",
+        "y = -5x - 1",
+        "y = -5x + 16",
+        "y = -14x + 16"
       ]
     }
   ]

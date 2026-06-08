@@ -4,32 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve the system by elimination",
-      "content": "Add the equations: $(x+3)+(x-3)=(-2y+5)+(2y+7)$, giving $2x=12$."
+      "title": "Add the equations",
+      "content": "The system is arranged so the $y$-terms cancel if you add the two equations: $$(x+3)+(x-3)=(-2y+5)+(2y+7).$$"
     },
     {
-      "title": "Find $2x$",
-      "content": "So $$2x=12.$$ That matches choice <strong>C</strong> — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y = (2 - x)/2",
-        "y = (x - 10)/2"
-      ]
+      "title": "Simplify directly to the target",
+      "content": "On the left, $(x+3)+(x-3)=2x$. On the right, $-2y+2y=0$ and $5+7=12$. Therefore, $$2x=12.$$"
     },
     {
-      "title": "Use the source rationale",
-      "content": "Choice C is correct. Adding the second equation in the given system to the first equation in the given system yields $\\left(x+3\\right)+\\left(x-3\\right)=\\left(-2y+5\\right)+\\left(2y+7\\right)$. Adding like terms in this equation yields $2x=12$. Thus, the value of $2x$ is $12$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice A is incorrect. This is the value of $y$, not $2x$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice B is incorrect. This is the value of $x$, not $2x$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice D is incorrect and may result from conceptual or calculation errors."
+      "title": "Confirm the choice",
+      "content": "The question asks for $2x$, so there is no need to solve for $x$ or $y$. The value is $12$, which matches choice <strong>C</strong>. Choice B is the trap from giving $x$ instead of $2x$."
     }
   ]
 }

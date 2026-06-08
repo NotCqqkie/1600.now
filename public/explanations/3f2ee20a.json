@@ -5,11 +5,20 @@
   "steps": [
     {
       "title": "Understand standard deviation and identify the key difference",
-      "content": "Both groups surveyed 2,500 men and reported a mean height of 186 cm. The key difference is their standard deviations: Group A has SD = 12.5 cm and Group B has SD = 19.1 cm. Standard deviation measures spread—how much heights vary around the mean. Larger SD means greater spread."
+      "content": "Both groups surveyed 2,500 men and reported the same mean height, 186 cm. That means the center of the two distributions is the same. The useful shortcut is to ignore the matching mean and compare only the standard deviations, because standard deviation measures spread around the mean."
     },
     {
-      "title": "Compare the standard deviations to find the answer",
-      "content": "Group B's standard deviation (19.1 cm) is larger than Group A's (12.5 cm). Since 19.1 > 12.5, the heights in Group B have a larger spread than those in Group A. That matches choice C — <strong>C</strong> is correct."
+      "title": "Use Desmos as a table check",
+      "content": "Enter the two standard deviations as a quick table/check: Group A has $12.5$ and Group B has $19.1$. Since $19.1>12.5$, Group B has the larger spread. The table does not give the tallest participant or either median, so choices B and D cannot be known from the information given.",
+      "desmosExpressions": [
+        "a=12.5",
+        "b=19.1",
+        "b>a"
+      ]
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "Choice C says the heights in Group B had a larger spread than the heights in Group A. That is exactly what the larger standard deviation shows, so choice <strong>C</strong> is correct."
     }
   ]
 }

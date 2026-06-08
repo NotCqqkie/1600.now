@@ -5,15 +5,19 @@
   "steps": [
     {
       "title": "Identify what the y-intercept represents",
-      "content": "The <strong>y-intercept</strong> is where the curve crosses the y-axis, which occurs at $x = 0$. Since $x$ represents the number of months <strong>after purchase</strong>, setting $x = 0$ means the moment of purchase. The y-intercept therefore shows the tablet's initial value."
+      "content": "The $y$-intercept is where the graph crosses the $y$-axis, which means $x=0$. Here $x$ is the number of months after the tablet was purchased. So $x=0$ means the moment it was purchased, before any months have passed."
     },
     {
       "title": "Read the y-intercept from the graph",
-      "content": "Looking at the graph at $x = 0$, the curve begins at $y = 225$ dollars."
+      "content": "At $x=0$, the graph is at $y=225$. So the point is $(0,225)$, meaning the estimated value at purchase was $\\$225$.",
+      "desmosExpressions": [
+        "(0,225)",
+        "y=225\\left(\\frac{50}{225}\\right)^{x/24}"
+      ]
     },
     {
       "title": "Interpret in context",
-      "content": "The y-intercept value of 225 represents what the tablet was worth at $x = 0$ months after purchase—that is, at the moment it was purchased. That matches choice A — <strong>A</strong> is correct."
+      "content": "Choice A says the tablet was worth $\\$225$ when it was purchased, which is exactly the meaning of the $y$-intercept. Choice B misuses the $24$-month value, choice C describes a decrease rather than the initial value, and choice D invents a yearly percentage rate. Choice <strong>A</strong> is correct."
     }
   ]
 }

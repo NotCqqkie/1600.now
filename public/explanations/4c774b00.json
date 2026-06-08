@@ -16,8 +16,8 @@
       "content": "$$\\text{Sum}=18(6)+19(5)+20(4)+21(2)+22(1)+23(1)+30(1)=400$$<br/>$$\\text{mean}=\\frac{400}{20}=20$$<br/>A fast Desmos check is to expand the frequency table into a list, then compute the mean and median. The mode is still read from the highest frequency, which is age $18$.",
       "desmosExpressions": [
         "L=[18,18,18,18,18,18,19,19,19,19,19,20,20,20,20,21,21,22,23,30]",
-        "mean(L)",
-        "median(L)"
+        "\\operatorname{mean}\\left(L\\right)",
+        "\\operatorname{median}\\left(L\\right)"
       ]
     },
     {

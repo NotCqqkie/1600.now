@@ -1,15 +1,29 @@
 {
-  "qid": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_11",
+  "questionId": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_11",
   "correctAnswer": "A",
+  "section": "Math",
   "steps": [
-    "An exponential growth function has the form A(t) = A_0 \\cdot r^t where A_0 is the initial value. The account opens with $35,600.00, so A_0 = 35,600.00. This eliminates choices C and D.",
-    "The balance grows from $35,600 to $129,672.38 over 15 years, so r > 1 (growth). A rate of 0.09 < 1 would cause decay, not growth. This eliminates choice B.",
-    "Verify choice A: A(15) = 35,600(1.09)^{15}. Since (1.09)^{15} \\approx 3.6425, we get 35,600 \\times 3.6425 \\approx 129,672, matching the given value."
-  ],
-  "explanation": "<ul><li><strong>Choice A &mdash; '$A(t) = 35,600.00(1.09)^t$'</strong>: Correct initial value $35,600 and growth factor 1.09 (9% annual growth). Verified: 35,600 &times; (1.09)^15 &asymp; $129,672.38. &#10003;</li><li><strong>Choice B &mdash; '$A(t) = 35,600.00(0.09)^t$'</strong>: Correct initial value but r = 0.09 < 1 causes exponential decay. After 15 years the balance would be essentially $0, not $129,672. &#10007;</li><li><strong>Choice C &mdash; '$A(t) = 94,072.38(1.09)^t$'</strong>: The initial value $94,072.38 is the increase ($129,672.38 - $35,600), not the starting balance. At t = 0 the account balance should be $35,600. &#10007;</li><li><strong>Choice D &mdash; '$A(t) = 94,072.38(0.09)^t$'</strong>: Wrong initial value and decay factor. Both errors disqualify this choice. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.",
-  "desmosExpressions": [
-    "A(t) = 35600 \\cdot 1.09^{t}",
-    "(0, 35600)",
-    "(15, 129672.38)"
+    {
+      "title": "Fit the two given account balances",
+      "content": "This is a perfect Desmos custom-regression problem. The account starts at 35,600 dollars, so the point $(0,35600)$ is on the exponential model. After 15 years, the balance is 129,672.38 dollars, so $(15,129672.38)$ is also on the model. Put those two points in a Desmos table and fit $y_1\\sim a b^{x_1}$.",
+      "desmosExpressions": [
+        "x_1=[0,15]",
+        "y_1=[35600,129672.38]",
+        "y_1~a b^{x_1}"
+      ]
+    },
+    {
+      "title": "Read the regression output",
+      "content": "Desmos returns $a\\approx35600$ and $b\\approx1.09$. In the model $y=a b^x$, $a$ is the starting value and $b$ is the annual multiplier. That gives $$A(t)=35600(1.09)^t.$$"
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A has the fitted starting value $35600$ and multiplier $1.09$. Choice B uses $0.09$, which would make the balance shrink almost to zero. Choices C and D use the wrong starting value, because $A(0)$ must be 35,600 dollars. Choice <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y=35600(1.09)^x",
+        "(0,35600)",
+        "(15,129672.38)"
+      ]
+    }
   ]
 }

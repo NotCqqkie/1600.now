@@ -4,32 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve the system by substitution",
-      "content": "From $5y=x$, substitute into $x+y=18$: $$5y+y=18.$$ So $6y=18$ and $y=3$."
-    },
-    {
-      "title": "Find the matching ordered pair",
-      "content": "Then $x=5(3)=15$. The answer is <strong>(A) $(15,3)$</strong>.",
+      "title": "Use the choices or graph",
+      "content": "Because all choices are ordered pairs, the fastest method is to check which point satisfies both equations. In Desmos, graph the two lines and read their intersection.",
       "desmosExpressions": [
-        "y = 18 - x",
-        "y = x/5"
+        "y=18-x",
+        "y=x/5"
       ]
     },
     {
-      "title": "Use the source rationale",
-      "content": "Choice A is correct. The second equation in the given system defines the value of $x$ as $5y$. Substituting $5y$ for $x$ into the first equation yields $5y+y=18$ or $6y=18$. Dividing each side of this equation by $6$ yields $y=3$. Substituting $3$ for $y$ in the second equation yields $5\\left(3\\right)=x$ or $x=15$. Therefore, the solution $\\left(x,y\\right)$ to the given system of equations is $\\left(15,3\\right)$."
+      "title": "Solve by substitution",
+      "content": "From $5y=x$, substitute into $x+y=18$: $$5y+y=18$$ $$6y=18$$ $$y=3$$ Then $x=5(3)=15$."
     },
     {
-      "title": "Check the choices",
-      "content": "Choice B is incorrect. Substituting $16$ for $x$ and $2$ for $y$ in the second equation yields $5\\left(2\\right)=16$, which is not true. Therefore, $\\left(16,2\\right)$ is not a solution to the given system of equations."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice C is incorrect. Substituting $17$ for $x$ and $1$ for $y$ in the second equation yields $5\\left(1\\right)=17$, which is not true. Therefore, $\\left(17,1\\right)$ is not a solution to the given system of equations."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice D is incorrect. Substituting $18$ for $x$ and $0$ for $y$ in the second equation yields $5\\left(0\\right)=18$, which is not true. Therefore, $\\left(18,0\\right)$ is not a solution to the given system of equations."
+      "title": "Confirm the ordered pair",
+      "content": "The solution is $(15,3)$. It checks because $15+3=18$ and $5(3)=15$. That matches choice A."
     }
   ]
 }

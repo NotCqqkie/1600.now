@@ -4,22 +4,31 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Graph the answer choices",
-      "content": "This is a graph-matching question, so the fastest check is to graph all four choices in Desmos and compare the vertex. The displayed parabola opens upward and has vertex $(0,3)$, so only a choice with that vertex can work.",
+      "title": "Read the vertex first",
+      "content": "This is a graph-matching question, so use the graph's easiest feature: the vertex. The displayed parabola opens upward and has vertex $(0,3)$. The correct equation must have that same vertex."
+    },
+    {
+      "title": "Reject the wrong vertices",
+      "content": "Graph the choices with the wrong vertices first. Choices A and B shift the vertex left to $x=-1$, and choice D puts the vertex at $(0,0)$. None of those match the graph's vertex $(0,3)$.",
       "desmosExpressions": [
         "y=5(x+1)^2+2",
         "y=5(x+1)^2",
-        "y=5x^2+3",
-        "y=5x^2"
+        "y=5x^2",
+        "(0,3)"
       ]
     },
     {
-      "title": "Use the vertex",
-      "content": "In vertex form, $f(x)=a(x-h)^2+k$ has vertex $(h,k)$. Choices A and B have vertex $(-1,2)$ and $(-1,0)$, while choice D has vertex $(0,0)$. Choice C, $f(x)=5x^2+3$, has vertex $(0,3)$."
-    },
-    {
-      "title": "Confirm with one more point",
-      "content": "The graph also passes through approximately $(1,8)$. Choice C gives $f(1)=5(1)^2+3=8$, so it matches both the vertex and another clear point."
+      "title": "Confirm with the matching graph",
+      "content": "Use the two clear points $(0,3)$ and $(1,8)$ in Desmos. Since the graph has axis of symmetry $x=0$, fit the form $y=ax^2+c$. The regression gives $a=5$ and $c=3$, so the equation is $f(x)=5x^2+3$. That matches choice C.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[3,8]",
+        "y_1~a x_1^2+c",
+        "y=a x^2+c",
+        "y=5x^2+3",
+        "(0,3)",
+        "(1,8)"
+      ]
     },
     {
       "title": "Choose the match",

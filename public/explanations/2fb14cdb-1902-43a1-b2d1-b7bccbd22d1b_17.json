@@ -4,12 +4,30 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Complete the square",
-      "content": "Factor out 7 from the first two terms of $y = 7x^2 - bx - 6$:<br/>$$y = 7\\left(x^2 - \\frac{b}{7}x\\right) - 6$$<br/>To complete the square inside the parentheses, take half the coefficient of $x$ and square it: $\\left(-\\frac{b}{14}\\right)^2 = \\frac{b^2}{196}$. Add and subtract this value:<br/>$$y = 7\\left[\\left(x - \\frac{b}{14}\\right)^2 - \\frac{b^2}{196}\\right] - 6$$<br/>Distribute 7 and simplify $\\frac{7b^2}{196} = \\frac{b^2}{28}$:<br/>$$y = 7\\left(x - \\frac{b}{14}\\right)^2 - \\frac{b^2}{28} - 6$$"
+      "title": "Pick a legal value for the parameter",
+      "content": "Because $b$ is just a positive constant, you can choose a convenient legal value and test the choices. Let $b=14$. Then the original equation becomes $y=7x^2-14x-6$.",
+      "desmosExpressions": [
+        "b=14",
+        "x_1=[-2,0,1,3]",
+        "o_1=7x_1^2-bx_1-6"
+      ]
     },
     {
-      "title": "Match to the answer choice",
-      "content": "Reorder the constant terms to match the answer format:<br/>$$y = 7\\left(x - \\frac{b}{14}\\right)^2 - 6 - \\frac{b^2}{28}$$<br/>That matches choice A — <strong>A</strong> is correct."
+      "title": "Compare the choice lists",
+      "content": "Now evaluate the matching choice form with the same $x$-list. Choice A gives the same output list as the original for several values, while B, C, and D do not.",
+      "desmosExpressions": [
+        "b=14",
+        "x_1=[-2,0,1,3]",
+        "o_1=7x_1^2-bx_1-6",
+        "a_1=7(x_1-b/14)^2-6-b^2/28",
+        "b_1=7(x_1-b/14)^2-6",
+        "c_1=7(x_1+b/14)^2-6-b^2/28",
+        "d_1=7(x_1+b/14)^2-6"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "Since choice A matches the original expression for multiple input values after using a legal positive value of $b$, it is the equivalent form. Choice <strong>A</strong> is correct."
     }
   ]
 }

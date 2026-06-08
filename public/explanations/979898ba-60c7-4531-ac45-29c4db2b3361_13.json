@@ -4,19 +4,26 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Extract the slope from the difference condition",
-      "content": "For any linear function $g(x) = mx + b$:<br/>$g(x+1) - g(x) = [m(x+1)+b] - [mx+b] = m$<br/>Since $g(x+1) - g(x) = 6$, the slope is $m = 6$. So $g(x) = 6x + b$."
-    },
-    {
-      "title": "Find the y-intercept using g(4) = 10",
-      "content": "Substitute into $g(x) = 6x + b$:<br/>$6(4) + b = 10 \\Rightarrow 24 + b = 10 \\Rightarrow b = -14$<br/>So $g(x) = 6x - 14$."
-    },
-    {
-      "title": "Match to the answer choices",
-      "content": "<ul><li><strong>Choice A &mdash; '$g(x)=4x+10$'</strong>: Slope is 4, not 6, so $g(x+1)-g(x)=4 \\neq 6$. &#10007;</li><li><strong>Choice B &mdash; '$g(x)=4x+6$'</strong>: Slope is 4, not 6. &#10007;</li><li><strong>Choice C &mdash; '$g(x)=6x-14$'</strong>: Slope is 6 (matches difference condition) and $g(4)=24-14=10$ (matches point condition). &#10003;</li><li><strong>Choice D &mdash; '$g(x)=6x-24$'</strong>: Slope is correct but $g(4)=24-24=0 \\neq 10$. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.",
+      "title": "Turn the conditions into two rows",
+      "content": "For a linear function, $g(x+1)-g(x)=6$ means every time $x$ increases by $1$, the function value increases by $6$. Since $g(4)=10$, the next point is $g(5)=16$. Put the two points $(4,10)$ and $(5,16)$ into a Desmos table.",
       "desmosExpressions": [
-        "y = 6x - 14"
+        "x_1=[4,5]",
+        "y_1=[10,16]"
       ]
+    },
+    {
+      "title": "Run a linear regression",
+      "content": "Use the Desmos regression row $y_1 \\sim mx_1+b$. With the two exact points, Desmos gives $m=6$ and $b=-14$, so the equation is $y=6x-14$.",
+      "desmosExpressions": [
+        "x_1=[4,5]",
+        "y_1=[10,16]",
+        "y_1~m x_1+b",
+        "y=6x-14"
+      ]
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "Choice A and choice B have slope $4$, so they do not satisfy $g(x+1)-g(x)=6$. Choice D has slope $6$, but $g(4)=6(4)-24=0$, not $10$. Choice C, $g(x)=6x-14$, has $g(4)=10$ and increases by $6$ each step. Choice <strong>C</strong> is correct."
     }
   ]
 }

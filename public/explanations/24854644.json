@@ -8,8 +8,20 @@
       "content": "Parallel shortcut: equal slopes. The given line $y = 7x + 4$ has slope $7$, so our line also has slope $7$."
     },
     {
-      "title": "Plug in the point (0, 5) to find the equation",
-      "content": "Slope $7$, y-intercept at $(0, 5)$: $y = 7x + 5$. That matches choice B — <strong>B</strong> is correct."
+      "title": "Check the choices in Desmos",
+      "content": "Graph the given line, the required point $(0,5)$, and all four answer choices. The correct line must be parallel to $y=7x+4$ and pass through $(0,5)$. Only $y=7x+5$ does both.",
+      "desmosExpressions": [
+        "y=7x+4",
+        "(0,5)",
+        "y=5x",
+        "y=7x+5",
+        "y=7x",
+        "y=5x+7"
+      ]
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "Slope $7$ and $y$-intercept $5$ give $y=7x+5$. That matches choice <strong>B</strong>."
     }
   ]
 }

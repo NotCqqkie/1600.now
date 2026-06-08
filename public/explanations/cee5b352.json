@@ -4,15 +4,25 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Extract slope and y-intercept from the problem",
-      "content": "This describes a linear relationship. In the form $y = mx + b$:<ul><li>At birth ($x = 0$), length is 162 cm, so the y-intercept is $b = 162$</li><li>The whale grows 4.8 cm per month, so the slope is $m = 4.8$</li></ul>",
-      "formula": "$$y = mx + b$$"
+      "title": "Make two whale-length points",
+      "content": "At birth, $x=0$ and the whale is 162 cm long, so use $(0,162)$. After 12 months, it has grown $12(4.8)=57.6$ cm, so its length is $162+57.6=219.6$ cm. Use $(12,219.6)$ and fit a line.",
+      "desmosExpressions": [
+        "x_1=[0,12]",
+        "y_1=[162,219.6]",
+        "y_1~m x_1+b"
+      ]
     },
     {
-      "title": "Write the equation and match to choices",
-      "content": "With $m = 4.8$ and $b = 162$:<br/>$$y = 4.8x + 162$$<br/>That matches choice D — <strong>D</strong> is correct.",
+      "title": "Read the linear model",
+      "content": "The regression gives $m=4.8$ and $b=162$, so the equation is $$y=4.8x+162.$$"
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "Choice D is the only equation with starting length 162 and monthly growth 4.8. Choice <strong>D</strong> is correct.",
       "desmosExpressions": [
-        "y=4.8x+162"
+        "y=4.8x+162",
+        "(0,162)",
+        "(12,219.6)"
       ]
     }
   ]

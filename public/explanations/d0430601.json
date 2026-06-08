@@ -4,15 +4,21 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Interpret the slope",
-      "content": "<ul><li>The slope of 57 means that for each 1°C increase in temperature, the model predicts 57 more visitors.</li><li>That is $$57\\text{ visitors}/^\\circ\\text{C}$$.</li></ul>"
+      "title": "Use the slope directly",
+      "content": "No regression is needed here because the problem gives the slope of the line of best fit: about $57$. In context, that means the model predicts $57$ additional beach visitors for each $1^\\circ\\text{C}$ increase."
     },
     {
-      "title": "Calculate the increase for a 5°C rise",
-      "content": "<ul><li>For a 5°C increase, multiply the slope by 5: $$57 \\times 5 = 285$$ visitors.</li><li>The answer is <strong>285</strong>.</li></ul>",
+      "title": "Scale the rate to 5 degrees",
+      "content": "A $5^\\circ\\text{C}$ increase is five one-degree increases, so multiply the slope by $5$: $57\\times5=285$.",
       "desmosExpressions": [
-        "y = 57x"
+        "x_1=[0,5]",
+        "y_1=[0,285]",
+        "y_1~m x_1"
       ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The question asks for the increase in predicted visitors, not the total number of visitors. The predicted increase is <strong>285</strong>."
     }
   ]
 }

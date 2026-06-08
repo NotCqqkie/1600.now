@@ -4,8 +4,22 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Locate x = 2 on the graph and read f(2)",
-      "content": "Find x = 2 on the horizontal axis and trace vertically upward to meet the curve. The graph shows the polynomial passes through the point (2, 0), where the curve intersects the x-axis. Therefore, $f(2) = 0$. That matches choice D — <strong>D</strong> is correct."
+      "title": "Translate the notation",
+      "content": "$f(2)$ means the $y$-value on the graph when $x=2$. So this is a graph-reading question: go to $x=2$ and read the height of the curve.",
+      "desmosExpressions": [
+        "x=2"
+      ]
+    },
+    {
+      "title": "Read the graph at x = 2",
+      "content": "At $x=2$, the curve is on the $x$-axis. That point is $(2,0)$, so the output value is $f(2)=0$.",
+      "desmosExpressions": [
+        "(2,0)"
+      ]
+    },
+    {
+      "title": "Check the choices",
+      "content": "The value $0$ appears in choice <strong>D</strong>, so choice <strong>D</strong> is correct."
     }
   ]
 }

@@ -4,28 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Simplify the equation",
-      "content": "Add $98x$ to both sides of $-49x=-98x$ to get $$49x=0.$$"
+      "title": "Move the x terms together",
+      "content": "Start with $-49x=-98x$. Add $98x$ to both sides:<br/>$$49x=0$$"
     },
     {
-      "title": "Count the solutions",
-      "content": "Dividing by $49$ gives the unique solution $x=0$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."
+      "title": "Solve",
+      "content": "Divide by $49$:<br/>$$x=0$$<br/>This is one specific solution."
     },
     {
-      "title": "Use the source rationale",
-      "content": "Choice B is correct. Adding $98x$ to each side of the given equation yields $49x=0$. Dividing each side of this equation by $49$ yields $x=0$. This means that $0$ is the only solution to the given equation. Therefore, the given equation has exactly one solution."
+      "title": "Classify the equation",
+      "content": "The equation has exactly one solution because only $x=0$ works. It is not infinitely many solutions because not every value of $x$ makes the original equation true."
     },
     {
-      "title": "Check the choices",
-      "content": "Choice A is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice C is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice D is incorrect and may result from conceptual or calculation errors."
+      "title": "Answer",
+      "content": "The equation has exactly one solution, so <strong>B</strong> is correct."
     }
   ]
 }

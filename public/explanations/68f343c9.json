@@ -4,28 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Evaluate each function at x = 2",
-      "content": "Substitute $x=2$: $f(2)=2+6=8$ and $g(2)=6(2)=12$."
+      "title": "Evaluate both functions first",
+      "content": "Substitute $x=2$ into each function: $$f(2)=2+6=8$$ $$g(2)=6(2)=12$$"
     },
     {
-      "title": "Combine and compute",
-      "content": "$7f(2)-g(2)=7(8)-12=56-12=44$.<br/><br/>The answer is <strong>D</strong>."
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "Choice D is correct. It's given that $f(x)=x+6$. Substituting $2$ for $x$ in the function $f$ yields $f(2)=2+6$, or $f(2)=8$. It's also given that $g(x)=6x$. Substituting $2$ for $x$ in the function $g$ yields $g(2)=(6)(2)$, or $g\\left(2\\right)=12$. Substituting $8$ for $f(2)$ and $12$ for $g(2)$ in the expression $7f(2)-g(2)$ yields $7(8)-12$, or $44$. Therefore, the value of $7f(2)-g(2)$ is $44$."
+      "title": "Substitute into the full expression",
+      "content": "$$7f(2)-g(2)=7(8)-12=56-12=44$$"
     },
     {
       "title": "Check the choices",
-      "content": "Choice A is incorrect. This is the value of $f(2)-g(2)$, not $7f(2)-g(2)$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice B is incorrect. This is the value of $f(2)$, not $7f(2)-g(2)$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice C is incorrect and may result from conceptual or calculation errors."
+      "content": "Choice D is $44$, so it is correct. Choice A calculates $f(2)-g(2)$ without the factor $7$, choice B is just $f(2)$, and choice C is $7g(2)-f(2)$ instead."
     }
   ]
 }

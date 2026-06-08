@@ -1,6 +1,3 @@
-// Score-goal SEO pages — target queries like "how to get a 1400 on the SAT",
-// "what's a good SAT score", "perfect SAT score". One programmatic template
-// per score target, plus three named pages.
 
 export interface ScoreGoalPage {
   slug: string;

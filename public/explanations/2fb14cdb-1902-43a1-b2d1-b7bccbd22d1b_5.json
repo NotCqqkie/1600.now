@@ -4,16 +4,26 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Distribute and combine like terms",
-      "content": "Drop the parentheses and combine like terms. Only the $nr$ terms match:$$=8nr^2+2nr+4n^2r+3nr$$$$=8nr^2+4n^2r+5nr$$"
+      "title": "Identify which terms are like terms",
+      "content": "Drop the parentheses first:<br/>$$(8nr^2+2nr)+(4n^2r+3nr)=8nr^2+2nr+4n^2r+3nr$$<br/>Only $2nr$ and $3nr$ have the exact same variable part. The terms $8nr^2$ and $4n^2r$ are not like terms."
     },
     {
-      "title": "Match to the answer choices",
-      "content": "The simplified expression is $8nr^2+4n^2r+5nr$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."
+      "title": "Combine the like terms",
+      "content": "$$2nr+3nr=5nr$$<br/>So the expression becomes:<br/>$$8nr^2+4n^2r+5nr$$"
     },
     {
-      "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice D, $8nr^{2}+4n^{2}r+5nr$. The other choices do not satisfy the same condition from the question, so <strong>D</strong> is correct."
+      "title": "Check with a Desmos table",
+      "content": "Use a quick table check at two $(n,r)$ values:<br/>$$n_1=[1,2]$$<br/>$$r_1=[2,3]$$<br/>$$o_1=(8n_1r_1^2+2n_1r_1)+(4n_1^2r_1+3n_1r_1)$$<br/>$$d_1=8n_1r_1^2+4n_1^2r_1+5n_1r_1$$<br/>The original and choice D give the same output list.",
+      "desmosExpressions": [
+        "n_1=[1,2]",
+        "r_1=[2,3]",
+        "o_1=(8n_1r_1^2+2n_1r_1)+(4n_1^2r_1+3n_1r_1)",
+        "d_1=8n_1r_1^2+4n_1^2r_1+5n_1r_1"
+      ]
+    },
+    {
+      "title": "Answer",
+      "content": "$8nr^2+4n^2r+5nr$ matches choice D, so <strong>D</strong> is correct."
     }
   ]
 }

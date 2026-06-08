@@ -4,8 +4,6 @@ import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ChevronRight, BookOpen, Calculator, GraduationCap, Target, Trophy, Loader2, Layers } from "lucide-react";
-
-// Category structure - hardcoded for instant load
 const categoryTree = {
   Math: {
     icon: Calculator,
@@ -79,8 +77,6 @@ const categoryTree = {
     }
   }
 };
-
-// Approximate question counts per skill (estimates shown while loading real data)
 const defaultSkillCounts: Record<string, number> = {
   "Linear equations in one variable": 180,
   "Linear functions": 165,
@@ -117,8 +113,6 @@ const Index = () => {
   const navigate = useNavigate();
   const [skillCounts, setSkillCounts] = useState<Record<string, number>>(defaultSkillCounts);
   const [isLoading, setIsLoading] = useState(true);
-
-  // Load real counts after initial render
   useEffect(() => {
     let cancelled = false;
     let timeoutId: ReturnType<typeof setTimeout> | null = null;
@@ -152,7 +146,6 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      {/* Page header */}
       <div className="container mx-auto px-4 pt-8 pb-2">
         <h1
           style={{
@@ -171,10 +164,9 @@ const Index = () => {
         </p>
       </div>
 
-      {/* Quick Access Cards */}
       <section className="container mx-auto px-4 py-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-          <Card 
+          <Card
             className="p-6 cursor-pointer hover:shadow-lg transition-shadow border-2 border-primary/20 hover:border-primary/50"
             onClick={() => navigate("/hard")}
           >
@@ -189,7 +181,7 @@ const Index = () => {
             </div>
           </Card>
 
-          <Card 
+          <Card
             className="p-6 cursor-pointer hover:shadow-lg transition-shadow border-2 border-green-500/20 hover:border-green-500/50"
             onClick={() => navigate("/vocab")}
           >
@@ -204,7 +196,7 @@ const Index = () => {
             </div>
           </Card>
 
-          <Card 
+          <Card
             className="p-6 cursor-pointer hover:shadow-lg transition-shadow border-2 border-purple-500/20 hover:border-purple-500/50"
             onClick={() => navigate("/bank")}
           >
@@ -219,7 +211,7 @@ const Index = () => {
             </div>
           </Card>
 
-          <Card 
+          <Card
             className="p-6 cursor-pointer hover:shadow-lg transition-shadow border-2 border-orange-500/20 hover:border-orange-500/50"
             onClick={() => navigate("/modules")}
           >
@@ -236,7 +228,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Main Content - Two Column Tree */}
       <main className="container mx-auto px-4 py-4">
         <h2
           style={{
@@ -253,10 +244,10 @@ const Index = () => {
         <div className="grid min-w-0 gap-8 md:grid-cols-2">
           {Object.entries(categoryTree).map(([subject, data]) => {
             const Icon = data.icon;
-            const totalQuestions = Object.values(data.domains).reduce((sum, domain) => 
+            const totalQuestions = Object.values(data.domains).reduce((sum, domain) =>
               sum + domain.skills.reduce((s, skill) => s + (skillCounts[skill] || 0), 0), 0
             );
-            
+
             return (
               <Card key={subject} className="min-w-0 p-4 sm:p-6">
                 <div className="mb-6 flex min-w-0 items-center gap-3">
@@ -272,14 +263,14 @@ const Index = () => {
                 <div className="space-y-4">
                   {Object.entries(data.domains).map(([domain, domainData]) => {
                     const domainTotal = domainData.skills.reduce((s, skill) => s + (skillCounts[skill] || 0), 0);
-                    
+
                     return (
                       <div key={domain} className="min-w-0 rounded-lg border p-3 sm:p-4">
                         <div className="mb-3 flex min-w-0 items-start justify-between gap-3">
                           <h3 className="min-w-0 break-words text-lg font-semibold">{domain}</h3>
                           <Badge variant="secondary" className="shrink-0">{domainTotal}</Badge>
                         </div>
-                        
+
                         <div className="space-y-1">
                           {domainData.skills.map((skill) => (
                             <Button
@@ -312,7 +303,6 @@ const Index = () => {
         </div>
       </main>
 
-      {/* Footer */}
       <footer className="border-t mt-12">
         <div className="container mx-auto px-4 py-6 text-center text-sm text-muted-foreground">
           <p>© 2024 1600.now - SAT Practice Platform</p>

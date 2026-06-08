@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Isolate the variable term",
-      "content": "Subtract $5$ from both sides: $$4x=165-5=160.$$"
+      "title": "Undo the addition",
+      "content": "Start with $4x+5=165$. Subtract $5$ from both sides so the term with $x$ is alone: $$4x=160.$$"
     },
     {
-      "title": "Solve for the variable",
-      "content": "Divide by $4$: $x=40$. The answer is <strong>40</strong>."
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "The correct answer is $40$. Subtracting $5$ from both sides of the given equation yields $4x=160$. Dividing both sides of this equation by $4$ yields $x=40$. Therefore, the solution to the given equation is $40$."
+      "title": "Undo the multiplication",
+      "content": "Divide both sides by $4$: $$x=40.$$ Check by substituting: $4(40)+5=160+5=165$, so the solution is <strong>40</strong>. The equation balances exactly, confirming there was no rounding or estimate involved."
     }
   ]
 }

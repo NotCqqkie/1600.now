@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply the factoring from the given condition",
-      "content": "Note $16+8x = 8(2+x)$, and $2+x=60$."
+      "title": "Factor the target expression",
+      "content": "The target expression is $16+8x$. Factor out $8$: $$16+8x=8(2+x).$$"
     },
     {
-      "title": "Compute the target value",
-      "content": "So $16+8x = 8 \\cdot 60 = 480$. The answer is <strong>480</strong>."
+      "title": "Use the given value directly",
+      "content": "The problem gives $2+x=60$, so substitute that value into the factored expression: $$16+8x=8(2+x)=8(60)=480.$$ The answer is <strong>480</strong>."
     },
     {
-      "title": "Use the source rationale",
-      "content": "The correct answer is $480$. Multiplying both sides of the given equation by $8$ yields $8\\left(2+x\\right)=8\\left(60\\right)$, or $16+8x=480$. Therefore, if $2+x=60$, the value of $16+8x$ is $480$."
+      "title": "Why this is faster",
+      "content": "You could solve $x=58$ first, but it is unnecessary because the expression already contains the group $2+x$ after factoring."
     }
   ]
 }

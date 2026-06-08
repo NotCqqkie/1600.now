@@ -4,14 +4,23 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Determine the slope",
-      "content": "The line increases from lower-left to upper-right, indicating a positive slope. From $x = 0$ to $x = 10$, the line rises from about $y = 3.4$ to $y = 13.4$, giving a slope of $$\\frac{10}{10} = 1$$ This eliminates C and D, which have slope $−1$."
+      "title": "Fit two points from the line",
+      "content": "The fastest check is to use two easy points from the displayed line of best fit. The line passes near $(0,3.4)$ and $(10,13.4)$, so put those points into a Desmos table.",
+      "desmosExpressions": [
+        "x_1=[0,10]",
+        "y_1=[3.4,13.4]",
+        "y_1~m x_1+b"
+      ]
     },
     {
-      "title": "Find the y-intercept",
-      "content": "The line crosses the $y$-axis at $y \\approx 3.4$. Since the $y$-intercept is positive, choice B (with intercept $−3.4$) is eliminated. With slope 1 and $y$-intercept 3.4, the equation is $$y = x + 3.4$$ That matches choice A — <strong>A</strong> is correct.",
+      "title": "Read the model",
+      "content": "The regression row $y_1\\sim m x_1+b$ gives $m=1$ and $b=3.4$. So the line should have positive slope $1$ and positive $y$-intercept $3.4$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "Only $y=x+3.4$ has both a positive slope and a positive intercept. Choice B has the wrong intercept sign, and choices C and D have negative slope. Therefore choice <strong>A</strong> is correct.",
       "desmosExpressions": [
-        "y = x + 3.4"
+        "y=x+3.4"
       ]
     }
   ]

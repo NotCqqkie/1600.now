@@ -15,7 +15,7 @@
       "title": "Calculate the difference from the 50-state median",
       "content": "The median for all 50 states is $26.95\\%$. The difference is:<br/>$$27.9\\%-26.95\\%=0.95\\%$$<br/>You can enter the seven state values as a Desmos list and subtract $26.95$ directly. That matches choice B, so <strong>B</strong> is correct.",
       "desmosExpressions": [
-        "median([21.9,27.9,25.9,19.5,30.1,36.4,35.5])-26.95"
+        "\\operatorname{median}\\left([21.9,27.9,25.9,19.5,30.1,36.4,35.5]\\right)-26.95"
       ]
     }
   ]

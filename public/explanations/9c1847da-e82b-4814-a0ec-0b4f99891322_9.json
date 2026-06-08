@@ -4,16 +4,25 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up",
-      "content": "Distribute the minus sign across the second group: $$(6x^3 - 6x + 4) - (7x^2 + 7x - 2) = 6x^3 - 6x + 4 - 7x^2 - 7x + 2$$"
+      "title": "Use cubic regression to avoid sign errors",
+      "content": "Because the highest power is $x^3$, a quick Desmos check is to fit the original expression to $ax^3+bx^2+cx+d$:<br/>$$x_1=[-2,-1,0,1]$$<br/>$$y_1=(6x_1^3-6x_1+4)-(7x_1^2+7x_1-2)$$<br/>$$y_1\\sim ax_1^3+bx_1^2+cx_1+d$$",
+      "desmosExpressions": [
+        "x_1=[-2,-1,0,1]",
+        "y_1=(6x_1^3-6x_1+4)-(7x_1^2+7x_1-2)",
+        "y_1\\sim ax_1^3+bx_1^2+cx_1+d"
+      ]
     },
     {
-      "title": "Solve",
-      "content": "Combine like terms: $$6x^3 - 7x^2 + (-6x - 7x) + (4 + 2) = 6x^3 - 7x^2 - 13x + 6$$"
+      "title": "Read the expression",
+      "content": "The regression gives $a=6$, $b=-7$, $c=-13$, and $d=6$. So the equivalent expression is:<br/>$$6x^3-7x^2-13x+6$$"
     },
     {
-      "title": "Answer",
-      "content": "<strong>C</strong> is correct."
+      "title": "Confirm by distributing",
+      "content": "The minus sign changes every sign in the second parentheses:<br/>$$(6x^3-6x+4)-(7x^2+7x-2)=6x^3-6x+4-7x^2-7x+2$$<br/>Then combine the $x$ terms and constants:<br/>$$6x^3-7x^2-13x+6$$"
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice C is the same expression, just ordered as $-7x^2+6x^3-13x+6$. The other choices either add exponents into $x^9$ or use the wrong linear/constant terms. Therefore <strong>C</strong> is correct."
     }
   ]
 }

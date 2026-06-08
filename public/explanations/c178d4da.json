@@ -7,8 +7,8 @@
       "title": "Use Desmos to compare the means",
       "content": "A frequency table can be turned into a list by repeating each value according to its frequency. For data set A, enter two $30$s, four $34$s, five $38$s, seven $42$s, and nine $46$s. For data set B, enter nine $30$s, seven $34$s, five $38$s, four $42$s, and two $46$s. Then use `mean` on each list.",
       "desmosExpressions": [
-        "mean([30,30,34,34,34,34,38,38,38,38,38,42,42,42,42,42,42,42,46,46,46,46,46,46,46,46,46])",
-        "mean([30,30,30,30,30,30,30,30,30,34,34,34,34,34,34,34,38,38,38,38,38,42,42,42,42,46,46])"
+        "\\operatorname{mean}\\left([30,30,34,34,34,34,38,38,38,38,38,42,42,42,42,42,42,42,46,46,46,46,46,46,46,46,46]\\right)",
+        "\\operatorname{mean}\\left([30,30,30,30,30,30,30,30,30,34,34,34,34,34,34,34,38,38,38,38,38,42,42,42,42,46,46]\\right)"
       ]
     },
     {

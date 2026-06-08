@@ -395,11 +395,6 @@ export const Seo = () => {
       rel: "canonical",
       href: metadata.canonicalUrl,
     });
-
-    // Bidirectional hreflang: the site root declares alternates for every
-    // country hub so Google can swap locales from the English home to /in or
-    // /ae. Country hubs declare the same group on their end. Other routes do
-    // not have localized alternates, so we remove any stale tags.
     document.head
       .querySelectorAll('link[rel="alternate"][data-seo-hreflang]')
       .forEach((el) => el.remove());

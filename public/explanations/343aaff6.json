@@ -4,16 +4,26 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply slope-intercept form",
-      "content": "Slope $m=7$, y-intercept $b=5$ (from the point $(0,5)$): $$f(x) = 7x + 5$$"
+      "title": "Use two points",
+      "content": "The point $(0,5)$ is on the line. A slope of $7$ means one step to the right raises $y$ by $7$, so another point is $(1,12)$. Put these two rows in Desmos.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[5,12]"
+      ]
     },
     {
-      "title": "Evaluate Each Choice",
-      "content": "<ul><li><strong>Choice A &mdash; 'f(x) = 5x'</strong>: Slope is 5, not 7, and y-intercept is 0, not 5. &#10007;</li><li><strong>Choice B &mdash; 'f(x) = 35x'</strong>: Slope is 35 (the product of 7 and 5) and y-intercept is 0. Neither matches. &#10007;</li><li><strong>Choice C &mdash; 'f(x) = 7x + 5'</strong>: Slope is 7 and y-intercept is 5. Both match the given information. &#10003;</li><li><strong>Choice D &mdash; 'f(x) = 12x + 5'</strong>: Slope is 12 (the sum of 7 and 5), not 7. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.",
+      "title": "Run linear regression",
+      "content": "Use $y_1 \\sim mx_1+b$. Desmos gives $m=7$ and $b=5$, so the function is $f(x)=7x+5$.",
       "desmosExpressions": [
-        "y=7x+5",
-        "(0,5)"
+        "x_1=[0,1]",
+        "y_1=[5,12]",
+        "y_1~m x_1+b",
+        "y=7x+5"
       ]
+    },
+    {
+      "title": "Match the answer",
+      "content": "Choice A has slope $5$ and no intercept. Choice B has slope $35$. Choice D has slope $12$. Only choice C has slope $7$ and intercept $5$, so choice <strong>C</strong> is correct."
     }
   ]
 }

@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the y-intercept from the given point",
-      "content": "The line passes through $(0, 14)$. Since the $x$-coordinate is 0, this point is on the $y$-axis, which means the $y$-intercept is $b = 14$."
+      "title": "Make two points for the line",
+      "content": "The line passes through $(0,14)$. Its slope is $\\frac{1}{9}$, so moving $9$ units right raises $y$ by $1$. That gives a second point, $(9,15)$."
     },
     {
-      "title": "Apply slope-intercept form",
-      "formula": "$$y = mx + b$$",
-      "content": "With slope $m = \\frac{1}{9}$ and $y$-intercept $b = 14$, substitute into the slope-intercept form:<br/>$$y = \\frac{1}{9}x + 14$$<br/>That matches choice D — <strong>D</strong> is correct.",
+      "title": "Fit the points in Desmos",
+      "content": "Enter $x_1=[0,9]$ and $y_1=[14,15]$, then run $y_1 \\sim m x_1+b$. Desmos gives $m=\\frac{1}{9}$ and $b=14$, so the equation is $y=\\frac{1}{9}x+14$. That matches choice D &mdash; <strong>D</strong> is correct.",
       "desmosExpressions": [
-        "y=\\frac{1}{9}x+14",
-        "(0,14)"
+        "x_1=[0,9]",
+        "y_1=[14,15]",
+        "y_1~m x_1+b"
       ]
     }
   ]

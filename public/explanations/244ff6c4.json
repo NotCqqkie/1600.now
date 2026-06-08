@@ -4,32 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Compute each power",
-      "content": "Reduce the angle mod $\\pi$ since $\\tan$ has period $\\pi$: $$\\tfrac{92\\pi}{3}=30\\pi+\\tfrac{2\\pi}{3}\\equiv\\tfrac{2\\pi}{3}.$$"
+      "title": "Use tangent's period",
+      "content": "Tangent has period $\\pi$, so subtract multiples of $\\pi$ until the angle is familiar. $$\\frac{92\\pi}{3}=30\\pi+\\frac{2\\pi}{3}$$ Therefore, $$\\tan\\frac{92\\pi}{3}=\\tan\\frac{2\\pi}{3}$$"
     },
     {
-      "title": "Add and identify",
-      "content": "So $\\tan\\tfrac{92\\pi}{3}=\\tan\\tfrac{2\\pi}{3}=-\\sqrt{3}$. That matches choice <strong>A</strong> — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "x^2 + y^2 = 1",
-        "(\\cos(92\\pi/3), \\sin(92\\pi/3))"
-      ]
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "Choice A is correct. A trigonometric ratio can be found using the unit circle, that is, a circle with radius $1$ unit. If a central angle of a unit circle in the <em>xy</em>-plane centered at the origin has its starting side on the positive <em>x</em>-axis and its terminal side intersects the circle at a point $\\left(x,y\\right)$, then the value of the tangent of the central angle is equal to the <em>y</em>-coordinate divided by the <em>x</em>-coordinate. There are $2π$ radians in a circle. Dividing $\\frac{92π}{3}$ by $2π$ yields $\\frac{92}{6}$, which is equivalent to $15+\\frac{2}{3}$. It follows that on the unit circle centered at the origin in the <em>xy</em>-plane, the angle $\\frac{92π}{3}$ is the result of $15$ revolutions from its starting side on the positive <em>x</em>-axis followed by a rotation through $\\frac{2π}{3}$ radians. Therefore, the angles $\\frac{92π}{3}$ and $\\frac{2π}{3}$ are coterminal angles and $\\tan\\left(\\frac{92π}{3}\\right)$ is equal to $\\tan\\left(\\frac{2π}{3}\\right)$. Since $\\frac{2π}{3}$ is greater than $\\frac{π}{2}$ and less than $π$, it follows that the terminal side of the angle is in quadrant II and forms an angle of $\\frac{π}{3}$, or $60^\\circ$, with the negative <em>x</em>-axis. Therefore, the terminal side of the angle intersects the unit circle at the point $\\left(-\\frac{1}{2},\\frac{\\sqrt{3}}{2}\\right)$. It follows that the value of $\\tan\\left(\\frac{2π}{3}\\right)$ is $\\frac{\\frac{\\sqrt{3}}{2}}{-\\frac{1}{2}}$, which is equivalent to $-\\sqrt{3}$. Therefore, the value of $\\tan\\left(\\frac{92π}{3}\\right)$ is $-\\sqrt{3}$."
+      "title": "Evaluate the reference angle",
+      "content": "$\\frac{2\\pi}{3}$ is in quadrant II with reference angle $\\frac{\\pi}{3}$. Tangent is negative in quadrant II, and $\\tan\\frac{\\pi}{3}=\\sqrt{3}$, so $$\\tan\\frac{2\\pi}{3}=-\\sqrt{3}$$"
     },
     {
       "title": "Check the choices",
-      "content": "Choice B is incorrect. This is the value of $\\frac{1}{\\tan\\left(\\frac{92π}{3}\\right)}$, not $\\tan\\left(\\frac{92π}{3}\\right)$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice C is incorrect. This is the value of $\\frac{1}{\\tan\\left(\\frac{π}{3}\\right)}$, not $\\tan\\left(\\frac{92π}{3}\\right)$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice D is incorrect. This is the value of $\\tan\\left(\\frac{π}{3}\\right)$, not $\\tan\\left(\\frac{92π}{3}\\right)$."
+      "content": "<ul><li>Choice A, $-\\sqrt{3}$, has the correct magnitude and negative sign.</li><li>Choice B is the reciprocal value.</li><li>Choice C is positive and also reciprocal.</li><li>Choice D is the quadrant I value, but the angle lands in quadrant II.</li></ul>That matches choice A."
     }
   ]
 }

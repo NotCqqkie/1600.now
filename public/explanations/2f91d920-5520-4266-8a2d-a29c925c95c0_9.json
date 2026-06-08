@@ -4,12 +4,25 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the cross products that produce x terms",
-      "content": "When expanding $(9x - 28)(15x + 4)$, the $x$ terms come from the cross products in FOIL:<br/><strong>Outer:</strong> $9x \\cdot 4 = 36x$<br/><strong>Inner:</strong> $-28 \\cdot 15x = -420x$"
+      "title": "Use quadratic regression to get b",
+      "content": "The expression is equivalent to $ax^2+bx+c$, and the question asks only for $b$. A fast Desmos method is to evaluate the expression at three x-values and fit the result to a quadratic."
     },
     {
-      "title": "Sum the x coefficients to find b",
-      "content": "The coefficient of $x$ is:<br/>$$36 + (-420) = -384$$<br/>Therefore, <strong>$b = -384$</strong>."
+      "title": "Create the Desmos table",
+      "content": "Enter:<br/>$$x_1=[-1,0,1]$$<br/>$$y_1=(9x_1-28)(15x_1+4)$$<br/>Then enter:<br/>$$y_1\\sim ax_1^2+bx_1+c$$",
+      "desmosExpressions": [
+        "x_1=[-1,0,1]",
+        "y_1=(9x_1-28)(15x_1+4)",
+        "y_1\\sim ax_1^2+bx_1+c"
+      ]
+    },
+    {
+      "title": "Read the coefficient",
+      "content": "The regression gives $a=135$, $b=-384$, and $c=-112$. Therefore the value of $b$ is <strong>-384</strong>."
+    },
+    {
+      "title": "Confirm with FOIL",
+      "content": "The $x$ term comes from the cross products: $9x\\cdot4=36x$ and $-28\\cdot15x=-420x$. Since $36-420=-384$, the answer is <strong>-384</strong>."
     }
   ]
 }

@@ -4,16 +4,27 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Price each class under the promotion",
-      "content": "With a regular price of \\$26.40:<ul><li>Class 1 is free: \\$0.</li><li>Class 2 is half off: $\\dfrac{26.40}{2}=\\$13.20$.</li><li>Each remaining class (classes 3 through $x$) costs the full \\$26.40. The number of those classes is $x-2$.</li></ul>"
+      "title": "Build two promotion totals",
+      "content": "The first class is free and the second class is half price, so 2 classes cost 13.20 dollars. A third class adds the regular 26.40 dollars, so 3 classes cost 39.60 dollars. Put $(2,13.20)$ and $(3,39.60)$ in Desmos and fit a line.",
+      "desmosExpressions": [
+        "x_1=[2,3]",
+        "y_1=[13.2,39.6]",
+        "y_1~m x_1+b"
+      ]
     },
     {
-      "title": "Add the costs into a single expression",
-      "content": "Total cost $= 0 + 13.20 + 26.40(x-2) = 26.40(x-2)+13.20$."
+      "title": "Use the fitted cost line",
+      "content": "The regression gives $m=26.40$ and $b=-39.60$, so the slope-intercept form is $f(x)=26.40x-39.60$. Choice B, $26.40(x-2)+13.20$, expands to $26.40x-52.80+13.20=26.40x-39.60$, so it matches."
     },
     {
-      "title": "Compare to each choice",
-      "content": "Check each option against $26.40(x-2)+13.20$:<ul><li>A) $26.40(x-1)+13.20$ charges full price for $x-1$ classes, which would also charge full price for class 2 &mdash; eliminate.</li><li>B) $26.40(x-2)+13.20$ matches the derived expression.</li><li>C) $26.40(x-1)+13.20(x-2)$ overcharges full price and adds extra half-price terms &mdash; eliminate.</li><li>D) $26.40(x-2)+13.20(x-1)$ has too many half-price classes (should be exactly one) &mdash; eliminate.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "title": "Confirm by substitution",
+      "content": "For $x=2$, choice B gives $26.40(0)+13.20=13.20$. For $x=3$, it gives $26.40(1)+13.20=39.60$. Those match the table. The other choices either charge too many full-price classes or too many half-price classes. Choice <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "y=26.4x-39.6",
+        "y=26.4(x-2)+13.2",
+        "(2,13.2)",
+        "(3,39.6)"
+      ]
     }
   ]
 }

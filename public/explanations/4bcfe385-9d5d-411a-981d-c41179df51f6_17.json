@@ -5,19 +5,29 @@
   "steps": [
     {
       "title": "Read the graphed line",
-      "content": "The graph of $y=f(x)+13$ passes through $(-3,8)$ and $(1,4)$. Slope $=\\dfrac{4-8}{1-(-3)}=\\dfrac{-4}{4}=-1$, so the line is $y=-x+5$."
+      "content": "Use a two-point table in Desmos. The graph of $y=f(x)+13$ passes through $(-5,8)$ and $(0,3)$. A linear regression on those two points gives slope $-1$ and intercept $3$, so the shown line is $y=-x+3$.",
+      "desmosExpressions": [
+        "x_1=[-5,0]",
+        "y_1=[8,3]",
+        "y_1~m x_1+b",
+        "y=-x+3"
+      ]
     },
     {
       "title": "Solve for f(x)",
-      "content": "From $f(x)+13=-x+5$, subtract 13: $f(x)=-x+5-13=-x-8$."
+      "content": "The graph is $y=f(x)+13$, so subtract 13 from the shown equation: $$f(x)+13=-x+3$$ $$f(x)=-x+3-13=-x-10$$",
+      "desmosExpressions": [
+        "y=-x+3",
+        "y=-x-10"
+      ]
     },
     {
       "title": "Match the form with positive c, d",
-      "content": "Writing $f(x)=-8-1\\cdot x=-d-cx$ gives $c=1>0$ and $d=8>0$."
+      "content": "Writing $f(x)=-10-1\\cdot x=-d-cx$ gives $c=1>0$ and $d=10>0$."
     },
     {
       "title": "Eliminate each choice",
-      "content": "<ul><li>A) $-d-cx$ &mdash; negative slope ($-c$), negative y-intercept ($-d$). Matches $f(x)=-x-8$.</li><li>B) $d-cx$ &mdash; negative slope but positive y-intercept; f has y-intercept $-8<0$. Eliminate.</li><li>C) $d+cx$ &mdash; positive slope; f has slope $-1<0$. Eliminate.</li><li>D) $-d+cx$ &mdash; positive slope; eliminate.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li>A) $-d-cx$ has a negative intercept and negative slope, matching $f(x)=-x-10$.</li><li>B) $d-cx$ has the right slope sign but a positive intercept.</li><li>C) $d+cx$ has a positive intercept and positive slope.</li><li>D) $-d+cx$ has the right intercept sign but a positive slope.</li></ul>That matches choice A, so <strong>A</strong> is correct."
     }
   ]
 }

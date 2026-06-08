@@ -1,13 +1,29 @@
 {
-  "qid": "68b576c1-9de8-41d3-9840-538d4edcd113_18",
-  "steps": [
-    "A 2.4% annual increase means each year the house is worth 100% + 2.4% = 102.4% of the prior year's value.",
-    "Convert 102.4% to a decimal growth factor: $1.024$.",
-    "Starting value is \\$174,000 and the factor compounds for $x$ years: $f(x) = 174{,}000(1.024)^x$."
-  ],
-  "eliminationHtml": "<ul><li><strong>Choice A &mdash; '$f(x)=174{,}000(0.024)^{x}$'</strong>: Growth factor 0.024 would reduce the value to nearly zero each year &mdash; models a 97.6% annual loss. &#10007;</li><li><strong>Choice B &mdash; '$f(x)=174{,}000(0.24)^{x}$'</strong>: Growth factor 0.24 models a 76% annual loss, not a gain. &#10007;</li><li><strong>Choice C &mdash; '$f(x)=174{,}000(1.024)^{x}$'</strong>: Factor $1 + 0.024 = 1.024$ correctly represents a 2.4% annual increase. &#10003;</li><li><strong>Choice D &mdash; '$f(x)=174{,}000(1.24)^{x}$'</strong>: Factor 1.24 represents a 24% annual increase, ten times the stated rate. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.",
+  "questionId": "68b576c1-9de8-41d3-9840-538d4edcd113_18",
   "correctAnswer": "C",
-  "desmosExpressions": [
-    "f\\left(x\\right)=174000\\cdot1.024^{x}"
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Enter two years of values",
+      "content": "At $x=0$, the house is worth $174{,}000$. A $2.4\\%$ annual increase means the one-year value is $174{,}000(1.024)=178{,}176$.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[174000,178176]"
+      ]
+    },
+    {
+      "title": "Fit the exponential model",
+      "content": "Run $y_1 \\sim a b^{x_1}$ in Desmos. The regression gives $a=174000$ and $b=1.024$, so the model is $y=174000(1.024)^x$.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[174000,178176]",
+        "y_1~a b^{x_1}",
+        "y=174000(1.024)^x"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "Choice A uses $0.024$ as the whole multiplier, and choice B uses $0.24$; both would shrink the value. Choice D uses $1.24$, a $24\\%$ increase. Choice C uses $1.024$, the correct yearly multiplier. Choice <strong>C</strong> is correct."
+    }
   ]
 }

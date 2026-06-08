@@ -3,10 +3,6 @@ import { useLocation } from "react-router-dom";
 
 const AUTH_PATHS = new Set(["/login", "/signup"]);
 export const AUTH_RETURN_KEY = "authReturnTo";
-
-// Only accept same-origin absolute paths. Rejects "//evil.com",
-// "javascript:...", "data:...", and anything else that could navigate off-site
-// or execute script when passed to router navigate().
 const isSafeReturnPath = (value: string): boolean =>
   value.startsWith("/") && !value.startsWith("//") && !value.startsWith("/\\");
 
@@ -29,7 +25,6 @@ export const getAuthReturnTo = (): string => {
       return normalizeReturnPath(stored);
     }
   } catch {
-    // sessionStorage unavailable
   }
   return "/";
 };
@@ -45,7 +40,6 @@ export const AuthReturnTracker = () => {
         location.pathname + location.search,
       );
     } catch {
-      // sessionStorage unavailable
     }
   }, [location.pathname, location.search]);
 

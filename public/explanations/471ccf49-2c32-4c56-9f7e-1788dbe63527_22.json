@@ -4,27 +4,23 @@
   "section": "Math",
   "steps": [
     {
-      "title": "No solution means parallel lines: same slope, different intercept",
-      "content": "A no-solution system has parallel, distinct lines. In Desmos, graph the given line and each answer choice. Choice B is parallel to the given line but has a different intercept, so the two lines never meet.",
+      "title": "Use the parallel-line shortcut",
+      "content": "No solution means parallel distinct lines: same slope, different $y$-intercept. Put the given equation into Desmos as $$2x=20y-8 \\Rightarrow y=\\frac{x}{10}+\\frac{2}{5}$$ The second line must have slope $\\frac{1}{10}$ but a different intercept.",
       "desmosExpressions": [
-        "2x=20y-8",
-        "x=5y",
-        "0.5x=5y",
-        "x=10y-4",
-        "0.5x=10y-4"
+        "y=\\frac{x}{10}+\\frac{2}{5}"
       ]
     },
     {
-      "title": "Test all four choices",
-      "content": "<ul><li><strong>Choice A &mdash; $x = 5y$</strong>: Rewrite: $y = \\frac{1}{5}x$. Slope = $\\frac{1}{5} \\neq \\frac{1}{10}$. Lines intersect (one solution). &#10007;</li><li><strong>Choice B &mdash; $\\frac{1}{2}x = 5y$</strong>: Rewrite: $y = \\frac{1}{10}x$. Slope = $\\frac{1}{10}$ &#10003;, y-intercept = 0 $\\neq \\frac{2}{5}$ &#10003;. Parallel lines &rarr; no solution. &#10003;</li><li><strong>Choice C &mdash; $x = 10y - 4$</strong>: Rewrite: $y = \\frac{1}{10}x + \\frac{2}{5}$. Slope = $\\frac{1}{10}$ and y-intercept = $\\frac{2}{5}$ &mdash; identical to the given equation. This gives infinitely many solutions, not no solution. &#10007;</li><li><strong>Choice D &mdash; $\\frac{1}{2}x = 10y - 4$</strong>: Rewrite: $x = 20y - 8 \\implies y = \\frac{1}{20}x + \\frac{2}{5}$. Slope = $\\frac{1}{20} \\neq \\frac{1}{10}$. Lines intersect. &#10007;</li></ul>"
+      "title": "Graph the only matching-slope choice",
+      "content": "Choice B gives $$\\frac{1}{2}x=5y \\Rightarrow y=\\frac{x}{10}$$ This has the same slope, $\\frac{1}{10}$, and a different intercept, $0$. In Desmos, $y=\\frac{x}{10}+\\frac{2}{5}$ and $y=\\frac{x}{10}$ are parallel distinct lines, so they never meet.",
+      "desmosExpressions": [
+        "y=\\frac{x}{10}",
+        "y=\\frac{x}{10}+\\frac{2}{5}"
+      ]
     },
     {
-      "title": "Conclusion",
-      "content": "Only Choice B produces a line with slope $\\frac{1}{10}$ and a different y-intercept (0 vs $\\frac{2}{5}$), making the lines parallel with no solution. That matches choice B &mdash; <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "y = \\frac{1}{10}x + \\frac{2}{5}",
-        "y = \\frac{1}{10}x"
-      ]
+      "title": "Eliminate the rest",
+      "content": "A has slope $\\frac{1}{5}$, so it intersects the given line. C is exactly the same as the given line, so it has infinitely many solutions. D has slope $\\frac{1}{20}$, so it intersects the given line. Therefore, the correct answer is choice <strong>B</strong>."
     }
   ]
 }

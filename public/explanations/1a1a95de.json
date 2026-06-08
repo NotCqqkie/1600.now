@@ -4,12 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the constraint equation and x-intercept",
-      "content": "At the $x$-intercept on the graph, $y = 0$ (no K-type stars). The mass equation $m_M \\cdot x + m_K \\cdot y = 127,882$ becomes $m_M \\cdot x = 127,882$. This allows us to find the mass of each M-star directly from the intercept."
+      "title": "Use the x-intercept shortcut",
+      "content": "The graph represents all combinations of M-type stars and K-type stars with total mass $127{,}882$ quettagrams. At the $x$-intercept, $y=0$, so there are no K-type stars. That means the whole mass is coming only from the M-type stars."
     },
     {
-      "title": "Solve for M-star mass using the intercept",
-      "content": "From the graph, the $x$-intercept is at $x \\approx 160$. Therefore: $$m_M \\cdot 160 = 127,882$$ $$m_M = \\frac{127,882}{160} \\approx 799.26$$ This is closest to choice A — <strong>A</strong> is correct."
+      "title": "Divide total mass by the intercept",
+      "content": "Read the $x$-intercept from the graph. It is a little less than $160$, about $158$. If $m$ is the mass of each M-type star, then $$158m\\approx127{,}882$$ so $$m\\approx\\frac{127{,}882}{158}\\approx809.4.$$ Even if you round the intercept to $160$, you get about $799.3$, which is still closest to $811$.",
+      "desmosExpressions": [
+        "127882/158",
+        "127882/160"
+      ]
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "The answer choices are spread far enough apart that the graph estimate is enough. The computed mass is closest to $811$, so choice <strong>A</strong> is correct."
     }
   ]
 }

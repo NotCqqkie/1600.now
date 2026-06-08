@@ -1,5 +1,3 @@
-// SAT tool pages — client-side calculators with SEO-friendly copy.
-// Each tool has a dedicated page component and a sitemap entry.
 
 export interface SatToolMeta {
   slug: string;

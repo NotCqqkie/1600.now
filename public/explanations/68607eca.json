@@ -4,16 +4,26 @@
   "correctAnswer": "C",
   "steps": [
     {
-      "title": "Determine the growth factor",
-      "content": "&quot;Increased by 70%&quot; means the new value equals the old value plus 70% of itself: $$\\text{new} = \\text{old} + 0.70 \\cdot \\text{old} = 1.70 \\cdot \\text{old}.$$ Every 2 days the views multiply by $1.70$, so the base of the exponential must be $1.70$ (not $0.70$)."
+      "title": "Make a two-point table",
+      "content": "Use Desmos to fit the exponential model. On day $0$, there are $233$ views. Every $2$ days, the number is multiplied by $1.70$, so on day $2$ there are $233(1.70)=396.1$ views.",
+      "desmosExpressions": [
+        "x_1=[0,2]",
+        "y_1=[233,396.1]"
+      ]
     },
     {
-      "title": "Build the exponent for x days",
-      "content": "Growth happens once every 2 days. In $x$ days there are $\\frac{x}{2}$ two-day periods, so the exponent is $\\frac{x}{2}$. Starting with 233 views: $$f(x) = 233(1.70)^{x/2}.$$"
+      "title": "Use a custom regression for two-day growth",
+      "content": "Because the growth period is $2$ days, type $y_1\\sim a b^{x_1/2}$. Desmos returns $a=233$ and $b=1.70$, giving $f(x)=233(1.70)^{x/2}$.",
+      "desmosExpressions": [
+        "x_1=[0,2]",
+        "y_1=[233,396.1]",
+        "y_1~a b^{x_1/2}",
+        "y=233(1.70)^{x/2}"
+      ]
     },
     {
-      "title": "Evaluate each choice",
-      "content": "<ul><li>A) $233(0.70)^{x/2}$ — base 0.70 represents 30% decay, not 70% growth. Eliminated.</li><li>B) $233(0.70)^{2x}$ — wrong base and exponent. Eliminated.</li><li>C) $233(1.70)^{x/2}$ — correct growth factor 1.70 and correct period exponent $x/2$.</li><li>D) $233(1.70)^{2x}$ — exponent $2x$ would mean growth twice per day, not every 2 days. Eliminated.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+      "title": "Confirm the answer",
+      "content": "Choice C has the correct starting value, multiplier, and exponent. Choices A and B use decay factor $0.70$, and choice D uses exponent $2x$ instead of $x/2$, so choice <strong>C</strong> is correct."
     }
   ]
 }

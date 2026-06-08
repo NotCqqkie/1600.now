@@ -4,8 +4,18 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Perpendicular lines: negative reciprocal slope",
-      "content": "Line k has slope $-\\dfrac{3}{4}$ (read from the figure). For line j perpendicular to k, flip and negate: $$m_j = -\\frac{1}{-3/4} = \\frac{4}{3}$$"
+      "title": "Fit line k from the graph",
+      "content": "Use a Desmos table on the shown line $k$. The line passes through $(0,3)$ and $(4,0)$. The regression line has slope $-\\frac{3}{4}$, so line $k$ has slope $-\\frac{3}{4}$.",
+      "desmosExpressions": [
+        "x_1=[0,4]",
+        "y_1=[3,0]",
+        "y_1~m x_1+b",
+        "y=-(3/4)x+3"
+      ]
+    },
+    {
+      "title": "Use the perpendicular slope",
+      "content": "For a line perpendicular to $k$, flip and negate the slope: $$m_j=-\\frac{1}{-3/4}=\\frac{4}{3}$$"
     },
     {
       "title": "Plug point $(-15, -28)$ into $y = \\frac{4}{3}x + b$",
@@ -13,7 +23,11 @@
     },
     {
       "title": "Read off the answer",
-      "content": "The equation is $y = \\dfrac{4}{3}x - 8$. That matches choice A — <strong>A</strong> is correct."
+      "content": "The equation is $y=\\frac{4}{3}x-8$. That matches choice A, so <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y=(4/3)x-8",
+        "(-15,-28)"
+      ]
     }
   ]
 }

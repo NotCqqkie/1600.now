@@ -4,16 +4,26 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the annual growth factor",
-      "content": "A 2.4% increase each year means the new value is $100\\% + 2.4\\% = 102.4\\%$ of the previous year&apos;s value. In decimal form, the growth factor is $$1 + 0.024 = 1.024.$$"
+      "title": "Enter the first two years",
+      "content": "A Desmos exponential regression makes the percentage-growth structure visible. At $x=0$, the house is worth $174{,}000$. After one year, it is multiplied by $1+0.024=1.024$, so the value is $174{,}000(1.024)=178{,}176$.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[174000,178176]"
+      ]
     },
     {
-      "title": "Build the exponential model",
-      "content": "With initial value $\\$174{,}000$ and annual multiplier $1.024$, after $x$ years the value is $$f(x) = 174{,}000 \\cdot (1.024)^x.$$"
+      "title": "Fit the exponential model",
+      "content": "Run $y_1 \\sim a b^{x_1}$ in Desmos. The regression gives $a=174000$ and $b=1.024$, so the model is $y=174000(1.024)^x$.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[174000,178176]",
+        "y_1~a b^{x_1}",
+        "y=174000(1.024)^x"
+      ]
     },
     {
-      "title": "Evaluate each choice",
-      "content": "<ul><li>Choice A: $f(x)=174{,}000(0.024)^{x}$ &mdash; uses the rate $0.024$ alone, which would <em>shrink</em> the value. Incorrect.</li><li>Choice B: $f(x)=174{,}000(0.24)^{x}$ &mdash; uses $0.24$ (also less than $1$, so a decrease), and misreads $2.4\\%$ as $24\\%$. Incorrect.</li><li>Choice C: $f(x)=174{,}000(1.024)^{x}$ &mdash; uses the correct growth factor $1 + 0.024 = 1.024$. Correct.</li><li>Choice D: $f(x)=174{,}000(1.24)^{x}$ &mdash; corresponds to a $24\\%$ annual increase, not $2.4\\%$. Incorrect.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+      "title": "Choose the matching function",
+      "content": "Choice A uses $0.024$ as the whole multiplier, which would make the value shrink. Choice B uses $0.24$, also a decrease. Choice D uses $1.24$, which would be a $24\\%$ increase. Choice C uses the regression multiplier $1.024$, so choice <strong>C</strong> is correct."
     }
   ]
 }

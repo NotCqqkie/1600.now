@@ -4,28 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply the factoring from the given condition",
-      "content": "Factor $3$: $3(x-9) = 24$."
+      "title": "Factor the left side",
+      "content": "Notice that $$3x-27=3(x-9)$$ So the equation becomes $$3(x-9)=24$$"
     },
     {
-      "title": "Compute the target value",
-      "content": "Divide by $3$: $x-9 = 8$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "Choice B is correct. Dividing each side of the given equation by $3$ yields $x-9=8$. Therefore, the value of $x-9$ is $8$."
+      "title": "Solve only for the requested expression",
+      "content": "Divide by $3$: $$x-9=8$$ The question asks for $x-9$, so you can stop here."
     },
     {
       "title": "Check the choices",
-      "content": "Choice A is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice C is incorrect. This is the value of $3x-27$, not $x-9$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice D is incorrect and may result from conceptual or calculation errors."
+      "content": "Choice B is $8$, so it is correct. Choice C, $24$, is the value of $3x-27$, not the value of $x-9$."
     }
   ]
 }

@@ -5,15 +5,20 @@
   "steps": [
     {
       "title": "Read the intersection from the graph",
-      "content": "The solution to a graphed system is the point where the two lines cross. Here that point is at $x=4,\\ y=3$."
+      "content": "The solution to a graphed system is the point that lies on both lines. One line is horizontal at $y=3$, so the solution must have $y=3$. The slanted line crosses that horizontal line at $x=4$."
     },
     {
       "title": "State the ordered pair",
-      "content": "The solution is $(4,3)$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."
+      "content": "Putting the coordinates together gives the intersection point $$(4,3).$$"
     },
     {
-      "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice B, $(4,3)$, and the other choices fail the same setup or substitution. Therefore <strong>B</strong> is correct."
+      "title": "Check in Desmos",
+      "content": "A quick graph check is to enter the horizontal line $y=3$ and the slanted line $y=\\frac54x-2$, which passes through $(0,-2)$ and $(4,3)$. The intersection is $(4,3)$, matching choice <strong>B</strong>.",
+      "desmosExpressions": [
+        "y=3",
+        "y=\\frac{5}{4}x-2",
+        "(4,3)"
+      ]
     }
   ]
 }

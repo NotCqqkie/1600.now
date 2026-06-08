@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Find the vertex x-coordinate",
-      "content": "$f(x)=x^2-48x+2304$, so $a=1$, $b=-48$.<br/>$$x=-\\frac{b}{2a}=-\\frac{-48}{2(1)}=24$$"
+      "content": "The quadratic $f(x)=x^2-48x+2304$ opens upward because the coefficient of $x^2$ is positive, so its vertex gives the minimum. Use $$x=-\\dfrac{b}{2a}=-\\dfrac{-48}{2(1)}=24.$$"
     },
     {
-      "title": "Evaluate $f(24)$ to get the minimum",
-      "content": "$$f(24)=24^2-48(24)+2304=576-1152+2304=\\mathbf{1728}$$<br/>The answer is <strong>1728</strong>.",
+      "title": "Evaluate at the vertex",
+      "content": "Now compute the function value at $x=24$: $$f(24)=24^2-48(24)+2304=576-1152+2304=1728.$$",
       "desmosExpressions": [
-        "f(x)=x^2-48x+2304",
+        "y=x^2-48x+2304",
         "(24,1728)"
       ]
     },
     {
-      "title": "Use the source rationale",
-      "content": "The correct answer is $1,728$. The given function can be rewritten in the form $f\\left(x\\right)=a{\\left(x-h\\right)}^{2}+k$, where $a$ is a positive constant and the minimum value, $k$, of the function occurs when the value of $x$ is $h$. By completing the square, $f\\left(x\\right)={x}^{2}-48x+2,304$ can be written as $f\\left(x\\right)={x}^{2}-48x+{\\left(\\frac{48}{2}\\right)}^{2}+2,304-{\\left(\\frac{48}{2}\\right)}^{2}$, or $f\\left(x\\right)={\\left(x-24\\right)}^{2}+1,728$. This equation is in the form $f\\left(x\\right)=a{\\left(x-h\\right)}^{2}+k$, where $a=1$, $h=24$, and $k=1,728$. Therefore, the minimum value of the given function is $1,728$."
+      "title": "Confirm the minimum",
+      "content": "The minimum value is <strong>1728</strong>. In Desmos, the graph is an upward-opening parabola with vertex $(24,1728)$, confirming that $1728$ is the least output value."
     }
   ]
 }

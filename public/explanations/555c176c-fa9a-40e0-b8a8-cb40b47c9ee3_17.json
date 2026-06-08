@@ -3,12 +3,15 @@
   "steps": [
     "The graphed function is $y = f(x)+4$. At $x=0$ the graph shows $y=8$, so the y-intercept of $f(x)+4$ is $8$.",
     "Since $f(0)+4=8$, we get $f(0)=4$.",
-    "All choices have the form $f(x)=-6^x+c$. At $x=0$: $f(0)=-6^0+c=-1+c$. Setting $-1+c=4$ gives $c=5$, so $f(x)=-6^x+5$."
+    "All choices have the form $f(x)=-6^x+c$. At $x=0$: $f(0)=-6^0+c=-1+c$. Setting $-1+c=4$ gives $c=5$, so $f(x)=-6^x+5$.",
+    "In Desmos, graph $f(x)+4$ for each choice. Only choice B produces $y=-(6)^x+9$, whose y-intercept is $8$ and matches the displayed graph."
   ],
   "choiceAnalysis": "<ul><li><strong>Choice A &mdash; '$f(x)=-6^x+1$'</strong>: $f(0)=-1+1=0 \\neq 4$. &#10007;</li><li><strong>Choice B &mdash; '$f(x)=-6^x+5$'</strong>: $f(0)=-1+5=4$ ✓. Then $f(x)+4=-6^x+9$, y-intercept $8$ matches graph. &#10003;</li><li><strong>Choice C &mdash; '$f(x)=-6^x+8$'</strong>: $f(0)=-1+8=7 \\neq 4$. &#10007;</li><li><strong>Choice D &mdash; '$f(x)=-6^x+9$'</strong>: $f(0)=-1+9=8 \\neq 4$. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
   "correctAnswer": "B",
   "desmosExpressions": [
-    "y=-6^{x}+5",
-    "y=-6^{x}+9"
+    "y=-(6)^x+1+4",
+    "y=-(6)^x+5+4",
+    "y=-(6)^x+8+4",
+    "y=-(6)^x+9+4"
   ]
 }

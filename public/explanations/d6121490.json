@@ -4,8 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read braking distances and calculate the difference",
-      "content": "From the graph, at 30 miles per hour the braking distance is approximately 75 feet, and at 50 miles per hour it is approximately 200 feet. The difference is: $$200 - 75 = 125 \\text{ feet}$$ That matches choice B — <strong>B</strong> is correct."
+      "title": "Read the two graph values",
+      "content": "At $30$ miles per hour, the graph shows a braking distance of about $100$ feet. At $50$ miles per hour, the graph shows a braking distance of about $225$ feet."
+    },
+    {
+      "title": "Subtract the distances",
+      "content": "The question asks how many feet greater the $50$ mph braking distance is, so subtract: $$225-100=125$$"
+    },
+    {
+      "title": "Check the choices",
+      "content": "<ul><li>Choice A, $75$, is too small.</li><li>Choice B, $125$, matches the graph difference. Correct.</li><li>Choice C, $175$, subtracts from the wrong value.</li><li>Choice D, $250$, is not the difference between the two requested speeds.</li></ul>That matches choice B."
     }
   ]
 }

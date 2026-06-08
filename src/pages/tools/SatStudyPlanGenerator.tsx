@@ -114,13 +114,13 @@ const SatStudyPlanGenerator = () => {
   const [weeks, setWeeks] = useState<string>("10");
 
   const plan = useMemo(() => {
-    const b = Number(baseline);
-    const t = Number(target);
-    const w = Number(weeks);
-    if (!Number.isFinite(b) || !Number.isFinite(t) || !Number.isFinite(w)) {
+    const baselineScore = Number(baseline);
+    const targetScore = Number(target);
+    const weekCount = Number(weeks);
+    if (!Number.isFinite(baselineScore) || !Number.isFinite(targetScore) || !Number.isFinite(weekCount)) {
       return null;
     }
-    return generatePlan(b, t, Math.min(24, Math.max(2, w)));
+    return generatePlan(baselineScore, targetScore, Math.min(24, Math.max(2, weekCount)));
   }, [baseline, target, weeks]);
 
   const gap = Number(target) - Number(baseline);

@@ -319,7 +319,6 @@ export const satSkills: SatSkill[] = [
       "Arc length = rθ and sector area = ½r²θ, both with θ in radians.",
     ],
   },
-  // Reading & Writing skills
   {
     slug: "words-in-context",
     name: "Words in Context",

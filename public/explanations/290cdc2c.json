@@ -4,28 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Simplify the expression",
-      "content": "A $\\tfrac{1}{n}$ exponent is the $n$th root: $$x^{1/14}=\\sqrt[14]{x}.$$"
+      "title": "Use the fractional exponent rule",
+      "content": "A fractional exponent with numerator $1$ means a root: $$x^{1/n}=\\sqrt[n]{x}.$$ Here $n=14$, so $$x^{1/14}=\\sqrt[14]{x}.$$"
     },
     {
-      "title": "Match to the answer choices",
-      "content": "That matches choice <strong>B</strong> — <strong>B</strong> is correct."
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "Choice B is correct. An expression in the form ${x}^{\\frac{1}{k}}$, where $x>0$ and $k>0$, is equivalent to $\\sqrt[k]{x}$. It follows that ${x}^{\\frac{1}{14}}$, where $x>0$, is equivalent to $\\sqrt[14]{x}$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice A is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice C is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice D is incorrect and may result from conceptual or calculation errors."
+      "title": "Check against the choices",
+      "content": "Choice <strong>B</strong> is correct. Choice A treats the exponent like multiplication by $\\dfrac{1}{14}$, choice C multiplies by $14$, and choice D uses the reciprocal exponent idea incorrectly by raising $x$ to the $14$th power."
     }
   ]
 }

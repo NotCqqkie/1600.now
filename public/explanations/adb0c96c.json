@@ -4,24 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve the system by elimination",
-      "content": "Subtract the second from the first to cancel $y$: $$(24x+y)-(6x+y)=48-72\\Rightarrow 18x=-24,$$ so $x=-\\tfrac{4}{3}$."
+      "title": "Eliminate $x$ to get $y$ faster",
+      "content": "The question asks for $y$. Multiply the second equation by $4$ so the $x$-coefficients match: $$24x+4y=288.$$"
     },
     {
-      "title": "Find $y$",
-      "content": "Substitute into $6x+y=72$: $y=72-6(-\\tfrac{4}{3})=72+8=80$. The answer is <strong>80</strong>.",
+      "title": "Subtract the first equation",
+      "content": "Subtract $24x+y=48$ from $24x+4y=288$: $$(24x+4y)-(24x+y)=288-48.$$ This gives $3y=240$."
+    },
+    {
+      "title": "Solve and verify",
+      "content": "Divide by $3$ to get $y=80$. In Desmos, the two lines intersect at a point with $y=80$, confirming the answer.",
       "desmosExpressions": [
-        "y = 48 - 24x",
-        "y = 72 - 6x"
+        "24x+y=48",
+        "6x+y=72"
       ]
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "The correct answer is $80$. Subtracting the second equation in the given system from the first equation yields $\\left(24x+y\\right)-\\left(6x+y\\right)=48-72$, which is equivalent to $24x-6x+y-y=-24$, or $18x=-24$. Dividing each side of this equation by $3$ yields $6x=-8$. Substituting $-8$ for $6x$ in the second equation yields $-8+y=72$. Adding $8$ to both sides of this equation yields $y=80$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Alternate approach: Multiplying each side of the second equation in the given system by $4$ yields $24x+4y=288$. Subtracting the first equation in the given system from this equation yields $\\left(24x+4y\\right)-\\left(24x+y\\right)=288-48$, which is equivalent to $24x-24x+4y-y=240$, or $3y=240$. Dividing each side of this equation by $3$ yields $y=80$."
     }
   ]
 }

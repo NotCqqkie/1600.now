@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve the equation",
-      "content": "Divide both sides by $5$: $$|x|=9.$$ So $x=\\pm 9$."
+      "title": "Isolate the absolute value",
+      "content": "Start with $5|x|=45$. Divide both sides by $5$:<br/>$$|x|=9$$"
     },
     {
-      "title": "Identify the positive solution",
-      "content": "Take the positive value. The answer is <strong>9</strong>.",
-      "desmosExpressions": [
-        "y = 5|x|",
-        "y = 45"
-      ]
+      "title": "Use the meaning of absolute value",
+      "content": "$|x|=9$ means the distance from $x$ to $0$ is $9$. The two possible values are:<br/>$$x=9\\quad\\text{or}\\quad x=-9$$"
     },
     {
-      "title": "Use the source rationale",
-      "content": "The correct answer is $9$. Dividing both sides of the given equation by $5$ yields $|x|=9$. By the definition of absolute value, if $|x|=9$, then $x=9$ or $x=-9$. Therefore, the two solutions to the equation $5\\left|x\\right|=45$ are $9$ and $-9$. It follows that the positive solution to the given equation is $9$."
+      "title": "Pick the positive solution",
+      "content": "The question asks for the positive solution, so choose $9$, not $-9$."
+    },
+    {
+      "title": "Answer",
+      "content": "The positive solution is <strong>9</strong>."
     }
   ]
 }

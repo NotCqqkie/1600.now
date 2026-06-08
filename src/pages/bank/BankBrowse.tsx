@@ -148,7 +148,6 @@ const BankBrowse = () => {
     <div className="min-h-screen bg-gradient-to-b from-background to-muted">
       <section className="container mx-auto px-4 pt-8 pb-12">
         <div className="max-w-4xl mx-auto space-y-8">
-          {/* Header */}
           <div className="flex items-center gap-4">
             <Button variant="ghost" size="icon" className="h-10 w-10 shrink-0" onClick={() => navigate(basePath)}>
               <ArrowLeft className="h-5 w-5" />
@@ -174,7 +173,6 @@ const BankBrowse = () => {
             </div>
           </div>
 
-          {/* Toggle between Math and Reading */}
           <div className="flex flex-wrap gap-2 items-center">
             <Button
               variant={isMath ? "default" : "outline"}
@@ -193,7 +191,6 @@ const BankBrowse = () => {
             <BankSourceToggle value={bankSource} onChange={handleBankSourceChange} />
           </div>
 
-          {/* Domain Accordion */}
           <Accordion type="multiple" defaultValue={domains} className="space-y-3">
             {domains.map((domain) => {
               const skills = domainSkillMap[domain] || [];
@@ -287,7 +284,6 @@ const BankBrowse = () => {
             })}
           </Accordion>
 
-          {/* Quick Actions */}
           <Card className="p-4 bg-muted/30">
             <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
               <Layers className="h-5 w-5 text-muted-foreground" />

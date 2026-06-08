@@ -4,19 +4,22 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the slope from the two known data points",
-      "content": "The population increased from 57 thousand in 1991 to 224 thousand in 2011. The change is $224 - 57 = 167$ thousand over $2011 - 1991 = 20$ years. The slope is:\n\n$$m = \\frac{167}{20} = 8.35 \\text{ thousand per year}$$",
-      "formula": "$$m = \\frac{\\text{change in output}}{\\text{change in input}}$$"
+      "title": "Convert years to model inputs",
+      "content": "Use years after $1991$ as the input. Then $1991$ becomes $0$, $2011$ becomes $20$, and $2015$ becomes $24$. The two known data points are $(0,57)$ and $(20,224)$, with population measured in thousands."
     },
     {
-      "title": "Project to 2015 using the linear model",
-      "content": "From 1991 to 2015 is $2015 - 1991 = 24$ years. With a constant rate of 8.35 thousand per year, the population grows by:\n\n$$8.35 \\times 24 = 200.4 \\text{ thousand}$$\n\nStarting from 57 thousand in 1991:\n\n$$x = 57 + 200.4 = 257.4$$\n\nRounded to the nearest whole number, the value of $x$ is <strong>257</strong>.",
+      "title": "Fit the linear model in Desmos",
+      "content": "Enter the known points as $x_1=[0,20]$ and $y_1=[57,224]$, then type $y_1\\sim m x_1+b$. Desmos returns $m=8.35$ and $b=57$, so the model is $$y=8.35x+57.$$",
       "desmosExpressions": [
-        "y=8.35x+57",
-        "(0,57)",
-        "(20,224)",
-        "(24,257)"
+        "x_1=[0,20]",
+        "y_1=[57,224]",
+        "y_1~m x_1+b",
+        "y=8.35x+57"
       ]
+    },
+    {
+      "title": "Evaluate at 2015",
+      "content": "For $2015$, use $x=24$: $$y=8.35(24)+57=257.4.$$ Rounded to the nearest whole number, the estimated population is <strong>257</strong> thousand."
     }
   ]
 }

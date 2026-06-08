@@ -4,32 +4,24 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use point-slope form",
-      "content": "$$y - 10 = -\\frac{1}{3}(x - 9)$$"
+      "title": "Use slope-intercept form",
+      "content": "The line has slope $-\\frac{1}{3}$, so its equation must look like $$y=-\\frac{x}{3}+b.$$ That immediately eliminates choices A and B because their slopes are not $-\\frac{1}{3}$."
     },
     {
-      "title": "Simplify to slope-intercept form",
-      "content": "$$- \\frac{1}{3}(x - 9) = -\\frac{x}{3} + 3$$<br/>$$y = -\\frac{x}{3} + 13$$<br/>That matches choice D — <strong>D</strong> is correct.",
+      "title": "Use the given point",
+      "content": "Substitute the point $(9,10)$ into $y=-\\frac{x}{3}+b$: $$10=-\\frac{9}{3}+b=-3+b.$$ Therefore $b=13$."
+    },
+    {
+      "title": "Check the choices",
+      "content": "The equation is $$y=-\\frac{x}{3}+13.$$ A Desmos table gives the same result: start with $(9,10)$, then use the slope $-\\frac{1}{3}$ to get another point $(12,9)$. Linear regression through those two points returns $y=-\\frac{x}{3}+13$. Choice D is correct. Choice C has the right slope but the wrong intercept; it gives $y=7$ when $x=9$, not $10$.",
       "desmosExpressions": [
-        "y-10=-\\frac{1}{3}(x-9)",
+        "x_1=[9,12]",
+        "y_1=[10,9]",
+        "y_1~m x_1+b",
+        "y=m x+b",
+        "y=-x/3+13",
         "(9,10)"
       ]
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "Choice D is correct. The equation that defines line $t$ in the <em>xy</em>-plane can be written in slope-intercept form $y=mx+b$, where $m$ is the slope of line $t$ and $\\left(0,b\\right)$ is its <em>y</em>-intercept. It's given that line $t$ has a slope of $-\\frac{1}{3}$. Therefore, $m=-\\frac{1}{3}$. Substituting $-\\frac{1}{3}$ for $m$ in the equation $y=mx+b$ yields $y=-\\frac{1}{3}x+b$, or $y=-\\frac{x}{3}+b$. It's also given that line $t$ passes through the point $\\left(9,10\\right)$. Substituting $9$ for $x$ and $10$ for $y$ in the equation $y=-\\frac{x}{3}+b$ yields $10=-\\frac{9}{3}+b$, or $10=-3+b$. Adding $3$ to both sides of this equation yields $13=b$. Substituting $13$ for $b$ in the equation $y=-\\frac{x}{3}+b$ yields $y=-\\frac{x}{3}+13$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice A is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice B is incorrect. This equation defines a line that has a slope of $9$, not $-\\frac{1}{3}$, and passes through the point $\\left(0,10\\right)$, not $\\left(9,10\\right)$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice C is incorrect. This equation defines a line that passes through the point $\\left(0,10\\right)$, not $\\left(9,10\\right)$."
     }
   ]
 }

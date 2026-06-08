@@ -1,36 +1,29 @@
 {
-  "qid": "946ab892",
+  "questionId": "946ab892",
   "correctAnswer": "C",
+  "section": "Math",
   "steps": [
     {
-      "step": 1,
-      "text": "A linear function with slope 2 has the form $g(x) = 2x + b$."
-    },
-    {
-      "step": 2,
-      "text": "Substitute the point $(1, 14)$: $14 = 2(1) + b \\Rightarrow b = 12$. So $g(x) = 2x + 12$."
-    },
-    {
-      "step": 3,
-      "text": "Evaluate each choice.",
-      "choices": [
-        {
-          "id": "A",
-          "explanation": "<ul><li>$g(x) = 2x$ has $b=0$. Checking: $g(1) = 2(1) = 2 \\neq 14$. Not correct.</li></ul>"
-        },
-        {
-          "id": "B",
-          "explanation": "<ul><li>$g(x) = 2x+2$ gives $g(1) = 4 \\neq 14$. Not correct.</li></ul>"
-        },
-        {
-          "id": "C",
-          "explanation": "<ul><li>$g(x) = 2x+12$ gives $g(1) = 2+12 = 14$ ✓ and slope $= 2$ ✓. That matches choice C &mdash; <strong>C</strong> is correct.</li></ul>"
-        },
-        {
-          "id": "D",
-          "explanation": "<ul><li>$g(x) = 2x+14$ gives $g(1) = 16 \\neq 14$. Not correct.</li></ul>"
-        }
+      "title": "Create two points from the slope",
+      "content": "The graph has slope $2$ and passes through $(1,14)$. A slope of $2$ means that when $x$ increases by $1$, $y$ increases by $2$, so a second point is $(2,16)$.",
+      "desmosExpressions": [
+        "x_1=[1,2]",
+        "y_1=[14,16]"
       ]
+    },
+    {
+      "title": "Use linear regression",
+      "content": "Type $y_1\\sim m x_1+b$. Desmos returns $m=2$ and $b=12$, so $g(x)=2x+12$.",
+      "desmosExpressions": [
+        "x_1=[1,2]",
+        "y_1=[14,16]",
+        "y_1~m x_1+b",
+        "y=2x+12"
+      ]
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "Choice C matches $g(x)=2x+12$. It also checks with the given point: $g(1)=2(1)+12=14$, so choice <strong>C</strong> is correct."
     }
   ]
 }

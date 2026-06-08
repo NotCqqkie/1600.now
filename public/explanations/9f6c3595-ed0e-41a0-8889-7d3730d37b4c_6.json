@@ -11,7 +11,7 @@
       "title": "Compute the mean",
       "content": "$$\\frac{8+5+12+10+10}{5}=\\frac{45}{5}=9$$ Desmos can compute the mean directly from the five table entries.",
       "desmosExpressions": [
-        "mean([8,5,12,10,10])"
+        "\\operatorname{mean}\\left([8,5,12,10,10]\\right)"
       ]
     },
     {

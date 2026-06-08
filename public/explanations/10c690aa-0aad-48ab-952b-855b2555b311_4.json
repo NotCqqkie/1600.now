@@ -4,26 +4,26 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Determine the slope's sign",
-      "content": "This is a model-matching question, so graph all four choices in Desmos. The data rise from about $(1,25)$ to $(5,65)$, so the correct line should have positive slope near $10$ and a y-intercept near $15$.",
+      "title": "Enter approximate points from the graph",
+      "content": "For a scatterplot model question, the fastest reliable method is to turn the plotted points into a Desmos table. The points appear close to $(0,15)$, $(1,25)$, $(2,35)$, $(3,45)$, $(4,55)$, and $(5,65)$.",
       "desmosExpressions": [
-        "y=14.7-10x",
-        "y=14.7+10x",
-        "y=-14.7-10x",
-        "y=-14.7+10x"
+        "x_1=[0,1,2,3,4,5]",
+        "y_1=[15,25,35,45,55,65]"
       ]
     },
     {
-      "title": "Pin down the y-intercept with a data point",
-      "content": "Test $x = 1, y \\approx 25$ in each choice:<ul><li>Choice A ($14.7 - 10x$): $14.7 - 10 = 4.7$ &mdash; wrong slope sign, doesn't match.</li><li>Choice B ($14.7 + 10x$): $14.7 + 10 = 24.7$ &mdash; matches the data.</li><li>Choice C ($-14.7 - 10x$): $-24.7$ &mdash; far off.</li><li>Choice D ($-14.7 + 10x$): $-4.7$ &mdash; nowhere near $25$.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
+      "title": "Run linear regression",
+      "content": "Use $y_1 \\sim mx_1+b$. The approximate table gives a slope near $10$ and a $y$-intercept near $15$. Among the answer choices, the model with positive slope $10$ and intercept closest to $15$ is $y=14.7+10x$.",
       "desmosExpressions": [
-        "(1,25)",
-        "(2,35)",
-        "(3,45)",
-        "(4,55)",
-        "(5,65)",
+        "x_1=[0,1,2,3,4,5]",
+        "y_1=[15,25,35,45,55,65]",
+        "y_1~m x_1+b",
         "y=14.7+10x"
       ]
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "Choices A and C have negative slope, but the data rise. Choice D has positive slope, but its intercept is about $-15$, far below the plotted points. Choice B matches the fitted trend, so choice <strong>B</strong> is correct."
     }
   ]
 }

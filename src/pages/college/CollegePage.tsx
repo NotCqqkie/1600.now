@@ -24,7 +24,6 @@ const chanceLabel = (sat: number, c: College): string => {
 
 const carnegieLabel = (code: number | null): string => {
   if (!code) return "Four-year college";
-  // Compressed Carnegie labels for the most common codes.
   if (code === 15) return "Doctoral / R1 research university";
   if (code === 16) return "Doctoral / R2 research university";
   if (code === 17) return "Doctoral / professional";

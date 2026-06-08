@@ -20,6 +20,9 @@
       "title": "Compute f(7) using the growth factor",
       "content": "From $x=5$ to $x=7$ is a 2-unit increase, so multiply by $3^2=9$:<br/>$$f(7)=162\\cdot 9=1458$$<br/>You can also evaluate the Desmos regression model at $x=7$. The answer is <strong>1458</strong>.",
       "desmosExpressions": [
+        "x_1=[2,5]",
+        "y_1=[6,162]",
+        "y_1~a k^{x_1}",
         "a k^7"
       ]
     }

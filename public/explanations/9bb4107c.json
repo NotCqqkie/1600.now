@@ -4,13 +4,24 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read y-values from the graph",
-      "content": "From the graph, at $$x=2$$ the momentum is $$y=1$$ newton‑seconds. At $$x=6$$ the momentum is $$y=3$$ newton‑seconds."
+      "title": "Read the two endpoints from the graph",
+      "content": "Average rate of change only needs the two endpoint values. On the graph, the point at $x=2$ is $(2,6)$, so the momentum is $6$ newton-seconds. The point at $x=6$ is $(6,8)$, so the momentum is $8$ newton-seconds.",
+      "desmosExpressions": [
+        "(2,6)",
+        "(6,8)"
+      ]
     },
     {
       "title": "Compute average rate of change",
-      "content": "The average rate of change is $$\\frac{y(6)-y(2)}{6-2} = \\frac{3-1}{4} = \\frac{2}{4} = 0.5$$ newton‑seconds per second. The answer is <strong>0.5</strong>.",
-      "formula": "$$\\text{average rate} = \\frac{\\Delta y}{\\Delta x}$$"
+      "content": "Use change in momentum divided by change in time: $$\\frac{y(6)-y(2)}{6-2}=\\frac{8-6}{6-2}=\\frac{2}{4}=0.5.$$ The units are newton-seconds per second, and the answer is <strong>0.5</strong>.",
+      "formula": "$$\\text{average rate}=\\frac{\\Delta y}{\\Delta x}$$",
+      "desmosExpressions": [
+        "\\frac{8-6}{6-2}"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The graph values are $(2,6)$ and $(6,8)$, so the momentum increases by $2$ over $4$ seconds. Equivalent correct entries include $0.5$, $.5$, and $1/2$."
     }
   ]
 }

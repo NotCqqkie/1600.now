@@ -4,21 +4,22 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Extract the slope of line k",
-      "content": "Line k is $y = 3x - 2$, which is in slope-intercept form $y = mx + b$. The slope is $m = 3$. Since line j is parallel to line k, it must have the same slope: $m = 3$. Line j has the form $y = 3x + b$."
+      "title": "Build line j from two points",
+      "content": "Line $k$ is $y=3x-2$, so its slope is $3$. Since line $j$ is parallel to line $k$, line $j$ also has slope $3$. The point $(0,1)$ is on line $j$; moving $1$ unit right raises $y$ by $3$, so another point is $(1,4)$."
+    },
+    {
+      "title": "Fit line j in Desmos",
+      "content": "Enter $x_1=[0,1]$ and $y_1=[1,4]$, then run $y_1 \\sim m x_1+b$. Desmos gives $m=3$ and $b=1$, so line $j$ is $y=3x+1$.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[1,4]",
+        "y_1~m x_1+b",
+        "y=3x-2"
+      ]
     },
     {
       "title": "Find the y-intercept and test all choices",
-      "content": "Line j passes through $(0, 1)$. Substituting: $1 = 3(0) + b \\implies b = 1$. So line j is $y = 3x + 1$.<ul><li><strong>Choice A &mdash; $y = x - 2$</strong>: Slope = 1 $\\neq 3$. Not parallel to line k. &#10007;</li><li><strong>Choice B &mdash; $y = 3x + 1$</strong>: Slope = 3 (parallel); passes through $(0,1)$ since $y = 3(0)+1 = 1$. &#10003;</li><li><strong>Choice C &mdash; $y = -x - 2$</strong>: Slope = $-1 \\neq 3$. Not parallel. &#10007;</li><li><strong>Choice D &mdash; $y = -3x + 1$</strong>: Slope = $-3 \\neq 3$. Not parallel (perpendicular slope would be $-\\frac{1}{3}$). &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "y = 3x - 2",
-        "y = 3x + 1",
-        "(0, 1)"
-      ]
+      "content": "Line j passes through $(0, 1)$. Substituting: $1 = 3(0) + b \\implies b = 1$. So line j is $y = 3x + 1$.<ul><li><strong>Choice A &mdash; $y = x - 2$</strong>: Slope = 1 $\\neq 3$. Not parallel to line k. &#10007;</li><li><strong>Choice B &mdash; $y = 3x + 1$</strong>: Slope = 3 (parallel); passes through $(0,1)$ since $y = 3(0)+1 = 1$. &#10003;</li><li><strong>Choice C &mdash; $y = -x - 2$</strong>: Slope = $-1 \\neq 3$. Not parallel. &#10007;</li><li><strong>Choice D &mdash; $y = -3x + 1$</strong>: Slope = $-3 \\neq 3$. Not parallel (perpendicular slope would be $-\\frac{1}{3}$). &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
     }
-  ],
-  "desmosExpressions": [
-    "y = 3x - 2",
-    "y = 3x + 1"
   ]
 }

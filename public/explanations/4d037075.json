@@ -4,16 +4,26 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the vertical asymptote to find $b$",
-      "content": "The visible branch of the graph drops without bound as $x$ approaches $-4$ from the left, so the vertical asymptote is $x=-4$. For $f(x)=\\frac{a}{x+b}$ the asymptote occurs at $x=-b$, giving $b=4$ and $f(x)=\\frac{a}{x+4}$."
+      "title": "Use custom regression on the visible points",
+      "content": "The graph gives points such as $(-7,-2)$ and $(-5,-6)$ on the curve, and the model has the form $f(x)=\\frac{a}{x+b}$. In Desmos, enter those two points as a table and run the custom regression $y_1\\sim \\frac{a}{x_1+b}$. Desmos gives $a=6$ and $b=4$, so $f(x)=\\frac{6}{x+4}$.",
+      "desmosExpressions": [
+        "x_1=[-7,-5]",
+        "y_1=[-2,-6]",
+        "y_1~a/(x_1+b)",
+        "f(x)=a/(x+b)"
+      ]
     },
     {
-      "title": "Use a point on the visible branch to find $a$",
-      "content": "The curve passes near $(-10,-1)$ on the left branch. Substituting: $$-1=\\frac{a}{-10+4}=\\frac{a}{-6}\\;\\Longrightarrow\\;a=6.$$ So $f(x)=\\frac{6}{x+4}$."
+      "title": "Apply the shift $g(x)=f(x+4)$",
+      "content": "The input shift replaces $x$ with $x+4$: $$g(x)=f(x+4)=\\frac{6}{(x+4)+4}=\\frac{6}{x+8}.$$ You can enter `g(x)=f(x+4)` in Desmos after defining $f$ to see the shifted graph.",
+      "desmosExpressions": [
+        "f(x)=6/(x+4)",
+        "g(x)=f(x+4)"
+      ]
     },
     {
       "title": "Apply the shift $g(x)=f(x+4)$ and match a choice",
-      "content": "Replace $x$ with $x+4$ in $f$: $$g(x)=f(x+4)=\\frac{6}{(x+4)+4}=\\frac{6}{x+8}.$$ That matches choice C — <strong>C</strong> is correct.",
+      "content": "Choice C is $g(x)=\\frac{6}{x+8}$, so it matches the shifted function. <strong>C</strong> is correct.",
       "desmosExpressions": [
         "f(x)=6/(x+4)",
         "g(x)=6/(x+8)"

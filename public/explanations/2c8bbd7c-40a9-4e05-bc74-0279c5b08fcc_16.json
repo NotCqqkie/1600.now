@@ -4,12 +4,28 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Compute k = f(1)",
-      "content": "For $k$ to appear as a visible coefficient, the exponent must equal 0 when $x = 1$ (so the base disappears and the coefficient stands alone). Any form $A \\cdot (1.4)^{x-1}$ gives $f(1) = A \\cdot (1.4)^0 = A$, making $A = k$ a literal constant."
+      "title": "Make a one-row value table",
+      "content": "The value $k$ means $f(1)$. In Desmos, make one table row with $x_1=[1]$, then evaluate each answer choice at that same input. Since the choices are equivalent forms, they should all output the same value; the goal is to find which one displays that value as the coefficient or base.",
+      "desmosExpressions": [
+        "x_1=[1]",
+        "a_1=50(1.4)^{x_1+1}",
+        "b_1=70(1.4)^{x_1}",
+        "c_1=98(1.4)^{x_1-1}",
+        "d_1=137.2(1.4)^{x_1-2}"
+      ]
     },
     {
-      "title": "Scan the choices",
-      "content": "A: $50(1.4)^{x+1}$ — at $x=1$ the exponent is 2, so 50 $\\neq$ k; 50 is not k.<br/>B: $70(1.4)^x$ — at $x=1$ the exponent is 1, so $70 \\cdot 1.4 = 98 = k$; the coefficient 70 is not k.<br/>C: $98(1.4)^{x-1}$ — at $x=1$ the exponent is 0, so the coefficient 98 equals k directly. ✓<br/>D: $137.2(1.4)^{x-2}$ — at $x=1$ the exponent is $-1$, so $137.2/1.4 = 98 = k$; the coefficient 137.2 is not k.<br/>That matches choice C — <strong>C</strong> is correct."
+      "title": "Find the form where the exponent becomes 0",
+      "content": "The table shows $f(1)=98$. The coefficient shows $k$ directly only when the exponential factor becomes $1$. Choice C has $x-1$ in the exponent, so at $x=1$ it gives $98(1.4)^0=98$. The coefficient $98$ is exactly $k$.",
+      "desmosExpressions": [
+        "y=98(1.4)^{x-1}",
+        "(1,98)",
+        "x=1"
+      ]
+    },
+    {
+      "title": "Eliminate the shifted forms",
+      "content": "Choice A shows the value at $x=-1$, choice B shows the value at $x=0$, and choice D shows the value at $x=2$. Only choice C shows $f(1)$ as the coefficient. Choice <strong>C</strong> is correct."
     }
   ]
 }

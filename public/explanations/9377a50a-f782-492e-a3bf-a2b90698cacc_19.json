@@ -9,7 +9,22 @@
     },
     {
       "title": "Apply both transformations",
-      "content": "Start with $f(x) = \\frac{a-18}{x} + 6$.<br/><br/>First, replace $x$ with $(x - 9)$ for the right translation:<br/>$$f(x - 9) = \\frac{a-18}{x-9} + 6$$<br/>Then, subtract 3 for the down translation:<br/>$$g(x) = \\frac{a-18}{x-9} + 6 - 3 = \\frac{a-18}{x-9} + 3$$<br/>That matches choice B — <strong>B</strong> is correct."
+      "content": "Start with $f(x)=\\frac{a-18}{x}+6$. Replacing $x$ with $x-9$ moves the graph right $9$ units: $$f(x-9)=\\frac{a-18}{x-9}+6$$ Then subtract $3$ to move the graph down: $$g(x)=\\frac{a-18}{x-9}+6-3=\\frac{a-18}{x-9}+3$$"
+    },
+    {
+      "title": "Check the choices with a sample constant",
+      "content": "Use a convenient value such as $a=24$ to graph the choices in Desmos. Then $a-18=6$ and $a-21=3$. The correct graph should be the original representative function shifted right $9$ and down $3$. Only choice B does that.",
+      "desmosExpressions": [
+        "y=6/x+6",
+        "y=6/(x+9)+3",
+        "y=6/(x-9)+3",
+        "y=3/(x+9)+6",
+        "y=3/(x-9)+6"
+      ]
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "The equation $g(x)=\\frac{a-18}{x-9}+3$ matches choice <strong>B</strong>."
     }
   ]
 }

@@ -12,19 +12,11 @@ import {
   getQuestionUiStateMap,
   subscribeToQuestionUiState,
 } from "@/lib/practice/questionUiState";
-
-// Mounts the user-progress sync effect at the app root so that on
-// login/signup, local data is merged into the user's Firestore document
-// regardless of which page they land on. Also pushes personalization
-// preference changes to Firestore so they sync across devices.
 export const AccountSync = () => {
   useUserProgress();
 
   const { user } = useAuth();
   const previousUidRef = useRef<string | null>(null);
-
-  // On sign-out, wipe personalization so the signed-out session reverts to
-  // defaults instead of inheriting the previous user's font/size choices.
   useEffect(() => {
     const prevUid = previousUidRef.current;
     const currentUid = user?.id ?? null;

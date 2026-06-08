@@ -1,14 +1,29 @@
 {
+  "questionId": "1853bb35",
+  "correctAnswer": "C",
+  "section": "Math",
   "steps": [
     {
-      "explanation": "A quantity that decreases by a fixed percentage per unit increase in x is exponential: q(x) = a &middot; b^x. Decreasing by 45% means keeping 55%, so b = 0.55."
+      "title": "Use two implied table points",
+      "content": "This is an exponential model question, so a fast Desmos method is to make a tiny table. The problem gives $q(0)=14$. A $45\\%$ decrease means the next value keeps $55\\%$ of the previous value, so $q(1)=0.55(14)=7.7$.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[14,7.7]"
+      ]
     },
     {
-      "explanation": "q(0) = 14, and since b^0 = 1, the initial value a = 14. So q(x) = 14(0.55)^x."
+      "title": "Run exponential regression",
+      "content": "Type the regression row $y_1\\sim a b^{x_1}$. Desmos returns $a=14$ and $b=0.55$, so the function is $q(x)=14(0.55)^x$.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[14,7.7]",
+        "y_1~a b^{x_1}",
+        "y=14(0.55)^x"
+      ]
     },
     {
-      "explanation": "<ul><li>A: 0.55(14)^x &mdash; swaps the roles of the initial value and the base.</li><li>B: 1.45(14)^x &mdash; uses a growth factor instead of decay, and swaps a and b.</li><li>C: 14(0.55)^x &mdash; correct initial value 14 and correct decay base 0.55.</li><li>D: 14(1.45)^x &mdash; uses a growth factor; 1.45 represents a 45% increase, not decrease.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+      "title": "Confirm the choice",
+      "content": "Choice C is the only option with initial value $14$ and decay factor $0.55$. Choice A swaps the coefficient and base, choices B and D use growth factors, and choice <strong>C</strong> is correct."
     }
-  ],
-  "correctAnswer": "C"
+  ]
 }

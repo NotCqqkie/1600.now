@@ -4,31 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute",
-      "content": "Plug $x=81$ into $g(x)=\\sqrt{x}+300$.<br/>$$g(81)=\\sqrt{81}+300$$"
+      "title": "Substitute x equals 81",
+      "content": "The function is $g(x)=\\sqrt{x}+300$. Substitute $x=81$: $$g(81)=\\sqrt{81}+300$$"
     },
     {
-      "title": "Compute the result",
-      "content": "Take the square root, then add.<br/>$$g(81)=9+300=309$$<br/>That matches choice <strong>C</strong> — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "g(x)=\\sqrt{x}+300"
-      ]
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "Choice C is correct. It's given that function $g$ is defined by $g(x)=\\sqrt{x}+300$. Substituting $81$ for $x$ in function $g$ yields $g(81)=\\sqrt{81}+300$, which is equivalent to $g(81)=9+300$, or $g(81)=309$. Therefore, the value of $g(x)$ when $x=81$ is $309$."
+      "title": "Take the square root first",
+      "content": "$$\\sqrt{81}=9$$ so $$g(81)=9+300=309$$"
     },
     {
       "title": "Check the choices",
-      "content": "Choice A is incorrect. This is the value of $\\sqrt{81}$, not $\\sqrt{81}+300$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice B is incorrect and may result from conceptual or calculation errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice D is incorrect. This is the value of $81+300$, not $\\sqrt{81}+300$."
+      "content": "Choice C is $309$, so it is correct. Choice A stops after finding $\\sqrt{81}$, choice B forgets the square-root part, and choice D adds $81$ instead of $\\sqrt{81}$."
     }
   ]
 }

@@ -4,36 +4,24 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Extract vertex and opening direction from vertex form",
-      "content": "The equation $y = -3(x-18)^2 + 15$ is in vertex form $y = a(x-h)^2 + k$. The vertex is $(h, k) = (18, 15)$, and since $a = -3 < 0$, the parabola opens downward with a maximum value of $y = 15$."
-    },
-    {
-      "title": "Compare the line to the parabola's range",
-      "content": "The line $y = 18$ is horizontal. Since the parabola reaches a maximum of only 15, and the line is at 18, the line lies entirely above the parabola and they cannot intersect. That matches choice D — <strong>D</strong> is correct.",
+      "title": "Graph both equations",
+      "content": "This is an intersection-count question, so the fastest route is to graph both equations in Desmos. The line $y=18$ sits above the entire parabola.",
       "desmosExpressions": [
-        "y = 18",
-        "y = -3(x - 18)^2 + 15"
+        "y=18",
+        "y=-3(x-18)^2+15"
       ]
     },
     {
-      "title": "Use the source rationale",
-      "content": "Choice D is correct. A point $\\left(x,y\\right)$ is a solution to a system of equations if it lies on the graphs of both equations in the <em>xy</em>-plane. In other words, a solution to a system of equations is a point $\\left(x,y\\right)$ at which the graphs intersect. It's given that the first equation is $y=18$. Substituting $18$ for $y$ in the second equation yields $18=-3{\\left(x-18\\right)}^{2}+15$. Subtracting $15$ from each side of this equation yields $3=-3{\\left(x-18\\right)}^{2}$. Dividing each side of this equation by $-3$ yields $-1={\\left(x-18\\right)}^{2}$. Since the square of a real number is at least $0$, this equation can't have any real solutions. Therefore, the graphs of the equations intersect at zero points."
+      "title": "Use the vertex shortcut",
+      "content": "The parabola $y=-3(x-18)^2+15$ opens downward and has vertex $(18,15)$. Since it opens downward, its greatest possible $y$-value is $15$."
+    },
+    {
+      "title": "Compare to the horizontal line",
+      "content": "The horizontal line is $y=18$, which is above the maximum $y$-value of the parabola. Therefore, the graphs never intersect."
     },
     {
       "title": "Check the choices",
-      "content": "Alternate approach: The graph of the second equation is a parabola that opens downward and has a vertex at $\\left(18,15\\right)$. Therefore, the maximum value of this parabola occurs when $y=15$. The graph of the first equation is a horizontal line at $18$ on the <em>y</em>-axis, or $y=18$. Since $18$ is greater than $15$, or the horizontal line is above the vertex of the parabola, the graphs of these equations intersect at zero points."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice A is incorrect. The graph of $y=15$, not $y=18$, and the graph of the second equation intersect at exactly one point."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice B is incorrect. The graph of any horizontal line such that the value of $y$ is less than $15$, not greater than $15$, and the graph of the second equation intersect at exactly two points."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice C is incorrect and may result from conceptual or calculation errors."
+      "content": "There are zero intersection points, so choice D is correct."
     }
   ]
 }

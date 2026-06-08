@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve the equation",
-      "content": "The right side equals $22^2$, so $$x^2=22^2.$$ Taking square roots gives $x=\\pm 22$."
+      "title": "Recognize the square",
+      "content": "The right side is $(22)(22)=22^2$, so the equation is $$x^2=22^2.$$"
     },
     {
-      "title": "Identify the positive solution",
-      "content": "Take the positive root. The answer is <strong>22</strong>.",
-      "desmosExpressions": [
-        "y = x^2",
-        "y = 484"
-      ]
+      "title": "Take both square roots",
+      "content": "If $x^2=22^2$, then $x=22$ or $x=-22$. Squaring either value gives the same result."
     },
     {
-      "title": "Use the source rationale",
-      "content": "The correct answer is $22$. The given equation, ${x}^{2}=\\left(22\\right)\\left(22\\right)$, is equivalent to ${x}^{2}={\\left(22\\right)}^{2}$. Taking the square root of each side of this equation yields $x=\\pm22$. Thus, the positive solution to the given equation is $22$."
+      "title": "Choose the positive solution",
+      "content": "The question asks for the positive solution, so keep $22$ and reject $-22$. The answer is <strong>22</strong>."
     }
   ]
 }

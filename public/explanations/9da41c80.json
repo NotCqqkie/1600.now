@@ -4,14 +4,25 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the initial height and decay pattern",
-      "content": "The ball is dropped from 22 feet. After each bounce, the maximum height is 85% of the previous maximum height. We need to find h(n), the height after n ground hits."
+      "title": "Create the bounce table",
+      "content": "The initial height is 22 feet, so the exponential model has point $(0,22)$. After one bounce, the maximum height is 85% of 22, which is 18.7 feet, so use $(1,18.7)$. Fit $y_1\\sim a b^{x_1}$.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[22,18.7]",
+        "y_1~a b^{x_1}"
+      ]
     },
     {
-      "title": "Build the formula for the geometric sequence",
-      "content": "Each bounce multiplies the height by 0.85:<ul><li>After bounce 1: $h(1) = 22 \\times 0.85$</li><li>After bounce 2: $h(2) = 22 \\times 0.85 \\times 0.85 = 22(0.85)^2$</li><li>After bounce n: $h(n) = 22(0.85)^n$</li></ul>That matches choice B — <strong>B</strong> is correct.",
+      "title": "Read the decay factor",
+      "content": "The regression gives $a=22$ and $b=0.85$, so $$h(n)=22(0.85)^n.$$ The base $0.85$ means each bounce reaches 85% of the previous height."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "Choice B has starting value 22 and decay factor 0.85. Choice D uses 85 as the starting value, and choices A and C use $0.22$ as the multiplier. Choice <strong>B</strong> is correct.",
       "desmosExpressions": [
-        "h(n)=22((0.85))^(n)"
+        "y=22(0.85)^x",
+        "(0,22)",
+        "(1,18.7)"
       ]
     }
   ]

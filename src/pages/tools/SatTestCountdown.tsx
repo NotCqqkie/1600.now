@@ -7,10 +7,6 @@ import {
   buildFaqJsonLd,
 } from "@/components/seo/PageSeo";
 import { satToolBySlug } from "@/lib/seo-data/satTools";
-
-// Upcoming Digital SAT administrations announced by College Board for the
-// 2025–26 and 2026–27 testing years. International and US dates are the same
-// for the Digital SAT. Update when College Board publishes new dates.
 const TEST_DATES: { date: string; label: string }[] = [
   { date: "2026-05-02", label: "May 2, 2026" },
   { date: "2026-06-06", label: "June 6, 2026" },
@@ -31,9 +27,9 @@ const daysBetween = (from: Date, to: Date): number => {
 const SatTestCountdown = () => {
   const meta = satToolBySlug.get("sat-test-countdown")!;
   const today = useMemo(() => {
-    const d = new Date();
-    d.setHours(0, 0, 0, 0);
-    return d;
+    const todayDate = new Date();
+    todayDate.setHours(0, 0, 0, 0);
+    return todayDate;
   }, []);
 
   const upcoming = useMemo(
@@ -148,17 +144,17 @@ const SatTestCountdown = () => {
           Full 2026–2027 Digital SAT test dates
         </h2>
         <ul className="mt-4 space-y-2 text-muted-foreground">
-          {TEST_DATES.map((t) => {
-            const d = daysBetween(today, new Date(t.date));
-            const passed = d < 0;
+          {TEST_DATES.map((testDate) => {
+            const daysUntilTest = daysBetween(today, new Date(testDate.date));
+            const passed = daysUntilTest < 0;
             return (
               <li
-                key={t.date}
+                key={testDate.date}
                 className="flex items-center justify-between border-b border-border/40 py-2"
               >
-                <span className={passed ? "line-through" : ""}>{t.label}</span>
+                <span className={passed ? "line-through" : ""}>{testDate.label}</span>
                 <span className="text-sm">
-                  {passed ? "Past" : `${d} day${d === 1 ? "" : "s"}`}
+                  {passed ? "Past" : `${daysUntilTest} day${daysUntilTest === 1 ? "" : "s"}`}
                 </span>
               </li>
             );

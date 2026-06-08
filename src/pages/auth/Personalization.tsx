@@ -30,9 +30,6 @@ const Personalization = () => {
     backgroundColor: isDarkMode ? "rgba(15,23,42,0.84)" : "#ffffff",
     borderColor: isDarkMode ? "rgba(148,163,184,0.16)" : "rgba(15, 23, 42, 0.08)",
   };
-
-  // Read the latest persisted prefs at dispatch time so rapid successive
-  // changes don't get clobbered by a stale render-time snapshot.
   const setFont = (font: QuestionFontId) =>
     applyPersonalizationPreferences({ ...getPersonalizationPreferences(), font });
   const setTextSize = (textSize: QuestionTextSize) =>

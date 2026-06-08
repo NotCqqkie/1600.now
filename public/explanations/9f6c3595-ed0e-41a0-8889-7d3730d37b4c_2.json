@@ -16,6 +16,9 @@
       "title": "Predict at age 3",
       "content": "The fitted line has slope about $9$ and intercept about $72$, so at $x=3$ the prediction is $72+9(3)=99$ centimeters.",
       "desmosExpressions": [
+        "x_1=[0,6]",
+        "y_1=[72,126]",
+        "y_1~m x_1+b",
         "m 3+b"
       ]
     },

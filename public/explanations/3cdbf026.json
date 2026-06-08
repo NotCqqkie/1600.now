@@ -4,14 +4,25 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute the point (0, -3) to find k",
-      "content": "Since $(0, -3)$ lies on the line $ax + ky = 6$, substitute $x = 0$ and $y = -3$:<br/>$$a(0) + k(-3) = 6$$<br/>$$-3k = 6$$<br/>$$k = -2$$<br/>That matches choice A — <strong>A</strong> is correct."
+      "title": "Fit the standard-form line",
+      "content": "Instead of rearranging the equation, use custom regression with the exact form from the stem. The line $ax+ky=6$ contains $(-2,-6)$ and $(0,-3)$. Put those two points in Desmos and fit $a x_1+k y_1\\sim6$.",
+      "desmosExpressions": [
+        "x_1=[-2,0]",
+        "y_1=[-6,-3]",
+        "a x_1+k y_1~6"
+      ]
     },
     {
-      "title": "Verify with the second point",
-      "content": "Substitute $k = -2$ and point $(-2, -6)$:<br/>$$a(-2) + (-2)(-6) = 6$$<br/>$$-2a + 12 = 6$$<br/>$$a = 3$$<br/>The equation $3x - 2y = 6$ passes through both $(0, -3)$ and $(-2, -6)$, confirming $k = -2$.",
+      "title": "Read $k$ directly",
+      "content": "The regression returns $k=-2$. It also returns $a=3$, so the line is $3x-2y=6$."
+    },
+    {
+      "title": "Confirm with the easy point",
+      "content": "The point $(0,-3)$ makes the original equation especially quick: $a(0)+k(-3)=6$, so $-3k=6$ and $k=-2$. Choice <strong>A</strong> is correct.",
       "desmosExpressions": [
-        "ax+ky=6"
+        "3x-2y=6",
+        "(-2,-6)",
+        "(0,-3)"
       ]
     }
   ]

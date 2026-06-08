@@ -1,18 +1,33 @@
 {
-  "qid": "05bb1af9",
+  "questionId": "05bb1af9",
   "correctAnswer": "A",
+  "section": "Math",
   "steps": [
     {
-      "text": "The graph displays $y = f(x) + 14$. Read two points from the graphed line: the y-intercept appears at $(0, 2)$ and another point at $(-4, 3)$."
+      "title": "Fit the shown line first",
+      "content": "The graph shows $y=f(x)+14$. Put two clear points from the line into Desmos: $(0,2)$ and $(4,1)$. The regression line has slope $-\\frac{1}{4}$ and y-intercept $2$, so the graphed line is $y=-\\frac{1}{4}x+2$.",
+      "desmosExpressions": [
+        "x_1=[0,4]",
+        "y_1=[2,1]",
+        "y_1~m x_1+b",
+        "y=-(1/4)x+2"
+      ]
     },
     {
-      "text": "Compute the slope: $$m = \\frac{3-2}{-4-0} = \\frac{1}{-4} = -\\frac{1}{4}$$ With y-intercept 2, the graphed line is $y = -\\frac{1}{4}x + 2$."
+      "title": "Undo the vertical shift",
+      "content": "Since the graphed function is $f(x)+14$, subtract 14 from the fitted equation: $$f(x)=-\\frac{1}{4}x+2-14=-\\frac{1}{4}x-12$$ So $f(x)$ must have y-intercept $-12$."
     },
     {
-      "text": "Since the graph shows $f(x) + 14$, set equal and isolate $f(x)$: $$f(x) + 14 = -\\frac{1}{4}x + 2 \\implies f(x) = -\\frac{1}{4}x + 2 - 14 = -\\frac{1}{4}x - 12$$"
+      "title": "Check choices in Desmos",
+      "content": "Choice A gives $f(x)=-\\frac{1}{4}x-12$. Adding 14 gives $y=-\\frac{1}{4}x+2$, exactly the graphed line. The other choices shift to y-intercepts $30$, $16$, or $0$, so they do not match the graph.",
+      "desmosExpressions": [
+        "y=-(1/4)x-12+14",
+        "y=-(1/4)x+2"
+      ]
     },
     {
-      "text": "<ul><li><strong>A</strong> &mdash; $f(x) = -\\frac{1}{4}x - 12$ matches the derived expression exactly. That matches choice A &mdash; <strong>A</strong> is correct.</li><li><strong>B</strong> &mdash; $f(x) = -\\frac{1}{4}x + 16$ would require the graphed line to have y-intercept 30, inconsistent with the graph. Eliminated.</li><li><strong>C</strong> &mdash; $f(x) = -\\frac{1}{4}x + 2$ forgets to subtract 14 from the graphed function. Eliminated.</li><li><strong>D</strong> &mdash; $f(x) = -\\frac{1}{4}x - 14$ would require the graphed line to have y-intercept 0, inconsistent with the graph. Eliminated.</li></ul>"
+      "title": "Confirm the choice",
+      "content": "$f(x)=-\\frac{1}{4}x-12$ matches choice A. Choice A is correct."
     }
   ]
 }

@@ -4,31 +4,80 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Graph the answer choices",
-      "content": "This is faster as a Desmos check than as a full algebra problem. Graph each candidate system and compare it to the picture. The correct choice must give two downward-sloping lines that meet the $x$-axis at the same point, $(8,0)$.",
-      "desmosExpressions": [
-        "4x + 10y = 32",
-        "-8x - 10y = -64"
+      "title": "Test choice A with intercepts",
+      "content": "Use Desmos as an answer-choice checker. The graph in the question gives three fast targets: both lines share the $x$-intercept $(8,0)$, and the $y$-intercepts are positive, about $(0,3.2)$ and $(0,6.4)$. Graph choice A by itself, then compare it to those target points. Choice A's lines hit the $x$-axis at $(4,0)$ and $(6.4,0)$, so they do not share the required intercept $(8,0)$. Choice A is out.",
+      "desmosGraphs": [
+        {
+          "label": "Choice A: wrong x-intercepts",
+          "expressions": [
+            "8x+4y=32",
+            "-10x-4y=-64",
+            "(8,0)",
+            "(0,3.2)",
+            "(0,6.4)",
+            "(4,0)",
+            "(6.4,0)"
+          ]
+        }
       ]
     },
     {
-      "title": "Check the shared x-intercept",
-      "content": "For choice D, set $y=0$. The first equation gives $4x=32$, so $x=8$. The second equation gives $-8x=-64$, so $x=8$ again. Both lines share the required $x$-intercept $(8,0)$, matching the graph.",
-      "desmosExpressions": [
-        "(8,0)"
+      "title": "Test choice B with the same targets",
+      "content": "Clear A and graph only choice B. The same intercept check fails again: the two lines cross the $x$-axis at $(4,0)$ and $(6.4,0)$ instead of sharing $(8,0)$. They also slope upward from left to right, while the lines in the question slope downward. Choice B is out.",
+      "desmosGraphs": [
+        {
+          "label": "Choice B: wrong intercepts and slope",
+          "expressions": [
+            "8x-4y=32",
+            "-10x+4y=-64",
+            "(8,0)",
+            "(0,3.2)",
+            "(0,6.4)",
+            "(4,0)",
+            "(6.4,0)",
+            "(0,-8)",
+            "(0,-16)"
+          ]
+        }
       ]
     },
     {
-      "title": "Check the y-intercepts",
-      "content": "Now set $x=0$. From $4x+10y=32$, $10y=32$, so $y=3.2$. From $-8x-10y=-64$, $-10y=-64$, so $y=6.4$. Those are the lower and upper $y$-intercepts shown in the graph.",
-      "desmosExpressions": [
-        "(0,3.2)",
-        "(0,6.4)"
+      "title": "Test choice C after the x-intercept works",
+      "content": "Clear B and graph only choice C. Now both lines do pass through $(8,0)$, so C survives the first check. But the $y$-intercepts are on the wrong side of the axis: $(0,-3.2)$ and $(0,-6.4)$ instead of positive $(0,3.2)$ and $(0,6.4)$. Choice C has the shared $x$-intercept but the wrong vertical placement, so C is out.",
+      "desmosGraphs": [
+        {
+          "label": "Choice C: right x-intercept, wrong y-intercepts",
+          "expressions": [
+            "4x-10y=32",
+            "-8x+10y=-64",
+            "(8,0)",
+            "(0,3.2)",
+            "(0,6.4)",
+            "(0,-3.2)",
+            "(0,-6.4)"
+          ]
+        }
       ]
     },
     {
-      "title": "Confirm the choice",
-      "content": "Choice D is the only system whose two lines share $x$-intercept $8$ and have $y$-intercepts $3.2$ and $6.4$. That matches the graph, so <strong>D</strong> is correct."
+      "title": "Test choice D last",
+      "content": "Clear C and graph only choice D. The first line, $4x+10y=32$, passes through $(8,0)$ and $(0,3.2)$. The second line, $-8x-10y=-64$, passes through $(8,0)$ and $(0,6.4)$. Both lines slope downward, so D matches the shared $x$-intercept, both positive $y$-intercepts, and the direction of the graph.",
+      "desmosGraphs": [
+        {
+          "label": "Choice D: all intercepts match",
+          "expressions": [
+            "4x+10y=32",
+            "-8x-10y=-64",
+            "(8,0)",
+            "(0,3.2)",
+            "(0,6.4)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "A and B miss the shared $x$-intercept. C has the correct shared $x$-intercept but the wrong side of the $x$-axis. D is the only pair with shared $x$-intercept $(8,0)$, positive $y$-intercepts $(0,3.2)$ and $(0,6.4)$, and downward slopes. Choice <strong>D</strong> is correct."
     }
   ]
 }

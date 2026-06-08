@@ -1,52 +1,19 @@
 {
-  "qid": "1d945139",
+  "questionId": "1d945139",
   "correctAnswer": "D",
+  "section": "Math",
   "steps": [
     {
-      "step": 1,
-      "text": "The total mass of $r$ objects is $t$ kg, so the mass per object is $\\frac{t}{r}$ kg."
+      "title": "Scale the object count",
+      "content": "The total mass of $r$ identical objects is $t$. The new group has $146r$ objects, which is $146$ times as many objects."
     },
     {
-      "step": 2,
-      "text": "The total mass of $146r$ objects is $\\frac{t}{r} \\times 146r = 146t$ kg."
-    },
-    {
-      "step": 3,
-      "text": "Evaluate each choice.",
-      "choices": [
-        {
-          "id": "A",
-          "explanation": "<ul><li>$146 - t$ is a difference, not a product. Mass scales multiplicatively with quantity, so subtraction makes no sense here. Not correct.</li></ul>"
-        },
-        {
-          "id": "B",
-          "explanation": "<ul><li>$146 + t$ is a sum. Same reasoning &mdash; mass must be multiplied, not added. Not correct.</li></ul>"
-        },
-        {
-          "id": "C",
-          "explanation": "<ul><li>$\\frac{t}{146}$ would be the total mass of $\\frac{r}{146}$ objects, not $146r$. Division goes the wrong direction. Not correct.</li></ul>"
-        },
-        {
-          "id": "D",
-          "explanation": "<ul><li>$146t$ equals $\\frac{t}{r} \\times 146r$, which correctly scales the original total mass by 146. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
-        }
-      ]
-    },
-    {
-      "title": "Use the source rationale",
-      "content": "Choice D is correct. It's given that the total mass, in kilograms, of $r$ identical objects is $t$. To obtain the expression $146r$, $r$ is multiplied by $146$. Therefore, to find the total mass, in kilograms, of $146r$ of these objects, $t$ must also be multiplied by $146$. The result of multiplying $t$ by $146$ is the expression $146t$. Therefore, the total mass, in kilograms, of $146r$ of these objects, is $146t$."
+      "title": "Scale the mass the same way",
+      "content": "For identical objects, total mass is proportional to the number of objects. If the object count is multiplied by $146$, the total mass is also multiplied by $146$: $$146\\cdot t=146t$$"
     },
     {
       "title": "Check the choices",
-      "content": "Choice A is incorrect and may result from conceptual errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice B is incorrect and may result from conceptual errors."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice C is incorrect and may result from conceptual errors."
+      "content": "<ul><li>Choices A and B subtract or add $146$, but mass must scale by multiplication.</li><li>Choice C, $\\frac{t}{146}$, would make the mass smaller even though there are more objects.</li><li>Choice D, $146t$, multiplies the original mass by $146$. Correct.</li></ul>That matches choice D."
     }
   ]
 }

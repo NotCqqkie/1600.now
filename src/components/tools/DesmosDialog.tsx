@@ -159,10 +159,6 @@ export const DesmosDialog = ({
     },
     [layoutStateKey, onSidebarToggle, storageArea],
   );
-
-  // Initialize the calculator exactly once on the first open. After that the
-  // window is kept mounted (display:none when closed), so the instance and the
-  // user's expressions persist for the lifetime of the page.
   useEffect(() => {
     if (!hasEverOpened) return;
     if (calcRef.current) return;
@@ -207,7 +203,6 @@ export const DesmosDialog = ({
         removeChangeObserverRef.current = () => calc.unobserveEvent?.("change", handleChange);
       })
       .catch(() => {
-        // Desmos failed to load — dialog stays open but graph area is empty
       });
 
     return () => {
@@ -268,8 +263,6 @@ export const DesmosDialog = ({
     writeOpenState(false);
     setIsOpen(false);
   }, [closeSignal, flushCalculatorState, isOpen, writeOpenState]);
-
-  // Tear down only on full unmount of this component (route change, etc).
   useEffect(() => {
     return () => {
       flushCalculatorState();
@@ -285,9 +278,6 @@ export const DesmosDialog = ({
       onSidebarToggleRef.current?.("desmos", false);
     };
   }, [flushCalculatorState]);
-
-  // Resize the calculator after the window becomes visible or its layout
-  // changes, since Desmos needs to be told its container resized.
   useEffect(() => {
     if (!isOpen || !calcRef.current) return;
     const timer = setTimeout(() => calcRef.current?.resize(), 100);

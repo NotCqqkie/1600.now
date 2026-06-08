@@ -4,15 +4,21 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the y-intercept from the given point",
-      "content": "The line passes through the point (0, 21). Since this point has $x = 0$, it lies on the y-axis, and its y-coordinate is the y-intercept. Therefore, the y-intercept is 21."
+      "title": "Use a two-point table",
+      "content": "The line passes through $(0,21)$ and has slope 4. Move 1 unit right and 4 units up to get another point, $(1,25)$. Fit those two points in Desmos.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[21,25]",
+        "y_1~m x_1+b"
+      ]
     },
     {
       "title": "Write the equation using slope-intercept form",
-      "content": "The slope-intercept form of a line is $y = mx + b$, where $m$ is the slope and $b$ is the y-intercept. With slope $m = 4$ and y-intercept $b = 21$:<br/>$$f(x) = 4x + 21$$<br/>That matches choice D — <strong>D</strong> is correct.",
+      "content": "The regression returns slope $4$ and intercept $21$, so $$f(x)=4x+21.$$ That matches choice D, so <strong>D</strong> is correct.",
       "desmosExpressions": [
-        "y = 4x + 21",
-        "(0, 21)"
+        "y=4x+21",
+        "(0,21)",
+        "(1,25)"
       ]
     }
   ]
