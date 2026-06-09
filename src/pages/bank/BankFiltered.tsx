@@ -1,5 +1,5 @@
 import { useNavigate, useParams, useSearchParams } from "react-router-dom";
-import { useCallback, useState, useMemo, useEffect } from "react";
+import { useDeferredValue, useState, useMemo, useEffect } from "react";
 import {
   getQuestionsByDomain,
   getQuestionsBySkill,
@@ -30,9 +30,18 @@ import {
 import { BankSourceToggle } from "@/components/question/BankSourceToggle";
 import { useAuth } from "@/contexts/AuthContext";
 import {
-  getQuestionAnswered,
-  isQuestionFlagged,
+  getQuestionUiStateMap,
+  subscribeToQuestionUiState,
+  type QuestionUiState,
+  type QuestionUiStateMap,
 } from "@/lib/practice/questionUiState";
+
+const isAnsweredQuestionState = (state: QuestionUiState | undefined) =>
+  Boolean(state?.answer) ||
+  state?.status === "answered" ||
+  state?.status === "correct-first" ||
+  state?.status === "correct-later" ||
+  state?.status === "incorrect";
 
 const BankFiltered = () => {
   const navigate = useNavigate();
@@ -48,6 +57,10 @@ const BankFiltered = () => {
   const { user } = useAuth();
   const uid = user?.id ?? null;
   const questionsPerPage = 50;
+  const deferredSearch = useDeferredValue(search);
+  const [questionUiStateMap, setQuestionUiStateMap] = useState<QuestionUiStateMap>(() =>
+    getQuestionUiStateMap(uid),
+  );
 
   const validSubject = subject === "math" || subject === "reading" ? subject : "math";
   const isMath = validSubject === "math";
@@ -61,6 +74,14 @@ const BankFiltered = () => {
     sessionStorage.removeItem(`question-view-mode:bank:reading`);
   }, []);
 
+  useEffect(() => {
+    setQuestionUiStateMap(getQuestionUiStateMap(uid));
+
+    return subscribeToQuestionUiState(() => {
+      setQuestionUiStateMap(getQuestionUiStateMap(uid));
+    });
+  }, [uid]);
+
   const questions = useMemo((): BankQuestion[] => {
     if (filterType === "domain") {
       return getQuestionsByDomain(validSubject, decodedFilter as MathDomain | EnglishDomain, bankSource);
@@ -69,16 +90,13 @@ const BankFiltered = () => {
     }
   }, [validSubject, filterType, decodedFilter, bankSource]);
 
-  const getQuestionState = useCallback((q: BankQuestion) => {
-    const stableId = q.stableId;
-    const answered = getQuestionAnswered(stableId, uid);
-    const flagged = isQuestionFlagged(stableId, uid);
-    return { answered, flagged };
-  }, [uid]);
-
   const answeredCount = useMemo(
-    () => questions.filter((q) => getQuestionState(q).answered).length,
-    [getQuestionState, questions]
+    () =>
+      questions.reduce((count, question) => {
+        const state = questionUiStateMap[question.stableId];
+        return isAnsweredQuestionState(state) ? count + 1 : count;
+      }, 0),
+    [questionUiStateMap, questions],
   );
 
   const handleBankSourceChange = (nextSource: BankSourceFilter) => {
@@ -88,23 +106,30 @@ const BankFiltered = () => {
   };
 
   const filteredQuestions = useMemo(() => {
-    if (!search.trim()) return questions;
-    const lower = search.toLowerCase();
+    const normalizedSearch = deferredSearch.trim().toLowerCase();
+    if (!normalizedSearch) return questions;
     return questions.filter(
       (q) =>
-        q.prompt.toLowerCase().includes(lower) ||
-        q.passage?.toLowerCase().includes(lower) ||
-        q.questionText?.toLowerCase().includes(lower) ||
-        q.choices?.some((choice) => choice.text?.toLowerCase().includes(lower)) ||
-        q.correctAnswer?.toLowerCase().includes(lower)
+        q.prompt.toLowerCase().includes(normalizedSearch) ||
+        q.passage?.toLowerCase().includes(normalizedSearch) ||
+        q.questionText?.toLowerCase().includes(normalizedSearch) ||
+        q.choices?.some((choice) => choice.text?.toLowerCase().includes(normalizedSearch)) ||
+        q.correctAnswer?.toLowerCase().includes(normalizedSearch)
     );
-  }, [questions, search]);
+  }, [deferredSearch, questions]);
 
   const totalPages = Math.ceil(filteredQuestions.length / questionsPerPage);
+  const safeCurrentPage = totalPages === 0 ? 1 : Math.min(currentPage, totalPages);
   const paginatedQuestions = filteredQuestions.slice(
-    (currentPage - 1) * questionsPerPage,
-    currentPage * questionsPerPage
+    (safeCurrentPage - 1) * questionsPerPage,
+    safeCurrentPage * questionsPerPage
   );
+
+  useEffect(() => {
+    if (currentPage !== safeCurrentPage) {
+      setCurrentPage(safeCurrentPage);
+    }
+  }, [currentPage, safeCurrentPage]);
 
   const handleQuestionClick = (q: BankQuestion) => {
     navigate(`${basePath}/${validSubject}/${q.id}${bankQuerySuffix}`);
@@ -167,7 +192,10 @@ const BankFiltered = () => {
               size="sm"
               onClick={() => {
                 const firstUnanswered = questions.find(
-                  (q) => !getQuestionState(q).answered
+                  (q) => {
+                    const state = questionUiStateMap[q.stableId];
+                    return !isAnsweredQuestionState(state);
+                  }
                 );
                 if (firstUnanswered) {
                   handleQuestionClick(firstUnanswered);
@@ -203,7 +231,9 @@ const BankFiltered = () => {
               ) : (
                 <div className="divide-y">
                   {paginatedQuestions.map((q) => {
-                    const state = getQuestionState(q);
+                    const state = questionUiStateMap[q.stableId];
+                    const answered = isAnsweredQuestionState(state);
+                    const flagged = state?.flagged === true;
                     return (
                       <div
                         key={q.id}
@@ -211,7 +241,7 @@ const BankFiltered = () => {
                         onClick={() => handleQuestionClick(q)}
                       >
                         <div className="flex items-center gap-2">
-                          {state.answered ? (
+                          {answered ? (
                             <CheckCircle2 className="h-5 w-5 text-green-500" />
                           ) : (
                             <div className="h-5 w-5 rounded-full border-2 border-muted-foreground/30" />
@@ -226,7 +256,7 @@ const BankFiltered = () => {
                             <span className="text-xs font-medium text-muted-foreground line-clamp-1">
                               {q.category.skill}
                             </span>
-                            {state.flagged && <Flag className="h-3 w-3 text-red-500 fill-red-500" />}
+                            {flagged && <Flag className="h-3 w-3 text-red-500 fill-red-500" />}
                           </div>
                           <p className="line-clamp-2 text-sm">
                             {q.prompt}
@@ -267,12 +297,12 @@ const BankFiltered = () => {
                 Previous
               </Button>
               <span className="text-sm font-medium px-4">
-                Page {currentPage} of {totalPages}
+                Page {safeCurrentPage} of {totalPages}
               </span>
               <Button
                 variant="outline"
                 size="sm"
-                disabled={currentPage === totalPages}
+                disabled={safeCurrentPage === totalPages}
                 onClick={() => setCurrentPage((p) => Math.min(totalPages, p + 1))}
               >
                 Next
