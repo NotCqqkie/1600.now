@@ -41,3 +41,35 @@ export const BANK_COUNT_BY_OFFICIAL_SKILL: Record<string, number> = {
   "Transitions": 382,
   "Cross-Text Connections": 81
 };
+
+export const BANK_COUNT_BY_ALL_SKILL: Record<string, number> = {
+  "Ratios, rates, proportional relationships, and units": 139,
+  "Nonlinear functions": 326,
+  "Equivalent expressions": 339,
+  "Linear inequalities in one or two variables": 124,
+  "Linear functions": 346,
+  "Lines, angles, and triangles": 150,
+  "Systems of two linear equations in two variables": 208,
+  "Linear equations in two variables": 244,
+  "Area and volume": 132,
+  "Right triangles and trigonometry": 97,
+  "Probability and conditional probability": 61,
+  "Linear equations in one variable": 177,
+  "Percentages": 157,
+  "Circles": 98,
+  "One-variable data: Distributions and measures of center and spread": 120,
+  "Inference from sample statistics and margin of error": 33,
+  "Two-variable data: Models and scatterplots": 94,
+  "Nonlinear equations in one variable and systems of equations in two variables": 219,
+  "Evaluating statistical claims: Observational studies and experiments": 16,
+  "Words in Context": 775,
+  "Text Structure and Purpose": 453,
+  "Central Ideas and Details": 319,
+  "Command of Evidence": 773,
+  "Rhetorical Synthesis": 682,
+  "Inferences": 397,
+  "Form, Structure, and Sense": 508,
+  "Boundaries": 668,
+  "Transitions": 555,
+  "Cross-Text Connections": 139
+};

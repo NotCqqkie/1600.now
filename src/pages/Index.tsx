@@ -1,10 +1,10 @@
 import { useNavigate } from "react-router-dom";
-import { useState, useEffect } from "react";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { ChevronRight, BookOpen, Calculator, GraduationCap, Target, Trophy, Loader2, Layers } from "lucide-react";
+import { ChevronRight, BookOpen, Calculator, GraduationCap, Target, Trophy, Layers } from "lucide-react";
 import { PageSeo, buildBreadcrumbJsonLd } from "@/components/seo/PageSeo";
+import { BANK_COUNT_BY_ALL_SKILL } from "@/lib/generated/bankTotals.generated";
 const categoryTree = {
   Math: {
     icon: Calculator,
@@ -78,68 +78,9 @@ const categoryTree = {
     }
   }
 };
-const defaultSkillCounts: Record<string, number> = {
-  "Linear equations in one variable": 180,
-  "Linear functions": 165,
-  "Linear equations in two variables": 145,
-  "Systems of two linear equations in two variables": 130,
-  "Linear inequalities in one or two variables": 124,
-  "Equivalent expressions": 210,
-  "Nonlinear equations in one variable and systems of equations in two variables": 195,
-  "Nonlinear functions": 205,
-  "Ratios, rates, proportional relationships, and units": 95,
-  "Percentages": 85,
-  "One-variable data: Distributions and measures of center and spread": 78,
-  "Two-variable data: Models and scatterplots": 82,
-  "Probability and conditional probability": 65,
-  "Inference from sample statistics and margin of error": 42,
-  "Evaluating statistical claims: Observational studies and experiments": 35,
-  "Area and volume": 95,
-  "Lines, angles, and triangles": 105,
-  "Right triangles and trigonometry": 85,
-  "Circles": 60,
-  "Words in Context": 245,
-  "Text Structure and Purpose": 180,
-  "Cross-Text Connections": 145,
-  "Central Ideas and Details": 215,
-  "Command of Evidence": 198,
-  "Inferences": 196,
-  "Boundaries": 265,
-  "Form, Structure, and Sense": 233,
-  "Rhetorical Synthesis": 228,
-  "Transitions": 225
-};
-
 const Index = () => {
   const navigate = useNavigate();
-  const [skillCounts, setSkillCounts] = useState<Record<string, number>>(defaultSkillCounts);
-  const [isLoading, setIsLoading] = useState(true);
-  useEffect(() => {
-    let cancelled = false;
-    let timeoutId: ReturnType<typeof setTimeout> | null = null;
-    const loadCounts = async () => {
-      try {
-        const { getSkillCounts } = await import("@/data/questionBank");
-        if (cancelled) return;
-        timeoutId = setTimeout(() => {
-          if (cancelled) return;
-          const mathCounts = getSkillCounts("math");
-          const readingCounts = getSkillCounts("reading");
-          setSkillCounts({ ...mathCounts, ...readingCounts });
-          setIsLoading(false);
-        }, 100);
-      } catch (error) {
-        if (cancelled) return;
-        console.error("Failed to load skill counts:", error);
-        setIsLoading(false);
-      }
-    };
-    loadCounts();
-    return () => {
-      cancelled = true;
-      if (timeoutId !== null) clearTimeout(timeoutId);
-    };
-  }, []);
+  const skillCounts = BANK_COUNT_BY_ALL_SKILL;
 
   const handleSkillClick = (subject: string, skill: string) => {
     navigate(`/bank/${subject.toLowerCase()}/skill/${encodeURIComponent(skill)}`);
@@ -290,11 +231,7 @@ const Index = () => {
                               <span className="mr-2 min-w-0 flex-1 truncate text-sm">{skill}</span>
                               <div className="flex flex-shrink-0 items-center gap-2">
                                 <Badge variant="outline" className="text-xs min-w-[40px] justify-center">
-                                  {isLoading ? (
-                                    <Loader2 className="h-3 w-3 animate-spin" />
-                                  ) : (
-                                    skillCounts[skill] || 0
-                                  )}
+                                  {skillCounts[skill] || 0}
                                 </Badge>
                                 <ChevronRight className="h-4 w-4 text-muted-foreground" />
                               </div>
