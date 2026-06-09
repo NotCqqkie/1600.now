@@ -1,13 +1,13 @@
 import { useState, useMemo, useEffect, useLayoutEffect, useRef, useCallback, type CSSProperties } from "react";
-import { vocabularySets } from "@/data/vocabulary";
 import { PageSeo, buildBreadcrumbJsonLd } from "@/components/seo/PageSeo";
+import type { VocabPos, VocabSet } from "@/data/vocabulary";
 import { useThemeMode } from "@/hooks/useThemeMode";
 import { useAuth } from "@/contexts/AuthContext";
 import { vocabStorageKey } from "@/hooks/useUserProgress";
 import { db } from "@/lib/firebase/firebaseDb";
 import { doc, setDoc } from "firebase/firestore";
 
-type Pos = "adj" | "verb" | "noun";
+type Pos = VocabPos;
 type Mode = "flashcards" | "learn" | "match" | "test" | "browse";
 type PracticeMode = Exclude<Mode, "browse">;
 type StudyStatus = "new" | "learning" | "mastered";
@@ -2820,15 +2820,84 @@ function Browse({
   );
 }
 
+function VocabLoading() {
+  return (
+    <div style={{ display: "grid", gap: 18 }}>
+      <div
+        style={{
+          borderRadius: 18,
+          border: `1px solid ${borderColor}`,
+          background: cardBackground,
+          padding: "24px 22px",
+        }}
+      >
+        <div style={{ display: "grid", gap: 12 }}>
+          <div style={{ width: 180, height: 14, borderRadius: 999, background: mutedSurface }} />
+          <div style={{ width: 320, maxWidth: "100%", height: 42, borderRadius: 999, background: mutedSurface }} />
+        </div>
+      </div>
+      <div
+        style={{
+          borderRadius: 20,
+          border: `1px solid ${borderColor}`,
+          background: cardBackground,
+          minHeight: 420,
+          padding: "28px 24px",
+        }}
+      >
+        <div style={{ display: "grid", gap: 14 }}>
+          {Array.from({ length: 6 }).map((_, index) => (
+            <div key={index} style={{ display: "grid", gap: 8 }}>
+              <div style={{ width: `${38 + index * 7}%`, height: 18, borderRadius: 999, background: mutedSurface }} />
+              <div style={{ width: `${72 + (index % 2) * 12}%`, height: 12, borderRadius: 999, background: mutedSurface }} />
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
+
 const Vocab = () => {
   const isDark = useThemeMode();
   const { user } = useAuth();
   const uid = user?.id ?? null;
 
   const [mode, setMode] = useState<Mode>("flashcards");
-  const [activeSetId, setActiveSetId] = useState<string>(vocabularySets[0]?.id ?? "");
+  const [vocabularySets, setVocabularySets] = useState<VocabSet[]>([]);
+  const [isSetDataLoading, setIsSetDataLoading] = useState(true);
+  const [activeSetId, setActiveSetId] = useState("");
   const [progress, setProgress] = useState<StoredProgress>({});
   const loadedUidRef = useRef<string | null | undefined>(undefined);
+
+  useEffect(() => {
+    let cancelled = false;
+    setIsSetDataLoading(true);
+
+    import("@/data/vocabulary")
+      .then((module) => {
+        if (cancelled) return;
+        setVocabularySets(module.vocabularySets);
+        setIsSetDataLoading(false);
+      })
+      .catch((error) => {
+        void error;
+        if (cancelled) return;
+        setVocabularySets([]);
+        setIsSetDataLoading(false);
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  useEffect(() => {
+    if (!vocabularySets.length) return;
+    if (activeSetId && vocabularySets.some((set) => set.id === activeSetId)) return;
+    setActiveSetId(vocabularySets[0].id);
+  }, [activeSetId, vocabularySets]);
+
   useEffect(() => {
     if (loadedUidRef.current !== uid) {
       loadedUidRef.current = uid;
@@ -2858,7 +2927,7 @@ const Vocab = () => {
     try {
       window.localStorage.setItem(vocabStorageKey(uid), JSON.stringify(progress));
     } catch (error) {
-      console.error("Failed to save vocab progress:", error);
+      void error;
     }
 
     if (user && db) {
@@ -2948,7 +3017,7 @@ const Vocab = () => {
           : "nothing";
     }
     return next;
-  }, [progress]);
+  }, [progress, vocabularySets]);
 
   const resetActive = () => {
     if (activeSet) resetSet(activeSet.id);
@@ -2984,17 +3053,23 @@ const Vocab = () => {
         ])}
       />
       <style>{`.vocab-row:hover { background: hsl(var(--mutedTextColor)); }`}</style>
-      <Header
-        mode={mode}
-        setMode={setMode}
-        setName={activeSet?.name ?? ""}
-        wordCount={deck.length}
-        setOptions={setOptions}
-        activeSetId={activeSet?.id ?? ""}
-        setStatuses={setStatuses}
-        onSetChange={setActiveSetId}
-      />
-      {content}
+      {isSetDataLoading ? (
+        <VocabLoading />
+      ) : (
+        <>
+          <Header
+            mode={mode}
+            setMode={setMode}
+            setName={activeSet?.name ?? ""}
+            wordCount={deck.length}
+            setOptions={setOptions}
+            activeSetId={activeSet?.id ?? ""}
+            setStatuses={setStatuses}
+            onSetChange={setActiveSetId}
+          />
+          {content}
+        </>
+      )}
     </div>
   );
 };
