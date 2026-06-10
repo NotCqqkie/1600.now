@@ -9,11 +9,7 @@
     },
     {
       "title": "Identify the matching pair",
-      "content": "The pair $(4,64)$ satisfies both equations. That matches choice <strong>A</strong> — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "x = 4",
-        "y = (x + 4)^2"
-      ]
+      "content": "The pair $(4,64)$ satisfies both equations. That matches choice <strong>A</strong> — <strong>A</strong> is correct."
     },
     {
       "title": "Confirm the answer",

@@ -9,11 +9,7 @@
     },
     {
       "title": "Test choice C (1.04)",
-      "content": "Backsolving — testing choice C (1.04): If $a = 1.04$, each year the salary is multiplied by 1.04.<br/><br/>This represents a 4% increase because $1.04 = 1 + 0.04$, where 0.04 is the decimal form of 4%.<br/><br/>So $S(1) = 38000 \\cdot 1.04$ gives a 4% increase from the starting salary ✓.<br/><br/>That matches choice C — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "S(n)=38000(1.04)^n",
-        "S(1)/S(0)"
-      ]
+      "content": "Backsolving — testing choice C (1.04): If $a = 1.04$, each year the salary is multiplied by 1.04.<br/><br/>This represents a 4% increase because $1.04 = 1 + 0.04$, where 0.04 is the decimal form of 4%.<br/><br/>So $S(1) = 38000 \\cdot 1.04$ gives a 4% increase from the starting salary ✓.<br/><br/>That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

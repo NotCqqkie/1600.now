@@ -165,7 +165,7 @@ export const countryHubs: CountryHubConfig[] = [
   },
 ];
 
-export const countryHubByCode = new Map(countryHubs.map((h) => [h.code, h]));
+export const countryHubByCode = new Map(countryHubs.map((hub) => [hub.code, hub]));
 export const countryPages: CountryPage[] = [
   {
     slug: "in/sat-vs-jee",
@@ -1347,9 +1347,9 @@ export const countryPages: CountryPage[] = [
   },
 ];
 
-export const countryPageBySlug = new Map(countryPages.map((p) => [p.slug, p]));
+export const countryPageBySlug = new Map(countryPages.map((page) => [page.slug, page]));
 
 export const allCountrySlugs = (): string[] => [
-  ...countryHubs.map((h) => h.hubSlug),
-  ...countryPages.map((p) => p.slug),
+  ...countryHubs.map((hub) => hub.hubSlug),
+  ...countryPages.map((page) => page.slug),
 ];

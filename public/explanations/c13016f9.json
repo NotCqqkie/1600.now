@@ -9,10 +9,7 @@
     },
     {
       "title": "Compute the result",
-      "content": "Simplify: $$f(2) = 4 + 2 + 71 = 77.$$ The answer is <strong>77</strong>.",
-      "desmosExpressions": [
-        "f(x)=(x)^(2)+x+71"
-      ]
+      "content": "Simplify: $$f(2) = 4 + 2 + 71 = 77.$$ The answer is <strong>77</strong>."
     }
   ]
 }

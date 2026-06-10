@@ -9,10 +9,7 @@
     },
     {
       "title": "Solve for x",
-      "content": "Multiply both sides by $\\frac{5}{4}$ (the reciprocal of $\\frac{4}{5}$):<br/>$$x = 1 \\cdot \\frac{5}{4} = \\frac{5}{4}$$",
-      "desmosExpressions": [
-        "\\frac{4}{5}x+\\frac{1}{3}y=1"
-      ]
+      "content": "Multiply both sides by $\\frac{5}{4}$ (the reciprocal of $\\frac{4}{5}$):<br/>$$x = 1 \\cdot \\frac{5}{4} = \\frac{5}{4}$$<br/>The $x$-intercept is $\\frac{5}{4}$, so the answer is <strong>$\\frac{5}{4}$</strong>."
     }
   ]
 }

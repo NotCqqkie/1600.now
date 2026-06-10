@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the confidence interval",
-      "content": "Point estimate 8.5%, margin of error 2.73%; the plausible range extends one margin of error in each direction from the estimate."
+      "title": "Set up the interval",
+      "content": "The estimate is $8.5\\%$ and the margin of error is $2.73\\%$. A plausible interval extends one margin of error below and above the estimate."
     },
     {
-      "title": "Compute the bounds",
-      "content": "Lower: 8.5 &minus; 2.73 = 5.77%. Upper: 8.5 + 2.73 = 11.23%. Any value in [5.77%, 11.23%] is plausible for the true defect rate."
+      "title": "Calculate the bounds",
+      "content": "Lower bound: $$8.5-2.73=5.77.$$ Upper bound: $$8.5+2.73=11.23.$$ So the plausible range is from $5.77\\%$ to $11.23\\%$."
     },
     {
-      "title": "Eliminate each choice",
-      "content": "<ul><li>A: 2.73% of the items are defective &mdash; 2.73% is the margin of error, not a defect rate estimate. Eliminated.</li><li>B: It is plausible that between 5.77% and 11.23% of the items are defective &mdash; This exactly describes the confidence interval derived above. That matches choice B &mdash; <strong>B</strong> is correct.</li><li>C: 8.5% of the items are defective &mdash; This treats the estimate as exact, ignoring the margin of error entirely. Eliminated.</li><li>D: It is plausible that more than 11.23% are defective &mdash; 11.23% is the upper bound; values above it are not plausible given the interval. Eliminated.</li></ul>"
+      "title": "Confirm the choice",
+      "content": "Choice B states that it is plausible that between $5.77\\%$ and $11.23\\%$ of the items are defective, so choice <strong>B</strong> is correct."
     }
   ]
 }

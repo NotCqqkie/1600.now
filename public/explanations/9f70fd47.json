@@ -9,10 +9,7 @@
     },
     {
       "title": "Solve for y",
-      "content": "Add $\\frac{5y}{9}$ to both sides:<br/>$$\\frac{5y}{9}=21$$<br/>Multiply both sides by 9:<br/>$$5y = 189$$<br/>Divide by 5:<br/>$$y = \\frac{189}{5}$$",
-      "desmosExpressions": [
-        "\\frac{3x}{7}=-\\frac{5y}{9}+21"
-      ]
+      "content": "Add $\\frac{5y}{9}$ to both sides:<br/>$$\\frac{5y}{9}=21$$<br/>Multiply both sides by 9:<br/>$$5y = 189$$<br/>Divide by 5:<br/>$$y = \\frac{189}{5}$$"
     }
   ]
 }

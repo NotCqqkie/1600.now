@@ -8,15 +8,8 @@
       "content": "A linear system has no solution when the two lines are parallel and distinct. Rewrite the given equation: $$30x=1800y-3600 \\Rightarrow y=\\frac{x}{60}+2$$ So the second line needs slope $\\frac{1}{60}$ but a different $y$-intercept."
     },
     {
-      "title": "Graph all choices in Desmos",
-      "content": "Graph the given line with each possible second line. Choice A, $\\frac{1}{30}x=2y$, becomes $y=\\frac{x}{60}$, which has the same slope as the given line but intercept $0$ instead of $2$. Those two lines are parallel and never intersect.",
-      "desmosExpressions": [
-        "y=x/60+2",
-        "y=x/60",
-        "y=x/1800+2",
-        "y=x/2",
-        "y=x/60+2"
-      ]
+      "title": "Test the matching slope",
+      "content": "Choice A, $\\frac{1}{30}x=2y$, becomes $y=\\frac{x}{60}$. This has the same slope as the given line but intercept $0$ instead of $2$, so the two lines are parallel and never intersect."
     },
     {
       "title": "Eliminate the distractors",

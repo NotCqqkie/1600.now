@@ -4,22 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Enter approximate scatterplot points",
-      "content": "This is an exponential model with a vertical shift, so use a custom Desmos regression. Reading from the graph, use approximate points such as $(-4,19)$, $(-3,19)$, $(-2,20)$, $(-1,22)$, $(0,24)$, $(1.7,30)$, $(3,42)$, $(4,50)$, and $(4.3,57)$.",
-      "desmosExpressions": [
-        "x_1=[-4,-3,-2,-1,0,1.7,3,4,4.3]",
-        "y_1=[19,19,20,22,24,30,42,50,57]"
-      ]
+      "title": "Use the graph's shape",
+      "content": "The scatterplot is exponential and levels off near $y=18$ on the left. That means the model should include a vertical shift of $+18$, leaving choices B and D as the serious candidates."
     },
     {
-      "title": "Run shifted exponential regression",
-      "content": "Use the custom regression $y_1 \\sim a b^{x_1}+c$. The fitted curve has a horizontal level near $18$, growth base near $1.55$, and coefficient near $6$, matching $y=6(1.55)^x+18$.",
-      "desmosExpressions": [
-        "x_1=[-4,-3,-2,-1,0,1.7,3,4,4.3]",
-        "y_1=[19,19,20,22,24,30,42,50,57]",
-        "y_1~a b^{x_1}+c",
-        "y=6(1.55)^x+18"
-      ]
+      "title": "Check the scale at x = 0 and x = 3",
+      "content": "At $x=0$, choice B gives $24(1.55)^0+18=42$, but the graph is near $24$. Choice D gives $6(1.55)^0+18=24$, matching the graph. At $x=3$, choice D is also near $40$, which follows the plotted curve."
     },
     {
       "title": "Confirm against the choices",

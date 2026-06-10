@@ -1,1 +1,19 @@
-{"questionId": "80aa7690", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the structure", "content": "The blank holds a title (&quot;linguist&quot;) immediately followed by a name (&quot;Diane Massam&quot;). The name specifies which linguist of the University of Toronto is meant &mdash; it is essential to the meaning, making it a <strong>restrictive appositive</strong>."}, {"title": "Apply the punctuation rule", "content": "A restrictive appositive takes <strong>no punctuation</strong> between the title and the name (compare: &quot;author Toni Morrison&quot;). A colon between a noun and its renaming noun is also wrong."}, {"title": "Eliminate the wrong choices", "content": "<ul><li><strong>Choice A &mdash; 'linguist, Diane Massam,'</strong>: paired commas treat the name as nonessential, violating the restrictive appositive rule. &#10007;</li><li><strong>Choice B &mdash; 'linguist, Diane Massam'</strong>: a single comma after &quot;linguist&quot; wrongly separates the title from the name it specifies. &#10007;</li><li><strong>Choice C &mdash; 'linguist Diane Massam'</strong>: no punctuation between title and name, matching the restrictive-appositive rule. &#10003;</li><li><strong>Choice D &mdash; 'linguist : Diane Massam'</strong>: a colon cannot stand between a noun and the noun that renames it, and the space before the colon is also nonstandard. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "80aa7690",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the structure",
+      "content": "The blank holds a title (&quot;linguist&quot;) immediately followed by a name (&quot;Diane Massam&quot;). The name specifies which linguist of the University of Toronto is meant &mdash; it is essential to the meaning, making it a <strong>restrictive appositive</strong>."
+    },
+    {
+      "title": "Apply the punctuation rule",
+      "content": "A restrictive appositive takes <strong>no punctuation</strong> between the title and the name (compare: &quot;author Toni Morrison&quot;). A colon between a noun and its renaming noun is also wrong."
+    },
+    {
+      "title": "Eliminate the wrong choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'linguist, Diane Massam,'</strong>: paired commas treat the name as nonessential, violating the restrictive appositive rule. &#10007;</li><li><strong>Choice B &mdash; 'linguist, Diane Massam'</strong>: a single comma after &quot;linguist&quot; wrongly separates the title from the name it specifies. &#10007;</li><li><strong>Choice C &mdash; 'linguist Diane Massam'</strong>: no punctuation between title and name, matching the restrictive-appositive rule. &#10003;</li><li><strong>Choice D &mdash; 'linguist: Diane Massam'</strong>: a colon cannot stand between a noun and the noun that renames it, and the space before the colon is also nonstandard. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -13,11 +13,7 @@
     },
     {
       "title": "Compute the endpoints",
-      "content": "$$200+730\\lt w\\lt200+1095$$<br/>$$930\\lt w\\lt1295$$",
-      "desmosExpressions": [
-        "200+2(365)",
-        "200+3(365)"
-      ]
+      "content": "$$200+730\\lt w\\lt200+1095$$<br/>$$930\\lt w\\lt1295$$"
     },
     {
       "title": "Confirm the choice",

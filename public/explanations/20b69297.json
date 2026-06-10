@@ -5,8 +5,7 @@
   "steps": [
     {
       "title": "Find the ratio of yellow to blue from the first batch",
-      "content": "The first batch mixed 2 ounces of blue with 3 ounces of yellow. The ratio of yellow to blue is $\\frac{3}{2} = 1.5$. This means that yellow is always 1.5 times the blue amount in any batch made with this ratio.",
-      "formula": "$$\\text{Yellow} = 1.5 \\times \\text{Blue}$$"
+      "content": "The first batch mixed 2 ounces of blue with 3 ounces of yellow. The ratio of yellow to blue is $\\frac{3}{2} = 1.5$. This means that yellow is always 1.5 times the blue amount in any batch made with this ratio."
     },
     {
       "title": "Apply the ratio to the second batch",

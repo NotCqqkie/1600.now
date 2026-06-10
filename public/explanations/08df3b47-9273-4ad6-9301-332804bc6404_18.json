@@ -11,12 +11,7 @@
     {
       "title": "Expand to slope-intercept form",
       "content": "Distribute the slope:<br/>$$y = -\\frac{5}{4}x - \\frac{5}{4} \\cdot 16$$<br/>$$y = -\\frac{5}{4}x - \\frac{80}{4}$$<br/>$$y = -\\frac{5}{4}x - 20$$<br/>The constant term is the y-intercept: $-20$.",
-      "formula": "$$y = mx + b$$",
-      "desmosExpressions": [
-        "y = -\\frac{5}{4}(x + 16)",
-        "(-16, 0)",
-        "(0, -20)"
-      ]
+      "formula": "$$y = mx + b$$"
     }
   ]
 }

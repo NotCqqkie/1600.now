@@ -1,10 +1,19 @@
 {
-  "qid": "3206b905",
+  "questionId": "3206b905",
   "correctAnswer": "D",
+  "section": "Math",
   "steps": [
-    "Find the greatest common factor of 8x^10, -8x^9, and 88x. Each coefficient is divisible by 8, and each term has at least one factor of x, so GCF = 8x.",
-    "Factor out 8x: 8x^10 = 8x \\cdot x^9, -8x^9 = 8x \\cdot (-x^8), 88x = 8x \\cdot 11.",
-    "Result: 8x(x^9 - x^8 + 11)."
-  ],
-  "explanation": "<ul><li><strong>Choice A &mdash; '$x(7x^{10} - 7x^9 + 87x)$'</strong>: Factoring out only x gives x(8x^9 - 8x^8 + 88), not 7x^10 - 7x^9 + 87x. The coefficients are wrong. &#10007;</li><li><strong>Choice B &mdash; '$x(8^{10} - 8^9 + 88)$'</strong>: This treats the exponents as bases (8^10 instead of x^10), which is not what factoring produces. &#10007;</li><li><strong>Choice C &mdash; '$8x(x^{10} - x^9 + 11x)$'</strong>: Factoring out 8x from 8x^10 gives x^9 (not x^10), and from 88x gives 11 (not 11x). The exponents are off by one. &#10007;</li><li><strong>Choice D &mdash; '$8x(x^9 - x^8 + 11)$'</strong>: 8x(x^9) = 8x^10, 8x(-x^8) = -8x^9, 8x(11) = 88x. Multiplying back confirms this is correct. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    {
+      "title": "Find the greatest common factor",
+      "content": "The terms are $8x^{10}$, $-8x^9$, and $88x$. Each coefficient is divisible by $8$, and each term contains at least one factor of $x$, so the greatest common factor is $8x$."
+    },
+    {
+      "title": "Factor each term",
+      "content": "Divide each term by $8x$: $$8x^{10}=8x\\cdot x^9$$ $$-8x^9=8x\\cdot(-x^8)$$ $$88x=8x\\cdot11$$"
+    },
+    {
+      "title": "Write the equivalent expression",
+      "content": "Factoring out $8x$ gives $$8x(x^9-x^8+11)$$ This matches choice <strong>D</strong>."
+    }
+  ]
 }

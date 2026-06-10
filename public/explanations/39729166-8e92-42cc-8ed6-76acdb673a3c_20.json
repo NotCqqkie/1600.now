@@ -5,8 +5,7 @@
   "steps": [
     {
       "title": "Convert percentage changes to multipliers",
-      "content": "A 193% increase means multiply by $1 + 1.93 = 2.93$. A 31% decrease means multiply by $1 - 0.31 = 0.69$.",
-      "formula": "$$\\text{Increase factor} = 1 + \\frac{p}{100}, \\quad \\text{Decrease factor} = 1 - \\frac{p}{100}$$"
+      "content": "A 193% increase means multiply by $1 + 1.93 = 2.93$. A 31% decrease means multiply by $1 - 0.31 = 0.69$."
     },
     {
       "title": "Chain the multipliers across both years",

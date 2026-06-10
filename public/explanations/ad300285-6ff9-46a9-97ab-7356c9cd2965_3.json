@@ -5,21 +5,11 @@
   "steps": [
     {
       "title": "Build a two-row table",
-      "content": "The point $(0,5)$ is the $y$-intercept. A slope of $\\frac{1}{4}$ means that when $x$ increases by $4$, $y$ increases by $1$, so another convenient point is $(4,6)$.",
-      "desmosExpressions": [
-        "x_1=[0,4]",
-        "y_1=[5,6]"
-      ]
+      "content": "Use slope-intercept form $f(x)=mx+b$. The point $(0,5)$ is the $y$-intercept, so $b=5$. The slope is $m=\\frac{1}{4}$."
     },
     {
-      "title": "Fit the line in Desmos",
-      "content": "Use $y_1 \\sim mx_1+b$. Desmos gives $m=0.25$ and $b=5$, which is $f(x)=\\frac{1}{4}x+5$.",
-      "desmosExpressions": [
-        "x_1=[0,4]",
-        "y_1=[5,6]",
-        "y_1~m x_1+b",
-        "y=(1/4)x+5"
-      ]
+      "title": "Write the line",
+      "content": "Substitute $m=\\frac{1}{4}$ and $b=5$:$$f(x)=\\frac{1}{4}x+5.$$"
     },
     {
       "title": "Match the choice",

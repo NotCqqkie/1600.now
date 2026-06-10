@@ -9,10 +9,7 @@
     },
     {
       "title": "Identify a valid solution",
-      "content": "Among the choices, $0$ is a root of the equation. That matches choice <strong>B</strong> — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "y = 3x(x - 4)(x + 5)"
-      ]
+      "content": "Among the choices, $0$ is a root of the equation. That matches choice <strong>B</strong> — <strong>B</strong> is correct."
     }
   ]
 }

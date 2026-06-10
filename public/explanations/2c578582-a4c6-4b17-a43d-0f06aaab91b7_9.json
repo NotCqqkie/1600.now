@@ -9,10 +9,7 @@
     },
     {
       "title": "Divide by $c^4$ and solve for $c$",
-      "content": "Dividing both sides by $c^4$ (valid since $c > 1$ means $c^4 > 0$):<br/>$$c^2 = 9$$<br/>Taking the square root and using $c > 1$:<br/>$$c = 3$$",
-      "desmosExpressions": [
-        "f(x) = 3^{x}"
-      ]
+      "content": "Dividing both sides by $c^4$ (valid since $c > 1$ means $c^4 > 0$):<br/>$$c^2 = 9$$<br/>Taking the square root and using $c > 1$:<br/>$$c = 3$$"
     }
   ]
 }

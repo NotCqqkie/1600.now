@@ -146,7 +146,7 @@ const normalizedTextLinkRules = textLinkRules
       href: rule.href,
     })),
   )
-  .sort((a, b) => b.phrase.length - a.phrase.length);
+  .sort((leftRule, rightRule) => rightRule.phrase.length - leftRule.phrase.length);
 
 const isWordChar = (char: string | undefined) => Boolean(char && /[A-Za-z0-9]/.test(char));
 

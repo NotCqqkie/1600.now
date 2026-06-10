@@ -83,7 +83,8 @@ const migrateLegacyKeysOnce = () => {
       localStorage.removeItem(LEGACY_VOCAB_KEY);
     }
     migrateLegacyQuestionUiState(null);
-  } catch {
+  } catch (error) {
+    console.error('Failed to migrate legacy progress:', error);
   }
 };
 
@@ -270,7 +271,8 @@ export const useUserProgress = () => {
             localStorage.removeItem(vocabStorageKey(null));
             localStorage.removeItem(questionUiStateStorageKey(null));
             localStorage.removeItem(customSets.customPracticeSetsStorageKey(null));
-          } catch {
+          } catch (error) {
+            console.error('Failed to remove anonymous progress after migration:', error);
           }
           sessionStorage.setItem(sessionFlagKey, '1');
           migratedAnonRef.current.add(user.id);

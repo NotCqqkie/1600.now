@@ -1,1 +1,15 @@
-{"questionId": "302c1069-d3cf-4e1c-b0bd-57e018252a85_25", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The goal is to emphasize the <strong>order</strong> in which the supercontinents formed. The notes give two data points: Ur formed ~3.1 billion years ago; Pangaea formed ~300 million years ago. The correct answer must explicitly compare the two and indicate sequence."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'Pangaea formed long after the supercontinent Ur'</strong>: directly compares both supercontinents and states which came first, satisfying the goal of emphasizing formation order. &#10003;</li><li><strong>Choice B &mdash; 'Forming and breaking apart over hundreds of millions of years...'</strong>: describes the supercontinent cycle in general but never names Ur or Pangaea or indicates which formed first. &#10007;</li><li><strong>Choice C &mdash; 'Ur and Pangaea were both supercontinents, single landmasses made up of most or all of Earth's continents'</strong>: mentions both supercontinents but only defines what a supercontinent is — no sequence information. &#10007;</li><li><strong>Choice D &mdash; 'Ur formed about 3.1 billion years ago but eventually broke apart'</strong>: covers only Ur and omits any comparison with Pangaea, so order between the two is never established. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "302c1069-d3cf-4e1c-b0bd-57e018252a85_25",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The goal is to emphasize the <strong>order</strong> in which the supercontinents formed. The notes give two data points: Ur formed ~3.1 billion years ago; Pangaea formed ~300 million years ago. The correct answer must explicitly compare the two and indicate sequence."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'Pangaea formed long after the supercontinent Ur'</strong>: directly compares both supercontinents and states which came first, satisfying the goal of emphasizing formation order. &#10003;</li><li><strong>Choice B &mdash; 'Forming and breaking apart over hundreds of millions of years...'</strong>: describes the supercontinent cycle in general but never names Ur or Pangaea or indicates which formed first. &#10007;</li><li><strong>Choice C &mdash; 'Ur and Pangaea were both supercontinents, single landmasses made up of most or all of Earth's continents'</strong>: mentions both supercontinents but only defines what a supercontinent is — no sequence information. &#10007;</li><li><strong>Choice D &mdash; 'Ur formed about 3.1 billion years ago but eventually broke apart'</strong>: covers only Ur and omits any comparison with Pangaea, so order between the two is never established. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

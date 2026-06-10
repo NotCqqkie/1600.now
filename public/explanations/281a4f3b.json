@@ -4,22 +4,16 @@
   "correctAnswer": "D",
   "steps": [
     {
-      "title": "Convert the percent decrease to a decay factor",
-      "content": "Use two easy table points. At $x=0$, enrollment is $3{,}000$; after one year, it is $3000(0.98)=2940$. Enter $x_1=[0,1]$, $y_1=[3000,2940]$, and $y_1\\sim a b^{x_1}$ in Desmos.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[3000,2940]",
-        "y_1~a b^{x_1}",
-        "y=a b^x"
-      ]
+      "title": "Convert the percent decrease",
+      "content": "A $2\\%$ decrease means each year keeps $98\\%$ of the previous year's enrollment:<br/>$$1-0.02=0.98$$"
     },
     {
       "title": "Build the exponential model",
-      "content": "Desmos gives $a=3000$ and $b=0.98$, so the model is $f(x)=3000(0.98)^x$. The coefficient is the initial value, and the base is the yearly multiplier."
+      "content": "The initial enrollment in 2015 is $3{,}000$, and $x$ counts years after 2015. Use initial value times yearly multiplier:<br/>$$f(x)=3{,}000(0.98)^x$$"
     },
     {
-      "title": "Evaluate each choice",
-      "content": "<ul><li>A) $f(x)=0.02 \\cdot (3{,}000)^x$ — uses 3,000 as the base, which would grow enormously. Also 0.02 is the decay rate, not the initial value. Eliminated.</li><li>B) $f(x)=0.98 \\cdot (3{,}000)^x$ — again uses 3,000 as a base, causing huge growth instead of small decline. Eliminated.</li><li>C) $f(x)=3{,}000 \\cdot (0.02)^x$ — base 0.02 means 98% decrease per year, not 2%. Eliminated.</li><li>D) $f(x)=3{,}000 \\cdot (0.98)^x$ — starts at 3,000 and decays by 2% each year.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "title": "Match the choice",
+      "content": "Choice D is the only function with initial value $3{,}000$ and decay factor $0.98$. Therefore, <strong>D</strong> is correct."
     }
   ]
 }

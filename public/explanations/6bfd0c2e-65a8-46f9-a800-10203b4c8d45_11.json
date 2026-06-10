@@ -5,8 +5,7 @@
   "steps": [
     {
       "title": "Recognize what a 1/2 exponent means",
-      "content": "A fractional exponent of $\\frac{1}{2}$ always means taking a square root of the entire expression inside the parentheses. This is one of the most important exponent rules to memorize.",
-      "formula": "$$(x)^{\\frac{1}{2}} = \\sqrt{x}$$"
+      "content": "A fractional exponent of $\\frac{1}{2}$ always means taking a square root of the entire expression inside the parentheses. This is one of the most important exponent rules to memorize."
     },
     {
       "title": "Apply the rule to the given expression",

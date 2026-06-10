@@ -13,12 +13,7 @@
     },
     {
       "title": "Confirm the positive time",
-      "content": "Time cannot be negative, so use the positive solution. Since $1.6=\\frac{8}{5}$, accepted entries include <strong>1.6</strong> or <strong>8/5</strong>.",
-      "desmosExpressions": [
-        "y=-16x^2+40.96",
-        "y=0",
-        "(1.6, 0)"
-      ]
+      "content": "Time cannot be negative, so use the positive solution. Since $1.6=\\frac{8}{5}$, accepted entries include <strong>1.6</strong> or <strong>8/5</strong>."
     }
   ]
 }

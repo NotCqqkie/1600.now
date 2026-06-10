@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the discriminant",
-      "content": "For $x^2-12x+27=0$, the discriminant is $$(-12)^2-4(1)(27)=144-108=36$$ Since $36>0$, the quadratic has two distinct real solutions."
+      "title": "Connect the discriminant to the number of solutions",
+      "content": "The question asks how many distinct real solutions the quadratic has. For a quadratic, the sign of the discriminant tells whether the graph crosses the $x$-axis twice, touches it once, or does not cross it. For $x^2-12x+27=0$:<br/>$$(-12)^2-4(1)(27)=144-108=36$$ Since $36>0$, the quadratic has two distinct real solutions."
     },
     {
-      "title": "Confirm with a graph",
-      "content": "Graph $y=x^2-12x+27$ in Desmos. The graph crosses the $x$-axis twice, matching the positive discriminant. Therefore the equation has exactly two distinct real solutions.",
-      "desmosExpressions": [
-        "y = x^2 - 12x + 27",
-        "(-12)^2-4*1*27"
-      ]
+      "title": "Interpret the discriminant",
+      "content": "The positive discriminant means the parabola crosses the $x$-axis at two different points. Therefore the equation has exactly two distinct real solutions."
     },
     {
       "title": "Check the choices",

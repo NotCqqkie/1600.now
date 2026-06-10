@@ -9,10 +9,7 @@
     },
     {
       "title": "Apply Vieta&apos;s shortcut: sum = &minus;b/a",
-      "content": "Vieta&apos;s formula: sum of solutions $= -b/a = -(-84)/1 = 84$. (No need to solve&mdash;read the answer directly from coefficients.) That matches choice C &mdash; <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y=(x-42)^{2}-1"
-      ]
+      "content": "Vieta&apos;s formula: sum of solutions $= -b/a = -(-84)/1 = 84$. (No need to solve&mdash;read the answer directly from coefficients.) That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }

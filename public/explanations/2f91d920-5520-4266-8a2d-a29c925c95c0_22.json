@@ -5,8 +5,7 @@
   "steps": [
     {
       "title": "Check Statement II using SAS",
-      "content": "For any two triangles, we have the Side-Angle-Side (SAS) congruence rule: if two sides and the included angle of one triangle equal the corresponding parts of another, the triangles are congruent.<br/><br/>Statement II tells us $AC = DF$. Combined with the given conditions:<br/>• Side $AB = DE = 6$ (given)<br/>• Angle $A$ is between sides $AB$ and $AC$ in triangle $ABC$<br/>• Angle $D$ is between sides $DE$ and $DF$ in triangle $DEF$<br/>• We have $A = D = 40°$ (given)<br/>• And $AC = DF$ (from Statement II)<br/><br/>This satisfies SAS: two sides ($AB = DE$, $AC = DF$) and the included angle ($A = D$) are equal. Therefore, $\\triangle ABC \\cong \\triangle DEF$. Statement II is <strong>sufficient</strong>.",
-      "formula": "$$\\text{SAS: } AB = DE, \\ \\angle A = \\angle D, \\ AC = DF \\implies \\triangle ABC \\cong \\triangle DEF$$"
+      "content": "Statement II gives $AC=DF$. Combine that with the information already given:<ul><li>$AB=DE=6$</li><li>$\\angle A=\\angle D=40^\\circ$</li><li>$AC=DF$</li></ul>The equal angle is between the two equal sides in each triangle, so this is SAS congruence. Statement II is <strong>sufficient</strong>."
     },
     {
       "title": "Check Statement III using Law of Cosines",

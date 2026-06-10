@@ -4,26 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fit the two balances in Desmos",
-      "content": "Use custom regression to avoid taking a 13th root by hand. The initial balance gives the point $(0,36100)$. The 13-year balance gives the point $(13,68071.93)$. Fit an exponential model with $y_1\\sim a b^{x_1}$.",
-      "desmosExpressions": [
-        "x_1=[0,13]",
-        "y_1=[36100,68071.93]",
-        "y_1~a b^{x_1}"
-      ]
+      "title": "Use the data directly",
+      "content": "Use the exponential form $A(t)=a(b)^t$. The initial balance gives $a=36{,}100$. The 13-year balance gives $$68{,}071.93=36{,}100(b)^{13}.$$"
     },
     {
-      "title": "Read the regression output",
-      "content": "Desmos returns $a\\approx36100$ and $b\\approx1.05$. In $y=a b^x$, $a$ is the starting value and $b$ is the yearly multiplier, so the model is $$A(t)=36100(1.05)^t.$$"
+      "title": "Find the growth multiplier",
+      "content": "Divide by $36{,}100$ and take the 13th root:<br/>$$b=\\left(\\frac{68{,}071.93}{36{,}100}\\right)^{1/13}\\approx1.05.$$<br/>So the model is $$A(t)=36100(1.05)^t.$$"
     },
     {
       "title": "Compare with the choices",
-      "content": "Choice A has both the correct starting value and the fitted growth multiplier. Choice B has the right multiplier but wrong starting value. Choice C has the wrong starting value and a decay factor. Choice D starts correctly but uses $0.05$, which would make the balance almost zero after 13 years. Choice <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y=36100(1.05)^x",
-        "(0,36100)",
-        "(13,68071.93)"
-      ]
+      "content": "Choice A has both the correct starting value and the growth multiplier. Choice B has the right multiplier but wrong starting value. Choice C has the wrong starting value and a decay factor. Choice D starts correctly but uses $0.05$, which would make the balance almost zero after 13 years. Choice <strong>A</strong> is correct."
     }
   ]
 }

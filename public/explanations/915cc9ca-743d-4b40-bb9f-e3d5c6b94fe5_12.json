@@ -4,21 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up",
-      "content": "The boundary line passes through two readable points: $(0,-11)$ and $(-7,-10)$. Since the boundary has form $rx+ty=-77$, use a custom regression in Desmos: $x_1=[0,-7]$, $y_1=[-11,-10]$, and $r x_1+t y_1\\sim -77$.",
-      "desmosExpressions": [
-        "x_1=[0,-7]",
-        "y_1=[-11,-10]",
-        "r x_1+t y_1~-77"
-      ]
+      "title": "Read two boundary points",
+      "content": "The boundary line is where $rx+ty=-77$. From the graph, two clear points on that line are $(0,-11)$ and $(-7,-10)$."
     },
     {
-      "title": "Solve",
-      "content": "Desmos gives $r=1$ and $t=7$, so the boundary is $x+7y=-77$. The shading is above the line, so the inequality is $x+7y\\ge -77$. Therefore $r+t=1+7=8$."
+      "title": "Use the points to find r and t",
+      "content": "Substitute $(0,-11)$ into $rx+ty=-77$:$$0r-11t=-77\\Rightarrow t=7$$Now substitute $(-7,-10)$:$$-7r-10(7)=-77$$ $$-7r-70=-77\\Rightarrow r=1$$So $r+t=1+7=8$."
     },
     {
       "title": "Answer",
-      "content": "<strong>A</strong> is correct."
+      "content": "The question asks for $r+t$, not the inequality direction. Since $r+t=8$, choice <strong>A</strong> is correct."
     }
   ]
 }

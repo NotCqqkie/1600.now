@@ -13,10 +13,7 @@
     },
     {
       "title": "Answer",
-      "content": "<strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y = \\left(\\frac{1}{2}x - \\frac{21}{2}\\right)^{2} - 81"
-      ]
+      "content": "<strong>A</strong> is correct."
     }
   ]
 }

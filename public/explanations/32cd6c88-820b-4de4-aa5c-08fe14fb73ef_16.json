@@ -4,21 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use relative years to make a Desmos table",
-      "content": "Let $t$ be years after $1995$. Then $1995$ is $t=0$, $2015$ is $t=20$, and $2019$ is $t=24$. The known points are $(0,55)$ and $(20,217)$, with population measured in thousands.",
-      "desmosExpressions": [
-        "x_1=[0,20]",
-        "y_1=[55,217]",
-        "y_1~m x_1+b"
-      ]
+      "title": "Use relative years",
+      "content": "Let $t$ be years after $1995$. Then $1995$ is $t=0$, $2015$ is $t=20$, and $2019$ is $t=24$. The known points are $(0,55)$ and $(20,217)$, with population measured in thousands."
     },
     {
       "title": "Evaluate the fitted model at 2019",
-      "content": "The regression gives $m=8.1$ and $b=55$, so the model is $y=8.1t+55$. For $2019$, plug in $t=24$: $$y=8.1(24)+55=249.4.$$ Rounded to the nearest whole number, this is $249$ thousand.",
-        "desmosExpressions": [
-          "y=8.1x+55",
-          "(24,249.4)"
-        ]
+      "content": "Find the slope from the two known points: $$m=\\frac{217-55}{20-0}=\\frac{162}{20}=8.1$$ Since the point with input $0$ has output $55$, the model is $y=8.1t+55$. For $2019$, plug in $t=24$: $$y=8.1(24)+55=249.4.$$ Rounded to the nearest whole number, this is $249$ thousand."
     },
     {
       "title": "Confirm the answer",

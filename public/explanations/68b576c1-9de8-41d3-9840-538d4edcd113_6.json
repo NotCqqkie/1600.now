@@ -9,11 +9,7 @@
     },
     {
       "title": "Apply the shift rule",
-      "content": "Substitute $f(x) = 3x^2$ into the transformation rule:<br/>$$g(x) = f(x) + 9 = 3x^2 + 9$$<br/>That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "f(x) = 3x^2",
-        "g(x) = 3x^2 + 9"
-      ]
+      "content": "Substitute $f(x) = 3x^2$ into the transformation rule:<br/>$$g(x) = f(x) + 9 = 3x^2 + 9$$<br/>That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

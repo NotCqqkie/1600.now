@@ -9,11 +9,7 @@
     },
     {
       "title": "Use substitution to solve for c",
-      "content": "Substitute $a = 21 - c$ into the revenue equation:<br/>$$80(21 - c) + 60c = 1440$$<br/>Expand and simplify:<br/>$$1680 - 80c + 60c = 1440$$<br/>$$1680 - 20c = 1440$$<br/>$$-20c = -240$$<br/>$$c = 12$$<br/>The group has 12 children. That matches choice C — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y = 21 - x",
-        "y = (1440 - 80x)/60"
-      ]
+      "content": "Substitute $a = 21 - c$ into the revenue equation:<br/>$$80(21 - c) + 60c = 1440$$<br/>Expand and simplify:<br/>$$1680 - 80c + 60c = 1440$$<br/>$$1680 - 20c = 1440$$<br/>$$-20c = -240$$<br/>$$c = 12$$<br/>The group has 12 children. That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

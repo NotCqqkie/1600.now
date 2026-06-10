@@ -10,11 +10,7 @@
     },
     {
       "title": "Cancel π and compute",
-      "content": "The $\\pi$ cancels from numerator and denominator:<br/>$$\\frac{16 \\times 180}{15}$$<br/>Calculate the product: $16 \\times 180 = 2880$<br/>$$\\frac{2880}{15} = 192$$<br/>The angle measures <strong>192 degrees</strong>.",
-      "desmosExpressions": [
-        "x^2 + y^2 = 1",
-        "(\\cos(16\\pi/15), \\sin(16\\pi/15))"
-      ]
+      "content": "The $\\pi$ cancels from numerator and denominator:<br/>$$\\frac{16 \\times 180}{15}$$<br/>Calculate the product: $16 \\times 180 = 2880$<br/>$$\\frac{2880}{15} = 192$$<br/>The angle measures <strong>192 degrees</strong>."
     }
   ]
 }

@@ -4,12 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "Distribute $(x^{-9}y^{6}z^{5})$ across each term of $(x^{4}z^{5}+y^{8}z^{-7})$ by adding exponents on matching bases."
+      "title": "Distribute the monomial",
+      "content": "Multiply $x^{-9}y^6z^5$ by each term inside the parentheses: $$(x^{-9}y^6z^5)(x^4z^5)+(x^{-9}y^6z^5)(y^8z^{-7}).$$"
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; '$x^{-5}y^{6}z^{10}+y^{8}z^{-7}$'</strong>: the second term drops the $x^{-9}$ and the $y^6$ factors from the monomial &mdash; incomplete distribution. &#10007;</li><li><strong>Choice B &mdash; '$x^{-5}y^{6}z^{10}+x^{-9}y^{14}z^{-2}$'</strong>: first term $x^{-9+4}y^{6}z^{5+5}=x^{-5}y^{6}z^{10}$ &#10003;; second term $x^{-9}y^{6+8}z^{5+(-7)}=x^{-9}y^{14}z^{-2}$ &#10003;. Both correct. &#10003;</li><li><strong>Choice C &mdash; '$x^{-5}z^{10}+x^{-9}z^{-2}$'</strong>: drops all $y$ factors from both terms. &#10007;</li><li><strong>Choice D &mdash; '$x^{-5}z^{10}+x^{14}z^{-2}$'</strong>: drops $y$ factors and adds exponents incorrectly for the second term ($-9+8=14$?). &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "title": "Add exponents on matching bases",
+      "content": "For the first product, $$x^{-9}x^4y^6z^5z^5=x^{-5}y^6z^{10}.$$ For the second product, $$x^{-9}y^6y^8z^5z^{-7}=x^{-9}y^{14}z^{-2}.$$"
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "The product is $$x^{-5}y^6z^{10}+x^{-9}y^{14}z^{-2}.$$ This matches choice <strong>B</strong>."
+    },
+    {
+      "title": "Why the exponents combine this way",
+      "content": "When multiplying powers with the same base, add the exponents. That is why $x^{-9}x^4=x^{-5}$, $y^6y^8=y^{14}$, and $z^5z^{-7}=z^{-2}$."
     }
   ]
 }

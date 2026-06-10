@@ -5,20 +5,15 @@
   "steps": [
     {
       "title": "Use relative years in the model",
-      "content": "Let $t$ be years after $1996$. Then $1996$ is $t=0$, $2016$ is $t=20$, and $2020$ is $t=24$. The two known model values are $(0,61)$ and $(20,225)$, in thousands.",
-      "desmosExpressions": [
-        "x_1=[0,20]",
-        "y_1=[61,225]",
-        "y_1~m x_1+b"
-      ]
+      "content": "Let $t$ be years after $1996$. Then $1996$ is $t=0$, $2016$ is $t=20$, and $2020$ is $t=24$. The two known model values are $(0,61)$ and $(20,225)$, in thousands."
     },
     {
       "title": "Evaluate the line at 2020",
-      "content": "The table regression gives $m=8.2$ and $b=61$, so $y=8.2t+61$. For $2020$, use $t=24$: $$y=8.2(24)+61=257.8.$$ To the nearest whole number, this is $258$ thousand.",
-        "desmosExpressions": [
-          "y=8.2x+61",
-          "(24,257.8)"
-        ]
+      "content": "The table calculation gives $m=8.2$ and $b=61$, so $y=8.2t+61$. For $2020$, use $t=24$: $$y=8.2(24)+61=257.8.$$ To the nearest whole number, this is $258$ thousand.",
+      "desmosExpressions": [
+        "y=8.2x+61",
+        "(24,257.8)"
+      ]
     },
     {
       "title": "Confirm the answer",

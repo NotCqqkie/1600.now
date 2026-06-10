@@ -13,10 +13,7 @@
     },
     {
       "title": "Pick the only possible choice",
-      "content": "The median must be between $20$ and $25$. Among the answer choices, only $21$ is in that interval. That matches choice D, so <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "d_1=[2,2,8,8,8,8,14,14,21,21,21,21,21,21,21,26,26]"
-      ]
+      "content": "The median must be between $20$ and $25$. Among the answer choices, only $21$ is in that interval. That matches choice D, so <strong>D</strong> is correct."
     }
   ]
 }

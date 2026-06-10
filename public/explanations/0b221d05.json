@@ -4,19 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the inequality from the boundary line",
-      "content": "The boundary line passes through (0, -4) and (2, 4).<br/><br/>Slope: $$\\frac{4-(-4)}{2-0} = 4$$<br/>Equation: $$y = 4x - 4$$<br/>The shaded region lies below the line, so solutions must satisfy $y < 4x - 4$.",
-      "formula": "$$y = 4x - 4$$"
+      "title": "Use the graph directly",
+      "content": "The question does not ask for the inequality equation. It only asks which ordered pair is in the shaded region, so plot or locate each answer choice on the graph."
     },
     {
       "title": "Test answer choices",
-      "content": "For each choice, check if $y < 4x - 4$:<ul><li>A $(-5, -6)$: $-6 < 4(-5) - 4 = -24$? No.</li><li>B $(-2, 5)$: $5 < 4(-2) - 4 = -12$? No.</li><li>C $(1, 4)$: $4 < 4(1) - 4 = 0$? No.</li><li>D $(6, -2)$: $-2 < 4(6) - 4 = 20$? Yes.</li></ul>That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "(-5,-6)",
-        "(-2,5)",
-        "(1,4)",
-        "(6,-2)"
-      ]
+      "content": "<ul><li><strong>A</strong> $(-5,-6)$ is outside the shaded region.</li><li><strong>B</strong> $(-2,5)$ is outside the shaded region.</li><li><strong>C</strong> $(1,4)$ is outside the shaded region.</li><li><strong>D</strong> $(6,-2)$ is inside the shaded region.</li></ul>The only plotted choice in the shaded region is $(6,-2)$, so choice <strong>D</strong> is correct."
     }
   ]
 }

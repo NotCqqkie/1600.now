@@ -9,10 +9,7 @@
     },
     {
       "title": "Solve and match",
-      "content": "Take square roots: $x+1=\\pm\\sqrt{73}$, so $x=-1\\pm\\sqrt{73}$. The choice given is $-1+\\sqrt{73}$. That matches choice <strong>C</strong> &mdash; <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y = x^{2} + 2x - 72"
-      ]
+      "content": "Take square roots: $x+1=\\pm\\sqrt{73}$, so $x=-1\\pm\\sqrt{73}$. The choice given is $-1+\\sqrt{73}$. That matches choice <strong>C</strong> &mdash; <strong>C</strong> is correct."
     },
     {
       "title": "Confirm the answer",

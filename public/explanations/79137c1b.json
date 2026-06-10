@@ -5,23 +5,15 @@
   "steps": [
     {
       "title": "Use a quick best-fit anchor",
-      "content": "For a scatterplot line-of-best-fit question, do not try to hit every point. Pick two points near the middle of the cloud. The cluster is centered roughly around $(1,200)$ and $(2.5,350)$, so those are good anchor points for the trend.",
-      "desmosExpressions": [
-        "x_1=[1,2.5]",
-        "y_1=[200,350]",
-        "y_1~mx_1+b"
-      ]
+      "content": "For a scatterplot line-of-best-fit question, do not try to hit every point. Pick two points near the middle of the cloud. The cluster is centered roughly around $(1,200)$ and $(2.5,350)$, so those are good anchor points for the trend."
     },
     {
       "title": "Estimate the model",
-      "content": "The slope from those anchor points is $\\frac{350-200}{2.5-1}=\\frac{150}{1.5}=100$. Using $(1,200)$ in $y=100x+b$ gives $200=100(1)+b$, so $b=100$. The best-fit equation should be close to $y=100x+100$.",
-      "desmosExpressions": [
-        "y=100x+100"
-      ]
+      "content": "The slope from those anchor points is $\\frac{350-200}{2.5-1}=\\frac{150}{1.5}=100$. Using $(1,200)$ in $y=100x+b$ gives $200=100(1)+b$, so $b=100$. The best-fit equation should be close to $y=100x+100$."
     },
     {
       "title": "Check the choices",
-      "content": "Choice D has the right slope but a $y$-intercept of $0$, which puts the line too low for small house sizes. Choice A is much too steep, and choice C is too flat. Choice B has slope $100$ and intercept $100$, matching the center of the data cloud. Therefore choice <strong>B</strong> is correct.",
+      "content": "The Desmos expressions below graph the four candidate lines so you can compare each one to the scatterplot. Choice D has the right slope but a $y$-intercept of $0$, which puts the line too low for small house sizes. Choice A is much too steep, and choice C is too flat. Choice B has slope $100$ and intercept $100$, matching the center of the data cloud. Therefore choice <strong>B</strong> is correct.",
       "desmosExpressions": [
         "y=200x+100",
         "y=100x+100",

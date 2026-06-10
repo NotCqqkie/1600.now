@@ -14,7 +14,7 @@
     },
     {
       "title": "Evaluate the square root",
-      "content": "Since $7^2 = 49$ and $8^2 = 64$, we know $\\sqrt{58}$ falls between 7 and 8. Testing more precisely: $7.6^2 = 57.76$ and $7.62^2 \\approx 58.06$, so $\\sqrt{58} \\approx 7.616$. That matches choice C — <strong>C</strong> is correct."
+      "content": "Since $7^2 = 49$ and $8^2 = 64$, we know $\\sqrt{58}$ falls between 7 and 8. Testing more precisely: $7.6^2 = 57.76$ and $7.62^2 \\approx 58.06$, so $\\sqrt{58} \\approx 7.616$. That matches choice C - <strong>C</strong> is correct."
     }
   ]
 }

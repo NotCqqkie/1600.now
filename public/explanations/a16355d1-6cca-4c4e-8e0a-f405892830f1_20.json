@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Vieta shortcut: sum of solutions $= -b/a$",
-      "content": "For $x^2 - 84x - 14 = 0$: $a = 1$, $b = -84$.<br/>$$\\text{sum} = -\\frac{b}{a} = -\\frac{-84}{1} = 84$$<br/>No quadratic formula needed."
+      "content": "This is a quadratic equation, so the goal is to find its roots. The quadratic formula is a direct way to solve it when simple factoring is not the focus. For $x^2 - 84x - 14 = 0$: $a = 1$, $b = -84$.<br/>$$\\text{sum} = -\\frac{b}{a} = -\\frac{-84}{1} = 84$$<br/>No quadratic formula needed."
     },
     {
       "title": "Read the answer",

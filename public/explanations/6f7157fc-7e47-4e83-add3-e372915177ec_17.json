@@ -9,7 +9,7 @@
     },
     {
       "title": "Backsolve the candidates",
-      "content": "Backsolving — testing choice B (49): The employee works 49 − 40 = 9 hours of overtime at \\$45/hr, yielding \\$1,200 + 9(\\$45) = \\$1,200 + \\$405 = \\$1,605.<br/><br/>Since \\$1,605 < \\$1,610, B fails.<br/><br/>Testing choice A (50): The employee works 50 − 40 = 10 hours of overtime at \\$45/hr, yielding \\$1,200 + 10(\\$45) = \\$1,200 + \\$450 = \\$1,650.<br/><br/>Since \\$1,650 ≥ \\$1,610, the target is met. That matches choice A — <strong>A</strong> is correct."
+      "content": "Backsolving — testing choice B (49): The employee works 49 − 40 = 9 hours of overtime at \\$45/hr, yielding \\$1,200 + 9(\\$45) = \\$1,200 + \\$405 = \\$1,605.<br/><br/>Since \\$1,605 \\lt \\$1,610, B fails.<br/><br/>Testing choice A (50): The employee works 50 − 40 = 10 hours of overtime at \\$45/hr, yielding \\$1,200 + 10(\\$45) = \\$1,200 + \\$450 = \\$1,650.<br/><br/>Since \\$1,650 ≥ \\$1,610, the target is met. That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

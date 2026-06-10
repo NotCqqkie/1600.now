@@ -4,17 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Match Desmos to the given equation form",
-      "content": "The problem already tells you the model is $f(x)=mx-28$. Instead of solving from one point, enter all four table points and use a custom regression with the same fixed intercept term.",
-      "desmosExpressions": [
-        "x_1=[10,15,20,25]",
-        "y_1=[82,137,192,247]",
-        "y_1~m x_1-28"
-      ]
+      "title": "Use one table row in the given model",
+      "content": "The problem already tells you the linear relationship has the form $f(x)=mx-28$. Use a table row, such as $x=10$ and $f(x)=82$."
     },
     {
-      "title": "Read the coefficient",
-      "content": "The row $y_1 \\sim m x_1-28$ returns $m=11$. A quick algebra check with the first point gives $82=10m-28$, so $110=10m$ and $m=11$. The correct free-response answer is <strong>11</strong>."
+      "title": "Solve for the coefficient",
+      "content": "Substitute the row into the equation: $$82=10m-28.$$ Add $28$ to both sides: $$110=10m.$$ Divide by $10$: $$m=11.$$ The correct free-response answer is <strong>11</strong>."
     }
   ]
 }

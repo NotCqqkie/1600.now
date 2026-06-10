@@ -5,8 +5,7 @@
   "steps": [
     {
       "title": "Find the median position",
-      "content": "The data is already ordered: 2, 2, 2, 3, 4, 4, 11. With 7 values (odd), the median is the middle value at position $$\\frac{7+1}{2} = 4$$.",
-      "formula": "$$\\text{For odd n: median position} = \\frac{n+1}{2}$$"
+      "content": "The data is already ordered: 2, 2, 2, 3, 4, 4, 11. With 7 values (odd), the median is the middle value at position $$\\frac{7+1}{2} = 4$$."
     },
     {
       "title": "Identify the middle value",

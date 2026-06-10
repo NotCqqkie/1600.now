@@ -8,25 +8,12 @@
       "content": "A system has infinitely many solutions only when both equations are the same line. The second equation must produce exactly the same $y$-values as $y=6x+3$ for every $x$."
     },
     {
-      "title": "Use a two-value Desmos table",
-      "content": "Use two quick $x$-values, $0$ and $1$. For the original equation, the outputs are $3$ and $9$. In Desmos, compare the outputs of the choices after solving each for $y$.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=6x_1+3",
-        "a_1=2(6x_1)+3",
-        "b_1=2(6x_1+3)",
-        "c_1=(2(6x_1)+3)/2",
-        "d_1=(2(6x_1+3))/2"
-      ]
+      "title": "Look for an equivalent equation",
+      "content": "Equivalent equations are made by doing the same operation to both sides. Starting with<br/>$$y=6x+3$$<br/>multiply both sides by $2$:<br/>$$2y=2(6x+3).$$"
     },
     {
-      "title": "Find the matching output list",
-      "content": "The original list is $y_1=[3,9]$. Choice D gives $d_1=[3,9]$, the exact same output list. The other choices give different outputs, so they represent different lines.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=6x_1+3",
-        "d_1=(2(6x_1+3))/2"
-      ]
+      "title": "Match the choice",
+      "content": "Choice D is $2(y)=2(6x+3)$, which is exactly the original equation multiplied by $2$ on both sides."
     },
     {
       "title": "Confirm the choice",

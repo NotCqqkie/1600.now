@@ -8,19 +8,12 @@
       "content": "The table is for $y=f(x)+4$, but the question asks about the graph of $y=f(x)$. Subtract 4 from each listed $y$-value:<ul><li>$f(21)=-8-4=-12$</li><li>$f(23)=8-4=4$</li><li>$f(25)=-8-4=-12$</li></ul>"
     },
     {
-      "title": "Use Desmos regression to get f(0)",
-      "content": "Enter the adjusted points in Desmos as $x_1=[21,23,25]$ and $y_1=[-12,4,-12]$. Then use the quadratic regression row $y_1 \\sim a x_1^2+b x_1+c$. Desmos gives $a=-4$, $b=184$, and $c=-2112$, so $f(x)=-4x^2+184x-2112$. The y-intercept of $y=f(x)$ is $f(0)$, which is the constant term $c=-2112$.",
-      "desmosExpressions": [
-        "x_1=[21,23,25]",
-        "y_1=[-12,4,-12]",
-        "y_1~a x_1^2+b x_1+c",
-        "y=-4(x-23)^2+4",
-        "(0,-2112)"
-      ]
+      "title": "Use symmetry to write vertex form",
+      "content": "The equal values $f(21)=f(25)=-12$ show symmetry around $x=23$, and $f(23)=4$, so the vertex is $(23,4)$. Write $f(x)=a(x-23)^2+4$."
     },
     {
-      "title": "Quick hand check",
-      "content": "The equal values $f(21)=f(25)=-12$ show symmetry around $x=23$, so the vertex is $(23,4)$. In vertex form, $f(x)=a(x-23)^2+4$. Using $(21,-12)$ gives $-12=4a+4$, so $a=-4$. Then $f(0)=-4(23)^2+4=-2112$. The answer is <strong>-2112</strong>."
+      "title": "Find the y-intercept",
+      "content": "Use $(21,-12)$: $-12=4a+4$, so $a=-4$. Then $f(0)=-4(23)^2+4=-2112$. The answer is <strong>-2112</strong>."
     }
   ]
 }

@@ -13,13 +13,7 @@
     },
     {
       "title": "Calculate the radius",
-      "content": "Compute the squares: $28^2 = 784$ and $21^2 = 441$.<br/>$$r = \\sqrt{784 + 441} = \\sqrt{1225} = 35$$<br/>That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "(x-28)^2 + (y-5)^2 = 1225",
-        "(28, 5)",
-        "(0, -16)",
-        "(0, 26)"
-      ]
+      "content": "Compute the squares: $28^2 = 784$ and $21^2 = 441$.<br/>$$r = \\sqrt{784 + 441} = \\sqrt{1225} = 35$$<br/>That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

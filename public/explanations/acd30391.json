@@ -2,8 +2,8 @@
   "qid": "acd30391",
   "steps": [
     {
-      "title": "Graph the circle and the choices",
-      "content": "The fastest way is to graph the circle $(x+3)^2+(y-1)^2=25$ in Desmos and plot each answer choice. A point is in the interior if it lands inside the circle; it is not in the interior if it is on or outside the circle.",
+      "title": "Use the circle inequality",
+      "content": "The circle has equation $(x+3)^2+(y-1)^2=25$. A point is in the interior when $$(x+3)^2+(y-1)^2\\lt25.$$ The Desmos graph marks the circle and the answer-choice points so you can see which point is outside before confirming algebraically. A point is not in the interior if the value is $25$ or greater.",
       "desmosExpressions": [
         "(x+3)^2+(y-1)^2=25",
         "(-7,3)",
@@ -14,7 +14,7 @@
     },
     {
       "title": "Use the equation to verify the graph",
-      "content": "For a point to be inside the circle, $(x+3)^2+(y-1)^2<25$. Choice A gives $(-4)^2+2^2=20$, choice B gives $0$, and choice C gives $3^2+(-1)^2=10$; all three are less than $25$, so they are inside."
+      "content": "For a point to be inside the circle, $(x+3)^2+(y-1)^2\\lt 25$. Choice A gives $(-4)^2+2^2=20$, choice B gives $0$, and choice C gives $3^2+(-1)^2=10$; all three are less than $25$, so they are inside."
     },
     {
       "title": "Choose the outside point",

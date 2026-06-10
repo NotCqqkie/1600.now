@@ -49,24 +49,24 @@ const ScoreGoalPage = () => {
   let body: ReactNode;
 
   if (typeof page.target === "number") {
-    const c = numericContent(page.target);
+    const content = numericContent(page.target);
     const score = page.target;
     faqs = [
       {
         question: `Is a ${score} SAT achievable?`,
-        answer: `Yes. A ${score} places you in the ${c.percentile}th percentile — reachable with 8–16 weeks of focused prep for most students who start within 150 points of the target.`,
+        answer: `Yes. A ${score} places you in the ${content.percentile}th percentile — reachable with 8–16 weeks of focused prep for most students who start within 150 points of the target.`,
       },
       {
         question: `How many questions can I miss and still get a ${score}?`,
-        answer: `You can miss roughly ${c.missBudget} questions across the whole Digital SAT and still land at a ${score}, though exact counts vary because of the adaptive Module 2.`,
+        answer: `You can miss roughly ${content.missBudget} questions across the whole Digital SAT and still land at a ${score}, though exact counts vary because of the adaptive Module 2.`,
       },
       {
         question: `What is the section split for a ${score}?`,
-        answer: `A balanced ${score} usually means about ${c.sectionSplit.rw} in Reading & Writing and ${c.sectionSplit.math} in Math. Uneven splits are fine — lean 30–40 points into your stronger section.`,
+        answer: `A balanced ${score} usually means about ${content.sectionSplit.rw} in Reading & Writing and ${content.sectionSplit.math} in Math. Uneven splits are fine — lean 30–40 points into your stronger section.`,
       },
       {
         question: `What colleges accept a ${score} SAT?`,
-        answer: `A ${score} is competitive at ${c.collegeExamples.slice(0, 3).join(", ")} and dozens of other schools with similar admissions profiles.`,
+        answer: `A ${score} is competitive at ${content.collegeExamples.slice(0, 3).join(", ")} and dozens of other schools with similar admissions profiles.`,
       },
     ];
 
@@ -77,9 +77,9 @@ const ScoreGoalPage = () => {
             What a {score} means
           </h2>
           <p className="mt-3 text-muted-foreground">
-            A {score} on the Digital SAT is a {c.tier.toLowerCase()} score —{" "}
-            {c.tierDescription} At the {c.percentile}th percentile, you are
-            scoring higher than about {c.percentile}% of all SAT test takers.
+            A {score} on the Digital SAT is a {content.tier.toLowerCase()} score —{" "}
+            {content.tierDescription} At the {content.percentile}th percentile, you are
+            scoring higher than about {content.percentile}% of all SAT test takers.
           </p>
         </section>
 
@@ -88,10 +88,10 @@ const ScoreGoalPage = () => {
             Section split for a {score}
           </h2>
           <p className="mt-3 text-muted-foreground">
-            A balanced {score} typically comes from about {c.sectionSplit.rw}{" "}
-            in Reading & Writing and {c.sectionSplit.math} in Math. The Digital
+            A balanced {score} typically comes from about {content.sectionSplit.rw}{" "}
+            in Reading & Writing and {content.sectionSplit.math} in Math. The Digital
             SAT weighs both sections equally, so a lopsided split (for example{" "}
-            {c.sectionSplit.rw + 30} RW and {c.sectionSplit.math - 30} Math) is
+            {content.sectionSplit.rw + 30} RW and {content.sectionSplit.math - 30} Math) is
             completely fine — aim for whichever section feels stronger.
           </p>
         </section>
@@ -102,7 +102,7 @@ const ScoreGoalPage = () => {
           </h2>
           <p className="mt-3 text-muted-foreground">
             To land at {score}, you need to miss no more than roughly{" "}
-            {c.missBudget} questions across the entire test. Keep in mind the
+            {content.missBudget} questions across the entire test. Keep in mind the
             test is adaptive: missing early questions in Module 1 can route you
             to the easier Module 2, which caps your ceiling well below 800 for
             that section.
@@ -113,7 +113,7 @@ const ScoreGoalPage = () => {
           <h2 className="text-2xl font-semibold tracking-tight">
             What to focus on
           </h2>
-          <p className="mt-3 text-muted-foreground">{c.studyFocus}</p>
+          <p className="mt-3 text-muted-foreground">{content.studyFocus}</p>
         </section>
 
         <section className="mt-10">
@@ -155,7 +155,7 @@ const ScoreGoalPage = () => {
             Colleges where {score} is competitive
           </h2>
           <ul className="mt-3 list-disc space-y-1 pl-6 text-muted-foreground">
-            {c.collegeExamples.map((col) => (
+            {content.collegeExamples.map((col) => (
               <li key={col}>{col}</li>
             ))}
           </ul>
@@ -167,14 +167,14 @@ const ScoreGoalPage = () => {
           </h2>
           <ul className="mt-3 flex flex-wrap gap-2">
             {[score - 100, score - 50, score + 50, score + 100]
-              .filter((n) => allSatScores.includes(n))
-              .map((n) => (
-                <li key={n}>
+              .filter((targetScore) => allSatScores.includes(targetScore))
+              .map((targetScore) => (
+                <li key={targetScore}>
                   <Link
-                    to={`/how-to-get-${n}-sat`}
+                    to={`/how-to-get-${targetScore}-sat`}
                     className="inline-block rounded-lg border border-border px-3 py-1.5 text-sm hover:bg-muted"
                   >
-                    How to get a {n}
+                    How to get a {targetScore}
                   </Link>
                 </li>
               ))}
@@ -369,13 +369,13 @@ const ScoreGoalPage = () => {
             Score targets by percentile
           </h2>
           <ul className="mt-3 flex flex-wrap gap-2">
-            {[1200, 1300, 1400, 1500, 1550, 1600].map((n) => (
-              <li key={n}>
+            {[1200, 1300, 1400, 1500, 1550, 1600].map((targetScore) => (
+              <li key={targetScore}>
                 <Link
-                  to={`/how-to-get-${n}-sat`}
+                  to={`/how-to-get-${targetScore}-sat`}
                   className="inline-block rounded-lg border border-border px-3 py-1.5 text-sm hover:bg-muted"
                 >
-                  How to get a {n}
+                  How to get a {targetScore}
                 </Link>
               </li>
             ))}
@@ -451,13 +451,13 @@ const ScoreGoalPage = () => {
             Common score targets
           </h2>
           <ul className="mt-3 flex flex-wrap gap-2">
-            {[1100, 1200, 1300, 1400, 1500].map((n) => (
-              <li key={n}>
+            {[1100, 1200, 1300, 1400, 1500].map((targetScore) => (
+              <li key={targetScore}>
                 <Link
-                  to={`/how-to-get-${n}-sat`}
+                  to={`/how-to-get-${targetScore}-sat`}
                   className="inline-block rounded-lg border border-border px-3 py-1.5 text-sm hover:bg-muted"
                 >
-                  How to get a {n}
+                  How to get a {targetScore}
                 </Link>
               </li>
             ))}
@@ -507,10 +507,10 @@ const ScoreGoalPage = () => {
       <section className="mt-12">
         <h2 className="text-2xl font-semibold tracking-tight">FAQs</h2>
         <div className="mt-4 space-y-5">
-          {faqs.map((f) => (
-            <div key={f.question}>
-              <h3 className="text-base font-semibold">{f.question}</h3>
-              <p className="mt-1 text-muted-foreground">{f.answer}</p>
+          {faqs.map((faq) => (
+            <div key={faq.question}>
+              <h3 className="text-base font-semibold">{faq.question}</h3>
+              <p className="mt-1 text-muted-foreground">{faq.answer}</p>
             </div>
           ))}
         </div>

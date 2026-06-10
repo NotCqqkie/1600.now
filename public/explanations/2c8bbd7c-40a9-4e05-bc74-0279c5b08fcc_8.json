@@ -13,10 +13,7 @@
     },
     {
       "title": "Identify the matching factor",
-      "content": "So $x+2$ is a factor. That matches choice <strong>D</strong> — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y = 7x^{2} + 5x - 18"
-      ]
+      "content": "So $x+2$ is a factor. That matches choice <strong>D</strong> — <strong>D</strong> is correct."
     },
     {
       "title": "Confirm the answer",

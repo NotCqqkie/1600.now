@@ -9,11 +9,7 @@
     },
     {
       "title": "Solve for x",
-      "content": "Add 190 to both sides:<br/>$$5x = 590$$<br/>Divide both sides by 5:<br/>$$x = 118$$<br/>They must sell 118 car stickers to earn \\$400 in profit.",
-      "desmosExpressions": [
-        "y = 5x - 190",
-        "(118, 400)"
-      ]
+      "content": "Add 190 to both sides:<br/>$$5x = 590$$<br/>Divide both sides by 5:<br/>$$x = 118$$<br/>They must sell 118 car stickers to earn \\$400 in profit."
     }
   ]
 }

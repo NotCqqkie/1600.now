@@ -4,17 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fit the two values in Desmos",
-      "content": "Treat the two function values as points: $f(0)=7$ gives $(0,7)$, and $f(2)=7$ gives $(2,7)$. Since the question says $f$ is linear, enter those points in Desmos and run a linear regression: $x_1=[0,2]$, $y_1=[7,7]$, then $y_1 \\sim m x_1+b$. Desmos returns $m=0$ and $b=7$.",
-      "desmosExpressions": [
-        "x_1=[0,2]",
-        "y_1=[7,7]",
-        "y_1~m x_1+b"
-      ]
+      "title": "Use the data directly",
+      "content": "Treat the two function values as points: $f(0)=7$ gives $(0,7)$, and $f(2)=7$ gives $(2,7)$. Since $f$ is linear, use those two points directly. The slope is $m=\\frac{7-7}{2-0}=0.$ Substituting a point into $y=mx+b$ gives $b=7$."
     },
     {
       "title": "Write the function",
-      "content": "The regression result $m=0$ means the line is horizontal. With $b=7$, the function is $f(x)=7$. This also matches the quick mental check: both given inputs output the same value, so a linear function through both points must be constant."
+      "content": "The calculated result $m=0$ means the line is horizontal. With $b=7$, the function is $f(x)=7$. This also matches the quick mental check: both given inputs output the same value, so a linear function through both points must be constant."
     },
     {
       "title": "Evaluate each choice",

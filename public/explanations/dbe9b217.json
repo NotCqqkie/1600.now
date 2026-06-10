@@ -13,11 +13,7 @@
     },
     {
       "title": "Confirm the answer",
-      "content": "The value of $f(2)$ is <strong>68</strong>. The exponent is evaluated before multiplying by $8$, so the cubic term contributes $64$. Then the final constant adds $4$.",
-      "desmosExpressions": [
-        "f(x)=8x^3+4",
-        "x=2"
-      ]
+      "content": "The value of $f(2)$ is <strong>68</strong>. The exponent is evaluated before multiplying by $8$, so the cubic term contributes $64$. Then the final constant adds $4$."
     }
   ]
 }

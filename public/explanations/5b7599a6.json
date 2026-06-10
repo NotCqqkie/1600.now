@@ -5,24 +5,11 @@
   "steps": [
     {
       "title": "Read the intercepts",
-      "content": "From the graph, the line crosses the $y$-axis at $(0,6)$ and the $x$-axis at $(2,0)$. Put those two points in Desmos as a table instead of doing a long symbolic setup.",
-      "desmosExpressions": [
-        "x_1=[0,2]",
-        "y_1=[6,0]"
-      ]
+      "content": "From the graph, the line crosses the $y$-axis at $(0,6)$ and the $x$-axis at $(2,0)$. Use those two intercept points directly."
     },
     {
-      "title": "Fit the line and clear decimals",
-      "content": "Run $y_1 \\sim mx_1+b$. The regression gives $m=-3$ and $b=6$, so the graph is $y=-3x+6$. Rewriting gives $3x+y=6$, and multiplying by $6$ gives $18x+6y=36$. That matches the form $18x+Ry=36$ with positive $R=6$.",
-      "desmosExpressions": [
-        "x_1=[0,2]",
-        "y_1=[6,0]",
-        "y_1~m x_1+b",
-        "y=-3x+6",
-        "18x+6y=36",
-        "(0,6)",
-        "(2,0)"
-      ]
+      "title": "Write the line from the intercepts",
+      "content": "Using $(0,6)$ and $(2,0)$, the slope is $$\\frac{0-6}{2-0}=-3$$ So the line is $y=-3x+6$. Rewriting gives $3x+y=6$, and multiplying by $6$ gives $18x+6y=36$. That matches the form $18x+Ry=36$ with positive $R=6$."
     },
     {
       "title": "Rule out the other forms",

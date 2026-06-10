@@ -832,4 +832,4 @@ export const pillarPages: PillarPageData[] = [
   },
 ];
 
-export const pillarBySlug = new Map(pillarPages.map((p) => [p.slug, p]));
+export const pillarBySlug = new Map(pillarPages.map((page) => [page.slug, page]));

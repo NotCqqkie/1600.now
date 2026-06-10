@@ -9,11 +9,7 @@
     },
     {
       "title": "Identify the matching choice",
-      "content": "Choice D states: <em>The value of the bank account is estimated to be approximately 263 dollars at the end of 1963</em>. This is exactly our interpretation. That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "f(x) = 236 \\cdot 1.022^{x}",
-        "(5, 263)"
-      ]
+      "content": "Choice D states: <em>The value of the bank account is estimated to be approximately 263 dollars at the end of 1963</em>. This is exactly our interpretation. That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

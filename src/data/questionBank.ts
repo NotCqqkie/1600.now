@@ -4,7 +4,13 @@ import readingPastRaw from "./questions/reading_past.json";
 
 const pastSatQuestionsData = [...mathPastRaw, ...readingPastRaw] as SourceQuestion[];
 import { questions as unofficialQuestionsData } from "./unofficialQuestions";
-import { resolveSatChoiceImage, resolveSatQuestionImages } from "./satQuestionImages";
+import {
+  getSatImageDisplaySize,
+  resolveSatChoiceImage,
+  resolveSatQuestionImages,
+  type ResolvedSatImage,
+} from "./satQuestionImages";
+import type { QuestionImageDisplaySize } from "./questionImageSizing.generated";
 import { normalizeTextForMathRendering } from "@/lib/text/mathTextNormalization";
 import { normalizeReadingText } from "@/lib/text/readingTextNormalization";
 import {
@@ -66,6 +72,7 @@ export interface BankChoice {
   id: string;
   text?: string;
   image?: string;
+  imageDisplaySize?: QuestionImageDisplaySize;
 }
 
 export interface BankQuestion {
@@ -87,7 +94,7 @@ export interface BankQuestion {
   type: "multiple-choice" | "free-response";
   correctAnswer?: string | null;
   rationale?: string | null;
-  questionImages?: { src: string; alt: string }[];
+  questionImages?: ResolvedSatImage[];
   difficulty?: "Easy" | "Medium" | "Hard" | null;
   /** Whether this question is currently used in practice tests. Does NOT control visibility in the question bank. */
   inPracticeTests?: boolean | null;
@@ -535,6 +542,7 @@ const normalizeQuestion = (source: RawBankSource, q: SourceQuestion): Omit<BankQ
               id: choice.id,
               text: suppressText ? undefined : (rawText ? sanitizeText(rawText) : undefined),
               image: resolvedImage,
+              imageDisplaySize: getSatImageDisplaySize(resolvedImage),
             };
           })
         : undefined)

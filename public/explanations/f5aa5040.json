@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Horizontal line tangent to parabola means it passes through the vertex",
-      "content": "A horizontal line intersects a parabola at exactly one point when it is tangent to the parabola—that is, when it touches the parabola at the vertex.<br/><br/>For the parabola $y = -2x^2 + 9x$ with $a = -2 < 0$, the vertex is the maximum point.<br/><br/>The line $2y = c$ (equivalently, $y = \\frac{c}{2}$) must pass through this vertex."
+      "content": "A horizontal line intersects a parabola at exactly one point when it is tangent to the parabola—that is, when it touches the parabola at the vertex.<br/><br/>For the parabola $y = -2x^2 + 9x$ with $a = -2 \\lt 0$, the vertex is the maximum point.<br/><br/>The line $2y = c$ (equivalently, $y = \\frac{c}{2}$) must pass through this vertex."
     },
     {
       "title": "Find the x-coordinate of the vertex",
@@ -14,14 +14,7 @@
     },
     {
       "title": "Find the y-coordinate of the vertex and calculate c",
-      "content": "Substitute $x = \\frac{9}{4}$ into $y = -2x^2 + 9x$:<br/>$$y = -2\\left(\\frac{9}{4}\\right)^2 + 9\\left(\\frac{9}{4}\\right) = -2 \\cdot \\frac{81}{16} + \\frac{81}{4}$$<br/>$$= -\\frac{81}{8} + \\frac{81}{4} = -\\frac{81}{8} + \\frac{162}{8} = \\frac{81}{8}$$<br/>Since the line $2y = c$ passes through the vertex where $y = \\frac{81}{8}$:<br/>$$c = 2 \\cdot \\frac{81}{8} = \\frac{81}{4} = 20.25$$",
-      "desmosExpressions": [
-        "y = -2x^2 + 9x",
-        "u_1=[1]",
-        "(-4h+9)u_1~0u_1",
-        "2(-2h^2+9h)",
-        "2y=81/4"
-      ]
+      "content": "Substitute $x = \\frac{9}{4}$ into $y = -2x^2 + 9x$:<br/>$$y = -2\\left(\\frac{9}{4}\\right)^2 + 9\\left(\\frac{9}{4}\\right) = -2 \\cdot \\frac{81}{16} + \\frac{81}{4}$$<br/>$$= -\\frac{81}{8} + \\frac{81}{4} = -\\frac{81}{8} + \\frac{162}{8} = \\frac{81}{8}$$<br/>Since the line $2y = c$ passes through the vertex where $y = \\frac{81}{8}$:<br/>$$c = 2 \\cdot \\frac{81}{8} = \\frac{81}{4} = 20.25$$"
     }
   ]
 }

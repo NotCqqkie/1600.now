@@ -4,16 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Expand the two binomials",
-      "content": "Multiply $(x-\\frac{3}{2})(x+14)$ using FOIL:<br/>$$x \\cdot x + x \\cdot 14 - \\frac{3}{2} \\cdot x - \\frac{3}{2} \\cdot 14 = x^2 + 14x - \\frac{3}{2}x - 21$$<br/>Combine the middle terms: $14x - \\frac{3}{2}x = \\frac{28}{2}x - \\frac{3}{2}x = \\frac{25}{2}x$.<br/>So $(x-\\frac{3}{2})(x+14) = x^2 + \\frac{25}{2}x - 21$."
+      "title": "Expand inside first",
+      "content": "Multiply the binomials: $$(x-\\frac{3}{2})(x+14)=x^2+14x-\\frac{3}{2}x-21=x^2+\\frac{25}{2}x-21$$"
     },
     {
-      "title": "Multiply through by 2",
-      "content": "Distribute the leading 2:<br/>$$2\\left(x^2 + \\frac{25}{2}x - 21\\right) = 2x^2 + 25x - 42$$"
+      "title": "Multiply by 2",
+      "content": "Now distribute the outside $2$: $$2\\left(x^2+\\frac{25}{2}x-21\\right)=2x^2+25x-42$$"
     },
     {
-      "title": "Match against the answer choices",
-      "content": "<ul><li>A. $x^2+25x-21$ &mdash; leading coefficient is 1, not 2; eliminated.</li><li>B. $2x^2+11x-21$ &mdash; constant is $-21$ instead of $-42$; eliminated.</li><li>C. $2x^2+25x-42$ &mdash; matches our expansion exactly.</li><li>D. $2x^2-42$ &mdash; missing the $25x$ term; eliminated.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+      "title": "Confirm the choice",
+      "content": "Choice C is $2x^2+25x-42$, so <strong>C</strong> is correct."
+    },
+    {
+      "title": "Avoid the common traps",
+      "content": "Choice A forgets to multiply the expanded result by the outside $2$. Choice B has the wrong middle coefficient, and choice D drops the $25x$ term. Choice C keeps all three terms after distributing."
     }
   ]
 }

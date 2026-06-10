@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Identify vertex and direction",
-      "content": "The equation $y = -(x - 9)^2 + 8$ is in vertex form with vertex $(9, 8)$ and coefficient $a = -1 < 0$. This means the parabola opens downward with a maximum $y$-value of 8."
+      "content": "The equation $y = -(x - 9)^2 + 8$ is in vertex form with vertex $(9, 8)$ and coefficient $a = -1 \\lt 0$. This means the parabola opens downward with a maximum $y$-value of 8."
     },
     {
       "title": "Compare the line to the parabola's maximum",

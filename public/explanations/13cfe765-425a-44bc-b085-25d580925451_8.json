@@ -1,1 +1,15 @@
-{"questionId":"13cfe765-425a-44bc-b085-25d580925451_8","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks which statement is best supported by the passage. The key claim is that Azara&apos;s night monkeys forage more with higher lunar intensity because of their greater reliance on vision &mdash; meaning any cost of extra light is outweighed by the visual benefit."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;their behavior should be more similar to that of European badgers&apos;</strong>: the passage explicitly explains the discrepancy, so similarity is not predicted by OFT here. &#10007;</li><li><strong>Choice B &mdash; &apos;advantages likely shared by some other species not heavily reliant on vision&apos;</strong>: the passage ties the advantage specifically to vision reliance, ruling this out. &#10007;</li><li><strong>Choice C &mdash; &apos;if increased lunar intensity imposed the same costs on the monkeys ... there would be no association&apos;</strong>: the passage does not establish what would happen under that hypothetical; a positive effect could still exist. &#10007;</li><li><strong>Choice D &mdash; &apos;if increased lunar intensity creates any disadvantages ... those disadvantages are more than compensated for&apos;</strong>: the monkeys forage more with more light, so net benefits must exceed any costs &mdash; directly supported by the positive association and OFT logic. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "13cfe765-425a-44bc-b085-25d580925451_8",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks which statement is best supported by the passage. The key claim is that Azara&apos;s night monkeys forage more with higher lunar intensity because of their greater reliance on vision &mdash; meaning any cost of extra light is outweighed by the visual benefit."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &apos;their behavior should be more similar to that of European badgers&apos;</strong>: the passage explicitly explains the discrepancy, so similarity is not predicted by OFT here. &#10007;</li><li><strong>Choice B &mdash; &apos;advantages likely shared by some other species not heavily reliant on vision&apos;</strong>: the passage ties the advantage specifically to vision reliance, ruling this out. &#10007;</li><li><strong>Choice C &mdash; &apos;if increased lunar intensity imposed the same costs on the monkeys... there would be no association&apos;</strong>: the passage does not establish what would happen under that hypothetical; a positive effect could still exist. &#10007;</li><li><strong>Choice D &mdash; &apos;if increased lunar intensity creates any disadvantages... those disadvantages are more than compensated for&apos;</strong>: the monkeys forage more with more light, so net benefits must exceed any costs &mdash; directly supported by the positive association and OFT logic. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

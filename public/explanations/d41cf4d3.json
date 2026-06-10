@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Find b using the point (-24, 0)",
-      "content": "The graph passes through $(-24, 0)$, so $f(-24) = a\\sqrt{-24+b} = 0$. Since $f(24) < 0$ (not zero), we cannot have $a = 0$. Therefore $\\sqrt{-24+b} = 0$, which gives us:<br/>$$b = 24$$"
+      "content": "The graph passes through $(-24, 0)$, so $f(-24) = a\\sqrt{-24+b} = 0$. Since $f(24) \\lt 0$ (not zero), we cannot have $a = 0$. Therefore $\\sqrt{-24+b} = 0$, which gives us:<br/>$$b = 24$$"
     },
     {
       "title": "Find the sign of a using f(24) < 0",
-      "content": "With $b = 24$, we get $f(24) = a\\sqrt{48}$. Since $\\sqrt{48} = 4\\sqrt{3}$, we have $f(24) = a \\cdot 4\\sqrt{3}$. The factor $4\\sqrt{3} > 0$, but $f(24) < 0$, so:<br/>$$a < 0$$"
+      "content": "With $b = 24$, we get $f(24) = a\\sqrt{48}$. Since $\\sqrt{48} = 4\\sqrt{3}$, we have $f(24) = a \\cdot 4\\sqrt{3}$. The factor $4\\sqrt{3} > 0$, but $f(24) \\lt 0$, so:<br/>$$a \\lt 0$$"
     },
     {
       "title": "Compare a and b to determine the answer",
-      "content": "We established that $a < 0$ and $b = 24$. Therefore:<br/>$$a < 0 < 24 = b$$<br/>which means $a < b$. That matches choice D — <strong>D</strong> is correct."
+      "content": "We established that $a \\lt 0$ and $b = 24$. Therefore:<br/>$$a \\lt 0 \\lt 24 = b$$<br/>which means $a \\lt b$. That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

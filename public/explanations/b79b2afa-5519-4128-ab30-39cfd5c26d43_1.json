@@ -4,21 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Make two points for the line",
-      "content": "The line passes through $(0,60)$. Its slope is $-8$, so when $x$ increases by $1$, $y$ decreases by $8$. That gives a second point, $(1,52)$."
+      "title": "Use slope-intercept form",
+      "content": "A line with slope $-8$ has the form $$y=-8x+b.$$"
     },
     {
-      "title": "Fit the points in Desmos",
-      "content": "Enter $x_1=[0,1]$ and $y_1=[60,52]$, then run $y_1 \\sim m x_1+b$. Desmos gives $m=-8$ and $b=60$, so the equation is $y=-8x+60$.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[60,52]",
-        "y_1~m x_1+b"
-      ]
+      "title": "Use the y-intercept",
+      "content": "The line passes through $(0,60)$, so the $y$-intercept is $60$. Therefore $b=60$."
     },
     {
-      "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice A, $y=-8x+60$. The other choices do not satisfy the same condition from the question, so <strong>A</strong> is correct."
+      "title": "Confirm the choice",
+      "content": "The equation is $$y=-8x+60.$$ This matches choice <strong>A</strong>."
+    },
+    {
+      "title": "Check the intercept directly",
+      "content": "A point with $x=0$ lies on the $y$-axis, so $(0,60)$ means the intercept is $60$. The choices all have slope $-8$, so the intercept is the deciding detail."
     }
   ]
 }

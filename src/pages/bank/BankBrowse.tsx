@@ -111,9 +111,9 @@ const BankBrowse = () => {
 
   const shuffleArray = (arr: BankQuestion[]): BankQuestion[] => {
     const shuffled = [...arr];
-    for (let i = shuffled.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    for (let currentIndex = shuffled.length - 1; currentIndex > 0; currentIndex--) {
+      const randomIndex = Math.floor(Math.random() * (currentIndex + 1));
+      [shuffled[currentIndex], shuffled[randomIndex]] = [shuffled[randomIndex], shuffled[currentIndex]];
     }
     return spaceOutNearDuplicates<BankQuestion>(shuffled, questionFingerprint);
   };

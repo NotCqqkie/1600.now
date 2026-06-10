@@ -9,26 +9,15 @@
     },
     {
       "title": "Reject the horizontal choices",
-      "content": "Start with the easiest eliminations. Choices C and D are $y=5.2$ and $y=-5.2$, which are horizontal lines. The line of best fit in the graph rises as $x$ increases, so neither horizontal line can match the scatterplot.",
-      "desmosExpressions": [
-        "y=5.2",
-        "y=-5.2"
-      ]
+      "content": "Start with the easiest eliminations. Choices C and D are $y=5.2$ and $y=-5.2$, which are horizontal lines. The line of best fit in the graph rises as $x$ increases, so neither horizontal line can match the scatterplot."
     },
     {
       "title": "Reject the negative-slope choice",
-      "content": "Next test choice B, $y=-1.1x$. This line falls from left to right, which is the opposite of the best-fit line shown in the graph. That eliminates B.",
-      "desmosExpressions": [
-        "y=-1.1x"
-      ]
+      "content": "Next test choice B, $y=-1.1x$. This line falls from left to right, which is the opposite of the best-fit line shown in the graph. That eliminates B."
     },
     {
       "title": "Confirm the matching line",
-      "content": "The only remaining choice is $y=1.1x$. It rises from left to right and passes through the origin, matching the two visual features from the graph. That is choice <strong>A</strong>.",
-      "desmosExpressions": [
-        "y=1.1x",
-        "(0,0)"
-      ]
+      "content": "The only remaining choice is $y=1.1x$. It rises from left to right and passes through the origin, matching the two visual features from the graph. That is choice <strong>A</strong>."
     },
     {
       "title": "Confirm the answer",

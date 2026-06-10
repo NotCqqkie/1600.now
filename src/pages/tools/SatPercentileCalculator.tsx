@@ -24,9 +24,9 @@ const SatPercentileCalculator = () => {
   const [score, setScore] = useState<string>("1400");
 
   const result = useMemo(() => {
-    const n = Number(score);
-    if (!Number.isFinite(n) || n < 400 || n > 1600) return null;
-    const rounded = Math.round(n / 10) * 10;
+    const scoreValue = Number(score);
+    if (!Number.isFinite(scoreValue) || scoreValue < 400 || scoreValue > 1600) return null;
+    const rounded = Math.round(scoreValue / 10) * 10;
     const profile = getScoreProfile(rounded);
     return {
       score: rounded,
@@ -104,7 +104,7 @@ const SatPercentileCalculator = () => {
           max={1600}
           step={10}
           value={score}
-          onChange={(e) => setScore(e.target.value)}
+          onChange={(event) => setScore(event.target.value)}
           className="mt-2 w-full rounded-lg border border-border bg-background px-3 py-2"
         />
         {result ? (
@@ -156,10 +156,10 @@ const SatPercentileCalculator = () => {
       <section className="mt-10">
         <h2 className="text-2xl font-semibold tracking-tight">FAQs</h2>
         <div className="mt-4 space-y-5">
-          {faqs.map((f) => (
-            <div key={f.question}>
-              <h3 className="text-base font-semibold">{f.question}</h3>
-              <p className="mt-1 text-muted-foreground">{f.answer}</p>
+          {faqs.map((faq) => (
+            <div key={faq.question}>
+              <h3 className="text-base font-semibold">{faq.question}</h3>
+              <p className="mt-1 text-muted-foreground">{faq.answer}</p>
             </div>
           ))}
         </div>

@@ -9,11 +9,7 @@
     },
     {
       "title": "Simplify to find the answer",
-      "content": "Calculate step by step:<br/>$$100(7) + 5 = 700 + 5 = 705$$<br/>That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y = 100x + 5",
-        "(7, 705)"
-      ]
+      "content": "Calculate step by step:<br/>$$100(7) + 5 = 700 + 5 = 705$$<br/>That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

@@ -9,11 +9,7 @@
     },
     {
       "title": "Solve for x",
-      "content": "Subtract $x$ from both sides:<br/>$$1 = x^2$$<br/>So $x^2 = 1$, giving $x = 1$ or $x = -1$.",
-      "desmosExpressions": [
-        "y = x + 1",
-        "y = x^2 + x"
-      ]
+      "content": "Subtract $x$ from both sides:<br/>$$1 = x^2$$<br/>So $x^2 = 1$, giving $x = 1$ or $x = -1$."
     },
     {
       "title": "Test each choice",

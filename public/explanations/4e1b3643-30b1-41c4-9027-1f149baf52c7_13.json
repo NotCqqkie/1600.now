@@ -13,7 +13,7 @@
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $18,10$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $18,10$."
+      "content": "The question asks for the positive solutions, so the values to enter are <strong>18,10</strong>."
     }
   ]
 }

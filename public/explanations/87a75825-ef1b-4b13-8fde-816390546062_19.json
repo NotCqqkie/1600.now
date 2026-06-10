@@ -13,12 +13,7 @@
     },
     {
       "title": "Calculate $(r+u)(s+t)$ using difference of squares",
-      "content": "First, compute the new roots:<br/>$$r + u = (-3 - \\sqrt{3}) + (-5 + 2\\sqrt{3}) = -8 + \\sqrt{3}$$<br/>$$s + t = (-3 + \\sqrt{3}) + (-5 - 2\\sqrt{3}) = -8 - \\sqrt{3}$$<br/>By Vieta's formulas, the constant term $c$ equals the product of roots:<br/>$$c = (r+u)(s+t) = (-8 + \\sqrt{3})(-8 - \\sqrt{3})$$<br/>Using the difference-of-squares pattern $(p + q)(p - q) = p^2 - q^2$:<br/>$$= (-8)^2 - (\\sqrt{3})^2 = 64 - 3 = 61$$<br/>Therefore, $c = 61$.",
-      "desmosExpressions": [
-        "y = x^{2} + 6x + 6",
-        "y = x^{2} + 10x + 13",
-        "y = x^{2} + 16x + 61"
-      ]
+      "content": "First, compute the new roots:<br/>$$r + u = (-3 - \\sqrt{3}) + (-5 + 2\\sqrt{3}) = -8 + \\sqrt{3}$$<br/>$$s + t = (-3 + \\sqrt{3}) + (-5 - 2\\sqrt{3}) = -8 - \\sqrt{3}$$<br/>By Vieta's formulas, the constant term $c$ equals the product of roots:<br/>$$c = (r+u)(s+t) = (-8 + \\sqrt{3})(-8 - \\sqrt{3})$$<br/>Using the difference-of-squares pattern $(p + q)(p - q) = p^2 - q^2$:<br/>$$= (-8)^2 - (\\sqrt{3})^2 = 64 - 3 = 61$$<br/>Therefore, $c = 61$."
     }
   ]
 }

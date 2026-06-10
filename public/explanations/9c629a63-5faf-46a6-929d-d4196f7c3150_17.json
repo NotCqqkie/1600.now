@@ -4,16 +4,11 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fit the two charge points",
-      "content": "The answer choices are linear functions of the number of lessons, so the fastest check is to fit the two given data points. Enter $(6,150)$ and $(17,480)$ in Desmos as $x_1=[6,17]$ and $y_1=[150,480]$, then run $y_1 \\sim m x_1+b$. Desmos gives $m=30$ and $b=-30$, so the model is $f(x)=30x-30$.",
-      "desmosExpressions": [
-        "x_1=[6,17]",
-        "y_1=[150,480]",
-        "y_1~m x_1+b"
-      ]
+      "title": "Use the two charge points",
+      "content": "The answer choices are linear functions of the number of lessons, so use two given data points. From $(6,150)$ to $(17,480)$, the slope is $m=\\frac{480-150}{17-6}=30.$ Substituting a point into $y=mx+b$ gives $b=-30$."
     },
     {
-      "title": "Interpret the regression",
+      "title": "Interpret the calculation",
       "content": "The slope $30$ means each additional lesson adds 30 dollars. The intercept $-30$ is not a literal fee here; it is the intercept of the simplified linear rule for $x>2$. The graph still has to pass through the two real charge points, and $y=30x-30$ does."
     },
     {

@@ -13,10 +13,7 @@
     },
     {
       "title": "Solve the inequality for k",
-      "content": "Simplify: $$12544-64k>0$$ $$12544>64k$$ $$196>k.$$ In Desmos, graphing $12544-64x>0$ shows the same cutoff at $x=196$.",
-      "desmosExpressions": [
-        "12544-64x>0"
-      ]
+      "content": "Simplify the inequality: $$12544-64k>0$$ $$12544>64k$$ $$196>k.$$ So $k$ must be less than $196$."
     },
     {
       "title": "Choose the greatest integer",

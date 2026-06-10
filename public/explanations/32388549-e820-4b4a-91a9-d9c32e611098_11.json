@@ -9,10 +9,7 @@
     },
     {
       "title": "Substitute the boundary point to find r",
-      "content": "At $y = -8$, substitute into $ry = 128$:<br/>$$r(-8) = 128$$<br/>$$-8r = 128$$<br/>$$r = \\frac{128}{-8} = -16$$<br/>That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y > -8"
-      ]
+      "content": "At $y = -8$, substitute into $ry = 128$:<br/>$$r(-8) = 128$$<br/>$$-8r = 128$$<br/>$$r = \\frac{128}{-8} = -16$$<br/>That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

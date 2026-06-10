@@ -5,21 +5,11 @@
   "steps": [
     {
       "title": "Make a two-row table",
-      "content": "The problem gives one point and one rate. Since $y=18$ when $x=2$, enter $(2,18)$. Because every increase of $1$ in $x$ increases $y$ by $8$, the next point is $(3,26)$.",
-      "desmosExpressions": [
-        "x_1=[2,3]",
-        "y_1=[18,26]"
-      ]
+      "content": "The problem gives one point and one rate. Since $y=18$ when $x=2$, use the point $(2,18)$. Because every increase of $1$ in $x$ increases $y$ by $8$, the slope is $8$."
     },
     {
-      "title": "Use linear regression",
-      "content": "Type $y_1\\sim m x_1+b$. Desmos returns $m=8$ and $b=2$, so the equation is $y=8x+2$.",
-      "desmosExpressions": [
-        "x_1=[2,3]",
-        "y_1=[18,26]",
-        "y_1~m x_1+b",
-        "y=8x+2"
-      ]
+      "title": "Find the line from the data",
+      "content": "Use $y=mx+b$ with $m=8$ and the point $(2,18)$: $$18=8(2)+b$$ $$18=16+b$$ $$b=2$$ So the equation is $y=8x+2$."
     },
     {
       "title": "Confirm the answer",

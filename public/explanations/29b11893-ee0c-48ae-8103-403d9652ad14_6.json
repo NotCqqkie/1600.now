@@ -4,25 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use quartic regression",
-      "content": "The expression has powers up to $t^4$, so Desmos can fit the result to a quartic. This avoids sign mistakes from subtracting the second polynomial."
+      "title": "Distribute the subtraction",
+      "content": "$$(6t^4-3t^2+3t-6)-(2t^4-4t^3+6t^2-6)$$<br/>$$=6t^4-3t^2+3t-6-2t^4+4t^3-6t^2+6$$"
     },
     {
-      "title": "Enter values and fit the polynomial",
-      "content": "Use five input values because a quartic can have five coefficients:<br/>$$x_1=[-2,-1,0,1,2]$$<br/>$$y_1=(6x_1^4-3x_1^2+3x_1-6)-(2x_1^4-4x_1^3+6x_1^2-6)$$<br/>$$y_1\\sim ax_1^4+bx_1^3+cx_1^2+dx_1+e$$",
-      "desmosExpressions": [
-        "x_1=[-2,-1,0,1,2]",
-        "y_1=(6x_1^4-3x_1^2+3x_1-6)-(2x_1^4-4x_1^3+6x_1^2-6)",
-        "y_1\\sim ax_1^4+bx_1^3+cx_1^2+dx_1+e"
-      ]
+      "title": "Combine like terms",
+      "content": "<ul><li>$t^4$ terms: $6t^4-2t^4=4t^4$</li><li>$t^3$ terms: $4t^3$</li><li>$t^2$ terms: $-3t^2-6t^2=-9t^2$</li><li>$t$ terms: $3t$</li><li>constant terms: $-6+6=0$</li></ul>"
     },
     {
-      "title": "Read the result",
-      "content": "The regression gives $a=4$, $b=4$, $c=-9$, $d=3$, and $e=0$. So the equivalent expression is:<br/>$$4t^4+4t^3-9t^2+3t$$<br/>That matches choice B."
-    },
-    {
-      "title": "Confirm the subtraction",
-      "content": "Distributing the minus gives $6t^4-3t^2+3t-6-2t^4+4t^3-6t^2+6$. Combining like terms gives $4t^4+4t^3-9t^2+3t$, so <strong>B</strong> is correct."
+      "title": "Match the result",
+      "content": "$$4t^4+4t^3-9t^2+3t$$<br/>This is already in descending powers of $t$, so compare it directly with the choices. It matches choice <strong>B</strong>, so choice <strong>B</strong> is correct."
     }
   ]
 }

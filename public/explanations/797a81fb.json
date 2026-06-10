@@ -9,11 +9,7 @@
     },
     {
       "title": "Identify the answer",
-      "content": "The $x$,$y$ ratios match but the constant ratio differs — the lines are parallel and never meet, so zero solutions. That matches choice <strong>D</strong> — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y = (36 + 12x)/14",
-        "y = (-18 + 6x)/7"
-      ]
+      "content": "The $x$,$y$ ratios match but the constant ratio differs — the lines are parallel and never meet, so zero solutions. That matches choice <strong>D</strong> — <strong>D</strong> is correct."
     }
   ]
 }

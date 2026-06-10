@@ -5,16 +5,11 @@
   "steps": [
     {
       "title": "Create a one-year growth table",
-      "content": "The model starts at 15,000 people, so use $(0,15000)$. A 4% increase means the next year's population is $15000(1.04)=15600$, so use $(1,15600)$. Fit an exponential model in Desmos.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[15000,15600]",
-        "y_1~a b^{x_1}"
-      ]
+      "content": "The model starts at 15,000 people, so the initial value is $15000$. A $4%$ increase means each year multiplies the population by $1.04$."
     },
     {
       "title": "Read the model",
-      "content": "The regression gives $a=15000$ and $b=1.04$. In $y=a b^x$, that means the model is $$p=15000(1.04)^x.$$"
+      "content": "An exponential model has the form $p=a(b)^x$. Here $a=15000$ and $b=1.04$, so $$p=15000(1.04)^x.$$"
     },
     {
       "title": "Check the choices",

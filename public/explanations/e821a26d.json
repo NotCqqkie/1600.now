@@ -4,26 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Sample the scatterplot into a Desmos table",
-      "content": "This is a regression question, so the strongest shortcut is to approximate several plotted points and fit the model. From the scatterplot, enter about ten representative points into Desmos.",
-      "desmosExpressions": [
-        "x_1=[1,2,3,4,5,6,7,8,9,10]",
-        "y_1=[763,788,781,786,806,805,798,806,789,769]"
-      ]
+      "title": "Use the shape of the scatterplot",
+      "content": "The data rise and then fall, so the model should be a downward-opening parabola. That means the coefficient of $x^2$ must be negative, eliminating choices A and C."
     },
     {
-      "title": "Run a quadratic regression",
-      "content": "Type $y_1\\sim ax_1^2+bx_1+c$. The regression gives a negative $a$, a positive $b$, and a positive $c$ close to $745.73$. That points to the model with a negative $x^2$ coefficient and positive constant.",
-      "desmosExpressions": [
-        "x_1=[1,2,3,4,5,6,7,8,9,10]",
-        "y_1=[763,788,781,786,806,805,798,806,789,769]",
-        "y_1~a x_1^2+b x_1+c",
-        "y=-1.674x^2+19.76x+745.73"
-      ]
+      "title": "Use the intercept size",
+      "content": "The data values are in the hundreds, and the model should have a positive $y$-intercept around $745$. Choice B has a negative intercept, $-745.73$, so it is not reasonable."
     },
     {
-      "title": "Confirm the answer",
-      "content": "Choices A and C open upward because their $x^2$ coefficient is positive. Choice B opens downward but has a negative constant, putting the $y$-intercept far below the data. Choice D has the correct downward shape and positive intercept, so choice <strong>D</strong> is correct."
+      "title": "Confirm the model",
+      "content": "Choice D, $$y=-1.674x^2+19.76x+745.73,$$ opens downward and has the correct positive intercept. Therefore choice <strong>D</strong> is correct."
     }
   ]
 }

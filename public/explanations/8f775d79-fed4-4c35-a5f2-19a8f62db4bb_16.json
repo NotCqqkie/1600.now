@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply the quadratic formula",
-      "content": "For $3w^2 + 11w - c = 0$, the quadratic formula gives:<br/>$$w = \\frac{-11 \\pm \\sqrt{11^2 - 4(3)(-c)}}{2(3)}$$<br/>Simplifying the discriminant:<br/>$$w = \\frac{-11 \\pm \\sqrt{121 + 12c}}{6}$$"
+      "title": "Match the given root to the quadratic formula",
+      "content": "The answer choices are about the value of $c$, and the given solution already has the shape of a quadratic-formula result. For $3w^2 + 11w - c = 0$, the coefficients are $a=3$, $b=11$, and the constant term is $-c$. The quadratic formula gives:<br/>$$w = \\frac{-11 \\pm \\sqrt{11^2 - 4(3)(-c)}}{2(3)}$$<br/>Simplify the expression under the square root:<br/>$$w = \\frac{-11 \\pm \\sqrt{121 + 12c}}{6}$$"
     },
     {
       "title": "Extract the discriminant from the given solution",

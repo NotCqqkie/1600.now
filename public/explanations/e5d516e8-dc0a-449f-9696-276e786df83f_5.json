@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up",
-      "content": "Evaluate $g(18)$ using the given function $g(x) = \frac{8}{9}x - \frac{4}{9}$."
+      "content": "Evaluate $g(18)$ using the given function $g(x) = \\frac{8}{9}x - \\frac{4}{9}$."
     },
     {
       "title": "Solve",
-      "content": "$$g(18) = \frac{8}{9}(18) - \frac{4}{9} = \frac{144}{9} - \frac{4}{9} = \frac{140}{9}$$"
+      "content": "$$g(18) = \\frac{8}{9}(18) - \\frac{4}{9} = \\frac{144}{9} - \\frac{4}{9} = \\frac{140}{9}$$"
     },
     {
       "title": "Answer",

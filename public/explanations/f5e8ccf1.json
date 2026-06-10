@@ -13,10 +13,7 @@
     },
     {
       "title": "Identify the choice that is NOT an x-intercept",
-      "content": "Comparing our three zeros with the answer choices: choice B gives $\\left(-\\tfrac{2}{3}, 0\\right)$. This value does not match any of our zeros ($-4$, $1$, or $\\tfrac{3}{2}$), so it is not an x-intercept. That matches choice B — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "f(x)=(x+4)(x-1)(2x-3)"
-      ]
+      "content": "Comparing our three zeros with the answer choices: choice B gives $\\left(-\\tfrac{2}{3}, 0\\right)$. This value does not match any of our zeros ($-4$, $1$, or $\\tfrac{3}{2}$), so it is not an x-intercept. That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

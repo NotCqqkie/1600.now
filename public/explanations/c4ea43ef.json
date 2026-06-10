@@ -12,14 +12,8 @@
       "content": "The line crosses the $y$-axis at $(0,8)$. That point means Avery works $0$ hours at job A and $8$ hours at job B. Substitute just that point into the earnings equation: $$10(0)+20(8)=s.$$ So $$s=160.$$"
     },
     {
-      "title": "Graph-check the choices",
-      "content": "A quick Desmos check is to graph the four possible equations. Only $10x+20y=160$ has $y$-intercept $8$, because setting $x=0$ gives $20y=160$ and $y=8$. That matches choice <strong>B</strong>.",
-      "desmosExpressions": [
-        "10x+20y=128",
-        "10x+20y=160",
-        "10x+20y=200",
-        "10x+20y=320"
-      ]
+      "title": "Match the equation to the choices",
+      "content": "The equation with $s=160$ is $10x+20y=160$. Its $y$-intercept is $8$ because setting $x=0$ gives $20y=160$, so $y=8$. That matches choice <strong>B</strong>."
     }
   ]
 }

@@ -4,17 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use a custom regression with r and s",
-      "content": "The function is already in the form $f(x)=rx+s$. Enter two table points, $(-8,48)$ and $(8,-96)$, and run the matching regression $y_1 \\sim r x_1+s$.",
-      "desmosExpressions": [
-        "x_1=[-8,8]",
-        "y_1=[48,-96]",
-        "y_1~r x_1+s"
-      ]
+      "title": "Solve the unknown directly",
+      "content": "The function is already in the form $f(x)=rx+s$. Use the two table points $(-8,48)$ and $(8,-96)$ to find the slope and intercept."
     },
     {
       "title": "Read r and s",
-      "content": "Desmos gives $r=-9$ and $s=-24$, so $f(x)=-9x-24$. The table checks because $f(-8)=72-24=48$ and $f(8)=-72-24=-96$."
+      "content": "The slope is $$r=\\frac{-96-48}{8-(-8)}=\\frac{-144}{16}=-9.$$ Substitute $(-8,48)$ into $f(x)=-9x+s$: $$48=72+s,$$ so $s=-24$. Therefore $f(x)=-9x-24$."
     },
     {
       "title": "Answer rs",

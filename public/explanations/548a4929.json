@@ -9,10 +9,7 @@
     },
     {
       "title": "Find the y-intercept and compute the sum",
-      "content": "The y-intercept occurs at $x = 0$:<br/>$$h(0) = 4(0) + 28 = 28$$<br/>So $b = 28$.<br/><br/>Add the intercepts:<br/>$$a + b = -7 + 28 = 21$$<br/>That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y=4x+28"
-      ]
+      "content": "The y-intercept occurs at $x = 0$:<br/>$$h(0) = 4(0) + 28 = 28$$<br/>So $b = 28$.<br/><br/>Add the intercepts:<br/>$$a + b = -7 + 28 = 21$$<br/>That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

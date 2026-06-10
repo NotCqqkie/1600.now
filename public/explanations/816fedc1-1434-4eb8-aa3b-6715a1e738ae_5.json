@@ -17,7 +17,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li>A: &quot;Minimum height was 3 inches.&quot; Correct &mdash; the vertex $y$-value $3$ is the minimum since the parabola opens up.</li><li>B: &quot;Minimum height was 6 inches.&quot; Incorrect &mdash; $6$ is the $x$-coordinate (time in seconds), not the height.</li><li>C: &quot;Height was 3 inches when it started moving.&quot; Incorrect &mdash; at $x=0$, $f(0) = \\frac{1}{9}(36)+3 = 7$, not $3$.</li><li>D: &quot;Height was 6 inches when it started moving.&quot; Incorrect &mdash; $f(0) = 7$ inches, not $6$, and $6$ refers to time at the vertex.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "The vertex says the minimum height is $3$ inches. The $6$ is the time when that minimum occurs, not a height. At the start, $f(0)=\\frac{1}{9}(36)+3=7$, so choices C and D do not describe the vertex. Choice A is correct."
     }
   ]
 }

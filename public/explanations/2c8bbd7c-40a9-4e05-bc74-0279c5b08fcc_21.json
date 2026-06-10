@@ -13,10 +13,7 @@
     },
     {
       "title": "Answer",
-      "content": "<strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y = 46x + 46 \\{x \\geq 1\\}"
-      ]
+      "content": "<strong>A</strong> is correct."
     },
     {
       "title": "Confirm the answer",

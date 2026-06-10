@@ -9,10 +9,7 @@
     },
     {
       "title": "Plug in the values",
-      "content": "$y_0 = 90$ and $r = 0.20$ (20%):<br/>$$y = 90(1.20)^x$$<br/>That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y = 90 \\cdot 1.20^{x}"
-      ]
+      "content": "$y_0 = 90$ and $r = 0.20$ (20%):<br/>$$y = 90(1.20)^x$$<br/>The factor $1.20$ means the value is multiplied by $1.20$ each time $x$ increases by $1$. That matches choice <strong>A</strong>."
     }
   ]
 }

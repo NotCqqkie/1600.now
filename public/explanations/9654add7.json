@@ -9,10 +9,7 @@
     },
     {
       "title": "Interpret what $a$ represents",
-      "content": "At the <em>x</em>-axis intersection point $x = a$, we have $f(a) = 0$. This means the unit price $a$ results in a revenue of \\$0. That matches choice C — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "f(x)=-500x^2+25000x"
-      ]
+      "content": "At the <em>x</em>-axis intersection point $x = a$, we have $f(a) = 0$. This means the unit price $a$ results in a revenue of \\$0. That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

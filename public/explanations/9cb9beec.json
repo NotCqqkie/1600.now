@@ -4,19 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the tangency condition using substitution",
-      "content": "The system has exactly one distinct real solution when the horizontal line $y = -1.5$ touches the parabola at exactly one point (tangency). Substitute the first equation into the second:<br/>$$-1.5 = x^2 + 8x + a$$<br/>Rearrange to standard form:<br/>$$x^2 + 8x + (a + 1.5) = 0$$<br/>For this quadratic to have exactly one real solution, the discriminant must equal zero.",
-      "formula": "$$b^2 - 4ac = 0$$"
+      "title": "Use the one-solution condition",
+      "content": "The line $y=-1.5$ and the parabola $y=x^2+8x+a$ have exactly one distinct real solution only when the line touches the parabola at its vertex."
     },
     {
-      "title": "Apply the discriminant condition and solve for a",
-      "content": "For the quadratic $x^2 + 8x + (a + 1.5) = 0$ to have exactly one real solution, set the discriminant to zero:<br/>$$8^2 - 4(1)(a + 1.5) = 0$$<br/>$$64 - 4a - 6 = 0$$<br/>$$58 = 4a$$<br/>$$a = 14.5$$",
-      "desmosExpressions": [
-        "y_1=[0]",
-        "y_1~8^2-4*1*(a+1.5)",
-        "y = -1.5",
-        "y = x^2 + 8x + 14.5"
-      ]
+      "title": "Find the vertex height",
+      "content": "Complete the square: $x^2+8x+a=(x+4)^2+a-16$. The vertex has $y$-coordinate $a-16$."
+    },
+    {
+      "title": "Set the vertex on the line",
+      "content": "For one intersection, $a-16=-1.5$. Therefore $a=14.5$."
     }
   ]
 }

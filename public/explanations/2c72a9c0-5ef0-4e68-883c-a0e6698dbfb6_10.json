@@ -9,10 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; 'Zero'</strong>: $x^{2}=\\frac{25}{81}>0$ has real solutions, so zero solutions is impossible. &#10007;</li><li><strong>Choice B &mdash; 'Exactly one'</strong>: A positive right side produces two square-root values ($+$ and $-$), not one. &#10007;</li><li><strong>Choice C &mdash; 'Exactly two'</strong>: $x=+\\frac{5}{9}$ and $x=-\\frac{5}{9}$ are both real and distinct. &#10003;</li><li><strong>Choice D &mdash; 'Infinitely many'</strong>: A square equation has at most two solutions. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y = x^{2} - \\frac{25}{81}"
-      ]
+      "content": "<ul><li><strong>Choice A &mdash; 'Zero'</strong>: $x^{2}=\\frac{25}{81}>0$ has real solutions, so zero solutions is impossible. &#10007;</li><li><strong>Choice B &mdash; 'Exactly one'</strong>: A positive right side produces two square-root values ($+$ and $-$), not one. &#10007;</li><li><strong>Choice C &mdash; 'Exactly two'</strong>: $x=+\\frac{5}{9}$ and $x=-\\frac{5}{9}$ are both real and distinct. &#10003;</li><li><strong>Choice D &mdash; 'Infinitely many'</strong>: A square equation has at most two solutions. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }

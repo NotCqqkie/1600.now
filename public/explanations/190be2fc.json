@@ -4,29 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the sum of the 9 given integers",
-      "content": "Enter the nine known integers as a Desmos list and use `total`. Desmos gives $378$, which is the current total before the missing 10th value is added.",
-      "desmosExpressions": [
-        "l_1=[43,45,44,43,38,39,40,46,40]",
-        "\\operatorname{total}\\left(l_1\\right)"
-      ]
+      "title": "Find the known total",
+      "content": "The 9 listed integers have mean $42$, so their total is:<br/>$$9\\cdot42=378$$"
     },
     {
-      "title": "Set up the equation for the 10th integer",
-      "content": "Let $x$ be the unknown 10th integer. If the mean of all 10 integers is $M$ (an integer greater than 42), then:<br/>$$\\frac{378 + x}{10} = M$$<br/>Rearranging: $$x = 10M - 378$$"
+      "title": "Use the possible mean of all 10 integers",
+      "content": "Let $x$ be the missing integer and let $M$ be the mean of all 10 integers. Since $M$ is an integer greater than $42$:<br/>$$\\frac{378+x}{10}=M$$<br/>Each integer is positive and less than $60$, so $x\\lt 60$. If $M\\ge44$, then $x=10M-378\\ge62$, which is too large. Therefore $M=43$."
     },
     {
-      "title": "Determine M using the constraint that all integers are between 0 and 60",
-      "content": "Since $0 < x < 60$:<ul><li>$x > 0 \\Rightarrow 10M - 378 > 0 \\Rightarrow M > 37.8$</li><li>$x < 60 \\Rightarrow 10M - 378 < 60 \\Rightarrow M < 43.8$</li></ul>With the additional requirement that $M > 42$ and $M$ is an integer, the only possibility is <strong>$M = 43$</strong>."
-    },
-    {
-      "title": "Solve for x and identify the maximum value",
-      "content": "Substituting $M = 43$: $$x = 10(43) - 378 = 52$$ In Desmos, the row `10*43-total(l_1)` confirms the missing value is $52$. The nine given integers have a maximum of 46, and $52>46$, so the largest integer in data set A is <strong>52</strong>.",
-      "desmosExpressions": [
-        "l_1=[43,45,44,43,38,39,40,46,40]",
-        "10*43-\\operatorname{total}\\left(l_1\\right)",
-        "\\operatorname{max}\\left([43,45,44,43,38,39,40,46,40,52]\\right)"
-      ]
+      "title": "Find the missing value",
+      "content": "$$\\frac{378+x}{10}=43$$<br/>$$378+x=430$$<br/>$$x=52$$<br/>The largest of the original 9 values is $46$, so the largest integer in data set A is <strong>52</strong>."
     }
   ]
 }

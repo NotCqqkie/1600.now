@@ -13,11 +13,7 @@
     },
     {
       "title": "Answer",
-      "content": "<strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "y = -30x + 310",
-        "(2, 250)"
-      ]
+      "content": "<strong>B</strong> is correct."
     },
     {
       "title": "Confirm the answer",

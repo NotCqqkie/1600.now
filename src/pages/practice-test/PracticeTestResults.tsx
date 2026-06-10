@@ -16,6 +16,10 @@ import {
 } from "@/lib/practice/practiceTestSession";
 import { getPracticeSet } from "@/data/modulePracticeBank";
 import { cn, normalizePublicAssetPath } from "@/lib/utils";
+import {
+  getReviewChoiceImageClassName,
+  getReviewQuestionImageClassName,
+} from "@/lib/questionImageDisplay";
 import { renderMixedContent } from "@/lib/text/mathRendering";
 import { normalizeReadingDisplayText } from "@/lib/text/readingTextNormalization";
 import { useAuth } from "@/contexts/AuthContext";
@@ -627,7 +631,10 @@ const PracticeTestResults = () => {
                               <TransparentAwareImage
                                 src={normalizePublicAssetPath(image.src)}
                                 alt={image.alt || `SAT question ${question.globalQuestionNumber} image ${imageIndex + 1}`}
-                                className="max-h-[340px] w-auto max-w-full rounded-[10px] border border-border object-contain"
+                                className={cn(
+                                  "w-auto rounded-[10px] border border-border object-contain",
+                                  getReviewQuestionImageClassName(image.displaySize),
+                                )}
                                 wrapperClassName="max-w-full"
                                 loading="lazy"
                                 trimWhitespace
@@ -721,7 +728,10 @@ const PracticeTestResults = () => {
                                     <TransparentAwareImage
                                       src={normalizePublicAssetPath(choice.image)}
                                       alt={`SAT question ${question.globalQuestionNumber} choice ${choice.id} image`}
-                                      className="max-h-[195px] w-auto max-w-full rounded-[10px] object-contain"
+                                      className={cn(
+                                        "w-auto max-w-full rounded-[10px] object-contain",
+                                        getReviewChoiceImageClassName(choice.imageDisplaySize),
+                                      )}
                                       wrapperClassName="max-w-full"
                                       loading="lazy"
                                       trimWhitespace
@@ -818,10 +828,10 @@ const PracticeTestResults = () => {
                   passage: activeExplanationSource.passage || "",
                   questionText:
                     activeExplanationSource.questionText || activeExplanationSource.prompt,
-                  choices: activeExplanationSource.choices?.map((c) => ({
-                    label: c.id,
-                    text: c.text ?? "",
-                    image: c.image,
+                  choices: activeExplanationSource.choices?.map((choice) => ({
+                    label: choice.id,
+                    text: choice.text ?? "",
+                    image: choice.image,
                   })),
                   correctAnswer: activeExplanationQuestion.correctAnswer,
                   domain: activeExplanationQuestion.domain || activeExplanationSource.domain,

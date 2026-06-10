@@ -9,11 +9,15 @@
     },
     {
       "title": "Simplify",
-      "content": "$$g(3)=22.$$ That matches choice <strong>B</strong> — <strong>B</strong> is correct."
+      "content": "$$g(3)=22.$$"
+    },
+    {
+      "title": "Avoid the input-output trap",
+      "content": "The input $3$ is not the answer by itself. The question asks for the output of the function when $x=3$, so the subtraction in $25-x$ must be completed."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice B, $22$. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
+      "content": "The value of $g(3)$ is $22$, so choice <strong>B</strong> is correct."
     }
   ]
 }

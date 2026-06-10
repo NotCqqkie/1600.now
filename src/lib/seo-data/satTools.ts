@@ -64,4 +64,4 @@ export const satTools: SatToolMeta[] = [
   },
 ];
 
-export const satToolBySlug = new Map(satTools.map((t) => [t.slug, t]));
+export const satToolBySlug = new Map(satTools.map((tool) => [tool.slug, tool]));

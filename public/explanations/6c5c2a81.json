@@ -4,13 +4,11 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Run a two-point linear regression",
-      "content": "The values $h(7)=21$ and $h(9)=25$ are the points $(7,21)$ and $(9,25)$. Enter $x_1=[7,9]$, $y_1=[21,25]$, and $y_1\\sim mx_1+b$ in Desmos. It returns $m=2$ and $b=7$, so $h(x)=2x+7$.",
+      "title": "Run a two-point linear calculation",
+      "content": "The values $h(7)=21$ and $h(9)=25$ are the points $(7,21)$ and $(9,25)$. Use those table values directly. It returns $m=2$ and $b=7$, so $h(x)=2x+7$.",
       "desmosExpressions": [
         "x_1=[7,9]",
-        "y_1=[21,25]",
-        "y_1~m x_1+b",
-        "y=m x+b"
+        "y_1=[21,25]"
       ]
     },
     {

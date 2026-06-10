@@ -9,8 +9,7 @@
     },
     {
       "title": "Create the conservation equation",
-      "content": "Pure saline from both initial solutions must equal pure saline in the final mixture:",
-      "formula": "$$0.3 + 0.25x = 0.15(3 + x)$$"
+      "content": "Pure saline from both initial solutions must equal pure saline in the final mixture:"
     },
     {
       "title": "Solve for x",

@@ -9,10 +9,7 @@
     },
     {
       "title": "Compute the volume using the prism formula",
-      "content": "$$V = 11 \\cdot x \\cdot (x - 1) = 11x(x - 1)$$<br/>That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "V(x)=11x(x-1)"
-      ]
+      "content": "$$V = 11 \\cdot x \\cdot (x - 1) = 11x(x - 1)$$<br/>That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

@@ -13,13 +13,7 @@
     },
     {
       "title": "Apply the discriminant condition",
-      "content": "For a quadratic $ax^2 + px + q = 0$, the discriminant is $\\Delta = p^2 - 4aq$. In our equation $-4x^2 + bx - 2.25 = 0$, we have $a = -4$, $p = b$, and $q = -2.25$. Setting the discriminant to zero:<br/>$$b^2 - 4(-4)(-2.25) = 0$$<br/>$$b^2 - 36 = 0$$<br/>$$b^2 = 36$$<br/>Since $b$ is positive, $b = 6$.",
-      "desmosExpressions": [
-        "y_1=[0]",
-        "y_1~b^2-36",
-        "y = 2.25",
-        "y = -4x^2 + 6x"
-      ]
+      "content": "For a quadratic $ax^2 + px + q = 0$, the discriminant is $\\Delta = p^2 - 4aq$. In our equation $-4x^2 + bx - 2.25 = 0$, we have $a = -4$, $p = b$, and $q = -2.25$. Setting the discriminant to zero:<br/>$$b^2 - 4(-4)(-2.25) = 0$$<br/>$$b^2 - 36 = 0$$<br/>$$b^2 = 36$$<br/>Since $b$ is positive, $b = 6$."
     }
   ]
 }

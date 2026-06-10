@@ -9,11 +9,7 @@
     },
     {
       "title": "Solve for x",
-      "content": "Divide both sides by $14$: $$x=\\tfrac{42}{14}=3.$$ The answer is <strong>3</strong>."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $3$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $3$."
+      "content": "Divide both sides by $14$: $$x=\\tfrac{42}{14}=3.$$ The answer is <strong>3</strong>.<br/><br/>This works because adding $x$ to both sides preserves the equation while combining the two variable terms into one coefficient."
     }
   ]
 }

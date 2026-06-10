@@ -5,8 +5,7 @@
   "steps": [
     {
       "title": "Read Lion votes from the table",
-      "content": "From the Lion row, the Total column shows 20 students voted for Lion. There are 80 total students.",
-      "formula": "$$P = \\frac{\\text{favorable outcomes}}{\\text{total outcomes}}$$"
+      "content": "From the Lion row, the Total column shows 20 students voted for Lion. There are 80 total students."
     },
     {
       "title": "Calculate the probability",

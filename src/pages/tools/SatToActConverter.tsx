@@ -43,13 +43,13 @@ const SatToActConverter = () => {
   const [act, setAct] = useState<string>("");
 
   const satResult = useMemo(() => {
-    const n = Number(sat);
-    return Number.isFinite(n) ? satToAct(n) : null;
+    const satScore = Number(sat);
+    return Number.isFinite(satScore) ? satToAct(satScore) : null;
   }, [sat]);
 
   const actResult = useMemo(() => {
-    const n = Number(act);
-    return Number.isFinite(n) ? actToSat(n) : null;
+    const actScore = Number(act);
+    return Number.isFinite(actScore) ? actToSat(actScore) : null;
   }, [act]);
 
   const url = `https://1600.now/${meta.slug}`;
@@ -121,7 +121,7 @@ const SatToActConverter = () => {
             max={1600}
             step={10}
             value={sat}
-            onChange={(e) => setSat(e.target.value)}
+            onChange={(event) => setSat(event.target.value)}
             className="mt-2 w-full rounded-lg border border-border bg-background px-3 py-2"
           />
           <div className="mt-4 text-sm text-muted-foreground">
@@ -140,7 +140,7 @@ const SatToActConverter = () => {
             max={36}
             step={1}
             value={act}
-            onChange={(e) => setAct(e.target.value)}
+            onChange={(event) => setAct(event.target.value)}
             className="mt-2 w-full rounded-lg border border-border bg-background px-3 py-2"
           />
           <div className="mt-4 text-sm text-muted-foreground">
@@ -165,10 +165,10 @@ const SatToActConverter = () => {
               </tr>
             </thead>
             <tbody>
-              {SAT_TO_ACT.filter((_, i) => i % 2 === 0).map(([s, a]) => (
-                <tr key={s} className="border-b border-border/40">
-                  <td className="py-1.5">{s}</td>
-                  <td className="py-1.5">{a}</td>
+              {SAT_TO_ACT.filter((_, rowIndex) => rowIndex % 2 === 0).map(([satScore, actScore]) => (
+                <tr key={satScore} className="border-b border-border/40">
+                  <td className="py-1.5">{satScore}</td>
+                  <td className="py-1.5">{actScore}</td>
                 </tr>
               ))}
             </tbody>
@@ -179,10 +179,10 @@ const SatToActConverter = () => {
       <section className="mt-10">
         <h2 className="text-2xl font-semibold tracking-tight">FAQs</h2>
         <div className="mt-4 space-y-5">
-          {faqs.map((f) => (
-            <div key={f.question}>
-              <h3 className="text-base font-semibold">{f.question}</h3>
-              <p className="mt-1 text-muted-foreground">{f.answer}</p>
+          {faqs.map((faq) => (
+            <div key={faq.question}>
+              <h3 className="text-base font-semibold">{faq.question}</h3>
+              <p className="mt-1 text-muted-foreground">{faq.answer}</p>
             </div>
           ))}
         </div>

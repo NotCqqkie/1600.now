@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up",
-      "content": "The three angles of the triangle sum to 180&deg;: $$47 + 90 + \frac{k}{2} = 180$$"
+      "content": "The three angles of the triangle sum to 180&deg;: $$47 + 90 + \\frac{k}{2} = 180$$"
     },
     {
       "title": "Solve",
-      "content": "$$\frac{k}{2} = 180 - 137 = 43$$$$k = 86$$"
+      "content": "$$\\frac{k}{2} = 180 - 137 = 43$$$$k = 86$$"
     },
     {
       "title": "Answer",

@@ -1,44 +1,19 @@
 {
-  "qid": "a5834ea4",
+  "questionId": "a5834ea4",
+  "correctAnswer": "B",
+  "section": "Math",
   "steps": [
     {
-      "title": "Use Desmos list evaluation",
-      "content": "The fastest check is to evaluate the function at all three table inputs at once. Enter $f(x)=39$ and then $f([0,1,2])$ in Desmos. The output is $[39,39,39]$, so every row must have output $39$.",
-      "desmosExpressions": [
-        "f(x)=39",
-        "f([0,1,2])"
-      ]
-    },
-    {
       "title": "Understand the constant function",
-      "content": "Since $f(x)=39$ has no $x$ term, changing $x$ does not change the output. Whether $x=0$, $x=1$, or $x=2$, the value of $f(x)$ is always $39$."
+      "content": "The function is $f(x)=39$. Because there is no $x$ term, the output is always $39$ no matter what input is used."
     },
     {
-      "title": "Eliminate the wrong tables",
-      "content": "Choice A has outputs all equal to $0$, so it represents $f(x)=0$. Choice C has outputs $0,39,78$, which increase by $39$ each time and represent $f(x)=39x$. Choice D has outputs $39,0,-39$, which decrease by $39$ each time."
+      "title": "Evaluate the listed inputs",
+      "content": "For the table inputs $0$, $1$, and $2$: $$f(0)=39$$ $$f(1)=39$$ $$f(2)=39$$ The correct table must have $39$ in every output row."
     },
     {
-      "title": "Confirm the answer",
-      "content": "Choice B shows $f(0)=39$, $f(1)=39$, and $f(2)=39$. That exactly matches the constant function, so choice <strong>B</strong> is correct.",
-      "choices": [
-        {
-          "id": "A",
-          "text": "<ul><li>All three outputs are $0$, so this table represents $f(x) = 0$, not $f(x) = 39$. Eliminated.</li></ul>"
-        },
-        {
-          "id": "B",
-          "text": "<ul><li>All three outputs are $39$, exactly matching the constant function $f(x) = 39$. That matches choice B &mdash; <strong>B</strong> is correct.</li></ul>"
-        },
-        {
-          "id": "C",
-          "text": "<ul><li>Outputs are $0, 39, 78$ &mdash; each increases by $39$, so this represents $f(x) = 39x$, not a constant. Eliminated.</li></ul>"
-        },
-        {
-          "id": "D",
-          "text": "<ul><li>Outputs are $39, 0, -39$ &mdash; each decreases by $39$, so this represents $f(x) = 39 - 39x$. Eliminated.</li></ul>"
-        }
-      ]
+      "title": "Confirm the choice",
+      "content": "Choice B is the only table with outputs $39$, $39$, and $39$. Choices A, C, and D show outputs that do not stay equal to $39$, so choice <strong>B</strong> is correct."
     }
-  ],
-  "correctAnswer": "B"
+  ]
 }

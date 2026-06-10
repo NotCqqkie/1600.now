@@ -9,10 +9,7 @@
     },
     {
       "title": "Substitute the converted time into the original function",
-      "content": "To find $r(m)$, substitute $t = \\frac{m}{12}$ into $p(t)$: $$r(m) = 90,000\\left(1.06\\right)^{\\frac{m}{12}}$$ That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "p(t)=90000((1.06))^(t)"
-      ]
+      "content": "To find $r(m)$, substitute $t = \\frac{m}{12}$ into $p(t)$: $$r(m) = 90,000\\left(1.06\\right)^{\\frac{m}{12}}$$ That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

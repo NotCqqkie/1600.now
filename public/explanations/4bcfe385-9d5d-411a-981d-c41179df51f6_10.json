@@ -4,12 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The equation $H = 2.403L + 23.31$ is linear. The question asks for the best interpretation of the coefficient 2.403 in context. In a linear model $H = mL + b$, the slope $m$ is the change in $H$ per one-unit increase in $L$."
+      "title": "Identify the coefficient",
+      "content": "In $H=2.403L+23.31$, $H$ is estimated height and $L$ is femur length. The number $2.403$ is the coefficient of $L$."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; \"increase in estimated height for each 1-inch increase in femur length\"</strong>: Slope = rise/run = change in $H$ per change in $L$. This is exactly what 2.403 represents. &#10003;</li><li><strong>Choice B &mdash; \"increase in femur length for each 1-inch increase in estimated height\"</strong>: Reverses the roles of $H$ and $L$. The slope gives $ΔH/ΔL$, not $ΔL/ΔH$. &#10007;</li><li><strong>Choice C &mdash; \"increase in femur length for each 23.31-inch increase in estimated height\"</strong>: Confuses slope with the $y$-intercept and still reverses the variables. &#10007;</li><li><strong>Choice D &mdash; \"estimated height of a student whose femur has length $L$ inches\"</strong>: That description fits the entire expression $H$, not the coefficient 2.403 alone. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "title": "Interpret the slope",
+      "content": "For a linear model $H=mL+b$, the coefficient $m$ tells how much $H$ changes when $L$ increases by $1$. Here, $m=2.403$, so the estimated height increases by $2.403$ inches for each additional inch of femur length."
+    },
+    {
+      "title": "Eliminate reversed interpretations",
+      "content": "Choice B reverses the variables: it describes change in femur length per inch of height. Choice C also reverses the variables and incorrectly uses the intercept $23.31$."
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "Choice D describes the whole expression $H$, not the coefficient $2.403$. Choice A correctly says $2.403$ is the increase in estimated height for each 1-inch increase in femur length, so <strong>A</strong> is correct."
     }
   ]
 }

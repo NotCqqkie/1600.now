@@ -12,8 +12,8 @@
       "content": "Use $a^2-b^2=(a+b)(a-b)$:<br/>$$x^2-(\\sqrt{5})^2=(x+\\sqrt{5})(x-\\sqrt{5})$$"
     },
     {
-      "title": "Graph-check the choices",
-      "content": "In Desmos, graph the original expression and the factored choice. The two graphs overlap exactly, while the squared-binomial choices create extra $x$ terms.",
+      "title": "Check the common traps",
+      "content": "The squared-binomial choices are not equivalent because $$(x+\\sqrt{5})^2=x^2+2\\sqrt{5}x+5$$ and $$(x-\\sqrt{5})^2=x^2-2\\sqrt{5}x+5.$$ Both include an extra $x$ term, while $(x+\\sqrt{5})(x-\\sqrt{5})=x^2-5$.",
       "desmosExpressions": [
         "y=x^2-5",
         "y=(x+\\sqrt{5})(x-\\sqrt{5})",

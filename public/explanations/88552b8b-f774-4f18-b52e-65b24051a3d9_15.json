@@ -1,1 +1,15 @@
-{"questionId": "88552b8b-f774-4f18-b52e-65b24051a3d9_15", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The passage establishes a chain: water evaporates from the crust &rarr; voids form &rarr; oil fills the voids &rarr; fat content rises. The question asks what follows logically if less moisture is lost during frying."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'less fat is absorbed'</strong>: less moisture lost means fewer voids, which means less oil absorbed &mdash; directly follows the passage's mechanism. &#10003;</li><li><strong>Choice B &mdash; 'temperature affects fat absorption'</strong>: temperature is not part of the passage's moisture-void-fat chain. &#10007;</li><li><strong>Choice C &mdash; 'crust permeability increases'</strong>: misapplies the mechanism; permeability isn't discussed as a factor. &#10007;</li><li><strong>Choice D &mdash; 'crispiness decreases'</strong>: reverses the expected outcome and introduces an unsupported link. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "88552b8b-f774-4f18-b52e-65b24051a3d9_15",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage establishes a chain: water evaporates from the crust $\\Rightarrow$ voids form $\\Rightarrow$ oil fills the voids $\\Rightarrow$ fat content rises. The question asks what follows logically if less moisture is lost during frying."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'less fat is absorbed'</strong>: less moisture lost means fewer voids, which means less oil absorbed &mdash; directly follows the passage's mechanism. &#10003;</li><li><strong>Choice B &mdash; 'temperature affects fat absorption'</strong>: temperature is not part of the passage's moisture-void-fat chain. &#10007;</li><li><strong>Choice C &mdash; 'crust permeability increases'</strong>: misapplies the mechanism; permeability isn't discussed as a factor. &#10007;</li><li><strong>Choice D &mdash; 'crispiness decreases'</strong>: reverses the expected outcome and introduces an unsupported link. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

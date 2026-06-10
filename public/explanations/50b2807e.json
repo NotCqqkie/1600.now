@@ -12,13 +12,8 @@
       "content": "The left side of the scatterplot is near $y=10$ when $x$ is near $0$, so the $y$-intercept should be around $9$ or $10$. The right side is near $y=1$ or $2$ when $x$ is near $9$, so the slope is about $$\\frac{2-10}{9-0}\\approx -0.9.$$"
     },
     {
-      "title": "Overlay the answer choices",
-      "content": "Graphing representative points with the candidate from choice D makes the fit clear. The line has intercept $9.4$ and slope $-0.9$, matching the scatterplot. The other choices are already eliminated by slope sign or unreasonable intercept.",
-      "desmosExpressions": [
-        "x_1=[0,1,2.4,3.1,4.8,5.4,6.6,7.3,8.8,9.7]",
-        "y_1=[10,9,8,5,5,3,3,3,1,2]",
-        "y=9.4-0.9x"
-      ]
+      "title": "Compare the remaining choices",
+      "content": "Compare the two negative-slope choices. Choice B has intercept $0.9$ and slope $-9.4$, so it would start near $y=1$ and drop almost $10$ units for every $1$ unit increase in $x$. That is much too steep for the scatterplot. Choice D has intercept $9.4$ and slope $-0.9$, matching the visible starting value and gradual decrease."
     },
     {
       "title": "Confirm the choice",

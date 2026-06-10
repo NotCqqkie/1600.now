@@ -27,7 +27,7 @@ const LandingVariant = () => {
             { name: "Home", url: "https://1600.now/" },
             { name: variant.h1, url: canonicalUrl },
           ]),
-          buildFaqJsonLd(variant.faqs.map((f) => ({ question: f.q, answer: f.a }))),
+          buildFaqJsonLd(variant.faqs.map((faq) => ({ question: faq.q, answer: faq.a }))),
           {
             "@context": "https://schema.org",
             "@type": "WebPage",
@@ -47,8 +47,8 @@ const LandingVariant = () => {
         <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">{variant.h1}</h1>
         <p className="mt-4 text-lg text-muted-foreground">{variant.subhead}</p>
         <div className="mt-6 space-y-4 text-base leading-relaxed text-foreground/90">
-          {variant.intro.map((p, i) => (
-            <p key={i}>{p}</p>
+          {variant.intro.map((paragraph, paragraphIndex) => (
+            <p key={paragraphIndex}>{paragraph}</p>
           ))}
         </div>
         <div className="mt-6 flex flex-wrap gap-3">
@@ -70,14 +70,14 @@ const LandingVariant = () => {
       <section className="mt-12">
         <h2 className="text-2xl font-semibold">What you get</h2>
         <div className="mt-4 grid gap-4 sm:grid-cols-2">
-          {variant.features.map((f) => (
+          {variant.features.map((feature) => (
             <Link
-              key={f.title}
-              to={f.href}
+              key={feature.title}
+              to={feature.href}
               className="rounded-xl border border-border bg-card p-5 transition hover:border-foreground/40"
             >
-              <div className="text-base font-semibold">{f.title}</div>
-              <p className="mt-2 text-sm text-muted-foreground">{f.body}</p>
+              <div className="text-base font-semibold">{feature.title}</div>
+              <p className="mt-2 text-sm text-muted-foreground">{feature.body}</p>
             </Link>
           ))}
         </div>
@@ -86,10 +86,10 @@ const LandingVariant = () => {
       <section className="mt-12">
         <h2 className="text-2xl font-semibold">{variant.keyword} FAQs</h2>
         <div className="mt-4 space-y-4">
-          {variant.faqs.map((f, i) => (
-            <div key={i} className="rounded-lg border border-border bg-card p-4">
-              <div className="font-semibold">{f.q}</div>
-              <p className="mt-2 text-sm text-foreground/80">{f.a}</p>
+          {variant.faqs.map((faq, faqIndex) => (
+            <div key={faqIndex} className="rounded-lg border border-border bg-card p-4">
+              <div className="font-semibold">{faq.q}</div>
+              <p className="mt-2 text-sm text-foreground/80">{faq.a}</p>
             </div>
           ))}
         </div>

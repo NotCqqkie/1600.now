@@ -12,12 +12,8 @@
       "content": "Expand and isolate $x$: $$78dx+81d+24=0$$ $$78dx=-81d-24$$ $$x=\\frac{-81d-24}{78d}.$$ Therefore the intercept is $$\\left(\\frac{-81d-24}{78d},0\\right).$$"
     },
     {
-      "title": "Check with a sample value in Desmos",
-      "content": "Because $d$ is positive, you can test with an easy value such as $d=1$. Then graph $$y=3(26x+27)+24.$$ Its $x$-intercept is $x=\\frac{-105}{78}$, which is exactly what choice B gives when $d=1$: $$\\frac{-81(1)-24}{78(1)}=\\frac{-105}{78}.$$",
-      "desmosExpressions": [
-        "y=3(26x+27)+24",
-        "x=\\frac{-105}{78}"
-      ]
+      "title": "Check with a sample value",
+      "content": "Because $d$ is positive, test an easy value such as $d=1$. The formula gives $$x=\\frac{-81(1)-24}{78(1)}=\\frac{-105}{78}.$$ Substituting this into $3(26x+27)+24$ gives $0$, so it is the correct intercept."
     },
     {
       "title": "Confirm the choice",

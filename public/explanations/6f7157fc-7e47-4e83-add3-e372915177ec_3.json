@@ -9,10 +9,7 @@
     },
     {
       "title": "Solve for the positive value of x",
-      "content": "Since $x^2 = 40^2$ and we need the positive solution, take the positive square root of both sides: $$x = 40$$",
-      "desmosExpressions": [
-        "y = x^{2} - 1600"
-      ]
+      "content": "Since $x^2 = 40^2$ and we need the positive solution, take the positive square root of both sides: $$x = 40$$"
     }
   ]
 }

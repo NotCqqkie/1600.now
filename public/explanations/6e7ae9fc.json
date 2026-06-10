@@ -13,11 +13,7 @@
     },
     {
       "title": "Sum the Unique Values of $w$",
-      "content": "The distinct solutions for $ w $ are $ 7 $, $ 5 $, and $ 13 $. Adding these values: $$7 + 5 + 13 = 25$$ The answer is <strong>25</strong>.",
-      "desmosExpressions": [
-        "g(x)=x(x-2)((x+6))^(2)",
-        "g(x)=x(x-2)"
-      ]
+      "content": "The distinct solutions for $ w $ are $ 7 $, $ 5 $, and $ 13 $. Adding these values: $$7 + 5 + 13 = 25$$ The answer is <strong>25</strong>."
     }
   ]
 }

@@ -9,11 +9,7 @@
     },
     {
       "title": "Interpret the constant term",
-      "content": "The constant term 12 is the distance from the station when x = 0, i.e., before any time has passed after crossing the border. Therefore, the train had already traveled 12 kilometers from the station to reach the city border.<br/>That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y = 50x + 12",
-        "(0, 12)"
-      ]
+      "content": "The constant term 12 is the distance from the station when x = 0, i.e., before any time has passed after crossing the border. Therefore, the train had already traveled 12 kilometers from the station to reach the city border.<br/>That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

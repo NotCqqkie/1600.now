@@ -9,10 +9,7 @@
     },
     {
       "title": "Identify the positive x-intercept and its meaning",
-      "content": "At $x = 0$, the height is $h(0) = 10$ feet — the projectile starts above ground.<br/><br/>Since the coefficient of $x^2$ is $-16$ (negative), the parabola opens downward.<br/><br/>Starting above ground with a downward-opening parabola, the projectile will eventually return to ground level at some positive time.<br/><br/>The positive <em>x</em>-intercept represents this time when the projectile hits the ground.<br/><br/>That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "h(x)=-16x^2+100x+10"
-      ]
+      "content": "At $x = 0$, the height is $h(0) = 10$ feet — the projectile starts above ground.<br/><br/>Since the coefficient of $x^2$ is $-16$ (negative), the parabola opens downward.<br/><br/>Starting above ground with a downward-opening parabola, the projectile will eventually return to ground level at some positive time.<br/><br/>The positive <em>x</em>-intercept represents this time when the projectile hits the ground.<br/><br/>That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

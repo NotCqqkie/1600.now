@@ -13,10 +13,7 @@
     },
     {
       "title": "Answer",
-      "content": "<strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "x^2 + y^2 = (24/(2\\pi))^2"
-      ]
+      "content": "<strong>D</strong> is correct."
     }
   ]
 }

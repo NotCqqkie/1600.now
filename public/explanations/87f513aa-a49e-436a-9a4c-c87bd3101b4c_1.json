@@ -12,13 +12,8 @@
       "content": "Putting the coordinates together gives the intersection point $$(4,3).$$"
     },
     {
-      "title": "Check in Desmos",
-      "content": "A quick graph check is to enter the horizontal line $y=3$ and the slanted line $y=\\frac54x-2$, which passes through $(0,-2)$ and $(4,3)$. The intersection is $(4,3)$, matching choice <strong>B</strong>.",
-      "desmosExpressions": [
-        "y=3",
-        "y=\\frac{5}{4}x-2",
-        "(4,3)"
-      ]
+      "title": "Confirm the choice",
+      "content": "Choice <strong>B</strong> is $(4,3)$, which is the point where the two graphed lines meet."
     }
   ]
 }

@@ -28,7 +28,7 @@ const buildEntries = (): SeoVocabEntry[] => {
       entries.push({ ...w, slug, difficulty, rawDifficulty: w.difficulty, setId: set.id });
     }
   }
-  return entries.sort((a, b) => a.word.localeCompare(b.word));
+  return entries.sort((leftEntry, rightEntry) => leftEntry.word.localeCompare(rightEntry.word));
 };
 
 export const seoVocabEntries = buildEntries();

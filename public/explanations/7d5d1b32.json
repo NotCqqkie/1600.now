@@ -4,12 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use custom regression for the coefficient",
-      "content": "For a linear equation to have no solution, the $x$-coefficients must match while the constants differ. Enter $x_1=[1]$ in Desmos and type $2kx_1\\sim-\\frac{28}{15}x_1$. Desmos returns $k=-\\frac{14}{15}$.",
-      "desmosExpressions": [
-        "x_1=[1]",
-        "2k x_1~(-28/15)x_1"
-      ]
+      "title": "Solve the unknown directly",
+      "content": "For a linear equation to have no solution, the $x$-coefficients must match while the constants differ. Matching the $x$-coefficients gives $k=-\\frac{14}{15}$."
     },
     {
       "title": "Confirm by expanding",

@@ -9,11 +9,7 @@
     },
     {
       "title": "Match the slopes",
-      "content": "Parallel lines have proportional $x$- and $y$-coefficients. Compare the second equation to the first: the $x$-coefficient changed from $4$ to $-2$, so the scale factor is $-\\frac{1}{2}$. Apply that to the $y$-coefficient: $$-16\\left(-\\frac{1}{2}\\right)=8$$ Thus $t=8$.",
-      "desmosExpressions": [
-        "4x-16y=2",
-        "-2x+8y=1/2"
-      ]
+      "content": "Parallel lines have proportional $x$- and $y$-coefficients. Compare the second equation to the first: the $x$-coefficient changed from $4$ to $-2$, so the scale factor is $-\\frac{1}{2}$. Apply that to the $y$-coefficient: $$-16\\left(-\\frac{1}{2}\\right)=8$$ Thus $t=8$."
     },
     {
       "title": "Confirm no solution",

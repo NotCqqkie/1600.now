@@ -9,12 +9,7 @@
     },
     {
       "title": "Use the midpoint formula with the diameter endpoints",
-      "content": "The center of a circle is the midpoint of any diameter. With endpoints $(a, 11)$ and $(a, d)$, the midpoint is:<br/>$$\\left(a, \\frac{11 + d}{2}\\right)$$<br/>Setting this equal to the center $(a, 17)$:<br/>$$\\frac{11 + d}{2} = 17$$<br/>$$11 + d = 34$$<br/>$$d = 23$$<br/>That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "(x-0)^2+(y-17)^2=36",
-        "(0,11)",
-        "(0,23)"
-      ]
+      "content": "The center of a circle is the midpoint of any diameter. With endpoints $(a, 11)$ and $(a, d)$, the midpoint is:<br/>$$\\left(a, \\frac{11 + d}{2}\\right)$$<br/>Setting this equal to the center $(a, 17)$:<br/>$$\\frac{11 + d}{2} = 17$$<br/>$$11 + d = 34$$<br/>$$d = 23$$<br/>That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

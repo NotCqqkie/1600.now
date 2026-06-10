@@ -9,12 +9,7 @@
     },
     {
       "title": "Discriminant shortcut: solve for $c$",
-      "content": "$$(-8)^2-4(-16)(c)=0$$<br/>$$64+64c=0$$<br/>$$c=-1$$<br/>That matches choice -1, so <strong>-1</strong> is correct.",
-      "desmosExpressions": [
-        "y_1=[0]",
-        "y_1~(-8)^2-4*(-16)*c",
-        "y = -16x^2 - 8x - 1"
-      ]
+      "content": "$$(-8)^2-4(-16)(c)=0$$<br/>$$64+64c=0$$<br/>$$c=-1$$<br/>That matches choice -1, so <strong>-1</strong> is correct."
     }
   ]
 }

@@ -8,13 +8,11 @@
       "content": "At $x=8,500$ feet, the line of best fit passes through about $y=39$. The point on the model is approximately $(8500,39)$."
     },
     {
-      "title": "Optional Desmos check",
-      "content": "Using two points from the same line, such as $(6000,44)$ and $(9000,38)$, a linear regression predicts $39$ at $x=8500$.",
+      "title": "Optional direct check",
+      "content": "Using two points from the same line, such as $(6000,44)$ and $(9000,38)$, a two-point line calculation predicts $39$ at $x=8500$.",
       "desmosExpressions": [
         "x_1=[6000,9000]",
-        "y_1=[44,38]",
-        "y_1~m x_1+b",
-        "m 8500+b"
+        "y_1=[44,38]"
       ]
     },
     {

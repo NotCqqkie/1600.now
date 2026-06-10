@@ -9,11 +9,7 @@
     },
     {
       "title": "Find $39x$",
-      "content": "Then $$39x = 39 \\cdot \\tfrac{6}{13} = 18.$$ That matches choice <strong>D</strong> — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y = \\frac{6x + 17}{5}",
-        "y = \\frac{23 - 7x}{5}"
-      ]
+      "content": "Then $$39x = 39 \\cdot \\tfrac{6}{13} = 18.$$ That matches choice <strong>D</strong> — <strong>D</strong> is correct."
     },
     {
       "title": "Confirm the answer",

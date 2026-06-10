@@ -9,11 +9,7 @@
     },
     {
       "title": "Find $y$",
-      "content": "Divide: $$y=\\frac{3.15}{1.05}=3.$$ The answer is <strong>3</strong>.",
-      "desmosExpressions": [
-        "y = \\frac{1.75 - 0.7x}{0.35}",
-        "y = \\frac{2.45 - 0.35x}{0.7}"
-      ]
+      "content": "Divide: $$y=\\frac{3.15}{1.05}=3.$$ The answer is <strong>3</strong>."
     },
     {
       "title": "Confirm the answer",

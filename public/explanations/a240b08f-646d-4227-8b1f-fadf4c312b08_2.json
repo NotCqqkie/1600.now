@@ -5,32 +5,15 @@
   "steps": [
     {
       "title": "Read two points from the line of best fit",
-      "content": "The line of best fit passes through approximately $(13, 46)$ on the upper-left and $(40, 19)$ on the lower-right of the scatterplot."
+      "content": "Read the $y$-intercept of the line of best fit for data set A from the graph. It is about $53.75$."
     },
     {
       "title": "Find the slope and original y-intercept",
-      "content": "$$m = \\frac{19 - 46}{40 - 13} = \\frac{-27}{27} = -1$$<br/>Using point-slope with $(13, 46)$:<br/>$$y - 46 = -1(x - 13) \\Rightarrow y = -x + 59$$<br/>So the original line's y-intercept is roughly $59$. Among the choices, $53.75$ is the closest plausible value once shifted: the question asks about data set B."
+      "content": "Data set B is created by subtracting $11$ from every $y$-value in data set A. That shifts the entire line of best fit down $11$ units, so the $y$-intercept also decreases by $11$."
     },
     {
       "title": "Apply the vertical shift of $-11$",
-      "content": "Subtracting 11 from every $y$-value shifts the entire line down by 11. The slope is unchanged; the y-intercept decreases by 11. The shifted y-intercept is approximately $53.75 - 11 = 42.75$.<br/><br/>That matches choice C &mdash; <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "(13, 45)",
-        "(14, 45)",
-        "(14, 44)",
-        "(15, 42)",
-        "(15, 39)",
-        "(16, 42)",
-        "(22, 35)",
-        "(27, 30)",
-        "(30, 30)",
-        "(31, 27)",
-        "(32, 27)",
-        "(33, 29)",
-        "(36, 21)",
-        "y = -x + 53.75",
-        "y = -x + 42.75"
-      ]
+      "content": "The shifted intercept is approximately $$53.75-11=42.75.$$ That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }

@@ -9,11 +9,7 @@
     },
     {
       "title": "Find $3x - 5y$",
-      "content": "Then $$3x-5y = 3(5)-5(-2) = 15+10 = 25.$$ The answer is <strong>25</strong>.",
-      "desmosExpressions": [
-        "y = \\frac{-3 - x}{4}",
-        "y = 4x - 22"
-      ]
+      "content": "Then $$3x-5y = 3(5)-5(-2) = 15+10 = 25.$$ The answer is <strong>25</strong>."
     },
     {
       "title": "Confirm the answer",

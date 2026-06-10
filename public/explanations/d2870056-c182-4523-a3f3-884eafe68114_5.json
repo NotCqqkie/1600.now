@@ -5,20 +5,11 @@
   "steps": [
     {
       "title": "Make the two-row table",
-      "content": "This is a perfect linear-regression shortcut. At birth, $x=0$ and the whale is $160$ cm long. One month later, the length is $160+4.8=164.8$ cm. Put those two points into Desmos: $(0,160)$ and $(1,164.8)$.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[160,164.8]"
-      ]
+      "content": "Use the starting value and rate directly. At birth, $x=0$ and the whale is $160$ cm long. One month later, the length is $160+4.8=164.8$ cm. Use those two points: $(0,160)$ and $(1,164.8)$."
     },
     {
-      "title": "Run the linear regression",
-      "content": "Use the regression row $y_1\\sim m x_1+b$. Desmos gives $m=4.8$ and $b=160$, so the model is $$y=4.8x+160.$$",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[160,164.8]",
-        "y_1~m x_1+b"
-      ]
+      "title": "Write the linear model",
+      "content": "The starting value is the $y$-intercept, so $b=160$. The whale grows $4.8$ cm per month, so the slope is $m=4.8$. The model is $$y=4.8x+160.$$"
     },
     {
       "title": "Check the choices",

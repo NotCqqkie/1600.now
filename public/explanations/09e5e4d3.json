@@ -9,15 +9,7 @@
     },
     {
       "title": "Multiply by x",
-      "content": "Multiply both sides by $x$:<br/>$$42=7x^2$$<br/>This already gives the requested value."
-    },
-    {
-      "title": "Check with Desmos",
-      "content": "Graph $y=\\frac{42}{x}$ and $y=7x$. The intersections satisfy the original equation, and for either intersection $7x^2=42$.",
-      "desmosExpressions": [
-        "y=\\frac{42}{x}",
-        "y=7x"
-      ]
+      "content": "Multiply both sides by $x$:<br/>$$42=7x^2$$<br/>This already gives the requested value.<br/><br/>There is no need to solve for $x$ separately because multiplying by $x$ produces the exact expression $7x^2$ that the question asks for."
     },
     {
       "title": "Answer",

@@ -9,11 +9,11 @@
     },
     {
       "title": "Calculate the result",
-      "content": "Multiply 21 by 100:\n\n$$21 \\times 100 = 2100 \\text{ centimeters}$$"
+      "content": "Multiply 21 by 100: $$21 \\times 100 = 2100 \\text{ centimeters}$$"
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $2100$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $2100$."
+      "content": "Since $21$ meters equals $2100$ centimeters, the value to enter is <strong>2100</strong>."
     }
   ]
 }

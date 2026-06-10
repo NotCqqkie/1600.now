@@ -9,10 +9,7 @@
     },
     {
       "title": "Interpret the given statement",
-      "content": "The statement <em>$f(8)$ is approximately equal to 82</em> means: 8 years after Immanuel purchased the coin, the predicted value is approximately 82 dollars.<br/><br/>That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "f(x)=65((1.03))^(x)"
-      ]
+      "content": "The statement <em>$f(8)$ is approximately equal to 82</em> means: 8 years after Immanuel purchased the coin, the predicted value is approximately 82 dollars.<br/><br/>That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

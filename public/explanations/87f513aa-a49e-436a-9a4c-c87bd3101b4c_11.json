@@ -5,13 +5,7 @@
   "steps": [
     {
       "title": "Find the slope of line k from the graph",
-      "content": "Use Desmos to fit line $k$ from two clear graph points. The line passes through $(0,-5)$ and $(10,3)$. A linear regression gives slope $\\frac{4}{5}$ and intercept $-5$.",
-      "desmosExpressions": [
-        "x_1=[0,10]",
-        "y_1=[-5,3]",
-        "y_1~m x_1+b",
-        "y=(4/5)x-5"
-      ]
+      "content": "Use two clear graph points from line $k$. The line passes through $(0,-5)$ and $(10,3)$, so its slope is $$\\frac{3-(-5)}{10-0}=\\frac{8}{10}=\\frac{4}{5}.$$"
     },
     {
       "title": "Apply the perpendicularity rule",
@@ -19,11 +13,7 @@
     },
     {
       "title": "Use the point (4, 7) to find the y-intercept",
-      "content": "Line $n$ passes through $(4,7)$ with slope $-\\frac{5}{4}$. Using point-slope form: $$y-7=-\\frac{5}{4}(x-4)$$ $$y=-\\frac{5}{4}x+12$$ That matches choice B, so <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "y=-(5/4)x+12",
-        "(4,7)"
-      ]
+      "content": "Line $n$ passes through $(4,7)$ with slope $-\\frac{5}{4}$. Using point-slope form: $$y-7=-\\frac{5}{4}(x-4)$$ $$y=-\\frac{5}{4}x+12$$ That matches choice B, so <strong>B</strong> is correct."
     }
   ]
 }

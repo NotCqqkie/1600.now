@@ -4,12 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use a custom regression row",
-      "content": "For infinitely many solutions, both sides must match for every $x$. In Desmos, use two quick test inputs: enter $x_1=[0,1]$, then type $18(x_1+5)\\sim2(x_1+c)+16x_1$. Desmos solves the unknown constant and returns $c=45$.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "18(x_1+5)~2(x_1+c)+16x_1"
-      ]
+      "title": "Use the condition for infinitely many solutions",
+      "content": "For a linear equation to have infinitely many solutions, the two sides must simplify to exactly the same expression for every value of $x$."
     },
     {
       "title": "Confirm with coefficients",

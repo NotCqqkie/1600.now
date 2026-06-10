@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Isosceles triangles need two equal angles",
-      "content": "An isosceles triangle has at least two equal angles. With angle $R = 29^\\circ$ and the three angles summing to $180^\\circ$, we need either $S = R = 29^\\circ$, $T = R = 29^\\circ$, or $S = T$. The choices fix $S$, so for each one we can compute $T = 180^\\circ - 29^\\circ - S$ and check whether any two angles match."
+      "title": "Use the isosceles condition",
+      "content": "An isosceles triangle has at least two equal angles. Since angle $R$ is $29^\\circ$, one sufficient condition is another angle also measuring $29^\\circ$."
     },
     {
-      "title": "Test each choice for two equal angles",
-      "content": "<ul><li><strong>Choice A &mdash; '$S = 151^\\circ$'</strong>: then $T = 180 - 29 - 151 = 0^\\circ$, which is not a valid triangle. &#10007;</li><li><strong>Choice B &mdash; '$S = 61^\\circ$'</strong>: then $T = 180 - 29 - 61 = 90^\\circ$. No two of $29^\\circ, 61^\\circ, 90^\\circ$ are equal, so not isosceles. &#10007;</li><li><strong>Choice C &mdash; '$S = 58^\\circ$'</strong>: then $T = 180 - 29 - 58 = 93^\\circ$. No two of $29^\\circ, 58^\\circ, 93^\\circ$ are equal, so not isosceles. &#10007;</li><li><strong>Choice D &mdash; '$S = 29^\\circ$'</strong>: then $T = 180 - 29 - 29 = 122^\\circ$, and $R = S = 29^\\circ$, so the triangle is isosceles. &#10003;</li></ul>"
+      "title": "Test the matching angle",
+      "content": "Choice D says angle $S$ is $29^\\circ$. Then angles $R$ and $S$ are equal, so triangle $RST$ must be isosceles."
+    },
+    {
+      "title": "Confirm the other choices",
+      "content": "The other listed values for angle $S$ do not create a required equal pair with angle $R$. Choice <strong>D</strong> is correct."
     }
   ]
 }

@@ -4,17 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the answer denominator as a regression template",
-      "content": "All choices have denominator $x+1$, so Desmos can fit the expression to the form $\\frac{ax^2+bx+c}{x+1}$ using a few valid $x$-values greater than $3$.",
-      "desmosExpressions": [
-        "x_1=[4,5,6,7]",
-        "y_1=(x_1^3-9x_1)/(x_1^2-2x_1-3)",
-        "y_1~(a x_1^2+b x_1+c)/(x_1+1)"
-      ]
+      "title": "Factor the numerator",
+      "content": "Start with the difference of squares inside the numerator: $$x^3-9x=x(x^2-9)=x(x-3)(x+3).$$"
     },
     {
-      "title": "Read the numerator and confirm the factor cancellation",
-      "content": "The regression gives numerator $x^2+3x$, which factors as $x(x+3)$. Algebraically,<br/>$$x^3-9x=x(x-3)(x+3)$$<br/>and<br/>$$x^2-2x-3=(x-3)(x+1)$$<br/>Since $x>3$, $x-3\\ne0$, so the common factor cancels."
+      "title": "Factor the denominator",
+      "content": "The denominator factors as $$x^2-2x-3=(x-3)(x+1).$$ Since $x>3$, $x-3\\ne0$, so the common factor $x-3$ can be canceled."
     },
     {
       "title": "Match the simplified expression",

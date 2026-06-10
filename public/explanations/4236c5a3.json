@@ -13,11 +13,7 @@
     },
     {
       "title": "Test each choice",
-      "content": "Plug each into $(x+5)^2$ and see which gives 4:<ul><li><strong>A)</strong> $x=1$: $(1+5)^2=36 \\ne 4$. Eliminate.</li><li><strong>B)</strong> $x=-1$: $(-1+5)^2=16 \\ne 4$. Eliminate.</li><li><strong>C)</strong> $x=-2$: $(-2+5)^2=9 \\ne 4$. Eliminate.</li><li><strong>D)</strong> $x=-3$: $(-3+5)^2=4$ &check;.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y=(x+5)^2",
-        "y=4"
-      ]
+      "content": "Plug each into $(x+5)^2$ and see which gives 4:<ul><li><strong>A)</strong> $x=1$: $(1+5)^2=36 \\ne 4$. Eliminate.</li><li><strong>B)</strong> $x=-1$: $(-1+5)^2=16 \\ne 4$. Eliminate.</li><li><strong>C)</strong> $x=-2$: $(-2+5)^2=9 \\ne 4$. Eliminate.</li><li><strong>D)</strong> $x=-3$: $(-3+5)^2=4$ &check;.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
     }
   ]
 }

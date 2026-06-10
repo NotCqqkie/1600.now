@@ -4,21 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Turn the years into points",
-      "content": "The input $t$ is years after 2000. So 2000 gives the point $(0,4)$, and 2013 gives the point $(13,1.9)$, where the output is measured in millions of barrels."
+      "title": "Turn the data into points",
+      "content": "The input $t$ is years after 2000. The two points are $(0,4)$ and $(13,1.9)$, where the output is in millions of barrels."
     },
     {
-      "title": "Fit the line in Desmos",
-      "content": "Enter the two points and run $y_1 \\sim m x_1+b$. Desmos gives $b=4$ and $m=-0.161538\\ldots$, which is $-\\frac{21}{130}$.",
-      "desmosExpressions": [
-        "x_1=[0,13]",
-        "y_1=[4,1.9]",
-        "y_1~m x_1+b"
-      ]
+      "title": "Find the rate of change",
+      "content": "The slope is $$m=\\frac{1.9-4}{13-0}=\\frac{-2.1}{13}=-\\frac{21}{130}$$ The initial value is $4$, so $$f(t)=-\\frac{21}{130}t+4$$"
     },
     {
-      "title": "Check the choices",
-      "content": "The model is $f(t)=-\\frac{21}{130}t+4$. Choice <strong>C</strong> has the correct negative rate and the correct initial value."
+      "title": "Confirm the choice",
+      "content": "Choice C has this negative rate and initial value, so <strong>C</strong> is correct."
     }
   ]
 }

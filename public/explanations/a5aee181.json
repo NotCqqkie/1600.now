@@ -9,7 +9,7 @@
     },
     {
       "title": "Solve for the longer side",
-      "content": "Expand the left side: $(5\\sqrt{17})^2 = 25 \\cdot 17 = 425$<br/>$$425 = 25 + x^2$$<br/>$$x^2 = 400$$<br/>$$x = 20$$<br/>Since $20 > 5$, this is the longer side. That matches choice B — <strong>B</strong> is correct."
+      "content": "Expand the left side: $(5\\sqrt{17})^2 = 25 \\cdot 17 = 425$<br/>$$425 = 25 + x^2$$<br/>$$x^2 = 400$$<br/>$$x = 20$$<br/>Since $20 \\gt 5$, this is the longer side. That matches choice B &mdash; <strong>B</strong> is correct."
     }
   ]
 }

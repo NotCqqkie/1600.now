@@ -12,14 +12,8 @@
       "content": "$$2nr+3nr=5nr$$<br/>So the expression becomes:<br/>$$8nr^2+4n^2r+5nr$$"
     },
     {
-      "title": "Check with a Desmos table",
-      "content": "Use a quick table check at two $(n,r)$ values:<br/>$$n_1=[1,2]$$<br/>$$r_1=[2,3]$$<br/>$$o_1=(8n_1r_1^2+2n_1r_1)+(4n_1^2r_1+3n_1r_1)$$<br/>$$d_1=8n_1r_1^2+4n_1^2r_1+5n_1r_1$$<br/>The original and choice D give the same output list.",
-      "desmosExpressions": [
-        "n_1=[1,2]",
-        "r_1=[2,3]",
-        "o_1=(8n_1r_1^2+2n_1r_1)+(4n_1^2r_1+3n_1r_1)",
-        "d_1=8n_1r_1^2+4n_1^2r_1+5n_1r_1"
-      ]
+      "title": "Confirm the structure",
+      "content": "The terms $8nr^2$ and $4n^2r$ stay separate because their exponents are different. Only the $nr$ terms combine."
     },
     {
       "title": "Answer",

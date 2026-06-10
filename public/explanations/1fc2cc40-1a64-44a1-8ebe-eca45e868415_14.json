@@ -8,14 +8,8 @@
       "content": "The graph contains $(0,0)$ and $(1,10)$. Because the relationship is linear, those two points determine the whole function."
     },
     {
-      "title": "Fit the line in Desmos",
-      "content": "Enter $x_1=[0,1]$ and $y_1=[0,10]$, then type $y_1\\sim m x_1+b$. Desmos gives $m=10$ and $b=0$, so $$h(x)=10x.$$",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[0,10]",
-        "y_1~m x_1+b",
-        "y=10x"
-      ]
+      "title": "Find the slope and equation",
+      "content": "The slope is $$\\frac{10-0}{1-0}=10.$$ Since the line passes through $(0,0)$, the $y$-intercept is $0$, so $$h(x)=10x.$$"
     },
     {
       "title": "Confirm the choice",

@@ -61,6 +61,8 @@ import {
   launchCustomPracticeSet,
 } from "@/lib/practice/customPracticeSets";
 import { cn, normalizePublicAssetPath } from "@/lib/utils";
+import { getQuestionImageClassName } from "@/lib/questionImageDisplay";
+import type { QuestionImageDisplaySize } from "@/data/questionImageSizing.generated";
 import { answersEquivalent } from "@/lib/text/answerEquivalence";
 import { renderMixedContent } from "@/lib/text/mathRendering";
 import { normalizeReadingDisplayText } from "@/lib/text/readingTextNormalization";
@@ -105,9 +107,9 @@ import {
 import { useThemeMode } from "@/hooks/useThemeMode";
 import "katex/dist/katex.min.css";
 
-const hardQuestions = originalQuestions.map(q => ({
-  ...q,
-  uuid: `hard-${q.id}`
+const hardQuestions = originalQuestions.map(originalQuestion => ({
+  ...originalQuestion,
+  uuid: `hard-${originalQuestion.id}`
 }));
 
 type ModulePracticeBankApi = typeof import("@/data/modulePracticeBank");
@@ -302,7 +304,7 @@ const extractTrailingQuestionSentence = (
   }
 
   const startersAlt = TRAILING_QUESTION_STARTERS
-    .map((s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))
+    .map((starter) => starter.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))
     .join("|");
   const boundaryRe = new RegExp(
     `(?:[.!?]|</u>|["”’)\\]])\\s+(?=(?:${startersAlt})\\b)`,
@@ -310,9 +312,9 @@ const extractTrailingQuestionSentence = (
   );
 
   const boundaries = [...trimmed.matchAll(boundaryRe)];
-  for (let i = boundaries.length - 1; i >= 0; i--) {
-    const m = boundaries[i];
-    const splitAt = m.index! + m[0].length;
+  for (let boundaryIndex = boundaries.length - 1; boundaryIndex >= 0; boundaryIndex--) {
+    const boundaryMatch = boundaries[boundaryIndex];
+    const splitAt = boundaryMatch.index! + boundaryMatch[0].length;
     const before = trimmed.slice(0, splitAt).trim();
     const sentence = trimmed.slice(splitAt).trim();
     if (!before || !sentence) continue;
@@ -576,12 +578,10 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     let lastTouchY: number | null = null;
     const forwardScroll = (deltaX: number, deltaY: number) => {
       if (!deltaX && !deltaY) return;
-      try {
-        window.parent?.postMessage(
-          { type: "homeDemoScroll", deltaX, deltaY },
-          window.location.origin,
-        );
-      } catch {}
+      window.parent?.postMessage(
+        { type: "homeDemoScroll", deltaX, deltaY },
+        window.location.origin,
+      );
     };
     const forwardWheel = (e: WheelEvent) => {
       e.preventDefault();
@@ -705,7 +705,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
 
   const questionData = useMemo(() => {
     if (is100Hard) {
-      return hardQuestions.find(q => q.id === questionNumber);
+      return hardQuestions.find(question => question.id === questionNumber);
     }
     if (needsModulePracticeBank && !modulePracticeBank) return null;
 
@@ -716,15 +716,15 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     const sourceQuestionById = isPracticeMode
       ? getSourceBankQuestionBySourceId(subject, idParam, bankSource)
       : getBankQuestionBySourceId(subject, idParam, bankSource);
-    const q =
+    const question =
       moduleQuestion ??
       sourceQuestionById ??
       (/^\d+$/.test(idParam) ? getBankQuestion(subject, questionNumber, bankSource) : null);
 
-    if (!q) return null;
+    if (!question) return null;
     return {
-      ...q,
-      uuid: q.stableId,
+      ...question,
+      uuid: question.stableId,
     };
 
   }, [is100Hard, idParam, questionNumber, subject, bankSource, modulePracticeBank, modulePracticeSlug, needsModulePracticeBank, practiceTestSetId, isPracticeMode]);
@@ -742,13 +742,13 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   const currentPracticeIndex = useMemo(() => {
     if (!isPracticeMode || practiceSet.length === 0) return -1;
     return practiceSet.findIndex(
-      (q) => {
-        if (q.subject !== subject) return false;
+      (practiceQuestion) => {
+        if (practiceQuestion.subject !== subject) return false;
 
-        const matchesBankType = !q.bankType || q.bankType === bankSource;
-        if (matchesBankType && q.sourceId === idParam) return true;
-        if (q.storageId && q.storageId === currentQuestionId) return true;
-        return matchesBankType && q.id === questionNumber;
+        const matchesBankType = !practiceQuestion.bankType || practiceQuestion.bankType === bankSource;
+        if (matchesBankType && practiceQuestion.sourceId === idParam) return true;
+        if (practiceQuestion.storageId && practiceQuestion.storageId === currentQuestionId) return true;
+        return matchesBankType && practiceQuestion.id === questionNumber;
       },
     );
   }, [bankSource, currentQuestionId, idParam, isPracticeMode, practiceSet, questionNumber, subject]);
@@ -1460,15 +1460,9 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
 
   const toggleFullscreen = () => {
     if (!document.fullscreenElement) {
-      const request = document.documentElement.requestFullscreen?.();
-      if (request && typeof (request as Promise<void>).catch === "function") {
-        (request as Promise<void>).catch(() => {});
-      }
+      void document.documentElement.requestFullscreen?.();
     } else {
-      const exit = document.exitFullscreen?.();
-      if (exit && typeof (exit as Promise<void>).catch === "function") {
-        (exit as Promise<void>).catch(() => {});
-      }
+      void document.exitFullscreen?.();
     }
   };
 
@@ -2310,7 +2304,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     questionText: string;
     passage: string;
     text: string;
-    questionImages: { src: string; alt: string }[];
+    questionImages: { src: string; alt: string; displaySize?: QuestionImageDisplaySize }[];
   }>;
 
   const promptContent = typeof questionWithBankFields.prompt === "string" && questionWithBankFields.prompt.trim()
@@ -2395,13 +2389,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
               alt={img.alt || `Question image ${idx + 1}`}
               className={cn(
                 "h-auto object-contain",
-                subject === "reading"
-                  ? shouldReduceQuestionImageSize
-                    ? "max-w-[91.25%] max-h-[420px]"
-                    : "max-w-full max-h-[460px]"
-                  : shouldReduceQuestionImageSize
-                    ? "max-w-[91.25%] max-h-[309px]"
-                    : "max-w-full max-h-[340px]",
+                getQuestionImageClassName(img.displaySize, subject, shouldReduceQuestionImageSize),
               )}
               wrapperClassName={cn("max-w-full", shouldReduceQuestionImageSize && "flex justify-center")}
               loading="lazy"
@@ -3213,7 +3201,6 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                     questionId={is100Hard ? questionNumber : currentQuestion.uuid}
                     struckOutChoiceIds={isAssessmentMode ? struckOutChoiceIds : undefined}
                     onStruckOutChange={isAssessmentMode ? handleStrikeoutChange : undefined}
-                    choiceImageClassName={isBank ? "max-h-[275px] sm:max-h-[325px]" : undefined}
                   />
                 ) : (
                   <div className="space-y-3">
@@ -3311,7 +3298,6 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                   subject={subject}
                   struckOutChoiceIds={isAssessmentMode ? struckOutChoiceIds : undefined}
                   onStruckOutChange={isAssessmentMode ? handleStrikeoutChange : undefined}
-                  choiceImageClassName={isBank ? "max-h-[275px] sm:max-h-[325px]" : undefined}
                 />
               ) : (
                 <div className="space-y-3">

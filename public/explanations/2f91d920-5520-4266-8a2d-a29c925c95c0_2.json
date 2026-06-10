@@ -9,11 +9,11 @@
     },
     {
       "title": "Find the slope using two points",
-      "content": "Select two clear points on the line:<ul><li>$(0, 12)$ where the line crosses the y-axis</li><li>$(6, 6)$ at the intersection grid point</li></ul>\n\nSlope: $$m = \\frac{6 - 12}{6 - 0} = \\frac{-6}{6} = -1$$"
+      "content": "Select two clear points on the line:<ul><li>$(0, 12)$ where the line crosses the y-axis</li><li>$(6, 6)$ at the intersection grid point</li></ul> Slope: $$m = \\frac{6 - 12}{6 - 0} = \\frac{-6}{6} = -1$$"
     },
     {
       "title": "Write the equation and match",
-      "content": "Using slope-intercept form $y = mx + b$ with $m = -1$ and $b = 12$:\n\n$$y = -x + 12$$\n\nThat matches choice B — <strong>B</strong> is correct."
+      "content": "Using slope-intercept form $y = mx + b$ with $m = -1$ and $b = 12$: $$y = -x + 12$$ That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

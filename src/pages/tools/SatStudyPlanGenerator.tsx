@@ -238,18 +238,18 @@ const SatStudyPlanGenerator = () => {
             Your {plan.length}-week Digital SAT plan
           </h2>
           <ol className="mt-4 space-y-4">
-            {plan.map((w) => (
+            {plan.map((week) => (
               <li
-                key={w.week}
+                key={week.week}
                 className="rounded-xl border border-border p-5"
               >
                 <div className="text-xs uppercase tracking-wider text-muted-foreground">
-                  Week {w.week} · {w.phase}
+                  Week {week.week} · {week.phase}
                 </div>
-                <div className="mt-1 text-lg font-semibold">{w.headline}</div>
+                <div className="mt-1 text-lg font-semibold">{week.headline}</div>
                 <ul className="mt-2 list-disc space-y-1 pl-6 text-muted-foreground">
-                  {w.tasks.map((t, i) => (
-                    <li key={i}>{t}</li>
+                  {week.tasks.map((task, taskIndex) => (
+                    <li key={taskIndex}>{task}</li>
                   ))}
                 </ul>
               </li>
@@ -261,10 +261,10 @@ const SatStudyPlanGenerator = () => {
       <section className="mt-10">
         <h2 className="text-2xl font-semibold tracking-tight">FAQs</h2>
         <div className="mt-4 space-y-5">
-          {faqs.map((f) => (
-            <div key={f.question}>
-              <h3 className="text-base font-semibold">{f.question}</h3>
-              <p className="mt-1 text-muted-foreground">{f.answer}</p>
+          {faqs.map((faq) => (
+            <div key={faq.question}>
+              <h3 className="text-base font-semibold">{faq.question}</h3>
+              <p className="mt-1 text-muted-foreground">{faq.answer}</p>
             </div>
           ))}
         </div>

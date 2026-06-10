@@ -9,12 +9,7 @@
     },
     {
       "title": "Substitute the points",
-      "content": "With points $(4, 6)$ and $(15, 24)$:<br/>$$m = \\frac{24 - 6}{15 - 4} = \\frac{18}{11}$$<br/>The slope of the line is $\\frac{18}{11}$.<br/>The answer is <strong>1.636</strong>.",
-      "desmosExpressions": [
-        "y-6=\\frac{18}{11}(x-4)",
-        "(4,6)",
-        "(15,24)"
-      ]
+      "content": "With points $(4, 6)$ and $(15, 24)$:<br/>$$m = \\frac{24 - 6}{15 - 4} = \\frac{18}{11}$$<br/>The slope of the line is $\\frac{18}{11}$.<br/>The answer is <strong>1.636</strong>."
     }
   ]
 }

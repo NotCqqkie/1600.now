@@ -3,8 +3,21 @@
   "correctAnswer": "D",
   "section": "Math",
   "steps": [
-    "Start with $R = \\frac{0.43l}{A}$. To isolate $l$, first multiply both sides by $A$: $RA = 0.43l$.",
-    "Divide both sides by $0.43$: $l = \\frac{RA}{0.43} = \\frac{AR}{0.43}$.",
-    "<ul><li><strong>A</strong> $l = \\frac{R - A}{0.43}$: subtracts $A$ from $R$ instead of multiplying. Eliminated.</li><li><strong>B</strong> $l = \\frac{R + A}{0.43}$: adds $A$ to $R$ instead of multiplying. Eliminated.</li><li><strong>C</strong> $l = \\frac{0.43R}{A}$: divides $0.43R$ by $A$ — the $A$ ends up in the denominator instead of the numerator. Eliminated.</li><li><strong>D</strong> $l = \\frac{AR}{0.43}$: multiplies $A$ by $R$ and divides by $0.43$ ✓. That matches choice D — <strong>D</strong> is correct.</li></ul>"
+    {
+      "title": "Start with the given equation",
+      "content": "The equation is $$R=\\frac{0.43l}{A}$$ To solve for $l$, first undo the division by $A$."
+    },
+    {
+      "title": "Isolate l",
+      "content": "Multiply both sides by $A$: $$AR=0.43l$$ Then divide both sides by $0.43$: $$l=\\frac{AR}{0.43}$$"
+    },
+    {
+      "title": "Check the operation order",
+      "content": "Because $A$ is in the denominator of the original fraction, it must be multiplied to the other side. It should not be added to or subtracted from $R$."
+    },
+    {
+      "title": "Match the choice",
+      "content": "$l=\\frac{AR}{0.43}$ matches choice <strong>D</strong>."
+    }
   ]
 }

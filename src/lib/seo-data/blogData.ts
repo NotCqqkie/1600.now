@@ -1542,4 +1542,4 @@ export const blogPosts: BlogPost[] = [
   },
 ];
 
-export const blogPostBySlug = new Map(blogPosts.map((p) => [p.slug, p]));
+export const blogPostBySlug = new Map(blogPosts.map((post) => [post.slug, post]));

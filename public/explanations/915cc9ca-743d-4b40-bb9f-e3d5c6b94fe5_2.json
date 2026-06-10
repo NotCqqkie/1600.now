@@ -9,10 +9,7 @@
     },
     {
       "title": "Identify the answer",
-      "content": "A constant function with value $2$ is $f(x)=2$. That matches choice <strong>C</strong> — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y = 2"
-      ]
+      "content": "A constant function with value $2$ is $f(x)=2$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."
     },
     {
       "title": "Confirm the answer",

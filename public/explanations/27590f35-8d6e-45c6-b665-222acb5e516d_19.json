@@ -9,7 +9,7 @@
     },
     {
       "title": "Solve",
-      "content": "$$V_{\\text{cube}} = 82^3 = 551{,}368 \\text{ in}^3$$$$V_{\\text{sphere}} = \\frac{4}{3}\\pi(41)^3 = \\frac{4}{3}\\pi(68{,}921) \\approx 288{,}696 \\text{ in}^3$$$$V_{\\text{remaining}} = 551{,}368 - 288{,}696 = 262{,}672 \\text{ in}^3$$"
+      "content": "Cube volume: $$82^3=551{,}368\\text{ in}^3.$$ Sphere volume: $$\\frac{4}{3}\\pi(41)^3=\\frac{4}{3}\\pi(68{,}921)\\approx288{,}696\\text{ in}^3.$$ Remaining volume: $$551{,}368-288{,}696=262{,}672\\text{ in}^3.$$"
     },
     {
       "title": "Answer",

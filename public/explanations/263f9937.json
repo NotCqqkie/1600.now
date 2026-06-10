@@ -9,12 +9,7 @@
     },
     {
       "title": "Fit the exponential pattern",
-      "content": "Run the exponential regression $y_1 \\sim a b^{x_1}$. Desmos gives $b=2$, so the culture doubles each day. The scaled model is $y=1.25\\cdot 2^x$.",
-      "desmosExpressions": [
-        "x_1=[1,2,3]",
-        "y_1=[2.5,5,10]",
-        "y_1~a b^{x_1}"
-      ]
+      "content": "The scaled counts double each day because $5\\div2.5=2$ and $10\\div5=2$. Working one day backward from $(1,2.5)$ gives the starting factor $2.5\\div2=1.25$, so the scaled model is $$y=1.25\\cdot2^x$$"
     },
     {
       "title": "Solve for the target day",

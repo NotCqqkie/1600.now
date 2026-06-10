@@ -5,8 +5,7 @@
   "steps": [
     {
       "title": "Convert the percentage to a decimal",
-      "content": "To find what percentage of a quantity equals, convert the percentage to decimal form. We have 80%:",
-      "formula": "$$80\\% = \\frac{80}{100} = 0.8$$"
+      "content": "To find what percentage of a quantity equals, convert the percentage to decimal form. We have 80%:"
     },
     {
       "title": "Multiply by the total to find the answer",

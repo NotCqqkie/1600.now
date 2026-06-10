@@ -11,8 +11,8 @@ const SatFaqPage = () => {
   const url = `https://1600.now/sat-faq/${page.slug}`;
 
   const related = (page.relatedSlugs ?? [])
-    .map((s) => satFaqPageBySlug.get(s))
-    .filter((p): p is NonNullable<typeof p> => Boolean(p));
+    .map((relatedSlug) => satFaqPageBySlug.get(relatedSlug))
+    .filter((relatedPage): relatedPage is NonNullable<typeof relatedPage> => Boolean(relatedPage));
 
   return (
     <div className="mx-auto max-w-3xl px-6 py-12">
@@ -40,18 +40,18 @@ const SatFaqPage = () => {
       <p className="mt-4 text-lg font-medium text-foreground">{page.shortAnswer}</p>
 
       <div className="mt-10 space-y-10">
-        {page.sections.map((s, i) => (
-          <section key={i}>
-            <h2 className="text-2xl font-semibold">{s.heading}</h2>
+        {page.sections.map((section, sectionIndex) => (
+          <section key={sectionIndex}>
+            <h2 className="text-2xl font-semibold">{section.heading}</h2>
             <div className="mt-3 space-y-3 text-foreground/90">
-              {s.body.map((p, j) => (
-                <p key={j}>{p}</p>
+              {section.body.map((paragraph, paragraphIndex) => (
+                <p key={paragraphIndex}>{paragraph}</p>
               ))}
             </div>
-            {s.list && (
+            {section.list && (
               <ul className="mt-3 list-disc space-y-1 pl-6 text-foreground/90">
-                {s.list.map((li, j) => (
-                  <li key={j}>{li}</li>
+                {section.list.map((listItem, itemIndex) => (
+                  <li key={itemIndex}>{listItem}</li>
                 ))}
               </ul>
             )}
@@ -63,10 +63,10 @@ const SatFaqPage = () => {
         <section className="mt-12">
           <h2 className="text-xl font-semibold">Related SAT questions</h2>
           <ul className="mt-3 space-y-2 text-sm">
-            {related.map((r) => (
-              <li key={r.slug}>
-                <Link to={`/sat-faq/${r.slug}`} className="text-foreground/80 hover:underline">
-                  {r.question}
+            {related.map((relatedPage) => (
+              <li key={relatedPage.slug}>
+                <Link to={`/sat-faq/${relatedPage.slug}`} className="text-foreground/80 hover:underline">
+                  {relatedPage.question}
                 </Link>
               </li>
             ))}

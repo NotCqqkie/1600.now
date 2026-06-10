@@ -5,23 +5,11 @@
   "steps": [
     {
       "title": "Write the line from one point and the slope",
-      "content": "The table is linear with slope $2$ and includes the point $(3,7)$. In Desmos, define the line $f(x)=2x+1$, since $2(3)+1=7$.",
-      "desmosExpressions": [
-        "f(x)=2x+1",
-        "(3,7)"
-      ]
+      "content": "The table is linear with slope $2$ and includes the point $(3,7)$. A line with slope $2$ has form $y=2x+b$. Substitute $(3,7)$: $$7=2(3)+b$$ so $b=1$ and $y=2x+1$."
     },
     {
       "title": "Use a list to fill the missing table values",
-      "content": "The row with output $11$ must have input $5$, because $f(5)=11$. The row with input $12$ has output $25$, because $f(12)=25$. You can see both at once by entering $x_1=[3,5,12]$ and $f(x_1)=[7,11,25]$.",
-      "desmosExpressions": [
-        "f(x)=2x+1",
-        "x_1=[3,5,12]",
-        "f(x_1)",
-        "(3,7)",
-        "(5,11)",
-        "(12,25)"
-      ]
+      "content": "For the row with output $11$, solve $11=2x+1$, so $x=5$. For the row with input $12$, compute $y=2(12)+1=25$."
     },
     {
       "title": "Compute the requested sum",

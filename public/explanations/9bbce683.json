@@ -5,11 +5,10 @@
   "steps": [
     {
       "title": "Use the table for line h",
-      "content": "Line $h$ contains $(18,130)$, $(23,160)$, and $(26,178)$. Entering these in Desmos and running $y_1\\sim mx_1+b$ gives $m=6$ and $b=22$.",
+      "content": "Line $h$ contains $(18,130)$, $(23,160)$, and $(26,178)$. Entering these in Desmos and running gives $m=6$ and $b=22$.",
       "desmosExpressions": [
         "x_1=[18,23,26]",
-        "y_1=[130,160,178]",
-        "y_1~mx_1+b"
+        "y_1=[130,160,178]"
       ]
     },
     {
@@ -22,12 +21,7 @@
     },
     {
       "title": "Find the x-intercept",
-      "content": "At the $x$-intercept, $y=0$: $$0=6x+17$$ $$x=-\\frac{17}{6}.$$ Therefore the intercept is $\\left(-\\frac{17}{6},0\\right)$, which is choice <strong>D</strong>.",
-      "desmosExpressions": [
-        "y=6x+22",
-        "y=6x+17",
-        "0=6x+17"
-      ]
+      "content": "At the $x$-intercept, $y=0$: $$0=6x+17$$ $$x=-\\frac{17}{6}.$$ Therefore the intercept is $\\left(-\\frac{17}{6},0\\right)$, which is choice <strong>D</strong>."
     }
   ]
 }

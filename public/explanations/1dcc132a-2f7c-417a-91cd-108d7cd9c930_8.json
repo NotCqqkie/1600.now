@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Use the inequality",
-      "content": "A point is a solution to $y < -4x + 4$ if its $y$-coordinate is less than $-4x+4$ for that point's $x$-coordinate."
+      "content": "A point is a solution to $y \\lt -4x + 4$ if its $y$-coordinate is less than $-4x+4$ for that point's $x$-coordinate."
     },
     {
       "title": "Test the choices",
-      "content": "Choice A gives $19 < -4(0)+4$, or $19<4$, which is false. Choice B gives $22 < -4(-1)+4$, or $22<8$, which is false. Choice C gives $0 < -4(-3)+4$, or $0<16$, which is true. Choice D gives $-1 < -4(7)+4$, or $-1<-24$, which is false. Therefore, only $(-3,0)$ is a solution, so <strong>C</strong> is correct."
+      "content": "Choice A gives $19 \\lt -4(0)+4$, or $19\\lt 4$, which is false. Choice B gives $22 \\lt -4(-1)+4$, or $22\\lt 8$, which is false. Choice C gives $0 \\lt -4(-3)+4$, or $0\\lt 16$, which is true. Choice D gives $-1 \\lt -4(7)+4$, or $-1\\lt -24$, which is false. Therefore, only $(-3,0)$ is a solution, so <strong>C</strong> is correct."
     }
   ]
 }

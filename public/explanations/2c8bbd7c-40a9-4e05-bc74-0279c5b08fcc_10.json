@@ -9,10 +9,7 @@
     },
     {
       "title": "Count the solutions",
-      "content": "There are zero real solutions. That matches choice <strong>D</strong> — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y = (x+81)^{2} + 256"
-      ]
+      "content": "There are zero real solutions. That matches choice <strong>D</strong> — <strong>D</strong> is correct."
     },
     {
       "title": "Confirm the answer",

@@ -9,12 +9,7 @@
     },
     {
       "title": "Solve for a + b + c",
-      "content": "Multiply both sides by $4$:<br/>$$a+b+c=4(-28)=-112$$<br/>A Desmos coefficient regression gives the same result if you want a calculator check. That matches choice A, so <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "x_1=[0,1,2]",
-        "-16(5x_1-3)^2+4(5x_1-2)^2~(a/4)x_1^2+(b/4)x_1+c/4",
-        "a+b+c"
-      ]
+      "content": "Multiply both sides by $4$:<br/>$$a+b+c=4(-28)=-112$$<br/>That matches choice A, so <strong>A</strong> is correct."
     }
   ]
 }

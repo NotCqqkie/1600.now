@@ -8,12 +8,12 @@
       "content": "Take the square root of both sides of $x^2 = 64$:<br/>$$x = \\pm\\sqrt{64} = \\pm 8$$<br/>The two solutions are $x = 8$ and $x = -8$."
     },
     {
-      "title": "Check which choice matches a solution",
-      "content": "The choices are A = $-8$, B = $4$, C = $32$, D = $128$. Our solutions are $x = \\pm 8$, so choice A ($-8$) works. Verify: $(-8)^2 = 64$ ✓. That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y = x^2",
-        "y = 64"
-      ]
+      "title": "Check the listed values",
+      "content": "The choices include $-8$, and $-8$ is one of the two solutions. Verify it directly: $$(-8)^2=64.$$"
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "Choice <strong>A</strong> is correct because $x=-8$ satisfies the equation."
     }
   ]
 }

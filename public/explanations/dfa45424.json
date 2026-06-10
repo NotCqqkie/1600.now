@@ -4,19 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Attach each variable to its unit cost",
-      "content": "$g$ counts 10-ride passes, and each 10-ride pass costs $12.50$, so that part of the cost is $12.50g$. $t$ counts single-ride passes, and each single-ride pass costs $1.50$, so that part of the cost is $1.50t$."
+      "title": "Attach each cost to its variable",
+      "content": "$g$ is the number of 10-ride passes, and each costs $12.50$, so that cost is $12.50g$. $t$ is the number of single-ride passes, and each costs $1.50$, so that cost is $1.50t$."
     },
     {
-      "title": "Set the total equal to the monthly spending",
-      "content": "Tony spends $80$ total, so add the two cost expressions and set the sum equal to $80$: $$12.50g+1.50t=80.$$ If you graph the relationship in Desmos, use $x$ for $g$ and $y$ for $t$: $12.50x+1.50y=80$.",
-      "desmosExpressions": [
-        "12.50x+1.50y=80"
-      ]
+      "title": "Set the monthly total",
+      "content": "Tony spends $80$ total, so $12.50g+1.50t=80$."
     },
     {
-      "title": "Check the choices",
-      "content": "Choice C reverses the costs, putting $1.50$ on the 10-ride passes and $12.50$ on the single rides. Choice <strong>D</strong> keeps the costs attached to the correct variables."
+      "title": "Match the choice",
+      "content": "This equation matches choice <strong>D</strong>. Choice C reverses the two pass costs."
     }
   ]
 }

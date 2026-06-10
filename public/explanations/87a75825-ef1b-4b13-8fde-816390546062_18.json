@@ -13,7 +13,7 @@
     },
     {
       "title": "Compare each choice to the attainable sums",
-      "content": "<ul><li>A. $(-14x+520)°$: not equal to any of the three sums above. Also, since $(7x-260) > 0$ forces $x > 260/7 \\approx 37.1$, we get $-14x+520 < 0$, which can't be a sum of two positive angles. Impossible.</li><li>B. $(-14x+880)°$: equals $2(440-7x)$, the sum of the two obtuse angles. Possible.</li><li>C. $(14x-520)°$: equals $2(7x-260)$, the sum of the two acute angles. Possible.</li><li>D. $180°$: the sum of any adjacent (linear) pair. Possible.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li>A. $(-14x+520)°$: not equal to any of the three sums above. Also, since $(7x-260) > 0$ forces $x > 260/7 \\approx 37.1$, we get $-14x+520 \\lt 0$, which can't be a sum of two positive angles. Impossible.</li><li>B. $(-14x+880)°$: equals $2(440-7x)$, the sum of the two obtuse angles. Possible.</li><li>C. $(14x-520)°$: equals $2(7x-260)$, the sum of the two acute angles. Possible.</li><li>D. $180°$: the sum of any adjacent (linear) pair. Possible.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

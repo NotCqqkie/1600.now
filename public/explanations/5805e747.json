@@ -4,21 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use a Desmos regression shortcut",
-      "content": "This is an equivalent-expression question, so a fast SAT-safe check is to make a table of values for the original expression and fit the result to a cubic. Use four $x$-values because the highest power is $x^3$:<br/>$$x_1=[-2,-1,0,1]$$<br/>$$y_1=(7x_1^3+7x_1)-(6x_1^3-3x_1)$$<br/>$$y_1\\sim ax_1^3+bx_1^2+cx_1+d$$",
-      "desmosExpressions": [
-        "x_1=[-2,-1,0,1]",
-        "y_1=(7x_1^3+7x_1)-(6x_1^3-3x_1)",
-        "y_1\\sim ax_1^3+bx_1^2+cx_1+d"
-      ]
+      "title": "Distribute the subtraction",
+      "content": "Start with $$(7x^3+7x)-(6x^3-3x).$$ Change the signs in the second parentheses:<br/>$$7x^3+7x-6x^3+3x.$$"
     },
     {
-      "title": "Read the regression result",
-      "content": "Desmos returns $a=1$, $b=0$, $c=10$, and $d=0$. That means the original expression behaves like:<br/>$$x^3+10x$$<br/>This already points to choice A."
-    },
-    {
-      "title": "Confirm with algebra",
-      "content": "Distribute the minus sign across the second parentheses:<br/>$$(7x^3+7x)-(6x^3-3x)=7x^3+7x-6x^3+3x$$<br/>Combine like terms:<br/>$$(7x^3-6x^3)+(7x+3x)=x^3+10x$$"
+      "title": "Combine like terms",
+      "content": "The cubic terms give $7x^3-6x^3=x^3$. The linear terms give $7x+3x=10x$. So the expression is $$x^3+10x.$$"
     },
     {
       "title": "Check the choices",

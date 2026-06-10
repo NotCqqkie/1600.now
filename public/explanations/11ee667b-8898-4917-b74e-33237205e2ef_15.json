@@ -9,10 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; '$x < 0$ and $y > 0$'</strong>: $2x < 0$ and $-6y < 0$, so $2x - 6y < 0 < 12$. The inequality <em>can never</em> be satisfied here. &#10003;</li><li><strong>Choice B &mdash; '$x < 0$ and $y < 0$'</strong>: $-6y > 0$, so $2x - 6y$ can be large and positive (e.g. $x = -1, y = -100$ gives $598 > 12$). &#10007;</li><li><strong>Choice C &mdash; '$x > 0$ and $y > 0$'</strong>: Large $x$ with small $y$ satisfies the inequality (e.g. $x = 10, y = 1$ gives $14 > 12$). &#10007;</li><li><strong>Choice D &mdash; 'the $x$-axis'</strong>: On the $x$-axis $y = 0$, so the inequality becomes $2x > 12 \\ Rightarrow x > 6$, which many points satisfy. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "2x - 6y > 12"
-      ]
+      "content": "<ul><li><strong>Choice A &mdash; '$x \\lt 0$ and $y > 0$'</strong>: $2x \\lt 0$ and $-6y \\lt 0$, so $2x - 6y \\lt 0 \\lt 12$. The inequality <em>can never</em> be satisfied here. &#10003;</li><li><strong>Choice B &mdash; '$x \\lt 0$ and $y \\lt 0$'</strong>: $-6y > 0$, so $2x - 6y$ can be large and positive (e.g. $x = -1, y = -100$ gives $598 > 12$). &#10007;</li><li><strong>Choice C &mdash; '$x > 0$ and $y > 0$'</strong>: Large $x$ with small $y$ satisfies the inequality (e.g. $x = 10, y = 1$ gives $14 > 12$). &#10007;</li><li><strong>Choice D &mdash; 'the $x$-axis'</strong>: On the $x$-axis $y = 0$, so the inequality becomes $2x > 12 \\Rightarrow x > 6$, which many points satisfy. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

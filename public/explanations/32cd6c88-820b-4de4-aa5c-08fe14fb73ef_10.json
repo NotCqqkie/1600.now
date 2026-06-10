@@ -5,12 +5,7 @@
   "steps": [
     {
       "title": "Use two points on the fit line",
-      "content": "The line of best fit falls from left to right, so the slope must be negative. Two readable points on the line are approximately $(0,10)$ and $(12,0)$.",
-      "desmosExpressions": [
-        "x_1=[0,12]",
-        "y_1=[10,0]",
-        "y_1~m x_1+b"
-      ]
+      "content": "The line of best fit falls from left to right, so the slope must be negative. Two readable points on the line are approximately $(0,10)$ and $(12,0)$."
     },
     {
       "title": "Calculate the slope",

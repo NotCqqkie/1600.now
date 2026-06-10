@@ -10,10 +10,7 @@
     {
       "title": "Apply Vieta's formula for the sum of roots",
       "formula": "$$\\text{Sum of roots} = -\\frac{b}{a}$$",
-      "content": "We don't need to solve for the individual solutions. Using the formula with $a = 2$ and $b = -6$:<br/>$$-\\frac{(-6)}{2} = \\frac{6}{2} = 3$$<br/>The sum of the solutions is <strong>3</strong>.",
-      "desmosExpressions": [
-        "y = 2x^{2} - 6x - 8"
-      ]
+      "content": "We don't need to solve for the individual solutions. Using the formula with $a = 2$ and $b = -6$:<br/>$$-\\frac{(-6)}{2} = \\frac{6}{2} = 3$$<br/>The sum of the solutions is <strong>3</strong>."
     }
   ]
 }

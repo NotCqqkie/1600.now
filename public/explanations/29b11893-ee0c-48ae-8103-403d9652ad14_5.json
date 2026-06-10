@@ -13,7 +13,7 @@
     },
     {
       "title": "Match to the choices",
-      "content": "<ul><li>A: $y=\\frac{1}{2}(44,000)^t$ &mdash; base is 44,000, coefficient is $\\frac{1}{2}$. Both roles are wrong. Eliminated.</li><li>B: $y=2(44,000)^t$ &mdash; base is 44,000, not 2. Wrong structure. Eliminated.</li><li>C: $y=44,000\\left(\\frac{1}{2}\\right)^t$ &mdash; coefficient is correct but base $\\frac{1}{2}$ models halving (decay), not doubling. Eliminated.</li><li>D: $y=44,000(2)^t$ &mdash; coefficient 44,000 is the initial count, base 2 is the doubling factor. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
+      "content": "<ul><li>A: $y=\\frac{1}{2}(44,000)^t$ - base is 44,000, coefficient is $\\frac{1}{2}$. Both roles are wrong. Eliminated.</li><li>B: $y=2(44,000)^t$ - base is 44,000, not 2. Wrong structure. Eliminated.</li><li>C: $y=44,000\\left(\\frac{1}{2}\\right)^t$ - coefficient is correct but base $\\frac{1}{2}$ models halving (decay), not doubling. Eliminated.</li><li>D: $y=44,000(2)^t$ - coefficient 44,000 is the initial count, base 2 is the doubling factor. That matches choice D - <strong>D</strong> is correct.</li></ul>"
     }
   ]
 }

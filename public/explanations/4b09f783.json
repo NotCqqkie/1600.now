@@ -5,17 +5,11 @@
   "steps": [
     {
       "title": "Calculate the mean",
-      "content": "For a mean question with a raw list, the fastest Desmos method is to enter the whole list and use `mean`. The ten values sum to $100$, and there are $10$ values, so the mean is $100/10=10$.",
-      "formula": "$$\\text{Mean} = \\frac{\\text{sum of all values}}{\\text{number of values}}$$",
-      "desmosExpressions": [
-        "l_1=[6,8,16,4,17,26,8,5,5,5]",
-        "\\operatorname{total}\\left(l_1\\right)",
-        "\\operatorname{mean}\\left(l_1\\right)"
-      ]
+      "content": "Add the ten values, then divide by the number of values. The values sum to $100$, and there are $10$ values, so the mean is $$\\frac{100}{10}=10.$$"
     },
     {
       "title": "Confirm the answer",
-      "content": "Desmos returns $\\operatorname{mean}(l_1)=10$, so the answer is <strong>10</strong>."
+      "content": "The mean of the list is $10$, so the answer is <strong>10</strong>."
     }
   ]
 }

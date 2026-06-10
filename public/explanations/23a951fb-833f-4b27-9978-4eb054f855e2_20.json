@@ -9,18 +9,11 @@
     },
     {
       "title": "Scale by the change",
-      "content": "For a 3.4-kelvin increase, $$\\Delta F=\\tfrac{9}{5}\\cdot 3.4=6.12.$$"
+      "content": "For a 3.4-kelvin increase, $$\\Delta F=\\tfrac{9}{5}\\cdot 3.4=6.12.$$<br/><br/>Only the change in temperature matters here; the intercept of the conversion formula does not affect how much $F$ changes when $x$ increases."
     },
     {
       "title": "State the answer",
-      "content": "That matches choice <strong>A</strong> — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y = \\frac{9}{5}(x - 273.15) + 32"
-      ]
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice A, 6.12, and the other choices fail the same setup or substitution. Therefore <strong>A</strong> is correct."
+      "content": "That matches choice <strong>A</strong> — <strong>A</strong> is correct."
     }
   ]
 }

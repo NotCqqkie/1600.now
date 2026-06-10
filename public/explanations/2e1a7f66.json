@@ -9,10 +9,7 @@
     },
     {
       "title": "Match 6 to its geometric meaning",
-      "content": "The coefficient 6 multiplies $y$ (number of sides of B), meaning it must be the side length of B. This matches the structure: $\\text{number of sides} \\times \\text{side length}$ for perimeter.<br/><br/>That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "3x+6y=63"
-      ]
+      "content": "The coefficient 6 multiplies $y$ (number of sides of B), meaning it must be the side length of B. This matches the structure: $\\text{number of sides} \\times \\text{side length}$ for perimeter.<br/><br/>That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

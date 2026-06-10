@@ -9,11 +9,7 @@
     },
     {
       "title": "Find $x - y$",
-      "content": "$y = 3(-33) + 9 = -90$. So $x - y = -33 - (-90) = 57$. That matches choice <strong>D</strong> — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y = 3x + 9",
-        "y = \\frac{8x - 6}{3}"
-      ]
+      "content": "$y = 3(-33) + 9 = -90$. So $x - y = -33 - (-90) = 57$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."
     }
   ]
 }

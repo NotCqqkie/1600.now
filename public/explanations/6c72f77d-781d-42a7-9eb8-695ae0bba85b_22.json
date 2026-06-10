@@ -8,20 +8,12 @@
       "content": "Multiply the first equation by $5$: $5(7x+4y)=5(3)$ gives $35x+20y=15$, which is identical to the second equation. Both equations describe the same line, $7x+4y=3$."
     },
     {
-      "title": "Use Desmos to test the parametrized choices",
-      "content": "A parametrization works if $7x+4y$ is always $3$. Let $r=[0,1]$ and define $L(x,y)=7x+4y$. Then enter each choice into $L$. The correct choice should output $[3,3]$, meaning both tested $r$-values stay on the line.",
-      "desmosExpressions": [
-        "r=[0,1]",
-        "L(x,y)=7x+4y",
-        "L(r/5+3,-r/5+15)",
-        "L(-4r/7+3/7,r)",
-        "L(r,7r/4+3/4)",
-        "L(r,-4r/7+3/7)"
-      ]
+      "title": "Solve for x in terms of y",
+      "content": "Let $y=r$. Substitute into $7x+4y=3$:<br/>$$7x+4r=3$$<br/>$$7x=3-4r$$<br/>$$x=-\\frac{4r}{7}+\\frac{3}{7}$$"
     },
     {
       "title": "Confirm choice B",
-      "content": "Choice B has $x=-\\frac{4r}{7}+\\frac{3}{7}$ and $y=r$. Substituting into $7x+4y$ gives $7\\left(-\\frac{4r}{7}+\\frac{3}{7}\\right)+4r=-4r+3+4r=3$ for every $r$. That matches choice <strong>B</strong>."
+      "content": "The point is therefore $\\left(-\\frac{4r}{7}+\\frac{3}{7}, r\\right)$, which matches choice <strong>B</strong>."
     }
   ]
 }

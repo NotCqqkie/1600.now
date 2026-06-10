@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the probability formula",
-      "content": "Probability of selecting a negative number is:\n\n$$P(\\text{negative}) = \\frac{\\text{Number of negative values}}{\\text{Total number of values}} = \\frac{1}{3}$$\n\nThat matches choice B — <strong>B</strong> is correct."
+      "content": "Probability of selecting a negative number is: $$P(\\text{negative}) = \\frac{\\text{Number of negative values}}{\\text{Total number of values}} = \\frac{1}{3}$$ That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

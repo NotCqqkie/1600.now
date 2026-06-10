@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Set up the inequality for when a monthly pass saves money",
-      "content": "To find the minimum number of trips where a monthly pass becomes cheaper, assume all trips cost the maximum price (\\$3.50 each). For the pass to cost less than individual tickets:<br/>$$95 < n \\times 3.50$$<br/>where $n$ is the number of trips."
+      "content": "To find the minimum number of trips where a monthly pass becomes cheaper, assume all trips cost the maximum price (\\$3.50 each). For the pass to cost less than individual tickets:<br/>$$95 \\lt n \\times 3.50$$<br/>where $n$ is the number of trips."
     },
     {
       "title": "Solve for the minimum number of trips",

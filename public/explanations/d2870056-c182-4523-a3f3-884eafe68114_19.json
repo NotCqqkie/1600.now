@@ -9,12 +9,7 @@
     },
     {
       "title": "Solve each factor",
-      "content": "From $x + 6 = 0$:<br/>$$x = -6$$<br/>From $x - 7 = 0$:<br/>$$x = 7$$<br/>The $x$-intercepts are at $x = -6$ and $x = 7$.",
-      "desmosExpressions": [
-        "y = (x + 6)(x - 7)",
-        "(-6, 0)",
-        "(7, 0)"
-      ]
+      "content": "From $x + 6 = 0$:<br/>$$x = -6$$<br/>From $x - 7 = 0$:<br/>$$x = 7$$<br/>The $x$-intercepts are at $x = -6$ and $x = 7$."
     }
   ]
 }

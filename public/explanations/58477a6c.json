@@ -13,12 +13,7 @@
     },
     {
       "title": "Conclusion",
-      "content": "Both Equation I and Equation II can be the second equation in a system with at least one solution.<br/><br/>That matches choice C — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y = (7 - 2x)/9",
-        "y = (10.5 - 3x)/13.5",
-        "y = (10.5 - 3x)/(-13.5)"
-      ]
+      "content": "Both Equation I and Equation II can be the second equation in a system with at least one solution.<br/><br/>That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

@@ -13,7 +13,7 @@
     },
     {
       "title": "Read off k",
-      "content": "The sum equals $(1/25)(5a+b) = k(5a+b)$, so $k = 1/25 = 0.04$. That matches the answer $1/25$ — <strong>1/25</strong> is correct."
+      "content": "The sum equals $(1/25)(5a+b) = k(5a+b)$, so $k = 1/25 = 0.04$. That matches the answer $1/25$ - <strong>1/25</strong> is correct."
     }
   ]
 }

@@ -9,7 +9,7 @@
     },
     {
       "title": "Divide both sides by p",
-      "content": "Starting with $t = pq$, we divide both sides by $p$:<br/>$$\\frac{t}{p} = \\frac{pq}{p}$$<br/>$$\\frac{t}{p} = q$$<br/>Therefore, $q = \\frac{t}{p}$. That matches choice B — <strong>B</strong> is correct."
+      "content": "Starting with $t = pq$, we divide both sides by $p$:<br/>$$\\frac{t}{p} = \\frac{pq}{p}$$<br/>$$\\frac{t}{p} = q$$<br/>Therefore, $q = \\frac{t}{p}$. That matches choice B - <strong>B</strong> is correct."
     }
   ]
 }

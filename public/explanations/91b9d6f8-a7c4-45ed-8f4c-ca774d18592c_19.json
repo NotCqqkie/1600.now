@@ -13,11 +13,7 @@
     },
     {
       "title": "Compare the linear choices first",
-      "content": "Choice A, $y=-582+1.2x$, has positive slope and runs through the middle of the data. For example, at $x=3500$, it predicts $-582+1.2(3500)=3618$, close to the plotted value near $3700$. Choice B has negative slope, so it trends the wrong direction.",
-      "desmosExpressions": [
-        "y=-582+1.2x",
-        "y=582-1.2x"
-      ]
+      "content": "Choice A, $y=-582+1.2x$, has positive slope and runs through the middle of the data. For example, at $x=3500$, it predicts $-582+1.2(3500)=3618$, close to the plotted value near $3700$. Choice B has negative slope, so it trends the wrong direction."
     },
     {
       "title": "Reject the exponential choices",

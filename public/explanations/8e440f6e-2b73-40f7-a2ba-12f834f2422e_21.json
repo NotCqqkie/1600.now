@@ -17,7 +17,7 @@
     },
     {
       "title": "Pick the smallest solution",
-      "content": "Both candidates satisfy the equation. Since $\\dfrac{13}{3} \\approx 4.33 < 21$, the smallest solution is $\\dfrac{13}{3}$. Grid in <strong>13/3</strong> (or 4.333)."
+      "content": "Both candidates satisfy the equation. Since $\\dfrac{13}{3} \\approx 4.33 \\lt 21$, the smallest solution is $\\dfrac{13}{3}$. Grid in <strong>13/3</strong> (or 4.333)."
     }
   ]
 }

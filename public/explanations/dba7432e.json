@@ -4,26 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Enter the table in Desmos",
-      "content": "The table gives $(0,5)$, $(1,\\frac{5}{2})$, $(2,\\frac{5}{4})$, and $(3,\\frac{5}{8})$. Enter the x-values and y-values as lists.",
-      "desmosExpressions": [
-        "x_1=[0,1,2,3]",
-        "y_1=[5,\\frac{5}{2},\\frac{5}{4},\\frac{5}{8}]"
-      ]
+      "title": "Use the table values",
+      "content": "The table gives $(0,5)$, $(1,\\frac{5}{2})$, $(2,\\frac{5}{4})$, and $(3,\\frac{5}{8})$. Compare how the output changes each time $x$ increases by $1$."
     },
     {
-      "title": "Run an exponential regression",
-      "content": "Because each y-value is half the previous y-value, this is exponential decay. In Desmos, use the regression row $y_1\\sim a b^{x_1}$. Desmos returns $a=5$ and $b=\\frac{1}{2}$.",
-      "desmosExpressions": [
-        "y_1\\sim a b^{x_1}"
-      ]
+      "title": "Find the exponential pattern",
+      "content": "Because each $y$-value is half the previous $y$-value, this is exponential decay with starting value $5$ and common factor $\\frac{1}{2}$."
     },
     {
       "title": "Write and match the model",
-      "content": "The model is:<br/>$$f(x)=5\\left(\\frac{1}{2}\\right)^x$$<br/>Since $\\frac{1}{2}=2^{-1}$, this is also:<br/>$$f(x)=5\\cdot2^{-x}$$<br/>That matches choice D, so <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y=5\\cdot2^{-x}"
-      ]
+      "content": "The model is:<br/>$$f(x)=5\\left(\\frac{1}{2}\\right)^x$$<br/>Since $\\frac{1}{2}=2^{-1}$, this is also:<br/>$$f(x)=5\\cdot2^{-x}$$<br/>That matches choice D, so <strong>D</strong> is correct."
     }
   ]
 }

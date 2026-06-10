@@ -4,14 +4,8 @@
   "section": "Math",
   "steps": [
     "The feature to display is $c$, the factor by which $f(x)$ multiplies for every increase of 2 in $x$. Compute $c$: from any form, $c = f(x+2)/f(x)$. Using choice A as the reference, $c = 2^{6 \\cdot 2} = 2^{12} = 4{,}096$.",
-    "Use Desmos to verify the factor directly: define each choice as a function and compare the value at $x=2$ to the value at $x=0$. Each ratio is $4{,}096$, but only choice D displays that factor as the base.",
-    "Scan each choice for 4,096 appearing literally as the base: A has base 2 (hides $c$ inside the exponent), B has base 8 (hides $c$ inside the exponent), C has base 64 (hides $c$ inside the exponent). Only D writes the base as $4{,}096$ with exponent $x/2$, so a step of 2 in $x$ raises the base to the first power exactly once &mdash; revealing $c$ directly.",
+    "Rewrite the growth factor so an increase of $2$ in $x$ corresponds to one full power of the base: $2^{6x}=\\left(2^{12}\\right)^{x/2}=4096^{x/2}$.",
+    "Scan each choice for 4,096 appearing literally as the base: A has base 2, B has base 8, and C has base 64. Only D writes the base as $4{,}096$ with exponent $x/2$, so a step of 2 in $x$ raises the base to the first power exactly once.",
     "That matches choice D &mdash; <strong>D</strong> is correct."
-  ],
-  "desmosExpressions": [
-    "26(2)^(6*2)/(26(2)^0)",
-    "26(8)^(2*2)/(26(8)^0)",
-    "26(64)^2/(26(64)^0)",
-    "26(4096)^(2/2)/(26(4096)^0)"
   ]
 }

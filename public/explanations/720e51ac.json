@@ -4,24 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the graph as a calculator",
-      "content": "The line passes through the easy points $(0,100)$ and $(100,225)$. That gives slope:<br/>$$\\frac{225-100}{100-0}=\\frac{125}{100}=\\frac{5}{4}$$<br/>So the model is $y=\\frac{5}{4}x+100$.",
-      "desmosExpressions": [
-        "(0,100)",
-        "(100,225)",
-        "y=\\frac{5}{4}x+100"
-      ]
+      "title": "Read the graph at x = 60",
+      "content": "The question asks for the cost when the manufacturer makes $60$ rings. Locate $x=60$ on the horizontal axis, move up to the line, and read the corresponding $y$-value."
     },
     {
-      "title": "Check x = 60 directly",
-      "content": "The question asks for the cost when $x=60$, so add the vertical line $x=60$ in Desmos. It hits the cost line at $y=175$.",
-      "desmosExpressions": [
-        "x=60"
-      ]
+      "title": "Read the cost",
+      "content": "At $x=60$, the line is at $y=175$. Since $y$ is measured in dollars, the cost is $175$."
     },
     {
       "title": "Confirm the choice",
-      "content": "Arithmetic check:<br/>$$\\frac{5}{4}(60)+100=75+100=175$$<br/>That matches choice C, so <strong>C</strong> is correct."
+      "content": "$175$ matches choice C, so <strong>C</strong> is correct."
     }
   ]
 }

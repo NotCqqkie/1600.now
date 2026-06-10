@@ -9,10 +9,7 @@
     },
     {
       "title": "Find the positive solution",
-      "content": "From the factored form $(x + 4)(x - 3) = 0$, we get $x = -4$ or $x = 3$. Since $a > 0$, the value of $a$ is $3$.",
-      "desmosExpressions": [
-        "y = x^2 + x - 12"
-      ]
+      "content": "From the factored form $(x + 4)(x - 3) = 0$, we get $x = -4$ or $x = 3$. Since $a > 0$, the value of $a$ is $3$."
     }
   ]
 }

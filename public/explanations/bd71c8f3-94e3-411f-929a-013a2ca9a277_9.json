@@ -13,10 +13,7 @@
     },
     {
       "title": "Compare with each choice",
-      "content": "<ul><li><strong>A) $56$:</strong> $56^{2}-28(56)=3136-1568=1568\\neq 0$. Eliminated.</li><li><strong>B) $28$:</strong> $28^{2}-28(28)=784-784=0$. Matches.</li><li><strong>C) $14$:</strong> $14^{2}-28(14)=196-392=-196\\neq 0$. Eliminated.</li><li><strong>D) $\\sqrt{28}$:</strong> $28-28\\sqrt{28}\\neq 0$. Eliminated.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "y=x^{2}-28x"
-      ]
+      "content": "<ul><li><strong>A) $56$:</strong> $56^{2}-28(56)=3136-1568=1568\\neq 0$. Eliminated.</li><li><strong>B) $28$:</strong> $28^{2}-28(28)=784-784=0$. Matches.</li><li><strong>C) $14$:</strong> $14^{2}-28(14)=196-392=-196\\neq 0$. Eliminated.</li><li><strong>D) $\\sqrt{28}$:</strong> $28-28\\sqrt{28}\\neq 0$. Eliminated.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
     }
   ]
 }

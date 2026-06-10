@@ -4,12 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use Desmos for the coefficient condition",
-      "content": "A no-solution linear equation needs matching $x$-coefficients and different constants. Enter $x_1=[1]$ in Desmos, then type $3kx_1\\sim\\frac{48}{17}x_1$. Desmos returns $k=\\frac{16}{17}$, which is about $0.9411$.",
-      "desmosExpressions": [
-        "x_1=[1]",
-        "3k x_1~(48/17)x_1"
-      ]
+      "title": "Match the coefficient condition",
+      "content": "A linear equation in one variable has no solution when the $x$-coefficients match but the constants are different. Match the $x$-coefficients first."
     },
     {
       "title": "Confirm by expanding",

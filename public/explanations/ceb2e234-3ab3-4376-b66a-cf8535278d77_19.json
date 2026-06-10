@@ -10,11 +10,7 @@
     },
     {
       "title": "Substitute and square the radius",
-      "content": "Substitute into the formula: $(x-19)^2 + (y-16)^2 = (8k)^2$. Calculate $(8k)^2 = 64k^2$. That matches choice B — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "(x-19)^2 + (y-16)^2 = 64",
-        "(19, 16)"
-      ]
+      "content": "Substitute into the formula: $(x-19)^2 + (y-16)^2 = (8k)^2$. Calculate $(8k)^2 = 64k^2$. That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

@@ -8,12 +8,11 @@
       "content": "The point $(0,12)$ is already on the line. The slope is $2$, so when $x$ increases by $1$, $y$ increases by $2$. That gives a second point, $(1,14)$."
     },
     {
-      "title": "Fit the points in Desmos",
-      "content": "Enter $x_1=[0,1]$ and $y_1=[12,14]$, then type $y_1 \\sim m x_1+b$. Desmos returns $m=2$ and $b=12$, so the line is $y=2x+12$. This matches choice D &mdash; <strong>D</strong> is correct.",
+      "title": "Use the points directly",
+      "content": "Use the table points directly. From $(0,12)$ to $(1,14)$, the slope is $m=\\frac{14-12}{1-0}=2.$ Substituting a point into $y=mx+b$ gives $b=12$. This matches choice D &mdash; <strong>D</strong> is correct.",
       "desmosExpressions": [
         "x_1=[0,1]",
-        "y_1=[12,14]",
-        "y_1~m x_1+b"
+        "y_1=[12,14]"
       ]
     }
   ]

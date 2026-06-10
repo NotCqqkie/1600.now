@@ -5,11 +5,7 @@
   "steps": [
     {
       "title": "Use the given x-value",
-      "content": "The second equation is already $x=8$, so every possible solution must have $x=8$. Substitute $8$ into the other equation.",
-      "desmosExpressions": [
-        "4x-3y=5",
-        "x=8"
-      ]
+      "content": "The second equation is already $x=8$, so every possible solution must have $x=8$. Substitute $8$ into the other equation."
     },
     {
       "title": "Solve for y",

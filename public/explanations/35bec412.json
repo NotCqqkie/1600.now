@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the median position",
-      "content": "The data are already sorted and there are $9$ values. For an odd number of values, the median is the middle value, at position $(9+1)/2=5$."
+      "title": "Find the middle position",
+      "content": "The data are already in increasing order and there are $9$ values. With an odd number of values, the median is the middle value, at position $$\\frac{9+1}{2}=5.$$"
     },
     {
-      "title": "Check with Desmos",
-      "content": "Enter the values as a list and use `median`. This is faster than recounting if the list is long or not already sorted.",
-      "desmosExpressions": [
-        "l_1=[73,74,75,77,79,82,84,85,91]",
-        "\\operatorname{median}\\left(l_1\\right)"
-      ]
+      "title": "Read the fifth value",
+      "content": "Counting through the sorted list, the fifth value is $79$: $$73,74,75,77,\\mathbf{79},82,84,85,91.$$"
     },
     {
       "title": "Confirm the answer",
-      "content": "The fifth value is $79$, and Desmos gives $\\operatorname{median}(l_1)=79$. The answer is <strong>79</strong>."
+      "content": "The median is <strong>79</strong>."
     }
   ]
 }

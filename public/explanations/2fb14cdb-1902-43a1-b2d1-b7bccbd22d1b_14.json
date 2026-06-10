@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Identify the cost structure",
-      "content": "The first book costs $16. Each book after the first costs $11. If $x$ is the total number of books purchased, then $(x - 1)$ books are purchased at the $11 rate."
+      "content": "The first book costs \\$16. Each book after the first costs \\$11. If $x$ is the total number of books purchased, then $(x - 1)$ books are purchased at the \\$11 rate."
     },
     {
       "title": "Build the equation",
@@ -13,11 +13,11 @@
     },
     {
       "title": "Verify with a test value",
-      "content": "For $x = 3$: $y = 11(2) + 16 = 22 + 16 = 38$. Check: first book $16 + two more at $11 each = $16 + $22 = $38$. Correct."
+      "content": "For $x = 3$: $y = 11(2) + 16 = 22 + 16 = 38$. Check: first book \\$16 + two more at \\$11 each = \\$16 + \\$22 = \\$38. Correct."
     },
     {
       "title": "Match to the choices",
-      "content": "<ul><li><strong>Choice A &mdash; '$y = x + 16$'</strong>: Charges $1 per additional book instead of $11. &#10007;</li><li><strong>Choice B &mdash; '$y = 11x + 16$'</strong>: Charges $11 for all $x$ books including the first, then adds $16 on top. For $x = 1$: $y = 27$, but should be $16. &#10007;</li><li><strong>Choice C &mdash; '$y = 11(x - 1) + 16$'</strong>: $16 for the first book and $11 for each of the $(x - 1)$ additional books. For $x = 1$: $y = 16$. For $x = 2$: $y = 27$. &#10003;</li><li><strong>Choice D &mdash; '$y = (x - 1) + 16$'</strong>: Charges $1 per additional book instead of $11. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; '$y = x + 16$'</strong>: Charges \\$1 per additional book instead of \\$11. &#10007;</li><li><strong>Choice B &mdash; '$y = 11x + 16$'</strong>: Charges \\$11 for all $x$ books including the first, then adds \\$16 on top. For $x = 1$: $y = 27$, but should be \\$16. &#10007;</li><li><strong>Choice C &mdash; '$y = 11(x - 1) + 16$'</strong>: \\$16 for the first book and \\$11 for each of the $(x - 1)$ additional books. For $x = 1$: $y = 16$. For $x = 2$: $y = 27$. &#10003;</li><li><strong>Choice D &mdash; '$y = (x - 1) + 16$'</strong>: Charges \\$1 per additional book instead of \\$11. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }

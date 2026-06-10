@@ -13,11 +13,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li>A) $(x-8)^{2}+(y+6)^{2}=25$: center $(8,-6)$, radius 5 &mdash; wrong center.</li><li>B) $(x+8)^{2}+(y-6)^{2}=25$: center $(-8,6)$, radius 5 &mdash; matches.</li><li>C) $(x-8)^{2}+(y+6)^{2}=5$: wrong center and radius $\\sqrt{5}$.</li><li>D) $(x+8)^{2}+(y-6)^{2}=5$: correct center but radius $\\sqrt{5}$, not 5.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "(-8,6)",
-        "(x+8)^2+(y-6)^2=25"
-      ]
+      "content": "<ul><li>A) $(x-8)^{2}+(y+6)^{2}=25$: center $(8,-6)$, radius 5 &mdash; wrong center.</li><li>B) $(x+8)^{2}+(y-6)^{2}=25$: center $(-8,6)$, radius 5 &mdash; matches.</li><li>C) $(x-8)^{2}+(y+6)^{2}=5$: wrong center and radius $\\sqrt{5}$.</li><li>D) $(x+8)^{2}+(y-6)^{2}=5$: correct center but radius $\\sqrt{5}$, not 5.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
     }
   ]
 }

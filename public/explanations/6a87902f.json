@@ -9,11 +9,7 @@
     },
     {
       "title": "Simplify and identify the contradiction",
-      "content": "Subtracting $2x$ from both sides:<br/>$$10 = -1$$<br/>This is false — an impossible equation. Since there's no $x$ value that makes both original equations have the same $y$-value, the graphs cannot intersect. That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y = 2x + 10",
-        "y = 2x - 1"
-      ]
+      "content": "Subtracting $2x$ from both sides:<br/>$$10 = -1$$<br/>This is false, so there is no $x$ value that makes both equations true at the same time. The graphs do not intersect, so choice <strong>A</strong> is correct."
     }
   ]
 }

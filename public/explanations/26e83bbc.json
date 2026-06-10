@@ -9,12 +9,7 @@
     },
     {
       "title": "Compare coefficients with the given product",
-      "content": "Since $f(x)\\cdot g(x)=9x^4-26x^3-3x^2$, the coefficient of $x^3$ in our expansion must equal $-26$:<br/>$$9b-27=-26$$<br/>$$9b=1$$<br/>$$b=\\frac{1}{9}$$<br/>A Desmos regression check with several nonzero $x$-values gives the same $b$. That matches choice C, so <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "x_1=[-2,-1,1,2]",
-        "(x_1^2+b x_1)(9x_1^2-27x_1)~9x_1^4-26x_1^3-3x_1^2",
-        "b"
-      ]
+      "content": "Since $f(x)\\cdot g(x)=9x^4-26x^3-3x^2$, the coefficient of $x^3$ in our expansion must equal $-26$:<br/>$$9b-27=-26$$<br/>$$9b=1$$<br/>$$b=\\frac{1}{9}$$<br/>That matches choice C, so <strong>C</strong> is correct."
     }
   ]
 }

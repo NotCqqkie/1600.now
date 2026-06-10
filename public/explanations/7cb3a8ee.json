@@ -9,11 +9,7 @@
     },
     {
       "title": "Solve Both Cases",
-      "content": "<strong>Case 1:</strong> From $x - 5 = 10$, add 5 to both sides: $x = 15$.<br/><strong>Case 2:</strong> From $x - 5 = -10$, add 5 to both sides: $x = -5$.<br/><br/>Since the question asks for one possible solution, $x = 15$ is a valid answer.",
-      "desmosExpressions": [
-        "y = |x - 5|",
-        "y = 10"
-      ]
+      "content": "<strong>Case 1:</strong> From $x - 5 = 10$, add 5 to both sides: $x = 15$.<br/><strong>Case 2:</strong> From $x - 5 = -10$, add 5 to both sides: $x = -5$.<br/><br/>Since the question asks for one possible solution, $x = 15$ is a valid answer."
     }
   ]
 }

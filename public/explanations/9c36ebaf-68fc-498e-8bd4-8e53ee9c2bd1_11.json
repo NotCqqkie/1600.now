@@ -10,11 +10,7 @@
     },
     {
       "title": "Add both circle areas",
-      "content": "Circle K has area $64\\pi$ mm², and Circle L has area $144\\pi$ mm² (given). The total area is $$64\\pi + 144\\pi = 208\\pi \\text{ mm}^2$$ That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "x^2 + y^2 = 64",
-        "x^2 + y^2 = 144"
-      ]
+      "content": "Circle K has area $64\\pi$ mm², and Circle L has area $144\\pi$ mm² (given). The total area is $$64\\pi + 144\\pi = 208\\pi \\text{ mm}^2$$ That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

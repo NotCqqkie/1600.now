@@ -9,10 +9,7 @@
     },
     {
       "title": "Find the initial height",
-      "content": "$$f(0)=8\\cdot0+4=4$$ <br/> When the tree was first measured ($x=0$), its estimated height is 4 feet. That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y=8x+4"
-      ]
+      "content": "$$f(0)=8\\cdot0+4=4$$ <br/> When the tree was first measured ($x=0$), its estimated height is 4 feet. That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

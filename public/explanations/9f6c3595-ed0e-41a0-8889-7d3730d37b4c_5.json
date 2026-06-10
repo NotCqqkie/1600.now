@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Find the third side and confirm the obtuse condition",
-      "content": "The perimeter equals the sum of all three sides:<br/>$$5 + 9 + x = 27$$<br/>$$x = 13$$<br/>Since the triangle is obtuse, verify using $a^2 + b^2 < c^2$ where $c$ is the longest side. With sides 5, 9, and 13:<br/>$$5^2 + 9^2 = 25 + 81 = 106$$<br/>$$13^2 = 169$$<br/>Since $106 < 169$, the obtuse condition holds. The third side is 13 meters. That matches choice A—<strong>A</strong> is correct."
+      "content": "The perimeter equals the sum of all three sides:<br/>$$5 + 9 + x = 27$$<br/>$$x = 13$$<br/>Since the triangle is obtuse, verify using $a^2 + b^2 \\lt c^2$ where $c$ is the longest side. With sides 5, 9, and 13:<br/>$$5^2 + 9^2 = 25 + 81 = 106$$<br/>$$13^2 = 169$$<br/>Since $106 \\lt 169$, the obtuse condition holds. The third side is 13 meters. That matches choice A—<strong>A</strong> is correct."
     }
   ]
 }

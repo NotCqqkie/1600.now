@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Set up the inequality from Ohm's law",
-      "content": "We have Ohm's law: <strong>i = V/R</strong>. The circuit has:<br/>• Resistance R = 500 ohms<br/>• Potential difference V = 6n volts<br/>• Current constraint: i ≤ 0.25 amperes<br/><br/>Substitute these into Ohm's law:<br/>$$\\frac{6n}{500} \\leq 0.25$$"
+      "content": "Use Ohm's law, $I=\\frac{V}{R}$. The problem gives:<ul><li>Resistance: $R=500$ ohms</li><li>Potential difference: $V=6n$ volts</li><li>Current limit: $I\\leq 0.25$ amperes</li></ul>Substitute those values into $I=\\frac{V}{R}$:$$\\frac{6n}{500}\\leq 0.25$$"
     },
     {
       "title": "Solve for n by isolating the variable",

@@ -5,17 +5,11 @@
   "steps": [
     {
       "title": "Use a two-point exponential setup",
-      "content": "A $4\\%$ annual increase means one year after the starting point the population is $5000(1.04)=5200$. Enter $x_1=[0,1]$, $y_1=[5000,5200]$, and $y_1\\sim a b^{x_1}$ in Desmos.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[5000,5200]",
-        "y_1~a b^{x_1}",
-        "y=a b^x"
-      ]
+      "content": "A $4\\%$ annual increase means one year after the starting point the population is $5000(1.04)=5200$. Use the values at $x=0$ and $x=1$ directly."
     },
     {
       "title": "Read the model",
-      "content": "Desmos gives $a=5000$ and $b=1.04$, so the model is $p=5000(1.04)^x$."
+      "content": "In an exponential model $p=a(b)^x$, the value at $x=0$ is $a$, so $a=5000$. A $4\\%$ annual increase means the growth factor is $b=1+0.04=1.04$. The model is $p=5000(1.04)^x$."
     },
     {
       "title": "Check the choices",

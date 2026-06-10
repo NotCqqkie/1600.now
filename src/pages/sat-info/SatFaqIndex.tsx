@@ -14,7 +14,7 @@ const SatFaqIndex = () => {
         title={title}
         description={description}
         jsonLd={buildFaqJsonLd(
-          satFaqPages.map((p) => ({ question: p.question, answer: p.shortAnswer })),
+          satFaqPages.map((faqPage) => ({ question: faqPage.question, answer: faqPage.shortAnswer })),
         )}
       />
 
@@ -24,14 +24,14 @@ const SatFaqIndex = () => {
       </p>
 
       <ul className="mt-8 space-y-3">
-        {satFaqPages.map((p) => (
-          <li key={p.slug}>
+        {satFaqPages.map((faqPage) => (
+          <li key={faqPage.slug}>
             <Link
-              to={`/sat-faq/${p.slug}`}
+              to={`/sat-faq/${faqPage.slug}`}
               className="block rounded-lg border border-border bg-card p-4 transition hover:border-foreground/40"
             >
-              <div className="font-semibold">{p.question}</div>
-              <p className="mt-1 text-sm text-muted-foreground">{p.shortAnswer}</p>
+              <div className="font-semibold">{faqPage.question}</div>
+              <p className="mt-1 text-sm text-muted-foreground">{faqPage.shortAnswer}</p>
             </Link>
           </li>
         ))}

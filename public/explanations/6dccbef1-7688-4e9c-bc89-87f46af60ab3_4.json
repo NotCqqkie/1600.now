@@ -8,14 +8,8 @@
       "content": "A linear profit function is determined by two points. The profit is $170$ when $x=4$ and $590$ when $x=10$, so use $(4,170)$ and $(10,590)$."
     },
     {
-      "title": "Fit the line in Desmos",
-      "content": "Enter $x_1=[4,10]$ and $y_1=[170,590]$, then type $y_1\\sim m x_1+b$. Desmos returns $m=70$ and $b=-110$, so the model is $$f(x)=70x-110.$$",
-      "desmosExpressions": [
-        "x_1=[4,10]",
-        "y_1=[170,590]",
-        "y_1~m x_1+b",
-        "y=70x-110"
-      ]
+      "title": "Find the line from the data",
+      "content": "Use the two points directly. From $(4,170)$ to $(10,590)$, the slope is $$m=\\frac{590-170}{10-4}=70.$$ Substitute $(4,170)$ into $y=70x+b$: $$170=70(4)+b$$ $$b=-110$$ So $f(x)=70x-110$."
     },
     {
       "title": "Confirm the choice",

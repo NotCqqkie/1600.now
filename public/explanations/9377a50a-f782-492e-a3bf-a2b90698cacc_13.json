@@ -13,7 +13,7 @@
     },
     {
       "title": "Apply the tangent ratio",
-      "content": "$$\\tan y° = \\frac{\\text{opposite}}{\\text{adjacent}} = \\frac{5}{7}$$That matches choice A — <strong>A</strong> is correct.",
+      "content": "$$\\tan y° = \\frac{\\text{opposite}}{\\text{adjacent}} = \\frac{5}{7}$$That matches choice A - <strong>A</strong> is correct.",
       "formula": "$$\\tan(\\theta) = \\frac{\\text{opposite}}{\\text{adjacent}}$$"
     }
   ]

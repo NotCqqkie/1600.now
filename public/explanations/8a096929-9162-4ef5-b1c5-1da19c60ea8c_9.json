@@ -5,23 +5,19 @@
   "steps": [
     {
       "title": "Solve the second inequality for y",
-      "content": "$\\frac{y}{7} &gt; 10$ &rArr; $y &gt; 70$."
+      "content": "$\\frac{y}{7} \\gt 10$ $\\Rightarrow$ $y \\gt 70$."
     },
     {
       "title": "Combine with the first inequality",
-      "content": "Since $y &lt; 42 - 7x$ and $y &gt; 70$, any solution must satisfy $70 &lt; y &lt; 42 - 7x$. For this to be possible, the upper bound must exceed 70: $42 - 7x &gt; 70$."
+      "content": "Since $y \\lt 42 - 7x$ and $y \\gt 70$, any solution must satisfy $70 \\lt y \\lt 42 - 7x$. For this to be possible, the upper bound must exceed 70: $42 - 7x \\gt 70$."
     },
     {
       "title": "Solve for x",
-      "content": "$42 - 7x &gt; 70$ &rArr; $-7x &gt; 28$ &rArr; $x &lt; -4$."
+      "content": "$42 - 7x \\gt 70$ $\\Rightarrow$ $-7x \\gt 28$ $\\Rightarrow$ $x \\lt -4$."
     },
     {
       "title": "Eliminate choices",
-      "content": "<ul><li><strong>Choice A &mdash; '$x &gt; 6$'</strong>: The inequality sign is wrong direction and the value is wrong. &#10007;</li><li><strong>Choice B &mdash; '$x &lt; 6$'</strong>: The direction is correct but the threshold 6 is wrong. &#10007;</li><li><strong>Choice C &mdash; '$x &gt; -4$'</strong>: The threshold -4 is right but the inequality sign is reversed. &#10007;</li><li><strong>Choice D &mdash; '$x &lt; -4$'</strong>: Matches $-7x &gt; 28 \\Rightarrow x &lt; -4$. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y = 42 - 7x",
-        "y = 70"
-      ]
+      "content": "<ul><li><strong>Choice A &mdash; '$x \\gt 6$'</strong>: The inequality sign is wrong direction and the value is wrong. &#10007;</li><li><strong>Choice B &mdash; '$x \\lt 6$'</strong>: The direction is correct but the threshold 6 is wrong. &#10007;</li><li><strong>Choice C &mdash; '$x \\gt -4$'</strong>: The threshold -4 is right but the inequality sign is reversed. &#10007;</li><li><strong>Choice D &mdash; '$x \\lt -4$'</strong>: Matches $-7x \\gt 28 \\Rightarrow x \\lt -4$. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
     }
   ]
 }

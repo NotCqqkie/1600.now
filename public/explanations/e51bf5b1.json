@@ -2,23 +2,16 @@
   "qid": "e51bf5b1",
   "steps": [
     {
-      "title": "Use the factor theorem with a Desmos table",
-      "content": "If $x+2b$ is a factor, then $x=-2b$ must make $3x^2+kx+14b$ equal $0$. Since $b$ is a positive integer and the answer choices are possible $k$-values, a fast check is to test a list of positive $b$-values in Desmos.",
-      "desmosExpressions": [
-        "b_1=[1,2,3,4,5,6,7,8,9,10]",
-        "3(-2b_1)^2+7(-2b_1)+14b_1",
-        "3(-2b_1)^2+28(-2b_1)+14b_1",
-        "3(-2b_1)^2+42(-2b_1)+14b_1",
-        "3(-2b_1)^2+49(-2b_1)+14b_1"
-      ]
+      "title": "Use the factor theorem",
+      "content": "If $x+2b$ is a factor, then $x=-2b$ must make $3x^2+kx+14b$ equal $0$, where $k$ is the coefficient of $x$ in the answer choice."
     },
     {
-      "title": "Read the Desmos result",
-      "content": "For choices A, B, and C, the expression does not hit $0$ for a positive integer $b$ in the relevant range. For choice D, when $k=49$ and $b=7$, the value is $0$, so $x+14$ is a factor."
+      "title": "Solve for the possible coefficient",
+      "content": "Substitute $x=-2b$:<br/>$$3(-2b)^2+k(-2b)+14b=0$$<br/>$$12b^2-2kb+14b=0$$<br/>Because $b\\gt 0$, divide by $2b$:<br/>$$6b-k+7=0$$<br/>So $k=6b+7$."
     },
     {
       "title": "Confirm by hand",
-      "content": "Algebraically, substituting $x=-2b$ gives $3(-2b)^2+k(-2b)+14b=0$, so $12b^2-2kb+14b=0$. Because $b>0$, divide by $2b$ to get $6b-k+7=0$, or $k=6b+7$."
+      "content": "The coefficient must be $7$ more than a multiple of $6$. Among $7$, $28$, $42$, and $49$, only $49$ works because $49=6(7)+7$."
     },
     {
       "title": "Choose the integer case",

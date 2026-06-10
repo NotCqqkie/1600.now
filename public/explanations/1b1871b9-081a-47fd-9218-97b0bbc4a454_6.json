@@ -9,11 +9,7 @@
     },
     {
       "title": "Read the graph",
-      "content": "On the graph, the curve meets the $y$-axis at the marked point $(0,5)$. Since the problem writes the intercept as $(0,y)$, the requested value is the second coordinate: $y=5$.",
-      "desmosExpressions": [
-        "x=0",
-        "(0,5)"
-      ]
+      "content": "On the graph, the curve meets the $y$-axis at the marked point $(0,5)$. Since the problem writes the intercept as $(0,y)$, the requested value is the second coordinate: $y=5$."
     },
     {
       "title": "Confirm the answer",

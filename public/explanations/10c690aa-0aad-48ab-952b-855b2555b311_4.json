@@ -4,26 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Enter approximate points from the graph",
-      "content": "For a scatterplot model question, the fastest reliable method is to turn the plotted points into a Desmos table. The points appear close to $(0,15)$, $(1,25)$, $(2,35)$, $(3,45)$, $(4,55)$, and $(5,65)$.",
-      "desmosExpressions": [
-        "x_1=[0,1,2,3,4,5]",
-        "y_1=[15,25,35,45,55,65]"
-      ]
+      "title": "Use the trend's sign",
+      "content": "The data rise from left to right, so the slope must be positive. That eliminates choices A and C."
     },
     {
-      "title": "Run linear regression",
-      "content": "Use $y_1 \\sim mx_1+b$. The approximate table gives a slope near $10$ and a $y$-intercept near $15$. Among the answer choices, the model with positive slope $10$ and intercept closest to $15$ is $y=14.7+10x$.",
-      "desmosExpressions": [
-        "x_1=[0,1,2,3,4,5]",
-        "y_1=[15,25,35,45,55,65]",
-        "y_1~m x_1+b",
-        "y=14.7+10x"
-      ]
+      "title": "Use the y-intercept",
+      "content": "The scatterplot is near $y=15$ when $x=0$, so the $y$-intercept should be positive and close to $15$. Choice D has intercept $-14.7$, far below the data."
     },
     {
       "title": "Confirm the choice",
-      "content": "Choices A and C have negative slope, but the data rise. Choice D has positive slope, but its intercept is about $-15$, far below the plotted points. Choice B matches the fitted trend, so choice <strong>B</strong> is correct."
+      "content": "Choice B, $y=14.7+10x$, has positive slope and a positive intercept near $15$. It matches the trend, so choice <strong>B</strong> is correct."
     }
   ]
 }

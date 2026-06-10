@@ -1,1 +1,15 @@
-{"questionId": "68b576c1-9de8-41d3-9840-538d4edcd113_22", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Set up part counts", "content": "The machine makes:<br/>• $4n$ eight-inch parts (4 times the number of 9-inch)<br/>• $n$ nine-inch parts<br/>• $30$ three-inch parts<br/><br/>Total $= 100$:<br/>$$4n + n + 30 = 100$$"}, {"title": "Combine like terms", "content": "$4n + n = 5n$:<br/>$$5n + 30 = 100$$<br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "68b576c1-9de8-41d3-9840-538d4edcd113_22",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up part counts",
+      "content": "The machine makes:<ul><li>$4n$ eight-inch parts, because that is 4 times the number of 9-inch parts.</li><li>$n$ nine-inch parts.</li><li>$30$ three-inch parts.</li></ul>The total number of parts is $100$, so $$4n+n+30=100.$$"
+    },
+    {
+      "title": "Combine like terms",
+      "content": "$4n + n = 5n$:<br/>$$5n + 30 = 100$$<br/>That matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

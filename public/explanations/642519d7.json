@@ -9,11 +9,11 @@
     },
     {
       "title": "Evaluate each Roman numeral statement",
-      "content": "Statement I says the entire city must be 78% satisfied &mdash; but 78% is a sample estimate, not proof. Not necessarily true.<br/>Statement II says another random sample of 1,000 adults must also yield 78% &mdash; sampling variability rules this out. Not necessarily true.<br/>Statement III says a sample from a different city must yield 78% &mdash; a different population can have any satisfaction rate. Not necessarily true."
+      "content": "Statement I says the entire city must be 78% satisfied - but 78% is a sample estimate, not proof. Not necessarily true.<br/>Statement II says another random sample of 1,000 adults must also yield 78% - sampling variability rules this out. Not necessarily true.<br/>Statement III says a sample from a different city must yield 78% - a different population can have any satisfaction rate. Not necessarily true."
     },
     {
       "title": "Eliminate each choice",
-      "content": "<ul><li>A) None: matches our finding that no statement must be true. Keep.</li><li>B) II only: II is not guaranteed. Eliminate.</li><li>C) I and II only: neither is guaranteed. Eliminate.</li><li>D) I and III only: neither is guaranteed. Eliminate.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li>A) None: matches our finding that no statement must be true. Keep.</li><li>B) II only: II is not guaranteed. Eliminate.</li><li>C) I and II only: neither is guaranteed. Eliminate.</li><li>D) I and III only: neither is guaranteed. Eliminate.</li></ul>That matches choice A - <strong>A</strong> is correct."
     }
   ]
 }

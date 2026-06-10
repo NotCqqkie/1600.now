@@ -9,11 +9,7 @@
     },
     {
       "title": "Find the value $3x + 5y$",
-      "content": "Add the two equations: $3x+5y=19+4=23$. That matches choice <strong>C</strong> — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y = \\frac{19 - x}{4}",
-        "y = 4 - 2x"
-      ]
+      "content": "Add the two equations: $3x+5y=19+4=23$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."
     },
     {
       "title": "Confirm the answer",

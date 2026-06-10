@@ -9,11 +9,7 @@
     },
     {
       "title": "Solve for x",
-      "content": "Subtract 4 from both sides:<br/>$$x + 4 - 4 = 121 - 4$$<br/>$$x = 117$$",
-      "desmosExpressions": [
-        "y = \\sqrt{x + 4}",
-        "y = 11"
-      ]
+      "content": "Subtract 4 from both sides:<br/>$$x + 4 - 4 = 121 - 4$$<br/>$$x = 117$$"
     }
   ]
 }

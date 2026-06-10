@@ -9,12 +9,7 @@
     },
     {
       "title": "Solve for a by substituting y = 0",
-      "content": "Substitute $y = 0$ into the equation:<br/>$$0 = a + \\frac{5}{9}$$<br/>Subtract $\\frac{5}{9}$ from both sides:<br/>$$a = -\\frac{5}{9}$$<br/>Equivalent forms accepted: <strong>-5/9</strong>, <strong>-0.555</strong>, <strong>-0.556</strong>.",
-      "desmosExpressions": [
-        "y = x + \\frac{5}{9}",
-        "\\left(-\\frac{5}{9}, 0\\right)",
-        "\\left(0, \\frac{5}{9}\\right)"
-      ]
+      "content": "Substitute $y = 0$ into the equation:<br/>$$0 = a + \\frac{5}{9}$$<br/>Subtract $\\frac{5}{9}$ from both sides:<br/>$$a = -\\frac{5}{9}$$<br/>Equivalent forms accepted: <strong>-5/9</strong>, <strong>-0.555</strong>, <strong>-0.556</strong>."
     }
   ]
 }

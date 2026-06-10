@@ -13,7 +13,7 @@
     },
     {
       "title": "Set up and solve for hiking hours",
-      "content": "Find the remaining calories needed, then solve for hiking time. Remaining calories: $1,900 - 300 = 1,600$. Let $h$ = hours of hiking. Then:<br/>$$400h = 1,600$$<br/>$$h = \\frac{1,600}{400} = 4$$<br/>That matches choice D — <strong>D</strong> is correct."
+      "content": "Find the remaining calories needed, then solve for hiking time. Remaining calories: $1,900 - 300 = 1,600$. Let $h$ = hours of hiking. Then:<br/>$$400h = 1,600$$<br/>$$h = \\frac{1,600}{400} = 4$$<br/>That matches choice D - <strong>D</strong> is correct."
     }
   ]
 }

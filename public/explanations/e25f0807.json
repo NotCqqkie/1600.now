@@ -4,21 +4,17 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use Desmos to fit the linear table",
-      "content": "Enter the two table rows in Desmos as $x_1=[-12,6]$ and $y_1=[-45,45]$. Then type the linear regression row $y_1 \\sim m x_1+b$. Desmos returns $m=5$ and $b=15$, so the line is $y=5x+15$.",
+      "title": "Find the line from the table",
+      "content": "Use the table points directly. From $(-12,-45)$ to $(6,45)$, the slope is $m=\\frac{45--45}{6--12}=5.$ Substituting a point into $y=mx+b$ gives $b=15$.",
       "desmosExpressions": [
         "x_1=[-12,6]",
         "y_1=[-45,45]",
-        "y_1~m x_1+b",
         "y=5x+15"
       ]
     },
     {
       "title": "Evaluate the requested input",
-      "content": "The question asks for the value when $x=\\frac{1}{4}$. Substitute into $y=5x+15$: $$y=5\\left(\\frac{1}{4}\\right)+15=\\frac{5}{4}+15=16.25$$",
-      "desmosExpressions": [
-        "(0.25,16.25)"
-      ]
+      "content": "The question asks for the value when $x=\\frac{1}{4}$. Substitute into $y=5x+15$: $$y=5\\left(\\frac{1}{4}\\right)+15=\\frac{5}{4}+15=16.25$$"
     },
     {
       "title": "Confirm the answer",

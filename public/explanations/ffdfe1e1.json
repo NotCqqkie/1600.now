@@ -5,20 +5,15 @@
   "steps": [
     {
       "title": "List the eliminated players",
-      "content": "This is faster as a table fit than as a long exponential setup. In round 1, half of 240 players are eliminated, so $p=120$. Then the eliminated counts keep halving: round 2 has 60, round 3 has 30, and round 4 has 15. Put those four points into Desmos.",
-      "desmosExpressions": [
-        "x_1=[1,2,3,4]",
-        "y_1=[120,60,30,15]",
-        "y_1~a b^{x_1}"
-      ]
+      "content": "In round 1, half of 240 players are eliminated, so $p=120$. Then the eliminated counts keep halving: round 2 has 60, round 3 has 30, and round 4 has 15. This is exponential decay with starting value $240$ and multiplier $\\frac{1}{2}$."
     },
     {
-      "title": "Read the exponential model",
-      "content": "The custom regression gives $a=240$ and $b=0.5$. Since Desmos is fitting $y=a b^x$, this means $$p=240(0.5)^r,$$ which is the same as $$p=240\\left(\\frac{1}{2}\\right)^r.$$"
+      "title": "Write the exponential model",
+      "content": "The eliminated count halves each round, so the multiplier is $0.5=\\frac{1}{2}$. A model with round number $r$ is $$p=240\\left(\\frac{1}{2}\\right)^r.$$"
     },
     {
       "title": "Check the choices",
-      "content": "Choice C has the fitted coefficient $240$ and the halving factor $\\frac{1}{2}$. Choice A starts with 15 instead of 240. Choices B and D use a factor of $2$, which grows each round instead of shrinking. Choice <strong>C</strong> is correct.",
+      "content": "Choice C has starting value $240$ and halving factor $\\frac{1}{2}$. Choice A starts with $15$ instead of $240$. Choices B and D use a factor of $2$, which grows each round instead of shrinking. Choice <strong>C</strong> is correct.",
       "desmosExpressions": [
         "y=240(0.5)^x",
         "(1,120)",

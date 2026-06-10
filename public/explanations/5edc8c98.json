@@ -13,7 +13,7 @@
     },
     {
       "title": "Read off $k$",
-      "content": "The sum equals $k(4a+b)$, so $k = \\dfrac{1}{16} = 0.0625$. That matches choice .0625 — <strong>.0625</strong> is correct."
+      "content": "The sum equals $k(4a+b)$, so $k = \\dfrac{1}{16} = 0.0625$. The answer is <strong>.0625</strong>."
     }
   ]
 }

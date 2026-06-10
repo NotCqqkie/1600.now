@@ -4,24 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fit two points from the line",
-      "content": "The fastest check is to use two easy points from the displayed line of best fit. The line passes near $(0,3.4)$ and $(10,13.4)$, so put those points into a Desmos table.",
-      "desmosExpressions": [
-        "x_1=[0,10]",
-        "y_1=[3.4,13.4]",
-        "y_1~m x_1+b"
-      ]
+      "title": "Read the line of best fit",
+      "content": "The shown line rises from left to right, so the slope is positive. It also crosses the $y$-axis above $0$, around $3.4$, so the $y$-intercept is positive."
     },
     {
-      "title": "Read the model",
-      "content": "The regression row $y_1\\sim m x_1+b$ gives $m=1$ and $b=3.4$. So the line should have positive slope $1$ and positive $y$-intercept $3.4$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Only $y=x+3.4$ has both a positive slope and a positive intercept. Choice B has the wrong intercept sign, and choices C and D have negative slope. Therefore choice <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y=x+3.4"
-      ]
+      "title": "Match slope and intercept signs",
+      "content": "Only $y=x+3.4$ has both a positive slope and a positive $y$-intercept. Choice B has the wrong intercept sign, and choices C and D have negative slope. Therefore choice <strong>A</strong> is correct."
     }
   ]
 }

@@ -9,10 +9,7 @@
     },
     {
       "title": "Apply Vieta&apos;s shortcut: sum = &minus;b/a",
-      "content": "Sum of solutions $= -b/a = -(-15)/1 = 15$. No solving needed. That matches choice A &mdash; <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y=x^{2}-15x+12"
-      ]
+      "content": "Sum of solutions $= -b/a = -(-15)/1 = 15$. No solving needed. That matches choice A &mdash; <strong>A</strong> is correct."
     },
     {
       "title": "Confirm the answer",

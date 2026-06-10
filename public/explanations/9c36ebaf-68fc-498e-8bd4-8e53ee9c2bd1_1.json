@@ -5,21 +5,15 @@
   "steps": [
     {
       "title": "Set up vertex form using the maximum point",
-      "content": "The maximum height of 207.36 feet occurs at $t = 3.6$ seconds. This is the vertex of the parabola. We write the height function in vertex form:\n\n$$h(t) = a(t - 3.6)^2 + 207.36$$"
+      "content": "The maximum height of 207.36 feet occurs at $t = 3.6$ seconds. This is the vertex of the parabola. We write the height function in vertex form: $$h(t) = a(t - 3.6)^2 + 207.36$$"
     },
     {
       "title": "Find the coefficient using the initial height",
-      "content": "The object was launched from an initial height of 0 feet, so $h(0) = 0$. Substitute:\n\n$$0 = a(0 - 3.6)^2 + 207.36$$\n\n$$0 = 12.96a + 207.36$$\n\n$$a = -16$$\n\nSo the function is $h(t) = -16(t - 3.6)^2 + 207.36$."
+      "content": "The object was launched from an initial height of 0 feet, so $h(0) = 0$. Substitute: $$0 = a(0 - 3.6)^2 + 207.36$$ $$0 = 12.96a + 207.36$$ $$a = -16$$ So the function is $h(t) = -16(t - 3.6)^2 + 207.36$."
     },
     {
       "title": "Solve for the time when height equals 184.32 feet",
-      "content": "Set $h(x) = 184.32$:\n\n$$184.32 = -16(x - 3.6)^2 + 207.36$$\n\n$$-23.04 = -16(x - 3.6)^2$$\n\n$$(x - 3.6)^2 = 1.44$$\n\n$$x - 3.6 = \\pm 1.2$$\n\n$$x = 4.8 \\text{ or } x = 2.4$$\n\nA possible value of $x$ is <strong>2.4</strong> seconds.",
-      "desmosExpressions": [
-        "f(t) = -16(t-3.6)^2 + 207.36",
-        "(3.6, 207.36)",
-        "(2.4, 184.32)",
-        "(4.8, 184.32)"
-      ]
+      "content": "Set $h(x) = 184.32$: $$184.32 = -16(x - 3.6)^2 + 207.36$$ $$-23.04 = -16(x - 3.6)^2$$ $$(x - 3.6)^2 = 1.44$$ $$x - 3.6 = \\pm 1.2$$ $$x = 4.8 \\text{ or } x = 2.4$$ A possible value of $x$ is <strong>2.4</strong> seconds."
     }
   ]
 }

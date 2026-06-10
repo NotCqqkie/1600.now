@@ -9,11 +9,7 @@
     },
     {
       "title": "Area of Circle M and Total",
-      "content": "<strong>Given area of M:</strong> $$25\\pi$$ mm^2<br/><strong>Total area:</strong> $$81\\pi + 25\\pi = 106\\pi$$ mm^2<br/>That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "x^2 + y^2 = 81",
-        "x^2 + y^2 = 25"
-      ]
+      "content": "<strong>Given area of M:</strong> $$25\\pi$$ mm^2<br/><strong>Total area:</strong> $$81\\pi + 25\\pi = 106\\pi$$ mm^2<br/>That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

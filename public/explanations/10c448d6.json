@@ -8,13 +8,8 @@
       "content": "The line passes through $(0,14)$. Its slope is $\\frac{1}{9}$, so moving $9$ units right raises $y$ by $1$. That gives a second point, $(9,15)$."
     },
     {
-      "title": "Fit the points in Desmos",
-      "content": "Enter $x_1=[0,9]$ and $y_1=[14,15]$, then run $y_1 \\sim m x_1+b$. Desmos gives $m=\\frac{1}{9}$ and $b=14$, so the equation is $y=\\frac{1}{9}x+14$. That matches choice D &mdash; <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "x_1=[0,9]",
-        "y_1=[14,15]",
-        "y_1~m x_1+b"
-      ]
+      "title": "Use the points directly",
+      "content": "Use the table points directly. From $(0,14)$ to $(9,15)$, the slope is $m=\\frac{15-14}{9-0}=\\frac{1}{9}.$ Substituting a point into $y=mx+b$ gives $b=14$. That matches choice D &mdash; <strong>D</strong> is correct."
     }
   ]
 }

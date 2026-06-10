@@ -4,7 +4,7 @@
   "section": "Math",
   "steps": [
     "The rental cost has two parts: a flat fee of \\$850 for the first 2 hours, plus \\$30 for each additional hour beyond those 2 hours.",
-    "With $t$ total hours ($t > 2$), the extra hours are $(t - 2)$. Total cost = $850 + 30(t - 2)$. Setting this equal to \\$1,030: $850 + 30(t - 2) = 1{,}030$.",
+    "With $t$ total hours ($t \\gt 2$), the extra hours are $(t - 2)$. Total cost = $850 + 30(t - 2)$. Setting this equal to \\$1,030: $850 + 30(t - 2) = 1{,}030$.",
     "Verify structure: the \\$850 is fixed, not multiplied by $t$ or $2t$. The extra charge applies only to hours beyond 2, i.e., $(t-2)$ hours, not $2t$ hours.",
     "<ul><li><strong>A</strong> $850(t - 2) + 30t = 1{,}030$: multiplies the flat fee by $(t-2)$, which is incorrect. Eliminated.</li><li><strong>B</strong> $850(2t) + 30t = 1{,}030$: multiplies the flat fee by $2t$, which is incorrect. Eliminated.</li><li><strong>C</strong> $850 + 30(t - 2) = 1{,}030$: flat \\$850 plus \\$30 per extra hour ✓. That matches choice C — <strong>C</strong> is correct.</li><li><strong>D</strong> $850 + 30(2t) = 1{,}030$: uses $2t$ instead of $(t - 2)$ for the extra hours. Eliminated.</li></ul>"
   ]

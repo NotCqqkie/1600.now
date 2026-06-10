@@ -4,26 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Make the first two model points",
-      "content": "The starting population is 24, so use $(0,24)$. A 16.2% yearly increase means one year later the population is $24(1.162)=27.888$, so use $(1,27.888)$. Fit an exponential regression.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[24,27.888]",
-        "y_1~a b^{x_1}"
-      ]
+      "title": "Use the exponential growth form",
+      "content": "For yearly exponential growth,<br/>$$p(t)=a(1+r)^t$$<br/>where $a$ is the starting amount and $r$ is the annual growth rate as a decimal."
     },
     {
-      "title": "Read the fitted model",
-      "content": "Desmos gives $a=24$ and $b=1.162$, so $$p(t)=24(1.162)^t.$$"
+      "title": "Substitute the values",
+      "content": "The starting population is $24$, so $a=24$. A $16.2\\%$ increase means $r=0.162$, so the growth factor is $1.162$.<br/>$$p(t)=24(1.162)^t$$"
     },
     {
       "title": "Compare to the answer choices",
-      "content": "Choice C has the correct starting population as the coefficient and the annual growth factor as the base. Choice A uses 24 as the base, choice B uses a doubling-style model, and choice D raises the product to the $t$ power, which would make the starting value 1. Choice <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y=24(1.162)^x",
-        "(0,24)",
-        "(1,27.888)"
-      ]
+      "content": "Choice C has the correct starting population as the coefficient and the correct annual growth factor as the base. Choice <strong>C</strong> is correct."
     }
   ]
 }

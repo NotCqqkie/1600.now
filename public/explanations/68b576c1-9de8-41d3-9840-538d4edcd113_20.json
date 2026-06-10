@@ -1,1 +1,15 @@
-{"questionId": "68b576c1-9de8-41d3-9840-538d4edcd113_20", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Identify the sides relative to angle Q", "content": "In right triangle $QRS$, the side opposite angle $Q$ is $\\overline{RS}$ (length $17$). Since $QR < QS$, $\\overline{QS}$ is the hypotenuse.<br/>$$\\sin Q = \\frac{\\text{opposite}}{\\text{hypotenuse}} = \\frac{RS}{QS} = \\frac{17}{QS}$$"}, {"title": "Solve for QS", "content": "Multiply both sides by $QS$ and divide by $\\sin Q$:<br/>$$QS = \\frac{17}{\\sin Q}$$<br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "68b576c1-9de8-41d3-9840-538d4edcd113_20",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the sides relative to angle Q",
+      "content": "In right triangle $QRS$, the side opposite angle $Q$ is $\\overline{RS}$ (length $17$). Since $QR \\lt QS$, $\\overline{QS}$ is the hypotenuse.<br/>$$\\sin Q = \\frac{\\text{opposite}}{\\text{hypotenuse}} = \\frac{RS}{QS} = \\frac{17}{QS}$$"
+    },
+    {
+      "title": "Solve for QS",
+      "content": "Multiply both sides by $QS$ and divide by $\\sin Q$:<br/>$$QS = \\frac{17}{\\sin Q}$$<br/>That matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

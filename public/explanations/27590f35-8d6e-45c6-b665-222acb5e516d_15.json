@@ -9,11 +9,7 @@
     },
     {
       "title": "Solve and identify x",
-      "content": "Factor: $(x-19)(x+12)=0$, giving $x=19$ or $x=-12$. Since $x$ is positive, $x=19$. The answer is <strong>19</strong>."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "As a final check, make sure the computed value answers exactly what the question asks for. The work above gives $19$; substituting or interpreting it in the original condition satisfies the requirement, so $19$ is the value to enter."
+      "content": "Factor: $(x-19)(x+12)=0$, giving $x=19$ or $x=-12$. Since $x$ is positive, $x=19$. The answer is <strong>19</strong>.<br/><br/>The negative root is rejected because the problem asks for a positive value, leaving the positive factor solution only."
     }
   ]
 }

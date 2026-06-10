@@ -13,11 +13,7 @@
     },
     {
       "title": "Pick a valid x",
-      "content": "Among the choices, $x=-46$ appears. That matches choice <strong>D</strong> — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y = x + 47",
-        "y = (x + 47)^2"
-      ]
+      "content": "Among the choices, $x=-46$ appears. That matches choice <strong>D</strong> — <strong>D</strong> is correct."
     }
   ]
 }

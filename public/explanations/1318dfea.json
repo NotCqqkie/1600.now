@@ -9,8 +9,7 @@
     },
     {
       "title": "Set up proportion of corresponding sides",
-      "content": "For similar triangles, corresponding sides are proportional:<br/>$$\\frac{WQ}{YQ} = \\frac{WX}{YZ}$$<br/>Substitute the known values:",
-      "formula": "$$\\frac{WQ}{YQ} = \\frac{WX}{YZ}$$"
+      "content": "For similar triangles, corresponding sides are proportional:<br/>$$\\frac{WQ}{YQ} = \\frac{WX}{YZ}$$<br/>Substitute the known values:"
     },
     {
       "title": "Solve for YZ",

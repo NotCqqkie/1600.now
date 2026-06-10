@@ -9,11 +9,7 @@
     },
     {
       "title": "Compute the y-intercept",
-      "content": "$f(0)=(-7)(1)+31=24$, so the intercept is $(0,24)$. That matches choice <strong>A</strong> — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "f(x) = -7(4)^{x} + 31",
-        "(0, 24)"
-      ]
+      "content": "$f(0)=(-7)(1)+31=24$, so the intercept is $(0,24)$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."
     },
     {
       "title": "Confirm the answer",

@@ -1,1 +1,15 @@
-{"questionId":"25547537-4b75-4c1c-8c86-e3b70293c301_10","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage states tribal economic activity contributed over $141,000 per employee on average. The correct choice must place that figure accurately relative to the other sectors shown in the data."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; tribal figure above all three sectors</strong>: would require tribal output to exceed transportation/warehousing — not supported by &apos;over $141,000&apos; if transportation/warehousing is higher. &#10007;</li><li><strong>Choice B &mdash; below transportation/warehousing but above manufacturing and health care</strong>: places tribal output between those values, consistent with the over $141,000 figure. &#10003;</li><li><strong>Choice C &mdash; tribal figure below all three sectors</strong>: contradicted by the over $141,000 figure exceeding manufacturing and health care. &#10007;</li><li><strong>Choice D &mdash; nearly equal to transportation/warehousing</strong>: the data places it clearly below transportation/warehousing, not nearly equal. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "25547537-4b75-4c1c-8c86-e3b70293c301_10",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage states tribal economic activity contributed over $141,000 per employee on average. The correct choice must place that figure accurately relative to the other sectors shown in the data."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; tribal figure above all three sectors</strong>: would require tribal output to exceed transportation/warehousing — not supported by &apos;over $141,000&apos; if transportation/warehousing is higher. &#10007;</li><li><strong>Choice B &mdash; below transportation/warehousing but above manufacturing and health care</strong>: places tribal output between those values, consistent with the over $141,000 figure. &#10003;</li><li><strong>Choice C &mdash; tribal figure below all three sectors</strong>: contradicted by the over $141,000 figure exceeding manufacturing and health care. &#10007;</li><li><strong>Choice D &mdash; nearly equal to transportation/warehousing</strong>: the data places it clearly below transportation/warehousing, not nearly equal. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

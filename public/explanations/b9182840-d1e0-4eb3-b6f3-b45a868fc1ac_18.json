@@ -9,11 +9,7 @@
     },
     {
       "title": "Find the value of $x + y$",
-      "content": "So $x+y=210+130=340$. The answer is <strong>340</strong>.",
-      "desmosExpressions": [
-        "y = \\frac{-6x + 2170}{7}",
-        "y = \\frac{24x - 1400}{28}"
-      ]
+      "content": "So $x+y=210+130=340$. The answer is <strong>340</strong>."
     },
     {
       "title": "Confirm the answer",

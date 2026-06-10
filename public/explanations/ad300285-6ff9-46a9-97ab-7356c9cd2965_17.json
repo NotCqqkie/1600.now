@@ -9,11 +9,7 @@
     },
     {
       "title": "Solve for the value",
-      "content": "Substituting gives $$f(0)=-9(0)+9=9.$$ The answer is <strong>9</strong>.",
-      "desmosExpressions": [
-        "y = -9x + 9",
-        "(0, 9)"
-      ]
+      "content": "Substituting gives $$f(0)=-9(0)+9=9.$$ The answer is <strong>9</strong>."
     },
     {
       "title": "Confirm the answer",

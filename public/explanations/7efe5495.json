@@ -9,11 +9,7 @@
     },
     {
       "title": "Find $5x$",
-      "content": "$5x = 5 \\cdot \\frac{12}{5} = 12$. That matches choice <strong>C</strong> — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y = 3x",
-        "y = 12 - 2x"
-      ]
+      "content": "$5x = 5 \\cdot \\frac{12}{5} = 12$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."
     }
   ]
 }

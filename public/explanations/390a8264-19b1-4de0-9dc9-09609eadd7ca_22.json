@@ -8,12 +8,8 @@
       "content": "Multiply every term by $148cx$: $$148 = cx^{2} + 148x \\implies cx^{2} + 148x - 148 = 0.$$"
     },
     {
-      "title": "Use Desmos on the discriminant",
-      "content": "Exactly one solution means the quadratic's discriminant is $0$. For $cx^2+148x-148=0$, the discriminant is $$148^2-4(c)(-148)=148^2+4c(148).$$ In Desmos, enter $y_1=[0]$ and $y_1\\sim148^2+4c(148)$. Desmos returns $c=-37$.",
-      "desmosExpressions": [
-        "y_1=[0]",
-        "y_1~148^2+4c148"
-      ]
+      "title": "Solve the discriminant equation",
+      "content": "Exactly one solution means the quadratic's discriminant is $0$. For $cx^2+148x-148=0$, the discriminant is $$148^2-4(c)(-148)=148^2+4c(148).$$ Set the discriminant equal to $0$ and solve to get $c=-37$."
     },
     {
       "title": "Confirm the answer",

@@ -5,21 +5,11 @@
   "steps": [
     {
       "title": "Parabola opens upward and line has positive slope",
-      "content": "For a graph-matching question, graph the candidate equations instead of doing a long verbal comparison. The displayed parabola opens upward and the line has positive slope. Only choice D has both $y=\\frac{7}{16}x^2$ and $y=\\frac{7}{4}x$.",
-      "desmosExpressions": [
-        "y=-(7/16)x^2",
-        "y=-(7/4)x",
-        "y=(7/4)x",
-        "y=(7/16)x^2"
-      ]
+      "content": "The displayed parabola opens upward, so the quadratic coefficient must be positive. The displayed line has positive slope, so the linear coefficient must also be positive. Only choice D has both $y=\\frac{7}{16}x^2$ and $y=\\frac{7}{4}x$."
     },
     {
       "title": "Verify with the intersection point",
-      "content": "At the visible intersection point $(4, 7)$ on the graph, test choice D: the parabola gives $y = \\frac{7}{16}(4)^2 = \\frac{7}{16} \\cdot 16 = 7$ and the line gives $y = \\frac{7}{4}(4) = 7$. Both equations match this point on the graph. That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y = \\frac{7}{16}x^2",
-        "y = \\frac{7}{4}x"
-      ]
+      "content": "At the visible intersection point $(4, 7)$, choice D checks out: the parabola gives $y = \\frac{7}{16}(4)^2 = \\frac{7}{16} \\cdot 16 = 7$, and the line gives $y = \\frac{7}{4}(4) = 7$. That matches choice <strong>D</strong>."
     }
   ]
 }

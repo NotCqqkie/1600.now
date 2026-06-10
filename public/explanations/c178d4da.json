@@ -4,12 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use Desmos to compare the means",
-      "content": "A frequency table can be turned into a list by repeating each value according to its frequency. For data set A, enter two $30$s, four $34$s, five $38$s, seven $42$s, and nine $46$s. For data set B, enter nine $30$s, seven $34$s, five $38$s, four $42$s, and two $46$s. Then use `mean` on each list.",
-      "desmosExpressions": [
-        "\\operatorname{mean}\\left([30,30,34,34,34,34,38,38,38,38,38,42,42,42,42,42,42,42,46,46,46,46,46,46,46,46,46]\\right)",
-        "\\operatorname{mean}\\left([30,30,30,30,30,30,30,30,30,34,34,34,34,34,34,34,38,38,38,38,38,42,42,42,42,46,46]\\right)"
-      ]
+      "title": "Set up the weighted means",
+      "content": "Each mean is found by multiplying each value by its frequency, adding those products, and dividing by the total number of values. Both data sets have $2+4+5+7+9=27$ values, so compare the weighted sums before dividing by $27$."
     },
     {
       "title": "Compute data set A by hand",

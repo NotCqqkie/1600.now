@@ -9,11 +9,7 @@
     },
     {
       "title": "Sum the solutions",
-      "content": "Add: $13+1=14$. (Shortcut: $|x-a|=b$ gives sum $2a=14$.)<br/><br/>The answer is <strong>C</strong>."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice C, 14. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
+      "content": "Add: $13+1=14$. (Shortcut: $|x-a|=b$ gives sum $2a=14$.)<br/><br/>The answer is <strong>C</strong>.<br/><br/>Both solutions are valid because an absolute value equation measures distance from 7, so values 6 units to the left and right both work."
     }
   ]
 }

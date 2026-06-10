@@ -10,18 +10,12 @@
     },
     {
       "title": "Write the equation using slope‑intercept form",
-      "content": "The y‑intercept is given as (0,‑6), so b = –6. With slope m = 4, the line is $$y = 4x - 6$$.",
+      "content": "The y‑intercept is given as (0,‑6), so b = -6. With slope m = 4, the line is $$y = 4x - 6$$.",
       "formula": "$$y = mx + b$$"
     },
     {
       "title": "Evaluate at x = 20 to find w",
-      "content": "Substitute x = 20: $$w = 4(20) - 6 = 80 - 6 = 74$$.<br/>The answer is <strong>74</strong>.",
-      "desmosExpressions": [
-        "y=4x-6",
-        "(0,-6)",
-        "(2,2)",
-        "(20,74)"
-      ]
+      "content": "Substitute x = 20: $$w = 4(20) - 6 = 80 - 6 = 74$$.<br/>The answer is <strong>74</strong>."
     }
   ]
 }

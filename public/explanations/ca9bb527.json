@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the horizontal line",
-      "content": "The second equation gives $y=19$. Substitute $19$ into $y=4x-9$: $$19=4x-9.$$"
+      "title": "Use the value of y",
+      "content": "The second equation gives $y=19$. Substitute into $y=4x-9$: $$19=4x-9$$"
     },
     {
-      "title": "Solve for $x$",
-      "content": "Add $9$ to both sides: $28=4x$. Divide by $4$: $x=7$. So the solution is $(7,19)$."
+      "title": "Solve for x",
+      "content": "Add $9$ to both sides and divide by $4$: $$28=4x$$ $$x=7$$"
     },
     {
-      "title": "Check the choices",
-      "content": "Choice B is correct. Choice A uses the wrong $x$-value, and choices C and D reverse the order of the coordinates.",
-      "desmosExpressions": [
-        "y=4x-9",
-        "y=19"
-      ]
+      "title": "Confirm the ordered pair",
+      "content": "The solution is $(7,19)$, which is choice <strong>B</strong>."
+    },
+    {
+      "title": "Check both coordinates",
+      "content": "A solution to a system must satisfy both equations. The pair $(7,19)$ has $y=19$, and it also satisfies $19=4(7)-9$, so both equations are true."
     }
   ]
 }

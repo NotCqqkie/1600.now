@@ -4,25 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use quadratic regression",
-      "content": "The sum is a quadratic expression. In Desmos, evaluate it at three x-values and fit the output to $ax^2+bx+c$."
+      "title": "Combine the polynomial terms",
+      "content": "Add $$(2x^2+x-9)+(x^2+6x+1).$$ The $x^2$ terms give $2x^2+x^2=3x^2$, the $x$ terms give $x+6x=7x$, and the constants give $-9+1=-8$."
     },
     {
-      "title": "Enter the rows",
-      "content": "Use:<br/>$$x_1=[0,1,2]$$<br/>$$y_1=(2x_1^2+x_1-9)+(x_1^2+6x_1+1)$$<br/>$$y_1\\sim ax_1^2+bx_1+c$$",
-      "desmosExpressions": [
-        "x_1=[0,1,2]",
-        "y_1=(2x_1^2+x_1-9)+(x_1^2+6x_1+1)",
-        "y_1\\sim ax_1^2+bx_1+c"
-      ]
-    },
-    {
-      "title": "Read the simplified expression",
-      "content": "Desmos returns $a=3$, $b=7$, and $c=-8$, so the expression is:<br/>$$3x^2+7x-8$$<br/>That matches choice D."
-    },
-    {
-      "title": "Confirm by combining terms",
-      "content": "The $x^2$ terms give $2x^2+x^2=3x^2$, the $x$ terms give $x+6x=7x$, and the constants give $-9+1=-8$. So <strong>D</strong> is correct."
+      "title": "Write the simplified expression",
+      "content": "So the sum is $$3x^2+7x-8.$$ That expression matches choice D, so <strong>D</strong> is correct. The order of terms in the choice may differ, but the coefficients $3$, $7$, and $-8$ are what matter."
     }
   ]
 }

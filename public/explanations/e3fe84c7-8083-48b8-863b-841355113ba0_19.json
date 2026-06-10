@@ -13,11 +13,7 @@
     },
     {
       "title": "Compute the requested value",
-      "content": "Perimeter $=4(20)=80$. That matches choice <strong>C</strong> — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "x^2 + 4x + y^2 - 8y - 80 = 0",
-        "(x+2)^2 + (y-4)^2 = 100"
-      ]
+      "content": "Perimeter $=4(20)=80$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."
     }
   ]
 }

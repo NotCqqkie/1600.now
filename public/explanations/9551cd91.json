@@ -4,21 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fit p as a function of c",
-      "content": "Treat the number of cars $c$ as $x$ and the capacity $p$ as $y$. The table gives $(0,9)$ and $(1,64)$, so run a linear regression.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[9,64]",
-        "y_1~m x_1+b"
-      ]
+      "title": "Find the slope from the table",
+      "content": "The table gives points $(0,9)$ and $(1,64)$ for $(c,p)$. The slope is $$\\frac{64-9}{1-0}=55$$"
     },
     {
-      "title": "Convert to the answer form",
-      "content": "Desmos gives $m=55$ and $b=9$, so $p=55c+9$. Move $p$ to the left: $$55c-p=-9$$"
+      "title": "Write the linear equation",
+      "content": "When $c=0$, $p=9$, so the intercept is $9$. The equation is $$p=55c+9$$"
     },
     {
-      "title": "Check the choices",
-      "content": "Choice <strong>A</strong> is $55c-p=-9$, so A is correct."
+      "title": "Match the answer form",
+      "content": "Rearrange by subtracting $p$ and $9$: $$55c-p=-9$$ This matches choice <strong>A</strong>."
     }
   ]
 }

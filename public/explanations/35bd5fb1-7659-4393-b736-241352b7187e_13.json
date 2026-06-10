@@ -4,23 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the given root as a plug-in shortcut",
-      "content": "The question gives a solution, so you do not need to derive the whole quadratic formula. Let<br/>$$r=\\frac{-27+\\sqrt{261}}{26}$$<br/>Because $r$ is a solution of $x(13x+27)+c=5$, the correct answer choice for $c$ makes $r(13r+27)+c$ equal $5$."
+      "title": "Put the equation in quadratic form",
+      "content": "Start with the given equation: $$x(13x+27)+c=5$$ Expanding and moving everything to one side gives $$13x^2+27x+(c-5)=0.$$"
     },
     {
-      "title": "Check the choices in Desmos",
-      "content": "Enter $r$, then test the four possible values of $c$. Only $c=14$ makes the left side equal $5$; the other choices produce different values.",
-      "desmosExpressions": [
-        "r=\\frac{-27+\\sqrt{261}}{26}",
-        "r(13r+27)+14",
-        "r(13r+27)+9",
-        "r(13r+27)+5",
-        "r(13r+27)+4"
-      ]
+      "title": "Match the given radical",
+      "content": "For $13x^2+27x+(c-5)=0$, the quadratic formula has denominator $2(13)=26$, matching the given solution. The expression under the square root must be $261$."
     },
     {
       "title": "Confirm algebraically",
-      "content": "If you expand first, $x(13x+27)+c=5$ becomes $13x^2+27x+(c-5)=0$. Matching the given quadratic-form root means the discriminant is $261$:<br/>$$27^2-4(13)(c-5)=261$$<br/>$$989-52c=261$$<br/>$$c=14$$<br/>That matches choice <strong>A</strong>."
+      "content": "Set the discriminant equal to $261$: $$27^2-4(13)(c-5)=261$$ $$989-52c=261$$ $$c=14$$ That matches choice <strong>A</strong>."
     }
   ]
 }

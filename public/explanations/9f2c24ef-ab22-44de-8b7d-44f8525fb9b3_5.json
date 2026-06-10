@@ -9,10 +9,7 @@
     },
     {
       "title": "Determine which side is shaded",
-      "content": "The shaded (gray) region extends above the horizontal line, meaning all points in the shaded area have $y$-coordinates greater than or equal to 33. Therefore, the inequality is $y \\geq 33$. That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y \\ge 33"
-      ]
+      "content": "The shaded (gray) region extends above the horizontal line, meaning all points in the shaded area have $y$-coordinates greater than or equal to 33. Therefore, the inequality is $y \\geq 33$. That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

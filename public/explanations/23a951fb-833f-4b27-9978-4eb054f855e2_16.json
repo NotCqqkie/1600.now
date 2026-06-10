@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Parallel lines have equal slopes — read slope directly from standard form",
-      "content": "For $ax + by = c$ the slope is $-a/b$, no algebra needed.<br/>Line $j$: $6x - 7y = 14$ &rarr; slope $= -6/(-7) = 6/7$.<br/>Since line $k$ is parallel to line $j$, it has the same slope."
+      "content": "For $ax + by = c$ the slope is $-a/b$, no algebra needed.<br/>Line $j$: $6x - 7y = 14$ $\\Rightarrow$ slope $= -6/(-7) = 6/7$.<br/>Since line $k$ is parallel to line $j$, it has the same slope."
     },
     {
       "title": "State the slope of line k",

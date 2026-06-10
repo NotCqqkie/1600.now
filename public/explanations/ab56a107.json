@@ -1,1 +1,18 @@
-{"section":"Reading and Writing","correctAnswer":"C","steps":[{"title":"Summarize each text","content":"Text 1: digital art &quot;isn&#39;t really art&quot; because it requires less skill than physical art &mdash; the technology does most of the work. Text 2: digital artists need art fundamentals plus mastery of sophisticated software, and often draw on paper first, so the digital tools are a craft of their own."},{"title":"Predict the response","content":"Author 2 would push back on Text 1&#39;s &quot;less skill&quot; claim by insisting that digital art still demands real artistic skill, just with different tools."},{"title":"Per-choice elimination","content":"<ul><li><strong>Choice A &mdash; 'digital ... can still be displayed traditionally'</strong>: display format is not what Text 1 disputes; Text 1 disputes skill. Off topic. &#10007;</li><li><strong>Choice B &mdash; 'much harder to use a tablet and stylus ... than ... paint and a brush'</strong>: Text 2 never claims digital is harder, only that it requires real skill. Overreach. &#10007;</li><li><strong>Choice C &mdash; 'digital art requires artistic abilities and skill even if it employs less traditional tools'</strong>: directly answers Text 1&#39;s &quot;not real art / less skill&quot; charge using Text 2&#39;s points. &#10003;</li><li><strong>Choice D &mdash; 'most digital artists don&#39;t think fundamental drawing skills are important'</strong>: contradicts Text 2, which stresses art fundamentals and drawing on paper first. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "section": "Reading and Writing",
+  "correctAnswer": "C",
+  "steps": [
+    {
+      "title": "Summarize each text",
+      "content": "Text 1: digital art &quot;isn&#39;t really art&quot; because it requires less skill than physical art &mdash; the technology does most of the work. Text 2: digital artists need art fundamentals plus mastery of sophisticated software, and often draw on paper first, so the digital tools are a craft of their own."
+    },
+    {
+      "title": "Predict the response",
+      "content": "Author 2 would push back on Text 1&#39;s &quot;less skill&quot; claim by insisting that digital art still demands real artistic skill, just with different tools."
+    },
+    {
+      "title": "Per-choice elimination",
+      "content": "<ul><li><strong>Choice A &mdash; 'digital... can still be displayed traditionally'</strong>: display format is not what Text 1 disputes; Text 1 disputes skill. Off topic. &#10007;</li><li><strong>Choice B &mdash; 'much harder to use a tablet and stylus... than... paint and a brush'</strong>: Text 2 never claims digital is harder, only that it requires real skill. Overreach. &#10007;</li><li><strong>Choice C &mdash; 'digital art requires artistic abilities and skill even if it employs less traditional tools'</strong>: directly answers Text 1&#39;s &quot;not real art / less skill&quot; charge using Text 2&#39;s points. &#10003;</li><li><strong>Choice D &mdash; 'most digital artists don&#39;t think fundamental drawing skills are important'</strong>: contradicts Text 2, which stresses art fundamentals and drawing on paper first. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

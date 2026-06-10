@@ -4,21 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fit price as a function of side length",
-      "content": "Use side length $s$ as $x$ and price $P$ as $y$. Enter the table points $(3,8)$, $(6,18)$, and $(9,28)$ and run $y_1 \\sim m x_1+b$.",
-      "desmosExpressions": [
-        "x_1=[3,6,9]",
-        "y_1=[8,18,28]",
-        "y_1~m x_1+b"
-      ]
+      "title": "Find the slope",
+      "content": "From the table, when $s$ increases from $3$ to $6$, $P$ increases from $8$ to $18$. The slope is $\\frac{18-8}{6-3}=\\frac{10}{3}$."
     },
     {
-      "title": "Read the fitted equation",
-      "content": "Desmos gives $m=\\frac{10}{3}$ and $b=-2$, so the relationship is $P=\\frac{10}{3}s-2$. This checks because $\\frac{10}{3}(3)-2=8$ and $\\frac{10}{3}(6)-2=18$."
+      "title": "Find the intercept",
+      "content": "Use $P=\\frac{10}{3}s+b$ and the point $(3,8)$: $8=\\frac{10}{3}(3)+b=10+b$, so $b=-2$."
     },
     {
-      "title": "Check the choices",
-      "content": "Choice <strong>C</strong> is $P=\\frac{10}{3}s-2$, so C is correct."
+      "title": "Match the equation",
+      "content": "The relationship is $P=\\frac{10}{3}s-2$, which matches choice <strong>C</strong>."
     }
   ]
 }

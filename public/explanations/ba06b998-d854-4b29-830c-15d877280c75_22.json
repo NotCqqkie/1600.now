@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Convert percentages to decimal equations",
-      "content": "From <em>a is 2,047% of the sum of b and c</em>, we write $a = 20.47(b + c)$. From <em>b is 89% of c</em>, we write $b = 0.89c$."
+      "title": "Pick easy values for the ratio",
+      "content": "Since $b$ is $89\\%$ of $c$, choose $c=100$ and $b=89$. This keeps the ratio exact and avoids decimal algebra."
     },
     {
-      "title": "Express b + c as a multiple of b",
-      "content": "From $b = 0.89c$, solve for $c$:<br/> $$c = \\frac{b}{0.89}$$<br/>Then:<br/>$$b + c = b + \\frac{b}{0.89} = b\\left(1 + \\frac{1}{0.89}\\right) = b \\cdot \\frac{0.89 + 1}{0.89} = b \\cdot \\frac{1.89}{0.89}$$"
+      "title": "Find a as a multiple of b",
+      "content": "Then $b+c=89+100=189$. Since $a$ is $2{,}047\\%$ of $b+c$, and $2{,}047=23\\cdot89$,<br/>$$a=\\frac{2047}{100}(189)=\\frac{23\\cdot89\\cdot189}{100}$$"
     },
     {
       "title": "Calculate a/b and convert to percentage",
-      "content": "Substitute the expression for $(b+c)$ into the equation for $a$:<br/>$$\\frac{a}{b} = 20.47 \\cdot \\frac{1.89}{0.89}$$<br/>Computing: $\\frac{1.89}{0.89} \\approx 2.124$, so $\\frac{a}{b} \\approx 20.47 \\times 2.124 \\approx 43.47$.<br/><br/>To find what percent of $b$ is $a$, multiply by 100%:<br/>$$43.47 \\times 100\\% = 4{,}347\\%$$<br/>That matches choice D — <strong>D</strong> is correct."
+      "content": "Divide by $b=89$:<br/>$$\\frac{a}{b}=\\frac{23\\cdot89\\cdot189}{100\\cdot89}=\\frac{23\\cdot189}{100}=43.47$$<br/>So $a$ is $43.47\\cdot100\\%=4{,}347\\%$ of $b$. That matches choice <strong>D</strong>."
     }
   ]
 }

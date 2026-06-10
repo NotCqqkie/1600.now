@@ -9,11 +9,7 @@
     },
     {
       "title": "Find $x$",
-      "content": "$4x = 96$, so $x = 24$. The answer is <strong>24</strong>.",
-      "desmosExpressions": [
-        "y = x/3 - 14",
-        "y = -x + 18"
-      ]
+      "content": "$4x = 96$, so $x = 24$. The answer is <strong>24</strong>."
     }
   ]
 }

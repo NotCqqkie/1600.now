@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute $x=4$",
-      "content": "The function is $g(x)=|x+18|$. Substitute $4$ for $x$: $$g(4)=|4+18|.$$"
+      "title": "Substitute x = 4",
+      "content": "The function is $g(x)=|x+18|$. Substitute $4$ for $x$: $$g(4)=|4+18|$$"
     },
     {
-      "title": "Evaluate the absolute value",
-      "content": "$$|4+18|=|22|=22.$$"
+      "title": "Evaluate",
+      "content": "$$|4+18|=|22|=22$$"
     },
     {
-      "title": "Check the choices",
-      "content": "Choice D is correct. Choices A and B are negative, but an absolute value output cannot be negative. Choice C comes from $18-4$, not $4+18$.",
-      "desmosExpressions": [
-        "g(x)=|x+18|",
-        "x=4"
-      ]
+      "title": "Confirm the choice",
+      "content": "Choice D is $22$, so <strong>D</strong> is correct."
+    },
+    {
+      "title": "Remember what absolute value does",
+      "content": "Absolute value returns the nonnegative distance from $0$. Since $4+18=22$ is already positive, $|22|=22$, not $-22$ or $14$."
     }
   ]
 }

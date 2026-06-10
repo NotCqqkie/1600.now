@@ -9,7 +9,7 @@
     },
     {
       "title": "Check choice A against the bounds",
-      "content": "Choice A has $y$-values $17,27,37$. Compare them row by row:<br/>$$17\\lt21,\\quad 27\\lt31,\\quad 37\\lt41$$<br/>All three rows work. In Desmos, the list inequality checks all three rows at once.",
+      "content": "Choice A has $y$-values $17,27,37$. Compare them row by row:<br/>$$17\\lt21,\\quad 27\\lt31,\\quad 37\\lt41$$<br/>All three rows work.",
       "desmosExpressions": [
         "x_1=[3,5,7]",
         "y_1=[17,27,37]",

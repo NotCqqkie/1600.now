@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set the function equal to $72$",
-      "content": "The function is $f(x)=8x$. If $f(x)=72$, then $$8x=72.$$"
+      "title": "Set the function equal to 72",
+      "content": "The function is $f(x)=8x$. If $f(x)=72$, then $$8x=72$$"
     },
     {
-      "title": "Solve for $x$",
-      "content": "Divide by $8$: $$x=9.$$"
+      "title": "Solve for x",
+      "content": "Divide by $8$: $$x=9$$"
     },
     {
-      "title": "Check the choices",
-      "content": "Choice B is correct. Choice A would give $f(x)=64$, while choices C and D are outputs or oversized inputs, not the $x$-value that makes $f(x)=72$.",
-      "desmosExpressions": [
-        "y=8x",
-        "y=72"
-      ]
+      "title": "Confirm the choice",
+      "content": "Choice B is $9$, so <strong>B</strong> is correct."
+    },
+    {
+      "title": "Verify by substitution",
+      "content": "Plugging $x=9$ back into the function gives $f(9)=8(9)=72$. That matches the required output, while the other choices would give different function values."
     }
   ]
 }

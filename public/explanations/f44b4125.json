@@ -9,15 +9,11 @@
     },
     {
       "title": "Analyze g(x) for a maximum",
-      "content": "$g(x) = 9(0.73)^x$ has base $0.73$ where $0 < 0.73 < 1$, so it decays toward $0$ as $x$ increases. For $x \\ge 0$ the maximum occurs at $x = 0$:<br/>$$g(0) = 9(0.73)^0 = 9 \\cdot 1 = 9$$<br/>The coefficient $9$ in the equation is exactly the maximum value. So $g$ does display its maximum as a coefficient."
+      "content": "$g(x) = 9(0.73)^x$ has base $0.73$ where $0 \\lt 0.73 \\lt 1$, so it decays toward $0$ as $x$ increases. For $x \\ge 0$ the maximum occurs at $x = 0$:<br/>$$g(0) = 9(0.73)^0 = 9 \\cdot 1 = 9$$<br/>The coefficient $9$ in the equation is exactly the maximum value. So $g$ does display its maximum as a coefficient."
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>A) I only:</strong> $f$ has no maximum on $x \\ge 0$, so it cannot display one. Eliminated.</li><li><strong>B) II only:</strong> Only $g$ displays its maximum (the coefficient $9$). Matches.</li><li><strong>C) I and II:</strong> $f$ does not display a maximum. Eliminated.</li><li><strong>D) Neither I nor II:</strong> $g$ does display its maximum. Eliminated.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "f(x) = 18(1.25)^{x} + 41",
-        "g(x) = 9(0.73)^{x}"
-      ]
+      "content": "<ul><li><strong>A) I only:</strong> $f$ has no maximum on $x \\ge 0$, so it cannot display one. Eliminated.</li><li><strong>B) II only:</strong> Only $g$ displays its maximum (the coefficient $9$). Matches.</li><li><strong>C) I and II:</strong> $f$ does not display a maximum. Eliminated.</li><li><strong>D) Neither I nor II:</strong> $g$ does display its maximum. Eliminated.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
     }
   ]
 }

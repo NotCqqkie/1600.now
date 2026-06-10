@@ -9,17 +9,11 @@
     },
     {
       "title": "Estimate y-intercept and slope",
-      "content": "Use two clear points on the line of best fit, such as $(2,4.2)$ and $(5,9)$, and run a quick linear regression: $x_1=[2,5]$, $y_1=[4.2,9]$, $y_1\\sim mx_1+b$. Desmos gives $m\\approx1.6$ and $b\\approx1$, close to the choice $y=0.8+1.7x$.",
-      "desmosExpressions": [
-        "x_1=[2,5]",
-        "y_1=[4.2,9]",
-        "y_1~m x_1+b",
-        "y=m x+b"
-      ]
+      "content": "Two readable points on the line are about $(2,4.2)$ and $(5,9)$. The slope is approximately $$\\frac{9-4.2}{5-2}=\\frac{4.8}{3}=1.6,$$ and the $y$-intercept is close to $1$. That is closest to $y=0.8+1.7x$."
     },
     {
       "title": "Eliminate each choice",
-      "content": "<ul><li>A) $y=0.8+1.7x$ &mdash; positive y-intercept, positive slope. Matches.</li><li>B) $y=0.8-1.7x$ &mdash; slope negative; the line rises, eliminate.</li><li>C) $y=-0.8+1.7x$ &mdash; y-intercept negative; line crosses above zero, eliminate.</li><li>D) $y=-0.8-1.7x$ &mdash; both wrong signs, eliminate.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li>A) $y=0.8+1.7x$ - positive y-intercept, positive slope. Matches.</li><li>B) $y=0.8-1.7x$ - slope negative; the line rises, eliminate.</li><li>C) $y=-0.8+1.7x$ - y-intercept negative; line crosses above zero, eliminate.</li><li>D) $y=-0.8-1.7x$ - both wrong signs, eliminate.</li></ul>That matches choice A - <strong>A</strong> is correct."
     }
   ]
 }

@@ -9,10 +9,7 @@
     },
     {
       "title": "Evaluate h(0) to find the initial height",
-      "content": "$$h(0) = -16(0)^2 + 110(0) + 72 = 72 \\text{ feet}$$<br/>At the moment of launch (<em>t</em> = 0), the object is at a height of 72 feet above the ground. This is the initial height of the object. That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "h(t)=-16t^2+110t+72"
-      ]
+      "content": "$$h(0) = -16(0)^2 + 110(0) + 72 = 72 \\text{ feet}$$<br/>At the moment of launch (<em>t</em> = 0), the object is at a height of 72 feet above the ground. This is the initial height of the object. That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

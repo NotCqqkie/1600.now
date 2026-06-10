@@ -25,6 +25,7 @@ export const getAuthReturnTo = (): string => {
       return normalizeReturnPath(stored);
     }
   } catch {
+    return "/";
   }
   return "/";
 };
@@ -40,6 +41,7 @@ export const AuthReturnTracker = () => {
         location.pathname + location.search,
       );
     } catch {
+      return;
     }
   }, [location.pathname, location.search]);
 

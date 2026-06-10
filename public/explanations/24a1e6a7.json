@@ -5,12 +5,7 @@
   "steps": [
     {
       "title": "Read two points on the line",
-      "content": "The line of best fit slopes downward. Two clear approximate points on the line are $(0,14)$ and $(13,0)$.",
-      "desmosExpressions": [
-        "x_1=[0,13]",
-        "y_1=[14,0]",
-        "y_1~m x_1+b"
-      ]
+      "content": "The line of best fit slopes downward. Two clear approximate points on the line are $(0,14)$ and $(13,0)$."
     },
     {
       "title": "Compute the slope",

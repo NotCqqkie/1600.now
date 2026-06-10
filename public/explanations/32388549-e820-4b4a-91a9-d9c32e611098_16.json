@@ -4,26 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use roots to test possible factors",
-      "content": "A quick Desmos method is to test each answer choice's zero. If an expression is a factor, its zero should make the original polynomial equal $0$.",
-      "desmosExpressions": [
-        "P(x)=36x^2(x+12)-36(x+12)^3",
-        "r_1=[12,-6,-1,6]",
-        "P(r_1)"
-      ]
+      "title": "Factor out the common term",
+      "content": "Both terms share $36(x+12)$: $$36x^2(x+12)-36(x+12)^3=36(x+12)\\left[x^2-(x+12)^2\\right]$$"
     },
     {
-      "title": "Match the zero to the answer choice",
-      "content": "The tested roots come from the choices: A has root $12$, B has root $-6$, C has root $-1$, and D has root $6$. Desmos shows $P(-6)=0$, so the factor with root $-6$ is the one that works.",
-      "desmosExpressions": [
-        "P(x)=36x^2(x+12)-36(x+12)^3",
-        "P(-6)",
-        "2x+12"
-      ]
+      "title": "Use difference of squares",
+      "content": "Now factor the bracket: $$x^2-(x+12)^2=(x-(x+12))(x+(x+12))$$ $$=(-12)(2x+12)$$ So $2x+12$ is a factor."
     },
     {
       "title": "Confirm the answer",
-      "content": "The expression with root $-6$ is $2x+12$, which is choice B. Therefore choice <strong>B</strong> is correct."
+      "content": "The expression with root $-6$ is $2x+12$, because $2(-6)+12=0$. The other factor from the difference of squares is the constant $-12$, so $2x+12$ is the useful linear factor. Therefore choice <strong>B</strong> is correct."
     }
   ]
 }

@@ -144,9 +144,9 @@ const keywordSubjectOptions: readonly SegmentedToggleOption<BankSubject>[] = [
 
 const shuffleQuestions = (questions: BankQuestion[]): BankQuestion[] => {
   const shuffled = [...questions];
-  for (let i = shuffled.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  for (let currentIndex = shuffled.length - 1; currentIndex > 0; currentIndex--) {
+    const randomIndex = Math.floor(Math.random() * (currentIndex + 1));
+    [shuffled[currentIndex], shuffled[randomIndex]] = [shuffled[randomIndex], shuffled[currentIndex]];
   }
   return shuffled;
 };
@@ -427,7 +427,9 @@ export const BankIndex = ({
       if (preset.difficulties?.length) {
         return { ...defaultFilters, difficulty: preset.difficulties as QuestionBankFilters["difficulty"] };
       }
-    } catch {}
+    } catch {
+      return readStoredBankFilters() ?? defaultFilters;
+    }
     return readStoredBankFilters() ?? defaultFilters;
   });
   const filters = homeFilterDemoFilters ?? internalFilters;
@@ -506,7 +508,9 @@ export const BankIndex = ({
         base[subj].domains[bankDomain].skills[bankSkill] = true;
         base[subj].domains[bankDomain].selected = true;
       }
-    } catch {}
+    } catch {
+      return base;
+    }
     return base;
   });
   const createDefaultExpandedDomains = () => {
@@ -664,7 +668,7 @@ export const BankIndex = ({
       for (const domain of domains) {
         newDomains[domain] = {
           selected: checked,
-          skills: Object.fromEntries(getTopicSkills(subject, domain).map((s) => [s, checked])),
+          skills: Object.fromEntries(getTopicSkills(subject, domain).map((skillName) => [skillName, checked])),
         };
       }
 
@@ -792,9 +796,9 @@ export const BankIndex = ({
     }
 
     const seed = selectedTopicsInfo.selectedSkills.length;
-    const shuffled = Array.from(skillQuestionMap.entries()).sort((a, b) => {
-      const hashA = a[0].split('').reduce((acc, char) => acc + char.charCodeAt(0), seed);
-      const hashB = b[0].split('').reduce((acc, char) => acc + char.charCodeAt(0), seed);
+    const shuffled = Array.from(skillQuestionMap.entries()).sort((leftEntry, rightEntry) => {
+      const hashA = leftEntry[0].split('').reduce((acc, char) => acc + char.charCodeAt(0), seed);
+      const hashB = rightEntry[0].split('').reduce((acc, char) => acc + char.charCodeAt(0), seed);
       return hashA - hashB;
     });
 
@@ -817,9 +821,9 @@ export const BankIndex = ({
 
     if (shuffle) {
       const shuffled = [...questions];
-      for (let i = shuffled.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+      for (let currentIndex = shuffled.length - 1; currentIndex > 0; currentIndex--) {
+        const randomIndex = Math.floor(Math.random() * (currentIndex + 1));
+        [shuffled[currentIndex], shuffled[randomIndex]] = [shuffled[randomIndex], shuffled[currentIndex]];
       }
       questions = shuffled;
     }
@@ -831,9 +835,9 @@ export const BankIndex = ({
 
     if (shuffle) {
       const shuffled = [...questions];
-      for (let i = shuffled.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+      for (let currentIndex = shuffled.length - 1; currentIndex > 0; currentIndex--) {
+        const randomIndex = Math.floor(Math.random() * (currentIndex + 1));
+        [shuffled[currentIndex], shuffled[randomIndex]] = [shuffled[randomIndex], shuffled[currentIndex]];
       }
       questions = shuffled;
     }

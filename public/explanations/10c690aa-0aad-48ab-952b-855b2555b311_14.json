@@ -13,11 +13,7 @@
     },
     {
       "title": "Answer",
-      "content": "<strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "x = 8",
-        "y = x^2 + 7"
-      ]
+      "content": "<strong>D</strong> is correct."
     }
   ]
 }

@@ -9,11 +9,7 @@
     },
     {
       "title": "Find the value $8x + 6y$",
-      "content": "$8x + 6y = 0 + 3 = 3$. That matches choice <strong>C</strong> — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y = \\frac{12 - 40x}{24}",
-        "y = \\frac{12 + 40x}{24}"
-      ]
+      "content": "$8x + 6y = 0 + 3 = 3$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."
     }
   ]
 }

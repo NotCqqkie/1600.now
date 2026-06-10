@@ -1,1 +1,15 @@
-{"questionId": "2c9c6ca9", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the two clauses", "content": "Clause 1: <em>&quot;In many languages, including English, these consonants are [blank]&quot;</em> — a complete independent clause once the blank is filled. Clause 2: <em>&quot;in some dialects of Mandarin, however, four such consonants are relatively common&quot;</em> — also a complete independent clause. Two independent clauses in one sentence need a semicolon (or comma + coordinating conjunction) between them.<ul><li><strong>Choice A &mdash; 'rare and'</strong>: The conjunction &quot;and&quot; conflicts with &quot;however&quot; later in the sentence, creating an illogical double connective. &#10007;</li><li><strong>Choice B &mdash; 'rare,'</strong>: A comma alone joining two independent clauses is a comma splice. &#10007;</li><li><strong>Choice C &mdash; 'rare'</strong>: No punctuation between two independent clauses creates a run-on sentence. &#10007;</li><li><strong>Choice D &mdash; 'rare ;'</strong>: A semicolon correctly separates the two independent clauses without conflicting with &quot;however.&quot; &#10003;</li></ul>"}, {"title": "Confirm the semicolon rule", "content": "A semicolon joins two closely related independent clauses — exactly what is needed here. That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "2c9c6ca9",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the two clauses",
+      "content": "Clause 1: <em>&quot;In many languages, including English, these consonants are [blank]&quot;</em> — a complete independent clause once the blank is filled. Clause 2: <em>&quot;in some dialects of Mandarin, however, four such consonants are relatively common&quot;</em> — also a complete independent clause. Two independent clauses in one sentence need a semicolon (or comma + coordinating conjunction) between them.<ul><li><strong>Choice A &mdash; 'rare and'</strong>: The conjunction &quot;and&quot; conflicts with &quot;however&quot; later in the sentence, creating an illogical double connective. &#10007;</li><li><strong>Choice B &mdash; 'rare,'</strong>: A comma alone joining two independent clauses is a comma splice. &#10007;</li><li><strong>Choice C &mdash; 'rare'</strong>: No punctuation between two independent clauses creates a run-on sentence. &#10007;</li><li><strong>Choice D &mdash; 'rare;'</strong>: A semicolon correctly separates the two independent clauses without conflicting with &quot;however.&quot; &#10003;</li></ul>"
+    },
+    {
+      "title": "Confirm the semicolon rule",
+      "content": "A semicolon joins two closely related independent clauses — exactly what is needed here. That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

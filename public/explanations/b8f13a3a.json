@@ -13,10 +13,7 @@
     },
     {
       "title": "Apply the product condition to find a",
-      "content": "Given $ab = \\frac{320}{7}$ and $b = \\frac{16}{7}$:<br/>$$a \\cdot \\frac{16}{7} = \\frac{320}{7}$$<br/>$$a = \\frac{320}{7} \\cdot \\frac{7}{16} = \\frac{320}{16} = 20$$",
-      "desmosExpressions": [
-        "f(x)=-(a)^(x)+b"
-      ]
+      "content": "Given $ab = \\frac{320}{7}$ and $b = \\frac{16}{7}$:<br/>$$a \\cdot \\frac{16}{7} = \\frac{320}{7}$$<br/>$$a = \\frac{320}{7} \\cdot \\frac{7}{16} = \\frac{320}{16} = 20$$"
     }
   ]
 }

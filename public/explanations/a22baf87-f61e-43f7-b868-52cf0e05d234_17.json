@@ -4,33 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Graph circle A and read the intercept",
-      "content": "A fast Desmos check is to graph circle A, $(x+8)^2+(y-8)^2=64$. The circle has center $(-8,8)$ and radius $8$, so it is tangent to the x-axis at $(-8,0)$. Therefore $(r,s)=(-8,0)$.",
-      "desmosExpressions": [
-        "(x+8)^2+(y-8)^2=64"
-      ]
+      "title": "Find circle A's intercept",
+      "content": "Circle A has equation $$(x+8)^2+(y-8)^2=64.$$ Its center is $(-8,8)$ and its radius is $8$. Since the center is $8$ units above the $x$-axis, the circle touches the $x$-axis at $(-8,0)$. Thus $(r,s)=(-8,0)$."
     },
     {
-      "title": "Reject the wrong centers",
-      "content": "Circle B has the same radius as circle A, so its radius is $8$, but its center is the x-intercept $(-8,0)$. Graph the choices with the wrong centers first: A has center $(0,-8)$, B has center $(0,8)$, and D has center $(8,0)$.",
-      "desmosExpressions": [
-        "x^2+(y+8)^2=64",
-        "x^2+(y-8)^2=64",
-        "(x-8)^2+y^2=64",
-        "(-8,0)"
-      ]
+      "title": "Write circle B",
+      "content": "Circle B has the same radius as circle A, so its radius is also $8$. Its center is $(r,s)=(-8,0)$. A circle with center $(h,k)$ and radius $r$ has equation $$(x-h)^2+(y-k)^2=r^2.$$"
     },
     {
-      "title": "Confirm the matching circle",
-      "content": "Choice C, $(x+8)^2+y^2=64$, has center $(-8,0)$ and radius $8$. That is exactly the circle centered at the x-intercept of circle A.",
-      "desmosExpressions": [
-        "(x+8)^2+y^2=64",
-        "(-8,0)"
-      ]
-    },
-    {
-      "title": "Eliminate the answer choices",
-      "content": "<ul><li>A) $x^2+(y+8)^2=64$: center $(0,-8)$, not $(-8,0)$.</li><li>B) $x^2+(y-8)^2=64$: center $(0,8)$, not $(-8,0)$.</li><li>C) $(x+8)^2+y^2=64$: center $(-8,0)$, radius $8$. Matches.</li><li>D) $(x-8)^2+y^2=64$: center $(8,0)$, not $(-8,0)$.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+      "title": "Confirm the choice",
+      "content": "Substitute center $(-8,0)$ and radius $8$: $$(x+8)^2+y^2=64.$$ This matches choice <strong>C</strong>."
     }
   ]
 }

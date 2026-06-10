@@ -4,25 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use cubic regression",
-      "content": "The expression has a $c^3$ term, a $c$ term, and a constant. Desmos can fit it to $ac^3+bc^2+cc+d$ using four input values."
+      "title": "Distribute the subtraction",
+      "content": "Start with $$(3c+9)-(4c^3-5).$$ Subtracting the second parentheses changes both signs, so the expression becomes $$3c+9-4c^3+5.$$"
     },
     {
-      "title": "Enter the regression rows",
-      "content": "Use a neutral input list name so it does not conflict with the variable $c$ in the problem:<br/>$$t_1=[-1,0,1,2]$$<br/>$$v_1=(3t_1+9)-(4t_1^3-5)$$<br/>$$v_1\\sim at_1^3+bt_1^2+ct_1+d$$",
-      "desmosExpressions": [
-        "t_1=[-1,0,1,2]",
-        "v_1=(3t_1+9)-(4t_1^3-5)",
-        "v_1\\sim at_1^3+bt_1^2+ct_1+d"
-      ]
+      "title": "Combine like terms",
+      "content": "The cubic term is $-4c^3$, the linear term is $3c$, and the constants combine to $9+5=14$. So the expression is $$-4c^3+3c+14.$$"
     },
     {
-      "title": "Read the coefficients",
-      "content": "The regression gives $a=-4$, $b=0$, $c=3$, and $d=14$. So the equivalent expression is:<br/>$$-4c^3+3c+14$$"
-    },
-    {
-      "title": "Confirm the subtraction",
-      "content": "Distributing the subtraction gives $3c+9-4c^3+5=-4c^3+3c+14$. That matches choice B, so <strong>B</strong> is correct."
+      "title": "Confirm the choice",
+      "content": "That matches choice B, so <strong>B</strong> is correct."
     }
   ]
 }

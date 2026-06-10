@@ -9,11 +9,7 @@
     },
     {
       "title": "Interpret s(58) = 34 using the definition",
-      "content": "Since $s(t)$ represents the remaining mass, $s(58) = 34$ means: at time $t = 58$ years, the remaining mass is 34 grams.<br/><br/>Check each choice:<ul><li><strong>A:</strong> <em>Approximately 34 grams of the sample remains 58 years after the sample starts to decay</em> — remaining mass = 34g, time = 58 years ✓</li><li><strong>B:</strong> <em>mass decreased by approximately 34 grams</em> — this would mean 136 - 34 = 102g remaining, not 34g ✗</li><li><strong>C:</strong> describes 34 years (wrong time) ✗</li><li><strong>D:</strong> 58 grams remains after 34 years (wrong values) ✗</li></ul>That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "s(t) = 136 \\cdot 0.5^{t/29}",
-        "(58, 34)"
-      ]
+      "content": "Since $s(t)$ represents the remaining mass, $s(58) = 34$ means: at time $t = 58$ years, the remaining mass is 34 grams.<br/><br/>Check each choice:<ul><li><strong>A:</strong> <em>Approximately 34 grams of the sample remains 58 years after the sample starts to decay</em> — remaining mass = 34g, time = 58 years ✓</li><li><strong>B:</strong> <em>mass decreased by approximately 34 grams</em> — this would mean 136 - 34 = 102g remaining, not 34g ✗</li><li><strong>C:</strong> describes 34 years (wrong time) ✗</li><li><strong>D:</strong> 58 grams remains after 34 years (wrong values) ✗</li></ul>That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

@@ -9,11 +9,7 @@
     },
     {
       "title": "Solve for x",
-      "content": "$$4x+(-3x)=15$$ $$x=15$$",
-      "desmosExpressions": [
-        "y=-3x",
-        "y=15-4x"
-      ]
+      "content": "$$4x+(-3x)=15$$ $$x=15$$"
     },
     {
       "title": "Check the choices",

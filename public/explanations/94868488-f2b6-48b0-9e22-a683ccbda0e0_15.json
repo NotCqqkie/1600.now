@@ -5,28 +5,19 @@
   "steps": [
     {
       "title": "Find the handoff temperature",
-      "content": "This is a two-phase linear model. First find the temperature at the moment the rate changes. The liquid starts at $23^\\circ\\text{C}$ and warms at $6.5^\\circ\\text{C}$ per minute for $4.0$ minutes, so the increase is $6.5(4.0)=26$. The handoff temperature is $23+26=49^\\circ\\text{C}$.",
-      "desmosExpressions": [
-        "23+6.5(4)"
-      ]
+      "content": "This is a two-phase linear model. First find the temperature at the moment the rate changes. The liquid starts at $23^\\circ\\text{C}$ and warms at $6.5^\\circ\\text{C}$ per minute for $4.0$ minutes, so the increase is $6.5(4.0)=26$. The handoff temperature is $23+26=49^\\circ\\text{C}$."
     },
     {
-      "title": "Build the second-phase line in Desmos",
+      "title": "Build the second-phase line in direct",
       "content": "After $4.0$ minutes, the new rate is $2.4^\\circ\\text{C}$ per minute. Use a tiny table starting at the handoff point: at $x=4$, $y=49$; one minute later, at $x=5$, $y=51.4$. A linear fit confirms the second phase is the line with slope $2.4$ through $(4,49)$.",
       "desmosExpressions": [
         "x_1=[4,5]",
-        "y_1=[49,51.4]",
-        "y_1~m x_1+b"
+        "y_1=[49,51.4]"
       ]
     },
     {
       "title": "Match the point-slope form",
-      "content": "A line with rate $2.4$ starting from $49$ at time $4.0$ is $$y=2.4(x-4.0)+49.$$ The problem says the final temperature is $63^\\circ\\text{C}$, so set $y=63$: $$63=2.4(x-4.0)+49.$$ That matches choice C.",
-      "desmosExpressions": [
-        "y=2.4(x-4)+49",
-        "y=63",
-        "(4,49)"
-      ]
+      "content": "A line with rate $2.4$ starting from $49$ at time $4.0$ is $$y=2.4(x-4.0)+49.$$ The problem says the final temperature is $63^\\circ\\text{C}$, so set $y=63$: $$63=2.4(x-4.0)+49.$$ That matches choice C."
     },
     {
       "title": "Check the choices",

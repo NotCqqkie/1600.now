@@ -5,11 +5,7 @@
   "steps": [
     {
       "title": "State the no-solution condition",
-      "content": "Rearrange $5x+3=rx+7$ by collecting $x$ terms:<br/>$$5x-rx=7-3$$<br/>$$(5-r)x=4$$<br/>For no solution, the coefficient of $x$ must be $0$, producing the false statement $0=4$. That means $5-r=0$, so $r=5$. A Desmos coefficient regression gives the same value without solving the whole equation.",
-      "desmosExpressions": [
-        "u_1=[1]",
-        "5u_1~r u_1"
-      ]
+      "content": "Rearrange $5x+3=rx+7$ by collecting $x$ terms:<br/>$$5x-rx=7-3$$<br/>$$(5-r)x=4$$<br/>For no solution, the coefficient of $x$ must be $0$, producing the false statement $0=4$. That means $5-r=0$, so $r=5$."
     },
     {
       "title": "Test all four choices",

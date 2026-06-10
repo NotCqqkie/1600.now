@@ -12,16 +12,6 @@
       "content": "$$34x+34y=34\\cdot x+34\\cdot y=34(x+y)$$<br/>The expression inside the parentheses keeps the two unlike terms, $x$ and $y$, separate."
     },
     {
-      "title": "Check with a Desmos table",
-      "content": "A quick table check can catch the trap answers. Test two points, such as $(x,y)=(1,2)$ and $(3,4)$:<br/>$$x_1=[1,3]$$<br/>$$y_1=[2,4]$$<br/>$$o_1=34x_1+34y_1$$<br/>$$b_1=34(x_1+y_1)$$<br/>The original and choice B produce the same output list.",
-      "desmosExpressions": [
-        "x_1=[1,3]",
-        "y_1=[2,4]",
-        "o_1=34x_1+34y_1",
-        "b_1=34(x_1+y_1)"
-      ]
-    },
-    {
       "title": "Check the choices",
       "content": "Choice A multiplies $x$ and $y$, which changes the structure. Choice C is $68y$, and choice D is $68x$, so each drops one variable. Choice B preserves both terms as $34(x+y)$, so <strong>B</strong> is correct."
     }

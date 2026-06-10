@@ -13,10 +13,7 @@
     },
     {
       "title": "Answer",
-      "content": "<strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y = 4x^{2} - 32x - 40"
-      ]
+      "content": "<strong>D</strong> is correct."
     },
     {
       "title": "Confirm the answer",

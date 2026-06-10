@@ -9,12 +9,7 @@
     },
     {
       "title": "Use the given point to find the intercept",
-      "content": "Line $j$ passes through $(0, 5)$. A point of the form $(0, b)$ is the $y$-intercept directly, so $b = 5$. The equation of $j$ is $y = 6x + 5$. That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y=6x+4",
-        "y=6x+5",
-        "(0,5)"
-      ]
+      "content": "Line $j$ passes through $(0, 5)$. A point of the form $(0, b)$ is the $y$-intercept directly, so $b = 5$. The equation of $j$ is $y = 6x + 5$. That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

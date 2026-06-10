@@ -5,8 +5,7 @@
   "steps": [
     {
       "title": "Interpret the meaning of a",
-      "content": "The model is $$f(x)=a+bx$$. The weight at birth corresponds to $$x=0$$. Substituting gives $$f(0)=a+b\\cdot0=a$$. Thus the constant $$a$$ represents the predicted weight at birth.",
-      "formula": "$$f(x)=a+bx$$"
+      "content": "The model is $$f(x)=a+bx$$. The weight at birth corresponds to $$x=0$$. Substituting gives $$f(0)=a+b\\cdot0=a$$. Thus the constant $$a$$ represents the predicted weight at birth."
     },
     {
       "title": "Solve for a using the birth weight",

@@ -4,21 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fit f from the table",
-      "content": "Use the table points for $f$: $(-4,0)$ and $\\left(-\\frac{19}{5},1\\right)$. Enter them as lists and run $y_1 \\sim m x_1+b$. Desmos gives $m=5$ and $b=20$, so $f(x)=5x+20$.",
-      "desmosExpressions": [
-        "x_1=[-4,-19/5]",
-        "y_1=[0,1]",
-        "y_1~m x_1+b"
-      ]
+      "title": "Find f from the table points",
+      "content": "Use the points $(-4,0)$ and $\\left(-\\frac{19}{5},1\\right)$. The slope is $$m=\\frac{1-0}{-\\frac{19}{5}-(-4)}=\\frac{1}{\\frac{1}{5}}=5.$$ Substitute $(-4,0)$ into $f(x)=5x+b$ to get $b=20$, so $f(x)=5x+20$."
     },
     {
       "title": "Apply h(x) = f(x) - 13",
-      "content": "Now subtract $13$ from the whole function: $$h(x)=f(x)-13=(5x+20)-13=5x+7$$ That matches choice <strong>B</strong>.",
-      "desmosExpressions": [
-        "y=5x+20",
-        "y=5x+7"
-      ]
+      "content": "Now subtract $13$ from the whole function: $$h(x)=f(x)-13=(5x+20)-13=5x+7.$$ A quick check at $x=-4$ gives $h(-4)=-13$, which is $13$ less than $f(-4)=0$. That matches choice <strong>B</strong>."
     }
   ]
 }

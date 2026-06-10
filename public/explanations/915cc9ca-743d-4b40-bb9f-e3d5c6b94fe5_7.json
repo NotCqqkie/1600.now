@@ -9,11 +9,7 @@
     },
     {
       "title": "Find the value of $x + y$",
-      "content": "So $x+y=250+150=400$. The answer is <strong>400</strong>.",
-      "desmosExpressions": [
-        "y = \\frac{-6x + 2550}{7}",
-        "y = \\frac{24x - 1800}{28}"
-      ]
+      "content": "So $x+y=250+150=400$. The answer is <strong>400</strong>."
     },
     {
       "title": "Confirm the answer",

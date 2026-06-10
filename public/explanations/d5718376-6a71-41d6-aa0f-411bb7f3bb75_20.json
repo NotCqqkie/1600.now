@@ -5,16 +5,11 @@
   "steps": [
     {
       "title": "Recall the standard form of a circle equation",
-      "content": "A circle with center $(h, k)$ and radius $r$ always follows the standard form below. Notice that the center coordinates appear inside the parentheses (with signs flipped), and the radius squared is the constant on the right.",
-      "formula": "$$\\left(x - h\\right)^2 + \\left(y - k\\right)^2 = r^2$$"
+      "content": "A circle with center $(h, k)$ and radius $r$ always follows the standard form below. Notice that the center coordinates appear inside the parentheses (with signs flipped), and the radius squared is the constant on the right."
     },
     {
       "title": "Read off h from the center",
-      "content": "We're given that the center is at $(5, 1)$. In the standard form, the center is $(h, k)$, so the $x$-coordinate of the center is $h = 5$. That's our answer.",
-      "desmosExpressions": [
-        "(x-5)^2 + (y-1)^2 = 49",
-        "(5, 1)"
-      ]
+      "content": "We're given that the center is at $(5, 1)$. In the standard form, the center is $(h, k)$, so the $x$-coordinate of the center is $h = 5$. That's our answer."
     }
   ]
 }

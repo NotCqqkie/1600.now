@@ -4,27 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use quadratic regression to get the coefficient",
-      "content": "The expression is quadratic, and the question only asks for the coefficient $b$ in $ax^2+bx+c$. A fast Desmos method is to evaluate the expression at three x-values and regress the result to a quadratic."
+      "title": "Focus on the x-term",
+      "content": "The question asks for $b$, the coefficient of $x$ in $ax^2+bx+c$. In $$\\left(\\frac{1}{2}x+\\frac{3}{2}\\right)\\left(\\frac{3}{2}x+\\frac{1}{2}\\right),$$ the $x$ term comes from the outer and inner products."
     },
     {
-      "title": "Build the input and output lists",
-      "content": "Enter:<br/>$$x_1=[0,1,2]$$<br/>$$y_1=\\left(\\frac12x_1+\\frac32\\right)\\left(\\frac32x_1+\\frac12\\right)$$",
-      "desmosExpressions": [
-        "x_1=[0,1,2]",
-        "y_1=(\\frac{1}{2}x_1+\\frac{3}{2})(\\frac{3}{2}x_1+\\frac{1}{2})"
-      ]
-    },
-    {
-      "title": "Fit the quadratic form",
-      "content": "Now enter the regression row:<br/>$$y_1\\sim ax_1^2+bx_1+c$$<br/>Desmos gives $a=\\frac34$, $b=\\frac52$, and $c=\\frac34$. Therefore the requested value is $b=\\frac52=2.5$.",
-      "desmosExpressions": [
-        "y_1\\sim ax_1^2+bx_1+c"
-      ]
-    },
-    {
-      "title": "Confirm the coefficient directly",
-      "content": "The $x$ term comes from the outer and inner products:<br/>$$\\frac12x\\cdot\\frac12=\\frac14x$$<br/>$$\\frac32\\cdot\\frac32x=\\frac94x$$<br/>Together, $\\frac14x+\\frac94x=\\frac{10}{4}x=\\frac52x$, so the answer is <strong>5/2</strong>."
+      "title": "Add the x-term products",
+      "content": "$$\\frac{1}{2}x\\cdot\\frac{1}{2}=\\frac{1}{4}x$$<br/>$$\\frac{3}{2}\\cdot\\frac{3}{2}x=\\frac{9}{4}x$$<br/>Together, $$\\frac{1}{4}x+\\frac{9}{4}x=\\frac{10}{4}x=\\frac{5}{2}x.$$ Therefore $b=\\frac{5}{2}=2.5$. The $x^2$ and constant terms are not needed because the question asks only for $b$."
     }
   ]
 }

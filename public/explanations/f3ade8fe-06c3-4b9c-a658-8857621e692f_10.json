@@ -10,12 +10,12 @@
   "choices": [
     {
       "id": "A",
-      "text": "$q &lt; s$",
+      "text": "$q \\lt s$",
       "elimination": "<ul><li>This requires X to be less spread out than Y.</li><li>Both sets have identical deviations from their respective means (&minus;2, &minus;2, &minus;1, &minus;1, 0, 1, 1, 2, 2), so their standard deviations are equal, not unequal.</li><li>Eliminated because q is not less than s.</li></ul>"
     },
     {
       "id": "B",
-      "text": "$q &gt; s$",
+      "text": "$q \\gt s$",
       "elimination": "<ul><li>This requires X to be more spread out than Y.</li><li>The deviation patterns are identical for both sets, making q = s, not q &gt; s.</li><li>Eliminated for the same reason as A.</li></ul>"
     },
     {

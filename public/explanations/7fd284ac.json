@@ -9,21 +9,11 @@
     },
     {
       "title": "Estimate the fit line at that x-value",
-      "content": "Use the drawn line of best fit to predict the percent at $x\\approx3400$. A Desmos check using approximate points on the fit line gives $y\\approx0.00184x+78.8$.",
-      "desmosExpressions": [
-        "x_1=[1300,6000]",
-        "y_1=[81.2,89.8]",
-        "y_1~m x_1+b"
-      ]
+      "content": "Use the drawn line of best fit to predict the percent at $x\\approx3400$. Reading straight up to the line gives a predicted value slightly above $85\\%$."
     },
     {
       "title": "Compute the residual",
-      "content": "At $x=3400$, the model predicts about $0.00184(3400)+78.8\\approx85$. The actual point is about $92$, so the difference is $92-85=7$ percentage points. Choice <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "y=0.00184x+78.8",
-        "(3400,92)",
-        "(3400,85)"
-      ]
+      "content": "The actual point is about $92\\%$, and the prediction is slightly above $85\\%$. The difference is slightly less than $7\\%$, so the closest choice is <strong>B</strong>."
     }
   ]
 }

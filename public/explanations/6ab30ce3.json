@@ -13,8 +13,8 @@
     },
     {
       "title": "Apply the 30–60–90 side ratio",
-      "content": "In a $30°$–$60°$–$90°$ triangle, the sides opposite those angles are in ratio $1 : \\sqrt{3} : 2$.<br/><br/>In triangle $DEF$, side $DF$ is opposite the $30°$ angle at $E$, and side $DE$ is opposite the $90°$ angle at $F$.<br/><br/>Therefore $DF : DE = 1 : 2$. With $DF = 125$, we have $DE = 2 \\times 125 = 250$.<br/>That matches choice D — <strong>D</strong> is correct.",
-      "formula": "$$1 : \\sqrt{3} : 2 \\text{ (sides opposite } 30°, 60°, 90° \\text{)}$$"
+      "content": "In a $30°$–$60°$–$90°$ triangle, the sides opposite those angles are in ratio $1: \\sqrt{3}: 2$.<br/><br/>In triangle $DEF$, side $DF$ is opposite the $30°$ angle at $E$, and side $DE$ is opposite the $90°$ angle at $F$.<br/><br/>Therefore $DF: DE = 1: 2$. With $DF = 125$, we have $DE = 2 \\times 125 = 250$.<br/>That matches choice D — <strong>D</strong> is correct.",
+      "formula": "$$1: \\sqrt{3}: 2 \\text{ (sides opposite } 30°, 60°, 90° \\text{)}$$"
     }
   ]
 }

@@ -12,12 +12,8 @@
       "content": "$$-12+y=-5$$<br/>$$y=7$$<br/>So the solution is $(4,7)$."
     },
     {
-      "title": "Desmos graph check",
-      "content": "Graph the vertical line $x=4$ and the line $y=3x-5$. Their intersection is $(4,7)$.",
-      "desmosExpressions": [
-        "x=4",
-        "y=3x-5"
-      ]
+      "title": "Check the solution",
+      "content": "The point $(4,7)$ satisfies both equations: $x=4$ and $-3(4)+7=-5$."
     },
     {
       "title": "Find x + y",

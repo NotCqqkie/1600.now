@@ -1,15 +1,19 @@
 {
-  "qid": "70482e20",
+  "questionId": "70482e20",
   "correctAnswer": "B",
+  "section": "Math",
   "steps": [
     {
-      "explain": "Both terms share the factor $x^3$, so combine coefficients: $11x^3-5x^3=(11-5)x^3=6x^3$."
+      "title": "Combine like terms",
+      "content": "Both terms have the same variable part, $x^3$, so combine only the coefficients."
     },
     {
-      "explain": "The exponent stays 3 — do not add exponents when combining like terms (that would only apply to multiplication)."
+      "title": "Subtract the coefficients",
+      "content": "$11x^3-5x^3=(11-5)x^3=6x^3$. The exponent stays $3$ because the terms are being added or subtracted, not multiplied."
     },
     {
-      "explain": "Evaluate choices:<ul><li>A ($16x^3$): $11+5=16$ — wrong operation (addition instead of subtraction) — eliminated.</li><li>B ($6x^3$): $11-5=6$, exponent 3 unchanged. That matches choice B — <strong>B</strong> is correct.</li><li>C ($6x^6$): coefficient is right but exponent doubled — eliminated.</li><li>D ($16x^6$): both errors — eliminated.</li></ul>"
+      "title": "Match the choice",
+      "content": "The equivalent expression is $6x^3$, which matches choice <strong>B</strong>."
     }
   ]
 }

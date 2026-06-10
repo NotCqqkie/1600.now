@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Parallel lines have equal slopes — read slope directly from standard form",
-      "content": "For $ax + by = c$ the slope is $-a/b$, no algebra needed.<br/>Line $j$: $3x + 4y = 28$ &rarr; slope $= -3/4$.<br/>Line $k$: $24x + ry = 24$ &rarr; slope $= -24/r$.<br/>Set equal: $-3/4 = -24/r$ &rarr; $3r = 96$ &rarr; $r = 32$."
+      "content": "For $ax + by = c$ the slope is $-a/b$, no algebra needed.<br/>Line $j$: $3x + 4y = 28$ $\\Rightarrow$ slope $= -3/4$.<br/>Line $k$: $24x + ry = 24$ $\\Rightarrow$ slope $= -24/r$.<br/>Set equal: $-3/4 = -24/r$ $\\Rightarrow$ $3r = 96$ $\\Rightarrow$ $r = 32$."
     },
     {
       "title": "Plug the y-intercept point into line k",

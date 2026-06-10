@@ -5,20 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "For a scatterplot model question, the fastest route is to graph all four answer choices on top of the plotted data. The best model should run through the middle of the cloud and match both the steepness and the y-intercept.",
-      "desmosExpressions": [
-        "y=30.38+15.12x",
-        "y=15.12x",
-        "y=30.38+0.76x",
-        "y=0.76x"
-      ]
+      "content": "For a scatterplot model question, compare the line's two main features: its $y$-intercept and its slope. The best model should pass through the middle of the data cloud, start near the observed $y$-intercept, and rise at about the same rate as the plotted trend."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; '$y=30.38+15.12x$'</strong>: $y$-intercept $\\approx 30$ matches where the line of best fit crosses the $y$-axis, and slope $\\approx 15$ matches the rise per unit. &#10003;</li><li><strong>Choice B &mdash; '$y=15.12x$'</strong>: no intercept, so the line passes through the origin. The data clearly does not start at $0$. &#10007;</li><li><strong>Choice C &mdash; '$y=30.38+0.76x$'</strong>: intercept is right, but slope $0.76$ is far too shallow for the steep rise shown. &#10007;</li><li><strong>Choice D &mdash; '$y=0.76x$'</strong>: both slope and intercept are wrong. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y=30.38+15.12x"
-      ]
+      "content": "<ul><li><strong>Choice A &mdash; '$y=30.38+15.12x$'</strong>: $y$-intercept $\\approx 30$ matches where the line of best fit crosses the $y$-axis, and slope $\\approx 15$ matches the rise per unit. &#10003;</li><li><strong>Choice B &mdash; '$y=15.12x$'</strong>: no intercept, so the line passes through the origin. The data clearly does not start at $0$. &#10007;</li><li><strong>Choice C &mdash; '$y=30.38+0.76x$'</strong>: intercept is right, but slope $0.76$ is far too shallow for the steep rise shown. &#10007;</li><li><strong>Choice D &mdash; '$y=0.76x$'</strong>: both slope and intercept are wrong. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

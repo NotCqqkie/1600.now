@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use a two-point Desmos table",
-      "content": "The fastest way is to put two clear points from the graph into Desmos. The line crosses the y-axis at $(0,-1)$ and also passes through $(1,-6)$. A linear regression returns slope $-5$ and intercept $-1$.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[-1,-6]",
-        "y_1~m x_1+b"
-      ]
+      "title": "Use two points from the graph",
+      "content": "Use two clear points from the graph. The line crosses the $y$-axis at $(0,-1)$ and also passes through $(1,-6)$. The slope is $$m=\\frac{-6-(-1)}{1-0}=-5,$$ and the intercept is $-1$."
     },
     {
       "title": "Assemble the equation and test each choice",
-      "content": "With $m=-5$ and $b=-1$, $f(x)=-5x-1$. Choice A has the wrong slope and wrong intercept. Choice B matches both. Choice C has the right slope but the wrong intercept. Choice D has the wrong slope and wrong intercept. Choice <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "y=-5x-1"
-      ]
+      "content": "With $m=-5$ and $b=-1$, $f(x)=-5x-1$. Choice A has the wrong slope and wrong intercept. Choice B matches both. Choice C has the right slope but the wrong intercept. Choice D has the wrong slope and wrong intercept. Choice <strong>B</strong> is correct."
     }
   ]
 }

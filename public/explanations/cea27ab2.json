@@ -4,26 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Turn the equation into a calculator check",
+      "title": "Turn the equation into a direct calculation check",
       "content": "Instead of substituting every choice by hand, solve once for $y$: $7x-4y=-84$ becomes $y=\\frac{84+7x}{4}$. Then evaluate that rule at the $x$-values shown in the answer tables."
     },
     {
-      "title": "Use a Desmos list evaluation",
-      "content": "In Desmos, enter the likely $x$-row as $x_1=[0,4,8]$, then enter $y_1=\\frac{84+7x_1}{4}$. Desmos returns the output list $[21,28,35]$.",
-      "desmosExpressions": [
-        "x_1=[0,4,8]",
-        "y_1=\\frac{84+7x_1}{4}"
-      ]
+      "title": "Evaluate the rule at the table values",
+      "content": "For the likely $x$-row $0,4,8$, substitute each value into $y=\\frac{84+7x}{4}$: $$x=0:\\ y=21$$ $$x=4:\\ y=28$$ $$x=8:\\ y=35$$"
     },
     {
       "title": "Match the table",
-      "content": "The corresponding pairs are $(0,21)$, $(4,28)$, and $(8,35)$. Those are exactly the entries in choice <strong>A</strong>.",
-      "desmosExpressions": [
-        "7x-4y=-84",
-        "(0,21)",
-        "(4,28)",
-        "(8,35)"
-      ]
+      "content": "The corresponding pairs are $(0,21)$, $(4,28)$, and $(8,35)$. Those are exactly the entries in choice <strong>A</strong>."
     }
   ]
 }

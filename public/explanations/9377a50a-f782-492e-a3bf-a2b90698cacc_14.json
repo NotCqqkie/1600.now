@@ -13,10 +13,7 @@
     },
     {
       "title": "Choose the greatest solution",
-      "content": "Among $-6$, $0$, $5$, and $13$, the greatest solution is $13$.",
-      "desmosExpressions": [
-        "y=x(x-13)(x+6)(x-5)^2"
-      ]
+      "content": "Among $-6$, $0$, $5$, and $13$, the greatest solution is $13$."
     },
     {
       "title": "Confirm on the graph",

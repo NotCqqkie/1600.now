@@ -4,21 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use a fast Desmos setup",
-      "content": "Because the two $x$-values are $c$ and $2c$, the actual positive value of $c$ only stretches the graph horizontally. For a quick Desmos check, choose $c=1$. Then the points become $(1,7)$ and $(2,117)$, and the function has the form $y=ux-b$, where $u=ac$.",
-      "desmosExpressions": [
-        "x_1=[1,2]",
-        "y_1=[7,117]",
-        "y_1\\sim u x_1-b"
-      ]
+      "title": "Use a fast setup",
+      "content": "Substitute the two given points into the function. At $x=c$, $$ac-b=7.$$ At $x=2c$, $$2ac-b=117.$$"
     },
     {
-      "title": "Read the regression result",
-      "content": "Desmos returns $u=110$ and $b=103$. Since $u$ stands for $ac$, this says $ac=110$ and directly gives the requested value $b=103$."
+      "title": "Eliminate $b$",
+      "content": "Subtract the first equation from the second: $$(2ac-b)-(ac-b)=117-7,$$ so $$ac=110.$$"
     },
     {
       "title": "Confirm by algebra",
-      "content": "The hand solution is short too: substituting the two points gives $$ac-b=7$$ and $$2ac-b=117.$$ Subtract the first equation from the second to get $ac=110$. Then $110-b=7$, so $b=103$. That matches choice <strong>C</strong>."
+      "content": "Substitute $ac=110$ into $ac-b=7$: $$110-b=7.$$ Therefore $$b=103.$$ That matches choice <strong>C</strong>."
     }
   ]
 }

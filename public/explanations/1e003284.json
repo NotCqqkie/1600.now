@@ -9,11 +9,7 @@
     },
     {
       "title": "Substitute x = 49 into the second equation to find y",
-      "content": "With $x = 49$, substitute into $y = \\sqrt{x} + 9$:<br/>$$y = \\sqrt{49} + 9 = 7 + 9 = 16$$<br/>That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "x = 49",
-        "y = \\sqrt{x} + 9"
-      ]
+      "content": "With $x = 49$, substitute into $y = \\sqrt{x} + 9$:<br/>$$y = \\sqrt{49} + 9 = 7 + 9 = 16$$<br/>That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

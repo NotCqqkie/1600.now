@@ -4,14 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use Desmos to fit the quadratic table",
-      "content": "A quadratic is determined by 3 points, so the fastest method is to enter the table in Desmos and run a quadratic regression. Use $x_1=[-1,0,1]$, $y_1=[10,14,20]$, then type $y_1 \\sim a x_1^2+b x_1+c$. Desmos returns $a=1$, $b=5$, and $c=14$, so the model is $y=x^2+5x+14$.",
-      "desmosExpressions": [
-        "x_1=[-1,0,1]",
-        "y_1=[10,14,20]",
-        "y_1~a x_1^2+b x_1+c",
-        "y=x^2+5x+14"
-      ]
+      "title": "Use the table to find the quadratic",
+      "content": "Write the quadratic as $f(x)=ax^2+bx+c$. From $f(0)=14$, we get $c=14$. The other two rows give $$a+b+14=20$$ and $$a-b+14=10.$$ So $a+b=6$ and $a-b=-4$, which gives $a=1$ and $b=5$."
     },
     {
       "title": "Match the model to the choices",

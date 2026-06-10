@@ -11,11 +11,7 @@
     {
       "title": "Backsolving — testing choice C (19)",
       "content": "If there are 19 two‑person tents, then the number of four‑person tents is $$60 - 19 = 41$$.<br/>Total people would be $$2(19) + 4(41) = 38 + 164 = 202$$.<br/>That matches choice C — <strong>C</strong> is correct.",
-      "formula": null,
-      "desmosExpressions": [
-        "y = 60 - x",
-        "y = (202 - 2x)/4"
-      ]
+      "formula": null
     }
   ]
 }

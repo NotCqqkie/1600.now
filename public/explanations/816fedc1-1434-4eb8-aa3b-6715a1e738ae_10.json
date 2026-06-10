@@ -13,7 +13,7 @@
     },
     {
       "title": "Test each choice",
-      "content": "<ul><li>A) $y = 180 - x$ &mdash; this is exactly the rearrangement above, MUST be true.</li><li>B) $y > 26$ &mdash; not required (e.g., $x = 170, y = 10$ is supplementary but $y < 26$); eliminate.</li><li>C) $x = y$ &mdash; only true when both are 90; not required; eliminate.</li><li>D) $x + y > 180$ &mdash; supplementary means exactly 180, not greater; eliminate.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li>A) $y = 180 - x$ &mdash; this is exactly the rearrangement above, MUST be true.</li><li>B) $y > 26$ &mdash; not required (e.g., $x = 170, y = 10$ is supplementary but $y \\lt 26$); eliminate.</li><li>C) $x = y$ &mdash; only true when both are 90; not required; eliminate.</li><li>D) $x + y > 180$ &mdash; supplementary means exactly 180, not greater; eliminate.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

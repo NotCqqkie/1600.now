@@ -5,18 +5,15 @@
   "steps": [
     {
       "title": "Identify what x and y represent",
-      "content": "From the problem, $x$ is the number of hours consulting and $y$ is the number of hours drawing up plans. The total earnings are $\\$1{,}258$."
+      "content": "From the problem, $x$ is the number of hours consulting and $y$ is the number of hours drawing up plans. The total earnings are &#36;1,258."
     },
     {
       "title": "Interpret the coefficients by units",
-      "content": "In $68x + 85y = 1{,}258$, each term must have units of dollars. Since $x$ has units of hours, the coefficient $68$ must have units of dollars per hour. Because $68$ multiplies $x$ (consulting hours), $68$ is the consulting hourly rate: $\\$68$ per hour consulting."
+      "content": "In $68x+85y=1{,}258$, each term must have units of dollars. Since $x$ is consulting hours, the coefficient $68$ is the consulting hourly rate: &#36;68 per hour."
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>A) &quot;$\\$68$ per hour consulting&quot;:</strong> Matches the coefficient of $x$ in the model. Correct.</li><li><strong>B) &quot;Worked $68$ hours drawing up plans&quot;:</strong> Hours drawing up plans is $y$, not a fixed coefficient. Eliminated.</li><li><strong>C) &quot;$\\$68$ per hour drawing up plans&quot;:</strong> The drawing-plans rate is $85$ (the coefficient of $y$), not $68$. Eliminated.</li><li><strong>D) &quot;Worked $68$ hours consulting&quot;:</strong> Hours consulting is $x$, not a fixed coefficient. Eliminated.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "68x+85y=1258"
-      ]
+      "content": "Choice A says the designer earned &#36;68 per hour consulting, which matches the coefficient of $x$. Choice <strong>A</strong> is correct."
     }
   ]
 }

@@ -13,11 +13,7 @@
     },
     {
       "title": "Compute the requested expression",
-      "content": "$$x-y=-33-(-90)=57.$$ Choice D is correct. Choice A is $x+y$, choice B is just $x$, and choice C does not match the expression.",
-      "desmosExpressions": [
-        "y=3x+9",
-        "3y=8x-6"
-      ]
+      "content": "$$x-y=-33-(-90)=57.$$ Choice D is correct. Choice A is $x+y$, choice B is just $x$, and choice C does not match the expression."
     }
   ]
 }

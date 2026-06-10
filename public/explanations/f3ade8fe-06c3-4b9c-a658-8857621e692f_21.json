@@ -13,10 +13,7 @@
     },
     {
       "title": "Solve the threshold",
-      "content": "Simplify the inequality: $$1600-32k>0$$ $$1600>32k$$ $$50>k.$$ Desmos can show the cutoff by graphing $1600-32x>0$.",
-      "desmosExpressions": [
-        "1600-32x>0"
-      ]
+      "content": "Simplify the inequality: $$1600-32k>0$$ $$1600>32k$$ $$50>k.$$"
     },
     {
       "title": "Choose the greatest integer",

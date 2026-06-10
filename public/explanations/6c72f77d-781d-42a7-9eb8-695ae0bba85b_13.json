@@ -5,15 +5,11 @@
   "steps": [
     {
       "title": "Discriminant shortcut: one solution means $\\Delta = 0$",
-      "content": "For $-2x^{2} + 20x + c = 0$, identify $a = -2$, $b = 20$. Set $b^{2} - 4ac = 0$:"
+      "content": "Use the discriminant when the question is really asking how many real solutions a quadratic has. The sign of $b^2-4ac$ tells whether there are two, one, or no real solutions. For $-2x^{2} + 20x + c = 0$, identify $a = -2$, $b = 20$. Set $b^{2} - 4ac = 0$:"
     },
     {
       "title": "Solve for c",
-      "content": "$$20^{2} - 4(-2)(c) = 0$$$$400 + 8c = 0 \\implies c = -50.$$<br/>That matches choice B — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "y = -2x^{2} + 20x + c",
-        "c = -50"
-      ]
+      "content": "$$20^{2} - 4(-2)(c) = 0$$$$400 + 8c = 0 \\implies c = -50.$$<br/>That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

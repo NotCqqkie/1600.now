@@ -9,11 +9,7 @@
     },
     {
       "title": "Write circle B's equation",
-      "content": "Circle B has center $(0, -1)$ and radius $7$, so its equation is:<br/>$$x^2 + (y+1)^2 = 49$$<br/>That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "x^2 + (y-1)^2 = 49",
-        "x^2 + (y+1)^2 = 49"
-      ]
+      "content": "Circle B has center $(0, -1)$ and radius $7$, so its equation is:<br/>$$x^2 + (y+1)^2 = 49$$<br/>That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

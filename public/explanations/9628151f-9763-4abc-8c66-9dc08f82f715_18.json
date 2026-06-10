@@ -5,13 +5,7 @@
   "steps": [
     {
       "title": "Fit line k from the graph",
-      "content": "Use a Desmos table on the shown line $k$. The line passes through $(0,3)$ and $(4,0)$. The regression line has slope $-\\frac{3}{4}$, so line $k$ has slope $-\\frac{3}{4}$.",
-      "desmosExpressions": [
-        "x_1=[0,4]",
-        "y_1=[3,0]",
-        "y_1~m x_1+b",
-        "y=-(3/4)x+3"
-      ]
+      "content": "Use two clear points on the shown line $k$. The line passes through $(0,3)$ and $(4,0)$, so its slope is $$\\frac{0-3}{4-0}=-\\frac{3}{4}.$$"
     },
     {
       "title": "Use the perpendicular slope",
@@ -23,11 +17,7 @@
     },
     {
       "title": "Read off the answer",
-      "content": "The equation is $y=\\frac{4}{3}x-8$. That matches choice A, so <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y=(4/3)x-8",
-        "(-15,-28)"
-      ]
+      "content": "The equation is $y=\\frac{4}{3}x-8$. That matches choice A, so <strong>A</strong> is correct."
     }
   ]
 }

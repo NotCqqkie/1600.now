@@ -5,8 +5,7 @@
   "steps": [
     {
       "title": "Recognize the radical as fractional exponent",
-      "content": "The expression $\\sqrt[4]{x^5}$ represents the fourth root of $x^5$. By the definition of fractional exponents, the index of the radical becomes the denominator of the exponent, and the power inside becomes the numerator:<br/>$$\\sqrt[4]{x^5} = x^{5/4}$$",
-      "formula": "$$\\sqrt[n]{x^m} = x^{m/n}$$"
+      "content": "The expression $\\sqrt[4]{x^5}$ represents the fourth root of $x^5$. By the definition of fractional exponents, the index of the radical becomes the denominator of the exponent, and the power inside becomes the numerator:<br/>$$\\sqrt[4]{x^5} = x^{5/4}$$"
     },
     {
       "title": "Match the exponent form to find m",

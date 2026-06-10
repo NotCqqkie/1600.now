@@ -8,13 +8,8 @@
       "content": "The variable $t$ means years after 2000. So year 2000 is $t=0$ with population $862$, and year 2010 is $t=10$ with population $846$."
     },
     {
-      "title": "Fit the model in Desmos",
-      "content": "Enter the points $(0,862)$ and $(10,846)$ and run $y_1 \\sim m x_1+b$. Desmos gives $m=-1.6$ and $b=862$, so the model is $y=862-1.6x$. In the problem's variables, that is $P(t)=862-1.6t$.",
-      "desmosExpressions": [
-        "x_1=[0,10]",
-        "y_1=[862,846]",
-        "y_1~m x_1+b"
-      ]
+      "title": "Use the data directly",
+      "content": "The slope is the population change divided by the time change: $$\\frac{846-862}{10-0}=\\frac{-16}{10}=-1.6.$$ Since the value at $t=0$ is $862$, the linear model is $P(t)=862-1.6t$."
     },
     {
       "title": "Check the choices",

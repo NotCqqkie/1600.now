@@ -4,14 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fit the shown line first",
-      "content": "The graph shown is $y=f(x)-11$. Put two points from the graph into a Desmos table: $(-2,0)$ and $(0,-4)$. The regression line has slope $-2$ and intercept $-4$, so the graphed line is $y=-2x-4$.",
-      "desmosExpressions": [
-        "x_1=[-2,0]",
-        "y_1=[0,-4]",
-        "y_1~m x_1+b",
-        "y=-2x-4"
-      ]
+      "title": "Find the shown line first",
+      "content": "The graph shown is $y=f(x)-11$. Two clear points on that line are $(-2,0)$ and $(0,-4)$. The slope is $$m=\\frac{-4-0}{0-(-2)}=-2,$$ and the $y$-intercept is $-4$, so the graphed line is $y=-2x-4$."
     },
     {
       "title": "Undo the vertical shift",
@@ -22,7 +16,7 @@
       ]
     },
     {
-      "title": "Check choices in Desmos",
+      "title": "Check the choices",
       "content": "Choice B gives $f(x)=-2x+7$. Subtracting 11 gives $y=-2x-4$, exactly the graphed line. Choice C has the same intercept after shifting, but its slope is $-13$, not $-2$. Choices A and D miss the intercept.",
       "desmosExpressions": [
         "y=(-2x+7)-11",

@@ -4,11 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fraction = 0 when numerator = 0 (and denominator ≠ 0)",
-      "content": "Set $(x-7)(x-8) = 0$ → solutions $x = 7$ and $x = 8$. Check denominator: $7-3 = 4 \\neq 0$ and $8-3 = 5 \\neq 0$, so both are valid.",
-      "desmosExpressions": [
-        "(x-7)(x-8)/(x-3)=0"
-      ]
+      "title": "Set the numerator equal to zero",
+      "content": "A fraction equals $0$ when its numerator is $0$ and its denominator is not $0$. Set $(x-7)(x-8)=0$, so $x=7$ or $x=8$. The denominator $x-3$ is not $0$ for either value, so both solutions are valid."
     },
     {
       "title": "Sum the roots directly",

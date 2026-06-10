@@ -4,21 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fit the table first",
-      "content": "The table gives the points $(-2,19)$, $(0,31)$, and $(2,43)$. Enter those in Desmos and run $y_1 \\sim m x_1+b$ to get the line quickly.",
-      "desmosExpressions": [
-        "x_1=[-2,0,2]",
-        "y_1=[19,31,43]",
-        "y_1~m x_1+b"
-      ]
+      "title": "Find the slope from the table",
+      "content": "Using the table points $(-2,19)$ and $(0,31)$, the slope is $$m=\\frac{31-19}{0-(-2)}=\\frac{12}{2}=6.$$"
     },
     {
-      "title": "Connect slope to A over B",
-      "content": "Desmos gives $m=6$, so the line has slope $6$. For an equation in the form $Ax+By=C$, solving for $y$ gives $$y=-\\frac{A}{B}x+\\frac{C}{B}$$ Therefore the slope is $-\\frac{A}{B}$."
+      "title": "Relate slope to A over B",
+      "content": "An equation in the form $Ax+By=C$ can be solved for $y$: $$By=-Ax+C$$ $$y=-\\frac{A}{B}x+\\frac{C}{B}.$$ Therefore, the slope is $-\\frac{A}{B}$."
     },
     {
-      "title": "Answer the question",
-      "content": "Set $-\\frac{A}{B}=6$. Multiplying by $-1$ gives $\\frac{A}{B}=-6$. The correct free-response answer is <strong>-6</strong>."
+      "title": "Solve for the requested value",
+      "content": "Since the slope is $6$, $$-\\frac{A}{B}=6.$$ Multiplying by $-1$ gives $$\\frac{A}{B}=-6.$$ The correct answer is <strong>-6</strong>."
     }
   ]
 }

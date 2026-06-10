@@ -9,7 +9,7 @@
     },
     {
       "title": "Find XZ, then use the Pythagorean triple",
-      "content": "Since $YZ = 24$ and $\\frac{YZ}{XZ} = \\frac{12}{35}$:<br/>$$\\frac{24}{XZ} = \\frac{12}{35} \\implies XZ = \\frac{24 \\cdot 35}{12} = 70$$<br/>The legs are now in ratio $24 : 70 = 12 : 35$. This is the <strong>12–35–37 Pythagorean triple</strong>. With scale factor $k = 2$, the hypotenuse is $XY = 37 \\cdot 2 = 74$."
+      "content": "Since $YZ = 24$ and $\\frac{YZ}{XZ} = \\frac{12}{35}$:<br/>$$\\frac{24}{XZ} = \\frac{12}{35} \\implies XZ = \\frac{24 \\cdot 35}{12} = 70$$<br/>The legs are now in ratio $24: 70 = 12: 35$. This is the <strong>12–35–37 Pythagorean triple</strong>. With scale factor $k = 2$, the hypotenuse is $XY = 37 \\cdot 2 = 74$."
     },
     {
       "title": "Calculate the perimeter",

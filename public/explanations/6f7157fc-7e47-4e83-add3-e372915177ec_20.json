@@ -9,11 +9,7 @@
     },
     {
       "title": "Solve for x and identify p",
-      "content": "Divide both sides by 59:<br/>$$x = \\frac{263}{59}$$<br/>Since the solution is $\\left(\\frac{p}{59}, \\frac{w}{826}\\right)$, we have $p = 263$.",
-      "desmosExpressions": [
-        "y = \\frac{22x - 43}{21}",
-        "y = \\frac{59 - 5x}{14}"
-      ]
+      "content": "Divide both sides by 59:<br/>$$x = \\frac{263}{59}$$<br/>Since the solution is $\\left(\\frac{p}{59}, \\frac{w}{826}\\right)$, we have $p = 263$."
     }
   ]
 }

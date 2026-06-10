@@ -1539,9 +1539,9 @@ const LEARN_ROUND_SIZE = 10;
 function buildLearnRound(deck: Word[]): string[] {
   const unmastered = deck.filter(word => word.mastery < 0.8);
   const ids = unmastered.map(word => word.id);
-  for (let i = ids.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [ids[i], ids[j]] = [ids[j], ids[i]];
+  for (let currentIndex = ids.length - 1; currentIndex > 0; currentIndex--) {
+    const randomIndex = Math.floor(Math.random() * (currentIndex + 1));
+    [ids[currentIndex], ids[randomIndex]] = [ids[randomIndex], ids[currentIndex]];
   }
   return ids.slice(0, Math.min(LEARN_ROUND_SIZE, ids.length));
 }
@@ -1830,16 +1830,16 @@ function buildMatchPool(deck: Word[]): Word[] {
   if (!unmastered.length) return [];
   const mastered = deck.filter(word => word.mastery >= 0.8);
   const shuffled = [...unmastered];
-  for (let i = shuffled.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  for (let currentIndex = shuffled.length - 1; currentIndex > 0; currentIndex--) {
+    const randomIndex = Math.floor(Math.random() * (currentIndex + 1));
+    [shuffled[currentIndex], shuffled[randomIndex]] = [shuffled[randomIndex], shuffled[currentIndex]];
   }
   const out = shuffled.slice(0, MATCH_POOL_SIZE);
   if (out.length < MATCH_POOL_SIZE && mastered.length) {
     const fill = [...mastered];
-    for (let i = fill.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [fill[i], fill[j]] = [fill[j], fill[i]];
+    for (let currentIndex = fill.length - 1; currentIndex > 0; currentIndex--) {
+      const randomIndex = Math.floor(Math.random() * (currentIndex + 1));
+      [fill[currentIndex], fill[randomIndex]] = [fill[randomIndex], fill[currentIndex]];
     }
     out.push(...fill.slice(0, MATCH_POOL_SIZE - out.length));
   }
@@ -1875,9 +1875,9 @@ function Match({
   const startRound = () => {
     const next = buildMatchPool(deckRef.current);
     const order = next.map((_, i) => i);
-    for (let i = order.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [order[i], order[j]] = [order[j], order[i]];
+    for (let currentIndex = order.length - 1; currentIndex > 0; currentIndex--) {
+      const randomIndex = Math.floor(Math.random() * (currentIndex + 1));
+      [order[currentIndex], order[randomIndex]] = [order[randomIndex], order[currentIndex]];
     }
     setPool(next);
     setDefOrder(order);
@@ -2233,9 +2233,9 @@ function buildTestQuestions(deck: Word[]): TestQuestion[] {
   const mastered = deck.filter(word => word.mastery >= 0.8);
   const shuffle = (words: Word[]) => {
     const shuffled = [...words];
-    for (let i = shuffled.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    for (let currentIndex = shuffled.length - 1; currentIndex > 0; currentIndex--) {
+      const randomIndex = Math.floor(Math.random() * (currentIndex + 1));
+      [shuffled[currentIndex], shuffled[randomIndex]] = [shuffled[randomIndex], shuffled[currentIndex]];
     }
     return shuffled;
   };
@@ -2848,7 +2848,8 @@ const Vocab = () => {
 
     try {
       window.localStorage.setItem(vocabStorageKey(uid), JSON.stringify(progress));
-    } catch {
+    } catch (error) {
+      console.error("Failed to save vocab progress:", error);
     }
 
     if (user && db) {

@@ -1,15 +1,19 @@
 {
-  "qid": "ceb2e234-3ab3-4376-b66a-cf8535278d77_6",
+  "questionId": "ceb2e234-3ab3-4376-b66a-cf8535278d77_6",
   "correctAnswer": "C",
+  "section": "Math",
   "steps": [
     {
-      "explanation": "The total weight equals the weight per cubic foot times the volume: $x = 160 \\times V$, where $V$ is the volume in cubic feet."
+      "title": "Translate volume to weight",
+      "content": "The boulder weighs $160$ pounds per cubic foot, so total weight equals $160$ times volume."
     },
     {
-      "explanation": "The volume satisfies $14.6 &lt; V &lt; 18.6$. Multiplying all parts of the inequality by 160 (positive, so direction is preserved): $160(14.6) &lt; x &lt; 160(18.6)$."
+      "title": "Multiply the volume bounds",
+      "content": "The volume satisfies $$14.6\\lt V\\lt18.6$$ Multiplying all parts by positive $160$ preserves the inequality direction: $$160(14.6)\\lt x\\lt160(18.6)$$"
     },
     {
-      "explanation": "Evaluate each choice:<ul><li>$18.6 &lt; x &lt; 160 \\times 14.6$: Lower and upper bounds are swapped and inconsistently scaled. Eliminated.</li><li>$14.6 &lt; x &lt; 160 \\times 18.6$: The left bound is a raw volume value, not a weight. Eliminated.</li><li>$160(14.6) &lt; x &lt; 160(18.6)$: Both bounds correctly scale the volume range by the weight density. That matches choice C &mdash; <strong>C</strong> is correct.</li><li>$\\frac{160}{18.6} &lt; x &lt; \\frac{160}{14.6}$: Divides instead of multiplies; produces weight per unit volume, not total weight. Eliminated.</li></ul>"
+      "title": "Confirm the choice",
+      "content": "Choice C matches this inequality, so <strong>C</strong> is correct."
     }
   ]
 }

@@ -14,10 +14,7 @@
     },
     {
       "title": "Substitute the side length and solve for w",
-      "content": "With $s = 292$:<br/>$$R = \\frac{292\\sqrt{3}}{3}$$<br/>The radius is given as $R = w\\sqrt{3}$. Setting them equal:<br/>$$\\frac{292\\sqrt{3}}{3} = w\\sqrt{3}$$<br/>Dividing both sides by $\\sqrt{3}$:<br/>$$w = \\frac{292}{3} \\approx 97.33$$",
-      "desmosExpressions": [
-        "x^2 + y^2 = (292\\sqrt{3}/3)^2"
-      ]
+      "content": "With $s = 292$:<br/>$$R = \\frac{292\\sqrt{3}}{3}$$<br/>The radius is given as $R = w\\sqrt{3}$. Setting them equal:<br/>$$\\frac{292\\sqrt{3}}{3} = w\\sqrt{3}$$<br/>Dividing both sides by $\\sqrt{3}$:<br/>$$w = \\frac{292}{3} \\approx 97.33$$"
     }
   ]
 }

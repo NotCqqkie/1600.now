@@ -4,22 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use Desmos to fit the table",
-      "content": "The table represents a line, so the fastest path is to enter the points and let Desmos find the equation. Use $x_1=[-6,6]$ and $y_1=[65,29]$, then type $y_1 \\sim m x_1+b$. Desmos gives $m=-3$ and $b=47$, so the line is $y=-3x+47$.",
-      "desmosExpressions": [
-        "x_1=[-6,6]",
-        "y_1=[65,29]",
-        "y_1~m x_1+b",
-        "y=-3x+47"
-      ]
+      "title": "Find the slope from the table",
+      "content": "Using the points $(-6,65)$ and $(6,29)$, the slope is $\\frac{29-65}{6-(-6)}=\\frac{-36}{12}=-3$."
     },
     {
-      "title": "Match the Desmos line to standard form",
-      "content": "Rewrite $y=-3x+47$ so it looks like the choices: add $3x$ to both sides to get $3x+y=47$, then multiply by 3 to get $9x+3y=141$. That is choice A."
+      "title": "Find the equation",
+      "content": "Use $y=-3x+b$ and the point $(6,29)$: $29=-3(6)+b$, so $b=47$. The line is $y=-3x+47$."
     },
     {
-      "title": "Evaluate all four choices",
-      "content": "<ul><li><strong>Choice A &mdash; '9x+3y=141'</strong>: Equivalent to 3x+y=47, slope = -3. Passes through (-6,65) and (6,29). &#10003;</li><li><strong>Choice B &mdash; '9x+3y=3'</strong>: Equivalent to 3x+y=1, y-intercept 1. Does not match the table. &#10007;</li><li><strong>Choice C &mdash; '3x+9y=141'</strong>: Equivalent to x+3y=47, slope = -1/3. Does not match slope -3. &#10007;</li><li><strong>Choice D &mdash; '3x+9y=3'</strong>: Equivalent to x+3y=1, slope = -1/3 and wrong intercept. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "title": "Convert to the choice form",
+      "content": "Rewrite as $3x+y=47$, then multiply by $3$ to get $9x+3y=141$. That matches choice <strong>A</strong>."
     }
   ]
 }

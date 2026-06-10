@@ -9,11 +9,7 @@
     },
     {
       "title": "Solve for 9x",
-      "content": "Combine fractions on the left with common denominator 14:<br/>$$\\frac{7x + 2x}{14} = 72$$<br/>$$\\frac{9x}{14} = 72$$<br/>Multiply both sides by 14:<br/>$$9x = 1008$$",
-      "desmosExpressions": [
-        "y = \\frac{27 - x/2}{9} + 13",
-        "y = \\frac{x/7 - 45}{9} + 13"
-      ]
+      "content": "Combine fractions on the left with common denominator 14:<br/>$$\\frac{7x + 2x}{14} = 72$$<br/>$$\\frac{9x}{14} = 72$$<br/>Multiply both sides by 14:<br/>$$9x = 1008$$"
     }
   ]
 }

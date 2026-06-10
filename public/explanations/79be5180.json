@@ -12,8 +12,8 @@
       "content": "Simplify: $$x+63x+84=20,$$ so $64x=-64$ and $x=-1$. Then use $y=9x+12$: $$y=9(-1)+12=3.$$"
     },
     {
-      "title": "Check by graphing",
-      "content": "Graph the two lines in Desmos. Their intersection is $(-1,3)$, and the question asks for the $y$-value. The answer is <strong>3</strong>.",
+      "title": "Check the result",
+      "content": "A graphing check of the two lines shows the same intersection, $(-1,3)$. The question asks for the $y$-value, so the answer is <strong>3</strong>.",
       "desmosExpressions": [
         "y=9x+12",
         "x+7y=20"

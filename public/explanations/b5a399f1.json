@@ -1,1 +1,19 @@
-{"questionId": "b5a399f1", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Trace the step sequence", "content": "Celado 'starts by' creating the base, then [blank] builds the walls by layering coils, 'then' smooths the walls with a hacksaw blade, and 'at last' the pot is painted. The passage walks through pottery-making stages in order."}, {"title": "Pick a sequence marker", "content": "The blank introduces the second stage in a forward-moving procedure, so a transition meaning 'the following step' is needed."}, {"title": "Eliminate by choice", "content": "<ul><li><strong>Choice A &mdash; 'For example,'</strong>: would mark building the walls as an illustration of making the base, but it is a separate later step, not an example. &#10007;</li><li><strong>Choice B &mdash; 'However,'</strong>: signals contrast, but building the walls does not oppose making the base. &#10007;</li><li><strong>Choice C &mdash; 'By contrast,'</strong>: also signals contrast between two ideas, which does not fit a continuous procedure. &#10007;</li><li><strong>Choice D &mdash; 'Next,'</strong>: marks the wall-building as the following step in the sequence, fitting 'starts by ... [next] ... then ... at last.' &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "b5a399f1",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Trace the step sequence",
+      "content": "Celado 'starts by' creating the base, then [blank] builds the walls by layering coils, 'then' smooths the walls with a hacksaw blade, and 'at last' the pot is painted. The passage walks through pottery-making stages in order."
+    },
+    {
+      "title": "Pick a sequence marker",
+      "content": "The blank introduces the second stage in a forward-moving procedure, so a transition meaning 'the following step' is needed."
+    },
+    {
+      "title": "Eliminate by choice",
+      "content": "<ul><li><strong>Choice A &mdash; 'For example,'</strong>: would mark building the walls as an illustration of making the base, but it is a separate later step, not an example. &#10007;</li><li><strong>Choice B &mdash; 'However,'</strong>: signals contrast, but building the walls does not oppose making the base. &#10007;</li><li><strong>Choice C &mdash; 'By contrast,'</strong>: also signals contrast between two ideas, which does not fit a continuous procedure. &#10007;</li><li><strong>Choice D &mdash; 'Next,'</strong>: marks the wall-building as the following step in the sequence, fitting 'starts by... [next]... then... at last.' &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

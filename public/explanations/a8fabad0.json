@@ -4,16 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Translate &quot;15% of the bill&quot; into a calculation",
-      "content": "The tip equals 15% of the bill amount. Convert the percent to a decimal and multiply: $$\\text{Tip} = 0.15 \\times 78.20$$"
+      "title": "Calculate 15 percent",
+      "content": "Convert $15\\%$ to $0.15$ and multiply by the bill amount: $$0.15\\cdot78.20=11.73.$$ The expected tip is $\\$11.73$."
     },
     {
-      "title": "Compute the expected tip",
-      "content": "Multiplying: $$0.15 \\times 78.20 = 11.73$$ The expected tip is \\$11.73."
+      "title": "Choose the closest amount",
+      "content": "The closest choice to $\\$11.73$ is $\\$12.00$, which is only $\\$0.27$ away."
     },
     {
-      "title": "Evaluate each choice",
-      "content": "Find the choice closest to \\$11.73:<ul><li>A) \\$8.00 &mdash; off by \\$3.73, too low.</li><li>B) \\$10.00 &mdash; off by \\$1.73, still low.</li><li>C) \\$12.00 &mdash; off by only \\$0.27, the closest value.</li><li>D) \\$14.00 &mdash; off by \\$2.27, too high.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+      "title": "Confirm the choice",
+      "content": "$\\$12.00$ matches choice <strong>C</strong>."
+    },
+    {
+      "title": "Round to the nearest listed dollar amount",
+      "content": "The exact estimate is not one of the choices, so compare distances. $11.73$ is closest to $12.00$; it is farther from $10.00$ and $14.00$."
     }
   ]
 }

@@ -5,21 +5,11 @@
   "steps": [
     {
       "title": "Make a two-point table",
-      "content": "Use Desmos to fit the exponential model. On day $0$, there are $233$ views. Every $2$ days, the number is multiplied by $1.70$, so on day $2$ there are $233(1.70)=396.1$ views.",
-      "desmosExpressions": [
-        "x_1=[0,2]",
-        "y_1=[233,396.1]"
-      ]
+      "content": "On April $1$, $x=0$ and there are $233$ views, so the starting value is $233$. Every $2$ days, the number increases by $70\\%$, which means it is multiplied by $1+0.70=1.70$."
     },
     {
-      "title": "Use a custom regression for two-day growth",
-      "content": "Because the growth period is $2$ days, type $y_1\\sim a b^{x_1/2}$. Desmos returns $a=233$ and $b=1.70$, giving $f(x)=233(1.70)^{x/2}$.",
-      "desmosExpressions": [
-        "x_1=[0,2]",
-        "y_1=[233,396.1]",
-        "y_1~a b^{x_1/2}",
-        "y=233(1.70)^{x/2}"
-      ]
+      "title": "Solve the unknown directly",
+      "content": "The exponent should count how many 2-day periods have passed. After $x$ days, the number of 2-day periods is $\\frac{x}{2}$, so $$f(x)=233(1.70)^{x/2}$$"
     },
     {
       "title": "Confirm the answer",

@@ -4,26 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Enter the first two years",
-      "content": "At $x=0$, the house is worth $174{,}000$. A $2.4\\%$ yearly increase means multiply by $1.024$, so after one year the value is $174{,}000(1.024)=178{,}176$.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[174000,178176]"
-      ]
+      "title": "Use the first two years",
+      "content": "At $x=0$, the house is worth $174{,}000$. A $2.4\\%$ yearly increase means multiply by $1.024$, so after one year the value is $174{,}000(1.024)=178{,}176$."
     },
     {
-      "title": "Run exponential regression",
-      "content": "Use $y_1 \\sim a b^{x_1}$. Desmos returns $a=174000$ and $b=1.024$, so the model is $y=174000(1.024)^x$.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[174000,178176]",
-        "y_1~a b^{x_1}",
-        "y=174000(1.024)^x"
-      ]
+      "title": "Find the exponential pattern",
+      "content": "In $y=a(b)^x$, $a$ is the starting value and $b$ is the multiplier for each year. Here $a=174{,}000$ and $b=1.024$, so the model is $y=174{,}000(1.024)^x$."
     },
     {
       "title": "Match the choice",
-      "content": "Choices A and B use multipliers less than $1$, so they model decreases. Choice D uses $1.24$, which is a $24\\%$ increase. Choice C uses the regression multiplier $1.024$, so choice <strong>C</strong> is correct."
+      "content": "Choices A and B use multipliers less than $1$, so they model decreases. Choice D uses $1.24$, which is a $24\\%$ increase. Choice C uses the growth multiplier $1.024$, so choice <strong>C</strong> is correct."
     }
   ]
 }

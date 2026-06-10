@@ -9,7 +9,7 @@
     },
     {
       "title": "Solve for x",
-      "content": "Divide both sides by 2:<br/>$$x = 6$$<br/>That matches choice C. <strong>C</strong> is correct.",
+      "content": "Divide both sides by 2:<br/>$$x = 6$$<br/>The Desmos graph below checks the original system: the two lines intersect at a point with $x=6$. That matches choice C. <strong>C</strong> is correct.",
       "desmosExpressions": [
         "x + 5y = 5",
         "x - 5y = 7"

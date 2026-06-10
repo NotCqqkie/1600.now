@@ -8,10 +8,10 @@
       "explanation": "The percentage increase from $f(x)$ to $b \\cdot f(x)$ is: $$\\frac{b \\cdot f(x) - f(x)}{f(x)} \\times 100 = (b - 1) \\times 100$$ Therefore $c = 100(b - 1)$."
     },
     {
-      "explanation": "Since $0 &lt; c &lt; 100$, we need $0 &lt; 100(b-1) &lt; 100$, which means $1 &lt; b &lt; 2$. This confirms $b$ is a growth factor slightly above $1$, consistent with the constraint.",
+      "explanation": "Since $0 \\lt c \\lt 100$, we need $0 \\lt 100(b-1) \\lt 100$, which means $1 \\lt b \\lt 2$. This confirms $b$ is a growth factor slightly above $1$, consistent with the constraint.",
       "choices": [
         "<li>Choice A: $1 + \\frac{b}{100}$ — this expression doesn't arise from the percentage-increase formula. Eliminated.</li>",
-        "<li>Choice B: $b + 100$ — adding $100$ to $b$ would give a value well above $100$ for any positive $b$, violating $c &lt; 100$. Eliminated.</li>",
+        "<li>Choice B: $b + 100$ — adding $100$ to $b$ would give a value well above $100$ for any positive $b$, violating $c \\lt 100$. Eliminated.</li>",
         "<li>Choice C: $100(b + 1)$ — this adds $1$ instead of subtracting; it overstates the increase. Eliminated.</li>",
         "<li>Choice D: $100(b - 1)$ — derived directly from the ratio $\\frac{f(x+1) - f(x)}{f(x)} \\times 100 = (b-1) \\times 100$. That matches choice D — <strong>D</strong> is correct.</li>"
       ]

@@ -13,10 +13,7 @@
     },
     {
       "title": "Identify what 6y represents",
-      "content": "$6y$ represents (6 cups per large container) times (the number of large containers), which is the total cups of jam in the large containers. That matches choice C — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "4x+6y=36"
-      ]
+      "content": "$6y$ represents (6 cups per large container) times (the number of large containers), which is the total cups of jam in the large containers. That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

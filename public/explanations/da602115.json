@@ -14,11 +14,7 @@
     },
     {
       "title": "Identify the positive solution",
-      "content": "From $|x-1| = 28$, we have two cases: $x - 1 = 28$ or $x - 1 = -28$. The positive value of $x - 1$ is $28$.",
-      "desmosExpressions": [
-        "y = |4x - 4|",
-        "y = 112"
-      ]
+      "content": "From $|x-1| = 28$, we have two cases: $x - 1 = 28$ or $x - 1 = -28$. The positive value of $x - 1$ is $28$."
     }
   ]
 }

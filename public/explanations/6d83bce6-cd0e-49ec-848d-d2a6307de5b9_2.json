@@ -13,10 +13,7 @@
     },
     {
       "title": "Answer",
-      "content": "<strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y = 6x^{2} + 4x + 3"
-      ]
+      "content": "<strong>A</strong> is correct."
     }
   ]
 }

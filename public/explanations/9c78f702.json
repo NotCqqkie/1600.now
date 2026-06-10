@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Identify the chronological signal",
-      "content": "Sentence 2 begins &ldquo;When alive&rdquo; and describes phytoplankton absorbing carbon. Sentence 3 begins with the blank and continues &ldquo;after they die,&rdquo; describing what happens next. The two sentences form a time-ordered sequence: alive &rarr; dead. The blank must signal that the second event comes later in that sequence."
+      "content": "Sentence 2 begins &ldquo;When alive&rdquo; and describes phytoplankton absorbing carbon. Sentence 3 begins with the blank and continues &ldquo;after they die,&rdquo; describing what happens next. The two sentences form a time-ordered sequence: alive $\\Rightarrow$ dead. The blank must signal that the second event comes later in that sequence."
     },
     {
       "title": "Eliminate wrong choices and confirm the answer",

@@ -1,1 +1,15 @@
-{"questionId": "e37f79a7", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Compare each month&apos;s housing starts from the table", "content": "<ul><li><strong>Choice A &mdash; 'April.'</strong>: April had 1,803 thousand starts &mdash; the highest value in the table. &#10003;</li><li><strong>Choice B &mdash; 'March.'</strong>: March had 1,713 thousand starts &mdash; lower than both April and February. &#10007;</li><li><strong>Choice C &mdash; 'January.'</strong>: January had 1,669 thousand starts &mdash; the lowest value in the table. &#10007;</li><li><strong>Choice D &mdash; 'February.'</strong>: February had 1,771 thousand starts &mdash; second highest, but still below April. &#10007;</li></ul>"}, {"title": "Identify the maximum value", "content": "Reading across the table: January 1,669 &rarr; February 1,771 &rarr; March 1,713 &rarr; April 1,803. The peak is 1,803, which falls in April. That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "e37f79a7",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare each month&apos;s housing starts from the table",
+      "content": "<ul><li><strong>Choice A &mdash; 'April.'</strong>: April had 1,803 thousand starts &mdash; the highest value in the table. &#10003;</li><li><strong>Choice B &mdash; 'March.'</strong>: March had 1,713 thousand starts &mdash; lower than both April and February. &#10007;</li><li><strong>Choice C &mdash; 'January.'</strong>: January had 1,669 thousand starts &mdash; the lowest value in the table. &#10007;</li><li><strong>Choice D &mdash; 'February.'</strong>: February had 1,771 thousand starts &mdash; second highest, but still below April. &#10007;</li></ul>"
+    },
+    {
+      "title": "Identify the maximum value",
+      "content": "Reading across the table: January 1,669 $\\Rightarrow$ February 1,771 $\\Rightarrow$ March 1,713 $\\Rightarrow$ April 1,803. The peak is 1,803, which falls in April. That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

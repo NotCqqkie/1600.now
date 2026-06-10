@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Graph the solution region",
-      "content": "Use Desmos to graph both inequalities, $y\\le x$ and $y\\le -x$, then plot the answer choices. The solution region is the overlap below both boundary lines.",
-      "desmosExpressions": [
-        "y\\le x",
-        "y\\le -x",
-        "(1,0)",
-        "(-1,0)",
-        "(0,1)",
-        "(0,-1)"
-      ]
+      "title": "Test both inequalities",
+      "content": "A solution must satisfy both $y\\le x$ and $y\\le -x$."
     },
     {
-      "title": "Test every choice",
-      "content": "<ul><li><strong>A.</strong> $(1, 0)$: $0 \\leq 1$ &check; but $0 \\leq -1$ &cross;; fails.</li><li><strong>B.</strong> $(-1, 0)$: $0 \\leq -1$ &cross;; fails.</li><li><strong>C.</strong> $(0, 1)$: $1 \\leq 0$ &cross;; fails.</li><li><strong>D.</strong> $(0, -1)$: $-1 \\leq 0$ &check; and $-1 \\leq 0$ &check;; satisfies both.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "title": "Check the correct pair",
+      "content": "For $(0,-1)$, the first inequality gives $-1\\le0$, which is true. The second gives $-1\\le -0$, or $-1\\le0$, which is also true."
+    },
+    {
+      "title": "Eliminate the others",
+      "content": "$(1,0)$ fails $y\\le -x$, $(-1,0)$ fails $y\\le x$, and $(0,1)$ fails both. Therefore choice <strong>D</strong> is correct."
     }
   ]
 }

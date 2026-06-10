@@ -13,10 +13,7 @@
     },
     {
       "title": "Compute the average rate of change",
-      "content": "Use change in rainfall divided by change in time: $$\\frac{y(5)-y(0)}{5-0}=\\frac{3-0}{5}=\\frac{3}{5}=0.6.$$ The units are centimeters per hour.",
-      "desmosExpressions": [
-        "\\frac{3-0}{5-0}"
-      ]
+      "content": "Use change in rainfall divided by change in time: $$\\frac{y(5)-y(0)}{5-0}=\\frac{3-0}{5}=\\frac{3}{5}=0.6.$$ The units are centimeters per hour."
     },
     {
       "title": "Confirm the answer",

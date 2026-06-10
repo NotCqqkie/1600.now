@@ -4,19 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Graph the vertex model",
-      "content": "The maximum height is at $t=3$, so the axis of symmetry is $t=3$. To make this visible, fit $h=a(t-3)^2+51.1$ using the launch point $(0,7)$ and the vertex $(3,51.1)$, then graph the horizontal line $y=7$.",
-      "desmosExpressions": [
-        "t_1=[0,3]",
-        "h_1=[7,51.1]",
-        "h_1~a(t_1-3)^2+51.1",
-        "y=a(x-3)^2+51.1",
-        "y=7"
-      ]
+      "title": "Use the axis of symmetry",
+      "content": "The maximum height occurs at $t=3$, so the parabola's axis of symmetry is $t=3$."
     },
     {
-      "title": "Compute the return time",
-      "content": "The graph intersects $y=7$ at $t=0$ and again at $t=6$. By symmetry, the two equal-height times must average to the vertex time: $\\frac{0+t_2}{2}=3$, so $t_2=6$. That matches choice <strong>B</strong>."
+      "title": "Reflect the launch time",
+      "content": "The object has height $7$ at $t=0$. The matching time with the same height is the same distance on the other side of $t=3$: $$3+(3-0)=6.$$ That matches choice <strong>B</strong>."
     }
   ]
 }

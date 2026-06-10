@@ -17,12 +17,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; '$f(t) = -16(t+185)^2 - 2$'</strong>: Places the vertex at $(-185, -2)$, which is completely wrong. &#10007;</li><li><strong>Choice B &mdash; '$f(t) = -16(t-185)^2 + 2$'</strong>: Places the vertex at $(185, 2)$; the maximum height would be only 2 ft, not 185. &#10007;</li><li><strong>Choice C &mdash; '$f(t) = -16(t+2)^2 - 185$'</strong>: Places the vertex at $(-2, -185)$; the maximum height would be $-185$ ft, which is impossible. &#10007;</li><li><strong>Choice D &mdash; '$f(t) = -16(t-2)^2 + 185$'</strong>: Vertex at $(2, 185)$, initial height $f(0) = 121$. Both conditions satisfied. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "f(t)=-16(t-2)^{2}+185",
-        "(2,185)",
-        "(0,121)"
-      ]
+      "content": "<ul><li><strong>Choice A &mdash; '$f(t) = -16(t+185)^2 - 2$'</strong>: Places the vertex at $(-185, -2)$, which is completely wrong. &#10007;</li><li><strong>Choice B &mdash; '$f(t) = -16(t-185)^2 + 2$'</strong>: Places the vertex at $(185, 2)$; the maximum height would be only 2 ft, not 185. &#10007;</li><li><strong>Choice C &mdash; '$f(t) = -16(t+2)^2 - 185$'</strong>: Places the vertex at $(-2, -185)$; the maximum height would be $-185$ ft, which is impossible. &#10007;</li><li><strong>Choice D &mdash; '$f(t) = -16(t-2)^2 + 185$'</strong>: Vertex at $(2, 185)$, initial height $f(0) = 121$. Both conditions satisfied. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
     }
   ]
 }

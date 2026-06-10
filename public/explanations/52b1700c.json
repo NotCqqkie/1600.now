@@ -4,18 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use Desmos to fit the exponential table",
-      "content": "Enter the table in Desmos as $x_1=[0,1,2]$ and $y_1=[604,606.42,608.84]$. Then type the regression row $y_1 \\sim a b^{x_1}$. Desmos returns $a=604$ and $b=1.004$, so the graphable model is $y=604(1.004)^x$. In the question's variables, that is $n=604(1.004)^t=604(1+0.004)^t$.",
-      "desmosExpressions": [
-        "x_1=[0,1,2]",
-        "y_1=[604,606.42,608.84]",
-        "y_1~a b^{x_1}",
-        "y=604(1.004)^x"
-      ]
+      "title": "Use the initial amount",
+      "content": "At $t=0$, the account has $604.00$, so the exponential model must start with $604$:<br/>$$n=604(\\text{growth factor})^t$$"
     },
     {
-      "title": "Match the equation to the choices",
-      "content": "Choice C is $n=604(1+0.004)^t$, which has the same starting value, 604, and the same growth factor, $1.004$. It also checks at $t=2$: $604(1.004)^2=608.84$, matching the table. That matches choice C &mdash; <strong>C</strong> is correct."
+      "title": "Find the yearly growth factor",
+      "content": "From $t=0$ to $t=1$, the amount changes from $604.00$ to $606.42$:<br/>$$\\frac{606.42}{604}=1.004$$<br/>Thus the model is $$n=604(1.004)^t=604(1+0.004)^t.$$"
+    },
+    {
+      "title": "Choose the match",
+      "content": "$n=604(1+0.004)^t$ matches choice C, so <strong>C</strong> is correct."
     }
   ]
 }

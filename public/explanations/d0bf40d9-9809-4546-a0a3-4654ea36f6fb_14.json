@@ -9,11 +9,7 @@
     },
     {
       "title": "Combine x terms and identify the slope",
-      "content": "Combine the $x$ terms: $\\frac{15}{2}x + 3x = \\frac{15}{2}x + \\frac{6}{2}x = \\frac{21}{2}x$<br/>The simplified equation is $y = \\frac{21}{2}x + 6$, which is in the form $y = mx + b$. The slope is $\\frac{21}{2}$ or $10.5$.<br/>The answer is <strong>10.5,21/2</strong>.",
-      "desmosExpressions": [
-        "y = \\frac{1}{2}(15x + 12) + 3x",
-        "y = 10.5x + 6"
-      ]
+      "content": "Combine the $x$ terms: $\\frac{15}{2}x + 3x = \\frac{15}{2}x + \\frac{6}{2}x = \\frac{21}{2}x$<br/>The simplified equation is $y = \\frac{21}{2}x + 6$, which is in the form $y = mx + b$. The slope is $\\frac{21}{2}$ or $10.5$.<br/>The answer is <strong>10.5,21/2</strong>."
     }
   ]
 }

@@ -9,12 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; '$f(24) &lt; 0$'</strong>: The point $(24, 0)$ is on the graph, so $f(24) = 0$, not less than zero. &#10007;</li><li><strong>Choice B &mdash; '$f(3) &lt; 0$'</strong>: The graph could dip below zero between $x = 0$ and $x = 9$ — no data rules this out. &#10003;</li><li><strong>Choice C &mdash; '$f(3) &gt; 0$'</strong>: Similarly possible. &#10003;</li><li><strong>Choice D &mdash; '$f(0) &lt; 24$'</strong>: $f(0) = 3$, and $3 &lt; 24$, so this is true. &#10003;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "(0, 3)",
-        "(9, 0)",
-        "(24, 0)"
-      ]
+      "content": "<ul><li><strong>Choice A &mdash; '$f(24) \\lt 0$'</strong>: The point $(24, 0)$ is on the graph, so $f(24) = 0$, not less than zero. &#10007;</li><li><strong>Choice B &mdash; '$f(3) \\lt 0$'</strong>: The graph could dip below zero between $x = 0$ and $x = 9$ — no data rules this out. &#10003;</li><li><strong>Choice C &mdash; '$f(3) \\gt 0$'</strong>: Similarly possible. &#10003;</li><li><strong>Choice D &mdash; '$f(0) \\lt 24$'</strong>: $f(0) = 3$, and $3 \\lt 24$, so this is true. &#10003;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

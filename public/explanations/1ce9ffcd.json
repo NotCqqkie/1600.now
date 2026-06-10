@@ -4,17 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Discriminant shortcut: exactly one solution means b² − 4ac = 0",
-      "content": "For $-9x^2 + 30x + c = 0$: $a = -9$, $b = 30$. Set $\\Delta = 0$:<br/>$$b^2 - 4ac = 30^2 - 4(-9)(c) = 900 + 36c = 0$$"
+      "title": "Use the one-solution condition",
+      "content": "A quadratic has exactly one real solution when its graph just touches the x-axis at the vertex. For $y=-9x^2+30x+c$, the vertex occurs at:<br/>$$x=\\frac{-30}{2(-9)}=\\frac{5}{3}$$"
     },
     {
-      "title": "Solve for c",
-      "content": "$$36c = -900 \\Rightarrow c = -25$$<br/>That matches choice C — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y_1=[0]",
-        "y_1~30^2-4*(-9)*c",
-        "y = -9x^2 + 30x - 25"
-      ]
+      "title": "Set the vertex height to zero",
+      "content": "Substitute $x=\\frac{5}{3}$ and set $y=0$:<br/>$$-9\\left(\\frac{5}{3}\\right)^2+30\\left(\\frac{5}{3}\\right)+c=0$$<br/>$$-25+50+c=0$$<br/>$$c=-25$$<br/>That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

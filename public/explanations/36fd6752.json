@@ -9,12 +9,7 @@
     },
     {
       "title": "Match the coefficients",
-      "content": "The $r$-coefficients are both $7$, so the scale factor is $1$. Therefore the $w$-coefficients must match: $-p=-10$, so $p=10$. A Desmos coefficient regression can solve the same match directly.",
-      "desmosExpressions": [
-        "r_1=[1,0]",
-        "w_1=[0,1]",
-        "7r_1-pw_1~7r_1-10w_1"
-      ]
+      "content": "The $r$-coefficients are both $7$, so the scale factor is $1$. Therefore the $w$-coefficients must match: $-p=-10$, so $p=10$."
     },
     {
       "title": "Confirm no solution",

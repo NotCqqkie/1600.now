@@ -4,18 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the discriminant condition",
-      "content": "A quadratic has no real solutions when the discriminant is negative. For $x^2 - 34x + c = 0$, we have $a = 1$ and $b = -34$. The discriminant is $(-34)^2 - 4(1)(c) = 1156 - 4c$. For no real solutions: $1156 - 4c < 0$.",
-      "formula": "$$b^2 - 4ac < 0$$"
+      "title": "Turn no real solutions into a boundary",
+      "content": "A quadratic has no real solutions when the discriminant is negative. For $x^2 - 34x + c = 0$, we have $a = 1$ and $b = -34$. The discriminant is $(-34)^2 - 4(1)(c) = 1156 - 4c$. For no real solutions: $1156 - 4c \\lt 0$.",
+      "formula": "$$b^2 - 4ac \\lt 0$$"
     },
     {
       "title": "Find the boundary where the discriminant becomes zero",
-      "content": "The equation transitions from one solution to zero solutions when $1156 - 4c = 0$. Solving: $4c = 1156$, so $c = 289$. Since no real solutions occur when $c > 289$, the least possible value of $n$ is <strong>289</strong>.",
-      "desmosExpressions": [
-        "y_1=[0]",
-        "y_1~1156-4c",
-        "y = x^2 - 34x + 290"
-      ]
+      "content": "The equation transitions from one solution to zero solutions when $1156 - 4c = 0$. Solving: $4c = 1156$, so $c = 289$. Since no real solutions occur when $c > 289$, the least possible value of $n$ is <strong>289</strong>."
     }
   ]
 }

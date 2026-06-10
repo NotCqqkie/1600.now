@@ -8,12 +8,11 @@
       "content": "The linear function passes through $(4,190)$ and $(10,670)$. Since two points determine a line, those two facts are enough to identify the equation."
     },
     {
-      "title": "Run a Desmos regression",
-      "content": "Enter $x_1=[4,10]$ and $y_1=[190,670]$, then type $y_1\\sim m x_1+b$. Desmos gives $m=80$ and $b=-130$, so $$f(x)=80x-130.$$",
+      "title": "Use the relationship directly",
+      "content": "Use the table points directly. From $(4,190)$ to $(10,670)$, the slope is $m=\\frac{670-190}{10-4}=80.$ Substituting a point into $y=mx+b$ gives $b=-130$.",
       "desmosExpressions": [
         "x_1=[4,10]",
         "y_1=[190,670]",
-        "y_1~m x_1+b",
         "y=80x-130"
       ]
     },

@@ -9,11 +9,7 @@
     },
     {
       "title": "Substitute to find y",
-      "content": "Plug $x = 1$ into the first equation:<br/>$$y = -15(1) + 21 = 6$$<br/>The solution is $(1, 6)$. That matches choice C — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y = -15x + 21",
-        "y = -21x + 27"
-      ]
+      "content": "Plug $x = 1$ into the first equation:<br/>$$y = -15(1) + 21 = 6$$<br/>The solution is $(1, 6)$. That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

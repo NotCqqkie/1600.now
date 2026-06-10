@@ -9,11 +9,7 @@
     },
     {
       "title": "Apply the right angle condition with the Pythagorean theorem",
-      "content": "Triangle $ACB$ has a right angle at $C$ (given: $\\angle ACB = 90°$). Both $CA$ and $CB$ are radii, so $CA = CB = \\sqrt{231}$. Since the angle between them is $90°$, apply the Pythagorean theorem directly:<br/>$$AB^2 = CA^2 + CB^2 = (\\sqrt{231})^2 + (\\sqrt{231})^2 = 231 + 231 = 462$$<br/>$$AB = \\sqrt{462}$$<br/>That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "x^2 + y^2 = 231",
-        "(1, \\sqrt{230})"
-      ]
+      "content": "Triangle $ACB$ has a right angle at $C$ (given: $\\angle ACB = 90°$). Both $CA$ and $CB$ are radii, so $CA = CB = \\sqrt{231}$. Since the angle between them is $90°$, apply the Pythagorean theorem directly:<br/>$$AB^2 = CA^2 + CB^2 = (\\sqrt{231})^2 + (\\sqrt{231})^2 = 231 + 231 = 462$$<br/>$$AB = \\sqrt{462}$$<br/>That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

@@ -13,7 +13,7 @@
     },
     {
       "title": "Verify",
-      "content": "If $n=14$, the larger integer is $2(14)+5=33$, and $14\\times 33=462$, which matches.<br/>The smaller integer is <strong>14</strong>."
+      "content": "If $n=14$, the larger integer is $2(14)+5=33$, and $14\\times 33=462$, which matches.<br/>The smaller integer is <strong>14</strong>, so the answer is <strong>14</strong>."
     }
   ]
 }

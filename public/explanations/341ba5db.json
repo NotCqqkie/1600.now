@@ -9,10 +9,7 @@
     },
     {
       "title": "State the minimum",
-      "content": "Since $a=1&gt;0$, the parabola opens upward — the vertex is the minimum. The minimum value is $g(0)=55$. That matches choice B — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "g(x)=x^2+55"
-      ]
+      "content": "Since $a=1\\gt0$, the parabola opens upward — the vertex is the minimum. The minimum value is $g(0)=55$. That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

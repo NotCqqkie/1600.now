@@ -9,11 +9,7 @@
     },
     {
       "title": "Solve for the value",
-      "content": "Adding $24$ and multiplying by $\\frac{9}{4}$ gives $$x=\\frac{9}{4}\\cdot 24=54.$$ The answer is <strong>54</strong>.",
-      "desmosExpressions": [
-        "y = \\frac{4}{9}x - 24",
-        "(54, 0)"
-      ]
+      "content": "Adding $24$ and multiplying by $\\frac{9}{4}$ gives $$x=\\frac{9}{4}\\cdot 24=54.$$ The answer is <strong>54</strong>."
     },
     {
       "title": "Confirm the answer",

@@ -4,21 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the no-real-solutions boundary",
-      "content": "For $-x^2+bx-676=0$, the discriminant is $$b^2-4(-1)(-676)=b^2-2704$$ A quadratic has no real solutions only when this value is negative. That gives $$b^2-2704\\lt 0$$ so $$b^2\\lt 2704$$ This is faster than trying many values because the discriminant tells you exactly where the graph stops crossing the x-axis."
+      "title": "Use the maximum value",
+      "content": "The graph of $y=-x^2+bx-676$ opens downward. For the equation to have no real solutions, the graph must stay below the x-axis, so its maximum value must be less than $0$."
     },
     {
-      "title": "Find the integer endpoint",
-      "content": "Since $2704=52^2$, the inequality is $b^2\\lt 52^2$. The question says $b$ is a positive integer, so $b\\lt 52$. The endpoint $52$ is not allowed because it would make the discriminant exactly zero, giving one real solution instead of no real solutions. The greatest possible positive integer is therefore $51$.",
-      "desmosExpressions": [
-        "B=[51,52]",
-        "B^2-2704",
-        "y=-x^2+51x-676"
-      ]
+      "title": "Find the boundary",
+      "content": "The vertex occurs at $x=\\frac{b}{2}$. Substitute that value:<br/>$$-\\left(\\frac{b}{2}\\right)^2+b\\left(\\frac{b}{2}\\right)-676=\\frac{b^2}{4}-676$$<br/>No real solutions requires $\\frac{b^2}{4}-676\\lt0$, so $b^2\\lt2704=52^2$."
     },
     {
       "title": "Confirm the answer",
-      "content": "At $b=51$, the discriminant is negative, so there are no real solutions. At $b=52$, the discriminant is $0$, which gives one real solution, so it is too large. The answer is <strong>51</strong>."
+      "content": "Because $b$ is a positive integer, $b\\lt52$. The greatest possible value is <strong>51</strong>."
     }
   ]
 }

@@ -4,25 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use quadratic regression",
-      "content": "The product of two linear factors is a quadratic, so Desmos can fit the expanded form quickly. Enter three $w$-values and regress to $aw^2+bw+c$:<br/>$$w_1=[-1,0,1]$$<br/>$$p_1=(w_1+7)(3w_1-10)$$<br/>$$p_1\\sim aw_1^2+bw_1+c$$",
-      "desmosExpressions": [
-        "w_1=[-1,0,1]",
-        "p_1=(w_1+7)(3w_1-10)",
-        "p_1\\sim aw_1^2+bw_1+c"
-      ]
+      "title": "Multiply the binomials",
+      "content": "Use FOIL on $(w+7)(3w-10)$:<br/>$$w\\cdot3w=3w^2$$<br/>$$w\\cdot(-10)=-10w$$<br/>$$7\\cdot3w=21w$$<br/>$$7\\cdot(-10)=-70$$"
     },
     {
-      "title": "Read the coefficients",
-      "content": "The regression gives $a=3$, $b=11$, and $c=-70$, so the expression is:<br/>$$3w^2+11w-70$$"
-    },
-    {
-      "title": "Confirm by multiplying",
-      "content": "FOIL gives:<br/>$$(w+7)(3w-10)=3w^2-10w+21w-70$$<br/>Combine the middle terms: $-10w+21w=11w$, so the product is $3w^2+11w-70$."
-    },
-    {
-      "title": "Answer",
-      "content": "$3w^2+11w-70$ matches choice C, so <strong>C</strong> is correct."
+      "title": "Combine like terms",
+      "content": "The middle terms combine to $-10w+21w=11w$, so the product is $$3w^2+11w-70.$$ That matches choice C, so <strong>C</strong> is correct. This also checks the answer choices: C is the only option with all three parts, $3w^2$, $+11w$, and $-70$."
     }
   ]
 }

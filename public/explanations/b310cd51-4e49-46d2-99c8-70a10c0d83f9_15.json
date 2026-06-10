@@ -13,11 +13,7 @@
     },
     {
       "title": "Compute $f(-2) - f(0)$",
-      "content": "$$f(-2) = 34(-3)^2 + 6 = 306 + 6 = 312$$<br/>$$f(0) = 34(-1)^2 + 6 = 34 + 6 = 40$$<br/>$$f(-2) - f(0) = 312 - 40 = 272$$<br/>That matches choice C — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "f(x) = 34(x-1)^2 + 6",
-        "f(-2) - f(0)"
-      ]
+      "content": "$$f(-2) = 34(-3)^2 + 6 = 306 + 6 = 312$$<br/>$$f(0) = 34(-1)^2 + 6 = 34 + 6 = 40$$<br/>$$f(-2) - f(0) = 312 - 40 = 272$$<br/>That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

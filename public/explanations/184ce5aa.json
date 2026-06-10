@@ -9,11 +9,7 @@
     },
     {
       "title": "Flip and negate for the perpendicular slope",
-      "content": "Perpendicular shortcut: negative reciprocal of $-\\tfrac{7}{5}$ is $\\tfrac{5}{7}$. That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "(1/5)x+(1/7)y-70=0",
-        "y=(5/7)x"
-      ]
+      "content": "Perpendicular shortcut: negative reciprocal of $-\\tfrac{7}{5}$ is $\\tfrac{5}{7}$. That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

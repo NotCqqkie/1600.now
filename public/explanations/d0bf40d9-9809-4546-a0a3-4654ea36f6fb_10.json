@@ -13,11 +13,7 @@
     },
     {
       "title": "Identify a from the given form",
-      "content": "We're given that $f(x) = ax$. Since we've determined $f(x) = 28x$, we have $a = 28$.",
-      "desmosExpressions": [
-        "y = 28x",
-        "(0, 0)"
-      ]
+      "content": "We're given that $f(x) = ax$. Since we've determined $f(x) = 28x$, we have $a = 28$."
     }
   ]
 }

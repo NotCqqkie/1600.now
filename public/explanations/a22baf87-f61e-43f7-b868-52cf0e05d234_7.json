@@ -12,11 +12,12 @@
       "content": "The subtraction gives $$2x-(-2x)=(9+7y)-(3+7y).$$ The $7y$ terms cancel, leaving $$4x=6.$$ Since this is exactly what the question asks for, the answer is <strong>6</strong>."
     },
     {
-      "title": "Desmos graph check",
-      "content": "Graphing both lines gives an intersection with $x=1.5$. Then $4x=4(1.5)=6$, confirming the direct elimination result.",
+      "title": "Check with the intersection",
+      "content": "The two lines intersect at $x=1.5$. Substituting that value into the requested expression gives $$4x=4(1.5)=6,$$ which agrees with the elimination shortcut.",
       "desmosExpressions": [
         "y=\\frac{2x-9}{7}",
-        "y=\\frac{-2x-3}{7}"
+        "y=\\frac{-2x-3}{7}",
+        "(1.5,-\\frac{6}{7})"
       ]
     }
   ]

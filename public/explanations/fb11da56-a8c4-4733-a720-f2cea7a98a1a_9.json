@@ -1,1 +1,15 @@
-{"questionId": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_9", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Apply the quadratic formula", "content": "For $4x^2 + 5x - 5 = 0$ with $a = 4$, $b = 5$, $c = -5$:<br/>$$x = \\dfrac{-b \\pm \\sqrt{b^2 - 4ac}}{2a} = \\dfrac{-5 \\pm \\sqrt{25 - 4(4)(-5)}}{8} = \\dfrac{-5 \\pm \\sqrt{105}}{8}$$"}, {"title": "Pick the greater root", "content": "The greatest solution uses the $+$ sign:<br/>$$x = -\\dfrac{5}{8} + \\dfrac{\\sqrt{105}}{8}$$<br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_9",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the root-finding method",
+      "content": "This is a quadratic equation, so the goal is to find its roots. The quadratic formula is a direct way to solve it when simple factoring is not the focus. For $4x^2 + 5x - 5 = 0$ with $a = 4$, $b = 5$, $c = -5$:<br/>$$x = \\dfrac{-b \\pm \\sqrt{b^2 - 4ac}}{2a} = \\dfrac{-5 \\pm \\sqrt{25 - 4(4)(-5)}}{8} = \\dfrac{-5 \\pm \\sqrt{105}}{8}$$"
+    },
+    {
+      "title": "Pick the greater root",
+      "content": "The greatest solution uses the $+$ sign:<br/>$$x = -\\dfrac{5}{8} + \\dfrac{\\sqrt{105}}{8}$$<br/>That matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -9,11 +9,7 @@
     },
     {
       "title": "Calculate f(3)",
-      "content": "$$f(3) = -40(3) + 340$$<br/>$$f(3) = -120 + 340$$<br/>$$f(3) = 220$$<br/>That matches choice B — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "y = -40x + 340",
-        "(3, 220)"
-      ]
+      "content": "$$f(3) = -40(3) + 340$$<br/>$$f(3) = -120 + 340$$<br/>$$f(3) = 220$$<br/>That matches choice B - <strong>B</strong> is correct."
     }
   ]
 }

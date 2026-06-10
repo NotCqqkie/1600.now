@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Graph or substitute",
-      "content": "A fast Desmos check is to graph both equations and read the intersection's $x$-coordinate. Algebraically, first rewrite the equations as $y=-x^2$ and $y=8x+16$.",
+      "content": "The solution is the intersection of the two graphs. A graphing check should show the same intersection, but algebraically, first rewrite the equations as $y=-x^2$ and $y=8x+16$.",
       "desmosExpressions": [
         "x^2+y+10=10",
         "8x+16-y=0"
@@ -17,7 +17,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "<ul><li>Choice A, $-16$, is the corresponding $y$-value, not the requested $x$-value.</li><li>Choice B, $-4$, is the intersection's $x$-coordinate. Correct.</li><li>Choices C and D do not satisfy the squared equation.</li></ul>That matches choice B."
+      "content": "<ul><li>Choice A, $-16$, is the corresponding $y$-value, not the requested $x$-value.</li><li>Choice B, $-4$, is the intersection's $x$-coordinate. Correct.</li><li>Choices C and D do not satisfy the squared equation.</li></ul>That matches choice <strong>B</strong>, so <strong>B</strong> is correct."
     }
   ]
 }

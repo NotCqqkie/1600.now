@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Convert &quot;158% greater&quot; to a growth multiplier",
-      "content": "If the mass is 158% greater than the previous period, the new mass equals the old mass plus 158% of the old mass: $M_{\\text{new}} = M_{\\text{old}} + 1.58 \\cdot M_{\\text{old}} = 2.58 \\cdot M_{\\text{old}}$. The growth factor per 5-week period is $2.58$."
+      "title": "Use the answer-choice structure",
+      "content": "\"158% greater\" means the mass is multiplied by $1+1.58=2.58$ each growth period. Since each period is $5$ weeks, the exponent must count 5-week periods: $t/5$."
     },
     {
-      "title": "Build the exponential model",
-      "content": "Starting from initial mass $M_0$, after $t$ weeks the number of 5-week periods elapsed is $\\frac{t}{5}$. The model is: $M = M_0 \\cdot (2.58)^{t/5}$. The exponent must be $\\frac{t}{5}$, not $\\frac{5}{t}$, so that M grows as t increases."
+      "title": "Eliminate by multiplier and exponent",
+      "content": "Choices A and C use multiplier $1.58$, so they represent a $58\\%$ increase, not a $158\\%$ increase. Choice B uses the correct multiplier but exponent $5/t$, which decreases as time increases. Only choice D has both $2.58$ and $t/5$."
     },
     {
-      "title": "Solve for $M_0$ using t = 15, M = 627.7",
-      "content": "Substitute $t = 15$: $627.7 = M_0 \\cdot (2.58)^{15/5} = M_0 \\cdot (2.58)^3$. Compute $(2.58)^3 = 2.58 \\times 2.58 \\times 2.58 \\approx 17.17$. So $M_0 = \\frac{627.7}{17.17} \\approx 36.55$."
+      "title": "Quickly verify the starting value",
+      "content": "Choice D says $M=36.55(2.58)^{t/5}$. At $t=15$, this gives:<br/>$$36.55(2.58)^3\\approx627.7$$<br/>That matches the given mass."
     },
     {
       "title": "Evaluate all choices",

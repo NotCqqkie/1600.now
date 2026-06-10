@@ -9,10 +9,7 @@
     },
     {
       "title": "Interpret the factor",
-      "content": "In $(15w)(w)$, the factor $w$ is the width, so $(15w)$ must be the length. That matches choice <strong>A</strong> — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y=(15w)(w)"
-      ]
+      "content": "In $(15w)(w)$, the factor $w$ is the width, so $(15w)$ must be the length. That matches choice <strong>A</strong> — <strong>A</strong> is correct."
     }
   ]
 }

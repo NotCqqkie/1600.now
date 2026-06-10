@@ -9,20 +9,15 @@
     },
     {
       "title": "Test Equation I: $7.5x + 4.5y = 9$",
-      "content": "Check ratios: $\\frac{7.5}{5} = 1.5$, $\\frac{4.5}{3} = 1.5$, $\\frac{9}{6} = 1.5$. All ratios equal, so Equation I is $1.5 \\times$ the original &rarr; same line &rarr; infinitely many solutions. At least one solution exists."
+      "content": "Check ratios: $\\frac{7.5}{5} = 1.5$, $\\frac{4.5}{3} = 1.5$, $\\frac{9}{6} = 1.5$. All ratios equal, so Equation I is $1.5 \\times$ the original $\\Rightarrow$ same line $\\Rightarrow$ infinitely many solutions. At least one solution exists."
     },
     {
       "title": "Test Equation II: $7.5x - 4.5y = 9$",
-      "content": "Check slope: $-4.5y = -7.5x + 9 \\Rightarrow y = \\frac{5}{3}x - 2$. Slope $= \\frac{5}{3} \\neq -\\frac{5}{3}$ (different sign). Different slopes &rarr; lines intersect at exactly one point &rarr; one solution. At least one solution exists."
+      "content": "Check slope: $-4.5y = -7.5x + 9 \\Rightarrow y = \\frac{5}{3}x - 2$. Slope $= \\frac{5}{3} \\neq -\\frac{5}{3}$ (different sign). Different slopes $\\Rightarrow$ lines intersect at exactly one point $\\Rightarrow$ one solution. At least one solution exists."
     },
     {
       "title": "Evaluate all four answer choices",
-      "content": "<ul><li><strong>Choice A &mdash; 'I only'</strong>: Equation I gives infinitely many solutions &#10003;, but Equation II also gives at least one solution &#10003;, so &ldquo;I only&rdquo; is too restrictive. &#10007;</li><li><strong>Choice B &mdash; 'II only'</strong>: Equation II gives exactly one solution &#10003;, but Equation I also gives at least one solution &#10003;, so &ldquo;II only&rdquo; is too restrictive. &#10007;</li><li><strong>Choice C &mdash; 'I and II'</strong>: Both Equation I (infinitely many solutions) and Equation II (exactly one solution) satisfy the condition of having at least one solution. &#10003;</li><li><strong>Choice D &mdash; 'Neither I nor II'</strong>: Both equations do yield at least one solution, so &ldquo;Neither&rdquo; is incorrect. &#10007;</li></ul>",
-      "desmosExpressions": [
-        "y = \\frac{6 - 5x}{3}",
-        "y = \\frac{9 - 7.5x}{4.5}",
-        "y = \\frac{7.5x - 9}{4.5}"
-      ]
+      "content": "<ul><li><strong>Choice A &mdash; 'I only'</strong>: Equation I gives infinitely many solutions &#10003;, but Equation II also gives at least one solution &#10003;, so &ldquo;I only&rdquo; is too restrictive. &#10007;</li><li><strong>Choice B &mdash; 'II only'</strong>: Equation II gives exactly one solution &#10003;, but Equation I also gives at least one solution &#10003;, so &ldquo;II only&rdquo; is too restrictive. &#10007;</li><li><strong>Choice C &mdash; 'I and II'</strong>: Both Equation I (infinitely many solutions) and Equation II (exactly one solution) satisfy the condition of having at least one solution. &#10003;</li><li><strong>Choice D &mdash; 'Neither I nor II'</strong>: Both equations do yield at least one solution, so &ldquo;Neither&rdquo; is incorrect. &#10007;</li></ul>"
     },
     {
       "title": "Conclusion",

@@ -4,14 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use Desmos to fit the quadratic table",
-      "content": "Enter the table as $x_1=[24,30,32]$ and $y_1=[-8,-8,8]$. Then use the quadratic regression row $y_1 \\sim a x_1^2+b x_1+c$. Desmos gives $y=x^2-54x+712$. Factoring that form gives $y=(x-24)(x-30)-8$, which is exactly one of the answer choices.",
-      "desmosExpressions": [
-        "x_1=[24,30,32]",
-        "y_1=[-8,-8,8]",
-        "y_1~a x_1^2+b x_1+c",
-        "y=(x-24)(x-30)-8"
-      ]
+      "title": "Use the repeated output",
+      "content": "The table has $f(24)=-8$ and $f(30)=-8$. A factored quadratic that gives the same output at $x=24$ and $x=30$ is built from $(x-24)(x-30)$, because that product is $0$ at both inputs. To make the output $-8$ at those inputs, use $$f(x)=(x-24)(x-30)-8.$$"
     },
     {
       "title": "Use the equal outputs as a quick check",
@@ -19,10 +13,7 @@
     },
     {
       "title": "Eliminate the other choices",
-      "content": "<ul><li>A: $f(x)=(x-24)(x-30)+4$ gives $f(24)=4\\neq-8$. Eliminated.</li><li>B: $f(x)=(x-24)(x-30)-8$ gives $f(24)=-8$, $f(30)=-8$, $f(32)=8$. All match.</li><li>C: $f(x)=(x-8)(x-32)+32$ gives $f(24)=(16)(-8)+32=-96\\neq-8$. Eliminated.</li><li>D: $f(x)=(x-8)(x-32)-32$ gives $f(24)=(16)(-8)-32=-160\\neq-8$. Eliminated.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "f(x)=(x-24)(x-30)-8"
-      ]
+      "content": "<ul><li>A: $f(x)=(x-24)(x-30)+4$ gives $f(24)=4\\neq-8$. Eliminated.</li><li>B: $f(x)=(x-24)(x-30)-8$ gives $f(24)=-8$, $f(30)=-8$, $f(32)=8$. All match.</li><li>C: $f(x)=(x-8)(x-32)+32$ gives $f(24)=(16)(-8)+32=-96\\neq-8$. Eliminated.</li><li>D: $f(x)=(x-8)(x-32)-32$ gives $f(24)=(16)(-8)-32=-160\\neq-8$. Eliminated.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
     }
   ]
 }

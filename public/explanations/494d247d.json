@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the intersection point from the graph",
-      "content": "The absolute value function (V-shaped curve, vertex at $(-3, 4)$) and the linear function (the line, passing through $(0, 8)$) intersect on the left branch at approximately <strong>x = −3.5</strong> and <strong>y = 4.5</strong>."
+      "title": "Use the graph, not invented equations",
+      "content": "The problem does not give formulas for the line or the absolute value graph. The solution to a system is the point where the two graphs intersect, so read the marked black point directly from the grid."
     },
     {
-      "title": "Express as fractions and eliminate wrong choices",
-      "content": "Convert the decimal coordinates to fractions:<br/>$$x = -3.5 = -\\frac{7}{2}, \\quad y = 4.5 = \\frac{9}{2}$$<br/><ul><li><strong>Choice A</strong>: $(0, 8)$ — that is the y-intercept of the line, not the intersection point. ✗</li><li><strong>Choice B</strong>: Has the wrong sign on the x-coordinate — does not lie on both functions. ✗</li><li><strong>Choice C</strong>: $\\left(-\\frac{7}{2},\\, \\frac{9}{2}\\right)$ — verify: $\\left|-\\frac{7}{2}+3\\right|+4 = \\frac{1}{2}+4 = \\frac{9}{2}$ ✓ and $-\\frac{7}{2}+8 = \\frac{9}{2}$ ✓. This lies on both curves. ✓</li><li><strong>Choice D</strong>: $(-3, 4)$ — that is the vertex of the absolute value function, not the intersection. ✗</li></ul>The solution to the system is $\\left(-\\frac{7}{2}, \\frac{9}{2}\\right)$. That matches choice C — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y = |x + 3| + 4",
-        "y = x + 8"
-      ]
+      "title": "Read the coordinates",
+      "content": "The black point is halfway between $-4$ and $-3$ on the $x$-axis, so $x=-3.5=-\\frac{7}{2}$. It is also halfway between $4$ and $5$ on the $y$-axis, so $y=4.5=\\frac{9}{2}$. Therefore the intersection is $$\\left(-\\frac{7}{2},\\frac{9}{2}\\right).$$"
+    },
+    {
+      "title": "Check the answer choices visually",
+      "content": "<ul><li><strong>A</strong>: $(0,8)$ is on the $y$-axis, not at the marked intersection.</li><li><strong>B</strong>: $\\left(\\frac{7}{2},\\frac{9}{2}\\right)$ has a positive $x$-coordinate, but the marked point is left of the $y$-axis.</li><li><strong>C</strong>: $\\left(-\\frac{7}{2},\\frac{9}{2}\\right)$ matches the marked point.</li><li><strong>D</strong>: $(-3,4)$ is the vertex of the V-shaped graph, not the intersection.</li></ul>Choice <strong>C</strong> is correct."
     }
   ]
 }

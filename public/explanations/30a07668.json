@@ -13,11 +13,7 @@
     },
     {
       "title": "Apply the positivity constraint",
-      "content": "Since the problem requires $x > 0$, we eliminate $x = -2$ and keep $x = 6$.",
-      "desmosExpressions": [
-        "y = 4x",
-        "y = x^2 - 12"
-      ]
+      "content": "Since the problem requires $x > 0$, we eliminate $x = -2$ and keep $x = 6$."
     }
   ]
 }

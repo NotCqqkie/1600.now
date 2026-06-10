@@ -9,10 +9,7 @@
     },
     {
       "title": "Interpret the constant 6",
-      "content": "Given equation:<br/>$$y - 5x = 6$$<br/>This can be rewritten as:<br/>$$y = 5x + 6$$<br/>The equation shows that total purchased equals total used plus 6 yards. Therefore, 6 represents the excess fabric purchased beyond what was used for making the suits. That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y=5x"
-      ]
+      "content": "Given equation:<br/>$$y - 5x = 6$$<br/>This can be rewritten as:<br/>$$y = 5x + 6$$<br/>The equation shows that total purchased equals total used plus 6 yards. Therefore, 6 represents the excess fabric purchased beyond what was used for making the suits. That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

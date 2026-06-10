@@ -13,11 +13,7 @@
     },
     {
       "title": "Solve for k",
-      "content": "$$(-16)^2-4(k-24)(8)\\gt0$$<br/>$$256-32(k-24)\\gt0$$<br/>$$1024-32k\\gt0$$<br/>$$k\\lt32$$",
-      "desmosExpressions": [
-        "1024-32k",
-        "k=31"
-      ]
+      "content": "$$(-16)^2-4(k-24)(8)\\gt0$$<br/>$$256-32(k-24)\\gt0$$<br/>$$1024-32k\\gt0$$<br/>$$k\\lt32$$"
     },
     {
       "title": "Choose the greatest integer",

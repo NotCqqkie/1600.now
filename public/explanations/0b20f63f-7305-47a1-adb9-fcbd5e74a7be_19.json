@@ -4,23 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Graph the useful candidates",
-      "content": "This is a model-fit question, so use the graph instead of solving symbolically. The points climb in roughly even steps, so a linear model is appropriate; the exponential choices would curve far too sharply for $x$-values in the thousands. In Desmos, plot a few visible data anchors and graph the two linear answer choices.",
-      "desmosExpressions": [
-        "x_1=[1200,3200,4100]",
-        "y_1=[800,3100,4100]",
-        "(x_1,y_1)",
-        "y=-694+1.2x",
-        "y=694-1.2x"
-      ]
+      "title": "Use the shape of the data",
+      "content": "The plotted data increase at a roughly steady rate, so a linear model is more appropriate than an exponential model. That eliminates choices C and D."
     },
     {
-      "title": "Pick the right sign and intercept",
-      "content": "$y$ clearly increases as $x$ increases, so the slope must be positive. Choice B has slope $-1.2$, so it slopes the wrong way. Choice A, $y=-694+1.2x$, has positive slope and runs through the middle of the visible data cloud."
+      "title": "Use the direction of the trend",
+      "content": "Because $y$ increases as $x$ increases, the slope must be positive. Choice B has slope $-1.2$, so it goes the wrong direction."
     },
     {
-      "title": "Verify choice A against a data point",
-      "content": "Use the point near $(3200, 3100)$. Plugging into $y = -694 + 1.2x$: $$y = -694 + 1.2(3200) = -694 + 3840 = 3146,$$ very close to the observed $\\approx 3100$. The fit is good. That matches choice A — <strong>A</strong> is correct."
+      "title": "Choose the remaining model",
+      "content": "Choice A, $y=-694+1.2x$, is the only remaining equation with a positive linear trend. That matches the graph, so <strong>A</strong> is correct."
     }
   ]
 }

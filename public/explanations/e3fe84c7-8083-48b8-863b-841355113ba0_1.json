@@ -4,26 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Turn the words into two rows",
-      "content": "Use a quick table check. If $x=0$, then $y$ is $8$ more than twice $0$, so $y=8$. If $x=1$, then $y$ is $8$ more than twice $1$, so $y=10$.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[8,10]"
-      ]
+      "title": "Translate the phrase",
+      "content": "\"Twice the value of $x$\" is $2x$. \"$8$ more than\" that amount means add $8$."
     },
     {
-      "title": "Fit the line",
-      "content": "Run $y_1 \\sim mx_1+b$ in Desmos. The regression gives $m=2$ and $b=8$, so the equation is $y=2x+8$.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[8,10]",
-        "y_1~m x_1+b",
-        "y=2x+8"
-      ]
+      "title": "Write y in terms of x",
+      "content": "Since $y$ is $8$ more than twice $x$, $$y=2x+8.$$"
     },
     {
-      "title": "Eliminate the other choices",
-      "content": "Choice A and choice C have slope $10$, not $2$. Choice D has slope $8$ and intercept $2$, which swaps the two numbers from the phrase. Choice B, $y=2x+8$, matches the regression and the wording. Choice <strong>B</strong> is correct."
+      "title": "Confirm the choice",
+      "content": "Choice A and choice C use slope $10$, and choice D swaps the $2$ and $8$. Choice B is $y=2x+8$, so <strong>B</strong> is correct."
     }
   ]
 }

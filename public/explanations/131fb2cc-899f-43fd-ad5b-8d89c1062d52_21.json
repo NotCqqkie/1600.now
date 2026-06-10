@@ -9,12 +9,7 @@
     },
     {
       "title": "Apply to interpret the doubling time",
-      "content": "That gives $t=750$ minutes. The answer is <strong>750</strong>.",
-      "desmosExpressions": [
-        "y = 80000 \\cdot 2^{x/750}",
-        "(0, 80000)",
-        "(750, 160000)"
-      ]
+      "content": "That gives $t=750$ minutes. The answer is <strong>750</strong>."
     },
     {
       "title": "Confirm the answer",

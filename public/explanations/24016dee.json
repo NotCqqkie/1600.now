@@ -4,23 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use cubic regression to avoid sign errors",
-      "content": "The main trap is the minus sign before the second parentheses. A fast Desmos method is to evaluate the whole expression at four x-values.",
-      "desmosExpressions": [
-        "x_1=[-1,0,1,2]",
-        "y_1=(8x_1^3+8)-(x_1^3-2)"
-      ]
+      "title": "Distribute the subtraction",
+      "content": "Subtract every term in the second parentheses:<br/>$$(8x^3+8)-(x^3-2)=8x^3+8-x^3+2$$"
     },
     {
-      "title": "Fit the cubic form",
-      "content": "Regress the outputs against $ax^3+bx^2+cx+d$:<br/>$$y_1\\sim ax_1^3+bx_1^2+cx_1+d$$<br/>Desmos returns $a=7$, $b=0$, $c=0$, and $d=10$.",
-      "desmosExpressions": [
-        "y_1\\sim a x_1^3+b x_1^2+c x_1+d"
-      ]
+      "title": "Combine like terms",
+      "content": "$$8x^3-x^3=7x^3$$<br/>$$8+2=10$$<br/>So the expression is $$7x^3+10.$$"
     },
     {
-      "title": "Confirm with the sign rule",
-      "content": "Distribute the subtraction:<br/>$$(8x^3+8)-(x^3-2)=8x^3+8-x^3+2=7x^3+10$$<br/>That matches choice B, so <strong>B</strong> is correct."
+      "title": "Choose the match",
+      "content": "$7x^3+10$ matches choice <strong>B</strong>. The constant becomes $10$ because subtracting the second polynomial changes $-2$ to $+2$. This is why the expression is not $7x^3+6$ or $7x^3-10$."
     }
   ]
 }

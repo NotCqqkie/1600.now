@@ -9,11 +9,7 @@
     },
     {
       "title": "Vieta shortcut: sum of roots = -b/a",
-      "content": "$y^2 - y = 0$ has $a = 1$, $b = -1$. Sum of $y$-values $= -\\frac{b}{a} = -\\frac{-1}{1} = 1$. That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y = x^2 + 2x + 1",
-        "x + y + 1 = 0"
-      ]
+      "content": "$y^2 - y = 0$ has $a = 1$, $b = -1$. Sum of $y$-values $= -\\frac{b}{a} = -\\frac{-1}{1} = 1$. That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

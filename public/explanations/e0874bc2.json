@@ -9,11 +9,7 @@
     },
     {
       "title": "Apply scale factor to find XY",
-      "content": "$TU$ corresponds to $XY$, and $TU=18$. Multiply by the scale factor: $$XY=18\\cdot9=162.$$",
-      "desmosExpressions": [
-        "333/37",
-        "18*9"
-      ]
+      "content": "$TU$ corresponds to $XY$, and $TU=18$. Multiply by the scale factor: $$XY=18\\cdot9=162.$$"
     },
     {
       "title": "Confirm the choice",

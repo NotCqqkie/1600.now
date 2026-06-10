@@ -12,14 +12,8 @@
       "content": "Add the coefficients of the like terms and keep the variable part unchanged:<br/>$$4yz^3+3yz^3=7yz^3$$<br/>So the full expression becomes:<br/>$$4yz^3+5yz+3yz^3=7yz^3+5yz$$"
     },
     {
-      "title": "Check with a Desmos table",
-      "content": "To avoid the common exponent trap, test the original and choice A at two $(y,z)$ values:<br/>$$y_1=[1,2]$$<br/>$$z_1=[2,3]$$<br/>$$o_1=4y_1z_1^3+5y_1z_1+3y_1z_1^3$$<br/>$$a_1=7y_1z_1^3+5y_1z_1$$<br/>The lists match, so choice A is equivalent.",
-      "desmosExpressions": [
-        "y_1=[1,2]",
-        "z_1=[2,3]",
-        "o_1=4y_1z_1^3+5y_1z_1+3y_1z_1^3",
-        "a_1=7y_1z_1^3+5y_1z_1"
-      ]
+      "title": "Avoid the exponent trap",
+      "content": "Only coefficients of like terms are added. The exponent stays $3$ because $4yz^3$ and $3yz^3$ are being added, not multiplied."
     },
     {
       "title": "Confirm the answer",

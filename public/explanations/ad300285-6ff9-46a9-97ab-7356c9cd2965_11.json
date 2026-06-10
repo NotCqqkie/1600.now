@@ -5,14 +5,7 @@
   "steps": [
     {
       "title": "Use two anchor points from the best-fit line",
-      "content": "For a line-of-best-fit slope question, pick two readable points on the drawn line, not necessarily two scatterplot dots. The line passes approximately through $(0,12)$ and $(10,1)$. Enter those as a quick Desmos table and fit a line.",
-      "desmosExpressions": [
-        "x_1=[0,10]",
-        "y_1=[12,1]",
-        "(x_1,y_1)",
-        "y_1~m x_1+b",
-        "y=m x+b"
-      ]
+      "content": "For a line-of-best-fit slope question, pick two readable points on the drawn line, not necessarily two scatterplot dots. The line passes approximately through $(0,12)$ and $(10,1)$."
     },
     {
       "title": "Compute the slope",

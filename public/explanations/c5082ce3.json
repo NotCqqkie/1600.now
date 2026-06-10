@@ -9,11 +9,7 @@
     },
     {
       "title": "Add equations to eliminate i",
-      "content": "Add the equations together to cancel out $i$:<br/>$$c + i + 2c - i = 40 + 50$$<br/>$$3c = 90$$<br/>$$c = 30$$<br/>The player answered 30 questions correctly.",
-      "desmosExpressions": [
-        "y = 40 - x",
-        "y = 2x - 50"
-      ]
+      "content": "Add the equations together to cancel out $i$:<br/>$$c + i + 2c - i = 40 + 50$$<br/>$$3c = 90$$<br/>$$c = 30$$<br/>The player answered 30 questions correctly."
     }
   ]
 }

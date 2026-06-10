@@ -4,25 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the boundary line from the graph",
-      "content": "The line passes through the origin (0,0) and extends to the lower right. At x = 4, the line reaches y = -4, giving slope = -4/4 = -1. The boundary line equation is $y = -x$.",
-      "desmosExpressions": [
-        "y = -x"
-      ]
+      "title": "Use the shaded region directly",
+      "content": "The question asks which ordered pair is a solution to the graphed inequality. A solution is any point that lands inside the shaded region, so there is no need to write the boundary equation."
     },
     {
-      "title": "Determine the shaded region inequality",
-      "content": "The shaded region extends above the boundary line $y = -x$, representing all points where $y > -x$ (equivalently, $x + y > 0$)."
+      "title": "Check each plotted choice",
+      "content": "<ul><li><strong>A</strong> $(0,-4)$ is below the boundary and outside the shaded region.</li><li><strong>B</strong> $(0,4)$ is on the wrong side of the shaded region.</li><li><strong>C</strong> $(-4,0)$ is outside the shaded region.</li><li><strong>D</strong> $(4,0)$ is inside the shaded region.</li></ul>"
     },
     {
       "title": "Find the solution point",
-      "content": "Looking at the four choices, only (4, 0) lies in the shaded region. Backsolving — testing choice D (4, 0): Does it satisfy $y > -x$? Check: is $0 > -4$? Yes. That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "(0,-4)",
-        "(0,4)",
-        "(-4,0)",
-        "(4,0)"
-      ]
+      "content": "Only $(4,0)$ is represented by a point in the shaded region. That matches choice D &mdash; <strong>D</strong> is correct."
     }
   ]
 }

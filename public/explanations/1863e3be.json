@@ -9,10 +9,7 @@
     },
     {
       "title": "Substitute and evaluate",
-      "content": "Substituting $x = 0$ into the equation:\n$$y = (0)^2 + 31$$\n$$y = 0 + 31$$\n$$y = 31$$\nThe $y$-intercept point is $(0, 31)$, so $y = 31$. The answer is <strong>31</strong>.",
-      "desmosExpressions": [
-        "y=(x)^(2)+31"
-      ]
+      "content": "Substituting $x = 0$ into the equation:\n$$y = (0)^2 + 31$$\n$$y = 0 + 31$$\n$$y = 31$$\nThe $y$-intercept point is $(0, 31)$, so $y = 31$. The answer is <strong>31</strong>."
     }
   ]
 }

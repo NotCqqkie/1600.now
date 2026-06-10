@@ -9,10 +9,7 @@
     },
     {
       "title": "Interpret the y-intercept",
-      "content": "The y-intercept is 29, which represents the estimated number of scheduled deliveries at the end of May 2012. That matches choice B — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "y=-(1)/(4)(x)^(2)+2x+29"
-      ]
+      "content": "The y-intercept is 29, which represents the estimated number of scheduled deliveries at the end of May 2012. That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

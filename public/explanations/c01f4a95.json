@@ -8,23 +8,12 @@
       "content": "The function has the form $j(x)=mx+144$, so its y-intercept is $144$. That gives the point $(0,144)$. The statement $j(12)=18$ gives the point $(12,18)$."
     },
     {
-      "title": "Use linear regression in Desmos",
-      "content": "Enter those two points and regress a line. Desmos returns $m=-10.5$ and $b=144$.",
-      "desmosExpressions": [
-        "x_1=[0,12]",
-        "y_1=[144,18]",
-        "y_1\\sim m x_1+b"
-      ]
+      "title": "Find the line from the data",
+      "content": "Use the slope formula with $(0,144)$ and $(12,18)$:<br/>$$m=\\frac{18-144}{12-0}=\\frac{-126}{12}=-10.5.$$ Since the intercept is already $144$, $$j(x)=-10.5x+144.$$"
     },
     {
       "title": "Evaluate at x = 10",
-      "content": "Now compute:<br/>$$j(10)=-10.5(10)+144=-105+144=39$$<br/>In Desmos, $10m+b$ gives the same value after the regression.",
-      "desmosExpressions": [
-        "x_1=[0,12]",
-        "y_1=[144,18]",
-        "y_1~m x_1+b",
-        "10m+b"
-      ]
+      "content": "Now compute:<br/>$$j(10)=-10.5(10)+144=-105+144=39$$"
     },
     {
       "title": "Answer",

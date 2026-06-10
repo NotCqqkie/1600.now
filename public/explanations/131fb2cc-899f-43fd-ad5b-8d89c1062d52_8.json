@@ -9,11 +9,7 @@
     },
     {
       "title": "Find the matching ordered pair",
-      "content": "The ordered pair is $(5,35)$. The answer is <strong>(A) $(5,35)$</strong>.",
-      "desmosExpressions": [
-        "y = 10x - 15",
-        "y = 35"
-      ]
+      "content": "The ordered pair is $(5,35)$. The answer is <strong>(A) $(5,35)$</strong>."
     },
     {
       "title": "Confirm the answer",

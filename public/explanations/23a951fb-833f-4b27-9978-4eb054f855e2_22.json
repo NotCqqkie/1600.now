@@ -13,8 +13,8 @@
       "formula": "$$\\cos(90^\\circ - K) = \\sin K$$"
     },
     {
-      "title": "Eliminate the other choices",
-      "content": "<ul><li>A) $\\cos L > \\sin K$ &mdash; false; the values are equal, not greater. Eliminate.</li><li>B) $\\cos L = \\sin K$ &mdash; true by the cofunction identity. Keep.</li><li>C) $\\cos L < \\sin K$ &mdash; false; the values are equal, not less. Eliminate.</li><li>D) There is enough information; both angle measures are given. Eliminate.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "title": "Match the answer",
+      "content": "The values are equal, so the correct statement is $\\cos L=\\sin K$. That matches choice <strong>B</strong>."
     }
   ]
 }

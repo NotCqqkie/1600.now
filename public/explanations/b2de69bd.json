@@ -4,17 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Enter the table in Desmos",
-      "content": "This is a table-to-equation question, so the fastest calculator method is linear regression. Enter the table as $x_1=[1,2,3,4]$ and $y_1=[5,7,9,11]$, then type $y_1\\sim m x_1+b$. Desmos returns $m=2$ and $b=3$.",
-      "desmosExpressions": [
-        "x_1=[1,2,3,4]",
-        "y_1=[5,7,9,11]",
-        "y_1~m x_1+b"
-      ]
+      "title": "Use the table values",
+      "content": "Use two points from the table. From $(1,5)$ to $(2,7)$, the slope is $$m=\\frac{7-5}{2-1}=2.$$ Substitute $(1,5)$ into $y=mx+b$: $$5=2(1)+b,$$ so $b=3$."
     },
     {
       "title": "Write the equation",
-      "content": "The regression values give $$y=2x+3.$$ You can also see this by hand: every time $x$ increases by $1$, $y$ increases by $2$, so the slope is $2$."
+      "content": "The model values give $$y=2x+3.$$ You can also see this by hand: every time $x$ increases by $1$, $y$ increases by $2$, so the slope is $2$."
     },
     {
       "title": "Confirm the choice",

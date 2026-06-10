@@ -1,6 +1,7 @@
 {
-  "qid": "f4b3672a",
+  "questionId": "f4b3672a",
   "correctAnswer": "C",
+  "section": "Math",
   "steps": [
     {
       "title": "Use the sample mean",
@@ -8,10 +9,7 @@
     },
     {
       "title": "Scale to the whole forest",
-      "content": "Multiply by the forest size: $$56\\times253=14{,}168$$ Desmos can do this in one expression by taking the mean of the sample list and multiplying by $253$.",
-      "desmosExpressions": [
-        "\\operatorname{mean}\\left([51,59,45,52,73]\\right)*253"
-      ]
+      "content": "Use the sample mean as the estimate for trees per acre, then multiply by the $253$ acres in the forest: $$56\\times253=14{,}168$$"
     },
     {
       "title": "Choose the interval",

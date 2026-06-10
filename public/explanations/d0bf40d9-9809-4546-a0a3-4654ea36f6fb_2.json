@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "x is the additional amount Sabrina must save. She already has $180, so her total is 180 + x. &apos;At least $240&apos; means total &ge; 240. The correct inequality adds 180 and x on the left, with &ge; 240 on the right."
+      "title": "Represent total savings",
+      "content": "Sabrina already has 180 dollars. If $x$ is the additional amount she saves, her total savings are $180+x$."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; '$\\frac{x}{180} \\ge 240$'</strong>: divides x by 180 instead of adding &mdash; no arithmetic reason for division here. &#10007;</li><li><strong>Choice B &mdash; '$180x \\ge 240$'</strong>: multiplies 180 by x instead of adding &mdash; wrong operation. &#10007;</li><li><strong>Choice C &mdash; '$180 + x \\ge 240$'</strong>: total savings = 180 + x, and at least $240 means &ge; 240. &#10003;</li><li><strong>Choice D &mdash; '$180 - x \\ge 240$'</strong>: subtracts x, which would make her total smaller, not larger. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+      "title": "Translate at least",
+      "content": "At least 240 dollars means the total must be greater than or equal to $240$."
+    },
+    {
+      "title": "Match the inequality",
+      "content": "The inequality is $180+x\\ge240$, which matches choice <strong>C</strong>."
     }
   ]
 }

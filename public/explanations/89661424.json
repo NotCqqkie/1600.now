@@ -10,11 +10,7 @@
     },
     {
       "title": "Expand and simplify to general form",
-      "content": "Expand the binomials: $(x + 5)^2 = x^2 + 10x + 25$ and $(y - 2)^2 = y^2 - 4y + 4$.<br/><br/>Substitute:<br/>$$x^2 + 10x + 25 + y^2 - 4y + 4 = 81$$<br/>Move all terms to one side:<br/>$$x^2 + y^2 + 10x - 4y + 25 + 4 - 81 = 0$$<br/>$$x^2 + y^2 + 10x - 4y - 52 = 0$$<br/>Comparing with $x^2 + y^2 + ax + by + c = 0$, we have $c = -52$.",
-      "desmosExpressions": [
-        "(x+5)^2 + (y-2)^2 = 81",
-        "x^2 + y^2 + 10x - 4y - 52 = 0"
-      ]
+      "content": "Expand the binomials: $(x + 5)^2 = x^2 + 10x + 25$ and $(y - 2)^2 = y^2 - 4y + 4$.<br/><br/>Substitute:<br/>$$x^2 + 10x + 25 + y^2 - 4y + 4 = 81$$<br/>Move all terms to one side:<br/>$$x^2 + y^2 + 10x - 4y + 25 + 4 - 81 = 0$$<br/>$$x^2 + y^2 + 10x - 4y - 52 = 0$$<br/>Comparing with $x^2 + y^2 + ax + by + c = 0$, we have $c = -52$."
     }
   ]
 }

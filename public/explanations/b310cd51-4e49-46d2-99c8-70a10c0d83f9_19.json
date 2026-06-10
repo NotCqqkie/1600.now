@@ -13,10 +13,7 @@
     },
     {
       "title": "Solve for u",
-      "content": "Multiply both sides by 4:<br/>$$13 + u = 100$$<br/>Subtract 13 from both sides:<br/>$$u = 87$$",
-      "desmosExpressions": [
-        "y = x^{2}(4x-13)(4x-87)"
-      ]
+      "content": "Multiply both sides by 4:<br/>$$13 + u = 100$$<br/>Subtract 13 from both sides:<br/>$$u = 87$$"
     }
   ]
 }

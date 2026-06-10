@@ -5,16 +5,11 @@
   "steps": [
     {
       "title": "Use two readable points on the line",
-      "content": "The line of best fit rises from left to right, so the slope is positive. That eliminates choices A and B. Two readable points on the line are approximately $(0,0.25)$ and $(4,2)$.",
-      "desmosExpressions": [
-        "x_1=[0,4]",
-        "y_1=[0.25,2]",
-        "y_1~m x_1+b"
-      ]
+      "content": "The line of best fit rises from left to right, so the slope is positive. That eliminates choices A and B. Two readable points on the line are approximately $(0,0.25)$ and $(4,2)$."
     },
     {
-      "title": "Run the slope check",
-      "content": "The regression row $y_1\\sim m x_1+b$ gives $m=0.4375$, which rounds to $0.44$. By hand, $m=\\frac{2-0.25}{4-0}=0.4375$."
+      "title": "Compute the slope",
+      "content": "Use the two readable points $(0,0.25)$ and $(4,2)$:<br/>$$m=\\frac{2-0.25}{4-0}=\\frac{1.75}{4}=0.4375$$<br/>Rounded to the choices, the slope is about $0.44$."
     },
     {
       "title": "Confirm the answer",

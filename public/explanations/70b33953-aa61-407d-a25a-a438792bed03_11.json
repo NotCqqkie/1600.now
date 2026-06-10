@@ -5,21 +5,11 @@
   "steps": [
     {
       "title": "Create two values of the function",
-      "content": "Use the given value and the one-step change as a table. Since $g(9)=11$, the first point is $(9,11)$. The statement $g(x+1)-g(x)=2$ means the output increases by $2$ when $x$ increases by $1$, so $g(10)=13$.",
-      "desmosExpressions": [
-        "x_1=[9,10]",
-        "y_1=[11,13]"
-      ]
+      "content": "Since $g(9)=11$, one point on the line is $(9,11)$. The statement $g(x+1)-g(x)=2$ means the output increases by $2$ whenever $x$ increases by $1$, so $g(10)=13$."
     },
     {
-      "title": "Run a linear regression",
-      "content": "Type $y_1\\sim m x_1+b$. Desmos returns $m=2$ and $b=-7$, so the function is $g(x)=2x-7$.",
-      "desmosExpressions": [
-        "x_1=[9,10]",
-        "y_1=[11,13]",
-        "y_1~m x_1+b",
-        "y=2x-7"
-      ]
+      "title": "Find the line from the data",
+      "content": "The output changes by $2$ for every $1$ increase in $x$, so the slope is $m=2$. Use $g(9)=11$ in $g(x)=2x+b$: $$11=2(9)+b$$ $$b=-7$$ Therefore $$g(x)=2x-7$$"
     },
     {
       "title": "Confirm the choice",

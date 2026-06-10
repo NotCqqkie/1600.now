@@ -9,10 +9,7 @@
     },
     {
       "title": "Interpret the count",
-      "content": "A perfect square equals $0$ only when its base is $0$, giving the single solution $x=-k$. That matches choice <strong>B</strong> &mdash; <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "y=(x+3)^2"
-      ]
+      "content": "A perfect square equals $0$ only when its base is $0$, giving the single solution $x=-k$. That matches choice <strong>B</strong> &mdash; <strong>B</strong> is correct."
     },
     {
       "title": "Confirm the answer",

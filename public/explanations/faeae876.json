@@ -9,10 +9,7 @@
     },
     {
       "title": "Count the solutions",
-      "content": "The distinct real solutions are $-4,\\ 3,\\ -3$ — exactly three. That matches choice <strong>B</strong> — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "y = (x^3 + 64)(x^4 - 81)"
-      ]
+      "content": "The distinct real solutions are $-4,\\ 3,\\ -3$ — exactly three. That matches choice <strong>B</strong> — <strong>B</strong> is correct."
     }
   ]
 }

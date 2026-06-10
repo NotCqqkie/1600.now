@@ -5,20 +5,11 @@
   "steps": [
     {
       "title": "Convert to years after 1993",
-      "content": "Let $t$ be years after $1993$. Then $1993$ is $t=0$, $2013$ is $t=20$, and $2017$ is $t=24$. The known points for the linear model are $(0,52)$ and $(20,219)$, where $y$ is in thousands.",
-      "desmosExpressions": [
-        "x_1=[0,20]",
-        "y_1=[52,219]",
-        "y_1~m x_1+b"
-      ]
+      "content": "Let $t$ be years after $1993$. Then $1993$ is $t=0$, $2013$ is $t=20$, and $2017$ is $t=24$. The known points for the linear model are $(0,52)$ and $(20,219)$, where $y$ is in thousands."
     },
     {
       "title": "Use the fitted line to predict 2017",
-      "content": "The regression gives $m=8.35$ and $b=52$, so $y=8.35t+52$. For $2017$, plug in $t=24$: $$y=8.35(24)+52=252.4.$$ Rounded to the nearest whole number, this is $252$ thousand.",
-        "desmosExpressions": [
-          "y=8.35x+52",
-          "(24,252.4)"
-        ]
+      "content": "Use the two known points $(0,52)$ and $(20,219)$:<br/>$$m=\\frac{219-52}{20-0}=\\frac{167}{20}=8.35.$$ Since $t=0$ gives $y=52$, the model is $$y=8.35t+52.$$ For $2017$, $t=24$: $$y=8.35(24)+52=252.4.$$ Rounded to the nearest whole number, this is $252$ thousand."
     },
     {
       "title": "Confirm the answer",

@@ -4,15 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply the quadratic formula",
-      "content": "The equation $x^2 - x - 1 = 0$ is in standard form $ax^2 + bx + c = 0$ with $a = 1$, $b = -1$, and $c = -1$. The quadratic formula states:<br/>$$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$$<br/>Substitute the coefficients:<br/>$$x = \\frac{-(-1) \\pm \\sqrt{(-1)^2 - 4(1)(-1)}}{2(1)}$$"
+      "title": "Set up the root-finding method",
+      "content": "This is a quadratic equation, so the goal is to find its roots. The quadratic formula is a direct way to solve it when simple factoring is not the focus. The equation $x^2 - x - 1 = 0$ is in standard form $ax^2 + bx + c = 0$ with $a = 1$, $b = -1$, and $c = -1$. The quadratic formula states:<br/>$$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$$<br/>Substitute the coefficients:<br/>$$x = \\frac{-(-1) \\pm \\sqrt{(-1)^2 - 4(1)(-1)}}{2(1)}$$"
     },
     {
       "title": "Simplify and identify the solutions",
-      "content": "Evaluate the discriminant and simplify:<br/>$$x = \\frac{1 \\pm \\sqrt{1 + 4}}{2} = \\frac{1 \\pm \\sqrt{5}}{2}$$<br/>The two solutions are $x = \\frac{1 + \\sqrt{5}}{2}$ and $x = \\frac{1 - \\sqrt{5}}{2}$. That matches choice C — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y = x^2 - x - 1"
-      ]
+      "content": "Evaluate the discriminant and simplify:<br/>$$x = \\frac{1 \\pm \\sqrt{1 + 4}}{2} = \\frac{1 \\pm \\sqrt{5}}{2}$$<br/>The two solutions are $x = \\frac{1 + \\sqrt{5}}{2}$ and $x = \\frac{1 - \\sqrt{5}}{2}$. That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

@@ -5,8 +5,7 @@
   "steps": [
     {
       "title": "Set up the linear pressure function",
-      "content": "Pressure at any depth equals initial pressure plus the pressure increase from descent.<br/><br/>At sea level (depth = 0): 14.70 psi<br/>For each foot descended: pressure increases by 0.44 psi<br/><br/>This gives us the linear function where $d$ is depth in feet:",
-      "formula": "$$P = 14.70 + 0.44d$$"
+      "content": "Pressure at any depth equals initial pressure plus the pressure increase from descent.<br/><br/>At sea level (depth = 0): 14.70 psi<br/>For each foot descended: pressure increases by 0.44 psi<br/><br/>This gives us the linear function where $d$ is depth in feet:"
     },
     {
       "title": "Substitute depth and calculate",

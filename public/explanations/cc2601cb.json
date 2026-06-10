@@ -5,18 +5,11 @@
   "steps": [
     {
       "title": "Use the intercept shortcut",
-      "content": "An $x$-intercept is where the graph touches or crosses the $x$-axis. On the $x$-axis, the $y$-coordinate is $0$, so look for the point on the curve with the form $(x,0)$.",
-      "desmosExpressions": [
-        "y=0"
-      ]
+      "content": "An $x$-intercept is where the graph touches or crosses the $x$-axis. On the $x$-axis, the $y$-coordinate is $0$, so look for the point on the curve with the form $(x,0)$."
     },
     {
       "title": "Read the point from the graph",
-      "content": "The parabola touches the $x$-axis at its vertex, which is the point $(7,0)$. Since the intercept is written as $(x,0)$, the value of $x$ is $7$.",
-      "desmosExpressions": [
-        "y=3(x-7)^2",
-        "(7,0)"
-      ]
+      "content": "The parabola touches the $x$-axis at its vertex, which is the point $(7,0)$. Since the intercept is written as $(x,0)$, the value of $x$ is $7$."
     },
     {
       "title": "Confirm the answer",

@@ -13,14 +13,11 @@
     },
     {
       "title": "Solve for the two hypotenuse pieces",
-      "content": "Let $AD=x$. Then $CD=145-x$, so:<br/>$$x(145-x)=286$$<br/>$$x^2-145x+286=0$$<br/>The two factors are $2$ and $143$, since $2+143=145$ and $2\\cdot143=286$. Thus the two segment lengths are $2$ and $143$.",
-      "desmosExpressions": [
-        "x(145-x)=286"
-      ]
+      "content": "Let $AD=x$. Then $CD=145-x$, so:<br/>$$x(145-x)=286$$<br/>$$x^2-145x+286=0$$<br/>The two factors are $2$ and $143$, since $2+143=145$ and $2\\cdot143=286$. Thus the two segment lengths are $2$ and $143$."
     },
     {
       "title": "Use AB < BC to choose the order",
-      "content": "In this right-triangle setup, the shorter leg is next to the shorter hypotenuse segment. Since $AB<BC$, the segment near $AB$ is shorter, so $AD=2$ and $CD=143$. Therefore:<br/>$$r=\\frac{CD}{AD}=\\frac{143}{2}=71.5$$<br/>The answer is <strong>71.5</strong>."
+      "content": "In this right-triangle setup, the shorter leg is next to the shorter hypotenuse segment. Since $AB\\lt BC$, the segment near $AB$ is shorter, so $AD=2$ and $CD=143$. Therefore:<br/>$$r=\\frac{CD}{AD}=\\frac{143}{2}=71.5$$<br/>The answer is <strong>71.5</strong>."
     }
   ]
 }

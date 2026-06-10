@@ -9,11 +9,7 @@
     },
     {
       "title": "Solve for the value",
-      "content": "Substituting gives $$f(0)=12(0)+18=18.$$ The answer is <strong>18</strong>.",
-      "desmosExpressions": [
-        "y = 12x + 18",
-        "(0, 18)"
-      ]
+      "content": "Substituting gives $$f(0)=12(0)+18=18.$$ The answer is <strong>18</strong>."
     },
     {
       "title": "Confirm the answer",

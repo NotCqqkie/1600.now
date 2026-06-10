@@ -4,27 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Evaluate the expression as a list",
-      "content": "Use Desmos list evaluation for the table. Choice D has $x$-values $442$, $441$, $440$ and $y$-values $0$, $-2$, $-4$. Enter those as lists and compute $2x_1-y_1$.",
-      "desmosExpressions": [
-        "x_1=[442,441,440]",
-        "y_1=[0,-2,-4]",
-        "2x_1-y_1"
-      ]
+      "title": "Rewrite the inequality for y",
+      "content": "Start with $2x-y>883$. Subtract $2x$ from both sides: $$-y>883-2x.$$ Divide by $-1$ and reverse the inequality: $$y\\lt2x-883.$$"
     },
     {
-      "title": "Check the inequality",
-      "content": "Desmos returns $[884,884,884]$ for $2x_1-y_1$. Since every value is greater than $883$, every row in choice D satisfies the inequality.",
-      "desmosExpressions": [
-        "x_1=[442,441,440]",
-        "y_1=[0,-2,-4]",
-        "2x_1-y_1",
-        "2x_1-y_1>883"
-      ]
+      "title": "Find the needed y-values",
+      "content": "For the three $x$-values in the tables: when $x=440$, $y\\lt-3$; when $x=441$, $y\\lt-1$; and when $x=442$, $y\\lt1$."
     },
     {
       "title": "Identify the table",
-      "content": "The other tables fail because at least one row gives a value that is not greater than $883$. Choice <strong>D</strong> is correct."
+      "content": "Choice D pairs $440$ with $-4$, $441$ with $-2$, and $442$ with $0$. Each value is below the required cutoff for its row, so all three ordered pairs satisfy the inequality. That is enough because the question asks which table consists only of solutions. Choice <strong>D</strong> is correct."
     }
   ]
 }

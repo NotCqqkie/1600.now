@@ -9,11 +9,7 @@
     },
     {
       "title": "Eliminate x and solve for w",
-      "content": "Multiply equation 1 by 2:<br/>$$-2x - 38w = -674$$<br/>Add to equation 2 to eliminate $x$:<br/>$$-2x - 38w + 2x - 19w = -674 + 47$$<br/>$$-57w = -627$$<br/>$$w = 11$$",
-      "desmosExpressions": [
-        "y = (337 - x)/11",
-        "y = (2x - 47)/11"
-      ]
+      "content": "Multiply equation 1 by 2:<br/>$$-2x - 38w = -674$$<br/>Add to equation 2 to eliminate $x$:<br/>$$-2x - 38w + 2x - 19w = -674 + 47$$<br/>$$-57w = -627$$<br/>$$w = 11$$"
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Apply the triangle inequality",
-      "content": "With sides 10 and 12, the third side $x$ must satisfy $x < 10+12=22$ and $x > |10-12|=2$."
+      "content": "With sides 10 and 12, the third side $x$ must satisfy $x \\lt 10+12=22$ and $x > |10-12|=2$."
     },
     {
       "title": "Combine the two bounds",
-      "content": "Combining gives $$2 < x < 22.$$"
+      "content": "Combining gives $$2 \\lt x \\lt 22.$$"
     },
     {
       "title": "Match the answer",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice C, $2 < x < 22$. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
+      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice C, $2 \\lt x \\lt 22$. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
     }
   ]
 }

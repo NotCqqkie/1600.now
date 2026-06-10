@@ -20,15 +20,6 @@
       "content": "$$x-y=-12-(-47)=35$$<br/>Subtracting a negative adds, which is why the result is positive."
     },
     {
-      "title": "Check with Desmos",
-      "content": "Graph $y=4x+1$ and $4y=15x-8$. The intersection is $(-12,-47)$, so $x-y=35$.",
-      "desmosExpressions": [
-        "y=4x+1",
-        "4y=15x-8",
-        "(-12,-47)"
-      ]
-    },
-    {
       "title": "Answer",
       "content": "The value of $x-y$ is <strong>35</strong>."
     }

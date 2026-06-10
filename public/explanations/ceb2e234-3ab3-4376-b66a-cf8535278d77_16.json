@@ -9,10 +9,7 @@
     },
     {
       "title": "Interpret the slope as the rate of change per second",
-      "content": "In a linear function, the slope tells us the rate of change of the output per unit change in the input.<br/><br/>A slope of $-3$ means the volume decreases by 3 milliliters for each 1-second increase in $t$.<br/><br/>The predicted volume draining from the container each second is therefore 3 milliliters.<br/><br/>That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y = 600 - 3x"
-      ]
+      "content": "In a linear function, the slope tells us the rate of change of the output per unit change in the input.<br/><br/>A slope of $-3$ means the volume decreases by 3 milliliters for each 1-second increase in $t$.<br/><br/>The predicted volume draining from the container each second is therefore 3 milliliters.<br/><br/>That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

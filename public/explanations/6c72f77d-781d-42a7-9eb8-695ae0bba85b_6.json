@@ -9,11 +9,7 @@
     },
     {
       "title": "Find the matching ordered pair",
-      "content": "Then $y=6(-4)+16=-8$. The answer is <strong>(A) $(-4,-8)$</strong>.",
-      "desmosExpressions": [
-        "y = 6x + 16",
-        "y = -7x - 36"
-      ]
+      "content": "Then $y=6(-4)+16=-8$. The answer is <strong>(A) $(-4,-8)$</strong>."
     },
     {
       "title": "Confirm the answer",

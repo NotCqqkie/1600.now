@@ -5,8 +5,7 @@
   "steps": [
     {
       "title": "Express length in terms of width using the ratio",
-      "content": "The ratio 10:4 tells us that $\\frac{L}{W} = \\frac{10}{4} = 2.5$. So length is always 2.5 times the width.",
-      "formula": "$L = 2.5W$"
+      "content": "The ratio 10:4 tells us that $\\frac{L}{W} = \\frac{10}{4} = 2.5$. So length is always 2.5 times the width."
     },
     {
       "title": "Apply the width change to find the new length",

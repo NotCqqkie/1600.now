@@ -5,21 +5,11 @@
   "steps": [
     {
       "title": "Turn the conditions into two rows",
-      "content": "For a linear function, $g(x+1)-g(x)=6$ means every time $x$ increases by $1$, the function value increases by $6$. Since $g(4)=10$, the next point is $g(5)=16$. Put the two points $(4,10)$ and $(5,16)$ into a Desmos table.",
-      "desmosExpressions": [
-        "x_1=[4,5]",
-        "y_1=[10,16]"
-      ]
+      "content": "For a linear function, $g(x+1)-g(x)=6$ means every time $x$ increases by $1$, the function value increases by $6$. Since $g(4)=10$, the next point is $g(5)=16$."
     },
     {
-      "title": "Run a linear regression",
-      "content": "Use the Desmos regression row $y_1 \\sim mx_1+b$. With the two exact points, Desmos gives $m=6$ and $b=-14$, so the equation is $y=6x-14$.",
-      "desmosExpressions": [
-        "x_1=[4,5]",
-        "y_1=[10,16]",
-        "y_1~m x_1+b",
-        "y=6x-14"
-      ]
+      "title": "Find the line from the data",
+      "content": "Using $(4,10)$ and $(5,16)$, the slope is $$m=\\frac{16-10}{5-4}=6.$$ Substitute $(4,10)$ into $y=6x+b$: $$10=24+b,$$ so $b=-14$. The equation is $y=6x-14$."
     },
     {
       "title": "Confirm the choice",

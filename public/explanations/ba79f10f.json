@@ -5,20 +5,15 @@
   "steps": [
     {
       "title": "Fit the table",
-      "content": "The table includes $(0,18)$ and $(1,13)$. Enter those points and run $y_1 \\sim m x_1+b$.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[18,13]",
-        "y_1~m x_1+b"
-      ]
+      "content": "The table includes $(0,18)$ and $(1,13)$. Since $x=0$ gives the $y$-intercept, $b=18$. The slope from these two points is $$m=\\frac{13-18}{1-0}=-5.$$"
     },
     {
       "title": "Read the equation",
-      "content": "Desmos gives $m=-5$ and $b=18$, so the equation is $y=-5x+18$. The $y$-intercept row $x=0$ also confirms $b=18$."
+      "content": "Using $y=mx+b$, the equation is $$y=-5x+18.$$"
     },
     {
       "title": "Check the choices",
-      "content": "Choice <strong>D</strong> is $y=-5x+18$, so D is correct."
+      "content": "Choice <strong>D</strong> is $y=-5x+18$. It checks against the table because when $x=0$, $y=18$, and when $x=1$, $y=13$. Choice <strong>D</strong> is correct."
     }
   ]
 }

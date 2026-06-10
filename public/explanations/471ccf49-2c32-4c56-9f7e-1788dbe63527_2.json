@@ -4,26 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Turn the information into two points",
-      "content": "This is a quick Desmos table/regression problem. The point $(0,-19)$ is already on the line. A slope of $-2$ means that when $x$ increases by $1$, $y$ decreases by $2$, so another point is $(1,-21)$.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[-19,-21]"
-      ]
+      "title": "Use slope-intercept form",
+      "content": "A linear function can be written as $f(x)=mx+b$, where $m$ is the slope and $b=f(0)$."
     },
     {
-      "title": "Fit the line in Desmos",
-      "content": "In Desmos, run the linear regression $y_1 \\sim mx_1+b$. It returns $m=-2$ and $b=-19$, so the fitted equation is $y=-2x-19$.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[-19,-21]",
-        "y_1~m x_1+b",
-        "y=-2x-19"
-      ]
+      "title": "Substitute the values",
+      "content": "The slope is $-2$, so $m=-2$. The line passes through $(0,-19)$, so $f(0)=-19$ and $b=-19$. Therefore $$f(x)=-2x-19.$$"
     },
     {
-      "title": "Match the fitted equation",
-      "content": "Choice A has slope $-19$, not $-2$. Choice B has the right slope but goes through $(0,0)$ instead of $(0,-19)$. Choice D has positive slope. Only choice C, $f(x)=-2x-19$, matches the regression result and the original point. Choice <strong>C</strong> is correct."
+      "title": "Match the equation",
+      "content": "Choice A has slope $-19$, not $-2$. Choice B has the right slope but goes through $(0,0)$ instead of $(0,-19)$. Choice D has positive slope. Only choice C, $f(x)=-2x-19$, matches. Choice <strong>C</strong> is correct."
     }
   ]
 }

@@ -13,10 +13,7 @@
     },
     {
       "title": "List the intercepts and select the matching choice",
-      "content": "The solutions are $x=1$, $x=6$, and $x=10$. Each of these is an x-coordinate of an x-intercept.<br/>Since this is a free-response question, any of these three values is an acceptable answer. The answer is <strong>1, 6, or 10</strong>.",
-      "desmosExpressions": [
-        "y = 5(x-1)(x-6)(x-10)"
-      ]
+      "content": "The solutions are $x=1$, $x=6$, and $x=10$. Each of these is an x-coordinate of an x-intercept.<br/>Since this is a free-response question, any of these three values is an acceptable answer. The answer is <strong>1, 6, or 10</strong>."
     }
   ]
 }

@@ -9,11 +9,7 @@
     },
     {
       "title": "Simplify to find f(3)",
-      "content": "Calculate $100 \\times 3 = 300$, then add $8$:<br/>$$300 + 8 = 308$$<br/>That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y = 100x + 8",
-        "(3, 308)"
-      ]
+      "content": "Calculate $100 \\times 3 = 300$, then add $8$:<br/>$$300 + 8 = 308$$<br/>That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

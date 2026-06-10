@@ -9,10 +9,7 @@
     },
     {
       "title": "Compute the target value",
-      "content": "So $x^{2}-2x = 10$. That matches choice <strong>A</strong> — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y = 3x^{2} - 6x - 30"
-      ]
+      "content": "So $x^{2}-2x = 10$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."
     },
     {
       "title": "Confirm the answer",

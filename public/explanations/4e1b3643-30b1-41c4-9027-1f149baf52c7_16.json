@@ -9,11 +9,7 @@
     },
     {
       "title": "Interpret what x = 0 means and match the answer",
-      "content": "The problem states that $x$ represents the number of six-month periods starting from the end of January 1991.<br/><br/>When $x = 0$, zero periods have elapsed, meaning we're at the starting point: the end of January 1991.<br/><br/>At this initial moment, there were an estimated $y = 500$ subscribers.<br/><br/>This matches choice B — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "y = 500 \\cdot 3^{2x}",
-        "(0, 500)"
-      ]
+      "content": "The problem states that $x$ represents the number of six-month periods starting from the end of January 1991.<br/><br/>When $x = 0$, zero periods have elapsed, meaning we're at the starting point: the end of January 1991.<br/><br/>At this initial moment, there were an estimated $y = 500$ subscribers.<br/><br/>This matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

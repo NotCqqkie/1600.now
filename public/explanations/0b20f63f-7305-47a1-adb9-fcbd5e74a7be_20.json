@@ -9,11 +9,7 @@
     },
     {
       "title": "Translate up 6 units and compute g(0)",
-      "content": "$$ g(0) = f(0) + 6 = -320 + 6 = -314 $$<br/>The answer is <strong>-314</strong>.",
-      "desmosExpressions": [
-        "y = (x-10)(x-8)(x-4)",
-        "y = (x-10)(x-8)(x-4) + 6"
-      ]
+      "content": "$$ g(0) = f(0) + 6 = -320 + 6 = -314 $$<br/>The answer is <strong>-314</strong>."
     },
     {
       "title": "Confirm the answer",

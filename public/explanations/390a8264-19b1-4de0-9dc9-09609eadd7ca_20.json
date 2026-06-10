@@ -9,11 +9,11 @@
     },
     {
       "title": "Multiply by conversion factors",
-      "content": "Multiply the acceleration by the distance and time conversion factors:\n\n$$5.70 \\text{ m/s}^2 \\times \\frac{1 \\text{ mile}}{1,609 \\text{ m}} \\times \\frac{3,600 \\text{ s}^2}{1 \\text{ min}^2}$$\n\nThe first fraction converts meters to miles, and the second converts second² to minute²."
+      "content": "Multiply the acceleration by the distance and time conversion factors: $$5.70 \\text{ m/s}^2 \\times \\frac{1 \\text{ mile}}{1,609 \\text{ m}} \\times \\frac{3,600 \\text{ s}^2}{1 \\text{ min}^2}$$ The first fraction converts meters to miles, and the second converts second² to minute²."
     },
     {
       "title": "Calculate the result",
-      "content": "Combine the conversion factors:\n\n$$= 5.70 \\times \\frac{3,600}{1,609}$$\n\nCompute the numerator: $5.70 \\times 3,600 = 20,520$.\n\nDivide: $20,520 \\div 1,609 = 12.753...$\n\nRounded to the nearest tenth: <strong>12.8 miles per minute squared</strong>."
+      "content": "Combine the conversion factors: $$= 5.70 \\times \\frac{3,600}{1,609}$$ Compute the numerator: $5.70 \\times 3,600 = 20,520$. Divide: $20,520 \\div 1,609 = 12.753...$ Rounded to the nearest tenth: <strong>12.8 miles per minute squared</strong>."
     }
   ]
 }

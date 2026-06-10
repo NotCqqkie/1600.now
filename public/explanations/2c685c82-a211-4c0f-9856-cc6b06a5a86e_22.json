@@ -4,8 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply area formula to find the ratio",
-      "content": "Right angle at B makes AC the hypotenuse with AB = 24 and AC = 37 (from AB + 13). The area can be expressed two ways:<ul><li>Using legs: $(1/2) \\cdot AB \\cdot BC$</li><li>Using hypotenuse and altitude: $(1/2) \\cdot AC \\cdot BD$</li></ul>Setting them equal: $AB \\cdot BC = AC \\cdot BD$.<br/><br/>Solving for the ratio: $\\frac{BC}{BD} = \\frac{AC}{AB} = \\frac{37}{24}$. That matches choice C — <strong>C</strong> is correct."
+      "title": "Identify the hypotenuse",
+      "content": "Since angle $B$ is $90^\\circ$, $AC$ is the hypotenuse. The problem gives $AB=24$ and says $AC$ is $13$ greater than $AB$, so $AC=37$."
+    },
+    {
+      "title": "Write the same area two ways",
+      "content": "The altitude $BD$ goes from the right angle to the hypotenuse. The area of triangle $ABC$ can be written using either pair of base and height:<ul><li>Using the legs: $\\frac{1}{2}\\cdot AB\\cdot BC$</li><li>Using the hypotenuse and altitude: $\\frac{1}{2}\\cdot AC\\cdot BD$</li></ul>Set these equal and cancel $\\frac{1}{2}$: $$AB\\cdot BC=AC\\cdot BD$$"
+    },
+    {
+      "title": "Solve for the requested ratio",
+      "content": "Divide both sides by $AB\\cdot BD$: $$\\frac{BC}{BD}=\\frac{AC}{AB}=\\frac{37}{24}$$ This matches choice <strong>C</strong>."
     }
   ]
 }

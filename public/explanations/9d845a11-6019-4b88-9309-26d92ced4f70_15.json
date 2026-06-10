@@ -9,11 +9,7 @@
     },
     {
       "title": "Evaluate at the initial measurement",
-      "content": "Substitute $t = 0$:<br/>$$f(0) = 34{,}000 \\cdot 2^0 = 34{,}000 \\cdot 1 = 34{,}000$$<br/>Since $t$ is measured in hours <em>after</em> the initial measurement, $t = 0$ <em>is</em> the initial measurement. So $34{,}000$ represents the bacteria count at that starting moment.",
-      "desmosExpressions": [
-        "y = 34000 \\cdot 2^{x}",
-        "(0, 34000)"
-      ]
+      "content": "Substitute $t = 0$:<br/>$$f(0) = 34{,}000 \\cdot 2^0 = 34{,}000 \\cdot 1 = 34{,}000$$<br/>Since $t$ is measured in hours <em>after</em> the initial measurement, $t = 0$ <em>is</em> the initial measurement. So $34{,}000$ represents the bacteria count at that starting moment."
     },
     {
       "title": "Evaluate each choice",

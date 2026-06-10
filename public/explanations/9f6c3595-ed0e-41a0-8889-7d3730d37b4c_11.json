@@ -4,12 +4,11 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use custom Desmos regression",
-      "content": "Every answer choice has the form $h(x)=2^x+c$, so this is a one-parameter regression problem. Enter the table as $x_1=[0,1,2]$ and $y_1=[17,18,20]$, then type $y_1 \\sim 2^{x_1}+c$. Desmos returns $c=16$, so the model is $h(x)=2^x+16$.",
+      "title": "Solve the unknown directly",
+      "content": "Every answer choice has the form $h(x)=2^x+c$, so this is a one-parameter modeling problem. Enter the table as $x_1=[0,1,2]$ and $y_1=[17,18,20]$, which gives $c=16$, so the model is $h(x)=2^x+16$.",
       "desmosExpressions": [
         "x_1=[0,1,2]",
         "y_1=[17,18,20]",
-        "y_1~2^{x_1}+c",
         "y=2^x+16"
       ]
     },

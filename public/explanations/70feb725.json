@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the system from the given conditions",
-      "content": "<strong>Distance:</strong> $$r + b = 200$$<br/><strong>Time:</strong> Since time = distance / speed, <em>biked for twice as many hours as she ran</em> gives:<br/>$$\\frac{b}{10} = 2 \\cdot \\frac{r}{5}$$"
+      "title": "Set up distance and time",
+      "content": "The total distance is $$r+b=200$$ Since time equals distance divided by speed, the biking time is $\\frac{b}{10}$ and the running time is $\\frac{r}{5}$."
     },
     {
-      "title": "Solve using substitution",
-      "content": "<ul><li>Simplify the time equation: $$\\frac{b}{10} = \\frac{2r}{5}$$</li><li>Multiply both sides by 10: $$b = 4r$$</li><li>Substitute $b = 4r$ into $r + b = 200$: $$r + 4r = 200$$</li><li>Solve: $$5r = 200$$, so $$r = 40$$</li><li>Therefore: $$b = 4(40) = 160$$</li></ul>That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y = 200 - x",
-        "y = 4x"
-      ]
+      "title": "Use the time relationship",
+      "content": "Morgan biked for twice as many hours as she ran, so $$\\frac{b}{10}=2\\left(\\frac{r}{5}\\right)$$ Multiplying by $10$ gives $$b=4r$$"
+    },
+    {
+      "title": "Solve and confirm",
+      "content": "Substitute $b=4r$ into the distance equation: $$r+4r=200$$ $$r=40$$ Then $$b=4(40)=160$$ Choice D is correct."
     }
   ]
 }

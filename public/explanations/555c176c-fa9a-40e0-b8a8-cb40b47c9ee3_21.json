@@ -9,22 +9,11 @@
     },
     {
       "title": "Find the 1-unit multiplier",
-      "content": "Use the two given values as a ratio:<br/>$$\\frac{f(5)}{f(3)}=\\frac{150}{6}=25$$<br/>The input increased by $2$, so $k^2=25$. Because the function values are positive, $k=5$. In Desmos, put the two known points in lists and run an exponential regression; it gives the same multiplier.",
-      "desmosExpressions": [
-        "x_1=[3,5]",
-        "y_1=[6,150]",
-        "y_1~a k^{x_1}"
-      ]
+      "content": "Use the two given values as a ratio:<br/>$$\\frac{f(5)}{f(3)}=\\frac{150}{6}=25$$<br/>The input increased by $2$, so $k^2=25$. Because the function values are positive, $k=5$."
     },
     {
       "title": "Move one step from x = 5 to x = 6",
-      "content": "From $x=5$ to $x=6$ is one 1-unit increase, so multiply by $k=5$:<br/>$$f(6)=150\\cdot 5=750$$<br/>The Desmos regression also lets you evaluate the model at $x=6$. The answer is <strong>750</strong>.",
-      "desmosExpressions": [
-        "x_1=[3,5]",
-        "y_1=[6,150]",
-        "y_1~a k^{x_1}",
-        "a k^6"
-      ]
+      "content": "From $x=5$ to $x=6$ is one 1-unit increase, so multiply by $k=5$:<br/>$$f(6)=150\\cdot 5=750$$<br/>The answer is <strong>750</strong>."
     }
   ]
 }

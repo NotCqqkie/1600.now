@@ -9,10 +9,7 @@
     },
     {
       "title": "Identify the slope",
-      "content": "In the equation $y = 98x$, we can identify $m = 98$ and $b = 0$ by comparing to $y = mx + b$. The slope is the coefficient $m$ of the $x$ term, which is 98.<br/><br/>That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y = 98x"
-      ]
+      "content": "In the equation $y = 98x$, we can identify $m = 98$ and $b = 0$ by comparing to $y = mx + b$. The slope is the coefficient $m$ of the $x$ term, which is 98.<br/><br/>That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

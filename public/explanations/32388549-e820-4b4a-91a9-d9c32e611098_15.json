@@ -5,13 +5,7 @@
   "steps": [
     {
       "title": "Use the graph-choice shortcut",
-      "content": "This is a perfect Desmos answer-choice check. Graph the four answer choices and compare them with the line in the question. The correct line must have the same intercepts as the shown graph.",
-      "desmosExpressions": [
-        "5x-3y=15",
-        "5x-3y=-15",
-        "3x-5y=15",
-        "3x-5y=-15"
-      ]
+      "content": "Compare the intercepts of the answer choices with the line in the question. The correct equation must have the same $x$- and $y$-intercepts as the shown graph."
     },
     {
       "title": "Read the intercepts",

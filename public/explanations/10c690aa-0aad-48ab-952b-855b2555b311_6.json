@@ -4,25 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "Use the two facts as points instead of doing more algebra than needed. At birth, $x=0$ and the goat weighs 5 pounds, so one point is $(0,5)$. One day later, it has gained $\\frac{1}{4}$ pound, so another point is $(1,5.25)$. In Desmos, put those into a table and run a linear regression; it returns a slope of $0.25$ and an intercept of 5.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[5,5.25]",
-        "y_1~mx_1+b",
-        "y=0.25x+5 \\{0<=x<=90\\}"
-      ]
+      "title": "Identify the starting value and rate",
+      "content": "At birth, $x=0$ and the goat weighs $5$ pounds, so the function must have $+5$ as its initial value.<br/><br/>The goat gains $\\frac{1}{4}$ pound per day, so the coefficient of $x$ must be $\\frac{1}{4}$."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "Now compare the Desmos regression line, $y=0.25x+5$, to the choices. Choice A has the correct slope but y-intercept $-5$, so it misses the birth weight. Choice B has slope $\\frac{1}{4}$ and y-intercept 5, matching both the daily gain and the birth weight. Choice C has the wrong slope and wrong intercept. Choice D has the right intercept but a negative slope, which would mean the goat loses weight. That matches choice B, so <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "y=0.25x+5 \\{0<=x<=90\\}",
-        "y=(1/4)x-5 \\{0<=x<=90\\}",
-        "y=-(1/4)x-5 \\{0<=x<=90\\}",
-        "y=-(1/4)x+5 \\{0<=x<=90\\}",
-        "(0, 5)"
-      ]
+      "title": "Write the function",
+      "content": "Weight after $x$ days equals starting weight plus daily gain:<br/>$$g(x)=5+\\frac{1}{4}x$$<br/>$$g(x)=\\frac{1}{4}x+5$$<br/>That matches choice B, so <strong>B</strong> is correct."
     }
   ]
 }

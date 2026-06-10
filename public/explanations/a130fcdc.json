@@ -3,12 +3,8 @@
   "correctAnswer": "C",
   "steps": [
     {
-      "title": "Use Desmos list evaluation",
-      "content": "The choices all use the same $x$-values: $-1$, $0$, and $1$. In Desmos, define $g(x)=11x+4$ and then enter $g([-1,0,1])$. Desmos returns $[-7,4,15]$, which is the output row we need.",
-      "desmosExpressions": [
-        "g(x)=11x+4",
-        "g([-1,0,1])"
-      ]
+      "title": "Evaluate the list",
+      "content": "The choices all use the same $x$-values: $-1$, $0$, and $1$. Evaluate $g(x)=11x+4$ at each input to get the needed output row: $$g(-1)=-7,\\quad g(0)=4,\\quad g(1)=15.$$"
     },
     {
       "title": "Confirm by direct substitution",

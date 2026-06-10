@@ -5,12 +5,10 @@
   "steps": [
     {
       "title": "Fit the table as an exponential",
-      "content": "Enter the values in Desmos: $x_1=[-1,0,1,2]$ and $y_1=[\\frac{1}{69},1,69,4761]$. Then run $y_1\\sim ab^{x_1}$. Desmos returns $a=1$ and $b=69$, so the values fit $y=69^x$.",
+      "content": "Use the exponential form $y=ab^x$. The table values show the multiplicative pattern, so the growth factor is $b=69$. Substituting one table point gives $a=1$.",
       "desmosExpressions": [
         "x_1=[-1,0,1,2]",
-        "y_1=[1/69,1,69,4761]",
-        "y_1~a b^{x_1}",
-        "y=a b^x"
+        "y_1=[1/69,1,69,4761]"
       ]
     },
     {

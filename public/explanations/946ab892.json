@@ -4,26 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Create two points from the slope",
-      "content": "The graph has slope $2$ and passes through $(1,14)$. A slope of $2$ means that when $x$ increases by $1$, $y$ increases by $2$, so a second point is $(2,16)$.",
-      "desmosExpressions": [
-        "x_1=[1,2]",
-        "y_1=[14,16]"
-      ]
+      "title": "Start with slope-intercept form",
+      "content": "A linear function with slope $2$ has the form $$g(x)=2x+b.$$"
     },
     {
-      "title": "Use linear regression",
-      "content": "Type $y_1\\sim m x_1+b$. Desmos returns $m=2$ and $b=12$, so $g(x)=2x+12$.",
-      "desmosExpressions": [
-        "x_1=[1,2]",
-        "y_1=[14,16]",
-        "y_1~m x_1+b",
-        "y=2x+12"
-      ]
+      "title": "Use the given point",
+      "content": "The graph passes through $(1,14)$, so $g(1)=14$: $$14=2(1)+b$$ $$b=12.$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice C matches $g(x)=2x+12$. It also checks with the given point: $g(1)=2(1)+12=14$, so choice <strong>C</strong> is correct."
+      "content": "The function is $g(x)=2x+12$. This matches choice <strong>C</strong>."
+    },
+    {
+      "title": "Use the point as a check",
+      "content": "Substituting $x=1$ into choice C gives $g(1)=2(1)+12=14$, exactly the given point. The other choices give $2$, $4$, or $16$ when $x=1$."
     }
   ]
 }

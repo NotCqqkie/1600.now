@@ -11,13 +11,13 @@ export interface ScoreGoalPage {
 const howToGetTargets = [1000, 1100, 1200, 1250, 1300, 1350, 1400, 1450, 1500, 1550, 1600];
 
 export const scoreGoalPages: ScoreGoalPage[] = [
-  ...howToGetTargets.map((n): ScoreGoalPage => ({
-    slug: `how-to-get-${n}-sat`,
-    target: n,
-    metaTitle: `How to Get a ${n} on the SAT (2026 Guide)`,
-    metaDescription: `A ${n} Digital SAT score is realistic with a focused plan. Section split, percentile, question-miss budget, and the study plan that gets you there.`,
-    headline: `How to Get a ${n} on the SAT`,
-    intro: `A ${n} is a specific, reachable target on the Digital SAT — but only if your prep matches the score. This guide breaks down the exact section split, the number of questions you can afford to miss, and the week-by-week plan that reliably produces a ${n}.`,
+  ...howToGetTargets.map((targetScore): ScoreGoalPage => ({
+    slug: `how-to-get-${targetScore}-sat`,
+    target: targetScore,
+    metaTitle: `How to Get a ${targetScore} on the SAT (2026 Guide)`,
+    metaDescription: `A ${targetScore} Digital SAT score is realistic with a focused plan. Section split, percentile, question-miss budget, and the study plan that gets you there.`,
+    headline: `How to Get a ${targetScore} on the SAT`,
+    intro: `A ${targetScore} is a specific, reachable target on the Digital SAT — but only if your prep matches the score. This guide breaks down the exact section split, the number of questions you can afford to miss, and the week-by-week plan that reliably produces a ${targetScore}.`,
   })),
   {
     slug: "perfect-sat-score-1600",
@@ -51,4 +51,4 @@ export const scoreGoalPages: ScoreGoalPage[] = [
   },
 ];
 
-export const scoreGoalBySlug = new Map(scoreGoalPages.map((p) => [p.slug, p]));
+export const scoreGoalBySlug = new Map(scoreGoalPages.map((scoreGoalPage) => [scoreGoalPage.slug, scoreGoalPage]));

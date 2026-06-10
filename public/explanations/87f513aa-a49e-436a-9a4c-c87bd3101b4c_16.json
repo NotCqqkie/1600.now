@@ -9,11 +9,7 @@
     },
     {
       "title": "Result",
-      "content": "The minimum value of $f$ is $-6$. That matches choice B — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "y=x^2-12x+30",
-        "30-144/4"
-      ]
+      "content": "The minimum value of $f$ is $-6$. That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

@@ -9,11 +9,7 @@
     },
     {
       "title": "Write the equation in slope‑intercept form",
-      "content": "The slope‑intercept form is $$y = mx + b$$ with slope $m = -\\frac{1}{2}$ and intercept $b = 3$ from step 1.<br/>Substitute: $$y = -\\frac{1}{2}x + 3$$.<br/>That matches choice B — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "y=-\\frac{1}{2}x+3",
-        "(0,3)"
-      ]
+      "content": "The slope‑intercept form is $$y = mx + b$$ with slope $m = -\\frac{1}{2}$ and intercept $b = 3$ from step 1.<br/>Substitute: $$y = -\\frac{1}{2}x + 3$$.<br/>That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

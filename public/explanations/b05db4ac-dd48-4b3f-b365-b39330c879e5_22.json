@@ -9,10 +9,7 @@
     },
     {
       "title": "One solution → discriminant = 0",
-      "content": "$b^2 - 4ac = 0$: $76^2 - 4(c)(-76) = 0$ → $5776 + 304c = 0$ → $c = -19$.",
-      "desmosExpressions": [
-        "5776+304c=0"
-      ]
+      "content": "$b^2 - 4ac = 0$: $76^2 - 4(c)(-76) = 0$ → $5776 + 304c = 0$ → $c = -19$."
     },
     {
       "title": "Answer",

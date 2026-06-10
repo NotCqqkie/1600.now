@@ -17,11 +17,7 @@
     },
     {
       "title": "Evaluate parabola at vertex",
-      "content": "Substitute $x = \\frac{7}{2}$ into $y = -x^2 + 7x - 76$:<br/>$$y = -\\left(\\frac{7}{2}\\right)^2 + 7\\left(\\frac{7}{2}\\right) - 76 = -\\frac{49}{4} + \\frac{49}{2} - 76$$<br/>Convert to a common denominator of 4:<br/>$$= -\\frac{49}{4} + \\frac{98}{4} - \\frac{304}{4} = \\frac{-255}{4}$$<br/>Therefore $c = -\\frac{255}{4}$. That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y=-x^2+7x-76",
-        "y=-255/4"
-      ]
+      "content": "Substitute $x = \\frac{7}{2}$ into $y = -x^2 + 7x - 76$:<br/>$$y = -\\left(\\frac{7}{2}\\right)^2 + 7\\left(\\frac{7}{2}\\right) - 76 = -\\frac{49}{4} + \\frac{49}{2} - 76$$<br/>Convert to a common denominator of 4:<br/>$$= -\\frac{49}{4} + \\frac{98}{4} - \\frac{304}{4} = \\frac{-255}{4}$$<br/>Therefore $c = -\\frac{255}{4}$. That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

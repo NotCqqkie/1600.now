@@ -9,11 +9,7 @@
     },
     {
       "title": "Calculate xy",
-      "content": "Now multiply $x$ and $y$:<br/>$$xy = 3 \\cdot 144 = 432$$<br/>That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "x = 3",
-        "y = (15 - x)^2"
-      ]
+      "content": "Now multiply $x$ and $y$:<br/>$$xy = 3 \\cdot 144 = 432$$<br/>That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

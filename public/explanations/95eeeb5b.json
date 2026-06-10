@@ -13,7 +13,7 @@
     },
     {
       "title": "Test integer values a &gt; 1",
-      "content": "Since $a$ is an integer with $a&gt;1$, $a+b=-3a$ takes values $-6,-9,-12,\\ldots$ Only $-6$ (when $a=2$) appears among the choices.<ul><li>$-6$: matches $a=2$ &mdash; possible.</li><li>$-3$: would need $a=1$, but $a&gt;1$ &mdash; impossible.</li><li>$4$: $-3a=4$ gives non-integer $a$ &mdash; impossible.</li><li>$5$: $-3a=5$ gives non-integer $a$ &mdash; impossible.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "Since $a$ is an integer with $a\\gt1$, $a+b=-3a$ takes values $-6,-9,-12,\\ldots$ Only $-6$ (when $a=2$) appears among the choices.<ul><li>$-6$: matches $a=2$ - possible.</li><li>$-3$: would need $a=1$, but $a\\gt1$ - impossible.</li><li>$4$: $-3a=4$ gives non-integer $a$ - impossible.</li><li>$5$: $-3a=5$ gives non-integer $a$ - impossible.</li></ul>That matches choice A - <strong>A</strong> is correct."
     }
   ]
 }

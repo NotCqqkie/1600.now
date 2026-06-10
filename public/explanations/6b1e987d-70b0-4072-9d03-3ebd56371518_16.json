@@ -9,11 +9,7 @@
     },
     {
       "title": "Write circle P's equation",
-      "content": "With center $(3, 6)$ and radius squared equal to 16, circle P is $(x - 3)^2 + (y - 6)^2 = 16$. That matches choice B — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "(x-3)^2 + (y-6)^2 = 4",
-        "(x-3)^2 + (y-6)^2 = 16"
-      ]
+      "content": "With center $(3, 6)$ and radius squared equal to 16, circle P is $(x - 3)^2 + (y - 6)^2 = 16$. That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

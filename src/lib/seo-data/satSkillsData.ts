@@ -481,4 +481,4 @@ export const satSkills: SatSkill[] = [
   },
 ];
 
-export const satSkillBySlug = new Map(satSkills.map((s) => [s.slug, s]));
+export const satSkillBySlug = new Map(satSkills.map((skill) => [skill.slug, skill]));

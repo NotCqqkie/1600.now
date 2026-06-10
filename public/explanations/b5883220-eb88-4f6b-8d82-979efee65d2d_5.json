@@ -9,10 +9,7 @@
     },
     {
       "title": "Write the function for remaining gas",
-      "content": "The remaining gas equals the starting amount minus the amount consumed:<br/>$$f(d) = 10 - \\frac{d}{35}$$",
-      "desmosExpressions": [
-        "y = 10 - \\frac{x}{35}"
-      ]
+      "content": "The remaining gas equals the starting amount minus the amount consumed:<br/>$$f(d) = 10 - \\frac{d}{35}$$"
     },
     {
       "title": "Check all choices",

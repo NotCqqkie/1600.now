@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Compare the spreads visually",
-      "content": "Team A's histogram shows scores concentrated between 25 and 40, with frequencies of 43–45 in each bin across this narrow range. Team B's histogram shows scores spread widely from 15 to 50, with notable frequencies at the extremes (15–20 and 45–50) and much smaller frequencies in the middle."
+      "content": "Standard deviation measures spread from the center. Compare the histograms by spread, not by the exact height of each bar:<ul><li>Team A's scores are clustered in a narrower interval.</li><li>Team B's scores are spread over a wider interval, including more values near the low and high ends.</li></ul>"
     },
     {
       "title": "Interpret spread as standard deviation",
-      "content": "Standard deviation measures how far data spreads from the center.<br/><br/>Team A has minimal spread — scores cluster tightly. Team B has much greater spread — scores are distributed across a wide range with concentrations at the extremes.<br/><br/>Larger spread means larger standard deviation. Therefore, Team A's standard deviation is less than Team B's.<br/><br/>That matches choice A — <strong>A</strong> is correct."
+      "content": "A narrower distribution has a smaller standard deviation, and a wider distribution has a larger standard deviation. Therefore, Team A's standard deviation is less than Team B's. That matches choice <strong>A</strong>."
     }
   ]
 }

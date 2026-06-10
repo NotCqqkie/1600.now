@@ -9,11 +9,7 @@
     },
     {
       "title": "Solve for $x$",
-      "content": "$$3x+(-2x)=40$$ $$x=40.$$ The intersection of the two lines also has x-coordinate $40$.",
-      "desmosExpressions": [
-        "y=-2x",
-        "y=40-3x"
-      ]
+      "content": "$$3x+(-2x)=40$$ $$x=40.$$ The intersection of the two lines also has x-coordinate $40$."
     },
     {
       "title": "Confirm the answer",

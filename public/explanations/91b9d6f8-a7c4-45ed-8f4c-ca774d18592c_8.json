@@ -13,11 +13,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>A) $y = -5x + 7$:</strong> Slope is $-5$, not $7$. Eliminated.</li><li><strong>B) $y = -5x - 7$:</strong> Slope is $-5$ and $y$-intercept is $-7$. Neither matches. Eliminated.</li><li><strong>C) $y = 7x + 5$:</strong> Slope $7$ and $y$-intercept $5$. Matches.</li><li><strong>D) $y = 7x - 5$:</strong> Slope $7$ is right, but $y$-intercept is $-5$, not $5$. Eliminated.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y = 7x + 5",
-        "(0, 5)"
-      ]
+      "content": "<ul><li><strong>A) $y = -5x + 7$:</strong> Slope is $-5$, not $7$. Eliminated.</li><li><strong>B) $y = -5x - 7$:</strong> Slope is $-5$ and $y$-intercept is $-7$. Neither matches. Eliminated.</li><li><strong>C) $y = 7x + 5$:</strong> Slope $7$ and $y$-intercept $5$. Matches.</li><li><strong>D) $y = 7x - 5$:</strong> Slope $7$ is right, but $y$-intercept is $-5$, not $5$. Eliminated.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }

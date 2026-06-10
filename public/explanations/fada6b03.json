@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply the quadratic formula",
-      "content": "For $2x^2 - 8x - 7 = 0$, identify $a = 2$, $b = -8$, $c = -7$. <br/><br/>Calculate the discriminant:<br/>$$\\Delta = b^2 - 4ac = (-8)^2 - 4(2)(-7) = 64 + 56 = 120$$<br/>Apply the quadratic formula:<br/>$$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a} = \\frac{8 \\pm \\sqrt{120}}{4}$$"
+      "title": "Match the requested root form",
+      "content": "The problem gives a solution form involving $\\sqrt{k}$, so solve the quadratic far enough to identify the number under the radical. For $2x^2 - 8x - 7 = 0$, identify $a = 2$, $b = -8$, and $c = -7$.<br/><br/>Calculate the discriminant:<br/>$$\\Delta = b^2 - 4ac = (-8)^2 - 4(2)(-7) = 64 + 56 = 120$$<br/>Apply the quadratic formula:<br/>$$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a} = \\frac{8 \\pm \\sqrt{120}}{4}$$"
     },
     {
       "title": "Match to the given form",

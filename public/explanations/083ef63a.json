@@ -12,16 +12,8 @@
       "content": "The vertex of a parabola in factored form lies halfway between the two x-intercepts:<br/>$$x=\\frac{2+(-15)}{2}=\\frac{-13}{2}$$"
     },
     {
-      "title": "Check with Desmos",
-      "content": "Graph $y=(x-2)(x+15)$. The lowest point of the parabola occurs on the vertical line $x=-\\frac{13}{2}$.",
-      "desmosExpressions": [
-        "y=(x-2)(x+15)",
-        "x=-\\frac{13}{2}"
-      ]
-    },
-    {
       "title": "Answer",
-      "content": "The function reaches its minimum when $x=-\\frac{13}{2}$."
+      "content": "The function reaches its minimum when $x=-\\frac{13}{2}$.<br/><br/>The question asks for the input where the minimum occurs, not the minimum output value, so the x-coordinate of the vertex is the final answer."
     }
   ]
 }

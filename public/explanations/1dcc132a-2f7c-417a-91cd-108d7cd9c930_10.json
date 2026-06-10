@@ -4,19 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use custom Desmos regression for b",
-      "content": "The equation form is already given: $y=36x^2-bx-120$. Since the table shows an x-intercept at $(6,0)$, enter $x_1=[6]$ and $y_1=[0]$, then type the custom regression row $y_1 \\sim 36x_1^2-bx_1-120$. Desmos solves the unknown coefficient and returns $b=196$.",
-      "desmosExpressions": [
-        "x_1=[6]",
-        "y_1=[0]",
-        "y_1~36x_1^2-b x_1-120",
-        "y=36x^2-196x-120",
-        "(6,0)"
-      ]
+      "title": "Substitute the x-intercept",
+      "content": "The table shows an x-intercept at $(6,0)$. Substitute $x=6$ and $y=0$ into $y=36x^2-bx-120$:<br/>$$0=36(6)^2-6b-120$$"
     },
     {
       "title": "Solve for b",
-      "content": "A quick hand check matches the regression: substitute $x=6$ and $y=0$ into $y=36x^2-bx-120$ to get $0=36(6)^2-6b-120=1176-6b$. Thus $6b=1176$ and $b=196$. The value of $b$ is <strong>196</strong>."
+      "content": "Simplify the equation:<br/>$$0=1296-6b-120$$<br/>$$0=1176-6b$$<br/>$$6b=1176$$<br/>$$b=196$$<br/>The value of $b$ is <strong>196</strong>.<br/><br/>The substitution is valid because an x-intercept has $y=0$, so the table gives one exact point on the quadratic."
     }
   ]
 }

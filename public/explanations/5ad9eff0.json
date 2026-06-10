@@ -1,15 +1,19 @@
 {
-  "qid": "5ad9eff0",
+  "questionId": "5ad9eff0",
   "correctAnswer": "B",
+  "section": "Math",
   "steps": [
     {
-      "explanation": "The width is $w$ feet. The length is 6 feet longer than the width, so length $= w + 6$."
+      "title": "Write the dimensions",
+      "content": "The width is $w$ feet, and the length is $6$ feet longer, so the length is $w+6$."
     },
     {
-      "explanation": "Perimeter of a rectangle: $P = 2(\\text{width}) + 2(\\text{length}) = 2w + 2(w+6) = 2w + 2w + 12 = 4w + 12$."
+      "title": "Find the perimeter",
+      "content": "A rectangle's perimeter is twice the width plus twice the length: $$2w+2(w+6)=2w+2w+12=4w+12$$"
     },
     {
-      "explanation": "Evaluate each choice:<ul><li>$2w + 6$: Only one length and one width added, missing a factor of 2. Eliminated.</li><li>$4w + 12$: Equals $2w + 2(w+6)$, the correct perimeter formula. That matches choice B &mdash; <strong>B</strong> is correct.</li><li>$w^2 + 6$: Uses multiplication instead of addition for dimensions. Eliminated.</li><li>$w^2 + 6w$: Produces area-like terms, not perimeter. Eliminated.</li></ul>"
+      "title": "Confirm the choice",
+      "content": "Choice B is $4w+12$, so <strong>B</strong> is correct."
     }
   ]
 }

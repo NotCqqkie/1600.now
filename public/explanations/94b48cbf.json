@@ -9,10 +9,7 @@
     },
     {
       "title": "Compute the ratio b/a",
-      "content": "Now calculate $\\frac{b}{a}$:<br/>$$\\frac{b}{a} = \\frac{-31/2}{-31/7}$$<br/>Multiply by the reciprocal:<br/>$$= \\frac{-31}{2} \\cdot \\frac{7}{-31}$$<br/>Cancel the common factor $-31$:<br/>$$= \\frac{7}{2}$$<br/>That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "7x+2y=-31"
-      ]
+      "content": "Now calculate $\\frac{b}{a}$:<br/>$$\\frac{b}{a} = \\frac{-31/2}{-31/7}$$<br/>Multiply by the reciprocal:<br/>$$= \\frac{-31}{2} \\cdot \\frac{7}{-31}$$<br/>Cancel the common factor $-31$:<br/>$$= \\frac{7}{2}$$<br/>That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

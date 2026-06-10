@@ -9,10 +9,7 @@
     },
     {
       "title": "Use the graph shortcut",
-      "content": "In Desmos or on the printed graph, draw the line $y=0$ to mark the $x$-axis. Count intersections between the exponential curve and that line. There are no intersections, so there are zero values of $x$ for which $f(x)=0$. That matches choice D, so <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y=0"
-      ]
+      "content": "Use the $x$-axis, which is the line $y=0$. Count intersections between the exponential curve and the $x$-axis. There are no intersections, so there are zero values of $x$ for which $f(x)=0$. That matches choice D, so <strong>D</strong> is correct."
     }
   ]
 }

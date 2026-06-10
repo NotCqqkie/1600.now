@@ -9,11 +9,7 @@
     },
     {
       "title": "Evaluate p(−5) to get the minimum",
-      "content": "$$p(-5) = 2(25) + 20(-5) + 15 = 50 - 100 + 15 = -35.$$ Since $a = 2 > 0$ the parabola opens upward, confirming this is a minimum. That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y=2x^{2}+20x+15",
-        "(-5,-35)"
-      ]
+      "content": "$$p(-5) = 2(25) + 20(-5) + 15 = 50 - 100 + 15 = -35.$$ Since $a = 2 > 0$ the parabola opens upward, confirming this is a minimum. That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

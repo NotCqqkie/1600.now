@@ -4,18 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use Desmos to fit the table",
-      "content": "Treat the number of cars $c$ as $x$ and the maximum number of people $p$ as $y$. Enter the table as $x_1=[3,5,10]$ and $y_1=[9,11,16]$, then type $y_1 \\sim m x_1+b$. Desmos returns $m=1$ and $b=6$, so the relationship is $p=c+6$.",
-      "desmosExpressions": [
-        "x_1=[3,5,10]",
-        "y_1=[9,11,16]",
-        "y_1~m x_1+b",
-        "y=x+6"
-      ]
+      "title": "Find the linear relationship",
+      "content": "Using the table points $(3,9)$ and $(5,11)$, the slope is $$m=\\frac{11-9}{5-3}=1.$$ So $p=c+b$."
+    },
+    {
+      "title": "Find the constant",
+      "content": "Substitute $(3,9)$ into $p=c+b$: $$9=3+b$$ $$b=6.$$ Therefore, $p=c+6$."
     },
     {
       "title": "Match the answer form",
-      "content": "The choices are written with $c$ and $p$. From $p=c+6$, subtract $p$ and 6 from both sides to get $c-p=-6$. That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "Rewrite $p=c+6$ by subtracting $p$ from both sides: $$c-p=-6.$$ That matches choice A, so <strong>A</strong> is correct."
     }
   ]
 }

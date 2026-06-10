@@ -9,11 +9,7 @@
     },
     {
       "title": "Vieta shortcut: sum $= -b/a$",
-      "content": "$$\\text{sum} = \\frac{-29}{-3} = \\frac{29}{3}$$<br/>That matches choice 29/3 — <strong>29/3</strong> is correct.",
-      "desmosExpressions": [
-        "y = x(x + 1) - 56",
-        "y = 4x(x - 7)"
-      ]
+      "content": "$$\\text{sum} = \\frac{-29}{-3} = \\frac{29}{3}$$<br/>That matches choice 29/3 — <strong>29/3</strong> is correct."
     }
   ]
 }

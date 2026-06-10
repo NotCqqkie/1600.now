@@ -5,20 +5,15 @@
   "steps": [
     {
       "title": "Use relative years to keep the model simple",
-      "content": "Let $t$ be years after $1995$. Then $1995$ becomes $t=0$, $2015$ becomes $t=20$, and $2019$ becomes $t=24$. The two known data points are $(0,59)$ and $(20,217)$, where population is measured in thousands.",
-      "desmosExpressions": [
-        "x_1=[0,20]",
-        "y_1=[59,217]",
-        "y_1~m x_1+b"
-      ]
+      "content": "Let $t$ be years after $1995$. Then $1995$ becomes $t=0$, $2015$ becomes $t=20$, and $2019$ becomes $t=24$. The two known data points are $(0,59)$ and $(20,217)$, where population is measured in thousands."
     },
     {
       "title": "Predict the 2019 population",
-      "content": "The table regression gives $m=7.9$ and $b=59$, so the model is $y=7.9t+59$. For $2019$, use $t=24$: $$y=7.9(24)+59=248.6.$$ To the nearest whole number, this is $249$ thousand.",
-        "desmosExpressions": [
-          "y=7.9x+59",
-          "(24,248.6)"
-        ]
+      "content": "The table calculation gives $m=7.9$ and $b=59$, so the model is $y=7.9t+59$. For $2019$, use $t=24$: $$y=7.9(24)+59=248.6.$$ To the nearest whole number, this is $249$ thousand.",
+      "desmosExpressions": [
+        "y=7.9x+59",
+        "(24,248.6)"
+      ]
     },
     {
       "title": "Confirm the answer",

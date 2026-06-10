@@ -9,11 +9,7 @@
     },
     {
       "title": "Calculate k for circle B using the radius relationship",
-      "content": "Circle B has radius twice that of circle A, so $r_B = 2 \\cdot r_A = 2 \\cdot 5 = 10$. The equation for circle B is $(x+5)^2 + (y-5)^2 = k$, where $k$ represents $r_B^2$. Therefore: $$k = 10^2 = 100$$",
-      "desmosExpressions": [
-        "(x+5)^2 + (y-5)^2 = 25",
-        "(x+5)^2 + (y-5)^2 = 100"
-      ]
+      "content": "Circle B has radius twice that of circle A, so $r_B = 2 \\cdot r_A = 2 \\cdot 5 = 10$. The equation for circle B is $(x+5)^2 + (y-5)^2 = k$, where $k$ represents $r_B^2$. Therefore: $$k = 10^2 = 100$$"
     }
   ]
 }

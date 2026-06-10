@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The first sentence says 3D graphics <strong>lack organic realism</strong> because they are built from perfect geometric shapes. The second sentence describes what this looks like: unnaturally precise angles and curves. The blank must connect these two sentences as <strong>cause &rarr; result</strong>."
+      "content": "The first sentence says 3D graphics <strong>lack organic realism</strong> because they are built from perfect geometric shapes. The second sentence describes what this looks like: unnaturally precise angles and curves. The blank must connect these two sentences as <strong>cause $\\Rightarrow$ result</strong>."
     },
     {
       "title": "Eliminate the choices",

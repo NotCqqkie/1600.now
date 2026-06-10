@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Analyze the parabola using vertex form",
-      "content": "The parabola $y = -3(x - 23)^2 + 20$ is in vertex form $y = a(x - h)^2 + k$ with vertex $(23, 20)$. Since $a = -3 < 0$, the parabola opens downward. This means the maximum $y$-value on the parabola is $20$."
+      "content": "The parabola $y = -3(x - 23)^2 + 20$ is in vertex form $y = a(x - h)^2 + k$ with vertex $(23, 20)$. Since $a = -3 \\lt 0$, the parabola opens downward. This means the maximum $y$-value on the parabola is $20$."
     },
     {
       "title": "Compare the horizontal line to the parabola",

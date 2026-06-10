@@ -13,11 +13,7 @@
     },
     {
       "title": "Conclusion",
-      "content": "The slope of any line parallel to $y = 7x - 16$ is 7. That matches choice C &mdash; <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y = 7x - 16",
-        "y = 7x + 3"
-      ]
+      "content": "The slope of any line parallel to $y = 7x - 16$ is 7. That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }

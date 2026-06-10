@@ -9,11 +9,7 @@
     },
     {
       "title": "Identify the fixed time as mowing time",
-      "content": "The 60-minute component must be the mowing time because it is constant regardless of the number of plants to water. Algebraically, when $x = 0$:<br/>$$W(0) = 2(0) + 60 = 60$$The gardener takes <strong>60 minutes</strong> to mow the grass.",
-      "desmosExpressions": [
-        "y = 2x + 60",
-        "(0, 60)"
-      ]
+      "content": "The 60-minute component must be the mowing time because it is constant regardless of the number of plants to water. Algebraically, when $x = 0$:<br/>$$W(0) = 2(0) + 60 = 60$$The gardener takes <strong>60 minutes</strong> to mow the grass."
     }
   ]
 }

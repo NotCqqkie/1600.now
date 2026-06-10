@@ -13,10 +13,7 @@
     },
     {
       "title": "Multiply by (2/3)π",
-      "content": "$$V = \\frac{2}{3}\\pi(571{,}787) \\approx \\frac{2}{3}(3.14159)(571{,}787) \\approx 2.0944 \\times 571{,}787 \\approx 1{,}197{,}500$$",
-      "desmosExpressions": [
-        "\\frac{2}{3}\\pi(83)^3"
-      ]
+      "content": "$$V = \\frac{2}{3}\\pi(571{,}787) \\approx \\frac{2}{3}(3.14159)(571{,}787) \\approx 2.0944 \\times 571{,}787 \\approx 1{,}197{,}500$$"
     },
     {
       "title": "Eliminate wrong choices and confirm",

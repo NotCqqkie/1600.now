@@ -9,11 +9,7 @@
     },
     {
       "title": "Find the value of $x + y$",
-      "content": "Divide: $x+y=13$. That matches choice <strong>C</strong> — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y = x - 3",
-        "y = \\sqrt{x^2 - 39}"
-      ]
+      "content": "Divide: $x+y=13$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."
     },
     {
       "title": "Confirm the answer",

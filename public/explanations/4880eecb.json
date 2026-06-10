@@ -5,8 +5,7 @@
   "steps": [
     {
       "title": "Set up the equation from the word problem",
-      "content": "The positive number is $x$. The number that is 8 more than $x$ is $x + 8$. Their product is 180.",
-      "formula": "$$x(x + 8) = 180$$"
+      "content": "The positive number is $x$. The number that is 8 more than $x$ is $x + 8$. Their product is 180."
     },
     {
       "title": "Test the answer choices",

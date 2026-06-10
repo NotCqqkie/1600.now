@@ -14,10 +14,7 @@
     {
       "title": "Compute average rate of change",
       "content": "Use change in momentum divided by change in time: $$\\frac{y(6)-y(2)}{6-2}=\\frac{8-6}{6-2}=\\frac{2}{4}=0.5.$$ The units are newton-seconds per second, and the answer is <strong>0.5</strong>.",
-      "formula": "$$\\text{average rate}=\\frac{\\Delta y}{\\Delta x}$$",
-      "desmosExpressions": [
-        "\\frac{8-6}{6-2}"
-      ]
+      "formula": "$$\\text{average rate}=\\frac{\\Delta y}{\\Delta x}$$"
     },
     {
       "title": "Confirm the answer",

@@ -9,10 +9,7 @@
     },
     {
       "title": "Interpret the vertex",
-      "content": "Since $a=-16&lt;0$, the parabola opens downward — the vertex is the maximum. The rocket reaches its maximum height of $502$ ft at $t=5.6$ seconds. That matches choice B — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "y=-16(x-5.6)^2+502"
-      ]
+      "content": "Since $a=-16\\lt0$, the parabola opens downward — the vertex is the maximum. The rocket reaches its maximum height of $502$ ft at $t=5.6$ seconds. That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

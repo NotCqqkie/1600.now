@@ -13,11 +13,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li>A: $y=-6x+4$ has slope $-6$, not $4$. Eliminated.</li><li>B: $y=6x+4$ has slope $6$, not $4$. Eliminated.</li><li>C: $y=4x-6$ has slope $4$ but y-intercept $-6$, so it does not pass through $(0,6)$. Eliminated.</li><li>D: $y=4x+6$ has slope $4$ and passes through $(0,6)$.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y=4x+6",
-        "(0,6)"
-      ]
+      "content": "<ul><li>A: $y=-6x+4$ has slope $-6$, not $4$. Eliminated.</li><li>B: $y=6x+4$ has slope $6$, not $4$. Eliminated.</li><li>C: $y=4x-6$ has slope $4$ but y-intercept $-6$, so it does not pass through $(0,6)$. Eliminated.</li><li>D: $y=4x+6$ has slope $4$ and passes through $(0,6)$.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
     }
   ]
 }

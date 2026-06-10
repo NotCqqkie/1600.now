@@ -5,24 +5,15 @@
   "steps": [
     {
       "title": "Fit the original line from two points",
-      "content": "Read two points from the line of best fit for data set E. The line crosses near $(0,12)$ and also passes near $(4,18)$. A quick Desmos table regression gives the model for E.",
-      "desmosExpressions": [
-        "x_1=[0,4]",
-        "y_1=[12,18]",
-        "y_1~m x_1+b"
-      ]
+      "content": "Read two points from the line of best fit for data set E. The line crosses near $(0,12)$ and also passes near $(12,30)$."
     },
     {
       "title": "Apply the y-scale transformation",
-      "content": "The regression gives $y=12+1.5x$ for data set E. Data set F multiplies every $y$-coordinate by $3.9$, so both the intercept and the slope are multiplied by $3.9$: $12(3.9)=46.8$ and $1.5(3.9)=5.85\\approx 5.9$."
+      "content": "The slope for data set E is $\\frac{30-12}{12-0}=1.5$, so its line of best fit is about $y=12+1.5x$. Data set F multiplies every $y$-coordinate by $3.9$, so both the intercept and the slope are multiplied by $3.9$: $12(3.9)=46.8$ and $1.5(3.9)=5.85\\approx 5.9$."
     },
     {
       "title": "Match the transformed model",
-      "content": "The transformed line is approximately $y=46.8+5.9x$. That matches choice <strong>A</strong>.",
-      "desmosExpressions": [
-        "y=12+1.5x",
-        "y=46.8+5.9x"
-      ]
+      "content": "The transformed line is approximately $y=46.8+5.9x$. That matches choice <strong>A</strong>."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId": "dba9eaf8", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the contrast structure", "content": "The sentence reads: &quot;its role isn't ______ ; rather, the accessory spleen may actively support diving mechanisms.&quot; The word &quot;rather&quot; signals a direct contrast. The blank must be the opposite of &quot;actively supporting&quot; a function &mdash; something meaning dormant, hidden, or without active role."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; 'replicable'</strong>: means capable of being reproduced. The text addresses whether the organ has a function, not whether that function can be replicated. Irrelevant meaning rule violated. &#10007;</li><li><strong>Choice B &mdash; 'predetermined'</strong>: means decided in advance. The text focuses on whether the organ is active or dormant, not on whether its role was determined beforehand. Irrelevant meaning rule violated. &#10007;</li><li><strong>Choice C &mdash; 'operative'</strong>: means functional or active. Saying the role &quot;isn't operative&quot; would mean it isn't functional &mdash; but &quot;rather, it actively supports diving&quot; also says it is functional, creating a contradiction rather than a contrast. Logical contradiction rule violated. &#10007;</li><li><strong>Choice D &mdash; 'latent'</strong>: means dormant or hidden, not actively expressed. Saying the role &quot;isn't latent&quot; contrasts cleanly with &quot;actively supports diving mechanisms.&quot; &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "dba9eaf8",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the contrast structure",
+      "content": "The sentence reads: &quot;its role isn't ______; rather, the accessory spleen may actively support diving mechanisms.&quot; The word &quot;rather&quot; signals a direct contrast. The blank must be the opposite of &quot;actively supporting&quot; a function &mdash; something meaning dormant, hidden, or without active role."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; 'replicable'</strong>: means capable of being reproduced. The text addresses whether the organ has a function, not whether that function can be replicated. Irrelevant meaning rule violated. &#10007;</li><li><strong>Choice B &mdash; 'predetermined'</strong>: means decided in advance. The text focuses on whether the organ is active or dormant, not on whether its role was determined beforehand. Irrelevant meaning rule violated. &#10007;</li><li><strong>Choice C &mdash; 'operative'</strong>: means functional or active. Saying the role &quot;isn't operative&quot; would mean it isn't functional &mdash; but &quot;rather, it actively supports diving&quot; also says it is functional, creating a contradiction rather than a contrast. Logical contradiction rule violated. &#10007;</li><li><strong>Choice D &mdash; 'latent'</strong>: means dormant or hidden, not actively expressed. Saying the role &quot;isn't latent&quot; contrasts cleanly with &quot;actively supports diving mechanisms.&quot; &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

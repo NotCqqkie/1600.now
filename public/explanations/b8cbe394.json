@@ -1,18 +1,19 @@
 {
-  "qid": "b8cbe394",
+  "questionId": "b8cbe394",
   "correctAnswer": "C",
+  "section": "Math",
   "steps": [
     {
-      "text": "Identify the two cost components: a daily rate of \\$11 per day, and a one-time insurance fee of \\$10. The total cost $c$ for $d$ days is $c = 11d + 10$."
+      "title": "Identify the two charges",
+      "content": "The rental costs $\\$11$ per day, so $d$ days cost $11d$. The insurance fee is a one-time $\\$10$ charge."
     },
     {
-      "text": "Check with $d = 1$: $c = 11(1) + 10 = 21$. One day of rental costs \\$11, plus \\$10 insurance = \\$21. ✓"
+      "title": "Write the total cost",
+      "content": "Add the daily charge and the one-time fee: $$c=11d+10.$$"
     },
     {
-      "text": "Check with $d = 3$: $c = 11(3) + 10 = 43$. Three days at \\$11 each = \\$33, plus \\$10 insurance = \\$43. ✓"
-    },
-    {
-      "text": "Evaluate each choice:<ul><li>A: $c = 11(d+10)$ — expands to $11d + 110$, charging \\$110 for zero days instead of \\$10. Eliminated.</li><li>B: $c = 10(d+11)$ — expands to $10d + 110$, uses the wrong daily rate (\\$10 instead of \\$11) and wrong fixed fee (\\$110). Eliminated.</li><li>C: $c = 11d + 10$ — daily charge $11d$ plus one-time fee \\$10. Matches the problem exactly. That matches choice C — <strong>C</strong> is correct.</li><li>D: $c = 10d + 11$ — swaps the daily rate and the fixed fee; charges \\$10/day and a \\$11 one-time fee. Eliminated.</li></ul>"
+      "title": "Confirm the choice",
+      "content": "$c=11d+10$ matches choice <strong>C</strong>. The other choices either swap the daily rate and fee or multiply the one-time fee by the number of days."
     }
   ]
 }

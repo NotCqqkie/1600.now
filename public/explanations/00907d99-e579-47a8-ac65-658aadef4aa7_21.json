@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Set up the tangent relationship from the right triangle",
-      "content": "In a right triangle formed by the ramp, the angle $\\theta$ with the ground satisfies:<br/>$$\\tan \\theta = \\frac{\\text{height}}{\\text{horizontal distance}} = \\frac{29.1}{x}$$<br/>The legal constraint requires $\\tan \\theta < \\frac{1}{12}$, so:<br/>$$\\frac{29.1}{x} < \\frac{1}{12}$$"
+      "content": "In a right triangle formed by the ramp, the angle $\\theta$ with the ground satisfies:<br/>$$\\tan \\theta = \\frac{\\text{height}}{\\text{horizontal distance}} = \\frac{29.1}{x}$$<br/>The legal constraint requires $\\tan \\theta \\lt \\frac{1}{12}$, so:<br/>$$\\frac{29.1}{x} \\lt \\frac{1}{12}$$"
     },
     {
       "title": "Solve for the minimum value of x at the boundary",

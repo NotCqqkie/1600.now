@@ -9,14 +9,7 @@
     },
     {
       "title": "Apply commutativity to match a choice",
-      "content": "We can rearrange the terms using commutativity of addition: $16 + 14(x - 1) = 14(x - 1) + 16$. A Desmos table also checks the model: 1 book costs $16$, 2 books cost $30$, and 3 books cost $44$. Fitting $y_1\\sim m(x_1-1)+b$ gives $m=14$ and $b=16$, which is $14(x-1)+16$. This matches choice C exactly &mdash; <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "x_1=[1,2,3]",
-        "y_1=[16,30,44]",
-        "y_1~m(x_1-1)+b",
-        "y=m(x-1)+b",
-        "y=14(x-1)+16"
-      ]
+      "content": "Rearrange the terms using commutativity of addition: $$16+14(x-1)=14(x-1)+16.$$ This matches choice C exactly &mdash; <strong>C</strong> is correct.<br/><br/>This is the same equation because addition can be done in either order; the coefficient, variable expression, and constant term all stay unchanged."
     }
   ]
 }

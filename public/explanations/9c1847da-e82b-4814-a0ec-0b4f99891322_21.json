@@ -9,11 +9,7 @@
     },
     {
       "title": "Substitute x and y to solve for w",
-      "content": "Plug $$x = 164$$ and $$y = 19$$ into the first equation:<br/>$$-164 - w \\cdot 19 = -411$$<br/>Add $$164$$ to both sides:<br/>$$-19w = -247$$<br/>Divide by $$-19$$:<br/>$$w = \\frac{247}{19} = 13$$<br/>The answer is <strong>13</strong>.",
-      "desmosExpressions": [
-        "y = \\frac{411 - x}{13}",
-        "y = \\frac{2x - 81}{13}"
-      ]
+      "content": "Plug $$x = 164$$ and $$y = 19$$ into the first equation:<br/>$$-164 - w \\cdot 19 = -411$$<br/>Add $$164$$ to both sides:<br/>$$-19w = -247$$<br/>Divide by $$-19$$:<br/>$$w = \\frac{247}{19} = 13$$<br/>The answer is <strong>13</strong>."
     }
   ]
 }

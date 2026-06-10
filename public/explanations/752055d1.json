@@ -13,10 +13,7 @@
     },
     {
       "title": "Solve the exponential equation for r",
-      "content": "Since $2 = 2^1$, we have $(2)^{4r} = 2^1$. When the bases are equal, the exponents must be equal: $$4r = 1$$ $$r = \\frac{1}{4}$$ That matches choice B — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "P=C((2))^(rt)"
-      ]
+      "content": "Since $2 = 2^1$, we have $(2)^{4r} = 2^1$. When the bases are equal, the exponents must be equal: $$4r = 1$$ $$r = \\frac{1}{4}$$ That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

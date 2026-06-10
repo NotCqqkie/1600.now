@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Set up",
-      "content": "Apply the quadratic formula to x&sup2; + 49x + 1 = 0 with a = 1, b = 49, c = 1."
+      "content": "This is a quadratic equation, so the goal is to find its roots. The quadratic formula is a direct way to solve it when simple factoring is not the focus. Apply the quadratic formula to x&sup2; + 49x + 1 = 0 with a = 1, b = 49, c = 1."
     },
     {
       "title": "Solve",
@@ -13,10 +13,7 @@
     },
     {
       "title": "Answer",
-      "content": "<strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y = x^{2} + 49x + 1"
-      ]
+      "content": "<strong>A</strong> is correct."
     }
   ]
 }

@@ -9,19 +9,11 @@
     },
     {
       "title": "Read two clear points",
-      "content": "The graph shows the line passing through $(1,5)$ and $(2,7)$. Entering those two points in Desmos and running a linear regression gives the slope directly.",
-      "desmosExpressions": [
-        "x_1=[1,2]",
-        "y_1=[5,7]",
-        "y_1~m x_1+b"
-      ]
+      "content": "The graph shows the line passing through $(1,5)$ and $(2,7)$. These are convenient points because the change in $x$ is exactly $1$ mile."
     },
     {
       "title": "Compute the slope",
-      "content": "$$m=\\frac{7-5}{2-1}=2$$ So the cab ride cost increases by $2.00$ for each additional mile.",
-      "desmosExpressions": [
-        "y=2x+3"
-      ]
+      "content": "$$m=\\frac{7-5}{2-1}=2$$ So the cab ride cost increases by $2.00$ for each additional mile."
     },
     {
       "title": "Confirm the choice",

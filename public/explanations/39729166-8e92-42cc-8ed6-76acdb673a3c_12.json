@@ -5,14 +5,11 @@
   "steps": [
     {
       "title": "One real solution → discriminant = 0",
-      "content": "For $81x^2 + \\frac{18}{33}x + p = 0$, set $b^2 - 4ac = 0$: $$\\left(\\frac{18}{33}\\right)^2 - 4(81)(p) = 0$$"
+      "content": "Use the discriminant when the question is really asking how many real solutions a quadratic has. The sign of $b^2-4ac$ tells whether there are two, one, or no real solutions. For $81x^2 + \\frac{18}{33}x + p = 0$, set $b^2 - 4ac = 0$: $$\\left(\\frac{18}{33}\\right)^2 - 4(81)(p) = 0$$"
     },
     {
       "title": "Solve for p",
-      "content": "$\\frac{324}{1089} = 324p$ → $p = \\frac{1}{1089} = \\frac{1}{33^2} = 33^{-2}$. That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "(18/33)^2-4*81*p=0"
-      ]
+      "content": "$\\frac{324}{1089} = 324p$ → $p = \\frac{1}{1089} = \\frac{1}{33^2} = 33^{-2}$. That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

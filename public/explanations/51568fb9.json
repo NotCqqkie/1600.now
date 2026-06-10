@@ -9,11 +9,7 @@
     },
     {
       "title": "Solve for y",
-      "content": "$$10x-5y=-12$$ $$-5y=-10x-12$$ $$y=2x+\\frac{12}{5}$$",
-      "desmosExpressions": [
-        "10x-5y=-12",
-        "y=2x+12/5"
-      ]
+      "content": "$$10x-5y=-12$$ $$-5y=-10x-12$$ $$y=2x+\\frac{12}{5}$$"
     },
     {
       "title": "Read the slope",

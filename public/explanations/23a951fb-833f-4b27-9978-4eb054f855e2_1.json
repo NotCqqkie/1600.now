@@ -9,15 +9,11 @@
     },
     {
       "title": "Solve",
-      "content": "$$f(10) = 320 × 10 = 3200$$"
+      "content": "$$f(10) = 320 × 10 = 3200$$<br/><br/>This is a direct function evaluation: $x=10$ means use the output of the rule at input 10, not solve for a new input."
     },
     {
       "title": "Answer",
       "content": "<strong>3200</strong> is correct."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $3200$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $3200$."
     }
   ]
 }

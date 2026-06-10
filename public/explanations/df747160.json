@@ -12,18 +12,8 @@
       "content": "$$x^2-100y^2=x^2-(10y)^2=(x-10y)(x+10y)$$<br/>Keeping the outside factor of $17$ gives:<br/>$$17(x^2-100y^2)=17(x-10y)(x+10y)$$"
     },
     {
-      "title": "Check the choice in Desmos",
-      "content": "Use two test points to catch the wrong-factor choices:<br/>$$x_1=[11,12]$$<br/>$$y_1=[1,2]$$<br/>$$o_1=17(x_1^2-100y_1^2)$$<br/>$$d_1=17(x_1-10y_1)(x_1+10y_1)$$<br/>The original and choice D produce the same output list.",
-      "desmosExpressions": [
-        "x_1=[11,12]",
-        "y_1=[1,2]",
-        "o_1=17(x_1^2-100y_1^2)",
-        "d_1=17(x_1-10y_1)(x_1+10y_1)"
-      ]
-    },
-    {
       "title": "Confirm the answer",
-      "content": "$17(x-10y)(x+10y)$ is choice D, so <strong>D</strong> is correct."
+      "content": "$17(x-10y)(x+10y)$ is choice D. Expanding the two binomials gives $x^2-100y^2$, and the outside $17$ matches the original expression, so <strong>D</strong> is correct."
     }
   ]
 }

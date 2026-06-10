@@ -9,14 +9,7 @@
     },
     {
       "title": "Write the total-cost function and evaluate each choice",
-      "content": "Total = labor + parts = $60x + 120$. A quick Desmos table check uses two points: at $x=0$, the charge is $120$ for parts; at $x=1$, the charge is $180$. Linear regression gives $y=60x+120$, matching choice C. Compare to each option:<ul><li><strong>Choice A &mdash; 'f(x) = x + 120'</strong>: Charges only 1 dollar per hour for labor instead of 60. Incorrect rate. &#10007;</li><li><strong>Choice B &mdash; 'f(x) = 60x'</strong>: Captures the hourly labor cost but omits the 120 dollar parts charge entirely. &#10007;</li><li><strong>Choice C &mdash; 'f(x) = 60x + 120'</strong>: 60 dollars per hour for labor plus the 120 dollar parts fee. Matches both components exactly. &#10003;</li><li><strong>Choice D &mdash; 'f(x) = 60x - 120'</strong>: Subtracts 120 instead of adding it. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[120,180]",
-        "y_1~m x_1+b",
-        "y=m x+b",
-        "y=60x+120"
-      ]
+      "content": "Total = labor + parts, so $$f(x)=60x+120.$$ Compare to each option:<ul><li><strong>Choice A &mdash; 'f(x) = x + 120'</strong>: Charges only 1 dollar per hour for labor instead of 60. Incorrect rate. &#10007;</li><li><strong>Choice B &mdash; 'f(x) = 60x'</strong>: Captures the hourly labor cost but omits the 120 dollar parts charge entirely. &#10007;</li><li><strong>Choice C &mdash; 'f(x) = 60x + 120'</strong>: 60 dollars per hour for labor plus the 120 dollar parts fee. Matches both components exactly. &#10003;</li><li><strong>Choice D &mdash; 'f(x) = 60x - 120'</strong>: Subtracts 120 instead of adding it. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }

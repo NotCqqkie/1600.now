@@ -49,7 +49,7 @@ const SatSkillDetail = () => {
   ];
 
   const related = satSkills
-    .filter((s) => s.section === skill.section && s.slug !== skill.slug)
+    .filter((candidateSkill) => candidateSkill.section === skill.section && candidateSkill.slug !== skill.slug)
     .slice(0, 6);
 
   const samples = skillSampleQuestions[skill.slug] ?? [];
@@ -59,11 +59,11 @@ const SatSkillDetail = () => {
         name: `${skill.name} Practice Questions`,
         description: `Digital SAT ${skill.name} practice problems`,
         url,
-        questions: samples.map((q) => ({
-          questionName: `${skill.name} sample — ${q.difficulty}`,
-          questionText: q.text,
-          choices: q.choices,
-          correctAnswerId: q.correctAnswer,
+        questions: samples.map((sampleQuestion) => ({
+          questionName: `${skill.name} sample — ${sampleQuestion.difficulty}`,
+          questionText: sampleQuestion.text,
+          choices: sampleQuestion.choices,
+          correctAnswerId: sampleQuestion.correctAnswer,
         })),
       })
     : null;
@@ -129,8 +129,8 @@ const SatSkillDetail = () => {
           Key Tips for {skill.name}
         </h2>
         <ul className="mt-3 list-disc space-y-2 pl-6 text-muted-foreground">
-          {skill.keyTips.map((t) => (
-            <li key={t}>{t}</li>
+          {skill.keyTips.map((tip) => (
+            <li key={tip}>{tip}</li>
           ))}
         </ul>
       </section>
@@ -145,36 +145,36 @@ const SatSkillDetail = () => {
             Try each one before reading the highlighted correct answer.
           </p>
           <ol className="mt-6 space-y-8">
-            {samples.map((q, i) => (
+            {samples.map((sampleQuestion, questionIndex) => (
               <li
-                key={q.id}
+                key={sampleQuestion.id}
                 className="rounded-xl border border-border bg-card p-5"
               >
                 <div className="text-xs uppercase tracking-wider text-muted-foreground">
-                  Question {i + 1} · {q.difficulty}
+                  Question {questionIndex + 1} · {sampleQuestion.difficulty}
                 </div>
                 <div
                   className="mt-2 text-base leading-relaxed"
                   dangerouslySetInnerHTML={{
-                    __html: renderMixedContent(q.text),
+                    __html: renderMixedContent(sampleQuestion.text),
                   }}
                 />
                 <ul className="mt-4 space-y-2">
-                  {q.choices.map((c) => {
-                    const isCorrect = c.id === q.correctAnswer;
+                  {sampleQuestion.choices.map((choice) => {
+                    const isCorrect = choice.id === sampleQuestion.correctAnswer;
                     return (
                       <li
-                        key={c.id}
+                        key={choice.id}
                         className={
                           isCorrect
                             ? "rounded-md border border-emerald-500/60 bg-emerald-500/10 p-3"
                             : "rounded-md border border-border p-3"
                         }
                       >
-                        <span className="font-semibold">{c.id}.</span>{" "}
+                        <span className="font-semibold">{choice.id}.</span>{" "}
                         <span
                           dangerouslySetInnerHTML={{
-                            __html: renderMixedContent(c.text),
+                            __html: renderMixedContent(choice.text),
                           }}
                         />
                         {isCorrect && (
@@ -215,10 +215,10 @@ const SatSkillDetail = () => {
       <section className="mt-10">
         <h2 className="text-2xl font-semibold tracking-tight">FAQs</h2>
         <div className="mt-4 space-y-5">
-          {faqs.map((f) => (
-            <div key={f.question}>
-              <h3 className="text-base font-semibold">{f.question}</h3>
-              <p className="mt-1 text-muted-foreground">{f.answer}</p>
+          {faqs.map((faq) => (
+            <div key={faq.question}>
+              <h3 className="text-base font-semibold">{faq.question}</h3>
+              <p className="mt-1 text-muted-foreground">{faq.answer}</p>
             </div>
           ))}
         </div>
@@ -229,15 +229,15 @@ const SatSkillDetail = () => {
           Related {skill.section} Skills
         </h2>
         <ul className="mt-4 grid gap-3 md:grid-cols-2">
-          {related.map((s) => (
-            <li key={s.slug}>
+          {related.map((relatedSkill) => (
+            <li key={relatedSkill.slug}>
               <Link
-                to={`/sat-skill/${s.slug}`}
+                to={`/sat-skill/${relatedSkill.slug}`}
                 className="block rounded-xl border border-border p-4 transition hover:bg-muted"
               >
-                <div className="font-semibold">{s.name}</div>
+                <div className="font-semibold">{relatedSkill.name}</div>
                 <p className="mt-1 text-sm text-muted-foreground">
-                  {s.shortDescription}
+                  {relatedSkill.shortDescription}
                 </p>
               </Link>
             </li>

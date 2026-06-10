@@ -9,11 +9,7 @@
     },
     {
       "title": "Apply the scale factor to find XY",
-      "content": "$TU$ corresponds to $XY$, and $TU=6$. Multiply by the scale factor: $$XY=6\\cdot3=18.$$",
-      "desmosExpressions": [
-        "150/50",
-        "6*3"
-      ]
+      "content": "$TU$ corresponds to $XY$, and $TU=6$. Multiply by the scale factor: $$XY=6\\cdot3=18.$$"
     },
     {
       "title": "Confirm the choice",

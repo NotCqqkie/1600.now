@@ -4,12 +4,11 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use Desmos to fit the rental table",
-      "content": "The answer choices are linear functions of rental time, so enter the two table points in Desmos: $x_1=[4,6]$ and $y_1=[90,130]$. Then type $y_1 \\sim m x_1+b$. Desmos returns $m=20$ and $b=10$, so the graphable model is $y=20x+10$.",
+      "title": "Use the two table entries",
+      "content": "The answer choices are linear functions of rental time, so the two table entries are enough to identify the line. From $(4,90)$ to $(6,130)$, the slope is $m=\\frac{130-90}{6-4}=20.$ Substituting a point into $y=mx+b$ gives $b=10$. The Desmos rows plot those two table points and the line $y=20x+10$ as a check.",
       "desmosExpressions": [
         "x_1=[4,6]",
         "y_1=[90,130]",
-        "y_1~m x_1+b",
         "y=20x+10\\{x\\ge1\\}"
       ]
     },

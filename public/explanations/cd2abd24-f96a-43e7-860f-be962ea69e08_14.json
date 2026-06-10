@@ -4,30 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use list values for x and y",
-      "content": "For multivariable equivalent-expression questions, a fast Desmos check is to plug in several ordered pairs. Use $x_1=[1,2,3]$ and $y_1=[1,2,4]$, then evaluate the original expression as a list.",
-      "desmosExpressions": [
-        "x_1=[1,2,3]",
-        "y_1=[1,2,4]",
-        "o_1=12x_1^3+60x_1^2y_1+x_1y_1^2+5y_1^3"
-      ]
+      "title": "Look for a matching product",
+      "content": "Expand the likely product in choice B: $$(12x^2+y^2)(x+5y)=12x^3+60x^2y+xy^2+5y^3.$$ This matches the original expression term by term."
     },
     {
-      "title": "Compare the answer choices",
-      "content": "Now evaluate each answer choice on the same lists. The list for choice B matches the original list exactly; the others produce different values.",
-      "desmosExpressions": [
-        "x_1=[1,2,3]",
-        "y_1=[1,2,4]",
-        "o_1=12x_1^3+60x_1^2y_1+x_1y_1^2+5y_1^3",
-        "a_1=(12x_1^2+5y_1)(x_1+y_1^2)",
-        "b_1=(12x_1^2+y_1^2)(x_1+5y_1)",
-        "c_1=(12x_1^3+y_1^2)(x_1^2+5y_1^3)",
-        "d_1=(12x_1^3+y_1^3)(x_1+5y_1)"
-      ]
+      "title": "Compare the structure to the other choices",
+      "content": "The first factor in choice B supplies $12x^2$ and $y^2$, and the second factor supplies $x$ and $5y$, producing all four required terms. The other choices pair powers or coefficients incorrectly, so they do not expand to the original expression."
     },
     {
       "title": "Confirm the answer",
-      "content": "Choice B is $(12x^2+y^2)(x+5y)$, and it matches the original expression for every tested pair. Choice <strong>B</strong> is correct."
+      "content": "Choice B is $(12x^2+y^2)(x+5y)$, which expands exactly to the original expression. Choice <strong>B</strong> is correct."
     }
   ]
 }

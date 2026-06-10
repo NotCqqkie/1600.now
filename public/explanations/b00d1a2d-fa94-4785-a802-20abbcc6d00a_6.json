@@ -9,11 +9,7 @@
     },
     {
       "title": "Compute (A+C)/B and simplify",
-      "content": "<ul><li>Form the expression (A+C)/B and substitute:</li></ul>$$\\frac{A+C}{B} = \\frac{k\\cdot117 + k\\cdot65}{k\\cdot78} = \\frac{k(117+65)}{k\\cdot78} = \\frac{182}{78}$$<ul><li>Reduce the fraction:</li></ul>$$\\frac{182}{78} = \\frac{91}{39} = \\frac{7}{3}$$The value does not depend on k, so (A+C)/B = 7/3.<br/>The answer is <strong>91/39</strong>.<br/><br/>Equivalent forms accepted: <strong>91/39</strong>, <strong>2.333</strong>, <strong>7/3</strong>.",
-      "desmosExpressions": [
-        "y = \\frac{65 - 117x}{78}",
-        "y = \\frac{65 - 117x}{78}"
-      ]
+      "content": "<ul><li>Form the expression (A+C)/B and substitute:</li></ul>$$\\frac{A+C}{B} = \\frac{k\\cdot117 + k\\cdot65}{k\\cdot78} = \\frac{k(117+65)}{k\\cdot78} = \\frac{182}{78}$$<ul><li>Reduce the fraction:</li></ul>$$\\frac{182}{78} = \\frac{91}{39} = \\frac{7}{3}$$The value does not depend on k, so (A+C)/B = 7/3.<br/>The answer is <strong>91/39</strong>.<br/><br/>Equivalent forms accepted: <strong>91/39</strong>, <strong>2.333</strong>, <strong>7/3</strong>."
     }
   ]
 }

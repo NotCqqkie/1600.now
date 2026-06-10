@@ -10,7 +10,7 @@
     },
     {
       "title": "Substitute and solve for angle C",
-      "content": "Substitute A = 54° and B = 90° into the angle sum equation:<br/>$$54° + 90° + C = 180°$$<br/>$$144° + C = 180°$$<br/>$$C = 180° - 144° = 36°$$<br/>That matches choice A — <strong>A</strong> is correct."
+      "content": "Substitute A = 54° and B = 90° into the angle sum equation:<br/>$$54° + 90° + C = 180°$$<br/>$$144° + C = 180°$$<br/>$$C = 180° - 144° = 36°$$<br/>That matches choice A - <strong>A</strong> is correct."
     }
   ]
 }

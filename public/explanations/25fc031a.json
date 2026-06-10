@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Examine the shape of each histogram",
-      "content": "Company A: All data is clustered between 25–40 thousand units, with the peak at 30–35.<br/><br/>The three bars have frequencies of approximately 43, 48, and 41.<br/><br/>This is a <strong>narrow, concentrated distribution</strong>.<br/><br/>Company B: Data spreads across the entire range from 15–50 thousand units, with frequencies of approximately 31, 22, 12, 5, 12, 22, and 31.<br/><br/>This creates a <strong>bimodal shape with peaks at the extremes</strong> (15–20 and 45–50) and a valley in the middle (30–35)."
+      "title": "Compare the spreads",
+      "content": "Company A's values are clustered in a narrow range, about $25$ to $40$ thousand units. Company B's values spread across a much wider range, about $15$ to $50$ thousand units."
     },
     {
-      "title": "Apply the standard deviation principle",
-      "content": "Standard deviation measures spread—the typical distance of data points from the mean.<ul><li><strong>Narrow, concentrated distribution</strong> → values cluster close to the mean → small standard deviation</li><li><strong>Wide, spread-out distribution</strong> → values scatter far from the mean → large standard deviation</li></ul>Company A is tightly concentrated in a narrow range; Company B is widely spread from 15 to 50. Therefore, Company A's standard deviation is less than Company B's standard deviation. That matches choice A — <strong>A</strong> is correct."
+      "title": "Use the meaning of standard deviation",
+      "content": "Standard deviation measures how spread out the data values are from the mean. A narrow cluster has a smaller standard deviation, while a wider spread has a larger standard deviation."
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "Company A has the smaller spread, so its standard deviation is less than Company B's. This matches choice <strong>A</strong>."
     }
   ]
 }

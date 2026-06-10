@@ -9,11 +9,7 @@
     },
     {
       "title": "Divide by the count",
-      "content": "The mean is $$\\tfrac{18050}{5}=3610.$$ The answer is <strong>3610</strong>."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $3610$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $3610$."
+      "content": "The mean is $$\\tfrac{18050}{5}=3610.$$ The answer is <strong>3610</strong>.<br/><br/>There are five data values, so the mean must be the total divided by 5. No value is excluded from the average."
     }
   ]
 }

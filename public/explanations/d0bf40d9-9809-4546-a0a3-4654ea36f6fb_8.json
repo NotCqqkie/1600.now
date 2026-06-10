@@ -12,12 +12,11 @@
       "content": "Line $j$ passes through $(0,3)$. With slope $7$, increasing $x$ by $1$ increases $y$ by $7$, so another point on line $j$ is $(1,10)$."
     },
     {
-      "title": "Fit line j in Desmos",
-      "content": "Enter $x_1=[0,1]$ and $y_1=[3,10]$, then run $y_1 \\sim m x_1+b$. Desmos gives $m=7$ and $b=3$, so line $j$ is $y=7x+3$.",
+      "title": "Find line j from two points",
+      "content": "Use the table points directly. From $(0,3)$ to $(1,10)$, the slope is $m=\\frac{10-3}{1-0}=7.$ Substituting a point into $y=mx+b$ gives $b=3$.",
       "desmosExpressions": [
         "x_1=[0,1]",
         "y_1=[3,10]",
-        "y_1~m x_1+b",
         "y=7x+2"
       ]
     },

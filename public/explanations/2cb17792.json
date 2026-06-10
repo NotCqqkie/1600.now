@@ -13,13 +13,7 @@
     },
     {
       "title": "Apply the discriminant condition",
-      "content": "For the system to have exactly one solution, this quadratic in $x$ must have exactly one real root. This occurs when the discriminant equals zero:<br/>$$b^2 - 4ac = 0$$<br/>$$(-6)^2 - 4(1)(2k - 26) = 0$$<br/>$$36 - 8k + 104 = 0$$<br/>$$140 = 8k$$<br/>$$k = 17.5$$",
-      "desmosExpressions": [
-        "y_1=[0]",
-        "y_1~(-6)^2-4*1*(2k-26)",
-        "y + 17.5 = x + 26",
-        "y - 17.5 = x^2 - 5x"
-      ]
+      "content": "For the system to have exactly one solution, this quadratic in $x$ must have exactly one real root. This occurs when the discriminant equals zero:<br/>$$b^2 - 4ac = 0$$<br/>$$(-6)^2 - 4(1)(2k - 26) = 0$$<br/>$$36 - 8k + 104 = 0$$<br/>$$140 = 8k$$<br/>$$k = 17.5$$"
     }
   ]
 }

@@ -9,11 +9,7 @@
     },
     {
       "title": "Find $y$",
-      "content": "Divide: $$y=\\tfrac{273}{117}=\\tfrac{7}{3}.$$ The answer is <strong>7/3</strong>.",
-      "desmosExpressions": [
-        "y = \\frac{60 - x}{24}",
-        "y = \\frac{27 - 5x}{3}"
-      ]
+      "content": "Divide: $$y=\\tfrac{273}{117}=\\tfrac{7}{3}.$$ The answer is <strong>7/3</strong>."
     },
     {
       "title": "Confirm the answer",

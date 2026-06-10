@@ -17,11 +17,7 @@
     },
     {
       "title": "Factor the quadratic to find both solutions",
-      "content": "The quadratic factors as:<br/>$$(a - 2)(a - 8) = 0$$<br/>This gives $a = 2$ or $a = 8$. Since the question asks for one possible value, either answer is correct.",
-      "desmosExpressions": [
-        "y = -\\frac{1}{2}(x - 4)^2 + 10",
-        "y = -x + 10"
-      ]
+      "content": "The quadratic factors as:<br/>$$(a - 2)(a - 8) = 0$$<br/>This gives $a = 2$ or $a = 8$. Since the question asks for one possible value, either answer is correct."
     }
   ]
 }

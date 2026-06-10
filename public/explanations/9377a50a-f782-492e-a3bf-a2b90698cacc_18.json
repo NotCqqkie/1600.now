@@ -5,18 +5,15 @@
   "steps": [
     {
       "title": "Identify the boundary line",
-      "content": "From the graph, the boundary line passes through $(0,6)$ and $(1.5,0)$. Slope:$$m=\\frac{0-6}{1.5-0}=-4$$With y-intercept $6$, the boundary is $y=-4x+6$."
+      "content": "Use the answer choices as shortcuts. The boundary line in the graph crosses the $y$-axis at $6$ and slopes downward steeply, so the only possible boundary is $y=-4x+6$. That leaves choices A and C."
     },
     {
       "title": "Determine the inequality direction",
-      "content": "The shaded region lies above the line. Test a point clearly above, say $(0,8)$: is $8>-4(0)+6=6$? Yes. So the inequality is $y>-4x+6$."
+      "content": "The shaded region is above the boundary line. A point above the line, such as $(0,8)$, satisfies $8>-4(0)+6$. Therefore the inequality uses $>$, not $\\lt$."
     },
     {
       "title": "Eliminate the answer choices",
-      "content": "<ul><li>A) $y<-4x+6$: correct line but the shading is above, not below.</li><li>B) $y<6x-4$: slope $6$ and y-intercept $-4$ do not match the boundary.</li><li>C) $y>-4x+6$: correct line and correct direction (above).</li><li>D) $y>6x-4$: wrong slope and wrong y-intercept.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y > -4x + 6"
-      ]
+      "content": "<ul><li>A) $y\\lt -4x+6$: correct line but the shading is above, not below.</li><li>B) $y\\lt 6x-4$: slope $6$ and y-intercept $-4$ do not match the boundary.</li><li>C) $y>-4x+6$: correct line and correct direction (above).</li><li>D) $y>6x-4$: wrong slope and wrong y-intercept.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }

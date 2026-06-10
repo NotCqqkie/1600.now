@@ -8,14 +8,8 @@
       "content": "Use years after $1991$ as the input. Then $1991$ becomes $0$, $2011$ becomes $20$, and $2015$ becomes $24$. The two known data points are $(0,57)$ and $(20,224)$, with population measured in thousands."
     },
     {
-      "title": "Fit the linear model in Desmos",
-      "content": "Enter the known points as $x_1=[0,20]$ and $y_1=[57,224]$, then type $y_1\\sim m x_1+b$. Desmos returns $m=8.35$ and $b=57$, so the model is $$y=8.35x+57.$$",
-      "desmosExpressions": [
-        "x_1=[0,20]",
-        "y_1=[57,224]",
-        "y_1~m x_1+b",
-        "y=8.35x+57"
-      ]
+      "title": "Find the linear model",
+      "content": "Use the two known points to find the slope: $$m=\\frac{224-57}{20-0}=\\frac{167}{20}=8.35$$ Since the point with input $0$ has output $57$, the intercept is $57$. The model is $$y=8.35x+57.$$"
     },
     {
       "title": "Evaluate at 2015",

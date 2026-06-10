@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read two points from the line",
-      "content": "<ul><li>The line passes through the origin (0,0).</li><li>It also passes through the point (100,350).</li></ul>"
+      "title": "Read the graph at x = 50",
+      "content": "The question asks for the cost when the manufacturer makes $50$ rings. Find $x=50$ on the horizontal axis, move up to the line, and read the corresponding $y$-value."
     },
     {
-      "title": "Find the slope and write the equation",
-      "content": "Compute the slope:<br/>$$m = \\frac{350-0}{100-0} = \\frac{350}{100} = 3.5$$<br/>Since the line goes through the origin, the y‑intercept b = 0, so the equation is $$y = 3.5x$$."
+      "title": "Read the cost",
+      "content": "At $x=50$, the line is at $y=175$. Since $y$ is measured in dollars, the cost is $175$."
     },
     {
-      "title": "Evaluate at x = 50 rings",
-      "content": "Substitute x = 50 into the equation:<br/>$$y = 3.5 \\times 50 = 175$$<br/>That matches choice C — <strong>C</strong> is correct."
+      "title": "Confirm the choice",
+      "content": "$175$ matches choice C - <strong>C</strong> is correct."
     }
   ]
 }

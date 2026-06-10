@@ -4,12 +4,11 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use Desmos to fit the table",
-      "content": "This asks for $b$ in a linear model, so enter the visible table rows in Desmos and run a linear regression. Use $x_1=[1,2,3]$ and $y_1=[46,43,40]$, then type $y_1 \\sim m x_1+b$. Desmos returns $m=-3$ and $b=49$.",
+      "title": "Find the line from the table",
+      "content": "This asks for $b$ in a linear model, so use two table points directly. From $(1,46)$ to $(2,43)$, the slope is $m=\\frac{43-46}{2-1}=-3.$ Substituting a point into $y=mx+b$ gives $b=49$.",
       "desmosExpressions": [
         "x_1=[1,2,3]",
         "y_1=[46,43,40]",
-        "y_1~m x_1+b",
         "y=-3x+49"
       ]
     },

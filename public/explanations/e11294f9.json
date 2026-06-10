@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Solve both quadratics using the quadratic formula",
-      "content": "For $x^2 + 6x + 7 = 0$, the discriminant is $\\Delta = 36 - 28 = 8$:<br/>$$r, s = \\frac{-6 \\pm \\sqrt{8}}{2} = \\frac{-6 \\pm 2\\sqrt{2}}{2} = -3 \\pm \\sqrt{2}$$<br/>For $x^2 + 8x + 8 = 0$, the discriminant is $\\Delta = 64 - 32 = 32$:<br/>$$t, u = \\frac{-8 \\pm \\sqrt{32}}{2} = \\frac{-8 \\pm 4\\sqrt{2}}{2} = -4 \\pm 2\\sqrt{2}$$"
+      "content": "Use the discriminant when the question is really asking how many real solutions a quadratic has. The sign of $b^2-4ac$ tells whether there are two, one, or no real solutions. For $x^2 + 6x + 7 = 0$, the discriminant is $\\Delta = 36 - 28 = 8$:<br/>$$r, s = \\frac{-6 \\pm \\sqrt{8}}{2} = \\frac{-6 \\pm 2\\sqrt{2}}{2} = -3 \\pm \\sqrt{2}$$<br/>For $x^2 + 8x + 8 = 0$, the discriminant is $\\Delta = 64 - 32 = 32$:<br/>$$t, u = \\frac{-8 \\pm \\sqrt{32}}{2} = \\frac{-8 \\pm 4\\sqrt{2}}{2} = -4 \\pm 2\\sqrt{2}$$"
     },
     {
       "title": "Form the new roots and verify their sum",
@@ -13,16 +13,7 @@
     },
     {
       "title": "Calculate c as the product of the new roots",
-      "content": "$$(r+t)(s+u) = (-7 - 3\\sqrt{2})(-7 + 3\\sqrt{2})$$<br/>This is a difference of squares $(a-b)(a+b) = a^2 - b^2$ with $a = -7$ and $b = 3\\sqrt{2}$:<br/>$$= 49 - 9 \\cdot 2 = 49 - 18 = 31$$<br/>Therefore, $c = 31$.",
-      "desmosExpressions": [
-        "y = x^2 + 6x + 7",
-        "y = x^2 + 8x + 8",
-        "r=-3-\\sqrt{2}",
-        "s=-3+\\sqrt{2}",
-        "t=-4-2\\sqrt{2}",
-        "u=-4+2\\sqrt{2}",
-        "(r+t)(s+u)"
-      ]
+      "content": "$$(r+t)(s+u) = (-7 - 3\\sqrt{2})(-7 + 3\\sqrt{2})$$<br/>This is a difference of squares $(a-b)(a+b) = a^2 - b^2$ with $a = -7$ and $b = 3\\sqrt{2}$:<br/>$$= 49 - 9 \\cdot 2 = 49 - 18 = 31$$<br/>Therefore, $c = 31$."
     }
   ]
 }

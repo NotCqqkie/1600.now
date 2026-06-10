@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Use the parallel-line shortcut",
-      "content": "No solution means parallel distinct lines: same slope, different $y$-intercept. Put the given equation into Desmos as $$3x=45y-27 \\Rightarrow y=\\frac{x}{15}+\\frac{3}{5}$$ The second line must have slope $\\frac{1}{15}$ but a different intercept.",
+      "content": "No solution means parallel distinct lines: same slope, different $y$-intercept. Rewrite the given equation:<br/>$$3x=45y-27$$<br/>$$45y=3x+27$$<br/>$$y=\\frac{x}{15}+\\frac{3}{5}$$<br/>The second line must have slope $\\frac{1}{15}$ but a different intercept.",
       "desmosExpressions": [
         "y=\\frac{x}{15}+\\frac{3}{5}"
       ]

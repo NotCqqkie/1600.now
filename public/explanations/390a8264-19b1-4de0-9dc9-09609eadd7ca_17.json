@@ -9,12 +9,7 @@
     },
     {
       "title": "Find a and calculate a - b",
-      "content": "Using the point $(2, 43)$:<br/>$$a^2 + b = 43$$<br/>Substitute $b = -21$:<br/>$$a^2 - 21 = 43$$<br/>$$a^2 = 64$$<br/>Since $a > 0$: $a = 8$<br/><br/>Therefore:<br/>$$a - b = 8 - (-21) = 29$$",
-      "desmosExpressions": [
-        "f(x) = 8^{x} - 21",
-        "(0, -20)",
-        "(2, 43)"
-      ]
+      "content": "Using the point $(2, 43)$:<br/>$$a^2 + b = 43$$<br/>Substitute $b = -21$:<br/>$$a^2 - 21 = 43$$<br/>$$a^2 = 64$$<br/>Since $a > 0$: $a = 8$<br/><br/>Therefore:<br/>$$a - b = 8 - (-21) = 29$$"
     }
   ]
 }

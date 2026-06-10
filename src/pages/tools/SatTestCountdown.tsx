@@ -115,12 +115,12 @@ const SatTestCountdown = () => {
         <label className="text-sm font-semibold">Your target SAT date</label>
         <select
           value={selected}
-          onChange={(e) => setSelected(e.target.value)}
+          onChange={(event) => setSelected(event.target.value)}
           className="mt-2 w-full rounded-lg border border-border bg-background px-3 py-2"
         >
-          {upcoming.map((t) => (
-            <option key={t.date} value={t.date}>
-              {t.label}
+          {upcoming.map((testDate) => (
+            <option key={testDate.date} value={testDate.date}>
+              {testDate.label}
             </option>
           ))}
         </select>
@@ -201,10 +201,10 @@ const SatTestCountdown = () => {
       <section className="mt-10">
         <h2 className="text-2xl font-semibold tracking-tight">FAQs</h2>
         <div className="mt-4 space-y-5">
-          {faqs.map((f) => (
-            <div key={f.question}>
-              <h3 className="text-base font-semibold">{f.question}</h3>
-              <p className="mt-1 text-muted-foreground">{f.answer}</p>
+          {faqs.map((faq) => (
+            <div key={faq.question}>
+              <h3 className="text-base font-semibold">{faq.question}</h3>
+              <p className="mt-1 text-muted-foreground">{faq.answer}</p>
             </div>
           ))}
         </div>

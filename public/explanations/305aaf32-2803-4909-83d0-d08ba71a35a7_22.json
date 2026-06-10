@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Graph both sides first",
-      "content": "This is an absolute-value equation, so the quickest check is to graph the two sides in Desmos:<br/>$$y=-2|x-7|$$<br/>$$y=-8x$$<br/>The solution is the $x$-coordinate where the graphs intersect.",
-      "desmosExpressions": [
-        "y=-2|x-7|",
-        "y=-8x"
-      ]
+      "title": "Simplify the equation",
+      "content": "Start with the absolute-value equation and divide both sides by $-2$: $$|x-7|=4x$$ Since an absolute value is never negative, $4x\\ge 0$, so $x\\ge 0$."
     },
     {
-      "title": "Confirm the one intersection",
-      "content": "The graphs intersect only once, at $x=\\frac{7}{5}$. Algebraically, dividing the original equation by $-2$ gives $|x-7|=4x$, so $x$ must be nonnegative. For the valid branch $x<7$,<br/>$$7-x=4x$$<br/>$$x=\\frac{7}{5}$$<br/>The negative value in choices A and C fails the nonnegative-side check, and choice D includes an extra value. Choice <strong>B</strong> is correct."
+      "title": "Solve the valid branch",
+      "content": "The solution must be less than $7$, so $|x-7|=7-x$. Then $$7-x=4x$$ $$x=\\frac{7}{5}$$ The negative value in choices A and C fails the $x\\ge 0$ check, and choice D includes an extra value. Choice <strong>B</strong> is correct."
     }
   ]
 }

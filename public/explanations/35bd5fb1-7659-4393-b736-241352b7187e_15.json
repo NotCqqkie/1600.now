@@ -3,17 +3,11 @@
   "steps": [
     {
       "title": "Use a two-point exponential fit",
-      "content": "\"170% more\" means the growth factor is $1+1.70=2.70$. Since the end-of-2016 count is $216$ and $t=1$ then, the implied $t=0$ value is $216/2.7=80$. Enter $x_1=[0,1]$, $y_1=[216/2.7,216]$, and $y_1\\sim a b^{x_1}$.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[216/2.7,216]",
-        "y_1~a b^{x_1}",
-        "y=a b^x"
-      ]
+      "content": "\"170% more\" means the growth factor is $1+1.70=2.70$. Since the end-of-2016 count is $216$ and $t=1$ then, the starting value is $$\\frac{216}{2.7}=80.$$"
     },
     {
-      "title": "Read the model",
-      "content": "Desmos gives $a=80$ and $b=2.7$, so the equation is $n=80(2.7)^t$."
+      "title": "Write the model",
+      "content": "An exponential model has the form $n=a(b)^t$. The starting value is $a=80$, and the growth factor is $b=2.7$, so the equation is $n=80(2.7)^t$."
     },
     {
       "title": "Check the choices",

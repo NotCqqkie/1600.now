@@ -56,6 +56,8 @@ const buildLiveCategoryMap = (): Record<string, CategoryMapItem> => {
       };
     }
   } catch {
+    cachedLiveCategoryMap = map;
+    return map;
   }
   cachedLiveCategoryMap = map;
   return map;
@@ -359,11 +361,11 @@ const ActivityHeatmap = ({ dailyCounts }: { dailyCounts: Record<string, number> 
     }
     const monthLabels: Record<number, string> = {};
     let lastMonth = -1;
-    weeks.forEach((week, wi) => {
-      const m = week[0].date.getMonth();
-      if (m !== lastMonth) {
-        monthLabels[wi] = MONTHS[m];
-        lastMonth = m;
+    weeks.forEach((week, weekIndex) => {
+      const monthIndex = week[0].date.getMonth();
+      if (monthIndex !== lastMonth) {
+        monthLabels[weekIndex] = MONTHS[monthIndex];
+        lastMonth = monthIndex;
       }
     });
 
@@ -852,7 +854,7 @@ const Analysis = () => {
           v.attempted > 0 ? Math.round((v.correct / v.attempted) * 100) : 0,
         avgTime: v.attempted > 0 ? v.totalTime / v.attempted : 0,
       }))
-      .sort((a, b) => b.attempted - a.attempted);
+      .sort((leftDomain, rightDomain) => rightDomain.attempted - leftDomain.attempted);
 
     const skillsBySubject = (subject: BankSubject) =>
       Object.entries(skillStats)
@@ -864,7 +866,7 @@ const Analysis = () => {
           v.attempted > 0 ? Math.round((v.correct / v.attempted) * 100) : 0,
         avgTime: v.attempted > 0 ? v.totalTime / v.attempted : 0,
       }))
-      .sort((a, b) => b.attempted - a.attempted);
+      .sort((leftSkill, rightSkill) => rightSkill.attempted - leftSkill.attempted);
 
     const mathDomains = domainsBySubject("math");
     const readingDomains = domainsBySubject("reading");

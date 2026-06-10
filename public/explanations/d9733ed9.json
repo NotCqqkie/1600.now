@@ -9,17 +9,11 @@
     },
     {
       "title": "Test each table",
-      "content": "For each table, plug $x$ into $4x + 8$ and verify $y > 4x + 8$ for every row."
+      "content": "For the shared $x$-values, the boundary values are $$4(2)+8=16,$$ $$4(4)+8=24,$$ and $$4(6)+8=32.$$ The listed $y$-values must be greater than $16$, $24$, and $32$, respectively."
     },
     {
       "title": "Identify the table",
-      "content": "Only choice A's pairs all satisfy the inequality. That matches choice <strong>A</strong> — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y>4x+8",
-        "(2,19)",
-        "(4,30)",
-        "(6,41)"
-      ]
+      "content": "Choice A has $y$-values $19$, $30$, and $41$, and each is greater than the matching boundary value: $$19>16,$$ $$30>24,$$ and $$41>32.$$ The other tables fail at least one row, so choice <strong>A</strong> is correct."
     }
   ]
 }

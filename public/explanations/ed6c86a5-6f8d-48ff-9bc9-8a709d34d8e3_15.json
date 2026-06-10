@@ -9,11 +9,11 @@
     },
     {
       "title": "Apply power rule and equate exponents",
-      "content": "Simplify the right side using the power rule $(a^m)^k = a^{mk}$:\n$$p^{\\frac{5}{4}} = p^{\\frac{7(2n-1)}{4}}$$\n\nSince the bases are equal and $p > 1$, the exponents must be equal:\n$$\\frac{5}{4} = \\frac{7(2n-1)}{4}$$"
+      "content": "Simplify the right side using the power rule $(a^m)^k = a^{mk}$:\n$$p^{\\frac{5}{4}} = p^{\\frac{7(2n-1)}{4}}$$ Since the bases are equal and $p > 1$, the exponents must be equal:\n$$\\frac{5}{4} = \\frac{7(2n-1)}{4}$$"
     },
     {
       "title": "Solve for n",
-      "content": "Multiply both sides by 4:\n$$5 = 7(2n-1)$$\n\nDistribute:\n$$5 = 14n - 7$$\n\nAdd 7 to both sides:\n$$12 = 14n$$\n\nDivide by 14:\n$$n = \\frac{12}{14} = \\frac{6}{7}$$"
+      "content": "Multiply both sides by 4:\n$$5 = 7(2n-1)$$ Distribute:\n$$5 = 14n - 7$$ Add 7 to both sides:\n$$12 = 14n$$ Divide by 14:\n$$n = \\frac{12}{14} = \\frac{6}{7}$$"
     }
   ]
 }

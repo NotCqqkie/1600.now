@@ -13,11 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Solving gives $t=790$, so choice B is correct. Choice A is the base, choice C is two doubling periods, and choice D is the initial population, not a time.",
-      "desmosExpressions": [
-        "y=40000*2^(x/790)",
-        "y=80000"
-      ]
+      "content": "Multiply both sides by $790$: $$t=790.$$ Choice B is correct. Choice A is the base, choice C is two doubling periods, and choice D is the initial population, not a time."
     }
   ]
 }

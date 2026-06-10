@@ -5,14 +5,11 @@
   "steps": [
     {
       "title": "Solve the quadratic",
-      "content": "Apply the quadratic formula with $a=1, b=12, c=-40$: $$w=\\frac{-12\\pm\\sqrt{144+160}}{2}=\\frac{-12\\pm\\sqrt{304}}{2}.$$ Since $\\sqrt{304}=4\\sqrt{19}$, $w=-6\\pm 2\\sqrt{19}$."
+      "content": "This is a quadratic equation, so the goal is to find its roots. The quadratic formula is a direct way to solve it when simple factoring is not the focus. Apply the quadratic formula with $a=1, b=12, c=-40$: $$w=\\frac{-12\\pm\\sqrt{144+160}}{2}=\\frac{-12\\pm\\sqrt{304}}{2}.$$ Since $\\sqrt{304}=4\\sqrt{19}$, $w=-6\\pm 2\\sqrt{19}$."
     },
     {
       "title": "Identify the matching solution",
-      "content": "The two solutions are $-6+2\\sqrt{19}$ and $-6-2\\sqrt{19}$. Of these, only $-6+2\\sqrt{19}$ appears among the choices — that matches choice <strong>D</strong> — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y = x^2 + 12x - 40"
-      ]
+      "content": "The two solutions are $-6+2\\sqrt{19}$ and $-6-2\\sqrt{19}$. Of these, only $-6+2\\sqrt{19}$ appears among the choices — that matches choice <strong>D</strong> — <strong>D</strong> is correct."
     }
   ]
 }

@@ -9,10 +9,7 @@
     },
     {
       "title": "Calculate the discriminant",
-      "content": "$$\\Delta = b^2 - 4ac = (-15)^2 - 4(3)(18) = 225 - 216 = 9$$<br/>Since $\\Delta = 9 > 0$, the quadratic has exactly two distinct real solutions. That matches choice B — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "y = 3x^2 - 15x + 18"
-      ]
+      "content": "$$\\Delta = b^2 - 4ac = (-15)^2 - 4(3)(18) = 225 - 216 = 9$$<br/>Since $\\Delta = 9 > 0$, the quadratic has exactly two distinct real solutions. That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

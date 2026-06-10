@@ -4,18 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply the discriminant condition for more than one real solution",
-      "content": "For a quadratic equation to have more than one real solution, the discriminant must be positive.<br/><br/>In the equation $64x^2 + bx + 25 = 0$, we have $a = 64$ and $c = 25$. Using the discriminant condition:<br/>$$b^2 - 4(64)(25) > 0$$<br/>$$b^2 - 6400 > 0$$<br/>$$b^2 > 6400$$",
+      "title": "Connect the question to the discriminant",
+      "content": "The equation is quadratic, and the question asks when it has <strong>more than one real solution</strong>. A quadratic has two real solutions exactly when its graph crosses the x-axis twice; algebraically, that means the discriminant is positive.<br/><br/>In $64x^2 + bx + 25 = 0$, $a = 64$ and $c = 25$, so:<br/>$$b^2 - 4(64)(25) > 0$$<br/>$$b^2 - 6400 > 0$$<br/>$$b^2 > 6400$$",
       "formula": "$$\\Delta = b^2 - 4ac > 0$$"
     },
     {
       "title": "Test which choice satisfies the condition",
-      "content": "We need $b^2 > 6400$, which means $|b| > 80$.<ul><li>Choice A: $b = -91$ gives $(-91)^2 = 8281 > 6400$ ✓</li><li>Choice B: $b = -80$ gives $(-80)^2 = 6400 \\not> 6400$ ✗</li><li>Choice C: $b = 5$ gives $(5)^2 = 25 \\not> 6400$ ✗</li><li>Choice D: $b = 40$ gives $(40)^2 = 1600 \\not> 6400$ ✗</li></ul>Only choice A satisfies the condition. That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "B=[-91,-80,5,40]",
-        "B^2-6400",
-        "y = 64x^2 - 91x + 25"
-      ]
+      "content": "We need $b^2 > 6400$, which means $|b| > 80$.<ul><li>Choice A: $b = -91$ gives $(-91)^2 = 8281 > 6400$ ✓</li><li>Choice B: $b = -80$ gives $(-80)^2 = 6400 \\not> 6400$ ✗</li><li>Choice C: $b = 5$ gives $(5)^2 = 25 \\not> 6400$ ✗</li><li>Choice D: $b = 40$ gives $(40)^2 = 1600 \\not> 6400$ ✗</li></ul>Only choice A satisfies the condition. That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

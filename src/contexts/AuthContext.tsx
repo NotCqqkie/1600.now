@@ -226,6 +226,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
     try {
       await authModule.sendEmailVerification(result.user);
     } catch {
+      return { requiresVerification: !result.user.emailVerified };
     }
     return { requiresVerification: !result.user.emailVerified };
   };

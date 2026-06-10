@@ -9,11 +9,7 @@
     },
     {
       "title": "Find $x$",
-      "content": "This factors as $(x+4)^2=0$, so $x=-4$. That matches choice <strong>B</strong> — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "y = -x^2",
-        "y = 8x + 16"
-      ]
+      "content": "This factors as $(x+4)^2=0$, so $x=-4$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."
     },
     {
       "title": "Confirm the answer",

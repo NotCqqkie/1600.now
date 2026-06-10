@@ -1,1 +1,15 @@
-{"questionId": "ea42af8e-0812-4d54-a254-797255665265_12", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The student wants to compare tribal economic activity with two other industries across three table metrics: total contribution, employment, and average contribution per employee. The correct choice must be a claim that the table data actually supports."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'ranked highest in all three economic measures listed in the table'</strong>: tribal activity does not rank highest in all three. Professional services exceeds it in total contribution ($110,157 vs. tribal&apos;s figure), and construction exceeds it in employment (77,247 vs. 51,674). &#10007;</li><li><strong>Choice B &mdash; 'employed the same number of people as construction'</strong>: tribal employment is 51,674; construction&apos;s is 77,247. These are not the same. &#10007;</li><li><strong>Choice C &mdash; 'made the lowest total contribution by industry'</strong>: construction&apos;s total contribution ($6.8 billion) is lower than tribal&apos;s ($7.3 billion), so tribal is not the lowest. &#10007;</li><li><strong>Choice D &mdash; 'made the highest average economic contribution per employee'</strong>: tribal&apos;s average of $141,510 per employee beats professional services ($110,157) and construction ($87,994). This is the one metric where tribal ranks first. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "ea42af8e-0812-4d54-a254-797255665265_12",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The student wants to compare tribal economic activity with two other industries across three table metrics: total contribution, employment, and average contribution per employee. The correct choice must be a claim that the table data actually supports."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'ranked highest in all three economic measures listed in the table'</strong>: tribal activity does not rank highest in all three. Professional services exceeds it in total contribution ($110,157 vs. tribal&apos;s figure), and construction exceeds it in employment (77,247 vs. 51,674). &#10007;</li><li><strong>Choice B &mdash; 'employed the same number of people as construction'</strong>: tribal employment is 51,674; construction&apos;s is 77,247. These are not the same. &#10007;</li><li><strong>Choice C &mdash; 'made the lowest total contribution by industry'</strong>: construction&apos;s total contribution ($6.8 billion) is lower than tribal&apos;s ($7.3 billion), so tribal is not the lowest. &#10007;</li><li><strong>Choice D &mdash; 'made the highest average economic contribution per employee'</strong>: tribal&apos;s average of $141,510 per employee beats professional services ($110,157) and construction ($87,994). This is the one metric where tribal ranks first. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

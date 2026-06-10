@@ -9,11 +9,7 @@
     },
     {
       "title": "Substitute to find the y-coordinate",
-      "content": "Using $y = 2x - 3$: $$y = 2(2) - 3 = 4 - 3 = 1$$ The $y$-coordinate of the intersection point is <strong>1</strong>.",
-      "desmosExpressions": [
-        "y = (x - 1)^2",
-        "y = 2x - 3"
-      ]
+      "content": "Using $y = 2x - 3$: $$y = 2(2) - 3 = 4 - 3 = 1$$ The $y$-coordinate of the intersection point is <strong>1</strong>."
     }
   ]
 }

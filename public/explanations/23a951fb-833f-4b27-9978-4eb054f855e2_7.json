@@ -9,11 +9,7 @@
     },
     {
       "title": "Compute the result",
-      "content": "Simplify: $$f(6) = \\frac{3}{36-42+16} = \\frac{3}{10}.$$ The answer is <strong>0.3,3/10</strong>."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $0.3,3/10$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $0.3,3/10$."
+      "content": "Simplify: $$f(6) = \\frac{3}{36-42+16} = \\frac{3}{10}.$$ The answer is <strong>0.3,3/10</strong>.<br/><br/>The denominator is positive after substitution, so the value is exactly $\\frac{3}{10}$, which can also be entered as the decimal $0.3$."
     }
   ]
 }

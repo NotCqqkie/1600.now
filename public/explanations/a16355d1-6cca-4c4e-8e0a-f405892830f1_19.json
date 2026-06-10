@@ -5,8 +5,7 @@
   "steps": [
     {
       "title": "Recall the radian-to-degree conversion factor",
-      "content": "To convert an angle from radians to degrees, multiply by the conversion factor below. Since $\\pi$ radians equals 180°, we divide 180° by $\\pi$ to get our conversion factor.",
-      "formula": "$$\\frac{180°}{\\pi}$$"
+      "content": "To convert an angle from radians to degrees, multiply by the conversion factor below. Since $\\pi$ radians equals 180°, we divide 180° by $\\pi$ to get our conversion factor."
     },
     {
       "title": "Apply the conversion to the given angle",

@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Test inequality I at P(3, -5)",
-      "content": "Substitute into $y < -3x + 7$:<br/>$$-5 < -3(3) + 7 = -9 + 7 = -2$$<br/>Since $-5 < -2$ is true, inequality I holds."
+      "content": "Substitute into $y \\lt -3x + 7$:<br/>$$-5 \\lt -3(3) + 7 = -9 + 7 = -2$$<br/>Since $-5 \\lt -2$ is true, inequality I holds."
     },
     {
       "title": "Test inequality II at P(3, -5)",

@@ -9,11 +9,7 @@
     },
     {
       "title": "Identify the source of the initial distance",
-      "content": "The 8 km total distance at $x = 0$ must come from the segment between the station and the city border, since the train hasn't traveled any additional distance after crossing yet.<br/><br/>That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y = 50x + 8",
-        "(0, 8)"
-      ]
+      "content": "The 8 km total distance at $x = 0$ must come from the segment between the station and the city border, since the train hasn't traveled any additional distance after crossing yet.<br/><br/>That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

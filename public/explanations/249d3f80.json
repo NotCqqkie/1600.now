@@ -10,11 +10,7 @@
     {
       "title": "Use the central angle property",
       "content": "The measure of a central angle equals the measure of its intercepted arc. Therefore, $\\angle ROS = 100°$.",
-      "formula": "$$\\text{Central angle measure} = \\text{Arc measure}$$",
-      "desmosExpressions": [
-        "x^2 + y^2 = 1",
-        "(\\cos(100\\pi/180), \\sin(100\\pi/180))"
-      ]
+      "formula": "$$\\text{Central angle measure} = \\text{Arc measure}$$"
     }
   ]
 }

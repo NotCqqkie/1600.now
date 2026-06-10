@@ -4,21 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Simplify q(x) by combining like terms",
-      "content": "The function is $q(x) = a|x - 9| + 2 - 87|x - 9| + b$. Combining the absolute value terms:\n<div class=\"callout\">\n$$q(x) = (a - 87)|x - 9| + (b + 2)$$\n</div>",
-      "formula": "$$q(x) = (a - 87)|x - 9| + (b + 2)$$"
+      "title": "Focus on the distance from 9",
+      "content": "The original problem uses $|x-9|^2$ in $q(x)$. Since $q(x)$ depends on $x$ only through $|x-9|$, inputs that are the same distance from $9$ give the same output."
     },
     {
-      "title": "Evaluate q(639) and q(−621) — and find the shared absolute value",
-      "content": "For $x = 639$:<br/>$$|639 - 9| = 630$$\n$$h = q(639) = 630(a - 87) + (b + 2)$$\n<br/>For $x = -621$:<br/>$$|-621 - 9| = |-630| = 630$$\n$$k = q(-621) = 630(a - 87) + (b + 2)$$\n<br/>Both inputs are equidistant from 9 (one is $9 + 630$, the other is $9 - 630$), so both absolute values equal <strong>630</strong> and therefore <strong>$h = k$</strong>."
+      "title": "Show that h and k are equal",
+      "content": "For the two inputs:<br/>$$|639-9|=630$$<br/>$$|-621-9|=|-630|=630$$<br/>Both inputs are $630$ units from $9$, so $q(639)=q(-621)$. Therefore, $h=k$."
     },
     {
-      "title": "Substitute $h = k$ into the expression and simplify",
-      "content": "The expression $9(-639)h - k + 621(9)k - h$ expands as:\n$$= -5751h - k + 5589k - h$$\n$$= -5752h + 5588k$$\n<br/>Since $h = k$, substitute $k = h$:\n$$= -5752h + 5588h = -164h$$"
+      "title": "Use the zero exponents",
+      "content": "The intended final expression is $9(-639)^{h-k}+621(9)^{k-h}$. Since $h=k$, both exponents are $0$:<br/>$$h-k=0 \\quad \\text{and} \\quad k-h=0$$"
     },
     {
-      "title": "Determine the value of the expression",
-      "content": "We have $h = 630(a - 87) + (b + 2)$ and the expression equals $-164h$. The problem states $a > b > 87$, which means $a - 87 > 0$. However, $h = k$ for any values of $a$ and $b$ satisfying the constraints, so the ratio $\\frac{-164h}{-164k}$ is always 1 — but the question asks for the value of $|x - 9|$ at both evaluation points, which is the constant <strong>630</strong>. This is the unique numerical value that $|639 - 9| = |-621 - 9|$ both equal, independent of $a$ and $b$.\n<br/><br/>The answer is $\\boxed{630}$."
+      "title": "Evaluate the expression",
+      "content": "Any nonzero base raised to the $0$ power equals $1$, so:<br/>$$9(-639)^0+621(9)^0=9+621=630$$<br/>The answer is <strong>630</strong>."
     }
   ]
 }

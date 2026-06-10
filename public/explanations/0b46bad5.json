@@ -4,24 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Rewrite the equation",
-      "content": "Start with:<br/>$$ax+by=b$$<br/>Solve for $y$:<br/>$$by=-ax+b$$<br/>$$y=-\\frac{a}{b}x+1$$<br/>This form lets you read the y-intercept and slope directly from the equation."
+      "title": "Rewrite in slope-intercept form",
+      "content": "The answer choices are graphs, so rewrite the equation in slope-intercept form to see the line's intercept and direction. Start with $ax+by=b$ and solve for $y$:<br/>$$by=-ax+b$$<br/>$$y=-\\frac{a}{b}x+1$$"
     },
     {
-      "title": "Use 0 < a < b",
-      "content": "Since $0\\lt a\\lt b$, the ratio $\\frac{a}{b}$ is between $0$ and $1$. Therefore the slope $-\\frac{a}{b}$ is negative but between $-1$ and $0$. The y-intercept is exactly $1$."
+      "title": "Interpret the slope and intercept",
+      "content": "Since $0\\lt a\\lt b$, the ratio $\\frac{a}{b}$ is between $0$ and $1$. So the slope $-\\frac{a}{b}$ is negative but greater than $-1$, and the $y$-intercept is $1$."
     },
     {
-      "title": "Desmos representative check",
-      "content": "Pick simple values that satisfy $0\\lt a\\lt b$, such as $a=1$ and $b=2$. The equation becomes $x+2y=2$, or $y=-\\frac{1}{2}x+1$. That graph has the same required features: y-intercept $1$, gentle negative slope, and x-intercept greater than $1$.",
-      "desmosExpressions": [
-        "x+2y=2",
-        "y=-\\frac{1}{2}x+1"
-      ]
-    },
-    {
-      "title": "Confirm the graph",
-      "content": "The only graph with y-intercept $1$, a negative slope between $-1$ and $0$, and an x-intercept to the right of $1$ is choice C. So <strong>C</strong> is correct."
+      "title": "Match the graph",
+      "content": "Look for the line that crosses the $y$-axis at $1$ and slopes gently downward from left to right. That is choice C, so <strong>C</strong> is correct."
     }
   ]
 }

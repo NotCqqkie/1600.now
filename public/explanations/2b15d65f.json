@@ -8,12 +8,11 @@
       "content": "Use selling price as $x$ and demand as $y$. The two given points are $(40,20000)$ and $(60,15000)$."
     },
     {
-      "title": "Use linear regression",
-      "content": "In Desmos, enter $x_1=[40,60]$ and $y_1=[20000,15000]$, then type $y_1\\sim m x_1+b$. Desmos returns $m=-250$ and $b=30000$, so the linear model is $$y=-250x+30000.$$",
+      "title": "Find the line from the data",
+      "content": "Use the table points directly. From $(40,20000)$ to $(60,15000)$, the slope is $m=\\frac{15000-20000}{60-40}=-250.$ Substituting a point into $y=mx+b$ gives $b=30000$.",
       "desmosExpressions": [
         "x_1=[40,60]",
         "y_1=[20000,15000]",
-        "y_1~m x_1+b",
         "y=-250x+30000"
       ]
     },

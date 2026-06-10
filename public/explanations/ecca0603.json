@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "State the constraints",
-      "content": "Every pair (x, y) in the table must satisfy both conditions simultaneously:<br/>&bull; y &lt; x<br/>&bull; x &lt; 22"
+      "content": "Every pair $(x,y)$ in the table must satisfy both conditions simultaneously:<ul><li>$y \\lt x$</li><li>$x \\lt 22$</li></ul>"
     },
     {
       "title": "Eliminate choices with x &ge; 22",

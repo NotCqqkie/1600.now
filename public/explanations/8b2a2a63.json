@@ -9,10 +9,7 @@
     },
     {
       "title": "Substitute x = 0 into the equation",
-      "content": "Substitute $x = 0$ into $y = -6x - 32$:<br/>$$y = -6(0) - 32 = -32$$<br/>Therefore, $y = -32$.",
-      "desmosExpressions": [
-        "y=-6x-32"
-      ]
+      "content": "Substitute $x = 0$ into $y = -6x - 32$:<br/>$$y = -6(0) - 32 = -32$$<br/>Therefore, $y = -32$."
     }
   ]
 }

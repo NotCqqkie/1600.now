@@ -9,12 +9,7 @@
     },
     {
       "title": "Apply to interpret the doubling time",
-      "content": "That gives $t=580$ minutes. The answer is <strong>580</strong>.",
-      "desmosExpressions": [
-        "y = 60000 \\cdot 2^{x/580}",
-        "(0, 60000)",
-        "(580, 120000)"
-      ]
+      "content": "That gives $t=580$ minutes. The answer is <strong>580</strong>."
     },
     {
       "title": "Confirm the answer",

@@ -4,18 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use a two-variable coefficient regression",
-      "content": "The answer choices are all quadratic forms in $a$ and $b$. A quick Desmos method is to test several positive $(a,b)$ pairs and regress the result to $pa^2+qab+rb^2$.",
-      "desmosExpressions": [
-        "a_1=[0,1,2,3,4]",
-        "b_1=[2,5,3,7,11]",
-        "z_1=(a_1+b_1/2)^2",
-        "z_1~p a_1^2+q a_1 b_1+r b_1^2"
-      ]
+      "title": "Recognize the square",
+      "content": "The expression has the form $(a+\\frac{b}{2})^2$, so use the square pattern $(u+v)^2=u^2+2uv+v^2$. This is faster than trying to match $p$, $q$, and $r$ one at a time."
     },
     {
       "title": "Read the coefficients and confirm by formula",
-      "content": "The regression gives $p=1$, $q=1$, and $r=\\frac{1}{4}$, so the expression is<br/>$$a^2+ab+\\frac{b^2}{4}$$<br/>The perfect-square formula confirms it:<br/>$$(a+\\frac{b}{2})^2=a^2+2a\\left(\\frac{b}{2}\\right)+\\left(\\frac{b}{2}\\right)^2=a^2+ab+\\frac{b^2}{4}$$<br/>Choice <strong>D</strong> is correct."
+      "content": "Expand directly:<br/>$$(a+\\frac{b}{2})^2=a^2+2a\\left(\\frac{b}{2}\\right)+\\left(\\frac{b}{2}\\right)^2=a^2+ab+\\frac{b^2}{4}$$<br/>Thus $p=1$, $q=1$, and $r=\\frac{1}{4}$. Choice <strong>D</strong> is correct."
     }
   ]
 }

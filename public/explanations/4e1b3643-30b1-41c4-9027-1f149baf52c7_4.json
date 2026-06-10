@@ -4,18 +4,17 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use Desmos to fit the table",
-      "content": "Because the relationship is linear, put two table rows into Desmos as lists: $x_1=[0,1]$ and $y_1=[20,21]$. Then type $y_1 \\sim m x_1+b$. Desmos returns $m=1$ and $b=20$, so the equation is $y=x+20$.",
+      "title": "Find the line from the table",
+      "content": "Use two table points directly. From $(0,20)$ to $(1,21)$, the slope is $m=\\frac{21-20}{1-0}=1.$ Substituting a point into $y=mx+b$ gives $b=20$.",
       "desmosExpressions": [
         "x_1=[0,1]",
         "y_1=[20,21]",
-        "y_1~m x_1+b",
         "y=x+20"
       ]
     },
     {
       "title": "Find the y-intercept and identify the answer",
-      "content": "The Desmos model $y=x+20$ has slope 1 and y-intercept 20. This eliminates A, B, and C because their slopes are 20 or 22. Choice D is exactly $y=x+20$, so <strong>D</strong> is correct."
+      "content": "The equation $y=x+20$ has slope $1$ and $y$-intercept $20$. This eliminates A, B, and C because their slopes are $20$ or $22$. Choice D is exactly $y=x+20$, so <strong>D</strong> is correct."
     }
   ]
 }

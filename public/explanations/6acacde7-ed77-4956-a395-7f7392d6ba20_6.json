@@ -4,26 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Evaluate the original expression",
-      "content": "Use a table/regression shortcut instead of distributing every sign by hand. Enter several $t$-values and define the output list from the original expression.",
-      "desmosExpressions": [
-        "t_1=[0,1,2,3,4]",
-        "y_1=(6t_1^4-6t_1^2+4t_1-2)-(5t_1^4-3t_1^3+7t_1^2-2)"
-      ]
+      "title": "Distribute the subtraction",
+      "content": "Start with $$(6t^4-6t^2+4t-2)-(5t^4-3t^3+7t^2-2).$$ Subtracting the second parentheses changes every sign:<br/>$$6t^4-6t^2+4t-2-5t^4+3t^3-7t^2+2.$$"
     },
     {
-      "title": "Fit a quartic",
-      "content": "Type $y_1\\sim a t_1^4+b t_1^3+c t_1^2+d t_1+e$. Desmos returns $a=1$, $b=3$, $c=-13$, $d=4$, and $e=0$, so the expression is $t^4+3t^3-13t^2+4t$.",
-      "desmosExpressions": [
-        "t_1=[0,1,2,3,4]",
-        "y_1=(6t_1^4-6t_1^2+4t_1-2)-(5t_1^4-3t_1^3+7t_1^2-2)",
-        "y_1~a t_1^4+b t_1^3+c t_1^2+d t_1+e",
-        "y=x^4+3x^3-13x^2+4x"
-      ]
+      "title": "Combine like terms",
+      "content": "The $t^4$ terms give $t^4$. The cubic term is $3t^3$. The $t^2$ terms give $-6t^2-7t^2=-13t^2$. The linear term is $4t$, and the constants cancel. So the expression is $$t^4+3t^3-13t^2+4t.$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "The fitted coefficients match choice A exactly. Choice D is close but has an extra $-4$ constant; the regression shows the constant is $0$. Choice <strong>A</strong> is correct."
+      "content": "That expression matches choice A exactly. Choice D is close but has an extra $-4$ constant. Choice <strong>A</strong> is correct."
     }
   ]
 }

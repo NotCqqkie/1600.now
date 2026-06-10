@@ -9,11 +9,7 @@
     },
     {
       "title": "Substitute to solve for x",
-      "content": "Substitute $y = 15$ back into equation (2):<br/>$$x + 15 = 45$$<br/>$$x = 30$$<br/>Verify in equation (1): $30 + 2(15) = 30 + 30 = 60$ ✓<br/><br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "y = \\frac{60 - x}{2}",
-        "y = 45 - x"
-      ]
+      "content": "Substitute $y = 15$ back into equation (2):<br/>$$x + 15 = 45$$<br/>$$x = 30$$<br/>That matches choice <strong>B</strong> &mdash; <strong>B</strong> is correct."
     }
   ]
 }

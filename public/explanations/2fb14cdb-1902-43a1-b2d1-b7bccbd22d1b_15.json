@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the relationship and revenue equation",
-      "content": "If $n$ products are sold, the price decreased by $n$ increments of \\$2.50, so the price is \\$120 - \\$2.50n. Using revenue = price $\\times$ quantity:<br/>$$(120 - 2.50n) \\cdot n = 1{,}437.50$$"
+      "title": "Use the choices as the shortcut",
+      "content": "The question asks which listed number <em>could be</em> the number sold, so testing choices is faster than solving the whole quadratic. For $n$ products sold, the price is $120-2.50n$ and the revenue is $n(120-2.50n)$."
     },
     {
-      "title": "Simplify to quadratic form and solve",
-      "content": "Expand the equation: $120n - 2.50n^2 = 1{,}437.50$.<br/>Divide by 2.50 and rearrange: $n^2 - 48n + 575 = 0$.<br/><br/>Apply the quadratic formula with $a = 1$, $b = -48$, $c = 575$:<br/>$$n = \\frac{48 \\pm \\sqrt{2304 - 2300}}{2} = \\frac{48 \\pm \\sqrt{4}}{2} = \\frac{48 \\pm 2}{2}$$<br/>This gives $n = 25$ or $n = 23$."
+      "title": "Test choice A",
+      "content": "For choice A, $n=23$. The price is $120-2.50(23)=62.50$. The revenue is:<br/>$$23(62.50)=1{,}437.50$$<br/>That exactly matches the required revenue."
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; '23'</strong>: Check: price = $120 - 2.50(23) = \\$62.50$; revenue = $23 \\times 62.50 = \\$1{,}437.50$. &#10003;</li><li><strong>Choice B &mdash; '24'</strong>: Check: price = $120 - 2.50(24) = \\$60$; revenue = $24 \\times 60 = \\$1{,}440 \\neq \\$1{,}437.50$. &#10007;</li><li><strong>Choice C &mdash; '527'</strong>: Price would be $120 - 2.50(527) = -\\$1{,}197.50$ — a negative price, impossible. &#10007;</li><li><strong>Choice D &mdash; '1,440'</strong>: Price would be deeply negative, clearly impossible. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li><strong>A: 23</strong> gives exactly $1{,}437.50$, so it works. &#10003;</li><li><strong>B: 24</strong> gives price $60$ and revenue $24(60)=1{,}440$, too high. &#10007;</li><li><strong>C: 527</strong> and <strong>D: 1,440</strong> would make the price negative, so they are impossible. &#10007;</li></ul>Choice <strong>A</strong> is correct."
     }
   ]
 }

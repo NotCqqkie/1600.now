@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Graph the two savings models",
-      "content": "This is an intersection question. Barbara starts with $70$ dollars and adds $10$ dollars per week, so graph $y=70+10x$. Maria starts with $120$ dollars and adds $5$ dollars per week, so graph $y=120+5x$.",
-      "desmosExpressions": [
-        "y=70+10x",
-        "y=120+5x"
-      ]
+      "title": "Write the two savings models",
+      "content": "Barbara starts with $70$ dollars and adds $10$ dollars per week, so her savings after $x$ weeks are $70+10x$. Maria starts with $120$ dollars and adds $5$ dollars per week, so her savings are $120+5x$."
     },
     {
-      "title": "Read the intersection",
-      "content": "The two lines intersect where the savings amounts are equal. Desmos shows the intersection at $(10,170)$, so the savings are the same after $10$ weeks."
+      "title": "Set the amounts equal",
+      "content": "The savings are the same when $$70+10x=120+5x.$$ Subtract $5x$ and $70$ from both sides: $$5x=50,$$ so $x=10$."
     },
     {
       "title": "Confirm the choice",

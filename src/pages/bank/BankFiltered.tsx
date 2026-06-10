@@ -109,12 +109,12 @@ const BankFiltered = () => {
     const normalizedSearch = deferredSearch.trim().toLowerCase();
     if (!normalizedSearch) return questions;
     return questions.filter(
-      (q) =>
-        q.prompt.toLowerCase().includes(normalizedSearch) ||
-        q.passage?.toLowerCase().includes(normalizedSearch) ||
-        q.questionText?.toLowerCase().includes(normalizedSearch) ||
-        q.choices?.some((choice) => choice.text?.toLowerCase().includes(normalizedSearch)) ||
-        q.correctAnswer?.toLowerCase().includes(normalizedSearch)
+      (question) =>
+        question.prompt.toLowerCase().includes(normalizedSearch) ||
+        question.passage?.toLowerCase().includes(normalizedSearch) ||
+        question.questionText?.toLowerCase().includes(normalizedSearch) ||
+        question.choices?.some((choice) => choice.text?.toLowerCase().includes(normalizedSearch)) ||
+        question.correctAnswer?.toLowerCase().includes(normalizedSearch)
     );
   }, [deferredSearch, questions]);
 
@@ -131,8 +131,8 @@ const BankFiltered = () => {
     }
   }, [currentPage, safeCurrentPage]);
 
-  const handleQuestionClick = (q: BankQuestion) => {
-    navigate(`${basePath}/${validSubject}/${q.id}${bankQuerySuffix}`);
+  const handleQuestionClick = (question: BankQuestion) => {
+    navigate(`${basePath}/${validSubject}/${question.id}${bankQuerySuffix}`);
   };
 
   return (
@@ -192,8 +192,8 @@ const BankFiltered = () => {
               size="sm"
               onClick={() => {
                 const firstUnanswered = questions.find(
-                  (q) => {
-                    const state = questionUiStateMap[q.stableId];
+                  (question) => {
+                    const state = questionUiStateMap[question.stableId];
                     return !isAnsweredQuestionState(state);
                   }
                 );
@@ -214,8 +214,8 @@ const BankFiltered = () => {
             <Input
               placeholder="Search questions..."
               value={search}
-              onChange={(e) => {
-                setSearch(e.target.value);
+              onChange={(event) => {
+                setSearch(event.target.value);
                 setCurrentPage(1);
               }}
               className="pl-10"
@@ -230,15 +230,15 @@ const BankFiltered = () => {
                 </div>
               ) : (
                 <div className="divide-y">
-                  {paginatedQuestions.map((q) => {
-                    const state = questionUiStateMap[q.stableId];
+                  {paginatedQuestions.map((question) => {
+                    const state = questionUiStateMap[question.stableId];
                     const answered = isAnsweredQuestionState(state);
                     const flagged = state?.flagged === true;
                     return (
                       <div
-                        key={q.id}
+                        key={question.id}
                         className="p-4 hover:bg-muted/50 cursor-pointer transition-colors flex items-center gap-4 group"
-                        onClick={() => handleQuestionClick(q)}
+                        onClick={() => handleQuestionClick(question)}
                       >
                         <div className="flex items-center gap-2">
                           {answered ? (
@@ -247,19 +247,19 @@ const BankFiltered = () => {
                             <div className="h-5 w-5 rounded-full border-2 border-muted-foreground/30" />
                           )}
                           <span className="font-mono text-muted-foreground w-8">
-                            #{q.id}
+                            #{question.id}
                           </span>
                         </div>
 
                         <div className="flex-1 min-w-0">
                           <div className="flex items-center gap-2 mb-1">
                             <span className="text-xs font-medium text-muted-foreground line-clamp-1">
-                              {q.category.skill}
+                              {question.category.skill}
                             </span>
                             {flagged && <Flag className="h-3 w-3 text-red-500 fill-red-500" />}
                           </div>
                           <p className="line-clamp-2 text-sm">
-                            {q.prompt}
+                            {question.prompt}
                           </p>
                         </div>
 
@@ -267,14 +267,14 @@ const BankFiltered = () => {
                           <Badge
                             variant="outline"
                             className={`text-xs ${
-                              q.category.confidence === "high"
+                              question.category.confidence === "high"
                                 ? "border-green-500/50"
-                                : q.category.confidence === "medium"
+                                : question.category.confidence === "medium"
                                 ? "border-yellow-500/50"
                                 : "border-red-500/50"
                             }`}
                           >
-                            {q.category.confidence}
+                            {question.category.confidence}
                           </Badge>
                           <ChevronRight className="h-5 w-5 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
                         </div>

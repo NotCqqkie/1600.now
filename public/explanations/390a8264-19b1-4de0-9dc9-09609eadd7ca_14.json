@@ -4,19 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply the quadratic formula",
-      "content": "For $x^2 - 12x - 13 = 0$, we have $a = 1$, $b = -12$, $c = -13$. The discriminant is:\n$$b^2 - 4ac = (-12)^2 - 4(1)(-13) = 144 + 52 = 196$$\n\nBy the quadratic formula:\n$$x = \\frac{12 \\pm \\sqrt{196}}{2} = \\frac{12 \\pm 14}{2}$$\n\nThis gives $x = \\frac{26}{2} = 13$ or $x = \\frac{-2}{2} = -1$."
+      "title": "Solve the quadratic",
+      "content": "Factor the equation: $$x^2-12x-13=0$$ $$(x-13)(x+1)=0$$ So the two solutions are $x=13$ and $x=-1$."
     },
     {
-      "title": "Match the form to $x = 13$",
-      "content": "We need to express $x = 13$ in the form $x = h - \\frac{1}{2}\\sqrt{k}$.<br/><br/>Rearranging:\n$$13 = h - \\frac{1}{2}\\sqrt{k}$$\n$$h - 13 = \\frac{1}{2}\\sqrt{k}$$\n$$\\sqrt{k} = 2(h - 13)$$\n$$k = 4(h - 13)^2$$\n\nFor a non-trivial match where both $h$ and $k$ are positive integers, we test $h = 15$:\n$$k = 4(15 - 13)^2 = 4(2)^2 = 16$$"
+      "title": "Match the keyed form",
+      "content": "The keyed answer uses the solution $x=13$ and writes it in the requested form: $$13=15-\\frac{1}{2}\\sqrt{16}$$ Thus one possible match is $h=15$ and $k=16$."
     },
     {
-      "title": "Verify and find $h + k$",
-      "content": "Check: $x = 15 - \\frac{1}{2}\\sqrt{16} = 15 - \\frac{1}{2}(4) = 15 - 2 = 13$ ✓\n\nWe can verify that $x = 13$ satisfies the original equation: $13^2 - 12(13) - 13 = 169 - 156 - 13 = 0$ ✓\n\nTherefore, $h = 15$ and $k = 16$, so $h + k = 15 + 16 = 31$. That matches choice C — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y = x^{2} - 12x - 13"
-      ]
+      "title": "Find the answer choice",
+      "content": "Using $h=15$ and $k=16$, $$h+k=15+16=31.$$ That matches choice <strong>C</strong>."
+    },
+    {
+      "title": "Note the source ambiguity",
+      "content": "The prompt says only that $h$ and $k$ are integer constants, so the representation is not unique without an extra restriction. Choice C matches the keyed representation above, but the current source text does not uniquely determine $h+k$."
     }
   ]
 }

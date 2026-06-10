@@ -4,26 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Enter representative scatterplot points",
-      "content": "For a scatterplot model question, use regression rather than only estimating by eye. Approximate several points from the plot and enter them as lists in Desmos.",
-      "desmosExpressions": [
-        "x_1=[1,1,1.5,1.5,2,2.5,2.5,2.5,3,3,3,3.5,3.5,3.5,4,4,4.5,5]",
-        "y_1=[2,6,4,5,7,8,9,11,9,10,12,10,11,13,13,16,17,15]"
-      ]
+      "title": "Use the visible trend",
+      "content": "The dots rise by roughly $3$ feet in long-jump distance for each $1$ foot increase in high-jump height. That means the slope should be close to $3$, not close to $0.82$. Choices A and B are too flat."
     },
     {
-      "title": "Run linear regression",
-      "content": "Type $y_1\\sim mx_1+b$. Desmos gives a slope around $3.3$ and an intercept close to $0.82$. That immediately eliminates the choices with slope $0.82$.",
-      "desmosExpressions": [
-        "x_1=[1,1,1.5,1.5,2,2.5,2.5,2.5,3,3,3,3.5,3.5,3.5,4,4,4.5,5]",
-        "y_1=[2,6,4,5,7,8,9,11,9,10,12,10,11,13,13,16,17,15]",
-        "y_1~m x_1+b",
-        "y=3.30x+0.82"
-      ]
+      "title": "Check the intercept",
+      "content": "The trend line would cross the $y$-axis a little above $0$, around $0.8$. Choice D has intercept $-3.30$, which would put the line below nearly all of the data. Choice C has intercept $0.82$ and slope $3.30$."
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice C is $y=3.30x+0.82$, matching the regression. Choice D has the right slope but an intercept of $-3.30$, which puts the line too low through the middle of the data. Therefore choice <strong>C</strong> is correct."
+      "content": "Choice C, $$y=3.30x+0.82,$$ has the right steep positive slope and a reasonable positive intercept. Therefore choice <strong>C</strong> is correct."
     }
   ]
 }

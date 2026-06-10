@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Area Formula for a Rectangle",
-      "content": "The area of a rectangle equals length times width: $$A = l \\cdot w = 3 \\cdot 39$$"
+      "title": "Use the area formula",
+      "content": "The area of a rectangle is length times width."
     },
     {
-      "title": "Evaluate Each Choice",
-      "content": "<ul><li><strong>Choice A &mdash; '2(3+39)'</strong>: This computes 2(42) = 84, which is the perimeter formula 2(l+w), not area. &#10007;</li><li><strong>Choice B &mdash; '2(3&middot;39)'</strong>: This doubles the area to get 234, which is twice what we want. &#10007;</li><li><strong>Choice C &mdash; '3+39'</strong>: This adds the dimensions to get 42, the sum, not the product. &#10007;</li><li><strong>Choice D &mdash; '3&middot;39'</strong>: This is exactly length times width = 117 square units, the area. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "title": "Substitute the dimensions",
+      "content": "With length $3$ and width $39$, the area expression is $3\\cdot39$."
+    },
+    {
+      "title": "Match the choice",
+      "content": "The expression $3\\cdot39$ matches choice <strong>D</strong>. Choice A is perimeter, choice B doubles the area, and choice C only adds the side lengths."
     }
   ]
 }

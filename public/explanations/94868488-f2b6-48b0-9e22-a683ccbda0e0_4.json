@@ -13,10 +13,7 @@
     },
     {
       "title": "Answer",
-      "content": "<strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y = x^{2} + 13x + 9"
-      ]
+      "content": "<strong>A</strong> is correct."
     }
   ]
 }

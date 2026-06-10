@@ -28,7 +28,7 @@ export interface College {
 
 export const colleges: College[] = rawColleges as College[];
 
-export const collegeBySlug = new Map(colleges.map((c) => [c.slug, c]));
+export const collegeBySlug = new Map(colleges.map((college) => [college.slug, college]));
 
 export const collegesByState = (() => {
   const map = new Map<string, College[]>();

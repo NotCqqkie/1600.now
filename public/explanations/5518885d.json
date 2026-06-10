@@ -9,10 +9,7 @@
     },
     {
       "title": "Solve for non-daylight minutes",
-      "content": "Subtract 670 from both sides to isolate $y$:\n$$y = 1,440 - 670$$\n$$y = 770$$\nThat matches choice B — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "x+y=1440"
-      ]
+      "content": "Subtract 670 from both sides to isolate $y$:\n$$y = 1,440 - 670$$\n$$y = 770$$\nThat matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

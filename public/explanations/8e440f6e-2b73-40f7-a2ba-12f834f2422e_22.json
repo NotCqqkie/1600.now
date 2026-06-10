@@ -9,11 +9,7 @@
     },
     {
       "title": "Use the discriminant to count solutions",
-      "content": "For the quadratic $3x^2 - 24x + 55 = 0$, calculate the discriminant with $a = 3$, $b = -24$, $c = 55$: $$\\Delta = b^2 - 4ac = (-24)^2 - 4(3)(55) = 576 - 660 = -84$$Since $\\Delta = -84 < 0$, there are no real solutions to the quadratic equation, meaning the parabola and horizontal line never intersect.<br/><br/>That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y = 3x^2 - 24x + 51",
-        "y = -4"
-      ]
+      "content": "For the quadratic $3x^2 - 24x + 55 = 0$, calculate the discriminant with $a = 3$, $b = -24$, $c = 55$: $$\\Delta = b^2 - 4ac = (-24)^2 - 4(3)(55) = 576 - 660 = -84$$Since $\\Delta = -84 \\lt 0$, there are no real solutions to the quadratic equation, meaning the parabola and horizontal line never intersect.<br/><br/>That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

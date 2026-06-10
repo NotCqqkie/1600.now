@@ -8,13 +8,11 @@
       "content": "Let $k=b^{1/n}$. Then $f(x)=ab^{x/n}$ becomes $f(x)=ak^x$, so $k$ is the multiplier for each 1-unit increase in $x$. Divide the two known function values:<br/>$$\\frac{f(7)}{f(4)}=\\frac{135}{5}=27$$<br/>The input increased by $3$, so $k^3=27$ and $k=3$."
     },
     {
-      "title": "Use Desmos regression or multiply forward",
-      "content": "In Desmos, enter the known points and regress $y_1\\sim ak^{x_1}$; the model then evaluates directly at $x=9$. By hand, from $x=7$ to $x=9$ is two unit steps, so multiply by $3^2=9$:<br/>$$f(9)=135\\cdot 9=1215$$<br/>The answer is <strong>1215</strong>.",
+      "title": "Use the relationship directly",
+      "content": "In Desmos, enter the known points and calculate; the model then evaluates directly at $x=9$. By hand, from $x=7$ to $x=9$ is two unit steps, so multiply by $3^2=9$:<br/>$$f(9)=135\\cdot 9=1215$$<br/>The answer is <strong>1215</strong>.",
       "desmosExpressions": [
         "x_1=[4,7]",
-        "y_1=[5,135]",
-        "y_1~a k^{x_1}",
-        "a k^9"
+        "y_1=[5,135]"
       ]
     }
   ]

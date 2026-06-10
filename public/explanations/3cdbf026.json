@@ -5,16 +5,11 @@
   "steps": [
     {
       "title": "Fit the standard-form line",
-      "content": "Instead of rearranging the equation, use custom regression with the exact form from the stem. The line $ax+ky=6$ contains $(-2,-6)$ and $(0,-3)$. Put those two points in Desmos and fit $a x_1+k y_1\\sim6$.",
-      "desmosExpressions": [
-        "x_1=[-2,0]",
-        "y_1=[-6,-3]",
-        "a x_1+k y_1~6"
-      ]
+      "content": "Use the exact form from the stem and solve the unknown directly. The line $ax+ky=6$ contains $(0,-3)$, so $$k(-3)=6 \\Rightarrow k=-2.$$ It also contains $(-2,-6)$, so $$-2a-6k=6.$$ With $k=-2$, this gives $-2a+12=6$, so $a=3$."
     },
     {
       "title": "Read $k$ directly",
-      "content": "The regression returns $k=-2$. It also returns $a=3$, so the line is $3x-2y=6$."
+      "content": "The value needed for the answer is $k$, and the point $(0,-3)$ already gives $k=-2$. The value of $a$ is not needed to answer the question."
     },
     {
       "title": "Confirm with the easy point",

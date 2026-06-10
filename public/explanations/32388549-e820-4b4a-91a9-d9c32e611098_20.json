@@ -9,11 +9,7 @@
     },
     {
       "title": "Find the y-intercepts and their positive difference",
-      "content": "$a = f(0) = -2(0-4)^2 - 6 = -2(16) - 6 = -38$<br/>$b = 5 \\cdot f(0) = 5(-38) = -190$<br/>Positive difference: $|b - a| = |-190 - (-38)| = 152$. The answer is <strong>152</strong>.",
-      "desmosExpressions": [
-        "f(x)=-2(x-4)^{2}-6",
-        "g(x)=-10(x-4)^{2}-30"
-      ]
+      "content": "$a = f(0) = -2(0-4)^2 - 6 = -2(16) - 6 = -38$<br/>$b = 5 \\cdot f(0) = 5(-38) = -190$<br/>Positive difference: $|b - a| = |-190 - (-38)| = 152$. The answer is <strong>152</strong>."
     }
   ]
 }

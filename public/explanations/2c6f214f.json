@@ -9,10 +9,7 @@
     },
     {
       "title": "Apply the geometric sequence formula",
-      "content": "For any geometric sequence, the $n$-th term is given by $a \\cdot r^{n-1}$. Substituting $a = 9$ and $r = 4$:<br/>$$w = 9 \\cdot 4^{n-1}$$<br/>Verify: $n = 1$ gives $w = 9(4^0) = 9$ ✓; $n = 2$ gives $w = 9(4^1) = 36$ ✓<br/><br/>That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "w=9((4)^(n-1))"
-      ]
+      "content": "For any geometric sequence, the $n$-th term is given by $a \\cdot r^{n-1}$. Substituting $a = 9$ and $r = 4$:<br/>$$w = 9 \\cdot 4^{n-1}$$<br/>Verify: $n = 1$ gives $w = 9(4^0) = 9$ ✓; $n = 2$ gives $w = 9(4^1) = 36$ ✓<br/><br/>That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

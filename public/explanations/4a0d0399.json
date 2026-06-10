@@ -9,10 +9,7 @@
     },
     {
       "title": "Solve for b",
-      "content": "Subtract 1 from both sides to isolate $b$:<br/>$$b = -323 - 1 = -324$$",
-      "desmosExpressions": [
-        "f(x)=(a)^(x)+b"
-      ]
+      "content": "Subtract 1 from both sides to isolate $b$:<br/>$$b = -323 - 1 = -324$$"
     }
   ]
 }

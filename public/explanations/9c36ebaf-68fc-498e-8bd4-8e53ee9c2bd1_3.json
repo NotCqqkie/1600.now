@@ -13,12 +13,7 @@
     },
     {
       "title": "Match against the choices",
-      "content": "Compare to each option:<ul><li>A) $c-d \\le 43$ uses subtraction, not the sum of animals &mdash; eliminate.</li><li>B) $c-d \\ge 43$ uses subtraction and the wrong direction &mdash; eliminate.</li><li>C) $c+d \\ge 43$ has the correct sum but reverses the direction (this says at least 43) &mdash; eliminate.</li><li>D) $c+d \\le 43$ correctly expresses &quot;the total is at most 43.&quot;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "x + y \\le 43",
-        "x \\ge 0",
-        "y \\ge 0"
-      ]
+      "content": "Compare to each option:<ul><li>A) $c-d \\le 43$ uses subtraction, not the sum of animals &mdash; eliminate.</li><li>B) $c-d \\ge 43$ uses subtraction and the wrong direction &mdash; eliminate.</li><li>C) $c+d \\ge 43$ has the correct sum but reverses the direction (this says at least 43) &mdash; eliminate.</li><li>D) $c+d \\le 43$ correctly expresses &quot;the total is at most 43.&quot;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
     }
   ]
 }

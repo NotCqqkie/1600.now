@@ -5,10 +5,7 @@
   "steps": [
     {
       "title": "Use the given line of best fit",
-      "content": "No new regression is needed because the equation of the line of best fit is already given: $y=0.096x-0.488$. The slope is the coefficient of $x$, so the slope is $0.096$.",
-      "desmosExpressions": [
-        "y=0.096x-0.488"
-      ]
+      "content": "The equation of the line of best fit is already given: $y=0.096x-0.488$. The slope is the coefficient of $x$, so the slope is $0.096$."
     },
     {
       "title": "Interpret the slope units",
@@ -16,12 +13,7 @@
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice A says the average increase was $0.096$ dollars each year. Choices C and D incorrectly treat the change as per 10 years, and choice B uses the intercept instead of the slope. Choice <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[-0.488,-0.392]",
-        "y_1~m x_1+b"
-      ]
+      "content": "Choice A says the average increase was $0.096$ dollars each year. Choices C and D incorrectly treat the change as per 10 years, and choice B uses the intercept instead of the slope. Choice <strong>A</strong> is correct."
     }
   ]
 }

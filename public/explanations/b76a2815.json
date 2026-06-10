@@ -1,15 +1,23 @@
 {
-  "qid": "b76a2815",
+  "questionId": "b76a2815",
   "correctAnswer": "A",
+  "section": "Math",
   "steps": [
     {
-      "text": "Start with $P = \\\\dfrac{W}{t}$. To isolate $W$, multiply both sides by $t$: $P \\cdot t = \\\\dfrac{W}{t} \\cdot t$."
+      "title": "Start with the given equation",
+      "content": "The equation is $P=\\frac{W}{t}$."
     },
     {
-      "text": "The $t$ cancels on the right: $W = Pt$."
+      "title": "Isolate W",
+      "content": "Multiply both sides by $t$: $Pt=W$."
     },
     {
-      "text": "Evaluate all choices:<ul><li>A: $W = Pt$ — correct, matches the derived equation. That matches choice A — <strong>A</strong> is correct.</li><li>B: $W = \\\\dfrac{P}{t}$ — divides instead of multiplies by $t$. Eliminated.</li><li>C: $W = \\\\dfrac{t}{P}$ — inverts both variables; does not follow from the algebra. Eliminated.</li><li>D: $W = P + t$ — adds instead of multiplies. Eliminated.</li></ul>"
+      "title": "Match the choice",
+      "content": "Rewriting gives $W=Pt$, which matches choice <strong>A</strong>."
+    },
+    {
+      "title": "Check the inverse operation",
+      "content": "Since $W$ is divided by $t$, multiplying by $t$ undoes the division. Dividing by $t$ again or adding $t$ would not preserve the original relationship."
     }
   ]
 }

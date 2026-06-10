@@ -4,16 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Start with the given equation",
-      "content": "$$b - 20 = \\frac{x}{y}$$"
+      "title": "Clear the denominator",
+      "content": "Start with $$b-20=\\frac{x}{y}$$ Multiply both sides by $y$: $$y(b-20)=x$$"
     },
     {
-      "title": "Multiply both sides by y",
-      "content": "Multiply both sides by $y$ to clear the denominator: $$y(b - 20) = x$$"
+      "title": "Distribute",
+      "content": "Distribute $y$ across the parentheses: $$x=by-20y$$"
     },
     {
-      "title": "Distribute and evaluate all choices",
-      "content": "Distribute $y$ on the left: $x = by - 20y$. Now check each option:<ul><li>A: $x = \\frac{b-20}{y}$ — this divides by $y$ instead of multiplying. Eliminate A.</li><li>B: $x = by - 20y$ — matches $y(b-20)$ distributed. That matches choice B — <strong>B</strong> is correct.</li><li>C: $x = \\frac{by-20}{y}$ — only the 20 is divided by $y$, not the entire expression. Eliminate C.</li><li>D: $x = by - 20$ — the $y$ was not distributed to the $-20$ term. Eliminate D.</li></ul>"
+      "title": "Confirm the choice",
+      "content": "Choice B is $x=by-20y$, so <strong>B</strong> is correct."
+    },
+    {
+      "title": "Avoid dividing by y",
+      "content": "Because $x$ is already divided by $y$, the inverse operation is multiplication by $y$. That makes choices A and C wrong: they still leave $x$ tied to a denominator instead of isolating it."
     }
   ]
 }

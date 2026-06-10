@@ -9,10 +9,7 @@
     },
     {
       "title": "Compute the intercept",
-      "content": "This gives $y=9$, so the $y$-intercept is $(0,9)$. That matches choice <strong>C</strong> — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y = 3x^{2} + 8x + 9"
-      ]
+      "content": "This gives $y=9$, so the $y$-intercept is $(0,9)$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."
     },
     {
       "title": "Confirm the answer",

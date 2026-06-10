@@ -9,15 +9,7 @@
     },
     {
       "title": "Identify the matching pair",
-      "content": "Only $(8,25)$ satisfies both equations simultaneously. That matches choice <strong>B</strong> — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "y = 5(x - 3)",
-        "y = (x - 3)^2"
-      ]
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice B, $(8, 25)$, and the other choices fail the same setup or substitution. Therefore <strong>B</strong> is correct."
+      "content": "Only $(8,25)$ satisfies both equations simultaneously. That matches choice <strong>B</strong> — <strong>B</strong> is correct.<br/><br/>A solution to a system must satisfy both equations at the same time, so one successful ordered pair is enough once the other choices fail one of the equations."
     }
   ]
 }

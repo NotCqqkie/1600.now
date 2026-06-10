@@ -9,11 +9,7 @@
     },
     {
       "title": "Use the perpendicular slope",
-      "content": "A line perpendicular to slope $-4$ has slope equal to the negative reciprocal, which is $\\frac{1}{4}$. Line $t$ passes through $(6,0)$, so its equation is $$y=\\frac{1}{4}(x-6).$$",
-      "desmosExpressions": [
-        "8x+2y=0",
-        "y=\\frac{1}{4}(x-6)"
-      ]
+      "content": "A line perpendicular to slope $-4$ has slope equal to the negative reciprocal, which is $\\frac{1}{4}$. Line $t$ passes through $(6,0)$, so its equation is $$y=\\frac{1}{4}(x-6).$$"
     },
     {
       "title": "Use the given y-value",

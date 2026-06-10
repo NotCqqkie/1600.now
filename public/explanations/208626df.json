@@ -13,11 +13,7 @@
     },
     {
       "title": "Confirm the correct interpretation",
-      "content": "Choice B states: <em>If the rectangle has length 8 and width 3, its perimeter is less than or equal to 27.</em> This correctly matches both the ordered pair assignment ($l=8, w=3$) and the inequality direction ($\\le 27$). That matches choice B — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "2x+2y \\le 27",
-        "(8,3)"
-      ]
+      "content": "Choice B states: <em>If the rectangle has length 8 and width 3, its perimeter is less than or equal to 27.</em> This correctly matches both the ordered pair assignment ($l=8, w=3$) and the inequality direction ($\\le 27$). That matches choice <strong>B</strong>."
     }
   ]
 }

@@ -13,11 +13,7 @@
     },
     {
       "title": "Substitute to solve for w",
-      "content": "Now substitute $x = 128$ and $y = 19$ into equation 1 to find $w$:<br/>$$-(128) - 19w = -337$$<br/>$$-128 - 19w = -337$$<br/>$$-19w = -209$$<br/>$$w = 11$$",
-      "desmosExpressions": [
-        "y = \\frac{337 - x}{11}",
-        "y = \\frac{2x - 47}{11}"
-      ]
+      "content": "Now substitute $x = 128$ and $y = 19$ into equation 1 to find $w$:<br/>$$-(128) - 19w = -337$$<br/>$$-128 - 19w = -337$$<br/>$$-19w = -209$$<br/>$$w = 11$$"
     }
   ]
 }

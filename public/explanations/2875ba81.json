@@ -9,11 +9,7 @@
     },
     {
       "title": "Subtract to isolate y",
-      "content": "Subtract the scaled equation from the first equation to eliminate $x$:<br/>$$(6x + 7y) - (6x + 6y) = 28 - 30$$<br/>$$y = -2$$<br/>That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y = (28 - 6x)/7",
-        "y = (10 - 2x)/2"
-      ]
+      "content": "Subtract the scaled equation from the first equation to eliminate $x$:<br/>$$(6x + 7y) - (6x + 6y) = 28 - 30$$<br/>$$y = -2$$<br/>That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

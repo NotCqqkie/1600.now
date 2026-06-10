@@ -99,7 +99,7 @@ export const getQuestionReport = async (
 
 export const listQuestionReports = async (): Promise<QuestionReport[]> => {
   if (!db) return [];
-  const q = query(collection(db, COLLECTION), orderBy("lastReportedAt", "desc"));
-  const snap = await getDocs(q);
-  return snap.docs.map((d) => d.data() as QuestionReport);
+  const reportsQuery = query(collection(db, COLLECTION), orderBy("lastReportedAt", "desc"));
+  const snap = await getDocs(reportsQuery);
+  return snap.docs.map((docSnap) => docSnap.data() as QuestionReport);
 };

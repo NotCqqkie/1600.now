@@ -86,7 +86,7 @@ const loadAnnotations = (storageArea: Storage, storageKey: string): PassageAnnot
           typeof item.text === "string" &&
           isAnnotationColor(item.color),
       )
-      .sort((a, b) => a.start - b.start);
+      .sort((leftAnnotation, rightAnnotation) => leftAnnotation.start - rightAnnotation.start);
   } catch {
     return [];
   }
@@ -359,7 +359,7 @@ export const ReadingPassageAnnotator = ({
       text: pendingSelection.text,
     };
 
-    setAnnotations((prev) => [...prev, nextAnnotation].sort((a, b) => a.start - b.start));
+    setAnnotations((prev) => [...prev, nextAnnotation].sort((leftAnnotation, rightAnnotation) => leftAnnotation.start - rightAnnotation.start));
     setActiveAnnotation({
       id: nextAnnotation.id,
       anchor: pendingSelection.anchor,

@@ -9,11 +9,7 @@
     },
     {
       "title": "Find $x$",
-      "content": "Divide by 2: $x=6$. That matches choice <strong>C</strong> — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y = \\frac{5 - x}{5}",
-        "y = \\frac{x - 7}{5}"
-      ]
+      "content": "Divide by 2: $x=6$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."
     },
     {
       "title": "Confirm the answer",

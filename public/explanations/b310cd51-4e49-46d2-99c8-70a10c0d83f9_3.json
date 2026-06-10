@@ -8,22 +8,12 @@
       "content": "Standard deviation is smallest when values cluster most tightly around the mean. Compare the range and spread of each dataset."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "Enter each answer choice as a list in Desmos and compare `stdevp`. The smallest value belongs to choice D, because $46,47,47,47,48$ is clustered closest to $47$.",
-      "desmosExpressions": [
-        "a_1=[44,45,47,49,50]",
-        "b_1=[45,45,47,49,49]",
-        "c_1=[45,46,47,48,49]",
-        "d_1=[46,47,47,47,48]",
-        "\\operatorname{stdevp}\\left(a_1\\right)",
-        "\\operatorname{stdevp}\\left(b_1\\right)",
-        "\\operatorname{stdevp}\\left(c_1\\right)",
-        "\\operatorname{stdevp}\\left(d_1\\right)"
-      ]
+      "title": "Compare the spreads",
+      "content": "All four data sets are centered near $47$, so compare how far the values are from $47$. Choice D has values $46,47,47,47,48$, which are only $1$, $0$, $0$, $0$, and $1$ away from $47$."
     },
     {
       "title": "Confirm the choice",
-      "content": "<ul><li>A has standard deviation about $2.28$.</li><li>B has standard deviation about $1.79$.</li><li>C has standard deviation about $1.41$.</li><li>D has standard deviation about $0.63$, the smallest.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "content": "<ul><li>A ranges from $44$ to $50$, so it is more spread out.</li><li>B ranges from $45$ to $49$, so it is still more spread out than D.</li><li>C ranges evenly from $45$ to $49$.</li><li>D stays between $46$ and $48$, with three values exactly at $47$.</li></ul>Choice D is the most tightly clustered, so it has the smallest standard deviation. <strong>D</strong> is correct."
     }
   ]
 }

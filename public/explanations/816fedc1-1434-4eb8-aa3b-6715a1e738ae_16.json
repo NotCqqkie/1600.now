@@ -10,10 +10,7 @@
     },
     {
       "title": "Simplify and solve for circumference",
-      "content": "Simplify the fraction: $\\frac{20}{360} = \\frac{1}{18}$<br/>$$4 = \\frac{1}{18} \\times C$$<br/>Multiply both sides by 18:<br/>$$C = 4 \\times 18 = 72$$<br/>That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "x^2 + y^2 = (72/(2\\pi))^2"
-      ]
+      "content": "Simplify the fraction: $\\frac{20}{360} = \\frac{1}{18}$<br/>$$4 = \\frac{1}{18} \\times C$$<br/>Multiply both sides by 18:<br/>$$C = 4 \\times 18 = 72$$<br/>That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

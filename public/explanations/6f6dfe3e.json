@@ -4,21 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the vertical-shift shortcut",
-      "content": "The unknown $n$ is added to every $y$-value, so it only shifts the line up or down. A vertical shift does not change slope. Set $n=0$ to make the table numeric: $(-6,184)$, $(-3,92)$, and $(0,0)$.",
-      "desmosExpressions": [
-        "x_1=[-6,-3,0]",
-        "y_1=[184,92,0]",
-        "y_1~m x_1+b"
-      ]
+      "title": "Choose two points from the table",
+      "content": "Use the points $(-3,n+92)$ and $(0,n)$ from the table."
     },
     {
-      "title": "Read the slope",
-      "content": "Run $y_1 \\sim m x_1+b$ in Desmos. The regression gives $m=-\\frac{92}{3}$, which is the same result as $\\frac{(n+92)-(n+184)}{-3-(-6)}=\\frac{-92}{3}$."
+      "title": "Apply the slope formula",
+      "content": "$$m=\\frac{n-(n+92)}{0-(-3)}$$<br/>$$m=\\frac{-92}{3}$$"
     },
     {
       "title": "Check the choices",
-      "content": "The slope is fixed; it should not still contain $n$. Choice <strong>A</strong>, $-\\frac{92}{3}$, is the only matching choice."
+      "content": "The slope is fixed because the $n$ terms subtract away. It should not still contain $n$. Choice <strong>A</strong>, $-\\frac{92}{3}$, is the only matching choice."
     }
   ]
 }

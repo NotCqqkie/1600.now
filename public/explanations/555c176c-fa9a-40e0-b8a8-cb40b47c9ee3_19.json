@@ -17,7 +17,7 @@
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $4$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $4$."
+      "content": "Substitute $x=4$ back into the function: $g(4)=3(4)=12$. This matches the required value, so the answer is <strong>4</strong>."
     }
   ]
 }

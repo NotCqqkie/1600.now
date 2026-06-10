@@ -9,10 +9,7 @@
     },
     {
       "title": "Count the solutions",
-      "content": "There are two real solutions, $51$ and $-51$. That matches choice <strong>C</strong> — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y = x^{2} - 2601"
-      ]
+      "content": "There are two real solutions, $51$ and $-51$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."
     },
     {
       "title": "Confirm the answer",

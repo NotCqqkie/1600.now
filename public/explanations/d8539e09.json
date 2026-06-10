@@ -5,21 +5,11 @@
   "steps": [
     {
       "title": "Compute the cutoff list",
-      "content": "All four answer choices use $x=3$, $5$, and $7$. In Desmos, enter $x_1=[3,5,7]$ and compute $6x_1+2$. The cutoff list is $[20,32,44]$.",
-      "desmosExpressions": [
-        "x_1=[3,5,7]",
-        "6x_1+2"
-      ]
+      "content": "All four answer choices use $x=3$, $5$, and $7$. Compute the boundary value $6x+2$ for each:<br/>$$6(3)+2=20$$<br/>$$6(5)+2=32$$<br/>$$6(7)+2=44$$"
     },
     {
       "title": "Compare choice C in one row",
-      "content": "Choice C has $y$-values $16$, $28$, and $40$. Enter $c_1=[16,28,40]$, then type $c_1<6x_1+2$. Desmos confirms each listed $y$-value is strictly below the matching cutoff.",
-      "desmosExpressions": [
-        "x_1=[3,5,7]",
-        "c_1=[16,28,40]",
-        "6x_1+2",
-        "c_1<6x_1+2"
-      ]
+      "content": "Choice C has $y$-values $16$, $28$, and $40$. Each one is strictly below the matching cutoff: $16\\lt20$, $28\\lt32$, and $40\\lt44$."
     },
     {
       "title": "Eliminate the others",

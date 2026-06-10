@@ -13,12 +13,7 @@
     },
     {
       "title": "Calculate the sum a + b + c",
-      "content": "Since $\\frac{a+b+c}{4}=-120$, multiply by $4$:<br/>$$a+b+c=4(-120)=-480$$<br/>A Desmos coefficient regression can verify the same value without expanding the polynomial. That matches choice A, so <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "x_1=[0,1,2]",
-        "-16(5x_1-2)^2+6(5x_1-3)^2~(a/4)x_1^2+(b/4)x_1+c/4",
-        "a+b+c"
-      ]
+      "content": "Since $\\frac{a+b+c}{4}=-120$, multiply by $4$:<br/>$$a+b+c=4(-120)=-480$$<br/>That matches choice A, so <strong>A</strong> is correct."
     }
   ]
 }

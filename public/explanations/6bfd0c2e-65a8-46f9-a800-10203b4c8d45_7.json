@@ -1,1 +1,19 @@
-{"questionId": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_7", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Complete the square", "content": "$$x^2 - 4x + y^2 - 8y - 80 = 0$$<br/>$$(x-2)^2 - 4 + (y-4)^2 - 16 - 80 = 0$$<br/>$$(x-2)^2 + (y-4)^2 = 100$$<br/>So $r^2 = 100 \\Rightarrow r = 10$, diameter $= 20$."}, {"title": "Find the square's perimeter", "content": "An inscribed circle has diameter equal to the square's <strong>side length</strong>: side $= 20$.<br/>$$P = 4 \\cdot 20 = 80$$<br/>That matches choice C — <strong>C</strong> is correct.","desmosExpressions":["(x-2)^2 + (y-4)^2 = 100","(2, 4)"]}]}
+{
+  "questionId": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_7",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Complete the square",
+      "content": "$$x^2 - 4x + y^2 - 8y - 80 = 0$$<br/>$$(x-2)^2 - 4 + (y-4)^2 - 16 - 80 = 0$$<br/>$$(x-2)^2 + (y-4)^2 = 100$$<br/>So $r^2 = 100 \\Rightarrow r = 10$, diameter $= 20$."
+    },
+    {
+      "title": "Find the square's perimeter",
+      "content": "An inscribed circle has diameter equal to the square's <strong>side length</strong>: side $= 20$.<br/>$$P = 4 \\cdot 20 = 80$$<br/>The Desmos graph below checks the circle equation: it has center $(2,4)$ and radius $10$, so the diameter is $20$. That matches choice C — <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "(x-2)^2 + (y-4)^2 = 100",
+        "(2, 4)"
+      ]
+    }
+  ]
+}

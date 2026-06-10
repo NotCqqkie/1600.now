@@ -1,1 +1,15 @@
-{"questionId":"e26dd9f3-3dbe-49b6-afbf-43a483d231ba_13","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The answer must accurately describe the Amur grape data from the graph, giving specific counts for opposite-side and same-side leaf pair orientation to support the claim that one orientation dominates."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; ~150 opposite-side, ~60 same-side</strong>: Matches the graph values for Amur grape exactly. &#10003;</li><li><strong>Choice B &mdash; ~150 opposite-side, ~49 same-side</strong>: Misreads the same-side bar; the graph shows ~60, not 49. &#10007;</li><li><strong>Choice C &mdash; no same-side pairs</strong>: The graph clearly shows ~60 same-side pairs; this is factually wrong. &#10007;</li><li><strong>Choice D &mdash; no same-side pairs</strong>: Same error as C. &#10007;</li></ul>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "e26dd9f3-3dbe-49b6-afbf-43a483d231ba_13",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The answer must accurately describe the Amur grape data from the graph, giving specific counts for opposite-side and same-side leaf pair orientation to support the claim that one orientation dominates."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; ~150 opposite-side, ~60 same-side</strong>: Matches the graph values for Amur grape exactly. &#10003;</li><li><strong>Choice B &mdash; ~150 opposite-side, ~49 same-side</strong>: Misreads the same-side bar; the graph shows ~60, not 49. &#10007;</li><li><strong>Choice C &mdash; no same-side pairs</strong>: The graph clearly shows ~60 same-side pairs; this is factually wrong. &#10007;</li><li><strong>Choice D &mdash; no same-side pairs</strong>: Same error as C. &#10007;</li></ul>That matches choice A — <strong>A</strong> is correct."
+    }
+  ]
+}

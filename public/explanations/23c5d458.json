@@ -4,17 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fit the whole table",
-      "content": "Enter the four table points into Desmos and run the linear regression $y_1 \\sim m x_1+b$. The values fall exactly on one line, and Desmos gives $m=-4$ and $b=36$.",
-      "desmosExpressions": [
-        "x_1=[1,2,3,4]",
-        "y_1=[32,28,24,20]",
-        "y_1~m x_1+b"
-      ]
+      "title": "Use two table values",
+      "content": "From the table, $g(1)=32$ and $g(2)=28$. Since $g(x)=mx+b$, these give $$32=m+b$$ and $$28=2m+b.$$"
     },
     {
-      "title": "Use the intercept",
-      "content": "In $g(x)=mx+b$, $b$ is $g(0)$, the $y$-intercept. The fitted line is $g(x)=-4x+36$, so $b=36$. That matches choice <strong>D</strong>."
+      "title": "Solve for b",
+      "content": "Subtract the first equation from the second: $28-32=(2m+b)-(m+b)$, so $m=-4$. Substitute into $32=m+b$: $$32=-4+b,$$ so $$b=36.$$ The question asks for the value of $b$, so choice <strong>D</strong> is correct."
     }
   ]
 }

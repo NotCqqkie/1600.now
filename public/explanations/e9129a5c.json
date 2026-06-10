@@ -5,12 +5,7 @@
   "steps": [
     {
       "title": "Read two points on the line",
-      "content": "The line of best fit rises gently. Two clear approximate points on the line are $(0,2.5)$ and $(10,4.7)$. Use points on the fit line itself, not random scatterplot points.",
-      "desmosExpressions": [
-        "x_1=[0,10]",
-        "y_1=[2.5,4.7]",
-        "y_1~m x_1+b"
-      ]
+      "content": "The line of best fit rises gently. Two clear approximate points on the line are $(0,2.5)$ and $(10,4.7)$. Use points on the fit line itself, not random scatterplot points."
     },
     {
       "title": "Find the slope",

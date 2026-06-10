@@ -5,8 +5,7 @@
   "steps": [
     {
       "title": "Define variables in terms of mass B",
-      "content": "Let mass of A = 4.38B (since 438% = 4.38).<br/>Let mass of A = 0.00073C (since 0.073% = 0.00073).<br/>Equate the two expressions for A: $$4.38B = 0.00073C$$",
-      "formula": "$$\\frac{\\text{mass A}}{\\text{mass B}} = 4.38$$"
+      "content": "Let mass of A = 4.38B (since 438% = 4.38).<br/>Let mass of A = 0.00073C (since 0.073% = 0.00073).<br/>Equate the two expressions for A: $$4.38B = 0.00073C$$"
     },
     {
       "title": "Solve for C in terms of B",

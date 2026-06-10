@@ -12,12 +12,8 @@
       "content": "First factor out $y^4$:<br/>$$72y^5-48y^4=y^4(72y-48)$$<br/>Then factor $6$ from the parentheses:<br/>$$y^4(72y-48)=6y^4(12y-8)$$<br/>So $r=6$."
     },
     {
-      "title": "Check with Desmos",
-      "content": "A quick constant-ratio check is to divide the original expression by $y^4(12y-8)$ at two values of $y$:<br/>$$t_1=[1,2]$$<br/>$$r_1=\\frac{72t_1^5-48t_1^4}{t_1^4(12t_1-8)}$$<br/>Desmos returns $[6,6]$, so the constant multiplier is $6$.",
-      "desmosExpressions": [
-        "t_1=[1,2]",
-        "r_1=\\frac{72t_1^5-48t_1^4}{t_1^4(12t_1-8)}"
-      ]
+      "title": "Check the result",
+      "content": "The factored form $6y^4(12y-8)$ expands back to $$6y^4\\cdot12y-6y^4\\cdot8=72y^5-48y^4.$$ So the constant multiplier is $6$."
     },
     {
       "title": "Answer",

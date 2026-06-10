@@ -4,23 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use cubic regression as a shortcut",
-      "content": "Instead of carefully combining every term by hand, evaluate the expression at four x-values and fit a cubic. Enter the source expression as a list in Desmos.",
-      "desmosExpressions": [
-        "x_1=[-1,0,1,2]",
-        "y_1=(9x_1^3+5x_1+7)+(6x_1^3+5x_1^2-5)"
-      ]
+      "title": "Line up like terms",
+      "content": "Subtracting a polynomial changes the sign of every term being subtracted, then matching powers of $x$ can be combined."
     },
     {
-      "title": "Fit the equivalent cubic",
-      "content": "Now regress those outputs against $ax^3+bx^2+cx+d$:<br/>$$y_1\\sim ax_1^3+bx_1^2+cx_1+d$$<br/>Desmos returns $a=15$, $b=5$, $c=5$, and $d=2$.",
-      "desmosExpressions": [
-        "y_1\\sim a x_1^3+b x_1^2+c x_1+d"
-      ]
+      "title": "Combine each power of x",
+      "content": "The cubic terms give $$9x^3+6x^3=15x^3.$$ The quadratic term is $5x^2$, the linear term is $5x$, and the constants give $$7-5=2.$$ So the expression is $$15x^3+5x^2+5x+2.$$"
     },
     {
-      "title": "Confirm with algebra",
-      "content": "Combining like terms gives the same result:<br/>$$9x^3+6x^3=15x^3$$<br/>$$5x^2\\text{ stays }5x^2,\\quad 5x\\text{ stays }5x,\\quad 7-5=2$$<br/>So the expression is $15x^3+5x^2+5x+2$, which is choice D."
+      "title": "Confirm the choice",
+      "content": "That expression matches choice D, so <strong>D</strong> is correct."
     }
   ]
 }

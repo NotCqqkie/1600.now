@@ -5,16 +5,11 @@
   "steps": [
     {
       "title": "Fit the table first",
-      "content": "Enter the table points $(1,11)$ and $(2,16)$ into Desmos and run $y_1 \\sim m x_1+b$. This is faster than testing every answer choice from scratch.",
-      "desmosExpressions": [
-        "x_1=[1,2]",
-        "y_1=[11,16]",
-        "y_1~m x_1+b"
-      ]
+      "content": "Use two points from the table. From $(1,11)$ to $(2,16)$, the slope is $$m=\\frac{16-11}{2-1}=5.$$"
     },
     {
       "title": "Read the equation",
-      "content": "The regression gives $m=5$ and $b=6$, so the equation is $y=5x+6$. It checks in the table: $5(1)+6=11$ and $5(2)+6=16$."
+      "content": "Substitute $(1,11)$ into $y=mx+b$: $$11=5(1)+b,$$ so $b=6$. The equation is $$y=5x+6.$$ It checks in the table: $5(1)+6=11$ and $5(2)+6=16$."
     },
     {
       "title": "Check the choices",

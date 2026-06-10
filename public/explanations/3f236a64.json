@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Run the proportional table check",
-      "content": "Because the ratio $\\frac{y}{x}$ is constant, the relationship has the form $y=kx$. Enter the known rows $(1,4)$, $(3,12)$, and $(5,20)$ in Desmos and run $y_1\\sim k x_1$.",
-      "desmosExpressions": [
-        "x_1=[1,3,5]",
-        "y_1=[4,12,20]",
-        "y_1~k x_1"
-      ]
+      "title": "Find the constant ratio",
+      "content": "The problem says the ratio of $y$ to $x$ is constant. From the first row,<br/>$$\\frac{y}{x}=\\frac{4}{1}=4.$$"
     },
     {
       "title": "Use the constant of proportionality",
-      "content": "Desmos returns $k=4$, so the rule is $y=4x$. The same result is visible mentally from the first row: $4/1=4$.",
-      "desmosExpressions": [
-        "y=4x"
-      ]
+      "content": "So every $y$-value is $4$ times its $x$-value:<br/>$$y=4x.$$"
     },
     {
       "title": "Find the missing table value",

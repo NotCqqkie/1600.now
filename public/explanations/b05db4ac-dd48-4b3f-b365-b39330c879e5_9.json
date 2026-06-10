@@ -9,11 +9,7 @@
     },
     {
       "title": "Translate right and write Circle B's equation",
-      "content": "Translating right 4 units adds 4 to the $x$-coordinate of the center: $(7 + 4, -3) = (11, -3)$. The radius stays $1$. With center $(11, -3)$ and radius $1$, the equation is $(x - 11)^2 + (y + 3)^2 = 1$. That matches choice C — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "(x-7)^2 + (y+3)^2 = 1",
-        "(x-11)^2 + (y+3)^2 = 1"
-      ]
+      "content": "Translating right 4 units adds 4 to the $x$-coordinate of the center: $(7 + 4, -3) = (11, -3)$. The radius stays $1$. With center $(11, -3)$ and radius $1$, the equation is $(x - 11)^2 + (y + 3)^2 = 1$. That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

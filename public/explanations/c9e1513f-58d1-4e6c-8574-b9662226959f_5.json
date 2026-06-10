@@ -9,10 +9,7 @@
     },
     {
       "title": "Classify each choice",
-      "content": "<ul><li><strong>Choice A &mdash; '16% greater each hour'</strong>: Multiplying by 1.16 each hour. This is a constant multiplicative factor, so the population follows $B_0 \\cdot (1.16)^t$ &mdash; exponential. &#10003;</li><li><strong>Choice B &mdash; '1,600 greater each hour'</strong>: Adding 1,600 each hour is a constant difference, producing linear growth, not exponential. &#10007;</li><li><strong>Choice C &mdash; '16% less each hour'</strong>: Multiplying by 0.84 each hour is exponential decay, not growth. &#10007;</li><li><strong>Choice D &mdash; '1,600 less each hour'</strong>: Subtracting 1,600 each hour is linear decay. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y = (1.16)^x"
-      ]
+      "content": "<ul><li><strong>Choice A &mdash; '16% greater each hour'</strong>: Multiplying by 1.16 each hour. This is a constant multiplicative factor, so the population follows $B_0 \\cdot (1.16)^t$ &mdash; exponential. &#10003;</li><li><strong>Choice B &mdash; '1,600 greater each hour'</strong>: Adding 1,600 each hour is a constant difference, producing linear growth, not exponential. &#10007;</li><li><strong>Choice C &mdash; '16% less each hour'</strong>: Multiplying by 0.84 each hour is exponential decay, not growth. &#10007;</li><li><strong>Choice D &mdash; '1,600 less each hour'</strong>: Subtracting 1,600 each hour is linear decay. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

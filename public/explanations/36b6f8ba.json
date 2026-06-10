@@ -8,23 +8,12 @@
       "content": "The graph shown is $y=f(x)+4$, not $y=f(x)$. The easiest visible point is the $y$-intercept: the graph passes through $(0,8)$. That means when $x=0$, the shifted output is $8$."
     },
     {
-      "title": "Test the shifted choices in Desmos",
-      "content": "Since the displayed graph is $f(x)+4$, add $4$ to each answer choice and evaluate at $x=0$. A one-row Desmos table shows only choice B gives the visible output $8$.",
-      "desmosExpressions": [
-        "x_1=[0]",
-        "a_1=-(3)^{x_1}+1+4",
-        "b_1=-(3)^{x_1}+5+4",
-        "c_1=-(3)^{x_1}+8+4",
-        "d_1=-(3)^{x_1}+9+4"
-      ]
+      "title": "Test the shifted choices",
+      "content": "Since the displayed graph is $f(x)+4$, add $4$ to each answer choice and evaluate at $x=0$. For an answer of the form $f(x)=-3^x+c$, the shifted value at $x=0$ is $-1+c+4=c+3$."
     },
     {
       "title": "Confirm with the graph",
-      "content": "For choice B, $f(x)=-3^x+5$, so the displayed curve would be $y=-3^x+9$. At $x=0$, this gives $y=-1+9=8$, matching the graph. The curve also decreases sharply as $x$ increases, matching the shown shape.",
-      "desmosExpressions": [
-        "y=-(3)^x+5+4",
-        "(0,8)"
-      ]
+      "content": "For choice B, $f(x)=-3^x+5$, so the displayed curve would be $y=-3^x+9$. At $x=0$, this gives $y=-1+9=8$, matching the graph. The curve also decreases sharply as $x$ increases, matching the shown shape."
     },
     {
       "title": "Eliminate the other constants",

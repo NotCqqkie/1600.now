@@ -5,20 +5,11 @@
   "steps": [
     {
       "title": "Use two points from the graph",
-      "content": "Do this as a Desmos table instead of estimating by hand. The graphed line clearly passes through $(-2,-3)$ and $(0,9)$. Enter those two points, then run a linear regression. Desmos gives $m=6$ and $b=9$, so the graphed line is $y=6x+9$.",
-      "desmosExpressions": [
-        "x_1=[-2,0]",
-        "y_1=[-3,9]",
-        "y_1~m x_1+b",
-        "y=6x+9"
-      ]
+      "content": "The graphed line clearly passes through $(-2,-3)$ and $(0,9)$. The slope is $$\\frac{9-(-3)}{0-(-2)}=\\frac{12}{2}=6,$$ so the line has equation $y=6x+9$."
     },
     {
       "title": "Build the equation",
-      "content": "Rewrite the regression equation so it matches the answer choices. From $y=6x+9$, multiply by 2 to make the constant 18: $$2y=12x+18$$ Move the $12x$ term to the left: $$-12x+2y=18$$ This has the form $-12x+Ry=18$ with $R=2$.",
-      "desmosExpressions": [
-        "-12x+2y=18"
-      ]
+      "content": "Rewrite the equation so it matches the answer choices. From $y=6x+9$, multiply by 2 to make the constant 18: $$2y=12x+18$$ Move the $12x$ term to the left: $$-12x+2y=18$$ This has the form $-12x+Ry=18$ with $R=2$."
     },
     {
       "title": "Match the positive constant",

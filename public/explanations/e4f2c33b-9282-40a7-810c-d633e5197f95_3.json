@@ -5,26 +5,15 @@
   "steps": [
     {
       "title": "Eliminate by direction",
-      "content": "The graph falls from left to right, so the slope is negative. Choices A and B have positive slopes, so eliminate them. Now only C and D are possible.",
-      "desmosExpressions": [
-        "y=(3/7)x-5",
-        "y=(7/3)x-5",
-        "y=-(3/7)x-5",
-        "y=-(7/3)x-5"
-      ]
+      "content": "The graph falls from left to right, so the slope is negative. Choices A and B have positive slopes, so eliminate them. Now only C and D are possible."
     },
     {
       "title": "Use the marked points",
-      "content": "The graph passes through $(0,-5)$ and $(7,-8)$. Put those points into a Desmos table and run $y_1\\sim m x_1+b$. Desmos returns $m=-\\frac{3}{7}$ and $b=-5$, so the equation is $f(x)=-\\frac{3}{7}x-5$.",
-      "desmosExpressions": [
-        "x_1=[0,7]",
-        "y_1=[-5,-8]",
-        "y_1~m x_1+b"
-      ]
+      "content": "The graph passes through $(0,-5)$ and $(7,-8)$. The slope is $$\\frac{-8-(-5)}{7-0}=-\\frac{3}{7},$$ and the $y$-intercept is $-5$. Therefore the equation is $f(x)=-\\frac{3}{7}x-5$."
     },
     {
       "title": "Confirm the choice",
-      "content": "If using Desmos, graph the four choices and compare them to the image; only choice C overlaps the graphed line. Algebraically, choice D is too steep because its slope is $-\\frac{7}{3}$ instead of $-\\frac{3}{7}$. Therefore choice C, $f(x)=-\\frac{3}{7}x-5$, is correct."
+      "content": "Choice D is too steep because its slope is $-\\frac{7}{3}$ instead of $-\\frac{3}{7}$. Therefore choice <strong>C</strong>, $f(x)=-\\frac{3}{7}x-5$, is correct."
     }
   ]
 }

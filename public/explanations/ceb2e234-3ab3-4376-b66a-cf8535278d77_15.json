@@ -9,11 +9,7 @@
     },
     {
       "title": "Compute the target value",
-      "content": "So $6x^{2} = 48$. That matches choice <strong>C</strong> — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y = \\frac{48}{x}",
-        "y = 6x"
-      ]
+      "content": "So $6x^{2} = 48$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."
     },
     {
       "title": "Confirm the answer",

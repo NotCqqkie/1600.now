@@ -5,17 +5,15 @@
   "steps": [
     {
       "title": "Find angle YXZ from angle sum",
-      "content": "In triangle XYZ, angle Y = 90° and angle XZY = 63°. Using the angle sum property, the three angles of a triangle sum to 180°:<br/>$$\\angle YXZ = 180° - 90° - 63° = 27°$$",
-      "formula": "$$\\angle A + \\angle B + \\angle C = 180°$$"
+      "content": "In triangle $XYZ$, angle $Y=90^\\circ$ and angle $XZY=63^\\circ$. Using the angle sum property, the three angles of a triangle sum to $180^\\circ$:<br/>$$\\angle YXZ = 180^\\circ - 90^\\circ - 63^\\circ = 27^\\circ$$"
     },
     {
       "title": "Use similar triangles to find angle ZPQ",
-      "content": "Since PQ is parallel to XY, triangle ZPQ is similar to triangle ZXY (they share angle Z, and the parallel condition ensures the other angles match). In similar triangles, corresponding angles are equal:<br/>$$\\angle ZPQ = \\angle ZXY = 27°$$"
+      "content": "Since $PQ$ is parallel to $XY$, triangle $ZPQ$ is similar to triangle $ZXY$ (they share angle $Z$, and the parallel condition makes the other angles match). In similar triangles, corresponding angles are equal:<br/>$$\\angle ZPQ = \\angle ZXY = 27^\\circ$$"
     },
     {
       "title": "Find angle XPQ using supplementary angles",
-      "content": "Point P lies on segment XZ, which means angles ZPQ and XPQ form a linear pair at point P. Angles in a linear pair are supplementary and sum to 180°:<br/>$$\\angle XPQ = 180° - \\angle ZPQ = 180° - 27° = 153°$$",
-      "formula": "$$\\angle A + \\angle B = 180°$$"
+      "content": "Point $P$ lies on segment $XZ$, so angles $ZPQ$ and $XPQ$ form a linear pair at $P$. Linear-pair angles are supplementary:<br/>$$\\angle XPQ = 180^\\circ - \\angle ZPQ = 180^\\circ - 27^\\circ = 153^\\circ$$<br/>The answer is <strong>153</strong>."
     }
   ]
 }

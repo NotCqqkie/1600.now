@@ -9,11 +9,7 @@
     },
     {
       "title": "Calculate the total cost",
-      "content": "Compute the product: $24 \\times 300 = 7200$. This is the cost of 24 months of payments at \\$300 per month.<br/><br/>Add the fixed leasing fee: $7200 + 1000 = 8200$.<br/><br/>That matches choice C — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y = 24x + 1000",
-        "(300, 8200)"
-      ]
+      "content": "Compute the product: $24 \\times 300 = 7200$. This is the cost of 24 months of payments at \\$300 per month.<br/><br/>Add the fixed leasing fee: $7200 + 1000 = 8200$.<br/><br/>That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

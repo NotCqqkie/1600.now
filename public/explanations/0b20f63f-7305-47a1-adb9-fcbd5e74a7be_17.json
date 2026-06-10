@@ -13,10 +13,7 @@
     },
     {
       "title": "Substitute back and solve for x",
-      "content": "Replace $u = 3x - 8$ in each solution:<ul><li>When $u = 7$: $3x - 8 = 7 \\Rightarrow 3x = 15 \\Rightarrow x = 5$</li><li>When $u = 4$: $3x - 8 = 4 \\Rightarrow 3x = 12 \\Rightarrow x = 4$</li></ul>Both $x = 4$ and $x = 5$ are solutions to the original equation.",
-      "desmosExpressions": [
-        "y = (3x-8)^{2} - 11(3x-8) + 28"
-      ]
+      "content": "Replace $u = 3x - 8$ in each solution:<ul><li>When $u = 7$: $3x - 8 = 7 \\Rightarrow 3x = 15 \\Rightarrow x = 5$</li><li>When $u = 4$: $3x - 8 = 4 \\Rightarrow 3x = 12 \\Rightarrow x = 4$</li></ul>Both $x = 4$ and $x = 5$ are solutions to the original equation."
     }
   ]
 }

@@ -13,11 +13,7 @@
     },
     {
       "title": "Test each choice",
-      "content": "<ul><li><strong>A)</strong> Width 14 ft &rarr; area 1,176 ft². Matches input/output exactly. &check;</li><li><strong>B)</strong> Says output is the length. But $f$ outputs area, not length. Eliminate.</li><li><strong>C)</strong> Swaps input and output: claims width is 1,176. Eliminate.</li><li><strong>D)</strong> Also swaps input and output, and mislabels area as 14. Eliminate.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "f(w)=6w^2",
-        "f(14)"
-      ]
+      "content": "<ul><li><strong>A)</strong> Width 14 ft $\\Rightarrow$ area 1,176 ft². Matches input/output exactly. &check;</li><li><strong>B)</strong> Says output is the length. But $f$ outputs area, not length. Eliminate.</li><li><strong>C)</strong> Swaps input and output: claims width is 1,176. Eliminate.</li><li><strong>D)</strong> Also swaps input and output, and mislabels area as 14. Eliminate.</li></ul>That matches choice A - <strong>A</strong> is correct."
     }
   ]
 }

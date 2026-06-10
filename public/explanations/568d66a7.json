@@ -8,8 +8,8 @@
       "content": "An isosceles right triangle has legs of equal length. Let's call the leg length $a$.<br/><br/>In a 45-45-90 triangle, the hypotenuse equals $a\\sqrt{2}$. The perimeter is: $$2a + a\\sqrt{2} = a(2 + \\sqrt{2}) = 94 + 94\\sqrt{2}$$"
     },
     {
-      "title": "Test choice B by computing the perimeter",
-      "content": "Backsolving — testing choice B ($47\\sqrt{2}$):<br/><br/>If the leg length is $47\\sqrt{2}$, the perimeter is: $$47\\sqrt{2}(2 + \\sqrt{2}) = 47\\sqrt{2} \\cdot 2 + 47\\sqrt{2} \\cdot \\sqrt{2} = 94\\sqrt{2} + 94$$<br/>This equals the given perimeter $94 + 94\\sqrt{2}$. That matches choice B — <strong>B</strong> is correct."
+      "title": "Match the leg length to the perimeter",
+      "content": "If $a=47\\sqrt{2}$, then the perimeter is $$47\\sqrt{2}(2+\\sqrt{2})=94\\sqrt{2}+94$$ This is the same as the given perimeter $94+94\\sqrt{2}$. Therefore the leg length is $47\\sqrt{2}$, so choice <strong>B</strong> is correct."
     }
   ]
 }

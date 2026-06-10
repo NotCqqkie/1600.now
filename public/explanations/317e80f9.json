@@ -4,12 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the choices or graph",
-      "content": "Because all choices are ordered pairs, the fastest method is to check which point satisfies both equations. In Desmos, graph the two lines and read their intersection.",
-      "desmosExpressions": [
-        "y=18-x",
-        "y=x/5"
-      ]
+      "title": "Use substitution",
+      "content": "The system is $x+y=18$ and $5y=x$. Since the second equation already gives $x$ in terms of $y$, substitute $5y$ for $x$ in the first equation."
     },
     {
       "title": "Solve by substitution",

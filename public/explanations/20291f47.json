@@ -14,14 +14,6 @@
     {
       "title": "Match the final form",
       "content": "The denominator $xy(x-8)$ is the same as $x^2y-8xy$, so the simplified expression is $$\\frac{xy^2+13xy-8y}{x^2y-8xy}$$ That matches choice <strong>C</strong>."
-    },
-    {
-      "title": "Optional Desmos check",
-      "content": "As a quick check after simplifying, plug in safe values such as $x=10$ and $y=2$ so no denominator is zero. The original expression and choice C both evaluate to $7.1$, which supports the algebraic match. Choices A, B, and D have the wrong numerator or denominator structure, so <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "((2+12)/(10-8))+(2(10-8))/(10^2(2)-8(10)(2))",
-        "(10(2)^2+13(10)(2)-8(2))/(10^2(2)-8(10)(2))"
-      ]
     }
   ]
 }

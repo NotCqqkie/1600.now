@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Set up",
-      "content": "Rewrite the equation in standard form by subtracting 47 from both sides: $x^2 + 5x - 47 = 0$. The quadratic formula gives $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$ with $a = 1$, $b = 5$, $c = -47$."
+      "content": "This is a quadratic equation, so the goal is to find its roots. The quadratic formula is a direct way to solve it when simple factoring is not the focus. Rewrite the equation in standard form by subtracting 47 from both sides: $x^2 + 5x - 47 = 0$. The quadratic formula gives $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$ with $a = 1$, $b = 5$, $c = -47$."
     },
     {
       "title": "Solve",
@@ -13,10 +13,7 @@
     },
     {
       "title": "Answer",
-      "content": "Matching to the given form $\\frac{m \\pm \\sqrt{q}}{2}$: $m = -5$ and $q = 213$. Therefore $m + q = -5 + 213 = $ <strong>208</strong>.",
-      "desmosExpressions": [
-        "y = x^{2} + 5x - 47"
-      ]
+      "content": "Matching to the given form $\\frac{m \\pm \\sqrt{q}}{2}$: $m = -5$ and $q = 213$. Therefore $m + q = -5 + 213 = $ <strong>208</strong>."
     }
   ]
 }

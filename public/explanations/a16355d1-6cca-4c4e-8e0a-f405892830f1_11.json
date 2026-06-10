@@ -8,7 +8,7 @@
       "explanation": "In the expression y = (72w)(w), the two factors are the two dimensions: w is the width and 72w is the length."
     },
     {
-      "explanation": "<ul><li>A: &quot;The length of the rectangle, in feet&quot; — 72w = 72 times the width, which is exactly the length. That matches choice A — <strong>A</strong> is correct.</li><li>B: &quot;The area of the rectangle&quot; — the area is y, the entire product (72w)(w), not just one factor. Eliminated.</li><li>C: &quot;The difference between length and width&quot; — that would be 72w - w = 71w, not 72w. Eliminated.</li><li>D: &quot;The width of the rectangle&quot; — the width is w, not 72w. Eliminated.</li></ul>"
+      "explanation": "<ul><li>A: &quot;The length of the rectangle, in feet&quot; - 72w = 72 times the width, which is exactly the length. That matches choice A - <strong>A</strong> is correct.</li><li>B: &quot;The area of the rectangle&quot; - the area is y, the entire product (72w)(w), not just one factor. Eliminated.</li><li>C: &quot;The difference between length and width&quot; - that would be 72w - w = 71w, not 72w. Eliminated.</li><li>D: &quot;The width of the rectangle&quot; - the width is w, not 72w. Eliminated.</li></ul>"
     }
   ],
   "correctAnswer": "A"

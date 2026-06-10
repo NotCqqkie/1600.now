@@ -5,13 +5,7 @@
   "steps": [
     {
       "title": "Set up",
-      "content": "The slope of the line of best fit equals the rate of temperature change per hour. Read two points from the line, $(0,175)$ and $(10,575)$, then use Desmos to fit a line.",
-      "desmosExpressions": [
-        "x_1=[0,10]",
-        "y_1=[175,575]",
-        "y_1~m x_1+b",
-        "y=m x+b"
-      ]
+      "content": "The slope of the line of best fit equals the rate of temperature change per hour. Read two points from the line: $(0,175)$ and $(10,575)$."
     },
     {
       "title": "Solve",

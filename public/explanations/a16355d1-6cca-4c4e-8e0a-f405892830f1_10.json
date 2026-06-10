@@ -9,11 +9,7 @@
     },
     {
       "title": "Find the y‑coordinate",
-      "content": "Substitute $x=10$ into either original equation; using $y=5x+8$ gives $$y = 5(10)+8 = 50+8 = 58$$.<br/>Thus the intersection point is $(10,58)$.<br/>That matches choice C — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y = 5x + 8",
-        "y = 6x - 2"
-      ]
+      "content": "Substitute $x=10$ into either original equation; using $y=5x+8$ gives $$y = 5(10)+8 = 50+8 = 58$$.<br/>Thus the intersection point is $(10,58)$.<br/>That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

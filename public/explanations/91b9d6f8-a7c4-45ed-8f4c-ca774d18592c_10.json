@@ -1,1 +1,25 @@
-{"questionId":"91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_10","correctAnswer":"12","section":"Math","steps":[{"title":"Find the slope from two table points","content":"Using $(0, 12)$ and $(1, 19)$ from the table:<br/>$$m = \\frac{\\Delta y}{\\Delta x} = \\frac{19 - 12}{1 - 0} = 7$$"},{"title":"Write the linear equation","content":"The point $(0, 12)$ is on the line, so the y-intercept is $b = 12$. The line is $y = 7x + 12$.","desmosExpressions":["y=7x+12","(0,12)","(1,19)","(2,26)"]},{"title":"Verify with the third point","content":"Check $(2, 26)$: $y = 7(2) + 12 = 14 + 12 = 26$. <strong>✓</strong><br/><br/>The y-coordinate of the y-intercept is <strong>12</strong>."}]}
+{
+  "questionId": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_10",
+  "correctAnswer": "12",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope from two table points",
+      "content": "Using $(0, 12)$ and $(1, 19)$ from the table:<br/>$$m = \\frac{\\Delta y}{\\Delta x} = \\frac{19 - 12}{1 - 0} = 7$$"
+    },
+    {
+      "title": "Write the linear equation",
+      "content": "The point $(0, 12)$ is on the line, so the y-intercept is $b = 12$. The line is $y = 7x + 12$. The Desmos rows below graph that line and the table points to check that $(0,12)$, $(1,19)$, and $(2,26)$ all lie on the same line.",
+      "desmosExpressions": [
+        "y=7x+12",
+        "(0,12)",
+        "(1,19)",
+        "(2,26)"
+      ]
+    },
+    {
+      "title": "Verify with the third point",
+      "content": "Check $(2, 26)$: $y = 7(2) + 12 = 14 + 12 = 26$. <strong>✓</strong><br/><br/>The y-coordinate of the y-intercept is <strong>12</strong>."
+    }
+  ]
+}

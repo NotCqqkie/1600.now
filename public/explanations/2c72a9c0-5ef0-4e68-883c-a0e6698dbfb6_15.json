@@ -9,10 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; '17.1%'</strong>: would mean each step multiplies by $0.829$ (a 17.1% drop), but the exponent is $2w$, not $w$, so the multiplier per step is $(0.829)^2$, not $0.829$. &#10007;</li><li><strong>Choice B &mdash; '29.3%'</strong>: not a standard rounding of $(0.829)^2 - 1$. &#10007;</li><li><strong>Choice C &mdash; '31.7%'</strong>: off from the correct computation. &#10007;</li><li><strong>Choice D &mdash; '31.3%'</strong>: $(0.829)^2 = 0.687241$, so $z$ retains 68.72% each step &mdash; a decrease of $1 - 0.6872 = 0.3128 \\approx 31.3\\%$. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "z(w) = (0.829)^{2w}"
-      ]
+      "content": "<ul><li><strong>Choice A &mdash; '17.1%'</strong>: would mean each step multiplies by $0.829$ (a 17.1% drop), but the exponent is $2w$, not $w$, so the multiplier per step is $(0.829)^2$, not $0.829$. &#10007;</li><li><strong>Choice B &mdash; '29.3%'</strong>: not a standard rounding of $(0.829)^2 - 1$. &#10007;</li><li><strong>Choice C &mdash; '31.7%'</strong>: off from the correct computation. &#10007;</li><li><strong>Choice D &mdash; '31.3%'</strong>: $(0.829)^2 = 0.687241$, so $z$ retains 68.72% each step &mdash; a decrease of $1 - 0.6872 = 0.3128 \\approx 31.3\\%$. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
     }
   ]
 }

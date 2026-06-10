@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li>A. $p + r + s$ &mdash; this would only work if $\\frac{1}{q} = \\frac{1}{p+r+s}$, but $\\frac{1}{p}+\\frac{1}{r}+\\frac{1}{s} \\neq \\frac{1}{p+r+s}$. Eliminated.</li><li>B. $20(p+r+s)$ &mdash; the 20s cancel when we divide both sides by 20, so a factor of 20 should not appear. Eliminated.</li><li>C. $\\frac{prs}{pr+ps+rs}$ &mdash; exactly the expression we derived. Correct.</li><li>D. $\\frac{prs}{20p+20r+20s}$ &mdash; again introduces a stray factor of 20 in the denominator. Eliminated.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+      "content": "<ul><li>A. $p + r + s$ - this would only work if $\\frac{1}{q} = \\frac{1}{p+r+s}$, but $\\frac{1}{p}+\\frac{1}{r}+\\frac{1}{s} \\neq \\frac{1}{p+r+s}$. Eliminated.</li><li>B. $20(p+r+s)$ - the 20s cancel when we divide both sides by 20, so a factor of 20 should not appear. Eliminated.</li><li>C. $\\frac{prs}{pr+ps+rs}$ - exactly the expression we derived. Correct.</li><li>D. $\\frac{prs}{20p+20r+20s}$ - again introduces a stray factor of 20 in the denominator. Eliminated.</li></ul>That matches choice C - <strong>C</strong> is correct."
     }
   ]
 }

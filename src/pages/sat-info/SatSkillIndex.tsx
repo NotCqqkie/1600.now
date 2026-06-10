@@ -8,8 +8,8 @@ const description =
   "Browse every skill tested on the Digital SAT, by section and domain. Learn the skill, see key tips, and jump to targeted practice questions.";
 
 const SatSkillIndex = () => {
-  const math = satSkills.filter((s) => s.section === "Math");
-  const rw = satSkills.filter((s) => s.section === "Reading & Writing");
+  const mathSkills = satSkills.filter((skill) => skill.section === "Math");
+  const readingSkills = satSkills.filter((skill) => skill.section === "Reading & Writing");
 
   return (
     <div className="mx-auto max-w-5xl px-6 py-10">
@@ -44,26 +44,26 @@ const SatSkillIndex = () => {
       </header>
 
       {[
-        { heading: "Digital SAT Math Skills", list: math },
-        { heading: "Digital SAT Reading & Writing Skills", list: rw },
+        { heading: "Digital SAT Math Skills", list: mathSkills },
+        { heading: "Digital SAT Reading & Writing Skills", list: readingSkills },
       ].map((group) => (
         <section key={group.heading} className="mb-10">
           <h2 className="text-2xl font-semibold tracking-tight">
             {group.heading}
           </h2>
           <ul className="mt-4 grid gap-3 md:grid-cols-2">
-            {group.list.map((s) => (
-              <li key={s.slug}>
+            {group.list.map((skill) => (
+              <li key={skill.slug}>
                 <Link
-                  to={`/sat-skill/${s.slug}`}
+                  to={`/sat-skill/${skill.slug}`}
                   className="block rounded-xl border border-border p-4 transition hover:bg-muted"
                 >
-                  <div className="font-semibold">{s.name}</div>
+                  <div className="font-semibold">{skill.name}</div>
                   <div className="mt-1 text-xs uppercase tracking-wider text-muted-foreground">
-                    {s.domain}
+                    {skill.domain}
                   </div>
                   <p className="mt-2 text-sm text-muted-foreground">
-                    {s.shortDescription}
+                    {skill.shortDescription}
                   </p>
                 </Link>
               </li>

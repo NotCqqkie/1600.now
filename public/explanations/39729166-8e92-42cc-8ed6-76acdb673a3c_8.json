@@ -8,13 +8,12 @@
       "content": "The table gives points such as $(0,n)$ and $(3,n+14)$. The unknown $n$ adds the same vertical shift to the line, but slope only depends on how much $y$ changes when $x$ changes. Set $n=0$ to make the table numeric: $(0,0)$ and $(3,14)$.",
       "desmosExpressions": [
         "x_1=[0,3]",
-        "y_1=[0,14]",
-        "y_1~m x_1+b"
+        "y_1=[0,14]"
       ]
     },
     {
       "title": "Read the slope",
-      "content": "Run $y_1 \\sim m x_1+b$ in Desmos. The regression gives $m=\\frac{14}{3}$, or about $4.667$. Algebraically this is $\\frac{(n+14)-n}{3-0}=\\frac{14}{3}$, so choice <strong>C</strong> is correct."
+      "content": "The change in $y$ is $(n+14)-n=14$, and the change in $x$ is $3-0=3$. Therefore $$m=\\frac{14}{3},$$ so choice <strong>C</strong> is correct."
     }
   ]
 }

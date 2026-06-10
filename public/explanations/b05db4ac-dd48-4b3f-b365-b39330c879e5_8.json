@@ -5,12 +5,7 @@
   "steps": [
     {
       "title": "Fit the labor-only cost",
-      "content": "Ignore parts for one moment and fit just the labor charge. One hour costs 112 dollars, so use $(1,112)$. Two hours costs $112+40=152$ dollars, so use $(2,152)$. Put those points into Desmos and fit $y_1\\sim m x_1+b$.",
-      "desmosExpressions": [
-        "x_1=[1,2]",
-        "y_1=[112,152]",
-        "y_1~m x_1+b"
-      ]
+      "content": "Ignore parts for one moment and find just the labor charge. One hour costs 112 dollars, so use $(1,112)$. Two hours costs $112+40=152$ dollars, so use $(2,152)$. The hourly labor rate is $$\\frac{152-112}{2-1}=40.$$"
     },
     {
       "title": "Add the parts cost",

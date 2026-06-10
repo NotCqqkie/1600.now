@@ -9,10 +9,7 @@
     },
     {
       "title": "Convert the decay factor to a percentage loss",
-      "content": "A multiplier of $0.64$ means the equipment retains $64\\%$ of its value each year. The amount lost is $100\\% - 64\\% = 36\\%$. That matches choice C — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "f(x)=5470((0.64))^((x)/(12))"
-      ]
+      "content": "A multiplier of $0.64$ means the equipment retains $64\\%$ of its value each year. The amount lost is $100\\% - 64\\% = 36\\%$. That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

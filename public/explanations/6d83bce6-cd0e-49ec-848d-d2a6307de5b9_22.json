@@ -8,12 +8,8 @@
       "content": "Multiply both sides of $\\frac{1}{cx}=\\frac{x}{72}+\\frac{1}{c}$ by $72cx$: $$72=cx^2+72x.$$ So the equation becomes $$cx^2+72x-72=0.$$"
     },
     {
-      "title": "Use Desmos on the discriminant",
-      "content": "A quadratic has exactly one real solution when its discriminant is $0$. Here the discriminant is $$72^2-4(c)(-72)=72^2+4c(72).$$ In Desmos, enter $y_1=[0]$ and $y_1\\sim72^2+4c(72)$. Desmos returns $c=-18$.",
-      "desmosExpressions": [
-        "y_1=[0]",
-        "y_1~72^2+4c72"
-      ]
+      "title": "Solve the discriminant equation",
+      "content": "A quadratic has exactly one real solution when its discriminant is $0$. Here the discriminant is $$72^2-4(c)(-72)=72^2+4c(72).$$ Set the discriminant equal to $0$ and solve to get $c=-18$."
     },
     {
       "title": "Confirm the answer",

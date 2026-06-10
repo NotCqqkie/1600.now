@@ -5,17 +5,11 @@
   "steps": [
     {
       "title": "Translate the percent increase to a growth factor",
-      "content": "Use a quick exponential regression. The initial count is $40$, and a $190\\%$ increase means after one hour the count is $40+1.90(40)=116$. Enter $x_1=[0,1]$, $y_1=[40,116]$, and $y_1\\sim a b^{x_1}$ in Desmos.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[40,116]",
-        "y_1~a b^{x_1}",
-        "y=a b^x"
-      ]
+      "content": "Use the exponential pattern directly. The initial count is $40$, and a $190\\%$ increase means after one hour the count is $40+1.90(40)=116$. Use the values at $x=0$ and $x=1$ directly."
     },
     {
       "title": "Build the exponential model",
-      "content": "Desmos gives $a=40$ and $b=2.9$, so the model is $C=40(2.9)^t$. That means choice D has the correct initial value and the correct hourly growth factor."
+      "content": "In $C=a(b)^t$, the starting amount is $a=40$. The hourly multiplier is $b=1+1.90=2.90$, so the model is $$C=40(2.9)^t$$ Choice D has both the correct initial value and the correct hourly growth factor."
     },
     {
       "title": "Evaluate each choice",

@@ -3,12 +3,11 @@
   "correctAnswer": "B",
   "steps": [
     {
-      "title": "Use proportional regression in Desmos",
-      "content": "The choices all have the form $f(x)=kx$, so enter two table rows and regress only the multiplier. Use $x_1=[560,840]$ and $y_1=[1008,1512]$, then type $y_1 \\sim kx_1$. Desmos returns $k=1.8$, so the function is $f(x)=1.8x$.",
+      "title": "Use the proportional relationship",
+      "content": "The choices all have the form $f(x)=kx$, so enter two table rows and calculate only the multiplier. Use $x_1=[560,840]$ and $y_1=[1008,1512]$, which gives $k=1.8$, so the function is $f(x)=1.8x$.",
       "desmosExpressions": [
         "x_1=[560,840]",
         "y_1=[1008,1512]",
-        "y_1~k x_1",
         "y=1.8x"
       ]
     },

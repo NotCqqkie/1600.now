@@ -9,10 +9,7 @@
     },
     {
       "title": "Identify the answer",
-      "content": "A constant function with value $3$ is $f(x)=3$. That matches choice <strong>C</strong> — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y = 3"
-      ]
+      "content": "A constant function with value $3$ is $f(x)=3$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."
     },
     {
       "title": "Confirm the answer",

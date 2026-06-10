@@ -1,10 +1,23 @@
 {
-  "qid": "6acdcece",
+  "questionId": "6acdcece",
   "correctAnswer": "D",
+  "section": "Math",
   "steps": [
-    "Start with the given equation: $b - 72 = \\dfrac{x}{y}$. The goal is to isolate $x$.",
-    "Multiply both sides by $y$: $y(b - 72) = x$.",
-    "Distribute $y$: $x = by - 72y$.",
-    "<ul><li>Choice A: $x = \\dfrac{b-72}{y}$ &mdash; this divides by $y$ rather than multiplying; incorrect.</li><li>Choice B: $x = by - 72$ &mdash; only the $b$ term was multiplied by $y$, not the constant 72; incorrect.</li><li>Choice C: $x = \\dfrac{by-72}{y}$ &mdash; simplifies to $b - \\dfrac{72}{y}$, which is not equivalent to the original equation; incorrect.</li><li>Choice D: $x = by - 72y$ &mdash; this is exactly $y(b-72)$, which follows directly from multiplying both sides by $y$. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
+    {
+      "title": "Isolate x",
+      "content": "Start with $$b-72=\\frac{x}{y}.$$ Multiply both sides by $y$: $$y(b-72)=x.$$"
+    },
+    {
+      "title": "Distribute",
+      "content": "Distribute $y$ across the parentheses: $$x=by-72y.$$"
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "$x=by-72y$ matches choice <strong>D</strong>."
+    },
+    {
+      "title": "Check the structure of the answer",
+      "content": "The whole quantity $b-72$ is multiplied by $y$, so both terms must receive the factor $y$. That is why the answer has $by-72y$, not $by-72$."
+    }
   ]
 }

@@ -13,11 +13,7 @@
     },
     {
       "title": "Answer",
-      "content": "<strong>26</strong> is correct.",
-      "desmosExpressions": [
-        "y = \\frac{19 - 9x}{5}",
-        "y = \\frac{7 + 9x}{-3}"
-      ]
+      "content": "<strong>26</strong> is correct."
     }
   ]
 }

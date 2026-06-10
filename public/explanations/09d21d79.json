@@ -14,10 +14,7 @@
     },
     {
       "title": "Calculate bc",
-      "content": "$$bc = 4 \\times (-6) = -24$$",
-      "desmosExpressions": [
-        "y=2(x)^(2)+bx+c"
-      ]
+      "content": "$$bc = 4 \\times (-6) = -24$$"
     }
   ]
 }

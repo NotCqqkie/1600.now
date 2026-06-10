@@ -4,15 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the equation of the line",
-      "content": "From the graph, the line has slope $\\tfrac{1}{2}$ and y-intercept $1$. Its equation is:<br/>$$y = \\tfrac{1}{2}x + 1$$",
-      "desmosExpressions": [
-        "y=0.5x+1"
-      ]
+      "title": "Read two points from the graph",
+      "content": "The line passes through the intercepts $(0,9)$ and $(14,0)$. The point $(7,c)$ is halfway between those $x$-values because $7$ is halfway between $0$ and $14$."
     },
     {
-      "title": "Substitute the coordinates (7, c) into the equation",
-      "content": "The point $(7, c)$ lies on the line, so it must satisfy the equation. Substitute $x = 7$:<br/>$$c = \\tfrac{1}{2}(7) + 1 = 3.5 + 1 = 4.5$$<br/>So $c = \\tfrac{9}{2}$ or equivalently $4.5$. The answer is <strong>4.5</strong>."
+      "title": "Use the halfway value",
+      "content": "On a line, the halfway $x$-value has the halfway $y$-value:<br/>$$c=\\frac{9+0}{2}=\\frac{9}{2}=4.5$$<br/>So the value of $c$ is <strong>4.5</strong>."
     }
   ]
 }

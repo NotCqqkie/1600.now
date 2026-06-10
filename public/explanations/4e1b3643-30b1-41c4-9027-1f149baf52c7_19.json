@@ -5,15 +5,11 @@
   "steps": [
     {
       "title": "Identify the no-intersection condition",
-      "content": "For the system to have no real solutions, the horizontal line $y = -0.5$ must not intersect the parabola $y = x^2 + 8x + a$.<br/><br/>Setting the equations equal to find intersection points: $$-0.5 = x^2 + 8x + a$$<br/>Rearranging to standard form: $$x^2 + 8x + (a + 0.5) = 0$$<br/>For this quadratic to have no real solutions, the discriminant must be negative: $b^2 - 4ac < 0$."
+      "content": "For the system to have no real solutions, the horizontal line $y = -0.5$ must not intersect the parabola $y = x^2 + 8x + a$.<br/><br/>Setting the equations equal to find intersection points: $$-0.5 = x^2 + 8x + a$$<br/>Rearranging to standard form: $$x^2 + 8x + (a + 0.5) = 0$$<br/>For this quadratic to have no real solutions, the discriminant must be negative: $b^2 - 4ac \\lt 0$."
     },
     {
       "title": "Apply the discriminant test",
-      "content": "With $b=8$ and constant term $a+0.5$, the boundary between intersecting and not intersecting occurs when the discriminant equals $0$:<br/>$$8^2-4(1)(a+0.5)=0$$<br/>Desmos can solve this boundary directly with a one-row regression and gives $a=15.5$. For no real solutions, $a$ must be greater than $15.5$.",
-      "desmosExpressions": [
-        "y_1=[0]",
-        "y_1~8^2-4*1*(a+0.5)"
-      ]
+      "content": "With $b=8$ and constant term $a+0.5$, the boundary between intersecting and not intersecting occurs when the discriminant equals $0$:<br/>$$8^2-4(1)(a+0.5)=0$$<br/>$$64-4a-2=0$$<br/>$$62=4a$$<br/>$$a=15.5$$<br/>For no real solutions, $a$ must be greater than $15.5$."
     },
     {
       "title": "Find the minimum integer value",

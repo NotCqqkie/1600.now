@@ -8,12 +8,11 @@
       "content": "The scatterplot has a strong positive trend, so choices C and D are out because their slopes are negative. To choose between the two positive-slope lines, use the approximate leftmost and rightmost data points from the graph: $(1,4)$ and $(8,26)$."
     },
     {
-      "title": "Run the quick Desmos regression",
-      "content": "Enter the two anchor points as $x_1=[1,8]$ and $y_1=[4,26]$, then run $y_1\\sim m x_1+b$. Desmos gives a slope a little above $3$ and a y-intercept a little below $1$, so the line should look close to $y=3x+0.8$.",
+      "title": "Estimate from two points",
+      "content": "Enter the two anchor points as $x_1=[1,8]$ and $y_1=[4,26]$, which gives a slope a little above $3$ and a y-intercept a little below $1$, so the line should look close to $y=3x+0.8$.",
       "desmosExpressions": [
         "x_1=[1,8]",
         "y_1=[4,26]",
-        "y_1~m x_1+b",
         "y=3x+0.8",
         "y=0.8x+3"
       ]

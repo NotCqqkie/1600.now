@@ -9,7 +9,11 @@
     },
     {
       "title": "Read the x-coordinate from the graph",
-      "content": "Locate where the curve intersects the <em>x</em>-axis. Tracing the intersection point straight down to the <em>x</em>-axis, I find that the graph crosses at $x = 5$. The <em>x</em>-intercept is the point $(5, 0)$. That matches choice B — <strong>B</strong> is correct."
+      "content": "Locate where the curve intersects the <em>x</em>-axis. The graph crosses at $x=5$, so the intercept point is $(5,0)$."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The <em>x</em>-intercept is $(5,0)$, which matches choice <strong>B</strong>."
     }
   ]
 }

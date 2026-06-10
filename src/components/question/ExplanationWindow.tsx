@@ -7,6 +7,7 @@ import { StepByStepExplanation } from "@/components/question/StepByStepExplanati
 import { renderMixedContent } from "@/lib/text/mathRendering";
 import { normalizeReadingDisplayText } from "@/lib/text/readingTextNormalization";
 import { normalizeExplanationData, type ExplanationData } from "@/lib/explanationApi";
+import type { QuestionImageDisplaySize } from "@/data/questionImageSizing.generated";
 
 interface ExplanationWindowProps {
   onSplitScreenChange?: (isSplit: boolean, windowId: string) => void;
@@ -22,14 +23,14 @@ interface ExplanationWindowProps {
   correctAnswer?: string | null;
   rationale?: string | null;
   questionType?: "multiple-choice" | "free-response";
-  choices?: { id: string; text?: string; image?: string }[];
+  choices?: { id: string; text?: string; image?: string; imageDisplaySize?: QuestionImageDisplaySize }[];
   questionId?: string | number;
   questionSection?: string;
   questionText?: string;
   questionDomain?: string;
   questionSkill?: string;
   questionDifficulty?: string | null;
-  questionImages?: { src: string; alt: string }[];
+  questionImages?: { src: string; alt: string; displaySize?: QuestionImageDisplaySize }[];
   windowPortalContainer?: HTMLElement | null;
   windowBoundsElement?: HTMLElement | null;
 }
@@ -108,7 +109,7 @@ export const ExplanationWindow = ({
     setExplanationChecked(false);
     setSavedExplanation(null);
     fetch(`/explanations/${rawId}.json`)
-      .then(r => r.ok ? r.text() : null)
+      .then(response => response.ok ? response.text() : null)
       .then(text => {
         if (fullId !== String(questionId)) return;
         if (text && text.trimStart().startsWith("{")) {
@@ -116,7 +117,9 @@ export const ExplanationWindow = ({
             const json = JSON.parse(text);
             const normalized = normalizeExplanationData(json);
             if (normalized) setSavedExplanation(normalized);
-          } catch {}
+          } catch {
+            setSavedExplanation(null);
+          }
         }
         setExplanationChecked(true);
       })
@@ -138,7 +141,12 @@ export const ExplanationWindow = ({
   const explanationQuestion = questionText && correctAnswerText ? {
     section: questionSection || "Math",
     passage: questionText,
-    choices: choices?.map(c => ({ label: c.id, text: c.text || "", image: c.image })),
+    choices: choices?.map(choice => ({
+      label: choice.id,
+      text: choice.text || "",
+      image: choice.image,
+      imageDisplaySize: choice.imageDisplaySize,
+    })),
     correctAnswer: correctAnswerText,
     domain: questionDomain,
     skill: questionSkill,
@@ -182,9 +190,9 @@ export const ExplanationWindow = ({
           {savedExplanation && explanationQuestion ? (
             <StepByStepExplanation
               questionId={(() => {
-                const f = String(questionId || "");
-                const p = f.split("-");
-                return p[0] === "bank" && p.length > 3 ? p.slice(3).join("-") : f;
+                const fullId = String(questionId || "");
+                const idParts = fullId.split("-");
+                return idParts[0] === "bank" && idParts.length > 3 ? idParts.slice(3).join("-") : fullId;
               })()}
               question={explanationQuestion}
               questionImages={questionImages}

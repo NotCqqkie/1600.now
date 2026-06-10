@@ -13,14 +13,10 @@
     },
     {
       "title": "Compare to the required value",
-      "content": "The new equation requires $x+4y=-16$, but the original intersection gives $16$. Since $(8,2)$ is not on the third line, no point can satisfy all three equations.",
-      "desmosExpressions": [
-        "x+4y=-16",
-        "(8,2)"
-      ]
+      "content": "The new equation requires $x+4y=-16$, but the original intersection gives $16$. Since $(8,2)$ is not on the third line, no point can satisfy all three equations."
     },
     {
-      "title": "Confirm the answer",
+      "title": "State the result",
       "content": "The resulting system has zero solutions, which matches choice <strong>A</strong>."
     }
   ]

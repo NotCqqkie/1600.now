@@ -4,12 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the zeros in Desmos",
-      "content": "A factor of the form $x+b$ corresponds to a zero at $x=-b$. Graph $y=2x^3+42x^2+208x$ and look for negative x-intercepts. Desmos shows zeros at $x=0$, $x=-8$, and $x=-13$.",
-      "desmosExpressions": [
-        "y=2x^3+42x^2+208x",
-        "y=0"
-      ]
+      "title": "Factor the polynomial",
+      "content": "Start by factoring out the greatest common factor: $$2x^3+42x^2+208x=2x(x^2+21x+104).$$ The quadratic factors because $8\\cdot13=104$ and $8+13=21$: $$2x(x^2+21x+104)=2x(x+8)(x+13).$$"
     },
     {
       "title": "Convert roots to factors",

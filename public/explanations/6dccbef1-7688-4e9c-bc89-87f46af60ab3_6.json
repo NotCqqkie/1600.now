@@ -9,11 +9,7 @@
     },
     {
       "title": "Substitute and solve for a",
-      "content": "Substituting $x = a$ and $y = 0$:<br/>$$0 = a + \\frac{8}{3}$$<br/>Solving for $a$:<br/>$$a = -\\frac{8}{3}$$<br/>Equivalent forms accepted: <strong>-2.667</strong>, <strong>-8/3</strong>.",
-      "desmosExpressions": [
-        "y = x + \\frac{8}{3}",
-        "\\left(-\\frac{8}{3}, 0\\right)"
-      ]
+      "content": "Substituting $x = a$ and $y = 0$:<br/>$$0 = a + \\frac{8}{3}$$<br/>Solving for $a$:<br/>$$a = -\\frac{8}{3}$$<br/>Equivalent forms accepted: <strong>-2.667</strong>, <strong>-8/3</strong>."
     }
   ]
 }

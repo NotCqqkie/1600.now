@@ -9,16 +9,11 @@
     },
     {
       "title": "Read the intersection",
-      "content": "The two lines cross at the grid point $(4,1)$. In the ordered pair $(x,y)=(4,1)$, the first coordinate is $x=4$.",
-      "desmosExpressions": [
-        "y=3x-11",
-        "y=-2x+9",
-        "(4,1)"
-      ]
+      "content": "The two lines cross at the grid point $(4,1)$. In the ordered pair $(x,y)=(4,1)$, the first coordinate is $x=4$."
     },
     {
       "title": "Confirm the answer",
-      "content": "Checking the visible lines in Desmos gives the same intersection, $(4,1)$. Therefore the requested value of $x$ is <strong>4</strong>."
+      "content": "The prompt asks for the $x$-value, not the full ordered pair, so the answer is <strong>4</strong>."
     }
   ]
 }

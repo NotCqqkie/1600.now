@@ -10,11 +10,7 @@
     },
     {
       "title": "Apply the vertex formula with the coefficients",
-      "content": "From the function, $a = 18$ and $b = -45$. Substitute into the formula:<br/>$$x = -\\frac{(-45)}{2(18)} = \\frac{45}{36}$$<br/>Reduce the fraction by dividing by the GCD (9):<br/>$$x = \\frac{5}{4} = 1.25$$<br/>That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "f(x) = 18x^2 - 45x + 13",
-        "(1.25, -15.125)"
-      ]
+      "content": "From the function, $a = 18$ and $b = -45$. Substitute into the formula:<br/>$$x = -\\frac{(-45)}{2(18)} = \\frac{45}{36}$$<br/>Reduce the fraction by dividing by the GCD (9):<br/>$$x = \\frac{5}{4} = 1.25$$<br/>That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

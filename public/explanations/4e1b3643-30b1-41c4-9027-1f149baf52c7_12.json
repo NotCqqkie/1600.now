@@ -5,21 +5,11 @@
   "steps": [
     {
       "title": "Turn the slope into a second point",
-      "content": "The line has slope $-\\frac{1}{2}$ and passes through $(6,4)$. For a quick Desmos method, move 2 units right and 1 unit down to get another point, $(8,3)$. Fit $(6,4)$ and $(8,3)$ with a linear regression.",
-      "desmosExpressions": [
-        "x_1=[6,8]",
-        "y_1=[4,3]",
-        "y_1~m x_1+b"
-      ]
+      "content": "The line has slope $-\\frac{1}{2}$ and passes through $(6,4)$. Move $2$ units right and $1$ unit down to get another point on the line: $(8,3)$."
     },
     {
       "title": "Solve for the y-intercept and write the equation",
-      "content": "The regression gives slope $-\\frac{1}{2}$ and intercept $7$, so the equation is $$y=-\\frac{x}{2}+7.$$ That matches choice D, so <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y=-x/2+7",
-        "(6,4)",
-        "(8,3)"
-      ]
+      "content": "Use $y=mx+b$ with $m=-\\frac{1}{2}$ and point $(6,4)$:<br/>$$4=-\\frac{1}{2}(6)+b$$<br/>$$4=-3+b$$<br/>$$b=7$$<br/>The equation is $$y=-\\frac{x}{2}+7.$$ That matches choice D, so <strong>D</strong> is correct."
     }
   ]
 }

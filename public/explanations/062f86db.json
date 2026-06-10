@@ -16,12 +16,8 @@
       "content": "The positive solution is $8$."
     },
     {
-      "title": "Check with Desmos",
-      "content": "Graph $y=5x^2-37x-24$. Its x-intercepts are $-\\frac{3}{5}$ and $8$, so the positive one is $8$.",
-      "desmosExpressions": [
-        "y=5x^2-37x-24",
-        "(8,0)"
-      ]
+      "title": "Check the positive solution",
+      "content": "Substitute $x=8$: $$5(8)^2-37(8)-24=320-296-24=0.$$ So $8$ is a valid solution."
     },
     {
       "title": "Answer",

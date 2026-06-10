@@ -9,11 +9,7 @@
     },
     {
       "title": "Factor the quadratic and apply the constraint",
-      "content": "Factor by finding two numbers that multiply to $-20$ and add to $-8$: those are $-10$ and $2$.<br/>$$(x - 10)(x + 2) = 0$$<br/>This gives $x = 10$ or $x = -2$. Since we need $x > 0$, the answer is $x = 10$.",
-      "desmosExpressions": [
-        "y = 8x",
-        "y = x^2 - 20"
-      ]
+      "content": "Factor by finding two numbers that multiply to $-20$ and add to $-8$: those are $-10$ and $2$.<br/>$$(x - 10)(x + 2) = 0$$<br/>This gives $x = 10$ or $x = -2$. Since we need $x > 0$, the answer is $x = 10$."
     }
   ]
 }

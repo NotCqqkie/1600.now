@@ -13,10 +13,7 @@
     },
     {
       "title": "Scale to match ax + 7y = c",
-      "content": "Multiply $5x + y = 7$ by 7: $35x + 7y = 49$, so $c = 49$. That matches choice 49 — <strong>49</strong> is correct.",
-      "desmosExpressions": [
-        "5x+y=7"
-      ]
+      "content": "Multiply $5x + y = 7$ by 7: $35x + 7y = 49$, so $c = 49$. That matches choice 49 — <strong>49</strong> is correct."
     }
   ]
 }

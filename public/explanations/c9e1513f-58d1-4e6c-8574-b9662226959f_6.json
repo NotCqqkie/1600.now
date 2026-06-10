@@ -9,12 +9,7 @@
     },
     {
       "title": "Build the total points inequality",
-      "content": "The total points scored is the sum: $2f + 5s$. The contestant needs to score <strong>at least</strong> 100 points, which means the total must be greater than or equal to 100. Therefore:<br/>$$2f + 5s \\geq 100$$<br/>This matches choice B — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "2x + 5y \\ge 100",
-        "x \\ge 0",
-        "y \\ge 0"
-      ]
+      "content": "The total points scored is the sum: $2f + 5s$. The contestant needs to score <strong>at least</strong> 100 points, which means the total must be greater than or equal to 100. Therefore:<br/>$$2f + 5s \\geq 100$$<br/>This matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

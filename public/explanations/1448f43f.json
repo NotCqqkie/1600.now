@@ -1,1 +1,19 @@
-{"questionId": "1448f43f", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Locate the antecedent", "content": "The sentence right before the blank says, &quot;Multitask learning is another approach.&quot; The blank starts the next sentence and refers back to this idea. &quot;Multitask learning&quot; is a singular noun phrase, so the pronoun must be singular."}, {"title": "Apply pronoun-antecedent agreement", "content": "A pronoun must match its antecedent in number. Singular antecedent &rarr; singular pronoun. &quot;It&quot; is the only singular pronoun among the choices."}, {"title": "Eliminate per choice", "content": "<ul><li><strong>Choice A &mdash; 'Those'</strong>: plural demonstrative pronoun &mdash; disagrees in number with singular &quot;Multitask learning.&quot; &#10007;</li><li><strong>Choice B &mdash; 'They'</strong>: plural personal pronoun &mdash; disagrees in number with the singular antecedent. &#10007;</li><li><strong>Choice C &mdash; 'It'</strong>: singular pronoun that agrees with &quot;Multitask learning&quot; and correctly stands in as the subject. &#10003;</li><li><strong>Choice D &mdash; 'Some'</strong>: plural/indefinite, implying multiple things &mdash; disagrees with the single approach just named. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "1448f43f",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the antecedent",
+      "content": "The sentence right before the blank says, &quot;Multitask learning is another approach.&quot; The blank starts the next sentence and refers back to this idea. &quot;Multitask learning&quot; is a singular noun phrase, so the pronoun must be singular."
+    },
+    {
+      "title": "Apply pronoun-antecedent agreement",
+      "content": "A pronoun must match its antecedent in number. Singular antecedent $\\Rightarrow$ singular pronoun. &quot;It&quot; is the only singular pronoun among the choices."
+    },
+    {
+      "title": "Eliminate per choice",
+      "content": "<ul><li><strong>Choice A &mdash; 'Those'</strong>: plural demonstrative pronoun &mdash; disagrees in number with singular &quot;Multitask learning.&quot; &#10007;</li><li><strong>Choice B &mdash; 'They'</strong>: plural personal pronoun &mdash; disagrees in number with the singular antecedent. &#10007;</li><li><strong>Choice C &mdash; 'It'</strong>: singular pronoun that agrees with &quot;Multitask learning&quot; and correctly stands in as the subject. &#10003;</li><li><strong>Choice D &mdash; 'Some'</strong>: plural/indefinite, implying multiple things &mdash; disagrees with the single approach just named. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

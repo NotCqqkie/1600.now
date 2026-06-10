@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the conditional probability setup",
-      "content": "The phrase <em>given that the tree is a red maple</em> signals conditional probability: we need $P(\\text{Site A} | \\text{Red Maple})$. This means: among all red maples in the table, what fraction come from Site A? We restrict our sample space to the red maple row only."
+      "title": "Restrict to red maples",
+      "content": "The condition says the tree is a red maple, so use only the red maple row of the table."
     },
     {
-      "title": "Extract table values and calculate",
-      "content": "From the red maple row:<ul><li>Red maples from Site A: 35</li><li>Total red maples: 50</li></ul>The probability is $$\\frac{35}{50} = \\frac{7}{10} = 0.7$$<br/>Equivalent forms accepted: <strong>35/50</strong>, <strong>7/10</strong>, <strong>0.7</strong>."
+      "title": "Use the row counts",
+      "content": "There are $35$ red maples from Site A and $50$ red maples total. The conditional probability is $$\\frac{35}{50}=\\frac{7}{10}=0.7$$"
+    },
+    {
+      "title": "Answer",
+      "content": "Equivalent correct entries include <strong>35/50</strong>, <strong>7/10</strong>, and <strong>0.7</strong>."
     }
   ]
 }

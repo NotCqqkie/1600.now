@@ -5,16 +5,11 @@
   "steps": [
     {
       "title": "Fit two points from the trend",
-      "content": "The scatterplot has a clear downward trend. Two easy trend points are about $(0,6)$ and $(5,1)$. Put those in Desmos and run a linear regression row.",
-      "desmosExpressions": [
-        "x_1=[0,5]",
-        "y_1=[6,1]",
-        "y_1~m x_1+b"
-      ]
+      "content": "The scatterplot has a clear downward trend. Two easy trend points are about $(0,6)$ and $(5,1)$. Use those two points to estimate the line."
     },
     {
       "title": "Read the model",
-      "content": "The regression gives $m=-1$ and $b=6$, so the trend line is $y=-x+6$. That has negative slope and positive $y$-intercept, matching the scatterplot."
+      "content": "Using $(0,6)$ and $(5,1)$, the slope is $$m=\\frac{1-6}{5-0}=-1$$ The intercept is $6$, so the trend line is $y=-x+6$. That has negative slope and positive $y$-intercept, matching the scatterplot."
     },
     {
       "title": "Check the choices",

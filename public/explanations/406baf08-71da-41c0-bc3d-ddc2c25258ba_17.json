@@ -9,7 +9,7 @@
     },
     {
       "title": "Match verb tense to the signal",
-      "content": "Rule: time signals lock the required tense. \"Currently\" requires simple present tense.\n\nA. \"had included\" — past perfect. Fails: past perfect describes something completed before another past event, not the current situation.\nB. \"will have included\" — future perfect. Fails: describes something that will be completed at some future point, contradicting \"Currently.\"\nC. \"includes\" — simple present tense. Directly matches \"Currently\" to describe the range as it exists now. Correct.\nD. \"included\" — simple past. Fails: describes what was true at a past time, not the present state signaled by \"Currently.\"\n\nThat matches choice C — <strong>C</strong> is correct."
+      "content": "Rule: time signals lock the required tense. \"Currently\" requires simple present tense. A. \"had included\" — past perfect. Fails: past perfect describes something completed before another past event, not the current situation.\nB. \"will have included\" — future perfect. Fails: describes something that will be completed at some future point, contradicting \"Currently.\"\nC. \"includes\" — simple present tense. Directly matches \"Currently\" to describe the range as it exists now. Correct.\nD. \"included\" — simple past. Fails: describes what was true at a past time, not the present state signaled by \"Currently.\" That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

@@ -9,10 +9,7 @@
     },
     {
       "title": "Apply sum of roots = -b/a",
-      "content": "Sum of roots: $7 + 9 = 16$. Equivalently by Vieta's, the numerator expands to $x^2 - 16x + 63$, so sum $= -(-16)/1 = 16$. That matches choice C — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "(x-7)(x-9)/(x-4)=0"
-      ]
+      "content": "Sum of roots: $7 + 9 = 16$. Equivalently by Vieta's, the numerator expands to $x^2 - 16x + 63$, so sum $= -(-16)/1 = 16$. That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

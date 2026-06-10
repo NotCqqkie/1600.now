@@ -5,16 +5,16 @@
   "steps": [
     {
       "title": "Identify the relationship and radius",
-      "content": "To find mass, we need: Mass = Density × Volume. For a sphere, we'll use its volume formula. Given diameter = 31.000 cm, the radius is $r = \\frac{31}{2} = 15.5$ cm. We have density = 2.6 g/cm³ and π = 3.14159.",
+      "content": "Mass equals density times volume. The diameter is $31.000$ cm, so the radius is $r=\\frac{31}{2}=15.5$ cm. Use density $2.6$ g/cm³ and $\\pi=3.14159$.",
       "formula": "$$V = \\frac{4}{3}\\pi r^3$$"
     },
     {
       "title": "Calculate sphere volume",
-      "content": "Compute the radius cubed: $(15.5)^3 = 15.5 \\times 15.5 \\times 15.5 = 240.25 \\times 15.5 = 3{,}723.875$ cm³<br/><br/>Then apply the formula: $V = \\frac{4}{3} \\times 3.14159 \\times 3{,}723.875 \\approx 15{,}598.52$ cm³"
+      "content": "First cube the radius: $(15.5)^3=3{,}723.875$. Then apply the sphere volume formula:<br/>$$V=\\frac{4}{3}(3.14159)(3{,}723.875)\\approx15{,}598.52$$"
     },
     {
       "title": "Calculate the mass",
-      "content": "$$\\text{Mass} = 2.6 \\text{ g/cm}^3 \\times 15{,}598.52 \\text{ cm}^3 \\approx 40{,}556 \\text{ grams}$$"
+      "content": "Multiply by the density:<br/>$$2.6(15{,}598.52)\\approx40{,}556$$<br/>The mass is <strong>40,556 grams</strong>."
     }
   ]
 }

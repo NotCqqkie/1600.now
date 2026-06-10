@@ -9,11 +9,7 @@
     },
     {
       "title": "Solve the simpler equation",
-      "content": "So solve $$x-9=7$$ Add $9$ to both sides: $$x=16$$",
-      "desmosExpressions": [
-        "y=((x+9)(x-9))/(x+9)",
-        "y=7"
-      ]
+      "content": "So solve $$x-9=7$$ Add $9$ to both sides: $$x=16$$"
     },
     {
       "title": "Check the choices",

@@ -4,21 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Enter the two points",
-      "content": "The line contains $(0,3)$ and $(7,31)$. In Desmos, enter $x_1=[0,7]$ and $y_1=[3,31]$, then type $y_1\\sim m x_1+b$.",
-      "desmosExpressions": [
-        "x_1=[0,7]",
-        "y_1=[3,31]",
-        "y_1~m x_1+b"
-      ]
+      "title": "Use the y-intercept",
+      "content": "The line contains $(0,3)$, so the y-intercept is $3$. In $f(x)=mx+b$, this means $b=3$."
     },
     {
-      "title": "Read the equation",
-      "content": "Desmos gives $m=4$ and $b=3$, so the function is $$f(x)=4x+3.$$ This also makes sense by hand: the y-intercept is $3$, and the slope is $\\dfrac{31-3}{7-0}=4$."
+      "title": "Find the slope",
+      "content": "Using $(0,3)$ and $(7,31)$:<br/>$$m=\\frac{31-3}{7-0}=\\frac{28}{7}=4$$<br/>So $$f(x)=4x+3.$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice <strong>C</strong> is correct. It passes both point checks: $f(0)=3$ and $f(7)=31$."
+      "content": "Choice <strong>C</strong> is correct. It passes both point checks: $f(0)=3$ gives the intercept, and $f(7)=31$ confirms the slope calculation."
     }
   ]
 }

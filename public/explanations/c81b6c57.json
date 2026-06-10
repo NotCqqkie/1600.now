@@ -4,24 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use a polynomial regression check",
-      "content": "The two expressions must agree for every $x$, so use several test inputs in Desmos. Enter $x_1=[0,1,2]$, then type $3(2x_1^2+p x_1+8)-16x_1(p+4)\\sim6x_1^2-155x_1+24$. Desmos solves the unknown constant and returns $p=7$.",
-      "desmosExpressions": [
-        "x_1=[0,1,2]",
-        "3(2x_1^2+p x_1+8)-16x_1(p+4)~6x_1^2-155x_1+24"
-      ]
+      "title": "Expand the expression",
+      "content": "$$3(2x^2+px+8)-16x(p+4)$$<br/>$$=6x^2+3px+24-16px-64x$$"
     },
     {
-      "title": "Expand to confirm",
-      "content": "Expand the original expression: $$3(2x^2+px+8)-16x(p+4)$$ $$=6x^2+3px+24-16px-64x$$ $$=6x^2+(-13p-64)x+24$$"
+      "title": "Combine the $x$ terms",
+      "content": "The $x$-coefficient is $3p-16p-64$, so the expression becomes:<br/>$$6x^2+(-13p-64)x+24$$"
     },
     {
-      "title": "Match the middle coefficient",
-      "content": "The target expression is $6x^2-155x+24$, so the $x$-coefficient must be $-155$: $$-13p-64=-155$$ $$-13p=-91$$ $$p=7$$"
+      "title": "Match the target coefficient",
+      "content": "The equivalent expression is $6x^2-155x+24$, so the $x$-coefficients must be equal:<br/>$$-13p-64=-155$$<br/>$$-13p=-91$$<br/>$$p=7$$"
     },
     {
-      "title": "Check the choices",
-      "content": "$p=7$ matches choice <strong>B</strong>. Substitution gives $6x^2+(-91-64)x+24=6x^2-155x+24$, so the expressions are equivalent."
+      "title": "Choose the answer",
+      "content": "$p=7$ matches choice <strong>B</strong>. A quick coefficient check gives $-13(7)-64=-155$, exactly the target $x$-coefficient."
     }
   ]
 }

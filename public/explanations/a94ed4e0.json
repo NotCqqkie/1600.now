@@ -13,11 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice D is correct. Choice C is $13x$, choice B is $-13x$, and choice A is $-39x$.",
-      "desmosExpressions": [
-        "3y=4x+17",
-        "-3y=9x-23"
-      ]
+      "content": "Choice D is correct. Choice C is $13x$, choice B is $-13x$, and choice A is $-39x$."
     }
   ]
 }

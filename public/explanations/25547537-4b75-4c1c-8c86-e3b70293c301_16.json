@@ -9,7 +9,7 @@
     },
     {
       "title": "Choose the verb that agrees",
-      "content": "Rule: a singular third-person subject takes a singular present-tense verb (adds -s).\n\nA. \"study\" — base/plural form. Fails: used with plural subjects (\"they study\"), not a singular noun like \"Barbosa.\"\nB. \"are studying\" — plural present progressive (\"are\" signals plural). Fails: \"Barbosa are studying\" violates agreement.\nC. \"studies\" — singular present tense (-s ending). Matches the singular subject \"Anthropologist Livia Barbosa.\" Correct.\nD. \"have studied\" — plural present perfect (\"have\" signals plural). Fails: \"Barbosa have studied\" violates agreement.\n\nThat matches choice C — <strong>C</strong> is correct."
+      "content": "Rule: a singular third-person subject takes a singular present-tense verb (adds -s). A. \"study\" — base/plural form. Fails: used with plural subjects (\"they study\"), not a singular noun like \"Barbosa.\"\nB. \"are studying\" — plural present progressive (\"are\" signals plural). Fails: \"Barbosa are studying\" violates agreement.\nC. \"studies\" — singular present tense (-s ending). Matches the singular subject \"Anthropologist Livia Barbosa.\" Correct.\nD. \"have studied\" — plural present perfect (\"have\" signals plural). Fails: \"Barbosa have studied\" violates agreement. That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

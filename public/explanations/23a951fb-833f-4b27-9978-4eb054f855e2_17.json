@@ -1,18 +1,19 @@
 {
-  "qid": "23a951fb-833f-4b27-9978-4eb054f855e2_17",
+  "questionId": "23a951fb-833f-4b27-9978-4eb054f855e2_17",
+  "correctAnswer": "D",
+  "section": "Math",
   "steps": [
     {
-      "step": "Write the perimeter formula for a rectangle: $P = 2(\\text{length} + \\text{width})$. Substitute length $= x+35$ and width $= x$: $P = 2((x+35)+x) = 2(2x+35) = 4x+70$.",
-      "result": "$P = 4x + 70$"
+      "title": "Write the perimeter",
+      "content": "The rectangle has length $x+35$ and width $x$, so its perimeter is $$2(x+35)+2x=4x+70$$"
     },
     {
-      "step": "The problem states the perimeter is *at least* 520 centimeters. &quot;At least&quot; means greater than or equal to, so the inequality is $4x + 70 \\geq 520$.",
-      "result": "$4x + 70 \\geq 520$"
+      "title": "Translate at least",
+      "content": "The phrase <em>at least 520</em> means the perimeter is greater than or equal to $520$: $$4x+70\\geq520$$"
     },
     {
-      "step": "<ul><li>Choice A: $2x + 35 \\leq 520$. The left side uses only one copy of each term (not doubled for both sides) and the direction is wrong ($\\leq$ instead of $\\geq$). Eliminated.</li><li>Choice B: $2x + 35 \\geq 520$. The inequality direction is correct, but $2x+35$ is not the perimeter &mdash; it is only half of $4x+70$. Eliminated.</li><li>Choice C: $4x + 70 \\leq 520$. The left side is the correct perimeter expression, but $\\leq$ means &quot;at most,&quot; opposite of the problem&apos;s &quot;at least.&quot; Eliminated.</li><li>Choice D: $4x + 70 \\geq 520$. Correct perimeter $4x+70$ and correct direction $\\geq$ for &quot;at least.&quot; That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>",
-      "result": "D"
+      "title": "Confirm the choice",
+      "content": "Choice D has the correct perimeter expression and the correct inequality direction, so <strong>D</strong> is correct."
     }
-  ],
-  "correctAnswer": "D"
+  ]
 }

@@ -4,22 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the factor as the base",
-      "content": "The phrase \"for each increase of $1$ in $x$, $y$ increases by a factor of $4$\" means each step multiplies $y$ by $4$. That is exponential growth, so the model has the form $$y=a\\cdot 4^x$$ The initial condition says that when $x=0$, $y=200$. Since $4^0=1$, the starting coefficient is $a=200$."
+      "title": "Recognize exponential growth",
+      "content": "The value of $y$ is multiplied by $4$ whenever $x$ increases by $1$, so the model has the form $y=a(4)^x$."
     },
     {
-      "title": "Check it with a Desmos mini-table",
-      "content": "A fast Desmos check is to create the first few points from the words: $(0,200)$, $(1,800)$, and $(2,3200)$. Enter those as lists and run the exponential regression $y_1\\sim a b^{x_1}$. Desmos returns $a=200$ and $b=4$, so the graphable model is $$y=200(4)^x$$",
-      "desmosExpressions": [
-        "x_1=[0,1,2]",
-        "y_1=[200,800,3200]",
-        "y_1~a b^{x_1}",
-        "y=200(4)^x"
-      ]
+      "title": "Use the initial value",
+      "content": "When $x=0$, $y=200$. Since $4^0=1$, the coefficient must be $a=200$."
     },
     {
-      "title": "Confirm the choice",
-      "content": "Choices A and C put $x$ in the base, so they are power functions, not exponential growth models. Choice B has initial value $4$ and growth factor $200$, which reverses the two numbers. Choice D has initial value $200$ and multiplies by $4$ each time $x$ increases by $1$, so <strong>D</strong> is correct."
+      "title": "Match the equation",
+      "content": "The relationship is $y=200(4)^x$, which matches choice <strong>D</strong>."
     }
   ]
 }

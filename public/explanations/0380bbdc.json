@@ -16,17 +16,8 @@
       "content": "The question asks for $6x$, so use $x=8$:<br/>$$6x=6(8)=48$$"
     },
     {
-      "title": "Check with Desmos",
-      "content": "Graph $y=4\\sqrt{2x}$ and $y=16$. Their intersection has $x=8$, so $6x=48$.",
-      "desmosExpressions": [
-        "y=4\\sqrt{2x}",
-        "y=16",
-        "x=8"
-      ]
-    },
-    {
       "title": "Answer",
-      "content": "$48$ matches choice B, so <strong>B</strong> is correct."
+      "content": "$48$ matches choice <strong>B</strong>. The question asks for $6x$, not for $x$ itself, so stopping at $x=8$ would be one step short."
     }
   ]
 }

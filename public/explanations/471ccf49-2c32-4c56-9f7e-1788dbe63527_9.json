@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Determine the median position",
-      "content": "With 25 objects, the median is the 13th value when all heights are arranged in order:$$\\text{median position} = \\frac{25+1}{2} = 13$$"
+      "content": "With 25 objects, the median is the 13th value when all heights are arranged in order:<br/>$$\\text{median position}=\\frac{25+1}{2}=13$$"
     },
     {
       "title": "Build cumulative frequency to locate the interval containing the 13th value",
-      "content": "Using the histogram data:<ul><li>Heights 0–100 cm: 8 objects (cumulative: 8)</li><li>Heights 101–200 cm: 6 objects (cumulative: 14)</li></ul>The 13th object falls between position 8 and position 14, so it lies in the 101–200 cm interval."
+      "content": "Using the histogram data:<ul><li><strong>Heights 0-100 cm:</strong> 8 objects; cumulative total 8</li><li><strong>Heights 101-200 cm:</strong> 6 more objects; cumulative total 14</li></ul>The 13th object falls after cumulative total 8 and by cumulative total 14, so it lies in the 101-200 cm interval."
     },
     {
       "title": "Match to the answer choice",

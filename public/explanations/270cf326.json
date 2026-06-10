@@ -12,8 +12,8 @@
       "content": "Similarly $(6)^x\\to\\infty$ as $x\\to\\infty$, so $g(x)=-3(6)^x\\to-\\infty$. There is no minimum value; the asymptote $y=0$ is approached as $x\\to-\\infty$ but never reached, and $g$ never equals $-3$ at a minimum."
     },
     {
-      "title": "Evaluate each choice",
-      "content": "Check which functions have a minimum value of $-3$:<ul><li>I only: $f$ has no minimum, so this is wrong.</li><li>II only: $g$ has no minimum and does not even approach $-3$, so this is wrong.</li><li>I and II: neither function has a minimum, so this is wrong.</li><li>Neither I nor II: both decrease without bound, so neither has a minimum value at $-3$.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "title": "Choose the statement",
+      "content": "Neither function has a minimum value of $-3$: both continue decreasing without bound. That matches choice <strong>D</strong>."
     }
   ]
 }

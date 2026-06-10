@@ -8,13 +8,8 @@
       "content": "Do not regress the $g(x)$ values directly, because the question asks about $f(x)$. Since $g(x)=\\frac{f(x)}{x+3}$, multiply each table value by $x+3$: <ul><li>$f(-15)=3(-12)=-36$</li><li>$f(-6)=0(-3)=0$</li><li>$f(9)=5(12)=60$</li></ul>So the graph of $y=f(x)$ passes through $(-15,-36)$, $(-6,0)$, and $(9,60)$."
     },
     {
-      "title": "Fit the line in Desmos",
-      "content": "Enter the converted $f(x)$ points as lists, then run the linear regression $y_1 \\sim m x_1+b$. Desmos gives $m=4$ and $b=24$, so $f(x)=4x+24$.",
-      "desmosExpressions": [
-        "x_1=[-15,-6,9]",
-        "y_1=[-36,0,60]",
-        "y_1~m x_1+b"
-      ]
+      "title": "Find the linear function f",
+      "content": "Use two of the converted points, $(-6,0)$ and $(9,60)$. The slope is $$m=\\frac{60-0}{9-(-6)}=\\frac{60}{15}=4.$$ Since $f(-6)=0$, use $f(x)=4x+b$:$$0=4(-6)+b\\Rightarrow b=24$$So $f(x)=4x+24$."
     },
     {
       "title": "Answer the intercept question",

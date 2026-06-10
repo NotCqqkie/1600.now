@@ -1,18 +1,23 @@
 {
-  "qid": "bbf9e5ce",
+  "questionId": "bbf9e5ce",
   "correctAnswer": "A",
+  "section": "Math",
   "steps": [
     {
-      "explanation": "Calculate the fixed cost for the first 25 people. At \\$21 each: $25 \\times 21 = 525$ dollars. This amount is fixed for any group of 25 or more."
+      "title": "Split the group into two parts",
+      "content": "The first $25$ people cost $21$ dollars each. The remaining $n-25$ people cost $14$ dollars each."
     },
     {
-      "explanation": "Calculate the variable cost for the additional people. For $n \\ge 25$, there are $n - 25$ additional people beyond the first 25, each costing \\$14. Variable cost: $14(n-25)$."
+      "title": "Write and simplify the charge",
+      "content": "$f(n)=21(25)+14(n-25)=525+14n-350=14n+175$."
     },
     {
-      "explanation": "Combine: $f(n) = 525 + 14(n-25) = 525 + 14n - 350 = 14n + 175$."
+      "title": "Match the choice",
+      "content": "The function $f(n)=14n+175$ matches choice <strong>A</strong>."
     },
     {
-      "explanation": "Evaluate each choice.<ul><li>Choice A: $f(n) = 14n + 175$ — matches our derived formula exactly. This is the answer.</li><li>Choice B: $f(n) = 14n + 525$ — uses the full fixed cost of 525 without subtracting $14 \\times 25 = 350$, double-counting the first 25 people at \\$14 each. Eliminate B.</li><li>Choice C: $f(n) = 35n - 350$ — uses 35 as the per-person rate, which does not match either \\$21 or \\$14. Eliminate C.</li><li>Choice D: $f(n) = 14n + 21$ — the constant 21 is just the per-person rate for the first tier, not the total charge for 25 people. Eliminate D.</li></ul>That matches choice A — <strong>A</strong> is correct."
+      "title": "Check with the minimum group size",
+      "content": "When $n=25$, the charge should be $25\\cdot 21=525$. Choice A gives $14(25)+175=525$, so it preserves the cost for the first $25$ people."
     }
   ]
 }

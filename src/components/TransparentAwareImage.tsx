@@ -17,6 +17,9 @@ const isPngAsset = (src: string) => /\.png(?:$|[?#])/i.test(src);
 
 const isTableImageAlt = (alt: string) => /\btable\b/i.test(alt);
 
+const hasExplicitQuestionImageSize = (className?: string) =>
+  /\bquestion-image-size\b/.test(className ?? "");
+
 const scaleTableImageClassName = (className?: string) => {
   let scaled = className ?? "";
   const replacements: [string, string][] = [
@@ -117,15 +120,15 @@ const cropWhitespace = (img: HTMLImageElement): string | null => {
     }
     if (!placed) clusters.push([sample]);
   }
-  clusters.sort((a, b) => {
-    if (b.length !== a.length) return b.length - a.length;
-    const lumA = a[0].r + a[0].g + a[0].b;
-    const lumB = b[0].r + b[0].g + b[0].b;
-    return lumB - lumA;
+  clusters.sort((leftCluster, rightCluster) => {
+    if (rightCluster.length !== leftCluster.length) return rightCluster.length - leftCluster.length;
+    const leftLuminosity = leftCluster[0].r + leftCluster[0].g + leftCluster[0].b;
+    const rightLuminosity = rightCluster[0].r + rightCluster[0].g + rightCluster[0].b;
+    return rightLuminosity - leftLuminosity;
   });
   const winnerCluster = clusters[0];
   const clusterSum = winnerCluster.reduce(
-    (acc, s) => ({ r: acc.r + s.r, g: acc.g + s.g, b: acc.b + s.b, a: acc.a + s.a }),
+    (acc, sample) => ({ r: acc.r + sample.r, g: acc.g + sample.g, b: acc.b + sample.b, a: acc.a + sample.a }),
     { r: 0, g: 0, b: 0, a: 0 },
   );
   const background = {
@@ -218,7 +221,9 @@ export const TransparentAwareImage = ({
 }: TransparentAwareImageProps) => {
   const [hasTransparency, setHasTransparency] = useState(false);
   const [resolvedSrc, setResolvedSrc] = useState(src);
-  const imageClassName = isTableImageAlt(alt) ? scaleTableImageClassName(className) : className;
+  const imageClassName = isTableImageAlt(alt) && !hasExplicitQuestionImageSize(className)
+    ? scaleTableImageClassName(className)
+    : className;
   const cachedTrimmedInitial = trimWhitespace ? trimmedImageCache.get(src) : undefined;
   const [isReady, setIsReady] = useState(() => !trimWhitespace || Boolean(cachedTrimmedInitial));
 
@@ -275,7 +280,8 @@ export const TransparentAwareImage = ({
           trimmedImageCache.set(src, trimmed);
           setResolvedSrc(trimmed);
         }
-      } catch {
+      } catch (error) {
+        console.error("Failed to crop transparent image:", error);
       }
       setIsReady(true);
     };

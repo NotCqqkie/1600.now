@@ -5,25 +5,15 @@
   "steps": [
     {
       "title": "Compute the boundary list",
-      "content": "All answer choices use $x=3$, $5$, and $7$. Enter $x_1=[3,5,7]$ and compute $6x_1+2$. Desmos returns the cutoff list $[20,32,44]$.",
-      "desmosExpressions": [
-        "x_1=[3,5,7]",
-        "6x_1+2"
-      ]
+      "content": "All answer choices use $x=3$, $5$, and $7$. Compute the right side of $y\\lt6x+2$ for each value: $$6(3)+2=20$$ $$6(5)+2=32$$ $$6(7)+2=44.$$ The $y$-values must be less than $20$, $32$, and $44$, respectively."
     },
     {
       "title": "Compare choice C to the boundary",
-      "content": "Choice C has $y$-values $16$, $28$, and $40$. Enter $c_1=[16,28,40]$ and compare $c_1<6x_1+2$. All three comparisons are true.",
-      "desmosExpressions": [
-        "x_1=[3,5,7]",
-        "c_1=[16,28,40]",
-        "6x_1+2",
-        "c_1<6x_1+2"
-      ]
+      "content": "Choice C has $y$-values $16$, $28$, and $40$. These satisfy $$16\\lt20$$ $$28\\lt32$$ and $$40\\lt44.$$"
     },
     {
       "title": "Eliminate the failed choices",
-      "content": "Choice A fails because it includes $y=20$ when $x=3$, and $20<20$ is false. Choice B fails because $36<32$ is false when $x=5$. Choice D fails because $24<20$ is false when $x=3$. So choice C is correct."
+      "content": "Choice A fails because it includes $y=20$ when $x=3$, and $20\\lt 20$ is false. Choice B fails because $36\\lt 32$ is false when $x=5$. Choice D fails because $24\\lt 20$ is false when $x=3$. So choice C is correct."
     }
   ]
 }

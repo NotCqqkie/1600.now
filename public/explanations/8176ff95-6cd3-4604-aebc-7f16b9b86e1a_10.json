@@ -5,8 +5,7 @@
   "steps": [
     {
       "title": "Find the radius from the circumference",
-      "content": "Given $C = 6\\pi$:<br/>$$6\\pi = 2\\pi r$$<br/>$$r = 3 \\text{ meters}$$",
-      "formula": "$$C = 2\\pi r$$"
+      "content": "Given $C = 6\\pi$:<br/>$$6\\pi = 2\\pi r$$<br/>$$r = 3 \\text{ meters}$$"
     },
     {
       "title": "Calculate the cylinder volume",

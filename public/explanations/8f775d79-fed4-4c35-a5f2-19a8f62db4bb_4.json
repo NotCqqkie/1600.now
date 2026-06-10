@@ -13,11 +13,7 @@
     },
     {
       "title": "Answer",
-      "content": "<strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y = \\frac{8x + 18}{3}",
-        "y = \\frac{26 - 7x}{3}"
-      ]
+      "content": "<strong>D</strong> is correct."
     }
   ]
 }

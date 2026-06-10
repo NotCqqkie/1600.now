@@ -9,11 +9,7 @@
     },
     {
       "title": "Evaluate f(3) to get minimum",
-      "content": "$f(3)=(2(3)-20)(2(3)+8)=(-14)(14)=-196$. That matches choice &minus;196 &mdash; <strong>&minus;196</strong> is correct.",
-      "desmosExpressions": [
-        "y=(2x-20)(2x+8)",
-        "(3,-196)"
-      ]
+      "content": "$f(3)=(2(3)-20)(2(3)+8)=(-14)(14)=-196$. That matches choice &minus;196 &mdash; <strong>&minus;196</strong> is correct."
     },
     {
       "title": "Confirm the answer",

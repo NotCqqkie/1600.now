@@ -9,11 +9,7 @@
     },
     {
       "title": "Compute the result",
-      "content": "All terms with $x$ vanish.<br/>$$f(0)=-150$$<br/>That matches choice <strong>A</strong> — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "f(x) = 10x^2 - 38x - 150",
-        "(0, -150)"
-      ]
+      "content": "All terms with $x$ vanish.<br/>$$f(0)=-150$$<br/>That matches choice <strong>A</strong> — <strong>A</strong> is correct."
     },
     {
       "title": "Confirm the answer",

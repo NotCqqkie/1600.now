@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Clear fractions",
-      "content": "Multiply $\\frac{1}{cx}=\\frac{x}{96}+\\frac{1}{c}$ through by $96cx$: $$96=cx^2+96x$$ so $$cx^2+96x-96=0.$$"
+      "title": "Clear the fractions",
+      "content": "Multiply $\\frac{1}{cx}=\\frac{x}{96}+\\frac{1}{c}$ by $96cx$:<br/>$$96=cx^2+96x$$<br/>$$cx^2+96x-96=0$$"
     },
     {
-      "title": "Use Desmos on the discriminant",
-      "content": "A quadratic has exactly one solution when its discriminant is $0$. For $cx^2+96x-96=0$, the discriminant is $$96^2-4(c)(-96)=96^2+4c(96).$$ In Desmos, enter $y_1=[0]$ and regress $y_1\\sim96^2+4c(96)$. Desmos returns $c=-24$.",
-      "desmosExpressions": [
-        "y_1=[0]",
-        "y_1~96^2+4c96"
-      ]
+      "title": "Use the one-solution condition",
+      "content": "After clearing fractions, the equation is quadratic in $x$. The question says it has exactly one solution, so the quadratic must touch the $x$-axis once instead of crossing twice. That happens when the discriminant is $0$. For $cx^2+96x-96=0$:<br/>$$96^2-4(c)(-96)=0$$"
     },
     {
-      "title": "Confirm the answer",
-      "content": "Solving by hand gives $$96^2+384c=0$$ $$9216+384c=0$$ $$c=-24.$$ The answer is <strong>-24</strong>."
+      "title": "Solve for c",
+      "content": "$$9,216+384c=0$$<br/>$$384c=-9,216$$<br/>$$c=-24$$<br/>The answer is <strong>-24</strong>."
     }
   ]
 }

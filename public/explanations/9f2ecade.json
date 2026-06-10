@@ -13,11 +13,7 @@
     },
     {
       "title": "Calculate the product",
-      "content": "Multiply left to right:\n$$5 \\cdot (-6) \\cdot (-7) = (-30) \\cdot (-7) = 210$$\nTherefore, $c = 210$.",
-      "desmosExpressions": [
-        "h(x)=(x-5)(x+6)(x+7)",
-        "h(0)"
-      ]
+      "content": "Multiply left to right:\n$$5 \\cdot (-6) \\cdot (-7) = (-30) \\cdot (-7) = 210$$\nTherefore, $c = 210$."
     }
   ]
 }

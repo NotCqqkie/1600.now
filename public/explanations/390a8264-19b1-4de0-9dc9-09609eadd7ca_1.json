@@ -5,21 +5,15 @@
   "steps": [
     {
       "title": "Use a two-point table",
-      "content": "The line has slope $-\\frac{1}{4}$ and passes through $(0,19)$. Move 4 units right and 1 unit down to get another point, $(4,18)$. In Desmos, fit those two points with a linear regression.",
+      "content": "The line has slope $-\\frac{1}{4}$ and passes through $(0,19)$. Move 4 units right and 1 unit down to get another point, $(4,18)$.",
       "desmosExpressions": [
         "x_1=[0,4]",
-        "y_1=[19,18]",
-        "y_1~m x_1+b"
+        "y_1=[19,18]"
       ]
     },
     {
       "title": "Eliminate the choices",
-      "content": "The regression returns $m=-\\frac{1}{4}$ and $b=19$, so the equation is $y=-\\frac{1}{4}x+19$. Choice A has the right slope but the wrong intercept. Choice B matches both. Choices C and D have the wrong slope sign. Choice <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "y=-(1/4)x+19",
-        "(0,19)",
-        "(4,18)"
-      ]
+      "content": "The slope is $m=-\\frac{1}{4}$ and the $y$-intercept is $b=19$, so the equation is $y=-\\frac{1}{4}x+19$. Choice A has the right slope but the wrong intercept. Choice B matches both. Choices C and D have the wrong slope sign. Choice <strong>B</strong> is correct."
     }
   ]
 }

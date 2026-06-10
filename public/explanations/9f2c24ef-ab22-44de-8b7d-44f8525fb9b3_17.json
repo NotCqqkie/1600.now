@@ -9,11 +9,7 @@
     },
     {
       "title": "Interpret the vertex in context",
-      "content": "Since $a = -4.9 < 0$, the parabola opens downward, so the vertex is the <strong>maximum</strong>. The $x$-coordinate $9.1$ is the time in seconds; the $y$-coordinate $10{,}700$ is the height in meters. That means the plane reached a maximum height of $10{,}700$ meters at $9.1$ seconds. That matches choice B — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "y=-4.9(x-9.1)^{2}+10700",
-        "(9.1,10700)"
-      ]
+      "content": "Since $a = -4.9 \\lt 0$, the parabola opens downward, so the vertex is the <strong>maximum</strong>. The $x$-coordinate $9.1$ is the time in seconds; the $y$-coordinate $10{,}700$ is the height in meters. That means the plane reached a maximum height of $10{,}700$ meters at $9.1$ seconds. That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

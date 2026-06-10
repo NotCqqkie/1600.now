@@ -9,10 +9,7 @@
     },
     {
       "title": "Read the bar height",
-      "content": "The top of the bar for group $6$ lines up with the $40$ mark on the vertical axis. The vertical axis measures number of cans, so group $6$ collected $40$ cans.",
-      "desmosExpressions": [
-        "(6,40)"
-      ]
+      "content": "The top of the bar for group $6$ lines up with the $40$ mark on the vertical axis. The vertical axis measures number of cans, so group $6$ collected $40$ cans."
     },
     {
       "title": "Confirm the answer",

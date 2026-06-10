@@ -12,15 +12,6 @@
       "content": "Substitute $x=-9$ into the numerator: $$-9k+45=0$$ $$-9k=-45$$ $$k=5$$"
     },
     {
-      "title": "Desmos table regression check",
-      "content": "You can also enter the table rows and regress directly against the given form. Desmos returns $k=5$.",
-      "desmosExpressions": [
-        "x_1=[-37,-9,33]",
-        "y_1=[4,0,6]",
-        "y_1~(k x_1+45)/(x_1+2)"
-      ]
-    },
-    {
       "title": "Confirm with another row",
       "content": "Using $k=5$, $f(33)=\\frac{5(33)+45}{33+2}=\\frac{210}{35}=6$, matching the table. The value of $k$ is $5$."
     }

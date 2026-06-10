@@ -9,10 +9,7 @@
     },
     {
       "title": "Find the area function",
-      "content": "The area of a square equals the side length squared:<br/>$$f(x) = (x + 44)^2$$<br/>This matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "f(x)=((x+44))^(2)"
-      ]
+      "content": "The area of a square equals the side length squared:<br/>$$f(x) = (x + 44)^2$$<br/>This matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

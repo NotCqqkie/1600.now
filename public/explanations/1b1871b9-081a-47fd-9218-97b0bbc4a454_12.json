@@ -9,7 +9,7 @@
     },
     {
       "title": "Factor out the GCF",
-      "content": "Write the polynomial with 3 factored out:<br/>$$3x^2 + 57x + 15 = 3(x^2 + 19x + 5)$$<br/>The expression $x^2 + 19x + 5$ has no rational roots (discriminant $= 361 - 20 = 341$, not a perfect square), so it cannot factor further over the integers."
+      "content": "Write the polynomial with 3 factored out:<br/>$$3x^2 + 57x + 15 = 3(x^2 + 19x + 5)$$<br/>So $3$ is a factor of the polynomial."
     },
     {
       "title": "Evaluate all choices",

@@ -4,21 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the weighted-mean shortcut",
-      "content": "Do not average $32$ and $62$ directly, because the two data sets have different sizes. Use a weighted mean: multiply each mean by the number of buildings in that set. Set A contributes $75(32)=2400$ total meters, and set B contributes $50(62)=3100$ total meters."
+      "title": "Find each total height",
+      "content": "Mean equals total divided by count, so total equals mean times count:<br/>$$75(32)=2400$$<br/>$$50(62)=3100$$"
     },
     {
-      "title": "Enter the table in Desmos",
-      "content": "A quick Desmos table/list setup is to put the counts in one list and the means in another. In Desmos, `total` adds a list, so $\\frac{\\operatorname{total}(n_1m_1)}{\\operatorname{total}(n_1)}$ gives the combined mean.",
-      "desmosExpressions": [
-        "n_1=[75,50]",
-        "m_1=[32,62]",
-        "\\operatorname{total}\\left(n_1 m_1\\right)/\\operatorname{total}\\left(n_1\\right)"
-      ]
+      "title": "Divide by the combined count",
+      "content": "Data set C contains all $125$ buildings, so its mean is<br/>$$\\frac{2400+3100}{125}=\\frac{5500}{125}=44.$$"
     },
     {
       "title": "Confirm the answer",
-      "content": "The combined total is $2400+3100=5500$ meters across $75+50=125$ buildings, so the combined mean is $5500/125=44$. The answer is <strong>44</strong>."
+      "content": "The mean of data set C is <strong>44</strong> meters."
     }
   ]
 }

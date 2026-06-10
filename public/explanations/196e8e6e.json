@@ -9,12 +9,7 @@
     },
     {
       "title": "Apply the Pythagorean theorem to the right triangle",
-      "content": "Point $B$ also lies on the circle, so $CB = \\sqrt{103}$ (the same radius). Since $\\angle ACB$ is a right angle, triangle $ACB$ is a right triangle with the right angle at $C$. The two legs are $CA$ and $CB$, both equal to $\\sqrt{103}$.<br/><br/>By the Pythagorean theorem, the hypotenuse $AB$ satisfies:<br/>$$AB^2 = CA^2 + CB^2 = (\\sqrt{103})^2 + (\\sqrt{103})^2 = 103 + 103 = 206$$<br/>$$AB = \\sqrt{206}$$<br/>That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "x^2 + y^2 = 103",
-        "(1, \\sqrt{102})",
-        "(-1, -\\sqrt{102})"
-      ]
+      "content": "Point $B$ also lies on the circle, so $CB = \\sqrt{103}$ (the same radius). Since $\\angle ACB$ is a right angle, triangle $ACB$ is a right triangle with legs $CA$ and $CB$.<br/><br/>By the Pythagorean theorem:<br/>$$AB^2 = (\\sqrt{103})^2 + (\\sqrt{103})^2 = 206$$<br/>$$AB = \\sqrt{206}$$<br/>That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

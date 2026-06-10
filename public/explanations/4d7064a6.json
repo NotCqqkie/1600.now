@@ -13,10 +13,7 @@
     },
     {
       "title": "Answer",
-      "content": "<strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "f(x)=(x-10)(x+13)"
-      ]
+      "content": "<strong>D</strong> is correct."
     }
   ]
 }

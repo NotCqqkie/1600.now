@@ -9,11 +9,7 @@
     },
     {
       "title": "Count the intersection points",
-      "content": "Two distinct lines with different slopes meet at exactly one point. That matches choice <strong>B</strong> — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "y = x + 21",
-        "y = 12x"
-      ]
+      "content": "Two distinct lines with different slopes meet at exactly one point. That matches choice <strong>B</strong> — <strong>B</strong> is correct."
     },
     {
       "title": "Confirm the answer",

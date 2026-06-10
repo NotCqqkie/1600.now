@@ -4,14 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use Desmos to fit the exponential table",
-      "content": "This is a table-to-equation question, so the fastest method is to use Desmos regression. Enter the x-values and h(x)-values as two lists, then use the exponential regression row $y_1 \\sim a b^{x_1}$. Desmos gives $a \\approx 1.23$ and $b \\approx 1.12$, so the model is $h(x)=1.23(1.12)^x$.",
-      "desmosExpressions": [
-        "x_1=[0,2,4]",
-        "y_1=[1.23,1.54,1.94]",
-        "y_1~a b^{x_1}",
-        "y=1.23(1.12)^x"
-      ]
+      "title": "Find the exponential pattern",
+      "content": "Use the form $h(x)=ab^x$. The row $x=0$ gives $h(0)=a=1.23$. Use the row $x=2$: $$1.54=1.23b^2$$ $$b^2=\\frac{1.54}{1.23}\\approx1.252$$ $$b\\approx1.12.$$ So the model is $h(x)=1.23(1.12)^x$."
     },
     {
       "title": "Confirm the model against the table",

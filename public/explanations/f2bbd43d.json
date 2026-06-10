@@ -5,19 +5,11 @@
   "steps": [
     {
       "title": "Apply the inequalities with y = 53",
-      "content": "The point $(x, 53)$ has $y = 53$. The first inequality $y > 14$ is satisfied since $53 > 14$. ✓<br/><br/>For the second inequality $4x + y < 18$, substitute $y = 53$:<br/>$$4x + 53 < 18$$<br/>$$4x < -35$$<br/>$$x < -8.75$$"
+      "content": "The point $(x, 53)$ has $y = 53$. The first inequality $y > 14$ is satisfied since $53 > 14$. Correct<br/><br/>For the second inequality $4x + y \\lt 18$, substitute $y = 53$:<br/>$$4x + 53 \\lt 18$$<br/>$$4x \\lt -35$$<br/>$$x \\lt -8.75$$"
     },
     {
       "title": "Determine which choice satisfies the constraint x < -8.75",
-      "content": "Testing each choice:<ul><li>A: $-9 < -8.75$ ✓</li><li>B: $-5 < -8.75$ ✗</li><li>C: $5 < -8.75$ ✗</li><li>D: $9 < -8.75$ ✗</li></ul>That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y>14",
-        "4x+y<18",
-        "(-9,53)",
-        "(-5,53)",
-        "(5,53)",
-        "(9,53)"
-      ]
+      "content": "Testing each choice:<ul><li>A: $-9 \\lt -8.75$ Correct</li><li>B: $-5 \\lt -8.75$ Incorrect</li><li>C: $5 \\lt -8.75$ Incorrect</li><li>D: $9 \\lt -8.75$ Incorrect</li></ul>That matches choice A - <strong>A</strong> is correct."
     }
   ]
 }

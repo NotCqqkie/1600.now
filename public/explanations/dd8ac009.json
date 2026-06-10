@@ -4,14 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use Desmos to fit the exponential table",
-      "content": "This table is exponential, so Desmos can find the model directly. Enter the data as $x_1=[0,1,2]$ and $y_1=[670,674.02,678.06]$, then type $y_1 \\sim a b^{x_1}$. Desmos gives $a=670$ and $b=1.006$, so the graphable equation is $y=670(1.006)^x$.",
-      "desmosExpressions": [
-        "x_1=[0,1,2]",
-        "y_1=[670,674.02,678.06]",
-        "y_1~a b^{x_1}",
-        "y=670(1.006)^x"
-      ]
+      "title": "Find the exponential pattern",
+      "content": "Use the exponential form $y=ab^x$. The table starts at $670$, so $a=670$. The values increase by about $0.6%$ each step, so the multiplier is $b=1.006$. The model is $$y=670(1.006)^x.$$"
     },
     {
       "title": "Translate back to the answer choices",

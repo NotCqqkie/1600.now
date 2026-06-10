@@ -5,14 +5,11 @@
   "steps": [
     {
       "title": "Find the roots",
-      "content": "Apply the quadratic formula with $a=3, b=-5, c=-5$: $$x=\\frac{5\\pm\\sqrt{25+60}}{6}=\\frac{5\\pm\\sqrt{85}}{6}.$$"
+      "content": "This is a quadratic equation, so the goal is to find its roots. The quadratic formula is a direct way to solve it when simple factoring is not the focus. Apply the quadratic formula with $a=3, b=-5, c=-5$: $$x=\\frac{5\\pm\\sqrt{25+60}}{6}=\\frac{5\\pm\\sqrt{85}}{6}.$$"
     },
     {
       "title": "Identify the greatest solution",
-      "content": "The larger root is $\\tfrac{5}{6}+\\tfrac{\\sqrt{85}}{6}$. That matches choice <strong>B</strong> — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "y = 3x^{2} - 5x - 5"
-      ]
+      "content": "The larger root is $\\tfrac{5}{6}+\\tfrac{\\sqrt{85}}{6}$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."
     },
     {
       "title": "Confirm the answer",

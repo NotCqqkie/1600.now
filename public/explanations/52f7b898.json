@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply 30-60-90 triangle side ratios",
-      "content": "In a 30-60-90 triangle, the sides opposite the 30°, 60°, and 90° angles are in ratio $1 : \\sqrt{3} : 2$. With hypotenuse AB = 54:<ul><li>AC (opposite the 30° angle) = $\\frac{54}{2} = 27$</li><li>BC (opposite the 60° angle) = $\\frac{54\\sqrt{3}}{2} = 27\\sqrt{3}$</li></ul>"
+      "content": "In a 30-60-90 triangle, the sides opposite the 30°, 60°, and 90° angles are in ratio $1: \\sqrt{3}: 2$. With hypotenuse AB = 54:<ul><li>AC (opposite the 30° angle) = $\\frac{54}{2} = 27$</li><li>BC (opposite the 60° angle) = $\\frac{54\\sqrt{3}}{2} = 27\\sqrt{3}$</li></ul>"
     },
     {
       "title": "Calculate tan A and identify the answer",

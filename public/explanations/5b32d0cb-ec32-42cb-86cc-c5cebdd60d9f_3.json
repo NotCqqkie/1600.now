@@ -9,15 +9,7 @@
     },
     {
       "title": "Find $y$",
-      "content": "$y = 8(11) - 86 = 88 - 86 = 2$. That matches choice <strong>D</strong> — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "x = 11",
-        "y = 8x - 86"
-      ]
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches choice D, $2$, and the other choices fail the same setup or substitution. Therefore <strong>D</strong> is correct."
+      "content": "$y = 8(11) - 86 = 88 - 86 = 2$. The ordered solution is $(11,2)$, and the question asks for the $y$-value, so the answer is choice <strong>D</strong>. <strong>D</strong> is correct."
     }
   ]
 }

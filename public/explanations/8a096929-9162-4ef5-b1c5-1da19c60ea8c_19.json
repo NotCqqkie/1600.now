@@ -10,12 +10,7 @@
     },
     {
       "title": "Evaluate at t = 7 seconds",
-      "content": "Substitute $t = 7$:<br/>$$h(7) = -16(7 - 10)^2 + 1600$$<br/>$$h(7) = -16(-3)^2 + 1600$$<br/>$$h(7) = -16 \\cdot 9 + 1600$$<br/>$$h(7) = 1456$$<br/>The height 7 seconds after launch is 1456 feet.",
-      "desmosExpressions": [
-        "f(t) = -16(t-10)^2 + 1600",
-        "(10, 1600)",
-        "(7, 1456)"
-      ]
+      "content": "Substitute $t = 7$:<br/>$$h(7) = -16(7 - 10)^2 + 1600$$<br/>$$h(7) = -16(-3)^2 + 1600$$<br/>$$h(7) = -16 \\cdot 9 + 1600$$<br/>$$h(7) = 1456$$<br/>The height 7 seconds after launch is 1456 feet."
     }
   ]
 }

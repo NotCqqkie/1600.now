@@ -1,1 +1,15 @@
-{"questionId":"b74f676f","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks which verb form conforms to Standard English. The skill is parallel structure (verb-form agreement within a compound predicate). The decisive clue is the verb &quot;premiered,&quot; which is past tense &mdash; the blank is the second verb joined to it by &quot;and,&quot; so it must also be simple past tense to match."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &quot;developing&quot;</strong>: A present participle cannot serve as the second verb in a compound predicate alongside a simple past verb; &quot;premiered ... and developing&quot; violates parallel structure. &#10007;</li><li><strong>Choice B &mdash; &quot;developed&quot;</strong>: Simple past tense matches &quot;premiered,&quot; forming a grammatically parallel compound predicate: &quot;premiered ... and developed.&quot; &#10003;</li><li><strong>Choice C &mdash; &quot;to develop&quot;</strong>: An infinitive cannot function as a parallel verb in a compound predicate; &quot;premiered ... and to develop&quot; violates parallel structure. &#10007;</li><li><strong>Choice D &mdash; &quot;having developed&quot;</strong>: A perfect participle cannot serve as the second verb in a compound predicate alongside a simple past verb; &quot;premiered ... and having developed&quot; violates parallel structure. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "b74f676f",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks which verb form conforms to Standard English. The skill is parallel structure (verb-form agreement within a compound predicate). The decisive clue is the verb &quot;premiered,&quot; which is past tense &mdash; the blank is the second verb joined to it by &quot;and,&quot; so it must also be simple past tense to match."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &quot;developing&quot;</strong>: A present participle cannot serve as the second verb in a compound predicate alongside a simple past verb; &quot;premiered... and developing&quot; violates parallel structure. &#10007;</li><li><strong>Choice B &mdash; &quot;developed&quot;</strong>: Simple past tense matches &quot;premiered,&quot; forming a grammatically parallel compound predicate: &quot;premiered... and developed.&quot; &#10003;</li><li><strong>Choice C &mdash; &quot;to develop&quot;</strong>: An infinitive cannot function as a parallel verb in a compound predicate; &quot;premiered... and to develop&quot; violates parallel structure. &#10007;</li><li><strong>Choice D &mdash; &quot;having developed&quot;</strong>: A perfect participle cannot serve as the second verb in a compound predicate alongside a simple past verb; &quot;premiered... and having developed&quot; violates parallel structure. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

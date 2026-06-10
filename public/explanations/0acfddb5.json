@@ -9,12 +9,7 @@
     },
     {
       "title": "Apply Pythagorean theorem to find GH",
-      "content": "In right triangle $GMH$ with the right angle at $M$, we use the Pythagorean theorem:<br/>$$GH^2 = GM^2 + MH^2$$<br/>$$GH^2 = 168^2 + 1,760^2$$<br/>$$GH^2 = 28,224 + 3,097,600$$<br/>$$GH^2 = 3,125,824$$<br/>$$GH = 1,768 \\text{ mm}$$<br/>That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "x^2 + y^2 = 168^2",
-        "(0,0)",
-        "(1760, 0)"
-      ]
+      "content": "In right triangle $GMH$ with the right angle at $M$, we use the Pythagorean theorem:<br/>$$GH^2 = GM^2 + MH^2$$<br/>$$GH^2 = 168^2 + 1,760^2$$<br/>$$GH^2 = 28,224 + 3,097,600$$<br/>$$GH^2 = 3,125,824$$<br/>$$GH = 1,768 \\text{ mm}$$<br/>That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

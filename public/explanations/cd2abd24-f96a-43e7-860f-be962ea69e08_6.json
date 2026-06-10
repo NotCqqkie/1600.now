@@ -5,14 +5,11 @@
   "steps": [
     {
       "title": "Use the scatterplot directly",
-      "content": "This question asks for the plotted power output when the wind speed is $8$ m/s. Since there is a dot at that wind speed, no regression or line of best fit is needed."
+      "content": "This question asks for the plotted power output when the wind speed is $8$ m/s. Since there is a dot at that wind speed, use the plotted point directly instead of estimating a line of best fit."
     },
     {
       "title": "Read the point",
-      "content": "Locate $8$ on the horizontal wind-speed axis and move up to the plotted dot. The dot is a little above the $600$ gridline and closest to $640$ watts, so the point is approximately $(8,640)$.",
-      "desmosExpressions": [
-        "(8,640)"
-      ]
+      "content": "Locate $8$ on the horizontal wind-speed axis and move up to the plotted dot. The dot is a little above the $600$ gridline and closest to $640$ watts, so the point is approximately $(8,640)$."
     },
     {
       "title": "Check the choices",

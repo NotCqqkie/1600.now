@@ -9,8 +9,7 @@
     },
     {
       "title": "Write vertex form",
-      "content": "Vertex form of a quadratic is $f(t) = a(t - h)^2 + k$. Substituting $h = 2$ and $k = 203$ gives $f(t) = a(t - 2)^2 + 203$.",
-      "formula": "$$f(t) = a(t - 2)^2 + 203$$"
+      "content": "Vertex form of a quadratic is $f(t) = a(t - h)^2 + k$. Substituting $h = 2$ and $k = 203$ gives $f(t) = a(t - 2)^2 + 203$."
     },
     {
       "title": "Use the launch height to solve for $a$",
@@ -18,12 +17,7 @@
     },
     {
       "title": "Eliminate the other choices",
-      "content": "<ul><li>A) $-16(t + 203)^2 - 2$ has vertex $(-203, -2)$ &mdash; wrong vertex. Eliminate.</li><li>B) $-16(t - 203)^2 + 2$ has vertex $(203, 2)$ &mdash; wrong vertex. Eliminate.</li><li>C) $-16(t + 2)^2 - 203$ has vertex $(-2, -203)$ &mdash; wrong vertex. Eliminate.</li><li>D) $-16(t - 2)^2 + 203$ has vertex $(2, 203)$ and gives $f(0) = -64 + 203 = 139$. Keep.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "f(t) = -16(t - 2)^2 + 203",
-        "(2, 203)",
-        "(0, 139)"
-      ]
+      "content": "<ul><li>A) $-16(t + 203)^2 - 2$ has vertex $(-203, -2)$ &mdash; wrong vertex. Eliminate.</li><li>B) $-16(t - 203)^2 + 2$ has vertex $(203, 2)$ &mdash; wrong vertex. Eliminate.</li><li>C) $-16(t + 2)^2 - 203$ has vertex $(-2, -203)$ &mdash; wrong vertex. Eliminate.</li><li>D) $-16(t - 2)^2 + 203$ has vertex $(2, 203)$ and gives $f(0) = -64 + 203 = 139$. Keep.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
     }
   ]
 }

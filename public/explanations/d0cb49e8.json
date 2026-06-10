@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the equation of the line",
-      "content": "The graph shows a linear relationship between temperature and pressure. The line passes through the origin and the point $(300, 6)$. The slope is $\\frac{6}{300} = \\frac{1}{50} = 0.02$. Therefore, the equation of the line is:<br/>$$y = 0.02x$$"
+      "title": "Read the graph at 600 kelvins",
+      "content": "The horizontal axis is temperature $x$, and the vertical axis is pressure $y$. Locate $x=600$ kelvins on the graph, then read the $y$-value where the line passes through that vertical position."
     },
     {
-      "title": "Evaluate at x = 600 kelvins",
-      "content": "Substitute $x = 600$ into the equation:<br/>$$y = 0.02(600) = 12$$<br/>The pressure at 600 kelvins is 12 psi. That matches choice B — <strong>B</strong> is correct."
+      "title": "Confirm the answer",
+      "content": "At $x=600$, the graph shows $y=12$. The estimated pressure is $12$ psi, which matches choice B &mdash; <strong>B</strong> is correct."
     }
   ]
 }

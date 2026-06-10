@@ -4,17 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recognize vertex form with the given maximum",
-      "content": "The problem specifies that the object reaches its maximum height of 70.56 feet at t = 2.1 seconds. This is the vertex of the parabola. In vertex form, f(t) = a(t - h)^2 + k, the vertex is located at (h, k).<br/><br/>Substituting our vertex coordinates h = 2.1 and k = 70.56:<br/>$$f(t) = a(t - 2.1)^2 + 70.56$$<br/>Check which choices match this h-value:<ul><li>Choices A and D: $(t - 2.1)^2$ — correct vertex t-coordinate</li><li>Choices B and C: $(t + 2.1)^2$ — incorrect (vertex would be at t = -2.1)</li></ul>Choices B and C are eliminated.",
-      "formula": "$$f(t) = a(t - h)^2 + k$$"
+      "title": "Use vertex form",
+      "content": "A quadratic with vertex $(h,k)$ can be written as $f(t)=a(t-h)^2+k$. The maximum height occurs at $t=2.1$ and is $70.56$, so the model must include $(t-2.1)^2+70.56$."
     },
     {
-      "title": "Determine the sign of the leading coefficient",
-      "content": "A projectile launched upward from ground level rises to a peak, then falls back down. This motion traces a downward-opening parabola, which requires a negative leading coefficient: a &lt; 0.<br/><br/>Check the remaining choices:<ul><li>Choice A: a = -16 (negative) ✓</li><li>Choice D: a = 16 (positive) ✗</li></ul>Only choice A satisfies both the vertex form and the downward-opening requirement. That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "f(t) = -16(t-2.1)^2 + 70.56",
-        "(2.1, 70.56)"
-      ]
+      "title": "Choose the sign",
+      "content": "The object rises to a maximum and then falls, so the parabola opens downward. Therefore $a$ must be negative."
+    },
+    {
+      "title": "Match the choice",
+      "content": "Only choice <strong>A</strong>, $f(t)=-16(t-2.1)^2+70.56$, has the correct vertex and opens downward."
     }
   ]
 }

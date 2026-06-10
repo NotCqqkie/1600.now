@@ -53,7 +53,7 @@ const BlogIndex = () => {
       <ul className="space-y-6">
         {blogPosts
           .slice()
-          .sort((a, b) => (a.datePublished < b.datePublished ? 1 : -1))
+          .sort((leftPost, rightPost) => (leftPost.datePublished < rightPost.datePublished ? 1 : -1))
           .map((post) => (
             <li key={post.slug}>
               <Link

@@ -5,14 +5,11 @@
   "steps": [
     {
       "title": "Find the roots",
-      "content": "Multiply by $-1$: $3x^2+7x-1=0$. Apply the quadratic formula with $a=3,b=7,c=-1$: $$x=\\frac{-7\\pm\\sqrt{49+12}}{6}=\\frac{-7\\pm\\sqrt{61}}{6}.$$"
+      "content": "This is a quadratic equation, so the goal is to find its roots. The quadratic formula is a direct way to solve it when simple factoring is not the focus. Multiply by $-1$: $3x^2+7x-1=0$. Apply the quadratic formula with $a=3,b=7,c=-1$: $$x=\\frac{-7\\pm\\sqrt{49+12}}{6}=\\frac{-7\\pm\\sqrt{61}}{6}.$$"
     },
     {
       "title": "Identify the greatest solution",
-      "content": "The larger root is $-\\tfrac{7}{6}+\\tfrac{\\sqrt{61}}{6}$. That matches choice <strong>C</strong> — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y = -3x^{2} - 7x + 1"
-      ]
+      "content": "The larger root is $-\\tfrac{7}{6}+\\tfrac{\\sqrt{61}}{6}$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."
     },
     {
       "title": "Confirm the answer",

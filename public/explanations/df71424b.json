@@ -9,15 +9,11 @@
     },
     {
       "title": "Compare the graph to the x-axis",
-      "content": "The question asks how many times $f(x)=0$, which means how many times the graph reaches the $x$-axis. The visible curve is already below $y=-7$, and an exponential graph of this form stays entirely on one side of its horizontal asymptote. Since the asymptote is below the $x$-axis, the whole graph stays below the $x$-axis."
+      "content": "The question asks how many times $f(x)=0$, which means how many times the graph reaches the $x$-axis. The graph shown stays below the horizontal line $y=-7$, so it is also below the $x$-axis."
     },
     {
-      "title": "Confirm with a representative graph",
-      "content": "A representative graph with the same key behavior is $y=-7-2^x$: it approaches $y=-7$ and never touches $y=0$. The given graph behaves the same way, so there are zero values of $x$ for which $f(x)=0$. Choice <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y=-7-2^x",
-        "y=0"
-      ]
+      "title": "Count the intersections",
+      "content": "Since the graph never reaches the $x$-axis, there are zero values of $x$ for which $f(x)=0$. Choice <strong>D</strong> is correct."
     }
   ]
 }

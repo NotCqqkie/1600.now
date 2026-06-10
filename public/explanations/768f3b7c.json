@@ -8,13 +8,12 @@
       "content": "The $x$-values are $-2s$, $-s$, and $s$. Because all $x$-values are scaled by the same nonzero constant $s$, set $s=1$ to see the pattern quickly. The representative points are $(-2,24)$, $(-1,21)$, and $(1,15)$.",
       "desmosExpressions": [
         "x_1=[-2,-1,1]",
-        "y_1=[24,21,15]",
-        "y_1~m x_1+b"
+        "y_1=[24,21,15]"
       ]
     },
     {
       "title": "Translate the fitted line back to s",
-      "content": "With $s=1$, Desmos gives $y=-3x+18$. Restoring the original scale means the slope is $-\\frac{3}{s}$, so $$y=-\\frac{3}{s}x+18$$ Multiply by $s$: $$sy=-3x+18s$$ Then rearrange: $$3x+sy=18s$$"
+      "content": "With $s=1$, the representative points have slope $$\\frac{21-24}{-1-(-2)}=-3$$ Using $(-1,21)$ in $y=-3x+b$ gives $b=18$, so $y=-3x+18$. Restoring the original scale means the slope is $-\\frac{3}{s}$: $$y=-\\frac{3}{s}x+18$$ Multiply by $s$: $$sy=-3x+18s$$ Then rearrange: $$3x+sy=18s$$"
     },
     {
       "title": "Check the choices",

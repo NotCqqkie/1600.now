@@ -5,13 +5,7 @@
   "steps": [
     {
       "title": "Key insight: f must be constant",
-      "content": "Since $f(0)=17$ and $f(1)=17$, the two known points are $(0,17)$ and $(1,17)$. Put those points in Desmos and run a linear regression. It returns slope $m=0$ and intercept $b=17$, so the function is constant: $f(x)=17$.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[17,17]",
-        "y_1~m x_1+b",
-        "y=m x+b"
-      ]
+      "content": "Since $f(0)=17$ and $f(1)=17$, the two known points are $(0,17)$ and $(1,17)$. The slope is $$m=\\frac{17-17}{1-0}=0,$$ so the function is constant: $f(x)=17$."
     },
     {
       "title": "Backsolving — testing choice A (1/17)",
@@ -23,12 +17,7 @@
     },
     {
       "title": "Backsolving — testing choice C (17)",
-      "content": "Testing choice C: $$f(x) = 17$$<br/>Then $$f(0) = 17$$ and $$f(1) = 17$$, which exactly match both given conditions. &#10003;<br/><br/>That matches choice C &mdash; <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y=17",
-        "(0,17)",
-        "(1,17)"
-      ]
+      "content": "Testing choice C: $$f(x) = 17$$<br/>Then $$f(0) = 17$$ and $$f(1) = 17$$, which exactly match both given conditions. &#10003;<br/><br/>That matches choice C &mdash; <strong>C</strong> is correct."
     },
     {
       "title": "Backsolving — testing choice D (34)",

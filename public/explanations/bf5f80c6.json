@@ -5,18 +5,11 @@
   "steps": [
     {
       "title": "Set up the substitution test",
-      "content": "A point is a solution to $y < -4x + 4$ if substituting its coordinates makes the inequality true. We'll test each answer choice."
+      "content": "A point is a solution to $y \\lt -4x + 4$ if substituting its coordinates makes the inequality true. We'll test each answer choice."
     },
     {
       "title": "Backsolving",
-      "content": "Backsolving — testing choice B $(0, 5)$: Is $5 < -4(0) + 4 = 4$? No, $5 > 4$ fails.<br/><br/>Testing choice A $(-4, 0)$: Is $0 < -4(-4) + 4 = 16 + 4 = 20$? Yes, $0 < 20$ works. That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y<-4x+4",
-        "(-4,0)",
-        "(0,5)",
-        "(2,1)",
-        "(2,-1)"
-      ]
+      "content": "Backsolving — testing choice B $(0, 5)$: Is $5 \\lt -4(0) + 4 = 4$? No, $5 > 4$ fails.<br/><br/>Testing choice A $(-4, 0)$: Is $0 \\lt -4(-4) + 4 = 16 + 4 = 20$? Yes, $0 \\lt 20$ works. That matches choice A — <strong>A</strong> is correct."
     },
     {
       "title": "Check the other choices",

@@ -4,19 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use custom Desmos regression for b",
-      "content": "The equation form is already given: $y=36x^2-bx-120$. The table shows the point $(6,0)$, so enter $x_1=[6]$ and $y_1=[0]$, then type $y_1 \\sim 36x_1^2-bx_1-120$. Desmos solves for the unknown coefficient and returns $b=196$.",
-      "desmosExpressions": [
-        "x_1=[6]",
-        "y_1=[0]",
-        "y_1~36x_1^2-b x_1-120",
-        "y=36x^2-196x-120",
-        "(6,0)"
-      ]
+      "title": "Solve the unknown directly",
+      "content": "The equation form is already given: $$y=36x^2-bx-120$$ The table shows the point $(6,0)$, so substitute $x=6$ and $y=0$ directly."
     },
     {
       "title": "Solve for b",
-      "content": "A quick substitution check gives $0=36(6)^2-6b-120=1176-6b$, so $6b=1176$ and $b=196$. The answer is <strong>196</strong>."
+      "content": "A quick substitution check gives $0=36(6)^2-6b-120=1176-6b$, so $6b=1176$ and $b=196$. Substituting $b=196$ makes the table point $(6,0)$ work, so the answer is <strong>196</strong>."
     }
   ]
 }

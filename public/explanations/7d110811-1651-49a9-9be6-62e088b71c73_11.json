@@ -9,12 +9,7 @@
     },
     {
       "title": "Simplify and identify the inequality",
-      "content": "Subtract 170 from both sides to isolate the box weight:<br/>$$21x + 62y \\leq 4,840 - 170$$<br/>$$21x + 62y \\leq 4,670$$<br/>That matches choice B — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "21x + 62y \\le 4670",
-        "x \\ge 0",
-        "y \\ge 0"
-      ]
+      "content": "Subtract 170 from both sides to isolate the box weight:<br/>$$21x + 62y \\leq 4,840 - 170$$<br/>$$21x + 62y \\leq 4,670$$<br/>That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

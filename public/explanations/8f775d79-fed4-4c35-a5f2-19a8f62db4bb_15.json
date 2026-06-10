@@ -5,16 +5,15 @@
   "steps": [
     {
       "title": "Read two boundary points from the graph",
-      "content": "The shaded region's boundary is $rx+ty=-77$. The line crosses the axes at $(-11,0)$ and $(0,-7)$. Enter $x_1=[-11,0]$, $y_1=[0,-7]$, and run the custom regression $r x_1+t y_1\\sim -77$ in Desmos.",
-      "desmosExpressions": [
-        "x_1=[-11,0]",
-        "y_1=[0,-7]",
-        "r x_1+t y_1~-77"
-      ]
+      "content": "The shaded region's boundary is $rx+ty=-77$. From the graph, two clear points on the boundary are $(0,-11)$ and $(-7,-10)$."
     },
     {
       "title": "Compute r + t",
-      "content": "Desmos gives $r=7$ and $t=11$. Therefore $r+t=7+11=18$. That matches choice <strong>A</strong>."
+      "content": "Use $(0,-11)$ first:$$0r-11t=-77\\Rightarrow t=7$$Then use $(-7,-10)$:$$-7r-10(7)=-77$$ $$-7r-70=-77\\Rightarrow r=1$$Therefore $r+t=1+7=8$, which matches choice <strong>A</strong>."
+    },
+    {
+      "title": "Confirm the shortcut",
+      "content": "You only need the boundary line because $r$ and $t$ come from the equality $rx+ty=-77$. The shading direction is irrelevant for $r+t$."
     }
   ]
 }

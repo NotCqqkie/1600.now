@@ -13,11 +13,7 @@
     },
     {
       "title": "Pick a valid x",
-      "content": "Among the choices, $x=-32$ appears. That matches choice <strong>A</strong> — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y = x + 33",
-        "y = (x + 33)^2"
-      ]
+      "content": "Among the choices, $x=-32$ appears. That matches choice <strong>A</strong> — <strong>A</strong> is correct."
     }
   ]
 }

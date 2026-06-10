@@ -9,14 +9,11 @@
     },
     {
       "title": "Check end behavior to determine degree",
-      "content": "Observe the behavior at the far left and far right of the graph:<ul><li>As $x \\to -\\infty$, $y \\to -\\infty$ (left end points downward)</li><li>As $x \\to +\\infty$, $y \\to -\\infty$ (right end points downward)</li></ul>Both ends negative indicates an <strong>even-degree polynomial</strong> with negative leading coefficient. Choice A, $y=-\\frac{1}{10}x(x-4)(x+5)$, is a cubic (degree 3, odd) so it fails this test—a cubic has opposite end behaviors. Choice B, $y=-\\frac{1}{10}x(x-4)(x+5)^{2}$, is a quartic (degree 4, even), which matches."
+      "content": "Both ends of the graph point downward, so the polynomial must have even degree and a negative leading coefficient. Choice A is cubic, so it would have opposite end behavior. Choice B is quartic because of $(x+5)^2$, so it fits."
     },
     {
       "title": "Confirm root multiplicity at x = −5",
-      "content": "At $x = -5$, the graph touches the x-axis without crossing—it bounces back down.<br/><br/>This behavior indicates even multiplicity. In choice B, the factor $(x+5)^2$ gives $x = -5$ multiplicity 2, which produces exactly this touching behavior.<br/><br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "y=-(1)/(10)x(x-4)((x+5))^(2)"
-      ]
+      "content": "At $x=-5$, the graph touches the x-axis without crossing, which means the root has even multiplicity. Choice B has the factor $(x+5)^2$, so it matches the intercepts and the bounce. That makes <strong>B</strong> correct."
     }
   ]
 }

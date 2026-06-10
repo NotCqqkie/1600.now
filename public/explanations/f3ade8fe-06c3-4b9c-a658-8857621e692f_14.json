@@ -16,14 +16,8 @@
       "content": "Cross-multiply: $$-55=-4(a-3).$$ Divide by $-4$: $$\\frac{55}{4}=a-3.$$ Add $3$: $$a=3+\\frac{55}{4}=\\frac{67}{4}.$$"
     },
     {
-      "title": "Check the choice in Desmos",
-      "content": "Graph the center, the tangent point from choice D, the radius, and the tangent line. The radius slope is $-\\frac{4}{5}$ and the tangent slope is $\\frac{5}{4}$, so they are perpendicular. Choice <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "(3,7)",
-        "(\\frac{67}{4},-4)",
-        "y-7=-\\frac{4}{5}(x-3)",
-        "y+4=\\frac{5}{4}(x-\\frac{67}{4})"
-      ]
+      "title": "Check the perpendicular slopes",
+      "content": "The radius slope is $-\\frac{4}{5}$ and the tangent slope is $\\frac{5}{4}$. Their product is $$-\\frac{4}{5}\\cdot\\frac{5}{4}=-1,$$ so they are perpendicular. Choice <strong>D</strong> is correct."
     }
   ]
 }

@@ -9,10 +9,7 @@
     },
     {
       "title": "Identify the positive solution",
-      "content": "Take the positive root. The answer is <strong>9/4</strong>.",
-      "desmosExpressions": [
-        "y = 4x^{2} - x - 18"
-      ]
+      "content": "Take the positive root. The answer is <strong>9/4</strong>."
     },
     {
       "title": "Confirm the answer",

@@ -5,15 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "Both functions have base $&gt; 1$ and $x \\geq 0$, so both are increasing &mdash; minimum occurs at $x = 0$. The question asks whether that minimum value appears as a visible constant or coefficient in the given equation (not whether you can compute it)."
+      "content": "Both functions have base $\\gt 1$ and $x \\geq 0$, so both are increasing - minimum occurs at $x = 0$. The question asks whether that minimum value appears as a visible constant or coefficient in the given equation (not whether you can compute it)."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;I only&rsquo;</strong>: $f(0) = 16(1.3)^5$. That product does not appear as a single constant in $f(x) = 16(1.3)^{x+5}$ &mdash; you must compute it. &#10007;</li><li><strong>Choice B &mdash; &lsquo;II only&rsquo;</strong>: $g(0) = 16(1.09)(1.3)^3$. Similarly, that product is not written as a single constant in $g(x) = 16(1.09)(1.3)^{x+3}$. &#10007;</li><li><strong>Choice C &mdash; &lsquo;I and II&rsquo;</strong>: Neither displays its minimum directly &mdash; both require multiplying separate factors. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Neither I nor II&rsquo;</strong>: Correct. Neither equation shows the minimum as an explicit constant &mdash; both require evaluating a product of factors to find it. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "f(x) = 16(1.3)^{x+5}",
-        "g(x) = 16 \\cdot 1.09 \\cdot 1.3^{x+3}"
-      ]
+      "content": "<ul><li><strong>Choice A - &lsquo;I only&rsquo;</strong>: $f(0) = 16(1.3)^5$. That product does not appear as a single constant in $f(x) = 16(1.3)^{x+5}$ - you must compute it. Incorrect</li><li><strong>Choice B - &lsquo;II only&rsquo;</strong>: $g(0) = 16(1.09)(1.3)^3$. Similarly, that product is not written as a single constant in $g(x) = 16(1.09)(1.3)^{x+3}$. Incorrect</li><li><strong>Choice C - &lsquo;I and II&rsquo;</strong>: Neither displays its minimum directly - both require multiplying separate factors. Incorrect</li><li><strong>Choice D - &lsquo;Neither I nor II&rsquo;</strong>: Correct. Neither equation shows the minimum as an explicit constant - both require evaluating a product of factors to find it. Correct</li></ul>That matches choice D - <strong>D</strong> is correct."
     }
   ]
 }

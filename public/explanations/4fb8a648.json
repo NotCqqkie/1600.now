@@ -9,11 +9,7 @@
     },
     {
       "title": "Factor and find the greatest solution",
-      "content": "Find two numbers that multiply to 54 and add to 15: these are 6 and 9.<br/>$$(x + 6)(x + 9) = 0$$<br/>This gives $x = -6$ or $x = -9$. The greatest of these two solutions is $-6$. That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y = x + 9",
-        "y = x^2 + 16x + 63"
-      ]
+      "content": "Find two numbers that multiply to 54 and add to 15: these are 6 and 9.<br/>$$(x + 6)(x + 9) = 0$$<br/>This gives $x = -6$ or $x = -9$. The greatest of these two solutions is $-6$. That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

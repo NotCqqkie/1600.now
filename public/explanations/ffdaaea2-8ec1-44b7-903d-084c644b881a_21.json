@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Simplify the absolute values using the constraint a < 0",
-      "content": "Since $a < 0$, both $17a$ and $8a$ are negative. When we take the absolute value of a negative number, we get its negation:<ul><li>$|17a| = -(17a) = -17a$</li><li>$|8a| = -(8a) = -8a$</li></ul>"
+      "content": "Since $a \\lt 0$, both $17a$ and $8a$ are negative. When we take the absolute value of a negative number, we get its negation:<ul><li>$|17a| = -(17a) = -17a$</li><li>$|8a| = -(8a) = -8a$</li></ul>"
     },
     {
       "title": "Evaluate f(17a) and f(8a)",

@@ -9,11 +9,7 @@
     },
     {
       "title": "Find the value of $x + y$",
-      "content": "Then $x+y=-48+36=-12$. That matches choice <strong>A</strong> — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y = -\\frac{4(x - 7)}{5} - 8",
-        "y = -\\frac{3x}{4}"
-      ]
+      "content": "Then $x+y=-48+36=-12$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."
     },
     {
       "title": "Confirm the answer",

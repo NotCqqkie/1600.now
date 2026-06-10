@@ -4,18 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use Desmos to get the rate",
-      "content": "The rate in candy bars per second is the slope of the graph. Read two points from the line, $(0,0)$ and $(2,80)$, then enter $x_1=[0,2]$, $y_1=[0,80]$, and $y_1\\sim mx_1+b$. Desmos gives $m=40$.",
-      "desmosExpressions": [
-        "x_1=[0,2]",
-        "y_1=[0,80]",
-        "y_1~m x_1+b",
-        "y=m x+b"
-      ]
+      "title": "Read two useful points",
+      "content": "The graph shows candy bars wrapped after $x$ seconds. Use two clear points on the line: $(0,0)$ and $(2,80)$. That means the machine wraps $80$ candy bars in $2$ seconds."
     },
     {
-      "title": "Read two points from the graph and calculate slope",
-      "content": "By hand, the slope is $\\frac{80-0}{2-0}=40$. The machine wraps $40$ candy bars per second. That matches choice <strong>B</strong>."
+      "title": "Convert to a per-second rate",
+      "content": "The rate is the slope of the line: $$\\frac{80-0}{2-0}=\\frac{80}{2}=40.$$ So the machine wraps $40$ candy bars per second."
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "Choice <strong>B</strong> is $40$, so choice <strong>B</strong> is correct."
     }
   ]
 }

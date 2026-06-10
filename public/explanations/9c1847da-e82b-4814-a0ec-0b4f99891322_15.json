@@ -13,11 +13,7 @@
     },
     {
       "title": "Answer",
-      "content": "One possible value of $x$ is $-12$, which matches choice A. <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y = 111 - x^2",
-        "y = 3x + 3"
-      ]
+      "content": "One possible value of $x$ is $-12$, which matches choice A. <strong>A</strong> is correct."
     }
   ]
 }

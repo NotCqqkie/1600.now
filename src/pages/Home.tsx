@@ -572,19 +572,19 @@ const AnimatedExplanation = memo(({ isDarkMode, active }: { isDarkMode: boolean;
 
   useEffect(() => {
     if (paused || !active) return;
-    const t = setInterval(() => {
+    const timerId = setInterval(() => {
       setDirection(1);
-      setCurrentStep((s) => (s + 1) % totalSteps);
-      setAnimKey((k) => k + 1);
+      setCurrentStep((stepIndex) => (stepIndex + 1) % totalSteps);
+      setAnimKey((animationKey) => animationKey + 1);
     }, 3600);
-    return () => clearInterval(t);
+    return () => clearInterval(timerId);
   }, [active, paused, totalSteps]);
 
   const goTo = (target: number) => {
     setPaused(true);
     setDirection(target > currentStep ? 1 : -1);
     setCurrentStep(Math.max(0, Math.min(totalSteps - 1, target)));
-    setAnimKey((k) => k + 1);
+    setAnimKey((animationKey) => animationKey + 1);
   };
 
   const step = EXPLANATION_STEPS[currentStep];
@@ -607,16 +607,16 @@ const AnimatedExplanation = memo(({ isDarkMode, active }: { isDarkMode: boolean;
           Answer: C
         </Badge>
         <div className="flex gap-1.5">
-          {EXPLANATION_STEPS.map((_, i) => (
+          {EXPLANATION_STEPS.map((_, stepIndex) => (
             <button
-              key={i}
-              onClick={() => goTo(i)}
+              key={stepIndex}
+              onClick={() => goTo(stepIndex)}
               className={`rounded-full transition-all duration-300 ${
-                i === currentStep
+                stepIndex === currentStep
                   ? "w-3 h-1.5 bg-primary"
                   : "w-1.5 h-1.5 bg-primary/40 hover:bg-primary/70 cursor-pointer"
               }`}
-              aria-label={`Go to step ${i + 1}`}
+              aria-label={`Go to step ${stepIndex + 1}`}
             />
           ))}
         </div>
@@ -930,7 +930,7 @@ const FILTER_DEMO_CURSOR_NEXT_STEP_PAUSE_MS = 8;
 const FILTER_DEMO_CURSOR_IDLE_RETRY_MS = 180;
 const FILTER_DEMO_CURSOR_CLOSE_MENU_DURATION_MS = 220;
 const FILTER_DEMO_MENU_AUTO_CLOSE_CHECK_MS = 90;
-const FILTER_DEMO_USER_INTERACTION_PAUSE_MS = 2200;
+const FILTER_DEMO_USER_INTERACTION_PAUSE_MS = 900;
 const FILTER_DEMO_CURSOR_SIZE = 40;
 const FILTER_DEMO_CURSOR_HOTSPOT_X = (48 / 128) * FILTER_DEMO_CURSOR_SIZE;
 const FILTER_DEMO_CURSOR_HOTSPOT_Y = (40 / 128) * FILTER_DEMO_CURSOR_SIZE;
@@ -975,6 +975,10 @@ const isVisibleElement = (element: HTMLElement) => {
   const rect = element.getBoundingClientRect();
   return rect.width > 0 && rect.height > 0;
 };
+
+const isUsableDemoOption = (element: HTMLElement) => (
+  isVisibleElement(element) && Boolean(element.textContent?.trim())
+);
 
 const isVisibleInViewport = (element: HTMLElement) => {
   const rect = element.getBoundingClientRect();
@@ -1112,8 +1116,8 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
   const [demoScale, setDemoScale] = useState(FILTER_DEMO_MAX_SCALE);
   const [filters, setFilters] = useState<QuestionBankFilters>(defaultBankFilters);
   const [cursor, setCursor] = useState<DemoCursorState>({
-    x: 12,
-    y: 40,
+    x: 28,
+    y: 86,
     visible: true,
     durationMs: 0,
   });
@@ -1182,7 +1186,7 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
       const resumedCursor = { ...cursorRef.current, visible: true, durationMs: 0 };
       cursorRef.current = resumedCursor;
       setCursor(resumedCursor);
-      window.setTimeout(() => setDemoTick((tick) => tick + 1), 120);
+      window.setTimeout(() => setDemoTick((tick) => tick + 1), 40);
     }, resumeDelay);
   }, []);
   const activateScriptedElement = useCallback((element: HTMLElement) => {
@@ -1281,7 +1285,7 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
     );
     const option = (key: string) => (
       Array.from(root.querySelectorAll<HTMLElement>(`[data-filter-demo-option="${key}"]`))
-        .find(isVisibleElement) ?? null
+        .find(isUsableDemoOption) ?? null
     );
     const optionOrControl = (key: string, controlName: string): FilterDemoAction | null => {
       const visibleOption = option(key);
@@ -1417,6 +1421,7 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
       return Boolean(hit && target.contains(hit));
     };
     const markUserScroll = () => {
+      if (!isVisibleInViewport(container)) return;
       demoInterrupted = true;
       userScrolled = true;
     };
@@ -1709,7 +1714,7 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
       const hasVisibleOptionsForCurrentControl = () => (
         Array.from(
           container.querySelectorAll<HTMLElement>(`[data-filter-demo-option^="${optionPrefix}"]`),
-        ).some(isVisibleElement)
+        ).some(isUsableDemoOption)
       );
       const closeCurrentMenuBeforeNext = () => {
         if (!hasVisibleOptionsForCurrentControl() || !canRunStep(action.target)) {
@@ -1737,7 +1742,7 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
       schedule(() => {
         const nextTarget = Array.from(
           container.querySelectorAll<HTMLElement>(`[data-filter-demo-option="${optionKey}"]`),
-        ).find(isVisibleElement);
+        ).find(isUsableDemoOption);
         if (!nextTarget || !canRunStep(nextTarget)) {
           queueDemoRetry();
           return;
@@ -1746,7 +1751,7 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
         schedule(() => {
           const optionTarget = Array.from(
             container.querySelectorAll<HTMLElement>(`[data-filter-demo-option="${optionKey}"]`),
-          ).find(isVisibleElement);
+          ).find(isUsableDemoOption);
           if (!optionTarget || !canRunStep(optionTarget)) {
             queueDemoRetry();
             return;
@@ -1930,15 +1935,15 @@ const SlotMachineCounter = memo(({
     const tick = (now: number) => {
       if (cancelled) return;
       if (!begin) begin = now;
-      const t = Math.min((now - begin) / countDuration, 1);
-      const eased = 1 - Math.pow(1 - t, 1.8);
+      const progress = Math.min((now - begin) / countDuration, 1);
+      const eased = 1 - Math.pow(1 - progress, 1.8);
       const next = Math.round(startValue + range * eased);
       const str = next.toLocaleString();
       if (str !== lastText) {
         node.textContent = str;
         lastText = str;
       }
-      if (t < 1) {
+      if (progress < 1) {
         raf = requestAnimationFrame(tick);
       } else {
         finish();
@@ -2014,34 +2019,34 @@ const FloatingMathSymbols = memo(({
   const [maskCss, setMaskCss] = useState<{ maskImage?: string; WebkitMaskImage?: string }>({});
   const items = useMemo(() => {
     const seedRand = (seed: number) => {
-      const x = Math.sin(seed * 12.9898) * 43758.5453;
-      return x - Math.floor(x);
+      const rawSeedValue = Math.sin(seed * 12.9898) * 43758.5453;
+      return rawSeedValue - Math.floor(rawSeedValue);
     };
-    return Array.from({ length: 18 }).map((_, i) => ({
-      sym: MATH_SYMBOLS[i % MATH_SYMBOLS.length],
-      left: seedRand(i * 7.3) * 100,
-      delay: seedRand(i * 11.1) * 22,
-      duration: 18 + seedRand(i * 13.7) * 16,
-      size: 24 + seedRand(i * 17.2) * 42,
-      opacity: 0.05 + seedRand(i * 19.5) * 0.07,
+    return Array.from({ length: 18 }).map((_, symbolIndex) => ({
+      sym: MATH_SYMBOLS[symbolIndex % MATH_SYMBOLS.length],
+      left: seedRand(symbolIndex * 7.3) * 100,
+      delay: seedRand(symbolIndex * 11.1) * 22,
+      duration: 18 + seedRand(symbolIndex * 13.7) * 16,
+      size: 24 + seedRand(symbolIndex * 17.2) * 42,
+      opacity: 0.05 + seedRand(symbolIndex * 19.5) * 0.07,
     }));
   }, []);
 
   useLayoutEffect(() => {
     const update = () => {
-      const c = containerRef.current;
-      const t = exclusionRef?.current;
-      if (!c || !t) {
+      const container = containerRef.current;
+      const exclusionElement = exclusionRef?.current;
+      if (!container || !exclusionElement) {
         setMaskCss({});
         return;
       }
-      const cr = c.getBoundingClientRect();
-      const tr = t.getBoundingClientRect();
-      const cx = tr.left - cr.left + tr.width / 2;
-      const cy = tr.top - cr.top + tr.height / 2;
-      const rx = tr.width / 2 + 100;
-      const ry = tr.height / 2 + 80;
-      const gradient = `radial-gradient(ellipse ${rx}px ${ry}px at ${cx}px ${cy}px, transparent 0%, transparent 55%, black 100%)`;
+      const containerRect = container.getBoundingClientRect();
+      const exclusionRect = exclusionElement.getBoundingClientRect();
+      const centerX = exclusionRect.left - containerRect.left + exclusionRect.width / 2;
+      const centerY = exclusionRect.top - containerRect.top + exclusionRect.height / 2;
+      const radiusX = exclusionRect.width / 2 + 100;
+      const radiusY = exclusionRect.height / 2 + 80;
+      const gradient = `radial-gradient(ellipse ${radiusX}px ${radiusY}px at ${centerX}px ${centerY}px, transparent 0%, transparent 55%, black 100%)`;
       setMaskCss({ maskImage: gradient, WebkitMaskImage: gradient });
     };
     update();
@@ -2049,7 +2054,7 @@ const FloatingMathSymbols = memo(({
     if (containerRef.current) ro.observe(containerRef.current);
     if (exclusionRef?.current) ro.observe(exclusionRef.current);
     window.addEventListener("resize", update);
-    if (document.fonts?.ready) document.fonts.ready.then(update).catch(() => {});
+    if (document.fonts?.ready) document.fonts.ready.then(update);
     return () => {
       ro.disconnect();
       window.removeEventListener("resize", update);
@@ -2068,20 +2073,20 @@ const FloatingMathSymbols = memo(({
         ...maskCss,
       }}
     >
-      {items.map((it, i) => (
+      {items.map((item, itemIndex) => (
         <span
-          key={i}
+          key={itemIndex}
           className="float-sym"
           style={{
-            left: `${it.left}%`,
-            fontSize: it.size,
-            opacity: isDarkMode ? it.opacity * 1.5 : it.opacity,
-            animationDelay: `${it.delay}s`,
-            animationDuration: `${it.duration}s`,
+            left: `${item.left}%`,
+            fontSize: item.size,
+            opacity: isDarkMode ? item.opacity * 1.5 : item.opacity,
+            animationDelay: `${item.delay}s`,
+            animationDuration: `${item.duration}s`,
             color: isDarkMode ? "rgba(125,211,252,1)" : "rgba(15,23,42,1)",
           }}
         >
-          {it.sym}
+          {item.sym}
         </span>
       ))}
     </div>
@@ -2154,8 +2159,8 @@ const HomePageBackdrop = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
     const update = () => {
       raf = 0;
       const demoTitle = document.querySelector(".home-demo-title");
-      const t = demoTitle?.getBoundingClientRect().top ?? Infinity;
-      const visible = t > window.innerHeight / 2;
+      const titleTop = demoTitle?.getBoundingClientRect().top ?? Infinity;
+      const visible = titleTop > window.innerHeight / 2;
       if (visible === currentVisible) return;
       currentVisible = visible;
       document.body.classList.toggle("hp-bg-hidden", !visible);
@@ -2220,7 +2225,7 @@ const HomePageBackdrop = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
   useEffect(() => {
     if (phase !== "graphHold") return;
     const id = window.setTimeout(() => {
-      setCycle((c) => c + 1);
+      setCycle((cycleIndex) => cycleIndex + 1);
       setPhase("typing");
     }, 1200);
     return () => window.clearTimeout(id);
@@ -2292,20 +2297,20 @@ const HomePageBackdrop = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
     let lastMask = "";
     const update = () => {
       raf = 0;
-      const els = document.querySelectorAll<HTMLElement>("[data-curve-cutout]");
-      const W = window.innerWidth;
+      const cutoutElements = document.querySelectorAll<HTMLElement>("[data-curve-cutout]");
+      const viewportWidth = window.innerWidth;
       const viewportGraphHeight = window.innerHeight - 64;
       const gradients: string[] = [];
-      els.forEach((el) => {
-        const r = el.getBoundingClientRect();
-        if (r.width === 0 || r.height === 0) return;
-        if (r.bottom < 64 || r.top > window.innerHeight) return;
-        const cx = ((r.left + r.right) / 2 / W) * 100;
-        const cy = ((r.top - 64 + r.height / 2) / viewportGraphHeight) * 100;
-        const rx = ((r.width + PAD_X * 2) / 2 / W) * 100;
-        const ry = ((r.height + PAD_Y * 2) / 2 / viewportGraphHeight) * 100;
+      cutoutElements.forEach((element) => {
+        const elementRect = element.getBoundingClientRect();
+        if (elementRect.width === 0 || elementRect.height === 0) return;
+        if (elementRect.bottom < 64 || elementRect.top > window.innerHeight) return;
+        const centerX = ((elementRect.left + elementRect.right) / 2 / viewportWidth) * 100;
+        const centerY = ((elementRect.top - 64 + elementRect.height / 2) / viewportGraphHeight) * 100;
+        const radiusX = ((elementRect.width + PAD_X * 2) / 2 / viewportWidth) * 100;
+        const radiusY = ((elementRect.height + PAD_Y * 2) / 2 / viewportGraphHeight) * 100;
         gradients.push(
-          `radial-gradient(ellipse ${rx}% ${ry}% at ${cx}% ${cy}%, rgba(0,0,0,0.02) 0%, rgba(0,0,0,0.55) 70%, black 100%)`
+          `radial-gradient(ellipse ${radiusX}% ${radiusY}% at ${centerX}% ${centerY}%, rgba(0,0,0,0.02) 0%, rgba(0,0,0,0.55) 70%, black 100%)`
         );
       });
       gradients.push("linear-gradient(to bottom, black 0%, black 100%)");
@@ -2323,7 +2328,7 @@ const HomePageBackdrop = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
     const ro = new ResizeObserver(update);
     document
       .querySelectorAll<HTMLElement>("[data-curve-cutout]")
-      .forEach((el) => ro.observe(el));
+      .forEach((element) => ro.observe(element));
     window.addEventListener("scroll", schedule, { passive: true });
     window.addEventListener("resize", schedule);
     if (document.fonts?.ready) document.fonts.ready.then(update);

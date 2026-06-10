@@ -73,9 +73,9 @@ const Modules = () => {
     const stored = sessionStorage.getItem("modules:returnScrollY");
     if (stored === null) return;
     sessionStorage.removeItem("modules:returnScrollY");
-    const y = Number.parseInt(stored, 10);
-    if (Number.isNaN(y)) return;
-    const run = () => window.scrollTo(0, y);
+    const scrollY = Number.parseInt(stored, 10);
+    if (Number.isNaN(scrollY)) return;
+    const run = () => window.scrollTo(0, scrollY);
     setTimeout(run, 0);
     setTimeout(run, 50);
   }, []);
@@ -137,7 +137,7 @@ const Modules = () => {
         session: entry.session,
       }));
 
-    return [...moduleEntries, ...testEntries].sort((a, b) => b.startedAt - a.startedAt)[0] ?? null;
+    return [...moduleEntries, ...testEntries].sort((leftEntry, rightEntry) => rightEntry.startedAt - leftEntry.startedAt)[0] ?? null;
   }, [progressRefreshKey]);
 
   const filteredPracticeSets = useMemo(() => {
@@ -242,9 +242,9 @@ const Modules = () => {
             : mostRecentSession.session.modules[mostRecentSession.session.activeModuleIndex]?.remainingSeconds ?? 0;
           const formatTime = (secs: number) => {
             const safe = Math.max(0, secs);
-            const m = Math.floor(safe / 60);
-            const s = safe % 60;
-            return `${m}:${String(s).padStart(2, "0")} left`;
+            const minutes = Math.floor(safe / 60);
+            const seconds = safe % 60;
+            return `${minutes}:${String(seconds).padStart(2, "0")} left`;
           };
           const activeModuleTitle = !isModule
             ? mostRecentSession.session.modules[mostRecentSession.session.activeModuleIndex]?.moduleTitle
@@ -349,8 +349,8 @@ const Modules = () => {
 
       <div className="grid grid-cols-1 gap-3 md:grid-cols-2">
         {filteredPracticeSets.map((practiceSet) => {
-          const rwModules = practiceSet.modules.filter((m) => m.subject === "reading");
-          const mathModules = practiceSet.modules.filter((m) => m.subject === "math");
+          const rwModules = practiceSet.modules.filter((module) => module.subject === "reading");
+          const mathModules = practiceSet.modules.filter((module) => module.subject === "math");
           return (
             <div
               key={practiceSet.id}

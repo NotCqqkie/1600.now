@@ -4,12 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use custom regression for the matching slope",
-      "content": "For no solution, the $x$-coefficients must match while the constants differ. Enter $x_1=[1]$ in Desmos and regress the $x$-terms: $-\\frac{3}{19}rx_1\\sim-\\frac{5}{57}x_1$. Desmos returns $r=\\frac{5}{9}$.",
-      "desmosExpressions": [
-        "x_1=[1]",
-        "(-3/19)r x_1~(-5/57)x_1"
-      ]
+      "title": "Solve the unknown directly",
+      "content": "For no solution, the $x$-coefficients must match while the constants differ. Matching the $x$-coefficients gives $r=\\frac{5}{9}$."
     },
     {
       "title": "Confirm algebraically",

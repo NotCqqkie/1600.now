@@ -5,16 +5,15 @@
   "steps": [
     {
       "title": "Read the slope of line u",
-      "content": "Line $u$ is $y = 2x + 10$, so slope $= 2$."
+      "content": "Line $u$ is written as $y=2x+10$, so its slope is $2$."
     },
     {
-      "title": "Perpendicular slope = negative reciprocal",
-      "content": "Flip and negate: $-\\frac{1}{2}$. That matches choice C — <strong>C</strong> is correct.",
-      "formula": "$$m_{\\perp} = -\\frac{1}{m}$$"
+      "title": "Use perpendicular slopes",
+      "content": "Perpendicular slopes are negative reciprocals. The negative reciprocal of $2$ is $-\\frac{1}{2}$."
     },
     {
-      "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice C, $-\\frac{1}{2}$. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
+      "title": "Match the choice",
+      "content": "The slope of line $w$ is $-\\frac{1}{2}$, which matches choice <strong>C</strong>."
     }
   ]
 }

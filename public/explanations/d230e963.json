@@ -9,32 +9,15 @@
     },
     {
       "title": "Reject the negative-intercept choices",
-      "content": "Start by checking choices C and D. Both cross the $y$-axis at $-2.8$, below the origin. The displayed line crosses the $y$-axis above the origin, so C and D cannot match.",
-      "desmosExpressions": [
-        "y=-2.8+1.7x",
-        "y=-2.8-1.7x",
-        "(0,2.8)"
-      ]
+      "content": "Start by checking choices C and D. Both cross the $y$-axis at $-2.8$, below the origin. The displayed line crosses the $y$-axis above the origin, so C and D cannot match."
     },
     {
       "title": "Reject the negative-slope choice",
-      "content": "Now test choice B, $y=2.8-1.7x$. Its $y$-intercept is positive, but the line falls from left to right. The graph's best-fit line rises from left to right, so B is out.",
-      "desmosExpressions": [
-        "y=2.8-1.7x",
-        "(0,2.8)"
-      ]
+      "content": "Now test choice B, $y=2.8-1.7x$. Its $y$-intercept is positive, but the line falls from left to right. The graph's best-fit line rises from left to right, so B is out."
     },
     {
       "title": "Confirm the matching model",
-      "content": "Choice A, $y=2.8+1.7x$, is the only option with both features: a positive $y$-intercept and a positive slope. It matches the graph.",
-      "desmosExpressions": [
-        "y=2.8+1.7x",
-        "(0,2.8)"
-      ]
-    },
-    {
-      "title": "Confirm the model",
-      "content": "Choice <strong>A</strong>, $y=2.8+1.7x$, has both required graph features, so it is correct."
+      "content": "Choice <strong>A</strong>, $y=2.8+1.7x$, is the only option with both features: a positive $y$-intercept and a positive slope."
     }
   ]
 }

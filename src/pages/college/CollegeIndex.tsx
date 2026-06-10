@@ -12,15 +12,15 @@ const CollegeIndex = () => {
   const [query, setQuery] = useState("");
 
   const results = useMemo(() => {
-    const q = query.trim().toLowerCase();
-    if (!q) return colleges.slice(0, 60);
+    const normalizedQuery = query.trim().toLowerCase();
+    if (!normalizedQuery) return colleges.slice(0, 60);
     return colleges
       .filter(
-        (c) =>
-          c.name.toLowerCase().includes(q) ||
-          (c.alias?.toLowerCase().includes(q) ?? false) ||
-          (c.state?.toLowerCase() === q) ||
-          (c.city?.toLowerCase().includes(q) ?? false),
+        (college) =>
+          college.name.toLowerCase().includes(normalizedQuery) ||
+          (college.alias?.toLowerCase().includes(normalizedQuery) ?? false) ||
+          (college.state?.toLowerCase() === normalizedQuery) ||
+          (college.city?.toLowerCase().includes(normalizedQuery) ?? false),
       )
       .slice(0, 80);
   }, [query]);
@@ -79,29 +79,29 @@ const CollegeIndex = () => {
         <input
           type="text"
           value={query}
-          onChange={(e) => setQuery(e.target.value)}
+          onChange={(event) => setQuery(event.target.value)}
           placeholder="Search by name, state (e.g. CA), or city"
           className="w-full rounded-lg border border-border bg-background px-3 py-2"
         />
       </div>
 
       <ul className="mt-6 space-y-2">
-        {results.map((c) => (
+        {results.map((college) => (
           <li
-            key={c.slug}
+            key={college.slug}
             className="rounded-lg border border-border px-4 py-3"
           >
             <Link
-              to={`/college/${c.slug}`}
+              to={`/college/${college.slug}`}
               className="font-semibold hover:underline"
             >
-              {c.name}
+              {college.name}
             </Link>
             <div className="mt-1 text-sm text-muted-foreground">
-              {c.city && c.state ? `${c.city}, ${c.state}` : c.state}
-              {c.sat25 && c.sat75 && ` · SAT ${c.sat25}–${c.sat75}`}
-              {c.acceptanceRate != null &&
-                ` · ${formatPct(c.acceptanceRate)} acceptance`}
+              {college.city && college.state ? `${college.city}, ${college.state}` : college.state}
+              {college.sat25 && college.sat75 && ` · SAT ${college.sat25}–${college.sat75}`}
+              {college.acceptanceRate != null &&
+                ` · ${formatPct(college.acceptanceRate)} acceptance`}
             </div>
           </li>
         ))}
@@ -117,10 +117,10 @@ const CollegeIndex = () => {
       <section className="mt-10">
         <h2 className="text-2xl font-semibold tracking-tight">FAQs</h2>
         <div className="mt-4 space-y-5">
-          {faqs.map((f) => (
-            <div key={f.question}>
-              <h3 className="text-base font-semibold">{f.question}</h3>
-              <p className="mt-1 text-muted-foreground">{f.answer}</p>
+          {faqs.map((faq) => (
+            <div key={faq.question}>
+              <h3 className="text-base font-semibold">{faq.question}</h3>
+              <p className="mt-1 text-muted-foreground">{faq.answer}</p>
             </div>
           ))}
         </div>

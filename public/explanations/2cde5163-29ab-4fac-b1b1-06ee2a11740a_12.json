@@ -1,1 +1,15 @@
-{"questionId": "2cde5163-29ab-4fac-b1b1-06ee2a11740a_12", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The student's claim has two parts: people have (1) mixed feelings about cultured meat that (2) may be a barrier to adoption. The supporting quotation must show both — ambivalence toward cultured meat specifically, not just positive or negative views, and something that would actually block people from embracing it."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'believed ... good for the environment ... few ... willing to try eating it'</strong>: shows consumers holding conflicting views — positive belief but behavioral reluctance — which is exactly the &quot;mixed feelings&quot; that would be a barrier to adoption. &#10003;</li><li><strong>Choice B &mdash; 'less packaging ... significant effect on the environment'</strong>: concerns packaging for conventional meat, not cultured meat at all — irrelevant to the claim. &#10007;</li><li><strong>Choice C &mdash; 'Advocates of lab-grown meat claim it's safer'</strong>: presents only the positive side from advocates, not mixed feelings from consumers. &#10007;</li><li><strong>Choice D &mdash; 'flavor of meat from livestock differs across species'</strong>: describes variation in conventional livestock flavor — no connection to consumer attitudes about cultured meat. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "2cde5163-29ab-4fac-b1b1-06ee2a11740a_12",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The student's claim has two parts: people have (1) mixed feelings about cultured meat that (2) may be a barrier to adoption. The supporting quotation must show both — ambivalence toward cultured meat specifically, not just positive or negative views, and something that would actually block people from embracing it."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'believed... good for the environment... few... willing to try eating it'</strong>: shows consumers holding conflicting views — positive belief but behavioral reluctance — which is exactly the &quot;mixed feelings&quot; that would be a barrier to adoption. &#10003;</li><li><strong>Choice B &mdash; 'less packaging... significant effect on the environment'</strong>: concerns packaging for conventional meat, not cultured meat at all — irrelevant to the claim. &#10007;</li><li><strong>Choice C &mdash; 'Advocates of lab-grown meat claim it's safer'</strong>: presents only the positive side from advocates, not mixed feelings from consumers. &#10007;</li><li><strong>Choice D &mdash; 'flavor of meat from livestock differs across species'</strong>: describes variation in conventional livestock flavor — no connection to consumer attitudes about cultured meat. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

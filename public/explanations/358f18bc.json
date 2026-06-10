@@ -9,15 +9,11 @@
     },
     {
       "title": "Evaluate at the vertex",
-      "content": "Now compute the function value at $x=24$: $$f(24)=24^2-48(24)+2304=576-1152+2304=1728.$$",
-      "desmosExpressions": [
-        "y=x^2-48x+2304",
-        "(24,1728)"
-      ]
+      "content": "Now compute the function value at $x=24$: $$f(24)=24^2-48(24)+2304=576-1152+2304=1728.$$"
     },
     {
       "title": "Confirm the minimum",
-      "content": "The minimum value is <strong>1728</strong>. In Desmos, the graph is an upward-opening parabola with vertex $(24,1728)$, confirming that $1728$ is the least output value."
+      "content": "Because the parabola opens upward, the vertex gives the least output value. The minimum value is <strong>1728</strong>."
     }
   ]
 }

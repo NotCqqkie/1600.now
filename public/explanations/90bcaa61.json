@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the exponential form",
-      "content": "The model is $$f(t)=60{,}000\\cdot 2^{t/410}.$$ The $60{,}000$ is the starting amount. The factor $2^{t/410}$ tells how many doublings have occurred."
+      "title": "Identify the doubling factor",
+      "content": "The model is $$f(t)=60{,}000\\cdot2^{t/410}$$ The starting population is $60{,}000$, and the factor $2^{t/410}$ shows the growth multiplier."
     },
     {
-      "title": "Set one doubling",
-      "content": "One doubling means the multiplier should be $2$, so the exponent on base $2$ must be $1$: $$\\frac{t}{410}=1.$$"
+      "title": "Set the multiplier to 2",
+      "content": "For the population to double, the multiplier must be $2$: $$2^{t/410}=2^1$$ Therefore $$\\frac{t}{410}=1$$"
     },
     {
-      "title": "Solve and verify",
-      "content": "Solving gives $t=410$. At $t=410$, the model becomes $60{,}000\\cdot 2^1=120{,}000$, exactly double the initial population. The answer is <strong>410</strong>.",
-      "desmosExpressions": [
-        "y=60000*2^(x/410)",
-        "y=120000"
-      ]
+      "title": "Answer",
+      "content": "Since $\\frac{t}{410}=1$, multiply by $410$ to get $t=410$. The population doubles after <strong>410</strong> minutes."
     }
   ]
 }

@@ -9,11 +9,7 @@
     },
     {
       "title": "Evaluate the function at x = 4",
-      "content": "Substitute $x = 4$ into $f(x) = -40x + 280$:<br/>$$f(4) = -40(4) + 280$$<br/>$$f(4) = -160 + 280$$<br/>$$f(4) = 120$$<br/>The predicted height is 120 feet. That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y = -40x + 280",
-        "(4, 120)"
-      ]
+      "content": "Substitute $x = 4$ into $f(x) = -40x + 280$:<br/>$$f(4) = -40(4) + 280$$<br/>$$f(4) = -160 + 280$$<br/>$$f(4) = 120$$<br/>The predicted height is 120 feet. That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

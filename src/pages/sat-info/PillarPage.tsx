@@ -22,16 +22,16 @@ const PillarPage = () => {
   const url = `https://1600.now/${pillar.slug}`;
 
   const relatedSkills = (pillar.relatedSkillSlugs ?? [])
-    .map((s) => satSkillBySlug.get(s))
-    .filter((s): s is NonNullable<typeof s> => Boolean(s));
+    .map((relatedSlug) => satSkillBySlug.get(relatedSlug))
+    .filter((relatedSkill): relatedSkill is NonNullable<typeof relatedSkill> => Boolean(relatedSkill));
 
   const relatedPillars = (pillar.relatedPillarSlugs ?? [])
-    .map((s) => pillarBySlug.get(s))
-    .filter((p): p is NonNullable<typeof p> => Boolean(p));
+    .map((relatedSlug) => pillarBySlug.get(relatedSlug))
+    .filter((relatedPillar): relatedPillar is NonNullable<typeof relatedPillar> => Boolean(relatedPillar));
 
   const relatedBlogs = (pillar.relatedBlogSlugs ?? [])
-    .map((s) => blogPostBySlug.get(s))
-    .filter((p): p is NonNullable<typeof p> => Boolean(p));
+    .map((relatedSlug) => blogPostBySlug.get(relatedSlug))
+    .filter((relatedPost): relatedPost is NonNullable<typeof relatedPost> => Boolean(relatedPost));
 
   return (
     <article className="mx-auto max-w-3xl px-6 py-10">
@@ -73,15 +73,15 @@ const PillarPage = () => {
           <h2 className="text-2xl font-semibold tracking-tight">
             {section.heading}
           </h2>
-          {section.body.map((p, i) => (
-            <p key={i} className="mt-3 text-muted-foreground">
-              {p}
+          {section.body.map((paragraph, paragraphIndex) => (
+            <p key={paragraphIndex} className="mt-3 text-muted-foreground">
+              {paragraph}
             </p>
           ))}
           {section.list && (
             <ul className="mt-3 list-disc space-y-1 pl-6 text-muted-foreground">
-              {section.list.map((li) => (
-                <li key={li}>{li}</li>
+              {section.list.map((listItem) => (
+                <li key={listItem}>{listItem}</li>
               ))}
             </ul>
           )}
@@ -91,10 +91,10 @@ const PillarPage = () => {
       <section className="mt-12">
         <h2 className="text-2xl font-semibold tracking-tight">FAQs</h2>
         <div className="mt-4 space-y-5">
-          {pillar.faqs.map((f) => (
-            <div key={f.question}>
-              <h3 className="text-base font-semibold">{f.question}</h3>
-              <p className="mt-1 text-muted-foreground">{f.answer}</p>
+          {pillar.faqs.map((faq) => (
+            <div key={faq.question}>
+              <h3 className="text-base font-semibold">{faq.question}</h3>
+              <p className="mt-1 text-muted-foreground">{faq.answer}</p>
             </div>
           ))}
         </div>
@@ -106,15 +106,15 @@ const PillarPage = () => {
             Related SAT Skills
           </h2>
           <ul className="mt-4 grid gap-3 md:grid-cols-2">
-            {relatedSkills.map((s) => (
-              <li key={s.slug}>
+            {relatedSkills.map((skill) => (
+              <li key={skill.slug}>
                 <Link
-                  to={`/sat-skill/${s.slug}`}
+                  to={`/sat-skill/${skill.slug}`}
                   className="block rounded-xl border border-border p-4 transition hover:bg-muted"
                 >
-                  <div className="font-semibold">{s.name}</div>
+                  <div className="font-semibold">{skill.name}</div>
                   <p className="mt-1 text-sm text-muted-foreground">
-                    {s.shortDescription}
+                    {skill.shortDescription}
                   </p>
                 </Link>
               </li>
@@ -129,15 +129,15 @@ const PillarPage = () => {
             Related Guides
           </h2>
           <ul className="mt-4 grid gap-3 md:grid-cols-2">
-            {relatedPillars.map((p) => (
-              <li key={p.slug}>
+            {relatedPillars.map((relatedPillar) => (
+              <li key={relatedPillar.slug}>
                 <Link
-                  to={`/${p.slug}`}
+                  to={`/${relatedPillar.slug}`}
                   className="block rounded-xl border border-border p-4 transition hover:bg-muted"
                 >
-                  <div className="font-semibold">{p.title}</div>
+                  <div className="font-semibold">{relatedPillar.title}</div>
                   <p className="mt-1 text-sm text-muted-foreground">
-                    {p.metaDescription}
+                    {relatedPillar.metaDescription}
                   </p>
                 </Link>
               </li>
@@ -152,15 +152,15 @@ const PillarPage = () => {
             Related Blog Posts
           </h2>
           <ul className="mt-4 grid gap-3 md:grid-cols-2">
-            {relatedBlogs.map((b) => (
-              <li key={b.slug}>
+            {relatedBlogs.map((blogPost) => (
+              <li key={blogPost.slug}>
                 <Link
-                  to={`/blog/${b.slug}`}
+                  to={`/blog/${blogPost.slug}`}
                   className="block rounded-xl border border-border p-4 transition hover:bg-muted"
                 >
-                  <div className="font-semibold">{b.title}</div>
+                  <div className="font-semibold">{blogPost.title}</div>
                   <p className="mt-1 text-sm text-muted-foreground">
-                    {b.description}
+                    {blogPost.description}
                   </p>
                 </Link>
               </li>
@@ -175,13 +175,13 @@ const PillarPage = () => {
             Score Targets
           </h2>
           <ul className="mt-4 flex flex-wrap gap-2">
-            {pillar.relatedScoreTargets.map((n) => (
-              <li key={n}>
+            {pillar.relatedScoreTargets.map((scoreTarget) => (
+              <li key={scoreTarget}>
                 <Link
-                  to={`/sat-score/${n}`}
+                  to={`/sat-score/${scoreTarget}`}
                   className="inline-block rounded-lg border border-border px-3 py-1.5 text-sm hover:bg-muted"
                 >
-                  {n} SAT
+                  {scoreTarget} SAT
                 </Link>
               </li>
             ))}

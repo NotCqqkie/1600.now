@@ -9,11 +9,7 @@
     },
     {
       "title": "Compute the result",
-      "content": "Square first, then multiply.<br/>$$f(11)=4\\cdot 121=484$$<br/>That matches choice <strong>D</strong> — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "f(x) = 4x^2",
-        "(11, 484)"
-      ]
+      "content": "Square first, then multiply.<br/>$$f(11)=4\\cdot 121=484$$<br/>That matches choice <strong>D</strong> — <strong>D</strong> is correct."
     },
     {
       "title": "Confirm the answer",

@@ -67,20 +67,20 @@ const CountryTopicPage = () => {
       </h1>
       <p className="mt-4 text-lg text-muted-foreground">{page.intro}</p>
 
-      {page.sections.map((s) => (
-        <section key={s.heading} className="mt-10">
+      {page.sections.map((section) => (
+        <section key={section.heading} className="mt-10">
           <h2 className="text-2xl font-semibold tracking-tight">
-            {s.heading}
+            {section.heading}
           </h2>
-          {s.paragraphs.map((p, i) => (
-            <p key={i} className="mt-3 text-muted-foreground">
-              {p}
+          {section.paragraphs.map((paragraph, paragraphIndex) => (
+            <p key={paragraphIndex} className="mt-3 text-muted-foreground">
+              {paragraph}
             </p>
           ))}
-          {s.bullets && s.bullets.length > 0 && (
+          {section.bullets && section.bullets.length > 0 && (
             <ul className="mt-3 list-disc space-y-1 pl-6 text-muted-foreground">
-              {s.bullets.map((b, i) => (
-                <li key={i}>{b}</li>
+              {section.bullets.map((bullet, bulletIndex) => (
+                <li key={bulletIndex}>{bullet}</li>
               ))}
             </ul>
           )}
@@ -90,10 +90,10 @@ const CountryTopicPage = () => {
       <section className="mt-10">
         <h2 className="text-2xl font-semibold tracking-tight">FAQs</h2>
         <div className="mt-4 space-y-5">
-          {page.faqs.map((f) => (
-            <div key={f.question}>
-              <h3 className="text-base font-semibold">{f.question}</h3>
-              <p className="mt-1 text-muted-foreground">{f.answer}</p>
+          {page.faqs.map((faq) => (
+            <div key={faq.question}>
+              <h3 className="text-base font-semibold">{faq.question}</h3>
+              <p className="mt-1 text-muted-foreground">{faq.answer}</p>
             </div>
           ))}
         </div>

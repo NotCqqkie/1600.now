@@ -5,12 +5,7 @@
   "steps": [
     {
       "title": "Extract temperature values from the scatterplot",
-      "content": "This is not a regression problem; it asks for the biggest one-step increase. Read the plotted points and put them in a Desmos table if needed: $(1,69)$, $(2,60)$, $(3,73)$, $(4,68)$, $(5,64)$, $(6,62)$, and $(7,65)$.",
-      "desmosExpressions": [
-        "x_1=[1,2,3,4,5,6,7]",
-        "y_1=[69,60,73,68,64,62,65]",
-        "(x_1,y_1)"
-      ]
+      "content": "This is not a modeling problem; it asks for the biggest one-step increase. Read the plotted points from left to right: $(1,69)$, $(2,60)$, $(3,73)$, $(4,68)$, $(5,64)$, $(6,62)$, and $(7,65)$."
     },
     {
       "title": "Calculate the temperature change for each interval",

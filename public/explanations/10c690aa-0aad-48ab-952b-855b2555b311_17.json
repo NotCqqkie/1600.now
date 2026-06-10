@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recover the source equation",
-      "content": "The question references \"the given equation\" relating $p$, $x$, and $y$. Based on the answer choices and the correct result $y = px + 34$, the source equation is most likely:<br/><br/>$$\\frac{y - 34}{x} = p$$<br/><br/>This states that $p$ equals the quantity $y - 34$ divided by $x$."
+      "title": "Start with the given equation",
+      "content": "The given equation is $\\frac{y - 34}{x} = p$. To express $y$ in terms of $p$ and $x$, isolate $y$."
     },
     {
       "title": "Isolate y algebraically",

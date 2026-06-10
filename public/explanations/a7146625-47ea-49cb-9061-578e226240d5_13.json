@@ -10,11 +10,7 @@
     },
     {
       "title": "Read the center and radius from the given equation",
-      "content": "Given $(x-14)^{2}+(y-k)^{2}=36$:<ul><li>Center: $(h, k) = (14, k)$ from the shifted terms</li><li>Radius: $r = \\sqrt{36} = 6$ from the constant</li></ul>That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "(x-14)^2 + (y-2)^2 = 36",
-        "(14, 2)"
-      ]
+      "content": "Given $(x-14)^{2}+(y-k)^{2}=36$:<ul><li>Center: $(h, k) = (14, k)$ from the shifted terms</li><li>Radius: $r = \\sqrt{36} = 6$ from the constant</li></ul>That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

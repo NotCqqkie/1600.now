@@ -1,1 +1,19 @@
-{"questionId": "1a8126aa", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Map the two sentences", "content": "Sentence 1: the researchers tasted the stew and found it mild and calming. Sentence 2: knowing dishes were sometimes named for their effects, they theorized the name &quot;unwinding&quot; described its function. The second sentence is a conclusion drawn from the first sentence's observation."}, {"title": "Identify the needed relationship", "content": "Observation &rarr; conclusion built on that observation calls for a cause-effect transition. &quot;Therefore&quot; signals exactly that: because they experienced the calming effect, they reached this theory about the name."}, {"title": "Eliminate the wrong relationships", "content": "<ul><li><strong>Choice A &mdash; 'Therefore,'</strong>: marks the second sentence as a conclusion drawn from the first &mdash; the relationship the passage actually has. &#10003;</li><li><strong>Choice B &mdash; 'Alternately,'</strong>: signals a different option or alternative explanation, but sentence 2 is the only explanation offered &mdash; nothing is being swapped in. &#10007;</li><li><strong>Choice C &mdash; 'Nevertheless,'</strong>: signals contrast, but sentence 2 doesn't push back against sentence 1 &mdash; it builds on it. &#10007;</li><li><strong>Choice D &mdash; 'Likewise,'</strong>: signals a parallel similar case, but sentence 2 isn't a second instance of the same thing &mdash; it's an inference. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
+{
+  "questionId": "1a8126aa",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Map the two sentences",
+      "content": "Sentence 1: the researchers tasted the stew and found it mild and calming. Sentence 2: knowing dishes were sometimes named for their effects, they theorized the name &quot;unwinding&quot; described its function. The second sentence is a conclusion drawn from the first sentence's observation."
+    },
+    {
+      "title": "Identify the needed relationship",
+      "content": "Observation $\\Rightarrow$ conclusion built on that observation calls for a cause-effect transition. &quot;Therefore&quot; signals exactly that: because they experienced the calming effect, they reached this theory about the name."
+    },
+    {
+      "title": "Eliminate the wrong relationships",
+      "content": "<ul><li><strong>Choice A &mdash; 'Therefore,'</strong>: marks the second sentence as a conclusion drawn from the first &mdash; the relationship the passage actually has. &#10003;</li><li><strong>Choice B &mdash; 'Alternately,'</strong>: signals a different option or alternative explanation, but sentence 2 is the only explanation offered &mdash; nothing is being swapped in. &#10007;</li><li><strong>Choice C &mdash; 'Nevertheless,'</strong>: signals contrast, but sentence 2 doesn't push back against sentence 1 &mdash; it builds on it. &#10007;</li><li><strong>Choice D &mdash; 'Likewise,'</strong>: signals a parallel similar case, but sentence 2 isn't a second instance of the same thing &mdash; it's an inference. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

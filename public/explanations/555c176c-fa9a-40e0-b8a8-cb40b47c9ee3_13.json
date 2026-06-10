@@ -17,7 +17,7 @@
     },
     {
       "title": "Confirm the answer",
-      "content": "As a final check, make sure the computed value answers exactly what the question asks for. The work above gives $13.86$; substituting or interpreting it in the original condition satisfies the requirement, so $13.86$ is the value to enter."
+      "content": "The question asks for the change in $F$, and the calculation above gives that change directly. Therefore the answer is <strong>13.86</strong>."
     }
   ]
 }

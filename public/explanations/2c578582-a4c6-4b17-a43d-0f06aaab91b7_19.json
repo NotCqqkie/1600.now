@@ -5,19 +5,15 @@
   "steps": [
     {
       "title": "Isolate the absolute value",
-      "content": "Divide both sides of $2|x - 5| = k$ by 2: $$|x - 5| = \\frac{k}{2}$$ An absolute value equation $|A| = c$ has: (1) two solutions when $c > 0$; (2) exactly one solution when $c = 0$; (3) no solutions when $c < 0$."
+      "content": "Divide both sides of $2|x - 5| = k$ by $2$: $$|x - 5| = \\frac{k}{2}$$ For an equation of the form $|A|=c$, the number of solutions depends on $c$: positive gives two solutions, zero gives one solution, and negative gives no solutions."
     },
     {
-      "title": "Determine k/2 and test all choices",
-      "content": "For exactly one solution, we need $\\frac{k}{2} = 0$, giving $|x-5| = 0 \\implies x = 5$.<ul><li><strong>Choice A &mdash; -5 only</strong>: $\\frac{k}{2} = -5 < 0$ means no solutions. &#10007;</li><li><strong>Choice B &mdash; -5 or 5</strong>: $\\frac{k}{2} = -5$ gives no solutions; $\\frac{k}{2} = 5 > 0$ gives two solutions. Neither gives exactly one. &#10007;</li><li><strong>Choice C &mdash; 0 only</strong>: $\\frac{k}{2} = 0 \\implies |x-5| = 0 \\implies x = 5$. Exactly one solution. &#10003;</li><li><strong>Choice D &mdash; 5 only</strong>: $\\frac{k}{2} = 5 > 0 \\implies |x-5| = 5$ gives two solutions $x = 0$ and $x = 10$. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y = 2|x - 5|",
-        "y = k"
-      ]
+      "title": "Find the value that gives one solution",
+      "content": "To have exactly one solution, the right side must be $0$: $$\\frac{k}{2}=0$$ Then $|x-5|=0$, so the only solution is $x=5$."
+    },
+    {
+      "title": "Match the choice",
+      "content": "The only possible value of $\\frac{k}{2}$ is $0$. That matches choice <strong>C</strong>."
     }
-  ],
-  "desmosExpressions": [
-    "y = 2|x - 5|",
-    "y = 0"
   ]
 }

@@ -4,15 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the discriminant test",
-      "content": "For a quadratic $ax^2+bx+c=0$, no real solution means the discriminant is negative: $b^2-4ac\\lt0$. Here $a=-2$ and $c=-32$, so $$b^2-4(-2)(-32)\\lt0.$$"
+      "title": "Translate no real solutions into an inequality",
+      "content": "The question asks for the greatest positive integer $b$ that makes the quadratic have no real solution. For a quadratic, no real solution means the graph does not cross the $x$-axis, so the discriminant must be negative: $b^2-4ac\\lt0$. Here $a=-2$ and $c=-32$, so $$b^2-4(-2)(-32)\\lt0.$$"
     },
     {
       "title": "Find the allowable values of b",
-      "content": "Simplify the inequality: $$b^2-256\\lt0$$ $$b^2\\lt256.$$ Thus $-16\\lt b\\lt16$. Since the question says $b$ is a positive integer, the possible values are $1$ through $15$.",
-      "desmosExpressions": [
-        "x^2-256<0"
-      ]
+      "content": "Simplify the inequality: $$b^2-256\\lt0$$ $$b^2\\lt256.$$ Thus $-16\\lt b\\lt16$. Since the question says $b$ is a positive integer, the possible values are $1$ through $15$."
     },
     {
       "title": "Pick the largest integer",

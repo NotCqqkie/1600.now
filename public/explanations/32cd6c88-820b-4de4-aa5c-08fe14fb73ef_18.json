@@ -9,11 +9,7 @@
     },
     {
       "title": "Find $10x$",
-      "content": "$10x = 1470$. The answer is <strong>1470</strong>.",
-      "desmosExpressions": [
-        "y = \\frac{29 - x/7}{5} + 14",
-        "y = \\frac{x/3 - 41}{5} + 14"
-      ]
+      "content": "$10x = 1470$. The answer is <strong>1470</strong>."
     }
   ]
 }

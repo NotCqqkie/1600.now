@@ -9,11 +9,7 @@
     },
     {
       "title": "Determine y and select the choice",
-      "content": "Thus the y‑intercept value is $$y=5$$.<br/>The answer is <strong>5</strong>.",
-      "desmosExpressions": [
-        "f(x) = 5 \\cdot 2^{x}",
-        "(0, 5)"
-      ]
+      "content": "Thus the y‑intercept value is $$y=5$$.<br/>The answer is <strong>5</strong>."
     },
     {
       "title": "Confirm the answer",

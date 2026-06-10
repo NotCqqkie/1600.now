@@ -5,14 +5,11 @@
   "steps": [
     {
       "title": "Solve the quadratic",
-      "content": "Apply the quadratic formula to $w^2+8w-28=0$ with $a=1, b=8, c=-28$: $$w=\\frac{-8\\pm\\sqrt{64+112}}{2}=\\frac{-8\\pm\\sqrt{176}}{2}.$$ Since $\\sqrt{176}=4\\sqrt{11}$, $w=-4\\pm 2\\sqrt{11}$."
+      "content": "This is a quadratic equation, so the goal is to find its roots. The quadratic formula is a direct way to solve it when simple factoring is not the focus. Apply the quadratic formula to $w^2+8w-28=0$ with $a=1, b=8, c=-28$: $$w=\\frac{-8\\pm\\sqrt{64+112}}{2}=\\frac{-8\\pm\\sqrt{176}}{2}.$$ Since $\\sqrt{176}=4\\sqrt{11}$, $w=-4\\pm 2\\sqrt{11}$."
     },
     {
       "title": "Identify the matching solution",
-      "content": "The two solutions are $-4+2\\sqrt{11}$ and $-4-2\\sqrt{11}$. That matches choice <strong>D</strong> — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y = w^{2} + 8w - 28"
-      ]
+      "content": "The two solutions are $-4+2\\sqrt{11}$ and $-4-2\\sqrt{11}$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."
     },
     {
       "title": "Confirm the answer",

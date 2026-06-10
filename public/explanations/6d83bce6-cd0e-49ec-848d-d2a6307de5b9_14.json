@@ -9,17 +9,11 @@
     },
     {
       "title": "Subtract to get the volatile total",
-      "content": "The remaining $125$ compounds are volatile, so their total boiling point is:<br/>$$175\\cdot167-50\\cdot322=13,125$$",
-      "desmosExpressions": [
-        "175*167-50*322"
-      ]
+      "content": "The remaining $125$ compounds are volatile, so their total boiling point is:<br/>$$175\\cdot167-50\\cdot322=13,125$$"
     },
     {
       "title": "Divide by the 125 volatile compounds",
-      "content": "Mean equals total divided by count:<br/>$$\\frac{13,125}{125}=105$$<br/>The mean boiling point of the volatile compounds is <strong>105</strong> degrees Celsius.",
-      "desmosExpressions": [
-        "(175*167-50*322)/125"
-      ]
+      "content": "Mean equals total divided by count:<br/>$$\\frac{13,125}{125}=105$$<br/>The mean boiling point of the volatile compounds is <strong>105</strong> degrees Celsius."
     }
   ]
 }

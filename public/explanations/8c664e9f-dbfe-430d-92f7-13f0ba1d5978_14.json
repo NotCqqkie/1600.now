@@ -13,11 +13,7 @@
     },
     {
       "title": "Answer",
-      "content": "<strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y = \\frac{9x + 14}{4}",
-        "y = \\frac{23 - 5x}{4}"
-      ]
+      "content": "<strong>D</strong> is correct."
     },
     {
       "title": "Confirm the answer",

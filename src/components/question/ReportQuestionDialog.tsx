@@ -42,10 +42,12 @@ export const ReportQuestionDialog = ({
     setExisting(null);
     let cancelled = false;
     getQuestionReport(questionId)
-      .then((r) => {
-        if (!cancelled) setExisting(r);
+      .then((report) => {
+        if (!cancelled) setExisting(report);
       })
-      .catch(() => {});
+      .catch(() => {
+        if (!cancelled) setExisting(null);
+      });
     return () => {
       cancelled = true;
     };
@@ -93,12 +95,12 @@ export const ReportQuestionDialog = ({
               {existing.totalReports === 1 ? "time" : "times"}
             </div>
             <ul className="mt-1 space-y-0.5">
-              {REPORT_REASONS.map((r) => {
-                const n = existing.counts?.[r.key] ?? 0;
-                if (!n) return null;
+              {REPORT_REASONS.map((reason) => {
+                const count = existing.counts?.[reason.key] ?? 0;
+                if (!count) return null;
                 return (
-                  <li key={r.key}>
-                    {r.label}: {n}
+                  <li key={reason.key}>
+                    {reason.label}: {count}
                   </li>
                 );
               })}
@@ -108,18 +110,18 @@ export const ReportQuestionDialog = ({
         )}
 
         <div className="space-y-2">
-          {REPORT_REASONS.map((r) => (
+          {REPORT_REASONS.map((reason) => (
             <label
-              key={r.key}
-              htmlFor={`report-${r.key}`}
+              key={reason.key}
+              htmlFor={`report-${reason.key}`}
               className="flex cursor-pointer items-center gap-2 text-sm"
             >
               <Checkbox
-                id={`report-${r.key}`}
-                checked={selected.has(r.key)}
-                onCheckedChange={() => toggle(r.key)}
+                id={`report-${reason.key}`}
+                checked={selected.has(reason.key)}
+                onCheckedChange={() => toggle(reason.key)}
               />
-              <span>{r.label}</span>
+              <span>{reason.label}</span>
             </label>
           ))}
         </div>

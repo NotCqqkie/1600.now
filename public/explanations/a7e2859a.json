@@ -1,10 +1,19 @@
 {
-  "qid": "a7e2859a",
+  "questionId": "a7e2859a",
+  "correctAnswer": "A",
+  "section": "Math",
   "steps": [
-    "Day 1 costs $430. Each additional day costs $215. For $x$ days there are $(x-1)$ additional days.",
-    "Total cost: $y = 430 + 215(x-1) = 430 + 215x - 215 = 215x + 215$.",
-    "Verify: $x=1 \\Rightarrow y=430$ ✓; $x=2 \\Rightarrow y=645=430+215$ ✓"
-  ],
-  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; '$y=215x+215$'</strong>: $x=1 \\Rightarrow y=430$ ✓, $x=2 \\Rightarrow y=645$ ✓. Matches the pricing structure. &#10003;</li><li><strong>Choice B &mdash; '$y=430x-215$'</strong>: $x=1 \\Rightarrow y=215$, but first day costs $430. &#10007;</li><li><strong>Choice C &mdash; '$y=430x+215$'</strong>: $x=1 \\Rightarrow y=645$, but first day costs $430. &#10007;</li><li><strong>Choice D &mdash; '$y=215x+430$'</strong>: $x=1 \\Rightarrow y=645$, but first day costs $430. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.",
-  "correctAnswer": "A"
+    {
+      "title": "Set up the cost",
+      "content": "The first day costs &#36;430. Each additional day costs &#36;215. For $x$ total days, there are $x-1$ additional days."
+    },
+    {
+      "title": "Write the equation",
+      "content": "The total cost is $$y=430+215(x-1)$$ Simplify: $$y=430+215x-215=215x+215$$"
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "When $x=1$, the equation gives $y=430$, the first-day cost. When $x=2$, it gives $y=645$, which is $430+215$. That matches choice A, so <strong>A</strong> is correct."
+    }
+  ]
 }

@@ -5,8 +5,7 @@
   "steps": [
     {
       "title": "Understand margin of error and sample size",
-      "content": "The margin of error represents the range of uncertainty in an estimate. A smaller margin of error indicates a more precise estimate. For a given population and confidence level, margin of error depends on sample size: larger samples produce smaller margins of error.",
-      "formula": "$$ME = z \\cdot \\frac{s}{\\sqrt{n}}$$"
+      "content": "The margin of error represents the range of uncertainty in an estimate. A smaller margin of error indicates a more precise estimate. For a given population and confidence level, margin of error depends on sample size: larger samples produce smaller margins of error."
     },
     {
       "title": "Apply the relationship to determine which sample was larger",

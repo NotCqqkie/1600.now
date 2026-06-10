@@ -9,11 +9,7 @@
     },
     {
       "title": "Find $2x$",
-      "content": "$2x = 12$. That matches choice <strong>C</strong> — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y = \\frac{-x - 5}{9}",
-        "y = \\frac{x - 17}{9}"
-      ]
+      "content": "$2x = 12$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."
     },
     {
       "title": "Confirm the answer",

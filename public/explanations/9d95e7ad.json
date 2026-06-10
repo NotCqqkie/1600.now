@@ -9,12 +9,7 @@
     },
     {
       "title": "Fit two points from the line",
-      "content": "Two approximate points on the line are $(20,34)$ and $(30,48)$. Entering them in Desmos gives the slope directly.",
-      "desmosExpressions": [
-        "x_1=[20,30]",
-        "y_1=[34,48]",
-        "y_1~m x_1+b"
-      ]
+      "content": "Two approximate points on the line are $(20,34)$ and $(30,48)$. Using those points gives the slope directly."
     },
     {
       "title": "Compute and compare",

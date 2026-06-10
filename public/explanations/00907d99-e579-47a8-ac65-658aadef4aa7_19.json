@@ -13,12 +13,7 @@
     },
     {
       "title": "Answer",
-      "content": "<strong>48</strong> is correct.",
-      "desmosExpressions": [
-        "y = 8x + 4",
-        "y = 8x",
-        "(6, 48)"
-      ]
+      "content": "<strong>48</strong> is correct."
     }
   ]
 }

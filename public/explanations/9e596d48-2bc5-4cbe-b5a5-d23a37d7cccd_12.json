@@ -4,14 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use Desmos to fit the exponential table",
-      "content": "Enter the table values as $x_1=[0,1,2]$ and $y_1=[867,870.47,873.95]$. Then type the exponential regression row $y_1 \\sim a b^{x_1}$. Desmos returns $a=867$ and $b\\approx 1.004$, so the graphable model is $y=867(1.004)^x$.",
-      "desmosExpressions": [
-        "x_1=[0,1,2]",
-        "y_1=[867,870.47,873.95]",
-        "y_1~a b^{x_1}",
-        "y=867(1.004)^x"
-      ]
+      "title": "Find the exponential pattern",
+      "content": "Use the exponential form $y=ab^x$. The table starts at $867$, so $a=867$. The values increase by about $0.4%$ each step, so the multiplier is $b=1.004$. The model is $$y=867(1.004)^x.$$"
     },
     {
       "title": "Match the model to the choices",

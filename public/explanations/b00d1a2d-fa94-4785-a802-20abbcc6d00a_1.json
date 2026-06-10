@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify initial and target concentrations from the graph",
-      "content": "At the initial measurement (x = 0), the concentration is approximately 10 million cells per mL. We need to find the time when the concentration reaches 20 million cells per mL."
+      "content": "Read the values directly from the graph. At the initial measurement, $x=0$, the concentration is about $10$ million cells per mL. The question asks how long it takes to reach $20$ million cells per mL."
     },
     {
       "title": "Find the time value where concentration equals 20 million",
-      "content": "Locating the horizontal line at y = 20 on the graph, trace to where it meets the curve. Reading down vertically to the x-axis, this intersection occurs at approximately x = 35 minutes. That matches choice B — <strong>B</strong> is correct."
+      "content": "On the graph, move across from $20$ on the concentration axis until you meet the curve, then read down to the time axis. The time is closest to $35$ minutes, so choice B is correct."
     }
   ]
 }

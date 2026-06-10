@@ -13,11 +13,7 @@
     },
     {
       "title": "Answer",
-      "content": "The possible values of $y$ are 31 and 64. Only 64 appears among the choices, so <strong>D (64)</strong> is correct.",
-      "desmosExpressions": [
-        "y = x + 32",
-        "y = x^2 - 30x"
-      ]
+      "content": "The possible values of $y$ are 31 and 64. Only 64 appears among the choices, so <strong>D (64)</strong> is correct."
     }
   ]
 }

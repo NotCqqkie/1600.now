@@ -4,12 +4,11 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use Desmos to fit the table",
-      "content": "Enter three table points as $x_1=[0,3,6]$ and $y_1=[46,34,22]$. Then type the linear regression row $y_1 \\sim m x_1+b$. Desmos returns $m=-4$ and $b=46$, so the line is $y=-4x+46$.",
+      "title": "Find the line from the table",
+      "content": "Use the table points directly. From $(0,46)$ to $(3,34)$, the slope is $m=\\frac{34-46}{3-0}=-4.$ Substituting a point into $y=mx+b$ gives $b=46$.",
       "desmosExpressions": [
         "x_1=[0,3,6]",
         "y_1=[46,34,22]",
-        "y_1~m x_1+b",
         "y=-4x+46"
       ]
     },

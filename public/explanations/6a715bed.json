@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Restrict to the conditional sample",
-      "content": "The condition <em>at least 10 years</em> keeps only the 10–19 and 20+ columns. From the table, those columns total $30+30=60$ participants. Group A within those columns contributes $14+9=23$."
+      "content": "The condition <em>at least 10 years</em> keeps only the 10-19 and 20+ columns. From the table, those columns total $30+30=60$ participants. Group A within those columns contributes $14+9=23$."
     },
     {
       "title": "Apply the conditional probability formula",

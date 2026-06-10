@@ -5,21 +5,11 @@
   "steps": [
     {
       "title": "Read the graphed line",
-      "content": "The line shown is $y=f(x)+11$. Use two clear grid points in Desmos: $(-4,9)$ and $(0,1)$. A linear regression gives slope $-2$ and intercept $1$, so the shown line is $y=-2x+1$.",
-      "desmosExpressions": [
-        "x_1=[-4,0]",
-        "y_1=[9,1]",
-        "y_1~m x_1+b",
-        "y=-2x+1"
-      ]
+      "content": "The line shown is $y=f(x)+11$. Two clear grid points on that line are $(-4,9)$ and $(0,1)$. The slope is $$\\frac{1-9}{0-(-4)}=\\frac{-8}{4}=-2,$$ and the $y$-intercept is $1$, so the shown line is $y=-2x+1$."
     },
     {
       "title": "Solve for $f(x)$",
-      "content": "Subtract $11$ from both sides: $$f(x)+11=-2x+1$$ $$f(x)=-2x+1-11=-2x-10$$",
-      "desmosExpressions": [
-        "y=-2x+1",
-        "y=-2x-10"
-      ]
+      "content": "Subtract $11$ from both sides: $$f(x)+11=-2x+1$$ $$f(x)=-2x+1-11=-2x-10$$"
     },
     {
       "title": "Match to the form with positive $c,d$",

@@ -17,11 +17,7 @@
     },
     {
       "title": "Conclusion: neither equation displays its minimum as a coefficient",
-      "content": "Both functions are increasing exponentials whose infimums are never actually attained on the domain $x > 0$. Even if we consider the infimum, it is not a displayed constant or coefficient in either equation. That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "f(x) = 18(1.4)^{x+5}",
-        "g(x) = 18 \\cdot 1.16 \\cdot 1.4^{x+3}"
-      ]
+      "content": "Both functions are increasing exponentials whose infimums are never actually attained on the domain $x > 0$. Even if we consider the infimum, it is not a displayed constant or coefficient in either equation. That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

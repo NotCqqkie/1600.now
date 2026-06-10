@@ -5,16 +5,15 @@
   "steps": [
     {
       "title": "Model the rental cost",
-      "content": "Renting for $x$ days costs:<ul><li>$270 for the first day (flat)</li><li>$135 for each additional day</li></ul>Additional days = $(x - 1)$, so:<br/>$$y = 270 + 135(x - 1)$$"
+      "content": "Renting for $x$ days costs:<ul><li>&#36;270 for the first day</li><li>&#36;135 for each additional day</li></ul>There are $x-1$ additional days, so $$y=270+135(x-1)$$"
     },
     {
       "title": "Expand to match the answer choice format",
-      "content": "$$y = 270 + 135x - 135 = 135x + 135$$<br/>Verify with $x = 1$: $y = 135(1) + 135 = 270$. Correct — only the first-day rate. Verify with $x = 2$: $y = 135(2) + 135 = 405 = 270 + 135$. Correct."
+      "content": "$$y=270+135x-135=135x+135$$ Check $x=1$: $135(1)+135=270$, which is the one-day cost."
     },
     {
-      "title": "Evaluate all choices",
-      "content": "<ul><li><strong>Choice A &mdash; '$y = 270x - 135$'</strong>: At $x=1$, gives $270 - 135 = 135$. But renting for 1 day should cost $270. &#10007;</li><li><strong>Choice B &mdash; '$y = 270x + 135$'</strong>: At $x=1$, gives $270 + 135 = 405$. Way too high for a single day. &#10007;</li><li><strong>Choice C &mdash; '$y = 135x + 270$'</strong>: At $x=1$, gives $135 + 270 = 405$. Too high. &#10007;</li><li><strong>Choice D &mdash; '$y = 135x + 135$'</strong>: At $x=1$, gives $135 + 135 = 270$. Correct. At $x=2$, gives $405 = 270 + 135$. Correct. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "title": "Match the choice",
+      "content": "The equation $y=135x+135$ matches choice <strong>D</strong>."
     }
-  ],
-  "explanation": "<ul><li><strong>Choice A &mdash; '$y = 270x - 135$'</strong>: At $x = 1$ gives $135$, not the required $270. &#10007;</li><li><strong>Choice B &mdash; '$y = 270x + 135$'</strong>: At $x = 1$ gives $405$ — far too high; also grows at $270 per day rather than $135. &#10007;</li><li><strong>Choice C &mdash; '$y = 135x + 270$'</strong>: At $x = 1$ gives $405$; the intercept should be $135$, not $270. &#10007;</li><li><strong>Choice D &mdash; '$y = 135x + 135$'</strong>: Derived from $270 + 135(x-1) = 135x + 135$; gives $270$ at $x=1$ and $405$ at $x=2$. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+  ]
 }

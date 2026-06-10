@@ -4,22 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Make two points from the slope",
-      "content": "The condition $f(0)=3$ gives the point $(0,3)$. A slope of $69$ means one step to the right raises $y$ by $69$, so another point is $(1,72)$. Enter those two rows in Desmos.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[3,72]"
-      ]
+      "title": "Use slope-intercept form",
+      "content": "A linear function can be written as $f(x)=mx+b$, where $m$ is the slope and $b=f(0)$."
     },
     {
-      "title": "Run the linear regression",
-      "content": "Use $y_1 \\sim mx_1+b$. Desmos returns $m=69$ and $b=3$, so the function is $f(x)=69x+3$.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[3,72]",
-        "y_1~m x_1+b",
-        "y=69x+3"
-      ]
+      "title": "Substitute the values",
+      "content": "The slope is $69$, so $m=69$. The value $f(0)=3$ means the $y$-intercept is $3$, so $b=3$. Therefore $$f(x)=69x+3.$$"
     },
     {
       "title": "Confirm the answer",

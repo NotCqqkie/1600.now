@@ -9,10 +9,7 @@
     },
     {
       "title": "Match the given solution to extract the discriminant",
-      "content": "The given solution is $x = \\frac{9-\\sqrt{725}}{14}$, which matches our formula with the minus sign and discriminant 725. Therefore:<br/>$$221 - 28c = 725$$<br/>$$-28c = 504$$<br/>$$c = -18$$",
-      "desmosExpressions": [
-        "y = 7x^{2} - 9x - 23"
-      ]
+      "content": "The given solution is $x = \\frac{9-\\sqrt{725}}{14}$, which matches our formula with the minus sign and discriminant 725. Therefore:<br/>$$221 - 28c = 725$$<br/>$$-28c = 504$$<br/>$$c = -18$$"
     }
   ]
 }

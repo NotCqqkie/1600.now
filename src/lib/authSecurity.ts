@@ -64,7 +64,7 @@ const readAttemptState = (key: string): AttemptState => {
     const parsed = JSON.parse(raw) as Partial<AttemptState>;
     return {
       attempts: Array.isArray(parsed.attempts)
-        ? parsed.attempts.filter((n) => Number.isFinite(n))
+        ? parsed.attempts.filter((attemptTimestamp) => Number.isFinite(attemptTimestamp))
         : [],
       lockedUntil: Number.isFinite(parsed.lockedUntil) ? parsed.lockedUntil : undefined,
     };

@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The function is $f(x)=3{,}600(0.28)^{x/12}$ where $x$ is months. Each time $x$ increases by 12, the exponent increases by 1, so the value is multiplied by 0.28 every year. The equipment keeps 28% of its value each year, meaning it loses $100\\%-28\\%=72\\%$ per year. The question asks for $p$ where the equipment decreases by $p\\%$ each year."
+      "title": "Interpret the exponent",
+      "content": "The exponent is $\\frac{x}{12}$, so increasing $x$ by $12$ months increases the exponent by $1$."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; '2'</strong>: The base is 0.28, not 0.02. &#10007;</li><li><strong>Choice B &mdash; '10'</strong>: No part of the function gives 10. &#10007;</li><li><strong>Choice C &mdash; '28'</strong>: 0.28 is the fraction kept each year, not the fraction lost. &#10007;</li><li><strong>Choice D &mdash; '72'</strong>: $100\\%-28\\%=72\\%$ lost per year, so $p=72$. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "title": "Read the yearly multiplier",
+      "content": "Each year, the value is multiplied by $0.28$. That means the equipment keeps $28\\%$ of its value each year."
+    },
+    {
+      "title": "Find the percent decrease",
+      "content": "If $28\\%$ is kept, then $100\\%-28\\%=72\\%$ is lost. Thus $p=72$, which matches choice <strong>D</strong>."
     }
   ]
 }

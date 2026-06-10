@@ -50,8 +50,8 @@ const lerp = (start: number, end: number, amount: number) =>
   start + (end - start) * amount;
 
 const smoothstep = (value: number) => {
-  const x = clamp(value, 0, 1);
-  return x * x * (3 - 2 * x);
+  const clampedValue = clamp(value, 0, 1);
+  return clampedValue * clampedValue * (3 - 2 * clampedValue);
 };
 
 const roundToTen = (value: number) =>

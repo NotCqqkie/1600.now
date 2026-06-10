@@ -5,15 +5,11 @@
   "steps": [
     {
       "title": "Use the vertical-shift shortcut",
-      "content": "No new regression is needed. Data set B subtracts $9$ from every $y$-value in data set A, so the entire line of best fit shifts down $9$ units. The slope is unchanged, and the $y$-intercept is $9$ less."
+      "content": "Data set B subtracts $9$ from every $y$-value in data set A, so the entire line of best fit shifts down $9$ units. The slope is unchanged, and the $y$-intercept is $9$ less."
     },
     {
       "title": "Adjust the intercept",
-      "content": "The drawn line for data set A has $y$-intercept about $54.57$. Shift it down by $9$: $54.57-9=45.57$.",
-      "desmosExpressions": [
-        "y=54.57",
-        "y=45.57"
-      ]
+      "content": "The drawn line for data set A has $y$-intercept about $54.57$. Shift it down by $9$: $54.57-9=45.57$."
     },
     {
       "title": "Confirm the answer",

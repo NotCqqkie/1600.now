@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the given $x$-value",
-      "content": "The first equation gives $x=10$. Substitute that into $y=x+21$: $$y=10+21.$$"
+      "title": "Use the given x-value",
+      "content": "The first equation gives $x=10$."
     },
     {
-      "title": "Find $y$",
-      "content": "$$y=31.$$"
+      "title": "Substitute into the second equation",
+      "content": "Using $y=x+21$, substitute $x=10$: $y=10+21=31$."
     },
     {
-      "title": "Check the choices",
-      "content": "Choice D is correct. Choice B is the value of $x$, not $y$. Choice C leaves off the added $10$, and choice A is unrelated to the substitution.",
-      "desmosExpressions": [
-        "x=10",
-        "y=x+21"
-      ]
+      "title": "Match the choice",
+      "content": "The value of $y$ is $31$, which matches choice <strong>D</strong>."
+    },
+    {
+      "title": "Keep x and y separate",
+      "content": "Choice B gives the value of $x$, not $y$. The question asks for $y$, so after using $x=10$, the second equation must still be evaluated to get $31$."
     }
   ]
 }

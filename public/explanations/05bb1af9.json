@@ -5,25 +5,15 @@
   "steps": [
     {
       "title": "Fit the shown line first",
-      "content": "The graph shows $y=f(x)+14$. Put two clear points from the line into Desmos: $(0,2)$ and $(4,1)$. The regression line has slope $-\\frac{1}{4}$ and y-intercept $2$, so the graphed line is $y=-\\frac{1}{4}x+2$.",
-      "desmosExpressions": [
-        "x_1=[0,4]",
-        "y_1=[2,1]",
-        "y_1~m x_1+b",
-        "y=-(1/4)x+2"
-      ]
+      "content": "The graph shows $y=f(x)+14$. Two clear points from the line are $(0,2)$ and $(4,1)$. The slope is $$m=\\frac{1-2}{4-0}=-\\frac{1}{4},$$ and the $y$-intercept is $2$, so the graphed line is $y=-\\frac{1}{4}x+2$."
     },
     {
       "title": "Undo the vertical shift",
       "content": "Since the graphed function is $f(x)+14$, subtract 14 from the fitted equation: $$f(x)=-\\frac{1}{4}x+2-14=-\\frac{1}{4}x-12$$ So $f(x)$ must have y-intercept $-12$."
     },
     {
-      "title": "Check choices in Desmos",
-      "content": "Choice A gives $f(x)=-\\frac{1}{4}x-12$. Adding 14 gives $y=-\\frac{1}{4}x+2$, exactly the graphed line. The other choices shift to y-intercepts $30$, $16$, or $0$, so they do not match the graph.",
-      "desmosExpressions": [
-        "y=-(1/4)x-12+14",
-        "y=-(1/4)x+2"
-      ]
+      "title": "Check the choices",
+      "content": "Choice A gives $f(x)=-\\frac{1}{4}x-12$. Adding 14 gives $y=-\\frac{1}{4}x+2$, exactly the graphed line. The other choices shift to y-intercepts $30$, $16$, or $0$, so they do not match the graph."
     },
     {
       "title": "Confirm the choice",

@@ -4,24 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the configuration from the figure",
-      "content": "From the figure: $R$, $V$, $U$ are collinear with $V$ between $R$ and $U$ (so $\\angle RVT$ and $\\angle UVT$ form a linear pair). Point $T$ is above line $RU$, and $S$ lies on segment $RT$ between $R$ and $T$, so ray $TS$ and ray $TR$ are the same ray (this means $\\angle VTS = \\angle VTR$, the angle at $T$ inside both triangles $SVT$ and $RVT$). Triangle $RTU$ has $RT = TU$, so it is isosceles with base angles $\\angle TRU = \\angle TUR$. Since $V$ is on segment $RU$, ray $RV$ coincides with ray $RU$, so $\\angle VRT = \\angle TRU$."
+      "title": "Use the large triangle first",
+      "content": "In the figure, $U$, $V$, and $R$ are collinear, and $T$ lies on $\\overline{US}$. The given $34^\\circ$ angle is $\\angle RVS$, so the interior angle $\\angle UVS$ is supplementary to it:<br/>$$\\angle UVS=180^\\circ-34^\\circ=146^\\circ.$$"
     },
     {
-      "title": "Set up the angle relationships at vertex V and in triangle SVT",
-      "content": "Let $\\beta = \\angle TRU = \\angle TUR$ (the isosceles base angle) and $\\gamma = \\angle VTR$. In triangle $SVT$, the interior angles sum to $180^\\circ$:<br/>$$\\angle VST + \\angle SVT + \\angle VTS = 180^\\circ$$<br/>$$23^\\circ + \\angle SVT + \\gamma = 180^\\circ \\;\\Rightarrow\\; \\angle SVT = 157^\\circ - \\gamma$$<br/>From the figure, ray $VT$ lies between ray $VR$ and ray $VS$ at vertex $V$, so $\\angle RVS = \\angle RVT + \\angle TVS$:<br/>$$34^\\circ = \\angle RVT + (157^\\circ - \\gamma) \\;\\Rightarrow\\; \\angle RVT = \\gamma - 123^\\circ$$"
+      "title": "Find the base angle at U",
+      "content": "Triangle $UVS$ has angles $146^\\circ$ at $V$ and $23^\\circ$ at $S$, so the angle at $U$ is:<br/>$$180^\\circ-146^\\circ-23^\\circ=11^\\circ.$$<br/>Because $T$ is on $\\overline{US}$ and $R$ is on $\\overline{UV}$, this is also $\\angle TUR$."
     },
     {
-      "title": "Apply the angle sum in triangle RVT",
-      "content": "The interior angles of triangle $RVT$ sum to $180^\\circ$:<br/>$$\\angle VRT + \\angle RVT + \\angle VTR = 180^\\circ$$<br/>$$\\beta + (\\gamma - 123^\\circ) + \\gamma = 180^\\circ \\;\\Rightarrow\\; \\beta + 2\\gamma = 303^\\circ$$"
+      "title": "Use the isosceles triangle",
+      "content": "The question gives $RT=TU$, so triangle $TRU$ is isosceles. Its base angles at $R$ and $U$ are equal, so both base angles are $11^\\circ$."
     },
     {
-      "title": "Use the figure's marked value to solve",
-      "content": "The system has one equation ($\\beta + 2\\gamma = 303^\\circ$) and two unknowns; the figure supplies the additional constraint. The figure marks $\\beta = \\angle TRU = 13^\\circ$ (the isosceles base angle), which gives:<br/>$$2\\gamma = 303^\\circ - 13^\\circ = 290^\\circ \\;\\Rightarrow\\; \\gamma = 145^\\circ$$<br/>Then $\\angle RVT = \\gamma - 123^\\circ = 145^\\circ - 123^\\circ = 22^\\circ$."
-    },
-    {
-      "title": "Compute x using the linear pair at V",
-      "content": "Since $R$, $V$, $U$ are collinear, $\\angle RVT$ and $\\angle UVT$ are supplementary:<br/>$$\\angle UVT = 180^\\circ - \\angle RVT = 180^\\circ - 22^\\circ = 158^\\circ$$<br/>Therefore $x = \\boxed{158}$."
+      "title": "Compute x",
+      "content": "The angle marked $x^\\circ$ is the vertex angle $\\angle UTR$ of triangle $TRU$:<br/>$$x=180^\\circ-11^\\circ-11^\\circ=158^\\circ.$$<br/>Therefore, $x=\\boxed{158}$."
     }
   ]
 }

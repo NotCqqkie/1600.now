@@ -3,9 +3,9 @@ import { PageSeo, buildFaqJsonLd, buildBreadcrumbJsonLd } from "@/components/seo
 import { getScoreProfile } from "@/lib/seo-data/satScoreData";
 
 const VALID_SCORES = (() => {
-  const s: number[] = [];
-  for (let v = 400; v <= 1600; v += 10) s.push(v);
-  return s;
+  const scores: number[] = [];
+  for (let score = 400; score <= 1600; score += 10) scores.push(score);
+  return scores;
 })();
 
 const verdictFor = (score: number, percentile: number) => {
@@ -71,7 +71,7 @@ const IsScoreGood = () => {
             { name: "SAT Score Breakdowns", url: "https://1600.now/sat-score" },
             { name: `Is a ${score} a good SAT score?`, url },
           ]),
-          buildFaqJsonLd(faqs.map((f) => ({ question: f.q, answer: f.a }))),
+          buildFaqJsonLd(faqs.map((faq) => ({ question: faq.q, answer: faq.a }))),
         ]}
       />
 
@@ -109,8 +109,8 @@ const IsScoreGood = () => {
       <section className="mt-10">
         <h2 className="text-2xl font-semibold">Colleges where {score} is competitive</h2>
         <ul className="mt-3 grid gap-2 text-sm text-foreground/90 sm:grid-cols-2">
-          {profile.collegeExamples.map((c) => (
-            <li key={c} className="rounded-md border border-border bg-card px-3 py-2">{c}</li>
+          {profile.collegeExamples.map((college) => (
+            <li key={college} className="rounded-md border border-border bg-card px-3 py-2">{college}</li>
           ))}
         </ul>
         <p className="mt-3 text-sm text-muted-foreground">
@@ -134,10 +134,10 @@ const IsScoreGood = () => {
       <section className="mt-10">
         <h2 className="text-2xl font-semibold">FAQs about a {score} SAT score</h2>
         <div className="mt-4 space-y-4">
-          {faqs.map((f, i) => (
-            <div key={i} className="rounded-lg border border-border bg-card p-4">
-              <div className="font-semibold">{f.q}</div>
-              <p className="mt-2 text-sm text-foreground/80">{f.a}</p>
+          {faqs.map((faq, faqIndex) => (
+            <div key={faqIndex} className="rounded-lg border border-border bg-card p-4">
+              <div className="font-semibold">{faq.q}</div>
+              <p className="mt-2 text-sm text-foreground/80">{faq.a}</p>
             </div>
           ))}
         </div>

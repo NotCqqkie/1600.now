@@ -5,8 +5,7 @@
   "steps": [
     {
       "title": "Understand what margin of error means",
-      "content": "A margin of error defines the interval around a sample statistic where the true population parameter is expected to fall. We construct the confidence interval by adding and subtracting the margin from the point estimate.",
-      "formula": "$$\\text{Confidence interval} = \\text{Point estimate} \\pm \\text{Margin of error}$$"
+      "content": "A margin of error defines the interval around a sample statistic where the true population parameter is expected to fall. We construct the confidence interval by adding and subtracting the margin from the point estimate."
     },
     {
       "title": "Calculate the confidence interval",

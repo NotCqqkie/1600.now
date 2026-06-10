@@ -9,14 +9,11 @@
     },
     {
       "title": "Determine the sign of r",
-      "content": "The inequality $ry < 60$ must describe the region $y > -4$. Dividing both sides by $r$ gives $y < \\frac{60}{r}$ if $r > 0$, or $y > \\frac{60}{r}$ if $r < 0$ (inequality reverses). Since the shaded region is $y > -4$ (not $y <$ something), we must have $r < 0$, which means $\\frac{60}{r} = -4$."
+      "content": "The inequality $ry \\lt 60$ must describe the region $y > -4$. Dividing both sides by $r$ gives $y \\lt \\frac{60}{r}$ if $r > 0$, or $y > \\frac{60}{r}$ if $r \\lt 0$ (inequality reverses). Since the shaded region is $y > -4$ (not $y \\lt $ something), we must have $r \\lt 0$, which means $\\frac{60}{r} = -4$."
     },
     {
       "title": "Solve for r",
-      "content": "From $\\frac{60}{r} = -4$, multiply both sides by $r$:<br/>$$60 = -4r$$<br/>Divide by $-4$:<br/>$$r = \\frac{60}{-4} = -15$$<br/>That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y > -4"
-      ]
+      "content": "From $\\frac{60}{r} = -4$, multiply both sides by $r$:<br/>$$60 = -4r$$<br/>Divide by $-4$:<br/>$$r = \\frac{60}{-4} = -15$$<br/>That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

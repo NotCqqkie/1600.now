@@ -9,10 +9,7 @@
     },
     {
       "title": "Expand using the distributive property",
-      "content": "$$f(x) = x(x+91) = x \\cdot x + x \\cdot 91 = x^2 + 91x$$ That matches choice C — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "f(x)=(x)^(2)+91x"
-      ]
+      "content": "$$f(x) = x(x+91) = x \\cdot x + x \\cdot 91 = x^2 + 91x$$ That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

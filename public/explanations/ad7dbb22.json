@@ -9,12 +9,7 @@
     },
     {
       "title": "Count the dots that lie below the line",
-      "content": "Scan left to right and count only dots below the line. The below-line dots occur near $x\\approx2.5$, $3.3$, $4.1$, $4.9$, $7.3$, and $9.0$. That is $6$ data points.",
-      "desmosExpressions": [
-        "x_1=[0.8,1.7,2.5,3.3,4.1,4.9,5.7,6.5,7.3,8.1,9.0]",
-        "y_1=[3.0,2.9,2.6,3.4,3.9,4.7,6.5,6.8,6.5,8.3,7.5]",
-        "y=0.8x+1.25"
-      ]
+      "content": "Scan left to right and count only dots below the line. The below-line dots occur near $x\\approx2.5$, $3.3$, $4.1$, $4.9$, $7.3$, and $9.0$. That is $6$ data points."
     },
     {
       "title": "Confirm the answer",

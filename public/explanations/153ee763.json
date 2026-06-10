@@ -10,9 +10,7 @@
     },
     {
       "title": "Solve for p and test all choices",
-      "content": "$$21p = 3 \\implies p = \\frac{3}{21} = \\frac{1}{7}$$<ul><li><strong>Choice A &mdash; $0$</strong>: $p=0$ gives $-3x = 84$, which has solution $x = -28$. One solution, not no solution. &#10007;</li><li><strong>Choice B &mdash; $\\frac{1}{7}$</strong>: $-3 + 21 \\cdot \\frac{1}{7} = -3 + 3 = 0$, so $0x = 84$ &mdash; no solution. &#10003;</li><li><strong>Choice C &mdash; $\\frac{4}{3}$</strong>: $-3 + 21 \\cdot \\frac{4}{3} = -3 + 28 = 25 \\neq 0$, so one solution exists. &#10007;</li><li><strong>Choice D &mdash; $4$</strong>: $-3 + 21 \\cdot 4 = -3 + 84 = 81 \\neq 0$, so one solution exists. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
-      "formula": "$$p = \\frac{1}{7}$$"
+      "content": "$$21p = 3 \\implies p = \\frac{3}{21} = \\frac{1}{7}$$<ul><li><strong>Choice A &mdash; $0$</strong>: $p=0$ gives $-3x = 84$, which has solution $x = -28$. One solution, not no solution. &#10007;</li><li><strong>Choice B &mdash; $\\frac{1}{7}$</strong>: $-3 + 21 \\cdot \\frac{1}{7} = -3 + 3 = 0$, so $0x = 84$ &mdash; no solution. &#10003;</li><li><strong>Choice C &mdash; $\\frac{4}{3}$</strong>: $-3 + 21 \\cdot \\frac{4}{3} = -3 + 28 = 25 \\neq 0$, so one solution exists. &#10007;</li><li><strong>Choice D &mdash; $4$</strong>: $-3 + 21 \\cdot 4 = -3 + 84 = 81 \\neq 0$, so one solution exists. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
     }
-  ],
-  "desmosExpressions": []
+  ]
 }

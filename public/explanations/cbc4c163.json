@@ -12,12 +12,12 @@
       "content": "$$\\frac{1}{4}-\\frac{1}{4}=0,$$ so $$f\\left(\\frac{1}{4}\\right)=5(0)^2+\\frac{11}{4}=\\frac{11}{4}.$$"
     },
     {
+      "title": "Use the vertex shortcut",
+      "content": "The expression is written in vertex form. When the squared part is $0$, the whole $5(\\cdots)^2$ term disappears, leaving only the constant term."
+    },
+    {
       "title": "Confirm the answer",
-      "content": "The value is <strong>11/4</strong>, which is also $2.75$. The chosen input makes the squared expression zero, so only the constant term remains. That is the fastest way to evaluate it.",
-      "desmosExpressions": [
-        "f(x)=5(1/4-x)^2+11/4",
-        "x=1/4"
-      ]
+      "content": "The value is <strong>11/4</strong>, which is also $2.75$. The chosen input makes the squared expression zero, so only the constant term remains."
     }
   ]
 }

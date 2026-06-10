@@ -9,11 +9,7 @@
     },
     {
       "title": "Cancel pi and simplify",
-      "content": "The $\\pi$ terms cancel in the numerator and denominator:<br/>$$\\frac{9 \\times 180°}{20}$$<br/>Compute the numerator and divide:<br/>$$\\frac{1620°}{20} = 81°$$<br/>The angle measures <strong>81 degrees</strong>.",
-      "desmosExpressions": [
-        "x^2 + y^2 = 1",
-        "(\\cos(9\\pi/20), \\sin(9\\pi/20))"
-      ]
+      "content": "The $\\pi$ terms cancel in the numerator and denominator:<br/>$$\\frac{9 \\times 180°}{20}$$<br/>Compute the numerator and divide:<br/>$$\\frac{1620°}{20} = 81°$$<br/>The angle measures <strong>81 degrees</strong>."
     }
   ]
 }

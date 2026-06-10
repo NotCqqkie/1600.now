@@ -4,31 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Enter approximate points from the scatterplot",
-      "content": "The data rise faster and faster, so use an exponential regression in Desmos. Approximate the plotted points and enter them as two lists.",
-      "desmosExpressions": [
-        "x_1=[0.3,2,2.6,3.5,4.2,5.1,5.7,6.5]",
-        "y_1=[100,250,250,900,800,2200,2700,4800]"
-      ]
+      "title": "Identify the shape",
+      "content": "The points rise faster as $x$ increases, so the model should be an increasing curve, not a straight line. That eliminates choices A and B."
     },
     {
-      "title": "Run exponential regression",
-      "content": "Type $y_1\\sim ab^{x_1}$. The fitted curve is increasing and exponential, which eliminates the straight-line choices. The fitted growth also has the same general scale as choice D, not the curve that sits above every point.",
-      "desmosExpressions": [
-        "x_1=[0.3,2,2.6,3.5,4.2,5.1,5.7,6.5]",
-        "y_1=[100,250,250,900,800,2200,2700,4800]",
-        "y_1~a b^{x_1}"
-      ]
+      "title": "Compare choices C and D",
+      "content": "Choice C is an increasing curve, but it sits above all $8$ points, so it is not centered on the data. Choice D is also an increasing curve, and the data points are split around it: some above, some below, and some touching."
     },
     {
       "title": "Graph-check choice D",
-      "content": "Graph choice D and compare it to the plotted points. It follows the same accelerating shape and has points on both sides of the curve, while choice C is systematically too high. That makes choice <strong>D</strong> the best model.",
-      "desmosExpressions": [
-        "x_1=[0.3,2,2.6,3.5,4.2,5.1,5.7,6.5]",
-        "y_1=[100,250,250,900,800,2200,2700,4800]",
-        "y_1~a b^{x_1}",
-        "y=51\\left(\\frac{3472}{51}\\right)^{x/6}"
-      ]
+      "content": "The best model should follow the trend and have points on both sides of the curve. Only choice D does that, so <strong>D</strong> is correct."
     }
   ]
 }

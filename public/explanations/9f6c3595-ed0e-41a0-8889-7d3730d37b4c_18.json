@@ -9,12 +9,7 @@
     },
     {
       "title": "Write the equation through the origin and evaluate",
-      "content": "Line $s$ passes through $(0, 0)$, so its equation is $y = 42x$. At $x = 4$: $d = 42 \\times 4 = 168$. The answer is <strong>168</strong>.",
-      "desmosExpressions": [
-        "y=42x+6",
-        "y=42x",
-        "(4,168)"
-      ]
+      "content": "Line $s$ passes through $(0, 0)$, so its equation is $y = 42x$. At $x = 4$: $d = 42 \\times 4 = 168$. The answer is <strong>168</strong>."
     }
   ]
 }

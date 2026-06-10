@@ -5,18 +5,11 @@
   "steps": [
     {
       "title": "Use the parallel-line shortcut",
-      "content": "No solution means parallel distinct lines: same slope, different $y$-intercept. Put the given equation into Desmos as $$2x=20y-8 \\Rightarrow y=\\frac{x}{10}+\\frac{2}{5}$$ The second line must have slope $\\frac{1}{10}$ but a different intercept.",
-      "desmosExpressions": [
-        "y=\\frac{x}{10}+\\frac{2}{5}"
-      ]
+      "content": "No solution means parallel distinct lines: same slope, different $y$-intercept. Rewrite the given equation:<br/>$$2x=20y-8$$<br/>$$20y=2x+8$$<br/>$$y=\\frac{x}{10}+\\frac{2}{5}$$<br/>The second line must have slope $\\frac{1}{10}$ but a different intercept."
     },
     {
-      "title": "Graph the only matching-slope choice",
-      "content": "Choice B gives $$\\frac{1}{2}x=5y \\Rightarrow y=\\frac{x}{10}$$ This has the same slope, $\\frac{1}{10}$, and a different intercept, $0$. In Desmos, $y=\\frac{x}{10}+\\frac{2}{5}$ and $y=\\frac{x}{10}$ are parallel distinct lines, so they never meet.",
-      "desmosExpressions": [
-        "y=\\frac{x}{10}",
-        "y=\\frac{x}{10}+\\frac{2}{5}"
-      ]
+      "title": "Check the matching-slope choice",
+      "content": "Choice B gives $$\\frac{1}{2}x=5y \\Rightarrow y=\\frac{x}{10}.$$ This has the same slope, $\\frac{1}{10}$, and a different intercept, $0$, so the two lines are parallel and distinct."
     },
     {
       "title": "Eliminate the rest",

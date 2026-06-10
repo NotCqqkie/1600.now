@@ -9,10 +9,7 @@
     },
     {
       "title": "Apply Vieta's sum shortcut",
-      "content": "Sum of solutions $= -b/a = -(-24)/1 = 24$. That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y = x^{2} - 24x - 8"
-      ]
+      "content": "Sum of solutions $= -b/a = -(-24)/1 = 24$. That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

@@ -15,7 +15,6 @@
       "title": "Confirm the entry",
       "content": "The answer can be entered as $\\frac{1}{2}$ or <strong>.5</strong>. The stored answer uses <strong>.5</strong>. The numerator and denominator reduce by dividing both by $8$.",
       "desmosExpressions": [
-        "h(x)=8/(5x+6)",
         "x=2"
       ]
     }

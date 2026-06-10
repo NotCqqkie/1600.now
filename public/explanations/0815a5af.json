@@ -13,14 +13,7 @@
     },
     {
       "title": "Calculate arc QR and identify the answer",
-      "content": "$QR = 72\\pi - x = 72\\pi - 24\\pi = 48\\pi$.<br/>That matches choice B — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "x^2 + y^2 = (72)^2",
-        "(72,0)",
-        "(0,72)",
-        "(-72,0)",
-        "(0,-72)"
-      ]
+      "content": "$QR = 72\\pi - x = 72\\pi - 24\\pi = 48\\pi$.<br/>That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

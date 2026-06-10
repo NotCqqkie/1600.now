@@ -9,17 +9,11 @@
     },
     {
       "title": "Set up the no-intersection condition",
-      "content": "For the parabola and the horizontal line $y = -2.5$ to have no intersection points, the parabola's minimum must be strictly above the line:<br/>$$k - 16 > -2.5$$<br/>$$k > 13.5$$"
+      "content": "For the parabola and the horizontal line $y = -2.5$ to have no intersection points, the parabola's minimum must be strictly above the line:<br/>$$k - 16 \\gt -2.5$$<br/>$$k \\gt 13.5$$"
     },
     {
       "title": "Find the least positive integer",
-      "content": "Since $k$ is a positive integer and must satisfy $k>13.5$, the least value is $k=14$. Desmos can solve the boundary by setting the discriminant of $x^2+8x+(k+2.5)=0$ equal to $0$, then graph the final integer value.",
-      "desmosExpressions": [
-        "y_1=[0]",
-        "y_1~8^2-4*1*(k+2.5)",
-        "y = -2.5",
-        "y = x^2 + 8x + 14"
-      ]
+      "content": "Since $k$ is a positive integer and must satisfy $k\\gt 13.5$, the least possible value is $k=14$. The answer is <strong>14</strong>."
     }
   ]
 }

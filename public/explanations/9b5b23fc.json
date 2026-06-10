@@ -9,10 +9,7 @@
     },
     {
       "title": "Identify the function type and behavior",
-      "content": "The equation $f(x) = 2.01x$ has the form $f(x) = mx + b$ where $m = 2.01$ (the slope) and $b = 0$.<br/><br/>This is a <strong>linear function</strong> with positive slope.<br/><br/>Since $m = 2.01 > 0$, the function is <strong>increasing</strong> as $x$ increases.<br/><br/>That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y = 2.01x"
-      ]
+      "content": "The equation $f(x) = 2.01x$ has the form $f(x) = mx + b$ where $m = 2.01$ (the slope) and $b = 0$.<br/><br/>This is a <strong>linear function</strong> with positive slope.<br/><br/>Since $m = 2.01 > 0$, the function is <strong>increasing</strong> as $x$ increases.<br/><br/>That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

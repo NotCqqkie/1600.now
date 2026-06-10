@@ -4,7 +4,7 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use residual signs, not a new regression",
+      "title": "Use residual signs",
       "content": "The line of best fit is already drawn. The question is not asking for its equation; it asks how many actual data points have $y$-values greater than the predicted $y$-values. That means count the dots above the line."
     },
     {

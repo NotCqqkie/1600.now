@@ -19,7 +19,7 @@
     },
     {
       "title": "Confirm with the discriminant",
-      "content": "For choice D, $a=5$, $b=-14$, and $c=49$. The discriminant is $b^2-4ac=196-4(5)(49)=196-980=-784<0$, confirming no real solutions. Choice <strong>D</strong> is correct."
+      "content": "For choice D, $a=5$, $b=-14$, and $c=49$. The discriminant is $b^2-4ac=196-4(5)(49)=196-980=-784\\lt 0$, confirming no real solutions. Choice <strong>D</strong> is correct."
     }
   ]
 }

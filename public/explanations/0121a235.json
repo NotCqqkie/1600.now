@@ -5,11 +5,7 @@
   "steps": [
     {
       "title": "Find the zeros in the table",
-      "content": "A factor comes from an $x$-value where the polynomial equals $0$. The table shows $p(-1)=0$ and $p(2)=0$.",
-      "desmosExpressions": [
-        "x_1=[-2,-1,0,1,2]",
-        "y_1=[5,0,-3,-1,0]"
-      ]
+      "content": "A factor comes from an $x$-value where the polynomial equals $0$. The table shows $p(-1)=0$ and $p(2)=0$."
     },
     {
       "title": "Translate zeros into factors",
@@ -17,12 +13,7 @@
     },
     {
       "title": "Check the choices",
-      "content": "Choice A would require a zero at $x=3$, and choice B would require a zero at $x=-3$. Choice C would require zeros at $x=1$ and $x=-2$, but the table shows $p(1)=-1$ and $p(-2)=5$.",
-      "desmosExpressions": [
-        "x=-1",
-        "x=2",
-        "y=(x+1)(x-2)"
-      ]
+      "content": "Choice A would require a zero at $x=3$, and choice B would require a zero at $x=-3$. Choice C would require zeros at $x=1$ and $x=-2$, but the table shows $p(1)=-1$ and $p(-2)=5$."
     },
     {
       "title": "Confirm the factor",

@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply the cross-multiplication from the given condition",
-      "content": "Multiply both sides by $x$: $72 = 6x^{2}$."
+      "title": "Use the given equation",
+      "content": "The equation is $\\frac{72}{x}=6x$. Since the question asks for $6x^2$, clear the denominator by multiplying both sides by $x$."
     },
     {
-      "title": "Compute the target value",
-      "content": "So $6x^{2} = 72$. That matches choice <strong>B</strong> — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "y = \\frac{72}{x}",
-        "y = 6x"
-      ]
+      "title": "Clear the denominator",
+      "content": "$$x\\left(\\frac{72}{x}\\right)=x(6x)$$ $$72=6x^2$$"
+    },
+    {
+      "title": "Use the requested expression",
+      "content": "The equation already gives the value of $6x^2$ after clearing the denominator, so there is no need to solve for $x$ separately."
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice B, 72. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
+      "content": "The value of $6x^2$ is $72$, so choice <strong>B</strong> is correct."
     }
   ]
 }

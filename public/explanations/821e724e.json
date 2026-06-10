@@ -9,11 +9,7 @@
     },
     {
       "title": "Evaluate g(0)",
-      "content": "With $t = 24$, calculate $g(0)$:<br/>$$g(0) = (0 + 14)(24 - 0) = 14 \\cdot 24 = 336$$",
-      "desmosExpressions": [
-        "g(x)=(x+14)(24-x)",
-        "g(0)"
-      ]
+      "content": "With $t = 24$, calculate $g(0)$:<br/>$$g(0) = (0 + 14)(24 - 0) = 14 \\cdot 24 = 336$$"
     }
   ]
 }

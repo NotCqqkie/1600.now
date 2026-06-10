@@ -9,10 +9,7 @@
     },
     {
       "title": "Solve for circumference",
-      "content": "From the simplified equation $$3 = \\frac{1}{10} C,$$ multiply both sides by 10 to isolate $C$: $$C = 3 \\times 10 = 30$$ inches.<br/>That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "x^2 + y^2 = (30/(2\\pi))^2"
-      ]
+      "content": "From the simplified equation $$3 = \\frac{1}{10} C,$$ multiply both sides by 10 to isolate $C$: $$C = 3 \\times 10 = 30$$ inches.<br/>That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

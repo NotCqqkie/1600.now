@@ -9,14 +9,7 @@
     },
     {
       "title": "Find a by matching coefficients",
-      "content": "For the equations $ax+y=c$ and $3kx+2ky=k$ to be identical, their coefficients must match. From the $y$-coefficient, $1=2k$, so $k=\\frac{1}{2}$. Then $a=3k=\\frac{3}{2}$. A Desmos coefficient regression can match the $x$- and $y$-coefficients directly. That matches choice D, so <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "x_1=[1,0]",
-        "y_1=[0,1]",
-        "a x_1+y_1~s(3x_1+2y_1)",
-        "y = (1/6 - (1/2)x)/(1/3)",
-        "y = 1/2 - (3/2)x"
-      ]
+      "content": "For the equations $ax+y=c$ and $3kx+2ky=k$ to be identical, their coefficients must match. From the $y$-coefficient, $1=2k$, so $k=\\frac{1}{2}$. Then $$a=3k=3\\left(\\frac{1}{2}\\right)=\\frac{3}{2}.$$ That matches choice D, so <strong>D</strong> is correct."
     }
   ]
 }

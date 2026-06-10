@@ -9,10 +9,7 @@
     },
     {
       "title": "Use the percent shortcut",
-      "content": "To find what percent $690$ is of $375$, compute $$\\frac{690}{375}\\cdot100.$$ A calculator or Desmos gives $184$, so group C has $184\\%$ as many objects as group A.",
-      "desmosExpressions": [
-        "\\frac{690}{375}\\cdot100"
-      ]
+      "content": "To find what percent $690$ is of $375$, compute $$\\frac{690}{375}\\cdot100=1.84\\cdot100=184$$ So group C has $184\\%$ as many objects as group A."
     },
     {
       "title": "Confirm the answer",

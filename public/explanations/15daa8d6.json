@@ -9,11 +9,7 @@
     },
     {
       "title": "Match coefficients for infinitely many solutions",
-      "content": "For the equation to hold for all $x$, the coefficients of $x$ and the constants must both match:<br/>$$2=a$$ and $$16=8a$$<br/>Both give $a=2$. Desmos can check the identity by regressing both sides at two $x$-values. The answer is <strong>2</strong>.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "2x_1+16~a(x_1+8)"
-      ]
+      "content": "For the equation to hold for all $x$, the coefficients of $x$ and the constants must both match:<br/>$$2=a$$<br/>$$16=8a$$<br/>Both equations give $a=2$, so the answer is <strong>2</strong>."
     }
   ]
 }

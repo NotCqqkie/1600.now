@@ -12,8 +12,8 @@
       "content": "The first three terms make a perfect square:<br/>$$x^2+6x+9=(x+3)^2$$<br/>The constants combine to $4-9=-5$, so:<br/>$$x^2+6x+4=(x+3)^2-5$$"
     },
     {
-      "title": "Desmos overlap check",
-      "content": "Graph the original expression and choice B. The two graphs overlap exactly, confirming the equivalent form.",
+      "title": "Check by expanding",
+      "content": "Expanding choice B gives $$(x+3)^2-5=x^2+6x+9-5=x^2+6x+4,$$ so it matches the original expression.",
       "desmosExpressions": [
         "y=x^2+6x+4",
         "y=(x+3)^2-5"

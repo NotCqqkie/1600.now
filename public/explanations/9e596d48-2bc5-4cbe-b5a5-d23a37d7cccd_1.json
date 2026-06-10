@@ -9,11 +9,7 @@
     },
     {
       "title": "Find the matching ordered pair",
-      "content": "With $x=2$ and $y=3$, the ordered pair is $(2, 3)$. That matches choice <strong>D</strong> — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y = \\frac{17 - x}{5}",
-        "y = 3"
-      ]
+      "content": "With $x=2$ and $y=3$, the ordered pair is $(2, 3)$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."
     },
     {
       "title": "Confirm the answer",

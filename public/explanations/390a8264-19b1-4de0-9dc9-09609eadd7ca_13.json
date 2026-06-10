@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up",
-      "content": "The function is $g(x)=3x$. Find the value of $x$ such that $g(x)=12$."
+      "title": "Set the function equal to 12",
+      "content": "The function is $g(x)=3x$. If $g(x)=12$, then $$3x=12$$"
     },
     {
-      "title": "Solve",
-      "content": "$$3x=12$$$$x=4$$"
+      "title": "Solve for x",
+      "content": "Divide both sides by $3$: $$x=4$$"
     },
     {
       "title": "Answer",
-      "content": "<strong>4</strong> is correct."
+      "content": "The value of $x$ is <strong>4</strong>."
     },
     {
-      "title": "Confirm the answer",
-      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The work above gives $4$, and substituting or interpreting that value in the original condition satisfies the requirement. Therefore the value to enter is $4$."
+      "title": "Verify by substitution",
+      "content": "Substitute $x=4$ back into the function: $g(4)=3(4)=12$. That matches the required output, so the free-response answer is <strong>4</strong>."
     }
   ]
 }

@@ -9,12 +9,7 @@
     },
     {
       "title": "Compute $r^2$ using the point $(-9,4)$",
-      "content": "Plug $(-9,4)$ into the distance formula from $(-5,1)$: $$r^2 = (-9-(-5))^2+(4-1)^2 = (-4)^2+3^2 = 16+9 = 25$$",
-      "desmosExpressions": [
-        "(x+5)^2+(y-1)^2=25",
-        "(-5,1)",
-        "(-9,4)"
-      ]
+      "content": "Plug $(-9,4)$ into the distance formula from $(-5,1)$: $$r^2 = (-9-(-5))^2+(4-1)^2 = (-4)^2+3^2 = 16+9 = 25$$"
     },
     {
       "title": "Evaluate all choices",

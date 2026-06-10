@@ -13,11 +13,7 @@
     },
     {
       "title": "Choose the positive solution",
-      "content": "The positive solution is $3$, so choice A is correct. The other positive choices do not satisfy $|x+45|=48$.",
-      "desmosExpressions": [
-        "y=|x+45|",
-        "y=48"
-      ]
+      "content": "The positive solution is $3$, so choice A is correct. The other positive choices do not satisfy $|x+45|=48$."
     }
   ]
 }

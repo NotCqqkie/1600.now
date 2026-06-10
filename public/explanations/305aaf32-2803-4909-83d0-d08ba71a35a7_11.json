@@ -9,10 +9,7 @@
     },
     {
       "title": "Sum all roots and solve for u",
-      "content": "The sum of all roots (counting multiplicity) equals 16:<br/>$$0 + 0 + \\frac{11}{2} + \\frac{u}{2} = 16$$<br/>Combine the fractions on the left:<br/>$$\\frac{11 + u}{2} = 16$$<br/>Multiply both sides by 2:<br/>$$11 + u = 32$$<br/>Therefore $u = 21$.",
-      "desmosExpressions": [
-        "y = x^{2}(2x - 11)(2x - 21)"
-      ]
+      "content": "The sum of all roots (counting multiplicity) equals 16:<br/>$$0 + 0 + \\frac{11}{2} + \\frac{u}{2} = 16$$<br/>Combine the fractions on the left:<br/>$$\\frac{11 + u}{2} = 16$$<br/>Multiply both sides by 2:<br/>$$11 + u = 32$$<br/>Therefore $u = 21$."
     }
   ]
 }

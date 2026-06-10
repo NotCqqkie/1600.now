@@ -4,12 +4,11 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use Desmos to fit the linear table",
-      "content": "Enter the table as $x_1=[0,1,2]$ and $y_1=[29,32,35]$. Then type the linear regression row $y_1 \\sim m x_1+b$. Desmos gives $m=3$ and $b=29$, so the function is $f(x)=3x+29$.",
+      "title": "Find the line from the table",
+      "content": "Use the table points directly. From $(0,29)$ to $(1,32)$, the slope is $m=\\frac{32-29}{1-0}=3.$ Substituting a point into $y=mx+b$ gives $b=29$.",
       "desmosExpressions": [
         "x_1=[0,1,2]",
         "y_1=[29,32,35]",
-        "y_1~m x_1+b",
         "y=3x+29",
         "(0,29)",
         "(1,32)",

@@ -9,11 +9,7 @@
     },
     {
       "title": "Determine the greatest possible k",
-      "content": "As $x\\to -\\infty$, $2^{x}\\to 0^{+}$, so $$ g(x) \\to \\frac{1}{11}(6\\cdot0+7) = \\frac{7}{11}$$ from above.<br/>Hence $g(x)$ can be made arbitrarily close to $\\frac{7}{11}$ but never below it.<br/>If $k > \\frac{7}{11}$, choose $x$ sufficiently negative to make $g(x) < k$, violating the condition.<br/>If $k = \\frac{7}{11}$, then $g(x) > k$ for every $x$.<br/>Therefore the greatest possible constant $k$ is $\\frac{7}{11}$.<br/>That matches choice C — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "g(x) = (1/11)(6 \\cdot 2^{x} + 7)",
-        "y = 7/11"
-      ]
+      "content": "As $x\\to -\\infty$, $2^{x}\\to 0^{+}$, so $$ g(x) \\to \\frac{1}{11}(6\\cdot0+7) = \\frac{7}{11}$$ from above.<br/>Hence $g(x)$ can be made arbitrarily close to $\\frac{7}{11}$ but never below it.<br/>If $k > \\frac{7}{11}$, choose $x$ sufficiently negative to make $g(x) \\lt k$, violating the condition.<br/>If $k = \\frac{7}{11}$, then $g(x) > k$ for every $x$.<br/>Therefore the greatest possible constant $k$ is $\\frac{7}{11}$.<br/>That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

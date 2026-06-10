@@ -3,12 +3,15 @@ import { cn, normalizePublicAssetPath } from "@/lib/utils";
 import { renderMixedContent } from "@/lib/text/mathRendering";
 import { Button } from "@/components/ui/button";
 import { TransparentAwareImage } from "@/components/TransparentAwareImage";
+import { getChoiceImageClassName } from "@/lib/questionImageDisplay";
+import type { QuestionImageDisplaySize } from "@/data/questionImageSizing.generated";
 import "katex/dist/katex.min.css";
 
 interface Choice {
   id: string;
   text?: string;
   image?: string;
+  imageDisplaySize?: QuestionImageDisplaySize;
 }
 
 interface MultipleChoiceQuestionProps {
@@ -88,7 +91,7 @@ export const MultipleChoiceQuestion = ({
               alt={`SAT question ${questionId} choice ${choice.id} image`}
               className={cn(
                 "w-auto max-w-full h-auto object-contain block",
-                choiceImageClassName ?? "max-h-[220px] sm:max-h-[260px]",
+                choiceImageClassName ?? getChoiceImageClassName(choice.imageDisplaySize),
                 dimmed && "opacity-60"
               )}
               wrapperClassName="max-w-full"

@@ -5,18 +5,15 @@
   "steps": [
     {
       "title": "Use the zero product property",
-      "content": "A product equals zero when at least one factor equals zero. Set each factor in $(x+2)(x-5)(x+9)=0$ equal to zero."
+      "content": "A product equals zero when at least one factor equals zero."
     },
     {
-      "title": "Find the roots",
-      "content": "$x+2=0$ gives $x=-2$, $x-5=0$ gives $x=5$, and $x+9=0$ gives $x=-9$. On a graph, these are the x-intercepts.",
-      "desmosExpressions": [
-        "y=(x+2)(x-5)(x+9)"
-      ]
+      "title": "Find the solutions",
+      "content": "Set each factor equal to zero: $x+2=0$ gives $x=-2$, $x-5=0$ gives $x=5$, and $x+9=0$ gives $x=-9$."
     },
     {
       "title": "Choose the positive solution",
-      "content": "The only positive solution is $5$, so choice <strong>C</strong> is correct. The negative roots are valid solutions to the equation, but they do not answer the question asked."
+      "content": "The only positive solution is $5$, which matches choice <strong>C</strong>."
     }
   ]
 }

@@ -4,12 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify conversion factors",
-      "content": "To convert m/s² to miles/min²:<ul><li>Meters to miles: divide by 1,609</li><li>Seconds squared to minutes squared: multiply by 3,600 (since 1 minute = 60 seconds, so 1 min² = 3,600 s²)</li></ul>"
+      "title": "Convert seconds squared to minutes squared",
+      "content": "Since $1$ minute is $60$ seconds, $1\\text{ min}^2=60^2=3{,}600\\text{ s}^2$. Converting from per second squared to per minute squared multiplies by $3{,}600$."
     },
     {
-      "title": "Apply conversions and calculate",
-      "content": "Multiply: $$1.1 \\times \\frac{3,600}{1,609} = \\frac{3,960}{1,609} \\approx 2.46$$<br/>Rounded to the nearest tenth: $2.5$ miles/min². That matches choice B — <strong>B</strong> is correct."
+      "title": "Convert meters to miles",
+      "content": "Use $1$ mile $=1{,}609$ meters, so divide by $1{,}609$ to convert meters to miles."
+    },
+    {
+      "title": "Calculate and round",
+      "content": "$$1.1\\cdot\\frac{3{,}600}{1{,}609}\\approx2.46.$$ Rounded to the nearest tenth, this is $2.5$ miles per minute squared."
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "$2.5$ matches choice <strong>B</strong>."
     }
   ]
 }

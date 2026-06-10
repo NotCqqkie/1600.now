@@ -13,11 +13,7 @@
     },
     {
       "title": "Answer",
-      "content": "<strong>80</strong> is correct.",
-      "desmosExpressions": [
-        "y = 4x + 80",
-        "(0, 80)"
-      ]
+      "content": "<strong>80</strong> is correct."
     }
   ]
 }

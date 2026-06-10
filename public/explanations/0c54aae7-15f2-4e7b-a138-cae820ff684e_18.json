@@ -5,25 +5,15 @@
   "steps": [
     {
       "title": "Make two cost points",
-      "content": "Use the first valid anchor point and one extra hour. The first 3 hours cost 216 dollars, so the line passes through $(3,216)$. One more hour adds 60 dollars, so 4 hours cost 276 dollars, giving the point $(4,276)$. Fit those two points in Desmos.",
-      "desmosExpressions": [
-        "x_1=[3,4]",
-        "y_1=[216,276]",
-        "y_1~m x_1+b"
-      ]
+      "content": "Use the first valid anchor point and one extra hour. The first 3 hours cost 216 dollars, so the line passes through $(3,216)$. One more hour adds 60 dollars, so 4 hours cost 276 dollars, giving the point $(4,276)$."
     },
     {
       "title": "Read the model",
-      "content": "The regression gives $m=60$ and $b=36$, so the total charge is $$y=60x+36.$$ The $36$ is not a real starting charge at zero hours; it is the intercept that makes the line pass through the 3-hour flat-rate point."
+      "content": "The slope is $$m=\\frac{276-216}{4-3}=60.$$ Substitute $(3,216)$ into $y=60x+b$: $$216=60(3)+b,$$ so $b=36$. The total charge is $$y=60x+36.$$ The $36$ is not a real starting charge at zero hours; it is the intercept that makes the line pass through the 3-hour flat-rate point."
     },
     {
       "title": "Match the choices",
-      "content": "Choice C is $y=60x+36$. It gives $y=216$ when $x=3$ and increases by 60 for each additional hour. Choice A double-counts the flat 216 dollars, and choices B and D use 216 as the hourly rate. Choice <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y=60x+36",
-        "(3,216)",
-        "(4,276)"
-      ]
+      "content": "Choice C is $y=60x+36$. It gives $y=216$ when $x=3$ and increases by 60 for each additional hour. Choice A double-counts the flat 216 dollars, and choices B and D use 216 as the hourly rate. Choice <strong>C</strong> is correct."
     }
   ]
 }

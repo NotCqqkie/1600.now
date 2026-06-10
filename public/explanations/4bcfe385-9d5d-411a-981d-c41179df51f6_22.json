@@ -18,10 +18,7 @@
     },
     {
       "title": "Solve for AD and CD",
-      "content": "Substitute $e = \\frac{ac}{\\sqrt{226}}$ into the perpendicular chords constraint:<br/>$$a^2 + c^2 + \\frac{a^2c^2}{226} = 12999$$<br/>Test $a = 2$:<br/>$$4 + c^2 + \\frac{4c^2}{226} = 12999$$<br/>$$c^2\\left(1 + \\frac{4}{226}\\right) = 12995$$<br/>$$c^2 \\cdot \\frac{230}{226} = 12995$$<br/>$$c^2 = 12769$$<br/>$$c = 113$$<br/>Therefore, $r = \\frac{\\text{CD}}{\\text{AD}} = \\frac{113}{2} = 56.5$.<br/><br/>Equivalent forms accepted: <strong>113/2</strong>, <strong>56.5</strong>.",
-      "desmosExpressions": [
-        "x^2 + y^2 = (115/2)^2"
-      ]
+      "content": "Substitute $e = \\frac{ac}{\\sqrt{226}}$ into the perpendicular chords constraint:<br/>$$a^2 + c^2 + \\frac{a^2c^2}{226} = 12999$$<br/>Test $a = 2$:<br/>$$4 + c^2 + \\frac{4c^2}{226} = 12999$$<br/>$$c^2\\left(1 + \\frac{4}{226}\\right) = 12995$$<br/>$$c^2 \\cdot \\frac{230}{226} = 12995$$<br/>$$c^2 = 12769$$<br/>$$c = 113$$<br/>Therefore, $r = \\frac{\\text{CD}}{\\text{AD}} = \\frac{113}{2} = 56.5$.<br/><br/>Equivalent forms accepted: <strong>113/2</strong>, <strong>56.5</strong>."
     }
   ]
 }

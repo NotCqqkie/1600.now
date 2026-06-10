@@ -19,24 +19,24 @@ type Row = QuestionReport & {
 };
 
 const REASON_LABEL_BY_KEY = Object.fromEntries(
-  REPORT_REASONS.map((r) => [r.key, r.label]),
+  REPORT_REASONS.map((reason) => [reason.key, reason.label]),
 ) as Record<string, string>;
 
 const parseStableId = (
   id: string,
 ): { subject?: BankSubject; sourceId?: string } => {
-  const m = id.match(/^bank-(?:past|unofficial)-(math|reading)-(.+)$/);
-  if (!m) return {};
-  return { subject: m[1] as BankSubject, sourceId: m[2] };
+  const match = id.match(/^bank-(?:past|unofficial)-(math|reading)-(.+)$/);
+  if (!match) return {};
+  return { subject: match[1] as BankSubject, sourceId: match[2] };
 };
 
-const enrich = (r: QuestionReport): Row => {
-  const { subject, sourceId } = parseStableId(r.questionId);
-  if (!subject || !sourceId) return r;
-  const q = getBankQuestionBySourceId(subject, sourceId, "all");
-  const text = q?.questionText ?? q?.prompt ?? q?.passage ?? "";
+const enrich = (report: QuestionReport): Row => {
+  const { subject, sourceId } = parseStableId(report.questionId);
+  if (!subject || !sourceId) return report;
+  const question = getBankQuestionBySourceId(subject, sourceId, "all");
+  const text = question?.questionText ?? question?.prompt ?? question?.passage ?? "";
   const preview = text.replace(/\s+/g, " ").trim().slice(0, 160);
-  return { ...r, preview, bankSubject: subject, bankSourceId: sourceId };
+  return { ...report, preview, bankSubject: subject, bankSourceId: sourceId };
 };
 
 const formatTimestamp = (ts: number | { seconds: number } | undefined): string => {
@@ -131,58 +131,58 @@ const AdminReports = () => {
       )}
 
       <div className="space-y-3">
-        {reports?.map((r) => (
+        {reports?.map((report) => (
           <article
-            key={r.questionId}
+            key={report.questionId}
             className="rounded-lg border border-border/70 bg-card p-4 shadow-sm"
           >
             <header className="flex flex-wrap items-baseline justify-between gap-2">
               <div className="space-y-0.5">
-                <div className="font-mono text-xs text-muted-foreground">{r.questionId}</div>
-                {r.preview && (
-                  <div className="text-sm text-foreground">{r.preview}{r.preview.length === 160 ? "…" : ""}</div>
+                <div className="font-mono text-xs text-muted-foreground">{report.questionId}</div>
+                {report.preview && (
+                  <div className="text-sm text-foreground">{report.preview}{report.preview.length === 160 ? "…" : ""}</div>
                 )}
               </div>
               <div className="text-right text-xs text-muted-foreground">
                 <div className="text-base font-semibold text-foreground">
-                  {r.totalReports} {r.totalReports === 1 ? "flag" : "flags"}
+                  {report.totalReports} {report.totalReports === 1 ? "flag" : "flags"}
                 </div>
-                <div>last: {formatTimestamp(r.lastReportedAt)}</div>
+                <div>last: {formatTimestamp(report.lastReportedAt)}</div>
               </div>
             </header>
 
-            {r.counts && Object.keys(r.counts).length > 0 && (
+            {report.counts && Object.keys(report.counts).length > 0 && (
               <ul className="mt-3 flex flex-wrap gap-1.5 text-xs">
-                {Object.entries(r.counts).map(([key, n]) => {
-                  if (!n) return null;
+                {Object.entries(report.counts).map(([key, count]) => {
+                  if (!count) return null;
                   const label = key === "other" ? "Other" : REASON_LABEL_BY_KEY[key] ?? key;
                   return (
                     <li
                       key={key}
                       className="rounded-full border border-border/60 bg-muted/60 px-2 py-0.5"
                     >
-                      {label}: {n}
+                      {label}: {count}
                     </li>
                   );
                 })}
               </ul>
             )}
 
-            {r.otherComments && r.otherComments.length > 0 && (
+            {report.otherComments && report.otherComments.length > 0 && (
               <div className="mt-3 space-y-1.5">
                 <div className="text-xs font-medium uppercase tracking-wide text-muted-foreground">
-                  Comments ({r.otherComments.length})
+                  Comments ({report.otherComments.length})
                 </div>
                 <ul className="space-y-1.5">
-                  {r.otherComments.map((c, i) => (
+                  {report.otherComments.map((comment, commentIndex) => (
                     <li
-                      key={`${r.questionId}-c-${i}`}
+                      key={`${report.questionId}-c-${commentIndex}`}
                       className="rounded-md border border-border/50 bg-muted/30 px-3 py-2 text-sm"
                     >
-                      <div className="whitespace-pre-wrap">{c.text}</div>
+                      <div className="whitespace-pre-wrap">{comment.text}</div>
                       <div className="mt-1 text-[11px] text-muted-foreground">
-                        {formatTimestamp(c.timestamp)}
-                        {c.userId ? ` · ${c.userId}` : ""}
+                        {formatTimestamp(comment.timestamp)}
+                        {comment.userId ? ` · ${comment.userId}` : ""}
                       </div>
                     </li>
                   ))}

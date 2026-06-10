@@ -9,11 +9,7 @@
     },
     {
       "title": "Compute the y-intercept",
-      "content": "$f(0)=-\\tfrac{1}{4}$, so the intercept is $(0,-\\tfrac{1}{4})$. That matches choice <strong>A</strong> — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y = 2x - \\frac{1}{4}",
-        "\\left(0, -\\frac{1}{4}\\right)"
-      ]
+      "content": "$f(0)=-\\tfrac{1}{4}$, so the intercept is $(0,-\\tfrac{1}{4})$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."
     },
     {
       "title": "Confirm the answer",

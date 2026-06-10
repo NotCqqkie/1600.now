@@ -4,25 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fit vertex form in Desmos",
-      "content": "The maximum depth is the vertex $(6,302.4)$, so use $g=a(t-6)^2+302.4$. The seal reaches the surface at $t=12$, so another point is $(12,0)$. Enter those points and fit the coefficient with $d_1\\sim a(t_1-6)^2+302.4$.",
-      "desmosExpressions": [
-        "t_1=[6,12]",
-        "d_1=[302.4,0]",
-        "d_1~a(t_1-6)^2+302.4",
-        "y=a(x-6)^2+302.4"
-      ]
+      "title": "Use vertex form",
+      "content": "The maximum depth is the vertex $(6,302.4)$, so use $g(t)=a(t-6)^2+302.4$. The seal reaches the surface at $t=12$, so $g(12)=0$."
     },
     {
-      "title": "Read the model",
-      "content": "Desmos returns $a=-8.4$, so the depth model is $g(t)=-8.4(t-6)^2+302.4$. This is the same result as substituting $(12,0)$ into vertex form."
+      "title": "Solve for a",
+      "content": "Substitute $t=12$ and $g(t)=0$: $$0=a(12-6)^2+302.4.$$ Then $36a=-302.4$, so $a=-8.4$. The model is $g(t)=-8.4(t-6)^2+302.4$."
     },
     {
       "title": "Evaluate at t = 10 minutes",
-      "content": "Evaluate the model at $t=10$: $g(10)=-8.4(10-6)^2+302.4=-8.4(16)+302.4=168$. The estimated depth was <strong>168 meters</strong>.",
-      "desmosExpressions": [
-        "-8.4(10-6)^2+302.4"
-      ]
+      "content": "Evaluate the model at $t=10$: $g(10)=-8.4(10-6)^2+302.4=-8.4(16)+302.4=168$. The estimated depth was <strong>168 meters</strong>."
     }
   ]
 }

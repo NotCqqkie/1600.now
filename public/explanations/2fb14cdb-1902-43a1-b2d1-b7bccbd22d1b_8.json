@@ -4,25 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the n-cancels shortcut",
-      "content": "Every listed y-value contains the same vertical shift $n$. A vertical shift changes the intercept, but it does not change the slope. That means you can subtract two y-values and the $n$ terms cancel."
+      "title": "Use two rows from the table",
+      "content": "From the table, two points are $(0,n)$ and $(5,n+24)$. The slope is change in $y$ divided by change in $x$."
     },
     {
-      "title": "Compute the slope from two rows",
-      "content": "Using the rows with $x=0$ and $x=5$, the change in y is $(n+24)-n=24$, and the change in x is $5-0=5$. Therefore:<br/>$$m=\\frac{24}{5}=4.8$$"
-    },
-    {
-      "title": "Desmos shortcut",
-      "content": "Another quick check is to set $n=0$, since that keeps the slope the same. Enter $(0,0)$ and $(5,24)$, then regress a line. Desmos returns $m=\\frac{24}{5}$.",
-      "desmosExpressions": [
-        "x_1=[0,5]",
-        "y_1=[0,24]",
-        "y_1\\sim m x_1+b"
-      ]
-    },
-    {
-      "title": "Answer",
-      "content": "The slope is $\\frac{24}{5}$, or $4.8$. For the free-response box, enter <strong>24/5</strong> or <strong>4.8</strong>."
+      "title": "Compute the slope",
+      "content": "$$m=\\frac{(n+24)-n}{5-0}=\\frac{24}{5}=4.8$$<br/>The unknown starting value $n$ cancels, so the slope is fixed no matter what $n$ is. The answer is <strong>$\\frac{24}{5}$</strong>, or <strong>4.8</strong>."
     }
   ]
 }

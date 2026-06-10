@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the count for each part type",
-      "content": "From the problem statement:<ul><li>9-inch parts: $n$ (the reference quantity)</li><li>8-inch parts: $4n$ (4 times the 9-inch count)</li><li>3-inch parts: $30$ (fixed)</li></ul>"
+      "title": "Write each count",
+      "content": "The number of 9-inch parts is $n$, the number of 8-inch parts is $4n$, and the number of 3-inch parts is $30$."
     },
     {
-      "title": "Build and simplify the total equation",
-      "content": "The machine makes 100 parts total, so:<br/>$$4n + n + 30 = 100$$<br/>Combine like terms: $4n + n = 5n$:<br/>$$5n + 30 = 100$$<br/>This matches choice D — <strong>D</strong> is correct."
+      "title": "Build the total",
+      "content": "The machine makes $100$ parts total, so $$4n+n+30=100$$ Combining like terms gives $$5n+30=100$$"
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "Choice D is $5n+30=100$, so <strong>D</strong> is correct."
     }
   ]
 }

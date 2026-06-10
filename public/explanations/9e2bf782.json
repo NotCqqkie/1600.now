@@ -4,13 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "text": "Find the median position. With 33 fish ordered by weight, the median is at position $\\frac{33+1}{2} = 17$. The 17th lightest fish determines the median."
+      "title": "Find the median position",
+      "content": "There are $33$ fish, so the median is the $\\frac{33+1}{2}=17$th value when the weights are ordered."
     },
     {
-      "text": "Map positions to tanks: Tank A has 10 fish (positions 1–10, weight $< 5$ oz); Tank B has 11 fish (positions 11–21, weight 5–13 oz); Tank C has 12 fish (positions 22–33, weight $> 13$ oz). Position 17 falls in Tank B, so the median must be between 5 and 13 oz inclusive."
+      "title": "Locate the 17th fish",
+      "content": "The $10$ fish in tank A are positions $1$ through $10$. The $11$ fish in tank B are positions $11$ through $21$. Therefore the $17$th fish is in tank B."
     },
     {
-      "text": "Evaluate all choices:<ul><li><strong>A: 4.5 oz</strong> — below 5 oz; this is in Tank A&apos;s weight range, not Tank B. The 17th fish cannot weigh 4.5 oz. Eliminated.</li><li><strong>B: 8 oz</strong> — between 5 and 13 oz; this is a valid Tank B weight for the 17th fish. That matches choice B — <strong>B</strong> is correct.</li><li><strong>C: 13.5 oz</strong> — above 13 oz; this falls in Tank C&apos;s weight range. The 17th fish cannot weigh 13.5 oz. Eliminated.</li><li><strong>D: 15 oz</strong> — above 13 oz; also in Tank C&apos;s range. Eliminated.</li></ul>"
+      "title": "Match the possible weight",
+      "content": "Tank B fish weigh at least $5$ ounces and no more than $13$ ounces. Of the choices, only $8$ is in that range, so choice <strong>B</strong> is correct."
     }
   ]
 }

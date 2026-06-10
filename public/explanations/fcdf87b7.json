@@ -13,11 +13,7 @@
     },
     {
       "title": "Factor and find the solutions",
-      "content": "Factor out the common factor <em>x</em>: $$x(x - 3) = 0$$ This gives us <em>x</em> = 0 or <em>x</em> = 3. Either value satisfies both equations.",
-      "desmosExpressions": [
-        "y = x^2 - 4x + 4",
-        "y = 4 - x"
-      ]
+      "content": "Factor out the common factor <em>x</em>: $$x(x - 3) = 0$$ This gives us <em>x</em> = 0 or <em>x</em> = 3. Either value satisfies both equations."
     }
   ]
 }

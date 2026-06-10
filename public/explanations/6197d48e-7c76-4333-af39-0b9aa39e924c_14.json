@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Translate &quot;293% of $x$&quot; into an expression",
-      "content": "$293\\%=\\frac{293}{100}=2.93$, so &quot;293% of $x$&quot; is $2.93x$. Therefore $f(x)=2.93x$ for $x&gt;0$."
+      "content": "$293\\%=\\frac{293}{100}=2.93$, so &quot;293% of $x$&quot; is $2.93x$. Therefore $f(x)=2.93x$ for $x\\gt0$."
     },
     {
       "title": "Classify the function",
-      "content": "$f(x)=2.93x$ has the form $f(x)=mx+b$ with $m=2.93$ and $b=0$. That is a linear function (constant rate of change), not exponential. Because the slope $m=2.93&gt;0$, the function is increasing."
+      "content": "$f(x)=2.93x$ has the form $f(x)=mx+b$ with $m=2.93$ and $b=0$. That is a linear function (constant rate of change), not exponential. Because the slope $m=2.93\\gt0$, the function is increasing."
     },
     {
       "title": "Eliminate each choice",

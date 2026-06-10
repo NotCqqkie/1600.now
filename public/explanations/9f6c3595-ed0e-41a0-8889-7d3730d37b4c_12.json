@@ -13,10 +13,7 @@
     },
     {
       "title": "Answer",
-      "content": "Any of <strong>1</strong>, <strong>8</strong>, or <strong>11</strong> is correct.",
-      "desmosExpressions": [
-        "y = 3(x-1)(x-8)(x-11)"
-      ]
+      "content": "Any of <strong>1</strong>, <strong>8</strong>, or <strong>11</strong> is correct."
     }
   ]
 }

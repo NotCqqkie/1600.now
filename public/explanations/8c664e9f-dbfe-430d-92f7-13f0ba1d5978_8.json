@@ -9,11 +9,7 @@
     },
     {
       "title": "Evaluate the expression",
-      "content": "Simplify inside the parentheses and multiply:<br/>$$f(34) = 180(32) = 5760$$<br/>The sum of the interior angles for a 34-sided polygon is <strong>5760 degrees</strong>.",
-      "desmosExpressions": [
-        "y = 180(x - 2)",
-        "(34, 5760)"
-      ]
+      "content": "Simplify inside the parentheses and multiply:<br/>$$f(34) = 180(32) = 5760$$<br/>The sum of the interior angles for a 34-sided polygon is <strong>5760 degrees</strong>."
     }
   ]
 }

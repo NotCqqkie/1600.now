@@ -5,15 +5,11 @@
   "steps": [
     {
       "title": "Use list evaluation",
-      "content": "All four choices use $x=1$, $x=2$, and $x=3$, so evaluate the function once. In Desmos, define $h(x)=x^2-3$, then enter $h([1,2,3])$.",
-      "desmosExpressions": [
-        "h(x)=x^2-3",
-        "h([1,2,3])"
-      ]
+      "content": "All four choices use $x=1$, $x=2$, and $x=3$, so evaluate the function at those three inputs."
     },
     {
       "title": "Read the output row",
-      "content": "Desmos returns $[-2,1,6]$. By hand, $h(1)=-2$, $h(2)=1$, and $h(3)=6$."
+      "content": "Evaluate the three inputs in order. The output row is $[-2,1,6]$: $$h(1)=-2,\\quad h(2)=1,\\quad h(3)=6$$"
     },
     {
       "title": "Match the table",

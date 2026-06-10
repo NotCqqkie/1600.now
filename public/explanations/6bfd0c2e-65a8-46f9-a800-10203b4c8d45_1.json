@@ -1,15 +1,19 @@
 {
-  "qid": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_1",
+  "questionId": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_1",
+  "correctAnswer": "A",
+  "section": "Math",
   "steps": [
     {
-      "explanation": "Identify the variables: h = hours at regular job, c = hours at second job. The equation 20h + 14c = 716 expresses total weekly earnings in dollars."
+      "title": "Identify the variables",
+      "content": "Let $h$ be the hours worked at the regular job and $c$ be the hours worked at the second job. The equation $20h+14c=716$ represents total weekly earnings in dollars."
     },
     {
-      "explanation": "In the term 20h, the units of h are hours and the product 20h must be in dollars. So 20 has units of dollars per hour &mdash; it is the hourly rate for the regular job."
+      "title": "Interpret the coefficient",
+      "content": "In the term $20h$, $h$ is measured in hours and $20h$ is measured in dollars. Therefore $20$ means &#36;20 per hour for the regular job."
     },
     {
-      "explanation": "Evaluate all choices:<ul><li>A: The amount, in dollars, the technician earned for each hour she worked at her regular job. The coefficient of h (regular-job hours) is 20, representing \\$20 per hour at the regular job. That matches choice A &mdash; <strong>A</strong> is correct.</li><li>B: The amount per hour at the second job. The second-job rate is 14 (the coefficient of c), not 20. Eliminated.</li><li>C: The number of hours worked at the regular job. The number of hours at the regular job is h, the variable, not the constant 20. Eliminated.</li><li>D: The number of hours worked at the second job. The number of hours at the second job is c. Eliminated.</li></ul>"
+      "title": "Confirm the choice",
+      "content": "Choice A says $20$ is the amount earned for each hour at the regular job, which matches the coefficient of $h$. Choice B describes the coefficient of $c$, which is $14$. Choices C and D describe numbers of hours, but those are represented by variables. Therefore <strong>A</strong> is correct."
     }
-  ],
-  "correctAnswer": "A"
+  ]
 }

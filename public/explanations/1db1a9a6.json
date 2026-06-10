@@ -9,7 +9,7 @@
     },
     {
       "title": "Check which choice shows this pattern",
-      "content": "Choice B states that in every year, nitrogen yield exceeded control yield.<br/><br/>The graph confirms this: 2017 ($34 > 23$), 2018 ($41 > 31$), 2019 ($27 > 19$).<br/><br/>This consistent pattern directly supports the researchers' conclusion about nitrogen's effectiveness.<br/><br/>Choice A fails at 2019 ($27 < 30$), while choices C and D describe isolated observations unrelated to the core comparison. That matches choice B — <strong>B</strong> is correct."
+      "content": "Choice B states that in every year, nitrogen yield exceeded control yield.<br/><br/>The graph confirms this: 2017 ($34 > 23$), 2018 ($41 > 31$), 2019 ($27 > 19$).<br/><br/>This consistent pattern directly supports the researchers' conclusion about nitrogen's effectiveness.<br/><br/>Choice A fails at 2019 ($27 \\lt 30$), while choices C and D describe isolated observations unrelated to the core comparison. That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

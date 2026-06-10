@@ -5,16 +5,11 @@
   "steps": [
     {
       "title": "Enter the two points",
-      "content": "The line contains $(0,0)$ and $(1,40)$. In Desmos, enter $x_1=[0,1]$ and $y_1=[0,40]$, then type $y_1\\sim m x_1+b$.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[0,40]",
-        "y_1~m x_1+b"
-      ]
+      "content": "The line contains $(0,0)$ and $(1,40)$. These two points determine the slope and intercept."
     },
     {
       "title": "Read the model",
-      "content": "Desmos gives $m=40$ and $b=0$, so the equation is $$h(x)=40x.$$ By hand, the slope is $\\dfrac{40-0}{1-0}=40$, and the intercept is $0$ because the line passes through the origin."
+      "content": "The slope is $\\dfrac{40-0}{1-0}=40$, and the intercept is $0$ because the line passes through the origin. Therefore $$h(x)=40x.$$"
     },
     {
       "title": "Confirm the choice",

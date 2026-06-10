@@ -9,13 +9,7 @@
     },
     {
       "title": "Fit a line through the two points",
-      "content": "For average rate of change, you only need the slope between those two points. Put them in a Desmos table and run $y_1\\sim m x_1+b$. Desmos gives $m=4.5$.",
-      "desmosExpressions": [
-        "x_1=[2,4]",
-        "y_1=[6,15]",
-        "y_1~m x_1+b",
-        "m"
-      ]
+      "content": "For average rate of change, use the slope between the two points: $$m=\\frac{Delta y}{Delta x}=4.5.$$"
     },
     {
       "title": "Confirm the answer",

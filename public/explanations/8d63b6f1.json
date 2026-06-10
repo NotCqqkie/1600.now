@@ -9,11 +9,7 @@
     },
     {
       "title": "Read the point at x equals 50",
-      "content": "Find $50$ on the horizontal axis and move straight up to the plotted dot. That dot is at $(50,6)$, so the $50$-pound gray wolf produced $6$ offspring.",
-      "desmosExpressions": [
-        "(50,6)",
-        "x=50"
-      ]
+      "content": "Find $50$ on the horizontal axis and move straight up to the plotted dot. That dot is at $(50,6)$, so the $50$-pound gray wolf produced $6$ offspring."
     },
     {
       "title": "Check the choices",

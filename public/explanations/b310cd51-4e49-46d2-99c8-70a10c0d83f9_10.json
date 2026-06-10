@@ -9,12 +9,7 @@
     },
     {
       "title": "Fit the line for $t$",
-      "content": "Now $t(c)=-7$ means $t(-1)=-7$, and the other point is $t(6)=56$. Enter $x_1=[-1,6]$ and $y_1=[-7,56]$ in Desmos, then type $y_1\\sim m x_1+b$. Desmos gives $m=9$.",
-      "desmosExpressions": [
-        "x_1=[-1,6]",
-        "y_1=[-7,56]",
-        "y_1~m x_1+b"
-      ]
+      "content": "Now $t(c)=-7$ means $t(-1)=-7$, and the other point is $t(6)=56$. The slope of $t$ is $$\\frac{56-(-7)}{6-(-1)}=\\frac{63}{7}=9.$$"
     },
     {
       "title": "Confirm the answer",

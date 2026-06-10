@@ -4,21 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Evaluate the equation as a list",
-      "content": "All choices use $x=0$, $2$, and $4$. Enter $x_1=[0,2,4]$ and compute $70x_1+8$. Desmos returns $[8,148,288]$.",
-      "desmosExpressions": [
-        "x_1=[0,2,4]",
-        "70x_1+8"
-      ]
+      "title": "Evaluate the equation at each x-value",
+      "content": "All choices use $x=0$, $2$, and $4$. Substitute each value into $y=70x+8$:<br/>$$70(0)+8=8$$<br/>$$70(2)+8=148$$<br/>$$70(4)+8=288$$"
     },
     {
       "title": "Match the output list",
-      "content": "Choice A is the only table with $y$-values $8$, $148$, and $288$ for those $x$-values. You can enter the choice A list as $a_1=[8,148,288]$ and compare it to $70x_1+8$.",
-      "desmosExpressions": [
-        "x_1=[0,2,4]",
-        "a_1=[8,148,288]",
-        "70x_1+8"
-      ]
+      "content": "The matching y-values are $8$, $148$, and $288$. Choice A is the only table with those outputs for $x=0$, $2$, and $4$."
     },
     {
       "title": "Confirm the answer",

@@ -9,15 +9,15 @@
     },
     {
       "title": "Solve each inequality",
-      "content": "From $7+10>x$: $x<17$.<br/><br/>From $7+x>10$: $x>3$.<br/><br/>From $10+x>7$: $x>-3$, which is always satisfied for positive $x$."
+      "content": "From $7+10>x$: $x\\lt 17$.<br/><br/>From $7+x>10$: $x>3$.<br/><br/>From $10+x>7$: $x>-3$, which is always satisfied for positive $x$."
     },
     {
       "title": "Combine constraints",
-      "content": "Combining the binding constraints gives $3<x<17$."
+      "content": "Combining the binding constraints gives $3\\lt x\\lt 17$."
     },
     {
       "title": "Evaluate the choices",
-      "content": "<ul><li>A ($x<3$): gives only values too small — eliminated.</li><li>B ($x>17$): gives only values too large — eliminated.</li><li>C ($3<x<17$): matches both constraints exactly. &#10003;</li><li>D ($x<3$ or $x>17$): these are the excluded regions, not the valid range — eliminated.</li></ul>That matches choice C — <strong>C</strong> is correct."
+      "content": "<ul><li>A ($x\\lt 3$): gives only values too small — eliminated.</li><li>B ($x>17$): gives only values too large — eliminated.</li><li>C ($3\\lt x\\lt 17$): matches both constraints exactly. &#10003;</li><li>D ($x\\lt 3$ or $x>17$): these are the excluded regions, not the valid range — eliminated.</li></ul>That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

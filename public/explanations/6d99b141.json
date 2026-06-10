@@ -5,8 +5,7 @@
   "steps": [
     {
       "title": "Find base angles of isosceles triangle ACD",
-      "content": "Since $AC = CD$ and angle $ACD = 104°$, triangle $ACD$ is isosceles. In an isosceles triangle, the base angles are equal:<br/>$$\\angle CAD = \\angle CDA = \\frac{180° - 104°}{2} = \\frac{76°}{2} = 38°$$",
-      "formula": "$$\\text{Base angles} = \\frac{180° - \\text{vertex angle}}{2}$$"
+      "content": "Since $AC = CD$ and angle $ACD = 104°$, triangle $ACD$ is isosceles. In an isosceles triangle, the base angles are equal:<br/>$$\\angle CAD = \\angle CDA = \\frac{180° - 104°}{2} = \\frac{76°}{2} = 38°$$"
     },
     {
       "title": "Identify the relevant collinear points from the figure",

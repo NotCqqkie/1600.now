@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the discriminant condition for two solutions",
-      "content": "<strong>Shortcut (discriminant):</strong> For $88x^2 + bx + c = 0$ to have more than one real solution, the discriminant must be positive: $b^2 - 4ac > 0$. With $a = 88$:<br/>$b^2 - 4(88)c > 0$<br/>$b^2 - 352c > 0$<br/>$b^2 > 352c$"
+      "title": "Connect the condition to the discriminant",
+      "content": "The question asks when the quadratic has more than one real solution. For a quadratic, that happens exactly when the discriminant is positive:<br/>$$b^2 - 4ac > 0$$<br/>In $88x^2 + bx + c = 0$, the coefficient of $x^2$ is $88$, so:<br/>$$b^2 - 4(88)c > 0$$<br/>$$b^2 - 352c > 0$$<br/>$$b^2 > 352c$$"
     },
     {
       "title": "Solve for b",

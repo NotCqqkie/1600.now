@@ -9,11 +9,7 @@
     },
     {
       "title": "Use the point on the graph to find f(0)",
-      "content": "The graph passes through $(0, 13)$, meaning when $x = 0$, the value is $y = 13$. Since $y = f(x)$, we have:\n$$f(0) = 13$$\nThat matches choice C — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "f(x) = 13 \\cdot 4^{x}",
-        "(0, 13)"
-      ]
+      "content": "The graph passes through $(0, 13)$, meaning when $x = 0$, the value is $y = 13$. Since $y = f(x)$, we have:\n$$f(0) = 13$$\nThat matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

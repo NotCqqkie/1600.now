@@ -5,11 +5,15 @@
   "steps": [
     {
       "title": "Recall what makes two lines parallel",
-      "content": "When a transversal $k$ crosses lines $r$ and $s$, the lines are parallel if and only if one of these conditions holds: corresponding angles are equal, alternate interior angles are equal, or co-interior (same-side interior) angles sum to $180°$. We know $w = 160°$ at the intersection of $k$ and $r$. We need the single additional fact that proves $r \\parallel s$."
+      "content": "Line $k$ is the transversal. From the figure, angles $w$ and $y$ are corresponding angles on lines $r$ and $s$."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A — $x = 20$</strong>: $x$ is the supplement of $w$ at the intersection with $r$ (they form a straight angle: $160 + 20 = 180°$). This is information already determined by $w = 160$ alone — it tells us nothing new about $s$. &#10007;</li><li><strong>Choice B — $y = 160$</strong>: $y$ is the angle at the intersection of $k$ and $s$ in the same position as $w$ at $r$ — they are corresponding angles. If $w = y = 160°$, corresponding angles are equal, which is the definition of parallel lines. &#10003;</li><li><strong>Choice C — $w + y = 180$</strong>: This would mean $y = 20°$. Co-interior angles summing to $180°$ would require $w$ and the interior angle on the same side at $s$ to sum to $180°$ — but $w + y = 180$ makes $y$ a supplement of $w$, placing $y$ in the alternate-exterior relationship, not the co-interior one. This condition does not correspond to any standard parallel-line theorem. &#10007;</li><li><strong>Choice D — $y + z = 180$</strong>: $y$ and $z$ are supplementary angles at the intersection of $k$ and $s$ — they already sum to $180°$ by the straight-angle postulate, regardless of whether $r$ and $s$ are parallel. This is always true and gives no information. &#10007;</li></ul>That matches choice B — <strong>B</strong> is correct."
+      "title": "Use the corresponding angles converse",
+      "content": "If corresponding angles are congruent, then the two lines cut by the transversal are parallel. Since $w=160$, the statement $y=160$ would make $w$ and $y$ congruent, proving $r \\parallel s$."
+    },
+    {
+      "title": "Check the other options",
+      "content": "<ul><li>$x=20$ follows from $w=160$ at the same intersection, so it gives no information about line $s$.</li><li>$w+y=180$ would make $y=20$, not equal to the corresponding angle $w$.</li><li>$y+z=180$ describes a linear pair at line $s$, which can be true whether or not the lines are parallel.</li></ul>The sufficient condition is $y=160$, so choice <strong>B</strong> is correct."
     }
   ]
 }

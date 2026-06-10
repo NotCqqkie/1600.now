@@ -9,10 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; \"Exactly one\"</strong>: Would require one real $x$ making a square equal to $-100$. Impossible. &#10007;</li><li><strong>Choice B &mdash; \"Exactly two\"</strong>: A perfect-square equation like $(x+64)^2 = k$ has two solutions when $k > 0$, one when $k = 0$, and none when $k < 0$. Since $k = -100 < 0$, this is ruled out. &#10007;</li><li><strong>Choice C &mdash; \"Infinitely many\"</strong>: No real number satisfies the equation, let alone infinitely many. &#10007;</li><li><strong>Choice D &mdash; \"Zero\"</strong>: No real $x$ makes a square negative. Zero solutions. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y = (x+64)^{2} + 100"
-      ]
+      "content": "<ul><li><strong>Choice A &mdash; \"Exactly one\"</strong>: Would require one real $x$ making a square equal to $-100$. Impossible. &#10007;</li><li><strong>Choice B &mdash; \"Exactly two\"</strong>: A perfect-square equation like $(x+64)^2 = k$ has two solutions when $k > 0$, one when $k = 0$, and none when $k \\lt 0$. Since $k = -100 \\lt 0$, this is ruled out. &#10007;</li><li><strong>Choice C &mdash; \"Infinitely many\"</strong>: No real number satisfies the equation, let alone infinitely many. &#10007;</li><li><strong>Choice D &mdash; \"Zero\"</strong>: No real $x$ makes a square negative. Zero solutions. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
     }
   ]
 }

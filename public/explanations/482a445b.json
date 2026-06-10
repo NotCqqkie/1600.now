@@ -4,25 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use a sparse quartic model",
-      "content": "The expression contains $x^4$, $x^2$, and a constant, but no $x^3$ or $x$ term. Desmos can fit it directly to $ax^4+bx^2+c$."
+      "title": "Expand each part",
+      "content": "First, $$(x^2+11)^2=x^4+22x^2+121.$$ Also, $$(x-5)(x+5)=x^2-25$$ by difference of squares."
     },
     {
-      "title": "Create the regression rows",
-      "content": "Enter:<br/>$$x_1=[0,1,2]$$<br/>$$y_1=(x_1^2+11)^2+(x_1-5)(x_1+5)$$<br/>$$y_1\\sim ax_1^4+bx_1^2+c$$",
-      "desmosExpressions": [
-        "x_1=[0,1,2]",
-        "y_1=(x_1^2+11)^2+(x_1-5)(x_1+5)",
-        "y_1\\sim ax_1^4+bx_1^2+c"
-      ]
-    },
-    {
-      "title": "Read the expression",
-      "content": "The regression gives $a=1$, $b=23$, and $c=96$. Therefore the expression is:<br/>$$x^4+23x^2+96$$<br/>That matches choice B."
-    },
-    {
-      "title": "Confirm by expansion",
-      "content": "$(x^2+11)^2=x^4+22x^2+121$, and $(x-5)(x+5)=x^2-25$. Adding gives $x^4+23x^2+96$, so <strong>B</strong> is correct."
+      "title": "Combine like terms",
+      "content": "Adding the two parts gives $$x^4+22x^2+121+x^2-25=x^4+23x^2+96.$$ That matches choice B, so <strong>B</strong> is correct. The missing odd-power terms are expected because both parts create only even powers and constants."
     }
   ]
 }

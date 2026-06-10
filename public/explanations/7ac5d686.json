@@ -9,12 +9,10 @@
     },
     {
       "title": "Use a sample table to see the model type",
-      "content": "Pick any concrete constant-rate example, such as starting with $120$ shirts and checking $15$ shirts per hour. The points $(0,120)$, $(1,105)$, and $(2,90)$ fit a line with negative slope. Desmos regression shows the same structure as the general model $\\text{remaining}=N-rt$.",
+      "content": "Pick any concrete constant-rate example, such as starting with $120$ shirts and checking $15$ shirts per hour. The points $(0,120)$, $(1,105)$, and $(2,90)$ fit a line with negative slope. direct calculation shows the same structure as the general model $\\text{remaining}=N-rt$.",
       "desmosExpressions": [
         "x_1=[0,1,2]",
         "y_1=[120,105,90]",
-        "y_1~m x_1+b",
-        "y=m x+b",
         "y=120-15x"
       ]
     },

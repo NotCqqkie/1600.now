@@ -5,19 +5,11 @@
   "steps": [
     {
       "title": "Substitute the given values",
-      "content": "Use custom regression for the one unknown coefficient. Enter the known point as $x_1=[1.75]$, $y_1=[3858.75]$, then type $y_1\\sim 900a x_1^2$. Desmos solves $a$ from the data point.",
-      "desmosExpressions": [
-        "x_1=[1.75]",
-        "y_1=[3858.75]",
-        "y_1~900a x_1^2"
-      ]
+      "content": "Use the given model $y=900ax^2$. The rope with circumference $1.75$ inches has breaking strength $3{,}858.75$, so substitute $x=1.75$ and $y=3{,}858.75$: $$3{,}858.75=900a(1.75)^2$$"
     },
     {
       "title": "Solve for the unknown",
-      "content": "Desmos gives $900a=1260$. For $x=3.50$, evaluate $1260(3.50)^2=15{,}435$. The answer is <strong>15435</strong>.",
-      "desmosExpressions": [
-        "1260(3.5)^2"
-      ]
+      "content": "Since $(1.75)^2=3.0625$, the equation becomes $$3{,}858.75=2{,}756.25a$$ $$a=1.4$$ That makes $900a=900(1.4)=1{,}260$. For $x=3.50$, evaluate $$1{,}260(3.50)^2=1{,}260(12.25)=15{,}435$$ The answer is <strong>15435</strong>."
     },
     {
       "title": "Confirm the answer",

@@ -5,20 +5,15 @@
   "steps": [
     {
       "title": "Compare the means",
-      "content": "Sum from the frequency table:<br/>$$13(12)+14(8)+15(5)+16(7)+17(9)+18(10)+19(13)+20(7)=1175$$<br/>Original mean: $\\frac{1175}{71}$. New mean after adding $39$: $\\frac{1175+39}{72}=\\frac{1214}{72}$. Desmos can compute both means directly; the new mean is greater.",
-      "desmosExpressions": [
-        "S=13*12+14*8+15*5+16*7+17*9+18*10+19*13+20*7",
-        "S/71",
-        "(S+39)/72"
-      ]
+      "content": "Sum from the frequency table:<br/>$$13(12)+14(8)+15(5)+16(7)+17(9)+18(10)+19(13)+20(7)=1175.$$ The original mean is $\\frac{1175}{71}\\approx16.55$. After adding $39$, the new mean is $\\frac{1214}{72}\\approx16.86$, so the mean increases."
     },
     {
       "title": "Compare the medians",
-      "content": "<strong>Original (71 values):</strong> Median is at position $\\frac{71+1}{2} = 36$. Cumulative frequencies 12, 20, 25, 32, 41 put the 36th value in the weight-17 group, so the original median is 17.<br/><br/><strong>New (72 values):</strong> The added value 39 is the largest, so it occupies position 72. Positions 36 and 37 still hold weight 17, giving a new median of $\\frac{17+17}{2} = 17$.<br/><br/>The <strong>medians are equal</strong>."
+      "content": "<strong>Original (71 values):</strong> The median is at position $\\frac{71+1}{2}=36$. Track the cumulative totals:<ul><li><strong>Weight 13:</strong> cumulative total 12</li><li><strong>Weight 14:</strong> cumulative total 20</li><li><strong>Weight 15:</strong> cumulative total 25</li><li><strong>Weight 16:</strong> cumulative total 32</li><li><strong>Weight 17:</strong> cumulative total 41</li></ul>Position 36 first appears in the weight-17 group, so the original median is 17.<br/><br/><strong>New (72 values):</strong> The added value 39 is the largest, so it occupies position 72. Positions 36 and 37 still hold weight 17, giving a new median of $\\frac{17+17}{2}=17$.<br/><br/>The <strong>medians are equal</strong>."
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>A</strong> &mdash; wrong. Claims the median increased; the medians are equal.</li><li><strong>B</strong> &mdash; correct. New mean is greater; medians are equal.</li><li><strong>C</strong> &mdash; wrong. Claims the mean decreased; the new mean is greater.</li><li><strong>D</strong> &mdash; wrong. Claims the mean decreased; the new mean is greater.</li></ul>That matches choice B."
+      "content": "The new mean is greater, and the medians are equal. That matches choice <strong>B</strong>."
     }
   ]
 }

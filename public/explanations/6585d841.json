@@ -9,12 +9,7 @@
     },
     {
       "title": "Convert to standard form and find the radius",
-      "content": "Substitute the completed squares:<br/>$$(x+7)^2 - 49 + (y-3)^2 - 9 = 109$$<br/>Move constants to the right side:<br/>$$(x+7)^2 + (y-3)^2 = 109 + 49 + 9 = 167$$<br/>This matches the standard form for a circle with $r^2 = 167$. Therefore, $r = \\sqrt{167}$. That matches choice C — <strong>C</strong> is correct.",
-      "formula": "$$(x-h)^2 + (y-k)^2 = r^2$$",
-      "desmosExpressions": [
-        "x^2 + 14x + y^2 = 6y + 109",
-        "(x+7)^2 + (y-3)^2 = 167"
-      ]
+      "content": "Substitute the completed squares:<br/>$$(x+7)^2 - 49 + (y-3)^2 - 9 = 109$$<br/>Move constants to the right side:<br/>$$(x+7)^2 + (y-3)^2 = 109 + 49 + 9 = 167$$<br/>This matches the standard form for a circle with $r^2 = 167$. Therefore, $r = \\sqrt{167}$. That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

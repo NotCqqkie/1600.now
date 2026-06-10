@@ -13,7 +13,7 @@
     },
     {
       "title": "Solve and verify",
-      "content": "Divide by $3$ to get $y=80$. In Desmos, the two lines intersect at a point with $y=80$, confirming the answer.",
+      "content": "Divide by $3$ to get $y=80$. Check in the second equation: $$6x+80=72,$$ so $x=-\\frac{4}{3}$. Substituting into the first equation gives $$24\\left(-\\frac{4}{3}\\right)+80=48,$$ so $y=80$ is consistent.",
       "desmosExpressions": [
         "24x+y=48",
         "6x+y=72"

@@ -13,10 +13,7 @@
     },
     {
       "title": "Eliminate the other choices",
-      "content": "<ul><li>A) Number of large jars is just $y$, not $5y$. Eliminate.</li><li>B) Number of small jars is $x$, not $5y$. Eliminate.</li><li>C) Total cups in large jars $= 5y$. Keep.</li><li>D) Total cups in small jars is $3x$, not $5y$. Eliminate.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "3x + 5y = 32"
-      ]
+      "content": "<ul><li>A) Number of large jars is just $y$, not $5y$. Eliminate.</li><li>B) Number of small jars is $x$, not $5y$. Eliminate.</li><li>C) Total cups in large jars $= 5y$. Keep.</li><li>D) Total cups in small jars is $3x$, not $5y$. Eliminate.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }

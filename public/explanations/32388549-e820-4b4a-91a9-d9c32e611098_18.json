@@ -5,10 +5,7 @@
   "steps": [
     {
       "title": "Interpret the second condition",
-      "content": "Simplify what we're given for $f(s+1)$:<br/>$$f(s+1)=t-0.87t=(1-0.87)t=0.13t$$<br/>Desmos can check the percent-left calculation immediately with $1-0.87$.",
-      "desmosExpressions": [
-        "1-0.87"
-      ]
+      "content": "Simplify what we're given for $f(s+1)$:<br/>$$f(s+1)=t-0.87t=(1-0.87)t=0.13t$$"
     },
     {
       "title": "Use the exponential growth property",

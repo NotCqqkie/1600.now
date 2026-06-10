@@ -5,23 +5,15 @@
   "steps": [
     {
       "title": "Use two points from the fit line",
-      "content": "For a slope-of-best-fit question, pick two points on the displayed line, not necessarily two data points. The line passes near $(0,8)$ and $(10,1)$, and it clearly slopes downward.",
-      "desmosExpressions": [
-        "x_1=[0,10]",
-        "y_1=[8,1]",
-        "y_1~m x_1+b"
-      ]
+      "content": "For a slope-of-best-fit question, pick two points on the displayed line, not necessarily two data points. The line passes near $(0,8)$ and $(10,1)$, and it clearly slopes downward."
     },
     {
       "title": "Read the slope",
-      "content": "The Desmos regression row gives $m=-0.7$. By hand, this is the same as $\\frac{1-8}{10-0}=\\frac{-7}{10}=-0.7$."
+      "content": "Using two readable points on the fit line, the slope is approximately $$\\frac{1-8}{10-0}=\\frac{-7}{10}=-0.7.$$"
     },
     {
       "title": "Eliminate by sign and size",
-      "content": "The slope must be negative, so choices A and B are out. Choice D, $-7$, is far too steep for a line that drops about $7$ units over $10$ units of run. Choice <strong>C</strong>, $-0.7$, matches.",
-      "desmosExpressions": [
-        "y=-0.7x+8"
-      ]
+      "content": "The slope must be negative, so choices A and B are out. Choice D, $-7$, is far too steep for a line that drops about $7$ units over $10$ units of run. Choice <strong>C</strong>, $-0.7$, matches."
     }
   ]
 }

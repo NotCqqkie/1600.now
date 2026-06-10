@@ -4,25 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use quadratic regression to get b",
-      "content": "The expression is equivalent to $ax^2+bx+c$, and the question asks only for $b$. A fast Desmos method is to evaluate the expression at three x-values and fit the result to a quadratic."
+      "title": "Use only the x-term products",
+      "content": "The question asks for $b$, the coefficient of $x$ in $ax^2+bx+c$. In $$(9x-28)(15x+4),$$ the $x$ term comes only from the cross products."
     },
     {
-      "title": "Create the Desmos table",
-      "content": "Enter:<br/>$$x_1=[-1,0,1]$$<br/>$$y_1=(9x_1-28)(15x_1+4)$$<br/>Then enter:<br/>$$y_1\\sim ax_1^2+bx_1+c$$",
-      "desmosExpressions": [
-        "x_1=[-1,0,1]",
-        "y_1=(9x_1-28)(15x_1+4)",
-        "y_1\\sim ax_1^2+bx_1+c"
-      ]
-    },
-    {
-      "title": "Read the coefficient",
-      "content": "The regression gives $a=135$, $b=-384$, and $c=-112$. Therefore the value of $b$ is <strong>-384</strong>."
-    },
-    {
-      "title": "Confirm with FOIL",
-      "content": "The $x$ term comes from the cross products: $9x\\cdot4=36x$ and $-28\\cdot15x=-420x$. Since $36-420=-384$, the answer is <strong>-384</strong>."
+      "title": "Combine the cross products",
+      "content": "$$9x\\cdot4=36x$$<br/>$$-28\\cdot15x=-420x$$<br/>So the coefficient of $x$ is $$36-420=-384.$$ The answer is <strong>-384</strong>."
     }
   ]
 }

@@ -13,12 +13,7 @@
     },
     {
       "title": "Answer",
-      "content": "<strong>300</strong> is correct.",
-      "desmosExpressions": [
-        "y = 8000 \\cdot 2^{x/300}",
-        "(0, 8000)",
-        "(300, 16000)"
-      ]
+      "content": "<strong>300</strong> is correct."
     }
   ]
 }

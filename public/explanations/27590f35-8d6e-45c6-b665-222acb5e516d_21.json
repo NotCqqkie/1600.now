@@ -8,14 +8,8 @@
       "content": "For $f(x) = k(1.84)^x$, increasing $x$ by 1 multiplies the output by 1.84: $$f(x+1) = k(1.84)^{x+1} = 1.84 \\cdot k(1.84)^x = 1.84 \\cdot f(x).$$ So $f(x)$ increases by $p = 84\\%$ for every unit increase in $x$."
     },
     {
-      "title": "Use a ratio check on the choices",
-      "content": "The correct $g$ must satisfy $\\frac{g(4)}{g(0)}=1.84$, because increasing $x$ from $0$ to $4$ should multiply the output by the same factor that $f$ uses for one step. Set $k=1$ because it cancels in every ratio, then compare the four choice ratios in Desmos.",
-      "desmosExpressions": [
-        "((1.84^4)^{\\frac{1}{4}})/((1.84^0)^{\\frac{1}{4}})",
-        "((1.84^4)^4)/((1.84^0)^4)",
-        "(1.84^{4-4})/(1.84^{0-4})",
-        "(1.84^{4+4})/(1.84^{0+4})"
-      ]
+      "title": "Use the required four-unit growth",
+      "content": "For $g$, increasing $x$ by $4$ should multiply the output by $1.84$, the same growth factor that $f$ gets from a one-unit increase."
     },
     {
       "title": "Pick the matching ratio",

@@ -4,14 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use proportional regression in Desmos",
-      "content": "The choices all have the form $t=kd$, so this is a one-parameter proportional model. Enter distance as $x$ and time as $y$: $x_1=[0.18]$ and $y_1=[9]$. Then type $y_1 \\sim kx_1$. Desmos returns $k=50$, so the model is $t=50d$.",
-      "desmosExpressions": [
-        "x_1=[0.18]",
-        "y_1=[9]",
-        "y_1~k x_1",
-        "y=50x"
-      ]
+      "title": "Use the proportional relationship",
+      "content": "The choices all have the form $t=kd$, so this is a one-parameter proportional model. Use the given distance and time: $$9=k(0.18)$$ $$k=\\frac{9}{0.18}=50$$ So the model is $t=50d$."
     },
     {
       "title": "Write the linear equation",

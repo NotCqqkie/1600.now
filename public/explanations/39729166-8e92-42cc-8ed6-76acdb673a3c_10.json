@@ -13,10 +13,7 @@
     },
     {
       "title": "Answer",
-      "content": "<strong>7</strong> is correct.",
-      "desmosExpressions": [
-        "f(x) = 7^{x}"
-      ]
+      "content": "<strong>7</strong> is correct."
     }
   ]
 }

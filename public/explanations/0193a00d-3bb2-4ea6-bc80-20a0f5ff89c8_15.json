@@ -17,10 +17,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>A) 0.181:</strong> Far too small &mdash; this would mean the function barely decreases. Eliminated.</li><li><strong>B) 0.819:</strong> This is the base of the original function, not the percent decrease. Eliminated.</li><li><strong>C) 18.1:</strong> This would be $1 - 0.819 = 0.181 = 18.1\\%$, the decrease per unit increase in $2w$, not in $w$. Eliminated.</li><li><strong>D) 32.9:</strong> Matches the computed $100(1 - 0.819^2) \\approx 32.9\\%$. Correct.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "z(w) = (0.819)^{2w}"
-      ]
+      "content": "<ul><li><strong>A) 0.181:</strong> Far too small &mdash; this would mean the function barely decreases. Eliminated.</li><li><strong>B) 0.819:</strong> This is the base of the original function, not the percent decrease. Eliminated.</li><li><strong>C) 18.1:</strong> This would be $1 - 0.819 = 0.181 = 18.1\\%$, the decrease per unit increase in $2w$, not in $w$. Eliminated.</li><li><strong>D) 32.9:</strong> Matches the computed $100(1 - 0.819^2) \\approx 32.9\\%$. Correct.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
     }
   ]
 }

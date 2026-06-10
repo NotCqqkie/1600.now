@@ -8,18 +8,12 @@
       "content": "Line $k$ is $y=8x+7$, so its slope is $8$. Since line $j$ is parallel to $k$, line $j$ also has slope $8$. The point $(0,15)$ is on line $j$; moving $1$ unit right raises $y$ by $8$, so a second point is $(1,23)$."
     },
     {
-      "title": "Fit line j in Desmos",
-      "content": "Enter $x_1=[0,1]$ and $y_1=[15,23]$, then run $y_1 \\sim m x_1+b$. Desmos returns $m=8$ and $b=15$, so the equation is $y=8x+15$.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[15,23]",
-        "y_1~m x_1+b",
-        "y=8x+7"
-      ]
+      "title": "Find line j from two points",
+      "content": "Use those two points directly. From $(0,15)$ to $(1,23)$, the slope is $$m=\\frac{23-15}{1-0}=8.$$ Substituting $(0,15)$ into $y=8x+b$ gives $b=15$, so line $j$ is $y=8x+15$."
     },
     {
       "title": "Test all four choices",
-      "content": "<ul><li><strong>Choice A &mdash; $y = 15x + 7$</strong>: Slope $= 15 \\neq 8$. Not parallel to $k$. &#10007;</li><li><strong>Choice B &mdash; $y = -15x + 7$</strong>: Slope $= -15 \\neq 8$. Not parallel to $k$. &#10007;</li><li><strong>Choice C &mdash; $y = 8x + 15$</strong>: Slope $= 8$ (parallel to $k$) and passes through $(0,15)$. &#10003;</li><li><strong>Choice D &mdash; $y = -8x + 15$</strong>: Slope $= -8 \\neq 8$. Not parallel to $k$ (perpendicular slopes would be $-\\frac{1}{8}$, not $-8$). &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; $y = 15x + 7$</strong>: The slope is $15$, not $8$.</li><li><strong>Choice B &mdash; $y = -15x + 7$</strong>: The slope is $-15$, not $8$.</li><li><strong>Choice C &mdash; $y = 8x + 15$</strong>: The slope is $8$, and the $y$-intercept is $15$.</li><li><strong>Choice D &mdash; $y = -8x + 15$</strong>: The slope is $-8$, not $8$.</li></ul>Choice <strong>C</strong> is correct."
     }
   ]
 }

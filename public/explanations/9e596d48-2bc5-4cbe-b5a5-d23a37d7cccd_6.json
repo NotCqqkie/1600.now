@@ -13,11 +13,7 @@
     },
     {
       "title": "Answer",
-      "content": "<strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "f(x) = -5x^2 - 7",
-        "(-1, -12)"
-      ]
+      "content": "<strong>A</strong> is correct."
     },
     {
       "title": "Confirm the answer",

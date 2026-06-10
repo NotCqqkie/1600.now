@@ -9,11 +9,7 @@
     },
     {
       "title": "Solve for b",
-      "content": "Subtract 18 from both sides to isolate the $b$ term:<br/>$$46 - 18 = 2b$$<br/>$$28 = 2b$$<br/>Divide both sides by 2:<br/>$$b = 14$$",
-      "desmosExpressions": [
-        "2x+2y=46",
-        "(9,14)"
-      ]
+      "content": "Subtract 18 from both sides to isolate the $b$ term:<br/>$$46 - 18 = 2b$$<br/>$$28 = 2b$$<br/>Divide both sides by 2:<br/>$$b = 14$$"
     }
   ]
 }

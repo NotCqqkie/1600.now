@@ -4,26 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Enter the scatterplot as a table",
-      "content": "Use Desmos for the model fit. Reading from the grid, the data are approximately $(0,80)$, $(1,90)$, $(2,61)$, $(3,66)$, $(4,51)$, $(5,44)$, $(6,25)$, $(7,25)$, and $(8,0)$.",
-      "desmosExpressions": [
-        "x_1=[0,1,2,3,4,5,6,7,8]",
-        "y_1=[80,90,61,66,51,44,25,25,0]"
-      ]
+      "title": "Use the direction and intercept",
+      "content": "The data trend downward, so the model needs a negative slope. The data are near $90$ when $x$ is near $0$, so the $y$-intercept should be around $90$."
     },
     {
-      "title": "Fit a line",
-      "content": "Run $y_1 \\sim mx_1+b$. The regression gives a slope close to $-10$ and a $y$-intercept close to $90$. That points to $y=90-10x$.",
-      "desmosExpressions": [
-        "x_1=[0,1,2,3,4,5,6,7,8]",
-        "y_1=[80,90,61,66,51,44,25,25,0]",
-        "y_1~m x_1+b",
-        "y=90-10x"
-      ]
+      "title": "Compare the slope sizes",
+      "content": "The data drop from about $90$ to about $0$ over roughly $9$ horizontal units, so the slope should be close to $-10$, not $-0.1$."
     },
     {
       "title": "Check against the choices",
-      "content": "Choices B and C have slope $-0.1$, which is much too flat for the data. Choice A has slope $-10$ but starts at $80$, too low for the overall trend. Choice D, $y=90-10x$, matches the regression and gives $y=50$ at $x=4$, right near the middle of the scatterplot. Choice <strong>D</strong> is correct."
+      "content": "Choices B and C have slope $-0.1$, which is much too flat. Choice A has the right slope size but starts at $80$, too low for the trend. Choice D, $y=90-10x$, has the right intercept and slope, so <strong>D</strong> is correct."
     }
   ]
 }

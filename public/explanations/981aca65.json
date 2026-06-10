@@ -4,31 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the transformation rules for shifts",
-      "content": "When a graph is translated:<ul><li><strong>Right by $h$ units:</strong> replace $x$ with $(x - h)$</li><li><strong>Down by $k$ units:</strong> subtract $k$ from the function value</li></ul>Since the graph moves 4 units right and 3 units down, we need to apply both rules to $f(x)$."
+      "title": "Translate right",
+      "content": "A shift $4$ units to the right replaces $x$ with $x-4$. Thus $f(x-4)=\\frac{a-19}{x-4}+5$."
     },
     {
-      "title": "Apply the rightward shift of 4 units",
-      "content": "Replace $x$ with $(x - 4)$ in the original function:<br/>$$f(x - 4) = \\frac{a-19}{x-4} + 5$$"
+      "title": "Translate down",
+      "content": "A shift $3$ units down subtracts $3$ from the whole function: $g(x)=f(x-4)-3$."
     },
     {
-      "title": "Apply the downward shift of 3 units",
-      "content": "Subtract 3 from the result:<br/>$$g(x) = \\frac{a-19}{x-4} + 5 - 3 = \\frac{a-19}{x-4} + 2$$"
+      "title": "Simplify and match",
+      "content": "$g(x)=\\frac{a-19}{x-4}+5-3=\\frac{a-19}{x-4}+2$, which matches choice <strong>B</strong>."
     },
     {
-      "title": "Graph a concrete value to check the choices",
-      "content": "Because $a$ is just a constant, use any convenient value to visualize the shift. If $a=23$, then $a-19=4$ and $a-22=1$. Graph the original representative function and the four choice forms. The choice B graph is the one shifted right $4$ and down $3$.",
-      "desmosExpressions": [
-        "y=4/x+5",
-        "y=4/(x+4)+2",
-        "y=4/(x-4)+2",
-        "y=1/(x+4)+5",
-        "y=1/(x-4)+5"
-      ]
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "The correct transformed function is $g(x)=\\frac{a-19}{x-4}+2$, which matches choice <strong>B</strong>."
+      "title": "Separate horizontal and vertical shifts",
+      "content": "The right shift changes only the input denominator from $x$ to $x-4$. The downward shift changes only the outside constant from $5$ to $2$."
     }
   ]
 }

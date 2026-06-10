@@ -5,21 +5,11 @@
   "steps": [
     {
       "title": "Use two points",
-      "content": "The point $(0,5)$ is on the line. A slope of $7$ means one step to the right raises $y$ by $7$, so another point is $(1,12)$. Put these two rows in Desmos.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[5,12]"
-      ]
+      "content": "The point $(0,5)$ is on the line. A slope of $7$ means one step to the right raises $y$ by $7$, so another point is $(1,12)$. Use these two points directly."
     },
     {
-      "title": "Run linear regression",
-      "content": "Use $y_1 \\sim mx_1+b$. Desmos gives $m=7$ and $b=5$, so the function is $f(x)=7x+5$.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[5,12]",
-        "y_1~m x_1+b",
-        "y=7x+5"
-      ]
+      "title": "Find the line from the data",
+      "content": "A line with slope $7$ has the form $f(x)=7x+b$. Since $(0,5)$ is on the line, $5=7(0)+b$, so $b=5$. The function is $f(x)=7x+5$."
     },
     {
       "title": "Match the answer",

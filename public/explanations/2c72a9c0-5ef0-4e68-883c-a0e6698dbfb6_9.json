@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Interpret the tangent ratio from angle L",
-      "content": "In right triangle JKL with the right angle at K, we're given $\\tan(\\angle L) = \\frac{3}{4}$. From angle L's perspective, the opposite side is $\\overline{JK}$ and the adjacent side is $\\overline{LK}$. Therefore: $$\\tan(L) = \\frac{JK}{LK} = \\frac{3}{4}$$"
+      "title": "Use the 3-4-5 triangle shortcut",
+      "content": "From angle $L$, tangent is opposite over adjacent:<br/>$$\\tan(L)=\\frac{JK}{LK}=\\frac{3}{4}$$<br/>So the legs are in a $3:4$ ratio. That is the leg ratio of a $3$-$4$-$5$ right triangle."
     },
     {
-      "title": "Express sides using a common factor",
-      "content": "Since the tangent ratio is $\\frac{3}{4}$, we can write: $$JK = 3x \\quad \\text{and} \\quad LK = 4x$$ for some positive value $x$. From the figure, the hypotenuse $LJ = 90$."
+      "title": "Scale from the hypotenuse",
+      "content": "The hypotenuse of the basic $3$-$4$-$5$ triangle is $5$. In the figure, the hypotenuse $LJ$ is $90$, so the scale factor is:<br/>$$90\\div5=18$$"
     },
     {
-      "title": "Solve for x using the Pythagorean theorem",
-      "content": "Apply the Pythagorean theorem to the right triangle: $$(JK)^2 + (LK)^2 = (LJ)^2$$ $$(3x)^2 + (4x)^2 = 90^2$$ $$9x^2 + 16x^2 = 8100$$ $$25x^2 = 8100$$ $$x^2 = 324$$ $$x = 18$$ Therefore, $JK = 3x = 3(18) = 54$. That matches choice C &mdash; <strong>C</strong> is correct."
+      "title": "Find JK",
+      "content": "$JK$ is the side opposite angle $L$, so it corresponds to the $3$ side. Therefore:<br/>$$JK=3(18)=54$$<br/>That matches choice <strong>C</strong>."
     }
   ]
 }

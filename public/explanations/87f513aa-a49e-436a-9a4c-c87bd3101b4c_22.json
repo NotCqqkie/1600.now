@@ -5,25 +5,15 @@
   "steps": [
     {
       "title": "Use 6-hour periods",
-      "content": "A value that is $129\\%$ greater is multiplied by $1+1.29=2.29$. Since the exponent in the choices is $x/6$, let the table input count 6-hour periods. At $x=18$ hours, there have been $3$ periods and the mass is $613.90$ grams.",
-      "desmosExpressions": [
-        "x_1=[0,3]",
-        "y_1=[613.90/(2.29)^3,613.90]"
-      ]
+      "content": "A value that is $129\\%$ greater is multiplied by $1+1.29=2.29$. Since the growth happens every $6$ hours, the exponent should count 6-hour periods: after $x$ hours, that is $x/6$ periods."
     },
     {
-      "title": "Run exponential regression",
-      "content": "Run $y_1 \\sim a b^{x_1}$. Desmos gives $b=2.29$ and $a\\approx51.12$. Since $x_1$ counts 6-hour periods, the model in hours is $A=51.12(2.29)^{x/6}$.",
-      "desmosExpressions": [
-        "x_1=[0,3]",
-        "y_1=[613.90/(2.29)^3,613.90]",
-        "y_1~a b^{x_1}",
-        "y=51.12(2.29)^{x/6}"
-      ]
+      "title": "Find the exponential pattern",
+      "content": "At $x=18$ hours, there have been $18/6=3$ growth periods and the mass is $613.90$ grams. Work backward to the starting value: $$a(2.29)^3=613.90$$ $$a=\\frac{613.90}{(2.29)^3}\\approx51.12$$ So the model is $$A=51.12(2.29)^{x/6}$$"
     },
     {
       "title": "Confirm the choices",
-      "content": "Choices A and D use base $1.29$, which means $129\\%$ of the old mass, not $129\\%$ greater than the old mass. Choice B uses the right base but the wrong starting value. Choice C has both regression values, $51.12$ and $2.29$, so choice <strong>C</strong> is correct."
+      "content": "Choices A and D use base $1.29$, which means $129\\%$ of the old mass, not $129\\%$ greater than the old mass. Choice B uses the right base but the wrong starting value. Choice C has both model values, $51.12$ and $2.29$, so choice <strong>C</strong> is correct."
     }
   ]
 }

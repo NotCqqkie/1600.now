@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; &quot;It is between $3.22 and $3.34.&quot;</strong>: This is exactly the confidence interval — a plausible range for the true population mean. &#10003;</li><li><strong>Choice B &mdash; &quot;It is either less than $3.22 or greater than $3.34.&quot;</strong>: This asserts the true mean falls outside the confidence interval, which is implausible. &#10007;</li><li><strong>Choice C &mdash; &quot;It is less than $3.22.&quot;</strong>: Only the far lower tail — not supported by the data. &#10007;</li><li><strong>Choice D &mdash; &quot;It is greater than $3.34.&quot;</strong>: Only the far upper tail — not supported by the data. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; &quot;It is between \\$3.22 and \\$3.34.&quot;</strong>: This is exactly the confidence interval — a plausible range for the true population mean. &#10003;</li><li><strong>Choice B &mdash; &quot;It is either less than \\$3.22 or greater than \\$3.34.&quot;</strong>: This asserts the true mean falls outside the confidence interval, which is implausible. &#10007;</li><li><strong>Choice C &mdash; &quot;It is less than \\$3.22.&quot;</strong>: Only the far lower tail — not supported by the data. &#10007;</li><li><strong>Choice D &mdash; &quot;It is greater than \\$3.34.&quot;</strong>: Only the far upper tail — not supported by the data. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

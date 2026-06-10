@@ -13,7 +13,7 @@
     },
     {
       "title": "Find the combined area of the two shaded regions",
-      "content": "The two shaded triangles (left and right) are congruent equilateral triangles. Their combined area is:<br/>$$2 \\times 4\\sqrt{3} = 8\\sqrt{3} \\text{ cm}^2$$<br/>That matches choice C — <strong>C</strong> is correct."
+      "content": "The two shaded triangles (left and \\right) are congruent equilateral triangles. Their combined area is:<br/>$$2 \\times 4\\sqrt{3} = 8\\sqrt{3} \\text{ cm}^2$$<br/>That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

@@ -9,11 +9,7 @@
     },
     {
       "title": "Interpret the coordinates",
-      "content": "The point $(x, y) = (1, 70)$ directly tells us: when $x = 1$ (meaning 1 day after going public), we have $y = 70$ (meaning the stock price is \\$70). Reading the coordinates through their meanings, 1 day after the company went public, the company's estimated stock price is \\$70.<br/><br/>That matches choice C — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y = 0.25x^{2} - 7.5x + 77.25",
-        "(1, 70)"
-      ]
+      "content": "The point $(x, y) = (1, 70)$ directly tells us: when $x = 1$ (meaning 1 day after going public), we have $y = 70$ (meaning the stock price is \\$70). Reading the coordinates through their meanings, 1 day after the company went public, the company's estimated stock price is \\$70.<br/><br/>That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

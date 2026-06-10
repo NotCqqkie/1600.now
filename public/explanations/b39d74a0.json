@@ -4,15 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Plot the table in Desmos",
-      "content": "Enter the table values as $x_1=[0,1,2,3]$ and $y_1=[0,1,8,27]$. Those points rise slowly at first and then very quickly. To test the likely cubic pattern, add $y_1\\sim ax_1^3$; Desmos gives $a=1$, so the model is $y=x^3$.",
-      "desmosExpressions": [
-        "x_1=[0,1,2,3]",
-        "y_1=[0,1,8,27]",
-        "(x_1,y_1)",
-        "y_1~a x_1^3",
-        "y=a x^3"
-      ]
+      "title": "Use the table pattern",
+      "content": "The outputs are $0$, $1$, $8$, and $27$, which are perfect cubes: $$0=0^3,\\quad 1=1^3,\\quad 8=2^3,\\quad 27=3^3.$$ So the table follows $y=x^3$."
     },
     {
       "title": "Confirm the pattern by hand",

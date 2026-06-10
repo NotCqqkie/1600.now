@@ -9,10 +9,7 @@
     },
     {
       "title": "Substitute x = 0 and simplify",
-      "content": "Substitute $x = 0$ into $y = 8x^2 + 59$:<br/>$$y = 8(0)^2 + 59$$<br/>$$y = 0 + 59$$<br/>$$y = 59$$<br/>Therefore, the value of $y$ at the y-intercept is <strong>59</strong>.",
-      "desmosExpressions": [
-        "y = 8x^{2} + 59"
-      ]
+      "content": "Substitute $x = 0$ into $y = 8x^2 + 59$:<br/>$$y = 8(0)^2 + 59$$<br/>$$y = 0 + 59$$<br/>$$y = 59$$<br/>Therefore, the value of $y$ at the y-intercept is <strong>59</strong>."
     }
   ]
 }

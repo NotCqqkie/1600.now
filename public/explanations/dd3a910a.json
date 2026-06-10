@@ -5,15 +5,11 @@
   "steps": [
     {
       "title": "Identify the two functions shown",
-      "content": "The graph displays two functions:<ul><li>A V-shaped absolute value function with vertex at $(4, 2)$</li><li>A straight line passing through $(0, 4)$ with slope $1$, so $y = x + 4$</li></ul>"
+      "content": "The graph displays two functions:<ul><li>A V-shaped absolute value graph.</li><li>A straight-line graph.</li></ul>The solution is not found by writing equations; it is the point where the two visible graphs cross."
     },
     {
       "title": "Read the intersection point from the grid",
-      "content": "The straight line meets the left branch of the absolute value function at the point where $x = 1$ and $y = 5$. That matches choice C — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y = \\left|x - 4\\right| + 2",
-        "y = x + 4"
-      ]
+      "content": "The straight line meets the left branch of the V-shaped graph at the point where $x=1$ and $y=5$. The solution is $(1,5)$, which matches choice <strong>C</strong>."
     }
   ]
 }

@@ -5,12 +5,7 @@
   "steps": [
     {
       "title": "Use source points on the fit line",
-      "content": "The line of best fit decreases as $x$ increases, so the slope is negative. Two approximate points on the line are $(1,12)$ and $(11,4)$.",
-      "desmosExpressions": [
-        "x_1=[1,11]",
-        "y_1=[12,4]",
-        "y_1~m x_1+b"
-      ]
+      "content": "The line of best fit decreases as $x$ increases, so the slope is negative. Two approximate points on the line are $(1,12)$ and $(11,4)$."
     },
     {
       "title": "Calculate the slope",

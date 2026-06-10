@@ -5,12 +5,7 @@
   "steps": [
     {
       "title": "Identify the equation of line g from the graph",
-      "content": "The graph shows line $g$ passing through $(-10,12)$ and approximately $(0,1)$. Since line $k$ has the form $165x+py=w$, use Desmos to fit $p$ and $w$ directly from those two points: enter $x_1=[-10,0]$, $y_1=[12,1]$, and $165x_1+p y_1\\sim w$.",
-      "desmosExpressions": [
-        "x_1=[-10,0]",
-        "y_1=[12,1]",
-        "165x_1+p y_1~w"
-      ]
+      "content": "The graph shows line $g$ passing through $(-10,12)$ and approximately $(0,1)$. The slope is $$\\frac{1-12}{0-(-10)}=-\\frac{11}{10}.$$ With $y$-intercept $1$, this is $y=-\\frac{11}{10}x+1$, or equivalently $11x+10y=10$."
     },
     {
       "title": "Set up proportionality for identical lines",
@@ -18,7 +13,7 @@
     },
     {
       "title": "Solve for p and w using the proportionality constant",
-      "content": "Desmos returns $p=150$ and $w=150$. Therefore $p+w=150+150=300$. The answer is <strong>300</strong>."
+      "content": "Since $165=15\\cdot 11$, multiply the whole equation $11x+10y=10$ by $15$:$$165x+150y=150$$Thus $p=150$ and $w=150$, so $p+w=300$. The answer is <strong>300</strong>."
     }
   ]
 }

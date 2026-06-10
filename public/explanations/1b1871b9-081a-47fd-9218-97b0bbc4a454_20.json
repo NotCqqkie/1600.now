@@ -4,17 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use table regression to avoid expansion mistakes",
-      "content": "The answer choices are quadratics, so evaluate $f(x)+g(x)$ at three easy $x$-values and let Desmos fit $ax^2+bx+c$. This is a fast way to recover the full equivalent quadratic without doing every FOIL step by hand.",
-      "desmosExpressions": [
-        "x_1=[-1,0,1]",
-        "y_1=(2x_1-5)^2+2(2x_1+7)",
-        "y_1~a x_1^2+b x_1+c"
-      ]
+      "title": "Write the sum",
+      "content": "The question asks for an expression equivalent to $f(x)+g(x)$, so substitute the two given function rules first. Do not combine choices yet; build the expression from the definitions:<br/>$$f(x)+g(x)=(2x-5)^2+2(2x+7)$$"
     },
     {
-      "title": "Read the coefficients and match the choice",
-      "content": "The regression returns $a=4$, $b=-16$, and $c=39$, so<br/>$$f(x)+g(x)=4x^2-16x+39$$<br/>A quick hand check agrees: $(2x-5)^2=4x^2-20x+25$ and $2(2x+7)=4x+14$, which combine to $4x^2-16x+39$. Choice <strong>B</strong> is correct."
+      "title": "Expand and combine",
+      "content": "$(2x-5)^2=4x^2-20x+25$ and $2(2x+7)=4x+14$. Add like terms:<br/>$$4x^2-20x+25+4x+14=4x^2-16x+39$$<br/>That matches choice <strong>B</strong>."
     }
   ]
 }

@@ -1,14 +1,19 @@
 {
-  "qid": "b310cd51-4e49-46d2-99c8-70a10c0d83f9_16",
+  "questionId": "b310cd51-4e49-46d2-99c8-70a10c0d83f9_16",
   "correctAnswer": "B",
+  "section": "Math",
   "steps": [
     {
-      "title": "Distribute 15 across the parentheses",
-      "content": "$$15(x+10)=15\\cdot x+15\\cdot 10=15x+150$$"
+      "title": "Distribute",
+      "content": "Multiply $15$ by each term inside the parentheses: $$15(x+10)=15x+150$$"
     },
     {
-      "title": "Evaluate each choice",
-      "content": "<ul><li>A: $15x+10$ — the constant term 10 was not multiplied by 15. Incorrect.</li><li>B: $15x+150$ — matches the distributed result exactly. That matches choice B — <strong>B</strong> is correct.</li><li>C: $15x+25$ — 25 &ne; 150. Incorrect.</li><li>D: $15x+5$ — 5 &ne; 150. Incorrect.</li></ul>"
+      "title": "Confirm the choice",
+      "content": "Choice B is $15x+150$, so <strong>B</strong> is correct."
+    },
+    {
+      "title": "Avoid the distribution trap",
+      "content": "The $15$ must multiply both terms inside the parentheses. Choice A leaves the $10$ unchanged, and choices C and D use constants that do not equal $15\\cdot 10$."
     }
   ]
 }

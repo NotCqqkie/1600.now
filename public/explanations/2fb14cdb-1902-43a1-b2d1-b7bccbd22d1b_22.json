@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the discriminant test",
-      "content": "A quadratic has no real solutions when its discriminant is negative. For<br/>$$-x^2+bx-49=0$$<br/>the coefficients are $a=-1$, $b=b$, and $c=-49$."
+      "title": "Translate no real solutions into an inequality",
+      "content": "The question wants values of $b$ that make the quadratic have no real solutions. For a quadratic, that happens when the graph misses the $x$-axis, which means the discriminant is negative. For<br/>$$-x^2+bx-49=0$$<br/>the coefficients are $a=-1$, $b=b$, and $c=-49$."
     },
     {
       "title": "Build the inequality",
@@ -13,11 +13,7 @@
     },
     {
       "title": "Check the boundary integers",
-      "content": "Since $196=14^2$, the condition is $|b|\\lt14$, or $-14\\lt b\\lt14$. The least integer in that interval is $-13$.",
-      "desmosExpressions": [
-        "B=[-14,-13,13,14]",
-        "B^2-196"
-      ]
+      "content": "Since $196=14^2$, the condition is $|b|\\lt14$, or $-14\\lt b\\lt14$. Because $b$ must be an integer, the least possible value is $-13$."
     },
     {
       "title": "Answer",

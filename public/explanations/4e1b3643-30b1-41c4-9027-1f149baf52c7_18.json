@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply positivity constraints to determine the range for x",
-      "content": "Let $x$ be the resistance of one of the other 3 resistors, and let the other two have resistances $r$ and $s$. Then:<br/>$$x + r + s = 30$$<br/>Since each resistor must have positive resistance:<ul><li>$x > 0$ (the resistor itself must be positive)</li><li>$r > 0$ and $s > 0$ (the other two must be positive)</li></ul>Since $r + s = 30 - x$ and we need $r + s > 0$, we must have $30 - x > 0$, which means $x < 30$.<br/>Therefore: $0 < x < 30$. That matches choice B — <strong>B</strong> is correct."
+      "content": "Let $x$ be the resistance of one of the other 3 resistors, and let the other two have resistances $r$ and $s$. Then:<br/>$$x + r + s = 30$$<br/>Since each resistor must have positive resistance:<ul><li>$x > 0$ (the resistor itself must be positive)</li><li>$r > 0$ and $s > 0$ (the other two must be positive)</li></ul>Since $r + s = 30 - x$ and we need $r + s > 0$, we must have $30 - x > 0$, which means $x \\lt 30$.<br/>Therefore: $0 \\lt x \\lt 30$. That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

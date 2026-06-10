@@ -13,11 +13,11 @@
     },
     {
       "title": "Desmos check",
-      "content": "A quick Desmos check is to graph $y=4(2)^x+3$ and evaluate it at $x=3$. The output is $35$, which matches choice B.",
+      "content": "A quick Desmos check is to graph $y=4(2)^x+3$ and evaluate it at $x=3$. The vertical line $x=3$ hits the graph at $y=35$, which is the missing table value. That matches choice B.",
       "desmosExpressions": [
         "y=4\\cdot2^x+3",
         "x=3",
-        "4\\cdot2^3+3"
+        "(3,35)"
       ]
     }
   ]

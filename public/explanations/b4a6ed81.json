@@ -12,12 +12,8 @@
       "content": "$$90y^5-54y^4=y^4(90y-54)$$<br/>Then factor $6$ from the parentheses:<br/>$$y^4(90y-54)=6y^4(15y-9)$$<br/>So $r=6$."
     },
     {
-      "title": "Check with Desmos",
-      "content": "A quick way to verify $r$ is to divide the original expression by $y^4(15y-9)$ at two values of $y$:<br/>$$t_1=[1,2]$$<br/>$$r_1=\\frac{90t_1^5-54t_1^4}{t_1^4(15t_1-9)}$$<br/>Desmos returns $[6,6]$, so the constant value is $6$.",
-      "desmosExpressions": [
-        "t_1=[1,2]",
-        "r_1=\\frac{90t_1^5-54t_1^4}{t_1^4(15t_1-9)}"
-      ]
+      "title": "Check the result",
+      "content": "Expanding the factored form confirms it: $$6y^4(15y-9)=90y^5-54y^4.$$ This matches the original expression, so $r=6$."
     },
     {
       "title": "Answer",

@@ -9,7 +9,7 @@
     },
     {
       "title": "Convert percentage to decimal and multiply",
-      "content": "To find a percentage of a number, convert the percentage to decimal form and multiply:<br/>$$20\\% = 0.20$$<br/>$$\\text{Tip} = 0.20 \\times 50 = 10$$<br/>The tip Hanna gave is \\$10."
+      "content": "To find a percentage of a number, convert the percentage to decimal form and multiply:<br/>$$20\\% = 0.20$$<br/>$$\\text{Tip} = 0.20 \\times 50 = 10$$<br/>The tip Hanna gave is \\$10, so the answer is <strong>10</strong>."
     }
   ]
 }

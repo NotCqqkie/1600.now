@@ -5,16 +5,11 @@
   "steps": [
     {
       "title": "Convert g-values into f-values",
-      "content": "Do not regress $g(x)$ directly, because the question asks for the $y$-intercept of $f$. Since $g(x)=\\frac{f(x)}{x+3}$, multiply each $g(x)$ value by $x+3$: <ul><li>$f(-27)=3(-24)=-72$</li><li>$f(-9)=0(-6)=0$</li><li>$f(21)=5(24)=120$</li></ul>"
+      "content": "Do not calculate $g(x)$ directly, because the question asks for the $y$-intercept of $f$. Since $g(x)=\\frac{f(x)}{x+3}$, multiply each $g(x)$ value by $x+3$: <ul><li>$f(-27)=3(-24)=-72$</li><li>$f(-9)=0(-6)=0$</li><li>$f(21)=5(24)=120$</li></ul>"
     },
     {
-      "title": "Fit f in Desmos",
-      "content": "Now enter the converted points $(-27,-72)$, $(-9,0)$, and $(21,120)$ and run $y_1 \\sim m x_1+b$. Desmos gives $m=4$ and $b=36$, so $f(x)=4x+36$.",
-      "desmosExpressions": [
-        "x_1=[-27,-9,21]",
-        "y_1=[-72,0,120]",
-        "y_1~m x_1+b"
-      ]
+      "title": "Find f from the points",
+      "content": "Use the two converted points $(-27,-72)$ and $(-9,0)$ to find the line for $f$:<br/>$$m=\\frac{0-(-72)}{-9-(-27)}=\\frac{72}{18}=4$$<br/>Substitute $(-9,0)$ into $f(x)=4x+b$: $$0=4(-9)+b,$$ so $b=36$. Therefore $$f(x)=4x+36.$$"
     },
     {
       "title": "Answer the intercept question",

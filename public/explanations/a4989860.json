@@ -10,11 +10,7 @@
     },
     {
       "title": "Identify the slope and find p",
-      "content": "The problem states the line has a slope of $9$. Since $p$ is the slope in slope-intercept form, $p = 9$.",
-      "desmosExpressions": [
-        "y=9x-5",
-        "(0,-5)"
-      ]
+      "content": "The problem states the line has a slope of $9$. Since $p$ is the slope in slope-intercept form, $p = 9$."
     }
   ]
 }

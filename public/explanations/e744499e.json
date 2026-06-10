@@ -13,13 +13,7 @@
     },
     {
       "title": "Match against the choices",
-      "content": "The system is $x + y \\geq 20$ together with $3x + 4y \\leq 80$.<ul><li>A. $x+y \\ge 20$ and $3x+4y \\le 80$ &mdash; matches both inequalities exactly. Correct.</li><li>B. $x+y \\ge 20$ and $3x+4y \\ge 80$ &mdash; reverses the cost inequality, allowing orders that exceed \\$80. Eliminated.</li><li>C. $x+4y \\le 20$ and $x+y \\ge 80$ &mdash; mixes up the coefficients and reverses both directions. Eliminated.</li><li>D. $x+y \\le 20$ and $3x+4y \\ge 80$ &mdash; reverses both inequalities, so it caps the count and requires a minimum cost. Eliminated.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "x+y \\ge 20",
-        "3x+4y \\le 80",
-        "x \\ge 0",
-        "y \\ge 0"
-      ]
+      "content": "The system is $x + y \\geq 20$ together with $3x + 4y \\leq 80$.<ul><li>A. $x+y \\ge 20$ and $3x+4y \\le 80$ &mdash; matches both inequalities exactly. Correct.</li><li>B. $x+y \\ge 20$ and $3x+4y \\ge 80$ &mdash; reverses the cost inequality, allowing orders that exceed \\$80. Eliminated.</li><li>C. $x+4y \\le 20$ and $x+y \\ge 80$ &mdash; mixes up the coefficients and reverses both directions. Eliminated.</li><li>D. $x+y \\le 20$ and $3x+4y \\ge 80$ &mdash; reverses both inequalities, so it caps the count and requires a minimum cost. Eliminated.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

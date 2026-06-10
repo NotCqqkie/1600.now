@@ -4,25 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use sparse polynomial regression",
-      "content": "The answer asks for the coefficient of $r$ after adding the polynomials. A fast Desmos method is to make a table for the sum and fit it to the requested form $ar^4+br+c$:<br/>$$r_1=[-2,-1,0,1]$$<br/>$$s_1=(3r_1^4-2r_1)+(3r_1^4+6r_1+5)$$<br/>$$s_1\\sim ar_1^4+br_1+c$$",
-      "desmosExpressions": [
-        "r_1=[-2,-1,0,1]",
-        "s_1=(3r_1^4-2r_1)+(3r_1^4+6r_1+5)",
-        "s_1\\sim ar_1^4+br_1+c"
-      ]
+      "title": "Add like terms",
+      "content": "Line up the two expressions and combine matching powers of $r$:<br/>$$(3r^4-2r)+(3r^4+6r+5)$$<br/>The $r^4$ terms give $6r^4$, the $r$ terms give $-2r+6r=4r$, and the constant is $5$."
     },
     {
-      "title": "Read the coefficient",
-      "content": "The regression gives $a=6$, $b=4$, and $c=5$. Since the question asks for $b$, the answer is $4$."
-    },
-    {
-      "title": "Confirm with like terms",
-      "content": "Adding directly gives:<br/>$$(3r^4-2r)+(3r^4+6r+5)=6r^4+4r+5$$<br/>In the form $ar^4+br+c$, the coefficient of $r$ is $b=4$."
-    },
-    {
-      "title": "Answer",
-      "content": "The value of $b$ is <strong>4</strong>."
+      "title": "Read b from the required form",
+      "content": "The sum is $$6r^4+4r+5.$$ In the form $ar^4+br+c$, the coefficient of $r$ is $b=4$. The answer is <strong>4</strong>."
     }
   ]
 }

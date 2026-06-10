@@ -9,11 +9,7 @@
     },
     {
       "title": "Find the constant by evaluating at x = 0",
-      "content": "To isolate mowing time alone, evaluate the function when no plants are watered ($x = 0$):<br/>$$W(0) = 4(0) + 80 = 80$$<br/>Since watering zero plants contributes zero minutes, the entire 80 minutes represents time spent mowing the grass. The answer is <strong>80</strong> minutes.",
-      "desmosExpressions": [
-        "y = 4x + 80",
-        "(0, 80)"
-      ]
+      "content": "To isolate mowing time alone, evaluate the function when no plants are watered ($x = 0$):<br/>$$W(0) = 4(0) + 80 = 80$$<br/>Since watering zero plants contributes zero minutes, the entire 80 minutes represents time spent mowing the grass. The answer is <strong>80</strong> minutes."
     }
   ]
 }

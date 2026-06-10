@@ -9,10 +9,7 @@
     },
     {
       "title": "Identify the correct choice",
-      "content": "This directly matches choice A. We can eliminate the other choices: <ul><li>Choice B refers to cumulative increase from start, not the actual revenue at year 5</li><li>Choice C claims the revenue is 5 times the prior year, but base 1.22 means 1.22 times the prior year (22% annual growth), not 5</li><li>Choice D claims 5% annual growth, but the base 1.22 indicates 22% annual growth</li></ul> That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "f(x)=240000((1.22))^(x)"
-      ]
+      "content": "This directly matches choice A. We can eliminate the other choices: <ul><li>Choice B refers to cumulative increase from start, not the actual revenue at year 5</li><li>Choice C claims the revenue is 5 times the prior year, but base 1.22 means 1.22 times the prior year (22% annual growth), not 5</li><li>Choice D claims 5% annual growth, but the base 1.22 indicates 22% annual growth</li></ul> That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

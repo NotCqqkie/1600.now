@@ -4,21 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Turn one intersection into a discriminant check",
-      "content": "Set the two $y$-values equal:<br/>$$2x^2-13x+24=3x+a$$<br/>$$2x^2-16x+(24-a)=0$$<br/>For the line to touch the parabola at exactly one point, this quadratic must have discriminant $0$.",
-      "desmosExpressions": [
-        "y_1=[0]",
-        "y_1~(-16)^2-4*2*(24-a)"
-      ]
+      "title": "Connect one intersection to tangency",
+      "content": "The line and parabola have exactly one intersection only when the line just touches the parabola. Algebraically, that means setting their $y$-values equal should produce a quadratic with one repeated solution:<br/>$$2x^2-13x+24=3x+a$$<br/>$$2x^2-16x+(24-a)=0$$<br/>A quadratic has one repeated solution when its discriminant is $0$."
     },
     {
       "title": "Graph the corrected line",
-      "content": "The regression gives $a=-8$, so the line is $y=3x-8$. Graph $y=2x^2-13x+24$ with $y=3x-8$; the graphs touch once, which is the condition in the question.",
+      "content": "Set the discriminant equal to $0$:<br/>$$(-16)^2-4(2)(24-a)=0$$<br/>$$256-192+8a=0$$<br/>$$64+8a=0$$<br/>$$a=-8$$ So the line is $y=3x-8$. Graph $y=2x^2-13x+24$ with $y=3x-8$ as a visual check; the graphs touch once.",
       "desmosExpressions": [
         "y = 2x^2 - 13x + 24",
         "y = 3x - 8"
-      ],
-      "formula": "$$\\Delta = b^2 - 4ac$$"
+      ]
     },
     {
       "title": "Confirm the x-value",

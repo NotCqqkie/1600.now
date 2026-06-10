@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Find the allowed $y$-range at each $x$",
-      "content": "A point is a solution only if BOTH $y < -5x - 19$ and $y > -3x - 12$ hold.<br/>At $x = -5$: need $-3(-5)-12 = 3 < y < -5(-5)-19 = 6$, so $3 < y < 6$.<br/>At $x = -6$: need $-3(-6)-12 = 6 < y < -5(-6)-19 = 11$, so $6 < y < 11$.<br/>At $x = -8$: need $-3(-8)-12 = 12 < y < -5(-8)-19 = 21$, so $12 < y < 21$."
+      "content": "A point is a solution only if BOTH $y \\lt -5x - 19$ and $y > -3x - 12$ hold.<br/>At $x = -5$: need $-3(-5)-12 = 3 \\lt y \\lt -5(-5)-19 = 6$, so $3 \\lt y \\lt 6$.<br/>At $x = -6$: need $-3(-6)-12 = 6 \\lt y \\lt -5(-6)-19 = 11$, so $6 \\lt y \\lt 11$.<br/>At $x = -8$: need $-3(-8)-12 = 12 \\lt y \\lt -5(-8)-19 = 21$, so $12 \\lt y \\lt 21$."
     },
     {
       "title": "Check each table against the ranges",

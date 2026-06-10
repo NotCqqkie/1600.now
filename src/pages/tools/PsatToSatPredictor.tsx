@@ -23,10 +23,10 @@ const PsatToSatPredictor = () => {
   const [months, setMonths] = useState<string>("6");
 
   const result = useMemo(() => {
-    const p = Number(psat);
-    const m = Number(months);
-    if (!Number.isFinite(p) || !Number.isFinite(m) || m < 0) return null;
-    return predictSat(p, m);
+    const psatScore = Number(psat);
+    const monthCount = Number(months);
+    if (!Number.isFinite(psatScore) || !Number.isFinite(monthCount) || monthCount < 0) return null;
+    return predictSat(psatScore, monthCount);
   }, [psat, months]);
 
   const url = `https://1600.now/${meta.slug}`;
@@ -101,7 +101,7 @@ const PsatToSatPredictor = () => {
               max={1520}
               step={10}
               value={psat}
-              onChange={(e) => setPsat(e.target.value)}
+              onChange={(event) => setPsat(event.target.value)}
               className="mt-2 w-full rounded-lg border border-border bg-background px-3 py-2"
             />
           </div>
@@ -114,7 +114,7 @@ const PsatToSatPredictor = () => {
               min={0}
               max={12}
               value={months}
-              onChange={(e) => setMonths(e.target.value)}
+              onChange={(event) => setMonths(event.target.value)}
               className="mt-2 w-full rounded-lg border border-border bg-background px-3 py-2"
             />
             <p className="mt-1 text-xs text-muted-foreground">
@@ -163,10 +163,10 @@ const PsatToSatPredictor = () => {
       <section className="mt-10">
         <h2 className="text-2xl font-semibold tracking-tight">FAQs</h2>
         <div className="mt-4 space-y-5">
-          {faqs.map((f) => (
-            <div key={f.question}>
-              <h3 className="text-base font-semibold">{f.question}</h3>
-              <p className="mt-1 text-muted-foreground">{f.answer}</p>
+          {faqs.map((faq) => (
+            <div key={faq.question}>
+              <h3 className="text-base font-semibold">{faq.question}</h3>
+              <p className="mt-1 text-muted-foreground">{faq.answer}</p>
             </div>
           ))}
         </div>

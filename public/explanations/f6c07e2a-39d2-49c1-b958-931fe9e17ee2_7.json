@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the angle sum property",
-      "content": "The sum of all interior angles in any triangle equals 180°. We know ∠K = 34° and ∠L = 34°, so we set up an equation to find ∠J."
+      "content": "The sum of all interior angles in any triangle equals $180^\\circ$. We know $\\angle K = 34^\\circ$ and $\\angle L = 34^\\circ$, so set up an equation to find $\\angle J$."
     },
     {
       "title": "Apply the angle sum formula and solve",
-      "content": "The sum of angles in triangle JKL:<br/>$$\\angle J + \\angle K + \\angle L = 180^\\circ$$<br/>Substitute the known angles:<br/>$$\\angle J + 34^\\circ + 34^\\circ = 180^\\circ$$<br/>Combine like terms:<br/>$$\\angle J + 68^\\circ = 180^\\circ$$<br/>Subtract 68° from both sides:<br/>$$\\angle J = 180^\\circ - 68^\\circ = 112^\\circ$$<br/>The measure of ∠J is <strong>112</strong>."
+      "content": "The sum of angles in triangle $JKL$:<br/>$$\\angle J + \\angle K + \\angle L = 180^\\circ$$<br/>Substitute the known angles:<br/>$$\\angle J + 34^\\circ + 34^\\circ = 180^\\circ$$<br/>Combine like terms:<br/>$$\\angle J + 68^\\circ = 180^\\circ$$<br/>Subtract $68^\\circ$ from both sides:<br/>$$\\angle J = 180^\\circ - 68^\\circ = 112^\\circ$$<br/>The measure of $\\angle J$ is <strong>112</strong>, so the answer is <strong>112</strong>."
     }
   ]
 }

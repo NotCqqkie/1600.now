@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Graph or check the choices",
-      "content": "Since the answer choices are ordered pairs, the quickest method is to check which point lies on both graphs. In Desmos, graph both equations and read an intersection point.",
+      "content": "Since the answer choices are ordered pairs, the quickest method is to check which point lies on both graphs. Graph both equations and read an intersection point.",
       "desmosExpressions": [
         "y=5x+4",
         "y=5x^2+4"

@@ -110,15 +110,18 @@ export function normalizeExplanationData(raw: unknown): ExplanationData | null {
         .filter((step): step is ExplanationStep => Boolean(step))
     : [];
 
-  const explanationHtml = asString(data.explanationHtml);
+  const legacyExplanation = asString(data.explanation);
+  const explanationHtml = asString(data.explanationHtml) ?? legacyExplanation;
   if (!steps.length && explanationHtml) {
     steps.push({ title: "Explanation", content: explanationHtml });
   }
 
   const choiceElimination =
     asString(data.choiceElimination) ??
+    asString(data.choiceEliminations) ??
     asString(data.choiceAnalysis) ??
-    asString(data.eliminationHtml);
+    asString(data.eliminationHtml) ??
+    (steps.length ? legacyExplanation : undefined);
   const existingStepContent = normalizeComparableHtml(steps.map((step) => step.content).join(" "));
   const shouldAppendChoiceElimination =
     choiceElimination &&

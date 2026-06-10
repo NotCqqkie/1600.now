@@ -12,8 +12,8 @@
       "content": "Adding the same constant to every value in a data set shifts the mean by that constant but leaves the standard deviation unchanged. So if $h=28$, Set B is just Set A shifted by $+1$, giving $\\text{SD}(B)=\\text{SD}(A)$. To make $\\text{SD}(A)>\\text{SD}(B)$, $h$ must be closer to the rest of the data than $28$ is &mdash; that is, between roughly the mean of the other five values and $28$."
     },
     {
-      "title": "Test each option in Desmos",
-      "content": "The fastest check is to enter each possible data set as a list and compare population standard deviations. Desmos gives $\\text{SD}(A)\\approx 6.75$, $\\text{SD}(B_{23})\\approx 4.79$, $\\text{SD}(B_{28})\\approx 6.75$, and $\\text{SD}(B_{29})\\approx 7.45$. Only I, $h=23$, makes Set B less spread out than Set A.",
+      "title": "Test each option",
+      "content": "A quick calculator check is to enter each possible data set as a list and compare population standard deviations:<br/>$$\\text{SD}(A)\\approx6.75$$<br/>$$\\text{SD}(B_{23})\\approx4.79$$<br/>$$\\text{SD}(B_{28})\\approx6.75$$<br/>$$\\text{SD}(B_{29})\\approx7.45$$ Only I, $h=23$, makes Set B less spread out than Set A.",
       "desmosExpressions": [
         "a_1=[8,11,12,15,21,27]",
         "b_1=[9,12,13,16,22,23]",

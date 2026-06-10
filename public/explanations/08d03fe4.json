@@ -4,22 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find which form shows the coefficient equal to f(1)",
-      "content": "A coefficient equals $f(1)$ only when the exponential factor becomes 1 at $x=1$. In Desmos, make a one-row table with $x_1=1$, then evaluate each choice at that input. This quickly shows which coefficient is actually the value of the function at $x=1$: choice A gives $50(2)^2$, choice B gives $80(2)^1$, choice C gives $128(2)^0$, and choice D gives $205(2)^{-1}$. Only choice C has exponent 0 at $x=1$, so only choice C makes the coefficient itself equal to $f(1)$.",
-      "desmosExpressions": [
-        "x_1=[1]",
-        "a_1=50(2)^(x_1+1)",
-        "b_1=80(2)^x_1",
-        "c_1=128(2)^(x_1-1)",
-        "d_1=205(2)^(x_1-2)"
-      ]
+      "title": "Find when the coefficient equals f(1)",
+      "content": "The coefficient equals $f(1)$ only when the exponential part becomes $1$ at $x=1$. That happens when the exponent is $0$ at $x=1$."
     },
     {
       "title": "Evaluate f(1) for choice C",
-      "content": "For $f(x) = 128(2)^{x-1}$:<br/>$$f(1) = 128(2)^{1-1} = 128(2)^0 = 128 \\cdot 1 = 128$$<br/>The coefficient 128 shown in form C equals $f(1) = k$. That matches choice C — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "f(x)=128((2))^(x-1)"
-      ]
+      "content": "For choice C, $f(x)=128(2)^{x-1}$:<br/>$$f(1)=128(2)^{1-1}=128(2)^0=128$$<br/>The coefficient is $k$, so choice C is correct."
     }
   ]
 }

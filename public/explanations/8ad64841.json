@@ -12,14 +12,8 @@
       ]
     },
     {
-      "title": "Run a linear regression",
-      "content": "Type $y_1\\sim m x_1+b$. Desmos returns $m=50$ and $b=-180$, so the profit function is $f(x)=50x-180$.",
-      "desmosExpressions": [
-        "x_1=[8,10]",
-        "y_1=[220,320]",
-        "y_1~m x_1+b",
-        "y=50x-180"
-      ]
+      "title": "Find the line from the data",
+      "content": "The slope is $$m=\\frac{320-220}{10-8}=50$$ Use $(8,220)$ in $f(x)=50x+b$: $$220=50(8)+b$$ $$b=-180$$ Therefore $$f(x)=50x-180$$"
     },
     {
       "title": "Confirm the answer",

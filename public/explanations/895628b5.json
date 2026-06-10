@@ -13,11 +13,7 @@
     },
     {
       "title": "Substitute to find y and identify the solution",
-      "content": "Substitute $x = 2$ into the second equation: $$y = 6(2) - 12 = 12 - 12 = 0$$ The solution is the ordered pair $(2, 0)$. That matches choice C — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y = (x - 2)(x + 4)",
-        "y = 6x - 12"
-      ]
+      "content": "Substitute $x = 2$ into the second equation: $$y = 6(2) - 12 = 12 - 12 = 0$$ The solution is the ordered pair $(2, 0)$. That matches choice C - <strong>C</strong> is correct."
     }
   ]
 }

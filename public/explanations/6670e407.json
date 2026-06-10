@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate Statement II &mdash; compare the medians",
-      "content": "Order each set to find the middle (3rd) value:<br/><strong>Foothill:</strong> 70, 75, <strong>76</strong>, 80, 87 &rarr; median = 76<br/><strong>Valley:</strong> 44, 54, <strong>65</strong>, 76, 82 &rarr; median = 65<br/>76 &gt; 65, so Statement II is <strong>true</strong>."
+      "content": "Order each set to find the middle (3rd) value:<br/><strong>Foothill:</strong> 70, 75, <strong>76</strong>, 80, 87 $\\Rightarrow$ median = 76<br/><strong>Valley:</strong> 44, 54, <strong>65</strong>, 76, 82 $\\Rightarrow$ median = 65<br/>76 &gt; 65, so Statement II is <strong>true</strong>."
     },
     {
       "title": "Choose the answer",

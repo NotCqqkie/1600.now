@@ -9,11 +9,7 @@
     },
     {
       "title": "Simplify to find the sum",
-      "content": "Compute the product: $$180 \\times 23 = 4140$$.<br/>The answer is <strong>4140</strong>.",
-      "desmosExpressions": [
-        "y = 180(x - 2)",
-        "(25, 4140)"
-      ]
+      "content": "Compute the product: $$180 \\times 23 = 4140$$.<br/>The answer is <strong>4140</strong>."
     },
     {
       "title": "Confirm the answer",

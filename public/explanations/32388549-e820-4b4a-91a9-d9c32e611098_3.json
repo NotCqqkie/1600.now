@@ -4,17 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fit the line from the table",
-      "content": "For a table-to-equation question, enter two table points and run a linear regression. The table includes $(0,95)$ and $(1,105)$, so use $y_1 \\sim m x_1+b$ in Desmos.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[95,105]",
-        "y_1~m x_1+b"
-      ]
+      "title": "Find the line from the table",
+      "content": "Use two table points to find the slope and intercept. The table includes $(0,95)$ and $(1,105)$."
     },
     {
       "title": "Read the equation",
-      "content": "Desmos gives $m=10$ and $b=95$, so the relationship is $y=10x+95$. This also matches the table because increasing $x$ by $1$ increases $y$ by $10$."
+      "content": "From $(0,95)$ to $(1,105)$, $y$ increases by $10$ when $x$ increases by $1$, so the slope is $10$. Since the table has $y=95$ when $x=0$, the intercept is $95$. The relationship is $y=10x+95$."
     },
     {
       "title": "Check the choices",

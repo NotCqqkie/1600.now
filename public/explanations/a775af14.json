@@ -4,13 +4,11 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fit the two points in Desmos",
-      "content": "This is a perfect table-regression question. Enter the two given points as $x_1=[0,8]$ and $y_1=[2,34]$, then type $y_1\\sim mx_1+b$. Desmos returns $m=4$ and $b=2$, so the line is $y=4x+2$.",
+      "title": "Use the data directly",
+      "content": "Use the two table points directly. From $(0,2)$ to $(8,34)$, the slope is $m=\\frac{34-2}{8-0}=4.$ Substituting a point into $y=mx+b$ gives $b=2$.",
       "desmosExpressions": [
         "x_1=[0,8]",
-        "y_1=[2,34]",
-        "y_1~m x_1+b",
-        "y=m x+b"
+        "y_1=[2,34]"
       ]
     },
     {

@@ -9,11 +9,7 @@
     },
     {
       "title": "Identify the answer",
-      "content": "All three ratios are equal, so the equations are equivalent — infinitely many solutions. That matches choice <strong>C</strong> — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y = \\frac{7 - 2.5x}{4.2}",
-        "y = \\frac{21 - 7.5x}{12.6}"
-      ]
+      "content": "All three ratios are equal, so the equations are equivalent — infinitely many solutions. That matches choice <strong>C</strong> — <strong>C</strong> is correct."
     }
   ]
 }

@@ -13,7 +13,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>A: $2w + 7r = 13$</strong> — matches the derived equation. &#10003;</li><li><strong>B: $\\frac{1}{2}w + \\frac{1}{7}r = 13$</strong> — uses reciprocals of speed (time per mile), not speed. &#10007;</li><li><strong>C: $\\frac{1}{2}w + \\frac{1}{7}r = 117$</strong> — wrong coefficients and wrong total. &#10007;</li><li><strong>D: $2w + 7r = 117$</strong> — correct coefficients but the total is 13 miles, not 117. &#10007;</li></ul>That matches choice <strong>A</strong> — <strong>A</strong> is correct."
+      "content": "<ul><li><strong>A: $2w + 7r = 13$</strong> - matches the derived equation. Correct</li><li><strong>B: $\\frac{1}{2}w + \\frac{1}{7}r = 13$</strong> - uses reciprocals of speed (time per mile), not speed. Incorrect</li><li><strong>C: $\\frac{1}{2}w + \\frac{1}{7}r = 117$</strong> - wrong coefficients and wrong total. Incorrect</li><li><strong>D: $2w + 7r = 117$</strong> - correct coefficients but the total is 13 miles, not 117. Incorrect</li></ul>That matches choice <strong>A</strong> - <strong>A</strong> is correct."
     }
   ]
 }

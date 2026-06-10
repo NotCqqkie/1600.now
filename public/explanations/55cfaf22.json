@@ -4,22 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Enter both data sets as lists",
-      "content": "This is a direct Desmos list question. Put data set X in one list and data set Y in another, then compare the two means.",
-      "desmosExpressions": [
-        "x_1=[5,9,9,13]",
-        "y_1=[5,9,9,13,27]",
-        "\\operatorname{mean}\\left(x_1\\right)",
-        "\\operatorname{mean}\\left(y_1\\right)"
-      ]
+      "title": "Compute the mean of data set X",
+      "content": "Data set X is $5,9,9,13$. Its sum is $36$, so its mean is $$\\frac{36}{4}=9$$"
     },
     {
-      "title": "Compare the results",
-      "content": "Desmos gives $\\operatorname{mean}(x_1)=9$ and $\\operatorname{mean}(y_1)=12.6$. The added value $27$ is much larger than the original mean, so it pulls the mean of Y upward."
+      "title": "Compute the mean of data set Y",
+      "content": "Data set Y has the same four values plus $27$, so its sum is $36+27=63$. Its mean is $$\\frac{63}{5}=12.6$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "Since $9<12.6$, the mean of data set X is less than the mean of data set Y. That matches choice <strong>B</strong>."
+      "content": "Since $9\\lt 12.6$, the mean of data set X is less than the mean of data set Y. That matches choice <strong>B</strong>."
     }
   ]
 }

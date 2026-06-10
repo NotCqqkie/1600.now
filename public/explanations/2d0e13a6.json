@@ -4,15 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the slope of line k directly",
-      "content": "Line $k$ is $y = \\frac{1}{4}x + 1$. In slope-intercept form $y = mx + b$, the slope is $m = \\frac{1}{4}$."
+      "title": "Read the slope of line k",
+      "content": "Line $k$ is $$y=\\frac{1}{4}x+1$$ In slope-intercept form $y=mx+b$, the slope is $m=\\frac{1}{4}$."
     },
     {
-      "title": "Parallel lines share the same slope",
-      "content": "Parallel lines have equal slopes. Line $j$ is parallel to line $k$, so the slope of $j$ is also $\\frac{1}{4} = 0.25$. That matches the answer — <strong>0.25</strong> is correct.",
-      "desmosExpressions": [
-        "y=\\frac{1}{4}x+1"
-      ]
+      "title": "Use parallel slopes",
+      "content": "Parallel lines have the same slope, so line $j$ also has slope $$\\frac{1}{4}=0.25$$ A valid decimal entry is <strong>.25</strong>."
+    },
+    {
+      "title": "Final answer format",
+      "content": "The question is free response, so either $\\frac{1}{4}$ or the decimal $.25$ represents the same slope. The stored answer uses <strong>.25</strong>."
     }
   ]
 }

@@ -8,13 +8,8 @@
       "content": "The choices are all equations for $t$ in terms of $d$, so graph distance $d$ on the $x$-axis and time $t$ on the $y$-axis. The table gives the points $(0.32,8)$ and $(0.56,14)$."
     },
     {
-      "title": "Run a proportional regression",
-      "content": "Because zero distance should take zero time, use the proportional model $y_1 \\sim kx_1$ instead of adding an unnecessary intercept. Desmos returns $k=25$, so the model is $y=25x$, or $t=25d$.",
-      "desmosExpressions": [
-        "x_1=[0.32,0.56]",
-        "y_1=[8,14]",
-        "y_1~k x_1"
-      ]
+      "title": "Run a proportional calculation",
+      "content": "Because zero distance should take zero time, use the proportional model $t=kd$. Find $k$ from either table row: $$k=\\frac{8}{0.32}=25.$$ So the model is $t=25d$."
     },
     {
       "title": "Check the choices",

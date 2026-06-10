@@ -4,16 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set the appropriate variable to 0",
-      "content": "For the $y$-intercept, set $x=0$ in $y=\\left(\\tfrac{8}{13}\\right)^{x+1}$: $$y=\\left(\\tfrac{8}{13}\\right)^{0+1}=\\tfrac{8}{13}.$$"
+      "title": "Use the y-intercept condition",
+      "content": "A $y$-intercept occurs where $x=0$."
     },
     {
-      "title": "Compute the intercept",
-      "content": "So the $y$-intercept is $\\left(0,\\tfrac{8}{13}\\right)$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."
+      "title": "Evaluate the function",
+      "content": "Substitute $x=0$ into $y=\\left(\\frac{8}{13}\\right)^{x+1}$: $y=\\left(\\frac{8}{13}\\right)^1=\\frac{8}{13}$."
     },
     {
-      "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice D, $(0,\\frac{8}{13})$. The other choices do not satisfy the same condition from the question, so <strong>D</strong> is correct."
+      "title": "Match the point",
+      "content": "The intercept is $\\left(0,\\frac{8}{13}\\right)$, which matches choice <strong>D</strong>."
+    },
+    {
+      "title": "Check the point format",
+      "content": "An intercept is a point, not just a number. Since the graph crosses the $y$-axis when $x=0$, the point must have first coordinate $0$ and second coordinate $\\frac{8}{13}$."
     }
   ]
 }

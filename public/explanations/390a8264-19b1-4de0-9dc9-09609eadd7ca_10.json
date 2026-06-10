@@ -11,12 +11,7 @@
     {
       "title": "Simplify to slope-intercept form to find the y-intercept",
       "content": "Expand and simplify:<br/>$$y = \\frac{3}{4}x - \\frac{3}{4} \\cdot 16$$<br/>$$y = \\frac{3}{4}x - 12$$<br/>In slope-intercept form, the y-intercept is the constant term: $-12$.",
-      "formula": "$$y = mx + b$$",
-      "desmosExpressions": [
-        "y = \\frac{3}{4}(x - 16)",
-        "(16, 0)",
-        "(0, -12)"
-      ]
+      "formula": "$$y = mx + b$$"
     }
   ]
 }

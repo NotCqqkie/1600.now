@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the cosine ratio",
-      "content": "In a right triangle, $\\cos(\\text{angle}) = \\frac{\\text{adjacent}}{\\text{hypotenuse}}$.<br/><br/>From angle $y°$ at vertex L, the adjacent side is $KL$ and the hypotenuse is $JL = 59$.<br/><br/>Therefore:\n\n$$\\cos y° = \\frac{KL}{59}$$\n\nWe are given $\\cos y° = \\frac{58}{59}$, so:\n\n$$\\frac{KL}{59} = \\frac{58}{59}$$\n\nMultiplying both sides by 59 gives $KL = 58$.<br/><br/>The answer is <strong>58</strong>.",
+      "content": "In a right triangle, $\\cos(\\text{angle}) = \\frac{\\text{adjacent}}{\\text{hypotenuse}}$.<br/><br/>From angle $y°$ at vertex L, the adjacent side is $KL$ and the hypotenuse is $JL = 59$.<br/><br/>Therefore: $$\\cos y° = \\frac{KL}{59}$$ We are given $\\cos y° = \\frac{58}{59}$, so: $$\\frac{KL}{59} = \\frac{58}{59}$$ Multiplying both sides by 59 gives $KL = 58$.<br/><br/>The answer is <strong>58</strong>.",
       "formula": "$$\\cos y° = \\frac{\\text{adjacent}}{\\text{hypotenuse}}$$"
     }
   ]

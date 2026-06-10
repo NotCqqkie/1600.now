@@ -1,1 +1,15 @@
-{"questionId": "cf01151f-6ffa-43f7-96af-aa65491fd154_6", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Spot the contrasting signal", "content": "The word <strong>“however”</strong> in the second sentence introduces a critical contrast.<br/><br/>The initial claim is that species belong to clades predating Gondwana's split ~80 million years ago.<br/><br/>Pillon et al.'s study then reports a crown age of only 7.3 million years for the Geissois clades—directly at odds with the 80-million-year timeline."}, {"title": "Match the structure to the answer", "content": "Choice D accurately captures this structure—it describes an idea put forward, then presents results incompatible with that idea.<br/><br/>Choices <ul><li>A and C infer claims the passage never makes (A about explaining the discrepancy</li><li>C about researchers reconsidering)</li><li>B mischaracterizes the study's purpose</li></ul>.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "cf01151f-6ffa-43f7-96af-aa65491fd154_6",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the contrasting signal",
+      "content": "The word <strong>“however”</strong> in the second sentence introduces a critical contrast.<br/><br/>The initial claim is that species belong to clades predating Gondwana's split ~80 million years ago.<br/><br/>Pillon et al.'s study then reports a crown age of only 7.3 million years for the Geissois clades—directly at odds with the 80-million-year timeline."
+    },
+    {
+      "title": "Match the structure to the answer",
+      "content": "Choice D accurately captures this structure—it describes an idea put forward, then presents results incompatible with that idea.<br/><br/>Choices <ul><li>A and C infer claims the passage never makes (A about explaining the discrepancy</li><li>C about researchers reconsidering)</li><li>B mischaracterizes the study's purpose</li></ul>.<br/><br/>That matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -5,11 +5,7 @@
   "steps": [
     {
       "title": "Identify parabola's vertex and direction",
-      "content": "The equation $ y = x^2 + 1.7 $ is a parabola in vertex form $ y = a(x-h)^2 + k $. Comparing directly, vertex is (0, 1.7) and opens upward (since coefficient of $ x^2 $ is positive).<br/><strong>Only choices A and B have a parabola with vertex at (0, 1.7).</strong>",
-      "desmosExpressions": [
-        "y = x^2 + 1.7",
-        "y = 1.7 - x"
-      ]
+      "content": "The equation $ y = x^2 + 1.7 $ is a parabola in vertex form $ y = a(x-h)^2 + k $. Comparing directly, vertex is (0, 1.7) and opens upward (since coefficient of $ x^2 $ is positive).<br/><strong>Only choices A and B have a parabola with vertex at (0, 1.7).</strong>"
     },
     {
       "title": "Determine line slope and eliminate choices",
@@ -18,11 +14,7 @@
     },
     {
       "title": "Validate vertex consistency",
-      "content": "Choice C claims the parabola's vertex is at (-1.7, 0). This conflicts with the equation's vertex at (0, 1.7). <strong>Eliminate C.</strong> Only <strong>A</strong> has both matching parabola vertex and downward-sloping line.",
-      "desmosExpressions": [
-        "y = x^2 + 1.7",
-        "y = 1.7 - x"
-      ]
+      "content": "Choice C claims the parabola's vertex is at (-1.7, 0). This conflicts with the equation's vertex at (0, 1.7). <strong>Eliminate C.</strong> Only <strong>A</strong> has both matching parabola vertex and downward-sloping line."
     }
   ]
 }

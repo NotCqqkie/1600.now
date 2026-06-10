@@ -12,8 +12,8 @@
       "content": "Subtract $8$ from both sides: $$3y=18.$$ Divide by $3$: $$y=6.$$"
     },
     {
-      "title": "Check in Desmos",
-      "content": "Graphing $x=8$ and $x+3y=26$ gives an intersection at $(8,6)$, so the requested $y$-value is <strong>6</strong>.",
+      "title": "Check the solution",
+      "content": "The ordered pair $(8,6)$ satisfies both equations because $x=8$ and $$8+3(6)=26.$$ The requested $y$-value is <strong>6</strong>.",
       "desmosExpressions": [
         "x=8",
         "x+3y=26"

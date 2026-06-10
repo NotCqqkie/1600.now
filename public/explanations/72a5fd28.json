@@ -9,7 +9,7 @@
     },
     {
       "title": "Round up to the minimum whole number",
-      "content": "Since we cannot buy a fractional package, we must round UP. Testing:<ul><li>4 packages: $12 \\times 4 = 48$ rolls (insufficient, since $48 < 50$)</li><li>5 packages: $12 \\times 5 = 60$ rolls (sufficient, since $60 \\geq 50$)</li></ul>The minimum number of packages is <strong>5</strong>."
+      "content": "Since we cannot buy a fractional package, we must round UP. Testing:<ul><li>4 packages: $12 \\times 4 = 48$ rolls (insufficient, since $48 \\lt 50$)</li><li>5 packages: $12 \\times 5 = 60$ rolls (sufficient, since $60 \\geq 50$)</li></ul>The minimum number of packages is <strong>5</strong>."
     }
   ]
 }

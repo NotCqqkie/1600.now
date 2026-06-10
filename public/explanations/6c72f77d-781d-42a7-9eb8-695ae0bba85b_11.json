@@ -9,13 +9,7 @@
     },
     {
       "title": "Compute r",
-      "content": "$$r = \\frac{-20 + (-4)}{2} = \\frac{-24}{2} = -12.$$<br/>The answer is <strong>-12</strong>.",
-      "desmosExpressions": [
-        "f(x) = (x+20)(x+4)",
-        "(-20, 0)",
-        "(-4, 0)",
-        "(-12, -64)"
-      ]
+      "content": "$$r = \\frac{-20 + (-4)}{2} = \\frac{-24}{2} = -12.$$<br/>The answer is <strong>-12</strong>."
     }
   ]
 }

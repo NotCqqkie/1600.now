@@ -4,28 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use two-variable coefficient regression",
-      "content": "The answer choices are quadratic expressions in $x$ and $y$. Instead of expanding every term by hand, use Desmos to fit the expression to the form $ax^2+bxy+cy^2$."
+      "title": "Expand the first product",
+      "content": "$$(x-11y)(2x-3y)=2x^2-3xy-22xy+33y^2$$<br/>Combine the $xy$ terms:<br/>$$2x^2-25xy+33y^2$$"
     },
     {
-      "title": "Evaluate the expression at three points",
-      "content": "Enter three simple $(x,y)$ test points and compute the expression values:<br/>$$x_1=[1,0,1]$$<br/>$$y_1=[0,1,1]$$<br/>$$z_1=(x_1-11y_1)(2x_1-3y_1)-12y_1(-2x_1+3y_1)$$",
-      "desmosExpressions": [
-        "x_1=[1,0,1]",
-        "y_1=[0,1,1]",
-        "z_1=(x_1-11y_1)(2x_1-3y_1)-12y_1(-2x_1+3y_1)"
-      ]
+      "title": "Expand the second product",
+      "content": "$$-12y(-2x+3y)=24xy-36y^2$$"
     },
     {
-      "title": "Fit the coefficient model",
-      "content": "Now enter:<br/>$$z_1\\sim ax_1^2+bx_1y_1+cy_1^2$$<br/>Desmos returns $a=2$, $b=-1$, and $c=-3$. So the equivalent expression is:<br/>$$2x^2-xy-3y^2$$",
-      "desmosExpressions": [
-        "z_1\\sim ax_1^2+bx_1y_1+cy_1^2"
-      ]
+      "title": "Combine like terms",
+      "content": "$$2x^2-25xy+33y^2+24xy-36y^2$$<br/>The $xy$ terms combine to $-xy$, and the $y^2$ terms combine to $-3y^2$. So the equivalent expression is $$2x^2-xy-3y^2.$$"
     },
     {
       "title": "Match the choice",
-      "content": "$2x^2-xy-3y^2$ matches choice B. Expanding manually confirms it: $(x-11y)(2x-3y)=2x^2-25xy+33y^2$, and $-12y(-2x+3y)=24xy-36y^2$, giving $2x^2-xy-3y^2$."
+      "content": "$2x^2-xy-3y^2$ matches choice B, so <strong>B</strong> is correct."
     }
   ]
 }

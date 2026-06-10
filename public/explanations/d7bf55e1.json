@@ -13,11 +13,7 @@
     },
     {
       "title": "Calculate the amount spent on adult tickets",
-      "content": "Multiply the number of adult tickets by the price per ticket: $15 \\times 12 = 180$. Therefore, the amount spent on adult tickets is <strong>180</strong> dollars.",
-      "desmosExpressions": [
-        "y = 30 - x",
-        "y = (300 - 12x)/8"
-      ]
+      "content": "Multiply the number of adult tickets by the price per ticket: $15 \\times 12 = 180$. Therefore, the amount spent on adult tickets is <strong>180</strong> dollars."
     }
   ]
 }

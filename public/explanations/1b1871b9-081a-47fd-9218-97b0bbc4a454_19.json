@@ -5,12 +5,7 @@
   "steps": [
     {
       "title": "Apply the slope formula to find the slope",
-      "content": "The slope of a line between two points is $m = \\frac{y_2 - y_1}{x_2 - x_1}$, the ratio of the vertical change to the horizontal change.<br/><br/>With points $(0, 0)$ and $(13, 14)$:<br/>$$m = \\frac{14 - 0}{13 - 0} = \\frac{14}{13}$$<br/>That matches choice B — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "y = \\frac{14}{13}x",
-        "(0, 0)",
-        "(13, 14)"
-      ]
+      "content": "The slope of a line between two points is $m = \\frac{y_2 - y_1}{x_2 - x_1}$, the ratio of the vertical change to the horizontal change.<br/><br/>With points $(0, 0)$ and $(13, 14)$:<br/>$$m = \\frac{14 - 0}{13 - 0} = \\frac{14}{13}$$<br/>That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

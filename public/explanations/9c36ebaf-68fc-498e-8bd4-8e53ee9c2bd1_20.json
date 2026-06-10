@@ -4,15 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recognize this requires a weighted mean",
-      "content": "We might initially think to just average the two group means: (87 + 93) / 2 = 90.<br/><br/>But this ignores that the two groups have <strong>different sizes</strong>.<br/><br/>The larger group (380 from Kerguelen) should influence the overall mean more than the smaller group (190 from Falkland).<br/><br/>We need a <strong>weighted</strong> mean where each group's contribution is proportional to its size:<br/>$$\\text{Overall Mean} = \\frac{(\\text{size}_1 \\times \\text{mean}_1) + (\\text{size}_2 \\times \\text{mean}_2)}{\\text{total size}}$$"
+      "title": "Use a weighted mean",
+      "content": "The two penguin groups have different sizes, so do not average $87$ and $93$ directly. Weight each mean by the number of penguins in that group."
     },
     {
-      "title": "Calculate the weighted mean",
-      "content": "Apply the formula:<br/>$$\\text{Kerguelen contribution}=380\\times87=33{,}060$$<br/>$$\\text{Falkland contribution}=190\\times93=17{,}670$$<br/>$$\\text{Overall Mean}=\\frac{33{,}060+17{,}670}{380+190}=89$$<br/>In Desmos, this is one weighted-mean expression. That matches choice B, so <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "(380*87+190*93)/(380+190)"
-      ]
+      "title": "Calculate the total height sum",
+      "content": "The Kerguelen group contributes $$380\\cdot87=33{,}060.$$ The Falkland group contributes $$190\\cdot93=17{,}670.$$ The combined total is $$33{,}060+17{,}670=50{,}730.$$"
+    },
+    {
+      "title": "Divide by the total number of penguins",
+      "content": "There are $$380+190=570$$ penguins total, so the overall mean is $$\\frac{50{,}730}{570}=89.$$"
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "$89$ matches choice <strong>B</strong>."
     }
   ]
 }

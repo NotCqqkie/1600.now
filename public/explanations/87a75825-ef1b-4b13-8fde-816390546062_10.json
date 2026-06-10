@@ -4,17 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "One solution &Rarr; discriminant = 0",
-      "content": "For $x^2 + \\sqrt{k-3}\\,x + 33 = 0$: $a=1$, $b=\\sqrt{k-3}$, $c=33$. Set $b^2-4ac=0$."
+      "title": "One solution $\\Rightarrow$ discriminant = 0",
+      "content": "Use the discriminant when the question is really asking how many real solutions a quadratic has. The sign of $b^2-4ac$ tells whether there are two, one, or no real solutions. For $x^2 + \\sqrt{k-3}\\,x + 33 = 0$: $a=1$, $b=\\sqrt{k-3}$, $c=33$. Set $b^2-4ac=0$."
     },
     {
       "title": "Solve for k",
-      "content": "$(\\sqrt{k-3})^2-4(1)(33)=0$, so $k-3-132=0$ and $k=135$. Desmos can do the same discriminant shortcut with a one-row regression. That matches choice A, so <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y_1=[0]",
-        "y_1~(\\sqrt{k-3})^2-4*1*33",
-        "y=x^{2}+\\sqrt{132}\\,x+33"
-      ]
+      "content": "$(sqrt{k-3})^2-4(1)(33)=0$, so $k-3-132=0$ and $k=135$. That matches choice A, so <strong>A</strong> is correct."
     },
     {
       "title": "Confirm the answer",

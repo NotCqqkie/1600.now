@@ -9,21 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "Use Desmos lists to test the choices quickly. For choice A, `mean(a_1)` is $14$ but `median(a_1)` is $15$, so $x=6$ does <em>not</em> work. The other three choices have equal mean and median, so they are possible values.",
-      "desmosExpressions": [
-        "a_1=[15,14,18,17,6]",
-        "b_1=[15,14,18,17,11]",
-        "c_1=[15,14,18,17,16]",
-        "d_1=[15,14,18,17,21]",
-        "\\operatorname{mean}\\left(a_1\\right)",
-        "\\operatorname{median}\\left(a_1\\right)",
-        "\\operatorname{mean}\\left(b_1\\right)",
-        "\\operatorname{median}\\left(b_1\\right)",
-        "\\operatorname{mean}\\left(c_1\\right)",
-        "\\operatorname{median}\\left(c_1\\right)",
-        "\\operatorname{mean}\\left(d_1\\right)",
-        "\\operatorname{median}\\left(d_1\\right)"
-      ]
+      "content": "Test choice A, $x=6$: the mean is $\\frac{64+6}{5}=14$. Ordered, the list is $6,14,15,17,18$, so the median is $15$. Since the mean and median are not equal, $x=6$ is not possible."
     },
     {
       "title": "Confirm the answer",

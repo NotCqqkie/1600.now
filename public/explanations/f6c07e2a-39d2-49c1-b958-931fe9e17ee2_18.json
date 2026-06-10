@@ -9,11 +9,7 @@
     },
     {
       "title": "Find $xy$",
-      "content": "Then $$xy = \\tfrac{4}{5} \\cdot 2 = \\tfrac{8}{5} = 1.6.$$ The answer is <strong>8/5,1.6</strong>.",
-      "desmosExpressions": [
-        "y = \\frac{32 - 5x}{14}",
-        "y = \\frac{22 - 10x}{7}"
-      ]
+      "content": "Then $$xy = \\tfrac{4}{5} \\cdot 2 = \\tfrac{8}{5} = 1.6.$$ The answer is <strong>8/5,1.6</strong>."
     }
   ]
 }

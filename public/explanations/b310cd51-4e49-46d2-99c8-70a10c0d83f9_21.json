@@ -8,23 +8,12 @@
       "content": "Rewrite $f(x)=ab^{x/n}$ as $f(x)=ak^x$, where $k=b^{1/n}$ is the multiplier for each 1-unit increase in $x$. Ratios eliminate $a$:<br/>$$\\frac{f(5)}{f(2)}=\\frac{162}{6}=27$$<br/>The input increased by $3$, so $k^3=27$ and $k=3$."
     },
     {
-      "title": "Check it with a Desmos exponential regression",
-      "content": "A fast calculator route is to enter the two known points as lists and regress $y_1\\sim ak^{x_1}$. Desmos finds the same per-unit multiplier, $k=3$, without separately solving for $b$ and $n$.",
-      "desmosExpressions": [
-        "x_1=[2,5]",
-        "y_1=[6,162]",
-        "y_1~a k^{x_1}"
-      ]
+      "title": "Use the exponential multiplier",
+      "content": "The per-unit multiplier is $3$, so each increase of $1$ in $x$ multiplies the function value by $3$. This avoids needing to find $a$, $b$, or $n$ separately."
     },
     {
       "title": "Compute f(7) using the growth factor",
-      "content": "From $x=5$ to $x=7$ is a 2-unit increase, so multiply by $3^2=9$:<br/>$$f(7)=162\\cdot 9=1458$$<br/>You can also evaluate the Desmos regression model at $x=7$. The answer is <strong>1458</strong>.",
-      "desmosExpressions": [
-        "x_1=[2,5]",
-        "y_1=[6,162]",
-        "y_1~a k^{x_1}",
-        "a k^7"
-      ]
+      "content": "From $x=5$ to $x=7$ is a 2-unit increase, so multiply by $3^2=9$:<br/>$$f(7)=162\\cdot 9=1458$$<br/>The answer is <strong>1458</strong>."
     }
   ]
 }

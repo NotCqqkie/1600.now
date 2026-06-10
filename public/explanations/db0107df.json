@@ -9,10 +9,7 @@
     },
     {
       "title": "Solve for y",
-      "content": "Divide both sides by 2:<br/>$$y = \\frac{18}{2} = 9$$",
-      "desmosExpressions": [
-        "12x+2y=18"
-      ]
+      "content": "Divide both sides by 2:<br/>$$y = \\frac{18}{2} = 9$$"
     }
   ]
 }

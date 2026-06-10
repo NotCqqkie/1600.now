@@ -4,15 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Square both sides to get a quadratic",
-      "content": "<strong>Shortcut (discriminant):</strong> Square $\\sqrt{k-x} = 28 - x$:<br/>$k - x = (28-x)^2 = 784 - 56x + x^2$<br/>$x^2 - 55x + (784 - k) = 0$"
+      "title": "Use the domain before squaring",
+      "content": "Because the left side is a square root, the right side must be nonnegative: $28-x \\ge 0$. Let $t=28-x$, so $t \\ge 0$ and $x=28-t$. The equation becomes<br/>$$\\sqrt{k-(28-t)}=t$$<br/>Now both sides are nonnegative, so squaring preserves the solution condition:<br/>$$k-28+t=t^2$$<br/>$$k=t^2-t+28$$"
     },
     {
-      "title": "Set discriminant = 0 for exactly one solution",
-      "content": "Exactly one solution means $\\Delta = 0$:<br/>$55^2 - 4(784 - k) = 0$<br/>$3025 - 3136 + 4k = 0$<br/>$4k = 111$<br/>The answer is <strong>111</strong>.",
-      "desmosExpressions": [
-        "\\sqrt{k-x}=28-x"
-      ]
+      "title": "Find the minimum k that gives one solution",
+      "content": "Now the number of solutions is the number of nonnegative $t$-values satisfying $k=t^2-t+28$. Complete the square:<br/>$$k=t^2-t+28=\\left(t-\\frac12\\right)^2+\\frac{111}{4}$$<br/>The minimum possible value of $k$ is $\\frac{111}{4}$, and it occurs at one value, $t=\\frac12$. Therefore:<br/>$$4k=4\\left(\\frac{111}{4}\\right)=111$$<br/>The answer is <strong>111</strong>."
     }
   ]
 }

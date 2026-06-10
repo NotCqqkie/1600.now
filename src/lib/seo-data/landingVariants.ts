@@ -266,4 +266,4 @@ export const landingVariants: LandingVariant[] = [
   }),
 ];
 
-export const landingVariantBySlug = new Map(landingVariants.map((v) => [v.slug, v]));
+export const landingVariantBySlug = new Map(landingVariants.map((variant) => [variant.slug, variant]));

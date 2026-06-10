@@ -1,1 +1,15 @@
-{"questionId": "a2b0fc3b", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the defining contrast", "content": "France and Japan were already at 70%+ in 1970, so they cannot account for post-1970 urbanization growth.<br/><br/>The passage identifies Algeria as a <strong>main contributor to world urbanization since 1970</strong>, which means Algeria must have started well below 70% in 1970 and risen substantially by 2020."}, {"title": "Match the pattern to the graph data", "content": "The graph shows Algeria at approximately 40% urban in 1970 and roughly 70% in 2020—a dramatic ~30 percentage point increase that explains Algeria's role as a main contributor.<br/><br/>Choice D states “around 40% urban in 1970 to more than 70% urban in 2020,” which matches this growth pattern exactly.<br/><br/>Choices A and B overstate 2020 (claiming around 90% instead of ~70%), and C underestimates both values.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "a2b0fc3b",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the defining contrast",
+      "content": "France and Japan were already at 70%+ in 1970, so they cannot account for post-1970 urbanization growth.<br/><br/>The passage identifies Algeria as a <strong>main contributor to world urbanization since 1970</strong>, which means Algeria must have started well below 70% in 1970 and risen substantially by 2020."
+    },
+    {
+      "title": "Match the pattern to the graph data",
+      "content": "The graph shows Algeria at approximately 40% urban in 1970 and roughly 70% in 2020—a dramatic ~30 percentage point increase that explains Algeria's role as a main contributor.<br/><br/>Choice D states “around 40% urban in 1970 to more than 70% urban in 2020,” which matches this growth pattern exactly.<br/><br/>Choices A and B overstate 2020 (claiming around 90% instead of ~70%), and C underestimates both values.<br/><br/>That matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

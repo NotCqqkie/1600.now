@@ -5,13 +5,7 @@
   "steps": [
     {
       "title": "Read the histogram",
-      "content": "The bars cover length intervals of width 50 starting at 0. Enter the interval endpoints and frequencies as Desmos lists: $[0,50)$ has 5 values, $[50,100)$ has 3, $[100,150)$ has 4, $[150,200)$ has 3, and $[200,250)$ has 5. The frequency sum is $20$, matching the 20 data points.",
-      "desmosExpressions": [
-        "l_1=[0,50,100,150,200]",
-        "u_1=[50,100,150,200,250]",
-        "f_1=[5,3,4,3,5]",
-        "\\operatorname{total}\\left(f_1\\right)"
-      ]
+      "content": "The bars cover length intervals of width 50 starting at 0. The rightmost nonempty bar covers values from 200 up to, but not including, 250."
     },
     {
       "title": "Locate the maximum",
@@ -19,7 +13,7 @@
     },
     {
       "title": "Eliminate the answer choices",
-      "content": "<ul><li><strong>A</strong> 68 lies in $[50,100)$, far below the last bar &mdash; impossible as the max.</li><li><strong>B</strong> 118 lies in $[100,150)$ &mdash; still below 200.</li><li><strong>C</strong> 168 lies in $[150,200)$ &mdash; still below 200.</li><li><strong>D</strong> 218 lies in $[200,250)$, which is exactly where the maximum must sit.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "content": "<ul><li><strong>A</strong> 68 is far below the last bar, so it cannot be the maximum.</li><li><strong>B</strong> 118 is still below 200.</li><li><strong>C</strong> 168 is still below 200.</li><li><strong>D</strong> 218 falls in the rightmost nonempty bar, where the maximum must be.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
     }
   ]
 }

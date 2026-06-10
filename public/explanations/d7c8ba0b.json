@@ -4,26 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fit the two given points",
-      "content": "Since the line passes through $(0,9)$ and $(1,17)$, Desmos can find the equation immediately. Enter those two points and run a linear regression.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[9,17]",
-        "y_1~m x_1+b"
-      ]
+      "title": "Use the two given points",
+      "content": "The line passes through $(0,9)$ and $(1,17)$. The point $(0,9)$ gives the $y$-intercept, so $b=9$."
     },
     {
       "title": "Read the equation",
-      "content": "The regression gives $m=8$ and $b=9$, so the line is $$y=8x+9.$$ The point $(0,9)$ gives the intercept, and the jump from 9 to 17 over one unit gives slope 8."
+      "content": "The slope is $$m=\\frac{17-9}{1-0}=8.$$ With slope $8$ and intercept $9$, the line is $$y=8x+9.$$"
     },
     {
       "title": "Check the choices",
-      "content": "Only choice D, $y=8x+9$, has slope 8 and $y$-intercept 9. Choice <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y=8x+9",
-        "(0,9)",
-        "(1,17)"
-      ]
+      "content": "Only choice D, $y=8x+9$, has slope 8 and $y$-intercept 9. Choice <strong>D</strong> is correct."
     }
   ]
 }

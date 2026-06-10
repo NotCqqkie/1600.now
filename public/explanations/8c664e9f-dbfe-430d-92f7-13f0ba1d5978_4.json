@@ -4,21 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use two clear graph points",
-      "content": "The graph is linear. Two easy points to read are approximately $(100,4.5)$ and $(300,13.5)$. Enter those as a Desmos table and run a linear regression to get the model instead of doing all the slope algebra by hand.",
-      "desmosExpressions": [
-        "x_1=[100,300]",
-        "y_1=[4.5,13.5]",
-        "y_1~mx_1+b"
-      ]
+      "title": "Read the graph at 200 kelvins",
+      "content": "The question asks for the estimated volume when the temperature is $200$ kelvins. Locate $x=200$ on the horizontal axis, then move to the graph and read the corresponding $y$-value."
     },
     {
-      "title": "Use the model at 200 kelvins",
-      "content": "The regression gives $m=\\frac{9}{200}$ and $b=0$, so the line is $y=\\frac{9}{200}x$. At $x=200$, $y=\\frac{9}{200}\\cdot 200=9$ liters.",
-      "desmosExpressions": [
-        "y=(9/200)x",
-        "(200,9)"
-      ]
+      "title": "Read the volume",
+      "content": "At $x=200$, the graph shows $y=9$. Since $y$ is measured in liters, the estimated volume is $9$ liters."
     },
     {
       "title": "Confirm the answer",

@@ -5,11 +5,19 @@
   "steps": [
     {
       "title": "Recognize the exterior angle configuration",
-      "content": "When two sides of a triangle are extended, they form exterior angles outside the triangle. The angle <em>x</em> is one such exterior angle."
+      "content": "The angle labeled $x$ is outside the triangle, so first find the interior angle next to it."
     },
     {
-      "title": "Apply the exterior angle theorem and compute x",
-      "content": "An exterior angle equals the sum of the two non-adjacent interior angles. From the figure, the two remote interior angles measure 50° and 70°, so:<br/>$$x = 50° + 70° = 120°$$<br/>That matches choice B — <strong>B</strong> is correct."
+      "title": "Find the third interior angle",
+      "content": "The two given interior angles are $50^\\circ$ and $70^\\circ$. The angles in a triangle add to $180^\\circ$, so the third interior angle is $$180^\\circ-50^\\circ-70^\\circ=60^\\circ.$$"
+    },
+    {
+      "title": "Use the straight line",
+      "content": "The $60^\\circ$ interior angle and the exterior angle $x$ form a straight line, so they are supplementary: $$x=180^\\circ-60^\\circ=120^\\circ.$$"
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "$x=120$, which matches choice <strong>B</strong>."
     }
   ]
 }

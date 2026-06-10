@@ -9,11 +9,7 @@
     },
     {
       "title": "Substitute and solve for birch trees",
-      "content": "Substitute $x = 245$ into the equation:<br/>$$245 + y = 350$$<br/>Subtract 245 from both sides:<br/>$$y = 350 - 245 = 105$$<br/>That matches choice C — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "x+y=350",
-        "(245,105)"
-      ]
+      "content": "Substitute $x = 245$ into the equation:<br/>$$245 + y = 350$$<br/>Subtract 245 from both sides:<br/>$$y = 350 - 245 = 105$$<br/>That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

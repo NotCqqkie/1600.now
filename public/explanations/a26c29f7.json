@@ -13,11 +13,7 @@
     },
     {
       "title": "Match to the choices",
-      "content": "<ul><li><strong>Choice A &mdash; '$g(x) = \\frac{7}{2}x^3$'</strong>: This scales the function vertically by $\\frac{1}{2}$, not a vertical shift. &#10007;</li><li><strong>Choice B &mdash; '$g(x) = 7x^{\\frac{3}{2}}$'</strong>: This changes the exponent, producing a completely different function. &#10007;</li><li><strong>Choice C &mdash; '$g(x) = 7x^3 + 2$'</strong>: Adding 2 shifts the graph UP 2 units, not down. &#10007;</li><li><strong>Choice D &mdash; '$g(x) = 7x^3 - 2$'</strong>: Subtracting 2 shifts the graph DOWN 2 units. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "f(x)=7x^{3}",
-        "g(x)=7x^{3}-2"
-      ]
+      "content": "<ul><li><strong>Choice A - '$g(x) = \\frac{7}{2}x^3$'</strong>: This scales the function vertically by $\\frac{1}{2}$, not a vertical shift. Incorrect</li><li><strong>Choice B - '$g(x) = 7x^{\\frac{3}{2}}$'</strong>: This changes the exponent, producing a completely different function. Incorrect</li><li><strong>Choice C - '$g(x) = 7x^3 + 2$'</strong>: Adding 2 shifts the graph UP 2 units, not down. Incorrect</li><li><strong>Choice D - '$g(x) = 7x^3 - 2$'</strong>: Subtracting 2 shifts the graph DOWN 2 units. Correct</li></ul>That matches choice D - <strong>D</strong> is correct."
     }
   ]
 }

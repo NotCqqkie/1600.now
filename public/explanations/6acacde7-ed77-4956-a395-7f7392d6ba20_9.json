@@ -4,19 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the coordinates and use perpendicular bisector geometry",
-      "content": "From the graph, the three points are at (8, 7), (11, 10), and (11, 4). Observe that two points, (11, 10) and (11, 4), share the same x-coordinate, forming a vertical chord. A key fact: the center of a circle lies on the perpendicular bisector of any chord. For a vertical chord, this perpendicular bisector is a horizontal line passing through the chord's midpoint.<br/><br/>The midpoint of the chord is at:<br/>$$\\left(11, \\frac{10 + 4}{2}\\right) = (11, 7)$$<br/>So the center lies on the horizontal line $y = 7$, meaning the center is at $(h, 7)$ for some value $h$ to be determined."
+      "title": "Read the circle center from the graph",
+      "content": "Use the visible symmetry instead of setting up perpendicular-bisector algebra. The points $(11,10)$ and $(11,4)$ are vertically aligned and have midpoint:<br/>$$\\left(11,\\frac{10+4}{2}\\right)=(11,7)$$<br/>The point $(8,7)$ is also on the circle, exactly $3$ units left of $(11,7)$, so the center is visibly $(11,7)$."
     },
     {
-      "title": "Solve for h using the equidistance property",
-      "content": "The center $(h, 7)$ is equidistant from all three points. Notice that (8, 7) also has y-coordinate 7, so its distance from the center is purely horizontal: $|h - 8|$. This distance must equal the distance from $(h, 7)$ to $(11, 10)$:<br/>$$|h - 8| = \\sqrt{(h - 11)^2 + (7 - 10)^2} = \\sqrt{(h - 11)^2 + 9}$$<br/>Squaring both sides (noting that $h > 8$):<br/>$$(h - 8)^2 = (h - 11)^2 + 9$$<br/>Expanding both sides:<br/>$$h^2 - 16h + 64 = h^2 - 22h + 121 + 9$$<br/>The $h^2$ terms cancel:<br/>$$-16h + 64 = -22h + 130$$<br/>Solving for $h$:<br/>$$6h = 66 \\implies h = 11$$"
+      "title": "Find the radius",
+      "content": "From center $(11,7)$ to $(11,10)$ is $3$ units. From center $(11,7)$ to $(11,4)$ is also $3$ units, and from center $(11,7)$ to $(8,7)$ is $3$ units. Therefore, the radius is $r=3$."
     },
     {
       "title": "Calculate the circumference",
-      "content": "The center is at (11, 7). The radius is the distance from the center to the point (8, 7):<br/>$$r = 11 - 8 = 3$$<br/>The circumference is:<br/>$$C = 2\\pi r = 2\\pi(3) = 6\\pi$$<br/>Since $C = k\\pi$, we have $k = 6$. That matches choice B — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "x^2 + y^2 = 9"
-      ]
+      "content": "The circumference is:<br/>$$C=2\\pi r=2\\pi(3)=6\\pi$$<br/>Since $C=k\\pi$, $k=6$. That matches choice <strong>B</strong>."
     }
   ]
 }

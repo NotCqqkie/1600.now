@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Distribute both sides",
-      "content": "Expand the equation:<br/>$$10(15x-9)=-15(6-10x)$$<br/>$$150x-90=-90+150x$$<br/>The two sides are the same expression, just written in a different order."
+      "title": "Expand both sides",
+      "content": "Distribute on each side: $10(15x-9)=150x-90$ and $-15(6-10x)=-90+150x$."
     },
     {
-      "title": "Recognize the identity",
-      "content": "Because $150x-90=150x-90$ is true for every value of $x$, the equation has infinitely many solutions. In Desmos, graph each side as a function; the two lines lie exactly on top of each other.",
-      "desmosExpressions": [
-        "y=10(15x-9)",
-        "y=-15(6-10x)"
-      ]
+      "title": "Compare the expressions",
+      "content": "The equation becomes $150x-90=150x-90$. This identity is true for every value of $x$."
     },
     {
-      "title": "Choose the answer",
-      "content": "The equation is not false and it is not limited to one or two values of $x$. It is true for all real $x$, so choice C is correct."
+      "title": "Choose the solution count",
+      "content": "Because every $x$ satisfies the equation, there are infinitely many solutions. That matches choice <strong>C</strong>."
     }
   ]
 }

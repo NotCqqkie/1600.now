@@ -1,1 +1,15 @@
-{"questionId":"c39b24c5-b805-4b9b-a609-e68df8471f04_27","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The study measured two things across 17 languages: syllable rate (varied widely) and information rate (stayed constant at ~39 bits per second). The correct choice must capture both findings &mdash; that one metric differed while the other remained the same."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; focuses only on a specific comparison or methodology</strong>: misses the key contrast between the two metrics. &#10007;</li><li><strong>Choice B &mdash; addresses only part of the findings</strong>: does not capture that information rate stayed constant across all languages. &#10007;</li><li><strong>Choice C &mdash; languages differed in syllables per second but conveyed information at roughly the same rate</strong>: accurately captures both findings &mdash; variation in syllable rate alongside a constant information rate. &#10003;</li><li><strong>Choice D &mdash; claims a difference in information rates</strong>: contradicts the study&apos;s finding that information rate was approximately equal across all 17 languages. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "c39b24c5-b805-4b9b-a609-e68df8471f04_27",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The study measured two things across 17 languages: syllable rate (varied widely) and information rate (stayed constant at ~39 bits per second). The correct choice must capture both findings &mdash; that one metric differed while the other remained the same."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; focuses only on a specific comparison or methodology</strong>: misses the key contrast between the two metrics. &#10007;</li><li><strong>Choice B &mdash; addresses only part of the findings</strong>: does not capture that information rate stayed constant across all languages. &#10007;</li><li><strong>Choice C &mdash; languages differed in syllables per second but conveyed information at roughly the same rate</strong>: accurately captures both findings &mdash; variation in syllable rate alongside a constant information rate. &#10003;</li><li><strong>Choice D &mdash; claims a difference in information rates</strong>: contradicts the study&apos;s finding that information rate was approximately equal across all 17 languages. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

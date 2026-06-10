@@ -9,11 +9,7 @@
     },
     {
       "title": "Find $y$",
-      "content": "The answer is <strong>10</strong>.",
-      "desmosExpressions": [
-        "y = 105 - x",
-        "y = \\frac{115 - x}{2}"
-      ]
+      "content": "The answer is <strong>10</strong>."
     },
     {
       "title": "Confirm the answer",

@@ -198,25 +198,25 @@ export const buildQuizJsonLd = (data: {
     name: data.description,
   },
   url: data.url,
-  hasPart: data.questions.map((q) => ({
+  hasPart: data.questions.map((question) => ({
     "@type": "Question",
-    name: q.questionName,
-    text: q.questionText,
-    url: q.url ?? data.url,
+    name: question.questionName,
+    text: question.questionText,
+    url: question.url ?? data.url,
     eduQuestionType: "Multiple choice",
     learningResourceType: "Practice problem",
-    suggestedAnswer: q.choices
-      .filter((c) => c.id !== q.correctAnswerId)
-      .map((c) => ({
+    suggestedAnswer: question.choices
+      .filter((choice) => choice.id !== question.correctAnswerId)
+      .map((choice) => ({
         "@type": "Answer",
-        position: c.id,
-        text: c.text,
+        position: choice.id,
+        text: choice.text,
       })),
     acceptedAnswer: {
       "@type": "Answer",
-      position: q.correctAnswerId,
+      position: question.correctAnswerId,
       text:
-        q.choices.find((c) => c.id === q.correctAnswerId)?.text ?? "",
+        question.choices.find((choice) => choice.id === question.correctAnswerId)?.text ?? "",
     },
   })),
 });

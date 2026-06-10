@@ -9,10 +9,7 @@
     },
     {
       "title": "Find the price difference",
-      "content": "Subtract the unit price of topsoil from the unit price of crushed stone:<br/>$$24.75 - 24.5 = 0.25$$<br/>A ton of crushed stone cost Isabel \\$0.25 more than a cubic yard of topsoil.",
-      "desmosExpressions": [
-        "24.5x+24.75y=641"
-      ]
+      "content": "Subtract the unit price of topsoil from the unit price of crushed stone:<br/>$$24.75 - 24.5 = 0.25$$<br/>A ton of crushed stone cost Isabel \\$0.25 more than a cubic yard of topsoil."
     }
   ]
 }

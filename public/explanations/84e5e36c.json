@@ -9,12 +9,7 @@
     },
     {
       "title": "Solve for x",
-      "content": "Add 5 to both sides:\n$$81 = x^2$$\n\nTake the square root:\n$$x = \\pm 9$$\n\nThis gives $x = 9$ or $x = -9$. Since $x = -9$ appears in the choices, that matches choice B — <strong>B</strong> is correct.",
-      "formula": "$$x^2 = c \\Rightarrow x = \\pm \\sqrt{c}$$",
-      "desmosExpressions": [
-        "y = 76",
-        "y = x^2 - 5"
-      ]
+      "content": "Add 5 to both sides:\n$$81 = x^2$$ Take the square root:\n$$x = \\pm 9$$ This gives $x = 9$ or $x = -9$. Since $x = -9$ appears in the choices, that matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

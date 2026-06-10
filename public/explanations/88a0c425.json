@@ -4,17 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Exactly one solution means discriminant $= 0$",
-      "content": "For $-2x^2 + 20x + c = 0$, identify $a = -2$, $b = 20$. Set $b^2 - 4ac = 0$."
+      "title": "Connect one solution to the discriminant",
+      "content": "A quadratic has exactly one real solution when its discriminant is $0$. For $-2x^2+20x+c=0$, use $a=-2$ and $b=20$."
     },
     {
-      "title": "Discriminant shortcut: solve for $c$",
-      "content": "$$20^2 - 4(-2)c = 0$$$$400 + 8c = 0 \\implies c = -50$$<br/>That matches choice B — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "y_1=[0]",
-        "y_1~20^2-4*(-2)*c",
-        "y = -2x^2 + 20x - 50"
-      ]
+      "title": "Solve for c",
+      "content": "Set $b^2-4ac=0$: $$20^2-4(-2)c=0$$ $$400+8c=0$$ $$c=-50$$"
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "Choice B is $-50$, so <strong>B</strong> is correct."
+    },
+    {
+      "title": "Check the one-solution condition",
+      "content": "A zero discriminant means the parabola touches the $x$-axis once instead of crossing twice or missing it. With $c=-50$, the discriminant is $400+8(-50)=0$."
     }
   ]
 }

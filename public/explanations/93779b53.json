@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Read activity 3",
-      "content": "The graph's horizontal axis lists the activities. Find activity $3$, then read the height of its bar on the vertical axis."
+      "content": "On the bar graph, find activity $3$ on the horizontal axis and read the height of its bar."
     },
     {
-      "title": "Use the answer choices to estimate",
-      "content": "The activity $3$ bar is between $35$ and $40$ students. Among the choices, only $39$ falls in that interval."
+      "title": "Use the closest listed value",
+      "content": "The bar for activity $3$ is just below $40$ students, so the matching value is $39$."
     },
     {
-      "title": "Check the choices",
-      "content": "<ul><li>Choice A, $25$, is below the bar for activity $3$.</li><li>Choice B, $39$, matches the bar height. Correct.</li><li>Choice C, $48$, is the count for activity $5$, not activity $3$.</li><li>Choice D, $50$, is above the activity $3$ bar.</li></ul>That matches choice B."
+      "title": "Confirm the choice",
+      "content": "Choice B is $39$, so <strong>B</strong> is correct."
     }
   ]
 }

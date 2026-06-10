@@ -4,26 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the first two years",
-      "content": "The population starts at 2,000 animals, so use $(0,2000)$. A 3% increase gives $2000(1.03)=2060$ after one year, so use $(1,2060)$. Fit $y_1\\sim a b^{x_1}$ in Desmos.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[2000,2060]",
-        "y_1~a b^{x_1}"
-      ]
+      "title": "Identify the starting value",
+      "content": "The function uses $x$ years after $1998$. At $x=0$, the estimated population is $2{,}000$, so the equation must start with $2{,}000$."
     },
     {
-      "title": "Read the growth factor",
-      "content": "Desmos gives $a=2000$ and $b=1.03$, so the function is $$p(x)=2000(1.03)^x.$$"
+      "title": "Convert the percent increase to a multiplier",
+      "content": "A $3\\%$ yearly increase means each year's population is $100\\%+3\\%=103\\%$ of the previous year's population. As a decimal, the multiplier is $1.03$."
     },
     {
-      "title": "Match the choices",
-      "content": "Choice C is the only equation with starting value 2,000 and yearly multiplier 1.03. Choice D would be a 3% decrease, choice A uses 3 as the whole multiplier, and choice B uses 1.97. Choice <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y=2000(1.03)^x",
-        "(0,2000)",
-        "(1,2060)"
-      ]
+      "title": "Write the exponential model",
+      "content": "The model is $$p(x)=2{,}000(1.03)^x$$ This has initial value $2{,}000$ and multiplies by $1.03$ each year, so choice <strong>C</strong> is correct."
     }
   ]
 }

@@ -8,14 +8,8 @@
       "content": "The graph gives the model points directly. It starts at sea level, so it passes through $(0,0)$. Its lowest point is at $(3,-12)$. It returns to sea level at $(6,0)$. The correct table must list those three ordered pairs."
     },
     {
-      "title": "Use Desmos to verify the table points",
-      "content": "Enter choice C's points as lists: $x_1=[0,3,6]$ and $y_1=[0,-12,0]$. A quadratic regression with the known symmetry point, $y_1\\sim a(x_1-3)^2+k$, gives $a=\\frac{4}{3}$ and $k=-12$, so the graph is $$y=\\frac{4}{3}(x-3)^2-12$$ It matches the visible model points.",
-      "desmosExpressions": [
-        "x_1=[0,3,6]",
-        "y_1=[0,-12,0]",
-        "y_1~a(x_1-3)^2+k",
-        "y=(4/3)(x-3)^2-12"
-      ]
+      "title": "Verify the table points",
+      "content": "Choice C lists $(0,0)$, $(3,-12)$, and $(6,0)$. These match the two sea-level points and the lowest point visible on the graph."
     },
     {
       "title": "Confirm the choice",

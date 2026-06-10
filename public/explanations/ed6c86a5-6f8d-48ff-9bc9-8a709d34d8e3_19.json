@@ -9,13 +9,7 @@
     },
     {
       "title": "Write the equation of the tangent line",
-      "content": "Using point-slope form through $(3, -1)$: $$y + 1 = \\frac{5}{3}(x - 3)$$ $$y = \\frac{5}{3}x - 6$$",
-      "desmosExpressions": [
-        "(x+2)^2 + (y-2)^2 = 34",
-        "(-2, 2)",
-        "(3, -1)",
-        "y + 1 = (5/3)(x - 3)"
-      ]
+      "content": "Using point-slope form through $(3, -1)$: $$y + 1 = \\frac{5}{3}(x - 3)$$ $$y = \\frac{5}{3}x - 6$$"
     },
     {
       "title": "Evaluate all choices",

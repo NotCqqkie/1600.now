@@ -9,11 +9,7 @@
     },
     {
       "title": "Solve for the parameter",
-      "content": "Solving gives $p=6$. The constants $-\\tfrac{8}{3}$ and $6$ differ, confirming no solution. The answer is <strong>6</strong>.",
-      "desmosExpressions": [
-        "y = ((1/4)x + 2/3)/3",
-        "y = ((1/2)x - 3)/6"
-      ]
+      "content": "Solve $$-12=-2p$$ by dividing both sides by $-2$: $$6=p.$$ The constants $-\\tfrac{8}{3}$ and $6$ differ, confirming no solution. The answer is <strong>6</strong>."
     }
   ]
 }

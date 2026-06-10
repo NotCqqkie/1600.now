@@ -9,11 +9,7 @@
     },
     {
       "title": "Solve for x",
-      "content": "Divide both sides by 2:<br/>$$x = 14$$<br/>That matches choice C — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y = 19 - x",
-        "y = x - 9"
-      ]
+      "content": "Divide both sides by 2:<br/>$$x = 14$$<br/>That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

@@ -5,24 +5,15 @@
   "steps": [
     {
       "title": "Use intercepts to shrink the choices",
-      "content": "The line of best fit crosses the vertical axis a little above $16{,}000$ when $t=0$. That eliminates choices B and D immediately, because their intercepts are about $4{,}690$ and $9{,}060$. Only A and C have a reasonable intercept.",
-      "desmosExpressions": [
-        "x_1=[0,5]",
-        "y_1=[16000,40000]",
-        "y_1~m x_1+b"
-      ]
+      "content": "The line of best fit crosses the vertical axis a little above $16{,}000$ when $t=0$. That eliminates choices B and D immediately, because their intercepts are about $4{,}690$ and $9{,}060$. Only A and C have a reasonable intercept."
     },
     {
-      "title": "Use a two-point regression for the slope",
-      "content": "For a calculator check, put two readable points from the line into Desmos, such as $(0,16000)$ and $(5,40000)$, then run $y_1\\sim m x_1+b$. Desmos gives $m\\approx 4800$ and $b\\approx 16000$, so the slope should be near $4{,}800$, not near $9{,}060$."
+      "title": "Use a two-point calculation for the slope",
+      "content": "Use two readable points from the line, such as $(0,16000)$ and $(5,40000)$. The slope is approximately $$\\frac{40000-16000}{5-0}=4800,$$ so the answer should be near $4{,}800$, not near $9{,}060$."
     },
     {
       "title": "Match the equation",
-      "content": "Choice A, $n=16{,}090+4{,}680t$, has the right intercept and a slope close to the fitted slope. Choice C has the right intercept but a slope almost twice as large. Therefore choice <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y=16090+4680x",
-        "y=16090+9060x"
-      ]
+      "content": "Choice A, $n=16{,}090+4{,}680t$, has the right intercept and a slope close to the fitted slope. Choice C has the right intercept but a slope almost twice as large. Therefore choice <strong>A</strong> is correct."
     }
   ]
 }

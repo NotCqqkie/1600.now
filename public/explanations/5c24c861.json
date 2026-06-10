@@ -8,14 +8,8 @@
       "content": "The graph uses speed on the $x$-axis and stopping distance on the $y$-axis. At $x=55$ miles per hour, the quadratic model is near $200$ feet and closest to the answer choice $210$."
     },
     {
-      "title": "Optional Desmos regression check",
-      "content": "If you want a calculator check, enter representative points from the quadratic model and run a quadratic regression, then evaluate the model at $x=55$.",
-      "desmosExpressions": [
-        "x_1=[20,30,40,50,60,70]",
-        "y_1=[40,75,120,180,240,315]",
-        "y_1~a x_1^2+b x_1+c",
-        "a 55^2+b 55+c"
-      ]
+      "title": "Check the result",
+      "content": "Use the nearby graph values to estimate. At $50$ mph the distance is below $200$ feet, and at $60$ mph it is around $240$ feet, so the value at $55$ mph should be between them and a little above $200$ feet."
     },
     {
       "title": "Eliminate the bad choices",

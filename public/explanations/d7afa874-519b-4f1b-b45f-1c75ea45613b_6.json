@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Set up",
-      "content": "Solve $x^2 - 2x - 18 = 0$ using the quadratic formula with $a = 1$, $b = -2$, $c = -18$."
+      "content": "This is a quadratic equation, so the goal is to find its roots. The quadratic formula is a direct way to solve it when simple factoring is not the focus. Solve $x^2 - 2x - 18 = 0$ using the quadratic formula with $a = 1$, $b = -2$, $c = -18$."
     },
     {
       "title": "Solve",
@@ -13,10 +13,7 @@
     },
     {
       "title": "Answer",
-      "content": "<strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "y = x^{2} - 2x - 18"
-      ]
+      "content": "<strong>B</strong> is correct."
     }
   ]
 }

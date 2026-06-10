@@ -9,11 +9,7 @@
     },
     {
       "title": "Solve each factor",
-      "content": "$$5x+4=0 \\Rightarrow x=-\\frac{4}{5}$$ $$2x-5=0 \\Rightarrow x=\\frac{5}{2}$$",
-      "desmosExpressions": [
-        "y=(5x+4)(2x-5)",
-        "y=0"
-      ]
+      "content": "$$5x+4=0 \\Rightarrow x=-\\frac{4}{5}$$ $$2x-5=0 \\Rightarrow x=\\frac{5}{2}$$"
     },
     {
       "title": "Check the choices",

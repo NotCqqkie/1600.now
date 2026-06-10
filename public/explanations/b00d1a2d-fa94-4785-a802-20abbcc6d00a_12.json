@@ -11,7 +11,7 @@
       "explanation": "Divide both sides by $(10y - 9x + 1)$: $z = \\dfrac{10xy}{10y - 9x + 1}$."
     },
     {
-      "explanation": "<ul><li>A: $z = \\dfrac{10xy}{10y - 9x + 1}$ — matches our result. That matches choice A — <strong>A</strong> is correct.</li><li>B: Missing the $+1$ in the denominator from the $z$ term that was moved over.</li><li>C: $-29xy$ — does not follow from algebra.</li><li>D: $z = 9x$ — does not follow from the equation.</li></ul>"
+      "explanation": "<ul><li>A: $z = \\dfrac{10xy}{10y - 9x + 1}$ - matches our result. That matches choice A - <strong>A</strong> is correct.</li><li>B: Missing the $+1$ in the denominator from the $z$ term that was moved over.</li><li>C: $-29xy$ - does not follow from algebra.</li><li>D: $z = 9x$ - does not follow from the equation.</li></ul>"
     }
   ],
   "correctAnswer": "A"

@@ -9,11 +9,7 @@
     },
     {
       "title": "Solve the linear equation for x",
-      "content": "Add 240 to both sides of the equation:<br/>$$5x = 940$$<br/>Divide both sides by 5:<br/>$$x = \\frac{940}{5} = 188$$<br/>The student council must sell 188 car stickers.",
-      "desmosExpressions": [
-        "y = 5x - 240",
-        "(188, 700)"
-      ]
+      "content": "Add 240 to both sides of the equation:<br/>$$5x = 940$$<br/>Divide both sides by 5:<br/>$$x = \\frac{940}{5} = 188$$<br/>The student council must sell 188 car stickers."
     }
   ]
 }

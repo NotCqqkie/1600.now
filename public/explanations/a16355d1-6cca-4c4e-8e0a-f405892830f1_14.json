@@ -13,11 +13,7 @@
     },
     {
       "title": "Answer",
-      "content": "<strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "x^2 - 4x + y^2 - 8y - 80 = 0",
-        "(x-2)^2 + (y-4)^2 = 100"
-      ]
+      "content": "<strong>C</strong> is correct."
     }
   ]
 }

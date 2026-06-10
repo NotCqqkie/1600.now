@@ -9,10 +9,7 @@
     },
     {
       "title": "Solve for 11x + 5 using the given constraint",
-      "content": "Taking the square root of both sides:<br/>$$11x + 5 = \\pm 9$$<br/>We obtain two potential values: $11x + 5 = 9$ or $11x + 5 = -9$. Since the problem specifies $11x + 5 > 0$, we select the positive value: $11x + 5 = 9$.",
-      "desmosExpressions": [
-        "y = 121x^{2} + 110x - 56"
-      ]
+      "content": "Taking the square root of both sides:<br/>$$11x + 5 = \\pm 9$$<br/>We obtain two potential values: $11x + 5 = 9$ or $11x + 5 = -9$. Since the problem specifies $11x + 5 > 0$, we select the positive value: $11x + 5 = 9$."
     }
   ]
 }

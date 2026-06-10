@@ -13,12 +13,7 @@
     },
     {
       "title": "Evaluate at population 700 using the distance ratio",
-      "content": "Substitute population = 700:<br/>$$r(700) = -\\frac{0.200}{(7000)^2}(700 - 7000)^2 + 0.200$$<br/>$$= -0.200 \\cdot \\frac{(700 - 7000)^2}{(7000)^2} + 0.200$$<br/>Simplify the ratio of squared distances:<br/>$$\\frac{(700 - 7000)^2}{(7000)^2} = \\left(\\frac{700 - 7000}{7000}\\right)^2 = \\left(\\frac{-6300}{7000}\\right)^2 = (0.9)^2 = 0.81$$<br/>Therefore:<br/>$$r(700) = -0.200 \\times 0.81 + 0.200 = -0.162 + 0.200 = 0.038 \\text{ bacteria per hour}$$",
-      "desmosExpressions": [
-        "f(x) = -\\frac{1}{245000000}(x-7000)^2 + 0.2",
-        "(7000, 0.2)",
-        "(0, 0)"
-      ]
+      "content": "Substitute population = 700:<br/>$$r(700) = -\\frac{0.200}{(7000)^2}(700 - 7000)^2 + 0.200$$<br/>$$= -0.200 \\cdot \\frac{(700 - 7000)^2}{(7000)^2} + 0.200$$<br/>Simplify the ratio of squared distances:<br/>$$\\frac{(700 - 7000)^2}{(7000)^2} = \\left(\\frac{700 - 7000}{7000}\\right)^2 = \\left(\\frac{-6300}{7000}\\right)^2 = (0.9)^2 = 0.81$$<br/>Therefore:<br/>$$r(700) = -0.200 \\times 0.81 + 0.200 = -0.162 + 0.200 = 0.038 \\text{ bacteria per hour}$$"
     }
   ]
 }

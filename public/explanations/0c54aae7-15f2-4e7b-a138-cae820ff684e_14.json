@@ -4,23 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "The minimum of a parabola appears in vertex form",
-      "content": "For $f(x) = a(x-h)^2 + k$ with $a > 0$, the minimum value is $k$ (a constant). We need the form that shows this $k$ explicitly."
+      "title": "Use vertex form",
+      "content": "For an upward-opening parabola written as $f(x)=a(x-h)^2+k$, the minimum value is the constant $k$."
     },
     {
-      "title": "Convert $f(x) = x^2 - 4x - 320$ to vertex form",
-      "content": "Complete the square: $x^2 - 4x = (x-2)^2 - 4$, so $$f(x) = (x-2)^2 - 4 - 320 = (x-2)^2 - 324$$ Minimum value is $-324$."
+      "title": "Complete the square",
+      "content": "Rewrite $x^2-4x-320$ by completing the square: $$x^2-4x=(x-2)^2-4$$ so $$f(x)=(x-2)^2-4-320=(x-2)^2-324$$"
     },
     {
-      "title": "Eliminate the other choices",
-      "content": "<ul><li><strong>A) $x^2 - 4(x+80)$</strong> &mdash; expands to $x^2 - 4x - 320$, but the minimum is not shown as a standalone constant.</li><li><strong>B) $(x-2)^2 + (-324)$</strong> &mdash; vertex form; the constant $-324$ is exactly the minimum value.</li><li><strong>C) $x(x-4) + (-320)$</strong> &mdash; the $-320$ is the y-intercept, not the minimum.</li><li><strong>D) $(x+16)(x-20)$</strong> &mdash; factored form shows the zeros ($-16$ and $20$), not the minimum.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "x_1=[0,1,2]",
-        "y_1=[-320,-323,-324]",
-        "y_1~(x_1-h)^2+k",
-        "y=x^{2}-4x-320",
-        "y=(x-2)^{2}-324"
-      ]
+      "title": "Confirm the choice",
+      "content": "The minimum value is shown as the constant $-324$ in vertex form. Choice B, $(x-2)^2+(-324)$, shows that value, so <strong>B</strong> is correct."
     }
   ]
 }

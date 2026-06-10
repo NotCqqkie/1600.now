@@ -13,11 +13,7 @@
     },
     {
       "title": "Answer",
-      "content": "<strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y = 15x + 10",
-        "(2, 40)"
-      ]
+      "content": "<strong>C</strong> is correct."
     },
     {
       "title": "Confirm the answer",

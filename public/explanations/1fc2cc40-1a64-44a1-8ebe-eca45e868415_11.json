@@ -9,12 +9,7 @@
     },
     {
       "title": "Simplify to find the answer",
-      "content": "Subtract 190 from both sides:<br/>$$23x + 60y \\le 5,450 - 190$$<br/>$$23x + 60y \\le 5,260$$<br/>That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "23x + 60y \\le 5260",
-        "x \\ge 0",
-        "y \\ge 0"
-      ]
+      "content": "Subtract 190 from both sides:<br/>$$23x + 60y \\le 5,450 - 190$$<br/>$$23x + 60y \\le 5,260$$<br/>That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

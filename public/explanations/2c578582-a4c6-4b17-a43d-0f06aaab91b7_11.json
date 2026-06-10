@@ -13,11 +13,7 @@
     },
     {
       "title": "Solve for w by back-substitution",
-      "content": "Substitute $x = 128$ into $x + 19w = 337$:<br/>$$128 + 19w = 337$$<br/>$$19w = 209$$<br/>$$w = 11$$",
-      "desmosExpressions": [
-        "y = \\frac{337 - x}{11}",
-        "y = \\frac{2x - 47}{11}"
-      ]
+      "content": "Substitute $x = 128$ into $x + 19w = 337$:<br/>$$128 + 19w = 337$$<br/>$$19w = 209$$<br/>$$w = 11$$"
     }
   ]
 }

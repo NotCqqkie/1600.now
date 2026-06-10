@@ -9,10 +9,7 @@
     },
     {
       "title": "Extract the slope",
-      "content": "The coefficient of $x$ in the equation is $\\frac{5}{13}$. Therefore, the slope is $\\frac{5}{13}$.<br/>The answer is <strong>.3846</strong>.",
-      "desmosExpressions": [
-        "y=\\frac{5x}{13}-23"
-      ]
+      "content": "The coefficient of $x$ in the equation is $\\frac{5}{13}$. Therefore, the slope is $\\frac{5}{13}$.<br/>The answer is <strong>.3846</strong>."
     }
   ]
 }

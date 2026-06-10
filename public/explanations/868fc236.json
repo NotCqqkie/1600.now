@@ -9,12 +9,7 @@
     },
     {
       "title": "Find the conversion rate",
-      "content": "A quick Desmos line fit through those two rows gives slope $4.2$; the tiny intercept offset comes from the table's rounded values. The rate calculation is $$\\frac{37.7-16.7}{9.0-4.0}=\\frac{21}{5}=4.2$$ So $k$ is about $4.2$ times $x$.",
-      "desmosExpressions": [
-        "x_1=[4,9]",
-        "y_1=[16.7,37.7]",
-        "y_1~m x_1+b"
-      ]
+      "content": "Use the slope between the two table rows:<br/>$$\\frac{37.7-16.7}{9.0-4.0}=\\frac{21}{5}=4.2$$<br/>So $k$ is about $4.2$ times $x$."
     },
     {
       "title": "Check the choices",

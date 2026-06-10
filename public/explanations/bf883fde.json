@@ -5,21 +5,11 @@
   "steps": [
     {
       "title": "Make a table from the point and slope",
-      "content": "The point $(0,-8)$ is on the graph. With slope $3$, moving one unit right raises $y$ by $3$, so another point is $(1,-5)$.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[-8,-5]"
-      ]
+      "content": "The point $(0,-8)$ is on the graph, so the $y$-intercept is $-8$. With slope $3$, moving one unit right raises $y$ by $3$, so another point is $(1,-5)$."
     },
     {
-      "title": "Fit the line",
-      "content": "Run $y_1 \\sim mx_1+b$. Desmos returns $m=3$ and $b=-8$, giving $f(x)=3x-8$.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[-8,-5]",
-        "y_1~m x_1+b",
-        "y=3x-8"
-      ]
+      "title": "Find the line from the data",
+      "content": "In slope-intercept form, $f(x)=mx+b$. Here $m=3$ and $b=-8$, so $$f(x)=3x-8.$$"
     },
     {
       "title": "Evaluate each choice",

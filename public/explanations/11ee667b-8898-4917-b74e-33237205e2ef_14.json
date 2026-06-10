@@ -5,13 +5,7 @@
   "steps": [
     {
       "title": "Read the context",
-      "content": "Antonia starts with $130$ and earns $2.5\\%$ more each year. One year later the amount is $130(1.025)=133.25$. Enter $x_1=[0,1]$, $y_1=[130,133.25]$, and $y_1\\sim a b^{x_1}$ in Desmos.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[130,133.25]",
-        "y_1~a b^{x_1}",
-        "y=a b^x"
-      ]
+      "content": "Antonia starts with $130$ and earns $2.5\\%$ more each year. One year later the amount is $130(1.025)=133.25$. Use the values at $x=0$ and $x=1$ directly."
     },
     {
       "title": "Eliminate the choices",

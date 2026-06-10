@@ -9,10 +9,7 @@
     },
     {
       "title": "Solve for c and select the answer",
-      "content": "Take the square root of both sides: $$c = \\sqrt{9} = 3$$ (the negative root is excluded because $$c>1$$).<br/>The answer is <strong>3</strong>.",
-      "desmosExpressions": [
-        "f(x) = 3^{x}"
-      ]
+      "content": "Take the square root of both sides: $$c = \\sqrt{9} = 3$$ (the negative root is excluded because $$c>1$$).<br/>The answer is <strong>3</strong>."
     }
   ]
 }

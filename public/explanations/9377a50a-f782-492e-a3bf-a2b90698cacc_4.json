@@ -9,11 +9,7 @@
     },
     {
       "title": "Compute the result",
-      "content": "Evaluate the power then multiply.<br/>$$f(5)=4\\cdot 32=128$$<br/>That matches choice <strong>D</strong> — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "f(x) = 4 \\cdot 2^{x}",
-        "(5, 128)"
-      ]
+      "content": "Evaluate the power then multiply.<br/>$$f(5)=4\\cdot 32=128$$<br/>That matches choice <strong>D</strong> — <strong>D</strong> is correct."
     },
     {
       "title": "Confirm the answer",

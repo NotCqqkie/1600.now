@@ -13,10 +13,7 @@
     },
     {
       "title": "Use the transformation to find b",
-      "content": "Since $g(x) = f(x) + 6$:<br/>$$g(4) = 42 + 6 = 48$$<br/>Therefore, $b = 48$.",
-      "desmosExpressions": [
-        "f(x)=(x-1)(x+3)(x-2)"
-      ]
+      "content": "Since $g(x) = f(x) + 6$:<br/>$$g(4) = 42 + 6 = 48$$<br/>Therefore, $b = 48$."
     }
   ]
 }

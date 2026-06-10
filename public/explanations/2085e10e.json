@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Find all three angles in each triangle",
-      "content": "Angles in a triangle sum to $180°$. Triangle DEF: $F = 180° - 47° - 97° = 36°$. Triangle RST: $T = 180° - 47° - 97° = 36°$. Both triangles have angles $47°, 97°, 36°$."
+      "content": "Angles in a triangle sum to $180^\\circ$. Triangle DEF has $F=180^\\circ-47^\\circ-97^\\circ=36^\\circ$. Triangle RST has $T=180^\\circ-47^\\circ-97^\\circ=36^\\circ$."
     },
     {
       "title": "Apply the AA similarity criterion",
-      "content": "Two triangles are similar when two pairs of corresponding angles are equal (AA). We are already given $D = R = 47°$ and $E = S = 97°$. That is two pairs &mdash; AA similarity is already established from the information in the problem statement alone."
+      "content": "Two triangles are similar when two pairs of corresponding angles are equal. The problem already gives $D=R=47^\\circ$ and $E=S=97^\\circ$, so AA similarity is established immediately."
     },
     {
-      "title": "Evaluate all choices",
-      "content": "<ul><li>A: The measure of angle F &mdash; Angle F can be computed from D and E; it adds nothing needed for similarity. Eliminated.</li><li>B: The measure of angle T &mdash; Angle T can be computed from R and S; it adds nothing needed for similarity. Eliminated.</li><li>C: The measure of angle F and angle T &mdash; Neither is needed since AA is already satisfied. Eliminated.</li><li>D: No additional information is needed &mdash; The two given angle pairs $(D=R=47°, E=S=97°)$ satisfy AA similarity immediately. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
+      "title": "Choose the statement",
+      "content": "Because the two given angle pairs are enough, no additional information is needed. That matches choice <strong>D</strong>."
     }
   ]
 }

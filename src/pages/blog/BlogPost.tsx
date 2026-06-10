@@ -28,8 +28,8 @@ const BlogPost = () => {
 
   const url = `https://1600.now/blog/${post.slug}`;
   const related = (post.relatedSlugs ?? [])
-    .map((s) => blogPostBySlug.get(s))
-    .filter((p): p is NonNullable<typeof p> => Boolean(p));
+    .map((relatedSlug) => blogPostBySlug.get(relatedSlug))
+    .filter((relatedPost): relatedPost is NonNullable<typeof relatedPost> => Boolean(relatedPost));
 
   return (
     <article className="mx-auto max-w-3xl px-6 py-10">
@@ -85,15 +85,15 @@ const BlogPost = () => {
           <h2 className="text-2xl font-semibold tracking-tight">
             {section.heading}
           </h2>
-          {section.body.map((p, i) => (
-            <p key={i} className="mt-3 text-muted-foreground">
-              {p}
+          {section.body.map((paragraph, paragraphIndex) => (
+            <p key={paragraphIndex} className="mt-3 text-muted-foreground">
+              {paragraph}
             </p>
           ))}
           {section.list && (
             <ul className="mt-3 list-disc space-y-1 pl-6 text-muted-foreground">
-              {section.list.map((li) => (
-                <li key={li}>{li}</li>
+              {section.list.map((listItem) => (
+                <li key={listItem}>{listItem}</li>
               ))}
             </ul>
           )}
@@ -106,15 +106,15 @@ const BlogPost = () => {
             Related Posts
           </h2>
           <ul className="mt-4 grid gap-3 md:grid-cols-2">
-            {related.map((r) => (
-              <li key={r.slug}>
+            {related.map((relatedPost) => (
+              <li key={relatedPost.slug}>
                 <Link
-                  to={`/blog/${r.slug}`}
+                  to={`/blog/${relatedPost.slug}`}
                   className="block rounded-xl border border-border p-4 transition hover:bg-muted"
                 >
-                  <div className="font-semibold">{r.title}</div>
+                  <div className="font-semibold">{relatedPost.title}</div>
                   <p className="mt-1 text-sm text-muted-foreground">
-                    {r.description}
+                    {relatedPost.description}
                   </p>
                 </Link>
               </li>

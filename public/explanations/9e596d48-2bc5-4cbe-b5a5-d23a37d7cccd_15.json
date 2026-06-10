@@ -4,21 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the exactly-one-intersection shortcut",
-      "content": "The line and parabola intersect where their $y$-values are equal:<br/>$$2x^2-19x+40=x+a$$<br/>$$2x^2-20x+(40-a)=0$$<br/>Exactly one intersection means this quadratic has one repeated solution, so its discriminant is $0$.",
-      "desmosExpressions": [
-        "y_1=[0]",
-        "y_1~(-20)^2-4*2*(40-a)"
-      ]
+      "title": "Connect one intersection to tangency",
+      "content": "The line and parabola have exactly one intersection only when the line just touches the parabola. Algebraically, that means setting their $y$-values equal should produce a quadratic with one repeated solution:<br/>$$2x^2-19x+40=x+a$$<br/>$$2x^2-20x+(40-a)=0$$<br/>A quadratic has one repeated solution when its discriminant is $0$."
     },
     {
       "title": "Find the line and graph it",
-      "content": "Desmos gives $a=-10$. The actual line is therefore $y=x-10$, not $y=x+5$. Graphing $y=2x^2-19x+40$ and $y=x-10$ shows that the line just touches the parabola at one point.",
+      "content": "Set the discriminant equal to $0$:<br/>$$(-20)^2-4(2)(40-a)=0$$<br/>$$400-320+8a=0$$<br/>$$80+8a=0$$<br/>$$a=-10$$ The actual line is therefore $y=x-10$, not $y=x+5$. Graphing $y=2x^2-19x+40$ and $y=x-10$ shows the line just touches the parabola at one point.",
       "desmosExpressions": [
         "y = 2x^2 - 19x + 40",
         "y = x - 10"
-      ],
-      "formula": "$$b^2 - 4ac = 0$$"
+      ]
     },
     {
       "title": "Confirm the x-value",

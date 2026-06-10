@@ -10,10 +10,7 @@
     {
       "title": "Apply the diameter-radius relationship",
       "content": "For any circle, the radius is half the diameter. Since QS is the diameter:<br/>$$CR = \\frac{QS}{2} = \\frac{76}{2} = 38 \\text{ mm}$$<br/>That matches choice C — <strong>C</strong> is correct.",
-      "formula": "$$\\text{radius} = \\frac{\\text{diameter}}{2}$$",
-      "desmosExpressions": [
-        "x^2 + y^2 = 38^2"
-      ]
+      "formula": "$$\\text{radius} = \\frac{\\text{diameter}}{2}$$"
     }
   ]
 }

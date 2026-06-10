@@ -8,13 +8,8 @@
       "content": "Rewrite the system as $16x-26y=8$ and $-8x+ty=\\tfrac{1}{5}$. For no solution, the $x$- and $y$-coefficients must be proportional so the lines are parallel. The constants must not have that same ratio."
     },
     {
-      "title": "Use Desmos to find t",
-      "content": "In Desmos, use coefficient lists to find the scale factor $s$ and the value of $t$ at the same time. The regression returns $s=-\\frac{1}{2}$ and $t=13$.",
-      "desmosExpressions": [
-        "x_1=[1,0]",
-        "y_1=[0,1]",
-        "-8x_1+t y_1~s(16x_1-26y_1)"
-      ]
+      "title": "Solve for t",
+      "content": "The $x$-coefficient in the second equation is $-8$, which is $-\\frac{1}{2}$ of $16$. Use the same scale factor on the $y$-coefficient: $$t=-\\frac{1}{2}(-26)=13.$$"
     },
     {
       "title": "Confirm no solution",

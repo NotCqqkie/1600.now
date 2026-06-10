@@ -6,9 +6,5 @@
     "Use the vertex minimum formula: for ax^2 + bx + c, the minimum value is c - \\frac{b^2}{4a}. Here a = 1, b = \\frac{27}{2}, c = 0.",
     "Minimum = 0 - \\frac{(27/2)^2}{4 \\cdot 1} = -\\frac{729/4}{4} = -\\frac{729}{16} = -\\left(\\frac{27}{4}\\right)^2."
   ],
-  "explanation": "<ul><li><strong>Choice A &mdash; '$-\\left(\\frac{27}{2}\\right)^2$'</strong>: This uses 27/2 as the base instead of 27/4. The vertex formula requires dividing b by 2a = 2, giving 27/4 not 27/2. &#10007;</li><li><strong>Choice B &mdash; '$-\\left(\\frac{27}{4}\\right)^2$'</strong>: Applying c - b^2/(4a) = 0 - (27/2)^2/4 = -729/16 = -(27/4)^2. This is the minimum value of the parabola. &#10003;</li><li><strong>Choice C &mdash; '$\\left(\\frac{27}{4}\\right)^2$'</strong>: The correct base but the wrong sign. The minimum value is negative (the parabola opens upward with vertex below the x-axis). &#10007;</li><li><strong>Choice D &mdash; '$\\left(\\frac{27}{2}\\right)^2$'</strong>: Both the wrong base (27/2 instead of 27/4) and the wrong sign (positive). &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
-  "desmosExpressions": [
-    "y=x^2+\\frac{27}{2}x",
-    "-(27/4)^2"
-  ]
+  "explanation": "<ul><li><strong>Choice A &mdash; '$-\\left(\\frac{27}{2}\\right)^2$'</strong>: This uses 27/2 as the base instead of 27/4. The vertex formula requires dividing b by 2a = 2, giving 27/4 not 27/2. &#10007;</li><li><strong>Choice B &mdash; '$-\\left(\\frac{27}{4}\\right)^2$'</strong>: Applying c - b^2/(4a) = 0 - (27/2)^2/4 = -729/16 = -(27/4)^2. This is the minimum value of the parabola. &#10003;</li><li><strong>Choice C &mdash; '$\\left(\\frac{27}{4}\\right)^2$'</strong>: The correct base but the wrong sign. The minimum value is negative (the parabola opens upward with vertex below the x-axis). &#10007;</li><li><strong>Choice D &mdash; '$\\left(\\frac{27}{2}\\right)^2$'</strong>: Both the wrong base (27/2 instead of 27/4) and the wrong sign (positive). &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
 }

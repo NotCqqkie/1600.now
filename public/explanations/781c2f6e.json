@@ -17,10 +17,7 @@
     },
     {
       "title": "Conclusion",
-      "content": "Neither form displays the y-intercept of $f(x)$ as a single constant or coefficient. In Form I, the y-intercept is a product of coefficients. In Form II, it is a sum of coefficients. That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "f(x)=a((2.2)^(x)+(2.2)^(b))"
-      ]
+      "content": "Neither form displays the y-intercept of $f(x)$ as a single constant or coefficient. In Form I, the y-intercept is a product of coefficients. In Form II, it is a sum of coefficients. That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

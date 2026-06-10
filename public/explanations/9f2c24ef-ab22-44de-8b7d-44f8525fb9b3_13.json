@@ -12,14 +12,8 @@
       "content": "Plug $(0,2)$ into $4x+By=12$: $$4(0)+B(2)=12$$ $$2B=12$$ $$B=6.$$"
     },
     {
-      "title": "Confirm with Desmos regression",
-      "content": "A calculator shortcut is to enter the known point and fit the unknown coefficient directly: $x_1=[0]$, $y_1=[2]$, $z_1=[12]$, then $z_1\\sim4x_1+B y_1$. Desmos returns $B=6$. That matches choice <strong>D</strong>.",
-      "desmosExpressions": [
-        "x_1=[0]",
-        "y_1=[2]",
-        "z_1=[12]",
-        "z_1\\sim4x_1+B y_1"
-      ]
+      "title": "Confirm the choice",
+      "content": "The value $B=6$ matches choice <strong>D</strong>. The key shortcut is using the visible $y$-intercept: one graph point is enough because only one coefficient is unknown."
     }
   ]
 }

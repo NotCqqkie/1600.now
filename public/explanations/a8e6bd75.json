@@ -4,19 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify slope and y-intercept",
-      "content": "For $y = 2x - 5$, we extract the slope and y-intercept from the slope-intercept form.<ul><li>Slope: $m = 2$ (line rises 2 units for every 1 unit to the right)</li><li>Y-intercept: $b = -5$ (line crosses the y-axis at $(0, -5)$, which is 5 units below the origin)</li></ul>",
-      "formula": "$$y = mx + b$$",
-      "desmosExpressions": [
-        "y = 2x - 5"
-      ]
+      "title": "Identify the line features",
+      "content": "The equation $y=2x-5$ is in slope-intercept form $y=mx+b$. The slope is $2$, and the y-intercept is $(0,-5)$."
     },
     {
-      "title": "Find the matching graph",
-      "content": "Look for the graph that crosses the y-axis at $(0, -5)$ and has a positive slope of $2$. The line should rise 2 units for every 1 unit moved to the right. That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y=2x-5"
-      ]
+      "title": "Match the graph",
+      "content": "The correct graph must cross the y-axis at $-5$ and rise $2$ units for every $1$ unit to the right."
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "Choice D shows that line, so <strong>D</strong> is correct."
     }
   ]
 }

@@ -9,11 +9,7 @@
     },
     {
       "title": "Evaluate the function at x = 0",
-      "content": "Substitute $x = 0$ into $f(x) = -16x^2 + 76$:<br/>$$f(0) = -16(0)^2 + 76 = 0 + 76 = 76$$<br/>The estimated height of the acorn before it fell from the tree is <strong>76 feet</strong>.",
-      "desmosExpressions": [
-        "f(x) = -16x^2 + 76",
-        "(0, 76)"
-      ]
+      "content": "Substitute $x = 0$ into $f(x) = -16x^2 + 76$:<br/>$$f(0) = -16(0)^2 + 76 = 0 + 76 = 76$$<br/>The estimated height of the acorn before it fell from the tree is <strong>76 feet</strong>."
     }
   ]
 }

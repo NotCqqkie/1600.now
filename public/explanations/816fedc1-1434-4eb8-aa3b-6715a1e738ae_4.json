@@ -1,9 +1,19 @@
 {
-  "qid": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_4",
+  "questionId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_4",
+  "correctAnswer": "B",
+  "section": "Math",
   "steps": [
-    "Each horse requires 2 acres, so $h$ horses require $2h$ acres. Each goat requires 1 acre, so $g$ goats require $g$ acres.",
-    "Total acreage used: $2h + g = 21$.",
-    "Evaluate each choice:<ul><li><strong>A: $g + h = 21$</strong> — treats both animals as requiring 1 acre each, ignoring that horses need 2 acres. Incorrect.</li><li><strong>B: $g + 2h = 21$</strong> — equivalent to $2h + g = 21$, which matches the equation derived. That matches choice B — <strong>B</strong> is correct.</li><li><strong>C: $g + \\frac{h}{2} = 21$</strong> — gives horses only half an acre each instead of 2. Incorrect.</li><li><strong>D: $\\frac{g}{2} + h = 21$</strong> — halves the goat acreage and gives each horse only 1 acre. Incorrect.</li></ul>"
-  ],
-  "correctAnswer": "B"
+    {
+      "title": "Translate each animal's land use",
+      "content": "Each horse requires $2$ acres, so $h$ horses require $2h$ acres. Each goat requires $1$ acre, so $g$ goats require $g$ acres."
+    },
+    {
+      "title": "Write the total",
+      "content": "The total land required is $21$ acres, so $$2h+g=21.$$ This is equivalent to $$g+2h=21.$$"
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "$g+2h=21$ matches choice <strong>B</strong>."
+    }
+  ]
 }

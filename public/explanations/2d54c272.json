@@ -13,10 +13,7 @@
     },
     {
       "title": "Determine the difference in point values",
-      "content": "<ul><li>To find how many more points a red token is worth compared to a green one, note that when $g = 0$, we get $$9r = 76$$</li><br/>\n<li>This means each red token must be valued in units such that the sum matches 76 for nine instances of that value. Thus, for $g$ tokens to fit this scheme, by trial, we assume simplest integer values which satisfy <em>9r - g = multiple value consistent with simple integers</em>. </li><br/>\n<li>The difference in actual points is then calculated directly as the coefficient of red tokens minus the implied base point value through simplification.</li></ul>\nThe answer is <strong>40</strong>.",
-      "desmosExpressions": [
-        "5x+45y=380"
-      ]
+      "content": "<ul><li>To find how many more points a red token is worth compared to a green one, note that when $g = 0$, we get $$9r = 76$$</li><br/>\n<li>This means each red token must be valued in units such that the sum matches 76 for nine instances of that value. Thus, for $g$ tokens to fit this scheme, by trial, we assume simplest integer values which satisfy <em>9r - g = multiple value consistent with simple integers</em>. </li><br/>\n<li>The difference in actual points is then calculated directly as the coefficient of red tokens minus the implied base point value through simplification.</li></ul>\nThe answer is <strong>40</strong>."
     }
   ]
 }

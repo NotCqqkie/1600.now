@@ -13,11 +13,7 @@
     },
     {
       "title": "Calculate the product xy",
-      "content": "Multiply the two solutions:<br/>$$xy = \\frac{3}{5} \\cdot 2 = \\frac{6}{5}$$<br/>Expressed as a decimal, $\\frac{6}{5} = 1.2$.<br/>The answer is <strong>1.2,6/5</strong>.",
-      "desmosExpressions": [
-        "y = \\frac{27 - 5x}{12}",
-        "y = \\frac{18 - 10x}{6}"
-      ]
+      "content": "Multiply the two solutions:<br/>$$xy = \\frac{3}{5} \\cdot 2 = \\frac{6}{5}$$<br/>Expressed as a decimal, $\\frac{6}{5} = 1.2$.<br/>The answer is <strong>1.2,6/5</strong>."
     }
   ]
 }

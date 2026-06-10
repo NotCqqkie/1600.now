@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The equation $\frac{x+5}{3} = \frac{x+5}{12}$ has the same numerator on both sides but different denominators. The only way two fractions with equal numerators and unequal denominators can be equal is if the numerator is $0$. So $x + 5 = 0$."
+      "content": "The equation $\\frac{x+5}{3} = \\frac{x+5}{12}$ has the same numerator on both sides but different denominators. The only way two fractions with equal numerators and unequal denominators can be equal is if the numerator is $0$. So $x + 5 = 0$."
     },
     {
       "title": "Eliminate the choices",

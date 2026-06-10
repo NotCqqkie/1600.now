@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply the fractional exponent rule",
-      "content": "A power of $\\tfrac{1}{2}$ is the same as a square root, and the exponent acts on the entire base $57y$, not just one factor:$$\\left(57y\\right)^{1/2}=\\sqrt{57y}.$$"
+      "title": "Use the exponent rule",
+      "content": "A power of $\\frac{1}{2}$ means square root. The exponent applies to the whole base $57y$: $$\\left(57y\\right)^{1/2}=\\sqrt{57y}$$"
     },
     {
-      "title": "Evaluate each choice",
-      "content": "<ul><li>A) $57\\sqrt{y}$ only takes the root of $y$ and leaves the 57 outside the radical &mdash; not equivalent.</li><li>B) $\\sqrt{57}\\cdot y$ only takes the root of 57 and leaves $y$ outside &mdash; not equivalent.</li><li>C) $\\sqrt{57y}$ is exactly the rewrite of $(57y)^{1/2}$.</li><li>D) $\\sqrt{(57y)^2}=57y$ for $y>0$, which is the original base, not its square root.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+      "title": "Confirm the choice",
+      "content": "Choice C is $\\sqrt{57y}$, which is exactly equivalent to $(57y)^{1/2}$. <strong>C</strong> is correct."
+    },
+    {
+      "title": "Eliminate the mismatches",
+      "content": "Choice A incorrectly leaves $57$ outside the radical. Choice B incorrectly leaves $y$ outside the radical. Choice D squares the whole product before taking the square root, which would give $57y$, not $(57y)^{1/2}$."
     }
   ]
 }

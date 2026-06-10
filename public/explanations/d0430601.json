@@ -5,16 +5,11 @@
   "steps": [
     {
       "title": "Use the slope directly",
-      "content": "No regression is needed here because the problem gives the slope of the line of best fit: about $57$. In context, that means the model predicts $57$ additional beach visitors for each $1^\\circ\\text{C}$ increase."
+      "content": "No model fitting is needed here because the problem gives the slope of the line of best fit: about $57$. In context, that means the model predicts $57$ additional beach visitors for each $1^\\circ\\text{C}$ increase."
     },
     {
       "title": "Scale the rate to 5 degrees",
-      "content": "A $5^\\circ\\text{C}$ increase is five one-degree increases, so multiply the slope by $5$: $57\\times5=285$.",
-      "desmosExpressions": [
-        "x_1=[0,5]",
-        "y_1=[0,285]",
-        "y_1~m x_1"
-      ]
+      "content": "A $5^\\circ\\text{C}$ increase is five one-degree increases, so multiply the slope by $5$: $57\\times5=285$."
     },
     {
       "title": "Confirm the answer",

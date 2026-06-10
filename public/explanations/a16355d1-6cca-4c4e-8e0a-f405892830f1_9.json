@@ -5,8 +5,7 @@
   "steps": [
     {
       "title": "Combine like terms directly",
-      "content": "All terms have the same variable part $x^6$, so add/subtract coefficients directly: $$ 7 + 9 - 8 $$",
-      "formula": "7 + 9 - 8 = 8"
+      "content": "All terms have the same variable part $x^6$, so add/subtract coefficients directly: $$ 7 + 9 - 8 $$"
     },
     {
       "title": "Simplify the expression",

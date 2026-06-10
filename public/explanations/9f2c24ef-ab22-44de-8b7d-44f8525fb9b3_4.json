@@ -9,14 +9,7 @@
     },
     {
       "title": "Write the function for remaining area",
-      "content": "The remaining area equals the starting area minus what was removed. A quick Desmos table makes the model automatic: after $0$, $1$, and $2$ cuts, the areas are $36$, $32$, and $28$. Linear regression gives slope $-4$ and intercept $36$, so $$f(x)=36-4x$$ That matches choice A &mdash; <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "x_1=[0,1,2]",
-        "y_1=[36,32,28]",
-        "y_1~m x_1+b",
-        "y=m x+b",
-        "y = 36 - 4x"
-      ]
+      "content": "The remaining area equals the starting area minus what was removed:$$f(x)=36-4x$$This matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

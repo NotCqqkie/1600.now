@@ -5,13 +5,7 @@
   "steps": [
     {
       "title": "Identify the y-intercept from the graph",
-      "content": "Graph all four answer choices in Desmos and compare them to the displayed line. The correct line crosses the y-axis at $(0,-1)$ and slopes gently downward.",
-      "desmosExpressions": [
-        "y=-(1/4)x-1",
-        "y=-x-4",
-        "y=-x-1/4",
-        "y=-4x-1"
-      ]
+      "content": "Read the line's intercept and slope from the displayed graph. The line crosses the $y$-axis at $(0,-1)$ and slopes gently downward, so the equation must have $b=-1$ and a small negative slope."
     },
     {
       "title": "Find the slope using a second point",
@@ -19,10 +13,7 @@
     },
     {
       "title": "Write the equation in slope-intercept form",
-      "content": "With slope $m = -\\frac{1}{4}$ and y-intercept $b = -1$, the equation is:<br/>$$y = -\\frac{1}{4}x - 1$$<br/>That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y=-(1/4)x-1"
-      ]
+      "content": "With slope $m = -\\frac{1}{4}$ and y-intercept $b = -1$, the equation is:<br/>$$y = -\\frac{1}{4}x - 1$$<br/>That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

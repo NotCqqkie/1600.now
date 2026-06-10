@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Graph the shift directly",
-      "content": "Solve the original equation for $y$: $9x+10y=19$ becomes $y=\\frac{19-9x}{10}$. In Desmos, graph that line and then graph the shifted line by adding $6$ to the whole expression.",
-      "desmosExpressions": [
-        "y=(19-9x)/10",
-        "y=(19-9x)/10+6"
-      ]
+      "title": "Find the original y-intercept",
+      "content": "Set $x=0$ in the original equation: $$9(0)+10y=19.$$ Then $$10y=19,$$ so $$y=\\frac{19}{10}.$$"
     },
     {
-      "title": "Read the new intercept",
-      "content": "A vertical shift up $6$ units keeps the same slope and adds $6$ to every $y$-value. The original $y$-intercept is $\\frac{19}{10}$, so the shifted $y$-intercept is $\\frac{19}{10}+6=\\frac{19}{10}+\\frac{60}{10}=\\frac{79}{10}$."
+      "title": "Apply the vertical shift",
+      "content": "Shifting a graph up $6$ units adds $6$ to every $y$-value, including the $y$-intercept. The new intercept is $$\\frac{19}{10}+6=\\frac{19}{10}+\\frac{60}{10}=\\frac{79}{10}.$$"
     },
     {
-      "title": "Match the ordered pair",
-      "content": "The resulting graph crosses the $y$-axis at $(0,\\frac{79}{10})$. That matches choice <strong>A</strong>."
+      "title": "Confirm the choice",
+      "content": "The resulting graph has $y$-intercept $(0,\\frac{79}{10})$, which matches choice <strong>A</strong>."
     }
   ]
 }

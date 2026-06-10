@@ -9,11 +9,7 @@
     },
     {
       "title": "Identify the answer",
-      "content": "The $x$ and $y$ coefficient ratios differ, so the lines intersect once — exactly one solution. That matches choice <strong>D</strong> — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y = 21 - 3x",
-        "y = 9x - 3"
-      ]
+      "content": "The $x$ and $y$ coefficient ratios differ, so the lines intersect once — exactly one solution. That matches choice <strong>D</strong> — <strong>D</strong> is correct."
     }
   ]
 }

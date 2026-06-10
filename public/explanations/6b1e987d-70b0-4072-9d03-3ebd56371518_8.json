@@ -9,12 +9,7 @@
     },
     {
       "title": "Find the x‑intercept",
-      "content": "The x‑intercept occurs when $y = 0$. Set the equation equal to zero and solve for $x$:<br/>$$0 = 5x - 35$$<br/>Add 35 to both sides:<br/>$$5x = 35$$<br/>Divide both sides by 5:<br/>$$x = 7$$<br/>The answer is <strong>7</strong>.",
-      "desmosExpressions": [
-        "y = 5x - 35",
-        "(0, -35)",
-        "(7, 0)"
-      ]
+      "content": "The x‑intercept occurs when $y = 0$. Set the equation equal to zero and solve for $x$:<br/>$$0 = 5x - 35$$<br/>Add 35 to both sides:<br/>$$5x = 35$$<br/>Divide both sides by 5:<br/>$$x = 7$$<br/>The answer is <strong>7</strong>."
     }
   ]
 }

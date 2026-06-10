@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The balance is $905.40 at month 4, then grows by 0.1% every 2 months. We need the exponent to count the number of 2-month periods elapsed since month 4 — that is, $\frac{x-4}{2}$."
+      "content": "The balance is $905.40 at month 4, then grows by 0.1% every 2 months. We need the exponent to count the number of 2-month periods elapsed since month 4 — that is, $\\frac{x-4}{2}$."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; '$B(x)=905.40(1.001)^{2x-8}$'</strong>: exponent $2x-8$ grows twice as fast as $x$, compounding every half-month rather than every 2 months. &#10007;</li><li><strong>Choice B &mdash; '$B(x)=905.40(1.001)^{2x-4}$'</strong>: exponent $2x-4$ still grows at rate $2$ per month — same error. &#10007;</li><li><strong>Choice C &mdash; '$B(x)=905.40(1.001)^{\frac{x}{2}-\frac{4}{2}}$'</strong>: exponent $\frac{x}{2}-2=\frac{x-4}{2}$ counts exactly the number of 2-month periods since month 4. &#10003;</li><li><strong>Choice D &mdash; '$B(x)=905.40(1.001)^{\frac{x}{2}-4}$'</strong>: exponent $\frac{x}{2}-4$ is off — at $x=4$ it gives $-2$ instead of $0$, so the anchor is wrong. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; '$B(x)=905.40(1.001)^{2x-8}$'</strong>: exponent $2x-8$ grows twice as fast as $x$, compounding every half-month rather than every 2 months. &#10007;</li><li><strong>Choice B &mdash; '$B(x)=905.40(1.001)^{2x-4}$'</strong>: exponent $2x-4$ still grows at rate $2$ per month — same error. &#10007;</li><li><strong>Choice C &mdash; '$B(x)=905.40(1.001)^{\\frac{x}{2}-\\frac{4}{2}}$'</strong>: exponent $\\frac{x}{2}-2=\\frac{x-4}{2}$ counts exactly the number of 2-month periods since month 4. &#10003;</li><li><strong>Choice D &mdash; '$B(x)=905.40(1.001)^{\\frac{x}{2}-4}$'</strong>: exponent $\\frac{x}{2}-4$ is off — at $x=4$ it gives $-2$ instead of $0$, so the anchor is wrong. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }

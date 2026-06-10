@@ -9,10 +9,7 @@
     },
     {
       "title": "Count the solutions",
-      "content": "There are zero real solutions. That matches choice <strong>A</strong> — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y = x^{2} + 100"
-      ]
+      "content": "There are zero real solutions. That matches choice <strong>A</strong> — <strong>A</strong> is correct."
     },
     {
       "title": "Confirm the answer",

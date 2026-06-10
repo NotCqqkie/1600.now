@@ -9,11 +9,7 @@
     },
     {
       "title": "Perpendicular to vertical = horizontal",
-      "content": "Perpendicular shortcut: the negative reciprocal of an undefined slope is $0$. A horizontal line has slope $0$. That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "x=2",
-        "y=0"
-      ]
+      "content": "Perpendicular shortcut: the negative reciprocal of an undefined slope is $0$. A horizontal line has slope $0$. That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

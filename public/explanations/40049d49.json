@@ -9,11 +9,7 @@
     },
     {
       "title": "Solve for a",
-      "content": "Multiply both sides by $2$: $$8(x+3)=a(x+3)$$ For this to hold for every $x$, the coefficient of $(x+3)$ must match, so $a=8$. A Desmos regression using two simple $x$-values also returns $a=8$.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "4x_1+12~a(x_1+3)/2"
-      ]
+      "content": "Multiply both sides by $2$: $$8(x+3)=a(x+3)$$ For this to hold for every $x$, the coefficient of $(x+3)$ must match, so $a=8$. A direct calculation using two simple $x$-values also returns $a=8$."
     },
     {
       "title": "Test all four choices",

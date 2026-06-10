@@ -7,6 +7,5 @@
     "Check each choice against this range."
   ],
   "eliminationHtml": "<ul><li><strong>Choice A &mdash; '165'</strong>: 165 &lt; 200, below the minimum possible total. &#10007;</li><li><strong>Choice B &mdash; '205'</strong>: 200 &le; 205 &le; 240, achievable (e.g., three trays of 50 and one of 55). &#10003;</li><li><strong>Choice C &mdash; '245'</strong>: 245 &gt; 240, above the maximum possible total. &#10007;</li><li><strong>Choice D &mdash; '285'</strong>: 285 &gt; 240, well above the maximum possible total. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
-  "correctAnswer": "B",
-  "desmosExpressions": []
+  "correctAnswer": "B"
 }

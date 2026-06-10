@@ -9,13 +9,7 @@
     },
     {
       "title": "Find which circle is tangent to the y-axis",
-      "content": "All four choices have $r^2 = 16$, so the radius is $r = 4$. We need $|h| = 4$.<ul><li><strong>A:</strong> $(x-8)^2 + (y-8)^2 = 16$ has center $(8, 8)$, so $|h| = 8 \\neq 4$</li><li><strong>B:</strong> $(x-8)^2 + (y-4)^2 = 16$ has center $(8, 4)$, so $|h| = 8 \\neq 4$</li><li><strong>C:</strong> $(x-4)^2 + (y-9)^2 = 16$ has center $(4, 9)$, so $|h| = 4$, which equals $r$ ✓</li><li><strong>D:</strong> $x^2 + (y-9)^2 = 16$ has center $(0, 9)$, so $|h| = 0 \\neq 4$</li></ul>That matches choice C — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "(x-8)^2 + (y-8)^2 = 16",
-        "(x-8)^2 + (y-4)^2 = 16",
-        "(x-4)^2 + (y-9)^2 = 16",
-        "x^2 + (y-9)^2 = 16"
-      ]
+      "content": "All four choices have $r^2 = 16$, so the radius is $r = 4$. We need $|h| = 4$.<ul><li><strong>A:</strong> $(x-8)^2 + (y-8)^2 = 16$ has center $(8, 8)$, so $|h| = 8 \\neq 4$</li><li><strong>B:</strong> $(x-8)^2 + (y-4)^2 = 16$ has center $(8, 4)$, so $|h| = 8 \\neq 4$</li><li><strong>C:</strong> $(x-4)^2 + (y-9)^2 = 16$ has center $(4, 9)$, so $|h| = 4$, which equals $r$ ✓</li><li><strong>D:</strong> $x^2 + (y-9)^2 = 16$ has center $(0, 9)$, so $|h| = 0 \\neq 4$</li></ul>That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

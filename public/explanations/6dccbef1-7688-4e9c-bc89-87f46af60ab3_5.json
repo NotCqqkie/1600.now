@@ -8,12 +8,11 @@
       "content": "The key phrase is \"increases by $0.69\\%$ of its value the previous year.\" Because the increase is based on the previous year's value, the investment is multiplied by the same factor each year: $$1+0.0069=1.0069$$ A constant multiplier repeated over time is exponential, not linear."
     },
     {
-      "title": "Check with a Desmos sample table",
-      "content": "To see the pattern, start with a sample value of $100$. After one year it is $100(1.0069)=100.69$, and after two years it is about $101.3848$. Entering these in Desmos with $y_1\\sim a b^{x_1}$ returns a base of about $1.0069$, confirming exponential growth.",
+      "title": "Check with a direct sample table",
+      "content": "To see the pattern, start with a sample value of $100$. After one year it is $100(1.0069)=100.69$, and after two years it is about $101.3848$. Entering these in Desmos with returns a base of about $1.0069$, confirming exponential growth.",
       "desmosExpressions": [
         "x_1=[0,1,2]",
         "y_1=[100,100.69,101.384761]",
-        "y_1~a b^{x_1}",
         "y=100(1.0069)^x"
       ]
     },

@@ -37,8 +37,8 @@ const VerifyEmail = () => {
   }, [reloadUser, navigate]);
   useEffect(() => {
     if (cooldown <= 0) return;
-    const t = window.setTimeout(() => setCooldown((c) => c - 1), 1000);
-    return () => window.clearTimeout(t);
+    const timerId = window.setTimeout(() => setCooldown((currentCooldown) => currentCooldown - 1), 1000);
+    return () => window.clearTimeout(timerId);
   }, [cooldown]);
 
   const handleResend = async () => {

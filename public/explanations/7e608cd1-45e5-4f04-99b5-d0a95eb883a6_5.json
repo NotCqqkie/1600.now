@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Trace the text&rsquo;s structure",
-      "content": "Sentence 1 states historians agree the Piast dynasty was crucial to forming the Polish state. The word &ldquo;But&rdquo; in sentence 2 introduces a split within that agreement: <em>some</em> historians distinguish between well-documented rulers like Otto Boles&#322;awowic and figures like Siemowit whose historical existence is disputed because his record relies on oral tradition rather than documentary evidence. The text&rsquo;s whole movement is from unified agreement &rarr; disagreement about how certain members of the dynasty should be treated."
+      "content": "Sentence 1 states historians agree the Piast dynasty was crucial to forming the Polish state. The word &ldquo;But&rdquo; in sentence 2 introduces a split within that agreement: <em>some</em> historians distinguish between well-documented rulers like Otto Boles&#322;awowic and figures like Siemowit whose historical existence is disputed because his record relies on oral tradition rather than documentary evidence. The text&rsquo;s whole movement is from unified agreement $\\Rightarrow$ disagreement about how certain members of the dynasty should be treated."
     },
     {
       "title": "Eliminate wrong choices and confirm the answer",

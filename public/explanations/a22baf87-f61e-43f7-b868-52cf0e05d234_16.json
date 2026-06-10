@@ -9,12 +9,7 @@
     },
     {
       "title": "Evaluate at x = 9",
-      "content": "Substitute $x = 9$: $$d = 36(9) = 324.$$ That matches choice 324 — <strong>324</strong> is correct.",
-      "desmosExpressions": [
-        "y=36x+6",
-        "y=36x",
-        "(9,324)"
-      ]
+      "content": "Substitute $x = 9$: $$d = 36(9) = 324.$$ That matches choice 324 — <strong>324</strong> is correct."
     }
   ]
 }

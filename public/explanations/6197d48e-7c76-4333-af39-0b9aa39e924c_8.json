@@ -9,10 +9,7 @@
     },
     {
       "title": "Calculate the value",
-      "content": "Simplifying the equation: <br/> $$ y = 0 + 15 $$ <br/> $$ y = 15 $$ <br/> This matches the y-intercept form $(0, y)$, so the value of $y$ is 15. The answer is <strong>15</strong>.",
-      "desmosExpressions": [
-        "y = x^{2} + 15"
-      ]
+      "content": "Simplifying the equation: <br/> $$ y = 0 + 15 $$ <br/> $$ y = 15 $$ <br/> This matches the y-intercept form $(0, y)$, so the value of $y$ is 15. The answer is <strong>15</strong>."
     }
   ]
 }

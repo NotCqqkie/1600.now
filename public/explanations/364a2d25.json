@@ -9,11 +9,7 @@
     },
     {
       "title": "Solve the quadratic by factoring",
-      "content": "We need two numbers that multiply to $72$ and add to $17$. Testing factor pairs: $8 \\times 9 = 72$ and $8 + 9 = 17$ ✓<br/><br/>The quadratic factors as:<br/>$$(t - 8)(t - 9) = 0$$<br/>Therefore $t = 8$ or $t = 9$. One possible value of $x$ is <strong>8</strong> (and the other is <strong>9</strong>).",
-      "desmosExpressions": [
-        "x + y = 17",
-        "x y = 72"
-      ]
+      "content": "We need two numbers that multiply to $72$ and add to $17$. Testing factor pairs: $8 \\times 9 = 72$ and $8 + 9 = 17$ ✓<br/><br/>The quadratic factors as:<br/>$$(t - 8)(t - 9) = 0$$<br/>Therefore $t = 8$ or $t = 9$. One possible value of $x$ is <strong>8</strong> (and the other is <strong>9</strong>)."
     }
   ]
 }

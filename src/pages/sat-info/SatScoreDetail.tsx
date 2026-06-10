@@ -168,8 +168,8 @@ const SatScoreDetail = () => {
           A {score} SAT score is in range at schools including:
         </p>
         <ul className="mt-3 list-disc space-y-1 pl-6 text-muted-foreground">
-          {profile.collegeExamples.map((c) => (
-            <li key={c}>{c}</li>
+          {profile.collegeExamples.map((college) => (
+            <li key={college}>{college}</li>
           ))}
         </ul>
         <p className="mt-3 text-sm text-muted-foreground">
@@ -203,10 +203,10 @@ const SatScoreDetail = () => {
           Frequently Asked Questions
         </h2>
         <div className="mt-4 space-y-5">
-          {faqs.map((f) => (
-            <div key={f.question}>
-              <h3 className="text-base font-semibold">{f.question}</h3>
-              <p className="mt-1 text-muted-foreground">{f.answer}</p>
+          {faqs.map((faq) => (
+            <div key={faq.question}>
+              <h3 className="text-base font-semibold">{faq.question}</h3>
+              <p className="mt-1 text-muted-foreground">{faq.answer}</p>
             </div>
           ))}
         </div>

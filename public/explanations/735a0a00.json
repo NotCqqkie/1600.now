@@ -5,10 +5,7 @@
   "steps": [
     {
       "title": "Interpret the ordered pair (1, 83) in context",
-      "content": "In the equation, $x$ represents days after product launch and $y$ represents estimated stock price in dollars.<br/><br/>The point $(x, y) = (1, 83)$ directly translates to: when $x = 1$ (1 day after launch), the stock price is $y = 83$ dollars.<br/><br/>Therefore, 1 day after the new product launched, the company's estimated stock price is \\$83. That matches choice C — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y=0.25(x)^(2)-7.5x+90.25"
-      ]
+      "content": "In the equation, $x$ represents days after product launch and $y$ represents estimated stock price in dollars.<br/><br/>The point $(x, y) = (1, 83)$ directly translates to: when $x = 1$ (1 day after launch), the stock price is $y = 83$ dollars.<br/><br/>Therefore, 1 day after the new product launched, the company's estimated stock price is \\$83. That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

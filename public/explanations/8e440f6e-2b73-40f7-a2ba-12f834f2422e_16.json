@@ -5,12 +5,7 @@
   "steps": [
     {
       "title": "Use endpoint anchors",
-      "content": "The line of best fit is already drawn. Two clear points on it are approximately $(0,25)$ and $(80,11)$.",
-      "desmosExpressions": [
-        "x_1=[0,80]",
-        "y_1=[25,11]",
-        "y_1~m x_1+b"
-      ]
+      "content": "The line of best fit is already drawn. Two clear points on it are approximately $(0,25)$ and $(80,11)$."
     },
     {
       "title": "Compute the slope",

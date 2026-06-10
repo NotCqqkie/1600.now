@@ -9,11 +9,7 @@
     },
     {
       "title": "Evaluate the absolute value and simplify",
-      "content": "The absolute value of $-4$ is $4$. Therefore: $$h(-4) = 5 \\cdot 4 = 20$$ That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y = 5|x|",
-        "(-4, 20)"
-      ]
+      "content": "The absolute value of $-4$ is $4$. Therefore: $$h(-4) = 5 \\cdot 4 = 20$$ That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

@@ -13,11 +13,7 @@
     },
     {
       "title": "Find $a$ and calculate $4a$",
-      "content": "Comparing $(x - 91)^2 + (y - 5)^2 = 7$ to the form $(x-h)^2 + (y-k)^2 = a$, we have $a = 7$. Therefore, $4a = 4 \\cdot 7 = 28$.",
-      "desmosExpressions": [
-        "x^2 + (y-5)^2 = 7",
-        "(x-91)^2 + (y-5)^2 = 7"
-      ]
+      "content": "Comparing $(x - 91)^2 + (y - 5)^2 = 7$ to the form $(x-h)^2 + (y-k)^2 = a$, we have $a = 7$. Therefore, $4a = 4 \\cdot 7 = 28$."
     }
   ]
 }

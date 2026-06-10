@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the favorable and total outcomes",
-      "content": "The problem asks for the probability of randomly selecting a participant with more than 120 minutes of REM sleep. From the study: <ul><li>Favorable outcomes (>120 min REM): 53 participants</li><li>Total outcomes: 59 participants</li></ul>"
+      "title": "Identify favorable outcomes",
+      "content": "There are $53$ participants with more than $120$ minutes of REM sleep out of $59$ participants total."
     },
     {
-      "title": "Apply the probability formula",
-      "content": "Probability = favorable outcomes / total outcomes: $$P = \\frac{53}{59}$$. That matches choice C — <strong>C</strong> is correct."
+      "title": "Compute the probability",
+      "content": "The probability is favorable outcomes divided by total outcomes: $$\\frac{53}{59}$$"
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "Choice C is $\\frac{53}{59}$, so <strong>C</strong> is correct."
     }
   ]
 }

@@ -4,17 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use quadratic table regression for the coefficient",
-      "content": "The product is equivalent to $ax^2+bx+c$, so evaluate the product at three easy $x$-values and regress those outputs to a quadratic. Desmos then gives the middle coefficient directly.",
-      "desmosExpressions": [
-        "x_1=[0,1,2]",
-        "y_1=(3x_1-23)(19x_1+6)",
-        "y_1~a x_1^2+b x_1+c"
-      ]
+      "title": "Expand the product",
+      "content": "Use FOIL on $(3x-23)(19x+6)$: $$3x\\cdot19x+3x\\cdot6-23\\cdot19x-23\\cdot6$$"
     },
     {
-      "title": "Read b and confirm the arithmetic",
-      "content": "The regression returns $b=-419$. By hand, the $x$-terms from FOIL are $3x\\cdot6=18x$ and $-23\\cdot19x=-437x$, so<br/>$$18x-437x=-419x$$<br/>Therefore the value of $b$ is <strong>-419</strong>."
+      "title": "Find the x-coefficient",
+      "content": "The $x$-terms are $$18x-437x=-419x$$ so in $ax^2+bx+c$, the value of $b$ is $-419$."
+    },
+    {
+      "title": "Answer",
+      "content": "The value of $b$ is <strong>-419</strong>."
+    },
+    {
+      "title": "Ignore terms that do not affect b",
+      "content": "The value of $b$ is only the coefficient of the $x$ term. The $3x\\cdot 19x$ product affects $a$, and the $-23\\cdot 6$ product affects $c$, so the middle products decide $b$."
     }
   ]
 }

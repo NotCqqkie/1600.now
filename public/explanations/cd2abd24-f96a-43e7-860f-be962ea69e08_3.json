@@ -5,21 +5,11 @@
   "steps": [
     {
       "title": "Enter two months of data",
-      "content": "At birth, $x=0$ and the whale is $157$ cm long. After $1$ month, it has grown by $4.6$ cm, so the length is $161.6$ cm. Put those two points into Desmos.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[157,161.6]"
-      ]
+      "content": "At birth, $x=0$ and the whale is $157$ cm long. After $1$ month, it has grown by $4.6$ cm, so the length is $161.6$ cm. Use the points $(0,157)$ and $(1,161.6)$."
     },
     {
       "title": "Fit the linear model",
-      "content": "Run $y_1 \\sim mx_1+b$. Desmos gives $m=4.6$ and $b=157$, so the equation is $y=4.6x+157$.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[157,161.6]",
-        "y_1~m x_1+b",
-        "y=4.6x+157"
-      ]
+      "content": "The slope is $$m=\\frac{161.6-157}{1-0}=4.6.$$ The $y$-intercept is the starting length, $157$, so the equation is $y=4.6x+157$."
     },
     {
       "title": "Confirm the answer",

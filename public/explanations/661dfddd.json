@@ -12,8 +12,7 @@
       "content": "A quick Desmos check with two points on the fit line gives a negative slope, confirming that temperature decreases as elevation increases.",
       "desmosExpressions": [
         "x_1=[6000,9000]",
-        "y_1=[44,38]",
-        "y_1~m x_1+b"
+        "y_1=[44,38]"
       ]
     },
     {

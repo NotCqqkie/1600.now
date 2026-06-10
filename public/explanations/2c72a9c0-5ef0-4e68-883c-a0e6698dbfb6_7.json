@@ -4,9 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Conditional Probability from Table",
-      "content": "We need the probability that a T-shirt is medium given that it's a Hawks T-shirt. From the table, the intersection of the Medium row and Hawks column is 21 T-shirts, and the Hawks column total is 42 T-shirts. Therefore:<br/>$$\\frac{21}{42} = \\frac{1}{2} = 0.5$$<br/>The answer is <strong>0.5,1/2</strong>.",
-      "formula": "$$P(A|B) = \\frac{\\text{count of } A \\text{ and } B}{\\text{count of } B}$$"
+      "title": "Restrict to Hawks shirts",
+      "content": "The condition says the selected shirt is a Hawks T-shirt, so use only the Hawks total from the table."
+    },
+    {
+      "title": "Use the table counts",
+      "content": "The table shows $21$ medium Hawks shirts out of $42$ Hawks shirts total. The probability is $$\\frac{21}{42}=\\frac{1}{2}=0.5$$"
+    },
+    {
+      "title": "Answer",
+      "content": "A correct entry is <strong>1/2</strong> or <strong>0.5</strong>."
     }
   ]
 }

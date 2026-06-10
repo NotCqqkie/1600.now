@@ -9,8 +9,7 @@
     },
     {
       "title": "Calculate total cost by scaling the unit rate",
-      "content": "To find the cost for 6 pounds, multiply the unit rate by the quantity:<br/>$$11 \\times 6 = 66$$<br/>The cost for 6 pounds is \\$66.00.",
-      "formula": "$$\\text{Total Cost} = \\text{Unit Price} \\times \\text{Quantity}$$"
+      "content": "To find the cost for 6 pounds, multiply the unit rate by the quantity:<br/>$$11 \\times 6 = 66$$<br/>The cost for 6 pounds is \\$66.00."
     }
   ]
 }

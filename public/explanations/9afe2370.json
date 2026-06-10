@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Identify the constraint for decreasing population",
-      "content": "In the model $P = P_0(1+r)^y$, each year the population is multiplied by the factor $(1+r)$.<br/><br/>If the population decreases by a fixed percent each year, then each year's population must be less than the previous year's.<br/><br/>This means the multiplier must be less than 1:<br/>$$1 + r < 1$$<br/>Subtracting 1 from both sides gives $r < 0$."
+      "content": "In the model $P = P_0(1+r)^y$, each year the population is multiplied by the factor $(1+r)$.<br/><br/>If the population decreases by a fixed percent each year, then each year's population must be less than the previous year's.<br/><br/>This means the multiplier must be less than 1:<br/>$$1 + r \\lt 1$$<br/>Subtracting 1 from both sides gives $r \\lt 0$."
     },
     {
       "title": "Ensure population stays positive for all years",
@@ -13,7 +13,7 @@
     },
     {
       "title": "Combine the constraints on r",
-      "content": "From Step 1, we need $r < 0$ for the population to decrease. From Step 2, we need $r > -1$ for the population to remain positive. Both conditions must hold simultaneously:<br/>$$-1 < r < 0$$<br/>That matches choice B — <strong>B</strong> is correct."
+      "content": "From Step 1, we need $r \\lt 0$ for the population to decrease. From Step 2, we need $r > -1$ for the population to remain positive. Both conditions must hold simultaneously:<br/>$$-1 \\lt r \\lt 0$$<br/>That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

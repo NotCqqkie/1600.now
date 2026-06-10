@@ -4,17 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use an exponential regression",
-      "content": "The function is exponential, and the table shows $g(0)=1$ and $g(1)=\\frac{1}{25}$. Enter those points and run the exponential regression $y_1 \\sim a b^{x_1}$.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[1,1/25]",
-        "y_1~a b^{x_1}"
-      ]
+      "title": "Find the exponential pattern",
+      "content": "Use the form $g(x)=ab^x$. The table shows $g(0)=1$, so $$a=1.$$ The table also shows $g(1)=\\frac{1}{25}$, so $$ab=\\frac{1}{25}.$$ Since $a=1$, $$b=\\frac{1}{25}.$$"
     },
     {
       "title": "Read the base",
-      "content": "Desmos gives $a=1$ and $b=\\frac{1}{25}$, so $g(x)=\\left(\\frac{1}{25}\\right)^x$. The positive value at $x=0$ also eliminates the choices with a leading negative sign."
+      "content": "Therefore $g(x)=\\left(\\frac{1}{25}\\right)^x$. The positive value at $x=0$ also eliminates the choices with a leading negative sign."
     },
     {
       "title": "Check the choices",

@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Find the original median",
-      "content": "With 51 stamps, the median is the 26th value when ordered by age. Count cumulative frequencies: age 65 (11 total), 70 (18 total), 75 (23 total), 80 (27 total). The 26th stamp falls in the age 80 group. <strong>Original median = 80</strong>."
+      "content": "With 51 stamps, the median is the 26th value when the ages are ordered. Track the running totals:<ul><li><strong>Age 65:</strong> cumulative total 11</li><li><strong>Age 70:</strong> cumulative total 18</li><li><strong>Age 75:</strong> cumulative total 23</li><li><strong>Age 80:</strong> cumulative total 27</li></ul>The 26th stamp first appears in the age-80 group, so <strong>original median = 80</strong>."
     },
     {
       "title": "Analyze the median and mean of the new collection",

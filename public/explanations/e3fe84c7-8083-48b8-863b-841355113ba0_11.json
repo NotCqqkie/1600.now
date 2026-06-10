@@ -9,7 +9,7 @@
     },
     {
       "title": "Recognize why a must be negative",
-      "content": "The solution $x \\ge -8$ is a <strong>lower bound</strong>. When dividing an inequality by a value, the direction reverses only if that value is negative. Since $ax \\le 32$ yields $x \\ge -8$ (a reversal), we must have $a < 0$."
+      "content": "The solution $x \\ge -8$ is a <strong>lower bound</strong>. When dividing an inequality by a value, the direction reverses only if that value is negative. Since $ax \\le 32$ yields $x \\ge -8$ (a reversal), we must have $a \\lt 0$."
     },
     {
       "title": "Solve for a",

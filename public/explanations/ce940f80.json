@@ -9,11 +9,7 @@
     },
     {
       "title": "Take the positive square root",
-      "content": "Since $x^2 = 900$, and the answer choices are all positive, take the positive square root:<br/>$$x = \\sqrt{900} = 30$$<br/>That matches choice B — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "y = \\frac{x^2}{25}",
-        "y = 36"
-      ]
+      "content": "Since $x^2 = 900$, and the answer choices are all positive, take the positive square root:<br/>$$x = \\sqrt{900} = 30$$<br/>That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

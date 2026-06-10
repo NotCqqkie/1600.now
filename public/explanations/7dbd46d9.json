@@ -9,11 +9,7 @@
     },
     {
       "title": "Backsolve using integer choices",
-      "content": "Backsolving — testing choice A (-15):<br/>$$(-15)^2 + 4(-15) - 165 = 225 - 60 - 165 = 0$$ ✓<br/>The equation is satisfied. That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "8x + y = -11",
-        "2x^2 = y + 341"
-      ]
+      "content": "Backsolving — testing choice A (-15):<br/>$$(-15)^2 + 4(-15) - 165 = 225 - 60 - 165 = 0$$ ✓<br/>The equation is satisfied. That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

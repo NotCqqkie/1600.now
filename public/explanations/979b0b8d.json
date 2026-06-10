@@ -4,26 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the slope to make a second point",
-      "content": "The graph passes through $(0,0)$. A slope of $39$ means one step right raises $y$ by $39$, so the next point is $(1,39)$. Enter those two points in Desmos.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[0,39]"
-      ]
+      "title": "Use slope-intercept form",
+      "content": "A linear function can be written as $f(x)=mx+b$, where $m$ is the slope and $(0,b)$ is the $y$-intercept."
     },
     {
-      "title": "Fit the equation",
-      "content": "Run $y_1 \\sim mx_1+b$. The regression gives $m=39$ and $b=0$, so $f(x)=39x$.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[0,39]",
-        "y_1~m x_1+b",
-        "y=39x"
-      ]
+      "title": "Substitute the given information",
+      "content": "The slope is $39$, so $m=39$. The graph passes through $(0,0)$, so the $y$-intercept is $b=0$. Therefore $$f(x)=39x+0=39x.$$"
     },
     {
-      "title": "Confirm the answer",
-      "content": "Choice A has slope $-39$, choice B has slope $\\frac{1}{39}$, and choice C has slope $1$ with intercept $-39$. Only choice D has slope $39$ and passes through the origin. Choice <strong>D</strong> is correct."
+      "title": "Check the answer choices",
+      "content": "Choice A has slope $-39$, choice B has slope $\\frac{1}{39}$, and choice C has slope $1$ with intercept $-39$. Only choice D has slope $39$ and passes through the origin, so <strong>D</strong> is correct."
     }
   ]
 }

@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Name the shortcut: discriminant = 0",
-      "content": "Exactly one real solution means the discriminant equals zero: $$b^2 - 4ac = 0.$$ For $7x^2 + 49x + c = 0$, identify $a = 7$, $b = 49$, $c = c$."
+      "title": "Connect the condition to the quadratic",
+      "content": "The equation $7x^2+49x+c=0$ is quadratic. If a quadratic has exactly one real solution, its graph touches the $x$-axis at one point, so the expression under the square root in the quadratic formula must be $0$."
     },
     {
       "title": "Compute and solve",
-      "content": "Plug in: $$49^2-4(7)(c)=0$$<br/>$$2401-28c=0$$<br/>$$c=\\frac{2401}{28}=\\frac{343}{4}$$ Desmos can solve the discriminant condition directly. That matches choice D, so <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y_1=[0]",
-        "y_1~49^2-4*7*c"
-      ]
+      "content": "For $ax^2+bx+c=0$, that expression is $b^2-4ac$. Here $a=7$ and $b=49$, so:<br/>$$49^2-4(7)(c)=0$$<br/>$$2401-28c=0$$<br/>$$c=\\frac{2401}{28}=\\frac{343}{4}$$<br/>That matches choice D, so <strong>D</strong> is correct."
     }
   ]
 }

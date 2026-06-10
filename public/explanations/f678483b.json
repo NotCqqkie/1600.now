@@ -13,10 +13,7 @@
     },
     {
       "title": "Apply the domain constraint",
-      "content": "Since $x > 0$ (minutes after collecting the sample), the solution $x = -19$ is impossible in this context. The only valid time is $x = 35$ minutes, when the device reaches the surface. The answer is <strong>35</strong>.",
-      "desmosExpressions": [
-        "g(x)=-(1)/(55)(x+19)(x-35)"
-      ]
+      "content": "Since $x > 0$ (minutes after collecting the sample), the solution $x = -19$ is impossible in this context. The only valid time is $x = 35$ minutes, when the device reaches the surface. The answer is <strong>35</strong>."
     }
   ]
 }

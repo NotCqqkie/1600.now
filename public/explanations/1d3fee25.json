@@ -1,32 +1,23 @@
 {
-  "qid": "1d3fee25",
+  "questionId": "1d3fee25",
   "correctAnswer": "C",
+  "section": "Math",
   "steps": [
-    "Apply the distributive property: $3 \\times (x + 5) - 6 = 3x + 15 - 6$.",
-    "Combine the constant terms: $15 - 6 = 9$, giving $3x + 9$.",
-    "Check: no further simplification is possible since $3x$ and $9$ are unlike terms.",
-    "That matches choice C &mdash; <strong>C</strong> is correct."
-  ],
-  "choices": [
     {
-      "id": "A",
-      "text": "$3x -3$",
-      "elimination": "<ul><li>Distribute: $3(x+5) = 3x + 15$, then subtract 6 to get $3x + 9$.</li><li>$3x - 3$ would result from $3 \\times (x+1) - 6$ or a similar expression, not this one.</li><li>Eliminated because the constant is +9, not &minus;3.</li></ul>"
+      "title": "Distribute the 3",
+      "content": "Start with $$3(x+5)-6$$ Distribute $3$ to both terms inside the parentheses: $$3x+15-6$$"
     },
     {
-      "id": "B",
-      "text": "$3x -1$",
-      "elimination": "<ul><li>This constant &minus;1 does not arise from $15 - 6$.</li><li>A common error might be computing $5 - 6 = -1$ without distributing the 3 first, but the 3 must be distributed before subtracting 6.</li><li>Eliminated because $3(5) - 6 = 9$, not &minus;1.</li></ul>"
+      "title": "Combine constants",
+      "content": "The constant terms are $15$ and $-6$: $$15-6=9$$ So the expression simplifies to $$3x+9$$"
     },
     {
-      "id": "C",
-      "text": "$3x + 9$",
-      "elimination": "<ul><li>Distribute: $3(x+5) - 6 = 3x + 15 - 6 = 3x + 9$.</li><li>This is the correct simplification. That matches choice C &mdash; <strong>C</strong> is correct.</li></ul>"
+      "title": "Avoid the common distribution error",
+      "content": "The $3$ multiplies both $x$ and $5$, giving $3x+15$ before subtracting $6$. Do not combine the $5$ and $-6$ before distributing."
     },
     {
-      "id": "D",
-      "text": "$15x -6$",
-      "elimination": "<ul><li>This would arise from multiplying both x and 5 by 3 incorrectly, treating the whole as $15x - 6$.</li><li>The distributive property gives $3x + 15$, not $15x$.</li><li>Eliminated because $3 \\times x = 3x$, not $15x$.</li></ul>"
+      "title": "Match the choice",
+      "content": "$3x+9$ matches choice <strong>C</strong>."
     }
   ]
 }

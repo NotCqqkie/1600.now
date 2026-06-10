@@ -4,27 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Build two promotion totals",
-      "content": "The first class is free and the second class is half price, so 2 classes cost 13.20 dollars. A third class adds the regular 26.40 dollars, so 3 classes cost 39.60 dollars. Put $(2,13.20)$ and $(3,39.60)$ in Desmos and fit a line.",
-      "desmosExpressions": [
-        "x_1=[2,3]",
-        "y_1=[13.2,39.6]",
-        "y_1~m x_1+b"
-      ]
+      "title": "Account for the first two classes",
+      "content": "The first class is free, and the second class is half of $\\$26.40$, which is $\\$13.20$. For $x>2$, the remaining $x-2$ classes cost $\\$26.40$ each."
     },
     {
-      "title": "Use the fitted cost line",
-      "content": "The regression gives $m=26.40$ and $b=-39.60$, so the slope-intercept form is $f(x)=26.40x-39.60$. Choice B, $26.40(x-2)+13.20$, expands to $26.40x-52.80+13.20=26.40x-39.60$, so it matches."
+      "title": "Write the total cost",
+      "content": "The total cost is the fixed $\\$13.20$ for the first two classes plus $\\$26.40$ for each remaining class: $$f(x)=26.40(x-2)+13.20$$"
     },
     {
-      "title": "Confirm by substitution",
-      "content": "For $x=2$, choice B gives $26.40(0)+13.20=13.20$. For $x=3$, it gives $26.40(1)+13.20=39.60$. Those match the table. The other choices either charge too many full-price classes or too many half-price classes. Choice <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "y=26.4x-39.6",
-        "y=26.4(x-2)+13.2",
-        "(2,13.2)",
-        "(3,39.6)"
-      ]
+      "title": "Confirm the choice",
+      "content": "This matches choice <strong>B</strong>."
     }
   ]
 }

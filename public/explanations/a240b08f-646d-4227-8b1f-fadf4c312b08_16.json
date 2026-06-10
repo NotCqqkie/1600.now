@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The graph of $f$ has x-intercepts at $-6$, $0$, $4$, and $7$. A quadratic factor must have roots that are also in that set. In Desmos, graph each answer choice and compare its x-intercepts to the intercepts of $f$.",
+      "content": "The graph of $f$ has x-intercepts at $-6$, $0$, $4$, and $7$. A quadratic factor of $f$ must have roots chosen from that same set of x-intercepts.",
       "desmosExpressions": [
         "y=x^2-2x-24",
         "y=x^2-x+42",
@@ -15,7 +15,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; '$x^2 - 2x - 24$'</strong>: factors as $(x-6)(x+4)$, roots $6$ and $-4$. Neither is in $\\{-6, 0, 4, 7\\}$. &#10007;</li><li><strong>Choice B &mdash; '$x^2 - x + 42$'</strong>: discriminant $= 1 - 168 < 0$, no real roots, so it cannot be a factor of a polynomial with four real zeros. &#10007;</li><li><strong>Choice C &mdash; '$x^2 - 11x - 28$'</strong>: roots $\\approx 13.1$ and $\\approx -2.1$, neither in the zero set. &#10007;</li><li><strong>Choice D &mdash; '$x^2 - 7x$'</strong>: factors as $x(x-7)$, roots $0$ and $7$. Both are zeros of $f$. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; '$x^2 - 2x - 24$'</strong>: factors as $(x-6)(x+4)$, roots $6$ and $-4$. Neither is in $\\{-6, 0, 4, 7\\}$. &#10007;</li><li><strong>Choice B &mdash; '$x^2 - x + 42$'</strong>: discriminant $= 1 - 168 \\lt 0$, no real roots, so it cannot be a factor of a polynomial with four real zeros. &#10007;</li><li><strong>Choice C &mdash; '$x^2 - 11x - 28$'</strong>: roots $\\approx 13.1$ and $\\approx -2.1$, neither in the zero set. &#10007;</li><li><strong>Choice D &mdash; '$x^2 - 7x$'</strong>: factors as $x(x-7)$, roots $0$ and $7$. Both are zeros of $f$. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
     }
   ]
 }

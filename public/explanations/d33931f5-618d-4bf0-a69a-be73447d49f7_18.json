@@ -13,12 +13,7 @@
     },
     {
       "title": "Solve for time t",
-      "content": "Rearrange the equation to isolate $t^2$:<br/>$$16t^2 = 2.56$$<br/>$$t^2 = \\frac{2.56}{16} = 0.16$$<br/>Take the positive square root (since time must be positive):<br/>$$t = \\sqrt{0.16} = 0.4 \\text{ seconds}$$<br/>This can also be expressed as $\\frac{2}{5}$ seconds.<br/>The answer is <strong>0.4,2/5</strong>.",
-      "desmosExpressions": [
-        "h(t) = -16t^2 + 2.56",
-        "(0, 2.56)",
-        "(0.4, 0)"
-      ]
+      "content": "Rearrange the equation to isolate $t^2$:<br/>$$16t^2 = 2.56$$<br/>$$t^2 = \\frac{2.56}{16} = 0.16$$<br/>Take the positive square root (since time must be positive):<br/>$$t = \\sqrt{0.16} = 0.4 \\text{ seconds}$$<br/>This can also be expressed as $\\frac{2}{5}$ seconds.<br/>The answer is <strong>0.4,2/5</strong>."
     }
   ]
 }

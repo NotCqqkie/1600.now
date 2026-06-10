@@ -1,1 +1,15 @@
-{"questionId": "68b576c1-9de8-41d3-9840-538d4edcd113_9", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Read the parabola", "content": "From the graph, the parabola opens <strong>upward</strong>, so the leading coefficient is positive: $y = \\tfrac{7}{16}x^2$ (not negative). That eliminates (A) and (B)."}, {"title": "Read the line", "content": "The line passes through the origin with a <strong>positive</strong> slope (rises from left to right), so $y = \\tfrac{7}{4}x$ (not $-\\tfrac{7}{4}x$).<br/><br/>Both equations positive matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "68b576c1-9de8-41d3-9840-538d4edcd113_9",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the parabola",
+      "content": "From the graph, the parabola opens <strong>upward</strong>, so the leading coefficient is positive: $y = \\tfrac{7}{16}x^2$ (not negative). That eliminates (A) and (B)."
+    },
+    {
+      "title": "Read the line",
+      "content": "The line passes through the origin with a <strong>positive</strong> slope (rises from left to \\right), so $y = \\tfrac{7}{4}x$ (not $-\\tfrac{7}{4}x$).<br/><br/>Both equations positive matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -13,10 +13,7 @@
     },
     {
       "title": "Back-substitute to solve for x",
-      "content": "Substitute $u = 2x - 7$ back into each solution:<ul><li>If $u = 3$: $2x - 7 = 3$, so $2x = 10$, thus $x = 5$</li><li>If $u = 5$: $2x - 7 = 5$, so $2x = 12$, thus $x = 6$</li></ul>The solutions are $x = 5$ and $x = 6$.",
-      "desmosExpressions": [
-        "y = (2x-7)^{2} - 8(2x-7) + 15"
-      ]
+      "content": "Substitute $u = 2x - 7$ back into each solution:<ul><li>If $u = 3$: $2x - 7 = 3$, so $2x = 10$, thus $x = 5$</li><li>If $u = 5$: $2x - 7 = 5$, so $2x = 12$, thus $x = 6$</li></ul>The solutions are $x = 5$ and $x = 6$."
     }
   ]
 }

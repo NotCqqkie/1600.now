@@ -13,11 +13,7 @@
     },
     {
       "title": "Sum the solutions",
-      "content": "$$27+(-9)=18.$$ Shortcut: the solutions are centered at $9$, so their sum is $2(9)=18$. The answer is <strong>18</strong>.",
-      "desmosExpressions": [
-        "y=|x-9|+45",
-        "y=63"
-      ]
+      "content": "$$27+(-9)=18.$$ Shortcut: the solutions are centered at $9$, so their sum is $2(9)=18$. The answer is <strong>18</strong>."
     }
   ]
 }

@@ -4,17 +4,11 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Graph each answer choice",
-      "content": "Exactly one distinct real solution means the graph touches the x-axis exactly once. In Desmos, graph the left side of each equation and look for the parabola that is tangent to the x-axis.",
-      "desmosExpressions": [
-        "y=x^2-16",
-        "y=x^2+16",
-        "y=x^2-16x+56",
-        "y=x^2-16x+64"
-      ]
+      "title": "Use the one-solution condition",
+      "content": "Exactly one distinct real solution means the quadratic can be written as a perfect square equal to $0$. Check which choice has a repeated factor."
     },
     {
-      "title": "Identify the tangent graph",
+      "title": "Identify the repeated-root choice",
       "content": "Choice A crosses the x-axis twice, choice B never reaches the x-axis, and choice C crosses twice. Choice D is $y=x^2-16x+64=(x-8)^2$, which touches the x-axis once at $x=8$."
     },
     {

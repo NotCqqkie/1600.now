@@ -1,17 +1,23 @@
 {
+  "questionId": "e4f2c33b-9282-40a7-810c-d633e5197f95_19",
+  "correctAnswer": "B",
+  "section": "Math",
   "steps": [
     {
-      "explanation": "Find the width of the base. Base area = length &times; width, so width = 56t &divide; (14/3) = 56t &times; 3/14 = 12t cm."
+      "title": "Find the missing width",
+      "content": "The base area is $56t$ and the length is $\\frac{14}{3}$, so $$\\text{width}=56t\\div\\frac{14}{3}=56t\\cdot\\frac{3}{14}=12t.$$"
     },
     {
-      "explanation": "Compute the three distinct face areas: base lw = 56t (given), front face lh = (14/3)(3) = 14, side face wh = 12t &times; 3 = 36t."
+      "title": "Find the three face areas",
+      "content": "The base area is $56t$. The front face area is $$\\frac{14}{3}\\cdot3=14.$$ The side face area is $$12t\\cdot3=36t.$$"
     },
     {
-      "explanation": "Surface area of a rectangular prism = 2(lw + lh + wh) = 2(56t + 14 + 36t) = 2(92t + 14) = 184t + 28."
+      "title": "Double the face areas",
+      "content": "A rectangular prism has two of each face, so the surface area is $$2(56t+14+36t)=2(92t+14)=184t+28.$$"
     },
     {
-      "explanation": "<ul><li>A: 112t + 56 &mdash; incorrect face calculations.</li><li>B: 184t + 28 &mdash; matches exactly.</li><li>C: 1,680t + 28 &mdash; far too large.</li><li>D: 168t &mdash; missing the constant term, wrong coefficient.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+      "title": "Confirm the choice",
+      "content": "$184t+28$ matches choice <strong>B</strong>."
     }
-  ],
-  "correctAnswer": "B"
+  ]
 }

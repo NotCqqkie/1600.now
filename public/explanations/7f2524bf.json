@@ -9,11 +9,7 @@
     },
     {
       "title": "Read the y-intercept from the graph",
-      "content": "At $x=0$, the graph is at $y=225$. So the point is $(0,225)$, meaning the estimated value at purchase was $\\$225$.",
-      "desmosExpressions": [
-        "(0,225)",
-        "y=225\\left(\\frac{50}{225}\\right)^{x/24}"
-      ]
+      "content": "At $x=0$, the graph is at $y=225$. So the point is $(0,225)$, meaning the estimated value at purchase was $\\$225$."
     },
     {
       "title": "Interpret in context",

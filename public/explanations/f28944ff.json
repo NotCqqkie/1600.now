@@ -4,12 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Evaluate all table inputs at once",
-      "content": "The answer choices all use $x=-1$, $0$, and $1$. In Desmos, define $q(x)=32(2^x)$ and evaluate $q([-1,0,1])$.",
-      "desmosExpressions": [
-        "q(x)=32\\cdot2^x",
-        "q([-1,0,1])"
-      ]
+      "title": "Evaluate the shared inputs",
+      "content": "The answer choices all use $x=-1$, $0$, and $1$. Substitute each value into $q(x)=32(2^x)$."
     },
     {
       "title": "Read the output row",

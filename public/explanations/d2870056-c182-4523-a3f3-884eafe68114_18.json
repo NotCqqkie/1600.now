@@ -9,11 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; '4 days after first measured, predicted count was 1,280'</strong>: t = 4 days is the input, B(4) = 1,280 cells is the output. This matches the function correctly. &#10003;</li><li><strong>Choice B &mdash; '4 days after first measured, predicted count was 16'</strong>: Uses the correct input t = 4 days, but claims the output is 16 cells. B(4) = 80 &middot; 2<sup>4</sup> = 1,280, not 16. &#10007;</li><li><strong>Choice C &mdash; '1,280 days after first measured, predicted count was 4'</strong>: Swaps t and B(t) &mdash; 1,280 is the output, not the time. &#10007;</li><li><strong>Choice D &mdash; '1,280 days after first measured, predicted count was 16'</strong>: Also swaps the roles; 16 has no basis in B(4) = 1,280. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "B(t) = 80 \\cdot 2^{t}",
-        "(4, 1280)"
-      ]
+      "content": "<ul><li><strong>Choice A &mdash; '4 days after first measured, predicted count was 1,280'</strong>: t = 4 days is the input, B(4) = 1,280 cells is the output. This matches the function correctly. &#10003;</li><li><strong>Choice B &mdash; '4 days after first measured, predicted count was 16'</strong>: Uses the correct input t = 4 days, but claims the output is 16 cells. B(4) = 80 &middot; 2<sup>4</sup> = 1,280, not 16. &#10007;</li><li><strong>Choice C &mdash; '1,280 days after first measured, predicted count was 4'</strong>: Swaps t and B(t) &mdash; 1,280 is the output, not the time. &#10007;</li><li><strong>Choice D &mdash; '1,280 days after first measured, predicted count was 16'</strong>: Also swaps the roles; 16 has no basis in B(4) = 1,280. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

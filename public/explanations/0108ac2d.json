@@ -13,7 +13,7 @@
     },
     {
       "title": "Evaluate each choice",
-      "content": "<ul><li><strong>A</strong> — claims exactly 38% support the change. A margin of error means we cannot pin down an exact value; the true percent could be anywhere in [32.5%, 43.5%]. This is too definitive.</li><li><strong>B</strong> — claims the true percent is greater than 38%. The interval extends both above and below 38%, so values below 38% (e.g., 33%) are equally plausible.</li><li><strong>C</strong> — states plausible values are between 32.5% and 43.5%. This is the precise meaning of a 5.5% margin of error around 38%. That matches choice C — <strong>C</strong> is correct.</li><li><strong>D</strong> — gives numbers of students (295–305) rather than percentages. 38% of 300 is about 114 students, not near 295–305. Wrong units and wrong values.</li></ul>"
+      "content": "<ul><li><strong>A</strong> — claims exactly 38% support the change. A margin of error means we cannot pin down an exact value; the true percent could be anywhere from 32.5% to 43.5%. This is too definitive.</li><li><strong>B</strong> — claims the true percent is greater than 38%. The interval extends both above and below 38%, so values below 38% (e.g., 33%) are equally plausible.</li><li><strong>C</strong> — states plausible values are between 32.5% and 43.5%. This is the precise meaning of a 5.5% margin of error around 38%. That matches choice C — <strong>C</strong> is correct.</li><li><strong>D</strong> — gives numbers of students (295–305) rather than percentages. 38% of 300 is about 114 students, not near 295–305. Wrong units and wrong values.</li></ul>"
     }
   ]
 }

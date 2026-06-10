@@ -9,11 +9,7 @@
     },
     {
       "title": "Compute the value",
-      "content": "$0.67 \\times 46 = 30.82$, so $y = 30.82 + 2.6 = 33.42$.",
-      "desmosExpressions": [
-        "y=0.67x+2.6\\left\\{20\\le x\\le 110\\right\\}",
-        "(46,33.42)"
-      ]
+      "content": "$0.67 \\times 46 = 30.82$, so $y = 30.82 + 2.6 = 33.42$."
     },
     {
       "title": "Evaluate each choice",

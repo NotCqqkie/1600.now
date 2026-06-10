@@ -5,16 +5,11 @@
   "steps": [
     {
       "title": "Standard form of a circle",
-      "content": "The equation of a circle with center $(h, k)$ and radius $r$ is $(x - h)^2 + (y - k)^2 = r^2$. The key is that we square the radius on the right side.",
-      "formula": "$(x - h)^2 + (y - k)^2 = r^2$"
+      "content": "The equation of a circle with center $(h, k)$ and radius $r$ is $(x - h)^2 + (y - k)^2 = r^2$. The key is that we square the radius on the right side."
     },
     {
       "title": "Apply the formula with the given information",
-      "content": "The center is $(18, 16)$, so $h = 18$ and $k = 16$. The radius is $r = 6k$. Substituting into the standard form:<br/>$$(x - 18)^2 + (y - 16)^2 = (6k)^2 = 36k^2$$<br/>This matches choice B — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "(x-18)^2 + (y-16)^2 = 36",
-        "(18, 16)"
-      ]
+      "content": "The center is $(18, 16)$, so $h = 18$ and $k = 16$. The radius is $r = 6k$. Substituting into the standard form:<br/>$$(x - 18)^2 + (y - 16)^2 = (6k)^2 = 36k^2$$<br/>This matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

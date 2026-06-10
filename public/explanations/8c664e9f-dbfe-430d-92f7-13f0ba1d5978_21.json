@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Understand the parabola's sign pattern",
-      "content": "The function $f(x) = (x - a)(x - b)$ is an upward-opening parabola with roots at $x = a$ and $x = b$. For such a parabola:<ul><li>$f(x) < 0$ when $x$ is between the two roots</li><li>$f(x) > 0$ when $x$ is outside both roots</li></ul>The given conditions show the pattern: $f(15) > 0$, $f(18) < 0$, $f(21) > 0$ — that is, positive, negative, positive."
+      "title": "Use the sign pattern",
+      "content": "The function $f(x)=(x-a)(x-b)$ opens upward. It is negative between its two roots and positive outside them."
     },
     {
-      "title": "Locate the roots from sign changes",
-      "content": "Since $f$ changes from positive (at $x=15$) to negative (at $x=18$), there must be a root between 15 and 18.<br/>Since $f$ changes from negative (at $x=18$) to positive (at $x=21$), there must be a root between 18 and 21.<br/>Therefore, the two roots lie in the intervals $(15, 18)$ and $(18, 21)$ respectively."
+      "title": "Locate the roots",
+      "content": "The values go positive at $15$, negative at $18$, and positive at $21$. Therefore, one root is between $15$ and $18$, and the other is between $18$ and $21$."
     },
     {
-      "title": "Determine integer values for the roots",
-      "content": "Since $a$ and $b$ are integers:<ul><li>The root in $(15, 18)$ must be one of {16, 17}</li><li>The root in $(18, 21)$ must be one of {19, 20}</li></ul>This gives four possible pairs: $(16, 19)$, $(16, 20)$, $(17, 19)$, and $(17, 20)$."
+      "title": "Use integer roots",
+      "content": "Because $a$ and $b$ are integers, the possible roots are $16$ or $17$ for the first interval and $19$ or $20$ for the second interval. The possible sums are $$16+19=35,\\quad 16+20=36,\\quad 17+19=36,\\quad 17+20=37$$"
     },
     {
-      "title": "Calculate sums and match to choices",
-      "content": "Computing $a + b$ for each pair:<ul><li>$16 + 19 = 35$</li><li>$16 + 20 = 36$</li><li>$17 + 19 = 36$</li><li>$17 + 20 = 37$</li></ul>Among the answer choices (18, 20, 33, 35), only 35 appears. That matches choice D — <strong>D</strong> is correct."
+      "title": "Confirm the choice",
+      "content": "Only $35$ appears among the choices, so <strong>D</strong> is correct."
     }
   ]
 }

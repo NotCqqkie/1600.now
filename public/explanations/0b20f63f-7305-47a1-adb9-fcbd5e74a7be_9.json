@@ -8,17 +8,8 @@
       "content": "The $y$-intercept occurs where $x=0$. The table includes that row, and the corresponding $y$-value is $15$."
     },
     {
-      "title": "Optional table regression",
-      "content": "Entering the table in Desmos and running $y_1\\sim m x_1+b$ confirms that the intercept $b$ is $15$.",
-      "desmosExpressions": [
-        "x_1=[0,1,2]",
-        "y_1=[15,22,29]",
-        "y_1~m x_1+b"
-      ]
-    },
-    {
       "title": "Confirm the answer",
-      "content": "The $y$-coordinate of the $y$-intercept is $15$."
+      "content": "The $y$-coordinate of the $y$-intercept is $15$.<br/><br/>This is the defining feature of a y-intercept: it is the point where the graph crosses the y-axis, so the x-coordinate must be 0."
     }
   ]
 }

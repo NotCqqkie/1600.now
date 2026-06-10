@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Simplify absolute values when a is negative",
-      "content": "Since $a < 0$, both $15a$ and $8a$ are negative. Therefore $|15a| = -15a$ and $|8a| = -8a$. Substituting into the function:<br/>$$f(15a) = \\frac{-15a}{a} - 14 = -15 - 14 = -29$$<br/>$$f(8a) = \\frac{-8a}{a} - 14 = -8 - 14 = -22$$"
+      "content": "Since $a \\lt 0$, both $15a$ and $8a$ are negative. Therefore $|15a| = -15a$ and $|8a| = -8a$. Substituting into the function:<br/>$$f(15a) = \\frac{-15a}{a} - 14 = -15 - 14 = -29$$<br/>$$f(8a) = \\frac{-8a}{a} - 14 = -8 - 14 = -22$$"
     },
     {
       "title": "Calculate the product",

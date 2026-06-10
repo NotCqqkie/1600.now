@@ -4,17 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "For no solution, line $k$ must be parallel to line $h$ but not identical. Use two readable points from $h$, $(0,-8)$ and $(1,-18)$, and fit $sx+40y=t$ directly in Desmos with $x_1=[0,1]$, $y_1=[-8,-18]$, and $s x_1+40y_1\\sim t$.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[-8,-18]",
-        "s x_1+40y_1~t"
-      ]
+      "title": "Use the no-solution condition",
+      "content": "For the system to have no solution, line $k$ must be parallel to line $h$ but not the same line."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "Desmos gives the identical-line value $t=-320$. That value makes line $k$ the same as $h$, giving infinitely many solutions rather than no solution. Any different listed $t$ would make a distinct parallel line. Therefore the value that is not possible is choice <strong>D</strong>."
+      "title": "Check the listed t-values",
+      "content": "From the graph, line $h$ crosses the $y$-axis at $(0,-8)$. For line $k$, setting $x=0$ in $sx+40y=t$ gives:<br/>$$40y=t$$<br/>If $t=-320$, then $y=-8$, so line $k$ would have the same $y$-intercept as line $h$. With the required parallel slope, that would make the two lines identical, giving infinitely many solutions instead of no solution.<br/>Therefore $t=-320$ is not possible, so <strong>D</strong> is correct."
     }
   ]
 }

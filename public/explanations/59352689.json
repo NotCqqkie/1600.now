@@ -9,12 +9,7 @@
     },
     {
       "title": "Match the y-coefficients",
-      "content": "The $x$-coefficients are both $5$, so the scale factor is $1$. Therefore the $y$-coefficients must match: $$-14=-4p$$ so $$p=\\frac{14}{4}=\\frac{7}{2}=3.5$$ Desmos can solve that coefficient match directly.",
-      "desmosExpressions": [
-        "x_1=[1,0]",
-        "y_1=[0,1]",
-        "5x_1-4p y_1~5x_1-14y_1"
-      ]
+      "content": "The $x$-coefficients are both $5$, so the scale factor is $1$. Match the $y$-coefficients: $$-14=-4p$$ Divide by $-4$: $$p=\\frac{14}{4}=\\frac{7}{2}=3.5$$"
     },
     {
       "title": "Confirm no solution",

@@ -9,12 +9,7 @@
     },
     {
       "title": "Read the point for 40 pounds",
-      "content": "Find $40$ on the horizontal weight axis. The dot at that weight is at height $5$, so the coordinate is $(40,5)$.",
-      "desmosExpressions": [
-        "x_1=[40,44,48,50,54,54,60,63,67]",
-        "y_1=[5,5,6,6,7,6,7,7,8]",
-        "(40,5)"
-      ]
+      "content": "Find $40$ on the horizontal weight axis. The dot at that weight is at height $5$, so the coordinate is $(40,5)$."
     },
     {
       "title": "Check the choices",

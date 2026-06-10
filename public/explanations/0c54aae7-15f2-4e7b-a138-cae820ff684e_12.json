@@ -13,10 +13,7 @@
     },
     {
       "title": "Calculate the positive difference and round",
-      "content": "Find the absolute difference between the predicted sea ice areas:<br/>$$|f(1992) - f(1991)| = |9.746 - 9.805| = |-0.059| = 0.059$$<br/>This difference is already expressed to the nearest thousandth as a positive value: <strong>0.059</strong> million square kilometers.",
-      "desmosExpressions": [
-        "f(x) = -0.00384 x^2 + 15.236 x - 15103"
-      ]
+      "content": "Find the absolute difference between the predicted sea ice areas:<br/>$$|f(1992) - f(1991)| = |9.746 - 9.805| = |-0.059| = 0.059$$<br/>This difference is already expressed to the nearest thousandth as a positive value: <strong>0.059</strong> million square kilometers."
     }
   ]
 }

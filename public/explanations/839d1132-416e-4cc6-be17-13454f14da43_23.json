@@ -1,1 +1,15 @@
-{"questionId": "839d1132-416e-4cc6-be17-13454f14da43_23", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The passage lists trophic levels in ascending order: base &rarr; second &rarr; third &rarr; blank &rarr; fourth (highest). The blank introduces the final, culminating level of a sequence that has been moving upward step by step. The transition must signal &quot;this is the last item in the list.&quot;"}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'In fact,'</strong>: emphasizes or restates a prior point &mdash; does not advance a sequential list. &#10007;</li><li><strong>Choice B &mdash; 'Besides,'</strong>: adds something incidental or supplementary &mdash; not the next ordered step. &#10007;</li><li><strong>Choice C &mdash; 'For example,'</strong>: introduces a specific illustration &mdash; not the culminating level of a sequence. &#10007;</li><li><strong>Choice D &mdash; 'Finally,'</strong>: marks the endpoint of an ordered series &mdash; exactly what is needed after covering the base, second, and third levels. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
+{
+  "questionId": "839d1132-416e-4cc6-be17-13454f14da43_23",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage lists trophic levels in ascending order: base $\\Rightarrow$ second $\\Rightarrow$ third $\\Rightarrow$ blank $\\Rightarrow$ fourth (highest). The blank introduces the final, culminating level of a sequence that has been moving upward step by step. The transition must signal &quot;this is the last item in the list.&quot;"
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'In fact,'</strong>: emphasizes or restates a prior point &mdash; does not advance a sequential list. &#10007;</li><li><strong>Choice B &mdash; 'Besides,'</strong>: adds something incidental or supplementary &mdash; not the next ordered step. &#10007;</li><li><strong>Choice C &mdash; 'For example,'</strong>: introduces a specific illustration &mdash; not the culminating level of a sequence. &#10007;</li><li><strong>Choice D &mdash; 'Finally,'</strong>: marks the endpoint of an ordered series &mdash; exactly what is needed after covering the base, second, and third levels. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

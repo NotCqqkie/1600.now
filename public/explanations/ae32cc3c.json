@@ -4,23 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fit the line of best fit",
-      "content": "Use two points on the line of best fit, approximately $(0,1)$ and $(1800,16)$. These are model points on the fitted line, so they are appropriate for predicting the value at another $x$-coordinate.",
-      "desmosExpressions": [
-        "x_1=[0,1800]",
-        "y_1=[1,16]",
-        "y_1~m x_1+b"
-      ]
+      "title": "Use the line of best fit",
+      "content": "The question asks for the predicted value at $x=1{,}200$, so read from the line of best fit rather than from an individual data point."
     },
     {
-      "title": "Evaluate at x = 1200",
-      "content": "The slope is $\\frac{16-1}{1800}=\\frac{1}{120}$, so $y=\\frac{x}{120}+1$. At $x=1200$, $y=10+1=11$.",
-      "desmosExpressions": [
-        "x_1=[0,1800]",
-        "y_1=[1,16]",
-        "y_1~m x_1+b",
-        "m 1200+b"
-      ]
+      "title": "Read the predicted y-value",
+      "content": "At $x=1{,}200$, the line is between $10$ and $12$ on the $y$-axis, closest to $11$."
     },
     {
       "title": "Confirm the choice",

@@ -4,23 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fit the plotted points in Desmos",
-      "content": "Read approximate coordinates from the scatterplot and enter them as a table. Then run a linear regression. The fitted model is about $y=1.78x+0.22$, which is closest to $y=1.80x+0.2$.",
-      "desmosExpressions": [
-        "x_1=[1.4,2.2,4.5,5.3,7.7]",
-        "y_1=[1.7,4.7,9.7,9.0,13.5]",
-        "y_1~m x_1+b",
-        "y=m x+b",
-        "y=1.8x+0.2"
-      ]
+      "title": "Use sign and steepness",
+      "content": "The data trend upward, so the slope must be positive. That eliminates choices A and B. The trend is fairly steep: as $x$ increases by about $5$, $y$ increases by about $9$, so the slope is close to $\\frac{9}{5}=1.8$, not $0.2$."
     },
     {
       "title": "Distinguish C from D using the slope magnitude",
-      "content": "The scatter plot shows a steep upward trend, not a nearly horizontal one. A slope of 0.2 would produce a nearly flat line across the full range of x; a slope of 1.80 produces a line that rises roughly 9 units over 5 units of x. The data clearly follows the steeper pattern, confirming D over C.",
-      "desmosExpressions": [
-        "y=1.8x+0.2",
-        "y=0.2x+1.8"
-      ]
+      "content": "Choice C, $y=0.2x+1.8$, would be almost flat. Choice D, $y=1.80x+0.2$, has the steep positive slope shown by the scatterplot."
     },
     {
       "title": "Spot-check with a representative point",

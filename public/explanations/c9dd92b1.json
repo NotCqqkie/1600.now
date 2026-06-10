@@ -4,29 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Pick two well-separated points on the trend",
-      "content": "The scatterplot trends linearly upward. Two clear points on the trend are about $(23\\%, 1100)$ near the lower-left and $(71\\%, 1360)$ near the upper-right."
+      "title": "Read the trend around 60%",
+      "content": "The scatterplot has an increasing trend. At $60\\%$ concentration, the predicted density should be between the nearby trend values around $53\\%$ and $67\\%$."
     },
     {
-      "title": "Find a linear fit through the trend",
-      "content": "Slope: $$m = \\frac{1360 - 1100}{71 - 23} = \\frac{260}{48} \\approx 5.42.$$ Using $(23, 1100)$: $b = 1100 - 5.42(23) \\approx 975.4$. So the trend line is approximately $y \\approx 5.42x + 975$.",
-      "desmosExpressions": [
-        "(23, 1100)",
-        "(27, 1110)",
-        "(32, 1125)",
-        "(35, 1150)",
-        "(42, 1190)",
-        "(45, 1210)",
-        "(51, 1240)",
-        "(54, 1260)",
-        "(67, 1345)",
-        "(71, 1360)",
-        "y = 5.42x + 975"
-      ]
+      "title": "Estimate from nearby values",
+      "content": "The trend is about $1{,}255$ near $53\\%$ and about $1{,}340$ near $67\\%$. Since $60\\%$ is roughly halfway between those concentrations, the prediction should be near the middle of those densities, about $1{,}300$."
     },
     {
       "title": "Predict density at 60% and match a choice",
-      "content": "$$y \\approx 5.42(60) + 975 \\approx 325 + 975 = 1300\\text{ kg/m}^{3}.$$ Of the choices 1,200 / 1,250 / 1,300 / 1,350, the prediction is closest to 1,300. That matches choice C — <strong>C</strong> is correct."
+      "content": "Of the choices $1{,}200$, $1{,}250$, $1{,}300$, and $1{,}350$, the closest prediction is $1{,}300$. That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }

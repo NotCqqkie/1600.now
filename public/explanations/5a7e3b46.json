@@ -5,8 +5,7 @@
   "steps": [
     {
       "title": "Recognize the 3-4-5 Pythagorean triple",
-      "content": "Since $\\cos A = \\frac{3}{5}$ and $\\sin^2 A + \\cos^2 A = 1$, we have $\\sin A = \\frac{4}{5}$.<br/><br/>In right triangle ABC with ∠B = 90°, the trigonometric ratios $\\cos A = \\frac{AB}{AC} = \\frac{3}{5}$ and $\\sin A = \\frac{BC}{AC} = \\frac{4}{5}$ match the 3-4-5 Pythagorean triple.<br/><br/>Therefore, AB : BC : AC = 3 : 4 : 5.",
-      "formula": "$$3^2 + 4^2 = 5^2$$"
+      "content": "Since $\\cos A = \\frac{3}{5}$ and $\\sin^2 A + \\cos^2 A = 1$, we have $\\sin A = \\frac{4}{5}$.<br/><br/>In right triangle ABC with ∠B = 90°, the trigonometric ratios $\\cos A = \\frac{AB}{AC} = \\frac{3}{5}$ and $\\sin A = \\frac{BC}{AC} = \\frac{4}{5}$ match the 3-4-5 Pythagorean triple.<br/><br/>Therefore, AB: BC: AC = 3: 4: 5."
     },
     {
       "title": "Find the scale factor",

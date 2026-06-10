@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the given constraint x > 100",
-      "content": "From $$x + y = 180°$$ we get $$y = 180° - x.$$ Since x > 100°: $$y = 180° - x < 180° - 100° = 80°$$ So y &lt; 80° must always be true."
+      "content": "From $$x + y = 180°$$ we get $$y = 180° - x.$$ Since x > 100°: $$y = 180° - x \\lt 180° - 100° = 80°$$ So y &lt; 80° must always be true."
     },
     {
       "title": "Test all four choices",

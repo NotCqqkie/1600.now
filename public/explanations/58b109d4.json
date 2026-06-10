@@ -13,11 +13,7 @@
     },
     {
       "title": "Factor the perfect square",
-      "content": "$$x^2+20x+100=(x+10)^2,$$ so $$(x+10)^2=0.$$ Therefore, $x=-10$.",
-      "desmosExpressions": [
-        "y=-x^2",
-        "y=20x+100"
-      ]
+      "content": "$$x^2+20x+100=(x+10)^2,$$ so $$(x+10)^2=0.$$ Therefore, $x=-10$."
     },
     {
       "title": "Confirm the answer",

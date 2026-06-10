@@ -9,12 +9,7 @@
     },
     {
       "title": "Identify the matching system",
-      "content": "We need both $x > 0$ and $y > 0$ to hold for the point. Looking at the choices, only one system has this exact pair of inequalities. That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "x>0",
-        "y>0",
-        "(8,2)"
-      ]
+      "content": "We need both $x > 0$ and $y > 0$ to hold for the point. Looking at the choices, only one system has this exact pair of inequalities. That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

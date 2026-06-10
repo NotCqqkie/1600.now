@@ -12,15 +12,8 @@
       "content": "The shaded region is above the boundary line. A point in the shaded region, such as $(2,0)$, satisfies:<br/>$$0\\gt1-4(2)=-7$$<br/>So the inequality is $y\\gt1-4x$."
     },
     {
-      "title": "Graph-check the answer",
-      "content": "In Desmos, graph the candidate inequality $y>1-4x$. It has the same negative-slope boundary and shades above the line.",
-      "desmosExpressions": [
-        "y>1-4x"
-      ]
-    },
-    {
       "title": "Confirm the choice",
-      "content": "The inequality is $y>1-4x$, which is choice D. So <strong>D</strong> is correct."
+      "content": "The boundary is $y=1-4x$, and the shaded side is the greater-than side. The inequality is $y>1-4x$, which is choice <strong>D</strong>."
     }
   ]
 }

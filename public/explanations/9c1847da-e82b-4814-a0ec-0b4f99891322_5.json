@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the upper bound",
-      "content": "The mass must also be less than 620 grams, giving $$m < 620$$. Combining both inequalities yields $$0 < m < 620$$.<br/>That matches choice D — <strong>D</strong> is correct."
+      "content": "The mass must also be less than 620 grams, giving $$m \\lt 620$$. Combining both inequalities yields $$0 \\lt m \\lt 620$$.<br/>That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

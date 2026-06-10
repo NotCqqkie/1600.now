@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Factor the quadratic",
-      "content": "$$7x^2-20x-32=(7x+8)(x-4).$$"
+      "content": "Look for two factors whose product is $7x^2-20x-32$. The pair $7x+8$ and $x-4$ works because the middle terms are $-28x+8x=-20x$:<br/>$$7x^2-20x-32=(7x+8)(x-4).$$"
     },
     {
       "title": "Use the zero product property",
@@ -13,10 +13,7 @@
     },
     {
       "title": "Choose the positive solution",
-      "content": "The positive solution is <strong>4</strong>. The other root, $-\\frac{8}{7}$, is negative, so it does not answer the question's positive-solution requirement. The graph check shows the positive $x$-intercept at $4$.",
-      "desmosExpressions": [
-        "y=7x^2-20x-32"
-      ]
+      "content": "The positive solution is <strong>4</strong>. The other root, $-\\frac{8}{7}$, is negative, so it does not answer the question's positive-solution requirement."
     }
   ]
 }

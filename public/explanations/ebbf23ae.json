@@ -9,12 +9,7 @@
     },
     {
       "title": "Find the radius",
-      "content": "The radius is half the diameter: $$r = \\frac{10}{2} = 5$$",
-      "desmosExpressions": [
-        "(2,4)",
-        "(2,14)",
-        "(x-2)^2 + (y-9)^2 = 25"
-      ]
+      "content": "The radius is half the diameter: $$r = \\frac{10}{2} = 5$$"
     }
   ]
 }

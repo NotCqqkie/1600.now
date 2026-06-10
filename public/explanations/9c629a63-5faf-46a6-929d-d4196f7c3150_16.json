@@ -13,10 +13,7 @@
     },
     {
       "title": "Match the answer",
-      "content": "The sum of the two solutions is $70$. That matches the answer $70$ — <strong>70</strong> is correct.",
-      "desmosExpressions": [
-        "y = (x-35)^{2} - 1"
-      ]
+      "content": "The sum of the two solutions is $70$. That matches the answer $70$ — <strong>70</strong> is correct."
     }
   ]
 }

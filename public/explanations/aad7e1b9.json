@@ -9,10 +9,7 @@
     },
     {
       "title": "Identify the y-intercept point and select the answer",
-      "content": "The y-intercept is the point with coordinates $(0, -2)$. That matches choice B — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "y=\\frac{1}{10}x-2"
-      ]
+      "content": "The y-intercept is the point with coordinates $(0, -2)$. That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

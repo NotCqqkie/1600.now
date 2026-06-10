@@ -9,11 +9,7 @@
     },
     {
       "title": "Combine and compute",
-      "content": "Divide: $y=\\dfrac{384}{48}=8$.<br/><br/>The answer is <strong>8</strong>.",
-      "desmosExpressions": [
-        "x + 4y = 41",
-        "7x - 20y = -97"
-      ]
+      "content": "Divide: $y=\\dfrac{384}{48}=8$.<br/><br/>The answer is <strong>8</strong>."
     },
     {
       "title": "Confirm the answer",

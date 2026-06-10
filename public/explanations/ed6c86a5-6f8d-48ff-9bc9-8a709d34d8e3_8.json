@@ -4,18 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fit the vertex model in Desmos",
-      "content": "The maximum height gives the vertex $(3,268)$, so the model has the form $f(t)=a(t-3)^2+268$. Use the initial height point $(0,124)$ and the vertex point $(3,268)$ in Desmos, then run $y_1\\sim a(x_1-3)^2+268$.",
-      "desmosExpressions": [
-        "x_1=[0,3]",
-        "y_1=[124,268]",
-        "y_1~a(x_1-3)^2+268",
-        "y=a(x-3)^2+268"
-      ]
+      "title": "Use the data directly",
+      "content": "The maximum height gives the vertex $(3,268)$, so the model has the form $f(t)=a(t-3)^2+268$. Use the initial height point $(0,124)$ to find $a$."
     },
     {
       "title": "Read the equation",
-      "content": "Desmos returns $a=-16$, so the equation is $f(t)=-16(t-3)^2+268$. This also matches the standard projectile coefficient for height measured in feet."
+      "content": "Substitute $(0,124)$: $$124=a(0-3)^2+268.$$ Then $$124=9a+268,$$ so $$9a=-144$$ and $$a=-16.$$ The equation is $f(t)=-16(t-3)^2+268$."
     },
     {
       "title": "Check the initial height",

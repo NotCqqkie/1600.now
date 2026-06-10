@@ -5,17 +5,11 @@
   "steps": [
     {
       "title": "Find the median position for data set A",
-      "content": "Data set A contains 41 values. The median is at position (41 + 1) ÷ 2 = 21. Count the cumulative frequencies: value 0 takes position 1; value 1 takes positions 2–8 (cumulative: 8); value 2 takes positions 9–16 (cumulative: 16); value 3 takes positions 17–25 (cumulative: 25).<br/><br/>Position 21 falls in the range 17–25, so median A = 3."
+      "content": "Data set A contains 41 values, so the median is at position $(41+1)\\div2=21$. Track the running positions:<ul><li><strong>Value 0:</strong> position 1; cumulative total 1</li><li><strong>Value 1:</strong> positions 2-8; cumulative total 8</li><li><strong>Value 2:</strong> positions 9-16; cumulative total 16</li><li><strong>Value 3:</strong> positions 17-25; cumulative total 25</li></ul>Position 21 is in positions 17-25, so median A = 3."
     },
     {
       "title": "Compare with the median of data set B",
-      "content": "Data set B removes the single 13, leaving 40 values. The median is the average of positions 20 and 21. Both positions still fall in the value-3 group, so median B is $(3+3)\\div2=3$. Desmos can verify this by expanding the frequency table into lists for A and B. Since both medians equal 3, choice C is correct.",
-      "desmosExpressions": [
-        "A=[0,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3,3,4,4,4,4,4,4,4,4,5,5,5,5,5,5,5,13]",
-        "B=[0,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3,3,4,4,4,4,4,4,4,4,5,5,5,5,5,5,5]",
-        "\\operatorname{median}\\left(A\\right)",
-        "\\operatorname{median}\\left(B\\right)"
-      ]
+      "content": "Data set B removes the single 13, leaving 40 values. The median is the average of positions 20 and 21. Both positions still fall in the value-3 group, so median B is $(3+3)\\div2=3$. Since both medians equal 3, choice C is correct."
     }
   ]
 }

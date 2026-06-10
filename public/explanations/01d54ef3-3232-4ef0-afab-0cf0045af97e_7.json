@@ -1,1 +1,15 @@
-{"questionId":"01d54ef3-3232-4ef0-afab-0cf0045af97e_7","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"Text 1 establishes that Gondwanan species originated ~80 million years ago when the island split. Text 2 gives crown ages for Grande Terre&apos;s current clades: stick insects at 41.1 Ma, nearly everything else more recent. The question asks what logically follows from combining these two texts."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A</strong>: misapplies the Goodeniaceae date to Gondwanan origins &mdash; unsupported by either text. &#10007;</li><li><strong>Choice B</strong>: reverses the logical relationship between clade age and species origin. &#10007;</li><li><strong>Choice C &mdash; Gondwanan species cannot be members of Grande Terre&apos;s current clades</strong>: a species from 80 Ma cannot belong to a clade whose crown age is only 41.1 Ma or younger &mdash; the clade didn&apos;t exist yet. &#10003;</li><li><strong>Choice D</strong>: makes a specific unsupported claim not derivable from the crown-age data. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
+{
+  "questionId": "01d54ef3-3232-4ef0-afab-0cf0045af97e_7",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "Text 1 establishes that Gondwanan species originated ~80 million years ago when the island split. Text 2 gives crown ages for Grande Terre&apos;s current clades: stick insects at 41.1 Ma, nearly everything else more recent. The question asks what logically follows from combining these two texts."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A</strong>: misapplies the Goodeniaceae date to Gondwanan origins &mdash; unsupported by either text. &#10007;</li><li><strong>Choice B</strong>: reverses the logical relationship between clade age and species origin. &#10007;</li><li><strong>Choice C &mdash; Gondwanan species cannot be members of Grande Terre&apos;s current clades</strong>: a species from 80 Ma cannot belong to a clade whose crown age is only 41.1 Ma or younger &mdash; the clade didn&apos;t exist yet. &#10003;</li><li><strong>Choice D</strong>: makes a specific unsupported claim not derivable from the crown-age data. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

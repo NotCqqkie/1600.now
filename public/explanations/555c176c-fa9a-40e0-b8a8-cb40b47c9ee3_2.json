@@ -4,26 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Enter two days of data",
-      "content": "At birth, $x=0$ and the calf weighs $226$ pounds. After $1$ day, it has gained $3$ pounds, so the weight is $229$ pounds. Put $(0,226)$ and $(1,229)$ in Desmos.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[226,229]"
-      ]
+      "title": "Use two days of data",
+      "content": "At birth, $x=0$ and the calf weighs $226$ pounds. After $1$ day, it has gained $3$ pounds, so the weight is $229$ pounds. The two points are $(0,226)$ and $(1,229)$."
     },
     {
-      "title": "Run linear regression",
-      "content": "Use $y_1 \\sim mx_1+b$. Desmos returns $m=3$ and $b=226$, so the model is $y=3x+226$, equivalent to $y=226+3x$.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[226,229]",
-        "y_1~m x_1+b",
-        "y=3x+226"
-      ]
+      "title": "Find the line from the data",
+      "content": "The starting weight is the $y$-intercept, $226$. The calf gains $3$ pounds each day, so the slope is $3$. The model is $$y=226+3x$$"
     },
     {
       "title": "Eliminate the other choices",
-      "content": "Choice A matches the regression. Choice B has the wrong sign because the calf gains weight. Choice C swaps the starting value and daily gain. Choice D starts at $3$ and decreases by $226$ per day. Choice <strong>A</strong> is correct."
+      "content": "Choice A matches the relationship. Choice B has the wrong sign because the calf gains weight. Choice C swaps the starting value and daily gain. Choice D starts at $3$ and decreases by $226$ per day. Choice <strong>A</strong> is correct."
     }
   ]
 }

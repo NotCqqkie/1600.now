@@ -13,10 +13,7 @@
     },
     {
       "title": "State the minimum value",
-      "content": "The minimum value is $p(0)=-57$. That matches choice B — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "p(x)=x^2-57"
-      ]
+      "content": "The minimum value is $p(0)=-57$. That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

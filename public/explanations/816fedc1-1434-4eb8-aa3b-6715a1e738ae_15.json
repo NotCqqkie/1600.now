@@ -9,10 +9,7 @@
     },
     {
       "title": "Compute the target value",
-      "content": "Multiply by $4$: $(x-33)^{2} = 256$. That matches choice <strong>D</strong> — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y = \\left(\\frac{1}{2}x - \\frac{33}{2}\\right)^{2} - 64"
-      ]
+      "content": "Multiply by $4$: $(x-33)^{2} = 256$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."
     },
     {
       "title": "Confirm the answer",

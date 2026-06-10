@@ -4,21 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the given form as the regression form",
-      "content": "The problem says $f(x)=ax+b$, so enter two table points and regress with the same letters: $y_1 \\sim a x_1+b$.",
-      "desmosExpressions": [
-        "x_1=[1,2]",
-        "y_1=[-64,0]",
-        "y_1~a x_1+b"
-      ]
+      "title": "Use the two given values",
+      "content": "The function has the form $f(x)=ax+b$ and passes through $(1,-64)$ and $(2,0)$. The slope is $$a=\\frac{0-(-64)}{2-1}=64.$$"
     },
     {
-      "title": "Read a and b",
-      "content": "Desmos gives $a=64$ and $b=-128$, so $f(x)=64x-128$. This checks because $f(1)=-64$ and $f(2)=0$."
-    },
-    {
-      "title": "Compute a - b",
-      "content": "$$a-b=64-(-128)=192$$ Choice <strong>D</strong> is correct."
+      "title": "Solve for b and answer",
+      "content": "Substitute $(2,0)$ into $f(x)=64x+b$: $$0=64(2)+b,$$ so $b=-128$. Therefore $$a-b=64-(-128)=192.$$ Choice <strong>D</strong> is correct. This also checks the two original values: $64(1)-128=-64$ and $64(2)-128=0$."
     }
   ]
 }

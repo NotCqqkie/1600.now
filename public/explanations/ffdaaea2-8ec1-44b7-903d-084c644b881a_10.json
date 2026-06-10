@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Graph the equation directly",
-      "content": "For an absolute-value equation with answer choices, graph both sides in Desmos:<br/>$$y=-4|5x+6|+4$$<br/>$$y=-20$$<br/>The intersections give all solutions.",
-      "desmosExpressions": [
-        "y=-4|5x+6|+4",
-        "y=-20"
-      ]
+      "title": "Isolate the absolute value",
+      "content": "Start with $$-4|5x+6|+4=-20.$$ Subtract $4$ from both sides: $$-4|5x+6|=-24.$$ Divide by $-4$: $$|5x+6|=6.$$"
     },
     {
-      "title": "Read the intersections",
-      "content": "The graph shows two intersections: $x=0$ and $x=-\\frac{12}{5}$. That already matches choice C."
-    },
-    {
-      "title": "Confirm by isolating the absolute value",
-      "content": "Subtract $4$ and divide by $-4$:<br/>$$|5x+6|=6$$<br/>So $5x+6=6$ or $5x+6=-6$, giving $x=0$ or $x=-\\frac{12}{5}$. Choice <strong>C</strong> is correct."
+      "title": "Solve the two cases",
+      "content": "So $5x+6=6$ or $5x+6=-6$. The first gives $5x=0$, so $x=0$. The second gives $5x=-12$, so $x=-\\frac{12}{5}$. Both values make $|5x+6|=6$, so the solution set matches choice <strong>C</strong>."
     }
   ]
 }

@@ -6,6 +6,5 @@
     "Since the sample came from fourth-graders at that school, results apply to all fourth-graders at that school &mdash; not to other grade levels or other schools."
   ],
   "eliminationHtml": "<ul><li><strong>Choice A &mdash; 'The 40 students who were surveyed'</strong>: This is just the sample itself, not a broader population. &#10007;</li><li><strong>Choice B &mdash; 'All fourth-grade students at the school'</strong>: This is exactly the population the random sample was drawn from. &#10003;</li><li><strong>Choice C &mdash; 'All students at the school'</strong>: Includes grade levels not represented in the sample, so results cannot be extended there. &#10007;</li><li><strong>Choice D &mdash; 'All fourth-grade students in the county in which the school is located'</strong>: Students from other schools were never sampled, so the results cannot generalize to them. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
-  "correctAnswer": "B",
-  "desmosExpressions": []
+  "correctAnswer": "B"
 }

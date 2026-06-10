@@ -8,17 +8,12 @@
       "content": "Expand $x(kx - 56) = -16$: $kx^2 - 56x + 16 = 0$, so $a = k$, $b = -56$, $c = 16$."
     },
     {
-      "title": "Discriminant shortcut: no real solutions means $b^2 - 4ac &lt; 0$",
-      "content": "$$(-56)^2-4(k)(16)<0$$<br/>$$3136-64k<0$$<br/>$$k>49$$ Desmos can find the boundary value by setting the discriminant equal to $0$."
+      "title": "Use the no-real-solutions condition",
+      "content": "A quadratic has no real solutions when the expression under the square root in the quadratic formula is negative. For $kx^2-56x+16=0$, that condition is $$(-56)^2-4(k)(16)\\lt0.$$ Simplify: $$3136-64k\\lt0$$ so $$k>49.$$"
     },
     {
       "title": "Pick the least integer",
-      "content": "$k$ must be an integer greater than $49$, so the least value is $k=50$. That matches choice 50, so <strong>50</strong> is correct.",
-      "desmosExpressions": [
-        "y_1=[0]",
-        "y_1~3136-64k",
-        "y = 50x^2 - 56x + 16"
-      ]
+      "content": "$k$ must be an integer greater than $49$, so the least value is $k=50$. That matches choice 50, so <strong>50</strong> is correct."
     }
   ]
 }

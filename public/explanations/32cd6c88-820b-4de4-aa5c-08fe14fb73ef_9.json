@@ -13,11 +13,7 @@
     },
     {
       "title": "Answer",
-      "content": "<strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y = 7|x|",
-        "(-2, 14)"
-      ]
+      "content": "<strong>D</strong> is correct."
     },
     {
       "title": "Confirm the answer",

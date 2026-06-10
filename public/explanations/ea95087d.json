@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the two table values",
-      "content": "The table shows $365$ employees for warehouse stores and $130$ employees for supermarkets."
+      "title": "Read the table values",
+      "content": "The table gives $365$ employees for warehouse stores and $130$ employees for supermarkets."
     },
     {
-      "title": "Subtract because it asks how much greater",
-      "content": "The difference is $$365-130=235$$ So warehouse stores averaged $235$ more employees than supermarkets."
+      "title": "Find how much greater",
+      "content": "Because the question asks how much greater, subtract: $$365-130=235.$$"
     },
     {
-      "title": "Check the choices",
-      "content": "<ul><li>Choice A, $83$, compares department stores with supermarkets.</li><li>Choice B, $152$, compares warehouse stores with department stores.</li><li>Choice C, $235$, is $365-130$. Correct.</li><li>Choice D, $495$, is $365+130$, but the question asks for a difference.</li></ul>That matches choice C."
+      "title": "Confirm the choice",
+      "content": "Warehouse stores averaged $235$ more employees than supermarkets. This matches choice <strong>C</strong>."
     }
   ]
 }

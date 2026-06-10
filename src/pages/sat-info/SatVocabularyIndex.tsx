@@ -23,9 +23,9 @@ const faqs = [
 
 const SatVocabularyIndex = () => {
   const grouped = {
-    Easy: seoVocabEntries.filter((e) => e.difficulty === "Easy"),
-    Medium: seoVocabEntries.filter((e) => e.difficulty === "Medium"),
-    Hard: seoVocabEntries.filter((e) => e.difficulty === "Hard"),
+    Easy: seoVocabEntries.filter((entry) => entry.difficulty === "Easy"),
+    Medium: seoVocabEntries.filter((entry) => entry.difficulty === "Medium"),
+    Hard: seoVocabEntries.filter((entry) => entry.difficulty === "Hard"),
   };
 
   const title = `SAT Vocabulary List: ${seoVocabEntries.length}+ Digital SAT Words in Context`;
@@ -109,10 +109,10 @@ const SatVocabularyIndex = () => {
           Frequently Asked Questions
         </h2>
         <div className="mt-4 space-y-5">
-          {faqs.map((f) => (
-            <div key={f.question}>
-              <h3 className="text-base font-semibold">{f.question}</h3>
-              <p className="mt-1 text-muted-foreground">{f.answer}</p>
+          {faqs.map((faq) => (
+            <div key={faq.question}>
+              <h3 className="text-base font-semibold">{faq.question}</h3>
+              <p className="mt-1 text-muted-foreground">{faq.answer}</p>
             </div>
           ))}
         </div>

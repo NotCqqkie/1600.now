@@ -8,19 +8,16 @@
       "content": "Use time in hours as $x$ and bushels remaining as $y$. The bin starts with $24,000$ bushels, so one point is $(0,24000)$. After $5$ hours, $19,350$ bushels remain, giving $(5,19350)$."
     },
     {
-      "title": "Fit the line in Desmos",
-      "content": "Enter $x_1=[0,5]$ and $y_1=[24000,19350]$, then type $y_1\\sim m x_1+b$. Desmos gives $m=-930$ and $b=24000$, so the model is $$y=-930x+24000.$$",
+      "title": "Find the line from the data",
+      "content": "Use the table points directly. From $(0,24000)$ to $(5,19350)$, the slope is $m=\\frac{19350-24000}{5-0}=-930.$ Substituting a point into $y=mx+b$ gives $b=24000$. The Desmos rows graph the model and the target amount, $12,840$ bushels; their intersection gives the time.",
       "desmosExpressions": [
-        "x_1=[0,5]",
-        "y_1=[24000,19350]",
-        "y_1~m x_1+b",
         "y=-930x+24000",
         "y=12840"
       ]
     },
     {
       "title": "Find when $12,840$ remains",
-      "content": "Set the model equal to $12,840$: $$-930x+24000=12840.$$ Solving gives $x=12$. The total time is <strong>12</strong> hours, which matches choice <strong>D</strong>."
+      "content": "Set the model equal to $12,840$: $$-930x+24000=12840.$$ Then $11160=930x$, so $x=12$. The total time is <strong>12</strong> hours."
     }
   ]
 }

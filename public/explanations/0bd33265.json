@@ -5,32 +5,15 @@
   "steps": [
     {
       "title": "Substitute the Fahrenheit temperature",
-      "content": "The formula is $h=\\frac{9(v-273.15)}{5}+32$. Since $h=467.33$, write:<br/>$$467.33=\\frac{9(v-273.15)}{5}+32$$"
+      "content": "Use $h=467.33$ in the given equation:<br/>$$467.33=\\frac{9(v-273.15)}{5}+32$$"
     },
     {
-      "title": "Undo the +32",
-      "content": "Subtract $32$ from both sides:<br/>$$435.33=\\frac{9(v-273.15)}{5}$$"
-    },
-    {
-      "title": "Undo the fraction",
-      "content": "Multiply by $5$, then divide by $9$:<br/>$$2176.65=9(v-273.15)$$<br/>$$241.85=v-273.15$$"
+      "title": "Isolate the kelvin expression",
+      "content": "Subtract $32$:<br/>$$435.33=\\frac{9(v-273.15)}{5}$$<br/>Multiply by $5$ and divide by $9$:<br/>$$241.85=v-273.15$$"
     },
     {
       "title": "Solve for v",
-      "content": "Add $273.15$:<br/>$$v=241.85+273.15=515$$"
-    },
-    {
-      "title": "Check with Desmos",
-      "content": "Graph the conversion function and the horizontal line $y=467.33$. The intersection has $x=515$, so the Kelvin temperature is $515$.",
-      "desmosExpressions": [
-        "y=\\frac{9(x-273.15)}{5}+32",
-        "y=467.33",
-        "x=515"
-      ]
-    },
-    {
-      "title": "Answer",
-      "content": "The corresponding temperature is <strong>515</strong> kelvins."
+      "content": "Add $273.15$:<br/>$$v=241.85+273.15=515$$<br/>The corresponding temperature is <strong>515</strong> kelvins. Substituting $515$ back into the formula returns $467.33^\\circ$F, so the conversion is consistent."
     }
   ]
 }

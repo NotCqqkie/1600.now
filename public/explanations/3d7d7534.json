@@ -13,11 +13,7 @@
     },
     {
       "title": "Solve each factor for d",
-      "content": "From the first equation: $d = 30$<br/>From the second equation: $d = -30$<br/><br/>Both values satisfy the original equation. One solution is $d = 30$ — <strong>30</strong> is correct.",
-      "desmosExpressions": [
-        "y = (x - 30)(x + 30) - 7",
-        "y = -7"
-      ]
+      "content": "From the first equation: $d = 30$<br/>From the second equation: $d = -30$<br/><br/>Both values satisfy the original equation. One solution is $d = 30$ — <strong>30</strong> is correct."
     }
   ]
 }

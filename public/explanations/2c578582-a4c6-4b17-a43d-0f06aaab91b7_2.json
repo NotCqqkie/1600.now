@@ -5,12 +5,7 @@
   "steps": [
     {
       "title": "Fit the original line",
-      "content": "Read a few points from the drawn line of best fit for data set A. A quick Desmos table regression with points near $(13,45)$, $(30,30)$, and $(40,22)$ gives a line with intercept about $53.75$.",
-      "desmosExpressions": [
-        "x_1=[13,30,40]",
-        "y_1=[45,30,22]",
-        "y_1~m x_1+b"
-      ]
+      "content": "Read the $y$-intercept of the line of best fit for data set A from the graph. It is about $53.75$."
     },
     {
       "title": "Use the vertical-shift shortcut",
@@ -18,14 +13,7 @@
     },
     {
       "title": "Subtract from the intercept",
-      "content": "The original intercept is about $53.75$, so the new intercept is $53.75-11=42.75$. That matches choice <strong>C</strong>.",
-      "desmosExpressions": [
-        "x_1=[13,30,40]",
-        "y_1=[45,30,22]",
-        "y_1~m x_1+b",
-        "y=m x+b",
-        "y=m x+b-11"
-      ]
+      "content": "The original intercept is about $53.75$, so the new intercept is $53.75-11=42.75$. That matches choice <strong>C</strong>."
     }
   ]
 }

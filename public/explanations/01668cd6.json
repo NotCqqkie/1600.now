@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Recognize both functions are decreasing exponentials",
-      "content": "Both $f$ and $g$ have base $0.4$, which satisfies $0 < 0.4 < 1$.<br/><br/>When the base of an exponential function is between 0 and 1, the function decreases as $x$ increases.<br/><br/>Since we want the maximum value where $x \\geq 0$, the maximum occurs at $x = 0$.<br/><br/>We now need to check if the equation displays this maximum value as a constant or coefficient in its written form."
+      "content": "Both $f$ and $g$ have base $0.4$, which satisfies $0 \\lt 0.4 \\lt 1$.<br/><br/>When the base of an exponential function is between 0 and 1, the function decreases as $x$ increases.<br/><br/>Since we want the maximum value where $x \\geq 0$, the maximum occurs at $x = 0$.<br/><br/>We now need to check if the equation displays this maximum value as a constant or coefficient in its written form."
     },
     {
       "title": "Check statement I: evaluate $f(0)$",
@@ -17,10 +17,7 @@
     },
     {
       "title": "Identify the correct answer",
-      "content": "Only statement II displays the maximum value as a constant or coefficient in its equation. That matches choice B — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "f(x)=33((0.4))^(x+3)"
-      ]
+      "content": "Only statement II displays the maximum value as a constant or coefficient in its equation. That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

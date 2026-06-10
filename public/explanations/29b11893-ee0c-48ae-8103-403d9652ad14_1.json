@@ -9,12 +9,7 @@
     },
     {
       "title": "Use the two marked points",
-      "content": "The marked points are $(0,-1)$ and $(8,-6)$. Put those into a Desmos table and run $y_1\\sim m x_1+b$. Desmos gives $m=-\\frac{5}{8}$ and $b=-1$, so the equation is $f(x)=-\\frac{5}{8}x-1$.",
-      "desmosExpressions": [
-        "x_1=[0,8]",
-        "y_1=[-1,-6]",
-        "y_1~m x_1+b"
-      ]
+      "content": "The marked points are $(0,-1)$ and $(8,-6)$. The slope is $$\\frac{-6-(-1)}{8-0}=-\\frac{5}{8},$$ and the $y$-intercept is $-1$. Therefore the equation is $f(x)=-\\frac{5}{8}x-1$."
     },
     {
       "title": "Confirm with Desmos or the choices",

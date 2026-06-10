@@ -6,13 +6,13 @@
       "explanation": "List the known angles. Triangle $DEF$: $\\angle D = 40^\\circ$, $\\angle E = 95^\\circ$. Triangle $RST$: $\\angle R = 40^\\circ$, $\\angle S = 95^\\circ$. We already have two pairs of equal corresponding angles: $\\angle D = \\angle R$ and $\\angle E = \\angle S$."
     },
     {
-      "explanation": "The AA (Angle-Angle) Similarity Theorem states: if two angles of one triangle equal two angles of another triangle, the triangles are similar. Two pairs of equal angles are sufficient &mdash; no third angle is needed."
+      "explanation": "The AA (Angle-Angle) Similarity Theorem states: if two angles of one triangle equal two angles of another triangle, the triangles are similar. Two pairs of equal angles are sufficient - no third angle is needed."
     },
     {
       "explanation": "Confirm the third angles are implicitly equal anyway. Angle sum: $\\angle F = 180^\\circ - 40^\\circ - 95^\\circ = 45^\\circ$ and $\\angle T = 180^\\circ - 40^\\circ - 95^\\circ = 45^\\circ$. They are forced equal by the first two pairs."
     },
     {
-      "explanation": "Evaluate all choices:<ul><li><strong>A: The measure of angle $F$</strong> &mdash; We already have two equal angle pairs, so AA similarity is already established without knowing $\\angle F$. Incorrect.</li><li><strong>B: The measure of angle $T$</strong> &mdash; Same reasoning; $\\angle T$ is not needed. Incorrect.</li><li><strong>C: Both angle $F$ and angle $T$</strong> &mdash; Neither is needed; AA criterion is already satisfied. Incorrect.</li><li><strong>D: No additional information is needed</strong> &mdash; Two pairs of equal angles ($40^\\circ = 40^\\circ$ and $95^\\circ = 95^\\circ$) are already given, which satisfies AA similarity. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
+      "explanation": "Evaluate all choices:<ul><li><strong>A: The measure of angle $F$</strong> - We already have two equal angle pairs, so AA similarity is already established without knowing $\\angle F$. Incorrect.</li><li><strong>B: The measure of angle $T$</strong> - Same reasoning; $\\angle T$ is not needed. Incorrect.</li><li><strong>C: Both angle $F$ and angle $T$</strong> - Neither is needed; AA criterion is already satisfied. Incorrect.</li><li><strong>D: No additional information is needed</strong> - Two pairs of equal angles ($40^\\circ = 40^\\circ$ and $95^\\circ = 95^\\circ$) are already given, which satisfies AA similarity. That matches choice D - <strong>D</strong> is correct.</li></ul>"
     }
   ]
 }

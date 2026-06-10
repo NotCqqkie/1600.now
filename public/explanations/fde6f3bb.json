@@ -4,27 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use quadratic regression for the product",
-      "content": "The product of two linear expressions is quadratic. Evaluate $g(x)h(x)$ at three x-values and fit $ax^2+bx+c$.",
-      "desmosExpressions": [
-        "x_1=[0,1,2]",
-        "y_1=(\\frac{3}{5}x_1+\\frac{7}{6})(6x_1-5)"
-      ]
+      "title": "Multiply the first terms",
+      "content": "$$\\left(\\frac{3}{5}x\\right)(6x)=\\frac{18}{5}x^2$$"
     },
     {
-      "title": "Fit the quadratic",
-      "content": "Run the regression row:<br/>$$y_1\\sim ax_1^2+bx_1+c$$<br/>Desmos returns $a=\\frac{18}{5}$, $b=4$, and $c=-\\frac{35}{6}$.",
-      "desmosExpressions": [
-        "y_1\\sim a x_1^2+b x_1+c"
-      ]
-    },
-    {
-      "title": "Confirm by multiplying",
-      "content": "Distribute:<br/>$$\\left(\\frac{3}{5}x\\right)(6x)=\\frac{18x^2}{5}$$<br/>$$\\left(\\frac{3}{5}x\\right)(-5)=-3x,\\quad \\left(\\frac{7}{6}\\right)(6x)=7x$$<br/>The x-terms combine to $4x$, and the constant is $-\\frac{35}{6}$. So:<br/>$$g(x)h(x)=\\frac{18x^2}{5}+4x-\\frac{35}{6}$$"
+      "title": "Multiply the cross terms and constant",
+      "content": "$$\\left(\\frac{3}{5}x\\right)(-5)=-3x$$<br/>$$\\left(\\frac{7}{6}\\right)(6x)=7x$$<br/>The $x$-terms combine to $-3x+7x=4x$, and the constant is $$\\frac{7}{6}\\cdot(-5)=-\\frac{35}{6}.$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "That expression matches choice D, so <strong>D</strong> is correct."
+      "content": "So $$g(x)h(x)=\\frac{18}{5}x^2+4x-\\frac{35}{6}.$$ That matches choice D, so <strong>D</strong> is correct. The coefficient, middle term, and constant all match D, so no rearrangement of the expression is needed."
     }
   ]
 }

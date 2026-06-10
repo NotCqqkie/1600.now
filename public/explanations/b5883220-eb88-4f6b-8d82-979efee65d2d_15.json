@@ -13,10 +13,7 @@
     },
     {
       "title": "Match to the correct choice",
-      "content": "Evaluate each option:<ul><li><strong>A & C:</strong> Claim fixed dollar increases. This contradicts exponential growth, which produces percentage increases.</li><li><strong>D:</strong> Claims 0.5% increase every 3 years. But at $x = 3$ years, the exponent is $3(3) = 9$, giving factor $(1.005)^9 \\approx 1.045 \\approx 4.5\\%$ increase—not 0.5%.</li><li><strong>B:</strong> <em>At the end of every 4-month interval, the balance increases by about 0.5% of the balance at the beginning of the 4-month interval.</em></li></ul>This is exactly what we derived above. That matches choice B — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "f(x) = 2000 \\cdot 1.005^{3x}"
-      ]
+      "content": "Evaluate each option:<ul><li><strong>A & C:</strong> Claim fixed dollar increases. This contradicts exponential growth, which produces percentage increases.</li><li><strong>D:</strong> Claims 0.5% increase every 3 years. But at $x = 3$ years, the exponent is $3(3) = 9$, giving factor $(1.005)^9 \\approx 1.045 \\approx 4.5\\%$ increase—not 0.5%.</li><li><strong>B:</strong> <em>At the end of every 4-month interval, the balance increases by about 0.5% of the balance at the beginning of the 4-month interval.</em></li></ul>This is exactly what we derived above. That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

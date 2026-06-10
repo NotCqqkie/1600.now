@@ -9,12 +9,7 @@
     },
     {
       "title": "Write the equation in slope-intercept form",
-      "content": "Since the line passes through $(0, -5)$, the y-intercept is $b = -5$. With slope $m = 4$, the equation is:<br/>$$y = 4x - 5$$<br/>That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y=4x-5",
-        "(0,-5)",
-        "(1,-1)"
-      ]
+      "content": "Since the line passes through $(0, -5)$, the y-intercept is $b = -5$. With slope $m = 4$, the equation is:<br/>$$y = 4x - 5$$<br/>That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

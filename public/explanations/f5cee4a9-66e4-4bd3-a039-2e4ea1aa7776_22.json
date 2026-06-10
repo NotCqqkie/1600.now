@@ -8,24 +8,8 @@
       "content": "Check if the second equation is a multiple of the first. Dividing $15x + 24y = 27$ by 3 gives $5x + 8y = 9$, which is identical to the first equation. Since both equations represent the same line, any point on this line satisfies both equations, and there are infinitely many solutions."
     },
     {
-      "title": "Test each parametrization in Desmos",
-      "content": "Define $L(x,y)=5x+8y$. The correct choice must make $L(x,y)=9$ for every real $r$. Set $r=[0,1]$ and evaluate the four choices; the correct row returns $[9,9].$",
-      "desmosExpressions": [
-        "r=[0,1]",
-        "L(x,y)=5x+8y",
-        "L(r,-5r/8+9/8)",
-        "L(-5r/8+9/8,r)",
-        "L(-5r/8+9,5r/8+27)",
-        "L(r/3+9,-r/3+27)"
-      ]
-    },
-    {
       "title": "Parameterize the line with x = r",
-      "content": "For any real number $r$, if $x = r$, then $y = -\\frac{5r}{8} + \\frac{9}{8}$, giving the point $(r, -\\frac{5r}{8} + \\frac{9}{8})$.<br/><br/>Verify by substituting into the first equation: $5r + 8\\left(-\\frac{5r}{8} + \\frac{9}{8}\\right) = 5r - 5r + 9 = 9$ ✓<br/>That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y = \\frac{9 - 5x}{8}",
-        "y = \\frac{27 - 15x}{24}"
-      ]
+      "content": "For any real number $r$, if $x = r$, then $y = -\\frac{5r}{8} + \\frac{9}{8}$, giving the point $(r, -\\frac{5r}{8} + \\frac{9}{8})$.<br/><br/>Verify by substituting into the first equation: $5r + 8\\left(-\\frac{5r}{8} + \\frac{9}{8}\\right) = 5r - 5r + 9 = 9$. That matches choice A, so <strong>A</strong> is correct."
     }
   ]
 }

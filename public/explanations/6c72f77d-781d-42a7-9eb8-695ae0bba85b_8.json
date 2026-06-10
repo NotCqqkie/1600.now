@@ -9,10 +9,7 @@
     },
     {
       "title": "Apply directly",
-      "content": "$$\\text{Sum of solutions} = -\\frac{b}{a} = -\\frac{-5}{1} = 5.$$<br/>The answer is <strong>5</strong>.",
-      "desmosExpressions": [
-        "y = x^{2} - 5x - 24"
-      ]
+      "content": "$$\\text{Sum of solutions} = -\\frac{b}{a} = -\\frac{-5}{1} = 5.$$<br/>The answer is <strong>5</strong>."
     }
   ]
 }

@@ -4,24 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Test values instead of expanding powers",
-      "content": "Because the question asks for an equivalent expression and $x>0$, use a quick table check. Test $x=1$ and $x=2$ in the original expression.",
-      "desmosExpressions": [
-        "x_1=[1,2]",
-        "o_1=7x_1^6-14x_1^2"
-      ]
+      "title": "Factor the common term",
+      "content": "Both terms in $7x^6-14x^2$ share a factor of $7x^2$. Factor that out: $$7x^6-14x^2=7x^2(x^4-2).$$"
     },
     {
-      "title": "Compare each choice list",
-      "content": "Evaluate each answer choice on the same $x$-list. Only choice D gives the same list as the original for both values.",
-      "desmosExpressions": [
-        "x_1=[1,2]",
-        "o_1=7x_1^6-14x_1^2",
-        "a_1=7(x_1^3-2x_1^2)^2",
-        "b_1=x_1^2(7x_1-2)^4",
-        "c_1=7x_1^2(x_1-2)^4",
-        "d_1=7x_1^2(x_1^4-2)"
-      ]
+      "title": "Match the factored form",
+      "content": "The expression $7x^2(x^4-2)$ is exactly choice D. The other choices introduce extra powers or different factors, so they are not equivalent to the original expression."
     },
     {
       "title": "Confirm the answer",

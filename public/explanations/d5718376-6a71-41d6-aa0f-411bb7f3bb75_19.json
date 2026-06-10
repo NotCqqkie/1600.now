@@ -9,11 +9,7 @@
     },
     {
       "title": "Count the intersection points",
-      "content": "The lines have different slopes, so they meet at exactly one point. That matches choice <strong>B</strong> — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "y = x + 15",
-        "y = 5x"
-      ]
+      "content": "The lines have different slopes, so they meet at exactly one point. That matches choice <strong>B</strong> — <strong>B</strong> is correct."
     },
     {
       "title": "Confirm the answer",

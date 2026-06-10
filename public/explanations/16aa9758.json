@@ -8,22 +8,12 @@
       "content": "For $f(x) = -6x^2 + 60x - 126$, use $x = -b/(2a) = -60/(2 \\cdot -6) = -60/(-12) = 5$."
     },
     {
-      "title": "Use quadratic regression as a Desmos shortcut",
-      "content": "To make Desmos display the vertex form, enter three easy points from the quadratic and fit $y_1\\sim a(x_1-h)^2+k$. The fitted values are $a=-6$, $h=5$, and $k=24$, so the vertex is $(5,24)$. Because $a<0$, that vertex gives the maximum value.",
-      "desmosExpressions": [
-        "x_1=[0,5,10]",
-        "y_1=[-126,24,-126]",
-        "y_1~a(x_1-h)^2+k",
-        "y=a(x-h)^2+k"
-      ]
+      "title": "Rewrite in vertex form",
+      "content": "Complete the square inside the quadratic:<br/>$$f(x)=-6(x^2-10x)-126$$<br/>$$f(x)=-6(x^2-10x+25)-126+150$$<br/>$$f(x)=-6(x-5)^2+24$$"
     },
     {
       "title": "Read the maximum directly from vertex form",
-      "content": "Vertex form is $a(x-h)^2+k$, and the maximum value is the constant $k$ when the parabola opens downward. Here the equivalent form is $-6(x-5)^2+24$, so the maximum value is displayed as $24$. That matches choice <strong>C</strong>.",
-      "desmosExpressions": [
-        "y=-6x^2+60x-126",
-        "y=-6(x-5)^2+24"
-      ]
+      "content": "Vertex form is $a(x-h)^2+k$, and the maximum value is the constant $k$ when the parabola opens downward. Here the equivalent form is $-6(x-5)^2+24$, so the maximum value is displayed as $24$. That matches choice <strong>C</strong>, so <strong>C</strong> is correct."
     }
   ]
 }

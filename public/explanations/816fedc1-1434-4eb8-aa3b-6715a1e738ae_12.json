@@ -13,11 +13,7 @@
     },
     {
       "title": "Match the answer",
-      "content": "That matches choice <strong>C</strong> — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y = -\\frac{1}{7}x",
-        "y = \\frac{1}{5}x"
-      ]
+      "content": "That matches choice <strong>C</strong> — <strong>C</strong> is correct."
     },
     {
       "title": "Confirm the answer",

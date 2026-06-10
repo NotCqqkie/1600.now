@@ -9,10 +9,7 @@
     },
     {
       "title": "Read $k$ directly — that is the minimum value",
-      "content": "The minimum equals $k = 7$. No solving needed. That matches choice C — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "f(x) = (x-1)^2 + 7"
-      ]
+      "content": "The minimum equals $k = 7$. No solving needed. That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

@@ -4,31 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read two intercepts from the graph",
-      "content": "Do not expand every answer choice first. The graph gives two clean points: the $y$-intercept $(0,40)$ and the $x$-intercept $(60,0)$. A correct equation must pass through both."
+      "title": "Read two intercepts",
+      "content": "The graph passes through $(0,40)$ and $(60,0)$. A correct equation must be true for both points."
     },
     {
-      "title": "Fit those points in Desmos",
-      "content": "Enter the two intercepts as a table and run a linear regression. Desmos gives slope $m=-\\frac{2}{3}$ and intercept $b=40$, so the line is $$y=-\\frac{2}{3}x+40.$$",
-      "desmosExpressions": [
-        "x_1=[0,60]",
-        "y_1=[40,0]",
-        "y_1~m x_1+b"
-      ]
+      "title": "Test the matching equation",
+      "content": "Choice B is $8x+12y=480$. Check the intercepts:<br/>$$(0,40):\\quad 8(0)+12(40)=480$$<br/>$$(60,0):\\quad 8(60)+12(0)=480$$<br/>Both points work, so choice <strong>B</strong> matches the graph."
     },
     {
-      "title": "Convert to match the choices",
-      "content": "Rewrite $y=-\\frac{2}{3}x+40$ in standard form. Multiply by $3$: $3y=-2x+120$. Move $2x$ to the left: $2x+3y=120$. Multiplying by $4$ gives the equivalent equation $$8x+12y=480.$$",
-      "desmosExpressions": [
-        "y=-\\frac{2}{3}x+40",
-        "8x+12y=480",
-        "(0,40)",
-        "(60,0)"
-      ]
-    },
-    {
-      "title": "Confirm the answer choice",
-      "content": "Choice B is $8x+12y=480$, and it passes through both visible intercepts. Choice A and C have positive slope, so they cannot match the downward line. Choice D gives the wrong $y$-intercept. Choice <strong>B</strong> is correct."
+      "title": "Eliminate the slope mismatches",
+      "content": "Choices A and C have positive slope, but the graph slopes downward. Choice D has the wrong intercepts. Therefore <strong>B</strong> is correct."
     }
   ]
 }

@@ -473,4 +473,4 @@ export const satFaqPages: SatFaqPage[] = [
   },
 ];
 
-export const satFaqPageBySlug = new Map(satFaqPages.map((p) => [p.slug, p]));
+export const satFaqPageBySlug = new Map(satFaqPages.map((page) => [page.slug, page]));

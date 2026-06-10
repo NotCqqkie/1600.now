@@ -13,12 +13,7 @@
     },
     {
       "title": "Answer",
-      "content": "<strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "x^2 + 52x + y^2 = 0",
-        "(x+26)^2 + y^2 = 676",
-        "(-26, 0)"
-      ]
+      "content": "<strong>D</strong> is correct."
     }
   ]
 }

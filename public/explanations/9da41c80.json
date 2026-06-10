@@ -4,26 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Create the bounce table",
-      "content": "The initial height is 22 feet, so the exponential model has point $(0,22)$. After one bounce, the maximum height is 85% of 22, which is 18.7 feet, so use $(1,18.7)$. Fit $y_1\\sim a b^{x_1}$.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[22,18.7]",
-        "y_1~a b^{x_1}"
-      ]
+      "title": "Identify the exponential form",
+      "content": "The ball starts at $22$ feet, so the initial value is $22$. After each bounce, the height is $85\\%$ of the previous height, so the multiplier is $0.85$."
     },
     {
-      "title": "Read the decay factor",
-      "content": "The regression gives $a=22$ and $b=0.85$, so $$h(n)=22(0.85)^n.$$ The base $0.85$ means each bounce reaches 85% of the previous height."
+      "title": "Write the function",
+      "content": "After $n$ bounces, the initial height is multiplied by $0.85$ a total of $n$ times: $$h(n)=22(0.85)^n.$$"
     },
     {
-      "title": "Confirm the answer",
-      "content": "Choice B has starting value 22 and decay factor 0.85. Choice D uses 85 as the starting value, and choices A and C use $0.22$ as the multiplier. Choice <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "y=22(0.85)^x",
-        "(0,22)",
-        "(1,18.7)"
-      ]
+      "title": "Check the choices",
+      "content": "Choice A uses $0.22$ as the multiplier. Choice C uses the wrong initial height and wrong multiplier. Choice D uses the wrong initial height. Choice B has initial value $22$ and multiplier $0.85$, so <strong>B</strong> is correct."
     }
   ]
 }

@@ -9,8 +9,7 @@
     },
     {
       "title": "Calculate the probability",
-      "content": "$$\\frac{2}{14} = \\frac{1}{7}$$<br/>That matches choice A — <strong>A</strong> is correct.",
-      "formula": "$$P = \\frac{\\text{favorable outcomes}}{\\text{total outcomes}}$$"
+      "content": "$$\\frac{2}{14} = \\frac{1}{7}$$<br/>That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

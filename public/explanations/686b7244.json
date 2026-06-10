@@ -9,10 +9,7 @@
     },
     {
       "title": "Calculate the difference",
-      "content": "Subtract the on-site hours from the online hours: $$15 - 10 = 5$$ Each online training course takes <strong>5 more hours</strong> than each on-site training course.",
-      "desmosExpressions": [
-        "10x+15y=85"
-      ]
+      "content": "Subtract the on-site hours from the online hours: $$15 - 10 = 5$$ Each online training course takes <strong>5 more hours</strong> than each on-site training course."
     }
   ]
 }

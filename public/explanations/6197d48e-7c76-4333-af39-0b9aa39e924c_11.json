@@ -13,11 +13,7 @@
     },
     {
       "title": "Match the answer",
-      "content": "That matches choice <strong>B</strong> — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "y = -\\frac{1}{8}x",
-        "y = \\frac{1}{10}x"
-      ]
+      "content": "That matches choice <strong>B</strong> — <strong>B</strong> is correct."
     },
     {
       "title": "Confirm the answer",

@@ -5,12 +5,7 @@
   "steps": [
     {
       "title": "Use two points on the line",
-      "content": "The line of best fit slopes downward, so the slope must be negative. Two clear points on the line are approximately $(0,12)$ and $(8,6)$.",
-      "desmosExpressions": [
-        "x_1=[0,8]",
-        "y_1=[12,6]",
-        "y_1~m x_1+b"
-      ]
+      "content": "The line of best fit slopes downward, so the slope must be negative. Two clear points on the line are approximately $(0,12)$ and $(8,6)$."
     },
     {
       "title": "Compute the slope",

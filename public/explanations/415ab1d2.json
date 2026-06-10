@@ -4,22 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fit the shown line from two grid points",
-      "content": "The graph shown is $y=f(x)+19$. Use Desmos as a quick table check: the line passes through $(-1,7)$ and $(0,3)$. A linear regression on those two points gives slope $-4$ and intercept $3$, so the shown line is $y=-4x+3$.",
-      "desmosExpressions": [
-        "x_1=[-1,0]",
-        "y_1=[7,3]",
-        "y_1~m x_1+b",
-        "y=-4x+3"
-      ]
+      "title": "Find the equation of the shown line",
+      "content": "The graph shown is $y=f(x)+19$. Two clear points on the line are $(-1,7)$ and $(0,3)$, so the slope is $$\\frac{3-7}{0-(-1)}=-4.$$ Since the line crosses the $y$-axis at $3$, the shown line is $y=-4x+3$."
     },
     {
       "title": "Undo the vertical shift",
-      "content": "Because the shown graph is $y=f(x)+19$, subtract 19 from the fitted equation: $$f(x)+19=-4x+3$$ $$f(x)=-4x-16$$",
-      "desmosExpressions": [
-        "y=-4x+3",
-        "y=-4x-16"
-      ]
+      "content": "Because the shown graph is $y=f(x)+19$, subtract $19$ from the equation of the shown line: $$f(x)+19=-4x+3$$ $$f(x)=-4x-16$$"
     },
     {
       "title": "Match the signs",

@@ -9,11 +9,7 @@
     },
     {
       "title": "Substitute the point into the circle equation and solve",
-      "content": "Since $(12, c)$ lies on the circle:<br/>$$(12-6)^2+(c-2)^2=36$$<br/>$$36+(c-2)^2=36$$<br/>$$(c-2)^2=0$$<br/>$$c=2$$",
-      "desmosExpressions": [
-        "(x-6)^2 + (y-2)^2 = 36",
-        "(12, 2)"
-      ]
+      "content": "Since $(12, c)$ lies on the circle:<br/>$$(12-6)^2+(c-2)^2=36$$<br/>$$36+(c-2)^2=36$$<br/>$$(c-2)^2=0$$<br/>$$c=2$$"
     },
     {
       "title": "Confirm the answer",

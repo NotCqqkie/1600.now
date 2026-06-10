@@ -8,14 +8,8 @@
       "content": "The line of best fit spans $x=0$ to $x=10$ hours. Reading from the graph, two clear points on the line are approximately $(0,175)$ and $(10,575)$."
     },
     {
-      "title": "Use a mini-table regression to get the slope",
-      "content": "Enter those two points as lists in Desmos and regress $y_1\\sim mx_1+b$. Desmos returns $m=40$, so the line predicts an increase of about $40^\\circ\\text{F}$ per hour.",
-      "desmosExpressions": [
-        "x_1=[0,10]",
-        "y_1=[175,575]",
-        "y_1~m x_1+b",
-        "m"
-      ]
+      "title": "Compute the slope",
+      "content": "Using the two readable points, the slope is $$\\frac{575-175}{10-0}=\\frac{400}{10}=40.$$ The line predicts an increase of about $40^\\circ\\text{F}$ per hour."
     },
     {
       "title": "Match the slope and direction to the choices",

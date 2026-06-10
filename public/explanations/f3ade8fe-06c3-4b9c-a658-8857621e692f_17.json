@@ -5,21 +5,11 @@
   "steps": [
     {
       "title": "Read the graphed line",
-      "content": "The line shown is $y=f(x)-19$. Use two clear points from the graph in a Desmos table: $(-5,-3)$ and $(0,-8)$. A linear regression gives slope $-1$ and intercept $-8$, so the shown line is $y=-x-8$.",
-      "desmosExpressions": [
-        "x_1=[-5,0]",
-        "y_1=[-3,-8]",
-        "y_1~m x_1+b",
-        "y=-x-8"
-      ]
+      "content": "The line shown is $y=f(x)-19$. Two clear points on the graph are $(-5,-3)$ and $(0,-8)$. The slope is $$\\frac{-8-(-3)}{0-(-5)}=\\frac{-5}{5}=-1,$$ and the $y$-intercept is $-8$, so the shown line is $y=-x-8$."
     },
     {
       "title": "Solve for $f(x)$",
-      "content": "Add 19 to both sides: $$f(x)-19=-x-8$$ $$f(x)=-x-8+19=-x+11$$",
-      "desmosExpressions": [
-        "y=-x-8",
-        "y=-x+11"
-      ]
+      "content": "Add 19 to both sides: $$f(x)-19=-x-8$$ $$f(x)=-x-8+19=-x+11$$"
     },
     {
       "title": "Match to the form with positive $c,d$",

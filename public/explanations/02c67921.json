@@ -9,11 +9,7 @@
     },
     {
       "title": "Read the y-value from the graph",
-      "content": "On the graph, the exponential curve crosses the $y$-axis at the marked point $(0,3)$. Therefore the missing $y$-coordinate in $(0,y)$ is $$y=3.$$",
-      "desmosExpressions": [
-        "(0,3)",
-        "x=0"
-      ]
+      "content": "On the graph, the exponential curve crosses the $y$-axis at the marked point $(0,3)$. Therefore the missing $y$-coordinate in $(0,y)$ is $$y=3.$$"
     },
     {
       "title": "Confirm the answer",

@@ -9,11 +9,7 @@
     },
     {
       "title": "Split the absolute value",
-      "content": "Divide by $5$ to get $|4-x|=5$. That means $$4-x=5$$ or $$4-x=-5.$$ These give $x=-1$ and $x=9$.",
-      "desmosExpressions": [
-        "y=2|4-x|+3|4-x|",
-        "y=25"
-      ]
+      "content": "Divide by $5$ to get $|4-x|=5$. That means $$4-x=5$$ or $$4-x=-5.$$ These give $x=-1$ and $x=9$."
     },
     {
       "title": "Choose the requested solution",

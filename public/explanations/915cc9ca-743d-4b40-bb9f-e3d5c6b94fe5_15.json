@@ -9,11 +9,7 @@
     },
     {
       "title": "Conclude y-intercept value",
-      "content": "Since the y-intercept is the value of $$f(0)$$, and the constant term $$b$$ in the equation already gives this value, the y-coordinate of the y-intercept is $$14$$.<br/>The answer is <strong>14</strong>.",
-      "desmosExpressions": [
-        "y = 6x + 14",
-        "(0, 14)"
-      ]
+      "content": "Since the y-intercept is the value of $$f(0)$$, and the constant term $$b$$ in the equation already gives this value, the y-coordinate of the y-intercept is $$14$$.<br/>The answer is <strong>14</strong>."
     }
   ]
 }

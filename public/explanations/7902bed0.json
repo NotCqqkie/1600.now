@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Use vertex form with the maximum point",
-      "content": "The parabola reaches its maximum at (1.8, 51.84). For any parabola with vertex $(h_v, k_v)$, the vertex form is $h = a(t - h_v)^2 + k_v$. Here, the vertex is at $t = 1.8$ and $h = 51.84$, so:<br/>$$h = a(t - 1.8)^2 + 51.84$$<br/>The parabola opens downward (since the ball falls), meaning $a < 0$."
+      "content": "The parabola reaches its maximum at (1.8, 51.84). For any parabola with vertex $(h_v, k_v)$, the vertex form is $h = a(t - h_v)^2 + k_v$. Here, the vertex is at $t = 1.8$ and $h = 51.84$, so:<br/>$$h = a(t - 1.8)^2 + 51.84$$<br/>The parabola opens downward (since the ball falls), meaning $a \\lt 0$."
     },
     {
       "title": "Find the coefficient a using the ground impact",
@@ -13,10 +13,7 @@
     },
     {
       "title": "Write the final equation",
-      "content": "Substituting $a = -16$ into the vertex form gives:<br/>$$h = -16(t - 1.8)^2 + 51.84$$<br/>That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "h=-16((t-1.8))^(2)+51.84"
-      ]
+      "content": "Substituting $a = -16$ into the vertex form gives:<br/>$$h = -16(t - 1.8)^2 + 51.84$$<br/>That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

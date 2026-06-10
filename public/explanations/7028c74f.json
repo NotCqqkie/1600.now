@@ -9,11 +9,7 @@
     },
     {
       "title": "Vieta shortcut: sum $= -b/a$",
-      "content": "$$\\text{sum} = \\frac{-(-155)}{15} = \\frac{155}{15} = \\frac{31}{3} \\approx 10.33$$<br/>That matches choice 10.33 — <strong>10.33</strong> is correct.",
-      "desmosExpressions": [
-        "y = 5(x + 7)",
-        "y = 15(x - 17)(x + 7)"
-      ]
+      "content": "$$\\text{sum} = \\frac{-(-155)}{15} = \\frac{155}{15} = \\frac{31}{3} \\approx 10.33$$<br/>That matches choice 10.33 — <strong>10.33</strong> is correct."
     }
   ]
 }

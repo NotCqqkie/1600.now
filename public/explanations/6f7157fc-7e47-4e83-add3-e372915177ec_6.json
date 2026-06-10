@@ -9,11 +9,7 @@
     },
     {
       "title": "Write the translated equation",
-      "content": "Original equation: $y = 9x$<br/><br/>After translating down 8 units:<br/>$$y = 9x - 8$$<br/>This matches choice B — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "y = 9x",
-        "y = 9x - 8"
-      ]
+      "content": "Original equation: $y = 9x$<br/><br/>After translating down 8 units:<br/>$$y = 9x - 8$$<br/>This matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

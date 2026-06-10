@@ -13,11 +13,7 @@
     },
     {
       "title": "Recognize the exponential property and solve",
-      "content": "Any positive base raised to the power of 0 equals 1. Since $\\left(\\frac{53}{52}\\right)^{t-15} = 1$, the exponent must be 0:<br/>$$t - 15 = 0$$<br/>$$t = 15$$<br/>The cephalopod population was estimated at 247 in month <strong>15</strong>.",
-      "desmosExpressions": [
-        "C(t) = 240 \\cdot (53/52)^{t-15} + 7",
-        "y = 247"
-      ]
+      "content": "Any positive base raised to the power of 0 equals 1. Since $\\left(\\frac{53}{52}\\right)^{t-15} = 1$, the exponent must be 0:<br/>$$t - 15 = 0$$<br/>$$t = 15$$<br/>The cephalopod population was estimated at 247 in month <strong>15</strong>."
     }
   ]
 }

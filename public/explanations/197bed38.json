@@ -9,7 +9,7 @@
     },
     {
       "title": "Locate the vertex",
-      "content": "For a downward-opening parabola, height is increasing for $x < 2$ and decreasing for $x > 2$."
+      "content": "For a downward-opening parabola, height is increasing for $x \\lt 2$ and decreasing for $x > 2$."
     },
     {
       "title": "Find the interval where height is increasing throughout",

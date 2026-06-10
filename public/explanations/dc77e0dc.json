@@ -5,10 +5,7 @@
   "steps": [
     {
       "title": "Substitute t = 0 into the function",
-      "content": "At the surface of the sample, the depth is $t = 0$ millimeters.<br/><br/>Substitute into the function:\n\n$$f(0) = 500(0.5)^{0/12}$$\n\nSimplify the exponent:\n\n$$f(0) = 500(0.5)^{0}$$\n\nAny nonzero number to the power 0 equals 1:\n\n$$f(0) = 500 \\cdot 1 = 500$$\n\nThat matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "f(t)=500((0.5))^((t)/(12))"
-      ]
+      "content": "At the surface of the sample, the depth is $t = 0$ millimeters.<br/><br/>Substitute into the function: $$f(0) = 500(0.5)^{0/12}$$ Simplify the exponent: $$f(0) = 500(0.5)^{0}$$ Any nonzero number to the power 0 equals 1: $$f(0) = 500 \\cdot 1 = 500$$ That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

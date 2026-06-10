@@ -1,22 +1,23 @@
 {
-  "qid": "affb2315",
+  "questionId": "affb2315",
+  "correctAnswer": "A",
+  "section": "Math",
   "steps": [
     {
-      "step": "A random sample's proportion is the best estimate for the entire population's proportion. The sample found that 20% intend to enroll, so we apply 20% to the full club of 55 students.",
-      "result": "Proportion = 20% = 0.20"
+      "title": "Use the survey proportion",
+      "content": "The sample estimate is $20\\%$, or $0.20$, of the Spanish club students."
     },
     {
-      "step": "Calculate 20% of 55: $0.20 \\times 55 = 11$.",
-      "result": "11 students"
+      "title": "Apply it to all 55 students",
+      "content": "Estimate the total number by multiplying: $$0.20\\cdot55=11$$"
     },
     {
-      "step": "Verify reasonableness: 20% of 55 is slightly more than 20% of 50 = 10, so 11 is expected.",
-      "result": "Confirmed"
+      "title": "Confirm the choice",
+      "content": "Choice A is $11$, so <strong>A</strong> is correct."
     },
     {
-      "step": "<ul><li>Choice A: 11. This equals $0.20 \\times 55$, directly applying the sample proportion to the population. That matches choice A &mdash; <strong>A</strong> is correct.</li><li>Choice B: 20. This confuses the percentage value 20 with a count; 20 would only be right if there were 100 students total. Eliminated.</li><li>Choice C: 44. This would correspond to 80% intending to enroll ($44/55 \\approx 0.80$), the complement of 20%. Eliminated.</li><li>Choice D: 55. This would mean 100% intend to enroll, contradicting the 20% sample result. Eliminated.</li></ul>",
-      "result": "A"
+      "title": "Check the estimate size",
+      "content": "Since $20%$ is one-fifth, the estimate should be one-fifth of $55$. One-fifth of $55$ is $11$, so the total should be much less than $55$ but greater than $0$."
     }
-  ],
-  "correctAnswer": "A"
+  ]
 }

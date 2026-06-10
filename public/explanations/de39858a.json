@@ -4,27 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fit the exact function form",
-      "content": "The problem gives the model form $h(x)=a^x+b$ and two points, so use Desmos custom regression directly. Enter the points $(0,10)$ and $\\left(-2,\\frac{325}{36}\\right)$, then fit $y_1\\sim a^{x_1}+b$.",
-      "desmosExpressions": [
-        "x_1=[0,-2]",
-        "y_1=[10,325/36]",
-        "y_1~a^{x_1}+b"
-      ]
+      "title": "Use the point with x = 0",
+      "content": "The function is $h(x)=a^x+b$. Since $h(0)=10$, substitute $x=0$: $$a^0+b=10.$$ Because $a^0=1$, $b=9$."
     },
     {
       "title": "Read $a$ and $b$",
-      "content": "Desmos returns $a=6$ and $b=9$. That makes sense because $h(0)=a^0+b=1+b=10$, so $b=9$, and the second point forces $a=6$."
+      "content": "Use the second point, $\\left(-2,\\frac{325}{36}\\right)$:<br/>$$a^{-2}+9=\\frac{325}{36}$$<br/>$$a^{-2}=\\frac{325}{36}-\\frac{324}{36}=\\frac{1}{36}$$<br/>So $\\frac{1}{a^2}=\\frac{1}{36}$, which gives $a=6$."
     },
     {
       "title": "Compute the requested product",
-      "content": "The question asks for $ab$, not the full equation. Multiply the fitted constants: $$ab=6\\cdot9=54.$$ Choice <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "x_1=[0,-2]",
-        "y_1=[10,325/36]",
-        "y_1~a^{x_1}+b",
-        "a b"
-      ]
+      "content": "The question asks for $ab$, not the full equation. Multiply the constants: $$ab=6\\cdot9=54.$$ Choice <strong>C</strong> is correct."
     }
   ]
 }

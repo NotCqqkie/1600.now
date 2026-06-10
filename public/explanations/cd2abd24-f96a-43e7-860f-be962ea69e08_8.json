@@ -8,12 +8,11 @@
       "content": "The line passes through $(0,80)$. Its slope is $-3$, so when $x$ increases by $1$, $y$ decreases by $3$. That gives a second point, $(1,77)$."
     },
     {
-      "title": "Fit the points in Desmos",
-      "content": "Enter $x_1=[0,1]$ and $y_1=[80,77]$, then run $y_1 \\sim m x_1+b$. Desmos gives $m=-3$ and $b=80$, so the line is $y=-3x+80$.",
+      "title": "Use the points directly",
+      "content": "Use the table points directly. From $(0,80)$ to $(1,77)$, the slope is $m=\\frac{77-80}{1-0}=-3.$ Substituting a point into $y=mx+b$ gives $b=80$.",
       "desmosExpressions": [
         "x_1=[0,1]",
-        "y_1=[80,77]",
-        "y_1~m x_1+b"
+        "y_1=[80,77]"
       ]
     },
     {

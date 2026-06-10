@@ -9,20 +9,15 @@
     },
     {
       "title": "Build the perpendicular line",
-      "content": "A perpendicular line has slope $\\frac{1}{4}$, the negative reciprocal of $-4$. Since line $t$ passes through $(6,0)$, write $$y=\\frac{1}{4}(x-6).$$",
-      "desmosExpressions": [
-        "8x+2y=0",
-        "y=\\frac{1}{4}(x-6)",
-        "y=\\frac{5}{4}"
-      ]
+      "content": "A perpendicular line has slope $\\frac{1}{4}$, the negative reciprocal of $-4$. Since line $t$ passes through $(6,0)$, write $$y=\\frac{1}{4}(x-6).$$"
     },
     {
       "title": "Match the point with y = 5/4",
       "content": "The point $(k,\\frac{5}{4})$ lies on line $t$, so set $y=\\frac{5}{4}$: $$\\frac{5}{4}=\\frac{1}{4}(k-6).$$ Multiplying by $4$ gives $5=k-6$, so $k=11$."
     },
     {
-      "title": "Confirm on the graph",
-      "content": "In Desmos, the line $y=\\frac{1}{4}(x-6)$ meets $y=\\frac{5}{4}$ at $x=11$. Therefore the value of $k$ is <strong>11</strong>."
+      "title": "Confirm the value",
+      "content": "Substitute $k=11$ into the line equation: $$y=\\frac{1}{4}(11-6)=\\frac{5}{4}.$$ Therefore the value of $k$ is <strong>11</strong>."
     }
   ]
 }

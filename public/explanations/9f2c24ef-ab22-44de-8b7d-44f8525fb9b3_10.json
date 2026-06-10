@@ -9,11 +9,7 @@
     },
     {
       "title": "Identify 390 as the y-intercept and interpret it",
-      "content": "In a linear equation $y = mx + b$, the constant term $b$ is the y-intercept—the value of $y$ when $x = 0$. Here, 390 is the y-intercept.<br/><br/>The coefficient −142 represents the rate of change: the rover covers 142 meters per hour. So 142 is the rover's speed, not 390.<br/><br/>Since 390 is the remaining distance at the start of the experiment, it represents the rover's initial distance from its target. That matches choice C — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y = 390 - 142x",
-        "(0, 390)"
-      ]
+      "content": "In a linear equation $y = mx + b$, the constant term $b$ is the y-intercept—the value of $y$ when $x = 0$. Here, 390 is the y-intercept.<br/><br/>The coefficient −142 represents the rate of change: the rover covers 142 meters per hour. So 142 is the rover's speed, not 390.<br/><br/>Since 390 is the remaining distance at the start of the experiment, it represents the rover's initial distance from its target. That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

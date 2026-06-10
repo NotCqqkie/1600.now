@@ -4,22 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Turn the rate into a table",
-      "content": "The problem gives $(2,23)$. Since every increase of $1$ in $x$ increases $y$ by $9$, the next point is $(3,32)$. Enter those two rows in Desmos.",
-      "desmosExpressions": [
-        "x_1=[2,3]",
-        "y_1=[23,32]"
-      ]
+      "title": "Use the rate",
+      "content": "The problem gives the point $(2,23)$ and a rate of change of $9$. That means the slope is $9$."
     },
     {
-      "title": "Fit a line",
-      "content": "Type $y_1\\sim m x_1+b$. Desmos returns $m=9$ and $b=5$, so the model is $y=9x+5$.",
-      "desmosExpressions": [
-        "x_1=[2,3]",
-        "y_1=[23,32]",
-        "y_1~m x_1+b",
-        "y=9x+5"
-      ]
+      "title": "Find the intercept",
+      "content": "Use $y=9x+b$ and substitute $(2,23)$: $$23=9(2)+b$$ $$23=18+b$$ $$b=5$$ So the model is $y=9x+5$."
     },
     {
       "title": "Confirm the answer",

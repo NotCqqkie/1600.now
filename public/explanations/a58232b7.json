@@ -4,19 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify that both functions are increasing exponentials",
-      "content": "Both $g(x) = 18(1.16)(1.4)^{x+2}$ and $h(x) = 18(1.4)^{x+4}$ are exponential functions with base $1.4 > 1$. Since the base exceeds 1, both functions are <strong>increasing</strong> on their domain. With $x \\geq 0$, the minimum value occurs at $x = 0$ (the left endpoint)."
+      "title": "Use the domain",
+      "content": "Both functions have base $1.4>1$, so they increase as $x$ increases. Since $x\\ge0$, each function has its minimum at $x=0$."
     },
     {
-      "title": "Evaluate g(0) and check if it appears in the equation",
-      "content": "At $x = 0$:\n$$g(0) = 18(1.16)(1.4)^{0+2} = 18(1.16)(1.4)^2$$\nCompute: $(1.4)^2 = 1.96$ and $18 \\times 1.16 \\times 1.96 \\approx 40.92$.<br/><br/>This value does not appear as any constant or coefficient in the given form of $g(x)$ (which displays only 18, 1.16, 1.4, and the exponent 2).<br/><br/>Therefore, $g(x)$ does <strong>not</strong> display its minimum as a constant or coefficient."
+      "title": "Check function g",
+      "content": "For $g(x)=18(1.16)(1.4)^{x+2}$, the minimum is $$g(0)=18(1.16)(1.4)^2$$ This value is not displayed as a single constant or coefficient in the equation for $g$."
     },
     {
-      "title": "Evaluate h(0) and check if it appears in the equation",
-      "content": "At $x = 0$:\n$$h(0) = 18(1.4)^{0+4} = 18(1.4)^4$$\nCompute: $(1.4)^4 = (1.96)^2 \\approx 3.842$ and $18 \\times 3.842 \\approx 69.15$.<br/><br/>This value does not appear as any constant or coefficient in the given form of $h(x)$ (which displays only 18, 1.4, and the exponent 4).<br/><br/>Therefore, $h(x)$ does <strong>not</strong> display its minimum as a constant or coefficient either.<br/><br/>Since neither I nor II satisfies the requirement, the answer is choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "g(x)=18(1.16)((1.4))^(x+2)"
-      ]
+      "title": "Check function h",
+      "content": "For $h(x)=18(1.4)^{x+4}$, the minimum is $$h(0)=18(1.4)^4$$ This value is not displayed as a single constant or coefficient in the equation for $h$."
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "Neither equation displays the minimum value as a constant or coefficient, so <strong>D</strong> is correct."
     }
   ]
 }

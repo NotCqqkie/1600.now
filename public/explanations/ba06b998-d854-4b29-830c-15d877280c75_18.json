@@ -9,11 +9,11 @@
     },
     {
       "title": "Observe that all function values are below the x-axis",
-      "content": "The horizontal asymptote is at $y = -5$, which lies below the $x$-axis. The graph shows that the entire curve is below this asymptote, meaning all function values satisfy $f(x) < -5 < 0$."
+      "content": "The horizontal asymptote is at $y = -5$, which lies below the $x$-axis. The graph shows that the entire curve is below this asymptote, meaning all function values satisfy $f(x) \\lt -5 \\lt 0$."
     },
     {
       "title": "Count the number of zeros",
-      "content": "Since $f(x) < 0$ for all $x$, the curve never crosses or touches the $x$-axis (where $y = 0$). Therefore, there are zero values of $x$ where $f(x) = 0$. That matches choice D — <strong>D</strong> is correct."
+      "content": "Since $f(x) \\lt 0$ for all $x$, the curve never crosses or touches the $x$-axis (where $y = 0$). Therefore, there are zero values of $x$ where $f(x) = 0$. That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

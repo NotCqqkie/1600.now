@@ -4,25 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fit the expression as a quadratic",
-      "content": "The expression has a squared binomial, so the final result is quadratic. Use three x-values in Desmos and fit to $ax^2+bx+c$."
+      "title": "Expand each part",
+      "content": "First expand the squared binomial and the linear terms: $$(2x+5)^2=4x^2+20x+25,$$ $$-(x-2)=-x+2,$$ and $$2(x+3)=2x+6.$$"
     },
     {
-      "title": "Enter the Desmos rows",
-      "content": "Enter:<br/>$$x_1=[0,1,2]$$<br/>$$y_1=(2x_1+5)^2-(x_1-2)+2(x_1+3)$$<br/>$$y_1\\sim ax_1^2+bx_1+c$$",
-      "desmosExpressions": [
-        "x_1=[0,1,2]",
-        "y_1=(2x_1+5)^2-(x_1-2)+2(x_1+3)",
-        "y_1\\sim ax_1^2+bx_1+c"
-      ]
-    },
-    {
-      "title": "Read the coefficients",
-      "content": "Desmos returns $a=4$, $b=21$, and $c=33$, so the equivalent expression is:<br/>$$4x^2+21x+33$$<br/>That matches choice A."
-    },
-    {
-      "title": "Confirm the middle term",
-      "content": "Expansion gives $(2x+5)^2=4x^2+20x+25$, $-(x-2)=-x+2$, and $2(x+3)=2x+6$. The $x$ terms add to $21x$ and the constants add to $33$, so <strong>A</strong> is correct."
+      "title": "Combine like terms",
+      "content": "Add the parts together: $$4x^2+20x+25-x+2+2x+6.$$ The $x$ terms give $20x-x+2x=21x$, and the constants give $25+2+6=33$. The expression is $$4x^2+21x+33,$$ so choice <strong>A</strong> is correct."
     }
   ]
 }

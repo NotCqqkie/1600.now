@@ -5,30 +5,15 @@
   "steps": [
     {
       "title": "Calculate Andrew's mean",
-      "content": "The fastest Desmos method is to enter Andrew's masses as a list, then take the mean. Andrew's list has sum $16.8$, so the mean is $16.8/6=2.8$ kilograms.",
-      "desmosExpressions": [
-        "l_1=[2.4,2.5,3.6,3.1,2.5,2.7]",
-        "\\operatorname{mean}\\left(l_1\\right)"
-      ]
+      "content": "Andrew's six rock masses have sum $16.8$ kilograms, so Andrew's mean is $$\\frac{16.8}{6}=2.8$$ kilograms."
     },
     {
       "title": "Set up Maria's mean equation",
-      "content": "Maria's mean must be $0.1$ greater than Andrew's, so Maria's mean is $2.9$. Enter Maria's five known masses as a second list. Since Maria has six rocks total, her required total is $6(2.9)=17.4$ kilograms.",
-      "desmosExpressions": [
-        "l_2=[3.1,2.7,2.9,3.3,2.8]",
-        "l_1=[2.4,2.5,3.6,3.1,2.5,2.7]",
-        "\\operatorname{mean}\\left(l_1\\right)+0.1",
-        "6(\\operatorname{mean}\\left(l_1\\right)+0.1)"
-      ]
+      "content": "Maria's mean must be $0.1$ greater than Andrew's, so Maria's mean is $2.9$. Since Maria has six rocks total, her required total is $6(2.9)=17.4$ kilograms."
     },
     {
       "title": "Solve for x",
-      "content": "Subtract Maria's known total from the required total: $17.4-14.8=2.6$. In Desmos, the final row computes that directly from the two lists. The answer is <strong>2.6</strong>.",
-      "desmosExpressions": [
-        "l_1=[2.4,2.5,3.6,3.1,2.5,2.7]",
-        "l_2=[3.1,2.7,2.9,3.3,2.8]",
-        "6(\\operatorname{mean}\\left(l_1\\right)+0.1)-\\operatorname{total}\\left(l_2\\right)"
-      ]
+      "content": "Maria's known five masses total $14.8$ kilograms. Subtract that from the required total: $$17.4-14.8=2.6$$ The missing rock mass is <strong>2.6</strong> kilograms."
     }
   ]
 }

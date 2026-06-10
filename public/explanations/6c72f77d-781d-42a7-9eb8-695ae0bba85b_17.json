@@ -4,12 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use Desmos to solve the constants",
-      "content": "Because the equation has infinitely many solutions, both sides must be the same linear expression. Use two $x$-values in a Desmos custom regression: enter $x_1=[0,1]$, then type $\\frac{12x_1+28}{4}-\\frac{s}{13}\\sim r(x_1-8)$. Desmos returns $r=3$ and $s=403$.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "(12x_1+28)/4-s/13~r(x_1-8)"
-      ]
+      "title": "Solve the constants directly",
+      "content": "Because the equation has infinitely many solutions, both sides must simplify to the same linear expression. Match the $x$-coefficient first, then match the constant term."
     },
     {
       "title": "Check the coefficient condition",

@@ -4,21 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use a Desmos table regression",
-      "content": "This is a line-of-best-fit update question, so the fastest reliable method is to read the plotted points into a Desmos table. From the scatterplot, data set A is approximately $(2,12)$, $(3,22)$, $(4,28)$, $(5,41)$, and $(6,47)$. Add the new point $(9,52)$ to make data set B."
+      "title": "Use the new point's effect",
+      "content": "Data set A has best-fit line $y=-5.1+8.7x$, so its slope is $8.7$. The new point is $(9,52)$."
     },
     {
-      "title": "Run the regression row",
-      "content": "Enter the $x$-values as $x_1=[2,3,4,5,6,9]$ and the $y$-values as $y_1=[12,22,28,41,47,52]$. Then type the custom regression $y_1\\sim m x_1+b$. Desmos gives $m\\approx5.86$, so the slope $s$ of the new line of best fit is closest to $5.9$.",
-      "desmosExpressions": [
-        "x_1=[2,3,4,5,6,9]",
-        "y_1=[12,22,28,41,47,52]",
-        "y_1~m x_1+b"
-      ]
+      "title": "Check whether the new point is above or below the old trend",
+      "content": "Use the old model at $x=9$:$$y=-5.1+8.7(9)=73.2$$The actual new point has $y=52$, which is far below $73.2$. A far-right point below the old trend pulls the best-fit slope down."
     },
     {
       "title": "Check the direction",
-      "content": "This answer also makes sense without exact calculation. The old line predicts $-5.1+8.7(9)=73.2$ pounds at $x=9$, but the new point is only $(9,52)$, far below that trend. Adding a low right-side point must pull the best-fit slope down from $8.7$. The only answer choice near the regression result and below $8.7$ is $5.9$, so choice <strong>A</strong> is correct."
+      "content": "The new slope $s$ should be less than $8.7$. Among the choices, only $5.9$ is less than $8.7$ and reasonable for the downward pull. Choice <strong>A</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_16", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Read the graph", "content": "The graph shows $y = f(x) + 11$. Subtracting 11 from the y-values of the line gives the graph of $y = f(x)$. From the graph, $f(x)$ is a line with a <strong>negative slope</strong> and a <strong>negative y-intercept</strong>."}, {"title": "Match the form", "content": "With $c, d > 0$: choice A is $f(x) = -d - cx$, which has slope $-c < 0$ and y-intercept $-d < 0$. That matches both signs.<br/><br/>B has positive slope and intercept; C has positive slope; D has positive intercept.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_16",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the graph",
+      "content": "The graph shows $y = f(x) + 11$. Subtracting 11 from the y-values of the line gives the graph of $y = f(x)$. From the graph, $f(x)$ is a line with a <strong>negative slope</strong> and a <strong>negative y-intercept</strong>."
+    },
+    {
+      "title": "Match the form",
+      "content": "With $c, d > 0$: choice A is $f(x) = -d - cx$, which has slope $-c \\lt 0$ and y-intercept $-d \\lt 0$. That matches both signs.<br/><br/>B has positive slope and intercept; C has positive slope; D has positive intercept.<br/><br/>That matches choice A — <strong>A</strong> is correct."
+    }
+  ]
+}

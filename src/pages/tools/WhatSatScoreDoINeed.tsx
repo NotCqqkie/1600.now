@@ -75,9 +75,9 @@ const WhatSatScoreDoINeed = () => {
   const [currentSat, setCurrentSat] = useState<string>("1300");
 
   const matches = useMemo(() => {
-    const q = query.trim().toLowerCase();
-    if (!q) return COLLEGES.slice(0, 8);
-    return COLLEGES.filter((c) => c.name.toLowerCase().includes(q)).slice(0, 12);
+    const normalizedQuery = query.trim().toLowerCase();
+    if (!normalizedQuery) return COLLEGES.slice(0, 8);
+    return COLLEGES.filter((college) => college.name.toLowerCase().includes(normalizedQuery)).slice(0, 12);
   }, [query]);
 
   const sat = Number(currentSat);
@@ -149,7 +149,7 @@ const WhatSatScoreDoINeed = () => {
           <input
             type="text"
             value={query}
-            onChange={(e) => setQuery(e.target.value)}
+            onChange={(event) => setQuery(event.target.value)}
             placeholder="e.g. Harvard, UCLA, Penn State"
             className="mt-2 w-full rounded-lg border border-border bg-background px-3 py-2"
           />
@@ -164,7 +164,7 @@ const WhatSatScoreDoINeed = () => {
             max={1600}
             step={10}
             value={currentSat}
-            onChange={(e) => setCurrentSat(e.target.value)}
+            onChange={(event) => setCurrentSat(event.target.value)}
             className="mt-2 w-full rounded-lg border border-border bg-background px-3 py-2"
           />
         </div>
@@ -177,17 +177,17 @@ const WhatSatScoreDoINeed = () => {
             or "Texas".
           </p>
         ) : (
-          matches.map((c) => {
-            const mid = Math.round((c.p25 + c.p75) / 2);
+          matches.map((college) => {
+            const middleScore = Math.round((college.p25 + college.p75) / 2);
             return (
               <div
-                key={c.name}
+                key={college.name}
                 className="rounded-xl border border-border p-5"
               >
                 <div className="flex flex-wrap items-baseline justify-between gap-2">
-                  <div className="text-lg font-semibold">{c.name}</div>
+                  <div className="text-lg font-semibold">{college.name}</div>
                   <div className="text-sm text-muted-foreground">
-                    ~{c.acceptance}% acceptance
+                    ~{college.acceptance}% acceptance
                   </div>
                 </div>
                 <div className="mt-2 text-sm">
@@ -195,14 +195,14 @@ const WhatSatScoreDoINeed = () => {
                     Admitted-student SAT middle 50%:
                   </span>{" "}
                   <span className="font-semibold">
-                    {c.p25}–{c.p75}
+                    {college.p25}–{college.p75}
                   </span>{" "}
                   <span className="text-muted-foreground">
-                    (target ≈ {mid})
+                    (target ≈ {middleScore})
                   </span>
                 </div>
                 {satValid && (
-                  <div className="mt-2 text-sm">{chanceLabel(sat, c)}</div>
+                  <div className="mt-2 text-sm">{chanceLabel(sat, college)}</div>
                 )}
               </div>
             );
@@ -233,10 +233,10 @@ const WhatSatScoreDoINeed = () => {
       <section className="mt-10">
         <h2 className="text-2xl font-semibold tracking-tight">FAQs</h2>
         <div className="mt-4 space-y-5">
-          {faqs.map((f) => (
-            <div key={f.question}>
-              <h3 className="text-base font-semibold">{f.question}</h3>
-              <p className="mt-1 text-muted-foreground">{f.answer}</p>
+          {faqs.map((faq) => (
+            <div key={faq.question}>
+              <h3 className="text-base font-semibold">{faq.question}</h3>
+              <p className="mt-1 text-muted-foreground">{faq.answer}</p>
             </div>
           ))}
         </div>

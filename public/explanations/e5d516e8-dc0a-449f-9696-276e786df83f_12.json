@@ -13,11 +13,7 @@
     },
     {
       "title": "Match to the answer choices",
-      "content": "$x = -48$ does not appear among the choices. $x = -47$ is choice A. That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y = x + 48",
-        "y = (x + 48)^2"
-      ]
+      "content": "$x = -48$ does not appear among the choices. $x = -47$ is choice A. That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

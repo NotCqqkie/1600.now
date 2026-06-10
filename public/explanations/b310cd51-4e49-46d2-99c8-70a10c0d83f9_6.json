@@ -9,11 +9,7 @@
     },
     {
       "title": "Find $2y$",
-      "content": "So $2y=26$. That matches choice <strong>A</strong> — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y = \\frac{x}{4} + 6",
-        "y = -\\frac{x}{4} + 20"
-      ]
+      "content": "So $2y=26$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."
     },
     {
       "title": "Confirm the answer",

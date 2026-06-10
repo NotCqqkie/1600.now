@@ -11,6 +11,7 @@ import {
   type ExplanationStep,
 } from "@/lib/explanationApi";
 import { InlineDesmos } from "@/components/tools/InlineDesmos";
+import type { QuestionImageDisplaySize } from "@/data/questionImageSizing.generated";
 import "katex/dist/katex.min.css";
 interface StepByStepExplanationProps {
   questionId: string;
@@ -18,14 +19,14 @@ interface StepByStepExplanationProps {
     section: string;
     passage: string;
     questionText?: string | null;
-    choices?: { label: string; text: string; image?: string }[];
+    choices?: { label: string; text: string; image?: string; imageDisplaySize?: QuestionImageDisplaySize }[];
     correctAnswer: string;
     domain?: string;
     skill?: string;
     difficulty?: string;
     isFillInBlank?: boolean;
   };
-  questionImages?: { src: string; alt: string }[];
+  questionImages?: { src: string; alt: string; displaySize?: QuestionImageDisplaySize }[];
 }
 
 export function StepByStepExplanation({ questionId, question }: StepByStepExplanationProps) {
@@ -48,12 +49,14 @@ export function StepByStepExplanation({ questionId, question }: StepByStepExplan
     setCurrentStep(0);
     const id = questionId;
     fetch(`/explanations/${questionId}.json`)
-      .then(r => r.ok ? r.json() : null)
-      .then(json => {
-        const normalized = normalizeExplanationData(json);
+      .then(response => response.ok ? response.json() : null)
+      .then(payload => {
+        const normalized = normalizeExplanationData(payload);
         if (normalized && id === questionId) setData(normalized);
       })
-      .catch(() => {});
+      .catch(() => {
+        if (id === questionId) setData(null);
+      });
   }, [questionId]);
   const [searchParams] = useSearchParams();
   const autoStep = searchParams.get("autoStep") === "1";
@@ -62,7 +65,7 @@ export function StepByStepExplanation({ questionId, question }: StepByStepExplan
   const goToStep = useCallback((target: number, dir: 1 | -1) => {
     setDirection(dir);
     setCurrentStep(target);
-    setAnimKey(k => k + 1);
+    setAnimKey(animationKey => animationKey + 1);
   }, []);
 
   const handleNext = useCallback(() => {
@@ -87,12 +90,12 @@ export function StepByStepExplanation({ questionId, question }: StepByStepExplan
   useEffect(() => {
     if (!data || !autoStep || userTookOverRef.current) return;
     if (currentStep >= data.steps.length - 1) return;
-    const t = setTimeout(() => {
+    const timerId = setTimeout(() => {
       if (userTookOverRef.current) return;
       setRevealedUpTo((prev) => Math.max(prev, currentStep + 1));
       goToStep(currentStep + 1, 1);
     }, 1400);
-    return () => clearTimeout(t);
+    return () => clearTimeout(timerId);
   }, [data, autoStep, currentStep, goToStep]);
 
   if (!data || data.steps.length === 0) return null;
@@ -112,14 +115,14 @@ export function StepByStepExplanation({ questionId, question }: StepByStepExplan
           </Badge>
         ) : <span />}
         <div className="flex gap-1.5">
-          {data.steps.map((_, i) => (
+          {data.steps.map((_, stepIndex) => (
             <button
-              key={i}
-              onClick={() => { if (i <= revealedUpTo) goToStep(i, i > currentStep ? 1 : -1); }}
+              key={stepIndex}
+              onClick={() => { if (stepIndex <= revealedUpTo) goToStep(stepIndex, stepIndex > currentStep ? 1 : -1); }}
               className={`rounded-full transition-all duration-300 ${
-                i === currentStep
+                stepIndex === currentStep
                   ? "w-3 h-1.5 bg-primary"
-                  : i <= revealedUpTo
+                  : stepIndex <= revealedUpTo
                   ? "w-1.5 h-1.5 bg-primary/40 hover:bg-primary/70 cursor-pointer"
                   : "w-1.5 h-1.5 bg-muted-foreground/20 cursor-default"
               }`}
@@ -215,12 +218,12 @@ function StepContent({ step, stepIndex, totalSteps }: { step: ExplanationStep; s
 
       {step.desmosGraphs && step.desmosGraphs.length > 0 && (
         <div className="ml-9 mt-2 flex flex-col gap-4">
-          {step.desmosGraphs.map((g, i) => (
-            <div key={i} className="space-y-1">
-              {g.label && (
-                <div className="text-sm font-semibold text-muted-foreground">{g.label}</div>
+          {step.desmosGraphs.map((graph, graphIndex) => (
+            <div key={graphIndex} className="space-y-1">
+              {graph.label && (
+                <div className="text-sm font-semibold text-muted-foreground">{graph.label}</div>
               )}
-              <InlineDesmos expressions={g.expressions} height={420} />
+              <InlineDesmos expressions={graph.expressions} height={420} />
             </div>
           ))}
         </div>

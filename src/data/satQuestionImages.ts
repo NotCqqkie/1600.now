@@ -1,10 +1,15 @@
 import { questionImageMap, type QuestionImageMapEntry } from "./questionImageMap";
 import { satImageManifest } from "./satImageManifest";
 import { questionImageMap as unofficialQuestionImageMap } from "./unofficialQuestionImageMap";
+import {
+  questionImageDisplaySizeBySrc,
+  type QuestionImageDisplaySize,
+} from "./questionImageSizing.generated";
 
 export interface ResolvedSatImage {
   src: string;
   alt: string;
+  displaySize?: QuestionImageDisplaySize;
 }
 
 const SAT_IMAGE_BASE = "/images/SAT-Style%20Questions/";
@@ -128,6 +133,14 @@ export const normalizeSatImagePath = (path: string | undefined): string | undefi
   return undefined;
 };
 
+export const getSatImageDisplaySize = (
+  path: string | undefined,
+): QuestionImageDisplaySize | undefined => {
+  const normalized = normalizeSatImagePath(path);
+  if (!normalized) return undefined;
+  return questionImageDisplaySizeBySrc[normalized] ?? "standard";
+};
+
 const buildQuestionImageAlt = (questionId: string, index: number, total: number): string =>
   total > 1
     ? `SAT question ${questionId} image ${index + 1}`
@@ -149,6 +162,7 @@ export const resolveSatQuestionImages = (
       return {
         src,
         alt: img.alt?.trim() || buildQuestionImageAlt(id, index, images.length),
+        displaySize: getSatImageDisplaySize(src),
       };
     })
     .filter((img): img is ResolvedSatImage => Boolean(img));
@@ -164,6 +178,7 @@ export const resolveSatQuestionImages = (
     {
       src: stemImage,
       alt: buildQuestionImageAlt(id, 0, 1),
+      displaySize: getSatImageDisplaySize(stemImage),
     },
   ];
 };

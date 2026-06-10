@@ -9,26 +9,11 @@
     },
     {
       "title": "Reject the wrong vertices",
-      "content": "Graph the choices with the wrong vertices first. Choices A and B shift the vertex left to $x=-1$, and choice D puts the vertex at $(0,0)$. None of those match the graph's vertex $(0,3)$.",
-      "desmosExpressions": [
-        "y=5(x+1)^2+2",
-        "y=5(x+1)^2",
-        "y=5x^2",
-        "(0,3)"
-      ]
+      "content": "Choices A and B shift the vertex left to $x=-1$, and choice D puts the vertex at $(0,0)$. None of those match the graph's vertex $(0,3)$."
     },
     {
       "title": "Confirm with the matching graph",
-      "content": "Use the two clear points $(0,3)$ and $(1,8)$ in Desmos. Since the graph has axis of symmetry $x=0$, fit the form $y=ax^2+c$. The regression gives $a=5$ and $c=3$, so the equation is $f(x)=5x^2+3$. That matches choice C.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[3,8]",
-        "y_1~a x_1^2+c",
-        "y=a x^2+c",
-        "y=5x^2+3",
-        "(0,3)",
-        "(1,8)"
-      ]
+      "content": "Choice C, $f(x)=5x^2+3$, has vertex $(0,3)$. It also gives $f(1)=5(1)^2+3=8$, matching the visible point $(1,8)$ on the graph."
     },
     {
       "title": "Choose the match",

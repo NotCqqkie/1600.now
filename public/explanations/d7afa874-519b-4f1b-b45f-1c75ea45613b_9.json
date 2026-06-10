@@ -4,24 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up",
-      "content": "Use custom regression for the one unknown coefficient in $y=900ax^2$. Enter the known point as $x_1=[2.75]$, $y_1=[9528.75]$, then type $y_1\\sim 900a x_1^2$.",
-      "desmosExpressions": [
-        "x_1=[2.75]",
-        "y_1=[9528.75]",
-        "y_1~900a x_1^2"
-      ]
+      "title": "Use the known point to find the coefficient",
+      "content": "The model is $y=900ax^2$, and the graph contains the point $(2.75,9528.75)$. Substitute the point:<br/>$$9528.75=900a(2.75)^2.$$"
     },
     {
-      "title": "Solve",
-      "content": "Desmos gives $a=1.4$, so $900a=1260$. Evaluate the model at $x=7.50$: $1260(7.50)^2=70{,}875$.",
-      "desmosExpressions": [
-        "1260(7.5)^2"
-      ]
-    },
-    {
-      "title": "Answer",
-      "content": "<strong>70875</strong> is correct."
+      "title": "Solve and evaluate",
+      "content": "Since $900(2.75)^2=6806.25$, $$a=\\frac{9528.75}{6806.25}=1.4.$$ Then $900a=1260$, so at $x=7.50$: $$y=1260(7.50)^2=70{,}875.$$ The answer is <strong>70875</strong>. The requested response box wants the numerical value only, so enter 70875 without a comma."
     }
   ]
 }

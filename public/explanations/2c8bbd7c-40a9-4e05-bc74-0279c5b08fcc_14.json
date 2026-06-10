@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "What removing a value does to mean and median",
-      "content": "The original data set has 11 values, the new one has 10 (after removing 78.2 &deg;F). Removing one value $v$ from a set of $n$ changes the mean from $\\bar{x}$ to $\\dfrac{n\\bar{x}-v}{n-1}$, which is less than $\\bar{x}$ exactly when $v>\\bar{x}$. The median of 11 numbers is the 6th value (sorted); the median of the remaining 10 is the average of the 5th and 6th sorted values from the original list (since 78.2 is the largest)."
+      "content": "The original data set has 11 values. The new data set has 10 values after removing $78.2$&deg;F. Track the two measures separately:<ul><li><strong>Mean:</strong> removing a value above the old mean lowers the mean.</li><li><strong>Median:</strong> the old median is the 6th sorted value; after removing the largest value, the new median is the average of the old 5th and 6th sorted values.</li></ul>"
     },
     {
       "title": "Apply to this histogram",
-      "content": "The histogram shows the bulk of the 10 lower readings concentrated well below 78.2 &deg;F (all of them are at most in the 60s based on the chart's bins). Therefore 78.2 &deg;F is greater than the original mean, so removing it must lower the mean &mdash; <strong>Statement I is true</strong>.<br/><br/>For the median: the original 6th value and the original 5th value both lie in the same lower bin of the histogram, and the histogram only resolves them to that bin (it does not force them to be different). Thus the average of the 5th and 6th original values could equal the 6th value itself (if they share the same temperature) &mdash; meaning the new median may be equal to, not strictly less than, the original median. <strong>Statement II is not guaranteed.</strong>"
+      "content": "The histogram gives two quick checks:<ul><li>The removed value, $78.2$&deg;F, is the high outlier, so it is above the original mean. Removing it must lower the mean. <strong>Statement I is true.</strong></li><li>The histogram does not force the old 5th and 6th values to be different. If those two values are equal, then averaging them gives the same median as before. <strong>Statement II is not guaranteed.</strong></li></ul>"
     },
     {
       "title": "Eliminate the other choices",

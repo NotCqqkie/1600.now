@@ -476,5 +476,5 @@ export const getAllModulePracticeResults = (
     const result = readJson<ModulePracticeResult>(localStorage, key);
     if (result) results.push(result);
   }
-  return results.sort((a, b) => b.submittedAt - a.submittedAt);
+  return results.sort((leftResult, rightResult) => rightResult.submittedAt - leftResult.submittedAt);
 };

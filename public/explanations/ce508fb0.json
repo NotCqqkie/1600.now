@@ -9,10 +9,7 @@
     },
     {
       "title": "Evaluate g(11) by substituting the value of c",
-      "content": "Now use $g(w) = |\\frac{-w}{w-1}| - w + 5$ with $w = c = 11$:<br/>$$g(11) = \\left|\\frac{-11}{11-1}\\right| - 11 + 5$$<br/>Simplify the fraction:<br/>$$\\frac{-11}{10} = -1.1$$<br/>Take the absolute value:<br/>$$\\left|-1.1\\right| = 1.1$$<br/>Complete the calculation:<br/>$$g(11) = 1.1 - 11 + 5 = 1.1 - 6 = -4.9$$",
-      "desmosExpressions": [
-        "f(x)=3+|-2x-(x)^(2)|"
-      ]
+      "content": "Now use $g(w) = |\\frac{-w}{w-1}| - w + 5$ with $w = c = 11$:<br/>$$g(11) = \\left|\\frac{-11}{11-1}\\right| - 11 + 5$$<br/>Simplify the fraction:<br/>$$\\frac{-11}{10} = -1.1$$<br/>Take the absolute value:<br/>$$\\left|-1.1\\right| = 1.1$$<br/>Complete the calculation:<br/>$$g(11) = 1.1 - 11 + 5 = 1.1 - 6 = -4.9$$"
     }
   ]
 }

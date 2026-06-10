@@ -9,15 +9,11 @@
     },
     {
       "title": "Read the y-axis point",
-      "content": "The curve intersects the $y$-axis at $(0,3)$. The problem asks for the value of $y$ in $(0,y)$, so $y=3$.",
-      "desmosExpressions": [
-        "x=0",
-        "(0,3)"
-      ]
+      "content": "The curve intersects the $y$-axis at $(0,3)$. The problem asks for the value of $y$ in $(0,y)$, so $y=3$."
     },
     {
       "title": "Confirm the answer",
-      "content": "The $y$-coordinate of the $y$-intercept is <strong>3</strong>."
+      "content": "The $y$-coordinate of the $y$-intercept is <strong>3</strong>, so the answer is <strong>3</strong>."
     }
   ]
 }

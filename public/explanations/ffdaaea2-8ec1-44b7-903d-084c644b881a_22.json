@@ -8,14 +8,8 @@
       "content": "Let $k=b^{1/n}$. Then $f(x)=ab^{x/n}$ becomes $f(x)=ak^x$. Use the two known values as a ratio:<br/>$$\\frac{f(8)}{f(5)}=\\frac{189}{7}=27$$<br/>The input increased by $3$, so $k^3=27$ and $k=3$."
     },
     {
-      "title": "Use Desmos or multiply from the nearer known value",
-      "content": "In Desmos, enter the points $(5,7)$ and $(8,189)$ as lists, then regress $y_1\\sim ak^{x_1}$ and evaluate at $x=10$. The mental shortcut is even faster: from $x=8$ to $x=10$ is two unit steps, so multiply by $3^2=9$:<br/>$$f(10)=189\\cdot 9=1701$$<br/>The answer is <strong>1701</strong>.",
-      "desmosExpressions": [
-        "x_1=[5,8]",
-        "y_1=[7,189]",
-        "y_1~a k^{x_1}",
-        "a k^10"
-      ]
+      "title": "Multiply from the nearer known value",
+      "content": "From $x=8$ to $x=10$ is two unit steps, so multiply by the per-step factor twice:<br/>$$f(10)=189\\cdot 3^2=189\\cdot 9=1701$$<br/>The answer is <strong>1701</strong>."
     }
   ]
 }

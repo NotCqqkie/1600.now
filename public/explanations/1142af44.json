@@ -9,7 +9,7 @@
     },
     {
       "title": "Find the median",
-      "content": "With $9a$ data points (an odd count), the median is at position $\\frac{9a+1}{2}$.<br/><br/>Find cumulative frequencies:<ul><li>Through value 1: $a$ data points</li><li>Through value 2: $a + 2a = 3a$ data points</li><li>Through value 3: $3a + 3a = 6a$ data points</li></ul>For positive $a$, we have $3a < \\frac{9a+1}{2} < 6a$ (since $9a + 1 > 6a$ and $9a + 1 < 12a$). The median position falls in the value 3 group, so the median is 3."
+      "content": "With $9a$ data points (an odd count), the median is at position $\\frac{9a+1}{2}$.<br/><br/>Find cumulative frequencies:<ul><li>Through value 1: $a$ data points</li><li>Through value 2: $a + 2a = 3a$ data points</li><li>Through value 3: $3a + 3a = 6a$ data points</li></ul>For positive $a$, we have $3a \\lt \\frac{9a+1}{2} \\lt 6a$ (since $9a + 1 > 6a$ and $9a + 1 \\lt 12a$). The median position falls in the value 3 group, so the median is 3."
     },
     {
       "title": "Find the difference",

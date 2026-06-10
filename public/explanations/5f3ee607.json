@@ -9,7 +9,7 @@
     },
     {
       "title": "Overlay the choices",
-      "content": "Graph the four equations in Desmos. Only $y=-1.9x+10.1$ has both the negative slope and positive intercept that match the data.",
+      "content": "Overlay the four answer-choice lines on the scatterplot. Only $y=-1.9x+10.1$ has both the negative slope and positive intercept that match the data.",
       "desmosExpressions": [
         "y=-1.9x-10.1",
         "y=-1.9x+10.1",

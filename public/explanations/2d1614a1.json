@@ -9,11 +9,7 @@
     },
     {
       "title": "Convert multiplier to percent increase",
-      "content": "A growth multiplier of 1.04 represents a percent increase of: $$(1.04 - 1) \\times 100\\% = 0.04 \\times 100\\% = 4\\%$$ Thus $n = 4$. That matches choice C — <strong>C</strong> is correct.",
-      "formula": "$$\\text{Percent increase} = (\\text{growth factor} - 1) \\times 100\\%$$",
-      "desmosExpressions": [
-        "P(t)=290((1.04))^(((4)/(6))t)"
-      ]
+      "content": "A growth multiplier of 1.04 represents a percent increase of: $$(1.04 - 1) \\times 100\\% = 0.04 \\times 100\\% = 4\\%$$ Thus $n = 4$. That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

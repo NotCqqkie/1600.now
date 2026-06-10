@@ -5,16 +5,11 @@
   "steps": [
     {
       "title": "Fit the doubling pattern",
-      "content": "The bacteria count starts at 44,000, so use $(0,44000)$. Doubling every day means after one day there are 88,000 bacteria, so use $(1,88000)$. Fit $y_1\\sim a b^{x_1}$ in Desmos.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[44000,88000]",
-        "y_1~a b^{x_1}"
-      ]
+      "content": "The bacteria count starts at $44{,}000$, so the initial value is $44{,}000$. Doubling every day means each daily multiplier is $2$."
     },
     {
       "title": "Read the model",
-      "content": "Desmos gives $a=44000$ and $b=2$, so the model is $$y=44000(2)^t.$$"
+      "content": "An exponential model has the form $y=a(b)^t$, where $a$ is the starting value and $b$ is the multiplier per time period. Here $a=44{,}000$ and $b=2$, so $$y=44{,}000(2)^t$$"
     },
     {
       "title": "Check the choices",

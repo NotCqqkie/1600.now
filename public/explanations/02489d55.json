@@ -13,11 +13,7 @@
     },
     {
       "title": "Fast choice check",
-      "content": "A one-value Desmos check also works: compare the original expression with choice A. The graphs overlap exactly. At $x=0$, the original gives $-133$, which already eliminates the other constants.",
-      "desmosExpressions": [
-        "y=19(x^2-7)",
-        "y=19x^2-133"
-      ]
+      "content": "A quick check is to plug in $x=0$. The original expression gives $19(0^2-7)=-133$, matching the constant term in choice A and eliminating the other constants."
     },
     {
       "title": "Confirm the answer",

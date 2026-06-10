@@ -5,17 +5,11 @@
   "steps": [
     {
       "title": "Identify the type of growth",
-      "content": "Harper starts with $110$ and earns $2.7\\%$ more each year. One year later the amount is $110(1.027)=112.97$. Enter $x_1=[0,1]$, $y_1=[110,112.97]$, and $y_1\\sim a b^{x_1}$ in Desmos.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[110,112.97]",
-        "y_1~a b^{x_1}",
-        "y=a b^x"
-      ]
+      "content": "Harper starts with $110$ and earns $2.7\\%$ more each year. One year later the amount is $110(1.027)=112.97$. Use the values at $x=0$ and $x=1$ directly."
     },
     {
       "title": "Write the model",
-      "content": "Desmos gives $a=110$ and $b=1.027$, so $A(t)=110(1.027)^t$. Because $t$ is in the exponent, the model is exponential, not linear."
+      "content": "A $2.7\\%$ increase means the amount is multiplied by $$1+0.027=1.027$$ each year. Starting from $110$, the model is $$A(t)=110(1.027)^t.$$ Because $t$ is in the exponent, the model is exponential, not linear."
     },
     {
       "title": "Determine increasing or decreasing",

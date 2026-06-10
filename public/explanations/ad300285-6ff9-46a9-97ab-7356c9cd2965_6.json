@@ -9,11 +9,11 @@
     },
     {
       "title": "Apply the volume inequality",
-      "content": "The volume is constrained: $12.7 &lt; V &lt; 15.7$. Multiply all parts by $160$ (positive, so inequality direction is preserved):<br/>$160(12.7) &lt; 160V &lt; 160(15.7)$, which gives $160(12.7) &lt; x &lt; 160(15.7)$."
+      "content": "The volume is constrained: $12.7 \\lt V \\lt 15.7$. Multiply all parts by $160$ (positive, so inequality direction is preserved):<br/>$160(12.7) \\lt 160V \\lt 160(15.7)$, which gives $160(12.7) \\lt x \\lt 160(15.7)$."
     },
     {
       "title": "Eliminate wrong choices and confirm C",
-      "content": "<ul><li><strong>Choice A &mdash; $160 - 15.7 &lt; x &lt; 160 - 12.7$</strong>: Uses subtraction instead of multiplication; weight doesn&rsquo;t subtract from rate. &#10007;</li><li><strong>Choice B &mdash; $160 + 12.7 &lt; x &lt; 160 + 15.7$</strong>: Uses addition instead of multiplication; incorrect operation. &#10007;</li><li><strong>Choice C &mdash; $160(12.7) &lt; x &lt; 160(15.7)$</strong>: Multiplying the bounding volumes by 160 lb/ft&sup3; gives the weight bounds directly. &#10003;</li><li><strong>Choice D &mdash; $\\frac{160}{15.7} &lt; x &lt; \\frac{160}{12.7}$</strong>: Division inverts the relationship and also reverses the bounds incorrectly. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; $160 - 15.7 \\lt x \\lt 160 - 12.7$</strong>: Uses subtraction instead of multiplication; weight doesn&rsquo;t subtract from rate. &#10007;</li><li><strong>Choice B &mdash; $160 + 12.7 \\lt x \\lt 160 + 15.7$</strong>: Uses addition instead of multiplication; incorrect operation. &#10007;</li><li><strong>Choice C &mdash; $160(12.7) \\lt x \\lt 160(15.7)$</strong>: Multiplying the bounding volumes by 160 lb/ft&sup3; gives the weight bounds directly. &#10003;</li><li><strong>Choice D &mdash; $\\frac{160}{15.7} \\lt x \\lt \\frac{160}{12.7}$</strong>: Division inverts the relationship and also reverses the bounds incorrectly. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }

@@ -9,11 +9,7 @@
     },
     {
       "title": "Solve for the number of Rosa caesia flowers",
-      "content": "Simplify and isolate $y$:<br/>$$32 + 5y = 77$$<br/>$$5y = 45$$<br/>$$y = 9$$<br/>Verify: $4(8) + 5(9) = 32 + 45 = 77$ ✓<br/><br/>There are 9 Rosa caesia flowers. That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "4x + 5y = 77",
-        "(8, 9)"
-      ]
+      "content": "Simplify and isolate $y$:<br/>$$32 + 5y = 77$$<br/>$$5y = 45$$<br/>$$y = 9$$<br/>Verify: $4(8) + 5(9) = 32 + 45 = 77$ ✓<br/><br/>There are 9 Rosa caesia flowers. That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

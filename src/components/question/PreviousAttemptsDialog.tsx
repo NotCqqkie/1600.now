@@ -40,7 +40,7 @@ export function PreviousAttemptsDialog({ attempts, questionText }: PreviousAttem
   if (!attempts || attempts.length === 0) {
     return null;
   }
-  const chronoAttempts = [...attempts].sort((a, b) => a.timestamp - b.timestamp);
+  const chronoAttempts = [...attempts].sort((leftAttempt, rightAttempt) => leftAttempt.timestamp - rightAttempt.timestamp);
   interface Session {
     attempts: Attempt[];
     summary: string;

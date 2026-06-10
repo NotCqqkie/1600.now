@@ -13,7 +13,7 @@
     },
     {
       "title": "Find ∠TRU using triangle RWS",
-      "content": "In triangle RWS, we now have:<br/>• ∠RWS = 95°<br/>• ∠WSR = 46° (same as ∠QSX, since both measure from ray along PV to ray SX)<br/><br/>Therefore:<br/>$$∠WRS = 180° - 95° - 46° = 39°$$<br/>Since W lies between R and U on line RU, ray RW and ray RU point in the same direction, so ∠URS = ∠WRS = 39°. Since both S and T lie to the right of R on line PV, rays RS and RT are the same ray, giving us ∠TRU = 39°."
+      "content": "In triangle $RWS$, we now have:<ul><li>$\\angle RWS=95^\\circ$</li><li>$\\angle WSR=46^\\circ$, the same as $\\angle QSX$</li></ul>Use the triangle angle sum: $$\\angle WRS=180^\\circ-95^\\circ-46^\\circ=39^\\circ.$$ Since $W$ lies on line $RU$, ray $RW$ points in the same direction as ray $RU$. Since $S$ and $T$ lie on line $PV$, ray $RS$ points in the same direction as ray $RT$. Therefore, $\\angle TRU=39^\\circ$."
     },
     {
       "title": "Find ∠RTU and solve for ∠TUR",

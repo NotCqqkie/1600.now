@@ -9,10 +9,7 @@
     },
     {
       "title": "Read the model value",
-      "content": "At $x=0$, the graph has a marked point on the $y$-axis at $20,000$. This means the model estimates $20,000$ residents in $2010$.",
-      "desmosExpressions": [
-        "(0,20000)"
-      ]
+      "content": "At $x=0$, the graph has a marked point on the $y$-axis at $20{,}000$. This means the model estimates $20{,}000$ residents in $2010$."
     },
     {
       "title": "Check the choices",

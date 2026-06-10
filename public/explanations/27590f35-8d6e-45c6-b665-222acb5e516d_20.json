@@ -13,12 +13,7 @@
     },
     {
       "title": "Calculate ab",
-      "content": "With $a = 5$ and $b = 7$:<br/>$$ab = 5 \\cdot 7 = 35$$<br/>That matches choice B — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "y = 5^{x} + 7",
-        "(0, 8)",
-        "(2, 32)"
-      ]
+      "content": "With $a = 5$ and $b = 7$:<br/>$$ab = 5 \\cdot 7 = 35$$<br/>That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

@@ -5,16 +5,7 @@
   "steps": [
     {
       "title": "Pick two points spanning the requested interval",
-      "content": "From the scatterplot, the points at $x=5$ and $x=7$ are $(5,14)$ and $(7,24)$. These bookend the interval over which the average rate of change is requested.",
-      "desmosExpressions": [
-        "(1,4)",
-        "(2,6)",
-        "(3,12)",
-        "(4,10)",
-        "(5,14)",
-        "(6,16)",
-        "(7,24)"
-      ]
+      "content": "From the scatterplot, the points at $x=5$ and $x=7$ are $(5,14)$ and $(7,24)$. These bookend the interval over which the average rate of change is requested."
     },
     {
       "title": "Compute the average rate of change",

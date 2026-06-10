@@ -13,11 +13,7 @@
     },
     {
       "title": "Choose the positive solution",
-      "content": "The solutions are $x=-11$ and $x=5$. The positive solution is <strong>5</strong>. Graphing $y=55/(x+6)$ and $y=x$ shows the positive intersection at $x=5$.",
-      "desmosExpressions": [
-        "y=55/(x+6)",
-        "y=x"
-      ]
+      "content": "The solutions are $x=-11$ and $x=5$. The positive solution is <strong>5</strong>. Graphing $y=55/(x+6)$ and $y=x$ shows the positive intersection at $x=5$."
     }
   ]
 }

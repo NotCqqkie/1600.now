@@ -5,24 +5,19 @@
   "steps": [
     {
       "title": "Find base angles of isosceles triangle ACD",
-      "content": "Since $AC = CD$ (given) and $\\angle ACD = 108°$ (given), triangle $ACD$ is isosceles. The base angles opposite the equal sides are equal:<br/>$$\\angle CAD = \\angle CDA = \\frac{180° - 108°}{2} = \\frac{72°}{2} = 36°$$",
-      "formula": "$$\\text{Base angles} = \\frac{180° - \\text{apex angle}}{2}$$"
+      "content": "Since $AC = CD$ (given) and $\\angle ACD = 108°$ (given), triangle $ACD$ is isosceles. The base angles opposite the equal sides are equal:<br/>$$\\angle CAD = \\angle CDA = \\frac{180° - 108°}{2} = \\frac{72°}{2} = 36°$$"
     },
     {
-      "title": "Find angle ACB using collinearity",
-      "content": "From the figure, points $D$, $C$, and $B$ are collinear. Since $\\angle ACD = 108°$, the supplementary angle on the line is:<br/>$$\\angle ACB = 180° - 108° = 72°$$"
+      "title": "Use the crossing angle at D",
+      "content": "At $D$, $\\angle BDE$ is the same angle as $\\angle CDA$, so<br/>$$\\angle BDE=36°.$$"
     },
     {
-      "title": "Determine triangle ABC is isosceles",
-      "content": "Given the geometry and the constraint $\\angle EBC = 29°$, triangle $ABC$ is isosceles with $\\angle ABC = \\angle ACB = 72°$. Therefore:<br/>$$\\angle BAC = 180° - 72° - 72° = 36°$$<br/>This means $AB = AC$, and combined with $AC = CD$, we have $AB = AC = CD$."
+      "title": "Find the angle at E inside triangle BDE",
+      "content": "Since $B$, $C$, and $D$ are collinear in the figure, $\\angle DBE=\\angle EBC=29°$. In triangle $BDE$:<br/>$$\\angle DEB=180°-29°-36°=115°.$$"
     },
     {
-      "title": "Find angle ABE using the angle at B",
-      "content": "Since ray $BE$ lies between rays $BA$ and $BC$ when viewed from $B$, and $\\angle EBC = 29°$:<br/>$$\\angle ABE = \\angle ABC - \\angle EBC = 72° - 29° = 43°$$"
-    },
-    {
-      "title": "Find x = angle AEB in triangle ABE",
-      "content": "Since $E$ lies on segment $DA$, angle $\\angle BAE = \\angle BAD$. With $\\angle BAC = 36°$ and $\\angle CAD = 36°$ (where $C$ lies between rays $AB$ and $AD$ angularly):<br/>$$\\angle BAD = \\angle BAC + \\angle CAD = 36° + 36° = 72°$$<br/>Using the angle sum in triangle $ABE$:<br/>$$x = \\angle AEB = 180° - \\angle ABE - \\angle BAE = 180° - 43° - 72° = 65°$$<br/>The answer is <strong>65</strong>."
+      "title": "Use the straight angle at E",
+      "content": "$\\angle DEB$ and $x°$ form a straight line, so they sum to $180°$:<br/>$$x=180°-115°=65°$$<br/>The answer is <strong>65</strong>."
     }
   ]
 }

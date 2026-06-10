@@ -13,11 +13,7 @@
     },
     {
       "title": "Substitute and simplify to find r",
-      "content": "Substitute back into the original equation:<br/>$$\\left(x + \\frac{9}{2}\\right)^2 - \\frac{81}{4} + \\left(y - \\frac{7}{2}\\right)^2 - \\frac{49}{4} + 11 = 0$$<br/>Move constants to the right:<br/>$$\\left(x + \\frac{9}{2}\\right)^2 + \\left(y - \\frac{7}{2}\\right)^2 = \\frac{81}{4} + \\frac{49}{4} - 11$$<br/>Simplify the right side:<br/>$$\\frac{81 + 49}{4} - 11 = \\frac{130}{4} - \\frac{44}{4} = \\frac{86}{4}$$<br/>Therefore $r^2 = \\frac{86}{4}$. Taking the square root:<br/>$$r = \\sqrt{\\frac{86}{4}} = \\frac{\\sqrt{86}}{2}$$<br/>That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "x^2 + 9x + y^2 - 7y + 11 = 0",
-        "(x+9/2)^2 + (y-7/2)^2 = 86/4"
-      ]
+      "content": "Substitute back into the original equation:<br/>$$\\left(x + \\frac{9}{2}\\right)^2 - \\frac{81}{4} + \\left(y - \\frac{7}{2}\\right)^2 - \\frac{49}{4} + 11 = 0$$<br/>Move constants to the right:<br/>$$\\left(x + \\frac{9}{2}\\right)^2 + \\left(y - \\frac{7}{2}\\right)^2 = \\frac{81}{4} + \\frac{49}{4} - 11$$<br/>Simplify the right side:<br/>$$\\frac{81 + 49}{4} - 11 = \\frac{130}{4} - \\frac{44}{4} = \\frac{86}{4}$$<br/>Therefore $r^2 = \\frac{86}{4}$. Taking the square root:<br/>$$r = \\sqrt{\\frac{86}{4}} = \\frac{\\sqrt{86}}{2}$$<br/>That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

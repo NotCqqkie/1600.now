@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Count total observations and find median position",
-      "content": "Add all the frequencies from the <em>Number of days</em> column: $$3 + 3 + 4 + 1 + 3 + 9 = 23$$ total days. For 23 observations, the median is located at position $$\\frac{23 + 1}{2} = 12$$."
+      "title": "Find the median position",
+      "content": "Add the frequencies in the number-of-days column: $$3+3+4+1+3+9=23.$$ With $23$ observations, the median is the $$\\frac{23+1}{2}=12\\text{th}$$ observation."
     },
     {
-      "title": "Use cumulative frequency to locate the 12th observation",
-      "content": "Count cumulatively down the table:<ul><li>14 birds: 3 cumulative (positions 1-3)</li><li>15 birds: 6 cumulative (positions 4-6)</li><li>16 birds: 10 cumulative (positions 7-10)</li><li>17 birds: 11 cumulative (position 11)</li><li>18 birds: 14 cumulative (positions 12-14)</li></ul>The 12th position falls in the row with 18 birds. A Desmos list check gives the same median directly, so the answer is <strong>18</strong>.",
-      "desmosExpressions": [
-        "D=[14,14,14,15,15,15,16,16,16,16,17,18,18,18,19,19,19,19,19,19,19,19,19]",
-        "\\operatorname{median}\\left(D\\right)"
-      ]
+      "title": "Use cumulative counts",
+      "content": "The first $3$ observations are $14$ birds, observations $4$ through $6$ are $15$ birds, observations $7$ through $10$ are $16$ birds, and observation $11$ is $17$ birds. The next row, $18$ birds, covers observations $12$ through $14$."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The 12th observation is $18$, so the median number of birds is <strong>18</strong>."
     }
   ]
 }

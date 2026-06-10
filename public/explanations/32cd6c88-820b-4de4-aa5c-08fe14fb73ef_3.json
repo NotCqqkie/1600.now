@@ -5,21 +5,11 @@
   "steps": [
     {
       "title": "Use a two-point table",
-      "content": "The line passes through $(0,21)$ and has slope 4. Move 1 unit right and 4 units up to get another point, $(1,25)$. Fit those two points in Desmos.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[21,25]",
-        "y_1~m x_1+b"
-      ]
+      "content": "The line passes through $(0,21)$ and has slope $4$. In slope-intercept form $f(x)=mx+b$, this means $m=4$ and $b=21$."
     },
     {
       "title": "Write the equation using slope-intercept form",
-      "content": "The regression returns slope $4$ and intercept $21$, so $$f(x)=4x+21.$$ That matches choice D, so <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y=4x+21",
-        "(0,21)",
-        "(1,25)"
-      ]
+      "content": "Therefore $$f(x)=4x+21.$$ Choice D is the only option with slope $4$ and $y$-intercept $21$. The other choices either use the wrong slope or the wrong intercept, so <strong>D</strong> is correct."
     }
   ]
 }

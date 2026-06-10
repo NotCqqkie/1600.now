@@ -93,10 +93,10 @@ export const BrandLogo = ({
           const duration = 500;
           const startTime = performance.now();
           const step = (now: number) => {
-            const t = Math.min((now - startTime) / duration, 1);
-            const eased = 1 - Math.pow(1 - t, 3);
+            const progress = Math.min((now - startTime) / duration, 1);
+            const eased = 1 - Math.pow(1 - progress, 3);
             window.scrollTo(0, startY * (1 - eased));
-            if (t < 1) requestAnimationFrame(step);
+            if (progress < 1) requestAnimationFrame(step);
           };
           requestAnimationFrame(step);
         } else {

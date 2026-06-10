@@ -9,16 +9,7 @@
     },
     {
       "title": "Cancel y and solve for x",
-      "content": "The $2y$ and $-2y$ cancel:<br/>$$2x=10$$<br/>$$x=5$$"
-    },
-    {
-      "title": "Check with Desmos",
-      "content": "You can also graph the two lines. Rewrite them as $y=\\frac{6-x}{2}$ and $y=\\frac{x-4}{2}$. Their intersection has $x=5$.",
-      "desmosExpressions": [
-        "y=\\frac{6-x}{2}",
-        "y=\\frac{x-4}{2}",
-        "x=5"
-      ]
+      "content": "The $2y$ and $-2y$ cancel:<br/>$$2x=10$$<br/>$$x=5$$<br/><br/>This is faster than solving for both variables because the question only asks for $x$, and elimination removes $y$ immediately."
     },
     {
       "title": "Answer",

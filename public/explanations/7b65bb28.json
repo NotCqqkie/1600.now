@@ -9,7 +9,7 @@
     },
     {
       "title": "Sort the prices",
-      "content": "In Desmos, enter the five gas prices as a list and use `median`. Desmos returns $3.699$. Written from least to greatest, the prices are $$3.609, 3.679, 3.699, 3.729, 3.729$$ The middle value is $3.699$.",
+      "content": "Written from least to greatest, the prices are $$3.609,\\ 3.679,\\ 3.699,\\ 3.729,\\ 3.729$$ The middle value is the third number, $3.699$. In Desmos, the row $\\operatorname{median}(l_1)$ is just a quick check of the same result.",
       "desmosExpressions": [
         "l_1=[3.699,3.609,3.729,3.679,3.729]",
         "\\operatorname{median}\\left(l_1\\right)"

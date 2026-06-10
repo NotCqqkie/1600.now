@@ -5,16 +5,11 @@
   "steps": [
     {
       "title": "Set up the substitution",
-      "content": "We need to find the sum of interior angles for a polygon with 35 sides. Substitute $x = 35$ into the given function.",
-      "formula": "$$f(x) = 180(x - 2)$$"
+      "content": "We need to find the sum of interior angles for a polygon with 35 sides. Substitute $x = 35$ into the given function."
     },
     {
       "title": "Calculate f(35)",
-      "content": "$$f(35) = 180(35 - 2)$$<br/>$$f(35) = 180(33)$$<br/>$$f(35) = 5940$$<br/>The sum of the interior angles for a 35-sided polygon is <strong>5940 degrees</strong>.",
-      "desmosExpressions": [
-        "y = 180(x - 2)",
-        "(35, 5940)"
-      ]
+      "content": "$$f(35) = 180(35 - 2)$$<br/>$$f(35) = 180(33)$$<br/>$$f(35) = 5940$$<br/>The sum of the interior angles for a 35-sided polygon is <strong>5940 degrees</strong>."
     }
   ]
 }

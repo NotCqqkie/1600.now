@@ -20,15 +20,6 @@
       "content": "The positive solution is $\\frac{9}{4}$."
     },
     {
-      "title": "Check with Desmos",
-      "content": "Graph $y=-4x^2-7x$ and $y=-36$. The intersections occur at $x=-4$ and $x=\\frac{9}{4}$, so the positive one is $\\frac{9}{4}$.",
-      "desmosExpressions": [
-        "y=-4x^2-7x",
-        "y=-36",
-        "x=\\frac{9}{4}"
-      ]
-    },
-    {
       "title": "Answer",
       "content": "$\\frac{9}{4}$ matches choice B, so <strong>B</strong> is correct."
     }

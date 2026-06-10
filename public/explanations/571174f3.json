@@ -9,12 +9,7 @@
     },
     {
       "title": "Match the coefficients",
-      "content": "Multiplying the first equation's coefficients by $\\frac{35}{4}$ gives $$g=\\frac{35}{4}\\cdot\\frac{2}{5}=\\frac{7}{2}$$ and $$k=\\frac{35}{4}\\cdot\\frac{7}{5}=\\frac{49}{4}$$ Therefore $$\\frac{g}{k}=\\frac{7/2}{49/4}=\\frac{2}{7}$$ The exact answer is <strong>2/7</strong>.",
-      "desmosExpressions": [
-        "(35/4)(2/5)",
-        "(35/4)(7/5)",
-        "(7/2)/(49/4)"
-      ]
+      "content": "Multiplying the first equation's coefficients by $\\frac{35}{4}$ gives $$g=\\frac{35}{4}\\cdot\\frac{2}{5}=\\frac{7}{2}$$ and $$k=\\frac{35}{4}\\cdot\\frac{7}{5}=\\frac{49}{4}$$ Therefore $$\\frac{g}{k}=\\frac{7/2}{49/4}=\\frac{2}{7}$$ The exact answer is <strong>2/7</strong>."
     }
   ]
 }

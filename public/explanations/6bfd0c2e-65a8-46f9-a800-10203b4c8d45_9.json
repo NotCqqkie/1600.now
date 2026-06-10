@@ -4,12 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use custom regression first",
-      "content": "For infinitely many solutions, the left and right expressions must be identical for all $x$. Enter two test inputs into Desmos, $x_1=[0,1]$, then type $(2k+4)x_1+(3k-14)\\sim(k+32)x_1+(k+42)$. The regression returns $k=28$.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "(2k+4) x_1+(3k-14)~(k+32) x_1+(k+42)"
-      ]
+      "title": "Solve the unknown directly",
+      "content": "For infinitely many solutions, the left and right sides must be the same linear expression for every $x$. That means both the $x$-coefficients and the constant terms must match."
     },
     {
       "title": "Verify both identity conditions",

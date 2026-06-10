@@ -9,10 +9,7 @@
     },
     {
       "title": "Take the square root to find both solutions",
-      "content": "Taking the square root of both sides:<br/>$$x = \\pm\\sqrt{9} = \\pm 3$$<br/>The two solutions are $x = 3$ and $x = -3$. Since the problem asks for the negative solution, the answer is $-3$.",
-      "desmosExpressions": [
-        "y = 15x^{2} - 135"
-      ]
+      "content": "Taking the square root of both sides:<br/>$$x = \\pm\\sqrt{9} = \\pm 3$$<br/>The two solutions are $x = 3$ and $x = -3$. Since the problem asks for the negative solution, the answer is $-3$."
     }
   ]
 }

@@ -9,10 +9,7 @@
     },
     {
       "title": "Solve for n",
-      "content": "Divide both sides by 7:<br/>$$n^3 = 8$$<br/>Take the cube root of both sides:<br/>$$n = \\sqrt[3]{8} = 2$$<br/>That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "p(n)=7(n)^(3)"
-      ]
+      "content": "Divide both sides by 7:<br/>$$n^3 = 8$$<br/>Take the cube root of both sides:<br/>$$n = \\sqrt[3]{8} = 2$$<br/>That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

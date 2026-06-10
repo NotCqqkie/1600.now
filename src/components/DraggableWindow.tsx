@@ -354,7 +354,8 @@ export const DraggableWindow = ({
     const handleTouchMove = (e: TouchEvent) => {
       if (e.touches.length === 0) return;
       e.preventDefault();
-      updateFromClientX(e.touches[0].clientX);
+      const touch = e.touches[0];
+      updateFromClientX(touch.clientX);
     };
 
     const stop = () => {
@@ -413,8 +414,8 @@ export const DraggableWindow = ({
   const handleTouchStart = (e: React.TouchEvent) => {
     if (onFocus) onFocus();
     if (e.touches.length === 0) return;
-    const t = e.touches[0];
-    const started = beginDragFrom(t.clientX, t.clientY, e.target as HTMLElement);
+    const touch = e.touches[0];
+    const started = beginDragFrom(touch.clientX, touch.clientY, e.target as HTMLElement);
     if (started) e.preventDefault();
   };
 
@@ -441,8 +442,8 @@ export const DraggableWindow = ({
     if (e.touches.length === 0) return;
     e.preventDefault();
     e.stopPropagation();
-    const t = e.touches[0];
-    const point = getBoundsPoint(t.clientX, t.clientY);
+    const touch = e.touches[0];
+    const point = getBoundsPoint(touch.clientX, touch.clientY);
     setIsResizing(edge);
     const startData = {
       x: point.x,
@@ -560,7 +561,8 @@ export const DraggableWindow = ({
     const handleTouchMove = (e: TouchEvent) => {
       if (e.touches.length === 0) return;
       e.preventDefault();
-      applyMove(e.touches[0].clientX, e.touches[0].clientY);
+      const touch = e.touches[0];
+      applyMove(touch.clientX, touch.clientY);
     };
 
     const handlePointerUp = () => {

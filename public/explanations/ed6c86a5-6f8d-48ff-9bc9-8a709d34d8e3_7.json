@@ -13,11 +13,7 @@
     },
     {
       "title": "Answer",
-      "content": "<strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y = \\frac{x}{3} + 8",
-        "y = -\\frac{x}{3} + 20"
-      ]
+      "content": "<strong>D</strong> is correct."
     }
   ]
 }

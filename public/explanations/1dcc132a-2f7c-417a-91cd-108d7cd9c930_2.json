@@ -12,16 +12,6 @@
       "content": "Only the coefficients on the $yz^3$ terms add:<br/>$$9yz^3+3yz^3=12yz^3$$<br/>The $6yz$ term stays as it is, so the expression simplifies to:<br/>$$12yz^3+6yz$$"
     },
     {
-      "title": "Check with a Desmos table",
-      "content": "Use a table to compare the original expression with choice A at two values of $y$ and $z$:<br/>$$y_1=[1,2]$$<br/>$$z_1=[2,3]$$<br/>$$o_1=9y_1z_1^3+6y_1z_1+3y_1z_1^3$$<br/>$$a_1=12y_1z_1^3+6y_1z_1$$<br/>The output lists match, which confirms choice A.",
-      "desmosExpressions": [
-        "y_1=[1,2]",
-        "z_1=[2,3]",
-        "o_1=9y_1z_1^3+6y_1z_1+3y_1z_1^3",
-        "a_1=12y_1z_1^3+6y_1z_1"
-      ]
-    },
-    {
       "title": "Confirm the answer",
       "content": "Choice A is $12yz^3+6yz$. Choices B, C, and D treat multiplying or adding like terms as if exponents should be added, which is not correct here. Therefore <strong>A</strong> is correct."
     }

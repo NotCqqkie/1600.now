@@ -4,15 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recognize the quadratic formula structure",
-      "content": "The expression $x = \\frac{-7 + \\sqrt{k}}{2}$ matches the quadratic formula pattern $x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}$. From $x^2 + 7x + 5 = 0$, we identify $a = 1$, $b = 7$, and $c = 5$."
+      "title": "Rewrite to match the given root form",
+      "content": "Start with $$x^2+7x+5=0.$$ Multiply by 4 so the square will have integer coefficients: $$4x^2+28x+20=0.$$"
     },
     {
-      "title": "Calculate the discriminant to find k",
-      "content": "Compute the expression under the radical:<br/>$$b^2-4ac=7^2-4(1)(5)=49-20=29$$<br/>In the given form $x=\\frac{-7+\\sqrt{k}}{2}$, this means $\\sqrt{k}=\\sqrt{29}$, so $k=29$. Desmos can evaluate the discriminant directly. The answer is <strong>29</strong>.",
-      "desmosExpressions": [
-        "7^2-4*1*5"
-      ]
+      "title": "Complete the square",
+      "content": "Move the constant and complete the square: $$4x^2+28x=-20$$ $$(2x+7)^2=29.$$ Therefore $$2x+7=\\pm\\sqrt{29},$$ so $$x=\\frac{-7\\pm\\sqrt{29}}{2}.$$ In the given form, $k=29$.<br/><br/>The expression under the radical is the requested $k$, so once the completed-square form has $\\sqrt{29}$, the value of $k$ is fixed."
     }
   ]
 }

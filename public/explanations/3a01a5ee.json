@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Graph the absolute-value equation",
-      "content": "A fast way to solve this is to graph both sides in Desmos:<br/>$$y=|-5x+13|$$<br/>$$y=73$$<br/>The intersections give the two solutions to $|-5x+13|=73$.",
+      "content": "Graph the two sides of the equation:<br/>$$y=|-5x+13|$$<br/>$$y=73$$<br/>The intersection points give the two solutions to $|-5x+13|=73$.",
       "desmosExpressions": [
         "y=|-5x+13|",
         "y=73"

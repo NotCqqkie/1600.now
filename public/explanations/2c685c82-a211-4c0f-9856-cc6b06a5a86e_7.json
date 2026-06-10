@@ -4,23 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use Desmos regression to avoid FOIL mistakes",
-      "content": "For a multiple-choice equivalent-expression question, test the expression at a few x-values and fit the resulting quadratic. Enter these in Desmos:<br/>$$x_1=[-1,0,1]$$<br/>$$y_1=(2x_1-3)(x_1+8)-3(6x_1-9)$$",
-      "desmosExpressions": [
-        "x_1=[-1,0,1]",
-        "y_1=(2x_1-3)(x_1+8)-3(6x_1-9)"
-      ]
+      "title": "Expand each function",
+      "content": "$$f(x)=(2x-3)(x+8)=2x^2+16x-3x-24=2x^2+13x-24$$<br/>$$g(x)=3(6x-9)=18x-27$$"
     },
     {
-      "title": "Fit the quadratic form",
-      "content": "Now regress those points against $ax^2+bx+c$:<br/>$$y_1\\sim ax_1^2+bx_1+c$$<br/>Desmos returns $a=2$, $b=-5$, and $c=3$.",
-      "desmosExpressions": [
-        "y_1\\sim ax_1^2+bx_1+c"
-      ]
+      "title": "Subtract $g(x)$ from $f(x)$",
+      "content": "$$f(x)-g(x)=(2x^2+13x-24)-(18x-27)$$<br/>$$=2x^2+13x-24-18x+27$$"
     },
     {
-      "title": "Match the result",
-      "content": "So:<br/>$$f(x)-g(x)=2x^2-5x+3$$<br/>That matches choice B, so <strong>B</strong> is correct. Expanding manually gives the same result: $(2x-3)(x+8)=2x^2+13x-24$ and $3(6x-9)=18x-27$."
+      "title": "Combine like terms",
+      "content": "$$2x^2+13x-18x-24+27=2x^2-5x+3$$<br/>The key move is distributing the subtraction across every term of $g(x)$, which changes $+18x-27$ into $-18x+27$. After that, the $x$-terms combine to $-5x$ and the constants combine to $3$. The simplified expression matches choice <strong>B</strong>."
     }
   ]
 }

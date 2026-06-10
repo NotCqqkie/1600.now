@@ -4,26 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Turn the slope into a second point",
-      "content": "Use Desmos as a two-point line fit. The line passes through $(40,-6)$ and has slope $\\frac{1}{8}$, so moving 8 units right raises $y$ by 1. A second point is $(48,-5)$. Put both points into a table and run a linear regression.",
-      "desmosExpressions": [
-        "x_1=[40,48]",
-        "y_1=[-6,-5]",
-        "y_1~m x_1+b"
-      ]
+      "title": "Start with slope-intercept form",
+      "content": "A line with slope $\\frac{1}{8}$ has the form<br/>$$y=\\frac{1}{8}x+b.$$"
     },
     {
-      "title": "Solve for $b$ and write the equation",
-      "content": "The regression gives $m=0.125=\\frac{1}{8}$ and $b=-11$, so the equation is $$y=\\frac{x}{8}-11.$$ That matches choice B.",
-      "desmosExpressions": [
-        "y=x/8-11",
-        "(40,-6)",
-        "(48,-5)"
-      ]
+      "title": "Use the given point",
+      "content": "Substitute $(40,-6)$:<br/>$$-6=\\frac{40}{8}+b$$<br/>$$-6=5+b$$<br/>$$b=-11$$"
     },
     {
       "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice B, $y = \\frac{x}{8} - 11$. The other choices do not satisfy the same condition from the question, so <strong>B</strong> is correct."
+      "content": "The equation is<br/>$$y=\\frac{x}{8}-11.$$<br/>A quick check confirms it: when $x=40$, $y=5-11=-6$, which is the given point. This matches choice <strong>B</strong>."
     }
   ]
 }

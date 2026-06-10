@@ -9,13 +9,7 @@
     },
     {
       "title": "Determine the number of solutions",
-      "content": "Since $a > 0$ and $c > 0$, the right side $\\frac{a + 2c}{a}$ is a positive number.<br/><br/>An equation of the form $x^2 = k$ where $k > 0$ has exactly two distinct real solutions: the positive and negative square roots.<br/><br/>Therefore, the graphs intersect at exactly two points. This matches choice C — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y = a x^2 - c",
-        "y = a + c",
-        "a = 1",
-        "c = 1"
-      ]
+      "content": "Since $a > 0$ and $c > 0$, the right side $\\frac{a + 2c}{a}$ is a positive number.<br/><br/>An equation of the form $x^2 = k$ where $k > 0$ has exactly two distinct real solutions: the positive and negative square roots.<br/><br/>Therefore, the graphs intersect at exactly two points. This matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

@@ -9,11 +9,7 @@
     },
     {
       "title": "Translate the vertex up 4 units",
-      "content": "Translating up 4 units means adding 4 to the y-coordinate of every point. The vertex moves from (2, −2) to: $$x = 2, \\quad y = -2 + 4 = 2$$ The new vertex is at <strong>(2, 2)</strong>. That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y = (3/10)(x-2)^2 + 2",
-        "(2, 2)"
-      ]
+      "content": "Translating up $4$ units means adding $4$ to every $y$-coordinate while keeping each $x$-coordinate the same. The vertex moves from $(2,-2)$ to $$x=2,\\qquad y=-2+4=2.$$ The new vertex is $(2,2)$, which matches choice <strong>A</strong>."
     }
   ]
 }

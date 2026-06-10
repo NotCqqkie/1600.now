@@ -5,27 +5,15 @@
   "steps": [
     {
       "title": "Read the actual point",
-      "content": "At $x=1$, the plotted data point is about $(1,12)$. That is the actual $y$-value.",
-      "desmosExpressions": [
-        "(1,12)"
-      ]
+      "content": "At $x=1$, the plotted data point is about $(1,12)$. That is the actual $y$-value."
     },
     {
-      "title": "Model the line of best fit",
-      "content": "For the predicted value, use the line, not the dot. Two readable points on the line are about $(0,12)$ and $(5,6)$, so a quick Desmos regression gives $y\\approx -1.2x+12$.",
-      "desmosExpressions": [
-        "x_1=[0,5]",
-        "y_1=[12,6]",
-        "y_1~m x_1+b"
-      ]
+      "title": "Read the predicted value",
+      "content": "For the predicted value, use the line of best fit at the same $x$-value. At $x=1$, the line is about $y=11$."
     },
     {
       "title": "Compare actual and predicted",
-      "content": "At $x=1$, the line predicts $y=-1.2(1)+12=10.8$, about $11$. The vertical difference is about $12-11=1$, so choice <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y=-1.2x+12",
-        "(1,10.8)"
-      ]
+      "content": "The difference is about $12-11=1$, so choice <strong>A</strong> is correct."
     }
   ]
 }

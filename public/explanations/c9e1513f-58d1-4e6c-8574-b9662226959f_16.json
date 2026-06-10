@@ -9,11 +9,7 @@
     },
     {
       "title": "Add the equations and solve for x",
-      "content": "Add the two equations together:<br/>$$x + 5y = 5$$<br/>$$x - 5y = 3$$<br/>The sum gives:<br/>$$2x = 8$$<br/>Dividing both sides by 2:<br/>$$x = 4$$<br/>That matches choice B — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "y = \\frac{5 - x}{5}",
-        "y = \\frac{x - 3}{5}"
-      ]
+      "content": "Add the two equations together:<br/>$$x + 5y = 5$$<br/>$$x - 5y = 3$$<br/>The sum gives:<br/>$$2x = 8$$<br/>Dividing both sides by 2:<br/>$$x = 4$$<br/>That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

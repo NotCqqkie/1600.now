@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Test each point against both inequalities",
-      "content": "A point is a solution if it satisfies both $y \\le x + 15$ and $y \\ge -4x - 15$. Substitute each choice's coordinates into both inequalities."
+      "title": "Test the correct point",
+      "content": "For choice D, $(7,0)$, the first inequality gives $0\\le7+15$, or $0\\le22$, which is true."
     },
     {
-      "title": "Backsolving — checking choice B (0, 16)",
-      "content": "Backsolving — testing choice B (0, 16): Check $16 \\le 0 + 15 = 15$. False — B is eliminated.<br/> Fails. Testing choice C (0, -16): Check $-16 \\le 0 + 15 = 15$ (true). Check $-16 \\ge -4(0) - 15 = -15$ (false). C is eliminated."
+      "title": "Check the second inequality",
+      "content": "The second inequality gives $0\\ge-4(7)-15$, or $0\\ge-43$, which is also true."
     },
     {
-      "title": "Backsolving — checking choice A (-7, 0)",
-      "content": "Fails. Testing choice A (-7, 0): Check $0 \\le -7 + 15 = 8$ (true). Check $0 \\ge -4(-7) - 15 = 28 - 15 = 13$ (false). A is eliminated.<br/> Fails. Testing choice D (7, 0): Check $0 \\le 7 + 15 = 22$ (true). Check $0 \\ge -4(7) - 15 = -28 - 15 = -43$ (true). Both inequalities are satisfied. That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y = x + 15",
-        "y = -4x - 15"
-      ]
+      "title": "Confirm the choice",
+      "content": "Since $(7,0)$ satisfies both inequalities, choice <strong>D</strong> is correct. The other points each fail at least one of the two inequalities."
     }
   ]
 }

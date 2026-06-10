@@ -21,7 +21,7 @@ const CountryHubPage = () => {
   if (!hub) return <Navigate to="/" replace />;
 
   const url = `https://1600.now/${hub.hubSlug}`;
-  const topicPages = countryPages.filter((p) => p.country === hub.code);
+  const topicPages = countryPages.filter((countryPage) => countryPage.country === hub.code);
 
   return (
     <div className="mx-auto max-w-3xl px-6 py-10">
@@ -65,20 +65,20 @@ const CountryHubPage = () => {
       </h1>
       <p className="mt-4 text-lg text-muted-foreground">{hub.hubIntro}</p>
 
-      {hub.hubSections.map((s) => (
-        <section key={s.heading} className="mt-10">
+      {hub.hubSections.map((section) => (
+        <section key={section.heading} className="mt-10">
           <h2 className="text-2xl font-semibold tracking-tight">
-            {s.heading}
+            {section.heading}
           </h2>
-          {s.paragraphs.map((p, i) => (
-            <p key={i} className="mt-3 text-muted-foreground">
-              {p}
+          {section.paragraphs.map((paragraph, paragraphIndex) => (
+            <p key={paragraphIndex} className="mt-3 text-muted-foreground">
+              {paragraph}
             </p>
           ))}
-          {s.bullets && s.bullets.length > 0 && (
+          {section.bullets && section.bullets.length > 0 && (
             <ul className="mt-3 list-disc space-y-1 pl-6 text-muted-foreground">
-              {s.bullets.map((b, i) => (
-                <li key={i}>{b}</li>
+              {section.bullets.map((bullet, bulletIndex) => (
+                <li key={bulletIndex}>{bullet}</li>
               ))}
             </ul>
           )}
@@ -91,19 +91,19 @@ const CountryHubPage = () => {
             More for {hub.name} students
           </h2>
           <ul className="mt-4 space-y-3">
-            {topicPages.map((p) => (
+            {topicPages.map((topicPage) => (
               <li
-                key={p.slug}
+                key={topicPage.slug}
                 className="rounded-xl border border-border p-4"
               >
                 <Link
-                  to={`/${p.slug}`}
+                  to={`/${topicPage.slug}`}
                   className="text-base font-semibold hover:underline"
                 >
-                  {p.headline}
+                  {topicPage.headline}
                 </Link>
                 <p className="mt-1 text-sm text-muted-foreground">
-                  {p.metaDescription}
+                  {topicPage.metaDescription}
                 </p>
               </li>
             ))}
@@ -114,10 +114,10 @@ const CountryHubPage = () => {
       <section className="mt-10">
         <h2 className="text-2xl font-semibold tracking-tight">FAQs</h2>
         <div className="mt-4 space-y-5">
-          {hub.hubFaqs.map((f) => (
-            <div key={f.question}>
-              <h3 className="text-base font-semibold">{f.question}</h3>
-              <p className="mt-1 text-muted-foreground">{f.answer}</p>
+          {hub.hubFaqs.map((faq) => (
+            <div key={faq.question}>
+              <h3 className="text-base font-semibold">{faq.question}</h3>
+              <p className="mt-1 text-muted-foreground">{faq.answer}</p>
             </div>
           ))}
         </div>

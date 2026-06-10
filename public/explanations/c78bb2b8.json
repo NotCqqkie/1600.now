@@ -9,10 +9,7 @@
     },
     {
       "title": "Find the combined mean using the weighted average formula",
-      "content": "Add the group sums: $21,120+11,280=32,400$ inches. Divide by the total count: $$\\frac{32,400}{360}=90$$ inches. In Desmos, enter the weighted-mean expression directly. That matches choice B, so <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "(240*88+120*94)/(240+120)"
-      ],
+      "content": "Add the group sums: $21,120+11,280=32,400$ inches. Divide by the total count: $$\\frac{32,400}{360}=90$$ inches. The combined mean is $90$ inches, so <strong>B</strong> is correct.",
       "formula": "$$\\bar{x}_{combined} = \\frac{n_1 \\bar{x}_1 + n_2 \\bar{x}_2}{n_1 + n_2}$$"
     }
   ]

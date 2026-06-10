@@ -13,11 +13,7 @@
     },
     {
       "title": "Rearrange to general form",
-      "content": "Move the constant $49$ to the left side to match the form $x^2 + y^2 + ax + by + c = 0$: $$x^2 + y^2 + 8x - 8y + 32 - 49 = 0$$ $$x^2 + y^2 + 8x - 8y - 17 = 0$$ Comparing coefficients, $c = -17$.",
-      "desmosExpressions": [
-        "(x+4)^2 + (y-4)^2 = 49",
-        "(-4, 4)"
-      ]
+      "content": "Move the constant $49$ to the left side to match the form $x^2 + y^2 + ax + by + c = 0$: $$x^2 + y^2 + 8x - 8y + 32 - 49 = 0$$ $$x^2 + y^2 + 8x - 8y - 17 = 0$$ Comparing coefficients, $c = -17$."
     }
   ]
 }

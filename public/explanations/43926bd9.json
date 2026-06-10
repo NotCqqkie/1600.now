@@ -4,17 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Regress the exponents",
-      "content": "The outputs are powers of $a$: $a^1$, $a^5$, and $a^9$. Since $a>1$, matching outputs means matching exponents. Put the exponent values in a table: $(1,1)$, $(2,5)$, and $(3,9)$.",
-      "desmosExpressions": [
-        "x_1=[1,2,3]",
-        "y_1=[1,5,9]",
-        "y_1~m x_1+b"
-      ]
+      "title": "Track the exponents",
+      "content": "The outputs are powers of $a$: $a^1$, $a^5$, and $a^9$. Since $a>1$, matching outputs means matching exponents. As $x$ increases by $1$, the exponent increases by $4$."
     },
     {
       "title": "Write the exponent rule",
-      "content": "Desmos gives $m=4$ and $b=-3$, so the exponent is $4x-3$. Therefore $f(x)=a^{4x-3}$."
+      "content": "A linear exponent rule with rate $4$ has the form $4x+b$. Use the first value, $x=1$ gives exponent $1$: $$4(1)+b=1$$ $$b=-3$$ So the exponent is $4x-3$, and $f(x)=a^{4x-3}$."
     },
     {
       "title": "Solve for k",

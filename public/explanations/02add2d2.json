@@ -10,10 +10,7 @@
     {
       "title": "Write the exponential equation",
       "content": "Exponential growth repeats the same multiplier each period. After $m$ months of applying the multiplier 1.07:<br/>$$c = 1,300 \\times (1.07)^m$$<br/>That matches choice B — <strong>B</strong> is correct.",
-      "formula": "$$c = c_0(1+r)^m$$",
-      "desmosExpressions": [
-        "c=1300((1.07))^(m)"
-      ]
+      "formula": "$$c = c_0(1+r)^m$$"
     }
   ]
 }

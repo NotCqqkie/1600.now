@@ -13,11 +13,7 @@
     },
     {
       "title": "Apply the radius condition to solve for t",
-      "content": "From the standard form $(x - h)^2 + (y - k)^2 = r^2$, we identify the radius squared as the right side: $r^2 = \\frac{t^2}{8} + 39$. Since we are given $r = \\sqrt{41}$, we have $r^2 = 41$. Set up and solve:<br/>$$\\frac{t^2}{8} + 39 = 41$$<br/>$$\\frac{t^2}{8} = 2$$<br/>$$t^2 = 16$$<br/>$$t = 4$$<br/>Since $t$ is positive, $t = 4$.",
-      "desmosExpressions": [
-        "x^2 + y^2 + 2x + 2y - 39 = 0",
-        "(x+1)^2 + (y+1)^2 = 41"
-      ]
+      "content": "From the standard form $(x - h)^2 + (y - k)^2 = r^2$, we identify the radius squared as the right side: $r^2 = \\frac{t^2}{8} + 39$. Since we are given $r = \\sqrt{41}$, we have $r^2 = 41$. Set up and solve:<br/>$$\\frac{t^2}{8} + 39 = 41$$<br/>$$\\frac{t^2}{8} = 2$$<br/>$$t^2 = 16$$<br/>$$t = 4$$<br/>Since $t$ is positive, $t = 4$."
     }
   ]
 }

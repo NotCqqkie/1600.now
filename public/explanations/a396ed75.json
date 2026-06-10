@@ -5,24 +5,15 @@
   "steps": [
     {
       "title": "Turn the rate into table rows",
-      "content": "Juan rides at $5.7$ minutes per mile. That means $0$ miles takes $0$ minutes, $1$ mile takes $5.7$ minutes, and $2$ miles takes $11.4$ minutes. Enter those points in Desmos as a table.",
-      "desmosExpressions": [
-        "x_1=[0,1,2]",
-        "y_1=[0,5.7,11.4]"
-      ]
+      "content": "Juan rides at $5.7$ minutes per mile. That means $0$ miles takes $0$ minutes, $1$ mile takes $5.7$ minutes, and $2$ miles takes $11.4$ minutes."
     },
     {
-      "title": "Fit the line",
-      "content": "Run $y_1\\sim m x_1+b$. Desmos gives $m=5.7$ and $b=0$, so the function is $$m(x)=5.7x.$$ The coefficient $5.7$ is the number of minutes per mile.",
-      "desmosExpressions": [
-        "x_1=[0,1,2]",
-        "y_1=[0,5.7,11.4]",
-        "y_1~m x_1+b"
-      ]
+      "title": "Find the line from the data",
+      "content": "The relationship is proportional because time equals rate times distance: $$\\text{time}=5.7\\cdot \\text{distance}.$$ So the function is $$m(x)=5.7x.$$ The coefficient $5.7$ is the number of minutes per mile."
     },
     {
       "title": "Choose the matching function",
-      "content": "Choice D, $m(x)=5.7x$, matches the regression and the units: minutes per mile times miles equals minutes. Choices A, B, and C use division, addition, or subtraction instead of multiplying by the rate. Choice <strong>D</strong> is correct."
+      "content": "Choice D, $m(x)=5.7x$, matches the rate and the units: minutes per mile times miles equals minutes. Choices A, B, and C use division, addition, or subtraction instead of multiplying by the rate. Choice <strong>D</strong> is correct."
     }
   ]
 }

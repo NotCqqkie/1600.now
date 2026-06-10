@@ -13,10 +13,7 @@
     },
     {
       "title": "Compute the answer",
-      "content": "The minimum occurs at $x = -7$. The answer is <strong>-7</strong>.",
-      "desmosExpressions": [
-        "f(x)=((x+7))^(2)+4"
-      ]
+      "content": "The minimum occurs at $x = -7$. The answer is <strong>-7</strong>."
     }
   ]
 }

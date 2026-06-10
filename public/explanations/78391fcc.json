@@ -4,22 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fit the table in Desmos",
-      "content": "This is a linear table, so the fastest route is to enter all four points and run $y_1 \\sim m x_1+b$. Desmos returns $m=-3$ and $b=-12$, so $f(x)=-3x-12$.",
-      "desmosExpressions": [
-        "x_1=[-11,-10,-9,-8]",
-        "y_1=[21,18,15,12]",
-        "y_1~m x_1+b",
-        "y=m x+b"
-      ]
+      "title": "Use the data directly",
+      "content": "This is a linear table. As $x$ increases by $1$, $y$ decreases by $3$, so the slope is $m=-3$. Use the point $(-8,12)$ in $f(x)=-3x+b$: $$12=-3(-8)+b$$ $$12=24+b$$ $$b=-12$$ Therefore $$f(x)=-3x-12$$"
     },
     {
       "title": "Find the x-intercept",
-      "content": "The $x$-intercept is where $f(x)=0$. Set $-3x-12=0$, which gives $-3x=12$ and $x=-4$. So the intercept is $(-4,0)$.",
-      "desmosExpressions": [
-        "y=-3x-12",
-        "(-4,0)"
-      ]
+      "content": "The $x$-intercept is where $f(x)=0$. Set $-3x-12=0$, which gives $-3x=12$ and $x=-4$. So the intercept is $(-4,0)$."
     },
     {
       "title": "Check the choices",

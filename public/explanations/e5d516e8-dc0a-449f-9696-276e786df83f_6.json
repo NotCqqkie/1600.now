@@ -9,11 +9,7 @@
     },
     {
       "title": "Find the value of $x + y$",
-      "content": "Then $x+y=18+(-15)=3$. That matches choice <strong>C</strong> — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y = \\frac{\\frac{5}{2}x - 48}{\\frac{1}{5}}",
-        "y = \\frac{-12 - x}{2}"
-      ]
+      "content": "Then $x+y=18+(-15)=3$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."
     },
     {
       "title": "Confirm the answer",

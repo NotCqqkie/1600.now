@@ -5,17 +5,16 @@
   "steps": [
     {
       "title": "Fit the shown line from two points",
-      "content": "The graph shown is $y=f(x)-11$. Use a Desmos table with two clear points from the graph: $(-1,2)$ and $(0,-2)$. A linear regression gives slope $-4$ and intercept $-2$, so the shown line is $y=-4x-2$.",
+      "content": "The graph shown is $y=f(x)-11$. Use a Desmos table with two clear points from the graph: $(-1,2)$ and $(0,-2)$. A two-point line calculation gives slope $-4$ and intercept $-2$, so the shown line is $y=-4x-2$.",
       "desmosExpressions": [
         "x_1=[-1,0]",
         "y_1=[2,-2]",
-        "y_1~m x_1+b",
         "y=-4x-2"
       ]
     },
     {
       "title": "Write the equation of the graphed line",
-      "content": "The table/regression result gives the equation directly: $$y=-4x-2$$ This is the graph of $y=f(x)-11$, not the graph of $y=f(x)$."
+      "content": "The table/calculated result gives the equation directly: $$y=-4x-2$$ This is the graph of $y=f(x)-11$, not the graph of $y=f(x)$."
     },
     {
       "title": "Solve for f(x) using the given relationship",

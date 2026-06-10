@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Calculate the retail price",
-      "content": "The retail price is 280% of the wholesale price of \\$4.00:<br/>$$2.80 \\times 4.00 = 11.20$$<br/>So the retail price is \\$11.20."
+      "content": "The retail price is $280\\%$ of the wholesale price of &#36;4.00: $$2.80\\times4.00=11.20$$ So the retail price is &#36;11.20."
     },
     {
       "title": "Apply the 80% discount",
-      "content": "An 80% discount means paying the remaining 20% of the retail price:<br/>$$0.20 \\times 11.20 = 2.24$$<br/>The answer is <strong>2.24</strong>."
+      "content": "An $80\\%$ discount means paying the remaining $20\\%$ of the retail price: $$0.20\\times11.20=2.24$$ The discounted price is <strong>2.24</strong> dollars."
     }
   ]
 }

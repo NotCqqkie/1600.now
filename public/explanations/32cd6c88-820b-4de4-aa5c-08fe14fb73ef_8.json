@@ -9,11 +9,7 @@
     },
     {
       "title": "Calculate the mean",
-      "formula": "$$\\text{Mean} = \\frac{\\text{sum}}{\\text{number of values}}$$",
-      "content": "Divide the total time by the number of tasks:<br/>$$\\text{Mean}=\\frac{50}{5}=10$$<br/>Desmos can compute the same value directly from the table list. That matches choice B, so <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "\\operatorname{mean}\\left([8,6,14,11,11]\\right)"
-      ]
+      "content": "Divide the total time by the number of tasks:<br/>$$\\text{Mean}=\\frac{50}{5}=10$$<br/>That matches choice B, so <strong>B</strong> is correct."
     }
   ]
 }

@@ -13,11 +13,7 @@
     },
     {
       "title": "Compute the requested value",
-      "content": "Square side $= 2r = 16$, so perimeter $= 4 \\times 16 = 64$. That matches choice <strong>C</strong> — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "x^2 - 6x + y^2 - 4y - 51 = 0",
-        "(x-3)^2 + (y-2)^2 = 64"
-      ]
+      "content": "Square side $= 2r = 16$, so perimeter $= 4 \\times 16 = 64$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."
     }
   ]
 }

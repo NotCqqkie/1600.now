@@ -13,11 +13,7 @@
     },
     {
       "title": "Test each choice",
-      "content": "<ul><li><strong>A)</strong> $g(x)=3x^5+9$: adds 9 to the output &mdash; a vertical shift up by 9. &check;</li><li><strong>B)</strong> $g(x)=3x^5-9$: subtracts 9, which shifts down by 9. Eliminate.</li><li><strong>C)</strong> $g(x)=3x^{45}$: changes the exponent &mdash; not a shift at all. Eliminate.</li><li><strong>D)</strong> $g(x)=27x^5$: a vertical stretch, not a shift. Eliminate.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y=3x^5",
-        "y=3x^5+9"
-      ]
+      "content": "<ul><li><strong>A)</strong> $g(x)=3x^5+9$: adds 9 to the output &mdash; a vertical shift up by 9. &check;</li><li><strong>B)</strong> $g(x)=3x^5-9$: subtracts 9, which shifts down by 9. Eliminate.</li><li><strong>C)</strong> $g(x)=3x^{45}$: changes the exponent &mdash; not a shift at all. Eliminate.</li><li><strong>D)</strong> $g(x)=27x^5$: a vertical stretch, not a shift. Eliminate.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

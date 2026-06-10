@@ -9,11 +9,7 @@
     },
     {
       "title": "Find the x-intercept",
-      "content": "Set $y = 0$ in the equation $9x - 10y = 59$:<br/>$$9x = 59$$<br/>$$x = \\frac{59}{9}$$",
-      "desmosExpressions": [
-        "9x-10y=19",
-        "9x-10y=59"
-      ]
+      "content": "Set $y = 0$ in the equation $9x - 10y = 59$:<br/>$$9x = 59$$<br/>$$x = \\frac{59}{9}$$"
     }
   ]
 }

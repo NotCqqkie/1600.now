@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Identify the angle relationship",
-      "content": "Lines $m$ and $n$ are parallel, and line $t$ is a transversal cutting through both.<br/><br/>At the intersection of $t$ and line $m$, an angle of $134°$ is marked on the left side below the line.<br/><br/>At the intersection of $t$ and line $n$, angle $w°$ is marked on the left side above the line.<br/><br/>Since both marked angles are on the same side of the transversal and both lie in the interior region between the parallel lines, they are <strong>co-interior angles</strong> (also called consecutive interior angles or same-side interior angles)."
+      "content": "Lines $m$ and $n$ are parallel, and line $t$ is a transversal. The marked $134°$ angle and the marked $w°$ angle are in matching positions relative to the transversal and the two parallel lines, so they are corresponding angles."
     },
     {
-      "title": "Apply the co-interior angle property",
-      "content": "When a transversal crosses two parallel lines, co-interior angles are supplementary — they sum to $180°$. Setting up the equation:\n$$134° + w° = 180°$$\nSolving for $w$:\n$$w° = 180° - 134° = 46°$$"
+      "title": "Use corresponding angles",
+      "content": "Corresponding angles formed by a transversal cutting parallel lines have equal measures. Therefore, $w° = 134°$, so $w = 134$."
     },
     {
-      "title": "Find the exterior angle",
-      "content": "The angle we calculated ($46°$) is the interior angle at line $n$.<br/><br/>However, angle $w$ as marked in the diagram may represent the <strong>exterior angle</strong> on the other side of line $n$ from the $46°$ interior angle.<br/><br/>This exterior angle is supplementary to the $46°$ interior angle:\n$$w° = 180° - 46° = 134°$$\nThat matches choice D — <strong>D</strong> is correct."
+      "title": "Confirm the choice",
+      "content": "The answer choice with $134$ is choice D, so <strong>D</strong> is correct."
     }
   ]
 }

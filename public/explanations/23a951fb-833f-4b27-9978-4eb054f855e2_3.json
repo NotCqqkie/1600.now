@@ -9,11 +9,7 @@
     },
     {
       "title": "Compute the target value",
-      "content": "So $56x = 7 \\cdot 9 = 63$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The final check is to match the computed result to the answer choices. The value or equation found above matches choice C, 63. The other choices do not satisfy the same condition from the question, so <strong>C</strong> is correct."
+      "content": "So $56x = 7 \\cdot 9 = 63$. That matches choice <strong>C</strong> — <strong>C</strong> is correct.<br/><br/>This shortcut avoids solving for $x$ first; since the target expression is exactly 7 times the given expression, scale the known value instead."
     }
   ]
 }

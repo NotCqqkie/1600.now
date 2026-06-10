@@ -9,8 +9,7 @@
     },
     {
       "title": "Calculate the range",
-      "content": "Subtract the minimum from the maximum: $$20 - 4 = 16$$",
-      "formula": "$$\\text{Range} = \\text{Maximum} - \\text{Minimum}$$"
+      "content": "Subtract the minimum from the maximum: $$20 - 4 = 16$$"
     },
     {
       "title": "Confirm the answer",

@@ -13,11 +13,7 @@
     },
     {
       "title": "Sum the roots",
-      "content": "$$a + b + c = (-5) + (-4) + 0 = -9$$<br/>That matches choice B — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "f(x)=(x+6)(x+5)(x+1)",
-        "g(x)=f(x-1)"
-      ]
+      "content": "$$a + b + c = (-5) + (-4) + 0 = -9$$<br/>That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

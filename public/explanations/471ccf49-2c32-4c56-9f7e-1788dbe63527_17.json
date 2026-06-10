@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the surface area equation",
-      "content": "The surface area formula for a cylinder is $SA = 2\\pi r^2 + 2\\pi rh$. Given that $h = r + 6$ and $SA = 1080\\pi$, substitute these values:<br/>$$1080\\pi = 2\\pi r^2 + 2\\pi r(r+6)$$"
+      "title": "Test the answer choice shortcut",
+      "content": "The question is multiple choice, and the choices are possible radius values. Start with choice A, $r=15$. Since the height is $6$ more than the radius, $h=15+6=21$."
     },
     {
-      "title": "Simplify to a quadratic equation",
-      "content": "Divide both sides by $2\\pi$:<br/>$$540 = r^2 + r(r+6)$$<br/>Expand and combine:<br/>$$540 = r^2 + r^2 + 6r = 2r^2 + 6r$$<br/>Divide by 2 and rearrange:<br/>$$r^2 + 3r - 270 = 0$$"
+      "title": "Check the surface area",
+      "content": "A cylinder's surface area is $2\\pi r^2+2\\pi rh$. Substitute $r=15$ and $h=21$:<br/>$$2\\pi(15^2)+2\\pi(15)(21)=450\\pi+630\\pi=1080\\pi$$"
     },
     {
-      "title": "Factor and solve for radius",
-      "content": "Find two numbers that multiply to $-270$ and add to $3$. These are $18$ and $-15$, giving:<br/>$$(r+18)(r-15) = 0$$<br/>So $r = -18$ or $r = 15$. Since radius must be positive, $r = 15$. That matches choice A — <strong>A</strong> is correct."
+      "title": "Confirm the answer",
+      "content": "The tested radius produces exactly the given surface area, so $r=15$. That matches choice <strong>A</strong>."
     }
   ]
 }

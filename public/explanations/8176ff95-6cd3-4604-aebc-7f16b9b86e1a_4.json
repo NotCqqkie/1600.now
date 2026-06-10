@@ -12,18 +12,12 @@
       ]
     },
     {
-      "title": "Use linear regression",
-      "content": "Type $y_1\\sim m x_1+b$. Desmos returns $m=\\frac{5}{11}$ and $b=0$, so $h(x)=\\frac{5}{11}x$.",
-      "desmosExpressions": [
-        "x_1=[0,11]",
-        "y_1=[0,5]",
-        "y_1~m x_1+b",
-        "y=\\frac{5}{11}x"
-      ]
+      "title": "Find the line from the data",
+      "content": "The slope is $$m=\\frac{5-0}{11-0}=\\frac{5}{11}$$ Since the line passes through $(0,0)$, the intercept is $b=0$. Therefore $$h(x)=\\frac{5}{11}x$$"
     },
     {
       "title": "Confirm the choice",
-      "content": "Choice A matches the regression equation. It also checks directly: $h(0)=0$ and $h(11)=\\frac{5}{11}(11)=5$, so choice <strong>A</strong> is correct."
+      "content": "Choice A matches the equation. It also checks directly: $h(0)=0$ and $h(11)=\\frac{5}{11}(11)=5$, so choice <strong>A</strong> is correct."
     }
   ]
 }

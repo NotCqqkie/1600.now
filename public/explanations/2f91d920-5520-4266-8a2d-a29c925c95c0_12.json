@@ -9,10 +9,7 @@
     },
     {
       "title": "Find the mass per M-type star using the x-intercept",
-      "content": "At the $x$-intercept, all $132{,}778$ quettagrams come from M-type stars only because $y=0$. If each M-type star has mass $m$, then $$160m=132{,}778.$$ So $$m=\\frac{132{,}778}{160}=829.8625.$$",
-      "desmosExpressions": [
-        "132778/160"
-      ]
+      "content": "At the $x$-intercept, all $132{,}778$ quettagrams come from M-type stars only because $y=0$. If each M-type star has mass $m$, then $$160m=132{,}778.$$ So $$m=\\frac{132{,}778}{160}=829.8625.$$"
     },
     {
       "title": "Confirm the choice",

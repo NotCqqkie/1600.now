@@ -5,21 +5,11 @@
   "steps": [
     {
       "title": "Turn the wording into two points",
-      "content": "A fast Desmos setup is to enter the initial value and one next value. The problem gives $(0,70)$. A $50\\%$ increase means multiply by $1.50$, so when $x=1$, $y=70(1.50)=105$.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[70,105]"
-      ]
+      "content": "The problem gives the initial value $(0,70)$. A $50\\%$ increase means multiply by $1.50$, so when $x=1$, $$y=70(1.50)=105.$$"
     },
     {
-      "title": "Fit the exponential model",
-      "content": "Use the custom regression $y_1\\sim a b^{x_1}$. Desmos returns $a=70$ and $b=1.50$, so the equation is $y=70(1.50)^x$.",
-      "desmosExpressions": [
-        "x_1=[0,1]",
-        "y_1=[70,105]",
-        "y_1~a b^{x_1}",
-        "y=70(1.50)^x"
-      ]
+      "title": "Find the exponential model",
+      "content": "An exponential model has the form $y=a(b)^x$. The starting value is $a=70$, and the growth multiplier is $b=1.50$, so $$y=70(1.50)^x.$$"
     },
     {
       "title": "Confirm the answer",

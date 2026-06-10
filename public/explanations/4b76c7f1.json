@@ -14,11 +14,7 @@
     },
     {
       "title": "Final Answer",
-      "content": "The system becomes identical lines only when <em>a = 36</em>. That matches choice C — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "y = (9 - 2x)/7",
-        "y = (36 - 8x)/28"
-      ]
+      "content": "The system becomes identical lines only when <em>a = 36</em>. That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }
