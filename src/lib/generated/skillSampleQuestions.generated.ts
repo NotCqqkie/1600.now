@@ -144,29 +144,29 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "correctAnswer": "B"
     },
     {
-      "id": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_10",
+      "id": "11ee667b-8898-4917-b74e-33237205e2ef_4",
       "difficulty": "Easy",
-      "testName": "October 2024 US Form C SAT Math Module 2",
-      "text": "Which equation defines the linear function $f$?",
+      "testName": "March 2025 International Form E SAT Math Module 1",
+      "text": "$f(x) = 8(2x + 2)$. For what value of $x$ does $f(x) = 80$?",
       "choices": [
         {
           "id": "A",
-          "text": "$f(x)=-15x -11$"
+          "text": "4"
         },
         {
           "id": "B",
-          "text": "$f(x)=-4x +9$"
+          "text": "6"
         },
         {
           "id": "C",
-          "text": "$f(x)=-15x+9$"
+          "text": "10"
         },
         {
           "id": "D",
-          "text": "$f(x)=-4x-11$"
+          "text": "39"
         }
       ],
-      "correctAnswer": "B"
+      "correctAnswer": "A"
     }
   ],
   "linear-equations-two-variables": [
