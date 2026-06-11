@@ -299,7 +299,7 @@ export const TransparentAwareImage = ({
   return (
     <span
       className={cn(
-        "inline-flex max-w-full justify-center",
+        "inline-flex max-w-full min-w-0 box-border justify-center",
         hasTransparency && "dark:rounded-md dark:bg-white dark:p-2",
         wrapperClassName
       )}

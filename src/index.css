@@ -953,3 +953,214 @@ body.tour-active aside[data-tour="sidebar"] a[data-tour^="nav-"] {
     color 600ms cubic-bezier(0.22, 1, 0.36, 1),
     box-shadow 600ms cubic-bezier(0.22, 1, 0.36, 1) !important;
 }
+
+.question-image-size {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: min(100%, var(--question-image-max-width, 100%));
+  max-height: var(--question-image-max-height, none);
+  object-fit: contain;
+}
+
+.question-image-bank.question-image-math.question-image-compact {
+  --question-image-max-width: 340px;
+  --question-image-max-height: 240px;
+}
+
+.question-image-bank.question-image-math.question-image-standard {
+  --question-image-max-width: 560px;
+  --question-image-max-height: 320px;
+}
+
+.question-image-bank.question-image-math.question-image-wide {
+  --question-image-max-width: 720px;
+  --question-image-max-height: 280px;
+}
+
+.question-image-bank.question-image-math.question-image-large {
+  --question-image-max-width: 640px;
+  --question-image-max-height: 380px;
+}
+
+.question-image-bank.question-image-math.question-image-tall {
+  --question-image-max-width: 560px;
+  --question-image-max-height: 420px;
+}
+
+.question-image-bank.question-image-math.question-image-xlarge {
+  --question-image-max-width: 720px;
+  --question-image-max-height: 420px;
+}
+
+.question-image-bank.question-image-reading.question-image-compact {
+  --question-image-max-width: 340px;
+  --question-image-max-height: 240px;
+}
+
+.question-image-bank.question-image-reading.question-image-standard {
+  --question-image-max-width: 600px;
+  --question-image-max-height: 340px;
+}
+
+.question-image-bank.question-image-reading.question-image-wide {
+  --question-image-max-width: 720px;
+  --question-image-max-height: 300px;
+}
+
+.question-image-bank.question-image-reading.question-image-large {
+  --question-image-max-width: 680px;
+  --question-image-max-height: 400px;
+}
+
+.question-image-bank.question-image-reading.question-image-tall {
+  --question-image-max-width: 600px;
+  --question-image-max-height: 460px;
+}
+
+.question-image-bank.question-image-reading.question-image-xlarge {
+  --question-image-max-width: 760px;
+  --question-image-max-height: 500px;
+}
+
+.question-image-relaxed.question-image-math.question-image-compact {
+  --question-image-max-width: 420px;
+  --question-image-max-height: 300px;
+}
+
+.question-image-relaxed.question-image-math.question-image-standard {
+  --question-image-max-width: 680px;
+  --question-image-max-height: 380px;
+}
+
+.question-image-relaxed.question-image-math.question-image-wide {
+  --question-image-max-width: 900px;
+  --question-image-max-height: 340px;
+}
+
+.question-image-relaxed.question-image-math.question-image-large {
+  --question-image-max-width: 820px;
+  --question-image-max-height: 460px;
+}
+
+.question-image-relaxed.question-image-math.question-image-tall {
+  --question-image-max-width: 100%;
+  --question-image-max-height: 520px;
+}
+
+.question-image-relaxed.question-image-math.question-image-xlarge {
+  --question-image-max-width: 940px;
+  --question-image-max-height: 620px;
+}
+
+.question-image-relaxed.question-image-reading.question-image-compact {
+  --question-image-max-width: 420px;
+  --question-image-max-height: 300px;
+}
+
+.question-image-relaxed.question-image-reading.question-image-standard {
+  --question-image-max-width: 680px;
+  --question-image-max-height: 420px;
+}
+
+.question-image-relaxed.question-image-reading.question-image-wide {
+  --question-image-max-width: 900px;
+  --question-image-max-height: 360px;
+}
+
+.question-image-relaxed.question-image-reading.question-image-large {
+  --question-image-max-width: 820px;
+  --question-image-max-height: 500px;
+}
+
+.question-image-relaxed.question-image-reading.question-image-tall {
+  --question-image-max-width: 100%;
+  --question-image-max-height: 560px;
+}
+
+.question-image-relaxed.question-image-reading.question-image-xlarge {
+  --question-image-max-width: 940px;
+  --question-image-max-height: 640px;
+}
+
+.question-image-review.question-image-compact {
+  --question-image-max-width: 360px;
+  --question-image-max-height: 260px;
+}
+
+.question-image-review.question-image-standard {
+  --question-image-max-width: 640px;
+  --question-image-max-height: 360px;
+}
+
+.question-image-review.question-image-wide {
+  --question-image-max-width: 860px;
+  --question-image-max-height: 320px;
+}
+
+.question-image-review.question-image-large {
+  --question-image-max-width: 760px;
+  --question-image-max-height: 420px;
+}
+
+.question-image-review.question-image-tall {
+  --question-image-max-width: 100%;
+  --question-image-max-height: 500px;
+}
+
+.question-image-review.question-image-xlarge {
+  --question-image-max-width: 900px;
+  --question-image-max-height: 560px;
+}
+
+.question-choice-image.question-choice-image-compact {
+  --question-image-max-width: 180px;
+  --question-image-max-height: 180px;
+}
+
+.question-choice-image.question-choice-image-standard {
+  --question-image-max-width: 100%;
+  --question-image-max-height: 300px;
+}
+
+.question-choice-image.question-choice-image-wide {
+  --question-image-max-width: 420px;
+  --question-image-max-height: 150px;
+}
+
+.question-choice-image.question-choice-image-large,
+.question-choice-image.question-choice-image-tall {
+  --question-image-max-width: 100%;
+  --question-image-max-height: 325px;
+}
+
+.question-choice-image.question-choice-image-xlarge {
+  --question-image-max-width: 100%;
+  --question-image-max-height: 380px;
+}
+
+.question-choice-image-review.question-choice-image-compact {
+  --question-image-max-width: 180px;
+  --question-image-max-height: 156px;
+}
+
+.question-choice-image-review.question-choice-image-standard {
+  --question-image-max-width: 100%;
+  --question-image-max-height: 220px;
+}
+
+.question-choice-image-review.question-choice-image-wide {
+  --question-image-max-width: 420px;
+  --question-image-max-height: 150px;
+}
+
+.question-choice-image-review.question-choice-image-large,
+.question-choice-image-review.question-choice-image-tall {
+  --question-image-max-width: 100%;
+  --question-image-max-height: 275px;
+}
+
+.question-choice-image-review.question-choice-image-xlarge {
+  --question-image-max-width: 100%;
+  --question-image-max-height: 300px;
+}

@@ -752,6 +752,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     if (previewEmbed && currentQuestion) previewEmbed.onReady?.();
   }, [currentQuestion, previewEmbed]);
   const isBankQuestionView = isBank && !modulePracticeSlug && !practiceTestSetId;
+  const usesTransientQuestionAnswerUi = is100Hard || isBankQuestionView;
   const currentBankQuestion = !is100Hard && isBankQuestionWithUuid(currentQuestion) && currentQuestion.similarityGroupId
     ? currentQuestion
     : null;
@@ -1534,7 +1535,16 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     }
 
     const state = getQuestionUiState(localStateKey, uid);
-    if (isBankQuestionView) {
+    if (usesTransientQuestionAnswerUi) {
+      const storedStatus = state.status || "unanswered";
+      if (state.answer !== undefined || state.checkedAnswers !== undefined || state.attemptCount !== undefined) {
+        saveQuestionUiState(
+          localStateKey,
+          getNavigationOnlyQuestionUiPatch(storedStatus),
+          uid,
+          { notify: false },
+        );
+      }
       setSelectedAnswer("");
       setFreeResponseAnswer("");
       setCheckedAnswers({});
@@ -1558,7 +1568,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     }
     setAttemptCount(state.attemptCount || Object.keys(state.checkedAnswers || {}).length);
     setStruckOutChoiceIds([]);
-  }, [currentQuestion, isAssessmentMode, isBankQuestionView, localStateKey, questionNumber, readModulePracticeQuestionState, uid]);
+  }, [currentQuestion, isAssessmentMode, localStateKey, questionNumber, readModulePracticeQuestionState, uid, usesTransientQuestionAnswerUi]);
 
   useEffect(() => {
     if (checkButtonState === "idle") {
@@ -2106,7 +2116,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
         }
         saveQuestionUiState(
           localStateKey,
-          isBankQuestionView
+          usesTransientQuestionAnswerUi
             ? getNavigationOnlyQuestionUiPatch(status)
             : {
                 answer: userAnswer,
@@ -2137,7 +2147,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
         }
         saveQuestionUiState(
           localStateKey,
-          isBankQuestionView
+          usesTransientQuestionAnswerUi
             ? getNavigationOnlyQuestionUiPatch(status)
             : {
                 answer: userAnswer,
@@ -2158,12 +2168,12 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     currentQuestion,
     freeResponseAnswer,
     isAssessmentMode,
-    isBankQuestionView,
     isEmbed,
     localStateKey,
     persistModulePracticeQuestionState,
     selectedAnswer,
     uid,
+    usesTransientQuestionAnswerUi,
   ]);
 
   useEffect(() => {
@@ -2239,7 +2249,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
               const storedStatus = getStoredQuestionUiStatus(localStateKey, uid);
               saveQuestionUiState(
                 localStateKey,
-                isBankQuestionView
+                usesTransientQuestionAnswerUi
                   ? getNavigationOnlyQuestionUiPatch(
                       isCheckedQuestionStatus(storedStatus)
                         ? storedStatus
@@ -2270,10 +2280,10 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     isModulePracticeMode,
     isAssessmentMode,
     assessmentAllowsChecking,
-    isBankQuestionView,
     localStateKey,
     persistModulePracticeQuestionState,
     uid,
+    usesTransientQuestionAnswerUi,
   ]);
 
   const hasSelection = currentQuestion
@@ -2682,7 +2692,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     const storedStatus = getStoredQuestionUiStatus(localStateKey, uid);
     saveQuestionUiState(
       localStateKey,
-      isBankQuestionView
+      usesTransientQuestionAnswerUi
         ? getNavigationOnlyQuestionUiPatch(
             isCheckedQuestionStatus(storedStatus)
               ? storedStatus
@@ -2714,7 +2724,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       const storedStatus = getStoredQuestionUiStatus(localStateKey, uid);
       saveQuestionUiState(
         localStateKey,
-        isBankQuestionView
+        usesTransientQuestionAnswerUi
           ? getNavigationOnlyQuestionUiPatch(
               isCheckedQuestionStatus(storedStatus)
                 ? storedStatus
@@ -3233,6 +3243,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                   renderHiddenAnswerChoices()
                 ) : currentQuestion.type === 'multiple-choice' && currentQuestion.choices ? (
                   <MultipleChoiceQuestion
+                    key={localStateKey}
                     choices={currentQuestion.choices}
                     selectedAnswer={selectedAnswer}
                     onAnswerChange={handleAnswerSelectionChange}
@@ -3247,6 +3258,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                   <div className="space-y-3">
                     <label className="text-sm font-medium text-foreground">Your Answer:</label>
                     <Input
+                      key={localStateKey}
                       type="text"
                       value={freeResponseAnswer}
                       onChange={(e) => handleFreeResponseChange(e.target.value)}
@@ -3329,6 +3341,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                 renderHiddenAnswerChoices()
               ) : currentQuestion.type === 'multiple-choice' && currentQuestion.choices ? (
                 <MultipleChoiceQuestion
+                  key={localStateKey}
                   choices={currentQuestion.choices}
                   selectedAnswer={selectedAnswer}
                   onAnswerChange={handleAnswerSelectionChange}
@@ -3344,6 +3357,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                 <div className="space-y-3">
                   <label className="text-sm font-medium text-foreground">Your Answer:</label>
                   <Input
+                    key={localStateKey}
                     type="text"
                     value={freeResponseAnswer}
                     onChange={(e) => handleFreeResponseChange(e.target.value)}

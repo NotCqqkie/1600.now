@@ -4,67 +4,67 @@ type QuestionImageSubject = "math" | "reading";
 
 const questionImageClassNames: Record<QuestionImageSubject, Record<QuestionImageDisplaySize, string>> = {
   math: {
-    compact: "question-image-size min-w-[260px] max-w-full sm:max-w-[360px] max-h-[260px]",
-    standard: "question-image-size max-w-full sm:max-w-[640px] max-h-[360px]",
-    wide: "question-image-size max-w-full sm:max-w-[860px] max-h-[320px]",
-    large: "question-image-size max-w-full sm:max-w-[760px] max-h-[420px]",
-    tall: "question-image-size max-w-full max-h-[460px]",
-    xlarge: "question-image-size max-w-full sm:max-w-[900px] max-h-[560px]",
+    compact: "question-image-size question-image-bank question-image-math question-image-compact",
+    standard: "question-image-size question-image-bank question-image-math question-image-standard",
+    wide: "question-image-size question-image-bank question-image-math question-image-wide",
+    large: "question-image-size question-image-bank question-image-math question-image-large",
+    tall: "question-image-size question-image-bank question-image-math question-image-tall",
+    xlarge: "question-image-size question-image-bank question-image-math question-image-xlarge",
   },
   reading: {
-    compact: "question-image-size min-w-[260px] max-w-full sm:max-w-[360px] max-h-[260px]",
-    standard: "question-image-size max-w-full sm:max-w-[640px] max-h-[360px]",
-    wide: "question-image-size max-w-full sm:max-w-[860px] max-h-[320px]",
-    large: "question-image-size max-w-full sm:max-w-[760px] max-h-[420px]",
-    tall: "question-image-size max-w-full max-h-[500px]",
-    xlarge: "question-image-size max-w-full sm:max-w-[900px] max-h-[560px]",
+    compact: "question-image-size question-image-bank question-image-reading question-image-compact",
+    standard: "question-image-size question-image-bank question-image-reading question-image-standard",
+    wide: "question-image-size question-image-bank question-image-reading question-image-wide",
+    large: "question-image-size question-image-bank question-image-reading question-image-large",
+    tall: "question-image-size question-image-bank question-image-reading question-image-tall",
+    xlarge: "question-image-size question-image-bank question-image-reading question-image-xlarge",
   },
 };
 
 const relaxedQuestionImageClassNames: Record<QuestionImageSubject, Record<QuestionImageDisplaySize, string>> = {
   math: {
-    compact: "question-image-size min-w-[280px] max-w-full sm:max-w-[420px] max-h-[300px]",
-    standard: "question-image-size max-w-full sm:max-w-[680px] max-h-[380px]",
-    wide: "question-image-size max-w-full sm:max-w-[900px] max-h-[340px]",
-    large: "question-image-size max-w-full sm:max-w-[820px] max-h-[460px]",
-    tall: "question-image-size max-w-full max-h-[520px]",
-    xlarge: "question-image-size max-w-full sm:max-w-[940px] max-h-[620px]",
+    compact: "question-image-size question-image-relaxed question-image-math question-image-compact",
+    standard: "question-image-size question-image-relaxed question-image-math question-image-standard",
+    wide: "question-image-size question-image-relaxed question-image-math question-image-wide",
+    large: "question-image-size question-image-relaxed question-image-math question-image-large",
+    tall: "question-image-size question-image-relaxed question-image-math question-image-tall",
+    xlarge: "question-image-size question-image-relaxed question-image-math question-image-xlarge",
   },
   reading: {
-    compact: "question-image-size min-w-[280px] max-w-full sm:max-w-[420px] max-h-[300px]",
-    standard: "question-image-size max-w-full sm:max-w-[680px] max-h-[420px]",
-    wide: "question-image-size max-w-full sm:max-w-[900px] max-h-[360px]",
-    large: "question-image-size max-w-full sm:max-w-[820px] max-h-[500px]",
-    tall: "question-image-size max-w-full max-h-[560px]",
-    xlarge: "question-image-size max-w-full sm:max-w-[940px] max-h-[640px]",
+    compact: "question-image-size question-image-relaxed question-image-reading question-image-compact",
+    standard: "question-image-size question-image-relaxed question-image-reading question-image-standard",
+    wide: "question-image-size question-image-relaxed question-image-reading question-image-wide",
+    large: "question-image-size question-image-relaxed question-image-reading question-image-large",
+    tall: "question-image-size question-image-relaxed question-image-reading question-image-tall",
+    xlarge: "question-image-size question-image-relaxed question-image-reading question-image-xlarge",
   },
 };
 
 const reviewQuestionImageClassNames: Record<QuestionImageDisplaySize, string> = {
-  compact: "question-image-size min-w-[260px] max-h-[260px] max-w-full sm:max-w-[360px]",
-  standard: "question-image-size max-h-[360px] max-w-full sm:max-w-[640px]",
-  wide: "question-image-size max-h-[320px] max-w-full sm:max-w-[860px]",
-  large: "question-image-size max-h-[420px] max-w-full sm:max-w-[760px]",
-  tall: "question-image-size max-h-[500px] max-w-full",
-  xlarge: "question-image-size max-h-[560px] max-w-full sm:max-w-[900px]",
+  compact: "question-image-size question-image-review question-image-compact",
+  standard: "question-image-size question-image-review question-image-standard",
+  wide: "question-image-size question-image-review question-image-wide",
+  large: "question-image-size question-image-review question-image-large",
+  tall: "question-image-size question-image-review question-image-tall",
+  xlarge: "question-image-size question-image-review question-image-xlarge",
 };
 
 const choiceImageClassNames: Record<QuestionImageDisplaySize, string> = {
-  compact: "question-image-size w-[180px] max-w-full max-h-[180px]",
-  standard: "question-image-size w-auto max-w-full max-h-[260px] sm:max-h-[300px]",
-  wide: "question-image-size w-auto max-w-full sm:max-w-[420px] max-h-[150px]",
-  large: "question-image-size w-auto max-w-full max-h-[300px] sm:max-h-[325px]",
-  tall: "question-image-size w-auto max-w-full max-h-[300px] sm:max-h-[325px]",
-  xlarge: "question-image-size w-auto max-w-full max-h-[325px] sm:max-h-[380px]",
+  compact: "question-image-size question-choice-image question-choice-image-compact",
+  standard: "question-image-size question-choice-image question-choice-image-standard",
+  wide: "question-image-size question-choice-image question-choice-image-wide",
+  large: "question-image-size question-choice-image question-choice-image-large",
+  tall: "question-image-size question-choice-image question-choice-image-tall",
+  xlarge: "question-image-size question-choice-image question-choice-image-xlarge",
 };
 
 const reviewChoiceImageClassNames: Record<QuestionImageDisplaySize, string> = {
-  compact: "question-image-size w-[180px] max-w-full max-h-[156px]",
-  standard: "question-image-size max-h-[220px]",
-  wide: "question-image-size max-w-full sm:max-w-[420px] max-h-[150px]",
-  large: "question-image-size max-h-[275px]",
-  tall: "question-image-size max-h-[275px]",
-  xlarge: "question-image-size max-h-[300px]",
+  compact: "question-image-size question-choice-image-review question-choice-image-compact",
+  standard: "question-image-size question-choice-image-review question-choice-image-standard",
+  wide: "question-image-size question-choice-image-review question-choice-image-wide",
+  large: "question-image-size question-choice-image-review question-choice-image-large",
+  tall: "question-image-size question-choice-image-review question-choice-image-tall",
+  xlarge: "question-image-size question-choice-image-review question-choice-image-xlarge",
 };
 
 export const getQuestionImageClassName = (
