@@ -12,9 +12,12 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
 const dist = path.join(root, "dist");
 const PREFERRED_PORT = Number(process.env.PRERENDER_PORT ?? 4173);
-const PRERENDER_CONCURRENCY = Number(process.env.PRERENDER_CONCURRENCY ?? 4);
+const PRERENDER_CONCURRENCY = Number(process.env.PRERENDER_CONCURRENCY ?? 1);
 const PRERENDER_RETRY_CONCURRENCY = Number(process.env.PRERENDER_RETRY_CONCURRENCY ?? 1);
 const PRERENDER_ATTEMPTS = Number(process.env.PRERENDER_ATTEMPTS ?? 3);
+const PRERENDER_BROWSER_ROUTE_LIMIT = Number(process.env.PRERENDER_BROWSER_ROUTE_LIMIT ?? 25);
+const PRERENDER_NAVIGATION_TIMEOUT_MS = Number(process.env.PRERENDER_NAVIGATION_TIMEOUT_MS ?? 60000);
+const PRERENDER_READY_TIMEOUT_MS = Number(process.env.PRERENDER_READY_TIMEOUT_MS ?? 60000);
 
 const MIME = {
   ".html": "text/html; charset=utf-8",
@@ -76,7 +79,7 @@ async function listenServer() {
         };
         server.once("error", onError);
         server.once("listening", onListening);
-        server.listen(port);
+        server.listen(port, "127.0.0.1");
       });
       const address = server.address();
       const actualPort = typeof address === "object" && address ? address.port : port;
@@ -122,18 +125,45 @@ async function main() {
   const launchArgs = process.env.PRERENDER_NO_SANDBOX === "1"
     ? ["--no-sandbox", "--disable-setuid-sandbox", "--disable-gpu", "--disable-dev-shm-usage", "--single-process"]
     : [];
-  const browser = await puppeteer.launch({
-    headless: true,
-    args: launchArgs,
-    protocolTimeout: 180_000,
-  });
+  const launchBrowser = () =>
+    puppeteer.launch({
+      headless: true,
+      args: launchArgs,
+      protocolTimeout: 180_000,
+    });
+
+  const closeBrowser = async (browser) => {
+    const browserProcess = browser.process();
+    if (browser.isConnected()) {
+      await browser.close().catch(() => {});
+    }
+    if (browserProcess && browserProcess.exitCode === null && browserProcess.signalCode === null) {
+      browserProcess.kill("SIGKILL");
+    }
+  };
 
   let done = 0;
 
+  async function preparePage(page) {
+    await page.setRequestInterception(true);
+    page.on("request", (request) => {
+      const requestUrl = request.url();
+      if (
+        requestUrl.startsWith(`http://127.0.0.1:${port}/`) ||
+        requestUrl.startsWith("data:") ||
+        requestUrl.startsWith("blob:")
+      ) {
+        request.continue();
+        return;
+      }
+      request.abort();
+    });
+  }
+
   async function renderRoute(page, route) {
-    await page.goto(`http://localhost:${port}${route}`, {
+    await page.goto(`http://127.0.0.1:${port}${route}`, {
       waitUntil: "domcontentloaded",
-      timeout: 30000,
+      timeout: PRERENDER_NAVIGATION_TIMEOUT_MS,
     });
     await page.waitForFunction(
       () => {
@@ -143,7 +173,7 @@ async function main() {
         const text = root.textContent?.trim() ?? "";
         return text.length > 80 && document.title.trim().length > 0;
       },
-      { timeout: 30000, polling: 100 },
+      { timeout: PRERENDER_READY_TIMEOUT_MS, polling: 100 },
     );
     await page.evaluate(
       () => new Promise((r) => requestAnimationFrame(() => requestAnimationFrame(r))),
@@ -155,36 +185,51 @@ async function main() {
   }
 
   async function runBatch(batchRoutes, concurrency, attempt) {
-    let cursor = 0;
     const failures = [];
 
-    async function worker() {
-      while (true) {
-        const i = cursor++;
-        if (i >= batchRoutes.length) break;
-        const route = batchRoutes[i];
-        let page = null;
-        try {
-          page = await browser.newPage();
-          await page.setViewport({ width: 1280, height: 900 });
-          await renderRoute(page, route);
-          done++;
-          if (done % 25 === 0) console.log(`  ${done}/${routes.length}`);
-        } catch (err) {
-          failures.push({ route, message: err.message });
-          const prefix = attempt === 1 ? "fail" : `fail retry ${attempt}`;
-          console.warn(`  ${prefix} ${route}: ${err.message}`);
-        } finally {
-          if (page) {
-            await page.close().catch(() => {});
+    for (let start = 0; start < batchRoutes.length; start += PRERENDER_BROWSER_ROUTE_LIMIT) {
+      const chunkRoutes = batchRoutes.slice(start, start + PRERENDER_BROWSER_ROUTE_LIMIT);
+      const browser = await launchBrowser();
+      let browserDisconnected = false;
+      browser.on("disconnected", () => {
+        browserDisconnected = true;
+      });
+
+      let cursor = 0;
+
+      async function worker() {
+        while (true) {
+          const i = cursor++;
+          if (i >= chunkRoutes.length) break;
+          const route = chunkRoutes[i];
+          let page = null;
+          try {
+            if (browserDisconnected || !browser.isConnected()) {
+              throw new Error("Browser disconnected");
+            }
+            page = await browser.newPage();
+            await page.setViewport({ width: 1280, height: 900 });
+            await preparePage(page);
+            await renderRoute(page, route);
+            done++;
+            if (done % 25 === 0) console.log(`  ${done}/${routes.length}`);
+          } catch (err) {
+            failures.push({ route, message: err.message });
+            const prefix = attempt === 1 ? "fail" : `fail retry ${attempt}`;
+            console.warn(`  ${prefix} ${route}: ${err.message}`);
+          } finally {
+            if (page) {
+              await page.close().catch(() => {});
+            }
           }
         }
       }
-    }
 
-    await Promise.all(
-      Array.from({ length: Math.min(concurrency, batchRoutes.length) }, () => worker()),
-    );
+      await Promise.all(
+        Array.from({ length: Math.min(concurrency, chunkRoutes.length) }, () => worker()),
+      );
+      await closeBrowser(browser);
+    }
 
     return failures;
   }
@@ -203,7 +248,6 @@ async function main() {
     );
   }
 
-  await browser.close();
   await new Promise((r) => server.close(r));
 
   console.log(`Prerendered ${done} routes (${failures.length} failed).`);

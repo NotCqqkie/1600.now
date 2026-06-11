@@ -1,0 +1,656 @@
+[
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Easy",
+    "question_number": 1,
+    "test_name": "Module Source 200 Math M2",
+    "passage": "Which data value has a frequency of 38 in this data set?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "10"
+      },
+      {
+        "label": "B",
+        "text": "20"
+      },
+      {
+        "label": "C",
+        "text": "30"
+      },
+      {
+        "label": "D",
+        "text": "40"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "301d8663-e49a-4c21-9635-ef2d02614b43_1",
+    "images": [
+      {
+        "src": "/images/SAT-Style%20Questions/301d8663-e49a-4c21-9635-ef2d02614b43_1_q_01_FIX.png",
+        "alt": "",
+        "local": "images/SAT-Style Questions/301d8663-e49a-4c21-9635-ef2d02614b43_1_q_01_FIX.png"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Two-variable data: Models and scatterplots",
+    "difficulty": "Easy",
+    "question_number": 2,
+    "test_name": "Module Source 200 Math M2",
+    "passage": "The scatterplot shows the relationship between the weight, in pounds, of each of 9 pregnant beavers on April 30 and the number of offspring each beaver produced.\nHow many offspring did the 40-pound beaver produce?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "5"
+      },
+      {
+        "label": "B",
+        "text": "6"
+      },
+      {
+        "label": "C",
+        "text": "7"
+      },
+      {
+        "label": "D",
+        "text": "8"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "301d8663-e49a-4c21-9635-ef2d02614b43_2",
+    "images": [
+      {
+        "src": "/images/SAT-Style%20Questions/301d8663-e49a-4c21-9635-ef2d02614b43_2_q_01_FIX.png",
+        "alt": "",
+        "local": "images/SAT-Style Questions/301d8663-e49a-4c21-9635-ef2d02614b43_2_q_01_FIX.png"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Easy",
+    "question_number": 3,
+    "test_name": "Module Source 200 Math M2",
+    "passage": "What value of $p$ satisfies the equation $10p + 55 = 375$?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "32"
+      },
+      {
+        "label": "B",
+        "text": "43"
+      },
+      {
+        "label": "C",
+        "text": "310"
+      },
+      {
+        "label": "D",
+        "text": "375"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "301d8663-e49a-4c21-9635-ef2d02614b43_3"
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Easy",
+    "question_number": 4,
+    "test_name": "Module Source 200 Math M2",
+    "passage": "A customer spent \\$12 to purchase apples at \\$3 per pound. How many pounds of apples did the customer purchase?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "4",
+    "rationale": null,
+    "id": "301d8663-e49a-4c21-9635-ef2d02614b43_4"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
+    "question_number": 5,
+    "test_name": "Module Source 200 Math M2",
+    "passage": "The function $f$ is defined by the equation $f(x) = 100x + 8$. What is the value of $f(x)$ when $x = 3$?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "111"
+      },
+      {
+        "label": "B",
+        "text": "124"
+      },
+      {
+        "label": "C",
+        "text": "300"
+      },
+      {
+        "label": "D",
+        "text": "308"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "301d8663-e49a-4c21-9635-ef2d02614b43_5"
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Easy",
+    "question_number": 6,
+    "test_name": "Module Source 200 Math M2",
+    "passage": "Antonia purchased a box of pasta and some tomatoes at the grocery store. Antonia paid \\$2 for the box of pasta and \\$1.30 per pound for the tomatoes. If Antonia paid a total of \\$7.20 for the box of pasta and the tomatoes, which of the following equations can be used to find $p$, the number of pounds of tomatoes Antonia purchased? (Assume there is no sales tax.)",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$1.30 p + 2 = 7.20$"
+      },
+      {
+        "label": "B",
+        "text": "$1.30 p - 2 = 7.20$"
+      },
+      {
+        "label": "C",
+        "text": "$1.30 + 2 p = 7.20$"
+      },
+      {
+        "label": "D",
+        "text": "$1.30 - 2 p = 7.20$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "301d8663-e49a-4c21-9635-ef2d02614b43_6"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
+    "question_number": 7,
+    "test_name": "Module Source 200 Math M2",
+    "passage": "In the figure, two lines intersect at a point. If $ r = 68 $, what is the value of $ s $?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "68",
+    "rationale": null,
+    "id": "301d8663-e49a-4c21-9635-ef2d02614b43_7",
+    "images": [
+      {
+        "src": "/images/SAT-Style%20Questions/301d8663-e49a-4c21-9635-ef2d02614b43_7_q_01_FIX.png",
+        "alt": "",
+        "local": "images/SAT-Style Questions/301d8663-e49a-4c21-9635-ef2d02614b43_7_q_01_FIX.png"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
+    "question_number": 8,
+    "test_name": "Module Source 200 Math M2",
+    "passage": "Which expression is equivalent to $12ab - 6ab$?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "2"
+      },
+      {
+        "label": "B",
+        "text": "6"
+      },
+      {
+        "label": "C",
+        "text": "$ab$"
+      },
+      {
+        "label": "D",
+        "text": "$6ab$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "301d8663-e49a-4c21-9635-ef2d02614b43_8"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Easy",
+    "question_number": 9,
+    "test_name": "Module Source 200 Math M2",
+    "passage": "$\\sqrt{w} + 37 = 47$\nWhat is the solution to the given equation?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "2"
+      },
+      {
+        "label": "B",
+        "text": "5"
+      },
+      {
+        "label": "C",
+        "text": "20"
+      },
+      {
+        "label": "D",
+        "text": "100"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "301d8663-e49a-4c21-9635-ef2d02614b43_9"
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Two-variable data: Models and scatterplots",
+    "difficulty": "Hard",
+    "question_number": 10,
+    "test_name": "Module Source 200 Math M2",
+    "passage": "The table shows three values of $x$ and their corresponding values of $y$. There is a linear relationship between $x$ and $y$. In the $xy$-plane, what is the $x$-intercept of the graph that represents this relationship?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "($-\\frac{1}{729}$, 0)"
+      },
+      {
+        "label": "B",
+        "text": "(27, 0)"
+      },
+      {
+        "label": "C",
+        "text": "(-27, 0)"
+      },
+      {
+        "label": "D",
+        "text": "(729, 0)"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "301d8663-e49a-4c21-9635-ef2d02614b43_10",
+    "images": [
+      {
+        "src": "/images/SAT-Style%20Questions/301d8663-e49a-4c21-9635-ef2d02614b43_10_q_01_FIX.png",
+        "alt": "",
+        "local": "images/SAT-Style Questions/301d8663-e49a-4c21-9635-ef2d02614b43_10_q_01_FIX.png"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Easy",
+    "question_number": 11,
+    "test_name": "Module Source 200 Math M2",
+    "passage": "The $y$-intercept of the graph of $y = 8x^2 + 59$ is $(0, y)$. What is the value of $y$?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "59",
+    "rationale": null,
+    "id": "301d8663-e49a-4c21-9635-ef2d02614b43_11"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
+    "question_number": 12,
+    "test_name": "Module Source 200 Math M2",
+    "passage": "Which expression is equivalent to $17x^3 + 2x^2 + 7x$?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$x(x^2 + 2x + 7)$"
+      },
+      {
+        "label": "B",
+        "text": "$x(17x^3 + 2x^2 + 1)$"
+      },
+      {
+        "label": "C",
+        "text": "$x(17x^2 + 2x + 7)$"
+      },
+      {
+        "label": "D",
+        "text": "$26(x^3 + x^2 + x)$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "301d8663-e49a-4c21-9635-ef2d02614b43_12"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Easy",
+    "question_number": 13,
+    "test_name": "Module Source 200 Math M2",
+    "passage": "In the $xy$-plane, the graph of the equation $y = 9x$ is translated 8 units down. What is an equation of the resulting graph?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$y = 9x + 8$"
+      },
+      {
+        "label": "B",
+        "text": "$y = 9x - 8$"
+      },
+      {
+        "label": "C",
+        "text": "$y = 9(x + 8)$"
+      },
+      {
+        "label": "D",
+        "text": "$y = 9(x - 8)$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "301d8663-e49a-4c21-9635-ef2d02614b43_13"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
+    "question_number": 14,
+    "test_name": "Module Source 200 Math M2",
+    "passage": "The function $f$ is defined by $f(x) = 3x - \\frac{1}{4}$. What is the $y$-intercept of the graph of $y = f(x)$ in the $xy$-plane?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$(0, -\\frac{1}{4})$"
+      },
+      {
+        "label": "B",
+        "text": "$(0, -3)$"
+      },
+      {
+        "label": "C",
+        "text": "$(0, 3)$"
+      },
+      {
+        "label": "D",
+        "text": "$(0, 4)$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "301d8663-e49a-4c21-9635-ef2d02614b43_14"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
+    "question_number": 15,
+    "test_name": "Module Source 200 Math M2",
+    "passage": "A line passes through the points $ (5, 3) $ and $ (7, 12) $ in the $ xy $-plane. What is the slope of the line?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "4.5",
+    "rationale": null,
+    "id": "301d8663-e49a-4c21-9635-ef2d02614b43_15"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Medium",
+    "question_number": 16,
+    "test_name": "Module Source 200 Math M2",
+    "passage": "$y = 3x$\n$y = x^2 - 28$\nA solution to the given system of equations is $(x, y)$, where $x > 0$. What is the value of $x$?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "7",
+    "rationale": null,
+    "id": "301d8663-e49a-4c21-9635-ef2d02614b43_16"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Easy",
+    "question_number": 17,
+    "test_name": "Module Source 200 Math M2",
+    "passage": "$x^2 + 8x - 60 = 0$\nWhat is the product of the solutions to the given equation?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$-60$"
+      },
+      {
+        "label": "B",
+        "text": "$-15$"
+      },
+      {
+        "label": "C",
+        "text": "$15$"
+      },
+      {
+        "label": "D",
+        "text": "$60$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "301d8663-e49a-4c21-9635-ef2d02614b43_17"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
+    "question_number": 18,
+    "test_name": "Module Source 200 Math M2",
+    "passage": "The relationship between two variables, $x$ and $y$, is linear. For every increase in the value of $x$ by 1, the value of $y$ increases by 9. When the value of $x$ is 2, the value of $y$ is 23. Which equation represents this relationship?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$y = 2x + 23$"
+      },
+      {
+        "label": "B",
+        "text": "$y = 5x + 9$"
+      },
+      {
+        "label": "C",
+        "text": "$y = 9x + 5$"
+      },
+      {
+        "label": "D",
+        "text": "$y = 3x + 32$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "301d8663-e49a-4c21-9635-ef2d02614b43_18"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
+    "question_number": 19,
+    "test_name": "Module Source 200 Math M2",
+    "passage": "In a soccer league, each team earns 1 point for each game the team plays that ends in a draw and 3 points for each game the team wins. A certain team in this league has earned 21 points. Which equation represents this situation, where $d$ represents the number of games this team has played that ended in a draw and $w$ represents the number of games this team has won?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$\\frac{d}{3} + w = 21$"
+      },
+      {
+        "label": "B",
+        "text": "$d + \\frac{w}{3} = 21$"
+      },
+      {
+        "label": "C",
+        "text": "$d + w = 21$"
+      },
+      {
+        "label": "D",
+        "text": "$d + 3w = 21$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "301d8663-e49a-4c21-9635-ef2d02614b43_19"
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "Easy",
+    "question_number": 20,
+    "test_name": "Module Source 200 Math M2",
+    "passage": "An electric vehicle's battery has a charge of 100 kilowatt-hours (kWh) at the beginning of a trip. At the end of this trip, the electric vehicle's battery has 56% of the initial charge remaining. What is the battery's remaining charge, in kWh, at the end of this trip?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "34"
+      },
+      {
+        "label": "B",
+        "text": "44"
+      },
+      {
+        "label": "C",
+        "text": "46"
+      },
+      {
+        "label": "D",
+        "text": "56"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "301d8663-e49a-4c21-9635-ef2d02614b43_20"
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "Easy",
+    "question_number": 21,
+    "test_name": "Module Source 200 Math M2",
+    "passage": "Triangle ABC is shown. What is the value of sin B?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$\\frac{3}{5}$"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{3}{4}$"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{4}{5}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{4}{3}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "301d8663-e49a-4c21-9635-ef2d02614b43_21",
+    "images": [
+      {
+        "src": "/images/SAT-Style%20Questions/301d8663-e49a-4c21-9635-ef2d02614b43_21_q_01_FIX.png",
+        "alt": "",
+        "local": "images/SAT-Style Questions/301d8663-e49a-4c21-9635-ef2d02614b43_21_q_01_FIX.png"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Easy",
+    "question_number": 22,
+    "test_name": "Module Source 200 Math M2",
+    "passage": "$x^{2}-\\frac{64}{25}=0$\nHow many distinct real solutions does the given equation have?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "Zero"
+      },
+      {
+        "label": "B",
+        "text": "Exactly one"
+      },
+      {
+        "label": "C",
+        "text": "Exactly two"
+      },
+      {
+        "label": "D",
+        "text": "Infinitely many"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "301d8663-e49a-4c21-9635-ef2d02614b43_22"
+  }
+]

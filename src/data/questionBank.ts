@@ -514,6 +514,7 @@ const normalizeQuestion = (source: RawBankSource, q: SourceQuestion): Omit<BankQ
   }
 
   const sourceId = String(q.id);
+  const testName = source.bankType === "past" ? source.bankLabel : q.testName || source.bankLabel;
   const stableId = buildBankQuestionKey(source.bankType, subject, sourceId);
   const hiddenFromBank = hiddenBankQuestionIds.has(stableId);
   const similarityGroupId = questionSimilarityGroupByQuestion[stableId] ?? null;
@@ -528,7 +529,7 @@ const normalizeQuestion = (source: RawBankSource, q: SourceQuestion): Omit<BankQ
     subject,
     sourceId,
     questionNumber: source.bankType === "past" ? extractLegacyQuestionNumber(sourceId) : sourceId,
-    testName: q.testName || source.bankLabel,
+    testName,
     prompt,
     passage,
     questionText,

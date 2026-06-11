@@ -702,6 +702,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   );
 
   const idParam = previewEmbed?.id ?? (id || "1");
+  const hasNumericIdParam = /^\d+$/.test(idParam);
   const questionNumber = parseInt(idParam, 10);
   const subject = previewEmbed?.subject ?? ((rawSubject === "math" || rawSubject === "reading" ? rawSubject : "math") as "math" | "reading");
   const isMobile = useIsMobile();
@@ -722,7 +723,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     const question =
       moduleQuestion ??
       sourceQuestionById ??
-      (/^\d+$/.test(idParam) ? getBankQuestion(subject, questionNumber, bankSource) : null);
+      (hasNumericIdParam ? getBankQuestion(subject, questionNumber, bankSource) : null);
 
     if (!question) return null;
     return {
@@ -730,9 +731,23 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       uuid: question.stableId,
     };
 
-  }, [is100Hard, idParam, questionNumber, subject, bankSource, modulePracticeBank, modulePracticeSlug, needsModulePracticeBank, practiceTestSetId, isPracticeMode]);
+  }, [is100Hard, idParam, hasNumericIdParam, questionNumber, subject, bankSource, modulePracticeBank, modulePracticeSlug, needsModulePracticeBank, practiceTestSetId, isPracticeMode]);
   const currentQuestion = questionData;
   const currentQuestionId = currentQuestion?.uuid;
+  const resolvedQuestionNumber = (() => {
+    if (!currentQuestion || is100Hard || !isBankQuestionWithUuid(currentQuestion)) {
+      return questionNumber;
+    }
+
+    if (currentQuestion.id > 0) {
+      return currentQuestion.id;
+    }
+
+    const sourceQuestionNumber = Number.parseInt(String(currentQuestion.questionNumber), 10);
+    return Number.isFinite(sourceQuestionNumber) && sourceQuestionNumber > 0
+      ? sourceQuestionNumber
+      : questionNumber;
+  })();
   useEffect(() => {
     if (previewEmbed && currentQuestion) previewEmbed.onReady?.();
   }, [currentQuestion, previewEmbed]);
@@ -1146,7 +1161,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   useEffect(() => {
     if (effectiveQuestionViewMode !== "horizontal") return;
     setQuestionSplitPosition(getDefaultQuestionSplitPosition(subject));
-  }, [effectiveQuestionViewMode, questionNumber, subject, isBank]);
+  }, [effectiveQuestionViewMode, idParam, subject, isBank]);
 
   useEffect(() => {
     localStorage.setItem(
@@ -1683,14 +1698,14 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   }, [is100Hard, effectivePracticeMode, practiceSet, subject, bankSource]);
 
   const currentOrderedQuestionIndex = useMemo(
-    () => orderedQuestionIds.indexOf(questionNumber),
-    [orderedQuestionIds, questionNumber],
+    () => orderedQuestionIds.indexOf(resolvedQuestionNumber),
+    [orderedQuestionIds, resolvedQuestionNumber],
   );
   const displayQuestionNumber = isPracticeTestMode
     ? practiceTestQuestionNumberInModule || currentPracticeIndex + 1
     : effectivePracticeMode
       ? currentPracticeIndex + 1
-      : questionNumber;
+      : resolvedQuestionNumber;
   const isAtPracticeTestModuleEnd = Boolean(
     isPracticeTestMode &&
       practiceTestCurrentModuleEndIndex >= 0 &&
@@ -2004,7 +2019,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     setGroupedOrderVersion((version) => version + 1);
 
     const nextQuestionId = unansweredItems[0]?.id ?? answeredItems[0]?.id;
-    if (!nextQuestionId || nextQuestionId === questionNumber) return;
+    if (!nextQuestionId || nextQuestionId === resolvedQuestionNumber) return;
 
     if (is100Hard) {
       navigate(`/hard/${nextQuestionId}`);
@@ -2771,13 +2786,13 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
           : "unanswered";
 
       return {
-        key: `${item.subject}-${item.id}`,
+        key: `${item.subject}-${item.sourceId || item.id}-${idx}`,
         label: idx + 1,
         status,
         isFlagged: state.isMarkedForReview,
         isCurrent: idx === currentPracticeIndex,
         onSelect: () => navigateToPracticeIndex(idx),
-        title: `${item.subject === "math" ? "Math" : "Reading"} Q${item.id}`,
+        title: `${item.subject === "math" ? "Math" : "Reading"} Q${idx + 1}`,
       };
     });
   })();
@@ -3374,7 +3389,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
               {!isEmbed && !isAssessmentMode && <PreviousAttemptsDialog attempts={currentProgress.attempts} />}
               {!isEmbed && (is100Hard ? (
                   <BankNavigationSheet
-                    currentQuestion={questionNumber}
+                    currentQuestion={resolvedQuestionNumber}
                     totalQuestions={100}
                     onJump={(qNum) => navigate(`/hard/${qNum}`)}
                     items={orderedNavigationItems}
@@ -3430,7 +3445,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                  )
               ) : (
                  <BankNavigationSheet
-                    currentQuestion={questionNumber}
+                    currentQuestion={resolvedQuestionNumber}
                     totalQuestions={totalQuestions}
                     onJump={(qNum) => {
                        const base = '/bank';

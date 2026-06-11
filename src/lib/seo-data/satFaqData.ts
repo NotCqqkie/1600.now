@@ -23,8 +23,8 @@ export const satFaqPages: SatFaqPage[] = [
         heading: "Testing time breakdown",
         body: ["The Digital SAT is divided into four modules, two per section."],
         list: [
-          "Reading & Writing Module 1 — 32 minutes",
-          "Reading & Writing Module 2 — 32 minutes",
+          "English Module 1 — 32 minutes",
+          "English Module 2 — 32 minutes",
           "10-minute break",
           "Math Module 1 — 35 minutes",
           "Math Module 2 — 35 minutes",
@@ -82,8 +82,8 @@ export const satFaqPages: SatFaqPage[] = [
         heading: "Question count by section",
         body: ["Each section splits into two modules of equal size."],
         list: [
-          "Reading & Writing Module 1 — 27 questions",
-          "Reading & Writing Module 2 — 27 questions",
+          "English Module 1 — 27 questions",
+          "English Module 2 — 27 questions",
           "Math Module 1 — 22 questions",
           "Math Module 2 — 22 questions",
           "Total — 98 questions",

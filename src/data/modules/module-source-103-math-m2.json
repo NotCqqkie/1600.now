@@ -1,0 +1,583 @@
+[
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Medium",
+    "question_number": 1,
+    "test_name": "Module Source 103 Math M2",
+    "passage": "The graph shows the estimated concentration of a certain strain of bacteria, in millions of cells per mL of nutrient medium, over time $x$, in minutes since the initial measurement. According to the graph, which of the following is closest to the number of minutes it took for the estimated concentration of the bacteria to increase from the initial concentration to 20 million cells per mL of nutrient medium?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "70"
+      },
+      {
+        "label": "B",
+        "text": "35"
+      },
+      {
+        "label": "C",
+        "text": "10"
+      },
+      {
+        "label": "D",
+        "text": "7"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_1",
+    "images": [
+      {
+        "src": "/images/SAT-Style%20Questions/b00d1a2d-fa94-4785-a802-20abbcc6d00a_1_q_01_FIX.png",
+        "alt": "",
+        "local": "images/SAT-Style Questions/b00d1a2d-fa94-4785-a802-20abbcc6d00a_1_q_01_FIX.png"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
+    "difficulty": "Medium",
+    "question_number": 2,
+    "test_name": "Module Source 103 Math M2",
+    "passage": "The roofs on the buildings of a public garden are designed to allow water to drain into the garden. The table shows the relationship between the area $x$, in square feet, of a roof and the amount of water $f(x)$, in gallons, drained from the roof into the garden over a certain period of time. Which equation could define $f$?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$f(x) = 0.6x$"
+      },
+      {
+        "label": "B",
+        "text": "$f(x) = 1.8x$"
+      },
+      {
+        "label": "C",
+        "text": "$f(x) = 504.0x$"
+      },
+      {
+        "label": "D",
+        "text": "$f(x) = 1,008.0x$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_2",
+    "images": [
+      {
+        "src": "/images/SAT-Style%20Questions/b00d1a2d-fa94-4785-a802-20abbcc6d00a_2_q_01_FIX.png",
+        "alt": "",
+        "local": "images/SAT-Style Questions/b00d1a2d-fa94-4785-a802-20abbcc6d00a_2_q_01_FIX.png"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Easy",
+    "question_number": 3,
+    "test_name": "Module Source 103 Math M2",
+    "passage": "Each day Daniela takes a 30-minute morning walk. The equation $s = 70m + 285$ models the total number of steps, $s$, Daniela has taken one morning $m$ minutes after the start of her walk, where $0 < m < 30$. Which is the best interpretation of 285 in this context?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "The estimated total number of steps Daniela will take during her walk"
+      },
+      {
+        "label": "B",
+        "text": "The estimated total number of steps Daniela will have taken after her walk"
+      },
+      {
+        "label": "C",
+        "text": "The estimated number of steps Daniela takes each minute during her walk"
+      },
+      {
+        "label": "D",
+        "text": "The estimated number of steps Daniela had taken that morning before starting her walk"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_3"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Easy",
+    "question_number": 4,
+    "test_name": "Module Source 103 Math M2",
+    "passage": "$y=0.25x^{2}-7.5x+95.25$ The equation gives the estimated stock price $y$, in dollars, for a certain company $x$ days after the company went public, where $0 \\leq x \\leq 20$. Which statement is the best interpretation of $(x, y) = (1, 88)$ in this context?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "1 day after the company went public, the company's estimated stock price is \\$88."
+      },
+      {
+        "label": "B",
+        "text": "88 days after the company went public, the company's estimated stock price is \\$1."
+      },
+      {
+        "label": "C",
+        "text": "The company's estimated stock price increased \\$88 every day after the company went public."
+      },
+      {
+        "label": "D",
+        "text": "The company's estimated stock price increased \\$1 every 88 days after the company went public."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_4"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Medium",
+    "question_number": 5,
+    "test_name": "Module Source 103 Math M2",
+    "passage": "$x + 6y = -14$\n$5x + 30y = 0$\n$2x + 12y = 39$\nThe given equations are graphed in the $xy$-plane. How many solutions ($x, y$) does the system of three equations have?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "Zero"
+      },
+      {
+        "label": "B",
+        "text": "Exactly one"
+      },
+      {
+        "label": "C",
+        "text": "Exactly two"
+      },
+      {
+        "label": "D",
+        "text": "Infinitely many"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_5"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Hard",
+    "question_number": 6,
+    "test_name": "Module Source 103 Math M2",
+    "passage": "$117x + 78y = 65$\nOne of the equations in a system of two linear equations is given. The system has infinitely many solutions. If the second equation in the system is written as $Ax + By = C$, where $A$, $B$, and $C$ are constants, what is the value of $\\frac{A + C}{B}$?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "91/39,2.333,7/3",
+    "rationale": null,
+    "id": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_6"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
+    "question_number": 7,
+    "test_name": "Module Source 103 Math M2",
+    "passage": "The graph shows the total amount of rainfall $ y $, in centimeters, from the start of a 10-hour period, where $ x $ is the number of hours after the start of the period. What was the average rate of change of the total amount of rainfall over time, in centimeters per hour, from $ x = 0 $ to $ x = 5 $?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "0.6/,3/5",
+    "rationale": null,
+    "id": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_7",
+    "images": [
+      {
+        "src": "/images/SAT-Style%20Questions/b00d1a2d-fa94-4785-a802-20abbcc6d00a_7_q_01_FIX.png",
+        "alt": "",
+        "local": "images/SAT-Style Questions/b00d1a2d-fa94-4785-a802-20abbcc6d00a_7_q_01_FIX.png"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Medium",
+    "question_number": 9,
+    "test_name": "Module Source 103 Math M2",
+    "passage": "A total of 3 squares each have side length $r$. A total of 6 equilateral triangles each have side length $t$. None of these squares and triangles share a side. The sum of the perimeters of all these squares and triangles is 270. Which equation represents this situation?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$9r+24t=270$"
+      },
+      {
+        "label": "B",
+        "text": "$3r+6t=270$"
+      },
+      {
+        "label": "C",
+        "text": "$12r+18t=270$"
+      },
+      {
+        "label": "D",
+        "text": "$6r+3t=270$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_9"
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Two-variable data: Models and scatterplots",
+    "difficulty": "Medium",
+    "question_number": 10,
+    "test_name": "Module Source 103 Math M2",
+    "passage": "Which equation is the most appropriate linear model for the data shown?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$y=30.38+15.12x$"
+      },
+      {
+        "label": "B",
+        "text": "$y=15.12x$"
+      },
+      {
+        "label": "C",
+        "text": "$y=30.38+0.76x$"
+      },
+      {
+        "label": "D",
+        "text": "$y=0.76x$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_10",
+    "images": [
+      {
+        "src": "/images/SAT-Style%20Questions/b00d1a2d-fa94-4785-a802-20abbcc6d00a_10_q_01_FIX.png",
+        "alt": "",
+        "local": "images/SAT-Style Questions/b00d1a2d-fa94-4785-a802-20abbcc6d00a_10_q_01_FIX.png"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Medium",
+    "question_number": 11,
+    "test_name": "Module Source 103 Math M2",
+    "passage": "$36(x-1)=4(-9+9x)$\nHow many solutions does the given equation have?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "Zero"
+      },
+      {
+        "label": "B",
+        "text": "Exactly one"
+      },
+      {
+        "label": "C",
+        "text": "Exactly two"
+      },
+      {
+        "label": "D",
+        "text": "Infinitely many"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_11"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Hard",
+    "question_number": 12,
+    "test_name": "Module Source 103 Math M2",
+    "passage": "$10yz - 9xz = 10xy - z$\n\nThe given equation relates the real numbers $x$, $y$, and $z$, where $x < 0$ and $y > 0$. Which equation correctly expresses $z$ in terms of $x$ and $y$?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$z = \\frac{10xy}{10y - 9x + 1}$"
+      },
+      {
+        "label": "B",
+        "text": "$z = \\frac{10xy}{10y - 9x}$"
+      },
+      {
+        "label": "C",
+        "text": "$z = -29xy$"
+      },
+      {
+        "label": "D",
+        "text": "$z = 9x$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_12"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
+    "question_number": 13,
+    "test_name": "Module Source 103 Math M2",
+    "passage": "The function $f$ gives the product of a number, $c$, and a number that is 62 more than $c$. Which equation defines $f$?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$f(x)=x^{2}+x+62$"
+      },
+      {
+        "label": "B",
+        "text": "$f(x)=x^{2}+62$"
+      },
+      {
+        "label": "C",
+        "text": "$f(x)=x^{2}+62x$"
+      },
+      {
+        "label": "D",
+        "text": "$f(x)=x^{2}+62x+62$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_13"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
+    "question_number": 14,
+    "test_name": "Module Source 103 Math M2",
+    "passage": "Which expression is equivalent to $\\frac{y+13}{x-10}+\\frac{y(x-10)}{x^{2}y-10xy}$?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$\\frac{xy+y+3}{x^{3}y-20x^{2}y+100xy}$"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{xy+11y+13}{x^{2}y-10xy+x-10}$"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{xy^{2}+14xy-10y}{x^{2}y-10xy}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{xy^{2}+14xy-10y}{x^{3}y-20x^{2}y+100xy}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_14"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Hard",
+    "question_number": 15,
+    "test_name": "Module Source 103 Math M2",
+    "passage": "$88x^{2}+bx+c=0$\nIn the given equation, b and c are positive constants. The equation has more than one real solution. Which of the following describes the relationship between b and c?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$b=\\sqrt{352c}$"
+      },
+      {
+        "label": "B",
+        "text": "$b>\\sqrt{352c}$"
+      },
+      {
+        "label": "C",
+        "text": "$b^{2}=\\sqrt{352c}$"
+      },
+      {
+        "label": "D",
+        "text": "$b<\\sqrt{352c}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_15"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
+    "question_number": 16,
+    "test_name": "Module Source 103 Math M2",
+    "passage": "$a x^{2} + 130x + c$\nIn the given expression, $a$ and $c$ are positive constants. If $px + q$ is a factor of the expression, where $p$ and $q$ are positive constants, what is the greatest possible value of $ac$?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "4225",
+    "rationale": null,
+    "id": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_16"
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "Hard",
+    "question_number": 17,
+    "test_name": "Module Source 103 Math M2",
+    "passage": "The equation $N(m)=65(Q)^{\\frac{m}{6}}$ gives the predicted population N(m), in thousands, of a certain bacteria colony m minutes after the initial measurement, where Q is a constant greater than 1. The predicted population increases by p% every 180 seconds. What is the value of p in terms of Q?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$100(Q^{\\frac{1}{2}}+1)$"
+      },
+      {
+        "label": "B",
+        "text": "$100(Q^{30}+1)$"
+      },
+      {
+        "label": "C",
+        "text": "$100(Q^{\\frac{1}{2}}-1)$"
+      },
+      {
+        "label": "D",
+        "text": "$100(Q^{30}-1)$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_17"
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "Medium",
+    "question_number": 18,
+    "test_name": "Module Source 103 Math M2",
+    "passage": "In the $xy$-plane, a circle has center $C$ with coordinates $(h, k)$. Points $A$ and $B$ lie on the circle. $A$ is at $(h+1, k+ \\sqrt{230})$, and $\\angle ACB$ is a right angle. What is the length of $\\overline{AB}$?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$231\\sqrt{3}$"
+      },
+      {
+        "label": "B",
+        "text": "$231\\sqrt{2}$"
+      },
+      {
+        "label": "C",
+        "text": "$2\\sqrt{230}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\sqrt{462}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_18"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Medium",
+    "question_number": 19,
+    "test_name": "Module Source 103 Math M2",
+    "passage": "$\\sqrt{k - x} = 28 - x$\nIn the given equation, $k$ is a constant. The equation has exactly one real solution. What is the minimum possible value of $4k$?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "111",
+    "rationale": null,
+    "id": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_19"
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Hard",
+    "question_number": 20,
+    "test_name": "Module Source 103 Math M2",
+    "passage": "An object's speed is increasing at a rate of $6.10$ meters per second squared. What is this rate, in <u> miles per minute squared </u>, rounded to the nearest tenth? Use $1$ mile = $1,609$ meters.",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "13.6",
+    "rationale": null,
+    "id": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_20"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Hard",
+    "question_number": 21,
+    "test_name": "Module Source 103 Math M2",
+    "passage": "$rx^2 - 28sx + 7r$\nIn the given equation, $r$ is a positive constant, and $s$ is a negative constant. The equation has two solutions. If $\\frac{r}{s} > k$, what's the minimum value of $k$? ______________",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "-5.29,-2*sqrt(7)",
+    "rationale": null,
+    "id": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_21"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Medium",
+    "question_number": 22,
+    "test_name": "Module Source 103 Math M2",
+    "passage": "$7x^2-9x+c=5$\nIn the given equation, $c$ is a constant. A solution to the equation is $\\frac{9-\\sqrt{725}}{14}$. What is the value of $c$?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "-18",
+    "rationale": null,
+    "id": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_22"
+  }
+]

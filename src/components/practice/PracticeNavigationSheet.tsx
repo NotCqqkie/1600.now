@@ -42,13 +42,13 @@ export const PracticeNavigationSheet = ({
         const storageId = item.storageId || `bank-${item.subject}-${item.sourceId || item.id}`;
 
         return {
-          key: `${item.subject}-${item.id}`,
+          key: `${item.subject}-${item.sourceId || item.id}-${idx}`,
           label: idx + 1,
           status: getQuestionStatus(storageId, uid),
           isFlagged: isQuestionFlagged(storageId, uid),
           isCurrent: idx === currentIndex,
           onSelect: () => onJump(idx),
-          title: `${item.subject === "math" ? "Math" : "Reading"} Q${item.id}`,
+          title: `${item.subject === "math" ? "Math" : "Reading"} Q${idx + 1}`,
         };
       }),
     [currentIndex, onJump, practiceSet, uid]

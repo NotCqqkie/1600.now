@@ -1,0 +1,582 @@
+[
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Easy",
+    "question_number": 1,
+    "test_name": "Module Source 070 Math M1",
+    "passage": "$s=40+2t$\nThe equation gives the speed $s$, in miles per hour, of a certain car $t$ seconds after it began to accelerate. What is the speed, in miles per hour, of the car 3 seconds after it began to accelerate?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "40"
+      },
+      {
+        "label": "B",
+        "text": "42"
+      },
+      {
+        "label": "C",
+        "text": "43"
+      },
+      {
+        "label": "D",
+        "text": "46"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "ba06b998-d854-4b29-830c-15d877280c75_1"
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Two-variable data: Models and scatterplots",
+    "difficulty": "Medium",
+    "question_number": 2,
+    "test_name": "Module Source 070 Math M1",
+    "passage": "Which of the following equations best represents the line of best fit shown?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$y=0.8+1.7x$"
+      },
+      {
+        "label": "B",
+        "text": "$y=0.8-1.7x$"
+      },
+      {
+        "label": "C",
+        "text": "$y=-0.8+1.7x$"
+      },
+      {
+        "label": "D",
+        "text": "$y=-0.8-1.7x$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "ba06b998-d854-4b29-830c-15d877280c75_2",
+    "images": [
+      {
+        "src": "/images/SAT-Style%20Questions/ba06b998-d854-4b29-830c-15d877280c75_2_q_01_FIX.png",
+        "alt": "",
+        "local": "images/SAT-Style Questions/ba06b998-d854-4b29-830c-15d877280c75_2_q_01_FIX.png"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and volume",
+    "difficulty": "Easy",
+    "question_number": 3,
+    "test_name": "Module Source 070 Math M1",
+    "passage": "The width of a rectangle is 5 centimeters. The length of the rectangle is 30 centimeters longer than the width. What is the area, in square centimeters, of this rectangle?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "175"
+      },
+      {
+        "label": "B",
+        "text": "40"
+      },
+      {
+        "label": "C",
+        "text": "10"
+      },
+      {
+        "label": "D",
+        "text": "5"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "ba06b998-d854-4b29-830c-15d877280c75_3"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Easy",
+    "question_number": 4,
+    "test_name": "Module Source 070 Math M1",
+    "passage": "If $7 + x = 3$, what is the value of $56 + 8x$?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "24",
+    "rationale": null,
+    "id": "ba06b998-d854-4b29-830c-15d877280c75_4"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
+    "question_number": 5,
+    "test_name": "Module Source 070 Math M1",
+    "passage": "In one week in 2017, a technician earned a total of \\$1,055 by working at her regular job and at a second job doing part-time work. The equation $20h + 17c = 1{,}055$ represents this situation, where $h$ is the number of hours worked at her regular job and $c$ is the number of hours worked at her second job. Which of the following is the best interpretation of 20 in this context?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "The amount, in dollars, the technician earned for each hour she worked at her regular job"
+      },
+      {
+        "label": "B",
+        "text": "The amount, in dollars, the technician earned for each hour she worked at her second job"
+      },
+      {
+        "label": "C",
+        "text": "The number of hours the technician worked in one week at her regular job"
+      },
+      {
+        "label": "D",
+        "text": "The number of hours the technician worked in one week at her second job"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "ba06b998-d854-4b29-830c-15d877280c75_5"
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Easy",
+    "question_number": 6,
+    "test_name": "Module Source 070 Math M1",
+    "passage": "The table shows the frequency of values in a data set.\nWhat is the minimum value of the data set?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "6"
+      },
+      {
+        "label": "C",
+        "text": "20"
+      },
+      {
+        "label": "D",
+        "text": "26"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "ba06b998-d854-4b29-830c-15d877280c75_6",
+    "images": [
+      {
+        "src": "/images/SAT-Style%20Questions/ba06b998-d854-4b29-830c-15d877280c75_6_q_01_FIX.png",
+        "alt": "",
+        "local": "images/SAT-Style Questions/ba06b998-d854-4b29-830c-15d877280c75_6_q_01_FIX.png"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Easy",
+    "question_number": 7,
+    "test_name": "Module Source 070 Math M1",
+    "passage": "The list gives the mass, in grams, of 5 ruffed lemurs.\n3,810; 3,810; 3,030; 3,850; 3,050\nWhat is the mean mass, in grams, of these 5 ruffed lemurs?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "3510",
+    "rationale": null,
+    "id": "ba06b998-d854-4b29-830c-15d877280c75_7"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Medium",
+    "question_number": 8,
+    "test_name": "Module Source 070 Math M1",
+    "passage": "$x + 7 = 13$\n$y = 5x^2 + 5$\nAt what point $(x, y)$ do the graphs of the equations in the given system intersect?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$(6,180)$"
+      },
+      {
+        "label": "B",
+        "text": "$(6,185)$"
+      },
+      {
+        "label": "C",
+        "text": "$(13,5)$"
+      },
+      {
+        "label": "D",
+        "text": "$(13,850)$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "ba06b998-d854-4b29-830c-15d877280c75_8"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
+    "question_number": 9,
+    "test_name": "Module Source 070 Math M1",
+    "passage": "The expression $19x^{5}+20x^{5}-10x^{5}$ is equivalent to $bx^{5}$, where b is a constant. What is the value of b?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "29",
+    "rationale": null,
+    "id": "ba06b998-d854-4b29-830c-15d877280c75_9"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
+    "question_number": 10,
+    "test_name": "Module Source 070 Math M1",
+    "passage": "The point (v,-5) lies on the line shown. What is the value of v?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$-\\frac{72}{11}$"
+      },
+      {
+        "label": "B",
+        "text": "$-\\frac{11}{12}$"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{72}{11}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{192}{11}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "ba06b998-d854-4b29-830c-15d877280c75_10",
+    "images": [
+      {
+        "src": "/images/SAT-Style%20Questions/ba06b998-d854-4b29-830c-15d877280c75_10_q_01_FIX.png",
+        "alt": "",
+        "local": "images/SAT-Style Questions/ba06b998-d854-4b29-830c-15d877280c75_10_q_01_FIX.png"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Hard",
+    "question_number": 12,
+    "test_name": "Module Source 070 Math M1",
+    "passage": "In the figure shown, line $k$ intersects lines $r$ and $s$. If $w = 146$, which additional piece of information is sufficient to prove that lines $r$ and $s$ are parallel?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$x=34$"
+      },
+      {
+        "label": "B",
+        "text": "$y=146$"
+      },
+      {
+        "label": "C",
+        "text": "$w+y=180$"
+      },
+      {
+        "label": "D",
+        "text": "$y+z=180$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "ba06b998-d854-4b29-830c-15d877280c75_12",
+    "images": [
+      {
+        "src": "/images/SAT-Style%20Questions/ba06b998-d854-4b29-830c-15d877280c75_12_q_01_FIX.png",
+        "alt": "",
+        "local": "images/SAT-Style Questions/ba06b998-d854-4b29-830c-15d877280c75_12_q_01_FIX.png"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
+    "question_number": 13,
+    "test_name": "Module Source 070 Math M1",
+    "passage": "Which expression is equivalent to $(133y)^{\\frac{1}{2}}$, where $y > 1$?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$133·\\sqrt{y}$"
+      },
+      {
+        "label": "B",
+        "text": "$\\sqrt{133}·y$"
+      },
+      {
+        "label": "C",
+        "text": "$\\sqrt{133y}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\sqrt{(133y)^{2}}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "ba06b998-d854-4b29-830c-15d877280c75_13"
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "Easy",
+    "question_number": 15,
+    "test_name": "Module Source 070 Math M1",
+    "passage": "The measure of angle B is $\\frac{3\\pi}{4}$ radians. What is the value of sin(B)?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$-\\frac{\\sqrt{3}}{2}$"
+      },
+      {
+        "label": "B",
+        "text": "$-\\frac{\\sqrt{2}}{2}$"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{1}{2}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{\\sqrt{2}}{2}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "ba06b998-d854-4b29-830c-15d877280c75_15"
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "Medium",
+    "question_number": 16,
+    "test_name": "Module Source 070 Math M1",
+    "passage": "A school is ordering tablet computers for its students. The tablets cost \\$164 each, and 6% tax is added to the total cost of the order. If the school can spend no more than \\$44,800 on the tablets, including tax, what is the maximum number of tablets that the school can order?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "257",
+    "rationale": null,
+    "id": "ba06b998-d854-4b29-830c-15d877280c75_16"
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and volume",
+    "difficulty": "Medium",
+    "question_number": 17,
+    "test_name": "Module Source 070 Math M1",
+    "passage": "A triangular prism has a height of $3$ centimeters (cm) and a volume of $60$ cm$^3$. What is the area, in cm$^2$, of the base of the prism? (The volume of a triangular prism is equal to $Bh$, where $B$ is the area of the base and $h$ is the height of the prism.)",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "20",
+    "rationale": null,
+    "id": "ba06b998-d854-4b29-830c-15d877280c75_17"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
+    "question_number": 18,
+    "test_name": "Module Source 070 Math M1",
+    "passage": "The graph of $ y = f(x) $ is shown, where $ f(x) = abx + c $, and $ a $, $ b $, and $ c $ are constants. For how many values of $ x $ does $ f(x) = 0 $?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "Three"
+      },
+      {
+        "label": "B",
+        "text": "Two"
+      },
+      {
+        "label": "C",
+        "text": "One"
+      },
+      {
+        "label": "D",
+        "text": "Zero"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "ba06b998-d854-4b29-830c-15d877280c75_18",
+    "images": [
+      {
+        "src": "/images/SAT-Style%20Questions/ba06b998-d854-4b29-830c-15d877280c75_18_q_01_FIX.png",
+        "alt": "",
+        "local": "images/SAT-Style Questions/ba06b998-d854-4b29-830c-15d877280c75_18_q_01_FIX.png"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Medium",
+    "question_number": 19,
+    "test_name": "Module Source 070 Math M1",
+    "passage": "$x(x+4)-140=3x(x-10)$\nWhat is the sum of the solutions to the given equation?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "6"
+      },
+      {
+        "label": "B",
+        "text": "10"
+      },
+      {
+        "label": "C",
+        "text": "14"
+      },
+      {
+        "label": "D",
+        "text": "17"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "ba06b998-d854-4b29-830c-15d877280c75_19"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Medium",
+    "question_number": 20,
+    "test_name": "Module Source 070 Math M1",
+    "passage": "$-3x^{2}-7x+1=0$\nWhat is the greatest solution to the given equation?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$-\\frac{7}{3}+\\frac{\\sqrt{61}}{6}$"
+      },
+      {
+        "label": "B",
+        "text": "$-\\frac{7}{3}-\\frac{\\sqrt{61}}{3}$"
+      },
+      {
+        "label": "C",
+        "text": "$-\\frac{7}{6}+\\frac{\\sqrt{61}}{6}$"
+      },
+      {
+        "label": "D",
+        "text": "$-\\frac{7}{6}-\\frac{\\sqrt{61}}{6}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "ba06b998-d854-4b29-830c-15d877280c75_20"
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "Medium",
+    "question_number": 21,
+    "test_name": "Module Source 070 Math M1",
+    "passage": "In triangle ABC, BC = $36\\sqrt{3}$. What is the value of $\\cos A$?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "1/2",
+    "rationale": null,
+    "id": "ba06b998-d854-4b29-830c-15d877280c75_21",
+    "images": [
+      {
+        "src": "/images/SAT-Style%20Questions/ba06b998-d854-4b29-830c-15d877280c75_21_q_01_FIX.png",
+        "alt": "",
+        "local": "images/SAT-Style Questions/ba06b998-d854-4b29-830c-15d877280c75_21_q_01_FIX.png"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "Hard",
+    "question_number": 22,
+    "test_name": "Module Source 070 Math M1",
+    "passage": "$a$ is 2,047% of the sum of the positive numbers $b$ and $c$, and $b$ is 89% of $c$. What percent of $b$ is $a$?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "21.36%"
+      },
+      {
+        "label": "B",
+        "text": "38.69%"
+      },
+      {
+        "label": "C",
+        "text": "2,300%"
+      },
+      {
+        "label": "D",
+        "text": "4,347%"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "ba06b998-d854-4b29-830c-15d877280c75_22"
+  }
+]

@@ -1,0 +1,649 @@
+[
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Easy",
+    "question_number": 1,
+    "test_name": "Module Source 049 Math M2",
+    "passage": "An object's average acceleration, in meters per second squared, is the change in the object's speed, in meters per second, divided by the time during which the change occurred, in seconds. A certain object's speed changes by 45 meters per second in 6 seconds. What is this object's average acceleration, in meters per second squared, during this time period?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "0.13"
+      },
+      {
+        "label": "B",
+        "text": "7.5"
+      },
+      {
+        "label": "C",
+        "text": "39"
+      },
+      {
+        "label": "D",
+        "text": "51"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "f196343a-4470-4649-8efb-edf349dd4393_1"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Medium",
+    "question_number": 2,
+    "test_name": "Module Source 049 Math M2",
+    "passage": "$x + 26 = y$\n$(x + 26)^2 = y$\nA solution to the given system of equations is $(x, y)$. What is a possible value of $x$?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$-25$"
+      },
+      {
+        "label": "B",
+        "text": "$0$"
+      },
+      {
+        "label": "C",
+        "text": "$1$"
+      },
+      {
+        "label": "D",
+        "text": "$26$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "f196343a-4470-4649-8efb-edf349dd4393_2"
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Medium",
+    "question_number": 3,
+    "test_name": "Module Source 049 Math M2",
+    "passage": "Lao walks at a speed of 2 miles per hour and runs at a speed of 6 miles per hour. He walks for w hours and runs for r hours for a combined total of 10 miles. Which equation represents this situation?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$2w+6r=10$"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{1}{2}w+\\frac{1}{6}r=10$"
+      },
+      {
+        "label": "C",
+        "text": "$2w+6r=80$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{1}{2}w+\\frac{1}{6}r=80$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "f196343a-4470-4649-8efb-edf349dd4393_3"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
+    "question_number": 4,
+    "test_name": "Module Source 049 Math M2",
+    "passage": "$f(x) = 50x + 12$\nThe given function $f$ estimates the distance a train has traveled, in kilometers, from a station in a certain city $x$ hours after crossing the city border. What is the best interpretation of 12 in this context?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "Between the station and the city border, the train traveled an estimated total distance of 12 kilometers."
+      },
+      {
+        "label": "B",
+        "text": "After crossing the city border the train traveled at an estimated speed of 12 kilometers per hour."
+      },
+      {
+        "label": "C",
+        "text": "After crossing the city border the train traveled an estimated total distance of 12 kilometers."
+      },
+      {
+        "label": "D",
+        "text": "Between the station and the city border, the train traveled at an estimated speed of 12 kilometers per hour."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "f196343a-4470-4649-8efb-edf349dd4393_4"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Hard",
+    "question_number": 5,
+    "test_name": "Module Source 049 Math M2",
+    "passage": "$\\frac{1}{3}(x+7)-\\frac{1}{2}(x+7)=-8$\nWhat value of x is the solution to the given equation?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$-15$"
+      },
+      {
+        "label": "B",
+        "text": "$-7$"
+      },
+      {
+        "label": "C",
+        "text": "$41$"
+      },
+      {
+        "label": "D",
+        "text": "$132$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "f196343a-4470-4649-8efb-edf349dd4393_5"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
+    "question_number": 6,
+    "test_name": "Module Source 049 Math M2",
+    "passage": "The function $g$ is defined by $g(x)=\\frac{4}{9}x-24$. What is the $x$-coordinate of the $x$-intercept of the graph of $y=g(x)$ in the $xy$-plane?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "54",
+    "rationale": null,
+    "id": "f196343a-4470-4649-8efb-edf349dd4393_6"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
+    "question_number": 7,
+    "test_name": "Module Source 049 Math M2",
+    "passage": "Two students are playing a game. In the first round, Player 1 answers 49 questions. If an answer is correct, Player 1 earns 1 point. If an answer is incorrect, Player 2 will earn 1 point instead. The graph shows $y=f(x)$, where $y$ is the number of points Player 2 will earn when $x$ is the number of points Player 1 earns. Which of the following is the best interpretation of the point (49, 0) in this context?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "When Player 1 earns 49 points, Player 2 will earn 49 points."
+      },
+      {
+        "label": "B",
+        "text": "When Player 1 earns 49 points, Player 2 will earn 0 points."
+      },
+      {
+        "label": "C",
+        "text": "When Player 1 earns 0 points, Player 2 will earn 49 points."
+      },
+      {
+        "label": "D",
+        "text": "When Player 1 earns 0 points, Player 2 will earn 0 points."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "f196343a-4470-4649-8efb-edf349dd4393_7",
+    "images": [
+      {
+        "src": "/images/SAT-Style%20Questions/f196343a-4470-4649-8efb-edf349dd4393_7_q_01_FIX.png",
+        "alt": "",
+        "local": "images/SAT-Style Questions/f196343a-4470-4649-8efb-edf349dd4393_7_q_01_FIX.png"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
+    "question_number": 8,
+    "test_name": "Module Source 049 Math M2",
+    "passage": "Which expression is a factor of $3x^2 - 5x + 6x - 10$?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$x-2$"
+      },
+      {
+        "label": "B",
+        "text": "$x+5$"
+      },
+      {
+        "label": "C",
+        "text": "$3x-5$"
+      },
+      {
+        "label": "D",
+        "text": "$3x+2$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "f196343a-4470-4649-8efb-edf349dd4393_8"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
+    "question_number": 9,
+    "test_name": "Module Source 049 Math M2",
+    "passage": "The graph shows the momentum $y$, in newton-seconds, of an object $x$ seconds after the object started moving, for $0 \\leq x \\leq 8$. What is the average rate of change, in newton-seconds per second, in the momentum of the object from $x=2$ to $x=6$?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "1.25,5/4",
+    "rationale": null,
+    "id": "f196343a-4470-4649-8efb-edf349dd4393_9",
+    "images": [
+      {
+        "src": "/images/SAT-Style%20Questions/f196343a-4470-4649-8efb-edf349dd4393_9_q_01_FIX.svg",
+        "alt": "",
+        "local": "images/SAT-Style Questions/f196343a-4470-4649-8efb-edf349dd4393_9_q_01_FIX.svg"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Easy",
+    "question_number": 10,
+    "test_name": "Module Source 049 Math M2",
+    "passage": "$(x+64)^{2}=-100$\nHow many distinct real solutions does the given equation have?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "Exactly one"
+      },
+      {
+        "label": "B",
+        "text": "Exactly two"
+      },
+      {
+        "label": "C",
+        "text": "Infinitely many"
+      },
+      {
+        "label": "D",
+        "text": "Zero"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "f196343a-4470-4649-8efb-edf349dd4393_10"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Medium",
+    "question_number": 11,
+    "test_name": "Module Source 049 Math M2",
+    "passage": "$| x-8 | = 11$\nWhat is the sum of the solutions to the given equation?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "0"
+      },
+      {
+        "label": "B",
+        "text": "16"
+      },
+      {
+        "label": "C",
+        "text": "19"
+      },
+      {
+        "label": "D",
+        "text": "22"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "f196343a-4470-4649-8efb-edf349dd4393_11"
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Inference from sample statistics and margin of error",
+    "difficulty": "Medium",
+    "question_number": 12,
+    "test_name": "Module Source 049 Math M2",
+    "passage": "The manager of a gym selected a sample of 159 members at random to estimate the percentage of the gym's members that would continue to pay for a membership if the price increased. From the survey, the manager estimates that 88% of the gym's members would continue to pay for a membership if the price increased, with an associated margin of error of 5.05%. If the survey is repeated with a random sample of 318 members and the results are calculated in the same way, which of the following will be the most likely effect of using the larger random sample compared to the smaller random sample?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "The margin of error will be lower."
+      },
+      {
+        "label": "B",
+        "text": "The margin of error will be higher."
+      },
+      {
+        "label": "C",
+        "text": "The estimate of the percentage of the gym's members that would continue to pay for a membership if the price increased will be lower."
+      },
+      {
+        "label": "D",
+        "text": "The estimate of the percentage of the gym's members that would continue to pay for a membership if the price increased will be higher."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "f196343a-4470-4649-8efb-edf349dd4393_12"
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Medium",
+    "question_number": 13,
+    "test_name": "Module Source 049 Math M2",
+    "passage": "The maximum temperature on April 1 in degrees Fahrenheit (°F), was recorded each year at a certain weather station for 11 years. The histogram summarizes the recorded data set.\nThe temperature of 76.2 °F is removed from this data set to create a new data set of 10 temperatures. Which of the following statements must be true?\nI. The mean of the new data set is less than the mean of the original data set.\nII. The median of the new data set is less than the median of the original data set.",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "I only"
+      },
+      {
+        "label": "B",
+        "text": "II only"
+      },
+      {
+        "label": "C",
+        "text": "I and II"
+      },
+      {
+        "label": "D",
+        "text": "Neither I nor II"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "f196343a-4470-4649-8efb-edf349dd4393_13",
+    "images": [
+      {
+        "src": "/images/SAT-Style%20Questions/f196343a-4470-4649-8efb-edf349dd4393_13_q_01_FIX.svg",
+        "alt": "",
+        "local": "images/SAT-Style Questions/f196343a-4470-4649-8efb-edf349dd4393_13_q_01_FIX.svg"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Hard",
+    "question_number": 14,
+    "test_name": "Module Source 049 Math M2",
+    "passage": "For the positive quantities $ h $, $ j $, and $ k $, 44% of $ h $ is equivalent to 62% of $ j $, and $ j $ is equivalent to 22% of $ k $. What percentage of $ k $ is $ h $? (Disregard the % sign when entering your answer. For example, if your answer is 39%, enter 39)",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "31",
+    "rationale": null,
+    "id": "f196343a-4470-4649-8efb-edf349dd4393_14"
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Two-variable data: Models and scatterplots",
+    "difficulty": "Medium",
+    "question_number": 15,
+    "test_name": "Module Source 049 Math M2",
+    "passage": "The graph shows the relationship between the number of shares of stock from Company A, x, and the number of shares of stock from Company B, y, that Sayen can purchase. Which equation could represent this relationship?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$y=10x+18$"
+      },
+      {
+        "label": "B",
+        "text": "$10x+18y=900$"
+      },
+      {
+        "label": "C",
+        "text": "$y=18x+10$"
+      },
+      {
+        "label": "D",
+        "text": "$18x+10y=900$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "f196343a-4470-4649-8efb-edf349dd4393_15",
+    "images": [
+      {
+        "src": "/images/SAT-Style%20Questions/f196343a-4470-4649-8efb-edf349dd4393_15_q_01_FIX.svg",
+        "alt": "",
+        "local": "images/SAT-Style Questions/f196343a-4470-4649-8efb-edf349dd4393_15_q_01_FIX.svg"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
+    "question_number": 16,
+    "test_name": "Module Source 049 Math M2",
+    "passage": "For the exponential function $f$, the value of $f(1)$ is $k$, where $k$ is a constant. Which of the following equivalent forms of the function $f$ shows the value of $k$ as the coefficient or the base?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$f(x)=35(1.2)^{x+1}$"
+      },
+      {
+        "label": "B",
+        "text": "$f(x)=42(1.2)^{x}$"
+      },
+      {
+        "label": "C",
+        "text": "$f(x)=50.4(1.2)^{x-1}$"
+      },
+      {
+        "label": "D",
+        "text": "$f(x)=60.48(1.2)^{x-2}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "f196343a-4470-4649-8efb-edf349dd4393_16"
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Medium",
+    "question_number": 17,
+    "test_name": "Module Source 049 Math M2",
+    "passage": "In triangle $PQR$, the measure of angle $P$ is $(4x+9)^\\circ$, the measure of angle $Q$ is $(5x+4)^\\circ,$ and the measure of angle $R$ is $(5y+4)^\\circ.$ If side $QR$ is extended through point $R$ to point $S$, and the measure of angle $PRS$ is $(x+y)^\\circ$, what is the value of $x + y$?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "31",
+    "rationale": null,
+    "id": "f196343a-4470-4649-8efb-edf349dd4393_17"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Medium",
+    "question_number": 18,
+    "test_name": "Module Source 049 Math M2",
+    "passage": "The triangle inequality theorem states that the sum of any two sides of a triangle must be greater than the length of the third side. If a triangle has side lengths of 5 and 9, which inequality represents the possible lengths, x, of the third side of the triangle?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$x < 4$"
+      },
+      {
+        "label": "B",
+        "text": "$x > 14$"
+      },
+      {
+        "label": "C",
+        "text": "$4 < x < 14$"
+      },
+      {
+        "label": "D",
+        "text": "$x < 4$ or $x > 14$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "f196343a-4470-4649-8efb-edf349dd4393_18"
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and volume",
+    "difficulty": "Hard",
+    "question_number": 19,
+    "test_name": "Module Source 049 Math M2",
+    "passage": "A right circular cone has a volume of $34,496\\pi$ cubic centimeters and the area of its base is $3,136\\pi$ square centimeters. What is the slant height, in centimeters, of this cone?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "11"
+      },
+      {
+        "label": "B",
+        "text": "33"
+      },
+      {
+        "label": "C",
+        "text": "56"
+      },
+      {
+        "label": "D",
+        "text": "65"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "f196343a-4470-4649-8efb-edf349dd4393_19"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
+    "difficulty": "Medium",
+    "question_number": 20,
+    "test_name": "Module Source 049 Math M2",
+    "passage": "A quadratic function models the height, in feet, of an object above the ground in terms of the time, in seconds, after the object was launched. According to the model, the object was launched from a height of 0 feet and reached its maximum height of 400 feet 5 seconds after it was launched. Based on the model, what was the height, in feet, of the object 9 seconds after it was launched?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "144",
+    "rationale": null,
+    "id": "f196343a-4470-4649-8efb-edf349dd4393_20"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
+    "question_number": 21,
+    "test_name": "Module Source 049 Math M2",
+    "passage": "The cost of renting a power washer is \\$56 for the first day and \\$28 for each additional day. Which of the following functions gives the cost $C(d)$, in dollars, of renting the power washer for $d$ days, where $d$ is a positive integer?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$C(d)=28d+28$"
+      },
+      {
+        "label": "B",
+        "text": "$C(d)=28d+56$"
+      },
+      {
+        "label": "C",
+        "text": "$C(d)=56d-28$"
+      },
+      {
+        "label": "D",
+        "text": "$C(d)=56d+84$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "f196343a-4470-4649-8efb-edf349dd4393_21"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
+    "difficulty": "Medium",
+    "question_number": 22,
+    "test_name": "Module Source 049 Math M2",
+    "passage": "The function $f$ is defined by $f(x)=ax^{2}+bx+c$, where $a$, $b$, and $c$ are constants. The graph of $y=f(x)$ in the $xy$-plane passes through the points $(8,0)$ and $(-5,0)$. If $a$ is an integer greater than 1, which of the following could be the value of $a + b$?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$4$"
+      },
+      {
+        "label": "B",
+        "text": "$3$"
+      },
+      {
+        "label": "C",
+        "text": "$-2$"
+      },
+      {
+        "label": "D",
+        "text": "$-4$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "f196343a-4470-4649-8efb-edf349dd4393_22"
+  }
+]

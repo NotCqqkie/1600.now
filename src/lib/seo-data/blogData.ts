@@ -38,8 +38,8 @@ export const blogPosts: BlogPost[] = [
           "The test is broken into four modules, two per section. Each module is discrete — once you submit a module you can't return to it. Inside a module, you can move freely between questions.",
         ],
         list: [
-          "Reading & Writing Module 1 — 27 questions, 32 minutes",
-          "Reading & Writing Module 2 — 27 questions, 32 minutes",
+          "English Module 1 — 27 questions, 32 minutes",
+          "English Module 2 — 27 questions, 32 minutes",
           "Math Module 1 — 22 questions, 35 minutes",
           "Math Module 2 — 22 questions, 35 minutes",
         ],

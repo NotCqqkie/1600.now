@@ -22,6 +22,7 @@
 - Prefer the smallest relevant check first
 - Use `npm run lint:undef` for TS/TSX undefined-symbol checks
 - Use `npm run lint` for broader linting
+- Use `npm run build:dev` when you need a Vite build without generated-content steps or prerendering
 - `npm run build` also runs generated-content steps and prerendering, so use it when a full production check is actually needed
 
 # Local GPU (Ollama on canadapc)

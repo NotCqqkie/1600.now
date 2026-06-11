@@ -17,29 +17,12 @@ const rawModuleImports = import.meta.glob("./modules/*.json", {
   import: "default",
 }) as Record<string, unknown>;
 
-const monthOrder = [
-  "January",
-  "February",
-  "March",
-  "April",
-  "May",
-  "June",
-  "July",
-  "August",
-  "September",
-  "October",
-  "November",
-  "December",
-] as const;
-
-const monthRank = Object.fromEntries(monthOrder.map((month, index) => [month, index])) as Record<string, number>;
-
 const EXPECTED_COUNTS: Record<BankSubject, number> = {
   reading: 27,
   math: 22,
 };
 
-type ModuleSubjectLabel = "Math" | "Reading & Writing";
+type ModuleSubjectLabel = "Math" | "English";
 type ReplacementOrigin = "borrowed";
 
 interface RawModuleChoice {
@@ -98,10 +81,7 @@ interface CandidateQuestionRecord {
 }
 
 interface ParsedModuleMetadata {
-  month: string;
-  year: number;
-  region: string | null;
-  form: string | null;
+  sourceIndex: number;
   subject: BankSubject;
   subjectLabel: ModuleSubjectLabel;
   moduleNumber: 1 | 2;
@@ -134,10 +114,7 @@ export interface PracticeModule {
   slug: string;
   fileName: string;
   testName: string;
-  month: string;
-  year: number;
-  region: string | null;
-  form: string | null;
+  sourceIndex: number;
   subject: BankSubject;
   subjectLabel: ModuleSubjectLabel;
   moduleNumber: 1 | 2;
@@ -195,37 +172,31 @@ const normalizeModuleRecords = (value: unknown): RawModuleQuestion[] | null => {
 };
 
 const parseModuleTestName = (testName: string): ParsedModuleMetadata | null => {
-  const match = testName.match(
-    /^([A-Za-z]+) (\d{4})(?: (US|International))? Form ([A-Z0-9]+) SAT (English|Math) Module (1|2)$/,
-  );
+  const match = testName.match(/^Module Source (\d+) (Eng|Math) M([12])$/);
 
   if (!match) return null;
 
-  const [, month, yearText, region, form, rawSubject, moduleNumberText] = match;
-  const year = Number.parseInt(yearText, 10);
+  const [, sourceIndexText, rawSubject, moduleNumberText] = match;
+  const sourceIndex = Number.parseInt(sourceIndexText, 10);
   const moduleNumber = Number.parseInt(moduleNumberText, 10) as 1 | 2;
   const subject = rawSubject === "Math" ? "math" : "reading";
-  const subjectLabel: ModuleSubjectLabel = subject === "math" ? "Math" : "Reading & Writing";
-  const slug = `${month}-${year}-${region ?? "global"}-${form}-${rawSubject}-module-${moduleNumber}`
-    .replace(/[^a-z0-9-]/gi, "-")
-    .toLowerCase();
+  const subjectLabel: ModuleSubjectLabel = subject === "math" ? "Math" : "English";
+  const sourceCode = String(sourceIndex).padStart(3, "0");
+  const subjectSlug = subject === "reading" ? "eng" : "math";
+  const slug = `module-source-${sourceCode}-${subjectSlug}-m${moduleNumber}`;
 
   return {
-    month,
-    year,
-    region: region ?? null,
-    form,
+    sourceIndex,
     subject,
     subjectLabel,
     moduleNumber,
-    id: `${month}_${year}_${region ?? "Global"}_${form}_${rawSubject}_Module_${moduleNumber}`,
+    id: `module_source_${sourceCode}_${subjectSlug}_m${moduleNumber}`,
     slug,
   };
 };
 
 const sortPracticeModules = (left: PracticeModule, right: PracticeModule) => {
-  if (left.year !== right.year) return right.year - left.year;
-  if (left.month !== right.month) return (monthRank[right.month] ?? -1) - (monthRank[left.month] ?? -1);
+  if (left.sourceIndex !== right.sourceIndex) return left.sourceIndex - right.sourceIndex;
   if (left.subject !== right.subject) return left.subject.localeCompare(right.subject);
   if (left.moduleNumber !== right.moduleNumber) return left.moduleNumber - right.moduleNumber;
   return left.testName.localeCompare(right.testName);
@@ -373,11 +344,9 @@ for (const subject of ["reading", "math"] as const) {
         if (!question) continue;
 
         const bankQuestion = getModuleBankQuestion(moduleSource, question);
-        if (!bankQuestion) continue;
-
-        const skill = String(bankQuestion.category.skill);
-        const domain = String(bankQuestion.category.domain);
-        const type = bankQuestion.type;
+        const skill = String(bankQuestion?.category.skill ?? question.skill);
+        const domain = String(bankQuestion?.category.domain ?? question.domain);
+        const type = bankQuestion?.type ?? (question.is_fill_in_blank ? "free-response" : "multiple-choice");
         const key = `${skill}|||${domain}|||${type}`;
         const current = patternCounts.get(key);
 
@@ -428,8 +397,7 @@ const candidateRecordsBySubject: Record<BankSubject, CandidateQuestionRecord[]> 
 for (const moduleSource of rawModuleSources) {
   for (const question of moduleSource.questions) {
     const bankQuestion = getModuleBankQuestion(moduleSource, question);
-    if (!bankQuestion) continue;
-    const moduleQuestion = synthesizeBankQuestion(question, moduleSource.subject, bankQuestion);
+    const moduleQuestion = synthesizeBankQuestion(question, moduleSource.subject, bankQuestion ?? undefined);
     synthesizedBankQuestions[moduleSource.subject].set(moduleQuestion.sourceId, moduleQuestion);
 
     candidateRecordsBySubject[moduleSource.subject].push({
@@ -507,7 +475,7 @@ const buildReplacement = (
     sourceTestName: best.bankQuestion.testName,
     sourceQuestionNumber: best.bankQuestion.questionNumber,
     origin: "borrowed",
-    note: `Slot ${missingSlot} is usually ${pattern.skill} in ${moduleSource.metadata.subjectLabel} Module ${moduleSource.moduleNumber}, so this module borrows a matching past-bank question.`,
+    note: `Slot ${missingSlot} is usually ${pattern.skill} in ${moduleSource.metadata.subjectLabel} Module ${moduleSource.moduleNumber}, so this module borrows a comparable unused past-bank question.`,
   };
 
   return {
@@ -525,8 +493,8 @@ const practiceModules = rawModuleSources
     const missingQuestionNumbers: number[] = [];
     const takenSourceIds = new Set(
       moduleSource.questions
-        .map((question) => getModuleBankQuestion(moduleSource, question)?.sourceId)
-        .filter((sourceId): sourceId is string => Boolean(sourceId)),
+        .map((question) => question.id)
+        .filter(Boolean),
     );
     const practiceQuestions: PracticeModuleQuestion[] = [];
     const replacements: ModuleReplacement[] = [];
@@ -536,16 +504,14 @@ const practiceModules = rawModuleSources
 
       if (rawQuestion) {
         const baseBankQuestion = getModuleBankQuestion(moduleSource, rawQuestion);
-        if (baseBankQuestion) {
-          const bankQuestion = synthesizeBankQuestion(rawQuestion, moduleSource.subject, baseBankQuestion);
-          synthesizedBankQuestions[moduleSource.subject].set(bankQuestion.sourceId, bankQuestion);
-          practiceQuestions.push({
-            slot,
-            bankQuestion,
-            isReplacement: false,
-          });
-          continue;
-        }
+        const bankQuestion = synthesizeBankQuestion(rawQuestion, moduleSource.subject, baseBankQuestion ?? undefined);
+        synthesizedBankQuestions[moduleSource.subject].set(bankQuestion.sourceId, bankQuestion);
+        practiceQuestions.push({
+          slot,
+          bankQuestion,
+          isReplacement: false,
+        });
+        continue;
       }
 
       missingQuestionNumbers.push(slot);
@@ -566,10 +532,7 @@ const practiceModules = rawModuleSources
       slug: moduleSource.metadata.slug,
       fileName: moduleSource.fileName,
       testName: moduleSource.testName,
-      month: moduleSource.metadata.month,
-      year: moduleSource.metadata.year,
-      region: moduleSource.metadata.region,
-      form: moduleSource.metadata.form,
+      sourceIndex: moduleSource.metadata.sourceIndex,
       subject: moduleSource.subject,
       subjectLabel: moduleSource.metadata.subjectLabel,
       moduleNumber: moduleSource.moduleNumber,
@@ -734,12 +697,41 @@ const visiblePracticeModules = (() => {
     const groupKey = `${module.subject}:${module.moduleNumber}`;
     const nextIndex = (groupCounts.get(groupKey) ?? 0) + 1;
     groupCounts.set(groupKey, nextIndex);
+    const publicSubjectSlug = module.subject === "reading" ? "eng" : "math";
+    const publicTitle = `${module.subjectLabel} Module ${module.moduleNumber}`;
+    const publicSubtitle = `Practice Test ${nextIndex}`;
+    const publicTestName = `${publicSubtitle} ${publicTitle}`;
+    const publicSlug = `practice-test-${nextIndex}-${publicSubjectSlug}-m${module.moduleNumber}`;
+    const questions = module.questions.map((entry) => ({
+      ...entry,
+      bankQuestion: {
+        ...entry.bankQuestion,
+        testName: publicTestName,
+      },
+      replacement: entry.replacement
+        ? {
+          ...entry.replacement,
+          sourceTestName: "Practice Bank",
+        }
+        : undefined,
+    }));
+
+    for (const entry of questions) {
+      synthesizedBankQuestions[module.subject].set(entry.bankQuestion.sourceId, entry.bankQuestion);
+    }
 
     return {
       ...module,
+      id: `practice_test_${nextIndex}_${publicSubjectSlug}_m${module.moduleNumber}`,
+      slug: publicSlug,
+      testName: publicTestName,
       setNumber: nextIndex,
-      publicTitle: `${module.subjectLabel} Module ${module.moduleNumber}`,
-      publicSubtitle: `Practice Set ${nextIndex}`,
+      publicTitle,
+      publicSubtitle,
+      questions,
+      replacements: questions
+        .map((entry) => entry.replacement)
+        .filter((replacement): replacement is ModuleReplacement => Boolean(replacement)),
     };
   });
 })();
@@ -774,7 +766,7 @@ export const practiceSets: PracticeSet[] = Array.from({ length: totalPracticeSet
   }
 
   return {
-    id: `practice-set-${setNumber}`,
+    id: `practice-test-${setNumber}`,
     setNumber,
     modules,
   };
@@ -804,7 +796,7 @@ export const getPracticeSet = (setIdOrNumber: string | number): PracticeSet | nu
   const normalized =
     typeof setIdOrNumber === "number"
       ? setIdOrNumber
-      : Number.parseInt(String(setIdOrNumber).replace(/^practice-set-/, ""), 10);
+      : Number.parseInt(String(setIdOrNumber).replace(/^practice-(?:set|test)-/, ""), 10);
 
   return practiceSets.find((practiceSet) =>
     practiceSet.id === String(setIdOrNumber) || practiceSet.setNumber === normalized,

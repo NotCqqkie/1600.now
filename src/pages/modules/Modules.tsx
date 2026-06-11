@@ -224,7 +224,7 @@ const Modules = () => {
             Practice Tests
           </h1>
           <p className="mt-2 font-sans text-[16px] leading-[1.5] text-ink-mid max-w-[600px]">
-            Full SAT practice tests grouped by year, form, subject, and module.
+            Full SAT practice tests organized by subject and module.
           </p>
         </div>
       </div>
@@ -234,7 +234,7 @@ const Modules = () => {
           const label = isModule ? "Resume Most Recent Module" : "Resume Most Recent Practice Test";
           const title = isModule
             ? mostRecentSession.module.publicTitle
-            : `Practice Set ${mostRecentSession.practiceSet.setNumber}`;
+            : `Practice Test ${mostRecentSession.practiceSet.setNumber}`;
           const activeModule = !isModule
             ? mostRecentSession.session.modules[mostRecentSession.session.activeModuleIndex]
             : null;
@@ -326,7 +326,7 @@ const Modules = () => {
           </SelectTrigger>
           <SelectContent>
             <SelectItem value="all">All subjects</SelectItem>
-            <SelectItem value="reading">Reading &amp; Writing</SelectItem>
+            <SelectItem value="reading">English</SelectItem>
             <SelectItem value="math">Math</SelectItem>
           </SelectContent>
         </Select>
@@ -367,7 +367,7 @@ const Modules = () => {
               <div
                 className="font-display text-[24px] font-semibold leading-[1.1] tracking-[-0.02em] tabular-nums text-ink"
               >
-                Practice Set {practiceSet.setNumber}
+                Practice Test {practiceSet.setNumber}
               </div>
 
               <Button
@@ -390,7 +390,7 @@ const Modules = () => {
                   {rwModules.length > 0 && (
                     <>
                       <span className="font-sans text-[14px] font-medium text-ink-muted">
-                        Reading
+                        English
                       </span>
                       <div className="flex items-center gap-2">
                         {rwModules.map((module) => (
@@ -438,7 +438,7 @@ const Modules = () => {
         <Card className="border-dashed border-ds-line">
           <CardContent className="py-12 text-center">
             <h3 className="font-display text-[22px] font-semibold leading-[1.15] tracking-[-0.015em] text-ink">
-              No practice sets match
+              No practice tests match
             </h3>
             <p className="mt-2 font-sans text-[13px] leading-[1.55] text-ink-mid">
               Try clearing the subject, module, or status filters.

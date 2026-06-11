@@ -156,7 +156,7 @@ export const resolveSatQuestionImages = (
   const id = String(questionId);
   const supplemental = getQuestionImageEntry(id);
   const supplementalImages = supplemental?.questionImages
-    ?.map((img, index, images) => {
+    ?.map((img, index, images): ResolvedSatImage | null => {
       const src = normalizeSatImagePath(img.src);
       if (!src) return null;
       return {

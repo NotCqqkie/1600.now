@@ -247,8 +247,8 @@ const staticAssets: LinkableAsset[] = [
         table: {
           headers: ["Module", "Questions", "Time", "Pace"],
           rows: [
-            ["Reading & Writing Module 1", "27", "32 minutes", "About 71 seconds/question"],
-            ["Reading & Writing Module 2", "27", "32 minutes", "About 71 seconds/question"],
+            ["English Module 1", "27", "32 minutes", "About 71 seconds/question"],
+            ["English Module 2", "27", "32 minutes", "About 71 seconds/question"],
             ["Math Module 1", "22", "35 minutes", "About 95 seconds/question"],
             ["Math Module 2", "22", "35 minutes", "About 95 seconds/question"],
           ],

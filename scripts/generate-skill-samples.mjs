@@ -197,7 +197,7 @@ function pickSamples(bank, officialSkill, maxLen) {
   return picked.map((q) => ({
     id: q.id,
     difficulty: getPastQuestionDifficulty(q),
-    testName: q.testName,
+    testName: "Past SAT-based",
     text: q.text,
     choices: q.choices.map((c) => ({ id: c.id, text: c.text })),
     correctAnswer: q.correctAnswer,

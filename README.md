@@ -347,8 +347,8 @@ Route:
 
 Features:
 
-- Reading & Writing Module 1 slider.
-- Reading & Writing Module 2 slider.
+- English Module 1 slider.
+- English Module 2 slider.
 - Math Module 1 slider.
 - Math Module 2 slider.
 - Live Reading & Writing section score.

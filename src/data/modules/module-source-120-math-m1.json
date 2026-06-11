@@ -1,0 +1,619 @@
+[
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
+    "question_number": 1,
+    "test_name": "Module Source 120 Math M1",
+    "passage": "The table shows selected values from the function f.\nWhich of the following is the best description of function f?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "Increasing linear"
+      },
+      {
+        "label": "B",
+        "text": "Decreasing linear"
+      },
+      {
+        "label": "C",
+        "text": "Increasing exponential"
+      },
+      {
+        "label": "D",
+        "text": "Decreasing exponential"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "6f7157fc-7e47-4e83-add3-e372915177ec_1",
+    "images": [
+      {
+        "src": "/images/SAT-Style%20Questions/6f7157fc-7e47-4e83-add3-e372915177ec_1_q_01_FIX.png",
+        "alt": "",
+        "local": "images/SAT-Style Questions/6f7157fc-7e47-4e83-add3-e372915177ec_1_q_01_FIX.png"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
+    "question_number": 2,
+    "test_name": "Module Source 120 Math M1",
+    "passage": "The function $f$ is defined by $f(x) = -3x + 40$. What is the value of $f(x)$ when $x = -6$?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "58"
+      },
+      {
+        "label": "B",
+        "text": "37"
+      },
+      {
+        "label": "C",
+        "text": "34"
+      },
+      {
+        "label": "D",
+        "text": "31"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "6f7157fc-7e47-4e83-add3-e372915177ec_2"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Easy",
+    "question_number": 3,
+    "test_name": "Module Source 120 Math M1",
+    "passage": "What is the positive solution to the given equation? $x^2 = 40 \\times 40$",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "40",
+    "rationale": null,
+    "id": "6f7157fc-7e47-4e83-add3-e372915177ec_3"
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Easy",
+    "question_number": 4,
+    "test_name": "Module Source 120 Math M1",
+    "passage": "Data set A: 2, 2, 2, 5, 5, 8, 11, 11, 14, 14, 14\nData set B: 2, 5, 5, 8, 8, 8, 8, 8, 11, 11, 14\nData set A and data set B each have 11 values. Which of the following statements best compares the median of data set A and the median of data set B?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "The median of data set A is greater than the median of data set B."
+      },
+      {
+        "label": "B",
+        "text": "The median of data set A is less than the median of data set B."
+      },
+      {
+        "label": "C",
+        "text": "The medians of data sets A and B are equal."
+      },
+      {
+        "label": "D",
+        "text": "There is not enough information to compare the medians."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "6f7157fc-7e47-4e83-add3-e372915177ec_4"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
+    "question_number": 5,
+    "test_name": "Module Source 120 Math M1",
+    "passage": "The function $f$ is defined by $f(x) = x^3 + 27$. What is the value of $f(2)$?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "35",
+    "rationale": null,
+    "id": "6f7157fc-7e47-4e83-add3-e372915177ec_5"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Easy",
+    "question_number": 6,
+    "test_name": "Module Source 120 Math M1",
+    "passage": "In the xy-plane, the graph of the equation $y = 9x$ is translated 8 units down. What is an equation of the resulting graph?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$y = 9x + 8$"
+      },
+      {
+        "label": "B",
+        "text": "$y = 9x - 8$"
+      },
+      {
+        "label": "C",
+        "text": "$y = 9(x + 8)$"
+      },
+      {
+        "label": "D",
+        "text": "$y = 9(x - 8)$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "6f7157fc-7e47-4e83-add3-e372915177ec_6"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Medium",
+    "question_number": 7,
+    "test_name": "Module Source 120 Math M1",
+    "passage": "$y=4x+12$\n$y=(x+2)^2$\nA solution to the given system of equations is $(x, y)$. What is the value of $x^2$?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "8",
+    "rationale": null,
+    "id": "6f7157fc-7e47-4e83-add3-e372915177ec_7"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
+    "difficulty": "Medium",
+    "question_number": 8,
+    "test_name": "Module Source 120 Math M1",
+    "passage": "$f(x)=-9x^2 + 113x$\nThe function $f$ models the depth below sea level, in meters, of a certain seal $x$ minutes after the seal dives into the water. What is the best interpretation of $f(2)= 190$ in this context?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "2 minutes after the seal dives into the water, its estimated depth is 2 meters below sea level."
+      },
+      {
+        "label": "B",
+        "text": "The seal reaches an estimated maximum depth of 190 meters below sea level."
+      },
+      {
+        "label": "C",
+        "text": "2 minutes after the seal dives into the water, its estimated depth is 190 meters below sea level."
+      },
+      {
+        "label": "D",
+        "text": "Approximately 2 minutes after diving into the water, the seal returns to sea level."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "6f7157fc-7e47-4e83-add3-e372915177ec_8"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
+    "question_number": 9,
+    "test_name": "Module Source 120 Math M1",
+    "passage": "$13x + 14y = 423$ represents this situation. Which of the following is the best interpretation of $y$ in this context?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "The number of long-sleeved shirts sold"
+      },
+      {
+        "label": "B",
+        "text": "The number of short-sleeved shirts sold"
+      },
+      {
+        "label": "C",
+        "text": "The price, in dollars, of each long-sleeved shirt"
+      },
+      {
+        "label": "D",
+        "text": "The price, in dollars, of each short-sleeved shirt"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "6f7157fc-7e47-4e83-add3-e372915177ec_9"
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "Medium",
+    "question_number": 10,
+    "test_name": "Module Source 120 Math M1",
+    "passage": "A chemist mixed $x$ liters of a 2% saline solution with $y$ liters of a 5% saline solution to produce a 3% saline solution. Which equation best represents this situation? (Assume the volumes of the solutions are additive.)",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$0.02x + 0.05y = 3(x + y)$"
+      },
+      {
+        "label": "B",
+        "text": "$0.02x + 0.05y = 0.03(x + y)$"
+      },
+      {
+        "label": "C",
+        "text": "$0.2x + 0.5y = 3(x + y)$"
+      },
+      {
+        "label": "D",
+        "text": "$0.2x + 0.5y = 0.3(x + y)$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "6f7157fc-7e47-4e83-add3-e372915177ec_10"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Medium",
+    "question_number": 11,
+    "test_name": "Module Source 120 Math M1",
+    "passage": "In the right triangle shown, c is a constant. The value of $\\sin x° = \\frac{k}{c}$, where k is a constant. What is the value of k?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "28",
+    "rationale": null,
+    "id": "6f7157fc-7e47-4e83-add3-e372915177ec_11",
+    "images": [
+      {
+        "src": "/images/SAT-Style%20Questions/6f7157fc-7e47-4e83-add3-e372915177ec_11_q_01_FIX.png",
+        "alt": "",
+        "local": "images/SAT-Style Questions/6f7157fc-7e47-4e83-add3-e372915177ec_11_q_01_FIX.png"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: Distributions and measures of center and spread",
+    "difficulty": "Easy",
+    "question_number": 12,
+    "test_name": "Module Source 120 Math M1",
+    "passage": "What is the frequency of data value 2 in this data set?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "6",
+    "rationale": null,
+    "id": "6f7157fc-7e47-4e83-add3-e372915177ec_12",
+    "images": [
+      {
+        "src": "/images/SAT-Style%20Questions/6f7157fc-7e47-4e83-add3-e372915177ec_12_q_01_FIX.png",
+        "alt": "",
+        "local": "images/SAT-Style Questions/6f7157fc-7e47-4e83-add3-e372915177ec_12_q_01_FIX.png"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Medium",
+    "question_number": 13,
+    "test_name": "Module Source 120 Math M1",
+    "passage": "The table gives the perimeters of similar triangles $TUV$ and $XYZ$, where $\\overline{TU}$ corresponds to $\\overline{XY}$. The length of $\\overline{TU}$ is 16.\nWhat is the length of $\\overline{XY}$?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "2"
+      },
+      {
+        "label": "B",
+        "text": "16"
+      },
+      {
+        "label": "C",
+        "text": "60"
+      },
+      {
+        "label": "D",
+        "text": "128"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "6f7157fc-7e47-4e83-add3-e372915177ec_13",
+    "images": [
+      {
+        "src": "/images/SAT-Style%20Questions/6f7157fc-7e47-4e83-add3-e372915177ec_13_q_01_FIX.png",
+        "alt": "",
+        "local": "images/SAT-Style Questions/6f7157fc-7e47-4e83-add3-e372915177ec_13_q_01_FIX.png"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "Medium",
+    "question_number": 14,
+    "test_name": "Module Source 120 Math M1",
+    "passage": "What is the radius of the circle in the $xy$-plane defined by $ (x + 4)^2 + (y + 8)^2 = 169 $?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "13",
+    "rationale": null,
+    "id": "6f7157fc-7e47-4e83-add3-e372915177ec_14"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
+    "question_number": 15,
+    "test_name": "Module Source 120 Math M1",
+    "passage": "A piece of string with a length of $96$ inches is cut into two parts. One part has a length of $x$ inches, and the other part has a length of $y$ inches. The value of $x$ is 6 more than 4 times the value of $y$. What is the value of $x$?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "23"
+      },
+      {
+        "label": "B",
+        "text": "26"
+      },
+      {
+        "label": "C",
+        "text": "51"
+      },
+      {
+        "label": "D",
+        "text": "78"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "6f7157fc-7e47-4e83-add3-e372915177ec_15"
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and volume",
+    "difficulty": "Medium",
+    "question_number": 16,
+    "test_name": "Module Source 120 Math M1",
+    "passage": "The area of a triangle is $270$ square centimeters. The length of the base of the triangle is $12$ centimeters greater than the height of the triangle. What is the height, in centimeters, of the triangle?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "15"
+      },
+      {
+        "label": "B",
+        "text": "18"
+      },
+      {
+        "label": "C",
+        "text": "30"
+      },
+      {
+        "label": "D",
+        "text": "36"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "6f7157fc-7e47-4e83-add3-e372915177ec_16"
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Hard",
+    "question_number": 17,
+    "test_name": "Module Source 120 Math M1",
+    "passage": "An employee earns \\$30 per hour for the first 40 hours worked in a week. For each hour worked over 40 hours, the employee earns \\$45 per hour. What is the least number of whole hours that the employee must work in a week to earn at least \\$1,610?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "50"
+      },
+      {
+        "label": "B",
+        "text": "49"
+      },
+      {
+        "label": "C",
+        "text": "10"
+      },
+      {
+        "label": "D",
+        "text": "9"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "6f7157fc-7e47-4e83-add3-e372915177ec_17"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Medium",
+    "question_number": 18,
+    "test_name": "Module Source 120 Math M1",
+    "passage": "The graph of a system of a linear equation and a quadratic equation is shown. A solution to the system is $(x, y)$. What is a possible value of $x$?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "4"
+      },
+      {
+        "label": "B",
+        "text": "5"
+      },
+      {
+        "label": "C",
+        "text": "6.4"
+      },
+      {
+        "label": "D",
+        "text": "8"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "6f7157fc-7e47-4e83-add3-e372915177ec_18",
+    "images": [
+      {
+        "src": "/images/SAT-Style%20Questions/6f7157fc-7e47-4e83-add3-e372915177ec_18_q_01_FIX.png",
+        "alt": "",
+        "local": "images/SAT-Style Questions/6f7157fc-7e47-4e83-add3-e372915177ec_18_q_01_FIX.png"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Medium",
+    "question_number": 19,
+    "test_name": "Module Source 120 Math M1",
+    "passage": "$17(x-16)=-16(x + 17)$\nHow many distinct real solutions does the given equation have?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "Exactly one"
+      },
+      {
+        "label": "B",
+        "text": "Exactly two"
+      },
+      {
+        "label": "C",
+        "text": "Infinitely many"
+      },
+      {
+        "label": "D",
+        "text": "Zero"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "6f7157fc-7e47-4e83-add3-e372915177ec_19"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Medium",
+    "question_number": 20,
+    "test_name": "Module Source 120 Math M1",
+    "passage": "$22x-21y=43$\n$5x+14y=59$\nThe solution to the given system of equations is $(x, y)=\\left(\\frac{p}{59}, \\frac{w}{826}\\right)$, where $p$ and $w$ are integers. What is the value of $p$?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "263",
+    "rationale": null,
+    "id": "6f7157fc-7e47-4e83-add3-e372915177ec_20"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Hard",
+    "question_number": 21,
+    "test_name": "Module Source 120 Math M1",
+    "passage": "The table shows three values of $ x $ and their corresponding values of $ y $. There is a linear relationship between $ x $ and $ y $. What is the $ x $-coordinate of the $ x $-intercept of the graph that represents this linear relationship in the $ xy $-plane?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "32.5,65/2",
+    "rationale": null,
+    "id": "6f7157fc-7e47-4e83-add3-e372915177ec_21",
+    "images": [
+      {
+        "src": "/images/SAT-Style%20Questions/6f7157fc-7e47-4e83-add3-e372915177ec_21_q_01_FIX.png",
+        "alt": "",
+        "local": "images/SAT-Style Questions/6f7157fc-7e47-4e83-add3-e372915177ec_21_q_01_FIX.png"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Medium",
+    "question_number": 22,
+    "test_name": "Module Source 120 Math M1",
+    "passage": "In the figure, $\\overline{LQ}$ intersects $\\overline{MP}$ at point R, and $\\overline{LM}$ is parallel to $\\overline{PQ}$. The lengths of $\\overline{MR}$, $\\overline{LR}$, and $\\overline{RP}$ are 9, 10, and 19, respectively. What is the length of $\\overline{LQ}$?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$\\frac{280}{19}$"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{190}{9}$"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{271}{9}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{280}{9}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "6f7157fc-7e47-4e83-add3-e372915177ec_22",
+    "images": [
+      {
+        "src": "/images/SAT-Style%20Questions/6f7157fc-7e47-4e83-add3-e372915177ec_22_q_01_FIX.png",
+        "alt": "",
+        "local": "images/SAT-Style Questions/6f7157fc-7e47-4e83-add3-e372915177ec_22_q_01_FIX.png"
+      }
+    ]
+  }
+]

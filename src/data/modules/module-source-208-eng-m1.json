@@ -1,0 +1,880 @@
+[
+  {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Easy",
+    "question_number": 1,
+    "test_name": "Module Source 208 Eng M1",
+    "passage": "As used in the text, what does the word \"find\" most nearly mean?\nThe following text is adapted from Yone Noguchi’s 1914 memoir *The Story of Yone Noguchi*. Noguchi is returning home after eleven years abroad. I reached Tsushima, my native town, at evening. I frightened my old father at the station, who was actually trying to <u>find</u> me among some other people. There is no wonder that he could not recognise me; I must have changed a great deal.",
+    "question_text": "As used in the text, what does the word \"find\" most nearly mean?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Locate"
+      },
+      {
+        "label": "B",
+        "text": "Affect"
+      },
+      {
+        "label": "C",
+        "text": "Reveal"
+      },
+      {
+        "label": "D",
+        "text": "Criticize"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_1"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Medium",
+    "question_number": 2,
+    "test_name": "Module Source 208 Eng M1",
+    "passage": "As used in the text, what does the word “end” most nearly mean?\nThe following text is adapted from Jhumpa Lahiri’s 2003 novel *The Namesake*. Gogol has recently begun working at an architecture firm in New York. His contributions are incidental, and never fully his own: a stairwell, a skylight, a corridor, an air-conditioning duct. Still, he knows that each component of a building, however small, is nevertheless essential, and he finds it gratifying that after all his years of schooling, all his crits [reviews] and unbuilt projects, his efforts are to have some practical <u>end</u>.",
+    "question_text": "As used in the text, what does the word “end” most nearly mean?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Limit"
+      },
+      {
+        "label": "B",
+        "text": "Delay"
+      },
+      {
+        "label": "C",
+        "text": "Decision"
+      },
+      {
+        "label": "D",
+        "text": "Purpose"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_2"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Medium",
+    "question_number": 3,
+    "test_name": "Module Source 208 Eng M1",
+    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nSome cities estimate where sidewalks are located using road maps, which is not very accurate. Maryam Hosseini and her team trained a computer program to identify sidewalks in aerial images of Boston and used it on images of Brooklyn. The program’s performance was ______ to that of the road-map method: it more accurately identified sidewalks, and it even distinguished between concrete and brick.",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "changed"
+      },
+      {
+        "label": "B",
+        "text": "superior"
+      },
+      {
+        "label": "C",
+        "text": "similar"
+      },
+      {
+        "label": "D",
+        "text": "supportive"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_3"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Easy",
+    "question_number": 4,
+    "test_name": "Module Source 208 Eng M1",
+    "passage": "Which choice completes the text with the most logical and precise word or phrase?\nIn a garden, ______ the spread of unwelcome weeds such as horsetail weed can be difficult because weeds usually spread easily and quickly become unmanageable, making it hard to remove them completely.",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "halting"
+      },
+      {
+        "label": "B",
+        "text": "retrieving"
+      },
+      {
+        "label": "C",
+        "text": "saving"
+      },
+      {
+        "label": "D",
+        "text": "pretending"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_4"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Medium",
+    "question_number": 5,
+    "test_name": "Module Source 208 Eng M1",
+    "passage": "Which choice completes the text with the most logical and precise word or phrase?\n*Hard Times*, painted in the realist style by Hubert von Herkomer, depicts a family waiting by the roadside with their bundled possessions. The realists’ emphasis on accurately portraying the experiences of average working people was largely a rejection of the romantic style evident in many paintings by Jean-Victor Schnetz, which instead ______ their subjects’ positive traits, altering subjects to appear more beautiful or heroic than they actually were.",
+    "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "apprehend"
+      },
+      {
+        "label": "B",
+        "text": "rectify"
+      },
+      {
+        "label": "C",
+        "text": "counteract"
+      },
+      {
+        "label": "D",
+        "text": "magnify"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_5"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "Easy",
+    "question_number": 6,
+    "test_name": "Module Source 208 Eng M1",
+    "passage": "Which choice best describes the function of the underlined sentence?\nHumans aren’t the only ones who use tools. Other animals also find tools helpful. <u>Sea otters use stationary anvil stones to break open mollusk shells.</u> And despite sometimes being thought of as simple, many birds make clever use of tools as well. Striated herons have been observed using breadcrumbs and other lures to attract fish to the water’s surface, making it easier for the herons to catch them.",
+    "question_text": "Which choice best describes the function of the underlined sentence?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "It argues that sea otters use tools more often than other animals do."
+      },
+      {
+        "label": "B",
+        "text": "It provides one example of tool use in a nonhuman animal."
+      },
+      {
+        "label": "C",
+        "text": "It emphasizes that sea otters are smarter than birds."
+      },
+      {
+        "label": "D",
+        "text": "It explains that humans use tools for many different tasks."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_6"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "Medium",
+    "question_number": 7,
+    "test_name": "Module Source 208 Eng M1",
+    "passage": "Which choice best states the function of the underlined portion in the text as a whole?\nMeredith E. Protas and colleagues have explored how convergent evolution—<u>a phenomenon that occurs when the same trait evolves independently in two reproductively separate lineages</u>—can result from a genetic mechanism shared by both lineages. Meanwhile, Armin P. Moczek and colleagues have investigated how convergence occurs through different genetic mechanisms, but the relative prevalence of convergence through shared and different genetic processes is still poorly understood. This motivated biologists Delbert A. Green II and Cassandra G. Extavour to evaluate both types of convergence in a single study for their 2012 paper.",
+    "question_text": "Which choice best states the function of the underlined portion in the text as a whole?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "It clarifies a concept that the author implies was unclear in the studies mentioned in the text."
+      },
+      {
+        "label": "B",
+        "text": "It provides examples of how a phenomenon was studied by scientists in the field before Green and Extavour’s study."
+      },
+      {
+        "label": "C",
+        "text": "It introduces a method of scientific analysis that is discussed in greater detail later in the text."
+      },
+      {
+        "label": "D",
+        "text": "It gives a basic description of a phenomenon that is central to the discussion that follows."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_7"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "Medium",
+    "question_number": 8,
+    "test_name": "Module Source 208 Eng M1",
+    "passage": "Which choice best describes the overall structure of the text?\nThe *Ericsson* is just one of approximately three million known historical shipwrecks spread throughout the world’s oceans, and their impact on sea life and underwater ecosystems is of great interest to researchers. Rachel Moseley and colleagues were particularly curious about the effects of wooden shipwrecks on seafloor microbial communities. The researchers studied two wooden shipwrecks in the Gulf of Mexico by placing pieces of pine and oak between zero and 200 meters away from each shipwreck to collect samples of three kinds of microbes: bacteria, archaea, and fungi. They found that across the three microbial communities, peak diversity and richness was observed on pine and oak samples placed approximately 125 meters from the shipwrecks.",
+    "question_text": "Which choice best describes the overall structure of the text?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "It names a famous historical shipwreck, describes the type of wood used to build that ship, and then explains how that wood type influences underwater microbial communities."
+      },
+      {
+        "label": "B",
+        "text": "It states the number of known shipwrecks, describes the historical significance of one of those shipwrecks, and then comments on the various microbes found at the shipwreck site."
+      },
+      {
+        "label": "C",
+        "text": "It notes a general scientific interest in shipwrecks’ ecological effects, describes a specific study related to that interest, and then states one of the study’s findings."
+      },
+      {
+        "label": "D",
+        "text": "It introduces a study of microbial communities near shipwrecks that has received significant scholarly attention, summarizes the results of that study, and then describes a research team’s reaction to the study."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_8"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Medium",
+    "question_number": 9,
+    "test_name": "Module Source 208 Eng M1",
+    "passage": "Which choice best states the main topic of the text?\nIn 2012 Göran E. Nilsson and colleagues published a study concluding that ocean acidification has a strong effect on the behavior of *Amphiprion percula*, a species of fish. However, Nilsson and colleagues’ study relied on a mean sample size of only about 14 fish. In a 2022 review of various scientists’ conclusions about the impacts of ocean acidification on fish behavior, Timothy D. Clark and colleagues caution that relying on such a relatively small sample size can increase the potential for biased analysis. Such analysis, in turn, can contribute to reports of exaggerated effects.",
+    "question_text": "Which choice best states the main topic of the text?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "A possible shortcoming of a study involving *Amphiprion percula*"
+      },
+      {
+        "label": "B",
+        "text": "A newly identified cause of ocean acidification"
+      },
+      {
+        "label": "C",
+        "text": "A discovery regarding the evolution of *Amphiprion percula*"
+      },
+      {
+        "label": "D",
+        "text": "A change in fish behavior first reported in 2022"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_9"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Medium",
+    "question_number": 10,
+    "test_name": "Module Source 208 Eng M1",
+    "passage": "Which choice best states the main idea of the text?\nCommunity science involves professional scientists collaborating with members of the public to study a topic. This approach to research can promote community engagement by assisting with conservation efforts. It’s also very effective because it greatly increases the amount of data that can be collected, such as when biologist Grace Herzel and colleagues studied butterfly color and its relation to behavior and used findings reported by hundreds of students and community members in northwestern Arkansas.",
+    "question_text": "Which choice best states the main idea of the text?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Grace Herzel and colleagues used a community science approach in their butterfly research and were surprised at the effect this had on conservation efforts."
+      },
+      {
+        "label": "B",
+        "text": "A community science approach can benefit communities by increasing conservation efforts, but it’s less likely to help researchers obtain accurate data."
+      },
+      {
+        "label": "C",
+        "text": "A community science approach can increase conservation efforts and generate large amounts of data, benefiting both communities and researchers."
+      },
+      {
+        "label": "D",
+        "text": "A community science approach allows researchers to collect significantly more data even though it’s unlikely to have much of an effect on conservation efforts."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_10"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
+    "question_number": 11,
+    "test_name": "Module Source 208 Eng M1",
+    "passage": "Which quotation from *The Age of Innocence* best illustrates the claim?\n*The Age of Innocence* is a 1920 novel by Edith Wharton set in New York City in the 1870s. In the novel, Newland Archer attends an opera. Newland compares his intellect favorably to that of other men of New York City society who are in the audience: ______",
+    "question_text": "Which quotation from *The Age of Innocence* best illustrates the claim?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "“Newland Archer felt himself distinctly the superior of these chosen specimens of old New York gentility; he had probably read more, thought more, and even seen a good deal more of the world, than any other man of the number.”"
+      },
+      {
+        "label": "B",
+        "text": "“Here was the truth, here was reality, here was the life that belonged to [Newland].”"
+      },
+      {
+        "label": "C",
+        "text": "“Singly [the men around Newland] betrayed their inferiority; but grouped together they represented ‘New York,’ and the habit of masculine solidarity made him accept their doctrine on all the issues called moral.”"
+      },
+      {
+        "label": "D",
+        "text": "“It was Madame Nilsson’s first appearance [in an opera] that winter, and what the daily press had already learned to describe as ‘an exceptionally brilliant audience’ had gathered to hear her.”"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_11"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
+    "question_number": 12,
+    "test_name": "Module Source 208 Eng M1",
+    "passage": "Which choice most effectively uses data from the graph to complete the example?\nA report from an international organization that monitors the numbers of women serving as judges or magistrates on various nations’ highest courts, such as the Supreme Court in the Philippines and the Supreme Court of Justice in Mexico, found that the overall trend is toward more women serving on the high courts in 2010 than in 1980. For example, none of the countries in the graph had more than 2 women in these positions in 1980, but ______",
+    "question_text": "Which choice most effectively uses data from the graph to complete the example?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "neither Sri Lanka nor the Philippines saw a reduction in the women on their high courts in any of the years shown on the graph, but Mexico did after 1990."
+      },
+      {
+        "label": "B",
+        "text": "Mexico had 2 women on its high courts in 1980 and 3 in 2010."
+      },
+      {
+        "label": "C",
+        "text": "the increase in the number of women on the high courts from 1980 to 2010 in Sri Lanka was greater than that in either Mexico or the Philippines."
+      },
+      {
+        "label": "D",
+        "text": "in 2010, Sri Lanka had 3 women on its high courts, the Philippines had 3, and Mexico had 3."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_12",
+    "images": [
+      {
+        "src": "/images/SAT-Style%20Questions/6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_12_q_01_FIX.png",
+        "alt": "",
+        "local": "images/SAT-Style Questions/6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_12_q_01_FIX.png"
+      }
+    ]
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
+    "question_number": 13,
+    "test_name": "Module Source 208 Eng M1",
+    "passage": "Which choice most effectively uses data from the graph to complete the assertion?\nKaiser Foundation Hospitals and other US public charities must file Form 990 yearly with the IRS, but private foundations, such as the Gordon and Betty Moore Foundation, must file a different form, 990-PF. In addition, foundations that engage in certain prohibited activities must also file Form 4720 and pay a penalty tax on the money involved. Private foundations are prohibited from doing the following: holding excess interests in a business enterprise, “self-dealing” (conducting activities that benefit foundation insiders), making taxable expenditures such as grants to noncharitable entities, and failing to cross a required threshold in making charitable distributions from income. Out of the organizations that filed Form 990-PF in the years 2003–2005, ______",
+    "question_text": "Which choice most effectively uses data from the graph to complete the assertion?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "more of those that filed Form 4720 failed to meet a minimum charitable distribution requirement than did those organizations that filed Form 990 but filed Form 4720 for the same reason."
+      },
+      {
+        "label": "B",
+        "text": "those that filed Form 4720 were less likely to do so because they did not meet the minimum charitable distribution requirement than for other reasons."
+      },
+      {
+        "label": "C",
+        "text": "those that filed Form 4720 because they had excess holdings in a business enterprise paid, on average, a significantly smaller penalty than those organizations that filed Form 4720 because they made taxable expenditures."
+      },
+      {
+        "label": "D",
+        "text": "the percentage of those that filed Form 4720 because they held excess interests in a business enterprise was smaller than the percentage of those that did so because they did not meet the minimum charitable distribution requirement."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_13",
+    "images": [
+      {
+        "src": "/images/SAT-Style%20Questions/6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_13_q_01_FIX.png",
+        "alt": "",
+        "local": "images/SAT-Style Questions/6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_13_q_01_FIX.png"
+      }
+    ]
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Medium",
+    "question_number": 14,
+    "test_name": "Module Source 208 Eng M1",
+    "passage": "Which choice most logically completes the text?\nScholars are increasingly exploring the communication and preservation of ecological knowledge through Indigenous songs (e.g., Temiar songs about landforms and landmarks and those of the Lakota people about gathering mouse beans). In one study, ethnobiologist Dana Lepofsky *et al.* received insight from Kwaxsistalla Wathl’thla, a song keeper for the Kwakwaka’wakw people in Canada, into songs referencing the people’s use of terraced gardens in intertidal zones along the Pacific Northwest coast for the cultivation of clams for consumption. Archaeological evidence of significant increases in clam size and abundance in that area concurrent with the documented past implementation of the method described in the songs supports the conclusion that ______",
+    "question_text": "Which choice most logically completes the text?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "the practice used by ancestors of modern Kwakwaka’wakw people not only effectively maintained a food source but also promoted its robustness."
+      },
+      {
+        "label": "B",
+        "text": "non-Indigenous people around the Pacific Northwest coast adopted the practice developed by the Kwakwaka’wakw people after observing its efficacy."
+      },
+      {
+        "label": "C",
+        "text": "there is greater corroboration in the archaeological record of ecological practices described in Kwakwaka’wakw songs than of those described in Temiar and Lakota songs."
+      },
+      {
+        "label": "D",
+        "text": "although contemporary Kwakwaka’wakw people have a deep understanding of and appreciation for the fishing and farming practices used by their ancestors, they no longer implement those methods."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_14"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Medium",
+    "question_number": 15,
+    "test_name": "Module Source 208 Eng M1",
+    "passage": "Which choice most logically completes the text?\nWith the ongoing expansion of e-commerce, consumers are expecting faster and faster delivery of goods, but delivery companies continue to struggle with last-mile logistics (the final step in delivery to consumers) due to challenges such as complex and inefficient delivery routes. Innovations to mitigate these challenges have been emerging—consumer vehicle delivery, for example—but these innovations tend to engender their own complications (e.g., many consumers are hesitant to give couriers unsupervised access to their vehicle trunks), leading researchers to conclude that ______",
+    "question_text": "Which choice most logically completes the text?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "rapid delivery is a leading factor in consumer satisfaction, and therefore delivery companies would benefit from investing resources in reducing delivery times."
+      },
+      {
+        "label": "B",
+        "text": "a better understanding of consumers’ expectations for delivery is needed so that companies can better plan for fluctuations in delivery volume."
+      },
+      {
+        "label": "C",
+        "text": "there may not be sufficient incentive for delivery companies to attempt to solve the problems associated with last-mile logistics."
+      },
+      {
+        "label": "D",
+        "text": "consumers’ expectations for reduced delivery times may be outstripping what is viable for delivery companies to provide."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_15"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Easy",
+    "question_number": 16,
+    "test_name": "Module Source 208 Eng M1",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nCentro Musical Criollo José Ignacio Quintón, a museum of music in Caguas, Puerto Rico, is one of more than eighty museums in the US territory. Puerto Rico’s museums ______ visitors about everything from the territory’s music to its architecture to its coffee.",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "to inform"
+      },
+      {
+        "label": "B",
+        "text": "having informed"
+      },
+      {
+        "label": "C",
+        "text": "inform"
+      },
+      {
+        "label": "D",
+        "text": "informing"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_16"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Easy",
+    "question_number": 17,
+    "test_name": "Module Source 208 Eng M1",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Tang dynasty, which reigned in China from around 618 CE to 907 CE, produced a variety of raw materials and goods within ______ However, it relied on trade with neighboring civilizations for items like glassware, metals, and jade.",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "its borders."
+      },
+      {
+        "label": "B",
+        "text": "its border’s."
+      },
+      {
+        "label": "C",
+        "text": "it’s borders’."
+      },
+      {
+        "label": "D",
+        "text": "it’s border’s."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_17"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
+    "question_number": 18,
+    "test_name": "Module Source 208 Eng M1",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWith one in Australia and another in Iceland, the observatory sites that form the Super Dual Auroral Radar Network—or SuperDARN, as space physicists like Kathryn McWilliams call it—number nearly five ______ across the globe, the radars track mesospheric winds and other geospace phenomena.",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "dozen, which are located"
+      },
+      {
+        "label": "B",
+        "text": "dozen. Located"
+      },
+      {
+        "label": "C",
+        "text": "dozen, located"
+      },
+      {
+        "label": "D",
+        "text": "dozen located"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_18"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
+    "question_number": 19,
+    "test_name": "Module Source 208 Eng M1",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe poem “We Real Cool,” which was published in 1960, contains three signature elements of Gwendolyn Brooks’s poetic ______ compressed lines infused with bursts of vivid imagery; syncopated rhythms, largely inspired by the blues tradition; and a keen attention to everyday life in Brooks’s South Side Chicago neighborhood.",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "style. Terse,"
+      },
+      {
+        "label": "B",
+        "text": "style; terse,"
+      },
+      {
+        "label": "C",
+        "text": "style: terse,"
+      },
+      {
+        "label": "D",
+        "text": "style, terse,"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_19"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
+    "question_number": 20,
+    "test_name": "Module Source 208 Eng M1",
+    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nExemplars of Stigler’s law ______ there is the Cassegrain reflector; in chemistry, the Arrhenius equation; and in mathematics, Heron’s formula. All the aforementioned share the trait of being named after individuals who were not their initial discoverers or inventors.",
+    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "abound: in astronomy,"
+      },
+      {
+        "label": "B",
+        "text": "abound in astronomy:"
+      },
+      {
+        "label": "C",
+        "text": "abound, in astronomy,"
+      },
+      {
+        "label": "D",
+        "text": "abound in astronomy;"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_20"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "Easy",
+    "question_number": 21,
+    "test_name": "Module Source 208 Eng M1",
+    "passage": "Which choice completes the text with the most logical transition?\nIn Ethiopia, citizens must be at least 18 years old to vote in their country’s elections. ______ citizens in Cuba need only be 16 years old to cast their vote.",
+    "question_text": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Firstly,"
+      },
+      {
+        "label": "B",
+        "text": "Therefore,"
+      },
+      {
+        "label": "C",
+        "text": "By comparison,"
+      },
+      {
+        "label": "D",
+        "text": "For example,"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_21"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "Medium",
+    "question_number": 22,
+    "test_name": "Module Source 208 Eng M1",
+    "passage": "Which choice completes the text with the most logical transition?\nThe method used in 1920 by the US Geological Survey to calculate the geographic center of Georgia, involving a cardboard cutout of the state and a piece of string, seems rudimentary today. ______ the center found in a 2015 study using far more advanced technology differed from the original by less than a mile, proving the original method to be relatively accurate.",
+    "question_text": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "As such,"
+      },
+      {
+        "label": "B",
+        "text": "That said,"
+      },
+      {
+        "label": "C",
+        "text": "In other words,"
+      },
+      {
+        "label": "D",
+        "text": "For example,"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_22"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "Medium",
+    "question_number": 23,
+    "test_name": "Module Source 208 Eng M1",
+    "passage": "Which choice completes the text with the most logical transition?\nSince 1941, the South Side Community Art Center in Chicago, Illinois, has cultivated a multigenerational community of Black creatives—from writer Gwendolyn Brooks, to musician Nat King Cole, to visual artists like Espi Eph and William Walker. _____ it has garnered a reputation as a hub of Black art and culture in Chicago.",
+    "question_text": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Nevertheless,"
+      },
+      {
+        "label": "B",
+        "text": "Accordingly,"
+      },
+      {
+        "label": "C",
+        "text": "Periodically,"
+      },
+      {
+        "label": "D",
+        "text": "On the other hand,"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_23"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "Medium",
+    "question_number": 24,
+    "test_name": "Module Source 208 Eng M1",
+    "passage": "The student wants to emphasize a similarity between the two sculptures. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Elizabeth Catlett (1915–2012) was a celebrated African American artist.\n• She is best known for creating sculptures and prints that explore the Black experience.\n• *Seated Woman* is a 1962 mahogany sculpture by Catlett.\n• *Woman Fixing Her Hair* is a 1993 mahogany sculpture by Catlett.",
+    "question_text": "The student wants to emphasize a similarity between the two sculptures. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "*Seated Woman* is a mahogany sculpture that celebrated artist Elizabeth Catlett created in 1962."
+      },
+      {
+        "label": "B",
+        "text": "Elizabeth Catlett was a celebrated artist who created prints as well as sculptures."
+      },
+      {
+        "label": "C",
+        "text": "Elizabeth Catlett’s sculptures *Seated Woman* and *Woman Fixing Her Hair* are both made of mahogany."
+      },
+      {
+        "label": "D",
+        "text": "Elizabeth Catlett, a celebrated artist, was born in 1915."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_24"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "Hard",
+    "question_number": 25,
+    "test_name": "Module Source 208 Eng M1",
+    "passage": "The student wants to emphasize the variety of soundscapes on the list. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• The Japanese Ministry of the Environment made a list of 100 soundscapes of Japan.\n• A soundscape refers to the noises heard in a specific place.\n• The sound of cicadas at the Yama-dera temple is on the list.\n• The sound of birds at the Higashiyama Botanical Garden is on the list.\n• The sound of water flowing over Nachi Falls is on the list.\n• Each soundscape was selected for its cultural significance to Japan.",
+    "question_text": "The student wants to emphasize the variety of soundscapes on the list. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "The sound of water flowing over Nachi Falls was selected for its cultural significance to Japan."
+      },
+      {
+        "label": "B",
+        "text": "The Japanese Ministry of the Environment included the sound of cicadas at the Yama-dera temple on its list of 100 soundscapes of Japan."
+      },
+      {
+        "label": "C",
+        "text": "The sound of birds at the Higashiyama Botanical Garden is on the Japanese Ministry of the Environment’s list."
+      },
+      {
+        "label": "D",
+        "text": "A range of different soundscapes are on the list, including the sounds of cicadas, birds, and water."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_25"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "Medium",
+    "question_number": 26,
+    "test_name": "Module Source 208 Eng M1",
+    "passage": "The student wants to contrast the locations of the two specimens. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Cliff is the nickname of a *Triceratops* fossil specimen housed at the Museum of Science.\n• The Museum of Science is located in Boston, Massachusetts.\n• Cliff lived in the Late Cretaceous period.\n• Raymond is the nickname of a *Triceratops* fossil specimen housed at the National Museum of Nature and Science.\n• The National Museum of Nature and Science is located in Tokyo, Japan.\n• Raymond lived in the Late Cretaceous period.",
+    "question_text": "The student wants to contrast the locations of the two specimens. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Like Cliff, Raymond is a Triceratops fossil specimen that lived in the Late Cretaceous period."
+      },
+      {
+        "label": "B",
+        "text": "Cliff is housed at the Museum of Science in Boston, Massachusetts, while Raymond is housed at the National Museum of Nature and Science in Tokyo, Japan."
+      },
+      {
+        "label": "C",
+        "text": "The National Museum of Nature and Science in Tokyo, Japan, houses Raymond, a *Triceratops* fossil specimen."
+      },
+      {
+        "label": "D",
+        "text": "The *Triceratops* fossil specimen Cliff is not the only such specimen currently housed in a museum or institute."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_26"
+  },
+  {
+    "section": "Reading and Writing",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "Medium",
+    "question_number": 27,
+    "test_name": "Module Source 208 Eng M1",
+    "passage": "The student wants to emphasize the number of sites containing pre-Clovis items. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• The Clovis First hypothesis proposes that ancient humans known as Clovis were the first to populate North America.\n• The Clovis arrived around 13,000 years ago.\n• They settled in various locations over a roughly 200-year period.\n• Butchered mammoth bones found at the Mud Lake site in Wisconsin date to approximately 16,500 years ago.\n• These items support the idea that humans were present in North America before the Clovis population arrived.\n• More than a dozen North American sites containing pre-Clovis items have been identified.",
+    "question_text": "The student wants to emphasize the number of sites containing pre-Clovis items. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "After arriving in North America around 13,000 years ago, the Clovis, an ancient human population, settled in numerous locations over a roughly 200-year period."
+      },
+      {
+        "label": "B",
+        "text": "Far from being the only place where evidence of human activity predating Clovis has been found, the Mud Lake site in Wisconsin is among more than a dozen such locations in North America."
+      },
+      {
+        "label": "C",
+        "text": "Dating to approximately 16,500 years old, the items found at Mud Lake, a site in Wisconsin, predate the arrival of the Clovis population."
+      },
+      {
+        "label": "D",
+        "text": "North American sites where pre-Clovis items have been found include Mud Lake, a site in Wisconsin."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_27"
+  }
+]

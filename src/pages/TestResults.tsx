@@ -42,7 +42,7 @@ const ModuleResultCard = ({
     <CardContent className="p-0">
       <div className="bg-[#c7dcff] px-5 py-4 text-[#202124] dark:bg-[#243b63] dark:text-white">
         <div className="text-[11px] font-bold uppercase tracking-[0.16em] opacity-80">
-          {result.subject === "math" ? "Math Module" : "Reading & Writing Module"}
+          {result.subject === "math" ? "Math Module" : "English Module"}
         </div>
         <h2 className="mt-2 text-2xl font-black leading-none tracking-[-0.045em]">
           {result.moduleTitle}

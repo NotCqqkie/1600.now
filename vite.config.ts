@@ -59,8 +59,7 @@ const satImageAliasPlugin = (): Plugin => ({
     if (!fs.existsSync(sourceDir)) return;
 
     fs.rmSync(aliasDir, { recursive: true, force: true });
-    fs.renameSync(sourceDir, aliasDir);
-    fs.symlinkSync("SAT-Style-Questions", sourceDir, "dir");
+    fs.cpSync(sourceDir, aliasDir, { recursive: true });
   },
 });
 

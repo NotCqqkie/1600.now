@@ -64,7 +64,7 @@ const BankFiltered = () => {
 
   const validSubject = subject === "math" || subject === "reading" ? subject : "math";
   const isMath = validSubject === "math";
-  const decodedFilter = decodeURIComponent(filterValue || "");
+  const decodedFilter = filterValue || "";
   const bankSource = normalizeBankSource(searchParams.get("bankType"));
   const basePath = "/bank";
   const bankQuerySuffix = `?bankType=${bankSource}`;

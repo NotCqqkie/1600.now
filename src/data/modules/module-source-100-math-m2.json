@@ -1,0 +1,642 @@
+[
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "Easy",
+    "question_number": 1,
+    "test_name": "Module Source 100 Math M2",
+    "passage": "Levi and Marissa each have stamp collections. The number of stamps in Levi's collection is 200% of the number of stamps in Marissa's collection. If there are 460 stamps in Marissa's collection, how many stamps are in Levi's collection?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "230"
+      },
+      {
+        "label": "B",
+        "text": "460"
+      },
+      {
+        "label": "C",
+        "text": "920"
+      },
+      {
+        "label": "D",
+        "text": "1,380"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_1"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Medium",
+    "question_number": 2,
+    "test_name": "Module Source 100 Math M2",
+    "passage": "The graph of a system of a linear equation and a quadratic equation is shown. Which of the following is a solution (x, y) to the system?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$(-1, 5)$"
+      },
+      {
+        "label": "B",
+        "text": "$(0, 0)$"
+      },
+      {
+        "label": "C",
+        "text": "$(0, 9)$"
+      },
+      {
+        "label": "D",
+        "text": "$(-2.4, 0)$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_2",
+    "images": [
+      {
+        "src": "/images/SAT-Style%20Questions/8a096929-9162-4ef5-b1c5-1da19c60ea8c_2_q_01_FIX.png",
+        "alt": "",
+        "local": "images/SAT-Style Questions/8a096929-9162-4ef5-b1c5-1da19c60ea8c_2_q_01_FIX.png"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Easy",
+    "question_number": 3,
+    "test_name": "Module Source 100 Math M2",
+    "passage": "An object moves at a speed of $\\frac{3}{50}$ feet per second. What is this speed, in <u> yards </u> per second? (3 feet = 1 yard)",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "50"
+      },
+      {
+        "label": "B",
+        "text": "6"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{9}{50}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{1}{50}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_3"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
+    "question_number": 4,
+    "test_name": "Module Source 100 Math M2",
+    "passage": "Which expression is equivalent to $158t^{3} - 24t^{2}u$?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$2t^{2}(79t^{2}-12u)$"
+      },
+      {
+        "label": "B",
+        "text": "$2t^{2}(79t-12u)$"
+      },
+      {
+        "label": "C",
+        "text": "$2tu(79t^{2}-12)$"
+      },
+      {
+        "label": "D",
+        "text": "$2t^{2}u(79t-12)$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_4"
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "Medium",
+    "question_number": 5,
+    "test_name": "Module Source 100 Math M2",
+    "passage": "Circle $K$ has a radius of 2 millimeters (mm). Circle $L$ has an area of $144\\pi$ mm$^2$. What is the total area, in mm$^2$, of circles $K$ and $L$?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$14\\pi$"
+      },
+      {
+        "label": "B",
+        "text": "$28\\pi$"
+      },
+      {
+        "label": "C",
+        "text": "$56\\pi$"
+      },
+      {
+        "label": "D",
+        "text": "$148\\pi$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_5"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
+    "question_number": 6,
+    "test_name": "Module Source 100 Math M2",
+    "passage": "Which expression is equivalent to $2(x-\\frac{3}{2})(x+14)$?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$x^2+25x-21$"
+      },
+      {
+        "label": "B",
+        "text": "$2x^2+11x-21$"
+      },
+      {
+        "label": "C",
+        "text": "$2x^2+25x-42$"
+      },
+      {
+        "label": "D",
+        "text": "$2x^2-42$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_6"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
+    "difficulty": "Easy",
+    "question_number": 7,
+    "test_name": "Module Source 100 Math M2",
+    "passage": "The function $f$ is defined by $f(x) = (-7)(4)^x + 31$. What is the $y$-intercept of the graph of $y = f(x)$ in the $xy$-plane?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$(0, 24)$"
+      },
+      {
+        "label": "B",
+        "text": "$(0, 4)$"
+      },
+      {
+        "label": "C",
+        "text": "$(0, 31)$"
+      },
+      {
+        "label": "D",
+        "text": "$(0, -7)$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_7"
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "Medium",
+    "question_number": 8,
+    "test_name": "Module Source 100 Math M2",
+    "passage": "In right triangle RST, the sum of the measures of angle R and angle S is 90 degrees. The value of sin(R) is $\\frac{2\\sqrt{10}}{7}$. What is the value of cos(S)?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$\\frac{3\\sqrt{10}}{20}$"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{2\\sqrt{10}}{7}$"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{7\\sqrt{10}}{20}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{2\\sqrt{10}}{3}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_8"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Hard",
+    "question_number": 9,
+    "test_name": "Module Source 100 Math M2",
+    "passage": "$y < 42 - 7x$ and $\\frac{y}{7} > 10$. Which inequality represents the $x$ values for all solutions $(x, y)$ that satisfy the given system of inequalities in the $xy$-plane?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$x > 6$"
+      },
+      {
+        "label": "B",
+        "text": "$x < 6$"
+      },
+      {
+        "label": "C",
+        "text": "$x > -4$"
+      },
+      {
+        "label": "D",
+        "text": "$x < -4$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_9"
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "Medium",
+    "question_number": 10,
+    "test_name": "Module Source 100 Math M2",
+    "passage": "In the xy-plane, an equation of circle A is $(x - 2)^2 + (y - 3)^2 = 9$. Circle B has the same center as circle A but has a radius that is twice the radius of circle A. Which equation represents circle B?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$(x-2)^{2}+(y-3)^{2}=18$"
+      },
+      {
+        "label": "B",
+        "text": "$(x-2)^{2}+(y-3)^{2}=36$"
+      },
+      {
+        "label": "C",
+        "text": "$(x-2)^{2}+(y-3)^{2}=54$"
+      },
+      {
+        "label": "D",
+        "text": "$(x-2)^{2}+(y-3)^{2}=81$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "B",
+    "rationale": null,
+    "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_10"
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "Hard",
+    "question_number": 11,
+    "test_name": "Module Source 100 Math M2",
+    "passage": "A property owner wants to find the length $x$, in feet, across a pond as represented in the figure, $\\overline{PR}$ intersects $\\overline{ST}$ at point $Q$, and $\\angle PTQ$ is congruent to $\\angle RSQ$. The lengths represented by $PQ$, $TQ$, $QS$, and $RS$ were determined to be 4,200 feet, 8,400 feet, 1,400 feet, and 1,600 feet, respectively. What is the value of $x$?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "9600",
+    "rationale": null,
+    "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_11",
+    "images": [
+      {
+        "src": "/images/SAT-Style%20Questions/8a096929-9162-4ef5-b1c5-1da19c60ea8c_11_q_01_FIX.png",
+        "alt": "",
+        "local": "images/SAT-Style Questions/8a096929-9162-4ef5-b1c5-1da19c60ea8c_11_q_01_FIX.png"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
+    "question_number": 12,
+    "test_name": "Module Source 100 Math M2",
+    "passage": "$PC = N(44 - C)$\nThe given equation relates the variables $P$, $N$, and $C$. Which expression represents the value of $C$ for distinct positive values of $P$ and $N$?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$\\frac{C(N+P)}{N}$"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{PC}{44-C}$"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{44N}{N+P}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{44N}{P+1}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_12"
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and volume",
+    "difficulty": "Hard",
+    "question_number": 13,
+    "test_name": "Module Source 100 Math M2",
+    "passage": "In the figure shown, the measure of angle $X$ is $52^\\circ$, The length of $\\overline{XY}$ is 24 units and the length of $\\overline{XZ}$ is 17 units. What is the area, in square units, of triangle $XYZ$?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "204"
+      },
+      {
+        "label": "B",
+        "text": "408"
+      },
+      {
+        "label": "C",
+        "text": "$\\sin 52^\\circ$"
+      },
+      {
+        "label": "D",
+        "text": "$\\cos 52^\\circ$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_13",
+    "images": [
+      {
+        "src": "/images/SAT-Style%20Questions/8a096929-9162-4ef5-b1c5-1da19c60ea8c_13_q_01_FIX.png",
+        "alt": "",
+        "local": "images/SAT-Style Questions/8a096929-9162-4ef5-b1c5-1da19c60ea8c_13_q_01_FIX.png"
+      }
+    ]
+  },
+  {
+    "section": "Math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and volume",
+    "difficulty": "Medium",
+    "question_number": 14,
+    "test_name": "Module Source 100 Math M2",
+    "passage": "A partially filled container containing 24 milliliters of water is placed under a leaky faucet that produces one 0.03-milliliter drop of water every 3 seconds. Until the container is full, which of the following can be used to represent the volume $v$, in milliliters, of water in the container $t$ seconds after it is placed under the faucet, where $t$ is a multiple of 3?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$v = 0.01 t + 24$"
+      },
+      {
+        "label": "B",
+        "text": "$v = 0.03 t + 24$"
+      },
+      {
+        "label": "C",
+        "text": "$v = 0.09 t + 24$"
+      },
+      {
+        "label": "D",
+        "text": "$v = 3 t$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_14"
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Inference from sample statistics and margin of error",
+    "difficulty": "Medium",
+    "question_number": 15,
+    "test_name": "Module Source 100 Math M2",
+    "passage": "A research manager selected 2 random samples of ovens of a certain type to estimate the average amount of time this type of oven takes to preheat to 325 degrees Fahrenheit (°F). The research manager recorded the amount of time, in minutes, each oven takes to preheat to 325 °F. Based on the first sample, the research manager estimated that this type of oven takes an average of 15.2 minutes to preheat to 325 °F, with an associated margin of error of 1 minute. Based on the second sample, the research manager estimated that this type of oven takes an average of 15.4 minutes to preheat to 325 °F, with an associated margin of error of 2.2 minutes. Assuming the margins of error were calculated the same way, which of the following best explains why the first sample obtained a smaller margin of error than the second sample?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "The first sample contained more ovens than the second sample."
+      },
+      {
+        "label": "B",
+        "text": "The first sample contained fewer ovens than the second sample."
+      },
+      {
+        "label": "C",
+        "text": "The first sample took more time on average to preheat to 325 °F than the second sample."
+      },
+      {
+        "label": "D",
+        "text": "The first sample took less time on average to preheat to 325 °F than the second sample."
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "A",
+    "rationale": null,
+    "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_15"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Hard",
+    "question_number": 16,
+    "test_name": "Module Source 100 Math M2",
+    "passage": "$-\\frac{3}{19}rx+\\frac{s}{8}=10-\\frac{5}{57}x$\nIn the given equation, $r$ and $s$ are constants. The equation has no solution. What is the value of $r$?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "5/9",
+    "rationale": null,
+    "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_16"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Medium",
+    "question_number": 17,
+    "test_name": "Module Source 100 Math M2",
+    "passage": "$-8x(x+9)=40$\nOne solution to the given equation can be written as $x = -\\frac{s+\\sqrt{t}}{2}$, where $s$ and $t$ are positive integers. What is the value of $\\frac{s}{t}$?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$\\frac{9}{101}$"
+      },
+      {
+        "label": "B",
+        "text": "$\\frac{9}{76}$"
+      },
+      {
+        "label": "C",
+        "text": "$\\frac{9}{61}$"
+      },
+      {
+        "label": "D",
+        "text": "$\\frac{18}{61}$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_17"
+  },
+  {
+    "section": "Math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "Hard",
+    "question_number": 18,
+    "test_name": "Module Source 100 Math M2",
+    "passage": "The equation $N(m) = 65(Q)^{\\frac{m}{4}}$ gives the predicted population $N(m)$, in thousands, of a certain bacteria colony $m$ minutes after the initial measurement, where $Q$ is a constant greater than 1. The predicted population increases by $p$% every 120 seconds. What is the value of $p$ in terms of $Q$?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$100(Q^{\\frac{3}{2}}+1)$"
+      },
+      {
+        "label": "B",
+        "text": "$100(Q^{30}+1)$"
+      },
+      {
+        "label": "C",
+        "text": "$100(Q^{\\frac{1}{2}}-1)$"
+      },
+      {
+        "label": "D",
+        "text": "$100(Q^{30}-1)$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": null,
+    "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_18"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
+    "difficulty": "Medium",
+    "question_number": 19,
+    "test_name": "Module Source 100 Math M2",
+    "passage": "A quadratic function models the height, in feet, of an object above the ground in terms of the time, in seconds, after the object was launched. According to the model, the object was launched from a height of 0 feet and reached its maximum height of $1{,}600$ feet $10$ seconds after it was launched. Based on the model, what was the height, in feet, of the object $7$ seconds after it was launched?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "1456",
+    "rationale": null,
+    "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_19"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
+    "question_number": 20,
+    "test_name": "Module Source 100 Math M2",
+    "passage": "The function $p$ is defined by $p(x) = a((x + 5)^2 - b)((x + 5)^2 - c)$, where $a$, $b$, and $c$ are constants. In the $xy$-plane, the graph of $y = p(x)$ passes through the points $(-6, 30)$ and $(0, 342)$. What is the value of $p(-10) + p(-4)$?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "372",
+    "rationale": null,
+    "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_20"
+  },
+  {
+    "section": "Math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Hard",
+    "question_number": 21,
+    "test_name": "Module Source 100 Math M2",
+    "passage": "$13(x - n) = 13y + 13n$\nOne of the equations in a system of two linear equations is given, where $n$ is a positive constant. The system has no solution. Which equation could be the second equation in this system?",
+    "question_text": null,
+    "choices": [
+      {
+        "label": "A",
+        "text": "$2x - 2y = 4n$"
+      },
+      {
+        "label": "B",
+        "text": "$2x + 2y = 2n$"
+      },
+      {
+        "label": "C",
+        "text": "$2x + 2y = 4n$"
+      },
+      {
+        "label": "D",
+        "text": "$2x - 2y = 2n$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "D",
+    "rationale": null,
+    "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_21"
+  },
+  {
+    "section": "Math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Hard",
+    "question_number": 22,
+    "test_name": "Module Source 100 Math M2",
+    "passage": "$(x-k)^{2}=(k-4a)(x-k)$\nIn the given equation, $a$ and $k$ are constants, where $k > 4a$. The sum of the solutions to the equation is $3k + 35$. What is the value of $a$?",
+    "question_text": null,
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "-35/4,-8.75",
+    "rationale": null,
+    "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_22"
+  }
+]

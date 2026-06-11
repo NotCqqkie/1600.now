@@ -19,7 +19,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "23a951fb-833f-4b27-9978-4eb054f855e2_3",
       "difficulty": "Easy",
-      "testName": "June 2024 US Form C SAT Math Module 1",
+      "testName": "Past SAT-based",
       "text": "If $8x = 9$, what is the value of $56x$?",
       "choices": [
         {
@@ -44,7 +44,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "39729166-8e92-42cc-8ed6-76acdb673a3c_18",
       "difficulty": "Easy",
-      "testName": "September 2025 International Form A SAT Math Module 2",
+      "testName": "Past SAT-based",
       "text": "If $x-2=3$, what is the value of $3(x-2)$?",
       "choices": [
         {
@@ -69,7 +69,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "e4f2c33b-9282-40a7-810c-d633e5197f95_1",
       "difficulty": "Easy",
-      "testName": "May 2025 International Form A SAT Math Module 2",
+      "testName": "Past SAT-based",
       "text": "If $9+x=6$, what is the value of $-18-2x$?",
       "choices": [
         {
@@ -96,7 +96,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "4e1b3643-30b1-41c4-9027-1f149baf52c7_8",
       "difficulty": "Easy",
-      "testName": "December 2024 International Form B SAT Math Module 1",
+      "testName": "Past SAT-based",
       "text": "$h(x) = 9|x|$. What is the value of $h(-8)$?",
       "choices": [
         {
@@ -121,7 +121,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "a240b08f-646d-4227-8b1f-fadf4c312b08_6",
       "difficulty": "Easy",
-      "testName": "June 2025 US Form A SAT Math Module 2",
+      "testName": "Past SAT-based",
       "text": "Which equation defines the linear function f?",
       "choices": [
         {
@@ -146,7 +146,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "11ee667b-8898-4917-b74e-33237205e2ef_4",
       "difficulty": "Easy",
-      "testName": "March 2025 International Form E SAT Math Module 1",
+      "testName": "Past SAT-based",
       "text": "$f(x) = 8(2x + 2)$. For what value of $x$ does $f(x) = 80$?",
       "choices": [
         {
@@ -173,7 +173,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "70b33953-aa61-407d-a25a-a438792bed03_3",
       "difficulty": "Easy",
-      "testName": "October 2025 International Form B SAT Math Module 1",
+      "testName": "Past SAT-based",
       "text": "If $\\frac{x}{y} = 52$ and $\\frac{cx}{4y} = 52$, what is the value of $c$?",
       "choices": [
         {
@@ -198,7 +198,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "1b1871b9-081a-47fd-9218-97b0bbc4a454_19",
       "difficulty": "Easy",
-      "testName": "October 2025 US Form A SAT Math Module 2",
+      "testName": "Past SAT-based",
       "text": "In the $xy$-plane, what is the slope of the line that passes through the points $(0, 0)$ and $(13, 14)$?",
       "choices": [
         {
@@ -223,7 +223,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_1",
       "difficulty": "Easy",
-      "testName": "August 2024 US Form B SAT Math Module 1",
+      "testName": "Past SAT-based",
       "text": "Line $r$ in the $xy$-plane has a slope of 2 and passes through the point (0, 12). Which equation defines line $r$?",
       "choices": [
         {
@@ -250,7 +250,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_15",
       "difficulty": "Easy",
-      "testName": "September 2025 US Form A SAT Math Module 1",
+      "testName": "Past SAT-based",
       "text": "$3x+y=21$\n$9x-y=3$\nHow many solutions does the given system of equations have?",
       "choices": [
         {
@@ -275,7 +275,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_7",
       "difficulty": "Easy",
-      "testName": "May 2024 International Form D SAT Math Module 1",
+      "testName": "Past SAT-based",
       "text": "Given the system of equations:\n$x = 5$\n$-2x + y = -5$\nWhat is the value of $x + y$?",
       "choices": [
         {
@@ -300,7 +300,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_6",
       "difficulty": "Easy",
-      "testName": "October 2024 International Form A SAT Math Module 2",
+      "testName": "Past SAT-based",
       "text": "$y=6x+16$\n$-7x-y=36$\nWhat is the solution $(x, y)$ to the given system of equations?",
       "choices": [
         {
@@ -327,7 +327,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_16",
       "difficulty": "Easy",
-      "testName": "June 2025 International Form A SAT Math Module 2",
+      "testName": "Past SAT-based",
       "text": "$y = 95(x - 2) + 228$\nWhich equation is equivalent to the given equation?",
       "choices": [
         {
@@ -352,7 +352,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "10c690aa-0aad-48ab-952b-855b2555b311_5",
       "difficulty": "Easy",
-      "testName": "June 2024 US Form C SAT Math Module 2",
+      "testName": "Past SAT-based",
       "text": "A dog has a mass of 36 kilograms. What is the dog's mass, in <u>grams</u>? (1 kilogram = 1,000 grams)",
       "choices": [
         {
@@ -377,7 +377,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "00907d99-e579-47a8-ac65-658aadef4aa7_7",
       "difficulty": "Easy",
-      "testName": "March 2025 US Form B SAT Math Module 1",
+      "testName": "Past SAT-based",
       "text": "$0.67x - 2 \\le 12$ represents the number of oranges, $x$, that the shopper can purchase for no more than \\$12.",
       "choices": [
         {
@@ -404,7 +404,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "cd2abd24-f96a-43e7-860f-be962ea69e08_20",
       "difficulty": "Easy",
-      "testName": "May 2024 US Form B SAT Math Module 2",
+      "testName": "Past SAT-based",
       "text": "$x^2 - 97 = -97 + x^2$\nHow many solutions does the given equation have?",
       "choices": [
         {
@@ -429,7 +429,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "2f91d920-5520-4266-8a2d-a29c925c95c0_5",
       "difficulty": "Easy",
-      "testName": "May 2024 International Form A SAT Math Module 2",
+      "testName": "Past SAT-based",
       "text": "$x^2 = 2,601$\nHow many distinct real solutions does the given equation have?",
       "choices": [
         {
@@ -454,7 +454,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "d2870056-c182-4523-a3f3-884eafe68114_20",
       "difficulty": "Easy",
-      "testName": "May 2024 International Form E SAT Math Module 2",
+      "testName": "Past SAT-based",
       "text": "$x^2 - 49 = 0$\nHow many distinct real solutions does the given equation have?",
       "choices": [
         {
@@ -481,7 +481,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "27590f35-8d6e-45c6-b665-222acb5e516d_8",
       "difficulty": "Easy",
-      "testName": "May 2024 International Form A SAT Math Module 1",
+      "testName": "Past SAT-based",
       "text": "What is the median value of the data set?",
       "choices": [
         {
@@ -506,7 +506,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "6197d48e-7c76-4333-af39-0b9aa39e924c_21",
       "difficulty": "Easy",
-      "testName": "June 2025 International Form A SAT Math Module 1",
+      "testName": "Past SAT-based",
       "text": "$f(x)=(x-4)^{2}+6$\nWhat is the minimum value of the given function?",
       "choices": [
         {
@@ -531,7 +531,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "29b11893-ee0c-48ae-8103-403d9652ad14_15",
       "difficulty": "Easy",
-      "testName": "August 2024 US Form B SAT Math Module 2",
+      "testName": "Past SAT-based",
       "text": "$p(x)=2x^{2}+20x+15$\nWhat is the minimum value of the given function?",
       "choices": [
         {
@@ -558,7 +558,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_3",
       "difficulty": "Easy",
-      "testName": "October 2024 US Form C SAT Math Module 1",
+      "testName": "Past SAT-based",
       "text": "Which expression is equivalent to $63x^2$?",
       "choices": [
         {
@@ -583,7 +583,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "1b1871b9-081a-47fd-9218-97b0bbc4a454_7",
       "difficulty": "Easy",
-      "testName": "October 2025 US Form A SAT Math Module 2",
+      "testName": "Past SAT-based",
       "text": "If $5c = 15$, what is the value of $5c - 8$?",
       "choices": [
         {
@@ -608,7 +608,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_5",
       "difficulty": "Easy",
-      "testName": "November 2024 International Form A SAT Math Module 1",
+      "testName": "Past SAT-based",
       "text": "Which expression is equivalent to $6x(x+3)$?",
       "choices": [
         {
@@ -635,7 +635,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_3",
       "difficulty": "Easy",
-      "testName": "December 2024 International Form C SAT Math Module 2",
+      "testName": "Past SAT-based",
       "text": "An object moves at a speed of $\\frac{3}{50}$ feet per second. What is this speed, in <u> yards </u> per second? (3 feet = 1 yard)",
       "choices": [
         {
@@ -660,7 +660,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_1",
       "difficulty": "Easy",
-      "testName": "November 2024 International Form A SAT Math Module 2",
+      "testName": "Past SAT-based",
       "text": "The ratio of the base to the height of a triangle is $1$ to $8$. The base of the triangle is $104$ centimeters. What is the height, in centimeters, of the triangle?",
       "choices": [
         {
@@ -685,7 +685,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_4",
       "difficulty": "Easy",
-      "testName": "December 2024 International Form C SAT Math Module 1",
+      "testName": "Past SAT-based",
       "text": "A certain pigeon species can fly at an average speed of 16 meters per second when in continuous flight. At this rate, how many meters would this pigeon species fly in 4 seconds?",
       "choices": [
         {
@@ -712,7 +712,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_5",
       "difficulty": "Easy",
-      "testName": "May 2025 International Form B SAT Math Module 2",
+      "testName": "Past SAT-based",
       "text": "If 350% of n is 35, what is the value of n?",
       "choices": [
         {
@@ -737,7 +737,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "23a951fb-833f-4b27-9978-4eb054f855e2_6",
       "difficulty": "Easy",
-      "testName": "June 2024 US Form C SAT Math Module 1",
+      "testName": "Past SAT-based",
       "text": "5% of $w$ is 901.32. What is the value of $w$?",
       "choices": [
         {
@@ -762,7 +762,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_2",
       "difficulty": "Easy",
-      "testName": "June 2024 US Form B SAT Math Module 2",
+      "testName": "Past SAT-based",
       "text": "If $x$ is a positive integer, the expression $0.19x$ represents what percent of $x$?",
       "choices": [
         {
@@ -789,7 +789,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "301d8663-e49a-4c21-9635-ef2d02614b43_1",
       "difficulty": "Easy",
-      "testName": "May 2024 US Form A SAT Math Module 2",
+      "testName": "Past SAT-based",
       "text": "Which data value has a frequency of 38 in this data set?",
       "choices": [
         {
@@ -814,7 +814,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_9",
       "difficulty": "Easy",
-      "testName": "October 2024 US Form C SAT Math Module 1",
+      "testName": "Past SAT-based",
       "text": "Which of the following could be the median height of these objects?",
       "choices": [
         {
@@ -839,7 +839,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_1",
       "difficulty": "Easy",
-      "testName": "June 2024 US Form B SAT Math Module 2",
+      "testName": "Past SAT-based",
       "text": "A data set consists of 213 letters. The bar graph shows the number of times each letter appears in the data set. Which letter appears 80 times?",
       "choices": [
         {
@@ -866,7 +866,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "ad300285-6ff9-46a9-97ab-7356c9cd2965_11",
       "difficulty": "Medium",
-      "testName": "October 2024 International Form A SAT Math Module 1",
+      "testName": "Past SAT-based",
       "text": "Which of the following is closest to the slope of this line of best fit?",
       "choices": [
         {
@@ -893,7 +893,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_4",
       "difficulty": "Easy",
-      "testName": "December 2024 US Form A SAT Math Module 1",
+      "testName": "Past SAT-based",
       "text": "A sleep study consisted of 59 participants, of which 53 participants each had an average of more than 120 minutes of rapid eye movement (REM) sleep per night. If a participant from this sleep study is selected at random, what is the probability of selecting a participant that had an average of more than 120 minutes of REM sleep per night?",
       "choices": [
         {
@@ -918,7 +918,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_7",
       "difficulty": "Easy",
-      "testName": "March 2025 International Form A SAT Math Module 2",
+      "testName": "Past SAT-based",
       "text": "At a convention center, there are a total of 225 visitors. Each visitor is located in either room A, room B, or room C. If one of these visitors is selected at random, the probability of selecting a visitor who is located in room A is $0.72$, and the probability of selecting a visitor who is located in room B is $0.24$. How many visitors are located in room C?",
       "choices": [
         {
@@ -943,7 +943,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_9",
       "difficulty": "Easy",
-      "testName": "August 2024 US Form B SAT Math Module 1",
+      "testName": "Past SAT-based",
       "text": "A district school board in a certain state is proposing a change to the time school starts for all high schools in the district. A sample of 353 high school students was selected at random from all high school students in the district. The selected students were asked whether they approved of the proposed change, and 300 students responded that they did not approve. Which of the following is the largest population to which the results of the survey can be generalized?",
       "choices": [
         {
@@ -970,7 +970,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "10c690aa-0aad-48ab-952b-855b2555b311_12",
       "difficulty": "Medium",
-      "testName": "June 2024 US Form C SAT Math Module 2",
+      "testName": "Past SAT-based",
       "text": "A market researcher collected data on the price of a hot dog at 59 locations selected at random in a state. The mean price of a hot dog in the state was estimated to be \\$3.28, with an associated margin of error of \\$0.06. Which of the following is a plausible statement about the mean price of a hot dog for all locations that sell this product in the state?",
       "choices": [
         {
@@ -995,7 +995,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "9c1847da-e82b-4814-a0ec-0b4f99891322_8",
       "difficulty": "Medium",
-      "testName": "December 2024 US Form C SAT Math Module 1",
+      "testName": "Past SAT-based",
       "text": "A group of 80 employees selected at random from all the employees at a company were surveyed about the number of books they read last year. From the data collected, it was estimated that the mean number of books employees at the company read last year is 7, with an associated margin of error of 1.6. Which of the following is the most appropriate conclusion?",
       "choices": [
         {
@@ -1020,7 +1020,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "b5883220-eb88-4f6b-8d82-979efee65d2d_4",
       "difficulty": "Medium",
-      "testName": "November 2024 International Form C SAT Math Module 2",
+      "testName": "Past SAT-based",
       "text": "For a survey, a sample of 1,018 people was selected at random from all registered voters in a county. Based on the survey, it is estimated that 66% of all registered voters in the county are in favor of a new law, with an associated margin of error of 2.91%. Which of the following best describes the plausible values for the percent of all registered voters in the county who are in favor of the new law?",
       "choices": [
         {
@@ -1047,7 +1047,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_12",
       "difficulty": "Easy",
-      "testName": "September 2025 International Form A SAT Math Module 1",
+      "testName": "Past SAT-based",
       "text": "An arborist studying forestland in Illinois estimates that there are at least 50 and no more than 60 hickory trees per acre in a certain forest. Which of the following best represents the arborist's estimate of the number of hickory trees, $x$, that are in a 3-acre section of this forest?",
       "choices": [
         {
@@ -1072,7 +1072,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_10",
       "difficulty": "Medium",
-      "testName": "October 2024 US Form A SAT Math Module 2",
+      "testName": "Past SAT-based",
       "text": "$H = 2.403L + 23.31$\nA group of biology students conducted an experiment to study the relationship between a person’s femur length and the person's height. The given equation describes the relationship between the length $L$, in inches, of a student's femur and the student's estimated height $H$, in inches, for the students in the group. Which of the following is the best interpretation of 2.403 in this context?",
       "choices": [
         {
@@ -1097,7 +1097,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "e5001da0-8895-4b72-8d22-da29586dc907_14",
       "difficulty": "Hard",
-      "testName": "November 2024 US Form B SAT Math Module 2",
+      "testName": "Past SAT-based",
       "text": "For a study, a group of chipmunks will be selected from a habitat consisting of 220 chipmunks, and a group of prairie dogs will be selected from a habitat consisting of 190 prairie dogs. Some of the chipmunks and prairie dogs will be in a treatment group, and some of the chipmunks and prairie dogs will be in a control group. Which of the following is necessary for this study to attempt to establish a cause-and-effect relationship between two variables?",
       "choices": [
         {
@@ -1124,7 +1124,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "1b1871b9-081a-47fd-9218-97b0bbc4a454_14",
       "difficulty": "Easy",
-      "testName": "October 2025 US Form A SAT Math Module 2",
+      "testName": "Past SAT-based",
       "text": "A triangle has a base length of 48 centimeters and a height of 96 centimeters. What is the area, in square centimeters, of the triangle?",
       "choices": [
         {
@@ -1149,7 +1149,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_4",
       "difficulty": "Easy",
-      "testName": "June 2024 US Form A SAT Math Module 2",
+      "testName": "Past SAT-based",
       "text": "An object has a mass of 308 grams and a volume of 28 cubic centimeters. What is the density, in grams per cubic centimeter, of the object?",
       "choices": [
         {
@@ -1174,7 +1174,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_1",
       "difficulty": "Easy",
-      "testName": "September 2025 International Form A SAT Math Module 1",
+      "testName": "Past SAT-based",
       "text": "The number of muskrat in a 134-acre area is estimated to be 2,278. What is the estimated population density, in muskrat per acre, of this area?",
       "choices": [
         {
@@ -1201,7 +1201,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "23a951fb-833f-4b27-9978-4eb054f855e2_12",
       "difficulty": "Easy",
-      "testName": "June 2024 US Form C SAT Math Module 1",
+      "testName": "Past SAT-based",
       "text": "The measure of angle Z is 45°. What is the measure, in <u>radians</u>, of angle Z?",
       "choices": [
         {
@@ -1226,7 +1226,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "659cbbc1-2d38-4d45-8ecb-79f43367862e_21",
       "difficulty": "Easy",
-      "testName": "October 2025 International Form B SAT Math Module 2",
+      "testName": "Past SAT-based",
       "text": "The measure of angle $Z$ is $45^\\circ$. What is the measure, in <u>radians</u>, of angle $Z$?",
       "choices": [
         {
@@ -1251,7 +1251,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "39729166-8e92-42cc-8ed6-76acdb673a3c_1",
       "difficulty": "Easy",
-      "testName": "September 2025 International Form A SAT Math Module 2",
+      "testName": "Past SAT-based",
       "text": "In triangle EFG, the sum of the measures of angles E and F is 31°. What is the measure of angle G?",
       "choices": [
         {
@@ -1278,7 +1278,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "ba06b998-d854-4b29-830c-15d877280c75_15",
       "difficulty": "Easy",
-      "testName": "March 2025 International Form C SAT Math Module 1",
+      "testName": "Past SAT-based",
       "text": "The measure of angle B is $\\frac{3\\pi}{4}$ radians. What is the value of sin(B)?",
       "choices": [
         {
@@ -1303,7 +1303,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_17",
       "difficulty": "Easy",
-      "testName": "March 2025 International Form A SAT Math Module 1",
+      "testName": "Past SAT-based",
       "text": "The measure of angle $C$ is $\\frac{3\\pi}{4}$ radians. What is the value of $\\cos(C)$?",
       "choices": [
         {
@@ -1328,7 +1328,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_17",
       "difficulty": "Medium",
-      "testName": "August 2024 International Form A SAT Math Module 1",
+      "testName": "Past SAT-based",
       "text": "If $\\cos A = 0.55$, what is the value of $\\sin C$?",
       "choices": [
         {
@@ -1355,7 +1355,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "32388549-e820-4b4a-91a9-d9c32e611098_4",
       "difficulty": "Easy",
-      "testName": "December 2024 US Form B SAT Math Module 2",
+      "testName": "Past SAT-based",
       "text": "A circle has a radius of $19$ meters. What is the area, in square meters, of the circle?",
       "choices": [
         {
@@ -1380,7 +1380,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "00907d99-e579-47a8-ac65-658aadef4aa7_8",
       "difficulty": "Easy",
-      "testName": "March 2025 US Form B SAT Math Module 1",
+      "testName": "Past SAT-based",
       "text": "Circle T has a radius of 35 millimeters (mm). What is the area of circle T, in $\\text{mm}^2$?",
       "choices": [
         {
@@ -1405,7 +1405,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "6b1e987d-70b0-4072-9d03-3ebd56371518_13",
       "difficulty": "Easy",
-      "testName": "June 2024 US Form A SAT Math Module 1",
+      "testName": "Past SAT-based",
       "text": "A circle in the $xy$-plane has the equation $(x - 14)^2 + (y - k)^2 = 36$. Which of the following gives the center of the circle and its radius?",
       "choices": [
         {
@@ -1432,7 +1432,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "9ae9a989-b64a-43e1-92a8-37a91043b8ed_2",
       "difficulty": "Easy",
-      "testName": "October 2023 Form A SAT English Module 2",
+      "testName": "Past SAT-based",
       "text": "Which choice completes the text with most logical and precise word or phrase?\nJi‑li Jiang's book *Red Kite* and *Blue Kite* has earned a lot of praise. In fact, the book ______ the Asian/Pacific American Award for Literature.",
       "choices": [
         {
@@ -1457,7 +1457,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "a45480a1-becb-48bd-a285-d5366355b085_4",
       "difficulty": "Easy",
-      "testName": "September 2025 US Form B SAT English Module 1",
+      "testName": "Past SAT-based",
       "text": "Which choice completes the text with the most logical and precise word or phrase?\nChengdu, China, was named a City of Gastronomy by UNESCO in 2010, a title that ______ that Chengdu has a unique and vibrant food culture worthy of celebration.",
       "choices": [
         {
@@ -1482,7 +1482,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "28e9b4c5-9a72-4d33-891e-e8ad04b471bc_4",
       "difficulty": "Easy",
-      "testName": "October 2025 International Form B SAT English Module 1",
+      "testName": "Past SAT-based",
       "text": "Which choice completes the text with the most logical and precise word or phrase?\nÖstersund, Sweden, was named a City of Gastronomy by UNESCO in 2010, a title that ______ that Östersund has a unique and vibrant food culture worthy of celebration.",
       "choices": [
         {
@@ -1509,7 +1509,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "98abbb37-6191-475b-986c-2431f021f4a2_7",
       "difficulty": "Easy",
-      "testName": "March 2023 Form A SAT English Module 2",
+      "testName": "Past SAT-based",
       "text": "Which choice best states the main purpose of the text?\nWhen people think of dinosaurs with feathers, they typically think of winged dinosaurs, such as the bat-like *Ambopteryx*. However, many dinosaurs that didn't have wings also had feathers on their bodies. For instance, research indicates that the wingless, large *Yutyrannus* likely had feathers.",
       "choices": [
         {
@@ -1534,7 +1534,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "b5bd285b-0705-476c-ac24-58aa076fb71a_5",
       "difficulty": "Easy",
-      "testName": "March 2025 International Form B SAT English Module 1",
+      "testName": "Past SAT-based",
       "text": "Which choice best states the main purpose of the text?\nHaving trouble getting rid of weeds? One surprising solution may be to start eating them. Curly dock and broadleaf plantain are two edible plants that are usually considered weeds in North America. These and other plants like them are sometimes more flavorful than are some plants that people grow as food.",
       "choices": [
         {
@@ -1559,7 +1559,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "b6c7623b-7d8b-46cb-8108-4c4c677bdc88_6",
       "difficulty": "Easy",
-      "testName": "November 2024 US Form B SAT English Module 1",
+      "testName": "Past SAT-based",
       "text": "Which choice best describes the function of the underlined sentence in the text as a whole?\nWhen people think of dinosaurs with feathers, they typically think of winged dinosaurs, such as the four-winged *Microraptor*. However, many dinosaurs that didn't have wings also had feathers on their bodies. <u>For instance, research indicates that the wingless, speedy *Ornithomimus* likely had feathers.</u>",
       "choices": [
         {
@@ -1586,7 +1586,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "749328c4-3c9b-4615-9409-c9853a26da34_7",
       "difficulty": "Easy",
-      "testName": "October 2025 International Form A SAT English Module 1",
+      "testName": "Past SAT-based",
       "text": "The author of Text 1 and the author of Text 2 both discuss which topic?\nText 1\nScientists can learn a lot about the Hispaniolan ground sloth and other prehistoric sloths from their fossils. But it can be hard to study sloths alive today. In the wild, the Linnaeus's two-toed sloth and other sloths spend most of their time in trees. They're difficult to observe because of their excellent camouflage and slow movements.\nText 2\nRebecca Cliffe and other scientists can now record the previously hidden activities of tree-dwelling sloths by using a backpack monitor. Such monitors can provide information to correct misconceptions. It was long believed that sloths are slow because of laziness. But, in fact, sloths' slow movements are useful. Being slow protects them from predators with keen eyesight.",
       "choices": [
         {
@@ -1611,7 +1611,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_7",
       "difficulty": "Medium",
-      "testName": "August 2025 International Form A SAT English Module 2",
+      "testName": "Past SAT-based",
       "text": "Which choice best describes a notable difference in how the speaker of Text 1 and the speaker of Text 2 portray the moon?\nText 1 is T.L. Hulme's 1912 poem \"Above the Dock.\" Text 2 is from Amy Lowell's 1912 poem \"The Crescent Moon.\"\nText 1\nAbove the quiet dock in midnight,\nTangled in the tall mast's corded height,\nHangs the moon. What seemed so far away\nIs but a child's balloon, forgotten after play.\nText 2\nSlipping softly through the sky\nLittle horned, happy moon,\nCan you hear me up so high?\nWill you come down soon?",
       "choices": [
         {
@@ -1636,7 +1636,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "97534841-3541-4563-86b8-0a919d0bde5b_6",
       "difficulty": "Medium",
-      "testName": "June 2024 US Form C SAT English Module 2",
+      "testName": "Past SAT-based",
       "text": "The author of Text 1 and the author of Text 2 both discuss which topic? Text 1\nFrom the extinct giant ground sloth to the living pygmy three-toed sloth, sloths are among the most appealing animals native to the Americas. But scientists still have a lot to learn about them. Unlike their ancient ground-dwelling relations, today's sloths spend most of their time high up in trees. The sloths' inaccessibility has made it hard for scientists to study them. Text 2\nBy using a backpack monitor, biologist Rebecca Cliffe and colleagues can at last discover the previously hidden activities of sloths. Such monitors can provide information to correct misconceptions. It was long believed that sloths are slow because of laziness. But, in fact, sloths have low metabolism, which makes them slow.",
       "choices": [
         {
@@ -1663,7 +1663,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "b6c7623b-7d8b-46cb-8108-4c4c677bdc88_9",
       "difficulty": "Easy",
-      "testName": "November 2024 US Form B SAT English Module 1",
+      "testName": "Past SAT-based",
       "text": "Which choice best states the main idea of the text?\nDandelions are a kind of weed found in North America. Although dandelions are unwelcome in gardens and on farms, weeds like this do provide some benefits. For example, they can be helpful to pollinators.",
       "choices": [
         {
@@ -1688,7 +1688,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "d9f381e2-df35-4ee7-a137-e689faac81b5_8",
       "difficulty": "Easy",
-      "testName": "December 2023 Form C SAT English Module 2",
+      "testName": "Past SAT-based",
       "text": "According to the text, what did Ambopteryx and Yutyrannus have in common?\nWhen people think of dinosaurs with feathers, they typically think of winged dinosaurs, such as the bat-like *Ambopteryx*. However, many dinosaurs that didn't have wings also had feathers on their bodies. For instance, research indicates that the wingless, large *Yutyrannus* likely had feathers.",
       "choices": [
         {
@@ -1713,7 +1713,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "4dc81965-4d7d-41a3-a149-fdc37cafa647_9",
       "difficulty": "Easy",
-      "testName": "November 2025 International Form A SAT English Module 1",
+      "testName": "Past SAT-based",
       "text": "According to the text, what is someone who professionally evaluates books called?\n*Seesaw Girl* was Linda Sue Park's debut novel. It was published in 1999. A debut novel is the first book that an author has published. Debut novels are especially interesting to literary critics (people whose job it is to evaluate books) and readers because these books offer a look at new voices in the literary world.",
       "choices": [
         {
@@ -1740,7 +1740,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "406baf08-71da-41c0-bc3d-ddc2c25258ba_9",
       "difficulty": "Easy",
-      "testName": "March 2025 International Form A SAT English Module 1",
+      "testName": "Past SAT-based",
       "text": "Which quotation from *The Wonderful Wizard of Oz* most effectively illustrates the claim?\n*The Wonderful Wizard of Oz* is a 1900 novel by L. Frank Baum. In the novel, the narrator describes a character's house as having become very faded in appearance over time: ______",
       "choices": [
         {
@@ -1765,7 +1765,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "91ff0c6a-268b-4d8b-9642-b9fb25a907b4_12",
       "difficulty": "Easy",
-      "testName": "August 2024 International Form B SAT English Module 2",
+      "testName": "Past SAT-based",
       "text": "Which quotation from *Treasure Island* most effectively illustrates the claim?\n*Treasure Island* is an 1883 novel by Robert Louis Stevenson. When the narrator was a child, his father ran a hotel. A mysterious sailor came to stay at the hotel. The narrator was frightened of the sailor, as can be seen when the narrator says, ______",
       "choices": [
         {
@@ -1790,7 +1790,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "97534841-3541-4563-86b8-0a919d0bde5b_10",
       "difficulty": "Easy",
-      "testName": "June 2024 US Form C SAT English Module 2",
+      "testName": "Past SAT-based",
       "text": "Which quotation from *Memoirs of Elleanor Eldridge* most effectively illustrates the claim?\n*Memoirs of Elleanor Eldridge* is an 1838 historical account by Elleanor Eldridge and Frances Harriet Whipple Green. In the book, the authors assert that all people naturally have an emotional attachment to where they live, writing, ______",
       "choices": [
         {
@@ -1817,7 +1817,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "c39b24c5-b805-4b9b-a609-e68df8471f04_13",
       "difficulty": "Easy",
-      "testName": "December 2024 International Form B SAT English Module 1",
+      "testName": "Past SAT-based",
       "text": "Which choice most logically completes the text?\nA group of primate conservationists recently began a long-term study of the effects of different conservation strategies on the white-headed langur (*Trachypithecus poliocephalus*). The species population is currently estimated to be around 1,000. It is challenging to accurately count these primates, however, which makes it difficult to tell whether the population is increasing, decreasing, or staying stable. The study may thus ______",
       "choices": [
         {
@@ -1842,7 +1842,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_14",
       "difficulty": "Easy",
-      "testName": "August 2024 International Form D SAT English Module 1",
+      "testName": "Past SAT-based",
       "text": "Which choice most logically completes the text?\nScientists recently created a model to predict how increasing human activity will affect future mammal population sizes in Us national forests. Unfortunately, when the model is applied to large forests, its predictions for large-mammal populations are too high, and when applied to small forests, its predictions for small-mammal populations are too high. Beaverhead-Deerlodge National Forest in Montana is a large forest, covering more than 3 million acres. If used to evaluate the effect of increasing human activity on this forest in ten years, the model would likely therefore ______",
       "choices": [
         {
@@ -1867,7 +1867,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "839d1132-416e-4cc6-be17-13454f14da43_13",
       "difficulty": "Medium",
-      "testName": "March 2024 International Form A SAT English Module 2",
+      "testName": "Past SAT-based",
       "text": "Which choice most logically completes the text?\nMarine archaeologists have found much of the wooden hull of a sixteenth-century ship in a flooded quarry in southeast England. When it is exposed to air and water, wood rots quickly unless it is protected by sediment that shields it from oxygen. Therefore, the discovered ship was likely ______",
       "choices": [
         {
@@ -1894,7 +1894,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_26",
       "difficulty": "Easy",
-      "testName": "March 2023 Form A SAT English Module 1",
+      "testName": "Past SAT-based",
       "text": "Which choice completes the text with the most logical transition?\nThe Cheruku rasamu mango variety is from the South Asian country of India. ______ in 2018, 18.8 million metric tons of mangoes were produced.",
       "choices": [
         {
@@ -1919,7 +1919,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_21",
       "difficulty": "Easy",
-      "testName": "June 2024 US Form C SAT English Module 1",
+      "testName": "Past SAT-based",
       "text": "Which choice completes the text with the most logical transition?\nIn Spain, citizens must be at least 18 years old to vote in their country's elections. ______ citizens in Brazil need only be 16 years old to cast their vote.",
       "choices": [
         {
@@ -1944,7 +1944,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_21",
       "difficulty": "Easy",
-      "testName": "May 2024 US Form B SAT English Module 1",
+      "testName": "Past SAT-based",
       "text": "Which choice completes the text with the most logical transition?\nIn Ethiopia, citizens must be at least 18 years old to vote in their country's elections. ______ citizens in Cuba need only be 16 years old to cast their vote.",
       "choices": [
         {
@@ -1971,7 +1971,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "302c1069-d3cf-4e1c-b0bd-57e018252a85_27",
       "difficulty": "Easy",
-      "testName": "August 2025 International Form B SAT English Module 1",
+      "testName": "Past SAT-based",
       "text": "The student wants to provide an example of a position in ballroom dance. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Body positions are an important part of dance.\n• In ballroom dance, there is a position called closed facing position.\n• It is one of several positions for partner dancing.",
       "choices": [
         {
@@ -1996,7 +1996,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "e26dd9f3-3dbe-49b6-afbf-43a483d231ba_25",
       "difficulty": "Easy",
-      "testName": "December 2024 US Form B SAT English Module 1",
+      "testName": "Past SAT-based",
       "text": "The student wants to identify the title of Zora Neale Hurston's first published short story. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Zora Neale Hurston was an acclaimed writer.\n• Her first published work of fiction was a short story.\n• It was called \"John Redding Goes to Sea.\"\n• It first appeared in *Stylus* in 1921.",
       "choices": [
         {
@@ -2021,7 +2021,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "28e9b4c5-9a72-4d33-891e-e8ad04b471bc_24",
       "difficulty": "Easy",
-      "testName": "October 2025 International Form B SAT English Module 1",
+      "testName": "Past SAT-based",
       "text": "The student wants to specify the average weight of the large tree finch. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• The large tree finch is a species of bird.\n• It has an average weight of 19 grams.\n• It can be found on the Galápagos Island of Santa Fe.\n• The Galápagos Islands are a group of islands that have many different species of birds.",
       "choices": [
         {
@@ -2048,7 +2048,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "d9f381e2-df35-4ee7-a137-e689faac81b5_19",
       "difficulty": "Easy",
-      "testName": "December 2023 Form C SAT English Module 2",
+      "testName": "Past SAT-based",
       "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nAfter eleven days and five hours, space shuttle flight STS-68 landed ______ Edwards Air Force Base.",
       "choices": [
         {
@@ -2073,7 +2073,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_17",
       "difficulty": "Easy",
-      "testName": "March 2025 US Form B SAT English Module 1",
+      "testName": "Past SAT-based",
       "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn 1847, the novel *Agnes Grey* was published under the pen name Acton Bell. Now, we know that ______",
       "choices": [
         {
@@ -2098,7 +2098,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_20",
       "difficulty": "Easy",
-      "testName": "March 2025 US Form B SAT English Module 1",
+      "testName": "Past SAT-based",
       "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nA pet cat poses next to its owners in *Kiesler and Wife*, an oil painting by American ______ Will Barnet.",
       "choices": [
         {
@@ -2125,7 +2125,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "92bd954b-0e12-4b86-bc5f-d64490221af2_18",
       "difficulty": "Easy",
-      "testName": "May 2023 Form A SAT English Module 1",
+      "testName": "Past SAT-based",
       "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Amur River, which is 2,714 miles long, ______ into the Sea of Okhotsk.",
       "choices": [
         {
@@ -2150,7 +2150,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "d9f381e2-df35-4ee7-a137-e689faac81b5_16",
       "difficulty": "Easy",
-      "testName": "December 2023 Form C SAT English Module 2",
+      "testName": "Past SAT-based",
       "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Kolyma River, which is 1,317 miles long, ______ into the East Siberian Sea.",
       "choices": [
         {
@@ -2175,7 +2175,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     {
       "id": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_17",
       "difficulty": "Easy",
-      "testName": "June 2024 International Form A SAT English Module 1",
+      "testName": "Past SAT-based",
       "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWisconsin, ______ 1,372 feet in elevation, reaches its highest point at Timms Hill.",
       "choices": [
         {

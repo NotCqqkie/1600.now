@@ -31,7 +31,7 @@ const routeMetadata: RouteMetadata[] = [
     pattern: "/modules",
     title: "SAT Practice Tests | Full Digital SAT Practice Tests",
     description:
-      "Browse full SAT practice tests by year, form, subject, and module number for realistic digital SAT prep.",
+      "Browse full SAT practice tests organized by subject and module for realistic digital SAT prep.",
   },
   {
     pattern: "/modules/:moduleId",
@@ -135,6 +135,12 @@ const routeMetadata: RouteMetadata[] = [
     noindex: true,
   },
   {
+    pattern: "/hard",
+    title: "100 Hard SAT Math Questions",
+    description:
+      "Work through 100 hard Digital SAT Math questions with detailed step-by-step explanations.",
+  },
+  {
     pattern: "/hard/:id",
     title: "Hard SAT Math Question | 1600.now",
     description: "An individual hard SAT Math practice question.",
@@ -210,6 +216,18 @@ const routeMetadata: RouteMetadata[] = [
       "Digital SAT prep article from the 1600.now blog.",
   },
   {
+    pattern: "/sat-faq",
+    title: "SAT FAQ | Digital SAT Questions Answered",
+    description:
+      "Clear answers to common Digital SAT questions about timing, scoring, calculators, test dates, and prep.",
+  },
+  {
+    pattern: "/sat-faq/:slug",
+    title: "SAT FAQ Answer | 1600.now",
+    description:
+      "A focused answer to a common Digital SAT question from 1600.now.",
+  },
+  {
     pattern: "/privacy",
     title: "Privacy Policy | 1600.now",
     description:
@@ -220,6 +238,78 @@ const routeMetadata: RouteMetadata[] = [
     title: "Terms of Service | 1600.now",
     description:
       "Terms of Service for using 1600.now SAT prep tools, practice modules, score calculator, and question bank.",
+  },
+  {
+    pattern: "/sat-to-act-converter",
+    title: "SAT to ACT Converter",
+    description:
+      "Convert SAT scores to ACT composite scores using current concordance tables.",
+  },
+  {
+    pattern: "/sat-percentile-calculator",
+    title: "SAT Percentile Calculator",
+    description:
+      "Find the percentile rank for a Digital SAT score and compare it with national test-taker results.",
+  },
+  {
+    pattern: "/psat-to-sat-predictor",
+    title: "PSAT to SAT Score Predictor",
+    description:
+      "Estimate an SAT score range from a PSAT score using the shared College Board score scale.",
+  },
+  {
+    pattern: "/sat-study-plan-generator",
+    title: "SAT Study Plan Generator",
+    description:
+      "Generate a week-by-week SAT study plan from your current score, target score, and test date.",
+  },
+  {
+    pattern: "/what-sat-score-do-i-need",
+    title: "What SAT Score Do I Need?",
+    description:
+      "Find SAT score targets for college admissions based on school score ranges.",
+  },
+  {
+    pattern: "/sat-test-countdown",
+    title: "SAT Test Countdown",
+    description:
+      "Count down to an upcoming Digital SAT test date and review upcoming SAT administrations.",
+  },
+  {
+    pattern: "/in",
+    title: "Digital SAT Prep for Indian Students",
+    description:
+      "Digital SAT prep guide for students in India, including test centers, score targets, and study planning.",
+  },
+  {
+    pattern: "/ae",
+    title: "Digital SAT Prep for UAE Students",
+    description:
+      "Digital SAT prep guide for students in the UAE, including test centers, score targets, and study planning.",
+  },
+  {
+    pattern: "/in/:topic",
+    title: "India Digital SAT Guide | 1600.now",
+    description:
+      "A focused Digital SAT guide for students in India.",
+  },
+  {
+    pattern: "/ae/:topic",
+    title: "UAE Digital SAT Guide | 1600.now",
+    description:
+      "A focused Digital SAT guide for students in the UAE.",
+  },
+  {
+    pattern: "/college",
+    title: "US College Directory | SAT Scores and Admissions",
+    description:
+      "Browse US colleges by SAT score ranges, acceptance rates, admissions data, costs, and outcomes.",
+  },
+  {
+    pattern: "/college/:slug",
+    title: "College SAT Scores and Admissions | 1600.now",
+    description:
+      "Review SAT score ranges, acceptance rate, admissions data, costs, and outcomes for a US college.",
   },
   {
     pattern: "/login",
@@ -263,12 +353,38 @@ const routeMetadata: RouteMetadata[] = [
       "1600.now admin reports.",
     noindex: true,
   },
+  {
+    pattern: "/:slug",
+    title: ({ slug }) => formatTopLevelSeoTitle(slug),
+    description: ({ slug }) => formatTopLevelSeoDescription(slug),
+  },
+  {
+    pattern: "*",
+    title: "Page Not Found | 1600.now",
+    description:
+      "The requested 1600.now page could not be found.",
+    noindex: true,
+  },
 ];
 
 function formatSubject(subject?: string) {
   if (subject === "math") return "Math";
   if (subject === "reading") return "Reading and Writing";
   return "SAT";
+}
+
+function formatTopLevelSeoTitle(slug?: string) {
+  const score = slug?.match(/^is-a-(\d{3,4})-a-good-sat-score$/)?.[1];
+  if (score) return `Is a ${score} a Good SAT Score?`;
+  return "Digital SAT Prep Guide";
+}
+
+function formatTopLevelSeoDescription(slug?: string) {
+  const score = slug?.match(/^is-a-(\d{3,4})-a-good-sat-score$/)?.[1];
+  if (score) {
+    return `See whether a ${score} SAT score is good, what percentile it represents, and which colleges it fits.`;
+  }
+  return "Digital SAT prep guide from 1600.now.";
 }
 
 function upsertMeta(selector: string, attributes: Record<string, string>) {

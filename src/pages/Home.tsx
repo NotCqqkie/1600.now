@@ -945,7 +945,7 @@ const FILTER_DEMO_CURSOR_MAX_DURATION_MS = 2400;
 const FILTER_DEMO_CURSOR_SPEED_PX_PER_MS = 0.127;
 const FILTER_DEMO_CURSOR_CLICK_PAUSE_MS = 32;
 const FILTER_DEMO_CURSOR_MENU_PAUSE_MS = 0;
-const FILTER_DEMO_CURSOR_NEXT_STEP_PAUSE_MS = 8;
+const FILTER_DEMO_CURSOR_NEXT_STEP_PAUSE_MS = 360;
 const FILTER_DEMO_CURSOR_IDLE_RETRY_MS = 180;
 const FILTER_DEMO_CURSOR_CLOSE_MENU_DURATION_MS = 220;
 const FILTER_DEMO_MENU_AUTO_CLOSE_CHECK_MS = 90;
@@ -1129,15 +1129,15 @@ DemoCursor.displayName = "DemoCursor";
 
 const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
   const containerRef = useRef<HTMLDivElement>(null);
-  const isNear = true;
+  const isNear = useIsNearViewport(containerRef, "900px 0px");
   const [demoLoaded, setDemoLoaded] = useState(false);
-  const demoShouldMount = true;
+  const demoShouldMount = isNear;
   const [demoScale, setDemoScale] = useState(FILTER_DEMO_MAX_SCALE);
   const [filters, setFilters] = useState<QuestionBankFilters>(defaultBankFilters);
   const [cursor, setCursor] = useState<DemoCursorState>({
     x: 28,
     y: 86,
-    visible: true,
+    visible: false,
     durationMs: 0,
   });
   const cursorRef = useRef(cursor);
